@@ -27,7 +27,7 @@ while IFS= read -r -d '' file; do
       continue ;;
   esac
   case "$lower" in
-    b[0-9][0-9][0-9]*|*/b[0-9][0-9][0-9]*|*survival_field_encyclopedia*|*north_woods_scope_amendment*|*original_preparedness_reference*|*home_resilience_field_manual*|*small_acreage_self_reliance*|*thirty_day_outage_operations*|*research\ and\ production\ blueprint\ for\ an\ original\ comprehensive\ survival\ manual*)
+    b[0-9][0-9][0-9]*|*/b[0-9][0-9][0-9]*|survival_guide/*|*/survival_guide/*|*survival_field_encyclopedia*|*north_woods_scope_amendment*|*original_preparedness_reference*|*home_resilience_field_manual*|*small_acreage_self_reliance*|*thirty_day_outage_operations*|*research\ and\ production\ blueprint\ for\ an\ original\ comprehensive\ survival\ manual*)
       files+=("$file") ;;
   esac
 done < <(find "$SOURCE" -type f -print0 | sort -z)
