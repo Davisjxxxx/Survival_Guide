@@ -26,11 +26,19 @@ while IFS= read -r -d '' file; do
     */.git/*|*/.ssh/*|*/.env|*/.env.*|*/id_rsa*|*/id_ed25519*|*.pem|*.p12|*.pfx|*.key|*.crdownload|*.part)
       continue ;;
   esac
+  # A project code must be B followed by exactly three digits and a separator.
+  # In particular, filenames like b4199cca.css are unrelated browser assets.
+  # Dedicated Survival_Guide folders may contain non-B-named supporting files.
   case "$lower" in
-    b[0-9][0-9][0-9]*|*/b[0-9][0-9][0-9]*|survival_guide/*|*/survival_guide/*|*survival_field_encyclopedia*|*north_woods_scope_amendment*|*original_preparedness_reference*|*home_resilience_field_manual*|*small_acreage_self_reliance*|*thirty_day_outage_operations*|*research\ and\ production\ blueprint\ for\ an\ original\ comprehensive\ survival\ manual*)
+    survival_guide/*|*/survival_guide/*|survival_field_encyclopedia/*|*/survival_field_encyclopedia/*)
+      files+=("$file"); continue ;;
+  esac
+  base="${lower##*/}"
+  case "$base" in
+    b[0-9][0-9][0-9]_*|b[0-9][0-9][0-9]-*|b[0-9][0-9][0-9]\\ *|b[0-9][0-9][0-9]–*|survival_field_encyclopedia_*|north_woods_scope_amendment*|original_preparedness_reference_*|*_home_resilience_field_manual*|*_small_acreage_self_reliance*|*_thirty_day_outage_operations*|research\\ and\\ production\\ blueprint\\ for\\ an\\ original\\ comprehensive\\ survival\\ manual*)
       files+=("$file") ;;
   esac
-done < <(find "$SOURCE" -type f -print0 | sort -z)
+one < <(find "$SOURCE" -type f -print0 | sort -z)
 
 printf 'Source: %s\nTarget: %s (%s)\nMatching files: %d\n' "$SOURCE" "$REPO_URL" "$BRANCH" "${#files[@]}"
 for file in "${files[@]}"; do
@@ -101,7 +109,9 @@ if (( added == 0 )); then
 fi
 
 git -C "$work/repo" add -- "$batch"
-git -C "$work/repo" diff --cached --check
+# Check our generated manifest only: original PDFs/ZIPs and other research files
+# may be binary or contain intentional trailing bytes. Their content is preserved.
+git -C "$work/repo" diff --cached --check -- "$batch/IMPORT_MANIFEST.tsv"
 git -C "$work/repo" commit --quiet -m "Archive $added downloaded survival guide artifacts (no overwrites)"
 git -C "$work/repo" push origin "HEAD:refs/heads/$BRANCH"
 local_sha="$(git -C "$work/repo" rev-parse HEAD)"
