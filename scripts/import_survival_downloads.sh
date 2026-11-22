@@ -38,7 +38,7 @@ while IFS= read -r -d '' file; do
     b[0-9][0-9][0-9]_*|b[0-9][0-9][0-9]-*|b[0-9][0-9][0-9]\ *|b[0-9][0-9][0-9]–*|survival_field_encyclopedia_*|north_woods_scope_amendment*|original_preparedness_reference_*|*_home_resilience_field_manual*|*_small_acreage_self_reliance*|*_thirty_day_outage_operations*|research\ and\ production\ blueprint\ for\ an\ original\ comprehensive\ survival\ manual*)
       files+=("$file") ;;
   esac
-one < <(find "$SOURCE" -type f -print0 | sort -z)
+done < <(find "$SOURCE" -type f -print0 | sort -z)
 
 printf 'Source: %s\nTarget: %s (%s)\nMatching files: %d\n' "$SOURCE" "$REPO_URL" "$BRANCH" "${#files[@]}"
 for file in "${files[@]}"; do
