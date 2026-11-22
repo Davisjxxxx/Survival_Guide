@@ -1,0 +1,9 @@
+source_id,agency,title,url,evidence_scope
+NPS-PLAN,US National Park Service,Outdoor Emergency Plan,https://www.nps.gov/articles/gtgemergencyplan.htm,"Lost-person decisions, calling 911, stay put, child protocol"
+NPS-WINTER,US National Park Service,Winter Hiking Tips,https://home.nps.gov/articles/000/winterhikingtips.htm,Winter map/compass and digital backup
+DNR-FOREST,Minnesota DNR,Safety in state forests,https://www.dnr.state.mn.us/state-forests/safety.html,"Minnesota backcountry preparation, trails, topo, cold risk"
+DNR-HIKE,Minnesota DNR,Hiking safety tips,https://www.dnr.state.mn.us/hiking/safety.html,"Group, route, signaling, basic equipment"
+NWS-MN,NOAA National Weather Service,Minnesota Winter Hazard Awareness Week,https://www.weather.gov/mpx/winterpns1,Whiteout / severe winter warning environment
+USGS-MAP,US Geological Survey,US Topo Map Symbol Guide,https://www.usgs.gov/ngp-standards-and-specifications/us-topo-map-symbol-guide,"Map symbols, water, roads, contours"
+NOAA-DECL,NOAA National Centers for Environmental Information,Magnetic Declination,https://www.ngdc.noaa.gov/geomag/declination.shtml,True vs magnetic bearings; change by place and date
+DNR-ICE,Minnesota DNR,Ice safety,https://www.dnr.state.mn.us/safety/ice/index.html,No assurance of ice strength or shortcut

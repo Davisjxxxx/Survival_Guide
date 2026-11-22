@@ -1,0 +1,12 @@
+claim_id,page,short_claim,source_ids,evidence_type,review_status
+B013-P15-01,P15,Fishing on lake ice requires an independent safety assessment; unknown ice = stay off.,DNR-02;DNR-06,Agency recommendation,draft_review
+B013-P15-02,P15,Angling license or exemption and lake-specific rules must be checked.,DNR-04;DNR-05,"Legal/regulatory, verify at time of use",draft_review
+B013-P15-03,P15,The 4-inch guideline is for new clear ice only and does not authorize crossing.,DNR-01;DNR-02,Numerical conditional minimum,draft_review
+B013-P16-01,P16,"Without safe access and proper tools, equipment-free through-ice fishing should not be attempted.",DNR-01;DNR-06,Editorial safety inference from guidance; needs specialist signoff,specialist_required
+B013-P16-02,P16,No improvised ice-hole construction method is recommended.,DNR-01;DNR-06,"Conservative editorial decision, not published DNR prohibition",specialist_required
+B013-P17-01,P17,Ice varies greatly within a single water body.,DNR-02;DNR-03,Agency supported,draft_review
+B013-P17-02,P17,White ice is roughly half as strong as clear new ice; appearance never proves strength.,DNR-02;DNR-03,Agency supported; contextual,draft_review
+B013-P17-03,P17,Shoreline and transitions can be weak despite central ice.,DNR-03,Agency supported,draft_review
+B013-P18-01,P18,Report ice immersion to emergency services; witnesses should avoid entering weak ice.,DNR-06;NWS-01,Emergency guidance; specialist review pending,specialist_required
+B013-P18-02,P18,"Self-rescue includes facing entry route, kicking horizontally and rolling or crawling away.",NWS-01,Emergency sequence; specialist review pending,specialist_required
+B013-P18-03,P18,Emergency rewarming and medical assessment require qualified clinician guidance.,DNR-06,Medical safety; qualified review required,specialist_required
