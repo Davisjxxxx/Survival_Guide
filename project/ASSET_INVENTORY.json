@@ -174,6 +174,24 @@
       "sha256": "777f1a6f6e7eb62884ed47145496cb1b5199e9e8df9c432b37a4b7cdc7e48d29"
     },
     {
+      "path": "modules/B014/build/build_b014_stage1.py",
+      "size": 34771,
+      "git_blob_sha": "489037599824353c312dce37e6651b9ce1bb377e",
+      "sha256": "d8584d021e80cc1ff032a8d9231c3f5111662770231fd076dbd488877cc58db7"
+    },
+    {
+      "path": "modules/B014/build/verify_b014_stage1.py",
+      "size": 2247,
+      "git_blob_sha": "52e4da01960b8ec498f77b83b2d572a5e69128bf",
+      "sha256": "3314bf1d9680b3d37c5c5b93a7a5824c071d308c2cc705c60b3dea7ecd37e7ed"
+    },
+    {
+      "path": "modules/B014/reader/B014_P11_P20_Standalone_Reader_REVIEW.html",
+      "size": 63403,
+      "git_blob_sha": "77ecf3923ae36fbd22cef768ec29b8780e1229e7",
+      "sha256": "11f7b815f424aa61fb58ac4c05c490e2fa50c2eeaec3d8c6d02be6fb2e3bb0d2"
+    },
+    {
       "path": "modules/B014/research/B014_North_Woods_Navigation_Research_Continuation.md",
       "size": 7854,
       "git_blob_sha": "4ed1449d503c722edb7f113eb6b49aed9510c15f",
@@ -192,10 +210,58 @@
       "sha256": "1a8aac9f76a37a269b8047f54b5d561ae63765ca4975a23cb380699434a4c203"
     },
     {
+      "path": "modules/B014/research/B014_stage1_claim_source_ledger.csv",
+      "size": 9731,
+      "git_blob_sha": "d8f2e17f12029bcae1150821ed5beb8ede46d56c",
+      "sha256": "821b9dd45032cf25ab905c574d9a4ffa1b91a69f006445cf4b8ac4f773e29ee4"
+    },
+    {
+      "path": "modules/B014/research/B014_stage1_references.json",
+      "size": 1348,
+      "git_blob_sha": "a3cd4ec93a96bdba042def32a95a0e22d06ffc34",
+      "sha256": "6e5a3576803356e60c4fb75bfa000f005ff69d9373556bf62f377e4b5da25d6f"
+    },
+    {
+      "path": "modules/B014/research/B014_stage1_visual_manifest.csv",
+      "size": 2007,
+      "git_blob_sha": "84a67635c079199960e2b6b8fa5957a088bf8bb7",
+      "sha256": "520df97ef5bd5b96d020856a43da47969a5a83a13630fbf7ddb14747627de1ec"
+    },
+    {
       "path": "modules/B014/review_packages/B014_North_Woods_Research_Continuation_Packet.zip",
       "size": 7412,
       "git_blob_sha": "ef3f1ec5763e79cf9d38c5a0845db19773dfc1da",
       "sha256": "8e4b98d96ca563a555b197313c78d10cc3415ac27d55b26c6024164035e0bcad"
+    },
+    {
+      "path": "modules/B014/review_packages/B014_Stage1_P11_P20_Editorial_Review_Package.zip",
+      "size": 395787,
+      "git_blob_sha": "627a02cf2291fa86efe5327c6a13fc87339b762e",
+      "sha256": "851bcdf242725e8e164550c5dc4fab61d55bbef422e9f13a8ef50837fcc8c4c2"
+    },
+    {
+      "path": "modules/B014/review_screenshots/stage1/B014_stage1_mobile_P11.png",
+      "size": 188451,
+      "git_blob_sha": "fac5b131ea5bb0ab77ba6d79e84828befac29e06",
+      "sha256": "512968fcc7179d9755cd54465e27308df25385f471177a66ba3a405daa34fccc"
+    },
+    {
+      "path": "modules/B014/review_screenshots/stage1/B014_stage1_preview_P20.png",
+      "size": 191536,
+      "git_blob_sha": "1ad41adc3a5de36913d309af0533e6b6765d0245",
+      "sha256": "20acf0f10349c8073578a6e014eea58033d76bc644401851cf678077a32a68c4"
+    },
+    {
+      "path": "modules/B014/stage1/B014_STAGE1_QA.md",
+      "size": 1236,
+      "git_blob_sha": "eea173e96877b84b437619cc6118bbf5f75ce0f7",
+      "sha256": "e1a814853ff1a999197a698c62d10f5756c12b5ebaa1689e32f693304a9bce48"
+    },
+    {
+      "path": "modules/B014/stage1/README.md",
+      "size": 1611,
+      "git_blob_sha": "e413bd45b83089cfdfca676715bd16e73149367d",
+      "sha256": "4c74ee07c1e3cc2b815ee82533ea3fde4e206d9dfeac5d005094d13fbe4aa0b1"
     },
     {
       "path": "modules/B014/visuals/B014_Lost_In_Snowstorm_Decision_Preview.png",
@@ -208,6 +274,67 @@
       "size": 3193,
       "git_blob_sha": "dc8e22732ee46f92bd01f43e2d908c3c2f10a0ad",
       "sha256": "e00bc1f4dfe949176be90a378d65979a549af0be4bb2392bc4eb085534edd873"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P11_conceptual.svg",
+      "size": 3031,
+      "git_blob_sha": "f2165cfabd86764301d78aa7b5b9d19937f4d3ca",
+      "sha256": "1523205e9de95db6d4195d66e2b3ef022deb6be7248e7ff5d1b3feb8dc7f603c"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P12_conceptual.svg",
+      "size": 2759,
+      "git_blob_sha": "1f5a67e0983d790fbb5101ec740f43e616825958",
+      "sha256": "4c0ed4785683bcd8bf6273d576835010b9993a3492f78944003f347613e2ca79"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P13_conceptual.svg",
+      "size": 2061,
+      "git_blob_sha": "d6843efda7099feba09f6dc2b2188713eaf96e83",
+      "sha256": "36ab41be32eaf91dcd1fc2c43fc0fadd650ca41e5d58aa9e48d6310d2f5e815e"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P14_conceptual.svg",
+      "size": 1856,
+      "git_blob_sha": "508ab029c6ef1644c6981abcab6b7f882ae2e5ba",
+      "sha256": "cf21e6d7964ae484a3f00ca037a715cc4e6c8126bfdd006bf94c686f6b6dab61"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P15_conceptual.svg",
+      "size": 2037,
+      "git_blob_sha": "65f5a87e290bc9d8edd21bd235957577626cbbe6",
+      "sha256": "52506b146d2b20135fd70e96ffba6995fb2c5ee82bad1deefe788d37a70e8121"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P16_conceptual.svg",
+      "size": 2645,
+      "git_blob_sha": "0d18efed7aba035385d330141f2a750c1d8ff1d9",
+      "sha256": "46d1ce7cdd9d901910416d7faeb5e21107c47a46fe3fb50dbde2d1a9b617a685"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P17_conceptual.svg",
+      "size": 1976,
+      "git_blob_sha": "782395fe5091d076f6331d6f25cb1e7130779640",
+      "sha256": "42ca70ffbc272e9a9a15fef1135b7b1ac262d071ba92c5d79694e7f3e014d58e"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P18_conceptual.svg",
+      "size": 1614,
+      "git_blob_sha": "3eafff4ab061e44c501aab220938a32fbd777854",
+      "sha256": "f04c40de73abeabc7f9658d4ca1e7d747eb8435b03a365e0762b236fd1c93558"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P19_conceptual.svg",
+      "size": 3063,
+      "git_blob_sha": "282fd4bacf4735d55bea61ac9271fd11f78be389",
+      "sha256": "4d07b555b2f2991dd23d55ef3455807f7fef4391d7b346256babdba79e0d22c8"
+    },
+    {
+      "path": "modules/B014/visuals/stage1/P20_conceptual.svg",
+      "size": 3028,
+      "git_blob_sha": "776d438ee051176c99395e2164edea529c51f5ac",
+      "sha256": "98a9731be7730bb07fbe4c0d6340fb57b9fbfbfda4e09c8bef1ee6c3607ea476"
     }
-  ]
+  ],
+  "last_updated_date": "2026-11-22"
 }
