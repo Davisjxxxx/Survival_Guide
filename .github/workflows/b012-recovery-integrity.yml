@@ -25,6 +25,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: Compile audit tools
         run: python3 -m py_compile scripts/audit_b012_recovery.py scripts/verify_recovered_downloads.py
+      - name: Validate original vector graphics as self-contained SVG documents
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          folder=Path('modules/B012/reconciliation/visuals')
+          files=sorted(folder.glob('*.svg'))
+          assert len(files)>=2
+          ns='{http://www.w3.org/2000/svg}'
+          for path in files:
+              tree=ET.parse(path)
+              root=tree.getroot()
+              assert root.tag==ns+'svg'
+              assert root.find(ns+'title') is not None, str(path)
+              assert root.find(ns+'desc') is not None, str(path)
+              assert not list(root.iter(ns+'image')), 'External/staged image injection must be reviewed'
+          print('SVG XML, accessible title/description and no raster embeds validated:',len(files))
+          PY
       - name: Verify all seven imported artifacts and ZIP CRCs
         run: python3 scripts/verify_recovered_downloads.py > /tmp/verified-imports.json
       - name: Audit 28-page original reader
