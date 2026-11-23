@@ -53,8 +53,47 @@ def verify(repo_root, manifest):
                 raise ValueError('Missing HTML doctype: '+rel)
             detail['html_signature_verified'] = True
         findings.append(detail)
+    # Prove that the restored editable originals match the archived ZIP members.
+    pairs = [
+        ('B012_Winter_Survival_Production_Package.zip',
+         'B012_Winter_Survival_Production/',
+         'modules/B012/recovered_source/production_package'),
+        ('B012_Winter_Proof_2_Offline.zip',
+         'B012_Winter_Proof_2/',
+         'modules/B012/recovered_source/proof2'),
+    ]
+    recovered = []
+    for archive, prefix, directory in pairs:
+        bundle = repo / 'imports/local-downloads/20261123T145517Z-405239' / archive
+        folder = repo / directory
+        if not bundle.is_file() or not folder.is_dir():
+            raise ValueError('Original or extracted recovery folder missing: '+directory)
+        with zipfile.ZipFile(bundle) as source_zip:
+            for original in sorted(folder.rglob('*')):
+                if not original.is_file():
+                    continue
+                member = prefix + original.relative_to(folder).as_posix()
+                if source_zip.read(member) != original.read_bytes():
+                    raise ValueError('Recovered file differs from archived original: '+member)
+                recovered.append(original.relative_to(repo).as_posix())
+    mandatory = [
+        'modules/B012/recovered_source/production_package/'+x for x in (
+            'B012_SOURCE_REGISTER.csv','B012_ASSET_REGISTER.csv','B012_PAGE_MAP.csv',
+            'B012_REAL_PHOTO_LEADS.csv','B012_REVIEW_GATES.md',
+            'B012_PRODUCTION_BRIEF.md','README.md')
+    ] + [
+        'modules/B012/recovered_source/proof2/pages/P%02d.html' % i
+        for i in range(13,19)
+    ] + [
+        'modules/B012/recovered_source/proof2/SOURCE_AND_REVIEW_LEDGER.md',
+        'modules/B012/recovered_source/proof2/B012_2_PROOF_ASSET_STATUS.csv',
+        'modules/B012/recovered_source/proof2/assets/staged_bedding_storyboard.jpg'
+    ]
+    if not set(mandatory).issubset(recovered):
+        raise ValueError('Recovered originals missing from the verification set')
     return {'manifest':str(filelist.relative_to(repo)), 'files':findings,
             'total_files':len(findings), 'verified_bytes':sum(f['bytes'] for f in findings),
+            'recovered_exact_files':len(recovered),
             'release_status':'BLOCKED; format/storage verification does not certify field instructions'}
 
 def main():
