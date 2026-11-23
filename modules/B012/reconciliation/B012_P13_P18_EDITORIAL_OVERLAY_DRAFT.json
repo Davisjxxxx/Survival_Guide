@@ -21,7 +21,7 @@
   },
   "P17": {
     "bad": "Excavation walls slough, stone supports shift, water collects, or a pit becomes difficult to exit.",
-    "fix": "Stop the excavation and move to stable above-ground ground. Use dry insulation and known-safe shelter without a fire or heater in the excavation.",
+    "fix": "Stop the excavation and move to stable above-ground location. Use dry insulation and known-safe shelter without a fire or heater in the excavation.",
     "limit": "No soil strength, rock stability, roof loads, or drainage are established. A covered pit is not approved as an improvised winter shelter."
   },
   "P18": {
