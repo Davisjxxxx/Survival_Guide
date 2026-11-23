@@ -27,9 +27,19 @@ Recovered artifacts already in GitHub include a production ZIP, two B012 proof Z
 - B012_Winter_Proof_2_Offline.zip: 17 entries, including *original* pages/P13.html through pages/P18.html and one staged bedding image.
 - Examined the decompressed original P13–P18 HTML page files in that proof archive. Each still displays the three literal expressions {html.escape(bad)}, {html.escape(fix)}, and {html.escape(limit)}.
 - B013_Ice_Safety_Compact_Reader.zip: nine entries including editable page content, source register, visual asset register, render QA and SHA256SUMS.
-- B012_Winter_Visual_Proof_1.zip and B013_Ice_Safety_Stage2_Offline.zip: original bytes saved to GitHub; contents still require local ZIP CRC, path, image and licensing audit. Do not call these inspected or approved.
+- B012_Winter_Visual_Proof_1.zip and B013_Ice_Safety_Stage2_Offline.zip: original bytes saved to GitHub. All five imported ZIP archives now pass CRC and safe-path integrity checks in GitHub CI; this does **not** verify visual subjects, copyright permissions, safety instructions or expert review.
 
 Thus, the 18 visible P13–P18 gaps are inherited from the earlier source proof, not introduced by the 28-page reader assembly.
+
+## Directly recovered editable originals (GitHub-verified)
+
+- Seven unmodified source/research files have been extracted from the B012 production ZIP under modules/B012/recovered_source/production_package.
+- Nine unmodified proof/source assets have been extracted from B012_Winter_Proof_2_Offline.zip under modules/B012/recovered_source/proof2, including original P13–P18 HTML, the source/review ledger and staged storyboard JPG.
+- Every recovered file was checked against its originating ZIP member (exact bytes) by scripts/verify_recovered_downloads.py. Both pull-request and push integrity workflows passed at commit 56ef52cb309c5e6e9105fac88cc30edaad8e0411.
+- The original B012_SOURCE_REGISTER.csv contains **17 source leads** (S01–S17), not 17 individually validated page claims.
+- B012_ASSET_REGISTER.csv contains **143 planning slots**. All 143 remain marked NEEDED and NO_PUBLICATION; the register records rights_verified=NO and subject_verified=NO throughout. These are asset requirements, not acquired or validated photographs.
+- Six photographic candidate leads are cataloged, all with status SOURCE_PAGE_ONLY. The candidate URLs are **not permissions or diagnostic confirmation**.
+- The reader's 51 embedded raster images and 22 SVGs are separate draft renderings, not evidence that the 143 asset requirements have been satisfied.
 
 ## Critical findings and dispositions
 
@@ -37,7 +47,7 @@ Thus, the 18 visible P13–P18 gaps are inherited from the earlier source proof,
 | --- | --- | --- | --- |
 | B012-F001 | Critical editorial | P13–P18 contain 18 unresolved expressions in FAILURE / CHANGE COURSE / LIMIT fields, three per page | Block release. Six-page editorial overlay saved separately; approval pending |
 | B012-F002 | High clinical | P25 proposes frostbite water at 37–40°C (99–104°F). Wilderness Medical Society 2024 summary specifies **37–39°C (98.6–102.2°F)** and protection against refreezing | Do not silently revise archived text. Independent first-aid review and source-linked correction required |
-| B012-F003 | High evidence | The main HTML does not expose page-level source IDs, licensing records or specialist approval | Recover and reconcile the original ZIP source/claim/photo registries; flag claims separately |
+| B012-F003 | High evidence | The main HTML does not expose page-level source IDs, licensing records or specialist approval | Original production source/asset/photo registries are now recovered; map each high-risk claim to dated supporting source evidence, page ID, rights and reviewer separately |
 | B012-F004 | High visual | Staged illustrative scenes are not real frostbite images, measured thermal results, snow-load tests, or diagnostic identification images | License/provenance and independent technique/diagram review before public release |
 | B012-F005 | High procedural | Snow trench, snow cave, leaning shelter, and earth/stone shelter pages depend on local snow/soil strength, heat, ventilation, exit and weather assumptions | Keep no-gear fallback and stop conditions. Require qualified snow/structural assessment |
 | B012-F006 | Medium coherence | P07 vs P24 (hypothermia) and P08 vs P25 (frostbite) overlap but differ in operational detail | Make one authoritative claim register; keep both reading levels if consistent |
