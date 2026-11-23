@@ -39,6 +39,13 @@ For every acquired asset, record: asset ID; exact original image or SVG SHA; sou
 
 **Fourth: P01–P06, P09–P12, P26–P28 field decisions.** Acquire original Minnesota woodland/windblown conditions as source-verified photos, then pair with original diagram layers and failure/correction plates.
 
+## Two original editable concept studies now preserved
+
+- visuals/B012_P13_P18_SHELTER_DECISION_DRAFT.svg: hazard scan, existing-refuge preference, low-risk above-ground fallback, and stop condition for untrained overhead structures.
+- visuals/B012_P22_SNOW_TO_WATER_DRAFT.svg: source selection, melting, microbial treatment, clean storage and the chemical contamination rejection gate.
+
+These are **new conceptual vector studies**, not authenticated field photographs or verified instructions. Their SHA and XML/accessibility checks are part of the review workflow; the images have not been independently assessed for practical field effectiveness, print readability, or technical accuracy. Do not subtract them from the 143 required asset slots before assigning IDs and obtaining acceptance.
+
 ## Design gate per image or graphic
 
 1. **Real-image need:** Real identification/diagnostic or measured-test claims require authentic evidence, not synthetic scenes.
