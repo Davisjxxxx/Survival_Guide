@@ -1,0 +1,13 @@
+page,asset_id,asset_type,status,description,required_review,source_file
+P13,P13-SVG-01,original SVG diagram,CONCEPT_DRAWN_NOT_VERIFIED,roof,Winter survival + structural,B012_2_SELF_CONTAINED_READER.html
+P13,P13-PHOTO-01,real field photograph,MISSING,Photograph of site/material/mechanism matching page; include diagnostic closeup and opposite failure state,Identity + rights + winter subject specialist,
+P14,P14-SVG-01,original SVG diagram,CONCEPT_DRAWN_NOT_VERIFIED,fire,Structural + fire-safety engineering,B012_2_SELF_CONTAINED_READER.html
+P14,P14-PHOTO-01,real field photograph,MISSING,Photograph of site/material/mechanism matching page; include diagnostic closeup and opposite failure state,Identity + rights + winter subject specialist,
+P15,P15-SVG-01,original SVG diagram,CONCEPT_DRAWN_NOT_VERIFIED,trench,Winter survival + structural,B012_2_SELF_CONTAINED_READER.html
+P15,P15-PHOTO-01,real field photograph,MISSING,Photograph of site/material/mechanism matching page; include diagnostic closeup and opposite failure state,Identity + rights + winter subject specialist,
+P16,P16-SVG-01,original SVG diagram,CONCEPT_DRAWN_NOT_VERIFIED,cave,Winter survival + structural,B012_2_SELF_CONTAINED_READER.html
+P16,P16-PHOTO-01,real field photograph,MISSING,Photograph of site/material/mechanism matching page; include diagnostic closeup and opposite failure state,Identity + rights + winter subject specialist,
+P17,P17-SVG-01,original SVG diagram,CONCEPT_DRAWN_NOT_VERIFIED,earth,Structural + fire-safety engineering,B012_2_SELF_CONTAINED_READER.html
+P17,P17-PHOTO-01,real field photograph,MISSING,Photograph of site/material/mechanism matching page; include diagnostic closeup and opposite failure state,Identity + rights + winter subject specialist,
+P18,P18-SVG-01,original SVG diagram,CONCEPT_DRAWN_NOT_VERIFIED,moisture,Winter survival + structural,B012_2_SELF_CONTAINED_READER.html
+P18,P18-PHOTO-01,real field photograph,MISSING,Photograph of site/material/mechanism matching page; include diagnostic closeup and opposite failure state,Identity + rights + winter subject specialist,
