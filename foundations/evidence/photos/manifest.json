@@ -1,0 +1,36 @@
+[
+  {
+    "id": "PHOTO-NPS-01",
+    "file": "nps-watchman-aftermath-provider-medium.jpg",
+    "source": "https://npgallery.nps.gov/AssetDetail/acca1066-682f-4e8d-bbb9-d1752778779c",
+    "download": "https://npgallery.nps.gov/GetAsset/acca1066-682f-4e8d-bbb9-d1752778779c/proxymdres.jpg",
+    "credit": "NPS / Abi Farish",
+    "rights": "Public Domain",
+    "date": "2023-07-30",
+    "subject": "Burned area beside an established fire pit, Zion National Park, Utah",
+    "limitation": "No inferred ignition cause, wind direction or clearance requirement",
+    "variant": "Agency medium JPEG",
+    "related_card": "Z03-P01",
+    "sha256": "9c13d1c33c93b7715b8cfd6fbdf418643d24fad397133f9a2194c9d3e9e230b6",
+    "accessed": "2026-11-24",
+    "classification": "Documentary context",
+    "diagnostic_photo": false
+  },
+  {
+    "id": "PHOTO-USGS-01",
+    "file": "usgs-missouri-floodplain-provider-original.jpg",
+    "source": "https://www.usgs.gov/media/images/water-sampling-floodplain-missouri-river",
+    "download": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/Missouri_picture1.JPG",
+    "credit": "USGS Water Resources Mission Area",
+    "rights": "Public Domain",
+    "date": "2018-06-29 (source record)",
+    "subject": "USGS monitoring equipment on the flooded Missouri River floodplain",
+    "limitation": "No inferred flow depth, current, potability, access rating or Minnesota locality",
+    "variant": "Agency Original link JPEG",
+    "related_card": "Z02-P05",
+    "sha256": "c1e2a9528a451f997631bd007ad381068cc1590ba15769732a698f3fdd9d26c4",
+    "accessed": "2026-11-24",
+    "classification": "Documentary context",
+    "diagnostic_photo": false
+  }
+]

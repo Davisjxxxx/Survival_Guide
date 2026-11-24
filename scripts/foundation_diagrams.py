@@ -4,6 +4,46 @@ from textwrap import wrap
 
 # Each original drawing adds a spatial or material relationship to the three text labels.
 CROSS_SECTIONS = {
+    'Z03-P12': (
+        '<path d="M300 139h317v13H300Z" fill="#a28c68"/>'
+        '<path d="M405 65l-5 68 6 8 6-8-4-68Z" fill="#8b6d4f" stroke="#315245" stroke-width="3"/>'
+        '<path d="M379 64h53" stroke="#647e72" stroke-width="15" stroke-linecap="round"/>'
+        '<path d="M90 98q170-98 435 11" fill="none" stroke="#776649" stroke-width="7"/>'
+        '<path d="M90 98l304 6q18 2 18-4t-11-4l124 13" fill="none" stroke="#315245" stroke-width="2.5"/>'
+        '<path d="M395 139q22-16 47 0" fill="#b67544"/>'
+        '<path d="M272 75h58" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/>'
+    ),
+    'Z02-P10': (
+        '<path d="M64 133h618" stroke="#9da684" stroke-width="6"/>'
+        '<path d="M163 118l180-66 166 66" fill="none" stroke="#315245" stroke-width="7"/>'
+        '<path d="M239 124h226v9H239Z" fill="#d4ae5d"/>'
+        '<path d="M149 109l-36 38m411-38 36 38" stroke="#5b8fa1" stroke-width="5" marker-end="url(#arrow)"/>'
+        '<path d="M577 142h94" stroke="#5b8fa1" stroke-width="4" marker-end="url(#arrow)"/>'
+    ),
+    'Z03-P06': (
+        '<path d="M26 146h663" stroke="#849477" stroke-width="5"/>'
+        '<rect x="75" y="93" width="93" height="48" rx="7" fill="#7e927c" stroke="#2e5446" stroke-width="4"/>'
+        '<path d="M74 108H34M74 122H34" stroke="#96745e" stroke-width="5" marker-end="url(#arrow)"/>'
+        '<path d="M188 116h329M189 104v24M517 104v24" stroke="#315245" stroke-width="2"/>'
+        '<text x="301" y="103">≥ 20 ft</text>'
+        '<path d="M532 85l65-35 64 35v58H532Z" fill="#c4d4b4" stroke="#315245" stroke-width="4"/>'
+        '<path d="M557 104h24v23h-24zM606 101h24v42h-24z" fill="#f8f4e9" stroke="#315245" stroke-width="2"/>'
+    ),
+    'Z03-P10': (
+        '<path d="M62 57l50-9 88 45-96 28Z" fill="#9c9e85" stroke="#6e765d" stroke-width="3"/>'
+        '<path d="M218 45l17 4-29 90-17-6Z" fill="#768986" stroke="#315245" stroke-width="4"/>'
+        '<path d="M213 96q152 9 293 30" fill="none" stroke="#a55b26" stroke-width="3" stroke-dasharray="6 9" marker-end="url(#arrow)"/>'
+        '<path d="M498 145l33-39 15 32 36-39 3 35 49-25 20 36Z" fill="#ad965e"/>'
+    ),
+    'Z04-P10': (
+        '<path d="M59 65l12 79h147l12-79" fill="#a5c6cf" stroke="#386273" stroke-width="4"/>'
+        '<path d="M72 125q76-14 145 0v17H74Z" fill="#988261"/>'
+        '<path d="M229 96h68" stroke="#305966" stroke-width="4" marker-end="url(#arrow)"/>'
+        '<path d="M317 83l8 60h96l8-60" fill="#a5c6cf" stroke="#386273" stroke-width="4"/>'
+        '<path d="M434 109h71" stroke="#305966" stroke-width="4" marker-end="url(#arrow)"/>'
+        '<rect x="524" y="79" width="146" height="63" rx="8" fill="#c1d3b5" stroke="#315245" stroke-width="4"/>'
+        '<text x="554" y="116">TREATMENT</text>'
+    ),
     'Z02-P01': (
         '<path d="M25 80Q115 159 201 131T330 99L452 68H686V152H25Z" fill="#c9d6b6"/>'
         '<path d="M38 100Q103 146 191 136L209 143Q105 163 34 119Z" fill="#68a3b6"/>'

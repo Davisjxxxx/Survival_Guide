@@ -1,0 +1,64 @@
+Z11-R02 | Confirm the starting point and first checkpoint | B014 reconstruction · continuation of r01
+objective: Establish one map-to-ground match before leaving the trailhead.
+applies: A planned trip using a paper or offline map and a marked route.
+equipment: Current map, trip plan and another reader to cross-check when available.
+action: Identify the trailhead on the map and match its name or another reliable feature to the location. @E01,ED
+action: Identify the first decision point, such as a signed junction. Agree on what you expect to see before you proceed. @E01,T06,ED
+action: If the expected feature does not appear, stop and compare the last verified point with the actual surroundings. Avoid continuing just to find a matching landmark. @T06,ED
+verify: Both the start and first checkpoint can be described in a way another party can use. @ED
+stop: If the start or route is uncertain, revise the plan before leaving known ground. @E01,T06,ED
+diagram: Match the trailhead | Predict first checkpoint | Compare on arrival
+visual: Practice schematic with abstract checkpoints. Use actual park maps for field exercises.
+reviewer: Navigation and search and rescue
+
+Z11-R08 | Test offline maps and paper backup | B014 reconstruction · continuation of r01
+objective: Verify the route remains usable without coverage or power.
+applies: Before a trip beyond dependable network service.
+equipment: Downloaded map, map reader, paper map and independent power if used.
+action: Obtain a current map that includes the planned route, nearby alternatives and identifiable roads or exits. @E01,E02,ED
+action: Disconnect the device from the network at home and open the full planned area. Confirm landmarks and scale remain readable. @E02,ED
+action: Carry a paper map and use it to point to the same trailhead and route. Practice sharing a last confirmed position from paper. @E02,T06,ED
+verify: The party can find the trailhead and two checkpoints using either map without network access. @ED
+stop: If the plan depends entirely on a device you cannot use offline, revise the route or kit before leaving. @E01,E02,ED
+diagram: Save relevant map area | Test without coverage | Match paper backup
+visual: Independent map materials support the same route and landmarks.
+reviewer: Navigation and search and rescue
+
+Z13-R03 | Check carbon monoxide alarms before an outage | Preparedness primer reconstruction · Home Resilience
+objective: Verify audible alarms and a family response before portable fuel equipment is needed.
+applies: Household outage preparation and suspected carbon monoxide exposure.
+equipment: CO alarms, exact manufacturer instructions and a household exit plan.
+action: Check whether there are CO alarms on each level and outside sleeping areas. Follow placement and maintenance instructions for each unit. @C09
+action: Check the test and backup-power procedure. Identify the agreed outdoor meeting point and make it known to everyone in the household. @C09,T07,ED
+action: If an alarm indicates carbon monoxide or exposure is suspected, get to fresh air immediately and contact emergency services. @C07
+verify: The household knows the alarm sound, exit and where to call from outside. @C09,C07,ED
+stop: A working alarm does not make indoor generator or camp-stove use safe. @C05,C06,C09
+diagram: Verify alarms | Agree on exit | Fresh air and emergency help
+visual: Prevention and evacuation checklist for a household rather than an alarm installation drawing.
+reviewer: Carbon monoxide safety and emergency management
+
+Z14-R01 | Match preservation plans to tested recipes | Preparedness primer reconstruction · Small Acreage Self-Reliance
+objective: Identify the exact tested process before preparing produce for shelf-stable storage.
+applies: Household home canning. This card selects an authoritative recipe and gives no processing schedule.
+equipment: Validated recipe for the food, container size and equipment. Determine local elevation.
+action: Find a tested recipe for the exact food and preparation. Distinguish low-acid foods that require a tested pressure-canning process from foods with other tested processes. @F06
+action: Match the jar size, ingredients and equipment to the recipe. Obtain its altitude adjustment before beginning. @F06,F07
+action: If the recipe or equipment does not cover your ingredients, elevation or container, choose a different tested recipe or another approved preservation method. @F06,F07,ED
+verify: The recipe citation, equipment, jar size and altitude instructions agree before processing. @F07,ED
+stop: Do not improvise processing time, pressure or ingredients to salvage an untested recipe. @F06,F07
+diagram: Identify food and recipe | Confirm equipment and jar | Check altitude
+visual: Canning process selection only; validated instructions control the actual process.
+reviewer: Food preservation and public health
+
+Z15-R03 | Track cold food during a power outage | Preparedness primer reconstruction · Thirty-Day Outage Operations
+objective: Use elapsed time and actual temperature to decide whether food can be kept.
+applies: A household refrigerator or freezer initially working when the power fails.
+equipment: Appliance thermometer, written outage log and access to the official per-item chart.
+action: Note when power went out and keep doors closed. A closed refrigerator typically preserves safe conditions for about four hours. @F04
+action: Check temperatures and elapsed time using the official chart. A closed full freezer generally holds temperature about 48 hours and a half-full one about 24 hours. @F04,F05
+action: Evaluate each food by its category and storage history. For applicable frozen foods, ice crystals or a confirmed temperature of 40°F or below inform refreezing. @F05
+verify: Record the measured temperature and keep, refreeze or discard decision for each relevant food group. @F04,F05,ED
+stop: Never taste food to decide whether it is safe after a loss of cold storage. @F04
+diagram: Record power-off time | Keep doors closed | Apply official food chart
+visual: Time and measured temperature together inform the per-item decision.
+reviewer: Food safety and household preparedness

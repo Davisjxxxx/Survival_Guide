@@ -137,7 +137,7 @@ action: Keep the generator out of the garage, porch enclosure and other occupied
 action: If CO is suspected, get to fresh air immediately and call emergency services. @C07
 verify: Check the path from the outlet to doors, windows and vents. Reassess if the location or direction changes. @C06,ED
 stop: If you cannot provide the outdoor location and separation, leave the generator off. @C06
-diagram: Generator outdoors | At least 20 feet from home | Exhaust directed away
+diagram: Exhaust directed away | At least 20 feet from home | Occupied building
 visual: Not-to-scale placement decision. The numeric clearance applies to portable generators.
 reviewer: Electrical and carbon monoxide safety
 

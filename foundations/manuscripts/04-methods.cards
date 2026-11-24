@@ -1,0 +1,103 @@
+Z01-P11 | Stop at uncertain ice | B013 P01–P05 and B014 P12
+objective: Preserve a safe land route when a winter shortcut is unverified.
+applies: A walking party approaching a frozen lake, stream, flooded path or marsh.
+equipment: Map and sufficient insulation and time for a safe alternative.
+action: Stop on stable land. Ice varies across one body of water; appearance, footsteps or a nearby measurement cannot establish your crossing. @E12
+action: Use a verified land route if conditions and group ability allow. If you cannot identify one, reassess time, exposure and communication from stable ground. @E12,T06,ED
+action: Share your location and the changed route or hold decision. Keep the group off the uncertain surface. @T06,E12,ED
+verify: The next segment stays on known ground and the group can describe its return option. @ED
+stop: An unverified shortcut, bridge approach or ice edge remains a stop point. @E12,ED
+diagram: Stop on land | Identify a verified land option | Hold and seek help if uncertain
+visual: Route decision for walking parties. Ice travel and rescue belong in the separate B013 chapters.
+reviewer: Ice safety and search and rescue
+
+Z01-P12 | Turn back at a flooded route | FEMA flood guidance; new manuscript
+objective: Preserve an evacuation option when a familiar road or foot route floods.
+applies: Rising or standing floodwater blocking a road, path or crossing.
+equipment: Current emergency directions and a map for alternatives if available.
+action: Turn around before entering floodwater. Its depth and force may be difficult to judge and the road surface can be damaged. @T07
+action: Check local evacuation instructions and choose an official, open alternate route or safe higher location. Avoid relying on a previous crossing or another vehicle's tracks. @T07,ED
+action: Report your updated position and route to the appropriate contact when you can. Call for emergency help if trapped. @T07,T06
+verify: A safe route is confirmed from reliable local information, or the group is waiting at a safer location. @T07,ED
+stop: Do not drive or walk around a closure into floodwater. @T07
+diagram: Flooded road ahead | Turn around early | Use official route or higher ground
+visual: Road closure is a stop condition, independent of the apparent depth.
+reviewer: Emergency management and transportation safety
+
+Z02-P11 | Look up before stopping below trees | Forest Service hazard tree guide; new manuscript
+objective: Screen the campsite and approach for falling trees or suspended material.
+applies: Forested site, particularly after wind, fire, heavy snow or visible damage.
+equipment: Daylight or sufficient visibility to assess the area from a safe position.
+action: Scan for dead, damaged or leaning trees and material overhead before entering the potential fall zone. @E13
+action: Choose a durable site away from hazardous trees. Tell campground staff about a hazard in a designated site. @E13,E03
+action: Reassess when wind rises or debris falls. Move to safer ground rather than trying to correct an unstable tree or branch. @E13,ED
+verify: The sleep site, gathering spot and access route avoid observed overhead hazards. @E13,ED
+stop: Poor visibility, active fall or strong wind can defeat the inspection. Use a different safe site. @E13,ED
+diagram: Scan above the site | Avoid hazardous trees | Recheck when wind changes
+visual: Hazard screening is an exclusion process. This drawing supplies no universal fall-zone distance.
+reviewer: Land management and field safety
+
+Z02-P12 | Use a stranded vehicle as shelter | NWS winter storm guidance; new manuscript
+objective: Keep weather protection and visibility when winter travel is interrupted.
+applies: Stranded vehicle in a winter storm with no immediate fire, roadway or other vehicle hazard.
+equipment: Dry layers, emergency supplies, communications and a visibility marker if available.
+action: If no safe nearby destination is obvious, stay with the vehicle. Report your location, vehicle and people to emergency services or your contact. @E14,T06
+action: Use available dry insulation and make the vehicle visible without exposing yourself to traffic or the storm. @E14,E05,ED
+action: Keep the group together and reassess if the vehicle location becomes dangerous. Follow responder directions. @E14,T02,ED
+verify: Somebody can describe the vehicle's position and how rescuers will recognize it. @T06,ED
+stop: Suspected carbon monoxide exposure requires fresh air and emergency help. Use the safest accessible route away from immediate hazards. @C07,T01
+diagram: Confirm location is safe | Retain weather protection | Report and make visible
+visual: The shelter decision is independent of engine operation.
+reviewer: Winter response and emergency medicine
+
+Z03-P11 | Keep ignition supplies dry | NPS Ten Essentials and B012 P20
+objective: Protect the ignition and first fuel materials until a permitted use.
+applies: Packing for wet or cold travel. All fire use depends on site, weather and restrictions.
+equipment: Suitable ignition device, dry tinder and a waterproof or weather-resistant storage system.
+action: Carry a familiar ignition option and protect it against moisture. Keep tinder dry and separate from wet gear. @C11,C03
+action: Make access and status checks while the device is cold. Keep it separate from fuel containers and follow its instructions. @C11,ED
+action: Carry independent lighting and insulation. A dry ignition kit is one option, with an established no-fire alternative. @C11,E02,C08
+verify: In a dry practice check, locate the ignition kit and backup light without emptying the pack. @ED
+stop: Reject damaged equipment or damp material you cannot verify and use a no-fire fallback. @C03,C08,ED
+diagram: Protect ignition device | Protect tinder separately | Carry a fallback
+visual: Packed kit organization and a dry inspection, without any required ignition.
+reviewer: Fire prevention and equipment safety
+
+Z03-P12 | Trace heat in a bow-drill mechanism | B008/B010 mechanisms and NPS Forces and Tools
+objective: Explain how reciprocating bow motion can create an ember at a wood interface.
+applies: Interpretation or supervised firecraft teaching. Use the unlit assembly for the first inspection.
+equipment: Identified bow, cord, spindle, bearing block and hearth board. Any live practice needs site authorization and fire-control equipment.
+action: Identify the bow as the input, the cord as the motion transfer, and the spindle as the rotating part. @C12
+action: Trace pressure and rotation to the spindle-to-hearth contact. That interface heats the dust; the top support controls the spindle position. @C12
+action: Separate visible smoke from an ember that persists. Use a supervised demonstration to confirm the teaching sequence only where fire is authorized and controlled. @C12,C01,C02,ED
+verify: A learner can point to the rotating part, the contact that heats the wood and the intended ember location. @C12,ED
+stop: Stop if materials or assembly are uncertain. A prolonged ignition attempt that compromises warmth or safety is a reason to switch methods. @C08,C12,ED
+diagram: Bow and cord transmit motion | Spindle rotates | Heat at wood contact
+visual: Cold mechanism diagram. No fixed dimensions, fuel identity or guaranteed ignition time.
+reviewer: Fire prevention and mechanism reviewer
+
+Z04-P11 | Check whether a UV device applies | B009 equipment notes and CDC backcountry guide
+objective: Prevent misuse of portable UV disinfection in turbid water or an unsupported batch.
+applies: Clear water from a chemically acceptable source and a working UV device rated for the intended use.
+equipment: Documented UV device, reliable power, suitable vessel and matched volume.
+action: Check the manufacturer's supported water clarity, volume and operating conditions. Suspended particles can reduce UV exposure. @W11
+action: Follow the complete device cycle and any mixing instructions. Keep raw water and utensils apart from treated water. @W11,W06,ED
+action: If the water remains cloudy, the device fails or power is unreliable, use a different supported treatment or known-safe supply. @W11,W02,W09
+verify: Confirm a completed cycle at the volume and clarity the device specifies. @W11,ED
+stop: A UV device cannot resolve a suspected chemical contamination hazard. @W01
+diagram: Check clarity and volume | Complete rated cycle | Keep treated batch separate
+visual: Three independent conditions for a device-limited microbial treatment.
+reviewer: Drinking-water treatment and equipment safety
+
+Z04-P12 | Screen chemical disinfectant limitations | B009 revision and CDC backcountry guide
+objective: Select a documented drinking-water disinfectant while accounting for parasite and user restrictions.
+applies: Backcountry microbial risk after source screening. Match the device, water and user to the published label.
+equipment: Identified product for drinking water, readable instructions, suitable vessel and timer.
+action: Check the product's claim, contact time and batch volume. Typical chemical disinfection leaves gaps for some parasites; CDC advises filtering before disinfecting when using this sequence. @W04,W05,W10
+action: Avoid iodine-treated drinking water during pregnancy, with thyroid problems or with known iodine hypersensitivity. Choose an appropriate alternative. @W10
+action: Follow the approved label for the actual water condition and quantity. Record the time and keep the finished batch separate. @W05,W06,ED
+verify: The user, product, concentration, volume and contact time all match the guidance. @W05,W10,ED
+stop: Missing label instructions, uncertain dose or unresolved chemical contamination means the treatment is inapplicable. @W01,W05
+diagram: Match product and user | Follow dose and time | Protect finished water
+visual: Product conditions are decision inputs. No universal dose is presented.
+reviewer: Drinking-water safety and wilderness medicine

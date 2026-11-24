@@ -4,6 +4,7 @@ from collections import Counter
 import hashlib
 import io
 import json
+import re
 from pathlib import Path
 import shutil
 import tempfile
@@ -13,7 +14,7 @@ import pymupdf
 from PIL import Image, ImageDraw
 from playwright.sync_api import sync_playwright
 
-from build_foundations import FOUND, require
+from build_foundations import FOUND, require, crosswalk
 
 
 def contents(page, output, cards):
@@ -40,8 +41,10 @@ def print_card(page, card, pdf):
         sheet = single[0].get_text()
         required = [card['id'], 'When it applies','Equipment','Actions','Verify','Stop or change course',
                     'Publication hold','Qualified review pending']
-        normal = ' '.join(sheet.split())
-        for text in [*required,*[item['text'] for item in card['action']]]:
+        normal = ' '.join(re.sub(r'(?<=\w)-\n(?=\w)', '-', sheet).split())
+        required.extend(card[field] for field in ('title','objective','applies','equipment'))
+        statements = [*card['action'],card['verify'],card['stop']]
+        for text in [*required,*[item['text'] for item in statements]]:
             require(' '.join(text.split()) in normal,f'Print missing content on {card["id"]}: {text}')
         pdf.insert_pdf(single)
 
@@ -74,6 +77,15 @@ def main():
     proofs.mkdir(parents=True,exist_ok=True)
     cards = json.loads((output/'page-manifest.json').read_text())
     assets = json.loads((output/'asset-manifest.json').read_text())
+    for pdf_path in sorted((FOUND.parent/'reader').glob('B0*.pdf')):
+        page_numbers = []
+        for row in crosswalk():
+            if row['artifact'] == pdf_path.name:
+                limits = list(map(int,row['pages'].split('–')))
+                page_numbers.extend(range(limits[0],limits[-1]+1))
+        with pymupdf.open(pdf_path) as original:
+            require(sorted(page_numbers)==list(range(1,len(original)+1)),
+                    f'Crosswalk does not uniquely cover {pdf_path.name}')
     require(len(cards)==len(assets)==len({c['id'] for c in cards}), 'Missing or duplicate card/asset')
     require({a['page'] for a in assets}=={c['id'] for c in cards},'Orphaned figure')
     for asset in assets:

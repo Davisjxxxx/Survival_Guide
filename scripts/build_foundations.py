@@ -147,6 +147,7 @@ def write_card(card, previous, next_, claims, sources, output):
                        f'{escape(claim["support"])}<br><a href="{escape(source["url"])}">Primary source</a>'
                        f' · checked {escape(source["checked"])}</dd>')
     actions = ''.join(f'<li>{statement(row)}</li>' for row in card['action'])
+    stages = ''.join(f'<li>{escape(stage)}</li>' for stage in card['diagram'].split(' | '))
     origin = escape(card["origin"])
     lineage = f'<p>Lineage · {origin}</p>' if card['id'][4] == 'R' else ''
     body = (
@@ -156,7 +157,7 @@ def write_card(card, previous, next_, claims, sources, output):
         f'<p><strong>When it applies</strong> · {escape(card["applies"])}</p>'
         f'<p><strong>Equipment</strong> · {escape(card["equipment"])}</p>'
         f'<figure><img src="visuals/{card_id}.svg" alt="{escape(card["diagram"])}">'
-        f'<figcaption>{escape(card["visual"])}</figcaption></figure>'
+        f'<figcaption>{escape(card["visual"])}<ul class="diagram-labels" aria-hidden="true">{stages}</ul></figcaption></figure>'
         f'<h2>Actions</h2><ol class="actions">{actions}</ol>'
         f'<p><strong>Verify</strong> · {statement(card["verify"])}</p>'
         f'<p class="stop"><strong>Stop or change course</strong> · {statement(card["stop"])}</p>'

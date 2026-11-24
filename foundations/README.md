@@ -1,6 +1,6 @@
 # Foundational production edition
 
-[Open the offline reader](reader/index.html) or use the [pilot proof](proofs/pilot.pdf). The first twelve review drafts adapt eleven B012 pages and the B003 rain-catchment plate. Original Track B text and illustration sources remain in their versioned historical paths. The production branch adds its own standalone edition using the original library stylesheet and search script.
+Extract the [offline ZIP](proofs/foundations-offline.zip) and open `reader/index.html`. The [53-sheet proof](proofs/foundations.pdf) and [sprint result](SPRINT_RESULT.md) cover the complete production batch. The first twelve review drafts adapt eleven B012 pages and the B003 rain-catchment plate. Original Track B text and illustration sources remain in their versioned historical paths. The production branch adds its own standalone edition using the original library stylesheet and search script.
 
 ## Authoring and evidence
 
@@ -14,7 +14,9 @@ From the repository root, with the dependencies in [review-requirements.txt](../
 
 ```sh
 python scripts/build_foundations.py
-python scripts/verify_foundations.py --name pilot --batch 01-pilot --axe /path/to/axe.min.js
+python scripts/verify_foundations.py --name foundations --axe /path/to/axe.min.js
+python scripts/test_foundation_controls.py
+python scripts/check_foundations.py --write-package
 ```
 
 The reader itself needs only a browser. Source links require internet access when opened. The content, diagrams, evidence summaries, navigation and search work from local files. The PDF is a print proof for editorial and specialist inspection.
