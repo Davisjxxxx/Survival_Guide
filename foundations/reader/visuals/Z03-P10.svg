@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Identify the spark source in flint-and-steel</title>
+  <desc id="desc">Hard striking edge | Steel sheds particles | Receptive tinder</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
+  </defs>
+  <rect width="720" height="240" rx="12" fill="#edf1e9"/>
+  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
+    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z03-P10 · FIELD SCHEMATIC</text>
+    <path d="M62 57l50-9 88 45-96 28Z" fill="#9c9e85" stroke="#6e765d" stroke-width="3"/><path d="M218 45l17 4-29 90-17-6Z" fill="#768986" stroke="#315245" stroke-width="4"/><path d="M213 96q152 9 293 30" fill="none" stroke="#a55b26" stroke-width="3" stroke-dasharray="6 9" marker-end="url(#arrow)"/><path d="M498 145l33-39 15 32 36-39 3 35 49-25 20 36Z" fill="#ad965e"/>
+    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Hard striking edge</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Steel sheds particles</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Receptive tinder</text></g>
+  </g>
+</svg>

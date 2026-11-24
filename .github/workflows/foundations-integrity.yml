@@ -1,0 +1,20 @@
+name: Foundational production integrity
+on:
+  push:
+    branches: [review/foundational-production-20261124]
+  pull_request:
+    branches: [review/s02-s03-historical-recovery-20261124]
+permissions:
+  contents: read
+jobs:
+  review-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python scripts/test_foundation_controls.py
+      - run: python scripts/check_foundations.py

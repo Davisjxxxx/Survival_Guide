@@ -1,0 +1,155 @@
+Z01-P08 | Keep track of everyone | NPS Hike Smart and B014 P17
+objective: Prevent unplanned separation before it becomes a search.
+applies: Group travel on land in uneven terrain, variable visibility or busy trail networks.
+equipment: Group roster or head count, paper or offline map and an agreed signal.
+action: Choose a route and pace that the whole group can manage. Agree that nobody leaves a junction before the group is accounted for. @E11,ED
+action: Check attendance at the start, at junctions and before leaving a long stop. Give the back of the group a way to signal the front. @E11,ED
+action: If someone is missing, keep the remaining group together. Record the last place and time where the person was seen and contact responders when needed. @E11,T06,ED
+verify: Everyone knows the next checkpoint and the count agrees at every major stop. @ED
+stop: Avoid splitting into an uncoordinated search. Follow directions from responders. @T06,ED
+diagram: Count at departure | Recount at junctions | Record last known point
+visual: The count belongs at points where separation is likely.
+reviewer: Group leaders and search and rescue
+
+Z01-P09 | Prepare a communication backup | NPS Ten Essentials and B014 P15/P16
+objective: Keep a way to share essential information if a primary device fails.
+applies: Trips without dependable voice or data service.
+equipment: Phone, paper map and trip plan, whistle and light. Add a suitable emergency communicator if available.
+action: Save the route, emergency numbers and trip information before leaving coverage. Carry a paper copy independent of the phone battery. @E01,E02,ED
+action: Check how your equipment works before the trip and agree on an overdue trigger with a contact. A signal device helps nearby responders but cannot promise that someone knows your location. @E01,T06,ED
+action: If no message can get through, avoid uncertain travel just to find signal. Prepare to be located using known landmarks, shelter and available signals. @T06,E05,ED
+verify: Demonstrate one location report and one backup signal while the phone is disconnected. @ED
+stop: Do not assume help has been dispatched if you cannot confirm that a message was received. @ED
+diagram: Save information offline | Give a contact the plan | Practice a backup signal
+visual: The location record, overdue contact and signal serve different purposes.
+reviewer: Search and rescue and communication equipment
+
+Z01-P10 | Recognize the moment to call for help | American Red Cross first aid; new manuscript
+objective: Recognize emergency signs and transfer clear information to EMS.
+applies: Lay responder at a sudden injury or illness in the United States.
+equipment: Phone or emergency communicator and first-aid equipment as available.
+action: Look for ongoing danger before approaching. Observe responsiveness, breathing and life-threatening bleeding. @T01
+action: Call 911 for unresponsiveness, abnormal breathing or life-threatening bleeding. Give the exact location and describe what you see in plain language. @T02,T06
+action: Follow the dispatcher and work within your training. If someone else is available, assign them to communicate and guide responders. @T02,ED
+verify: State the emergency, location and access route. Confirm which person is calling. @T02,T06,ED
+stop: If the scene is unsafe, keep clear and give responders the hazard details. @T01,T02
+diagram: Scene safety | Recognize emergency signs | Call and follow dispatcher
+visual: A lay escalation pathway. Detailed first-aid procedures belong in Z10.
+reviewer: EMS and wilderness medicine
+
+Z02-P08 | Choose shade and reduce exertion | CDC heat guidance; new manuscript
+objective: Reduce heat load before the group becomes ill.
+applies: Hot weather outdoors, especially exertion or long exposure.
+equipment: Accessible cool refuge, safe drinking water and a working way to call for help.
+action: Schedule exertion for cooler periods where possible. Use a shaded or air-conditioned rest location and take breaks before anyone becomes ill. @E08
+action: Keep safe water accessible and check the group for changes in coordination, speech or behavior. @E08,T09,ED
+action: If heat stroke is suspected, call 911 and start cooling promptly while following emergency directions. @T09
+verify: Identify the nearest practical cool refuge and how the group will reach it before continuing. @E08,ED
+stop: Confusion, slurred speech or loss of consciousness in the heat is an emergency. @T09
+diagram: Avoid peak exertion | Rest in a cooler place | Emergency help for altered alertness
+visual: Exposure control and emergency recognition are separate decisions.
+reviewer: Heat illness and emergency medicine
+
+Z02-P09 | Inspect a shelter after the weather changes | B012 P18 and B003 shelter troubleshooting
+objective: Re-check exit, anchors and water paths after wind, rain or drifting snow changes.
+applies: An occupied temporary commercial shelter on an initially safe site.
+equipment: Light and shelter instructions, weather alerts and dry reserve insulation.
+action: From a safe position look for new runoff, pooling, drift at exits or displacement of the shelter and its anchors. @E04,E05,ED
+action: Keep exits free of gear or snow. Follow the shelter's operating instructions for its vents and supports. Keep combustion outside. @E05,C05,ED
+action: If you cannot restore safe conditions without remaining in danger, leave to a known safer location while the route is available. @E04,E05,ED
+verify: An occupant can identify and use the exit and the sleep area stays dry. @E05,ED
+stop: Uncontrolled flooding, collapse risk or suspected carbon monoxide exposure requires leaving and seeking appropriate help. @E04,C07
+diagram: Inspect changed runoff | Check exits and supports | Relocate if unsafe
+visual: A reinspection sequence driven by changed weather, not an engineered load rating.
+reviewer: Cold-weather shelter and fire safety
+
+Z02-P10 | Keep sleeping gear out of runoff | B003 tarp and B012 shelter plates
+objective: Separate the dry sleep system from wet ground and roof drainage.
+applies: Tent or tarp using a suitable site with rain or meltwater expected.
+equipment: Manufacturer-specified ground protection and dry insulation.
+action: Choose ground with no active runoff crossing the sleeping area. Consider where water will drip from the shelter and where it will flow. @E03,E04,ED
+action: Install the shelter and ground protection as instructed. Keep bedding away from standing water and wet gear. @E05,ED
+action: Observe the outside drainage from a safe position after rain starts. Relocate if it starts to cross the floor or exit route. @E04,ED
+verify: The visible drip path leads away from bedding and normal exits. @ED
+stop: Do not try to divert floodwater or depend on a shelter floor in a drainage channel. @E04,T07,ED
+diagram: Roof drip line | Dry sleep area | Runoff away from exit
+visual: The section places water flow outside the protected bed and exit area.
+reviewer: Shelter equipment and land management
+
+Z03-P08 | Use a light without combustion | NPS Ten Essentials and B012 P21
+objective: Provide task and signal lighting when a fire is unnecessary.
+applies: Camp tasks, searching packs or signaling at night.
+equipment: Headlamp or flashlight with spare batteries or independent backup.
+action: Carry a working light and spare power. Test the intended brightness and access before nightfall. @E02,ED
+action: Keep one light reachable for a nighttime exit. Reserve a second light or spare battery for failure. @E02,ED
+action: Use non-combustion lighting inside shelter and keep fuel-burning lights or appliances outside enclosed space. @C05,E02
+verify: Someone can turn on a backup while the main light is off. @ED
+stop: When safe movement depends on unavailable light, stop or reroute instead of guessing footing or starting a fire. @E02,T06,ED
+diagram: Carry light | Test backup power | Keep exit light reachable
+visual: A lighting fallback functions independently of heating and cooking.
+reviewer: Field equipment and fire prevention
+
+Z03-P09 | Check an outdoor stove before use | CDC and CPSC equipment safety; new manuscript
+objective: Identify placement, equipment and shutdown failures before using a stove outdoors.
+applies: Manufacturer-rated portable camping stove. Current site restrictions determine whether use is allowed.
+equipment: Stove and compatible fuel, manufacturer instructions and a stable outdoor working surface.
+action: Check land rules and confirm the exact stove and fuel configuration from the instructions. Use the stove only in its intended outdoor conditions. @C01,C05,ED
+action: Position the appliance away from enclosed shelters and combustibles. Keep people clear of the hot area and follow device-specific clearance requirements. @C05,C02,ED
+action: Observe for instability, abnormal operation or signs of leaking fuel. Stop and follow the manufacturer's safe shutdown instructions if conditions change. @C05,C04,ED
+verify: Check that the pot and stove are secure and that the shutoff is accessible before use. @ED
+stop: If equipment condition or clearance is uncertain, leave it off. If CO exposure is suspected, move to fresh air and seek emergency help. @C05,C07,ED
+diagram: Check stove and fuel | Use stable outdoor site | Keep shutdown accessible
+visual: An inspection sequence without a universal fuel coupling or clearance.
+reviewer: Portable appliance safety and fire prevention
+
+Z03-P10 | Identify the spark source in flint-and-steel | Gate A physics check and NPS Pipe Spring demonstration; new manuscript
+objective: Explain what produces the spark in a traditional flint-and-steel kit.
+applies: Interpretation or supervised demonstration outdoors at a currently authorized fire site.
+equipment: Identified traditional kit with suitable steel, a hard striking edge, prepared receptive tinder and fire-control equipment for any live demonstration.
+action: Identify the steel, hard edge and tinder receiver before arranging a demonstration. Use the documented kit rather than assuming two unknown stones will work. @C10,ED
+action: Trace the spark origin. The hard edge removes small steel particles, which heat and burn. The receiving tinder must be able to accept brief hot particles. @C10
+action: Keep a live demonstration separate from an equipment inspection. Skip live ignition unless current rules, conditions, supervision and extinguishing arrangements permit it. @C01,C02,C04,ED
+verify: Point to the steel particle path between striking edge and tinder. Confirm which component sheds the burning particle. @C10,ED
+stop: If material identity or site control is uncertain, discuss the schematic with the equipment cold. @C02,C10,ED
+diagram: Hard striking edge | Steel sheds particles | Receptive tinder
+visual: A material-flow mechanism. The colored particle path starts on steel and ends at the receiver.
+reviewer: Fire prevention and materials mechanics
+
+Z04-P08 | Read the exact water advisory | CDC public drinking-water advisories; new manuscript
+objective: Distinguish a boil-water notice from more restrictive notices.
+applies: A public drinking-water advisory from a utility or public health agency.
+equipment: Current notice, approved alternate water and a way to check amendments.
+action: Identify the affected area and the exact type of notice. Follow instructions for drinking, food preparation, hygiene and other uses. @W07
+action: Under boil-water instructions, use bottled or properly boiled water for the activities the notice lists. Under do-not-drink instructions use a permitted alternate supply for ingestion. @W07
+action: Follow a do-not-use restriction for all tap uses unless authorities explicitly give a limited exception. Recheck the notice before resuming normal use. @W07
+verify: Record issuing authority, address coverage, notice type and when the last update was obtained. @W07,ED
+stop: Do not boil your way around a chemical or do-not-use restriction. @W01,W07
+diagram: Identify issuing authority | Match exact notice type | Use approved option
+visual: Notice categories have different consequences. This card never overrides local instructions.
+reviewer: Drinking-water utility and public health
+
+Z04-P09 | Prepare a household water reserve | CDC emergency water supply; new manuscript
+objective: Make an accessible reserve of known potable water with verified storage.
+applies: Before a household service disruption or evacuation.
+equipment: Sealed commercial water or suitable sanitized food-grade containers, labels and protected storage space.
+action: Start with commercially bottled water or an approved potable source. If filling containers, use CDC storage guidance and choose vessels with known prior contents. @W06
+action: Close the container and label it with its fill date if applicable. Store away from chemicals and heat, and plan how to dispense without contaminating it. @W06,ED
+action: Size the reserve for the household, pets, weather and any medical needs. Keep an accessible portion for evacuation. @W06,T07,ED
+verify: Inspect seals and condition periodically, and follow the appropriate replacement guidance. @W06,ED
+stop: Replace containers with leaks or uncertain prior contents. If chemical contamination is suspected, seek another supply. @W01,W06
+diagram: Confirm potable source | Protect and label storage | Inspect and rotate
+visual: The starting condition is potable water, with storage controls after filling.
+reviewer: Household preparedness and drinking-water safety
+
+Z04-P10 | Clarify muddy water before treatment | B009 clarification concepts
+objective: Tell when visible sediment removal is useful and what hazards remain.
+applies: Cloudy water after source screening, with a validated downstream treatment available.
+equipment: Settling vessel or clean cloth, matched treatment equipment and separate clean storage.
+action: Reject water with suspected fuel or toxic chemicals. If turbidity is the remaining issue, let sediment settle or strain through clean cloth. @W01,W08
+action: Draw off the clearer portion without disturbing the settled material. Keep clarification tools on the raw side. @W08,ED
+action: Follow the applicable downstream microbial treatment. Clear appearance is not an acceptance criterion for drinking. @W02,W04,W08,W09
+verify: The group can point to the separate treatment operation and identify which contact surfaces are still raw. @ED
+stop: If there is no dependable treatment after clarification, seek another water supply. @W08,W09,ED
+diagram: Sediment settles | Draw clearer portion | Apply microbial treatment
+visual: Settling moves visible sediment to the bottom and leaves microbial hazards to downstream treatment.
+reviewer: Drinking-water safety

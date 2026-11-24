@@ -1,0 +1,601 @@
+Z02-P13 | Match shelter class to weather, terrain and group needs | NPS camping gear and Ready.gov shelter; new manuscript
+objective: Select a shelter category suited to forecast wind, precipitation, low temperature and occupant mobility before departure.
+applies: Planning day emergency kits, three-season backpacking, cold-weather camping or household storm contingencies.
+equipment: Weather forecast, route terrain notes and manufacturer specifications for available tents, tarps or bivies.
+action: Compare expected low temperatures, wind exposure, rain or snow loading and insect pressure against the shelter's stated seasonal rating and floor area. @E20,E16,E09
+action: Verify that every group member can enter, exit and reach dry insulation easily, accounting for height, mobility limits and gear storage needs. @E20,T10,ED
+action: Treat lightweight tarps and emergency bivies as limited weather barriers that require skillful site selection and dry ground insulation rather than all-weather enclosures. @E09,E05,E20
+failure: Carrying a summer mesh tent or thin foil blanket into forecast freezing rain, high winds or open alpine exposure. @E20,E16,E09
+verify: Confirm the chosen shelter matches forecast weather, fits all occupants with dry bedding and has been pitched in a dry rehearsal. @E20,ED
+stop: If forecast storms, wind or cold exceed the shelter's manufacturer design range, postpone, reroute or arrange substantial building refuge. @E16,E17,E20
+diagram: Read forecast and exposure | Match shelter design class | Verify fit and dry practice
+visual: Comparative configuration contrasting tarps, three-season tents, four-season tents and substantial buildings across weather boundaries. Conceptual, not to scale.
+reviewer: Shelter equipment and cold-weather shelter specialist
+
+Z02-P14 | Choose durable legal surfaces without trenching or cutting live trees | NPS Leave No Trace and USFS camping; new manuscript
+objective: Select natural high-and-dry camp pads that shed water without illegal terrain alteration or vegetation damage.
+applies: Developed campgrounds and dispersed public-land campsites in forests, prairies and backcountry corridors.
+equipment: Local land-agency rules, map and durable groundsheet sized to the shelter footprint.
+action: Check unit camping rules and pitch on established sites, bare mineral soil, rock, gravel, dry grass or deep snow where permitted. @E03,E21,E22
+action: Rely on natural elevated topography for drainage rather than digging trenches around tents, which damages soil, violates park rules and still fails in heavy runoff. @E21,E22,E04
+action: Avoid cutting live branches, peeling bark or clearing meadow vegetation for improvised beds or poles unless facing a genuine life-safety emergency with no alternative. @E22,E03
+failure: Pitching in a soft shoreline depression and digging a drainage ditch that floods anyway while damaging fragile banks. @E21,E22,E04
+verify: Confirm site legality, natural outward drainage slope and intact surrounding ground and live vegetation. @E03,E21,E22,ED
+stop: Move to a permitted, naturally drained durable surface whenever site legality, drainage or surface stability is uncertain. @E03,E04,E22
+diagram: Check site legality | Pick naturally drained surface | Leave terrain and live trees intact
+visual: Environmental terrain profile contrasting naturally elevated durable ground against low wet depressions and prohibited trenching. Conceptual, not to scale.
+reviewer: Land management and wilderness shelter
+
+Z02-P15 | Read cold-air drainage, valley fog and frost-pocket microclimates | NWS cold weather and NPS campsite selection; new manuscript
+objective: Avoid overnight temperature drops and heavy dew/frost caused by dense cold air pooling in terrain depressions.
+applies: Clear calm nights in hilly, forested or river-valley terrain during spring, autumn and winter.
+equipment: Topographic map, thermometer or forecast and dry insulating sleep system.
+action: Recognize that cooler, denser air flows downhill at dusk and settles in closed basins, valley bottoms and marsh margins—often producing lower temperatures and heavier frost than nearby mid-slopes. @E03,E15,E05,ED
+action: Prefer a gently elevated, sheltered bench slightly above the valley floor—avoiding both the cold damp hollow below and the high wind-swept ridge crest above. @E03,E04,E15
+action: Keep extra dry insulation accessible because rapid radiative cooling after sunset can push cool humid hollows toward hypothermia conditions above freezing. @E06,E10,E05
+failure: Camping beside a misty creek bottom for convenience and waking soaked with heavy condensation in temperatures far colder than the forecast. @E04,E06,E15
+verify: Confirm the selected camp sits above obvious cold-air hollows and out of exposed hilltop wind corridors. @E03,E15,ED
+stop: Relocate to higher dry ground or add insulation promptly if valley fog, pooling chill or sudden frost threatens sleeping gear dryness. @E05,E06,ED
+diagram: Cold air sinks into hollow | Exposed ridge catches wind | Choose sheltered mid-slope bench
+visual: Environmental valley cross-section illustrating nocturnal cold-air pooling, exposed ridge wind and the moderated mid-slope shelter zone. Conceptual, not to scale.
+reviewer: Meteorology and cold-weather shelter
+
+Z02-P16 | Screen slopes for avalanche terrain, cornices and runout zones | National Avalanche Center and USFS avalanche guidance; new manuscript
+objective: Exclude avalanche start zones, gullies and flat runout paths before selecting any winter rest stop or camp.
+applies: Snow-covered hilly, bluff or mountain terrain during winter and spring thaw.
+equipment: Regional avalanche forecast where published, topographic slope map and winter navigation tools.
+action: Check official regional avalanche forecasts before travel and treat slopes roughly 30 to 45 degrees—and terrain directly beneath them—as avalanche hazard zones. @E23,E01
+action: Look far upslope above flat valley bottoms and meadows; large slides travel well beyond steep ground into seemingly gentle runout paths and gullies. @E23
+action: Avoid overhanging wind-sculpted snow cornices along ridge crests and stay clear of steep snow-loaded gullies or recent debris piles when stopping or camping. @E23,E03
+failure: Pitching a winter tent on a flat valley floor directly under an unassessed steep snow slope or overhanging cornice. @E23
+verify: Confirm the site sits clear of steep upper slopes, overhead cornices and connected gully runout paths using both terrain inspection and map contours. @E23,ED
+stop: Without formal avalanche training, rescue gear and favorable current forecasts, exclude all avalanche slopes and runout zones completely. @E23
+diagram: Steep 30-45 deg start zone | Flat runout path below | Camp outside connected paths
+visual: Environmental slope profile separating steep avalanche start zones, overhanging cornices, valley runout reach and excluded camp boundaries. Conceptual, not to scale.
+reviewer: Avalanche safety and winter shelter
+
+Z02-P17 | Assess rockfall zones, cliff bases and saturated hillsides | NPS campsite selection and USFS hazard guidance; new manuscript
+objective: Reject unstable bluffs, talus aprons and rain-soaked slopes where falling rock or soil slumps threaten camp.
+applies: Bluffs, canyons, rocky lake shores, road cuts and steep forested hillsides, especially during freeze-thaw cycles or heavy rain.
+equipment: Daylight inspection vantage, map and headlamp for pre-dark checks.
+action: Scan above the site for fractured cliff faces, loose boulders perched on soil, fresh rock debris at the base and leaning trees rooted in shallow wet earth. @E03,E13,ED
+action: Recognize that freeze-thaw mornings, heavy rainfall, root saturation and wildlife or hikers above can dislodge rocks without warning. @E03,E13,E04
+action: Move well clear of steep talus aprons and undercut embankments onto broad, stable ground with unobstructed exits. @E03,E04,ED
+failure: Tucked under an inviting cliff overhang for rain cover without noticing fresh chipped rock fragments and dripping fractured ledges overhead. @E03,E13,ED
+verify: Confirm zero fresh rockfall debris, overhanging loose stone or saturated slump scars upslope of the shelter and exit path. @E03,E13,ED
+stop: Reject any cliff overhang, boulder field base or visibly slumping hillside regardless of how well it blocks rain or wind. @E03,E13
+diagram: Fractured bluff overhead | Fresh talus fall zone | Move to broad stable ground
+visual: Environmental hillside cross-section mapping freeze-thaw rockfall paths, saturated root-slump zones and safe setback terrain. Conceptual, not to scale.
+reviewer: Land management and geological field safety
+
+Z02-P18 | Orient shelter entrances relative to prevailing wind and storm shifts | NWS wind safety and B012 P10/P12; new manuscript
+objective: Position low aerodynamic faces toward wind while protecting entrances from driven rain, snow drift and gusts.
+applies: Pitching manufactured tents, tarps or emergency windbreaks in breezy, wet or winter conditions.
+equipment: Weather forecast showing wind shift direction, shelter guyline kit and natural terrain wind cues.
+action: Observe cloud motion, tree sway, snow drift tails and forecast frontal passages to identify both current wind direction and expected overnight wind shifts. @E15,E16,ED
+action: Aim the lowest, narrowest or most reinforced side of the shelter into the expected wind and place the door on the leeward or crosswind side to limit blowing rain and drifting snow. @E15,E16,E20
+action: Avoid pitching an open tarp mouth directly into oncoming wind—open fronts act like parachutes that tear tie-outs and strip away trapped calm air. @E16,E05
+failure: Facing a tent door into an approaching cold front because the sunset view faces west, flooding the vestibule and packing snow across the zipper. @E15,E16,E25
+verify: Confirm the windward profile is low and guyed cleanly while the doorway opens into calmer leeward air with a clear exit. @E15,E16,ED
+stop: If shifting gusts push against an exposed broad wall and threaten pole or anchor failure, re-orient before dark or move to a more sheltered site. @E16,E05
+diagram: Wind hits narrow low profile | Door faces calmer leeward side | Watch for frontal wind shift
+visual: Mechanism diagram illustrating airflow deflection over a low windward shelter face versus parachute uplift into an exposed door. Conceptual, not to scale.
+reviewer: Shelter equipment and cold-weather shelter
+
+Z02-P19 | Separate cooking, food storage and sleeping areas in wildlife country | USFS responsible recreation and NPS camping; new manuscript
+objective: Keep food odors, cooking spills and scented supplies isolated from tents and sleeping gear.
+applies: Backcountry and campground sites in bear, raccoon, rodent and wider wildlife habitats.
+equipment: Agency-approved food storage (bear canister, food locker or permitted hang system), separate outdoor stove area and clean sealable odor bags.
+action: Locate cooking, eating and dishwashing areas well downwind and separated from sleeping shelters according to local land-agency setback rules. @E27,E03
+action: Store all food, trash, toiletries, lip balm and food-stained clothing in approved wildlife-resistant containers or lockers—never inside tents or sleeping bags. @E27
+action: Keep portable stoves strictly outdoors at the cooking area; cooking inside tents combines wildlife attraction with lethal carbon monoxide and burn hazards. @E27,C05,C16
+failure: Snacking inside a sleeping bag or stashing wrappers and cooking pots in a tent vestibule overnight. @E27,C05
+verify: Confirm sleeping shelters contain zero food, scented items or cooking equipment and that all attractants are secured per unit rules. @E27,ED
+stop: If aggressive wildlife approaches camp or storage fails, follow local agency safety protocols, maintain safe distance and report to land managers. @E27,E03
+diagram: Sleeping shelter odor-free | Downwind outdoor cook area | Approved wildlife storage
+visual: Environmental camp-layout schematic separating sleeping shelters, downwind outdoor cooking zones and agency-approved food storage. Conceptual, not to scale.
+reviewer: Wildlife safety and land management
+
+Z02-P20 | Choose between existing buildings, vehicles, tents and improvised cover | Ready.gov shelter, NWS winter and B012 P02; new manuscript
+objective: Prioritize proven engineered structures over fragile fabric tents or risky improvised builds during developing hazards.
+applies: Any outdoor or travel disruption where multiple shelter options might be safely reachable.
+equipment: Local map, weather alerts and realistic assessment of travel distance and visibility.
+action: Prefer a safely accessible substantial building first, or a safely parked enclosed hard-topped vehicle for lightning and winter storms when no building is reachable. @E07,E14,E24
+action: Use a purpose-made tent or tarp in its rated weather range only when safely sited clear of flood, lightning, tornado and hazard-tree risks. @E03,E20,E07,E17
+action: Treat improvised natural windbreaks as a last-resort exposure measure when no manufactured shelter or safe refuge exists—never as an equivalent substitute for rated shelter. @E05,E09,ED
+failure: Spending hours building a shaky branch hut while a trailhead vehicle or ranger shelter sits safely twenty minutes back along a verified road. @E14,E05,ED
+verify: Name the highest-grade shelter reachable via a verified safe route before committing effort to building or pitching cover. @E24,E14,ED
+stop: Never leave a safe building or stranded winter vehicle into blinding visibility or severe storm hazards just to try a different shelter. @E14,E17,E25
+diagram: Substantial building first | Safe vehicle or rated tent | Improvised windbreak last resort
+visual: Decision tree ranking substantial buildings, safe vehicles, rated tents and improvised windbreaks by hazard protection and reachability. Conceptual, not to scale.
+reviewer: Emergency management and wilderness shelter
+
+Z02-P21 | Match shelter-in-place rooms to wind, tornado or outdoor air hazards | Ready.gov shelter and NWS tornado safety; new manuscript
+objective: Select the right interior room and preparation actions inside a building for distinct household emergencies.
+applies: Homes, cabins and sturdy buildings during tornado warnings, high winds, winter storms or outdoor hazardous-material/smoke alerts.
+equipment: Battery radio or alert phone, flashlights, sturdy shoes, drinking water and emergency kit.
+action: For tornadoes and extreme straight-line winds, move immediately to a basement, storm cellar or lowest-floor small interior room away from windows and exterior walls. @E17,E24
+action: For outdoor chemical releases or heavy wildfire smoke, follow official orders to close windows, shut off HVAC/ventilation intakes and move to an interior room until officials issue an all-clear. @E24,C19
+action: Never run portable generators, charcoal grills or unvented camp stoves inside a shelter-in-place room, basement or attached garage; keep CO alarms working and exits reachable. @C05,C06,C09,C16
+failure: Sheltering near large windows during a tornado warning, or running an indoor camp stove inside a sealed smoke-protection room. @E17,E24,C16
+verify: Household members can name the exact room for wind/tornado versus air-quality alerts and confirm working exits and CO alarms. @E24,C09,ED
+stop: If structural damage, fire, rising floodwater or suspected carbon monoxide threatens the shelter room, evacuate immediately to safer ground per official guidance. @E24,C07,T07
+diagram: Tornado: lowest interior room | Smoke/hazmat: shut intakes | Never burn fuel indoors
+visual: Comparative configuration contrasting tornado interior-core rooms, sealed outdoor-air refuge rooms and winter-storm shelter precautions. Conceptual, not to scale.
+reviewer: Emergency management and structural safety
+
+Z02-P22 | Evaluate shoreline, wetland and floodplain setback before pitching | NWS flood safety and NPS Leave No Trace; new manuscript
+objective: Stay above rising water, wave surge, saturated soils and marsh instability near lakes, rivers and creeks.
+applies: Camping near lakes, canoe routes, river bars, creek bends and Upper Midwest wetlands.
+equipment: Topographic map, local water-level or dam-release alerts and durable shelter kit.
+action: Pitch above high-water drift lines, gravel bars and floodplains—remembering upstream rain or dam releases can raise rivers hours later under clear local skies. @E04,T16
+action: Maintain agency-required setbacks from lakeshores and streams to protect water quality, keep off saturated spongy soils that cannot hold tent stakes and reduce cold damp mist. @E21,E22,E04
+action: Inspect the bank for fresh mud lines, flattened grass or lodged woody debris that reveal recent flood heights, and verify an uphill dry escape route. @E04,ED
+failure: Pitching on a flat scenic sandbar below a river cutbank that floods overnight from distant watershed storms. @E04,T16
+verify: Confirm the tent pad sits above visible high-water marks, on firm draining soil, with an unobstructed uphill exit. @E04,E22,ED
+stop: Vacate shoreline or valley-bottom sites immediately if river levels rise, water turns suddenly muddy or a Flood Watch/Warning is issued. @E04,T16
+diagram: Floodplain & debris marks | Saturated bank fails stakes | Pitch high with uphill exit
+visual: Environmental floodplain cross-section marking drift debris lines, unstable wet soils, safe high-ground setback and uphill exit route. Conceptual, not to scale.
+reviewer: Hydrology, emergency management and land management
+
+Z02-P23 | Separate conductive, convective, radiative and evaporative heat loss | NWS cold safety and CDC hypothermia; new manuscript
+objective: Target each distinct physical heat-loss pathway with the right barrier instead of relying on a single layer.
+applies: Designing and troubleshooting cold-weather clothing, bedding and shelter systems in any environment.
+equipment: Ground insulation pad, windproof outer barrier, dry insulating loft and vapor-management clothing layers.
+action: Block conduction into cold ground or snow first using dry uncompressed insulation beneath the body; air and ground drain heat rapidly through compressed fabric. @E05,E20
+action: Block convection with a windbreak or windproof shell, and limit evaporation by shedding damp cotton, venting sweat during work and keeping rain off insulation. @E15,E10,E05
+action: Recognize that radiation still escapes to clear night skies and cold walls; overhead cover and dry lofted layers slow radiative cooling without sealing away fresh breathing air. @E05,E15,ED
+failure: Wrapping in a windproof jacket while lying directly on frozen soil, or piling on thick wool while standing exposed in driving wind. @E05,E15,E10
+verify: Point to the exact barrier addressing ground contact, moving air, wetness and sky exposure in your current setup. @E05,E15,E10,ED
+stop: If shivering becomes uncontrollable, speech slurs or hands fumble despite barriers, stop adjusting gear and initiate hypothermia escalation and emergency help. @E06,T03
+diagram: Conduction -> ground pad | Convection -> wind barrier | Evaporation -> keep dry
+visual: Mechanism diagram mapping conductive, convective, evaporative and radiative body heat-loss pathways to matched physical barriers. Conceptual, not to scale.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z02-P24 | Control interior condensation with airflow and rainfly clearance | B012 P18 and NPS camping shelter guidance; new manuscript
+objective: Prevent exhaled water vapor and damp gear from soaking sleeping bags and frosting inner shelter walls.
+applies: Occupied single-wall or double-wall tents, bivies and tarps in cool, humid or freezing weather.
+equipment: Tent with functional upper and lower vents, rainfly guylines, absorbent cloth and dry storage bags.
+action: Keep manufacturer-designed high and low vents open—even in cold weather—so warm moist breath escapes upward rather than condensing onto fabric and dripping onto bedding. @E05,E20,E25
+action: Guy out the rainfly cleanly so a continuous air gap separates the wet outer fly from the breathable inner tent wall; fabric touching fabric wicks water straight inside. @E20,E05,ED
+action: Keep wet boots, rain shells and packs out of dry sleeping spaces where practical, and wipe down interior frost or condensation gently before packing or shifting bags. @E10,E20,ED
+failure: Zipping every tent vent completely shut in cold air to stay warm, turning the shelter interior into a dripping condensation chamber that wets sleeping loft. @E05,E10,E25
+verify: Confirm upper/lower vents remain clear, rainfly stands off the inner canopy and sleeping bags stay clear of damp wall edges. @E20,E25,ED
+stop: Never run a stove, candle or heater inside a tent to dry condensation; if wet bedding compromises warmth, replace with dry reserves or relocate to safer refuge. @C05,C16,E06
+diagram: Open high and low vents | Keep fly-to-inner air gap | Protect dry sleeping loft
+visual: Cutaway view of a double-wall tent illustrating warm vapor airflow out upper vents, rainfly clearance gap and dry bedding separation. Conceptual, not to scale.
+reviewer: Cold-weather shelter specialist
+
+Z02-P25 | Layer groundsheets without funneling rainwater under the tent floor | B012 P12 and NPS camping gear; new manuscript
+objective: Protect tent floors from abrasion and damp soil while preventing protruding plastic edges from collecting rain pools.
+applies: Pitching a commercial tent or tarp shelter over damp soil, gravel or wet forest duff.
+equipment: Purpose-sized tent footprint or clean groundsheet slightly smaller than the floor, plus dry sleeping pad.
+action: Trim or fold the groundsheet cleanly underneath the shelter so every edge stops a few inches inside the tent floor perimeter—never sticking out past the rainfly drip line. @E20,E04,ED
+action: Place the groundsheet on smooth, cleared durable ground free of sharp sticks or stones that can puncture waterproof coatings under body weight. @E20,E22,ED
+action: Recognize that a waterproof groundsheet stops liquid seepage only—it provides almost no thermal insulation from cold ground, so an insulating pad is still mandatory inside. @E05,E20
+failure: Spreading an oversized blue tarp out beyond the tent walls where it catches roof runoff and channels a puddle directly underneath the floor seams. @E04,E20,ED
+verify: Walk the perimeter and confirm zero groundsheet fabric protrudes beyond the shelter wall or catches roof drips. @E20,ED
+stop: If surface water begins flowing across the pad despite proper groundsheet tucking, relocate the shelter to higher draining ground immediately. @E04,E20
+diagram: Roof sheds outside drip line | Groundsheet tucked inside floor | Insulating pad above floor
+visual: Cutaway cross-section showing properly tucked footprint inside the tent perimeter versus an oversized tarp channeling rain underneath. Conceptual, not to scale.
+reviewer: Shelter equipment and field education
+
+Z02-P26 | Stack foam and inflatable pads for cold ground insulation | B012 P11 and NPS winter camping; new manuscript
+objective: Maintain reliable underbody thermal separation on frozen soil or snow and protect against inflatable-pad puncture failure.
+applies: Cold-weather overnight stops, snow camping and chilly ground emergencies.
+equipment: Closed-cell foam sleeping pad, insulated inflatable pad if carried, patch kit and dry ground barrier.
+action: Combine a closed-cell foam pad underneath an insulated inflatable pad in cold conditions to increase ground separation and shield the air pad from punctures. @E05,E20,E09
+action: Inspect inflatable valves and seams before bedtime and avoid over-pressurizing or dragging air pads over pine cones, gravel or sharp frozen twigs. @E20,ED
+action: Keep underbody insulation centered beneath shoulders, hips and torso—not just the head—using folded dry spare clothing or a dry pack under feet if a short pad is used. @E05,E09,ED
+failure: Relying on a single uninsulated air mattress on frozen ground, where convective air movement inside the pad drains core warmth all night. @E05,E20
+verify: Lie briefly in full sleep position to confirm no shoulder, hip or knee presses directly against cold ground or deflated chambers. @E05,ED
+stop: If an inflatable pad fails in freezing weather and no dry foam or backup ground insulation keeps the sleeper warm, switch to dry natural/clothing buffers and reassess exit or rescue. @E05,E06,ED
+diagram: Sleeper and dry bag | Insulated pad layer | Closed-cell foam on cold ground
+visual: Material cross-section stacking sleeping bag, insulated air pad, puncture-resistant closed-cell foam and frozen ground substrate. Conceptual, not to scale.
+reviewer: Cold-weather shelter specialist
+
+Z02-P27 | Protect sleeping bags from loft compression and foot-box moisture | B012 P04–P06 and NPS camping gear; new manuscript
+objective: Preserve trapped dead-air insulation inside synthetic or down sleeping systems throughout wet or multi-night trips.
+applies: Overnight backcountry camping and cold-weather emergency delays using sleeping bags or quilts.
+equipment: Waterproof pack liner or dry compression sack, dry dedicated sleep base layers and insulated sleeping pad.
+action: Pack sleeping bags inside a sealed waterproof liner during travel so rain, river splashes or leaking water bottles cannot reach the insulation. @E10,E20,W06
+action: Change into dry sleep-only base layers and dry socks before entering the bag, and avoid tucking your nose and mouth inside the bag—exhaled breath condenses inside the loft overnight. @E10,E05,ED
+action: Keep the foot box and outer shell clear of damp tent walls and give sleeping bags time to loft fully after unpacking; compressed down or wet fibers lose thermal resistance rapidly. @E05,E10,E20
+failure: Breathing inside a cinched sleeping bag hood all night or stuffing a damp jacket into the foot box, saturating down insulation by morning. @E10,E05
+verify: Confirm the bag stays inside dry storage during transit, lofts evenly at camp and remains clear of damp tent fabric and exhaled moisture. @E10,E20,ED
+stop: If down or primary insulation becomes saturated in cold weather and cannot be safely replaced with dry layers, abort overnight exposure and move to warm refuge or request help. @E06,E10,T03
+diagram: Dry outer shell off walls | Full uncompressed insulating loft | Dry sleeper; breathe outside
+visual: Material cross-section illustrating uncompressed insulating loft versus moisture-collapsed insulation and breath-outside moisture control. Conceptual, not to scale.
+reviewer: Cold-weather shelter and field equipment
+
+Z02-P28 | Use reflective emergency blankets and bivies while managing vapor buildup | NPS Ten Essentials and NWS winter; new manuscript
+objective: Deploy emergency reflective sheets or sacks effectively as wind and radiant barriers without creating hypothermia-inducing condensation.
+applies: Unplanned cold stops, waiting for rescue or augmenting insulation during emergency delays.
+equipment: Heavy-duty reflective emergency blanket or bivy sack, dry insulating layers and separate ground pad.
+action: Use an emergency reflective sheet primarily as a windproof outer shell or lean-to reflector over existing dry insulating layers and a ground barrier—thin foil alone conducts cold straight from the ground. @E09,E05,E15
+action: Keep the face unobstructed and leave a controlled neck or side opening on emergency bivy sacks so sweat and warm breath can escape rather than drenching your inner clothes. @E10,E09,ED
+action: Handle thin metalized film gently away from sharp twigs, rocks and open flames—standard mylar tears instantly from a small nick and melts near fire. @E09,C02,ED
+failure: Climbing inside a sealed plastic emergency bag in damp clothes directly on frozen earth, waking soaked in trapped sweat and chilled by ground conduction. @E05,E09,E10
+verify: Confirm dry insulation lies beneath and inside the reflective layer, breathing space is clear and edges are protected from tearing. @E05,E09,ED
+stop: Do not assume a pocket emergency blanket guarantees overnight winter survival; monitor companions for confusion or drowsiness and activate help early. @E06,E09,T03
+diagram: Outer wind/radiant barrier | Dry lofted clothing inside | Ground pad below; vent face
+visual: Material cross-section contrasting a ventilated reflective outer layer over dry insulation against a condensation-trapped bare mylar wrap. Conceptual, not to scale.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z02-P29 | Avoid cotton and manage damp outer shells inside sleeping areas | NWS winter, CDC hypothermia and B012 P05–P06; new manuscript
+objective: Keep moisture-holding fabrics off skin and prevent wet outer rainwear or snow-dusted gear from soaking dry sleep insulation.
+applies: Cool, wet, windy or freezing trips where rain, snowmelt or sweat wets outer clothing.
+equipment: Synthetic or wool base/mid layers, waterproof breathable or wind shell, dedicated dry sleep bag and vestibule or pack cover.
+action: Leave cotton shirts, jeans and cotton socks out of cold/wet field kits—cotton absorbs water readily, collapses thermally and accelerates cooling against skin. @E10,E06
+action: Shake snow and droplets off outer shells before entering shelter and isolate wet boots, rain jackets and wet gloves in a vestibule or waterproof bag apart from dry bedding. @E10,E05,ED
+action: Change out of damp daytime base layers only after entering wind-protected shelter with dry replacement garments immediately in hand. @E05,E10
+failure: Climbing straight into a sleeping bag wearing damp cotton pants or leaving snow-caked jackets piled on top of sleeping bags inside a small tent. @E10,E06
+verify: Confirm skin-contact sleep layers are dry wool or synthetic and wet outer items stay physically segregated from sleeping insulation. @E10,ED
+stop: If a companion cannot warm up after moving out of wind and changing into dry layers, escalate for suspected hypothermia immediately. @E06,T03
+diagram: Wool/synthetic dry core | Damp shells isolated outside | Zero cotton in cold/wet kits
+visual: Comparative configuration contrasting moisture retention and thermal loss of wet cotton versus dry wool/synthetic layering and shell isolation. Conceptual, not to scale.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z02-P30 | Adapt warm-weather tarp and shade pitch for solar heat and airflow | CDC heat, NWS heat and Ready.gov heat guidance; new manuscript
+objective: Reduce direct solar radiation while maximizing cross-breeze ventilation during hot or humid weather.
+applies: Hot sunny camps, midday rest stops and heat-wave outdoor delays where enclosed tents overheat rapidly.
+equipment: Light-colored or reflective tarp, trekking poles or legal attachment points, guylines and safe drinking water.
+action: Pitch an elevated open tarp or canopy high enough for unobstructed cross-breeze airflow beneath it, avoiding dark enclosed tents during midday sun. @E19,E08,E26
+action: Angle the shade canopy to track the sun's afternoon arc and orient the open sides to capture prevailing breeze rather than trapping stagnant hot air. @E19,E26,ED
+action: Pair shaded rest with reduced midday exertion, cool hydration and continuous group monitoring for heat exhaustion or heat stroke. @E08,E26,T09
+failure: Resting inside a zipped sun-baked tent during a 95°F afternoon, driving interior heat index far above ambient air temperature. @E19,E08,T09
+verify: Confirm full overhead shade across the rest area, steady air movement beneath the canopy and easy access to safe drinking water. @E19,E08,ED
+stop: If anyone develops confusion, slurred speech, collapse or stops coping with heat, call 911 and begin rapid cooling immediately. @T05,T09,E26
+diagram: Elevated shade blocks sun | Open sides pass cross-breeze | Rest and monitor heat signs
+visual: Mechanism diagram showing solar radiant blocking by an elevated high-pitch tarp combined with open convective cross-ventilation. Conceptual, not to scale.
+reviewer: Heat safety and shelter design
+
+Z02-P31 | Compare freestanding dome, tunnel and trekking-pole tent geometries | NPS camping gear and NWS wind safety; new manuscript
+objective: Understand how pole architecture and stake dependence affect setup, stability and weather limits across manufactured tents.
+applies: Selecting or pitching commercial tents across forest sites, rocky pads and windy open terrain.
+equipment: Complete tent body, rainfly, matching poles, full stake set and manufacturer pitch instructions.
+action: Recognize that freestanding dome tents hold basic shape without stakes for positioning on rock or hard pads, yet still MUST be staked and guyed against wind lift. @E20,E16,ED
+action: Recognize that tunnel and non-freestanding trekking-pole tents rely completely on opposing stake tension and guyline alignment to stand; one failed end stake can flatten the whole frame. @E20,E16,ED
+action: Follow the manufacturer's exact pole-sleeve, clip and guy-out sequence rather than substituting missing poles or skipping guy points in breezy weather. @E20,E16
+failure: Leaving a freestanding dome tent unstaked while stepping away, letting a sudden gust tumble or tear the shelter across camp. @E16,E20
+verify: Confirm all pole tips seat fully in grommets, guylines tension evenly per instructions and the shelter stays firmly anchored when tested gently by hand. @E20,E16,ED
+stop: Do not use a three-season geometry in severe storms, heavy wet snow or high winds outside its manufacturer limits; relocate to substantial shelter. @E16,E17,E20
+diagram: Dome: stake against wind | Tunnel: stake tension critical | Trek-pole: aligned guy geometry
+visual: Comparative configuration contrasting structural support and stake-dependence across freestanding dome, tunnel and trekking-pole tents. Conceptual, not to scale.
+reviewer: Shelter equipment specialist
+
+Z02-P32 | Compare A-frame, lean-to and low-storm tarp pitch configurations | B003 tarp plate and NPS shelter guidance; new manuscript
+objective: Match tarp pitch geometry to shifting wind, rain angle and ventilation needs without overclaiming storm resistance.
+applies: Commercial backcountry tarps pitched on permitted durable sites with dry ground insulation.
+equipment: Rated tarp with reinforced tie-outs, clean cordage, stakes, trekking poles or lawful tree anchors and groundsheet.
+action: Use a symmetrical A-frame pitch for overhead rain protection with open end ventilation; drop edges closer to the ground when blowing rain enters from the sides. @E20,E15,ED
+action: Use an open lean-to pitch only for mild windbreak or shade when rain will not swirl under the high open front; expect wind shifts to expose the interior. @E15,E16,ED
+action: Use a low-profile storm pitch (half-pyramid or low windward wedge) with windward edge near the ground and leeward vent when gusts rise, accepting reduced headroom and keeping exits reachable. @E15,E16,ED
+failure: Pitching a flat high tarp in heavy rain, allowing water to pool in the center until fabric tears or tie-outs pull free. @E16,E20,ED
+verify: Confirm taut sloped runoff planes with zero water-pooling sags, clear exit clearance and reliable ground-splash setback. @E04,E20,ED
+stop: Tarps offer no lightning protection and limited defense against severe squalls, heavy snow or extreme wind; relocate to rated or substantial shelter when storms intensify. @E07,E16,E17
+diagram: A-frame: rain & airflow | Lean-to: directional wind/shade | Low pitch: gusts & spray
+visual: Comparative configuration showing rain-shedding slopes, wind exposure and headroom trade-offs across A-frame, lean-to and low-storm tarp pitches. Conceptual, not to scale.
+reviewer: Shelter equipment and field education
+
+Z02-P33 | Understand load paths across ridgepoles, tent poles, fabric and guylines | B012 P13 and structural mechanics principles; new manuscript
+objective: Trace how wind, fabric tension and precipitation forces travel through a shelter frame down to ground anchors.
+applies: Inspecting manufactured tents, tarps and emergency windbreaks before and during weather exposure.
+equipment: Complete shelter assembly and inspection checklist (no unvalidated field load testing).
+action: Trace downward and sideways loads from the roof surface through poles or ridgelines into tensioned guylines and ground anchors—the weakest link in that chain governs failure. @E20,E16,ED
+action: Keep pole joints fully seated, fabric panels evenly taut without concentrated stress wrinkles and guylines angled outward to oppose wind lift cleanly. @E20,E16,ED
+action: Recognize that improvised deadfall frames and field-cut poles have unknown wood grain, rot and joint friction—never assign them unvalidated snow-load or wind-load capacities. @E13,E05,ED
+failure: Attaching a heavy tarp mid-panel with a pebble knot or leaning snow-laden branches onto a cracked deadwood ridgepole. @E16,E13,ED
+verify: Confirm every load-bearing junction—pole ferrule, corner seam, guyline knot and ground stake—shows even tension without kinks, splits or loose play. @E20,E16,ED
+stop: Any bent pole, splitting wood support, tearing seam or slipping anchor interrupts the load path; unload and vacate the shelter rather than sleeping beneath it. @E16,E05,ED
+diagram: Wind & rain roof load | Poles & tensioned guylines | Ground anchor resistance
+visual: Mechanism diagram tracing wind uplift and roof loads through tensioned fabric, poles and guyline vectors into ground anchors. Conceptual, not to scale.
+reviewer: Structural safety and shelter equipment
+
+Z02-P34 | Inspect fabric coatings, seam tape, zippers and pole joints before use | NPS camping gear and Ready.gov kit maintenance; new manuscript
+objective: Catch worn waterproofing, cracked shock-cord, bent ferrules and snagged zippers before field weather exposes them.
+applies: Pre-trip inspection of stored tents, tarps, bivies and repair kits at home or before storm seasons.
+equipment: Shelter set, spare pole splint sleeve, seam-safe repair tape, spare cordage and clean dry test space.
+action: Pitch or lay out the shelter in daylight to inspect pole ferrules for hairline splits, check internal shock-cord elasticity and confirm all rainfly buckles and tie-outs are intact. @E20,T12
+action: Check interior waterproof coatings and seam tape for stickiness, flaking, mildew odor or pinholes, and slide every door zipper gently to verify clean teeth alignment. @E20,T12,ED
+action: Pack a compatible pole repair splint, fabric patch tape and spare guyline cord matched to the shelter before departure. @E20,E02,ED
+failure: Discovering peeling polyurethane floor coating and snapped pole shock-cord at dusk during a cold downpour. @E20,T12
+verify: Confirm complete component count (body, fly, poles, stakes, guys, repair kit) and smooth zipper/pole operation prior to packing. @E20,T12,ED
+stop: Do not rely on a shelter with split pole ferrules, failed floor waterproofing or broken door zippers for wet or cold overnight travel. @E20,E05
+diagram: Poles & shock-cord joints | Fly coating & seam tape | Door zippers & repair kit
+visual: Exploded component inspection view highlighting tent pole ferrules, seam-taped fly panels, corner tie-outs and door zipper tracks. Conceptual, not to scale.
+reviewer: Shelter equipment and field maintenance
+
+Z02-P35 | Match stakes and anchors to soil, sand, mud and compacted snow limits | NPS camping and NWS wind safety; new manuscript
+objective: Recognize how substrate type changes anchor holding behavior without assuming unvalidated pullout capacities.
+applies: Anchoring manufactured tents and tarps on forest soil, rocky pads, wet mud, sand or consolidated snow.
+equipment: Stakes matched to expected ground (Y/V-profile stakes, wider sand/snow stakes or clean deadman/rock options where lawful).
+action: Check substrate firmness before pitching; slim wire pegs pull straight out of soft mud, loose sand, thick leaf duff and dry snow under modest wind gusts. @E16,E20,ED
+action: Drive stakes at an outward angle per shelter instructions into firm soil, or use wide snow/sand stakes or clean wrapped deadman rocks/logs where terrain rules allow—avoiding live roots. @E20,E22,ED
+action: Test anchor firmness gently by hand before relying on the pitch and recheck anchors after rain saturates the soil or afternoon sun softens snowpack. @E16,E04,E20
+failure: Expecting standard aluminum wire pegs pushed into wet forest duff or melting spring snow to hold a tarp through a night squall. @E16,E20
+verify: Confirm every primary corner and windward guyline sits in firm substrate and resists steady hand tension without creeping. @E16,E20,ED
+stop: Anchor strength varies wildly with soil moisture and snow crystal state—no universal pullout rating is implied; relocate to protected refuge if anchors creep in rising wind. @E16,E05,ED
+diagram: Firm soil: angled V/Y stake | Sand/snow: wide deadman | Wet mud: recheck for creep
+visual: Comparative configuration contrasting stake engagement in firm mineral soil, loose sand/snow and saturated mud with zero claimed pullout ratings. Conceptual, not to scale.
+reviewer: Shelter equipment and geotechnical field safety
+
+Z02-P36 | Distribute tension across guylines without overloading corners or tie-outs | NPS camping and NWS wind safety; new manuscript
+objective: Share wind loads across multiple reinforced attachment points rather than stressing a single fabric corner.
+applies: Securing tents and tarps in open, breezy or storm-prone camps using manufacturer tie-out loops.
+equipment: High-visibility reflective guyline cord, line tensioners or adjustable hitches and suitable stakes.
+action: Attach guylines strictly to manufacturer-reinforced seam loops and pole-crossing tabs—never pinch unreinforced fabric panels that tear under gust loads. @E20,E16,ED
+action: Set guyline angles cleanly outward along seam load lines and equalize tension across opposing sides so no single windward corner takes the full shock load. @E16,E20,ED
+action: Use high-visibility cordage or mark lines clearly at walking routes so companions do not trip in the dark, snapping stakes or ripping seams. @E02,E20,ED
+failure: Guying out only one windward corner tightly while leaving pole-midpoints unguyed, snapping a flexed tent pole during a cross-gust. @E16,E20
+verify: Walk around the shelter checking that all windward guylines share even tension, stay clear of exit paths and keep rainfly separated from inner walls. @E16,E20,ED
+stop: If gusts cause fabric seams to stretch noticeably or lines repeatedly slacken, lower exposure or move immediately to substantial shelter. @E16,E17
+diagram: Reinforced seam loops | Even outward tension angles | Visible lines clear of exits
+visual: Exploded layout showing reinforced guyline attachment points, balanced opposing tension vectors and unobstructed walking/exit corridors. Conceptual, not to scale.
+reviewer: Shelter equipment specialist
+
+Z02-P37 | Recognize material strength limits of coated nylon, polyester and plastic sheeting | NPS camping gear and fire safety; new manuscript
+objective: Account for wet stretch, UV degradation, tear propagation and heat/spark vulnerability across common shelter fabrics.
+applies: Selecting, pitching and caring for manufactured tarps, tents and improvised plastic sheeting.
+equipment: Shelter material specification sheet, compatible repair tape and fire-separation awareness.
+action: Recognize that silicone- or polyurethane-coated nylon sags when wet and requires re-tensioning in rain, whereas polyester stretches less when wet but varies by denier and coating quality. @E20,ED
+action: Recognize that disposable polyethylene sheeting tears rapidly along small punctures, traps heavy condensation and offers low wind resistance compared to ripstop fabrics. @E09,E16,ED
+action: Keep ALL synthetic fabrics and plastic sheets well away from stove flames, campfire sparks and hot coals—ultralight synthetics melt and ignite rapidly, causing severe burns. @C02,C15,C05
+failure: Pitching a nylon rainfly tightly in dry afternoon air without re-checking wet sag at night, letting wet fabric droop onto sleeping bags, or sparking a synthetic tarp near a stove. @E20,C15,ED
+verify: Identify your shelter's primary fabric class, check wet-tension adjustment access and confirm zero flame or spark sources operate nearby. @E20,C02,C15,ED
+stop: Retire UV-brittle, tearing or delaminated shelter fabric before storms; never patch over failed structural seams to push a shelter into severe weather. @E16,E20
+diagram: Nylon: retension when wet | Polyester: lower wet sag | All synthetics: melt near flame
+visual: Comparative configuration contrasting wet-stretch, tear behavior, UV aging and spark/heat sensitivity across nylon, polyester and plastic film. Conceptual, not to scale.
+reviewer: Shelter materials and fire safety
+
+Z02-P38 | Evaluate natural windbreak barriers without adding overhead branch loads | B012 P10 and NWS winter safety; new manuscript
+objective: Use sound natural terrain features or low fallen logs for wind shelter while keeping overhead collapse risk zero.
+applies: Emergency exposure reduction on stable ground when no manufactured shelter or building is available.
+equipment: Existing stable natural feature (terrain rise, sound boulder or immovable grounded log), dry insulation and wind clothing.
+action: Select an immovable natural barrier—such as a terrain rise, solid rock outcrop or firmly embedded low log—after confirming zero overhead dead limbs, rolling rocks or runoff channels. @E05,E04,E13
+action: Position your dry insulated bed tightly on the calmer leeward side while keeping an open, unobstructed exit path clear of stacked sticks or snow banks. @E05,E15,ED
+action: Resist stacking heavy dead branches overhead to create a roof; a low open windbreak paired with dry insulation avoids overhead collapse hazards and saves critical energy. @E05,E13,ED
+failure: Wedging beneath an unstable tilted root-ball or piling heavy rotten limbs across a log where wind or snow can collapse them onto the sleeper. @E13,E05,ED
+verify: Confirm the natural barrier cannot roll or shift, zero load hangs overhead and you can stand and exit freely. @E05,E13,ED
+stop: If wind shifts around the barrier, blowing snow buries the bed or exposure worsens, relocate to a safer refuge or summon emergency help. @E05,E06,T06
+diagram: Stable grounded barrier | Dry bed in leeward eddy | Zero overhead load; clear exit
+visual: Cutaway view comparing a safe low grounded windbreak and insulated bed against an unsafe stacked-limb overhead load. Conceptual, not to scale.
+reviewer: Cold-weather shelter and wilderness safety
+
+Z02-P39 | Understand structural hazards of improvised debris roofs and A-frames | B012 P13 natural winter A-frame; adapted historical material
+objective: Recognize why fallen-branch A-frames and debris huts lack verified load ratings and when to reject overhead builds.
+applies: Conceptual assessment of improvised emergency shelters; this card is NOT a snow-load build specification.
+equipment: Safe terrain assessment; if equipped, prefer a purpose-made shelter or existing safe refuge over improvised wood framing.
+action: Inspect site safety first—reject dead standing trees, runoff channels and snow-loaded canopies before considering any natural materials. @E03,E04,E13
+action: Recognize that deadfall ridgepoles and side ribs have unpredictable internal rot, knots and joint slippage; fallen-branch framing carries ZERO validated snow-load or wind-load rating. @E13,E05,ED
+action: Recognize that wet leaves, damp moss or melting snow piled onto an improvised frame soak bedding rapidly and add sudden roof weight that can collapse onto an occupied sleeping area. @E05,E10,ED
+failure: Sleeping beneath a heavy debris roof built from brittle deadwood during wet snowfall or rising wind. @E13,E05,E16
+verify: Confirm you can explain why a low windbreak plus dry ground insulation beats an untested overhead roof when wood soundness or weather loading is uncertain. @E05,E13,ED
+stop: Never occupy an improvised roof that sags, creaks, shifts or accumulates snow; move immediately to clear ground, maintain wind/ground protection and seek help. @E05,E13,T06
+diagram: Unrated deadfall support | Unknown rot and roof weight | Prefer safe windbreak or rated tent
+visual: Cutaway hazard schematic of an improvised branch A-frame labeling unvalidated ridge support, wet debris weight and collapse risk. Conceptual, not to scale.
+reviewer: Cold-weather shelter and structural safety
+
+Z02-P40 | Understand lean-to airflow and unvalidated fire-separation boundaries | B012 P14 lean-to and fire separation; adapted historical material
+objective: Separate open windbreak function from outdoor campfire hazards without assuming any universal safe clearance distance.
+applies: Conceptual shelter-and-fire relationship; open fires require lawful authorization, weather checks and constant attendance.
+equipment: Safe site assessment, dry insulation layers, and—only where fire is lawful and controllable—water and stirring tool.
+action: Treat an open lean-to strictly as a directional windbreak clear of overhead hazards and runoff, keeping an unobstructed exit at all times. @E05,E04,E13
+action: Treat any outdoor fire as an independent hazard requiring current burn permission, wind screening, water ready and a named awake attendant—never sleep next to an unattended fire. @C01,C02,C04
+action: Recognize there is NO universally safe fire-to-shelter clearance distance: wind eddies, dry brush, synthetic fabric melting, sparks and radiant heat vary at every site. @C02,C18,ED
+failure: Building a roaring fire close to a synthetic tarp or dry brush lean-to using a memorized step-count clearance and falling asleep while wind shifts sparks onto bedding. @C02,C04,C18
+verify: Confirm exposure control relies on dry insulation and wind protection first, with zero flame or hot embers threatening fabric, wood or breathing air. @E05,C02,C05,ED
+stop: Extinguish or relocate an outdoor fire immediately if smoke enters the shelter, wind shifts toward dry materials or radiant heat warms shelter surfaces; never burn fuel inside an enclosure. @C02,C04,C05,C16
+diagram: Open windbreak shelter | Unvalidated clearance zone | Separate attended lawful fire
+visual: Cutaway schematic highlighting swirling wind/spark hazard between an open lean-to and an outdoor fire, explicitly noting no universal safe distance. Conceptual, not to scale.
+reviewer: Fire prevention and cold-weather shelter
+
+Z02-P41 | Recognize why snow trenches require training, tools and roof-stability checks | B012 P15 snow trench; adapted historical material
+objective: Understand the collapse, drift-burial and exhaustion hazards of excavated snow trenches before attempting any digging.
+applies: Winter snowpack environments; this card states hazard boundaries and is NOT an untrained construction specification.
+equipment: Formal winter training, avalanche check, snow shovel, dry reserve layers and rescue communication plan.
+action: Prefer existing stable buildings, safe vehicles or rated tents over digging snow when exposure, wind or fatigue is rising—digging burns heavy energy and causes dangerous sweating. @E14,E10,E25
+action: Exclude avalanche slopes, cornices, stream channels and unstable granular snow; snow depth alone NEVER proves roof strength or block cohesion. @E23,E04,ED
+action: Without proper snow tools, formal training and an unobstructed escape plan, never roof over an excavated trench; use a low open windwall and insulated bed or existing refuge instead. @E05,E25,ED
+failure: Digging a roofed snow trench with bare gloves in sugary unconsolidated snow, soaking clothing with sweat and risking sudden slab collapse. @E10,E23,E25
+verify: Confirm avalanche terrain is excluded, dry layers stay protected from sweat and no occupant sleeps beneath an unverified snow roof. @E23,E10,E05,ED
+stop: Cracking, settling, dripping thaw, blocked drift exits or advancing hypothermia requires vacating any snow excavation immediately and moving to safer surface cover or rescue. @E06,E25,T03
+diagram: Depth ≠ roof strength | Sweat & collapse hazards | Unroofed windwall or rated refuge
+visual: Cutaway hazard schematic of a snow trench illustrating unvalidated roof loading, drift-blocked exit risk and mandatory escape clearance. Conceptual, not to scale.
+reviewer: Cold-weather shelter and snow-safety specialist
+
+Z02-P42 | Recognize why snow caves and quinzhees carry collapse and air hazards | B012 P16 snow cave / quinzhee; adapted historical material
+objective: Identify fatal collapse, suffocation, drifting-exit and carbon monoxide boundaries that make excavated snow caves advanced-only.
+applies: Deep-snow backcountry zones; strictly an informational hazard boundary, NOT an approved improvised survival procedure.
+equipment: Qualified winter instructor supervision, avalanche evaluation, dedicated shovels, snow probe/markers and CO-free heat rules.
+action: Treat snow caves and quinzhees as structural systems requiring specialized training, proper snow sintering evaluation and supervised practice—never as a no-gear emergency shortcut. @E23,E25,ED
+action: Recognize four acute hazards inside snow enclosures: unverified ceiling collapse (especially during warming or rain-on-snow), blocked ventilation holes, snow-drifted exits and rapid lethal CO from any stove or candle. @C05,C16,E25
+action: Exclude avalanche runouts, steep snow drifts and cornices entirely; keep digging tools inside with occupants only under trained protocols and maintain continuous external visibility/markers. @E23,E25,ED
+failure: Attempting an unsupervised quinzhee in wet warming snow or lighting a small camp stove inside a snow cave to warm the air. @C05,C16,E25
+verify: Confirm that without qualified training and suitable snowpack, the group chooses existing refuge, rated winter tent or surface windbreak and rescue signaling instead. @E05,E14,T06,ED
+stop: Ceiling sag, cracking sounds, stuffy air, drowsiness, headache or drifting exit blockage demands immediate exit to fresh air and safer shelter. @C07,E25,T03
+diagram: Unverified snow ceiling | Vent & exit drift-burial risk | Zero combustion inside cavity
+visual: Cutaway hazard schematic of a snow cave marking unvalidated ceiling stability, vent-occlusion risk, exit drift and absolute CO prohibition. Conceptual, not to scale.
+reviewer: Cold-weather shelter, avalanche and carbon monoxide safety
+
+Z02-P43 | Reject improvised earth, root-ball and stone-roofed pit shelters | B012 P17 earth / stone shelter; adapted historical material
+objective: Recognize catastrophic cave-in, groundwater seepage and entrapment hazards in improvised ground pits and rock cavities.
+applies: Forest, bluff and winter environments where fallen tree root-balls, soil banks or boulder piles look tempting as quick cover.
+equipment: Surface site assessment and above-ground shelter or insulation gear.
+action: Reject excavated soil pits, undercut dirt banks and spaces beneath upturned tree root-balls—soil and frozen earth collapse unpredictably with crushing weight during thaw, vibration or saturation. @E03,E13,ED
+action: Reject improvised stone-roofed cavities and boulder crevices where shifting rock loads, cold-air pooling and trapped groundwater seepage create severe crush and hypothermia hazards. @E03,E04,E05
+action: Never build a fire or operate any fuel heater inside a cave, overhang or ground cavity where smoke, heat-spalled rock and lethal carbon monoxide accumulate rapidly. @C05,C16,C07
+failure: Crawling into the hollow under a wind-thrown tree root-ball, which can slam back into its pit when the trunk shifts or breaks. @E13,E03
+verify: Confirm the shelter sits completely on stable surface ground with zero overhanging soil, loose stone or root-plate mass above occupants. @E03,E13,ED
+stop: Abort any excavation or cavity occupation immediately; relocate to stable above-ground shelter, dry insulation and verified exit routes. @E03,E05,E13
+diagram: Unengineered soil/rock load | Groundwater seepage & cave-in | Stay on stable above-ground site
+visual: Cutaway hazard schematic of an earth/root-ball cavity highlighting sudden wall sloughing, seepage and absolute zero-occupation boundary. Conceptual, not to scale.
+reviewer: Structural safety and land management
+
+Z02-P44 | Assess hammock suspension limits, under-insulation and tree-bark rules | NPS Leave No Trace and camping safety; new manuscript
+objective: Use manufactured camping hammocks safely where legal while preventing underbody heat loss, tree damage and fall hazards.
+applies: Forested sites where hammocks are expressly permitted by land-agency rules and healthy mature live trees exist.
+equipment: Rated hammock with wide tree-saver straps, compatible rain tarp, dedicated underquilt or sleeping pad and overhead hazard check.
+action: Verify local park rules (some units prohibit hanging from trees) and inspect both support trees and the canopy above for dead limbs, rot or leaning trunks before rigging. @E03,E13,E22
+action: Use wide tree-friendly webbing straps on sound, sufficiently thick live trees—never hang over sharp rocks, steep drop-offs or high above the ground where a strap slip causes serious fall injury. @E22,E20,ED
+action: Add dedicated underbody insulation (underquilt or properly positioned pad) because compressed sleeping-bag loft beneath a suspended hammock loses heat rapidly to moving air underneath. @E05,E15,E20
+failure: Hanging from a dead brittle snag in breezy woods, or sleeping in a hammock at 45°F with only a sleeping bag and waking hypothermic from convective cooling underneath. @E13,E15,E06
+verify: Confirm site legality, live sound anchor trees, clear overhead canopy, low safe hang height over clear ground and full underbody insulation. @E03,E13,E22,E05,ED
+stop: Never hang from dead trees, fragile saplings, railings or unrated structures; switch to ground shelter or substantial refuge during high winds or lightning. @E13,E07,E16
+diagram: Sound live trees + wide straps | Low hang clear of hazards | Underbody pad blocks wind loss
+visual: Exploded suspension layout illustrating wide tree-saver straps, low safe hang clearance, rain tarp coverage and mandatory underbody convective insulation. Conceptual, not to scale.
+reviewer: Shelter equipment and land management
+
+Z02-P45 | Recognize wet-snow accumulation and roof sag before frame collapse | NWS winter weather and B012 P12/P18; new manuscript
+objective: Spot dangerous roof loading on tents and tarps during snowfall and relieve or vacate safely before poles snap.
+applies: Occupied manufactured tents and tarps during wet snow, sleet or heavy overnight snowfall.
+equipment: Light, dry gloves, small snow brush or gloved hand and dry backup refuge plan.
+action: Monitor roof shape periodically during steady snowfall—heavy wet snow adds rapid load that bows fiberglass or aluminum poles and collapses flat roof panels long before morning. @E25,E20,ED
+action: Tap gently from inside or brush snow off the outer fly carefully from outside before heavy buildup forms, clearing snow piles away from perimeter walls so the tent is not pinched inward. @E25,E20,ED
+action: Keep upper vents and doorway tracks cleared as snow falls so drifting cannot seal fresh airflow or jam frozen zippers shut. @E25,E05
+failure: Sleeping through six hours of heavy wet snow in a flat-roofed three-season tent until poles snap onto sleeping occupants. @E25,E20
+verify: Confirm poles retain smooth design curvature, walls stand clear of packed snowdrifts and exits open smoothly without binding. @E25,E20,ED
+stop: If wet snow loads faster than you can safely clear it, poles bend sharply or fabric tears, exit immediately while routes remain passable and move to substantial shelter. @E25,E14,E05
+diagram: Wet snow bows roof panels | Clear early & free perimeter | Exit if poles bend or tear
+visual: Failure-mode diagram tracing wet-snow roof load to pole-bowing warning cues and timely clearing or shelter evacuation. Conceptual, not to scale.
+reviewer: Cold-weather shelter and equipment safety
+
+Z02-P46 | Recognize stake pullout, guyline slack and seam stress in high wind | NWS wind safety and B012 P18; new manuscript
+objective: Detect progressive shelter anchor failure during rising winds before sudden fabric tearing or structural collapse.
+applies: Occupied tents and tarps exposed to gusty fronts, lake winds or thunderstorm outflow.
+equipment: Spare stakes, repair cordage, headlamp and pre-identified substantial refuge or bailout plan.
+action: Watch and listen for flapping panels, rhythmic pole slapping, creeping ground stakes, elongated needle holes along seams and slackening guylines as gusts increase. @E16,E20,ED
+action: Re-tension guylines, add secondary anchors or lower windward tarp edges ONLY while conditions outside remain safe and clear of falling limbs. @E16,E13,E20
+action: Reassess surrounding trees immediately whenever wind picks up—sound shelters cannot protect occupants from falling trunks or snapped overhead branches. @E13,E16
+failure: Ignoring loud rainfly flapping and pulled windward stakes until a gust shreds the fly and bends the main pole at 2 a.m. @E16,E20
+verify: Confirm all windward stakes remain seated, guylines hold steady tension and surrounding timber shows zero active limb failure. @E16,E13,ED
+stop: Vacate tents and forested campsites immediately if wind gusts bend poles severely, stakes pull out repeatedly, branches snap or a High Wind/Severe Thunderstorm Warning takes effect. @E16,E13,E18
+diagram: Gusts loosen stakes & seams | Flapping & bowed poles warn | Retension early or vacate
+visual: Failure-mode illustration linking wind gusts and saturated soil to creeping stakes, seam stress cues and early relocation triggers. Conceptual, not to scale.
+reviewer: Weather safety and shelter equipment
+
+Z02-P47 | Diagnose pole splintering, hub failure and zipper jams in field weather | NPS Ten Essentials and camping gear; new manuscript
+objective: Stabilize minor mechanical shelter breakdowns cleanly without creating sharp-edge tears or trapping occupants inside.
+applies: Field troubleshooting of damaged tent poles, hubs, grommets and stuck door zippers.
+equipment: Pole repair splint sleeve, cloth or gear tape, spare guyline cord and headlamp.
+action: If a tent pole cracks or splits, relieve fabric tension first, slide the manufacturer splint sleeve centered over the break and tape ends snugly—wear eye/hand caution around splintered carbon or fiberglass. @E20,E02,ED
+action: If a door zipper jams on draft-flap fabric, stop pulling aggressively; back the slider slowly while easing trapped fabric clear, and keep a secondary exit or toggle closure usable. @E20,ED
+action: Recognize that field splints and tape patches are temporary stabilization aids—they do NOT restore full storm strength to a fractured frame. @E20,E16,ED
+failure: Yanking a snagged rainfly zipper until the slider rips off the track in freezing rain, or leaving a jagged broken pole punching through the canopy. @E20,E02,ED
+verify: Confirm splinted pole joints hold smoothly without puncturing fabric and that at least one exit opens reliably from inside in the dark. @E20,ED
+stop: If main structural hubs fail, multiple poles snap or weather exceeds your temporarily stabilized shelter, end the overnight stay and relocate to safer refuge. @E20,E16,E05
+diagram: Split pole or jammed zipper | Relieve tension & splint safely | Temporary fix ≠ storm rating
+visual: Failure-mode analysis showing pole-ferrule fracture and jammed-zipper cues alongside safe temporary stabilization and trip-abort thresholds. Conceptual, not to scale.
+reviewer: Shelter equipment specialist
+
+Z02-P48 | Detect floor flooding, hydrostatic seepage and perimeter runoff intrusion | NWS flood safety and B012 P09/P18; new manuscript
+objective: Distinguish minor condensation drips from active ground-water intrusion and relocate before sleeping insulation soaks.
+applies: Heavy rain, rapid snowmelt or prolonged wet weather in pitched tents or ground shelters.
+equipment: Headlamp, dry waterproof bags for sleeping gear and pre-checked uphill alternate site.
+action: Check floor corners, seam tape and underside feel during steady rain—cold wet pooling under body pressure indicates groundwater seepage, hydrostatic failure or a protruding groundsheet funneling water. @E04,E20,ED
+action: Inspect the outside perimeter with a light from a safe stance to see whether new runoff rivulets are flowing toward the tent pad or pooling beside the entrance. @E04,E20
+action: Move sleeping bags and dry clothes immediately into waterproof bags off the wet floor; never stay lying in a flooded tent waiting for rain to stop. @E04,E10,E06
+failure: Sleeping through rising puddle seepage on a low pad until sleeping bags soak completely in 40°F rain, triggering hypothermia. @E04,E06,E10
+verify: Confirm dry floor corners, zero active runoff channels crossing the pad and dry insulation elevated off damp spots. @E04,E20,ED
+stop: If runoff crosses the site, floor flooding persists or streams begin rising, pack dry essentials and relocate immediately to higher draining ground or substantial shelter. @E04,T16,E06
+diagram: Runoff crosses low tent pad | Corner puddles & wet floor | Bag dry gear & move uphill
+visual: Failure-mode illustration linking active surface runoff and hydrostatic floor failure to observable wet-corner cues and immediate uphill relocation. Conceptual, not to scale.
+reviewer: Shelter equipment and flood safety
+
+Z02-P49 | Prevent drifting snow from sealing shelter exits and high vents overnight | Ready.gov winter weather and B012 P18; new manuscript
+objective: Keep winter shelter doorways and ventilation openings clear during blowing snow so air exchange and escape stay intact.
+applies: Tents, vehicles, cabins and winter camps during snowstorms or strong ground-blizzard drifting.
+equipment: Small scoop or gloved hand, headlamp, interior exit marker and dry spare layers.
+action: Recognize that wind-driven snow drifts rapidly in the lee of shelters and vehicles, quietly burying lower vents, zippers and doors even after snowfall stops. @E25,E15
+action: Schedule periodic awake checks during overnight storms to clear drifted snow from doorways, high vents and—for vehicles—exhaust areas, ensuring unobstructed breathing air and egress. @E25,C05,ED
+action: Keep a small scoop or snow clearing tool reachable inside the shelter entrance so occupants are never trapped behind a wind-packed drift slab. @E25,ED
+failure: Waking to a wind-packed snow wall blocking the sole tent door and sealing perimeter vents airtight. @E25
+verify: Confirm both air vents and primary doorway open cleanly to outside air and a clearing tool stays staged just inside the exit. @E25,ED
+stop: If drifting snow continuously seals the shelter or interior air feels stale and humid, vacate to substantial shelter when safely reachable or call for rescue assistance. @E25,C07,T06
+diagram: Wind drifts snow in lee | Vents & door risk burial | Check & clear periodically
+visual: Cutaway view of a winter shelter showing leeward snow-drift accumulation against doorway and vent openings with staged inside clearing tool. Conceptual, not to scale.
+reviewer: Cold-weather shelter and winter response
+
+Z02-P50 | Keep fuel stoves, lanterns and heaters completely outside tents and vestibules | CPSC camping equipment and CDC CO basics; new manuscript
+objective: Enforce a zero-combustion enclosure rule to prevent fatal carbon monoxide poisoning and catastrophic shelter fires.
+applies: Tents, tarps with enclosed sides, campers, trailers, cabins without vented heating, snow shelters and vehicles.
+equipment: Outdoor cooking area clear of fabric, battery/LED lighting, dry thermal insulation and CO alarm where applicable.
+action: Never ignite, operate or smolder fuel-burning stoves, catalytic heaters, fuel lanterns or charcoal grills inside tents, tent vestibules, snow caves, campers or vehicles. @C05,C16
+action: Recognize that cracking a tent door, roof vent or garage door does NOT prevent lethal carbon monoxide accumulation—and high altitude worsens incomplete combustion. @C05,C16
+action: Separate heat and light completely from combustion inside sleeping spaces: use battery LED headlamps for light and dry layers plus ground pads for warmth. @C05,E02,E05
+failure: Boiling snow on a canister stove inside a zipped tent vestibule during a storm, causing invisible odorless CO buildup or a flash fabric fire. @C05,C16,C15
+verify: Confirm zero fuel appliances, charcoal or open flames operate inside any shelter or vestibule and that all cooking runs outdoors downwind. @C05,C16,C15,ED
+stop: Headache, dizziness, nausea, weakness or confusion in or near any shelter with fuel use nearby requires immediate exit to fresh air and calling 911. @C07,C16
+diagram: Fuel appliance outdoors only | Zero stove/heater in vestibule | Battery light + dry layers inside
+visual: Cutaway view drawing a hard separation line between outdoor stove operation and the combustion-free tent/vestibule sleeping envelope. Conceptual, not to scale.
+reviewer: Carbon monoxide safety and fire prevention
+
+Z02-P51 | Keep vehicle exhaust clear of snow and recognize idling CO danger | NWS winter storms, CPSC and CDC CO basics; new manuscript
+objective: Prevent lethal exhaust intrusion when using a stranded vehicle as temporary winter weather shelter.
+applies: Vehicle immobilized in snowdrifts, blizzards or storm closures where staying with the vehicle is safer than walking into poor visibility.
+equipment: Dry blankets/layers, shovel or snow scraper, phone/radio, visibility marker and working CO awareness.
+action: Rely primarily on dry layered clothing, blankets and blocked wind inside the vehicle—shelter protection does NOT require continuous engine idling. @E14,E05,E25
+action: Before ever briefly running the engine for heat, physically verify the tailpipe and underside around the exhaust are completely clear of snowdrifts and ice—drifting snow can re-block an exhaust pipe quickly. @E14,E25,C16
+action: Never run a vehicle engine inside a garage, carport or drifted snowbank enclosure, and crack a downwind window slightly if running briefly while staying awake to monitor for exhaust odor or symptoms. @C16,C07,E14
+failure: Falling asleep with an idling car while blowing snow packs around the rear bumper and channels odorless carbon monoxide into the cabin. @E14,E25,C16,C07
+verify: Confirm tailpipe clearance visually before any brief engine run, stay awake while running and keep everyone alert for headache or dizziness. @E25,C07,ED
+stop: Shut off the engine immediately and get to fresh air if exhaust smells enter the cabin, snow drifts pack under the vehicle or anyone feels dizzy, nauseated or confused; call 911. @C07,C16,T02
+diagram: Drifted snow blocks tailpipe | CO seeps into cabin silently | Shut off engine & clear exhaust
+visual: Failure-mode illustration showing snow-blocked vehicle tailpipe causing cabin CO intrusion and immediate engine-shutdown recovery. Conceptual, not to scale.
+reviewer: Winter response, carbon monoxide safety and emergency medicine
+
+Z02-P52 | Maintain clear interior air exchange and recognize carbon monoxide symptoms | CPSC CO fact sheet and CDC CO basics; new manuscript
+objective: Ensure continuous fresh-air circulation in any occupied shelter and spot early carbon monoxide poisoning cues before incapacitation.
+applies: Tents, cabins, campers, vehicles and household rooms during winter storms or power outages.
+equipment: Battery-backed CO alarm (for cabins, campers and homes), unobstructed vents and pre-agreed outdoor fresh-air rally point.
+action: Keep shelter air pathways unobstructed by gear, snow or improvised plastic seals; verify battery-backed CO alarms work on every level and outside sleeping areas in cabins and homes. @C09,E25,E24
+action: Watch every occupant for flu-like CO warning symptoms without fever—headache, dizziness, weakness, nausea, vomiting, chest pain or confusion—knowing sleepers can be overcome without waking. @C07,C16
+action: Treat simultaneous symptoms in more than one person or pet inside an enclosed space as suspected CO poisoning until proven otherwise. @C07,C16,ED
+failure: Dismissing group headaches and nausea inside a heated cabin or camper as tiredness or mild altitude sickness and going back to sleep. @C07,C05
+verify: Confirm fresh-air vents are open, zero unvented fuel appliances run indoors and every occupant knows the immediate exit route to fresh air. @C09,C16,ED
+stop: If a CO alarm sounds or any symptom of carbon monoxide poisoning appears, leave immediately to fresh outdoor air and call 911—do not re-enter to shut off gear. @C07,C09,T02
+diagram: Clear vents & CO alarms | Spot headache/dizziness/nausea | Exit immediately to fresh air
+visual: Decision tree connecting indoor air/alarm checks and symptom recognition directly to immediate outdoor evacuation and 911 activation. Conceptual, not to scale.
+reviewer: Carbon monoxide safety and emergency medicine
+
+Z02-P53 | Keep emergency exits, footwear and exit lighting staged inside every shelter | Ready.gov shelter and B012 P18; new manuscript
+objective: Ensure every occupant can exit a dark shelter within seconds during sudden windfall, flood, fire or CO emergencies.
+applies: Every overnight tent, tarp, cabin, camper or stranded vehicle across all seasons.
+equipment: Reachable headlamp per occupant, easy-access footwear and warm jacket, and unobstructed doorway path.
+action: Keep shelter doorways completely free of stacked packs, tangled guylines, loose boots and gear piles so anyone can reach and unzip the exit by touch in total darkness. @E05,E25,ED
+action: Stage each occupant's headlamp, sturdy footwear, dry jacket and communication device in one consistent spot near the exit before sleeping. @E02,T12,ED
+action: Point out secondary doors, roof vents or escape windows to every companion (including children or guests) before lights out. @E02,T10,ED
+failure: Blocking a tent's only door with wet packs and tangled cords while burying the headlamp at the bottom of a sleeping bag. @E02,E25,ED
+verify: With lights off, each occupant can locate their headlamp and touch the exit zipper without climbing over another person or gear pile. @E02,ED
+stop: Rearrange gear immediately whenever doorway access is narrowed or zippers bind—never sleep inside a shelter with a blocked or jammed exit. @E25,E20,ED
+diagram: Clear doorway corridor | Staged headlamp & footwear | Secondary exit briefed
+visual: Exploded interior shelter-staging layout showing clear exit lane, dedicated headlamp/footwear pocket and briefed egress path. Conceptual, not to scale.
+reviewer: Shelter safety and emergency management
+
+Z02-P54 | Decide when wind, flood, lightning or tornado requires abandoning camp | NWS lightning, tornado, wind and flood safety; new manuscript
+objective: Define clear objective triggers for leaving a tent or campsite before severe hazards turn evacuation lethal.
+applies: Any outdoor camp or temporary shelter facing severe weather warnings, rising water, wildfire or falling timber.
+equipment: Weather alert receiver, mapped evacuation route to substantial shelter and ready grab-bag essentials.
+action: Abandon tents and forested campsites immediately upon a Tornado Warning, Flash Flood Warning, approaching wildfire evacuation order or active tree/limb failures in rising gusts. @E17,T16,C19,E13
+action: Move from fabric tents or open tarps to a reachable substantial building or hard-topped enclosed vehicle at the first sound of thunder, waiting 30 minutes after the last thunder before returning. @E07,E18
+action: Decide BEFORE storm arrival whenever a Watch and darkening sky indicate your exit path could flood, blow down with trees or lose visibility. @T16,E18,T13
+failure: Staying inside a nylon tent beneath tall pines during a Severe Thunderstorm or Tornado Warning under the illusion that tent walls offer protection. @E07,E17,E13
+verify: Before sunset, every group member can name the exact weather trigger that ends camp and the nearest substantial refuge or exit road. @E07,E17,T13,ED
+stop: When an abandonment trigger fires, prioritize human life over tents and gear—leave equipment behind rather than delaying exit into an active hazard. @T13,E17,C19
+diagram: Active Warning or timber fall | Thunder -> sturdy building/car | Life over gear: exit early
+visual: Decision tree mapping Tornado, Flash Flood, Wildfire, High Wind and Lightning triggers to immediate camp abandonment and refuge classes. Conceptual, not to scale.
+reviewer: Emergency management and weather safety
+
+Z02-P55 | Execute safe shelter abandonment and relocate to higher-grade refuge | Ready.gov evacuation, NWS flood and NPS emergency plan; new manuscript
+objective: Leave a failing or threatened shelter swiftly, together and along a verified safe exit path.
+applies: Forced departure from a collapsing, flooded, storm-threatened or CO-compromised shelter day or night.
+equipment: Staged headlamp, dry outer layer, footwear, communication device, emergency medications and map of pre-checked exit route.
+action: Grab only pre-staged essentials (light, warm/rain shell, footwear, phone/communicator, medications and safe water)—leave staked tents, sleeping pads and bulky camp gear behind if danger is imminent. @T13,T10,E02
+action: Perform an immediate head count outside the shelter, put on lights and travel together along the pre-verified high-ground or clear road exit away from flood channels and snapping timber. @E11,E04,E13
+action: Notify emergency services or your out-of-area contact once at the safer refuge, reporting your new location and any injuries or missing items. @T06,T11,T02
+failure: Scattering into the dark without a head count, or wading back through rising creek runoff to retrieve a tent and backpack. @E11,T07,T13
+verify: Confirm all group members are accounted for at the higher-grade refuge, dry/protected and able to communicate status. @E11,T06,ED
+stop: Never cross flooded roads, downed power lines, active flames or unverified ice during relocation; if trapped by a sudden hazard, take the safest available high/clear refuge and call 911. @T07,C19,E12,T02
+diagram: Grab staged essentials only | Head count & exit together | Report status at safer refuge
+visual: Decision tree guiding rapid grab-bag departure, group head count, hazard-free route verification and post-relocation reporting. Conceptual, not to scale.
+reviewer: Emergency management and search and rescue

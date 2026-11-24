@@ -1,0 +1,139 @@
+Z01-P13 | Assess route, weather and group risk before departure | MN DNR, NPS Hike Smart and NWS alerts; new manuscript
+objective: Screen weather, terrain, daylight and group capability before committing to a route.
+applies: Pre-departure planning for day or overnight outdoor travel across seasons. Conditions change rapidly and require re-checking at the trailhead.
+equipment: Current forecast and alerts, topographic or trail map, daylight table and group health summary.
+action: Review forecast temperatures, wind, precipitation, fire restrictions and any active Watches or Warnings for the exact route and elevation. @E01,T16,C01
+action: Match distance, elevation gain, terrain hazards and available daylight to the least experienced or slowest person in the group. @E11,E01
+action: Identify bailout exits, water access and shelter points along the route, and define conditions that cancel or shorten the trip before departing. @E01,T13,ED
+failure: Proceeding with an outdated forecast, overestimating daylight or assuming the group will speed up on unfamiliar terrain. @E01,E11,ED
+verify: Every participant can state the route length, expected return time, top weather hazard and pre-agreed cancellation trigger. @ED
+stop: Active Severe Weather Warnings, unresolved hazard closures or missing essential protection require postponing or changing the route. @T16,E02,E18
+diagram: Check forecast and alerts | Match route to group | Set bailouts and cancel triggers
+visual: Pre-departure risk decision tree separating weather, group capability and exit margin. Conceptual, not to scale.
+reviewer: Search and rescue and outdoor leadership
+
+Z01-P14 | Inspect critical gear before failure occurs | NPS Ten Essentials and Ready.gov kit maintenance; new manuscript
+objective: Detect degraded batteries, leaks, tears and expired supplies before entering the field.
+applies: Routine pre-trip readiness check for backcountry packs and household emergency go-bags. Does not replace manufacturer servicing.
+equipment: Packed kit, spare batteries, water containers, light, shelter, navigation tools and maintenance checklist.
+action: Test lighting, communication devices and weather radio under battery power alone, and confirm offline maps open with airplane mode enabled. @E02,T12,ED
+action: Inspect shelter seams, poles, zippers, water containers, filter seals and first-aid expiration dates for wear, brittleness or missing parts. @E20,W06,T12
+action: Confirm cold-sensitive items such as batteries, fuel canisters and wet filters have thermal protection suited to forecast lows. @E02,W28,ED
+failure: Discovering dead batteries, cracked water lids, missing tent poles or dried-out bandages only after stopping in poor weather. @E20,T12,ED
+verify: Every life-safety subsystem passes a live hands-on function test at home and is repacked in an accessible order. @E02,ED
+stop: Replace or repair damaged shelter, navigation, light or water gear before departure, or cancel the outing until functional gear is ready. @E02,E20,T12
+diagram: Test power and offline tools | Inspect seals, poles and fabric | Verify cold-weather protection
+visual: Exploded pre-trip readiness inspection showing four independent life-safety kit subsystems. Conceptual, not to scale.
+reviewer: Field equipment safety and search and rescue
+
+Z01-P15 | Assign group roles and pacing boundaries | NPS Hike Smart and Ready.gov planning; new manuscript
+objective: Maintain clear leadership, head counts and mutual accountability during group travel or emergencies.
+applies: Groups of two or more hikers, families or mixed-ability parties on land. Solo travelers use external check-in contacts instead.
+equipment: Written group roster, agreed whistle signals, map copy for more than one person and shared emergency contact sheet.
+action: Designate a lead who sets a sustainable pace, a sweep who stays behind the last person, and a backup navigator carrying an independent map. @E11,E02,ED
+action: Establish mandatory regroup points at every trail junction, water crossing, steep climb and visibility drop before stepping off. @E11,ED
+action: Rotate check-ins for hydration, warmth, foot comfort and morale so quieter or fatigued members can call a halt without social pressure. @E11,E06,E08
+failure: Unassigned leadership, fast walkers outpacing slower members past forks, or hidden fatigue going unreported until collapse. @E11,E06,ED
+verify: Every member knows who is lead, who is sweep, what whistle signal means stop and where the next regroup point lies. @E11,ED
+stop: If the group loses visual or voice accountability or someone cannot sustain the pace safely, halt immediately, regroup and revise the objective. @E11,T06,ED
+diagram: Assign lead, sweep and backup | Regroup at every junction | Check fatigue and morale openly
+visual: Comparative configuration contrasting coordinated lead-and-sweep accountability against uncoordinated group separation. Conceptual, not to scale.
+reviewer: Outdoor group leadership and search and rescue
+
+Z01-P16 | Layer alert receivers and emergency messages | Ready.gov alerts, plan and NOAA Weather Radio; new manuscript
+objective: Keep emergency warnings and outbound family coordination working when one communication network fails.
+applies: Home preparedness and outdoor travel across areas with patchy cellular service or power outages.
+equipment: Mobile phone with alerts enabled, battery or hand-crank NOAA Weather Radio, paper contact card and optional satellite communicator.
+action: Enable Wireless Emergency Alerts and local agency notifications, and carry a battery or hand-crank NOAA Weather Radio tested for local VHF reception. @T14,T15
+action: Record an out-of-area contact, local meeting points and critical medical notes on waterproof paper so communication survives a dead phone. @T11,T12
+action: Prefer short text messages over voice calls during network congestion, and conserve device battery by using low-power or airplane mode between checks. @T11,ED
+failure: Relying solely on a single smartphone battery or live data connection in a valley, storm or regional tower outage. @T14,T15,ED
+verify: Confirm NOAA Weather Radio receives the local broadcast and that every group member carries the written contact and meeting-point card. @T15,T11,ED
+stop: Never assume an unsent or unacknowledged message has triggered rescue; shift to stay-put visibility and physical signaling if contact fails. @T06,T11,ED
+diagram: Official alerts and NWR | Written plan and out-of-area contact | Battery-smart messaging
+visual: Mechanism diagram illustrating parallel inbound alert channels and outbound confirmation paths with terrain-shadow limits. Conceptual, not to scale.
+reviewer: Emergency communications and search and rescue
+
+Z01-P17 | Act on weather watches, warnings and abort triggers | NWS flood, thunderstorm and Ready.gov evacuation guidance; new manuscript
+objective: Translate forecast alert tiers and field observations into timely stop, shelter or retreat actions.
+applies: Outdoor travel and household emergency monitoring under changing storm, flood, wind, cold or wildfire conditions.
+equipment: Weather alert receiver, local map showing exits and shelters, watch and written group turnaround limits.
+action: Treat a Weather Watch as a trigger to review exits, shorten exposed routes and verify shelter options while conditions are still favorable. @T16,E18,ED
+action: Treat a Weather Warning, approaching thunder, rising runoff or rapid visibility loss as an immediate action threshold to seek proper shelter or evacuate. @T16,E07,T13
+action: Combine official alerts with on-site red flags—sudden wind shifts, darkening outflow clouds, dropping temperatures or declining group judgment—to abort early. @E18,E06,ED
+failure: Waiting for rain or debris to strike before leaving a ridge, creek bed or exposed trail, or confusing a Watch with routine weather. @T16,E18,ED
+verify: The group can state the exact threshold that shifts the plan from continue to shorten, shelter or evacuate. @T16,T13,ED
+stop: When an active Warning or deteriorating field condition outpaces your return route, stop advancing and commit immediately to the safest reachable refuge. @T16,E07,T13
+diagram: Watch: adjust and stage | Warning: shelter or evacuate | Local cues override schedule
+visual: Decision tree mapping Watch, Warning and local field red flags to concrete route abort and sheltering actions. Conceptual, not to scale.
+reviewer: Emergency management and meteorology
+
+Z01-P18 | Build an accessible emergency and evacuation plan | Ready.gov People with Disabilities; new manuscript
+objective: Account for mobility, sensory, medical, power and service-animal needs before an emergency disrupts daily support.
+applies: Individuals and groups with disabilities, chronic medical conditions, older adults or temporary mobility limits in home or travel settings.
+equipment: Personal support network list, medication and dosage card, backup power or spare batteries, accessible transport contacts and service-animal supplies.
+action: Build a personal support network of at least three trusted contacts who know your plan, supply locations, mobility aids and communication preferences. @T10,T11
+action: Arrange accessible evacuation transportation ahead of time and check whether local emergency management offers voluntary registries or utility priority-restoration lists. @T10,T13
+action: Pack a go-bag and shelter-in-place kit with written prescriptions, device specs, backup power, spare eyewear or hearing batteries and service-animal food and water. @T10,T12
+failure: Assuming standard evacuation shelters, public buses or unassisted foot routes can accommodate wheelchairs, oxygen concentrators, deaf/blind alerting or service animals. @T10,ED
+verify: Review and rehearse the plan with your support network, confirming backup power duration and two accessible exit routes from home or camp. @T10,T11,ED
+stop: If power-dependent medical equipment approaches reserve limits or accessible evacuation routes are threatened, activate emergency medical or local assistance early. @T10,T02,T13
+diagram: Support network and registry | Medical power and device kit | Accessible exits and transport
+visual: Exploded component diagram detailing the four interdependent subsystems of an accessible emergency plan. Conceptual, not to scale.
+reviewer: Accessible emergency management and public health
+
+Z01-P19 | Stabilize an unexpected overnight or multi-day delay | NWS winter, NPS Ten Essentials and Ready.gov kit; new manuscript
+objective: Shift from travel mode to sustained shelter, hydration, warmth and accountability during an unplanned night or prolonged emergency.
+applies: Stranded travelers, overdue hikers or households facing multi-day disruption where immediate rescue or restoration is delayed.
+equipment: Shelter and ground insulation, dry spare layers, safe water supply, lighting, communication device and emergency food.
+action: Stop travel well before dark while energy and judgment remain intact, selecting a safe, dry, sheltered position clear of flood, tree and traffic hazards. @E03,E04,E13,ED
+action: Establish immediate exposure control—wind barrier, dry ground insulation and dry rest layers—before spending effort on secondary tasks. @E05,E09,E10
+action: Inventory safe water, food, battery charge and medication across expected delay hours, assigning scheduled check-ins and conserving energy and heat. @T12,W09,ED
+failure: Pushing into darkness until exhausted, neglecting ground insulation until shivering begins, or draining phone batteries on futile searches for signal. @E05,E06,ED
+verify: Every occupant has wind/ground protection, reachable exit lighting, a rationed water plan and a scheduled communication or signaling window. @E05,T12,ED
+stop: Worsening confusion, hypothermia, heat stroke, severe dehydration or an unsafe shelter site requires immediate escalation to emergency services. @T03,T05,T02
+diagram: Stop early before dark | Lock in shelter and insulation | Manage water, power and checks
+visual: Cutaway view of an overnight stabilization setup showing wind protection, ground insulation, exit clearance and conserved supply staging. Conceptual, not to scale.
+reviewer: Search and rescue and wilderness medicine
+
+Z01-P20 | Decide early when storm or wildfire threatens the route | NWS wildfire, thunderstorm and Ready.gov evacuation; new manuscript
+objective: Choose timely exit routes and hazard-specific refuge when severe storms or wildfire develop near camp or travel corridors.
+applies: Outdoor travel or rural camp exposed to approaching severe thunderstorms, straight-line winds, tornado warnings or wildfire smoke and spread.
+equipment: Official alert receiver, map showing multiple road or trail exits, respiratory/eye protection if smoke is present and vehicle or go-bag.
+action: Monitor wind direction, smoke plumes, storm outflow gusts and official evacuation notices to keep at least two exit paths open away from the hazard. @T13,C18,E18
+action: Evacuate early along open official routes when wildfire approaches or Red Flag winds threaten your corridor; do not wait for flames or roadblocks. @C19,T13
+action: If a severe thunderstorm or tornado warning intercepts you, abandon tents and exposed timber immediately for the lowest interior room of a sturdy building or hard-topped vehicle for lightning. @E07,E17,E24
+failure: Waiting to pack nonessential camp gear while smoke thickens, wind topples trees or a single exit road closes behind the party. @C19,E16,T13
+verify: Everyone knows the immediate departure trigger, which gear is left behind if ordered out and the designated safe rally destination. @T13,ED
+stop: Never drive or walk through active flames, downed power lines, flooded crossings or zero-visibility smoke; follow emergency responder directions immediately. @C19,T07,T01
+diagram: Track hazard path and wind | Leave early via open exit | Match refuge to hazard class
+visual: Environmental relationship schematic comparing hazard approach corridors, buffer zones and hazard-appropriate refuge choices. Conceptual, not to scale.
+reviewer: Emergency management and wildland fire safety
+
+Z01-P21 | Adapt the plan when a companion cannot keep pace | NPS Hike Smart, ARC first aid and NPS emergency plan; new manuscript
+objective: Distinguish manageable fatigue from medical distress and safely shorten, stabilize or escalate the trip.
+applies: Any group outing where one participant slows sharply, develops pain or injury, or shows early signs of cold, heat or altitude illness.
+equipment: First-aid kit, spare layers, safe water, communication device and offline map showing nearest bailout exits.
+action: Stop the entire group on safe ground and screen the slowed person for life-threatening distress, confusion, slurred speech, chest pain, hypothermia or heat stroke. @T01,T03,T09
+action: If no urgent red flags are present, rest in shelter, address footwear, hydration, nutrition and pack load redistribution, and reassess honestly. @E11,E08,E05,ED
+action: Shorten the route to the nearest safe exit if recovery is incomplete; never leave an impaired or exhausted member alone to catch up later. @E11,T06,ED
+failure: Splitting the group so faster members push to the summit while a fatigued or confused companion falls behind unobserved. @E11,T03,ED
+verify: The affected person speaks clearly, moves steadily after rest and agrees with the revised exit or hold plan. @T01,E11,ED
+stop: Confusion, stumbling, inability to bear weight, severe pain, heat stroke or hypothermia requires stopping travel immediately and activating 911 or SAR. @T02,T03,T09
+diagram: Halt and screen red flags | Redistribute load and reassess | Exit together or call rescue
+visual: Decision tree branching from medical red-flag screening to rest/reassessment, early group exit or immediate rescue activation. Conceptual, not to scale.
+reviewer: Wilderness medicine and search and rescue
+
+Z01-P22 | Recognize and recover from core gear failure | NPS Ten Essentials, CDC filter limits and Ready.gov kit; new manuscript
+objective: Spot silent or sudden failure of lighting, navigation, water treatment or shelter gear and shift safely to backups.
+applies: Field travel or home emergencies when primary equipment breaks, freezes, leaks or loses power.
+equipment: Redundant core gear (backup light, paper map, secondary water method, repair tape and emergency shelter).
+action: Watch for early failure cues—dimming headlamp, phone battery drop in cold, frozen water filter, jammed stove valve or torn shelter anchor. @E02,W28,C15,ED
+action: Pause on safe ground and switch immediately to your independent backup system rather than improvising hazardous repairs under stress. @E02,W09,ED
+action: Recalculate your safety margin once a primary system fails; a trip relying on its last backup is a cue to turn back or stabilize early. @E01,T06,ED
+failure: Continuing deeper into remote terrain after losing primary light, offline navigation, shelter integrity or water treatment without a working backup. @E02,W28,ED
+verify: Confirm the backup system functions cleanly right now and that the revised route matches your remaining safety margin. @E02,ED
+stop: When both primary and backup systems for warmth, shelter, navigation or water fail, halt onward travel, protect the group and seek assistance. @E02,T06,W09
+diagram: Spot early failure cue | Switch to independent backup | Shorten route or stabilize
+visual: Failure-mode illustration linking silent or sudden gear breakdown to observable warning cues and immediate backup/abort recovery. Conceptual, not to scale.
+reviewer: Field equipment safety and search and rescue

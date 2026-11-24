@@ -1,0 +1,923 @@
+Z11-R01 | Write a route plan and overdue handoff before departure | B014 reconstruction · r01 slot R01 (original B014-P01 missing)
+objective: Give a trusted contact verifiable route, party and overdue-reporting details before entering backcountry terrain.
+applies: Planned day or overnight outings outside dependable cell coverage; reconstructs missing historical B014-P01.
+equipment: Written or digital trip plan, trailhead map, vehicle description and confirmed emergency contact.
+action: Record exact trailhead name, planned route, alternate bailouts, party size, names, vehicle license/location and expected return time. @E01,T06,T11
+action: Share the plan with a reliable off-trip contact and confirm aloud both the overdue cutoff time and which local sheriff or park dispatch they should notify. @E01,T11,ED
+action: Carry a waterproof copy in your pack and check in promptly upon return so false searches are never triggered. @E01,T11,ED
+failure: Texting a vague message like "going hiking up north" with no trailhead, return window or confirmed contact acknowledgment. @E01,T06
+verify: Ask your emergency contact to read back the trailhead, planned return time and exact overdue escalation trigger before departure. @E01,T11,ED
+stop: If no reliable contact can act on an overdue plan, choose a shorter, lower-risk route with dependable communications or postpone. @E01,T11,ED
+diagram: Trailhead & route copy | Agreed overdue cutoff | Contact confirms handoff
+visual: Exploded trip-plan handoff layout showing route sheet, vehicle ID, overdue trigger and contact read-back confirmation. Conceptual, not to scale.
+reviewer: Navigation and search and rescue
+
+Z11-R03 | Read map legend, scale, publication date and north reference | B014 reconstruction · r01 slot R03 (original B014-P03 missing)
+objective: Inspect marginal map data before taking any bearing or measuring distances on paper or offline sheets.
+applies: Preparing and verifying USGS topographic maps or trail maps prior to route navigation; reconstructs missing B014-P03.
+equipment: Current topographic map, baseplate compass and current local magnetic declination value.
+action: Check the map publication date, scale ratio, contour interval and symbol legend first—outdated sheets may omit washed-out bridges, closed roads or rerouted trails. @N01,N02
+action: Identify the north reference diagram on the map margin distinguishing true north, grid north and dated magnetic north, then look up current declination for your trip date and location. @T08,N08
+action: Treat historical public-domain sheets (such as 1965 USGS quadrangles) strictly as symbol-learning aids rather than current field navigation or declination sources. @N01,N04
+failure: Measuring trail distance on a 1:50,000 sheet using a 1:24,000 ruler, or applying a 40-year-old printed declination value. @N01,T08
+verify: State the map's publication year, scale, contour interval and current local declination before plotting your route. @N01,T08,ED
+stop: If the map margin lacks scale, north reference or legible symbols—or omits surrounding bailout roads—obtain a complete current sheet before departing. @N01,E01
+diagram: Check date & scale bar | Read legend & contour interval | Verify current declination
+visual: Exploded map-margin anatomy highlighting publication date, scale bar, contour interval and true/grid/magnetic north diagram. Conceptual, not to scale.
+reviewer: Cartography and navigation
+
+Z11-R04 | Read elevation contours, low ground and water barriers | B014 reconstruction · r01 slot R04 (original B014-P04 missing)
+objective: Translate brown contour spacing and blue hydrography symbols into slope steepness, flood channels and wet-ground detours.
+applies: Pre-trip terrain study and dry-land map reading; reconstructs missing B014-P04 using conceptual contours and Ely 1965 symbols reference.
+equipment: Topographic map with contour interval, pencil and optional magnifying glass.
+action: Read index contours and spacing to judge slope steepness: closely packed lines mean steep bluffs or cliffs, while wide spacing marks flatter benches or valleys. @N02,N03
+action: Identify valley V-contours pointing uphill and blue streams, lakes, marshes and intermittent drainages that create wet-footing, flood or ice barriers along a route. @N02,N03,E04
+action: Remember that hazards smaller than the map's contour interval (such as 15-foot ledges, deep muck or fallen blowdowns) do not appear on standard topo sheets. @N02
+failure: Plotting a straight compass line across tight contour cliffs or wide blue marsh symbols assuming flat open walking. @N02,N03,X12
+verify: Trace your planned route on the map and point out the steepest climb, lowest drainage and every water or wetland crossing before leaving. @N02,N03,ED
+stop: When actual terrain shows steeper drop-offs, deeper wetlands or higher water than the map suggests, trust the ground and reroute safely. @N02,N10,ED
+diagram: Tight lines = steep slope | V-contours point uphill | Blue features = barriers
+visual: Cutaway terrain-to-contour correspondence mapping hillside slope, drainage valley and marsh symbol limits. Conceptual, not to scale.
+reviewer: Cartography and search and rescue
+
+Z11-R05 | Orient a paper map to terrain using a baseplate compass | B014 reconstruction · r01 slot R05 (original B014-P05 missing)
+objective: Align the printed map with real surrounding landforms so left, right and ahead match the landscape.
+applies: Trailheads, junctions and open viewpoints when matching map symbols to visible features; reconstructs missing B014-P05.
+equipment: Paper topographic map and baseplate compass kept clear of metal and electronics.
+action: Step clear of vehicles, steel signs, knives and phones, set the compass bezel to north (accounting for current local declination) and lay the compass edge parallel to a north-south map meridian. @N08,T08
+action: Rotate the map and compass together flat in your hands until the magnetic needle aligns smoothly inside the orienting arrow—now map features point in the same direction as the real terrain. @N08,N03,ED
+action: Confirm orientation visually against at least two obvious landmarks (lake shore, ridge crest, road bend or valley slope) before trusting the match. @N03,ED
+failure: Holding the map right-side-up to read labels instead of aligning north to the landscape, causing left-right turn reversals at trail forks. @N08,ED
+verify: Point from your map position toward two visible landmarks and verify both match real-world direction and distance roughly. @N03,N08,ED
+stop: If compass needle orientation contradicts major visible terrain features, step away from metal/iron rock and re-verify your location before moving. @N08,T06
+diagram: Clear metal & align meridian | Rotate map to match needle | Confirm with two landmarks
+visual: Mechanism diagram illustrating map-to-compass north alignment and two-landmark visual confirmation on flat terrain. Conceptual, not to scale.
+reviewer: Navigation and search and rescue
+
+Z11-R06 | Measure and walk a verified practice bearing between landmarks | B014 reconstruction · r01 slot R06 (original B014-P06 missing)
+objective: Practice plotting a map bearing, applying declination and sighting a visible target safely on known dry land.
+applies: Supervised dry-land training and routine trail-to-landmark checks; reconstructs missing B014-P06.
+equipment: Current topographic map, baseplate compass with declination convention verified and known practice area.
+action: Place the baseplate edge from your verified start point to your target landmark (direction-of-travel arrow pointing forward), turn the bezel so orienting lines align with map north and read the map bearing. @T08,N08,ED
+action: Apply your current local declination conversion cleanly (or use an adjustable-declination compass verified for your zone) so the magnetic bearing matches the field compass needle. @T08,N08
+action: Hold the compass level clear of metal, rotate your whole body until the needle settles inside the orienting arrow and sight an intermediate landmark straight ahead along the travel arrow. @N08,ED
+failure: Pointing the baseplate arrow backward toward the start point (walking 180 degrees opposite) or forgetting to apply local declination. @T08,N08
+verify: Check the bearing direction roughly on the oriented map (e.g., northeast vs southwest) before stepping off to catch 180-degree errors immediately. @T08,N08,ED
+stop: Practice bearings first on bounded known dry land; halt immediately if the compass reading disagrees with obvious terrain orientation. @N08,T06,ED
+diagram: Align baseplate start -> target | Apply current declination | Sight visible intermediate point
+visual: Mechanism diagram detailing baseplate travel-arrow orientation, declination adjustment and sanity-checking direction on an oriented map. Conceptual, not to scale.
+reviewer: Navigation and outdoor education
+
+Z11-R07 | Set checkpoint intervals, pace estimates and turnaround margins | B014 reconstruction · r01 slot R07 (original B014-P07 missing)
+objective: Break a route into short verifiable legs so navigation drift and schedule delays are caught early.
+applies: Planning and walking backcountry routes where terrain, snow or group pace can slow progress; reconstructs missing B014-P07.
+equipment: Map with marked checkpoints, watch and daylight sunset time.
+action: Divide the route into unmistakable checkpoints (signed junctions, bridges, stream confluences, ridge saddles) spaced close enough to verify progress regularly. @E01,N03,ED
+action: Estimate travel time conservatively for the slowest group member, steep climbs and poor footing, setting an explicit turnaround time that preserves generous daylight margin. @E11,E01,ED
+action: Compare actual elapsed time against planned time at every checkpoint—if you reach checkpoint two far behind schedule, adjust or turn back while energy remains high. @E01,E11,ED
+failure: Hiking steadily without checking elapsed time until sunset leaves the party two hours from the trailhead in falling temperatures. @E01,E11
+verify: At each checkpoint, confirm the map match, actual time remaining before sunset and whether the group still holds its return margin. @E01,ED
+stop: When remaining daylight, worsening weather or slowed pace consumes the return margin, turn back immediately along the known safe route. @E01,T06,E18
+diagram: Mark short clear checkpoints | Compare elapsed time & pace | Turn back with daylight margin
+visual: Decision tree pairing checkpoint elapsed-time comparisons and daylight remaining to continue, shorten or execute immediate turnaround. Conceptual, not to scale.
+reviewer: Navigation and outdoor leadership
+
+Z11-R09 | Recognize position uncertainty and record last known point | B014 reconstruction · r01 slot R09 (original B014-P09 missing)
+objective: Stop forward travel the instant map-to-ground confidence breaks and preserve a usable starting point for relocation or rescue.
+applies: Any moment a hiker cannot match surrounding terrain to the map; reconstructs missing B014-P09.
+equipment: Paper/offline map, notebook or phone note, watch and whistle.
+action: Admit position uncertainty immediately the first time an expected junction, bridge or slope fails to appear within your expected time window. @T06,N09
+action: Stop on stable ground, record the exact last place and time you positively verified your location, and list every direction and landmark seen since that point. @T06,N09,ED
+action: Avoid guessing shortcuts off-trail to force a match; only backtrack along unmistakable tracks/trails if you are 100% certain of the return path, otherwise stay put and prepare to signal. @T06,N09
+failure: Walking another mile down an unverified spur trail hoping a familiar sign will appear, multiplying the search area. @T06,N09
+verify: Write or state aloud the last confirmed landmark, elapsed walking time since leaving it and your stay-or-backtrack decision criteria. @T06,N09,ED
+stop: If uncertainty persists after calm map comparison or visibility/daylight drops, stop moving, shelter in place and contact rescue with your last verified point. @T06,N09,E05
+diagram: Expected feature missing? | Record last confirmed point | Stay put if return uncertain
+visual: Decision tree interrupting forward drift at the first missed checkpoint to record last known position and block unverified wandering. Conceptual, not to scale.
+reviewer: Search and rescue and navigation
+
+Z11-R10 | Assign group navigation roles and emergency accountability | B014 reconstruction · r01 slot R10 (original B014-P10 missing)
+objective: Share map awareness and head-count duties across the party so one distracted leader never leads the group off-route.
+applies: Group travel in forests, mountains or winter terrain; reconstructs missing B014-P10.
+equipment: Multiple map copies, shared route plan, whistle for every person and agreed stop signals.
+action: Assign a primary navigator, a second independent map checker and a rear sweep so route decisions are double-checked and nobody drifts out of sight. @E11,E02,ED
+action: Brief every participant—including youth—on the day's checkpoints, turnaround time, whistle stop signal and the strict rule to stay put if separated. @E11,T06,N09
+action: Pause at every trail intersection until the rear sweep arrives and confirms the full group count before anyone steps onto the next leg. @E11,ED
+failure: Leaving navigation exclusively to one phone-holding hiker who walks ahead out of voice range past an unsigned trail fork. @E11,T06
+verify: Confirm at least two people carry independent maps and every member knows the stay-put rule and whistle stop signal. @E11,E02,ED
+stop: If visual/voice contact breaks or two navigators disagree on location, halt the entire group immediately until position is jointly resolved. @E11,T06,ED
+diagram: Primary + backup navigator | Rear sweep holds full count | Stay-put rule briefed to all
+visual: Comparative configuration contrasting shared multi-navigator accountability against single-leader group separation risk. Conceptual, not to scale.
+reviewer: Outdoor leadership and search and rescue
+
+Z11-P11 | Halt and verify when whiteout or dense fog erases the trail | B014-P11 whiteout and NWS fog safety; adapted historical material
+objective: Prevent disorientation, cliff falls and thin-ice entry when blowing snow or dense fog destroys visual landmarks.
+applies: Blowing snow, blizzard whiteout, dense valley fog or coastal fog obscuring trail markers and terrain contrast.
+equipment: Compass, offline/paper map, warm layers, shelter and whistle.
+action: Stop travel promptly as soon as landmarks, trail treads or depth contrast fade into whiteout or dense fog—continuing blindly leads straight off ledges or onto hidden water. @N07,E12,T06
+action: Keep the entire group tightly together within arm's reach or voice range, add wind/cold protection and verify whether a short unmistakable backtrack to recent shelter exists. @N07,E05,E11
+action: Remember that a compass needle shows direction only—it CANNOT warn you of cornices, stream drop-offs, vehicle traffic or thin lake ice hidden ten feet ahead in zero visibility. @N07,E12
+failure: Pushing forward across a snow-covered clearing in blowing snow hoping to spot the next trail sign, walking straight onto a frozen marsh. @N07,E12
+verify: Confirm everyone is accounted for, sheltered from wind and holding on verified stable land until visibility returns safely. @N07,E05,E11,ED
+stop: Zero visibility with no unmistakable safe handrail or nearby refuge requires halting on stable ground, sheltering and alerting contacts or rescue. @N07,T06,E05
+diagram: Visibility & contrast collapse | Compass cannot see hidden drops | Halt on stable land & shelter
+visual: Failure-mode illustration showing how whiteout and dense fog erase terrain hazards despite a working compass, triggering immediate stay-put shelter. Conceptual, not to scale.
+reviewer: Winter navigation and search and rescue
+
+Z11-P12 | Detour on land rather than cutting across water or wetlands | B014-P12 water barrier and NWS flood safety; adapted historical material
+objective: Preserve safe footing by routing around lakes, rivers, beaver ponds, bogs and frozen waterways on verified land.
+applies: North Woods lakes, rivers, marshes, snow-covered ponds and flooded trails; includes public-domain USGS 1965 Ely symbol reference.
+equipment: Current topographic map, waterproof footwear awareness and sufficient time for land detours.
+action: Stop short on firm elevated ground whenever a planned route meets a frozen lake, bog, beaver pond, swift stream or flooded trail—observe conditions from stable shore. @N10,E12,X12
+action: Read map hydrography and real terrain together to locate an authorized dry land detour around the water barrier; never assume a snow-covered flat opening is solid meadow rather than thin lake ice or quaking bog. @N02,E12,X12
+action: Reject unverified footbridges, floating logs, flooded crossings and uncertain ice shortcuts even if they look much shorter on the map. @N10,E12,T07
+failure: Cutting straight across a flat white snowfield between two points on a map without realizing it is an unfrozen inlet or spring-fed lake bay. @E12,X12,N02
+verify: Confirm the chosen detour stays on solid dry land with clear visual landmarks matching the current map. @N10,E12,ED
+stop: Unknown ice, deep unstable muck, swift floodwater or absence of a verified land detour stops forward travel—hold on dry ground and turn back or call for help. @N10,E12,T06
+diagram: Lake, bog or flooded channel | Reject ice/mud shortcut | Take verified dry land detour
+visual: Environmental map-to-terrain diagram contrasting hazardous water/wetland shortcuts against an authorized high-ground land detour. Conceptual, not to scale.
+reviewer: Navigation, ice safety and search and rescue
+
+Z11-P13 | Reject unreliable nature-folklore direction clues in favor of instruments | B014-P13 unreliable clues and NOAA declination; adapted historical material
+objective: Avoid false confidence from folklore sayings (moss, tree branches, anthills) that fail regularly in real forests.
+applies: Disoriented or backcountry travel when tempted to guess direction from vegetation or casual environmental signs.
+equipment: Baseplate compass, paper map and calm position-uncertainty procedure.
+action: Reject folklore myths such as "moss grows on the north side of trees" or single-tree branch lean—local shade, dampness, slope aspect and wind shear control moss and growth far more than compass north. @N08,ED
+action: Recognize that even real astronomical cues (sun arc or stars) require clear skies, accurate local time/season understanding and yield only coarse approximate orientation—not precise trail bearings. @N08,N07,ED
+action: Rely on verified instruments (oriented paper map, metal-clear compass, verified offline GPS) paired with terrain features; when instruments and position fail together, stop and signal rather than guessing. @N08,T06,N09
+failure: Following mossy tree trunks through a shaded northern spruce bog in overcast fog and walking steadily deeper away from the road. @N08,N07,T06
+verify: Confirm your direction comes from an inspected compass clear of metal or verified map-to-terrain landmarks—never from plant folklore. @N08,ED
+stop: If overcast skies, dead electronics and lack of a working compass leave direction unverified, stop moving, shelter and stay findable. @N08,T06,N09
+diagram: Moss & foliage = local shade | Sun/stars = rough clear-sky only | Trust map, compass or stay put
+visual: Comparative configuration contrasting unreliable folklore cues, coarse clear-sky astronomical checks and verified map-and-compass instruments. Conceptual, not to scale.
+reviewer: Navigation and outdoor education
+
+Z11-P14 | Reconcile true, grid and magnetic north before converting bearings | B014-P14 declination and NOAA NCEI; adapted historical material
+objective: Prevent systematic off-target navigation drift by distinguishing the three north references and applying current local declination accurately.
+applies: Converting bearings between topographic maps and magnetic compasses in any region.
+equipment: Current topographic map, baseplate compass and current-year NOAA local declination value.
+action: Distinguish the three norths: True North points to the geographic North Pole, Grid North follows UTM map grid lines (usually close to true north), and Magnetic North points toward the shifting magnetic pole read by your compass needle. @T08,N08
+action: Look up the current local magnetic declination (east or west angle) for your exact destination and year before leaving home—declination drifts every year, making old map margins inaccurate. @T08,N01
+action: Use one consistent conversion method (adjustable-declination compass set once pre-trip, or written map-to-field conversion rule verified on a known landmark) and double-check sign direction (East vs West) before walking. @T08,N08,ED
+failure: Adding an East declination when it should have been subtracted (doubling the error) or using a 1965 sheet's magnetic diagram unchanged today. @T08,N01,N08
+verify: Test your adjusted compass on a known straight road or map-aligned trail at the trailhead to confirm the reading matches expected bearing. @T08,N08,ED
+stop: If you are unsure whether to add or subtract declination in the field, pause on known ground and rely on verified trail handrails until the conversion is confirmed. @T08,N08,ED
+diagram: True vs Grid vs Magnetic North | Look up current-year angle | Verify sign on known landmark
+visual: Mechanism diagram illustrating angular separation among True North, Grid North and Magnetic North plus trailhead verification check. Conceptual, not to scale.
+reviewer: Cartography, navigation and geophysics
+
+Z11-P15 | Continue navigating safely when phone batteries or GPS fail in cold | B014-P15 phone failure and NPS Ten Essentials; adapted historical material
+objective: Transition smoothly to paper map and compass when subfreezing temperatures, cracked screens or dead batteries knock out electronics.
+applies: Cold-weather travel, wet storms or multi-day trips carrying smartphone navigation apps or handheld GPS.
+equipment: Paper topographic map in waterproof sleeve, baseplate compass, warm inner pocket for phone and spare power bank.
+action: Protect phones and GPS units against rapid lithium-battery voltage drop by carrying them in an insulated inner pocket on airplane mode, pulling them out only briefly for scheduled checks. @E02,E10,ED
+action: Track your current position continuously on the paper map at each major junction BEFORE the phone dies—a paper map is far harder to match if you only open it after getting lost. @E02,N01,ED
+action: The instant electronics shut down, switch cleanly to oriented paper map, compass and unmistakable terrain handrails, or turn back early if your return margin depends on lost digital tracks. @E02,T06,N08
+failure: Hiking six miles solely by watching a blue GPS dot on a cold phone in an outer pocket, then having the screen go black at dusk with an unopened paper map. @E02,T06
+verify: Confirm your paper map shows your current confirmed checkpoint right now and remains legible without battery power. @E02,ED
+stop: If electronic failure coincides with poor visibility or uncertain position on paper, stop moving, shelter and stay findable rather than wandering. @E02,N07,T06
+diagram: Cold drains lithium battery | Track position on paper early | Switch smoothly to map & compass
+visual: Failure-mode illustration linking cold lithium voltage collapse to sudden black-screen loss and pre-staged paper-map continuity. Conceptual, not to scale.
+reviewer: Navigation and cold-weather field equipment
+
+Z11-P16 | Make a stationary position visible and audible to searchers | B014-P16 signaling and NPS emergency plan; adapted historical material
+objective: Increase detection range for ground teams and aircraft while staying safely together at a single sheltered site.
+applies: Overdue, injured or lost party holding position awaiting search and rescue.
+equipment: Pea-less whistle, bright contrasting tarp or clothing, LED headlamp/strobe, signal mirror and phone/beacon if available.
+action: Choose a sheltered spot adjacent to a clear natural opening (meadow, clearing edge or open ridge) where bright contrasting colors or cleared snow/ground letters stand out from overhead without exposing the group to wind or avalanche. @N09,T06,E05
+action: Deploy high-contrast panels or bright gear securely anchored against wind, keeping a whistle worn around the neck and a headlamp ready at dusk to answer searcher calls or lights. @N09,E02,C11
+action: Stay at your marked position rather than walking away from signals—abandoning a signaled spot forces searchers to search empty ground. @N09,T06
+failure: Hiding completely beneath dense dark evergreen canopy wearing olive/brown jackets while search aircraft or ground teams pass nearby. @N09,T06
+verify: Confirm bright contrast is visible from above/nearby trails, whistle and light are immediately in hand and the group stays sheltered together. @N09,E05,ED
+stop: Never light uncontrolled brush fires as signals or step onto unstable ice/cliffs to improve visibility. @C01,C18,E12
+diagram: Sheltered near clear opening | High-contrast ground panel | Whistle & light ready on body
+visual: Exploded stationary-signaling site pairing sheltered waiting position, anchored bright contrast marker, audio whistle and night LED beacon. Conceptual, not to scale.
+reviewer: Search and rescue
+
+Z11-P17 | Respond systematically when a child or partner disappears | B014-P17 missing companion and NPS emergency plan; adapted historical material
+objective: Prevent secondary lost-person emergencies while launching immediate containment, clue preservation and early 911/SAR activation.
+applies: Any outing where a child, vulnerable adult or hiking partner cannot be found at a camp, junction or stop.
+equipment: Watch/time log, whistle, phone/communicator and remaining group roster.
+action: Stop the remaining group together immediately, record the exact time and Point Last Seen (PLS) without trampling surrounding tracks, and blow timed whistle calls while listening quietly for replies. @E11,N09,T06
+action: Conduct ONLY a brief, bounded high-probability check of immediate camp hazards (nearby tents, vehicles, shoreline edges, rest areas) using paired spotters who keep voice contact—never scatter solo into woods. @E11,N09,ED
+action: Call 911 or park dispatch EARLY—especially for young children, older adults, medical needs or cold/dark weather—giving exact PLS, clothing colors, footwear tread, age, medical history and direction last headed. @T02,T06,N09,T10
+failure: Delaying a 911 call for hours out of embarrassment while six untrained friends trample all footprints around the Point Last Seen and get lost themselves. @N09,T02,E11
+verify: Confirm the Point Last Seen is marked cleanly, remaining group stays accounted for and exact missing-person details have been relayed to dispatch. @N09,T06,E11,ED
+stop: Never send solo searchers into dark, flooded, icy or unfamiliar terrain; follow arriving SAR incident-command instructions strictly. @N09,E11,T02
+diagram: Halt group & mark PLS | Brief safe check; save tracks | Call 911 early with full details
+visual: Decision tree governing missing-person containment, Point Last Seen clue preservation and early 911/SAR activation. Conceptual, not to scale.
+reviewer: Search and rescue and emergency dispatch
+
+Z11-P18 | Commit to the last-light turnaround or early overnight camp | B014-P18 last light and NWS winter safety; adapted historical material
+objective: Choose decisively between reaching safety before dark or stopping early with daylight left to build a safe camp.
+applies: Late-afternoon travel when sunset approaches faster than expected progress.
+equipment: Watch with exact sunset time, headlamp, shelter/insulation layers and map showing nearest exit.
+action: Check exact civil-twilight/sunset time and calculate honest remaining distance at tired late-day walking pace—remembering deep valleys and forest canopy turn dark well before official sunset. @E01,E11,ED
+action: If you can reach the trailhead safely before dark or have a clearly marked easy trail plus working headlamps and warm margins, proceed together at controlled pace. @E01,E02,ED
+action: If the remaining trail is unverified, technical, icy or too far for group stamina, STOP with at least 45–60 minutes of usable daylight left to pick a safe dry site, set shelter and prepare insulation calmly. @E03,E05,E04,ED
+failure: Pushing down an icy or poorly marked trail into pitch darkness until exhausted, then pitching a shelter blindly beneath dead snags or in a flood channel. @E03,E04,E13
+verify: Confirm remaining daylight minutes, headlamp battery state and an explicit group decision to either finish cleanly or stop early and stabilize. @E01,E02,E05,ED
+stop: Never continue cross-country off-trail navigation after dark over uncertain terrain; stop early on safe ground and wait for daylight. @E01,T06,E05
+diagram: Honest time vs sunset left | Clear easy exit + lights? | Otherwise stop early in daylight
+visual: Decision tree weighing remaining daylight, trail clarity and group fatigue to trigger either controlled finish or early daylight camp stabilization. Conceptual, not to scale.
+reviewer: Search and rescue and outdoor leadership
+
+Z11-P19 | Spot six ways a reasonable-looking route fails on the ground | B014-P19 route failures and USGS topo limits; adapted historical material
+objective: Anticipate common real-world disconnects between clean map lines and hazardous backcountry travel.
+applies: Pre-trip route vetting and live field troubleshooting; references public-domain USGS 1965 Ely quadrangle symbols only.
+equipment: Current map, weather/agency alerts and honest field observation.
+action: Watch for six classic route breakdowns: (1) outdated maps hiding washed-out bridges or beaver-flooded trails, (2) snow-buried signs and false animal tracks, (3) windthrow blowdowns forcing off-trail detours around hazards. @N01,N02,N10
+action: Watch for the other three traps: (4) small cliffs/bogs hidden below contour intervals, (5) phone battery death or iron-rock compass deflection, and (6) shrinking daylight or fast-moving weather fronts invalidating a morning plan. @N02,N08,E18,E02
+action: Keep one pre-identified bailout exit ready for every route segment so a blocked bridge, blowdown or rising creek triggers a calm reroute instead of risky improvisation. @E01,N10,ED
+failure: Insisting on following a dashed line on an old map straight into a beaver-flooded swamp or storm-tangled blowdown maze. @N01,N10,X12
+verify: Before departure, list the two most likely route-failure points on today's map and name the exact dry-land bailout for each. @N01,N02,ED
+stop: When field terrain contradicts the map and no verified detour appears, halt before drifting off-route and reassess from known ground. @N01,T06,N09
+diagram: Old map / snow / blowdowns | Hidden bogs / gear / weather | Pre-plan bailout & trust ground
+visual: Failure-mode overview grouping six recurring map-to-ground breakdown triggers with pre-planned bailout recovery. Conceptual, not to scale.
+reviewer: Navigation, cartography and search and rescue
+
+Z11-P20 | Execute the lost-in-winter pocket action sequence cleanly | B014-P20 pocket card and NWS winter safety; adapted historical material
+objective: Follow one clear, cold-stress-proof decision order when disoriented in winter conditions.
+applies: Lost, overdue or weather-trapped outdoor party in cold or snowy conditions.
+equipment: Dry layers, ground insulation, whistle, light, map and phone/beacon if carried.
+action: STOP immediately on stable dry land away from ice, wind corridors and overhead snags—sit on pack or foam pad, put on dry insulation and eat/drink safe reserves to protect clear judgment. @T06,E05,E12,E13
+action: THINK and OBSERVE: count the group, screen for early hypothermia (fumbling, slurred speech, confusion), check last confirmed landmark and test whether 911/text/beacon works without risky wandering. @T03,T06,N09,E11
+action: PLAN conservatively: stay put, build a windbreak/dry bed and display high-contrast signals unless an unmistakable, short, verified land route leads to immediate safe shelter. @N09,E05,T06
+failure: Panicking and power-walking rapidly in freezing wind to stay warm, sweating out inner layers while moving farther away from the Point Last Seen. @E10,N09,T06
+verify: Confirm the group is off ice, out of wind, wearing dry insulation, accounted for and either contacting rescue or displaying clear signals. @E05,E12,N09,ED
+stop: Worsening confusion, slurred speech, frostbite numbness or failing daylight ends all travel options—stabilize in shelter and activate emergency rescue immediately. @T03,T04,T02
+diagram: STOP on land & add dry layers | Screen cold signs & call 911 | Stay findable unless exit sure
+visual: Decision tree encoding the cold-weather STOP-stabilize-assess-signal sequence with hypothermia and ice hard-stop gates. Conceptual, not to scale.
+reviewer: Winter search and rescue and wilderness medicine
+
+Z11-P21 | Distinguish USGS 1:24,000, 1:50,000 and regional trail map scales | USGS US Topo and map FAQ; new manuscript
+objective: Choose the right map scale for detailed terrain navigation versus broad regional exit planning.
+applies: Selecting paper or offline topographic maps before backcountry travel or disaster evacuation.
+equipment: Detailed quadrangle map (e.g., 1:24,000) and regional overview map showing surrounding highways and towns.
+action: Understand map scale fractions: a 1:24,000 USGS quadrangle shows fine terrain detail (1 inch ≈ 2,000 feet) ideal for off-trail or complex forest navigation, whereas 1:50,000 or 1:100,000 maps cover wider territory with fewer small contours. @N01,N02
+action: Always measure distances using the printed graphic scale bar on the map margin—graphic bars stay accurate even if a sheet is enlarged or reduced on a printer, whereas ruler ratios break when scaled. @N01,ED
+action: Pair one detailed route map with a broader regional road/park overview so unexpected detours or wildfire/flood evacuations never run off the edge of your only sheet. @N01,T13,ED
+failure: Printing a zoomed screenshot with no scale bar, or hiking into complex ridge terrain with only a 1:250,000 highway overview map. @N01,N02
+verify: Confirm your primary sheet includes a printed graphic scale bar, sufficient contour detail for terrain and coverage of surrounding bailout roads. @N01,N02,ED
+stop: Do not rely on unscaled sketch maps or tiny park brochure cartoons for remote backcountry navigation. @N01,E01
+diagram: 1:24,000: fine route detail | 1:50,000+: wide regional exits | Always use graphic scale bar
+visual: Comparative configuration contrasting terrain detail, area coverage and scale-bar accuracy across 1:24,000, 1:50,000 and regional overview maps. Conceptual, not to scale.
+reviewer: Cartography and navigation
+
+Z11-P22 | Read contour intervals, index contours and slope steepness | USGS topographic map symbols; new manuscript
+objective: Determine elevation gain, cliff hazards and gentle travel grades accurately from brown contour lines.
+applies: Route planning and terrain verification using standard USGS topographic maps.
+equipment: Topographic map showing contour interval on the bottom margin.
+action: Read the map's printed contour interval first (commonly 10, 20 or 40 feet)—every fifth thicker brown line (index contour) displays an elevation number to speed counting. @N02,N03
+action: Judge terrain steepness from line density: evenly spaced contours mark a uniform slope, widening spacing downhill marks a gentler concave slope and tightening lines downhill warn of a convex drop-off hiding cliffs below. @N03,N02
+action: Look for tiny inward tick marks (hachures) on closed contour rings indicating a sinkhole or depression rather than a hilltop peak. @N03
+failure: Misreading a 40-foot contour interval as 10 feet and underestimating an exhausting climb by fourfold, or missing a convex cliff lip. @N02,N03
+verify: Calculate total elevation change across one planned climb using the printed contour interval and identify the steepest slope segment. @N02,N03,ED
+stop: Treat merged or touching contour lines as sheer cliffs or vertical bluffs—plan a route cleanly around them rather than testing them in person. @N02,N03
+diagram: Check printed contour interval | Tighter lines = steeper slope | Hachured ring = depression
+visual: Material/terrain cross-section projecting concave, convex, uniform and cliff slope profiles directly onto 2D topographic contour spacing. Conceptual, not to scale.
+reviewer: Cartography and navigation
+
+Z11-P23 | Identify ridges, valleys, saddles, spurs and re-entrants on topo maps | USGS topographic map FAQ; new manuscript
+objective: Recognize five fundamental 3D landforms on a flat map to keep constant terrain awareness while moving.
+applies: Foot travel in rolling hills, river bluffs and mountain terrain using topographic maps.
+equipment: Topographic map oriented to terrain.
+action: Read U-shaped and V-shaped contour bends carefully: contour V-tips pointing UPHILL (toward higher index numbers) mark valleys, gullies and stream re-entrants, whereas U-bends pointing DOWNHILL mark projecting ridges and spurs. @N03,N02
+action: Locate saddles (low hour-glass passes between two higher hilltops) as natural travel gateways and unmistakable terrain checkpoints along ridge routes. @N03,ED
+action: Match the big shapes first (major river valley, main ridge crest, lake basin) before hunting for subtle minor bumps that dense trees can hide. @N03,N02
+failure: Confusing a downhill-pointing spur with an uphill-pointing gully and descending into the wrong watershed drainage. @N03
+verify: Point to one ridge, one valley/re-entrant and one saddle on your map and match at least two of them to visible surrounding ground. @N03,ED
+stop: When thick forest or fog hides major landform shapes, shorten checkpoint spacing and stay strictly on verified linear trails or handrails. @N03,N07
+diagram: V-points uphill = valley | U-bends downhill = ridge/spur | Hourglass dip = saddle pass
+visual: Environmental landform diagram linking 3D peaks, saddles, ridges, spurs and valleys directly to their characteristic topographic contour shapes. Conceptual, not to scale.
+reviewer: Cartography and navigation
+
+Z11-P24 | Use linear handrails, backstops and catching features along a route | USGS topo symbols and NPS navigation; new manuscript
+objective: Frame every navigation leg with unmistakable landscape boundaries so you cannot overshoot or drift silently off-course.
+applies: Planning trail, cross-country or low-visibility travel legs in varied terrain.
+equipment: Oriented topographic map and route notes marking boundaries for each leg.
+action: Select a **handrail**—a continuous linear feature running alongside your intended direction (trail, stream edge, ridge crest, lakeshore, powerline or road)—to follow smoothly without staring constantly at a compass. @N03,N02,ED
+action: Select a **backstop (catching feature)**—a clear unmistakable barrier crossing perpendicular BEYOND your target (river, highway, major trail junction, steep bluff)—that immediately tells you if you walked too far. @N03,N02,ED
+action: Check terrain hazards on both handrails and backstops: never use a frozen lake surface, active railroad track or flash-flood canyon floor as a walking handrail. @N10,E12,E04
+failure: Walking off-trail toward a tiny unmarked pond with no highway, river or ridge backstop behind it to catch an overshoot. @N03,T06
+verify: For each planned leg, name your travel handrail (if present), target checkpoint and unmistakable backstop feature behind it. @N03,ED
+stop: The instant you hit your backstop feature without seeing your target, STOP immediately—you have overshot and must relocate calmly before moving. @N03,T06,N09
+diagram: Linear handrail guides leg | Target checkpoint along way | Backstop catches any overshoot
+visual: Environmental route-planning map showing a linear trail/ridge handrail, target checkpoint and perpendicular river/road catching backstop. Conceptual, not to scale.
+reviewer: Navigation and search and rescue
+
+Z11-P25 | Apply deliberate aiming-off to reach an exact target on a linear feature | Navigation geometry and NOAA declination; new manuscript
+objective: Eliminate left-or-right guesswork when approaching a small camp, bridge or trailhead located along a road or shoreline.
+applies: Walking a compass leg toward a specific point situated on a linear feature (river, road, lakeshore or main trail).
+equipment: Topographic map and baseplate compass with current declination set.
+action: Recognize that even skilled compass walkers drift slightly left or right over distance—if you aim dead-center at a bridge on a river and hit the bank slightly off, you will not know whether to turn left or right. @N08,ED
+action: Deliberately bias your compass bearing a few degrees to one known side (for example, aiming slightly upstream of a bridge or east of a trailhead on an east-west road) so you arrive with certainty on that known side. @N08,N03,ED
+action: Upon reaching the linear road, trail or bank, turn confidently in the single known direction toward your target until you reach it. @N08,N03,ED
+failure: Walking straight at a small hidden dock on a long wooded shoreline, missing by 100 yards and turning the wrong direction for miles. @N08,T06
+verify: State clearly before starting the leg which side you aimed off toward and which way you will turn upon hitting the linear feature. @N08,ED
+stop: Never aim off toward a hazardous cliff, swamp or river confluence—always choose the safer, unobstructed side of the target. @N10,N03,ED
+diagram: Bias bearing slightly one side | Hit linear road/bank cleanly | Turn one known way to target
+visual: Mechanism diagram comparing uncertain dead-center drift against deliberate one-sided aiming-off toward a bridge on a linear river bank. Conceptual, not to scale.
+reviewer: Navigation and outdoor education
+
+Z11-P26 | Read latitude/longitude and UTM grid coordinates without format errors | USGS US Topo and NPS emergency plan; new manuscript
+objective: Read and transmit exact map or GPS coordinates unambiguously so responders plot your true location.
+applies: Reading USGS map grids, configuring GPS apps and calling 911 or SAR dispatch.
+equipment: Topographic map with coordinate ticks, GPS/phone display and written format reference.
+action: Recognize the three common latitude/longitude formats—Decimal Degrees (DD.DDDD°), Degrees Decimal Minutes (DD° MM.MMM′) and Degrees Minutes Seconds (DD° MM′ SS″)—and NEVER mix formats or drop minus/hemisphere signs (North/West in the U.S.). @N01,T06
+action: Recognize UTM (Universal Transverse Mercator) metric grid coordinates used on USGS maps and SAR operations: always include the Grid Zone (e.g., 15T in northern Minnesota), Easting (read right) and Northing (read up). @N01,N02
+action: Read every coordinate aloud exactly as displayed on your device or map margin, explicitly stating the format and hemisphere/zone to the dispatcher. @T06,N01,ED
+failure: Reading Degrees-Minutes-Seconds digits as Decimal Degrees to a 911 dispatcher, placing your rescue pin miles away from your actual camp. @T06,N01
+verify: Confirm your GPS app, paper map grid and written location note display the exact same coordinate format and hemisphere/zone. @N01,T06,ED
+stop: When uncertain of coordinate format, give verified plain-language landmarks (park, trailhead, nearest junction, lake name) alongside the raw unedited screen text. @T06,N09
+diagram: Lat/Lon: state exact format | UTM: Zone + Easting + Northing | Read raw screen + landmarks
+visual: Comparative configuration contrasting Decimal Degrees, Degrees-Minutes-Seconds and UTM Zone/Easting/Northing coordinate notation. Conceptual, not to scale.
+reviewer: Cartography, navigation and emergency dispatch
+
+Z11-P27 | Understand map datums (WGS84 vs NAD27) and coordinate mismatch risk | USGS US Topo and cartography; new manuscript
+objective: Prevent hundreds-of-meters coordinate offsets caused by mixing historical NAD27 map grids with modern WGS84/NAD83 GPS receivers.
+applies: Plotting smartphone or handheld GPS coordinates onto older printed USGS paper quadrangles.
+equipment: Paper topographic map (datum printed in bottom-left margin) and GPS/phone app settings.
+action: Check the geodetic datum printed in the map margin before plotting GPS points: modern US Topo sheets and GPS receivers default to WGS84 or NAD83 (virtually identical for foot travel), whereas older historical USGS sheets often use NAD27. @N01,N04
+action: Recognize that plotting a WGS84 GPS coordinate straight onto an unadjusted NAD27 map grid can shift your plotted position by tens to hundreds of meters—enough to place you on the wrong side of a cliff or river. @N01,ED
+action: Match your GPS receiver datum setting to the paper map's printed datum (or switch to a modern WGS84/NAD83 US Topo sheet) and always cross-check the plotted point against surrounding terrain contours. @N01,N03,ED
+failure: Copying WGS84 smartphone coordinates onto a vintage 1965 NAD27 paper quadrangle in fog and mistaking the shifted dot for a safe trail crossing. @N01,N04,N07
+verify: Confirm the datum printed on your paper map matches your GPS display setting before plotting or reporting grid coordinates. @N01,ED
+stop: Never trust a plotted grid point that contradicts visible surrounding terrain; verify datum settings and landmarks before moving. @N01,N03
+diagram: WGS84/NAD83 GPS point | Older NAD27 map grid | Shift offset -> match datums!
+visual: Failure-mode diagram illustrating position shift error when plotting WGS84 GPS coordinates onto an unmatched historical NAD27 map grid. Conceptual, not to scale.
+reviewer: Cartography and navigation
+
+Z11-P28 | Inspect baseplate compass bubbles, needle balance and bezel markings | NOAA declination and NPS Ten Essentials; new manuscript
+objective: Verify that a magnetic compass functions smoothly and accurately before relying on it in remote terrain.
+applies: Pre-trip gear inspection and periodic field checks of liquid-filled baseplate compasses.
+equipment: Baseplate compass checked outdoors away from steel desks, magnets and electronics.
+action: Inspect the liquid capsule for large air bubbles (a tiny cold-weather bubble that disappears in warmth is common, whereas a large bubble that pins or tilts the needle degrades accuracy) and check for cracked housing or leaking fluid. @N08,E02,ED
+action: Check that the magnetized needle swings freely, settles promptly without sticking to the glass, has a clearly marked north tip and shows no reversed polarity from past magnet exposure (test against known true/magnetic reference outdoors). @N08,ED
+action: Verify the rotating bezel turns smoothly without slipping loose, degree graduations remain legible and any adjustable declination screw matches your current trip zone. @T08,N08,ED
+failure: Carrying a cheap novelty keychain compass or a magnetized-reversed pocket compass stored next to a magnetic phone case into foggy woods. @N08,E02
+verify: Confirm free needle swing, intact fluid capsule, correct north polarity against a verified reference and smooth legible bezel markings. @N08,T08,ED
+stop: Retire leaking, sticky or polarity-reversed compasses before departure; never store compasses directly against magnetic latches, speakers or strong magnets. @N08,E02
+diagram: Intact liquid capsule | Free balanced north needle | Legible bezel & declination set
+visual: Exploded anatomy of a liquid-filled baseplate compass labeling travel arrow, rotating bezel, orienting arrow, north needle and declination scale. Conceptual, not to scale.
+reviewer: Navigation and field equipment
+
+Z11-P29 | Guard compass readings against metal gear, phones and iron-rich rock | B014-P14 and NOAA declination anomalies; new manuscript
+objective: Eliminate false compass deflections caused by nearby ferrous metal, electronics and local magnetic bedrock.
+applies: Taking any magnetic compass reading near packs, trekking poles, vehicles, knives or iron-bearing rock (such as northern Minnesota's Iron Range and basalt formations).
+equipment: Baseplate compass held level at chest/waist height clear of metal.
+action: Step several paces clear of vehicles, steel bridges, trail signs, metal fences, powerlines, stoves, knives, phones, smartwatches and magnetic jacket snaps before reading the needle. @N08
+action: Test for localized geologic magnetic anomalies (common in iron-rich northern bedrock) by walking twenty steps and sighting back toward your starting point—if the reverse bearing disagrees sharply from 180 degrees opposite, local rock is deflecting the needle. @N08,ED
+action: Cross-check every field bearing against visible landforms and an oriented map so a localized iron-rock deflection cannot steer you quietly off-course. @N08,N03
+failure: Resting a compass directly on a metal car hood, steel stove pot or iron-rich outcrop to plot a wilderness bearing. @N08
+verify: Hold the compass clear of watches, phones and belt buckles, confirm steady needle alignment and verify agreement with surrounding landforms. @N08,ED
+stop: When local iron-rich rock causes erratic compass swings, switch to map-to-terrain handrails and sighting on distant verified peaks/ridges rather than blind needle following. @N08,N03
+diagram: Metal, phone or iron bedrock | Deflects magnetic needle silently | Step clear & check back-bearing
+visual: Failure-mode illustration showing magnetic field distortion from vehicles, electronics and iron-bearing rock alongside the 180-degree back-bearing test. Conceptual, not to scale.
+reviewer: Navigation and geophysics safety
+
+Z11-P30 | Take a field-to-map bearing and verify with a reciprocal back-bearing | NOAA declination and USGS topo; new manuscript
+objective: Translate a visible real-world landmark direction onto a paper map and catch aiming or declination errors using back-bearings.
+applies: Identifying distant peaks, towers or lake points and confirming straight travel along a bearing line.
+equipment: Baseplate compass with declination verified and oriented topographic map.
+action: Point the compass direction-of-travel arrow squarely at a clearly identified visible landmark, hold level clear of metal and turn the bezel until the north needle sits centered inside the orienting arrow; read the bearing at the index line. @N08,T08
+action: Apply your declination conversion (if using a fixed-declination compass) cleanly to transfer the bearing onto the map, keeping the orienting lines parallel to map north meridians while pivoting through the landmark. @T08,N08
+action: Calculate the reciprocal **back-bearing** (add 180° if bearing is under 180°, or subtract 180° if over 180°) to look back at your starting landmark and verify you have not drifted sideways. @N08,ED
+failure: Forgetting to reverse the declination sign direction when switching from map-to-field versus field-to-map bearing conversions. @T08,N08
+verify: Sight backward from your midpoint toward your starting tree or ridge and confirm the reciprocal reading matches within a few degrees. @N08,ED
+stop: If forward and back-bearings disagree markedly, check for nearby metal, electronics or iron rock before trusting the line. @N08
+diagram: Sight landmark -> read bearing | Transfer cleanly to map | Check ±180° back-bearing
+visual: Mechanism diagram depicting forward field-to-map bearing sighting paired with a reciprocal 180-degree back-bearing drift check. Conceptual, not to scale.
+reviewer: Navigation and cartography
+
+Z11-P31 | Follow a compass bearing in forest using short visible leapfrog targets | B014 foundations and compass travel; new manuscript
+objective: Hold a straight intended course through trees and uneven terrain without staring down at the compass needle while walking.
+applies: Short verified compass legs across woods, clearings or rolling terrain with safe visibility.
+equipment: Baseplate compass and partner (optional leapfrog spotter).
+action: Sight along the compass direction-of-travel arrow to pick an unmistakable intermediate visual target (a distinct tree trunk, boulder or stump) ahead on your line, then lower the compass and walk smoothly to that target watching your footing. @N08,E01,ED
+action: At the intermediate target, sight back briefly toward your previous spot to confirm straightness, then pick the next visible target ahead along the same bearing—never hike with eyes locked on the needle. @N08,ED
+action: With a partner in thick woods, send one person ahead within clear sight/voice range while the rear compass holder signals left/right alignment until centered on the bearing, then leapfrog forward. @N08,E11,ED
+failure: Walking while staring down at a bouncing compass needle, tripping on roots and unconsciously drifting sideways around brush piles. @N08,T01
+verify: Confirm each intermediate visual target aligns closely with both your forward bearing and your backward check toward the last point. @N08,ED
+stop: When dense fog or brush collapses sighting distance to only a few paces and hazards surround you, halt compass travel and rely on verified handrails or stay put. @N07,N08
+diagram: Sight distinct tree ahead | Walk watching footing | Re-sight next short target
+visual: Mechanism diagram illustrating short-leg intermediate sighting and partner leapfrog alignment through wooded terrain. Conceptual, not to scale.
+reviewer: Navigation and outdoor education
+
+Z11-P32 | Box cleanly around a pond, cliff or blowdown using right-angle offsets | Navigation mechanics and B014-P12 water barriers; new manuscript
+objective: Detour cleanly around a localized obstacle on a bearing leg and rejoin your exact original travel line on the far side.
+applies: Encountering a small beaver pond, blowdown tangle or rock ledge along a verified dry-land compass leg.
+equipment: Baseplate compass, pace count and clear obstacle observation.
+action: Stop safely short of the obstacle, add or subtract 90 degrees on your compass bezel toward the clearer safer side and count exact paces walking perpendicular until completely clear of the barrier. @N08,N10,ED
+action: Return the bezel to your original travel bearing and walk forward until clear of the obstacle's far end. @N08,ED
+action: Reverse the 90-degree turn back toward your original line and walk the EXACT same pace count as your first offset leg, then reset to your original bearing to continue on line. @N08,ED
+failure: Guessing an angled curve around a pond without counting paces, drifting hundreds of yards off the original bearing and missing the next checkpoint. @N08,N10
+verify: Confirm perpendicular offset paces match on entry and return legs and verify the resumed bearing against surrounding map landforms. @N08,N03,ED
+stop: Use right-angle boxing only for compact obstacles on safe firm land; large lakes, cliffs or extensive wetlands require full map rerouting, not blind pacing. @N10,X12,N02
+diagram: Turn 90° & count exact paces | Pass obstacle on main bearing | Turn back 90° & match paces
+visual: Mechanism diagram illustrating the four-leg 90-degree rectangular obstacle detour with matched entry and return pace counts. Conceptual, not to scale.
+reviewer: Navigation and outdoor education
+
+Z11-P33 | Estimate walking distance using pace count and terrain-adjusted timing | B014 r01 slot R07 and NPS hiking safety; new manuscript
+objective: Track roughly how far you have traveled along a leg so you know when an expected junction or landmark is overdue.
+applies: Trail and backcountry navigation between verified map checkpoints.
+equipment: Pre-measured personal pace count (double-steps per 100 meters or 100 yards) and wristwatch.
+action: Measure your normal double-step pace count (counting every time your left foot strikes) over a measured flat 100-meter or 100-yard course at home wearing a typical pack before heading to the backcountry. @E01,ED
+action: Adjust distance and time expectations downward for uphill grades, deep snow, heavy mud, thick brush, heavy packs and group fatigue—terrain shortens stride length dramatically compared to flat pavement. @E01,E11,ED
+action: Pair pace counting (best for short segments under a few hundred yards) with elapsed clock time (best for longer trail legs, adding extra minutes for elevation climb) so you catch missed junctions early. @E01,ED
+failure: Assuming a 3-mph flat-park walking pace applies in ankle-deep winter snow or steep rocky climbs, misjudging arrival time by hours. @E01,E11
+verify: Recalibrate your elapsed-time estimate against actual map distance at the first two confirmed trail checkpoints. @E01,ED
+stop: When elapsed time or pace count passes 1.5x the expected window for a checkpoint without seeing it, STOP immediately and verify position rather than pushing further. @T06,N09
+diagram: Pre-measure flat double-steps | Shorten stride for snow/steep | Pair time + pace to catch misses
+visual: Comparative configuration contrasting flat-ground stride length and walking speed against uphill, mud, brush and snow terrain adjustments. Conceptual, not to scale.
+reviewer: Navigation and outdoor leadership
+
+Z11-P34 | Narrow position along a trail or ridge using a single-feature resection | USGS topo and compass orientation; new manuscript
+objective: Pinpoint approximately where you stand along a known linear trail, shoreline or ridge using one unmistakable distant landmark.
+applies: Confirming progress along a verified linear feature when one clear mapped peak, tower, island or inlet is visible.
+equipment: Oriented topographic map and baseplate compass with verified declination.
+action: Confirm positively which linear feature (trail, road, ridge crest or lakeshore) you are standing on right now. @N03,N01
+action: Take a field-to-map compass bearing (clear of metal, adjusted for current declination) to one unmistakable distant mapped landmark located roughly sideways (ideally 45–90 degrees off your trail axis). @N08,T08
+action: Lay the compass edge on the mapped landmark aligned with map north and trace back along the edge until it intersects your known trail or ridge—that intersection marks your approximate position. @N08,N03,ED
+failure: Sighting a landmark nearly straight ahead down the trail (shallow angle), where tiny compass error slides the intersection point half a mile along the line. @N08,N03
+verify: Confirm surrounding slope direction, nearby stream crossings or contour shape matches the intersection point on the map. @N03,ED
+stop: If the landmark identity is uncertain (two similar peaks or islands) or terrain contradicts the intersection, treat position as unconfirmed until verified. @N03,T06
+diagram: Known trail/shore line | Bearing to sideways landmark | Intersection marks approx spot
+visual: Mechanism diagram illustrating a single-landmark bearing line intersecting a known trail handrail at a strong angle to estimate position. Conceptual, not to scale.
+reviewer: Navigation and cartography
+
+Z11-P35 | Cross-check two visible landmark bearings for an approximate position fix | USGS topo and NOAA declination; new manuscript
+objective: Estimate position on open terrain by intersecting bearings from two or three clearly identified mapped landmarks.
+applies: Open ridges, lakeshores or clearings with unambiguous sightlines to two or three distinct mapped features.
+equipment: Current topographic map, baseplate compass, current declination and pencil.
+action: Identify two (ideally three) unmistakable mapped landmarks separated by a wide angular spread (roughly 60 to 120 degrees apart) rather than clustered close together. @N03,N08
+action: Measure each field-to-map bearing clear of metal, apply current declination cleanly and draw or project each line backward from its mapped landmark across the sheet. @T08,N08
+action: Read the intersection (or small triangle of uncertainty from three bearings) together with local contour elevation and slope direction—real field fixes are approximate zones, not pinpoint dots. @N03,N08,ED
+failure: Misidentifying the wrong mountain peak or lake bay and trusting a bogus intersection over obvious ground contours. @N03,N08
+verify: Confirm that your current elevation contour, ground slope and nearby vegetation match the intersection zone on the map. @N03,ED
+stop: If the plotted triangle is huge or disagrees with surrounding ground relief, reject the fix, re-verify landmark IDs and avoid stepping into uncertain terrain. @N03,T06
+diagram: 2-3 wide-angled landmarks | Project bearings back on map | Confirm triangle matches terrain
+visual: Mechanism diagram showing wide-angle triangulation from three identified peaks forming a small position-uncertainty triangle checked against contours. Conceptual, not to scale.
+reviewer: Cartography and navigation
+
+Z11-P36 | Spot map-to-ground discrepancies caused by outdated sheets or logging | USGS US Topo and MN DNR safety; new manuscript
+objective: Recognize when human land-use changes, storm blowdowns or map age make printed roads and trails diverge from reality.
+applies: Forests with active logging roads, seasonal beaver activity, wildfire scars or trail reroutes.
+equipment: Most recent available map, local ranger/agency trail alerts and terrain-reading habit.
+action: Check the map publication year and land-agency trail updates before departing—logging spurs, temporary skid trails, removed bridges and rerouted trails frequently outpace printed maps. @N01,E01
+action: Trust permanent natural landforms (major hills, river valleys, solid bedrock ridges and large lake basins) far more than dashed trail lines, temporary timber roads or wooden footbridges when discrepancies arise. @N01,N03
+action: Mark observed washouts or reroutes cleanly on your trip notes and verify where an unsigned new fork leads before committing the group to it. @N01,E01,ED
+failure: Turning onto a fresh unmarked logging skid road that looks wider than the old footpath and assuming it is the mapped main trail. @N01,E01
+verify: Confirm both trail signage AND underlying contour/valley shapes match the map after passing any recent logging or storm-damaged area. @N01,N03,ED
+stop: When an unexpected fork, missing bridge or dense blowdown severs map agreement, stop at the last verified point and backtrack cleanly or consult current official routes. @N01,T06,N09
+diagram: Old sheet vs new logging/flood | Trust permanent hills & valleys | Verify before taking unsigned fork
+visual: Failure-mode diagram contrasting ephemeral man-made skid roads and washed-out trails against permanent topographic valley and ridge anchors. Conceptual, not to scale.
+reviewer: Cartography and land management
+
+Z11-P37 | Read cloud sequences signaling an approaching warm or cold front | NOAA JetStream weather school; new manuscript
+objective: Spot progressive sky changes hours before rain, wind shifts or temperature drops reach an exposed route.
+applies: Day and multi-day outdoor travel where official forecasts should be cross-checked against live sky trends.
+equipment: Pre-trip NWS forecast, NOAA Weather Radio if available and periodic sky/wind checks.
+action: Watch for the classic warm-front cloud progression: high wispy cirrus thickening and lowering steadily into milky cirrostratus (often ringing sun/moon), then gray altostratus and finally low rain-bearing nimbostratus over 12–24 hours. @N06
+action: Watch for fast-moving cold-front cues: rapidly darkening western/northwestern cloud lines, sharp wind shifts, gusty outflow air and sudden steep temperature drops with brief heavy squalls or snow showers. @N06,E18
+action: Treat visual sky reading strictly as an early-warning supplement to official NWS forecasts and NOAA Weather Radio—not a replacement for official watches and warnings. @N06,T14,T15
+failure: Ignoring a thickening lowering gray deck and shifting wind on a high exposed route because the morning started sunny. @N06,E18
+verify: Note cloud height trend (lowering vs clearing) and wind direction shift every hour on exposed routes, comparing with the official forecast. @N06,ED
+stop: Rapidly lowering dark cloud decks paired with rising gusts or cooling air trigger early retreat off ridges, lakes and open water before precipitation arrives. @N06,E18,E16
+diagram: High cirrus -> low gray deck | Sharp dark line = cold front | Retreat early before storm hits
+visual: Atmospheric cross-section illustrating progressive lowering warm-front clouds versus steep convective cold-front storm squalls. Conceptual, not to scale.
+reviewer: Meteorology and outdoor leadership
+
+Z11-P38 | Recognize towering cumulus and thunderstorm anvil buildup early | NOAA JetStream and NWS thunderstorm safety; new manuscript
+objective: Spot convective storm development early enough to clear ridges, open water and exposed camps before lightning strikes.
+applies: Warm-season hiking, paddling, mountain travel and open-field camps during spring through autumn.
+equipment: Forecast/alert receiver, watch and mapped low/substantial shelter destinations.
+action: Watch fair-weather puffy cumulus clouds starting late morning: rapid vertical bubbling into tall cauliflower towers (cumulus congestus) with dark flat bases warns that thunderstorm updrafts are building. @N06,E18
+action: Recognize a spreading flat icy anvil top (cumulonimbus), darkening rain curtains and sudden cool gusty outflow winds as an active mature storm—lightning routinely strikes miles ahead of rainfall. @N06,E07,E18
+action: Break off summits, exposed ridges and open lakes BEFORE thunder begins; once thunder is heard, move immediately to a substantial building or enclosed hard-topped vehicle and wait 30 minutes after the last thunder. @E07,E18
+failure: Waiting on an exposed ridge or lake canoe until raindrops start falling before trying to reach safety. @E07,E18
+verify: Identify your descent route below treeline or nearest sturdy shelter whenever towering cumulus starts building vertically. @N06,E07,ED
+stop: Audible thunder, visible flashes, darkening anvil approach or sudden cool outflow gusts end exposed travel immediately. @E07,E18
+diagram: Vertical cumulus towers build | Dark base & flat anvil form | Clear exposed terrain early
+visual: Environmental convective-storm profile mapping cumulus growth, anvil spread, ahead-of-rain lightning reach and early retreat threshold. Conceptual, not to scale.
+reviewer: Meteorology and weather safety
+
+Z11-P39 | Track barometric pressure trends and local wind shifts in the field | NOAA JetStream and NWS alerts; new manuscript
+objective: Combine simple pressure-drop cues and wind-direction shifts to detect deteriorating weather before storms arrive.
+applies: Multi-day backcountry trips using a watch/handheld barometer or tracking regional weather alerts.
+equipment: Barometer/altimeter watch (when stationary) or NOAA Weather Radio and periodic log.
+action: Understand that falling barometric pressure at a FIXED elevation (especially rapid drops over a few hours) generally signals an approaching low-pressure system, front, wind or precipitation—whereas changing elevation while hiking alters pressure readings falsely. @N06,ED
+action: Check wind direction changes alongside cloud trends: winds backing or shifting abruptly ahead of darkening clouds warn of frontal passage and changing shelter exposure direction. @N06,E16
+action: Cross-check local pressure and wind cues with official NOAA Weather Radio or alert updates whenever reception allows. @T14,T15,N06
+failure: Misreading a watch barometer drop during a 1,500-foot mountain climb as an incoming hurricane, or ignoring a steep overnight drop while camped at one elevation. @N06,ED
+verify: Record overnight stationary barometric trend and wind direction shift before committing to exposed second-day travel. @N06,ED
+stop: A steep stationary pressure drop combined with lowering clouds or rising gusts triggers shortening exposed legs and staging weather protection early. @N06,E16,E18
+diagram: Fixed-elevation pressure drop | Wind direction shifts abruptly | Shorten route & stage shelter
+visual: Mechanism diagram illustrating stationary barometric pressure fall, frontal wind shift and elevation-change reading artifacts. Conceptual, not to scale.
+reviewer: Meteorology and navigation
+
+Z11-P40 | Recognize terrain wind funneling, ridge gusts and lake-effect squalls | NWS wind safety and NOAA marine/weather; new manuscript
+objective: Anticipate severe localized wind acceleration and sudden snow/rain squalls created by passes, valleys and large lakes.
+applies: Mountain passes, canyon gaps, forested ridgelines and Great Lakes or large-lake shorelines.
+equipment: Forecast, windproof layers and sheltered alternate route options.
+action: Recognize that wind accelerates dramatically when funneled through narrow mountain passes, river gorges and open ridge saddles—calm air in a sheltered valley can mask dangerous gusts just 300 feet higher. @E16,N06
+action: Watch large lakes (such as Lake Superior and large Upper Midwest basins) where cold air crossing warmer open water generates sudden localized lake-effect snow squalls that erase visibility within minutes. @N06,N07,E25
+action: Inspect downwind shorelines and forested ridges closely for snapping limbs and steep choppy waves before stepping onto exposed bluffs or launching craft. @E13,E16,X06
+failure: Leaving wind shells packed at the bottom of a bag in a calm valley trailhead, then hitting 45-mph freezing gusts at an exposed pass. @E15,E16
+verify: Stage windproof outer layers and reassess tree/wave exposure before entering open passes, ridges or large-lake shorelines. @E15,E16,ED
+stop: Violent pass gusts, blinding lake-effect squalls or snapping timber require immediate retreat back into sheltered lower terrain. @E16,N07,E13
+diagram: Pass/gorge accelerates gusts | Large lake triggers squalls | Retreat to sheltered low ground
+visual: Environmental airflow diagram illustrating Venturi wind funneling through terrain passes and sudden lake-effect squall visibility collapse. Conceptual, not to scale.
+reviewer: Meteorology and outdoor safety
+
+Z11-P41 | Recognize radiation fog, valley mist and rapid dusk visibility collapse | NWS fog safety and NOAA JetStream; new manuscript
+objective: Anticipate ground fog and twilight contrast loss before navigation landmarks disappear.
+applies: Clear calm evenings near rivers, lakes, bogs, coastal inlets and mountain valleys.
+equipment: Headlamp, compass, paper map and early-camp turnaround plan.
+action: Recognize that clear calm skies over damp valleys, wetlands or lakes cool ground air quickly after sunset, forming dense radiation fog that can blanket trails and roads within minutes. @N07,N06
+action: Recognize that advection fog rolls rapidly inland off cold ocean or Great Lakes water when warm humid air passes over cold surfaces, cutting coastal visibility to zero suddenly. @N07,N06
+action: Finish complex crossings, water travel and exposed ridge descents before evening cooling sets in, keeping headlamps ready and group members tightly spaced if fog forms. @N07,E11,E02
+failure: Launching an evening paddle or late valley crossing under clear dusk skies just before dense fog hides the shoreline completely. @N07,X06
+verify: Note evening dew point, cooling air and rising valley mist early enough to secure camp or reach the exit in clear visibility. @N07,ED
+stop: When dense fog erases landmarks or opposing shore visibility, halt travel safely on firm ground or near known shelter rather than guessing direction. @N07,T06
+diagram: Clear dusk cools damp valley | Dense fog hides trails & shores | Finish crossings early or halt
+visual: Environmental microclimate profile illustrating nocturnal radiation fog pooling in damp valleys and cold-water advection fog along shores. Conceptual, not to scale.
+reviewer: Meteorology and navigation
+
+Z11-P42 | Interpret official NWS weather forecasts, Watches, Warnings and radar lag | NWS alerts and Ready.gov alerts; new manuscript
+objective: Use official forecasts accurately while accounting for elevation differences, rural radar gaps and alert-tier urgency.
+applies: Pre-trip weather checks and live weather monitoring across rural, mountain and backcountry zones.
+equipment: Official NWS zone/point forecast, NOAA Weather Radio and alert-enabled phone.
+action: Read point forecasts matched to your actual route elevation and terrain rather than a distant lowland city—temperatures drop markedly with elevation and local storm cells vary across counties. @T14,N06,X10
+action: Distinguish official tiers cleanly: **Advisory** (caution/inconvenience), **Watch** (conditions favorable; prepare and stay flexible) and **Warning** (imminent or occurring threat; act/shelter immediately). @T16,T14
+action: Recognize that phone radar images can lag several minutes behind reality and miss low-altitude mountain/valley precipitation beams—never let a stale green radar screen override real darkening skies and thunder overhead. @T14,N06,E18
+failure: Relying on a city forecast 40 miles away and 3,000 feet lower, or standing under building thunder because a cached radar app still shows clear air. @N06,T16,E07
+verify: Check both the elevation-matched NWS point forecast and active Watch/Warning status immediately before stepping onto the trail. @T14,T16,ED
+stop: Real-time severe local cues (thunder, outflow gusts, rising water, whiteout) ALWAYS override an optimistic or delayed phone forecast. @T16,E18,N07
+diagram: Elevation-matched NWS forecast | Watch=prepare; Warning=act | Live sky overrides stale radar
+visual: Comparative configuration contrasting NWS Advisory, Watch and Warning urgency tiers alongside rural radar-beam lag limits. Conceptual, not to scale.
+reviewer: Meteorology and emergency management
+
+Z11-P43 | Understand GPS multipath error, canopy shadow and cold battery failure | NPS Ten Essentials and navigation limits; new manuscript
+objective: Prevent over-reliance on smartphone or handheld GPS tracks by recognizing technical signal and hardware failure modes.
+applies: Backcountry travel using smartphone mapping apps, GPS watches or dedicated handheld receivers.
+equipment: Offline downloaded maps, cold-protected battery reserve, paper map and baseplate compass.
+action: Recognize **multipath and canopy error**: steep canyon walls, dense wet forest canopy and tall cliffs bounce or block weak satellite signals, causing GPS dots to jump tens of meters or freeze on an old position. @E02,N08,ED
+action: Recognize **power and map-cache failure**: cold air drains batteries rapidly, software updates can wipe cached map tiles if unchecked offline, and touchscreens become unusable in rain or heavy gloves. @E02,E10,ED
+action: Cross-check GPS dots continuously against real terrain contours and carry a paper map plus baseplate compass as an independent zero-battery system. @E02,N01,N03
+failure: Blindly following a bouncing smartphone dot across a steep snowy canyon wall in thick clouds without noticing the track drifted off the actual ridge. @E02,N07
+verify: Test offline tiles in airplane mode before departure, keep devices warm and confirm GPS location agrees with visible contours at checkpoints. @E02,N03,ED
+stop: If GPS jumps erratically, freezes or dies in challenging terrain, switch cleanly to paper map, compass and verified handrails or hold safely in place. @E02,T06
+diagram: Cliffs/canopy bounce GPS signal | Cold & rain kill phone screen | Cross-check with paper & contours
+visual: Failure-mode diagram showing canyon multipath reflections, canopy signal loss and cold battery drop alongside paper-map cross-checking. Conceptual, not to scale.
+reviewer: Navigation and field equipment
+
+Z11-P44 | Navigate cautiously in flat featureless forests, swamps and snowfields | B014-P11/P12 and USGS topo limits; new manuscript
+objective: Prevent circular drifting and disorientation when dense trees or flat snowy plains hide distant landmarks.
+applies: Boreal flatwoods, bog complexes, snow-covered prairies and dense second-growth forests lacking high viewpoints.
+equipment: Baseplate compass, detailed 1:24,000 map, pace count and marked reversible trail awareness.
+action: Recognize that without distinct hills or sightlines, human walkers naturally veer steadily in circles—staying strictly on signed, maintained trails is the highest-safety default in flat dense woods. @N08,N03,E01
+action: If forced off a clear tread briefly, keep distances very short, rely strictly on disciplined short-target compass leaps paired with pace counts and unmistakable catching backstops (roads, rivers, lake shores). @N08,N03,ED
+action: Watch closely for subtle ground clues—water flow direction, subtle drainage ridges, vegetation shifts from upland pine to wet alder/spruce bog—to avoid stumbling into swamps or hidden water. @N02,X12,ED
+failure: Stepping 200 yards off a flat northern forest trail to look at wildlife without noting a return compass bearing or handrail, losing the trail completely. @N08,T06
+verify: Before leaving any flat-forest trail even briefly, note the exact compass direction back to the trail handrail and keep visual contact where possible. @N08,ED
+stop: If you lose the trail in flat featureless forest or swamp, STOP immediately before wandering farther—retrace visible footprints only if unmistakable, otherwise stay put and signal. @T06,N09
+diagram: Flat woods hide landmarks | Unchecked walkers veer in circles | Stay on trails or short compass hops
+visual: Failure-mode schematic illustrating unconscious circular walking drift in featureless flat forest and mandatory handrail/stay-put recovery. Conceptual, not to scale.
+reviewer: Navigation and search and rescue
+
+Z11-P45 | Account for reduced winter daylight, broken trails and snow-buried signs | B014-P18/P19 and NWS winter safety; new manuscript
+objective: Adjust route length, navigation margins and pacing for short northern winter days and snow-obscured trails.
+applies: Late-autumn through early-spring travel in snow-covered forests, lakes and highlands.
+equipment: Daylight table, extra insulation, headlamp with cold-rated/spare batteries, map and compass.
+action: Plan winter routes around drastically shorter daylight (often dark before 4:30–5:00 p.m. in northern latitudes) and much slower pace when breaking fresh snow or wearing snowshoes. @E01,E25,ED
+action: Expect trail blazes, low directional signs, footbridges and trail treads to be buried under deep snowdrifts—do NOT blindly follow unverified previous snowshoe or animal tracks, which frequently lead off-route or onto thin ice. @E12,N01,ED
+action: Verify route continuity continuously using major permanent terrain features (valleys, hills, shorelines stayed off-ice) and set a strict early turnaround time well before sunset. @E01,E12,N03
+failure: Following fresh boot tracks across a drifted clearing assuming they belong to the main trail, only to discover they belong to a lost hiker or cross thin creek ice. @E12,T06
+verify: Confirm sunset time, extra slow-pace margin, verified map landmarks (not just tracks) and working spare headlamp batteries before starting. @E01,E02,ED
+stop: Turn back immediately if snow-breaking effort drops pace below your daylight return margin or if trail markers disappear in drifting snow. @E01,N07,E25
+diagram: Short daylight + deep snow | Buried signs & false tracks | Verify map & turn back early
+visual: Environmental winter-route profile showing buried signs, false-track traps, short daylight window and early turnaround buffer. Conceptual, not to scale.
+reviewer: Winter navigation and search and rescue
+
+Z11-P46 | Recognize optical illusions, false summits and foreshortened ridge distances | NPS hiking safety and mountain navigation; new manuscript
+objective: Avoid pacing collapse and route misjudgment caused by deceiving visual perspectives across valleys, lakes and steep slopes.
+applies: Mountain climbs, desert basins, broad lake shorelines and canyon crossings.
+equipment: Topographic map with graphic scale bar and contour interval, watch.
+action: Recognize **foreshortening**: looking across a clear desert basin, wide lake or steep ridge hides intervening gullies, rolling sub-ridges and sheer mileage, making distant peaks or shores look far closer than map scale proves. @N01,N03,X07
+action: Recognize **false summits**: looking up a convex slope hides the true higher crest behind a nearer shoulder—check the actual summit elevation and contour count on your map rather than judging by skyline appearance. @N03,N02
+action: Verify true distance and vertical climb directly from the map scale bar and contour lines before committing tired group members to "one last quick ridge." @N01,N03,E11
+failure: Pressing an exhausted group upward at 4 p.m. believing the visible crest is the summit, only to find two more ridges and 900 vertical feet beyond it. @N03,E11
+verify: Measure horizontal map distance AND vertical contour count before declaring any visible destination "nearby." @N01,N03,ED
+stop: Trust map scale and honest turnaround time over optimistic visual distance guesses every time. @N01,E01
+diagram: Convex slope hides true peak | Clear air shrinks apparent miles | Measure scale & contours on map
+visual: Failure-mode sightline diagram illustrating false-summit line-of-sight blockage and valley foreshortening compared with true topographic profile. Conceptual, not to scale.
+reviewer: Navigation and mountain safety
+
+Z11-P47 | Diagnose common navigation errors: bending the map, confirmation bias and drift | B014-P19 and SAR human factors; new manuscript
+objective: Catch the psychological traps that make experienced travelers rationalize away clear evidence that they are off-route.
+applies: Every backcountry trip, especially when tired, rushed, cold or eager to reach camp before dark.
+equipment: Oriented map, watch and honest devil's-advocate check among companions.
+action: Watch for **"bending the map"**—mentally forcing mismatched real landmarks to fit where you WISH you were on the map (e.g., calling a creek a mapped river or ignoring a missing ridge). @N03,N09,ED
+action: Watch for **confirmation bias and groupthink**: accepting one confident speaker's guess without asking for two independent supporting features, or walking faster when uneasy instead of stopping to check. @E11,N09,ED
+action: Require at least two independent map-to-ground confirmations (e.g., stream flow direction PLUS trail bearing PLUS contour slope) before declaring a suspected position verified. @N03,N08,ED
+failure: Rationalizing away three missing trail signs and an uphill slope that should be downhill until nightfall catches the party miles off-route. @N09,T06
+verify: Ask one companion to argue honestly against your current position assumption—if the map cannot answer their objections cleanly, stop and relocate. @N09,E11,ED
+stop: Two unexplained map-to-ground contradictions equal position uncertainty—halt immediately and follow the STOP relocation protocol. @N09,T06
+diagram: Wishing a wrong creek fits | Group rushes past missed signs | Require 2+ solid map matches
+visual: Failure-mode diagram mapping cognitive confirmation bias and map-bending cues to mandatory two-feature verification and immediate halt. Conceptual, not to scale.
+reviewer: Search and rescue and human factors
+
+Z11-P48 | Establish a deliberate relocation check when expected landmarks vanish | B014 r01 slot R09 and NPS emergency plan; new manuscript
+objective: Follow a calm structured relocation sequence before committing to any movement once position confidence drops.
+applies: Suspected off-route moment while visibility, daylight and terrain still allow safe assessment.
+equipment: Paper/offline map, baseplate compass, watch and group roster.
+action: Stop on stable ground and mark your exact spot visually (drop pack in view) so you do not wander while thinking; review your last 100% confirmed checkpoint and exact elapsed travel time since leaving it. @N09,T06,ED
+action: Draw a mental maximum-travel radius around that last confirmed point based on realistic pace, then orient the map cleanly to check whether two unmistakable surrounding landforms or a clear backtrack match one spot inside that circle. @N03,N08,N09,ED
+action: Backtrack along unmistakable fresh tracks or a clearly signed trail ONLY if you are 100% sure it leads cleanly back to your last confirmed checkpoint; otherwise hold position and prepare to signal. @N09,T06
+failure: Picking a random compass direction to "cut over to the highway" from an unverified starting dot, crossing into unfamiliar drainages. @N09,T06
+verify: Confirm either a positive two-feature match inside your realistic travel circle or a disciplined stay-put shelter and signaling decision. @N09,T06,ED
+stop: Never guess cross-country shortcuts out of position uncertainty; if relocation fails after one calm check, stay put, shelter and contact rescue. @N09,T06,E05
+diagram: Halt & draw max-pace circle | Check 2+ clear landforms | Stay put if match stays unsure
+visual: Decision tree guiding calm halt, realistic travel-radius bounding, safe backtrack verification and disciplined stay-put fallback. Conceptual, not to scale.
+reviewer: Search and rescue and navigation
+
+Z11-P49 | Decide when nightfall, storm or fatigue ends navigation for the day | B014-P18 and NWS weather safety; new manuscript
+objective: Establish clear non-negotiable stop thresholds that transition a traveling party into safe camp stabilization.
+applies: Late-day hiking, deteriorating weather, rising cold/heat stress or accumulating navigation errors.
+equipment: Shelter, insulation, lighting, water reserve and communication device.
+action: End onward navigation immediately whenever any hard limit hits: fading daylight without a short verified exit, whiteout/dense fog, severe weather warning, suspected hypothermia/heat illness or repeated unresolved map errors. @N07,T16,T03,T09
+action: Treat physical exhaustion and declining group judgment as navigation hazards—tired hikers misread bearings, skip checkpoints and stumble into falls or cold exposure. @E11,E06,ED
+action: Shift full attention decisively to selecting a safe dry site, wind/ground protection, hydration, warmth and scheduled communication rather than half-heartedly inching forward. @E03,E05,T06
+failure: Stumbling half a mile further in freezing rain after dusk trying to shave twenty minutes off tomorrow's hike, triggering an injury or hypothermia rescue. @E06,E11,E05
+verify: Confirm every group member accepts the stop decision, shelter is sited safely clear of runoff/trees and overdue contacts are updated if service allows. @E03,E04,E13,T06
+stop: Once navigation stops for weather, dark or fatigue, do not resume movement until safe visibility, weather stability and group recovery return. @N07,T16,E06
+diagram: Dark, storm or fatigue hits? | Error & injury risk spikes | Stop, stabilize camp & wait
+visual: Decision tree converting daylight, visibility, weather and group-fatigue limits into an immediate transition from travel to safe camp stabilization. Conceptual, not to scale.
+reviewer: Search and rescue and outdoor leadership
+
+Z11-P50 | Counter panic and wandering impulses using the STOP mental reset | NPS outdoor emergency plan and B014-P20; new manuscript
+objective: Interrupt adrenaline-driven rushing immediately upon realizing you are lost so rational priorities take control.
+applies: Any person or group experiencing sudden disorientation, separation or unexpected stranding.
+equipment: Dry warm layer, water sip, seating pad and calm checklist.
+action: **S — Stop:** Sit down physically on a pack or dry spot, take slow controlled breaths, put on a warm layer and take a small drink of safe water to calm adrenaline before making a single decision. @N09,T06,E05
+action: **T — Think & O — Observe:** Inventory immediate physical hazards (weather, ice, cliffs, daylight), group health, exact gear in packs and your last verified location without blaming anyone. @N09,T06,E02
+action: **P — Plan:** Choose one conservative, defensible action—usually staying put, securing shelter/insulation and setting signals—and revisit it calmly as conditions evolve. @N09,T06,E05
+failure: Reacting to sudden fear with frantic running down an unknown ravine, losing gear, exhausting calories and leaving the primary search corridor. @N09,T06
+verify: Confirm everyone has physically paused, calmed breathing, added warmth if chilled and agreed on one written or spoken next step. @N09,E05,ED
+stop: If immediate physical danger (rising flood, wildfire, falling timber, rockfall) threatens the spot, move calmly only the short distance needed to reach clear safe ground first, then execute STOP. @T06,E04,C19
+diagram: S: Sit, breathe & warm up | T/O: Check hazards, gear & LKP | P: Commit to stay-put/safe plan
+visual: Decision tree structuring the STOP (Stop, Think, Observe, Plan) cognitive reset to block panic-driven wandering. Conceptual, not to scale.
+reviewer: Search and rescue and wilderness psychology
+
+Z11-P51 | Preserve tracks, scent and visual clues when waiting for searchers | NPS outdoor emergency plan; new manuscript
+objective: Help professional search-and-rescue trackers and K9 teams locate a stationary party rapidly.
+applies: Lost or overdue hikers waiting in a safe location for search and rescue teams.
+equipment: Bright fabric/tape, stick or snow marker and dry waiting shelter.
+action: Stay in ONE compact safe area near a visible opening—every unnecessary walk around the woods lays confusing false tracks and scatters scent trails. @N09,T06
+action: Leave clear unmistakable signs of your presence right at your waiting site (bright pack cover or jacket hung visible, large cleared ground mark or boot print preserved on soft earth/snow where safe) without littering or destroying live trees. @N09,K11,ED
+action: If immediate danger forces you to shift a short distance to safer ground, leave a clear durable note or directional arrow at the old spot stating time, party size and direction moved. @N09,T06,ED
+failure: Wandering half a mile away from a visible meadow after hearing a distant helicopter, hiding under dark trees with zero directional note left behind. @N09,T06
+verify: Confirm your waiting site displays clear visual clues, minimizes scattered wandering tracks and records any forced move explicitly. @N09,T06,ED
+stop: Never leave an intact safe shelter to chase faint unconfirmed voices or distant engine noise over hazardous terrain—answer loudly with your whistle instead. @N09,T06
+diagram: Hold one compact safe site | Stage clear visible markers | Note direction if forced to move
+visual: Environmental waiting-site schematic showing consolidated tracks, anchored visual contrast markers and written move-notice protocol. Conceptual, not to scale.
+reviewer: Search and rescue tracking specialist
+
+Z11-P52 | Decide when staying put beats self-rescue and when immediate danger forces moving | NPS emergency plan and B012-P26; new manuscript
+objective: Apply an objective hazard-and-route test to decide between holding position and relocating.
+applies: Lost, injured, storm-trapped or vehicle-stranded parties facing a stay-or-go dilemma.
+equipment: Map, alert/communication tools, shelter and honest condition check.
+action: Ask Question 1 — **Is this exact spot immediately dangerous?** Active flash flood, wildfire, avalanche runout, falling timber, tidal cutoff or toxic fumes require moving immediately to the nearest safer clear ground. @T06,E04,C19,E23
+action: Ask Question 2 — **Do we have a 100% verified safe route, adequate daylight, visibility and group health to reach definite safety?** Only if every factor is YES should a lost party consider moving out. @T06,N09,E01
+action: Whenever the site is safe (or can be made sheltered) and the exit route is uncertain, stay put together—stationary people conserve warmth, avoid injury and are found vastly faster by rescuers. @T06,N09,E05
+failure: Leaving a safe stranded car or sheltered camp in a blizzard to "walk out for help" along an unverified road, succumbing to hypothermia half a mile away. @E14,T06,N09
+verify: Answer both stay-or-go questions aloud with the whole group and confirm everyone understands the chosen decision. @T06,N09,ED
+stop: Any injury preventing safe walking, worsening hypothermia/heat illness, darkness or route uncertainty locks the decision to STAY PUT and signal/call for rescue. @T06,N09,T03,T09
+diagram: Spot immediately unsafe? | Exit 100% sure & safe? | Otherwise stay put & signal
+visual: Decision tree pairing immediate site danger and verified-route certainty into clear relocate-shortly, exit-safely or stay-put outcomes. Conceptual, not to scale.
+reviewer: Search and rescue
+
+Z11-P53 | Prevent group separation at forks, rest stops and steep terrain | NPS Hike Smart and B014 r01 slot R10; new manuscript
+objective: Eliminate the most common cause of preventable outdoor searches through disciplined group spacing and junction pauses.
+applies: Families, youth outings, mixed-fitness hiking groups and winter ski/snowshoe parties.
+equipment: Whistle per person, shared map copy and designated lead/sweep roles.
+action: Set group travel speed strictly to the slowest member, placing slower or less experienced hikers near the front behind the lead so they are never isolated at the back. @E11,ED
+action: Enforce a zero-exception **junction stop rule**: the lead ALWAYS halts at every trail fork, creek crossing, road intersection and major viewpoint until the rear sweep arrives and confirms the full head count. @E11,ED
+action: Keep everyone within visual or clear whistle range in poor visibility, dense woods or steep climbs, and announce every brief bathroom/pack-adjust stop directly to the sweep so nobody steps off-trail unnoticed. @E11,N07,ED
+failure: Stepping fifty feet off a wooded trail for a quick break without telling the sweep, returning to find the group gone and turning the wrong way at an unmarked fork. @E11,T06
+verify: Confirm head count matches at every stop, sweep knows whenever anyone pauses and every member carries a whistle. @E11,E02,ED
+stop: If the gap between front and back stretches out of sight/voice range, stop immediately via whistle signal and regroup before moving another yard. @E11,ED
+diagram: Pace to slowest member | Full head count at every fork | Announce every brief stop
+visual: Comparative configuration showing disciplined lead/middle/sweep spacing and junction halts versus uncontrolled strung-out group separation. Conceptual, not to scale.
+reviewer: Outdoor leadership and search and rescue
+
+Z11-P54 | Coordinate an immediate containment and call-out check for a missing member | B014-P17 and NPS emergency plan; new manuscript
+objective: Execute a disciplined first-15-minute response when a companion vanishes without contaminating search clues or losing more people.
+applies: Campgrounds, trails and backcountry sites immediately upon discovering someone is missing from head count.
+equipment: Watch, notepad, whistle, phone/communicator and buddy pairs.
+action: Freeze all non-essential camp movement, note exact clock time and mark the Point Last Seen (PLS) clearly without walking over nearby ground tracks. @N09,E11,T06
+action: Assign one calm coordinator to stay put at the PLS (in case the missing person walks back) while buddy pairs check immediate obvious areas (tent, vehicle, bathroom, shoreline edge) within shouting/whistle range for no more than 10–15 minutes. @N09,E11,ED
+action: Call 911 or park dispatch immediately if the brief bounded check fails—or IMMEDIATELY with zero delay if the missing person is a small child, medically vulnerable, near water/cliffs or in freezing weather. @T02,T06,N09,T10
+failure: Everybody bolting in different directions yelling randomly while nobody stays at camp and nobody calls 911 until nightfall. @N09,E11,T02
+verify: Confirm one adult stays anchored at the PLS, clue area stays undisturbed and 911 dispatch receives accurate clothing, footwear, time and health details. @N09,T06,T02,ED
+stop: Never launch an uncoordinated dark or off-trail search party; once 911/SAR is notified, hold remaining group together and follow responder directions. @N09,E11,T02
+diagram: Anchor coordinator at PLS | Brief buddy check near camp | Call 911 early; zero solo search
+visual: Decision tree managing immediate missing-person containment, bounded buddy checks, immediate high-risk 911 triggers and SAR handoff. Conceptual, not to scale.
+reviewer: Search and rescue and emergency management
+
+Z11-P55 | Organize safe group waiting roles during an overdue search delay | NPS emergency plan and Ready.gov planning; new manuscript
+objective: Keep morale steady, warmth intact and signaling continuous when rescue takes hours or overnight to arrive.
+applies: Stranded or overdue groups waiting safely in place for search and rescue.
+equipment: Shelter/insulation, watch, whistle, light, water/food inventory and communication device.
+action: Assign clear rotating tasks suited to each person's ability: shelter/insulation upkeep, scheduled audio/light signaling watch, medical/warmth buddy checks and water/battery conservation log. @E11,E05,T12,ED
+action: Set realistic expectations honestly—remote ground or air rescue can take many hours depending on weather, darkness and terrain—and prevent panic by keeping everyone warm, hydrated and occupied with calm routine checks. @N09,E05,T06
+action: Keep one awake listener/watcher during active search windows (especially when aircraft or vehicle lights are nearby) while others rest warmly inside dry layers. @N09,E05,ED
+failure: Burning through all headlamp batteries and shouting hoarse in the first hour while ignoring shivering group members. @E02,E06,N09
+verify: Confirm everyone has an explicit role, dry warmth protection, rationed water/power plan and continuous readiness to answer searchers. @E05,N09,T12,ED
+stop: Escalate urgency immediately via any available channel if any waiting companion develops altered alertness, severe bleeding, chest pain or advancing hypothermia/heat stroke. @T02,T03,T09
+diagram: Shelter & warmth buddy checks | Scheduled signal & battery log | Awake watch for arriving SAR
+visual: Comparative configuration assigning complementary group waiting duties (shelter/warmth, signal watch, medical check, supply/power log). Conceptual, not to scale.
+reviewer: Search and rescue and wilderness leadership
+
+Z11-P56 | Compare cell phones, two-way satellite messengers and 406 MHz PLBs | NOAA SARSAT and Ready.gov alerts; new manuscript
+objective: Match emergency communication hardware capabilities, subscription limits and sky-view requirements to remote trip risk.
+applies: Selecting emergency communication devices for backcountry, marine or disaster preparedness kits.
+equipment: Device specifications and NOAA SARSAT registration record (for PLBs).
+action: Recognize that **cell phones** provide rich voice/text and local 911 location where towers exist (and newer satellite-SOS models add limited sky-view text), yet rely on fragile batteries and fail broadly in valleys and regional outages. @T11,T14,E02
+action: Recognize that **two-way satellite messengers** allow custom texting, medical updates, check-ins and rescue cancellation under open sky, yet require active paid subscriptions, battery charging and commercial relay routing. @T06,N05,ED
+action: Recognize that **406 MHz Personal Locator Beacons (PLBs)** require NO subscription, transmit high-power distress alerts directly to NOAA SARSAT satellites and carry a local 121.5 MHz homing beacon—yet are ONE-WAY distress-only devices for grave and imminent danger. @N05
+failure: Carrying an unsubscribed satellite messenger or an unregistered PLB into remote wilderness assuming pressing SOS works automatically. @N05,T06
+verify: Confirm active subscription or current NOAA registration, full battery charge/expiration date and practiced activation steps before departure. @N05,E02,ED
+stop: Never rely on any electronic device as a substitute for safe route judgment, shelter or a written trip plan left with a trusted contact. @E01,N05,T11
+diagram: Cell phone: tower-limited | 2-way sat: custom text, sub fee | 406 MHz PLB: direct SOS, no fee
+visual: Comparative configuration contrasting coverage, two-way texting, subscription needs and sky-view limits across phones, satellite messengers and 406 MHz PLBs. Conceptual, not to scale.
+reviewer: Emergency communications and search and rescue
+
+Z11-P57 | Register and maintain a 406 MHz Personal Locator Beacon via NOAA SARSAT | NOAA SARSAT beacon guidance; new manuscript
+objective: Ensure a 406 MHz PLB triggers accurate, rapid search-and-rescue dispatch when activated in grave danger.
+applies: Owners and travelers carrying 406 MHz Personal Locator Beacons (PLBs) or marine EPIRBs in the United States.
+equipment: 406 MHz PLB, NOAA beacon registration confirmation (updated every 2 years) and battery expiration check.
+action: Register every 406 MHz PLB with NOAA SARSAT immediately upon purchase (required by federal law, free of charge) and update emergency contacts, medical notes and trip details whenever they change or at least every two years. @N05
+action: Inspect the printed battery expiration date and run only the manufacturer-specified self-test sequence (never trigger a live SOS test) before extended trips. @N05,E02
+action: In a true grave-and-imminent emergency, deploy the antenna vertically per instructions with the clearest possible unobstructed view of the sky, keep the beacon dry and stationary away from body shielding and leave it running continuously until rescue arrives. @N05
+failure: Activating a PLB deep inside a metal vehicle or wet pack under dense trees, or forgetting to update NOAA registration after buying a used beacon. @N05
+verify: Confirm current NOAA registration decal/receipt, valid battery expiration date and clear knowledge of antenna deployment and self-test limits. @N05,ED
+stop: Reserve 406 MHz PLB activation strictly for grave and imminent life-safety emergencies—if accidentally triggered, shut it off immediately and notify NOAA SARSAT / rescue authorities to cancel false dispatch. @N05
+diagram: Free mandatory NOAA registration | Check battery date & self-test | Deploy antenna upright to open sky
+visual: Exploded PLB readiness view highlighting NOAA registration record, battery expiration date, vertical antenna deployment and clear sky-view hemisphere. Conceptual, not to scale.
+reviewer: Search and rescue and emergency communications
+
+Z11-P58 | Maximize satellite and cellular transmission success under canopy or canyons | NOAA SARSAT and Ready.gov communication plan; new manuscript
+objective: Overcome terrain shadows, wet forest canopy and weak batteries when sending critical distress messages.
+applies: Attempting cellular 911 calls, SMS texts, satellite messenger updates or PLB alerts in rugged terrain.
+equipment: Phone, satellite communicator or PLB, warm inner pocket and offline location notes.
+action: Move only to a nearby SAFE open clearing or elevated dry spot (never onto cliffs, avalanche slopes or thin ice) to maximize unobstructed sky view for satellites or line-of-sight toward distant cell towers. @N05,T06,E12
+action: Keep antennas oriented per manufacturer guidance clear of your body, wet pack fabric and rock overhangs, and leave satellite devices undisturbed in clear sky for 15–30 minutes if initial fixes lag under partial canopy. @N05,ED
+action: For weak cellular service, prefer brief SMS text messages (which can queue and send on fleeting signal bars) over voice calls, keep devices warm against body heat and disable background apps to preserve battery. @T11,E02,ED
+failure: Holding a satellite messenger flat inside a tent under wet spruce trees for 60 seconds, assuming SOS sent, and turning it off. @N05,T06
+verify: Confirm clear sky hemisphere around the antenna and verify explicit "message sent/acknowledged" confirmation on two-way devices before packing away. @N05,T11,ED
+stop: Never leave a safe sheltered site or cross hazardous terrain solely to hunt for one bar of cell signal. @T06,E12,N09
+diagram: Deep canyon/canopy blocks sky | Safe open clearing clears view | Confirm receipt; conserve battery
+visual: Environmental signal-propagation schematic contrasting canyon/canopy blockage against clear-sky satellite and ridge line-of-sight transmission. Conceptual, not to scale.
+reviewer: Emergency communications and search and rescue
+
+Z11-P59 | Use VHF/FRS/GMRS short-range radios within realistic terrain line-of-sight limits | Emergency communications and Ready.gov alerts; new manuscript
+objective: Coordinate camp or group movements accurately with handheld radios while understanding terrain blockage and licensing rules.
+applies: Multi-person outdoor groups, basecamp-to-party check-ins and disaster neighborhood coordination using handheld two-way radios.
+equipment: Matched handheld radios (FRS or properly licensed GMRS/amateur/marine VHF per FCC rules), spare batteries and pre-agreed channel/schedule card.
+action: Understand line-of-sight physics: despite optimistic packaging range claims, handheld VHF/UHF radios communicate cleanly across open water or hilltops yet drop to under a mile through dense hills, valleys or buildings. @T11,T15,ED
+action: Agree on one primary channel, one backup channel, privacy-code settings (knowing codes block incoming noise rather than providing privacy) and fixed hourly check-in windows to conserve batteries. @T11,E02,ED
+action: Follow federal licensing rules strictly—FRS is license-free at low power, whereas GMRS, amateur radio and specific marine/aviation frequencies carry legal licensing and lawful-use requirements. @T11,X05,ED
+failure: Trusting a "35-mile range" blister-pack claim on cheap FRS walkie-talkies across two wooded mountain ridges and losing all contact with a split party. @T11,E11
+verify: Test actual radio clarity between group members on the agreed channel before separating, and verify spare batteries stay warm and dry. @T11,E02,ED
+stop: Never assume anyone is monitoring random FRS/GMRS channels during an emergency—pair handheld radios with 911/PLB/written trip plans for real rescue escalation. @T11,N05,T06
+diagram: Line-of-sight: open hill/water | Ridges/valleys block VHF/UHF | Set schedule & obey FCC rules
+visual: Mechanism diagram illustrating line-of-sight VHF/UHF propagation over clear terrain versus abrupt hill-shadow signal cutoff. Conceptual, not to scale.
+reviewer: Emergency communications and regulatory compliance
+
+Z11-P60 | Use whistles and voice discipline for energy-efficient audio signaling | NPS Ten Essentials and outdoor emergency plan; new manuscript
+objective: Alert nearby searchers or separated companions reliably over wind and forest noise without losing your voice.
+applies: Lost-person waiting, separated group regrouping and low-visibility contact in woods or fog.
+equipment: Loud pea-less safety whistle clipped outside clothing on a breakaway lanyard.
+action: Use a pea-less whistle (standard ball-pea whistles jam when wet or frozen in winter) clipped permanently to an accessible chest strap or jacket zipper where cold stiff hands can reach it immediately. @E02,N09,ED
+action: Sound three sharp, loud blasts spaced evenly (a widely recognized outdoor distress pattern), then PAUSE and listen quietly for at least one full minute so you can hear faint distant replies or responder whistles. @N09,E02,ED
+action: Reserve shouting for close-range confirmation—shouting strains vocal cords quickly, burns energy and carries far less distance against wind or rushing water than a sharp whistle tone. @N09,ED
+failure: Wearing no whistle, screaming hoarse continuously without pausing to listen for searchers' return calls, or carrying a wet frozen ball-pea whistle. @N09,E02
+verify: Test the whistle briefly during pre-trip check, confirm pea-less construction and verify every group member knows the three-blast distress cadence. @E02,N09,ED
+stop: Stay stationary at your sheltered spot when trading whistle calls with approaching searchers unless responders explicitly direct you to a safe visible meeting point. @N09,T06
+diagram: Pea-less whistle on jacket | 3 sharp blasts -> pause 1 min | Listen quietly for replies
+visual: Mechanism diagram contrasting high-carrying pea-less whistle cadence and silent listening intervals against rapid vocal exhaustion. Conceptual, not to scale.
+reviewer: Search and rescue
+
+Z11-P61 | Deploy high-contrast ground markers and mirror flashes for air or ground search | NPS emergency plan and B014-P16; new manuscript
+objective: Create unmistakable visual targets visible from aircraft or distant ridges without risking unsafe exposure or fire.
+applies: Daylight waiting in open clearings, snowfields, shorelines or ridges when expecting search aircraft or ground teams.
+equipment: High-contrast orange/bright tarp or space blanket, rocks/branches for weighting and acrylic or glass signal mirror.
+action: Lay out large geometric contrast shapes (large X, V or long straight bright tarp strips weighted securely with rocks/snow) in an open clearing adjacent to your shelter—nature rarely forms sharp straight neon shapes. @N09,T06
+action: On bright snow, stomp out large deep letters or dark evergreen-branch lines (using dead downed branches) to maximize shadow and color contrast from overhead aircraft. @N09,K11,ED
+action: Use a sighting signal mirror strictly on sunny days to sweep brief flashes across distant ridges or toward searching aircraft—avoid blinding helicopter pilots continuously at close landing approach. @N09,ED
+failure: Waving a small gray handkerchief from beneath tall pine branches where aerial spotters cannot distinguish motion or color. @N09
+verify: Confirm ground markers are large, high-contrast against the seasonal background, securely weighted against wind/rotor wash and visible from open sky. @N09,ED
+stop: Secure all loose tarps, jackets and gear tightly before any rescue helicopter approaches—loose fabric sucked into rotor blades endangers the entire aircrew. @N09,T01
+diagram: Large high-contrast ground X | Anchor edges against wind/wash | Brief daylight mirror flashes
+visual: Exploded visual-signaling layout detailing high-contrast anchored ground panel, snow-shadow contrast lettering and safe mirror-aiming geometry. Conceptual, not to scale.
+reviewer: Search and rescue and aviation safety
+
+Z11-P62 | Use headlamps and strobe patterns cleanly for nighttime search signaling | NPS Ten Essentials and B014-P16; new manuscript
+objective: Remain visible to night search teams while preserving essential task battery life across long dark hours.
+applies: Nighttime waiting for search and rescue or guiding arriving ground responders to a camp or road pullout.
+equipment: LED headlamp or flashlight with spare cold-protected batteries and optional strobe mode.
+action: Conserve primary battery power during long quiet night hours—use low dim light for personal camp tasks and save high-beam sweeps or flashing bursts for when you hear vehicles, voices, whistles or approaching aircraft. @E02,C11,N09
+action: Flash three deliberate light pulses (or activate a dedicated strobe mode) toward open sky or clearings when responders are nearby, avoiding shining bright beams directly into the eyes of approaching drivers or low helicopter pilots. @N09,E02,ED
+action: Keep spare lithium or alkaline batteries warm inside an inner pocket so subfreezing air does not cut runtime in half before searchers arrive. @E02,E10
+failure: Leaving a headlamp blasting on maximum turbo mode continuously for four hours until batteries die completely right before ground rescuers enter the valley. @E02,C11
+verify: Confirm working primary light, warm spare batteries and disciplined low-power conservation plan before sunset. @E02,C11,ED
+stop: Never shine blinding steady beams directly into helicopter windscreens during night approach—illuminate the ground clearing beside you instead. @N09,T01
+diagram: Low dim mode saves battery | 3 flashes when SAR is near | Never blind pilots/drivers
+visual: Comparative configuration contrasting battery-conserving dim task lighting, periodic high-beam distress flashes and safe helicopter ground-illumination. Conceptual, not to scale.
+reviewer: Search and rescue and field equipment
+
+Z11-P63 | Prepare a concise structured rescue report before placing an emergency call | ARC first aid and NPS emergency plan; new manuscript
+objective: Deliver vital location, medical and hazard information cleanly in the first 30 seconds before a weak call drops.
+applies: Calling 911, texting 911 or composing a short satellite SOS message during any outdoor or disaster emergency.
+equipment: Written pencil/paper notes or pre-typed message draft, phone/communicator and map.
+action: Write down six essentials BEFORE dialing or pressing send: (1) exact location or Last Known Point + coordinate format, (2) nature of emergency & number of injured/total people, (3) immediate medical red flags (responsiveness, breathing, bleeding, hypothermia/heat). @T02,T06,N09
+action: Add (4) surrounding access hazards (flooded roads, steep cliffs, ice, downed wires, weather), (5) shelter/water/battery status and clothing colors, and (6) confirmation whether you are staying put and your callback number. @T06,T02,N09
+action: Lead with LOCATION FIRST when speaking or texting on a fading battery or weak signal—if the call drops ten seconds in, dispatch still knows where to send help. @T06,T02,T11
+failure: Spending two minutes explaining how the trip started on a 3% battery before ever stating the park name, trailhead or injury. @T06,T02
+verify: Review your six written items aloud calmly before dialing and ask the dispatcher to confirm they received your exact location. @T06,T02,ED
+stop: Never hang up on 911 until the dispatcher instructs you to, and follow all dispatcher safety and medical instructions strictly within your training. @T02
+diagram: 1. Location & format FIRST | 2. People, injuries & hazards | 3. Stay-put plan & battery
+visual: Exploded six-item dispatch-handoff card ordering location first, medical red flags, site hazards and stay-put confirmation for weak-signal calls. Conceptual, not to scale.
+reviewer: Emergency dispatch and search and rescue
+
+Z11-P64 | Communicate accurate coordinates, datum and last-known-point uncertainty | USGS US Topo and NPS emergency plan; new manuscript
+objective: Prevent rescue delays caused by garbled digits, wrong datums or blurring guessed locations with verified facts.
+applies: Relaying position data by voice, text, radio or written note to emergency responders or trip contacts.
+equipment: GPS/phone coordinate display, paper map and written verification note.
+action: Read every digit slowly using clear plain pronunciation, explicitly naming negative/hemisphere signs (North/West), decimal points, UTM grid zone and geodetic datum (WGS84/NAD83 vs NAD27). @N01,T06
+action: Separate verified facts strictly from estimates: clearly label your last 100%-confirmed landmark and time ("passed Bear Creek Bridge at 14:10") apart from any rough guess of where you walked afterward. @T06,N09
+action: Ask the receiver to read every coordinate digit and landmark back verbatim so transposition errors are corrected immediately on the line. @T06,ED
+failure: Rounding off trailing GPS decimals casually or giving a guessed lake name as a confirmed fact, misdirecting rescue teams to the wrong valley. @N01,T06,N09
+verify: Confirm the dispatcher or contact read back your exact coordinate digits, format label and last confirmed trail landmark cleanly. @T06,N01,ED
+stop: If you cannot read coordinates reliably due to stress, cold or screen cracks, report plain verified landmarks and stay stationary rather than inventing numbers. @T06,N09
+diagram: Full digits + format + datum | Verified LKP ≠ rough guess | Require verbatim read-back
+visual: Exploded coordinate-verification strip showing exact digit/datum fields, verified-vs-estimated separation and mandatory dispatcher read-back. Conceptual, not to scale.
+reviewer: Emergency dispatch, cartography and search and rescue
+
+Z11-P65 | Prepare a safe clear waiting site for arriving ground or helicopter rescue | NPS emergency plan and aviation safety; new manuscript
+objective: Keep the stranded party safe and avoid endangering arriving ground teams or rescue helicopters during extraction.
+applies: Confirmed incoming ground rescue team or air ambulance/SAR helicopter approaching a waiting site.
+equipment: Weighted loose gear, eye/ear protection (hood/glasses), flashlight and clear group positioning.
+action: Secure EVERY lightweight loose object (tarps, sleeping pads, rain jackets, pack covers, trash bags) tightly inside weighted packs BEFORE any helicopter approaches—rotor downwash turns loose items into lethal debris. @N09,T01,ED
+action: Move the entire group together to the upwind edge of a clear open space away from dead snags, powerlines and loose branches; crouch low protecting eyes from blowing grit/snow and stay put until flight crew explicitly wave you forward. @N09,E13,T01,ED
+action: Never approach a helicopter from uphill (spinning main rotor dips dangerously low) or anywhere near the rear tail rotor—approach ONLY from the front/side within the pilot's direct sight when signaled by crew. @T01,N09,ED
+failure: Running enthusiastically downhill toward a landing rescue helicopter with a flapping orange tarp in hand. @T01,N09
+verify: Confirm all loose items are stowed/weighted, group waits together clear of snags/wires and zero movement occurs until crew direct approach. @N09,T01,ED
+stop: If approaching ground or air crews encounter an unseen hazard (downed wire, thin ice, active rockfall), signal danger clearly from safe ground without rushing into the hazard. @T01,E12,N09
+diagram: Stow ALL loose fabric/gear | Wait clear of snags & wires | Approach ONLY when crew signals
+visual: Environmental helicopter/ground-extraction safety zone marking stowed-gear boundary, tail-rotor/uphill exclusion zones and crew-directed approach corridor. Conceptual, not to scale.
+reviewer: Search and rescue and aviation safety
+
+Z11-P66 | Avoid dangerous bystander self-rescue into cliffs, fast water or weak ice | ARC first aid, MN DNR ice and NPS emergency plan; new manuscript
+objective: Prevent untrained companions from becoming additional casualties during high-consequence terrain or water emergencies.
+applies: Witnessing a companion fall down a cliff, sweep into fast water or break through thin ice.
+equipment: Phone/communicator, reach/throw aids from solid ground and warm dry layers.
+action: Pause and assess scene safety FIRST—entering swiftwater, steep loose cliffs, avalanche paths or weak lake ice without specialized training and gear routinely turns one victim into multiple fatalities. @T01,X18,E12
+action: Activate 911 / SAR immediately with exact location and hazard details while establishing calm voice contact with the victim from a secure anchored position on solid ground. @T02,T06,X18
+action: Offer ONLY low-risk shore-based assistance (extending a long branch, throwing a float/rope from firm ground, lowering dry warm clothing if safely anchored)—never climb unroped down slick cliffs or walk out onto broken ice. @T01,X18,K09
+failure: Running straight onto cracked lake ice or diving into freezing swiftwater to grab a struggling friend without flotation or training. @T01,X18,X02
+verify: Confirm every rescuer remains on solid safe ground, 911 is activated and any reach/throw aid keeps the helper securely anchored back from the edge. @T01,T02,X18,ED
+stop: When shore-based reach/throw cannot safely reach the victim, stay alive on safe ground, keep visual tracking of their position and guide arriving professional rescue teams. @T01,T02,X18
+diagram: Check scene safety FIRST | Call 911 & stay on solid ground | Reach/throw only; zero blind entry
+visual: Decision tree enforcing scene-safety assessment, immediate 911 activation and strict shore-based reach/throw limits for untrained bystanders. Conceptual, not to scale.
+reviewer: Technical rescue, swiftwater/ice rescue and EMS
+
+Z11-P67 | Conduct dry-land navigation and signaling drills safely before remote trips | B014 r01 brief and NPS Hike Smart; new manuscript
+objective: Build reliable map, compass, offline-app and signaling habits in bounded familiar parks before relying on them in emergencies.
+applies: Pre-trip practice for individuals, families and youth groups on known dry-land trails.
+equipment: Paper map, baseplate compass, offline phone map, whistle and bounded local park with clear perimeter roads.
+action: Run a dry-land map-and-compass rehearsal at a local park with obvious paved boundaries: practice orienting the map, taking a bearing to a known picnic shelter, measuring pace count and testing offline map tiles in airplane mode. @E01,E02,N08
+action: Rehearse the group's lost-person drill calmly (STOP reset, whistle stop signal, Point Last Seen marking, six-item 911 script) WITHOUT placing real emergency calls or triggering live PLB/SOS alerts. @N09,N05,E11
+action: Debrief any confusion honestly at home—discovering a reversed declination habit or forgotten glasses in a city park costs nothing compared to a freezing forest. @T08,E02,ED
+failure: Unboxing a brand-new baseplate compass, satellite messenger and offline mapping app for the very first time in the trailhead parking lot. @E02,N05,N08
+verify: Confirm every participant successfully reads the map scale, opens offline tiles without signal and recites the group's lost-person stay-put rule. @E02,N01,E11,ED
+stop: Never send live 911 texts, fire flares or press live SOS/PLB buttons during practice drills; use manufacturer self-test modes only where specified. @N05,T02
+diagram: Bounded familiar dry park | Practice map, compass & offline | Rehearse STOP (no live SOS!)
+visual: Exploded four-station dry-land practice circuit covering map orientation, pace/bearing check, offline airplane-mode test and mock STOP drill. Conceptual, not to scale.
+reviewer: Outdoor education, navigation and search and rescue
+
+Z11-P68 | Integrate map, compass, weather and rescue limits into one field checklist | B014-P20, USGS topo and NWS alerts; new manuscript
+objective: Unify pre-trip preparation, checkpoint tracking, weather abort triggers and rescue readiness into one repeatable routine.
+applies: Every day hike, backcountry expedition and multi-day outdoor journey across all seasons.
+equipment: Complete navigation kit (paper map, compass, offline backup), weather alert tool, trip plan and signaling kit.
+action: Before departure: confirm current NWS point forecast/alerts, verified current map + declination, tested offline backup, registered/charged comms and a confirmed overdue trip-plan handoff. @E01,N01,T08,T14,N05
+action: On the move: keep the group together with lead/sweep accountability, match checkpoints and elapsed time regularly, monitor live sky/wind shifts and detour cleanly around water, ice or storm hazards. @E11,N06,N10,E12
+action: When uncertainty or hazard strikes: execute STOP immediately, prioritize shelter/insulation before wandering, lead any emergency call with exact location/format and stay visible until rescue arrives. @N09,T06,E05,T02
+failure: Treating map reading, weather monitoring, group pacing and rescue signaling as disconnected tasks until a compound failure hits at dusk. @E01,E11,N06,N09
+verify: Walk through all three stages (pre-trip, checkpoint/weather, STOP/rescue) cleanly before stepping away from the trailhead. @E01,N09,ED
+stop: Any missing critical safety link (unverified weather warning, dead navigation backup, missing trip-plan contact or impaired companion) triggers postponing or shortening the route before risk compounds. @E01,T16,E02,E11
+diagram: Pre-trip: map, forecast & plan | En route: checkpoints & sky | Uncertainty: STOP, shelter & signal
+visual: Decision tree unifying pre-trip navigation/weather checks, live checkpoint discipline and emergency STOP/rescue escalation into one field workflow. Conceptual, not to scale.
+reviewer: Navigation, meteorology and search and rescue

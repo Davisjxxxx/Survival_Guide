@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Keep sleeping gear out of runoff</title>
+  <desc id="desc">Roof drip line | Dry sleep area | Runoff away from exit</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
+  </defs>
+  <rect width="720" height="240" rx="12" fill="#edf1e9"/>
+  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
+    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P10 · FIELD SCHEMATIC</text>
+    <path d="M64 133h618" stroke="#9da684" stroke-width="6"/><path d="M163 118l180-66 166 66" fill="none" stroke="#315245" stroke-width="7"/><path d="M239 124h226v9H239Z" fill="#d4ae5d"/><path d="M149 109l-36 38m411-38 36 38" stroke="#5b8fa1" stroke-width="5" marker-end="url(#arrow)"/><path d="M577 142h94" stroke="#5b8fa1" stroke-width="4" marker-end="url(#arrow)"/>
+    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Roof drip line</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Dry sleep area</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Runoff away from exit</text></g>
+  </g>
+</svg>

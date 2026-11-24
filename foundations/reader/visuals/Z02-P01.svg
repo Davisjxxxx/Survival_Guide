@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Reject unsafe shelter sites</title>
+  <desc id="desc">Runoff channel | Higher site | Exit to higher ground</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
+  </defs>
+  <rect width="720" height="240" rx="12" fill="#edf1e9"/>
+  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
+    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P01 · FIELD SCHEMATIC</text>
+    <path d="M25 80Q115 159 201 131T330 99L452 68H686V152H25Z" fill="#c9d6b6"/><path d="M38 100Q103 146 191 136L209 143Q105 163 34 119Z" fill="#68a3b6"/><path d="M410 88l38-31 34 31Z" fill="#274d42"/><path d="M501 85h135" stroke="#285345" stroke-width="5" marker-end="url(#arrow)"/>
+    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Runoff channel</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Higher site</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Exit to higher ground</text></g>
+  </g>
+</svg>
