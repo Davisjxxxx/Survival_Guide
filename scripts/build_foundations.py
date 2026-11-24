@@ -168,7 +168,7 @@ def lint_cards(cards):
 
         # Rule 8: Z12 must never claim universally safe ice or advise swimming directly against rip currents.
         if card['zone'] == 'Z12':
-            if re.search(r'\bice is (always|universally|100%) safe\b|\btracks prove safe ice\b', full):
+            if re.search(r'(?<!no )\bice is (always|universally|100%) safe\b|\btracks prove safe ice\b', full):
                 raise ValueError(f'Contradiction: unsafe universal ice claim in {cid}')
             if re.search(r'\bswim directly against (a |the )?rip current\b', full):
                 if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', full):

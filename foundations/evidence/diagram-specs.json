@@ -2747,5 +2747,783 @@
       "Proceed w/ group count"
     ],
     "abort": "UNCERTAINTY / WARNING: STOP, stabilize shelter & signal/call early"
+  },
+  "Z12-P01": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Open wind-swept drift corridor",
+      "Snow-hidden creek/ice edge",
+      "Sheltered upland timber refuge"
+    ],
+    "callout": "Clear sky + wind still creates blinding ground blizzards"
+  },
+  "Z12-P02": {
+    "type": "mechanism",
+    "nodes": [
+      "Subfreezing Air + Strong Wind",
+      "Stripped Warm Skin Boundary",
+      "Rapid Frostbite Window"
+    ],
+    "callout": "Seal face/cuff/neck gaps & buddy-check cheeks frequently",
+    "accent": "#4c8094"
+  },
+  "Z12-P03": {
+    "type": "mechanism",
+    "nodes": [
+      "Start Cool & Vent on Climb",
+      "Keep Inner Wool/Synth Dry",
+      "Seal Vents & Add Dry Parka at Rest"
+    ],
+    "callout": "Sweat-soaked base layers chill core rapidly when movement stops",
+    "accent": "#5a8698"
+  },
+  "Z12-P04": {
+    "type": "cross_section",
+    "layers": [
+      "Loose windproof outer shell & gaiter",
+      "Uncompressed dry wool/synthetic insulation",
+      "Toe wiggle room (zero tight lace squeeze)",
+      "Liner gloves under mittens for metal tasks"
+    ],
+    "callout": "Never warm numb hands/feet near open flames or hot stoves"
+  },
+  "Z12-P05": {
+    "type": "decision_tree",
+    "gates": [
+      "Alert, clear & shivering?",
+      "No slurred speech/drowsy?",
+      "Shelter, dry layers & watch"
+    ],
+    "abort": "CONFUSED / SLURRED / DROWSY / COLLAPSE: Call 911, handle gently, no drink"
+  },
+  "Z12-P06": {
+    "type": "decision_tree",
+    "gates": [
+      "Hypothermia screened clear?",
+      "Refreezing 100% prevented?",
+      "Urgent clinical evaluation"
+    ],
+    "abort": "REFREEZE RISK: Protect gently, NO rub/flame/thaw; evacuate to care"
+  },
+  "Z12-P07": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Bare-Boot Post-Holing",
+        "note": "Massive energy drain; <1 mph & heavy sweat",
+        "limit": "High exhaustion risk"
+      },
+      {
+        "name": "Snowshoes / Skis",
+        "note": "Flotation preserves pace & dry inner layers",
+        "limit": "Check brittle cold straps"
+      },
+      {
+        "name": "Rotating Lead",
+        "note": "Swap trail-breaker every 5-10 min in groups",
+        "limit": "Turn back on packed track"
+      }
+    ]
+  },
+  "Z12-P08": {
+    "type": "mechanism",
+    "nodes": [
+      "Direct Sun + ~80% Snow UV Bounce",
+      "Unprotected Cornea Burns Silently",
+      "Wrap-Around UV Glasses / Goggles"
+    ],
+    "callout": "Pain hits hours later — wear UV shields even in thin bright haze",
+    "accent": "#5f8fa4"
+  },
+  "Z12-P09": {
+    "type": "exploded",
+    "components": [
+      "Cabin Blankets & Boots",
+      "Shovel & Scraper",
+      "Bright Mirror Cloth",
+      "Clear Tailpipe Check"
+    ],
+    "callout": "Stay with safe stranded vehicle; NEVER sleep with idling engine"
+  },
+  "Z12-P10": {
+    "type": "failure_mode",
+    "cause": "Freezing rain glazes trees, power lines & ground at ~32°F",
+    "cue": "Snapping ice-heavy limbs, downed wires, wet chilled layers",
+    "correction": "Stay indoors; treat ALL downed wires live & avoid woods"
+  },
+  "Z12-P11": {
+    "type": "failure_mode",
+    "cause": "Subzero cold drains batteries/butane & cracks wet filters",
+    "cue": "Dead phone, weak stove flame, frozen tube or snapped buckle",
+    "correction": "Use lithium/liquid fuel, wide-mouth bottles & test gear cold"
+  },
+  "Z12-P12": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Pocket-Warm Calories",
+        "note": "Nuts, cheese & bite-sized fuel all day & dusk",
+        "limit": "Avoid tooth-breaking bars"
+      },
+      {
+        "name": "Steady Safe Hydration",
+        "note": "Drink regularly despite blunted cold thirst",
+        "limit": "Keep wide-mouth insulated"
+      },
+      {
+        "name": "Zero Alcohol in Cold",
+        "note": "Alcohol dilates vessels & speeds core cooling",
+        "limit": "Impairs safety judgment"
+      }
+    ]
+  },
+  "Z12-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Clear New Solid Ice",
+        "note": "Denser reference ONLY — thickness varies in yards",
+        "limit": "NEVER a safety guarantee"
+      },
+      {
+        "name": "White Snow-Ice",
+        "note": "Air-filled frozen slush (~half clear-ice strength)",
+        "limit": "Double failure hazard"
+      },
+      {
+        "name": "Rotten Spring Ice",
+        "note": "Vertically candled honeycomb collapses suddenly",
+        "limit": "STAY ON SOLID SHORE"
+      }
+    ]
+  },
+  "Z12-P14": {
+    "type": "cross_section",
+    "layers": [
+      "Clear dense new ice (still check thickness)",
+      "Opaque white air-filled snow-ice (~1/2 strength)",
+      "Dark wet gray vertically candled spring ice",
+      "Underlying flowing/cold water hazard"
+    ],
+    "callout": "Inspect strictly from solid shore — appearance ≠ safety"
+  },
+  "Z12-P15": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Inlets, outlets & bridges",
+      "Narrows, springs & pressure cracks",
+      "Solid upland shore route"
+    ],
+    "callout": "Moving water, springs and dark rocks thin ice continuously below"
+  },
+  "Z12-P16": {
+    "type": "cross_section",
+    "layers": [
+      "Windblown snow blanket (insulates & hides holes)",
+      "Depressed flooded slush layer under snow weight",
+      "Thin weakened ice shell over cold water",
+      "Concealed open spring/angler pocket"
+    ],
+    "callout": "Snow slows freezing and disguises lethal holes as flat ground"
+  },
+  "Z12-P17": {
+    "type": "failure_mode",
+    "cause": "Currents, drifts & springs vary thickness sharply in 50 ft",
+    "cue": "Single thick shoreline test hole gives false confidence",
+    "correction": "One hole NEVER clears a route; hikers stay strictly on land"
+  },
+  "Z12-P18": {
+    "type": "failure_mode",
+    "cause": "Old tracks, tossed rocks, fast sleds & crowds lure walkers",
+    "cue": "Following boot prints or distant shacks onto unverified bays",
+    "correction": "Reject all 6 false cues; choose verified dry land detours"
+  },
+  "Z12-P19": {
+    "type": "decision_tree",
+    "gates": [
+      "Dogs leashed & kids on land?",
+      "Verified dry shore route?",
+      "Walk safely clear of ice"
+    ],
+    "abort": "PET/CHILD ON ICE: Stay on shore, call 911 — NEVER walk out on thin ice"
+  },
+  "Z12-P20": {
+    "type": "mechanism",
+    "nodes": [
+      "~1 Min: Control Cold-Shock Gasp",
+      "~10 Min: Exit/Secure Before Swim Fails",
+      "~1 Hr+: Conserve Heat w/ Worn PFD"
+    ],
+    "callout": "Cold shock & swim failure drown strong swimmers long before hypothermia",
+    "accent": "#3f7a8f"
+  },
+  "Z12-P21": {
+    "type": "decision_tree",
+    "gates": [
+      "Breathing calm & turned back?",
+      "Kicked horizontal onto rim?",
+      "Roll flat to shore & 911"
+    ],
+    "abort": "CANNOT EXIT: Hook arms on shelf, blow whistle & keep airway clear (review pending)"
+  },
+  "Z12-P22": {
+    "type": "decision_tree",
+    "gates": [
+      "911 called & anchored on shore?",
+      "Pole reach or float throw safe?",
+      "Pull low from firm land"
+    ],
+    "abort": "UNREACHABLE: Stay alive on shore, track victim & guide arriving rescue"
+  },
+  "Z12-P23": {
+    "type": "decision_tree",
+    "gates": [
+      "911 active & out of wind?",
+      "Gentle horizontal dry wrap?",
+      "Monitor breath; no rub/bath"
+    ],
+    "abort": "UNRESPONSIVE / NO BREATH: Follow 911 CPR/AED — urgent hospital care"
+  },
+  "Z12-P24": {
+    "type": "exploded",
+    "components": [
+      "Exterior Neck Ice Picks",
+      "Worn Float Coat / PFD",
+      "Chest Pea-Less Whistle",
+      "Dry-Practiced Throw Bag"
+    ],
+    "callout": "Safety gear NEVER authorizes stepping onto thin or unverified ice"
+  },
+  "Z12-P25": {
+    "type": "decision_tree",
+    "gates": [
+      "Shore solid & zero cracks?",
+      "Zero thaw/slush/sunken gear?",
+      "Follow strict shore limits"
+    ],
+    "abort": "THAW / CRACKS / SUNKEN GEAR: Abandon gear & retreat to solid land"
+  },
+  "Z12-P26": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dawn / Dusk Travel",
+        "note": "Cooler air slashes sweat rate & water need",
+        "limit": "Pack light & warm layer"
+      },
+      {
+        "name": "Midday Shade Rest",
+        "note": "Stop exertion during peak 100-115°F+ sun",
+        "limit": "Never rest in closed car"
+      },
+      {
+        "name": "Half-Water Rule",
+        "note": "Turn back BEFORE half carried water is gone",
+        "limit": "Springs often dry/alkaline"
+      }
+    ]
+  },
+  "Z12-P27": {
+    "type": "cross_section",
+    "layers": [
+      "Wide-brim hat + UV eyewear + loose UPF shirt",
+      "Breathable shaded airflow cooling skin",
+      "Elevated rest pad off scorching desert ground",
+      "140-160°F sun-baked sand & reflective slickrock"
+    ],
+    "callout": "Loose light clothing reduces radiant load & sunburn fluid loss"
+  },
+  "Z12-P28": {
+    "type": "mechanism",
+    "nodes": [
+      "Heavy Desert Sweat (Water + Salt)",
+      "Steady Sips + Salty Food/Electrolytes",
+      "Midday Shade Cuts Total Loss"
+    ],
+    "callout": "Drink steadily (no hoarding) & pair with salt to avoid hyponatremia",
+    "accent": "#c8823c"
+  },
+  "Z12-P29": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Heat Cramps",
+        "note": "Muscle spasms; stop, shade, sip + salty snack",
+        "limit": "Watch for progression"
+      },
+      {
+        "name": "Heat Exhaustion",
+        "note": "Weak, dizzy, nauseous, sweaty; stop & cool",
+        "limit": "Screen alertness closely"
+      },
+      {
+        "name": "Heat Stroke (911!)",
+        "note": "Confused, slurred, collapse (MAY STILL SWEAT)",
+        "limit": "CALL 911 & COOL FAST"
+      }
+    ]
+  },
+  "Z12-P30": {
+    "type": "decision_tree",
+    "gates": [
+      "Confused/collapsed in heat?",
+      "911 called immediately?",
+      "Douse cold water + fan NOW"
+    ],
+    "abort": "IMPAIRED AIRWAY: Zero oral drink; cool aggressively until EMS arrives"
+  },
+  "Z12-P31": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Distant rain on hard dry mesa",
+      "Dry slot canyon / wash surge",
+      "Climb high rocky canyon wall"
+    ],
+    "callout": "Flash floods surge miles downstream under clear local desert skies"
+  },
+  "Z12-P32": {
+    "type": "failure_mode",
+    "cause": "Closed parked car hits >140°F or travelers walk into 112°F heat",
+    "cue": "Stalled desert road vehicle with blistering cabin & no signal",
+    "correction": "Stay beside visible car in external ventilated shade & signal"
+  },
+  "Z12-P33": {
+    "type": "failure_mode",
+    "cause": "Blinding dust wall (haboob) + glowing hazards trigger rear-end crash",
+    "cue": "Sudden zero-visibility dust wall crossing desert highway",
+    "correction": "Pull FULLY off road, foot off brake, ALL lights OFF & stay belted"
+  },
+  "Z12-P34": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Hot daytime dry desert floor",
+      "Clear sky dumps heat fast",
+      "30-50°F colder night air"
+    ],
+    "callout": "Pack warm dry layer & wind shell even on hot desert afternoons"
+  },
+  "Z12-P35": {
+    "type": "failure_mode",
+    "cause": "Direct 110°F sun overheats smartphones, tires, engines & meds",
+    "cue": "Thermal phone lockout, rising temp gauge or hot canisters",
+    "correction": "Shade electronics/meds, carry paper map & pull off early"
+  },
+  "Z12-P36": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Shaded rock ledges & crevices",
+      "Look first; step ONTO logs",
+      "Shake boots; headlamp at dusk"
+    ],
+    "callout": "Snakebite -> stay calm, immobilize limb & call 911 (no cut/tourniquet)"
+  },
+  "Z12-P37": {
+    "type": "cross_section",
+    "layers": [
+      "Alpine summit (-3 to -5°F per 1,000 ft + gusts)",
+      "Thinner atmosphere = stronger UV & rapid storms",
+      "Treeline transition & afternoon convective hail",
+      "Warm sunny lowland trailhead (misleading forecast)"
+    ],
+    "callout": "Always pack full rain/cold layers & check summit elevation forecast"
+  },
+  "Z12-P38": {
+    "type": "decision_tree",
+    "gates": [
+      "Dawn start & before deadline?",
+      "Clear sky & zero thunder?",
+      "Proceed below storm risk"
+    ],
+    "abort": "NOON TOWERS / THUNDER / DEADLINE: Descend below treeline NOW"
+  },
+  "Z12-P39": {
+    "type": "mechanism",
+    "nodes": [
+      "Lower O2 Pressure >8,000 ft",
+      "Staged Gradual Sleeping Ascent",
+      "Monitor Headache/Nausea (AMS)"
+    ],
+    "callout": "Fitness does NOT prevent AMS — NEVER ascend to sleep with symptoms",
+    "accent": "#4e7c8f"
+  },
+  "Z12-P40": {
+    "type": "decision_tree",
+    "gates": [
+      "Short of breath at rest (HAPE)?",
+      "Staggering/confused (HACE)?",
+      "Emergency medical descent"
+    ],
+    "abort": "HAPE OR HACE: Descend IMMEDIATELY accompanied & call 911/SAR"
+  },
+  "Z12-P41": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "30-45° slope & ridge cornice",
+      "Connected gully/valley runout",
+      "Disconnected <30° safe terrain"
+    ],
+    "callout": "Check daily avalanche forecast; stay out without formal training"
+  },
+  "Z12-P42": {
+    "type": "failure_mode",
+    "cause": "Weak snowpack layer collapses under load, wind or rapid warming",
+    "cue": "Recent slides, shooting cracks, hollow whumpf or wet pinwheels",
+    "correction": "Retreat immediately onto disconnected low-angle ground"
+  },
+  "Z12-P43": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Loose talus & scree fall line",
+      "Diagonal/side-by-side spacing",
+      "Stay on switchbacks; shout ROCK"
+    ],
+    "callout": "Test boulders gently & keep zero companions directly downhill"
+  },
+  "Z12-P44": {
+    "type": "failure_mode",
+    "cause": "Heavy rain hits water-repellent wildfire burn scar or steep slope",
+    "cue": "Loud freight-train roar, cracking earth or muddy creek surge",
+    "correction": "Evacuate IMMEDIATELY uphill & perpendicular away from drainage"
+  },
+  "Z12-P45": {
+    "type": "decision_tree",
+    "gates": [
+      "Early morning low meltwater?",
+      "Shallow clear & zero strainers?",
+      "Shoes on, pack unbuckled cross"
+    ],
+    "abort": "SWIFT / DEEP / STRAINERS: Hold for morning low or turn back"
+  },
+  "Z12-P46": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Below 6,500 ft",
+        "note": "Rolling boil 1 full min; standard cook times",
+        "limit": "Stoves strictly outdoors"
+      },
+      {
+        "name": "Above 6,500 ft",
+        "note": "Rolling boil FULL 3 MINUTES; extra fuel needed",
+        "limit": "Lower boiling temp"
+      },
+      {
+        "name": "Altitude CO Risk",
+        "note": "Lower O2 raises incomplete combustion CO output",
+        "limit": "ZERO tent/vestibule stoves"
+      }
+    ]
+  },
+  "Z12-P47": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Floating sphagnum bog mat",
+      "Deep cold muck & hidden water",
+      "Firm upland mineral ridge"
+    ],
+    "callout": "Probe uncertain damp edges with a pole; avoid quaking mats",
+    "accent": "#5f8c7b",
+    "hazard": "Sudden deep plunge risk"
+  },
+  "Z12-P48": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Snow-drifted hollow ice crust",
+      "Drained beaver pond / peat warmth",
+      "Stay on upland winter ridge"
+    ],
+    "callout": "Wetland ice stays erratic all winter even in subzero spells",
+    "accent": "#6a9cb0",
+    "hazard": "Boot-soak hypothermia trap"
+  },
+  "Z12-P49": {
+    "type": "cross_section",
+    "layers": [
+      "Prolonged 32-60°F soggy boot immersion",
+      "Pale wrinkled numb skin (immersion/trench foot)",
+      "Nightly complete foot air-drying & elevation",
+      "Dedicated dry wool sleep socks (loose fit)"
+    ],
+    "callout": "Non-freezing trench foot occurs well above 32°F in wet marshes"
+  },
+  "Z12-P50": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Dead-end slough & alder mire",
+      "Firm upland mineral handrail",
+      "Waterproof dry-bagged core gear"
+    ],
+    "callout": "Route around marshes on upland ridges & verified boardwalks"
+  },
+  "Z12-P51": {
+    "type": "mechanism",
+    "nodes": [
+      "Stop Frantic Vertical Pulling",
+      "Spread Body Weight & Wiggle Slowly",
+      "Break Mud Vacuum + Shore Pull"
+    ],
+    "callout": "Call 911 immediately if trapped near rising tides or cold water",
+    "accent": "#7c6b4e"
+  },
+  "Z12-P52": {
+    "type": "exploded",
+    "components": [
+      "Long Clothing & Net",
+      "Labeled EPA Repellent",
+      "Daily Full Tick Check",
+      "Potable Water & Wound Care"
+    ],
+    "callout": "Never drink stagnant marsh water untreated or ignore muddy cuts"
+  },
+  "Z12-P53": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Soggy mist-filled marsh floor",
+      "Elevated dry mineral knoll",
+      "Verified upland escape trail"
+    ],
+    "callout": "Pitch well above marsh vegetation stains & overnight storm surges"
+  },
+  "Z12-P54": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Normal low-tide wet bench",
+      "Storm swell + king-tide surge",
+      "High inland bluff bypass trail"
+    ],
+    "callout": "Check exact local tide table; cross headlands ONLY on falling tide"
+  },
+  "Z12-P55": {
+    "type": "failure_mode",
+    "cause": "Incoming tide floods low pass behind headland or sea cave first",
+    "cue": "Rising water closing return channel below dark wet cliff algae line",
+    "correction": "Retreat early; if trapped stay high above surf & call 911/USCG"
+  },
+  "Z12-P56": {
+    "type": "mechanism",
+    "nodes": [
+      "Narrow Seaward Rip Channel",
+      "Stay Calm & Float (Do NOT Fight)",
+      "Swim Parallel -> Angle Back In"
+    ],
+    "callout": "Check surf flags & lifeguards; witnesses throw floats & call 911",
+    "accent": "#3e7d94"
+  },
+  "Z12-P57": {
+    "type": "failure_mode",
+    "cause": "Irregular giant sneaker wave sweeps slick kelp rocks & drift logs",
+    "cue": "Wet black algae stain, rolling beach logs or breaking jetty spray",
+    "correction": "Never turn back to surf; watch sets from high dry ground"
+  },
+  "Z12-P58": {
+    "type": "decision_tree",
+    "gates": [
+      "Quake, ocean roar or drawback?",
+      "Evacuate ON FOOT uphill NOW?",
+      "Stay high hours until all-clear"
+    ],
+    "abort": "TSUNAMI CUE/WARNING: Drop gear/car, climb high inland immediately"
+  },
+  "Z12-P59": {
+    "type": "decision_tree",
+    "gates": [
+      "Coastal surge zone ordered out?",
+      "Leave early before bridges close?",
+      "Shelter inland safely"
+    ],
+    "abort": "HURRICANE WARNING: Evacuate early; calm eye is NOT the storm's end"
+  },
+  "Z12-P60": {
+    "type": "failure_mode",
+    "cause": "Coastal salt spray, abrasive beach sand & rolling advection fog",
+    "cue": "Seized sandy zippers, overnight blade rust & sudden zero visibility",
+    "correction": "Seal electronics/tools, rinse fresh & hold high ground in fog"
+  },
+  "Z12-P61": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Salt tidal wedge pushes upriver",
+      "Boil/filter CANNOT desalinate",
+      "Upstream freshwater / carried safe"
+    ],
+    "callout": "Carry full potable reserves on coastal beaches & islands",
+    "accent": "#4e8ca3",
+    "hazard": "NEVER drink seawater"
+  },
+  "Z12-P62": {
+    "type": "exploded",
+    "components": [
+      "USCG-Approved Label",
+      "Snug Shoulder/Waist Fit",
+      "Continuous Dock-to-Dock",
+      "Chest Whistle & Strobe"
+    ],
+    "callout": "Stowed life jackets fail in 1-minute cold-shock capsize emergencies"
+  },
+  "Z12-P63": {
+    "type": "exploded",
+    "components": [
+      "Ashored Float Plan",
+      "NOAA Marine Weather",
+      "VHF Ch 16 / DSC Radio",
+      "Registered EPIRB / PLB"
+    ],
+    "callout": "Check marine zone forecasts & leave overdue cutoff with shore contact"
+  },
+  "Z12-P64": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Small Craft Advisory",
+        "note": "Hazardous wind/waves for small & paddle craft",
+        "limit": "Stay off open crossings"
+      },
+      {
+        "name": "Gale / Storm Warning",
+        "note": "Severe life-threatening open-water wind/seas",
+        "limit": "Remain safely in port"
+      },
+      {
+        "name": "Wind vs Tide / Fetch",
+        "note": "Opposing current & long fetch stack steep waves",
+        "limit": "Calm launch hides open chop"
+      }
+    ]
+  },
+  "Z12-P65": {
+    "type": "decision_tree",
+    "gates": [
+      "Hull buoyant & stays afloat?",
+      "Safe shore within short window?",
+      "Climb atop hull & signal"
+    ],
+    "abort": "FAR COLD SHORE: Stay w/ visible hull wearing PFD — do NOT long-swim"
+  },
+  "Z12-P66": {
+    "type": "mechanism",
+    "nodes": [
+      "Buckled USCG PFD Keeps Airway Up",
+      "Solo HELP or Group HUDDLE Circle",
+      "Reduced Core Heat Loss While Waiting"
+    ],
+    "callout": "Minimize thrashing; prioritize clear breathing in breaking waves",
+    "accent": "#3f7a8f"
+  },
+  "Z12-P67": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "VHF 16 / EPIRB / PLB",
+        "note": "Direct electronic distress alert & coordinates",
+        "limit": "Keep registered & dry"
+      },
+      {
+        "name": "Day Smoke / Mirror",
+        "note": "High-contrast daylight sighting when craft nears",
+        "limit": "Save until searchers visible"
+      },
+      {
+        "name": "Night Flares / LED SOS",
+        "note": "Hold flares downwind over water clear of fuel",
+        "limit": "Check USCG exp dates"
+      }
+    ]
+  },
+  "Z12-P68": {
+    "type": "failure_mode",
+    "cause": "Sudden marine fog hides low small craft in commercial ship lanes",
+    "cue": "White fog bank offshore, unseen horn blasts or lost shore bearing",
+    "correction": "Avoid shipping lanes, hug safe shore & use compass/horn/VHF"
+  },
+  "Z12-P69": {
+    "type": "exploded",
+    "components": [
+      "Body-Worn PFD SOS Gear",
+      "Double-Sealed Dry Bags",
+      "No-Tangle Hatch Tie-Down",
+      "Salt-Tight Water Jugs"
+    ],
+    "callout": "Keep VHF, PLB & whistle ON your PFD in case craft drifts away"
+  },
+  "Z12-P70": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cold & High Altitude",
+        "note": "Batteries/butane drop, filters crack, 3-min boil",
+        "limit": "Extra CO risk >6,500 ft"
+      },
+      {
+        "name": "Desert Extreme Heat",
+        "note": "Phones thermal-lock, tires/coolant overheat",
+        "limit": "Shade gear & carry paper"
+      },
+      {
+        "name": "Wetlands & Salt Coast",
+        "note": "Trench foot, soaked loft, salt rust & sandy zips",
+        "limit": "Dry bags & fresh rinse"
+      }
+    ]
+  },
+  "Z12-P71": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Sunny warm afternoon start",
+      "36°F evening rain/sleet trap",
+      "Rotten thaw ice & high creeks"
+    ],
+    "callout": "Shoulder seasons demand full cold-wet layers & shore-only detours"
+  },
+  "Z12-P72": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Valley rain & mild air",
+      "Treeline shift to wet snow",
+      "Subfreezing dusk glare-ice lock"
+    ],
+    "callout": "Layer up while fingers work; descend early before trails glaze over"
+  },
+  "Z12-P73": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Parched fuels -> Red Flag fire",
+      "Hard dry soil -> flash flood",
+      "Keep 2 exits & full water"
+    ],
+    "callout": "Drought drives BOTH extreme wildfire bans and violent cloudburst runoff"
+  },
+  "Z12-P74": {
+    "type": "decision_tree",
+    "gates": [
+      "Water/fuel/daylight >50%?",
+      "Forecast, terrain & health OK?",
+      "Continue within margins"
+    ],
+    "abort": "ANY LIMIT CROSSED: Abort early BEFORE reaching point of no return"
+  },
+  "Z12-P75": {
+    "type": "decision_tree",
+    "gates": [
+      "Editorial & QA draft checks?",
+      "Astra + human SME approved?",
+      "Future release candidate"
+    ],
+    "abort": "PUBLICATION HOLD: Not field-tested — pursue certified hands-on training"
   }
 }

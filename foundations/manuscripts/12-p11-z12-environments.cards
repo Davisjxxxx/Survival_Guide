@@ -1,0 +1,1049 @@
+Z12-P01 | Read wind, blowing snow and ground-blizzard visibility loss | B012-P03 wind/snow and NWS winter safety; adapted historical material
+objective: Spot sudden ground-blizzard whiteouts and drifting hazards even under clear blue skies after snowfall stops.
+applies: Upper Midwest plains, frozen lake margins, open corridors and winter woodland travel.
+equipment: Windproof outer layers, goggles/eye protection, map, compass and weather alerts.
+action: Scan downwind across open fields and lake edges for lifting snow plumes—strong winds can erase trails and create near-zero visibility without a single new snowflake falling. @E15,N07,E25
+action: Inspect terrain edges for snow-hidden creek channels, slush overflow and drifted drop-offs rather than assuming a smooth white surface means firm ground. @E12,E25,N07
+action: Move early into sound upland timber or substantial shelter before blowing snow erases landmarks and wind chill spikes. @E15,N07,E05
+failure: Stepping onto an open snow-swept corridor because snowfall ended, then losing all landmark contrast in blowing drift ten minutes later. @N07,E15,E25
+verify: Confirm current visibility distance, wind direction and immediate wind-protected timber or building refuge before crossing open winter terrain. @N07,E15,ED
+stop: When blowing snow drops visibility or erases trail contrast, halt exposed travel on stable land, shelter from wind and avoid crossing frozen water. @N07,E12,E05
+diagram: Clear sky + wind lifts snow | Drifts hide creeks & edges | Shelter early on stable land
+visual: Environmental corridor schematic showing ground-blizzard blowing drift erasing visual contrast and concealing frozen drainages. Conceptual, not to scale.
+reviewer: Winter travel safety and meteorology
+
+Z12-P02 | Manage wind chill and exposed-skin frostbite windows in bitter cold | NWS cold weather safety; new manuscript
+objective: Protect exposed face, nose, ears and fingers when subfreezing air and strong wind accelerate tissue freezing.
+applies: Subfreezing windy travel across Upper Midwest winter fronts, open lakeshores and exposed ridges.
+equipment: Windproof shell with hood, insulated face/neck gaiter, goggles, insulated mittens and buddy-check habit.
+action: Understand wind chill accurately: wind strips away the body's thin warm boundary layer, speeding skin cooling and frostbite onset dramatically (while NOT lowering the freezing temperature of inanimate gear below air temperature). @E15
+action: Cover cheeks, nose, ears, wrists and fingers cleanly with windproof loose-fitting layers before stepping into bitter headwinds—use goggles in extreme wind chill to protect eyes and bridge of nose. @E15,E10,T04
+action: Run frequent buddy checks on each other's faces for pale waxy patches or loss of feeling, because numb skin stops hurting right as freezing begins. @T04,E15,E11
+failure: Walking into a 25-mph subzero headwind with exposed cheeks and tight thin gloves until fingers and nose freeze silently. @E15,T04
+verify: Confirm zero bare skin gaps at hood, cuff and neck seals and pair companions for mutual face checks every 15–20 minutes. @E15,E11,ED
+stop: Numbness, hard/waxy patches or severe biting cold wind-chill warnings require immediate retreat to warm wind-blocked shelter and clinical frostbite screening. @E15,T04,T03
+diagram: Wind strips warm air film | Rapid exposed-skin cooling | Seal gaps & buddy-check faces
+visual: Mechanism diagram illustrating convective boundary-layer stripping under high wind chill alongside loose windproof skin-protection barriers. Conceptual, not to scale.
+reviewer: Cold-weather operations and wilderness medicine
+
+Z12-P03 | Regulate exertion, venting and dry spares during cold winter travel | B012-P05 manage sweat and NWS winter safety; adapted historical material
+objective: Prevent sweat-soaked inner clothing from triggering rapid chills the moment winter movement pauses.
+applies: Snowshoeing, skiing, winter hiking or digging in freezing weather where effort alternates with rest.
+equipment: Breathable synthetic or wool base/mid layers, venting wind shell and reserved dry insulated parka.
+action: Start slightly cool ("be bold, start cold") and open collar/pit vents or strip an insulating mid-layer BEFORE heavy exertion starts sweating into your base fabric. @E10,E15
+action: Keep travel pace steady and conversational so sweat output stays minimal; pause briefly to drop a layer the instant dampness or flushing begins. @E10,E11,ED
+action: At every rest stop, immediately zip vents closed, move out of wind and pull a dedicated dry insulated layer over your shell before body heat drops. @E05,E10,E15
+failure: Hiking uphill zipped inside a heavy down parka until soaked with sweat, then shivering uncontrollably during a ten-minute break. @E10,E06
+verify: Confirm inner base layer feels dry at stops and that a dedicated dry rest layer sits immediately at the top of the pack. @E10,E05,ED
+stop: If wet inner clothing combines with rising wind or dropping temperatures and dry spares cannot restore warmth, end travel and move to warm refuge immediately. @E10,E06,T03
+diagram: Vent early before sweating | Hold steady moderate pace | Seal vents & add dry layer at rest
+visual: Mechanism diagram mapping work-phase ventilation versus rest-phase wind sealing and dry-reserve insulation deployment. Conceptual, not to scale.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z12-P04 | Protect boots, socks, toes and mittens from freeze-up and constriction | B012-P06 boots/socks/mittens and WMS frostbite; adapted historical material
+objective: Preserve extremity circulation and hand dexterity across long subfreezing outings.
+applies: Winter hiking, camping and stranded emergencies below 32°F (0°C).
+equipment: Properly fitted insulated winter boots (room to wiggle toes), dry wool/synthetic spare socks and loose insulated mittens with liner gloves.
+action: Wear insulated boots sized with room for thick socks without squeezing—tight laces or cramming two thick sock pairs into snug boots restricts blood flow and accelerates toe frostbite. @E10,T04,ED
+action: Prefer insulated mittens over five-finger gloves in severe cold (fingers share warmth together), wearing thin liner gloves underneath so bare skin never touches freezing metal tools or stove parts. @E10,E15,ED
+action: Keep spare dry socks protected in a waterproof bag and keep wet boots out of drifting snow overnight; never dry numb feet or damp boots right against open flames or hot coals. @E10,T04,C02
+failure: Jamming extra socks into tight boots until toes go numb, or removing mittens bare-handed in subzero wind to adjust metal bindings. @E10,T04,E15
+verify: Confirm toes wiggle freely inside winter boots, dry spare socks remain sealed dry and thin liners cover fingers during brief fine tasks. @E10,T04,ED
+stop: Persistent toe/finger numbness, clumsy loss of grip or firm/waxy skin stops outdoor work—move to shelter, check for hypothermia and seek medical care. @T04,T03,E06
+diagram: Loose fit preserves blood flow | Mittens + liners beat bare hands | Never hold numb skin to flame
+visual: Material cross-section of a winter boot and mitten system highlighting circulation clearance, dry wool loft and windproof outer shell. Conceptual, not to scale.
+reviewer: Wilderness medicine and cold-weather operations
+
+Z12-P05 | Recognize early hypothermia behavioral changes before shivering stops | B012-P07/P24 hypothermia and CDC/ARC guidance; adapted historical material
+objective: Spot neurologic decline early in cold wet exposure and escalate immediately without relying on shivering alone.
+applies: Any cold, wet or windy exposure—including cool rain well above freezing (40°F–50°F).
+equipment: Wind/ground shelter, dry insulation wrap and emergency communication device.
+action: Watch for the behavioral red flags ("umbles"): fumbling hands, stumbling gait, mumbled or slurred speech, confusion, apathy or unusual drowsiness—mental status matters far more than guessed temperature. @E06,T03
+action: Recognize that when shivering STOPS in a still-cold, confused or drowsy person, hypothermia is WORSENING dangerously—never mistake absent shivering for recovery. @T03,E06
+action: Move an alert mildly chilled person out of wind onto dry ground insulation with dry layers and monitor closely; for ANY confusion, slurred speech, severe drowsiness or unresponsiveness, call 911 immediately, handle gently, protect core heat and give NO oral food or drink to impaired patients. @T03,T02,E05
+failure: Telling a stumbling, slurring companion to "walk faster to warm up" or pouring hot liquid into a drowsy hypothermic patient. @T03,E06
+verify: Check every group member's speech clarity, hand coordination and alertness during cold stops, confirming clear escalation criteria. @T03,E06,E11,ED
+stop: Confusion, slurred speech, failure to stay awake, collapse or abnormal breathing requires immediate 911 activation, gentle horizontal handling and dispatcher-guided care. @T02,T03,T01
+diagram: Alert & shivering -> shelter/dry | Confused/slurred -> 911 & gentle | Unresponsive -> 911 & dispatch CPR
+visual: Decision tree triaging cold-exposure mental status from early shelter/insulation care to urgent 911 activation and gentle handling. Conceptual, not to scale.
+reviewer: Wilderness medicine and EMS
+
+Z12-P06 | Recognize frostbite signs and prevent catastrophic refreezing | B012-P08/P25 frostbite and WMS 2024 guideline; adapted historical material
+objective: Protect suspected frozen tissue from trauma and refreezing until safe clinical evaluation is reached.
+applies: Subfreezing exposure affecting fingers, toes, ears, nose or cheeks outside immediate hospital care.
+equipment: Dry loose clean dressings, warm shelter, communication device and transport/evacuation plan.
+action: Screen for whole-body hypothermia FIRST (life overrides limb), then check affected skin for numbness, stinging followed by loss of feeling, unusual firmness/waxiness or color change (never rely on skin color alone across diverse skin tones). @T04,T03
+action: Remove rings, watches or tight straps gently before swelling starts, protect the numb area from pressure, walking trauma and further wind, and NEVER rub, massage, pack with snow or hold near direct fire/stoves. @T04,C02
+action: Follow WMS refreezing boundaries: do NOT attempt active rapid thawing in the field if there is ANY risk the tissue could refreeze before reaching definitive medical care—refreezing thawed tissue causes devastating additional injury. @T04
+failure: Rubbing frozen fingers vigorously with snow or thawing frozen toes over a camp stove only to walk miles back in freezing boots. @T04
+verify: Confirm hypothermia is screened, constricting jewelry is removed, zero rubbing/direct heat is used and safe evacuation or clinical advice is underway. @T04,T03,ED
+stop: Blisters, hard waxy tissue, persistent numbness, loss of function or coexisting hypothermia require urgent professional clinical assessment. @T04,T03,T02
+diagram: Screen hypothermia first | Zero rub, flame or constriction | Never thaw if refreeze possible
+visual: Decision tree pairing frostbite recognition, trauma/burn prohibition and the strict WMS no-refreeze evacuation threshold. Conceptual, not to scale.
+reviewer: Wilderness medicine and clinical frostbite specialist
+
+Z12-P07 | Manage snowshoe, ski and post-holing fatigue in deep winter snowpack | NWS winter safety and NPS winter travel; new manuscript
+objective: Conserve calories, prevent sweat soak and preserve return margins when breaking trail in deep winter snow.
+applies: Deep snow travel on trails, meadows and northern forests using boots, snowshoes or backcountry skis.
+equipment: Matched snowshoes/skis with inspected bindings, trekking poles with snow baskets, extra calories and water.
+action: Recognize that wading knee-deep without flotation ("post-holing") burns massive energy, spikes sweating and can cut travel speed below one mile per hour—carry snowshoes or skis whenever snow depth warrants. @E10,E01,E25
+action: Rotate the lead trail-breaker frequently every 5–10 minutes in groups so no single hiker exhausts calories or drenches inner layers while others chill standing still. @E11,E10,ED
+action: Check snowshoe bindings, straps and ski pole baskets regularly in subzero cold where plastic straps grow brittle and snap suddenly. @K07,E02,ED
+failure: Pushing a tired single trail-breaker two miles through waist-deep drifts until they overheat, collapse and leave the group short of daylight. @E10,E11,E01
+verify: Confirm rotating lead schedule, manageable dry-sweat pace, intact bindings and generous daylight turnaround margin. @E11,E10,ED
+stop: Deep exhausting snowpack that outpaces daylight or causes heavy sweating and stumbling triggers immediate turnaround onto your already-packed return track. @E01,E10,E11
+diagram: Post-holing drains calories fast | Rotate trail-breaker every 5-10m | Turn back on packed track early
+visual: Comparative configuration contrasting energy drain, pace and sweat risk across bare-boot post-holing, snowshoes and rotating group trail-breaking. Conceptual, not to scale.
+reviewer: Winter travel safety and outdoor leadership
+
+Z12-P08 | Prevent snow blindness and UV eye injury on bright winter plains | NPS Ten Essentials and NWS cold/altitude; new manuscript
+objective: Protect corneas from intense reflected ultraviolet radiation over snowfields even under thin bright clouds.
+applies: Winter snow travel, frozen lakeshores, glaciers and high-elevation snowpack in bright sun or hazy overcast glare.
+equipment: Wrap-around UV-blocking sunglasses or ski goggles (with spare pair or retention strap).
+action: Wear UV-rated wrap-around sunglasses or goggles with side shielding whenever traveling over sunlit snow—fresh snow reflects up to ~80% of UV upward into unprotected eyes, and thin bright clouds still transmit burning UV. @E02,X10,ED
+action: Recognize that corneal UV burn (photokeratitis / snow blindness) feels fine during exposure and hits painfully hours later with gritty burning, tearing, swelling and temporary loss of vision. @E02,T01,ED
+action: Keep eyewear fog-free by venting face masks cleanly downward away from lenses rather than removing eye protection in intense glare. @E02,E15,ED
+failure: Leaving sunglasses in the car on a bright March snowshoe trip because air temperature feels cold or skies look lightly hazy. @E02,X10
+verify: Confirm every group member wears UV-blocking eyewear over bright snow and carries a backup or dark-slit shield option on multi-day winter trips. @E02,ED
+stop: If gritty painful eyes, severe light sensitivity or blurred vision develop after snow glare, halt travel, rest eyes in dark shelter without rubbing and seek medical care. @T01,T02,ED
+diagram: Direct sun + snow UV bounce | Cornea burns silently over hours | Wear side-shielded UV eyewear
+visual: Mechanism diagram illustrating combined direct solar UV and snow-albedo upward reflection blocked by wrap-around UV eyewear. Conceptual, not to scale.
+reviewer: Wilderness medicine and winter travel safety
+
+Z12-P09 | Stage a winter vehicle emergency kit and stranded-blizzard response | B012-P02, NWS winter storms and Ready.gov winter; adapted historical material
+objective: Keep winter road travelers warm, visible and carbon-monoxide-safe if immobilized by a blizzard or drift.
+applies: Winter highway, rural road and trailhead driving across northern climates.
+equipment: Winter vehicle kit (warm sleeping bags/blankets, dry boots/mittens, shovel, scraper, flashlight, phone charger, safe water/snacks, bright cloth, traction grit).
+action: Pack winter survival layers INSIDE the passenger cabin (not locked in an unreachable iced trunk) before winter travel, keeping fuel tanks at least half full during cold snaps. @E14,E25,T12
+action: If stranded in a blizzard with no immediately visible safe building, STAY WITH THE VEHICLE, call 911/contact with mile marker or road name, tie a bright cloth to the mirror/antenna when wind permits and rely on dry layers first. @E14,T06,E05
+action: Keep the exhaust tailpipe completely cleared of drifting snow before any brief awake engine run; NEVER run a vehicle in a drifted snowbank or garage and shut off immediately if exhaust odor or dizziness occurs. @E14,E25,C16,C07
+failure: Abandoning a stalled car in a rural blizzard to walk "just a mile" to town, or sleeping with the engine idling while blowing snow plugs the tailpipe. @E14,E25,C07
+verify: Confirm winter cabin kit is accessible, phone/contacts are notified and tailpipe clearance is physically checked before any brief engine use. @E14,E25,ED
+stop: If the vehicle sits in an active traffic lane, floodwater, fire risk or suspected CO buildup, exit immediately to the safest off-road clear refuge and call 911. @E14,C07,T01
+diagram: Cabin blankets, shovel & light | Stay w/ safe vehicle & call 911 | Keep tailpipe clear; zero CO sleep
+visual: Exploded winter-vehicle emergency kit and stranded safety layout emphasizing cabin-accessible insulation, bright marker and tailpipe clearance. Conceptual, not to scale.
+reviewer: Winter response and carbon monoxide safety
+
+Z12-P10 | Manage freezing rain, sleet and glare-ice glaze storms safely | NWS winter weather and Ready.gov winter; new manuscript
+objective: Avoid severe fall trauma, snapping ice-laden tree limbs and downed energized power lines during ice storms.
+applies: Freezing rain advisories, ice storm warnings and post-glaze thaw periods in towns, camps and forests.
+equipment: Sturdy ice traction cleats if walking is unavoidable, waterproof outer shell, dry insulation and indoor refuge.
+action: Delay travel and stay inside substantial shelter during freezing rain—heavy glaze ice coats roads, steps and tree canopies rapidly, snapping thick live branches and power lines without warning. @E25,E13,E16
+action: Stay far out of timbered woods and completely away from downed power lines or sagged utility limbs; treat EVERY downed wire as live and lethal, reporting it to 911 and utility dispatch. @E13,T01,T02
+action: Recognize that freezing rain wets clothing fast at 31°F–33°F—prime rapid hypothermia conditions—requiring waterproof outer protection and traction cleats if short essential movement cannot wait. @E06,E10,E25
+failure: Hiking beneath ice-crusted hardwoods after a freezing-rain storm to admire the scenery while limbs crack overhead and icy trails cause head falls. @E13,E25,T01
+verify: Confirm travel is postponed until glaze melts or clears, overhead trees/wires are avoided and indoor backup warmth stays strictly CO-free. @E25,E13,C16,ED
+stop: Snapping ice-loaded branches, downed power lines, unwalkable glare ice or wet shivering chills require staying inside substantial shelter immediately. @E13,E25,T01,E06
+diagram: Glaze loads limbs & wires | Wet 32°F rain speeds hypothermia | Stay indoors; zero downed-wire touch
+visual: Failure-mode diagram showing glaze-ice limb snap, energized downed-wire danger and wet-cold hypothermia risk with indoor-shelter response. Conceptual, not to scale.
+reviewer: Emergency management and winter safety
+
+Z12-P11 | Recognize cold-weather stove, fuel, battery and zipper degradation | NPS winter gear, CDC filter limits and CPSC; new manuscript
+objective: Anticipate mechanical and chemical cold failures across field gear before subzero air strands a party.
+applies: Any outing where temperatures dip below 20°F (−7°C) down to extreme northern cold.
+equipment: Cold-tested gear (liquid/inverted stove, lithium batteries, wide-mouth bottles, boiling backup and repair tape).
+action: Anticipate four major cold breakdowns: (1) alkaline and phone batteries lose capacity rapidly (prefer cold-rated lithium cells kept warm), (2) upright butane canisters lose vapor pressure, (3) wet hollow-fiber filters crack invisibly when frozen. @E02,C15,W28
+action: Anticipate mechanical cold brittleness: plastic pack buckles snap under sharp impact, frozen zippers jam on ice glaze, hydration hoses freeze solid and liquid white gas causes instant frostbite if spilled on bare skin. @K07,E15,C15,T04
+action: Test every critical winter gear item outdoors in freezing temperatures at home BEFORE trusting it on an overnight trip, keeping independent low-tech backups ready. @E02,W26,ED
+failure: Discovering at −10°F that an upright canister stove barely flickers, the hydration tube is frozen solid and the wet water filter cracked overnight. @C15,W28,E02
+verify: Confirm lithium/warmed power, cold-capable stove/fuel, wide-mouth water carry, dry/protected filter or boiling plan and gentle buckle handling. @E02,W28,C15,ED
+stop: When primary cold-weather gear fails and backups cannot sustain warmth or hydration, abort onward travel immediately and exit to warm refuge. @E02,W26,E06
+diagram: Cold kills batteries, butane & filters | Plastic snaps & hoses freeze | Test cold pre-trip & carry backups
+visual: Failure-mode overview grouping battery drop, canister pressure loss, filter freeze-crack and plastic brittleness with cold-ready mitigations. Conceptual, not to scale.
+reviewer: Cold-weather field equipment specialist
+
+Z12-P12 | Plan winter camp nutrition, hydration and overnight heat budgets | NWS winter safety and CDC hypothermia; new manuscript
+objective: Sustain metabolic warmth through high-calorie fueling and warm safe hydration across subfreezing nights.
+applies: Winter camping, cold-weather travel and prolonged cold-weather emergencies.
+equipment: Easy-to-eat no-freeze snacks, safe treated water in insulated bottles and full cold-rated sleep system.
+action: Eat regular small high-calorie snacks throughout the day and a warm or calorie-rich meal before sleeping—the human body requires steady caloric fuel to generate internal heat overnight. @E05,E10,ED
+action: Avoid solid freeze-hard candy bars that break teeth at 0°F by carrying bite-sized nuts, cheese, dried fruit or pocket-warmed snacks, and drink safe treated water steadily even though cold air blunts thirst cues. @W09,E10,ED
+action: Avoid alcohol in cold exposure—alcohol dilates peripheral blood vessels, creating a false warm flush while accelerating core heat loss and impairing critical judgment. @E06,T03,ED
+failure: Skipping dinner and water because it feels too cold to cook outside, then shivering awake all night with depleted energy and dehydration. @E05,E06,W09
+verify: Confirm pocket-warmed accessible calories, steady daytime safe hydration, zero alcohol in cold camps and dry layered sleep setup. @E05,W09,ED
+stop: Inability to eat/drink safely, confusion or persistent uncontrollable shivering despite fuel and dry shelter requires medical hypothermia escalation. @T03,E06,T02
+diagram: Regular bite-sized calories | Hydrate despite low thirst | Zero alcohol; fuel overnight warmth
+visual: Comparative configuration contrasting winter caloric fueling and safe hydration against cold-induced dehydration and alcohol heat-loss traps. Conceptual, not to scale.
+reviewer: Wilderness medicine and cold-weather operations
+
+Z12-P13 | Recognize why no ice is universally safe and thickness guides have narrow scope | B013-P01/P05 and MN DNR ice thickness; adapted historical material
+objective: Understand the strict limitations of general ice-thickness charts so appearance or single numbers never trigger false confidence.
+applies: Frozen lakes, ponds, rivers and reservoirs across northern winter regions.
+equipment: Shore-based route options first; specialized ice-checking tools and training only for dedicated ice activities.
+action: Treat MN DNR general thickness numbers strictly as rough reference benchmarks for NEW, CLEAR, SOLID ice only—never as a safety guarantee because ice thickness varies dramatically within yards. @X01,E12
+action: Remember that white cloudy snow-ice holds roughly HALF the strength of clear blue ice, and late-winter/spring honeycombed ice can collapse under foot even when over a foot thick. @X01,E12
+action: For foundational walking and travel parties, treat frozen water bodies as NO-GO barriers and choose verified dry land routes instead. @E12,N10
+failure: Reading "4 inches for walking" on a chart and stepping onto 4 inches of cloudy slushy river ice near a bridge piling. @X01,E12
+verify: Confirm whether your route can stay completely on solid land—and recognize that zero ice thickness chart clears unverified crossings. @X01,E12,ED
+stop: Unverified ice, river/current ice, slushy white ice or any uncertainty requires staying completely on solid shore. @X01,E12
+diagram: Clear new ice ≠ white snow-ice | Thickness varies in yards | Stay on solid land by default
+visual: Comparative configuration contrasting clear new solid ice, half-strength white snow-ice and rotten spring honeycomb ice with non-guarantee warning. Conceptual, not to scale.
+reviewer: Ice safety and winter search and rescue
+
+Z12-P14 | Distinguish clear solid new ice, white snow-ice and rotten honeycomb ice | B013-P02/P09 ice types and MN DNR; adapted historical material
+objective: Recognize visual structural cues of weaker ice types while remembering that clear-looking ice can still be dangerously thin.
+applies: Shoreline visual screening of frozen lakes and ponds during early freeze, mid-winter and spring thaw.
+equipment: Shoreline vantage point (never step onto suspect ice to inspect it).
+action: Distinguish three general ice classes from solid shore: clear blue-black new ice (denser when thick and solid), opaque white snow-ice (formed from frozen slush/wet snow with trapped air—roughly half as strong), and dark mottled/vertical-candled spring ice (rotten honeycomb that collapses suddenly). @X01,E12
+action: Recognize that gray, dark wet-looking, slush-covered or candled spring ice loses structural cohesion rapidly during sunny above-freezing afternoons even if overnight air dips below freezing. @X01,E12
+action: Never equate clear glossy appearance with adequate thickness—fresh crystal-clear ice may be less than one inch thick and break instantly. @X01,E12
+failure: Stepping onto thick-looking gray spring ice during a warm March afternoon because cars drove on the same lake two weeks earlier. @X01,E12
+verify: Observe ice structure strictly from dry shore and verify zero reliance on visual appearance alone to authorize crossing. @X01,E12,ED
+stop: Mottled gray ice, shoreline melt moats, standing surface water or thaw-week candling are absolute stop boundaries—stay on land. @X01,E12
+diagram: Clear new (still check thin!) | White snow-ice (~1/2 strength) | Gray candled spring ice (rotten)
+visual: Material cross-section contrasting crystal structure of dense clear ice, air-filled white snow-ice and vertically rotted spring honeycomb ice. Conceptual, not to scale.
+reviewer: Ice safety and cold-weather hydrology
+
+Z12-P15 | Map hidden ice weak zones: inlets, outlets, springs, narrows and pressure cracks | B013-P03 weak zones and MN DNR ice; adapted historical material
+objective: Identify hydrological and shoreline features that continuously thin lake and river ice from underneath.
+applies: Evaluating frozen water margins, lake maps and winter shorelines from safe land.
+equipment: Topographic lake map showing creeks, narrows, islands and bridges.
+action: Treat EVERY river, moving stream, lake inlet, outlet, bridge piling, culvert, dam outflow and narrow channel between islands as permanently hazardous weak-ice zones due to continuous warm-water current erosion underneath. @X01,E12
+action: Watch for underwater springs, beaver lodges/channels, dark submerged logs/rocks (which absorb solar heat), flocks of waterfowl keeping open water and jagged pressure ridges/heaves that conceal thin refrozen seams. @X01,E12,ED
+action: Recognize that shoreline edges often thaw first in late winter and weaken near dark docks, seawalls and runoff ditches. @X01,E12
+failure: Walking across a frozen lake neck between two islands where invisible underwater current narrowed 12-inch lake ice down to 1 inch. @X01,E12
+verify: Trace every creek inlet, outlet, narrows and dark shoreline feature on the lake map from solid land before ever approaching the shore. @X01,E12,N02
+stop: Flowing water, narrows, culverts, springs, waterfowl openings and pressure cracks are strict exclusion zones—never step onto ice near them. @X01,E12
+diagram: Inlets, outlets & narrows | Springs, rocks & pressure cracks | Permanent hidden thin-ice zones
+visual: Environmental lake-basin map locating permanent underwater-current and thermal thinning hazards around inlets, islands, bridges and springs. Conceptual, not to scale.
+reviewer: Ice safety and winter hydrology
+
+Z12-P16 | Recognize how snow blankets insulate thin ice and hide open holes | B013-P10 snow hides holes and MN DNR ice; adapted historical material
+objective: Understand how fresh snowpack slows freezing, depresses ice under weight and conceals dangerous openings.
+applies: Snow-covered lakes, ponds, marshes and winter shorelines after snowstorms.
+equipment: Shoreline vantage and land-only travel plan.
+action: Understand snow insulation physics: an early snow blanket acts like a winter quilt over thin ice, trapping water heat underneath so the ice thickens far more slowly than cold air temperatures suggest. @X01,E12
+action: Understand snow weight and slush: heavy snow pushes thin ice down below the waterline, forcing lake water upward through cracks to form hidden slush layers and weaker white snow-ice. @X01,E12
+action: Recognize that drifting snow bridges over pressure cracks, spring holes, old angler holes and open water pockets, disguising lethal plunge hazards as flat white walking ground. @X01,E12,N07
+failure: Assuming two weeks of 10°F weather after a big November snowstorm guarantees thick safe lake ice underneath the snow blanket. @X01,E12
+verify: Stay on verified dry land whenever snow covers frozen waterways so hidden slush, snow-bridged holes and insulated thin spots cannot trap the party. @X01,E12,ED
+stop: Snow-covered ice with slush seepage, uneven drifts or unverified freeze history is an immediate stop—detour on solid ground. @X01,E12
+diagram: Snow insulates & slows freeze | Weight floods hidden slush | Drifts bridge over open holes
+visual: Material cross-section showing snowpack insulating thin ice, flooding hidden slush and bridging silently over an open water pocket. Conceptual, not to scale.
+reviewer: Ice safety and cold-weather operations
+
+Z12-P17 | Understand why one drilled thickness check never clears an entire lake | B013-P11 and MN DNR ice safety; adapted historical material
+objective: Avoid the lethal sampling trap of assuming a single thick shore measurement applies across an entire frozen body.
+applies: Trained/equipped ice users evaluating local conditions and hikers interpreting nearby angler activity.
+equipment: Awareness that walking travelers belong on land; equipped ice specialists use repeated spud-bar/auger checks along exact travel lines.
+action: Recognize that lake and river ice forms unevenly due to shifting wind during freeze-up, varying snowdrifts, underwater currents, springs and depth differences—10 inches near shore can drop to 2 inches fifty feet out. @X01,E12
+action: Understand that even equipped ice users check continuously every short distance with a heavy chisel/spud bar rather than trusting a single drilled test hole or yesterday's report. @X01,E12
+action: Keep unequipped hikers, families and winter travelers strictly on land routes rather than testing ice with boots, sticks or rocks (tossing a rock proves nothing about bearing human weight). @E12,X01
+failure: Drilling one 8-inch hole near a boat launch and striding straight out across the middle of the lake without checking changing conditions. @X01,E12
+verify: Confirm that no single thickness measurement or distant angler's hole is used to declare an entire crossing safe. @X01,E12,ED
+stop: Without specialized ice-assessment equipment, training and continuous verification—or whenever any doubt exists—remain strictly on dry land. @X01,E12
+diagram: 10 in at shore check | 2 in fifty feet farther out | One hole NEVER clears a route
+visual: Failure-mode cross-section showing steep underwater thickness drop-off between a thick shoreline test hole and a thin current-eroded mid-lake pocket. Conceptual, not to scale.
+reviewer: Ice safety and winter search and rescue
+
+Z12-P18 | Reject six false signs of safe ice including tracks, snowmobiles and clear cold air | B013-P17 six false signs and MN DNR ice; adapted historical material
+objective: Recognize deceptive social and visual cues that routinely lure people onto fatal thin ice.
+applies: Winter shoreline decision-making around frozen lakes, parks and rivers.
+equipment: Independent safety judgment and verified land route.
+action: Reject three classic false visual signs: (1) "it has been freezing for days" (snow blankets and currents override air temp), (2) "the surface looks smooth and solid white" (snow hides slush and holes), and (3) "a thrown rock did not break it" (small stone impact ≠ human weight). @X01,E12
+action: Reject three classic false social signs: (4) "there are footprints or dog tracks ahead" (lighter weight or earlier colder morning), (5) "a snowmobile crossed fast" (speed skims thin spots that break under slow boots), and (6) "other people are out there" (others may be in unseen danger or over a different safe pocket). @X01,E12
+action: Base every shoreline decision strictly on verified land-route alternatives and independent safety limits rather than following crowds or tracks. @E12,X01,N10
+failure: Walking onto an unfamiliar frozen bay because old boot prints and a distant ice-fishing shack sit on the far side. @X01,E12
+verify: Name why tracks, rocks, crowds and cold air fail to establish crossing safety before stepping near any winter shoreline. @X01,E12,ED
+stop: Never follow tracks, pets or strangers onto unverified ice; stay on solid shore. @X01,E12
+diagram: Tracks, rocks & crowds mislead | Speed/weight differ sharply | Reject false cues; stay on shore
+visual: Failure-mode overview debunking six deceptive social and visual ice cues alongside mandatory shore-bound route discipline. Conceptual, not to scale.
+reviewer: Ice safety and search and rescue
+
+Z12-P19 | Keep children, pets and unequipped walking parties strictly on shore | B013-P04/P12 and MN DNR ice safety; adapted historical material
+objective: Prevent the tragic chain reaction where a loose pet or wandering child triggers an impulsive multi-victim ice breakthrough.
+applies: Families, dog walkers and unequipped hikers near frozen ponds, retention basins, creeks and lakes.
+equipment: Short sturdy leash for dogs, clear visual boundary rules for children and dry land detour routes.
+action: Keep dogs leashed securely whenever walking near frozen ponds, storm retention basins, creeks or lakes—chasing waterfowl or running onto thin ice is a leading trigger of fatal owner breakthroughs. @E12,X18,ED
+action: Establish bright visible land boundaries for children well back from ice edges, snow-covered docks and steep slippery banks, maintaining direct adult supervision. @E12,E11,ED
+action: If a pet breaks through ice, NEVER walk or crawl out onto weak ice after it—call local emergency/fire dispatch, call the dog calmly from solid shore and protect human lives first. @X18,E12,T01
+failure: Letting a dog run off-leash beside a partially frozen creek, then sprinting onto thin shelf ice when the dog plunges through. @E12,X18,T01
+verify: Confirm dogs stay leashed, children stay well back on firm land and every walking route avoids frozen water shortcuts. @E12,E11,ED
+stop: Any unverified shoreline ice edge, melted bank moat or open water pocket demands turning back onto solid land immediately. @E12,X01
+diagram: Leash pets & set child bounds | Zero walking on unverified ice | If pet falls in: stay on shore, call 911
+visual: Decision tree preventing shoreline pet/child ice breakthroughs and blocking fatal owner walk-out attempts. Conceptual, not to scale.
+reviewer: Ice safety, public safety and search and rescue
+
+Z12-P20 | Understand the cold-water 1-10-1 physiology: cold shock, swim failure and hypothermia | NWS cold water and MN DNR cold water; new manuscript
+objective: Understand the rapid physiological timeline of cold-water immersion so immediate survival actions focus on breathing and flotation first.
+applies: Ice breakthroughs, capsized boats, cold-river falls and frigid coastal or marine immersion.
+equipment: Fastened USCG-approved life jacket (PFD) whenever on or near cold water.
+action: **First ~1 minute (Cold Shock):** Sudden cold immersion triggers an involuntary gasp reflex, rapid uncontrolled hyperventilation and blood-pressure spike—without a fastened life jacket keeping your mouth above water, inhaling water causes immediate drowning. @X02,X03,X04
+action: **First ~10 minutes (Cold Incapacitation / Swim Failure):** Frigid water cools arm and leg nerves and muscles rapidly, destroying finger grip and swimming power long before core hypothermia occurs—use these minutes to self-exit or secure flotation/rescue rather than attempting a long swim. @X02,X03
+action: **Roughly 1 hour+ (Core Hypothermia):** Core body temperature drops progressively over tens of minutes to an hour or more depending on clothing, size and water temperature—if trapped in water with flotation, minimize movement and conserve heat while awaiting rescue. @X02,X03
+failure: Believing strong swimming ability prevents drowning in 40°F water without a life jacket, or panicking and trying to swim a quarter mile to shore during cold shock. @X02,X03,X04
+verify: Recite the three cold-water phases (breathing control -> brief functional exit window -> heat conservation) and verify PFD wear on cold water. @X02,X03,X04,ED
+stop: Treat ANY immersion in water below 70°F (especially below 50°F) as a time-critical drowning and hypothermia emergency requiring immediate 911/USCG activation. @X02,X03,T02
+diagram: ~1 min: control cold-shock gasp | ~10 min: exit/secure before swim fails | ~1 hr+: conserve heat w/ PFD
+visual: Mechanism timeline mapping the 1-10-1 cold-water immersion phases (cold shock, swim failure, core hypothermia) to time-critical survival actions. Conceptual, not to scale.
+reviewer: Cold-water rescue, maritime safety and wilderness medicine
+
+Z12-P21 | Execute cold-water ice self-rescue boundaries when falling through alone | B013-P06 self-rescue and MN DNR ice safety; adapted historical material
+objective: Outline the agency-recommended self-exit sequence during an accidental ice breakthrough while preserving specialist review holds.
+applies: High-consequence emergency reference only (NOT field-tested instruction; requires qualified ice-rescue training and review).
+equipment: Accessible neck-worn ice picks (if carried during equipped winter activity) and whistle.
+action: Control breathing first during the initial 1-minute cold-shock gasp—keep your airway clear above the rim, resist flailing wildly and turn back toward the direction you came from (where ice already held your weight). @X02,X03,X18
+action: Place arms flat on the solid shelf edge (planting ice picks if carried), kick your legs vigorously to bring your body horizontal like swimming and pull/slide forward onto the ice—if the rim breaks, keep working back toward thicker ice. @X18,X03
+action: Once on the ice surface, DO NOT stand up immediately (standing concentrates weight on two small footprints)—roll or crawl flat away from the hole toward solid shore, then get urgently into warm dry shelter and medical care. @X18,T03,T02
+failure: Trying to climb vertically straight up onto thin ice like a pool ladder, exhausting arm strength before swim failure sets in, or standing up immediately on the broken rim. @X18,X02,X03
+verify: Understand the sequence conceptually during dry land education—staying off uncertain ice completely remains the primary lifesaving rule. @E12,X18,ED
+stop: If unable to exit within functional minutes, hook arms/coat sleeves onto the ice edge if freezing in place, blow whistle/shout and preserve airway while awaiting emergency rescue (specialist review pending). @X18,X03,T02
+diagram: Control cold-shock breath | Turn back, kick flat & pull out | Roll flat away -> urgent warmth/911
+visual: Decision tree outlining the high-consequence ice self-rescue sequence (breathing control, horizontal kick-out, flat roll retreat); specialist review required. Conceptual, not to scale.
+reviewer: Ice rescue specialist, EMS and wilderness medicine
+
+Z12-P22 | Execute shore-based witness Reach-Throw-Don't-Go ice rescue safely | B013-P07/P14 witness rescue and MN DNR ice; adapted historical material
+objective: Assist someone who broke through ice without creating a second drowning casualty on weak ice.
+applies: High-consequence witness response from solid shore; requires qualified ice-rescue review and dry-land rehearsal only.
+equipment: Phone for 911, long rigid reach pole/branch, buoyant throw bag/float line or linked dry jackets from anchored solid ground.
+action: **STOP ON SOLID SHORE AND CALL 911 FIRST:** Never run or walk out onto broken ice toward a struggling victim—untrained rescuer breakthroughs routinely cause double fatalities. @X18,T01,T02
+action: Talk calmly to help the victim control cold-shock breathing and turn toward thicker ice while you stay low and anchored on firm ground (or secured shore edge) extending a long branch, sled, ladder or throwing a buoyant rescue line/jug. @X18,X02,T01
+action: Brace yourself low on shore before pulling so a sudden jerk cannot drag you into the water; if no safe reach or throw reaches the victim, stay alive on shore, keep visual contact and guide arriving fire/ice rescue teams. @X18,T01,T02
+failure: Sprinting across cracking ice to grab a victim's outstretched hand and plunging into the same freezing hole. @X18,T01
+verify: Confirm 911 is activated first, rescuers remain anchored on solid land and only dry-rehearsed reach/throw aids are deployed. @X18,T01,T02,ED
+stop: Never enter the water or step onto unsupported broken ice without specialized rescue training, exposure suit and tethered professional backup. @X18,T01
+diagram: Call 911 & stay on solid shore | Reach w/ pole or throw float line | Brace low; NEVER walk out on ice
+visual: Decision tree enforcing the Reach-Throw-Don't-Go shore-based witness protocol with strict zero-walk-out stop gate. Conceptual, not to scale.
+reviewer: Ice rescue specialist and EMS
+
+Z12-P23 | Manage immediate post-immersion stabilization, gentle handling and 911 escalation | B013-P08/P18 after water and CDC/ARC hypothermia; adapted historical material
+objective: Protect a rescued cold-water immersion survivor from post-rescue collapse, severe hypothermia and silent deterioration.
+applies: Immediate lay care after anyone exits freezing water or ice breakthrough until EMS assumes care.
+equipment: Warm dry building or vehicle refuge, dry blankets/layers, wind barrier and active 911 dispatch line.
+action: Activate or update 911 IMMEDIATELY even if the rescued person is walking and talking—cold-water survivors can deteriorate rapidly after exit as cold blood circulates and core temperature continues dropping. @T02,T03,X02
+action: Move gently out of wind into the nearest warm shelter or heated vehicle, handle any confused, drowsy or severely chilled victim VERY GENTLY in a horizontal resting position and remove wet clothes carefully while wrapping dry insulation underneath and around the core and head. @T03,E05,E06
+action: Give NO oral drinks or food if the person is confused, drowsy or cannot swallow normally; avoid rubbing limbs, hot baths or direct stove flames, and monitor breathing continuously per 911 dispatcher guidance. @T03,T02,T04
+failure: Telling an ice-breakthrough survivor to jog back to the parking lot to warm up or plunging them straight into scalding hot water. @T03,E06
+verify: Confirm 911 is en route, the patient is out of wind in dry core wrap, handled gently and monitored continuously for breathing/alertness. @T02,T03,ED
+stop: Unresponsiveness, abnormal breathing or cardiac arrest requires immediate dispatcher-guided CPR/AED and urgent hospital transfer—never assume a cold victim is beyond resuscitation. @T02,T03,T01
+diagram: Call 911 even if talking | Gentle horizontal dry core wrap | Monitor breathing; no hot bath/rub
+visual: Decision tree governing post-immersion hypothermia stabilization, gentle horizontal handling, airway/swallow limits and continuous EMS escalation. Conceptual, not to scale.
+reviewer: Wilderness medicine, EMS and cold-water rescue
+
+Z12-P24 | Carry ice picks, float suits and throw bags only with dry-land rehearsal | B013-P05/P13/P14 and MN DNR ice safety; adapted historical material
+objective: Ensure specialized ice-safety gear carried by trained winter anglers or travelers is accessible and never substitutes for avoiding weak ice.
+applies: Dedicated winter ice activities where participants choose to carry self-rescue and witness-rescue equipment (NOT an endorsement of unsafe ice).
+equipment: Neck-worn retractable ice picks, USCG-approved flotation jacket/suit, pea-less whistle, spud bar and dry-practiced throw bag.
+action: Wear retractable ice picks on a neck cord OUTSIDE your outer jacket where stiff freezing fingers can pull them immediately—picks buried inside a backpack or zippered pocket are useless in the water. @X18,E02,ED
+action: Wear a USCG-approved flotation jacket or PFD over winter layers rather than carrying it stowed on a sled, and practice throwing a weighted rescue throw bag accurately on dry land before winter. @X04,X18,ED
+action: Remember that carrying picks, float coats and throw bags NEVER makes thin or uncertain ice safe—they are last-resort mitigation tools, not permission to skip thickness checks or land detours. @X01,E12,X18
+failure: Tossing ice picks into the bottom of a gear sled or buying a throw bag and discovering in an emergency that the coiled line tangles ten feet short. @X18,E02
+verify: Confirm neck-accessible picks, worn flotation, pea-less whistle and dry-land throw-bag practice before any permitted winter shoreline activity. @X04,X18,ED
+stop: Equipment cannot override open water, current weak zones or spring thaw—if ice safety is uncertain, stay completely on solid shore. @X01,E12
+diagram: Exterior neck ice picks | Worn PFD / float jacket | Dry-rehearsed throw bag + whistle
+visual: Exploded ice-safety personal kit detailing exterior neck-accessible picks, worn flotation, chest whistle and dry-rehearsed throw bag. Conceptual, not to scale.
+reviewer: Ice safety and search and rescue
+
+Z12-P25 | Prioritize life safety over winter angling or gear recovery on uncertain ice | B013-P15/P16 angling limits and MN DNR ice; adapted historical material
+objective: Prevent fatal drownings triggered by chasing late-season fish, improvising ice holes or retrieving sunken gear.
+applies: Winter fishing, snowmobiling and shoreline recreation during early freeze and late spring thaw.
+equipment: Current local ice conditions, shore-based decision discipline and emergency contact plan.
+action: Treat winter fishing and recreation strictly as optional activities secondary to life safety—early-season first ice and late-spring honeycomb thaw produce the highest concentration of fatal breakthroughs. @X01,E12
+action: Never attempt to chop or smash holes in frozen lakes with makeshift rocks, sticks or unsuited camp knives, which damages tools and shocks thin ice directly beneath your boots. @E12,K02,K01
+action: If a sled, phone, tackle box or vehicle breaks through or slides onto thinning ice, ABANDON THE GEAR IMMEDIATELY—human life is never worth retrieving replaceable property over weak ice. @X18,E12,T01
+failure: Walking back out onto cracking April ice to save a portable fish house or auger as shoreline melt widens. @X01,E12,X18
+verify: Confirm every outing starts with an explicit abort threshold for thaw, slush, cracks or rising winds that overrides fishing plans or gear recovery. @X01,E12,ED
+stop: Any cracking roar, water flooding up around boots, widening shore moat or dropped gear on weak ice ends the outing immediately—retreat carefully to land. @X01,E12,X18
+diagram: Recreation stays secondary | Zero improvised chopping | Abandon sunken gear immediately
+visual: Decision tree ranking life safety strictly above winter recreation, hole-cutting tools and sunken-gear retrieval on uncertain ice. Conceptual, not to scale.
+reviewer: Ice safety and land management
+
+Z12-P26 | Plan desert travel around dawn/dusk windows, shade and strict water budgets | NPS Death Valley safety and CDC heat; new manuscript
+objective: Prevent fatal heat exhaustion and dehydration in arid basins by aligning movement strictly with cool hours and carried water.
+applies: Desert trails, canyon country, arid mesas and summer heat waves where air temperatures exceed 95°F–115°F+.
+equipment: Large carried potable water reserve, wide-brim sun hat, light breathable sleeves, shade tarp and route map with verified exits.
+action: Schedule active desert movement strictly during cool pre-dawn and early-morning hours, resting completely in deep shade during peak midday heat (typically late morning through late afternoon). @X07,E08,E26
+action: Carry far more potable water than cool-climate norms—desert exertion in extreme heat drives massive sweat loss where natural springs are often dry, alkaline or miles apart—and turn back BEFORE half your carried water is gone. @X07,W14,E08
+action: Check vehicle cooling, tires, fuel and paper maps before leaving paved highways because cell signal is broadly absent across arid backcountry basins. @X07,E02,T06
+failure: Starting a desert canyon hike at 11 a.m. in 108°F heat carrying one small bottle while expecting a mapped seasonal tinaja to hold water. @X07,W14,E08
+verify: Confirm early-morning start, midday shade refuge, half-water turnaround rule and verified off-trip contact before entering arid terrain. @X07,E08,E01,ED
+stop: Reaching your half-water mark, losing shade access or noticing heat-exhaustion symptoms (dizziness, nausea, heavy fatigue) terminates forward travel immediately. @X07,E08,T05
+diagram: Move at dawn; rest midday | Half-water = strict turnaround | Carry full desert water budget
+visual: Comparative configuration contrasting dawn/cool travel efficiency against midday extreme-heat water depletion and half-water turnaround margins. Conceptual, not to scale.
+reviewer: Desert safety and wilderness medicine
+
+Z12-P27 | Understand radiant solar load, hot ground reflection and sun-protective clothing | NWS heat safety and NPS desert safety; new manuscript
+objective: Lower direct sunburn, radiant heat absorption and evaporative fluid loss using loose breathable shade clothing.
+applies: Open deserts, slickrock canyons, dry plains and unshaded high-UV summer environments.
+equipment: Loose light-colored long-sleeve UPF shirt and pants, wide-brim hat, UV sunglasses and broad-spectrum sunscreen.
+action: Cover skin with loose, light-colored, breathable long sleeves, long pants and a wide-brim hat—direct sunlight baking bare skin raises radiant heat gain, causes painful sunburn and impairs normal sweat cooling. @E08,E19,X07
+action: Protect against upward ground radiation: light desert sand and slickrock reflect intense solar heat and UV from underneath while dark ground surfaces can exceed 140°F–160°F, burning thin sandals and dog paws. @X07,E19,ED
+action: Elevate rest spots slightly off scorching sand/rock inside ventilated shade so hot ground conduction and still trapped air do not overheat resting travelers. @E19,E26,X07
+failure: Hiking shirtless in 105°F dry desert sun believing bare skin stays cooler, suffering severe sunburn and accelerating dehydration. @X07,E08,E19
+verify: Confirm loose breathable full-coverage clothing, shaded neck/face brim, sturdy thick-soled boots and elevated ventilated midday rest shade. @X07,E19,ED
+stop: Severe sunburn with blistering, dizziness, chills or nausea indicates advancing heat illness—stop sun exposure immediately and initiate cooling and medical care. @T05,T09,E08
+diagram: Direct sun + hot ground bounce | Loose light fabric blocks UV | Ventilated shade off hot sand
+visual: Material/environmental cross-section showing direct solar UV, hot-ground radiant reflection and breathable loose UPF clothing airflow. Conceptual, not to scale.
+reviewer: Desert safety and dermatological/heat safety
+
+Z12-P28 | Manage desert hydration, salt/electrolyte balance and water-rationing myths | NPS desert safety and CDC heat; new manuscript
+objective: Drink safe water steadily paired with salty food to prevent both severe dehydration and dangerous low-sodium hyponatremia.
+applies: Prolonged hot-weather exertion, desert marches and high-sweat emergency work.
+equipment: Verified potable water, salty snacks or oral rehydration packets and urine/symptom self-check awareness.
+action: Drink safe water steadily to thirst and sweat loss rather than hoarding water in your pack until faint—rationing water while dehydrating impairs judgment and accelerates fatal heat stroke ("drink your water, don't carry it into collapse"). @X07,E08,T05
+action: Pair high water intake during long hot exertion with regular salty snacks or balanced electrolyte solutions—guzzling huge volumes of plain water over many hours without replacing lost sodium can trigger dangerous hyponatremia (nausea, headache, swelling, confusion). @X07,E08,ED
+action: Cut water loss dramatically by stopping midday exertion, resting in shade and keeping mouth closed/breathing calmly rather than trying to find questionable desert plant juices (most cacti/desert plants cause vomiting and worse dehydration). @X07,E08,W01
+failure: Hoarding two full liters in a backpack until collapsing from heat stroke, OR forcing gallons of plain water with zero food/salt until confused and vomiting. @X07,T05,E08
+verify: Confirm steady safe drinking matched to exertion, regular salty snack intake and strict avoidance of midday heat effort. @X07,E08,ED
+stop: Persistent vomiting, inability to keep fluids down, confusion, staggering or fainting requires stopping immediately in shade, cooling and calling 911. @T05,T09,T02
+diagram: Steady sips + salty snacks | Cut sweat via midday shade | Never hoard water into collapse
+visual: Mechanism diagram balancing sweat fluid/sodium loss against steady safe hydration, electrolyte food intake and midday-shade conservation. Conceptual, not to scale.
+reviewer: Wilderness medicine and desert safety
+
+Z12-P29 | Distinguish heat cramps, heat exhaustion and life-threatening heat stroke | CDC NIOSH heat illnesses and NWS heat; new manuscript
+objective: Separate early reversible heat strain from the true life-threatening neurological emergency of heat stroke.
+applies: Hot weather, humid summer work, desert travel and poorly ventilated indoor heat waves.
+equipment: Cool shaded refuge, safe water, cooling cloths/water mist and emergency 911 access.
+action: Recognize **heat cramps** (painful muscle spasms during heavy sweating—stop effort, rest in cool shade, sip water with salty snacks/electrolytes) and **heat exhaustion** (heavy sweating, weakness, dizziness, headache, nausea, fast pulse—stop immediately, move to cool shade/AC, loosen clothing, cool skin with wet cloths/fanning and sip safe water if alert). @E08,T05,T09
+action: Recognize **heat stroke** (a true medical emergency!): altered mental status—confusion, slurred speech, agitation, staggering, seizures or loss of consciousness—with hot skin (skin may be dry OR still wet with sweat during exertional heat stroke!). @T05,T09
+action: NEVER rule out heat stroke just because a person is still sweating—exertional heat stroke patients frequently sweat heavily while their core temperature climbs to fatal levels. @T09,T05
+failure: Mistaking a confused, stumbling, heavily sweating hiker for mild heat exhaustion and letting them rest uncooled without calling 911. @T05,T09
+verify: Check mental status (clear speech, steady walk, normal orientation) immediately whenever anyone feels weak or nauseous in heat. @T05,T09,ED
+stop: ANY confusion, slurred speech, collapse, seizure or worsening vomiting in heat is a 911 emergency—call immediately and start rapid active cooling at once. @T05,T09,T02
+diagram: Cramps/exhaustion: stop & cool | Altered alertness = HEAT STROKE | Call 911 & cool fast even if wet
+visual: Comparative clinical-boundary matrix distinguishing heat cramps, heat exhaustion and exertional/classic heat stroke red flags. Conceptual, not to scale.
+reviewer: Wilderness medicine and EMS
+
+Z12-P30 | Initiate immediate rapid cooling and 911 activation for suspected heat stroke | CDC NIOSH heat stroke first aid and ARC; new manuscript
+objective: Execute immediate life-saving lay cooling while activating emergency medical services when heat stroke is suspected.
+applies: Layperson emergency response to suspected heat stroke outdoors or during heat waves.
+equipment: Phone/communicator, shade, coldest available water (cool water dousing/immersion if safe), wet cloths and fan/airflow.
+action: Call 911 IMMEDIATELY the moment confusion, slurred speech, stumbling, collapse or seizure appears in heat—minutes of extreme core temperature cause irreversible organ and brain injury. @T05,T09,T02
+action: Begin rapid active cooling ON SITE right away ("cool first, transport safely per dispatch"): move into shade/AC, remove excess outer gear, douse continuously with cold/cool water (or immerse trunk/limbs in cool water if safe and supervised keeping airway clear) and fan vigorously to drive evaporative cooling. @T05,T09,E26
+action: Apply cold wet cloths or ice packs wrapped thinly at neck, armpits and groin while monitoring airway and breathing continuously; give NO oral fluids to confused, vomiting or drowsy patients. @T05,T09,T01
+failure: Waiting forty minutes in hot sun for an ambulance to arrive before pouring water over a confused heat-stroke victim. @T05,T09
+verify: Confirm 911 is activated, rapid water-and-airflow cooling is actively underway, airway stays clear and zero fluids are forced into an impaired mouth. @T05,T09,T02,ED
+stop: Continue active cooling until EMS takes over or the person becomes fully alert and shivering—follow 911 dispatcher directions strictly for breathing/CPR changes. @T05,T09,T02
+diagram: Confusion/collapse -> call 911 | Douse cold water + fan fast | Clear airway; zero oral drink
+visual: Decision tree prioritizing immediate 911 activation alongside continuous cold-water dousing, evaporative fanning and airway protection. Conceptual, not to scale.
+reviewer: Emergency medicine and wilderness medicine
+
+Z12-P31 | Avoid dry washes, slot canyons and desert arroyos when distant storms build | NPS desert safety, NWS flood and drought safety; new manuscript
+objective: Prevent fatal entrapment in desert flash floods triggered by rain falling miles away over parched soils.
+applies: Desert canyons, dry washes, arroyos, rocky narrows and arid camp drainage basins.
+equipment: Regional NWS weather forecast (covering entire upstream watershed), map showing canyon exits and high ground.
+action: Check the weather forecast for the ENTIRE upstream mountain or mesa watershed—not just your immediate trailhead—because hard sun-baked desert soils cannot absorb rain and funnel runoff into walls of water miles downstream under blue skies. @X07,X08,E04
+action: Never camp inside dry streambeds, sandy canyon bottoms or narrow slot canyons, and stay out of constricted narrows whenever any thunderstorm chance exists anywhere upstream. @E04,X07,T16
+action: Watch and listen for distant dark clouds upslope, sudden muddy trickles, floating twigs or a rising rushing roar—climb immediately perpendicular onto high rocky canyon walls or benches. @E04,X07,X11
+failure: Pitching a tent on soft flat sand inside a dry desert wash because local skies look crystal clear while a thunderstorm dumps rain 15 miles upstream. @E04,X07,X08
+verify: Confirm clear watershed-wide forecast before entering narrow canyons and always pitch camps well above high-water canyon debris lines. @E04,X07,ED
+stop: Any Flash Flood Watch/Warning, upstream storm buildup or sudden trickle of muddy water demands climbing to high ground immediately and leaving gear behind. @T16,E04,X07
+diagram: Distant storm over dry soil | Wall of runoff surges down wash | Climb high wall; never camp in wash
+visual: Environmental canyon-watershed profile showing distant upstream storm runoff accelerating through a dry slot canyon while local sky stays clear. Conceptual, not to scale.
+reviewer: Desert safety, hydrology and emergency management
+
+Z12-P32 | Stay with a disabled desert road vehicle and avoid lethal closed-cabin heat | NPS Death Valley safety and NWS heat; new manuscript
+objective: Survive a desert vehicle breakdown without walking to death in extreme heat or baking inside a sealed cabin.
+applies: Disabled cars or trucks on desert highways, park roads or remote arid dirt tracks.
+equipment: Extra vehicle water jugs, reflective sunshade/tarp, phone/beacon and hood-up distress marker.
+action: Stay with the disabled vehicle on established roads—cars are vastly easier for searchers and passing motorists to spot than a lone hiker, and walking miles in 110°F+ heat rapidly proves fatal. @X07,T06,N09
+action: Never sit inside a closed parked car in desert sun—cabin temperatures soar past 140°F within minutes; open doors/windows for cross-breeze or rig an external shade tarp beside the vehicle's shaded side off scorching asphalt. @X07,E19,E26
+action: Signal visibility clearly (raise the hood, display bright cloth, check cell/satellite signal from safe open ground) and conserve safe water by resting completely motionless in shade during peak heat. @X07,N09,E08
+failure: Leaving a broken-down car on a park road at 1 p.m. to walk ten miles in 112°F heat, or leaving children/pets inside an un-running parked car. @X07,E08
+verify: Confirm everyone stays out of closed hot cabins, sits in external ventilated shade beside the visible vehicle and monitors water/symptom status. @X07,E19,ED
+stop: Never leave a disabled vehicle on a traveled road unless a verified occupied building is plainly visible within a short safe walk; call 911/SOS immediately if heat illness appears. @X07,T06,T09
+diagram: Closed cabin hits lethal heat | Rig ventilated shade beside car | Stay visible; do NOT walk into heat
+visual: Failure-mode diagram contrasting fatal greenhouse cabin heat and desert walk-off collapse against ventilated external vehicle shade and signaling. Conceptual, not to scale.
+reviewer: Desert safety and search and rescue
+
+Z12-P33 | Pull completely off roadways with lights off during blinding desert dust storms | NWS drought and wind safety; new manuscript
+objective: Prevent catastrophic multi-vehicle pileups and respiratory injury when a wall of windblown dust (haboob) strikes.
+applies: Arid highway travel, desert basins and dry agricultural plains during high-wind dust advisories.
+equipment: Vehicle hazard awareness, closed windows/recirculating air and dust masks/eye protection if outdoors.
+action: The moment blowing dust reduces visibility sharply on a road, pull COMPLETELY off the paved highway and shoulder as far as safely possible, set the parking brake, take your foot OFF the brake pedal and turn ALL exterior lights (headlights AND hazards) OFF—trailing drivers subconsciously steer straight toward glowing taillights and ram parked cars. @X08,E16
+action: Keep seatbelts fastened, windows rolled tightly up and cabin ventilation switched to recirculate until the blinding dust wall passes completely—never step out onto a zero-visibility roadside. @X08,T01
+action: If caught on foot outdoors, move clear of loose blowing debris and roadways, protect eyes and airways with eyewear and cloth/particulate mask and wait low behind stable wind cover until visibility clears. @X08,E16,N07
+failure: Stopping halfway on a highway shoulder with flashing hazard lights glowing in zero-visibility dust, causing approaching traffic to slam into the rear bumper. @X08,T01
+verify: Confirm vehicle is fully off the traveled roadway, brake pedal released, all lights switched OFF and passengers belted inside until safe visibility returns. @X08,ED
+stop: Never attempt to drive blindly through a dense dust wall or step onto an active highway shoulder during a dust storm. @X08,N07
+diagram: Pull COMPLETELY off highway | Foot off brake; ALL lights OFF | Wait belted inside until dust clears
+visual: Failure-mode roadway diagram showing trailing-driver taillight-collision trap versus safe full pull-off with lights off during a dust storm. Conceptual, not to scale.
+reviewer: Transportation safety and meteorology
+
+Z12-P34 | Prepare for sharp desert night temperature drops and cold clear-sky radiation | NPS desert safety and NWS cold/heat; new manuscript
+objective: Prevent unexpected desert hypothermia after sunset when dry air and cloudless skies dump daytime heat rapidly.
+applies: Overnight desert camping, canyon stops and delayed arid day hikes across all seasons.
+equipment: Warm insulating jacket/fleece, beanie, wind shell and ground pad even on warm daytime desert outings.
+action: Expect massive diurnal temperature swings of 30°F–50°F+ after sunset in dry high deserts—dry air and clear skies radiate daytime warmth straight to space within hours of dusk. @X07,E15,E05
+action: Pack a lightweight warm insulating layer, wind shell and ground barrier even when trailhead afternoon temperatures feel hot, especially if any risk of delay or overnight stranding exists. @E09,E05,X07
+action: Remember that thin cotton soaked with afternoon sweat chills the core rapidly as desert evening winds turn cold. @E10,E06,X07
+failure: Starting a 75°F spring desert canyon hike in shorts and a cotton T-shirt, getting delayed past sunset and developing hypothermia in 38°F night wind. @E06,E09,E10
+verify: Confirm warm dry insulation, wind protection and headlamp are packed for every desert hike longer than a brief stroll. @E09,E02,ED
+stop: Shivering, clumsy hands or chilled damp clothes at dusk require stopping in wind-sheltered ground insulation early rather than pushing tired into cold darkness. @E06,E05,E10
+diagram: Hot sun heats dry sand | Clear night radiates heat fast | Pack warm dry layers & wind shell
+visual: Environmental day-to-night desert profile illustrating steep clear-sky radiative cooling and hypothermia risk after warm afternoons. Conceptual, not to scale.
+reviewer: Desert safety and cold-weather shelter
+
+Z12-P35 | Recognize heat-induced vehicle, tire, phone and battery overheating failures | NPS desert safety and Ready.gov kit; new manuscript
+objective: Prevent stranding and communication loss caused by extreme desert temperatures degrading electronics, fuel and rubber.
+applies: Summer desert driving, canyon travel and hot-weather outdoor work above 100°F.
+equipment: Shaded phone pouch, paper backup maps, vehicle coolant/tire check and insulated water jugs.
+action: Protect phones, GPS devices and lithium power banks from direct dashboard sun—modern devices trigger automatic thermal shutdown rapidly in direct 105°F+ sun, wiping out digital maps and 911 access right when needed. @X07,E02,ED
+action: Check vehicle tire pressure/tread, coolant level and belts before remote desert stretches, turning off air conditioning on long steep grades if the engine temperature gauge climbs toward red. @X07,ED
+action: Keep stored water jugs, medications (such as insulin or epinephrine) and pressurized camp fuel canisters out of direct scorching sun and hot closed trunks where pressure and thermal spoilage spike. @X07,W06,C15,T10
+failure: Leaving a smartphone navigating on a sunlit dashboard until thermal shutdown locks it out right as an overheated car stalls on an unpaved desert road. @X07,E02
+verify: Confirm electronics stay shaded, paper backup maps are on hand, medications have thermal protection and vehicle cooling/tires pass pre-trip checks. @X07,E02,T10,ED
+stop: If a vehicle temperature gauge climbs sharply or tires show heat-blister damage, pull safely off-road in shade early before engine seizure or blowout occurs. @X07,ED
+diagram: 110°F sun overheats phone/car | Thermal shutdown cuts digital map | Shade gear, carry paper & check car
+visual: Failure-mode diagram showing thermal smartphone lockout, engine/tire overheating and canister pressure spikes alongside shaded backup controls. Conceptual, not to scale.
+reviewer: Desert safety and field equipment
+
+Z12-P36 | Avoid venomous/spiny desert terrain traps when reaching under rocks or resting | NPS desert safety and ARC first aid; new manuscript
+objective: Prevent preventable venomous bites, stings and cactus punctures during desert travel and shaded rest stops.
+applies: Arid rocky trails, canyon ledges, desert washes and evening camps across the American Southwest and dry plains.
+equipment: Sturdy ankle-covering boots, headlamp at dusk/night, trekking pole for visual checking and medical emergency plan.
+action: Watch every step and handhold closely—NEVER reach blind fingers onto rocky ledges, under flat boulders, inside shaded log crevices or into boots/gloves left outside overnight without shaking them out first. @X07,T01,ED
+action: Step ONTO logs or rocks first so you can see the shaded backside rather than stepping blindly over them where resting rattlesnakes or scorpions shelter from midday heat. @X07,T01,ED
+action: Use a bright headlamp after sunset when nocturnal snakes and scorpions become active along warm trails and camp paths, and keep sturdy boots on rather than walking barefoot. @X07,E02,ED
+failure: Reaching blindly into a cool rock overhang to sit down during midday heat or putting on unshaken camp shoes at dawn. @X07,T01
+verify: Confirm visual inspection before sitting, stepping or grabbing ledges, and shake out boots/clothing before dressing in desert camps. @X07,ED
+stop: If a venomous snakebite or severe allergic sting reaction occurs, move calmly away from the animal, keep the affected limb still at a comfortable level, remove rings/tight bands and call 911 immediately—NEVER cut, suck or tourniquet a snakebite. @T01,T02,X07
+diagram: Shade hides snakes & scorpions | Look before stepping or reaching | Bite -> calm, immobilize & call 911
+visual: Environmental rocky-shade hazard diagram showing visual-before-reach discipline, boot shaking and modern no-cut/no-tourniquet 911 bite escalation. Conceptual, not to scale.
+reviewer: Desert safety and wilderness medicine
+
+Z12-P37 | Account for rapid elevation cooling, thin UV air and fast mountain storms | NPS Rocky Mountain safety and NWS weather; new manuscript
+objective: Prepare for steep vertical temperature drops, heightened solar UV and sudden freezing squalls in mountain terrain.
+applies: Mountain hikes, passes and alpine backcountry above 5,000–14,000 feet across all four seasons.
+equipment: Full rain/wind shell, warm insulating mid-layer, hat/gloves, UV eyewear and elevation-matched NWS forecast.
+action: Expect air temperatures to drop roughly 3°F–5°F for every 1,000 feet of elevation gain (plus severe wind chill on open passes)—a 75°F valley trailhead routinely meets 40°F sleet and freezing gusts at an alpine pass. @X10,E15,N06
+action: Protect skin and eyes against stronger ultraviolet intensity in thinner high-altitude air using UV sunglasses, brimmed hat and sunscreen even when air feels cool. @X10,E02,ED
+action: Expect clear blue alpine mornings to build rapidly into lightning, hail or sudden summer snow squalls by early afternoon—carry full cold-wet shelter layers on EVERY mountain trip regardless of morning sun. @X10,E18,E09
+failure: Packing only a light windbreaker for a sunny July 12,000-foot pass hike and getting caught in a 35°F afternoon hailstorm. @X10,E06,E18
+verify: Check the summit/pass elevation forecast (not valley town weather) and pack warm/waterproof layers plus UV protection before departing. @X10,N06,E09,ED
+stop: Rapid temperature drops, sleet, hail or building clouds above treeline trigger immediate descent back into sheltered forest before hypothermia or lightning strikes. @X10,E07,E06
+diagram: -3 to -5°F per 1,000 ft gain | Thinner air = stronger UV | Pack full cold/rain layers always
+visual: Atmospheric elevation cross-section showing vertical temperature lapse, increased UV intensity and alpine convective storm formation above treeline. Conceptual, not to scale.
+reviewer: Mountain safety and meteorology
+
+Z12-P38 | Time alpine climbs for early starts and below-treeline retreat before noon storms | NPS Rocky Mountain safety and NWS lightning; new manuscript
+objective: Clear exposed alpine ridges and summits before afternoon convective thunderstorms and lightning develop.
+applies: Above-treeline trails, alpine passes and exposed mountain peaks during late spring through early autumn.
+equipment: Watch with hard summit turnaround time, headlamp for dawn start and mapped below-treeline bailout routes.
+action: Start early (often at or before dawn) on above-treeline objectives so your party crosses high passes and starts descending WELL BEFORE midday convective cumulus clouds build into storms. @X10,N06,E07
+action: Set a hard clock turnaround time before leaving the trailhead—if you have not reached the summit or pass by that hour, TURN AROUND immediately regardless of how close the top looks. @X10,E01,E07
+action: Remember that once thunder is heard above treeline, NO outdoor ridge, boulder or isolated tree is safe from lightning; descend promptly off high points toward dense lower terrain or trailhead vehicles/buildings and wait 30 minutes after the last thunder. @E07,X10,E18
+failure: Lingering on an exposed 12,000-foot summit at 1:30 p.m. for photos as dark anvil clouds build directly overhead. @X10,E07,E18
+verify: State your dawn start time, hard summit turnaround clock and fastest descent route below treeline before departing. @X10,E01,ED
+stop: Towering dark cumulus, audible thunder, hair standing on end or buzzing metal gear require immediate rapid descent off ridges and away from isolated trees/water. @E07,X10,E18
+diagram: Dawn start beats noon storms | Hard clock turnaround above trees | Thunder -> descend off ridge NOW
+visual: Decision tree pairing dawn alpine timing, hard turnaround deadlines and convective storm cues to mandatory below-treeline retreat. Conceptual, not to scale.
+reviewer: Mountain safety and weather safety
+
+Z12-P39 | Acclimatize gradually above 8,000 feet and recognize Acute Mountain Sickness | CDC high-altitude travel and NPS mountain safety; new manuscript
+objective: Prevent altitude illness through gradual ascent profiles and catch early Acute Mountain Sickness (AMS) before progression.
+applies: Travel and sleeping above ~8,000 feet (2,500 meters), especially for lowlanders arriving rapidly from sea level or Midwest plains.
+equipment: Flexible itinerary allowing rest/acclimatization days, hydration and group symptom check-in.
+action: Ascend gradually above 8,000 feet (sleeping at moderate intermediate elevations first and limiting daily sleeping-elevation gain) because high physical fitness does NOT protect against altitude illness. @X09,X10
+action: Watch for **Acute Mountain Sickness (AMS)**: throbbing headache plus at least one of nausea/loss of appetite, fatigue/weakness, dizziness or poor sleep—never dismiss a high-altitude headache as "just mild dehydration" while continuing higher. @X09
+action: Follow the golden rule of altitude: **NEVER ascend to sleep higher with active AMS symptoms**—rest at the same elevation, hydrate/eat lightly and descend promptly if symptoms fail to improve or worsen. @X09
+failure: Driving straight from Minnesota to an 11,500-foot trailhead, ignoring a pounding headache and pushing up to a 13,000-foot camp overnight. @X09
+verify: Confirm a staged acclimatization plan before travel and screen every companion honestly for headache, nausea and energy at every camp above 8,000 feet. @X09,E11,ED
+stop: Worsening headache, persistent vomiting, unsteady walking or breathlessness at rest stops all ascent—descend immediately and seek medical care. @X09,T02
+diagram: Ascend sleeping height slowly | Headache + nausea/fatigue = AMS | NEVER ascend with symptoms
+visual: Mechanism diagram mapping low barometric oxygen pressure above 8,000 feet to gradual acclimatization versus AMS progression. Conceptual, not to scale.
+reviewer: Mountain medicine and high-altitude safety
+
+Z12-P40 | Recognize life-threatening HAPE and HACE and descend immediately | CDC high-altitude travel and wilderness medicine; new manuscript
+objective: Spot lethal High-Altitude Pulmonary Edema (HAPE) and High-Altitude Cerebral Edema (HACE) early and trigger immediate descent.
+applies: Any person sleeping or traveling above ~8,000 feet showing severe respiratory or neurological symptoms.
+equipment: Pre-planned rapid descent route, buddy support, emergency communicator/911 and clinical care access.
+action: Recognize **HAPE** (fluid in lungs—leading cause of altitude death): unusual shortness of breath AT REST, severe drop in walking performance, persistent cough (later wet/frothy), chest tightness, blue lips/nails or crackling breath sounds. @X09
+action: Recognize **HACE** (brain swelling—rapidly fatal): loss of balance/coordination (ataxia—cannot walk heel-to-toe straight), confusion, bizarre behavior, slurred speech, hallucinations or extreme drowsiness/coma. @X09,T01
+action: Treat BOTH HAPE and HACE as immediate life-threatening emergencies: **DESCEND IMMEDIATELY** (assisted—never send an impaired patient down alone!), activate 911/SAR and obtain urgent medical evaluation and oxygen. @X09,T02,E11
+failure: Telling a staggering, confused or gasping-at-rest climber at 11,000 feet to "sleep it off until morning" inside a tent. @X09
+verify: Run a quick heel-to-toe balance check and rest-breathing check on any companion struggling unexpectedly above 8,000 feet. @X09,ED
+stop: ANY shortness of breath at rest, staggering/ataxia or confusion at high altitude requires IMMEDIATE accompanied descent (even at night if safe) and 911/medical activation. @X09,T02
+diagram: Rest breathlessness/cough = HAPE | Staggering/confusion = HACE | DESCEND NOW + call 911/SAR
+visual: Decision tree routing HAPE respiratory red flags and HACE ataxia/confusion red flags directly to immediate accompanied descent and emergency medical care. Conceptual, not to scale.
+reviewer: Wilderness medicine and mountain rescue
+
+Z12-P41 | Identify avalanche start zones, wind-loaded slopes, cornices and valley runouts | National Avalanche Center and USFS avalanche guidance; new manuscript
+objective: Keep winter mountain travel completely outside avalanche terrain unless formally trained, equipped and verified by current forecasts.
+applies: Snow-covered mountain slopes, steep river bluffs, alpine bowls and valley floors beneath steep terrain.
+equipment: Official regional avalanche center forecast, slope-angle topo map and strict terrain-avoidance discipline.
+action: Check the official regional avalanche forecast daily before winter mountain travel—remembering most human-triggered avalanches release on slopes between roughly 30 and 45 degrees (and steep wind-loaded convex rolls). @E23,X10
+action: Look high above seemingly flat valley trails and meadows: large slides travel far down gullies and across flat valley runout zones, and wind-sculpted overhanging snow cornices fracture far back behind ridge crests. @E23
+action: Stick strictly to low-angle terrain (below 30 degrees) completely disconnected from steep slopes above unless every party member holds certified avalanche training, carries a beacon/shovel/probe and follows verified forecast guidance. @E23,ED
+failure: Skiing or snowshoeing happily along a flat snowy creek gully directly beneath steep wind-loaded 38-degree canyon walls. @E23
+verify: Confirm both your current slope angle AND all terrain connected overhead sit safely outside avalanche start zones and runouts. @E23,N02,ED
+stop: High/Considerable avalanche danger ratings, steep snow slopes or lack of formal avalanche training and rescue gear require staying strictly in flat disconnected terrain. @E23
+diagram: 30-45° start zone & cornice | Flat gully runout path below | Stay in disconnected low-angle terrain
+visual: Environmental mountain-slope profile mapping 30–45° start zones, overhanging cornices, connected gully runout reach and disconnected safe zones. Conceptual, not to scale.
+reviewer: Avalanche safety and winter mountaineering
+
+Z12-P42 | Recognize red-flag snowpack signs: recent slides, cracking and hollow whumpfing | National Avalanche Center encyclopedia; new manuscript
+objective: Spot unmistakable live snowpack instability cues immediately and back away to safe low-angle ground.
+applies: Winter and spring travel anywhere near snow-covered hills, bluffs or mountain slopes.
+equipment: Visual and auditory terrain awareness plus pre-trip avalanche forecast.
+action: Treat five classic red flags as immediate alarms of unstable snow: (1) recent avalanche debris on nearby slopes, (2) shooting cracks racing outward from skis/boots, (3) loud hollow "whumpfing" collapses underfoot. @E23
+action: Watch for the other two major red flags: (4) rapid heavy new snowfall, rain-on-snow or strong drifting winds loading leeward slopes, and (5) rapid daytime warming or wet rollerballs/pinwheels rolling down steep faces. @E23,E25
+action: Recognize that a single "whumpf" on a flat meadow proves a weak layer just collapsed underneath—if connected to a steeper slope above, it can trigger a slide remotely from below. @E23
+failure: Hearing a hollow whumpf and seeing cracks shoot out from snowshoes, then shrugging and stepping onto the steeper slope ahead. @E23
+verify: Pause immediately upon seeing ANY red flag and re-verify that your route stays completely disconnected from steep overhead snow. @E23,ED
+stop: Any observed avalanche red flag triggers immediate retreat onto low-angle disconnected terrain—never "test" a suspicious slope by jumping on it. @E23
+diagram: Recent slides, cracks or whumpf | Heavy snow/wind or fast warm-up | Retreat immediately off connected slopes
+visual: Failure-mode overview pairing live snowpack instability signals (cracking, whumpfing, pinwheels, wind loading) with immediate low-angle retreat. Conceptual, not to scale.
+reviewer: Avalanche safety specialist
+
+Z12-P43 | Manage steep talus, loose scree and wet granite footing without triggering rockfall | NPS mountain safety and land management; new manuscript
+objective: Prevent slips, ankle fractures and knocking loose boulders down onto companions on steep rocky mountain trails.
+applies: Alpine boulder fields (talus), loose gravel slopes (scree), slick wet rock slabs and canyon trails.
+equipment: Supportive lug-soled footwear, trekking poles where helpful and disciplined group spacing.
+action: Test suspect talus boulders gently with weight centered before committing a full step, and space group members tightly side-by-side (or send one at a time diagonally out of the fall line) so a dislodged stone cannot strike companions below. @X10,E11,T01
+action: Shout **"ROCK!"** loudly and instantly if ANY stone dislodges—people below should duck cleanly against uphill cover and protect their head rather than looking straight upward into the falling rock's path. @X10,T01,ED
+action: Avoid wet lichen-covered granite slabs, steep snow-choked chutes without traction/training and shortcuts cutting off switchbacks (which erode trails and knock rocks onto hikers below). @X10,E22
+failure: Cutting across steep loose scree switchbacks directly above another hiking group and kicking a football-sized stone down the slope. @X10,E22,T01
+verify: Confirm zero companions stand directly down the fall line below moving hikers and test footing deliberately on wet or loose rock. @X10,E11,ED
+stop: Active overhead rockfall, icy rock slabs without proper traction/training or an unstable cliff traverse stops forward travel—detour or turn back safely. @X10,E01
+diagram: Loose boulder/scree slope | Stay out of companion fall line | Shout "ROCK!" & stay on switchbacks
+visual: Environmental mountain-slope spacing schematic showing safe diagonal/side-by-side movement out of direct downward rockfall corridors. Conceptual, not to scale.
+reviewer: Mountain safety and search and rescue
+
+Z12-P44 | Recognize post-wildfire burn-scar debris flows and landslide warnings | Ready.gov landslides and NWS flood safety; new manuscript
+objective: Avoid lethal fast-moving mud, rock and log surges on saturated steep slopes and recent wildfire burn scars.
+applies: Mountain canyons, steep coastal bluffs and areas downstream of recent wildfire burn scars during heavy rain or rapid snowmelt.
+equipment: Official NWS Flash Flood/Debris Flow alerts, regional burn-scar map and pre-planned high-ground exits.
+action: Recognize why recent wildfire burn scars remain acutely dangerous for years: intense heat strips vegetation and turns soil water-repellent so even modest heavy rain unleashes high-speed mud, boulder and log debris flows. @X11,E04
+action: Watch and listen for immediate warning cues: a faint rumbling roar growing louder (like a freight train), sudden muddy surge or abrupt drying of a creek, newly cracking soil, leaning trees or shifting boulders on steep slopes. @X11
+action: Evacuate immediately PERPENDICULAR AND UPHILL out of valley floors and canyon channels if cues or warnings appear—never try to outrun a debris flow down a canyon road or creek bed. @X11,T13,E04
+failure: Camping along a peaceful creek inside a two-year-old wildfire burn scar during a forecast summer cloudburst. @X11,E04
+verify: Check whether your mountain route crosses recent burn scars or steep saturated slide zones before departing in rainy forecasts. @X11,E01,ED
+stop: Any Flash Flood Warning near a burn scar, loud slope rumbling or sudden muddy creek surge triggers instant uphill evacuation away from the drainage. @X11,T16,T13
+diagram: Burn scar repels heavy rain | Roar/mud surge = debris flow | Evacuate uphill & perpendicular NOW
+visual: Failure-mode cross-section showing water-repellent burn-scar runoff triggering a fast canyon debris flow and perpendicular uphill escape path. Conceptual, not to scale.
+reviewer: Geological hazard specialist and emergency management
+
+Z12-P45 | Assess cold fast snowmelt stream crossings without risking foot entrapment | NWS flood safety and NPS mountain safety; new manuscript
+objective: Evaluate swift mountain streams safely and recognize when high water requires turning back or waiting for morning lows.
+applies: Unbridged mountain creeks and spring/summer glacial or snowmelt crossings.
+equipment: Sturdy footwear worn across (never barefoot), trekking poles for third-point balance and unbuckled pack hip belt/sternum strap.
+action: Time glacial and snowmelt stream crossings for EARLY MORNING—afternoon sun melts high snowpack rapidly, turning a calm ankle-deep morning creek into a roaring waist-deep torrent by 4 p.m. @X10,W25,E04
+action: Scout carefully from the bank BEFORE stepping in: reject any crossing with fast waist-deep flow, rolling rocks audible underneath, murky silty water hiding holes, slippery logs, waterfalls/strainers (downed trees) immediately downstream or water above knee depth in swift current. @N10,T07,X10
+action: On a verified shallow, manageable crossing ONLY: keep sturdy shoes ON (protecting feet from slick rock cuts), UNBUCKLE pack hip-belt and sternum straps (so a heavy pack cannot pin you underwater if you slip) and face slightly upstream using poles or linked group support. @N10,E11,ED
+failure: Stepping into a rushing thigh-deep icy snowmelt stream at 3 p.m. with a heavy backpack buckled tightly around the waist and a logjam thirty feet downstream. @N10,X10,X02
+verify: Confirm clear shallow footing, zero downstream log strainers/drops, shoes on and pack straps unbuckled before stepping off the bank. @N10,ED
+stop: Fast murky floodwater, water above knee depth in swift current, downstream log strainers or cold-water shock risk stops crossing—camp safely on the near bank until morning lows or turn back. @N10,T07,X02
+diagram: Cross early before afternoon melt | Reject deep swift water & strainers | Shoes on; unbuckle pack straps
+visual: Decision tree gating mountain stream crossings on morning snowmelt lows, depth/current limits, downstream strainer hazards and unbuckled pack safety. Conceptual, not to scale.
+reviewer: Swiftwater safety, mountain safety and search and rescue
+
+Z12-P46 | Account for high-altitude boiling time, stove output and increased CO hazards | CDC boiling, CPSC CO and NPS mountain safety; new manuscript
+objective: Adjust water treatment, cooking fuel and stove ventilation rules accurately above 6,500 feet elevation.
+applies: Mountain camps and high-elevation travel above 6,500 feet (2,000 meters).
+equipment: Timer/watch, extra stove fuel reserve, cold/altitude-rated outdoor stove and strict outdoor-only setup.
+action: Follow the CDC altitude boiling rule: above 6,500 feet water boils at a lower temperature, so maintain a full rolling boil for **3 FULL MINUTES** (rather than 1 minute below 6,500 feet) to reliably kill microbes after screening out chemical hazards. @W02,X10
+action: Pack extra stove fuel and allow longer cooking times at high altitude because lower boiling temperature slows rehydrating food and cold winds drain pot heat faster. @W02,W26,X10
+action: Enforce ZERO indoor/tent/vestibule combustion even more strictly at high altitude—CPSC warns that lower atmospheric oxygen increases incomplete combustion and carbon monoxide output from portable fuel stoves and heaters. @C05,C16,X10
+failure: Boiling stream water for only 45 seconds at 10,000 feet, or pulling a sputtering camp stove inside a tent vestibule during high-altitude wind. @W02,C05,C16
+verify: Confirm elevation relative to 6,500 feet, time a full 3-minute rolling boil when above it and operate all fuel stoves strictly outdoors. @W02,C05,ED
+stop: Never run fuel appliances inside alpine tents or snow caves; switch to cold meals or safe backup treatment if outdoor stove use is impossible. @C05,C16,W26
+diagram: >6,500 ft: boil full 3 minutes | Longer cook & extra stove fuel | Lower O2 = higher CO (outdoors only)
+visual: Comparative configuration contrasting boiling duration, fuel demand and carbon monoxide production below versus above 6,500 feet elevation. Conceptual, not to scale.
+reviewer: Mountain safety, drinking-water safety and carbon monoxide safety
+
+Z12-P47 | Distinguish firm upland edges from quaking bogs, fens and deep marsh muck | EPA wetlands and NPS wetlands; new manuscript
+objective: Read wetland vegetation and soil cues to avoid sinking into concealed muck, floating bog mats and deep channels.
+applies: Upper Midwest boreal bogs, marshes, beaver flowages, river deltas and coastal wetlands.
+equipment: Topographic map showing marsh symbols, sturdy pole to probe uncertain edges and dry spare socks.
+action: Recognize wetland warning terrain: flat carpets of bright sphagnum moss, sedge tussocks, stunted black spruce/tamarack and standing dark tea-colored water often form floating **quaking bog mats** over deep cold muck or open water underneath. @X12,X13,N02
+action: Probe uncertain damp edges ahead with a sturdy walking pole BEFORE stepping—avoid jumping onto floating peat mats or cutting across grassy marsh openings that look like dry meadows on older maps. @X12,X13,N10
+action: Route travel along firm elevated upland mineral ridges (pine/hardwood high ground), established boardwalks or verified bridges rather than wading through unmarked bog basins. @X12,N10,E22
+failure: Stepping onto a springy green sphagnum carpet assuming solid meadow and punching straight through to chest-deep freezing peat muck. @X12,X13
+verify: Confirm firm mineral soil footing or official boardwalk surface before committing group weight near mapped marsh symbols. @X12,N02,ED
+stop: Bouncing quaking ground, knee-deep sucking mud or concealed water channels stop forward travel—retreat along your entry footprints to firm upland ground. @X12,X13,N10
+diagram: Floating sphagnum bog mat | Deep cold muck & hidden water | Stay on firm upland mineral ridge
+visual: Cutaway wetland cross-section showing a floating sphagnum quaking-bog mat over deep peat muck and water versus firm upland mineral ground. Conceptual, not to scale.
+reviewer: Wetland ecology and search and rescue
+
+Z12-P48 | Recognize unstable winter ice over wetlands, springs and decaying peat | EPA wetlands and MN DNR ice safety; new manuscript
+objective: Avoid hazardous hollow or rotten winter ice over marshes, swamps and beaver ponds even during deep subzero spells.
+applies: Winter travel across northern boreal bogs, alder swamps, cattail marshes and frozen beaver ponds.
+equipment: Verified upland winter trail map and land-only travel discipline.
+action: Understand why frozen wetlands stay treacherous all winter: decaying organic peat generates subtle warmth, groundwater seeps keep pockets unfrozen and fluctuating beaver-pond water levels leave hollow air gaps under thin brittle ice crusts. @X12,X01,E12
+action: Avoid stepping onto snow-drifted cattail marshes, alder swales or frozen beaver dams—breaking through even into shallow freezing bog muck soaks boots instantly and triggers rapid frostbite and hypothermia far from roads. @X12,E12,E06
+action: Stay strictly on elevated upland ridges and verified dry winter trails cleanly skirting mapped wetland basins. @X12,E12,N10
+failure: Taking a winter snowshoe shortcut across a frozen beaver pond where water dropped two feet beneath a brittle snow-covered ice shell. @X12,X01,E12
+verify: Confirm your winter route avoids mapped marshes, beaver flowages and bog hollows entirely. @X12,N02,E12,ED
+stop: Hollow echoing crusts, dark wet snow patches, unfrozen muskrat/beaver leads or wet-boot breakthroughs stop travel—retreat to dry upland and swap to dry socks immediately. @X12,E12,E10
+diagram: Snow hides hollow ice crust | Decaying peat & seeps thaw ice | Detour strictly on upland ridges
+visual: Cutaway winter-wetland section illustrating hollow air gaps over drained beaver ponds and thermal peat seepage thinning snow-covered ice. Conceptual, not to scale.
+reviewer: Ice safety, wetland ecology and winter safety
+
+Z12-P49 | Prevent immersion foot (trench foot) and cold-wet skin breakdown in marshes | NPS wetlands and CDC cold/wet exposure; new manuscript
+objective: Prevent debilitating non-freezing cold-wet foot injury during prolonged soggy wetland or rainy travel.
+applies: Multi-day wet forest, bog, marsh or coastal rain outings where feet remain cold and wet for many hours.
+equipment: Quick-draining footwear or waterproof boots suited to conditions, multiple dry wool/synthetic socks, dry camp shoes and towel.
+action: Recognize that **immersion foot (trench foot)** occurs well ABOVE freezing (typically 32°F–60°F) when feet stay continuously cold, wet and constricted inside boots for many hours—skin turns pale, wrinkled, numb, swollen and painfully tender. @X13,E10,E06
+action: Air out and dry feet completely at camp every evening, switch immediately into dedicated dry wool sleep socks, elevate feet slightly and inspect toes and arches daily for maceration, numbness or blisters. @X13,E10,ED
+action: Avoid wearing soaked cotton socks or sleeping in damp boots/socks; keep footwear loose enough for steady circulation and carry dry reserve socks inside a sealed waterproof bag. @E10,X13
+failure: Hiking three straight rainy 45°F days through soggy marshes without ever drying feet or changing into dry sleep socks at night. @X13,E10
+verify: Confirm feet are dried completely daily, dedicated dry sleep socks remain sealed waterproof and zero numbness or white macerated skin is progressing. @X13,E10,ED
+stop: Persistent numbness, blotchy red/purple swelling, severe throbbing pain or skin breakdown after prolonged wet-cold exposure requires ending wet travel and seeking medical evaluation. @X13,T01,T02
+diagram: Wet cold boots (>32°F) | Skin softens, numbs & swells | Air-dry daily & sleep in dry wool
+visual: Material/skin cross-section contrasting prolonged cold-wet sock constriction against nightly air-drying and dry wool sleep-sock recovery. Conceptual, not to scale.
+reviewer: Wilderness medicine and wetland operations
+
+Z12-P50 | Navigate wetland complexes using upland ridges and verified boardwalks or trails | NPS wetlands and B014-P12 water barriers; new manuscript
+objective: Move efficiently around marshes and swamps without getting mired, disoriented or cut off by meandering channels.
+applies: Backcountry travel near Upper Midwest bogs, braided river deltas, sloughs and coastal marshes.
+equipment: Detailed 1:24,000 topographic map, compass and waterproof dry bags for essential gear.
+action: Study map contour rings and green/blue wetland shading BEFORE entering—follow dry elevated mineral "islands," eskers, upland tree lines and official maintained boardwalks rather than straight compass lines across marshes. @X12,N02,N10
+action: Recognize that dead-end sloughs, beaver dams and thick alder tangles multiply walking time by 3x–5x and hide horizon landmarks completely—never count on bushwhacking straight through a swamp before dark. @X12,N02,E01
+action: Pack sleeping bags, spare dry clothes, maps and electronics inside sealed waterproof liners before crossing any wet low terrain in case of an unexpected slip. @X13,E10,E02
+failure: Attempting a half-mile off-trail shortcut straight across a mapped marsh to save two miles on the upland ridge trail, getting trapped waist-deep at dusk. @X12,N10,E01
+verify: Confirm your route stays on mapped upland ground or official trails and that core insulation sits sealed inside waterproof bags. @X12,E10,ED
+stop: When dense wetland brush, standing water or lost trail markers stall progress, reverse cleanly back to firm upland ground rather than pushing deeper into the swamp. @X12,N10,T06
+diagram: Straight swamp cut = mire trap | Follow upland mineral ridge | Seal dry gear in waterproof liners
+visual: Environmental wetland map contrasting a flooded dead-end slough shortcut against a dry upland-ridge handrail route. Conceptual, not to scale.
+reviewer: Navigation and wetland operations
+
+Z12-P51 | Extract calmly from deep mud or bog muck without losing boots or exhausting core | EPA/NPS wetlands and ARC safety; new manuscript
+objective: Free a stuck leg safely from suction mud or tidal muck using weight distribution rather than frantic vertical pulling.
+applies: Accidental step into deep marsh mud, beaver-pond silt, bog peat or coastal mudflats.
+equipment: Walking stick/pole, companion reach aid from firm ground and dry spare clothing afterward.
+action: Stop thrashing immediately—pulling straight up violently drives the other foot deeper into suction mud, pops boots off and risks heart-pounding exhaustion or cold immersion. @X12,X13,T01
+action: Drop heavy backpack weight cleanly onto stable nearby ground or hand it to a shore-anchored partner, spread your body weight wide (leaning back/forward over a horizontal branch, pack or lying flatter onto firmer edges to break surface suction) and wiggle one leg slowly back and forth to let water break the vacuum seal around the boot. @X12,X13,ED
+action: Have companions assist strictly from FIRM solid ground with a pole or rope—never walk right next to a stuck person in soft mud where helpers sink too. @X12,T01,X18
+failure: Struggling upright wildly in deep marsh or tidal mud until trapped thigh-deep as cold sets in or a coastal tide rises. @X12,X15
+verify: Confirm slow vacuum-breaking leg wiggles, wide body-weight distribution and shore-anchored partner assistance only. @X12,ED
+stop: If trapped in deep mud—especially near rising coastal tides or freezing water—call 911 IMMEDIATELY with exact location before exhaustion or rising water overwhelms self-extraction. @T02,X15,X12
+diagram: Vertical pull deepens suction | Spread weight & wiggle slowly | Anchored shore pull; call 911 if stuck
+visual: Mechanism diagram illustrating suction-seal vacuum around a mired boot broken by slow horizontal wiggling and wide weight distribution. Conceptual, not to scale.
+reviewer: Technical rescue and wetland safety
+
+Z12-P52 | Protect against wetland biting insects, ticks and stagnant water hazards | NPS wetlands and CDC water/vector safety; new manuscript
+objective: Reduce vector-borne illness, skin infection and water contamination risks in warm-season marshes and swamps.
+applies: Spring through autumn travel across boreal bogs, floodplains, marshes and humid wetlands.
+equipment: EPA-registered insect repellent (per label), head net/long breathable sleeves, tick check mirror/tweezers and verified water supply.
+action: Wear light-colored long sleeves, tucked pants and a fine head net paired with EPA-registered repellent applied strictly per label instructions to reduce mosquito, blackfly and tick bites—inspect entire body and hairline daily for ticks. @X13,ED
+action: Treat warm stagnant wetland water as high-risk for heavy organic load, protozoan cysts and potential harmful algal blooms—prefer carried potable reserves or screened flowing sources, and never drink stagnant marsh water untreated. @X13,W15,W16,W24
+action: Clean minor scratches promptly with confirmed potable water and cover cleanly because warm muddy wetland water carries bacteria that infect open cuts rapidly. @W29,X13,T01
+failure: Drinking dark bog tea untreated, wearing shorts in tall marsh sedge without checking for ticks or ignoring muddy scrapes until infected. @X13,W09,W29
+verify: Confirm full physical insect/tick barrier, daily tick check routine and confirmed potable water plan before entering warm wetlands. @X13,W09,ED
+stop: Expanding rash, fever after tick exposure, severe allergic swelling or spreading wound redness requires prompt medical evaluation. @T01,T02,X13
+diagram: Long clothes + net + repellent | Daily full-body tick check | Carry potable; clean cuts well
+visual: Exploded wetland personal-protection kit combining physical clothing/net barriers, daily tick inspection and strict potable water/wound hygiene. Conceptual, not to scale.
+reviewer: Public health, wilderness medicine and wetland safety
+
+Z12-P53 | Choose elevated dry camp pads clear of wetland water-table surges | EPA wetlands, NWS flood and NPS camping; new manuscript
+objective: Site overnight camps above marsh water tables, fog pockets and sudden storm flooding in wetland corridors.
+applies: Canoe trips, bog-country hikes and low-lying forest camps near marshes and swamps.
+equipment: Topographic map, elevated durable pad inspection and insect-screened shelter.
+action: Scout well before dusk for elevated upland knolls or firm mineral-soil benches clearly above marsh vegetation lines—marsh floors saturate quickly during overnight rain even without dramatic hills nearby. @X12,E04,E22
+action: Avoid pitching inside low willow/alder swales where cold damp mist pools overnight, biting insects swarm heavily and standing water rises through tent floors. @X12,E04,E15
+action: Follow land-agency setbacks from marsh edges and open water, and verify an elevated dry exit path in case overnight storms raise water tables. @E21,E22,E04
+failure: Settling for a flat spongy grass clearing at the edge of a cedar swamp at dusk, waking ankle-deep in rising rainwater at 3 a.m. @X12,E04
+verify: Confirm firm draining upland mineral soil, elevation above high-water marsh stains and insect-tight dry shelter ventilation. @X12,E04,E22,ED
+stop: If standing water creeps across the camp pad or heavy rain threatens low access trails, pack dry gear and move immediately to high ground. @E04,T16,X12
+diagram: Marsh floor floods & mists | Elevated upland mineral knoll | Verify dry high-ground exit
+visual: Environmental wetland-to-upland cross-section contrasting soggy flood-prone marsh margins against elevated dry mineral camp benches. Conceptual, not to scale.
+reviewer: Land management and wilderness shelter
+
+Z12-P54 | Check local tide tables and king-tide surges before entering beaches or headlands | NOAA tides and coastal hazards; new manuscript
+objective: Plan coastal walks around exact local high/low tide timing and wind-driven storm surges.
+applies: Ocean beaches, rocky headlands, tidal flats, sea-stack coves and coastal trails.
+equipment: Current local NOAA tide table for the exact beach/date, watch and marine weather forecast.
+action: Check exact local low-tide and high-tide times AND heights before stepping onto any narrow beach or rocky point—tides vary dramatically between neap tides and extreme "king tides," and timing shifts roughly 50 minutes later each day. @X15
+action: Add generous safety margin for wind-driven storm surge, heavy ocean swell and onshore gales, which push breaking waves far higher up the beach than calm tide charts predict. @X15,X06,X17
+action: Time headland crossings on an OUTGOING (falling) tide well before the low window—never start a narrow cliff-base stretch on a fast-rising incoming tide. @X15,ED
+failure: Consulting a tide chart for a bay 60 miles away or ignoring heavy storm swell pushing waist-high surf over a rocky point two hours before printed high tide. @X15,X06
+verify: State exact local high-tide time, swell height and the latest clock time you must clear every narrow coastal headland. @X15,X06,ED
+stop: Rising incoming tides, heavy storm surf or missing local tide data stops headland travel—use the high inland bluff trail instead. @X15,X06
+diagram: Exact local tide table + watch | Storm swell pushes higher | Cross headlands on falling tide
+visual: Environmental coastal profile illustrating normal low/high tide range versus wind-driven storm swell flooding narrow headland routes. Conceptual, not to scale.
+reviewer: Coastal navigation and marine safety
+
+Z12-P55 | Avoid tidal cutoffs along sea caves, narrow pocket coves and rocky points | NOAA tides and coastal safety; new manuscript
+objective: Prevent fatal entrapment against sheer cliffs or inside sea caves by rapidly rising incoming tides.
+applies: Rocky coastlines, tide-pool ledges, sea arches, pocket coves and wide estuarine mudflats.
+equipment: Watch, local tide chart, mapped high-tide bypass trails and emergency communicator.
+action: Identify wet dark algae/barnacle lines and lodged driftwood high against cliff bases—those lines mark where breaking surf reaches at normal high tide, leaving ZERO dry refuge underneath. @X15
+action: Recognize that incoming tides flood low channels BEHIND sandbars and around rocky points first, quietly cutting off your return path while the spot you stand on still looks dry. @X15
+action: Never enter deep sea caves, narrow cliff-walled coves or distant mudflat bars on a rising tide; always keep an unmistakable climbable high-ground exit behind you. @X15,T01
+failure: Exploring tide pools past a rocky headland during low tide without noticing incoming surf filling the low pass behind you. @X15
+verify: Confirm your return point stays well above rising water and check your watch continuously against the incoming tide turn. @X15,ED
+stop: If incoming surf begins closing a rocky pass, retreat immediately BEFORE waves wash across footing—if already trapped on a safe high ledge above water, stay put, avoid jumping into crashing surf and call 911/Coast Guard. @X15,T02,X05
+diagram: Incoming tide floods behind bar | Wet cliff line = zero refuge | Retreat early or call 911 high
+visual: Failure-mode coastal diagram showing incoming tide cutting off the low pass behind a tide-pool point with early-retreat and high-ledge stop options. Conceptual, not to scale.
+reviewer: Coastal safety and search and rescue
+
+Z12-P56 | Spot rip-current channels and escape by floating and swimming parallel to shore | NWS rip current safety and NOAA NOS; new manuscript
+objective: Recognize narrow seaward rip currents and survive them without exhausting yourself swimming straight back to shore.
+applies: Ocean surf beaches, Great Lakes sandbar beaches, piers, jetties and rocky groins.
+equipment: Lifeguarded beach preference, surf forecast check and calm flotation/escape awareness.
+action: Spot rip-current visual cues from shore: a narrow gap of darker calmer-looking water cutting through white breaking waves, a tongue of sandy discolored water or foam streaming steadily seaward, or fast currents running right beside piers and jetties (remember many rips look invisible). @X14
+action: If caught in a rip current, **STAY CALM AND DO NOT FIGHT DIRECTLY AGAINST IT** toward the beach—rip currents pull you seaward, NOT underwater, and fighting straight back exhausts even strong swimmers quickly. @X14
+action: Float or tread water to save breath, swim **PARALLEL TO THE SHORELINE** out of the narrow channel into breaking shoreward waves and then angle back to the beach—or if tired, keep floating/treading and wave and shout loudly for lifeguard help. @X14,T01
+failure: Panicking and sprinting straight toward the beach against a fast seaward rip channel until lungs give out and drowning occurs. @X14
+verify: Check daily beach surf flags/rip risk statements, swim near lifeguards and brief every companion on the "float + parallel to shore" rule. @X14,E11,ED
+stop: High Rip Current Risk warnings, rough pier/jetty surges or unguarded heavy surf require staying completely out of the water—witnesses must call lifeguards/911 and throw flotation rather than swimming in unequipped. @X14,T01,T02
+diagram: Narrow channel pulls seaward | NEVER fight straight to shore | Float -> swim parallel -> angle in
+visual: Mechanism diagram mapping a seaward rip-current channel between breaking sandbars and the safe parallel-to-shore escape trajectory. Conceptual, not to scale.
+reviewer: Coastal rescue and water safety
+
+Z12-P57 | Respect sneaker waves, slippery wet kelp ledges and surging breakwater jetties | NWS coastal/marine safety and NOAA NOS; new manuscript
+objective: Prevent sudden sweep-offs into cold pounding surf along rocky shores, steep beaches and piers.
+applies: Pacific, Atlantic and Great Lakes rocky shores, steep beaches, sea walls and concrete breakwaters.
+equipment: High dry observation stance, sturdy gripping footwear and never turning your back to surf.
+action: Never turn your back on the ocean or Great Lakes surf—irregular **sneaker waves** surge suddenly far higher up beaches and rocky ledges than the previous twenty calm waves, dragging victims into cold swirling undertow. @X06,X14,X02
+action: Stay off dark wet algae- or kelp-slick coastal boulders, steep surf-washed drift logs (which roll violently in shallow wash with crushing weight) and storm-swept piers or concrete jetties. @X06,X15,T01
+action: Watch wave sets calmly for several full minutes from well above the highest wet sand/rock stain before choosing any shore stop or fishing vantage. @X06,X15,ED
+failure: Standing on a wet black rocky ledge or climbing onto a large beach driftwood log with your back to the surf for a photo when a sneaker set sweeps over. @X06,X02,T01
+verify: Confirm your standing spot lies dry above the highest recent wave-wash stain and keep eyes angled toward incoming wave sets. @X06,X15,ED
+stop: Heavy swell advisories, breaking waves washing over jetties or slick dark tidal rock demand moving well back onto high dry shore immediately. @X06,X15
+diagram: Irregular giant sneaker set | Slick kelp rock & rolling logs | Stay dry above wash; face surf
+visual: Failure-mode shoreline cross-section contrasting dry safe vantage above high wave-wash stains against wet kelp ledge and rolling drift-log hazards. Conceptual, not to scale.
+reviewer: Coastal safety and marine safety
+
+Z12-P58 | Recognize natural tsunami warning signs and evacuate immediately to high ground | NWS tsunami safety and Ready.gov tsunamis; new manuscript
+objective: React within seconds to natural coastal tsunami cues without waiting for official sirens or texts.
+applies: Earthquake-prone ocean coastlines, low estuaries, harbors and coastal beaches.
+equipment: Pre-checked local tsunami evacuation map, sturdy shoes and go-bag if staying on the coast.
+action: Know the three **NATURAL TSUNAMI WARNINGS**: (1) strong or long coastal ground shaking (Drop, Cover, Hold On until shaking stops), (2) a sudden loud ocean roar like a jet or freight train, or (3) sudden unusual ocean recession exposing seafloor or sudden surging wall of water. @X16
+action: Evacuate **IMMEDIATELY ON FOOT** inland and uphill to marked high ground (generally >100 feet elevation or well inland per local zone maps)—do NOT wait for sirens, do NOT pack gear and do NOT drive into gridlocked coastal roads. @X16,T13
+action: Stay on high ground for HOURS until official emergency managers issue a verified all-clear—tsunamis arrive as a series of destructive waves over many hours, and the first wave is often NOT the largest. @X16
+failure: Walking out onto a suddenly exposed dry seafloor to pick up flopping fish or returning to the beach twenty minutes after the first small surge. @X16
+verify: Before staying or hiking on a coastal strip, locate the nearest marked Tsunami Evacuation Route and high-ground assembly point on foot. @X16,T13,ED
+stop: ANY natural tsunami cue or official Tsunami Warning overrides all schedules, vehicles and property—move immediately uphill and inland. @X16,T13
+diagram: Quake, ocean roar or drawback | Move ON FOOT to high ground NOW | Stay high for hours until all-clear
+visual: Decision tree converting natural tsunami warning signs and official alerts directly into immediate foot evacuation to high ground and multi-wave hold. Conceptual, not to scale.
+reviewer: Coastal emergency management and geological hazard safety
+
+Z12-P59 | Obey hurricane storm-surge evacuations and never shelter in low coastal zones | NWS hurricane safety and Ready.gov evacuation; new manuscript
+objective: Leave coastal surge zones early before rising ocean water, bridge closures and violent winds trap residents or travelers.
+applies: Atlantic, Gulf and coastal regions under Tropical Storm or Hurricane Watches and Warnings.
+equipment: Hurricane evacuation route map, fueled vehicle, 3+ day emergency kit, medications and alert receivers.
+action: Recognize that **storm surge** (ocean water pushed rapidly onshore by hurricane winds) and inland freshwater flooding cause the majority of hurricane deaths—NOT wind alone—and surge floods low coastal roads hours before peak winds arrive. @X17,T13
+action: Obey official coastal evacuation orders EARLY when zones are called, leaving barrier islands, low floodplains, mobile homes and anchored boats long before causeways close or winds topple trees. @X17,T13,E17
+action: Never mistake the calm, clearing sky of a hurricane's **eye** for the end of the storm—violent winds return rapidly from the opposite direction within minutes to an hour. @X17
+failure: Trying to ride out a coastal Hurricane Warning in a beachfront cottage or boat, or stepping outside into downed power lines during the calm eye. @X17,T13
+verify: Confirm your evacuation zone, inland destination, stocked go-bag and redundant NOAA Weather Radio/WEA alerts before storm season. @X17,T13,T14,ED
+stop: Once official evacuation orders issue for your coastal zone, depart immediately along open designated routes; if trapped late, move to the highest safe interior refuge away from storm surge and follow 911/official guidance. @X17,T13,E24
+diagram: Storm surge floods roads early | Evacuate coastal zones promptly | Calm storm eye ≠ storm over
+visual: Decision tree routing Hurricane Watch/Warning tiers and coastal surge zones to early inland evacuation and storm-eye safety boundaries. Conceptual, not to scale.
+reviewer: Emergency management and marine meteorology
+
+Z12-P60 | Account for coastal salt spray, wind-driven sand, fog and rapid gear corrosion | NWS marine/fog safety and field maintenance; new manuscript
+objective: Prevent seized zippers, corroded blades, fog disorientation and chafed gear in harsh salty coastal climates.
+applies: Ocean shorelines, salt marshes, island camps and Great Lakes windswept sand dunes.
+equipment: Sealed waterproof bags for electronics/tools, fresh rinse water for zippers/metal, goggles and corrosion-resistant gear habits.
+action: Keep electronics, compasses, cameras, stove jets and metal tools sealed inside airtight waterproof bags whenever wind blows fine salt spray or abrasive beach sand—sand jams zippers and stove valves while salt pits carbon steel overnight. @K04,E02,N07,ED
+action: Rinse salt and sand out of tent zippers, fishing/camp hardware and metal blades with clean freshwater promptly after coastal exposure, drying and lightly oiling metal parts. @K04,E20,ED
+action: Expect coastal marine fog to roll inland rapidly, erasing headland landmarks and chilling damp skin—stage compass, tide table and windproof dry shell at the top of your pack. @N07,E15,X15
+failure: Pitching a tent directly in blowing dune sand with open zippers and leaving an un-oiled carbon knife exposed to night sea mist until rusted shut. @K04,E20,E16
+verify: Confirm electronics/tools ride in sealed bags, zippers stay brushed clean of grit and wind/fog navigation tools stay reachable. @K04,E02,N07,ED
+stop: When dense coastal fog and high surf combine on rocky headlands, halt shoreline travel on high dry land until visibility and tide safety return. @N07,X15,X06
+diagram: Salt spray & blowing sand | Jams zippers & pits metal fast | Seal gear, rinse fresh & watch fog
+visual: Failure-mode diagram mapping coastal salt corrosion, sand-jammed zippers and rapid sea fog to sealed storage and freshwater-rinse controls. Conceptual, not to scale.
+reviewer: Coastal safety and field equipment maintenance
+
+Z12-P61 | Protect freshwater supplies from brackish tidal mixing along coastal streams | NOAA tides and CDC drinking-water safety; new manuscript
+objective: Avoid collecting salty brackish water from tidal estuaries and recognize that standard boiling or filters cannot desalinate seawater.
+applies: Coastal trails, island camps and ocean-adjacent river mouths where freshwater creeks meet salt tides.
+equipment: Adequate carried freshwater reserve, topo map showing tidal elevation and validated microbial treatment for confirmed freshwater only.
+action: Understand that ocean tides push dense salty water far upstream inside flat coastal rivers and estuaries—drinking salty or brackish water worsens dehydration rapidly, and **standard boiling, bleach and portable camp filters CANNOT remove dissolved salt** (boiling evaporates freshwater and makes salty water even saltier!). @X15,W01,W22
+action: Collect coastal freshwater only well UPSTREAM above tidal reach (ideally above a clear drop/waterfall or at low tide verified upstream of marsh flats), then apply full chemical/watershed screening and microbial treatment. @X15,W09,W02
+action: Carry full potable freshwater reserves for coastal island and barrier-beach trips where surface water is brackish or absent. @W14,X15,ED
+failure: Boiling estuarine river water near a coastal beach expecting boiling to desalinate it, producing concentrated brine that worsens dehydration. @W01,W22,X15
+verify: Confirm any coastal stream collection sits clearly above high-tide reach and remains sweet freshwater before applying microbial treatment. @X15,W09,ED
+stop: Never drink seawater or brackish tidal water under any circumstances; rely on carried freshwater reserves, official supplies or early coastal exit. @W01,W22,X15
+diagram: High tide pushes salt upstream | Boil/filter CANNOT remove salt | Collect well upstream or carry safe
+visual: Cutaway coastal-estuary profile illustrating saltwater wedge intrusion at high tide versus upstream freshwater collection and carried-reserve priority. Conceptual, not to scale.
+reviewer: Drinking-water safety and coastal hydrology
+
+Z12-P62 | Wear a fitted USCG-approved life jacket continuously on cold or open water | USCG life jacket wear and NWS cold water; new manuscript
+objective: Eliminate sudden cold-shock drowning by wearing a properly buckled life jacket whenever underway in small craft.
+applies: Canoes, kayaks, rowboats, motorboats and paddleboards on lakes, rivers and coastal/maritime waters.
+equipment: Properly sized U.S. Coast Guard-approved Personal Flotation Device (PFD) matched to user weight and activity, plus attached pea-less whistle.
+action: WEAR your buckled, properly fitted USCG-approved PFD continuously from dock launch to landing—sudden capsizes in cold water trigger 1-minute cold shock before anyone can dig stowed jackets out from under seats or buckle straps with numb fingers. @X04,X02
+action: Check PFD fit snugly at shoulders and waist (it should not ride up over chin or ears when pulled upward at the shoulders), verify buckles/zippers are intact and confirm inflatable PFDs are properly armed and appropriate for the user and water class per label. @X04
+action: Clip a pea-less safety whistle and small waterproof strobe/signal light directly onto the PFD chest where hands reach them while floating. @X04,E02,N09
+failure: Sitting on top of a loose life jacket in a calm-looking 48°F northern lake until a sudden wake flips the canoe and cold shock prevents swimming. @X04,X02
+verify: Confirm every passenger (especially children in weight-rated child PFDs) has straps snugly buckled before casting off shore. @X04,ED
+stop: Never launch any small craft on cold, moving or open water with missing, damaged, unbuckled or improperly sized life jackets. @X04,X02
+diagram: Snug USCG-approved PFD fit | Worn continuously dock-to-dock | Chest whistle & waterproof light
+visual: Exploded PFD readiness view highlighting snug shoulder/waist fit check, USCG approval label, inflatable arming check and chest-mounted whistle/light. Conceptual, not to scale.
+reviewer: Maritime safety and USCG-aligned water rescue
+
+Z12-P63 | File a marine float plan and monitor VHF Channel 16 and NOAA marine forecasts | USCG boating safety and NOAA marine weather; new manuscript
+objective: Ensure onshore contacts and Coast Guard searchers know your craft, route and overdue time while tracking live marine weather.
+applies: Large inland lakes (Great Lakes, Boundary Waters large basins), coastal bays and offshore small-craft travel.
+equipment: Written float plan left ashore, waterproof marine VHF radio (where lawful/applicable), NOAA Weather Radio and marine charts.
+action: Leave a complete **float plan** with a trusted onshore contact before launching: vessel description/color/registration, number and names of passengers, departure ramp, exact destination, onboard communications/EPIRB/PLB and overdue call-Coast-Guard cutoff time. @X05,T11
+action: Monitor official NOAA Marine Weather forecasts (VHF Weather channels or NOAA NWR) BEFORE and DURING trips—large open water builds hazardous wind waves much faster than sheltered shore trees reveal. @X06,T15,X05
+action: Where carrying a marine VHF radio, know how to hail distress properly on **VHF Channel 16** (and register your MMSI number for one-button VHF-DSC digital distress alerting where equipped) and follow federal marine radio rules. @X05,N05
+failure: Launching a kayak or fishing boat onto Lake Superior with zero float plan, relying solely on a phone that loses signal two miles offshore. @X05,X06,T06
+verify: Confirm onshore contact holds the float plan and overdue time, marine forecast is checked and VHF/weather channels receive cleanly before departure. @X05,X06,T15,ED
+stop: Cancel or postpone launching if marine weather warnings are active, communications fail pre-launch checks or onshore check-in coverage is missing. @X05,X06
+diagram: Written float plan ashore | Monitor NOAA Marine & VHF 16 | Registered MMSI / PLB backup
+visual: Exploded maritime communication & float-plan layout uniting onshore contact handoff, marine VHF/NWR monitoring and registered distress beacons. Conceptual, not to scale.
+reviewer: Maritime safety and marine communications
+
+Z12-P64 | Interpret Small Craft Advisories, Gale Warnings and wind-against-tide wave steepening | NOAA Marine Weather Services; new manuscript
+objective: Recognize marine wind/wave warning thresholds and dangerous localized sea-state amplification before launching or crossing open water.
+applies: Great Lakes, large reservoirs, coastal bays, inlets and open marine waters.
+equipment: Official NOAA Marine Zone Forecast, local tide/current tables and sheltered shore bailout chart.
+action: Respect official marine warning tiers strictly: **Small Craft Advisories** signal hazardous wind/wave conditions for smaller vessels; **Gale**, **Storm** and **Hazardous Seas Warnings** signal severe life-threatening open-water conditions—stay in port or off the water. @X06,X05
+action: Watch for **wind-against-tide / wind-against-current steepening**: when strong wind blows opposite a fast tidal current or river outflow at an inlet bar, waves stack sharply taller, steeper and breaking—capsize danger spikes abruptly even under moderate forecast wind. @X06,X15
+action: Account for **fetch** (the uninterrupted distance wind blows across open water)—crossing the downwind side of a large lake exposes craft to far larger waves than the calm sheltered upwind shoreline launch. @X06,E16
+failure: Launching a canoe from a glassy sheltered upwind bay without realizing 25-knot offshore gusts are building 4-foot whitecaps across the open crossing. @X06,E16
+verify: Check marine zone advisories, wind direction relative to fetch/tides and sheltered shoreline bailouts before pushing off shore. @X06,X05,ED
+stop: Active Small Craft Advisories for light paddlecraft, building whitecaps, darkening squall lines or steep breaking inlet bars require staying ashore or landing immediately at the nearest safe lee shore. @X06,E18,X05
+diagram: Small Craft -> Gale -> Storm | Wind vs tide stacks steep waves | Long fetch builds downwind swell
+visual: Comparative marine-hazard matrix contrasting Small Craft, Gale and Storm warning tiers alongside fetch and wind-against-tide wave steepening. Conceptual, not to scale.
+reviewer: Marine meteorology and maritime safety
+
+Z12-P65 | Stay with a swamped buoyant hull rather than attempting long cold-water swims | USCG boating safety and NWS cold water; new manuscript
+objective: Maximize visibility and survival time after capsizing by remaining with floating craft unless safe shore is immediately reachable.
+applies: Capsized or swamped canoes, kayaks, small boats and open-water marine emergencies.
+equipment: Worn USCG-approved PFD, buoyant hull and waterproof distress signals attached to person.
+action: Control cold-shock breathing first while holding onto the capsized or swamped buoyant craft—most modern small boats and kayaks remain afloat even when flooded, giving critical extra flotation and a vastly larger visual target for Coast Guard/SAR aircraft. @X05,X02,X03
+action: Climb as high out of cold water onto the overturned hull or inside a swamped stable craft as safely possible—body heat drains roughly 25 times faster in cold water than in air of the same temperature. @X03,X02,X05
+action: Abandon a floating hull to swim for shore ONLY if calm safe shore is very close (well inside your short ~10-minute cold-water functional window), current is not pushing you away, you wear a PFD and staying puts you in immediate danger (waterfall, rocks, sinking hull). @X03,X05,X04
+failure: Leaving an overturned floating aluminum boat half a mile offshore in 45°F water to swim for land, losing muscle control halfway and drowning. @X02,X03,X05
+verify: Confirm all passengers stay together holding or atop the buoyant hull wearing buckled PFDs and activate VHF/PLB/visual signals. @X05,X04,N05,ED
+stop: Never dive back underwater inside a sinking cabin or swim away from a buoyant hull into distant cold open water. @X02,X03,X05
+diagram: Control breath; hold buoyant hull | Get torso up out of cold water | Swim ONLY if safe shore is very near
+visual: Decision tree weighing hull buoyancy, shore distance inside the cold-water functional window and immediate hazards to choose stay-with-hull vs short swim. Conceptual, not to scale.
+reviewer: Maritime safety and cold-water rescue
+
+Z12-P66 | Use HELP and group HUDDLE postures in cold water while wearing flotation | NWS cold water and USCG boating safety; new manuscript
+objective: Slow core heat loss in cold water when forced to float while awaiting rescue.
+applies: Cold-water immersion where the victim wears a buckled USCG-approved life jacket and cannot climb onto a hull or immediate shore.
+equipment: Properly buckled inherent-buoyancy USCG-approved life jacket (PFD) and warm layers worn underneath.
+action: **Solo — HELP (Heat Escape Lessening Posture):** While wearing a buckled PFD in calm-to-moderate water, draw knees up toward your chest, cross ankles and press arms snugly against the sides of your chest to shield high-heat-loss areas (armpits, groin, sides of torso)—NEVER attempt HELP without a PFD supporting your airway. @X03,X04,X02
+action: **Group — HUDDLE:** Two or more PFD-wearing survivors lock arms tightly in a tight circle pressing chest-to-chest (placing children or smaller chilled members inside the protected center) to conserve shared core heat, boost morale and form one larger visible search target. @X03,X04,E11
+action: Stay calm and avoid unnecessary treading or thrashing—extra movement pumps warm core blood into cold limbs and strips insulating water trapped inside clothing, accelerating hypothermia. @X02,X03
+failure: Thrashing arms wildly to "keep warm" in 50°F water, burning energy and accelerating core cooling dramatically. @X02,X03
+verify: Confirm buckled PFD supports airway effortlessly, high-heat-loss areas are shielded and groups huddle tightly together. @X03,X04,ED
+stop: Keep mouth clear of wave splash in rough seas—abandon curled postures immediately if rough waves roll you face-down, prioritizing clear breathing above all else. @X03,X04,X02
+diagram: PFD required for airway | Solo HELP shields torso/groin | Group HUDDLE shares heat & sight
+visual: Mechanism diagram illustrating solo HELP high-heat-loss shielding and group HUDDLE chest-to-chest circle with mandatory PFD flotation. Conceptual, not to scale.
+reviewer: Cold-water rescue and maritime safety
+
+Z12-P67 | Deploy marine distress signals (VHF-DSC, EPIRB/PLB, flares, mirror) legally and safely | USCG safety and NOAA SARSAT; new manuscript
+objective: Match electronic, visual and pyrotechnic marine distress signals to day/night conditions without causing burns or false alerts.
+applies: Life-threatening maritime distress on large lakes, coastal bays and offshore waters.
+equipment: Marine VHF/DSC radio, registered 406 MHz EPIRB or PLB, USCG-approved day/night visual signals (flares/orange smoke/LED SOS light/mirror).
+action: Activate electronic distress FIRST when in grave danger: broadcast MAYDAY on VHF Channel 16 / trigger VHF-DSC distress AND activate a registered 406 MHz EPIRB or PLB upright to clear sky so rescue centers receive immediate coordinates. @X05,N05
+action: Save visual signals (daylight orange smoke, signal mirror, dye marker; nighttime red flares or USCG-approved electronic LED distress light) for when a rescuing vessel or aircraft is actually in sight—do not burn through finite flares with an empty horizon. @X05,N09,ED
+action: Handle pyrotechnic flares strictly per label downwind over water away from fuel tanks, fiberglass decks, eyes and faces—hot dripping slag causes severe burns and boat fires; check USCG expiration dates regularly. @X05,C02,T01
+failure: Firing all three handheld flares at dusk with no boats in sight, or holding a burning flare upwind where hot slag drips onto hands and fuel hoses. @X05,T01
+verify: Confirm current NOAA beacon registration, unexpired USCG visual signals and downwind-over-water handling knowledge before launching. @N05,X05,ED
+stop: Firing marine distress signals or triggering EPIRB/PLB/MAYDAY in non-emergency situations is unlawful and endangers real rescues; cancel any accidental trigger immediately with the Coast Guard. @N05,X05
+diagram: Electronic SOS first (VHF/PLB) | Save visual flares for sighted craft | Hold flares downwind clear of fuel
+visual: Comparative configuration contrasting electronic 406 MHz/VHF-DSC alerts, daylight smoke/mirror signals and nighttime flare/LED safety rules. Conceptual, not to scale.
+reviewer: Maritime safety and USCG-aligned communications
+
+Z12-P68 | Recognize sea-fog disorientation, shipping lanes and low-visibility vessel collision risks | NWS fog safety and NOAA marine weather; new manuscript
+objective: Prevent small craft from getting lost offshore or run down by large commercial vessels in sudden coastal or lake fog.
+applies: Kayaks, canoes and small powerboats on coastal waters, harbors, estuaries and Great Lakes.
+equipment: Marine compass, waterproof chart, sound-producing horn/whistle, radar reflector/bright deck colors and VHF radio.
+action: Stay completely outside marked commercial shipping channels, ferry tracks and harbor fairways whenever fog threatens—large ships cannot stop quickly, cannot see low kayaks on radar and travel silently until dangerously close. @N07,X05,X06
+action: Before crossing any open bay when fog may roll in, take a verified magnetic compass course to shore and keep a loud horn/whistle ready to sound navigation fog warnings per maritime rules. @N07,N08,X05
+action: Head immediately to the nearest safe shoreline or hug shallow non-shipping edges the moment a low white marine fog bank appears offshore—do not gamble on beating advection fog across wide open water. @N07,X06
+failure: Paddling across a busy harbor entrance as coastal fog rolls in without a compass bearing, radar reflector or horn. @N07,X05
+verify: Confirm compass heading to safe shore, bright visibility gear, working whistle/horn and clear separation from commercial shipping lanes. @N07,N08,X05,ED
+stop: Dense zero-visibility sea fog ends open-water crossings immediately—land safely on nearest dry shore or hold clear of all traffic lanes and monitor VHF 16. @N07,X05
+diagram: Advection sea fog rolls in fast | Large ships cannot see kayaks | Hug safe shore outside ship lanes
+visual: Failure-mode maritime diagram showing blind commercial ship-lane collision risk in sea fog versus hugging safe shallow shore with compass and horn. Conceptual, not to scale.
+reviewer: Maritime safety and marine navigation
+
+Z12-P69 | Protect maritime drinking water and dry gear inside waterproof secured containers | USCG boating safety and CDC emergency water; new manuscript
+objective: Keep freshwater, spare dry layers, electronics and rescue signals intact and floating if a craft swamps or capsizes.
+applies: Canoe trips, sea kayaking, small-boat coastal passages and wet maritime landings.
+equipment: Heavy-duty dry bags clipped/tied cleanly (no tangle traps), sealed rigid freshwater jugs and floating waterproof radio/phone pouch.
+action: Pack ALL spare dry warm layers, sleeping gear, first-aid supplies and paper charts inside double-sealed roll-top dry bags, securing them cleanly inside hatches or tied neatly so loose floating ropes cannot entangle swimmers during a capsize. @X05,E10,K09
+action: Carry verified potable freshwater inside tough, sealed, saltwater-tight containers—never assume nearshore sea/estuary water can be treated in an emergency without desalination. @W06,X15,X05
+action: Keep life-critical emergency items (whistle, VHF/PLB in waterproof case, signal light, small knife) attached DIRECTLY to your worn PFD—not inside the boat hull—so a separated craft never strips away your ability to summon rescue. @X04,X05,N05
+failure: Leaving the waterproof VHF radio, PLB and spare fleece loose in an open canoe that sweeps downstream away from capsized paddlers. @X05,X04,N05
+verify: Confirm personal SOS tools ride on your PFD, dry bags seal watertight without tangle loops and freshwater jugs are locked salt-tight. @X04,X05,W06,ED
+stop: Damaged dry-bag seams, missing hatch covers or unsecured heavy loose gear that can sink or swamp a craft require correction before launching. @X05,E02
+diagram: SOS tools ON worn PFD | Dry gear in clean tied dry bags | Salt-tight potable water jugs
+visual: Exploded maritime packing layout separating body-worn PFD rescue essentials from hatch-secured dry bags and sealed freshwater jugs. Conceptual, not to scale.
+reviewer: Maritime safety and field equipment
+
+Z12-P70 | Compare equipment failure thresholds across bitter cold, extreme heat, altitude and salt | NPS Ten Essentials, NWS safety and CDC water; new manuscript
+objective: Anticipate how extreme environmental stress shifts equipment failure modes across all climate zones.
+applies: Packing and auditing field gear before transitioning between winter, desert, alpine, wetland or coastal trips.
+equipment: Environment-matched gear audit checklist and redundant low-tech backups.
+action: Audit power, hydration and fuel against climate extremes: bitter cold drains batteries/butane and cracks wet filters; desert heat triggers phone thermal shutdown and tire/coolant failure; high altitude cuts boiling temp (3 min >6,500 ft) and increases stove CO. @W28,W02,C05,X07
+action: Audit fabrics, fasteners and metals: wet marshes drive trench foot and soak down loft; coastal salt spray pits carbon steel and windblown sand jams zippers and stove jets; UV desert sun degrades nylon and plastics rapidly. @X13,K04,X07,E20
+action: Carry at least one zero-battery, low-tech backup matched to the specific environment (paper map + compass, foam pad, storm matches/ferro or boiling pot, wide-mouth bottles) so one climate failure never cascades into rescue. @E02,W26,K07
+failure: Bringing an unchanged fair-weather three-season backpacking kit into a −10°F winter plain, a 112°F desert canyon or a salty rocky coast. @E02,W28,X07,K04
+verify: Check every critical subsystem (shelter, insulation, water, navigation, comms) against the target environment's primary failure mechanism before departure. @E02,ED
+stop: Never commit to an extreme environment with untested or single-point-failure gear unsuited to the forecast temperature, humidity, elevation or salinity. @E02,E20
+diagram: Cold: batteries/butane/filters | Heat: thermal lock/tires/water | Salt/wet: rust, sand & soaked loft
+visual: Comparative matrix mapping dominant equipment failure modes across cold, extreme heat, high altitude, wetlands and coastal salt environments. Conceptual, not to scale.
+reviewer: Field equipment safety and multi-environment operations
+
+Z12-P71 | Manage rapid spring and autumn shoulder-season freeze-thaw transitions | NWS winter/flood safety and USGS snowmelt; new manuscript
+objective: Navigate unpredictable shoulder-season conditions where warm sunny days turn swiftly into freezing nights, rotten ice and flooded streams.
+applies: March–May and October–November travel across the Upper Midwest, northern forests and mountains.
+equipment: Full cold-wet rain/insulation kit, waterproof traction footwear and flood/ice awareness.
+action: Prepare for **both wet rain AND freezing cold on the same day** during spring and autumn—35°F–45°F sleet and freezing rain are prime hypothermia conditions because travelers pack too lightly for "almost summer" or "not yet winter." @E06,E10,E25
+action: Treat spring thaw rivers, flooded lowland trails and rotting honeycomb lake ice as peak seasonal hazards—snowmelt runoff swells creeks rapidly while melting ice becomes completely unpredictable. @W25,X01,E04
+action: Expect autumn daylight to shrink rapidly week by week and wet fallen leaves to hide roots, slick mud and faded trail treads. @E01,N01,ED
+failure: Hiking in late October wearing cotton fleece under sunny 58°F afternoon skies, then getting drenched by an unexpected 36°F evening rain front. @E06,E10
+verify: Confirm waterproof rain shell, dry synthetic/wool insulating layer, headlamp and shore-only ice/flood detour discipline on every shoulder-season trip. @E06,E10,E12,ED
+stop: Wet chilled clothing, rising snowmelt crossings or softening thaw ice end travel immediately—retreat to dry ground and warm shelter. @E06,N10,X01
+diagram: Warm day -> freezing rain night | Rotten spring ice & high creeks | Pack full wet-cold layers always
+visual: Environmental seasonal-transition profile pairing shoulder-season rain/freeze swings with snowmelt creek surges and rotten ice decay. Conceptual, not to scale.
+reviewer: Cold-weather safety and meteorology
+
+Z12-P72 | Manage rain-to-snow and mountain-to-valley environmental transitions mid-trip | NWS winter/weather and NPS mountain safety; new manuscript
+objective: Recognize mid-trip elevation or frontal transitions early enough to add layers, switch traction or retreat before getting trapped.
+applies: Routes crossing major elevation bands, lake-effect shoreline zones or fast-moving cold fronts.
+equipment: Accessible layered shells, dry spare gloves/hat, traction/poles if forecast and mapped intermediate bailout exits.
+action: Reassess clothing, footing and shelter margins EVERY time you cross a major transition—such as climbing above treeline into snow, dropping from a windy pass into a fog-filled valley or watching warm rain turn into wet heavy snow. @X10,E15,E10
+action: Put on waterproof shells and warm gloves EARLY at the first sign of sleet or dropping wind chill while hands still have full dexterity to work zippers and straps cleanly. @E10,E06,E15
+action: Recognize that wet snow transitioning to subfreezing dusk turns slushy trails into solid glare ice and freezes wet boots and tent zippers rock-hard overnight. @E25,E10,E20
+failure: Waiting until soaked through by cold mountain rain turning to snow before digging a rain jacket out of the bottom of the pack with numb fingers. @E10,E06,X10
+verify: Stage rain/wind shell, warm hat and gloves at the top of the pack and define an exact elevation or weather-change turnaround point. @E10,E02,ED
+stop: Rain turning to heavy wet snow, sudden freezing gusts or glazing trail surfaces without winter traction/shelter demands descending to lower sheltered terrain immediately. @X10,E25,E06
+diagram: Valley rain -> alpine wet snow | Layer up early while hands work | Descend before dusk freezes glaze
+visual: Environmental elevation/frontal transition cross-section showing valley rain shifting to wind-driven alpine snow and evening freeze-up. Conceptual, not to scale.
+reviewer: Mountain safety and meteorology
+
+Z12-P73 | Manage dry-to-flooded and drought-to-wildfire abrupt landscape shifts | NWS drought/wildfire/flood and Ready.gov; new manuscript
+objective: Adapt immediately when prolonged drought flips into extreme wildfire danger OR sudden cloudburst flash flooding.
+applies: Arid basins, drought-stressed forests, burn scars and summer backcountry corridors.
+equipment: Multi-channel alert receiver, extra safe water reserve, smoke protection awareness and multiple exit routes.
+action: Recognize the dual drought hazard: parched fuels and low humidity create explosive wildfire spread (triggering Red Flag Warnings and strict fire bans), while hardened hydrophobic soils and burn scars turn sudden summer rain into violent flash floods and debris flows. @X08,C18,X11
+action: Verify current fire restrictions, active wildfire smoke plumes and upstream storm cells before every dry-season trip, keeping two independent road or trail exits mapped. @C01,C19,T13,X08
+action: Carry extra safe water whenever seasonal creeks dry up or warm lakes develop blue-green algal blooms—never push forward hoping a dry desert or drought-stricken creek will flow ahead. @W14,W15,X08
+failure: Assuming a drought-parched canyon has zero flood hazard, or ignoring distant smoke plumes and Red Flag Warnings while camping down a single dead-end forest road. @X08,C18,C19,T13
+verify: Confirm fire-restriction status, upstream storm/burn-scar risks, full carried water supply and two open exit paths before departing. @C01,X08,X11,T13,ED
+stop: Active Red Flag wildfire approach, heavy smoke, Flash Flood Warning or dry emergency water reserves trigger immediate early evacuation along open routes. @C19,T16,T13,X08
+diagram: Parched fuels = wildfire/bans | Hard dry soil = sudden flash flood | Keep 2 exits & full carried water
+visual: Environmental drought-extremes diagram linking dry hydrophobic soil and parched fuels to both sudden flash-flood surges and Red Flag wildfire evacuation. Conceptual, not to scale.
+reviewer: Emergency management, wildfire safety and hydrology
+
+Z12-P74 | Apply universal extreme-environment abort thresholds before reaching point of no return | Ready.gov evacuation, NWS alerts and NPS safety; new manuscript
+objective: Enforce clear pre-committed go/no-go limits across winter, desert, mountain, wetland, coastal and maritime trips.
+applies: Any trip entering an extreme environment where delayed turnaround rapidly turns minor errors into rescue emergencies.
+equipment: Written pre-trip turnaround thresholds shared with the entire group before launching or stepping off.
+action: Set FOUR objective abort limits before starting: (1) **Resource limit** (half water in deserts, fuel reserve in winter, half battery/daylight), (2) **Weather/Water limit** (active Warnings, lightning, whiteout, Gale/Small Craft Advisory, rising tide/creek). @X07,T16,X06,X15
+action: Set (3) **Terrain/Hazard limit** (avalanche red flags, unverified ice, quaking bog, burn-scar storm, sneaker surf), and (4) **Human limit** (any signs of hypothermia, frostbite, heat stroke, HAPE/HACE, cold shock or group separation). @E23,E12,T03,T09,X09
+action: Treat ANY single crossed limit as an automatic group turnaround or shelter/evacuation trigger—never vote to "push just a little farther" past an objective life-safety threshold. @E11,T13,T06
+failure: Reaching the half-water mark or hearing afternoon thunder above treeline and deciding to push twenty more minutes for the summit view. @X07,X10,E07
+verify: Every group member can recite the four abort categories and has full authority to call an immediate safety stop without pushback. @E11,ED
+stop: Crossing ANY resource, weather, terrain or human medical threshold terminates the original objective immediately—pivot to safe exit, stabilization or rescue activation. @T06,T13,T02
+diagram: Resource or weather limit hit? | Terrain or medical red flag? | Abort early BEFORE no-return
+visual: Decision tree synthesizing universal extreme-environment abort triggers (resource, weather, terrain, medical) into immediate early exit or rescue. Conceptual, not to scale.
+reviewer: Search and rescue, emergency management and wilderness medicine
+
+Z12-P75 | Maintain qualified rescue, clinical and environmental review holds on all Z12 drafts | Editorial governance, WMS and agency safety limits; new manuscript
+objective: Ensure readers and reviewers understand that Z12 extreme-environment drafts are NOT field-tested or approved for public field use.
+applies: Governance and safety boundary across all 75 pages of Z12 Extreme Environments and adapted B012/B013 material.
+equipment: Card evidence drawers, Astra Escalation Register and official agency/clinical training courses.
+action: Recognize that high-consequence environmental procedures—including ice self-rescue, shore witness rescue, cold-water immersion care, avalanche avoidance, high-altitude HAPE/HACE recognition and maritime distress—carry fatal risk if misapplied and remain strictly on **publication: HOLD**. @X18,X02,X09,E23,X05
+action: Never represent AI-assisted editorial drafts, adapted historical B012/B013 cards or conceptual schematics as field-tested, laboratory-certified or independently approved by rescue or clinical specialists. @ED,X18,T04
+action: Pursue formal hands-on certified training (wilderness first aid, avalanche Level 1, coastal/maritime boating safety, swiftwater/ice rescue) from qualified human instructors before entering extreme environments. @E23,X05,T01,ED
+failure: Treating an unapproved draft encyclopedia card as a substitute for certified avalanche, boating, desert or wilderness medical training. @E23,X05,T01
+verify: Confirm every Z12 card displays its `Publication hold` banner, required specialist reviewer domain and traceable primary agency citations. @ED,X01,X09
+stop: Do NOT authorize public field use or merge Z12 drafts into a published edition until qualified human domain specialists, rescue professionals and medical reviewers sign off explicitly. @ED,X18,X09,T04
+diagram: Editorial draft ≠ field-tested | Specialist medical/rescue gates | Maintain Publication HOLD
+visual: Decision tree enforcing the mandatory governance gate between Z12 editorial drafts, Astra technical audit, qualified human specialist sign-off and any future release. Conceptual, not to scale.
+reviewer: Editorial governance, wilderness medicine and search and rescue
