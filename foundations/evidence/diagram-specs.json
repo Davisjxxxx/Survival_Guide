@@ -599,5 +599,501 @@
       "Stabilize in shade"
     ],
     "abort": "EMERGENCY: Confusion, heat illness or no safe water -> Call 911 / SAR"
+  },
+  "Z02-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Tarp / Bivy",
+        "note": "Light cover; demands dry pad & high skill",
+        "limit": "Limited storm protection"
+      },
+      {
+        "name": "3-Season Tent",
+        "note": "Rain, wind & bug protection in rated season",
+        "limit": "Not for heavy snow/gales"
+      },
+      {
+        "name": "Building / Hard Car",
+        "note": "Sturdy refuge for lightning & severe storms",
+        "limit": "Verify safe access route"
+      }
+    ]
+  },
+  "Z02-P14": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Low wet depression (avoid)",
+      "Durable elevated pad",
+      "Natural outward slope"
+    ],
+    "callout": "Select natural drainage — do not dig trenches or cut live trees"
+  },
+  "Z02-P15": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Cold damp valley hollow",
+      "Moderated mid-slope bench",
+      "Exposed windy ridge crest"
+    ],
+    "callout": "Dense cold air drains downhill into valleys on clear nights"
+  },
+  "Z02-P16": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "30-45° slope / cornice",
+      "Valley runout path (danger)",
+      "Outside connected paths"
+    ],
+    "callout": "Avalanches run far onto flat ground below steep slopes"
+  },
+  "Z02-P17": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Fractured cliff & loose talus",
+      "Saturated slump zone",
+      "Broad stable setback"
+    ],
+    "callout": "Freeze-thaw and rain dislodge rock and shallow roots"
+  },
+  "Z02-P18": {
+    "type": "mechanism",
+    "nodes": [
+      "Prevailing Wind & Frontal Shift",
+      "Low Narrow Windward Profile",
+      "Calmer Leeward Doorway"
+    ],
+    "callout": "Avoid facing open doors into wind — prevents parachute uplift",
+    "accent": "#4b7f93"
+  },
+  "Z02-P19": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Odor-free sleeping shelter",
+      "Downwind outdoor cook site",
+      "Approved wildlife storage"
+    ],
+    "callout": "Keep all food, trash and stoves out of tents and vestibules"
+  },
+  "Z02-P20": {
+    "type": "decision_tree",
+    "gates": [
+      "Sturdy building reachable?",
+      "Safe car or rated tent?",
+      "Use highest-grade refuge"
+    ],
+    "abort": "LAST RESORT: Improvised windbreak + dry insulation & signal"
+  },
+  "Z02-P21": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Tornado / Wind",
+        "note": "Basement or lowest interior room away from glass",
+        "limit": "Never shelter in tents/cars"
+      },
+      {
+        "name": "Smoke / Hazmat",
+        "note": "Interior room; close windows & shut HVAC off",
+        "limit": "Follow official all-clear"
+      },
+      {
+        "name": "Winter Outage",
+        "note": "Conserve heat in interior room with dry layers",
+        "limit": "Zero indoor fuel burning"
+      }
+    ]
+  },
+  "Z02-P22": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Floodplain & debris line",
+      "Saturated soft shoreline",
+      "High firm setback + exit"
+    ],
+    "callout": "Upstream storms raise rivers even under clear local skies"
+  },
+  "Z02-P23": {
+    "type": "mechanism",
+    "nodes": [
+      "Conduction / Convection / Evap",
+      "Matched Pad + Shell + Dry Loft",
+      "Reduced Core Heat Loss"
+    ],
+    "callout": "Every pathway needs its own barrier; one layer fails alone",
+    "accent": "#588296"
+  },
+  "Z02-P24": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Taut outer fly (air gap)",
+      "Open high & low vents",
+      "Dry loft clear of walls"
+    ],
+    "callout": "Vent warm breath out",
+    "accent": "#79a4b4",
+    "hazard": "Never dry tent with stove"
+  },
+  "Z02-P25": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Rainfly sheds outside",
+      "Groundsheet tucked INSIDE",
+      "Insulating pad above floor"
+    ],
+    "callout": "No protruding tarp lip",
+    "accent": "#d3ab58",
+    "hazard": "Avoid water funneling"
+  },
+  "Z02-P26": {
+    "type": "cross_section",
+    "layers": [
+      "Dry sleeping bag & sleeper",
+      "Insulated inflatable pad (comfort + warmth)",
+      "Closed-cell foam pad (puncture + backup barrier)",
+      "Frozen soil or compacted snow"
+    ],
+    "callout": "Stack pads to protect against punctures and cold conduction"
+  },
+  "Z02-P27": {
+    "type": "cross_section",
+    "layers": [
+      "Dry breathable outer shell (off wet walls)",
+      "Full uncompressed down / synthetic loft",
+      "Dry wool / synthetic sleep layers",
+      "Breathe OUTSIDE hood to prevent condensation"
+    ],
+    "callout": "Compressed or damp loft loses thermal resistance rapidly"
+  },
+  "Z02-P28": {
+    "type": "cross_section",
+    "layers": [
+      "Reflective sheet (wind & radiant barrier)",
+      "Controlled face/neck vent (prevent sweat soak)",
+      "Dry lofted clothing layers inside",
+      "Dedicated ground insulation pad below"
+    ],
+    "callout": "Thin foil alone conducts ground cold and tears near flames"
+  },
+  "Z02-P29": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cotton (Avoid)",
+        "note": "Holds water; chills skin rapidly when wet",
+        "limit": "Omit from cold/wet kits"
+      },
+      {
+        "name": "Wool / Synthetic",
+        "note": "Retains loft & wicks moisture far better",
+        "limit": "Still protect from wind"
+      },
+      {
+        "name": "Wet Outer Shell",
+        "note": "Shake snow & isolate outside dry bedding",
+        "limit": "Never pack on dry bag"
+      }
+    ]
+  },
+  "Z02-P30": {
+    "type": "mechanism",
+    "nodes": [
+      "Elevated High-Pitch Shade Tarp",
+      "Open Cross-Breeze Airflow",
+      "Lower Solar Heat Strain"
+    ],
+    "callout": "Zipped sunny tents overheat; monitor for heat stroke",
+    "accent": "#c8863c"
+  },
+  "Z02-P31": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dome (Freestanding)",
+        "note": "Holds shape on rock; STILL stake against wind",
+        "limit": "Wind lifts unstaked domes"
+      },
+      {
+        "name": "Tunnel Tent",
+        "note": "Strong wind profile if aligned & staked well",
+        "limit": "Collapses if end stake fails"
+      },
+      {
+        "name": "Trekking-Pole Tarp",
+        "note": "Light weight; relies totally on stake tension",
+        "limit": "Needs firm anchor ground"
+      }
+    ]
+  },
+  "Z02-P32": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "A-Frame Pitch",
+        "note": "Overhead rain shed + open end ventilation",
+        "limit": "Lower edges for blow-in"
+      },
+      {
+        "name": "Lean-To Pitch",
+        "note": "Directional shade or mild wind barrier",
+        "limit": "Exposed if wind shifts"
+      },
+      {
+        "name": "Low Storm Pitch",
+        "note": "Low windward wedge reduces gust lift",
+        "limit": "Not for lightning/tornado"
+      }
+    ]
+  },
+  "Z02-P33": {
+    "type": "mechanism",
+    "nodes": [
+      "Wind Uplift & Rain Roof Load",
+      "Poles, Seams & Tensioned Guys",
+      "Firm Ground Anchor Resistance"
+    ],
+    "callout": "Weakest link governs failure — no unvalidated load specs",
+    "accent": "#4e7c6d"
+  },
+  "Z02-P34": {
+    "type": "exploded",
+    "components": [
+      "Pole Ferrules & Cord",
+      "Fly Coating & Seams",
+      "Door Zipper Tracks",
+      "Splint & Tape Kit"
+    ],
+    "callout": "Pre-trip daylight pitch verifies every load-bearing part"
+  },
+  "Z02-P35": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Firm Soil",
+        "note": "Angled V/Y stake driven cleanly into earth",
+        "limit": "Recheck after soaking rain"
+      },
+      {
+        "name": "Sand / Loose Snow",
+        "note": "Wide snow stake or buried deadman anchor",
+        "limit": "Wire pegs pull straight out"
+      },
+      {
+        "name": "Rock / Hard Pad",
+        "note": "Lawful weighted rock wrap — no live roots",
+        "limit": "No universal pullout rating"
+      }
+    ]
+  },
+  "Z02-P36": {
+    "type": "exploded",
+    "components": [
+      "Reinforced Seam Loop",
+      "Pole Crossing Tab",
+      "Balanced Guy Vectors",
+      "High-Vis Clear Lanes"
+    ],
+    "callout": "Share gust loads evenly across reinforced points; keep exits clear"
+  },
+  "Z02-P37": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Coated Nylon",
+        "note": "Light & strong; sags when wet — retension",
+        "limit": "Melts/ignites near flame"
+      },
+      {
+        "name": "Coated Polyester",
+        "note": "Less wet stretch; UV life varies by coating",
+        "limit": "Melts/ignites near flame"
+      },
+      {
+        "name": "Plastic Sheeting",
+        "note": "Low tear resistance & heavy condensation",
+        "limit": "Tears rapidly from nicks"
+      }
+    ]
+  },
+  "Z02-P38": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Immovable low log / bank",
+      "Calmer leeward eddy",
+      "Dry insulated bed + exit"
+    ],
+    "callout": "ZERO overhead branch load",
+    "accent": "#d3ab58",
+    "hazard": "Do not stack heavy limbs"
+  },
+  "Z02-P39": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Unrated deadfall ridge/ribs",
+      "Wet debris adds roof load",
+      "Collapse risk over sleeper"
+    ],
+    "callout": "NOT a snow-load spec",
+    "accent": "#a9734f",
+    "hazard": "Prefer safe windbreak"
+  },
+  "Z02-P40": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Open directional windbreak",
+      "NO universal safe fire gap",
+      "Separate attended fire only"
+    ],
+    "callout": "Wind carries sparks/smoke",
+    "accent": "#c87b42",
+    "hazard": "Never burn inside enclosure"
+  },
+  "Z02-P41": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Avalanche/cornice check",
+      "Depth ≠ roof strength",
+      "Clear escape exit"
+    ],
+    "callout": "NOT an untrained build specification",
+    "accent": "#76a2b6",
+    "hazard": "Collapse & sweat risk"
+  },
+  "Z02-P42": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Unvalidated snow ceiling",
+      "Vent & exit drift risk",
+      "Trained supervision only"
+    ],
+    "callout": "Suffocation, collapse & CO boundary",
+    "accent": "#6d98ad",
+    "hazard": "ZERO combustion inside"
+  },
+  "Z02-P43": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Unstable soil / root-ball",
+      "Cave-in & seepage hazard",
+      "Stay on stable surface"
+    ],
+    "callout": "ZERO occupation — crush & water trap",
+    "accent": "#9e7b5a",
+    "hazard": "Reject pit/cavity roofs"
+  },
+  "Z02-P44": {
+    "type": "exploded",
+    "components": [
+      "Live Sound Trees",
+      "Wide Tree Straps",
+      "Low Safe Hang Zone",
+      "Underquilt / Pad"
+    ],
+    "callout": "Verify park rules, clear overhead snags & insulate underneath"
+  },
+  "Z02-P45": {
+    "type": "failure_mode",
+    "cause": "Heavy wet snow accumulates on tent or tarp roof",
+    "cue": "Bowed poles, sagging ceiling, pinched perimeter walls",
+    "correction": "Brush snow early, clear vents & vacate before snap"
+  },
+  "Z02-P46": {
+    "type": "failure_mode",
+    "cause": "High gusts or rain-softened soil pull anchors loose",
+    "cue": "Loud flapping, creeping stakes, stretched seam holes",
+    "correction": "Retension safely or abandon camp before severe storm"
+  },
+  "Z02-P47": {
+    "type": "failure_mode",
+    "cause": "Split pole ferrule, snapped cord or jammed door zipper",
+    "cue": "Sharp bent joint, snagged fabric, blocked exit track",
+    "correction": "Relieve tension, splint safely & downgrade storm margin"
+  },
+  "Z02-P48": {
+    "type": "failure_mode",
+    "cause": "Active runoff, low pad or protruding tarp floods floor",
+    "cue": "Cold corner puddles, wet seepage under sleeping pad",
+    "correction": "Bag dry insulation immediately & move to higher ground"
+  },
+  "Z02-P49": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Drifting leeward snowbank",
+      "Check vents & door track",
+      "Inside clearing tool"
+    ],
+    "callout": "Prevent silent drift seal",
+    "accent": "#79a4b6",
+    "hazard": "Keep air & exit open"
+  },
+  "Z02-P50": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Outdoor stove zone ONLY",
+      "Hard zero-CO barrier line",
+      "Battery light + dry layers"
+    ],
+    "callout": "Cracked vents ≠ safe CO",
+    "accent": "#d3ab58",
+    "hazard": "NO stoves in vestibules"
+  },
+  "Z02-P51": {
+    "type": "failure_mode",
+    "cause": "Blowing snow plugs stranded vehicle tailpipe while idling",
+    "cue": "Exhaust odor, snow bank at bumper, dizziness or nausea",
+    "correction": "Shut off engine, exit to fresh air, clear pipe or stay unidled"
+  },
+  "Z02-P52": {
+    "type": "decision_tree",
+    "gates": [
+      "Vents open & zero indoor fuel?",
+      "Zero headache/nausea/alarm?",
+      "Continue safe ventilation"
+    ],
+    "abort": "CO ALARM OR SYMPTOMS: Exit to fresh air immediately & call 911"
+  },
+  "Z02-P53": {
+    "type": "exploded",
+    "components": [
+      "Clear Exit Lane",
+      "Staged Headlamp",
+      "Footwear & Shell",
+      "Briefed 2nd Exit"
+    ],
+    "callout": "Stage night-egress gear by touch before turning lights off"
+  },
+  "Z02-P54": {
+    "type": "decision_tree",
+    "gates": [
+      "Tornado/flood/wildfire clear?",
+      "Zero thunder or limb fall?",
+      "Monitor weather alerts"
+    ],
+    "abort": "WARNING / HAZARD: Abandon tent for sturdy building or open exit"
+  },
+  "Z02-P55": {
+    "type": "decision_tree",
+    "gates": [
+      "Grab-bag & head count set?",
+      "Exit route free of flood/fire?",
+      "Relocate together & report"
+    ],
+    "abort": "ROUTE BLOCKED: Take safest high/clear refuge & call 911 immediately"
   }
 }

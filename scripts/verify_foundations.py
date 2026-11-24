@@ -70,7 +70,8 @@ def print_card(page, card, pdf, fmt_key):
                     'Stop or change course', 'Publication hold', 'Qualified review pending']
         if 'failure' in card:
             required.append('Failure recognition')
-        normal = ' '.join(re.sub(r'(?<=\S)([-–—/])\n(?=\S)', r'\1', sheet).split())
+        joined = re.sub(r'(?<=\S)\n([-–—/])(?=\S)', r'\1', sheet)
+        normal = ' '.join(re.sub(r'(?<=\S)([-–—/])\n(?=\S)', r'\1', joined).split())
         required.extend(card[field] for field in ('title', 'objective', 'applies', 'equipment'))
         statements = [*card['action'], card['verify'], card['stop']]
         if 'failure' in card:
