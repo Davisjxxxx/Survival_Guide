@@ -1,0 +1,81 @@
+P01   BLOCKED     GA-001: one user-role pass row satisfies a hazard topic
+        errors:   SAFETY_REVIEW_ROLE_MISSING
+P02   BLOCKED     GA-002: pass pair, then a LATER-dated fail
+        errors:   SAFETY_AUDIT_SUPERSEDED
+P03a  ELIGIBLE    pass pair dated 2099-01-01; fail appended afterwards dated 2026-11-17
+P03b  ELIGIBLE    pass pair dated 2026-01-15; fail appended afterwards but dated one day earlier
+P04   ELIGIBLE    fail row with EMPTY topics_reviewed on a hazard-tagged entry (after a pass pair)
+P05   ELIGIBLE    fail row naming a hazard topic the entry is NOT tagged with (after a pass pair)
+P06   ELIGIBLE    untagged, non-medical entry with a recorded safety FAIL
+P07   ELIGIBLE    SME fail, then the SAME two reviewers re-pass later with no content change
+P08a  BLOCKED     same-day rows, file order [pass, pass, fail]
+        errors:   SAFETY_AUDIT_SUPERSEDED
+P08b  ELIGIBLE    the SAME three rows re-sorted to file order [fail, pass, pass] (e.g. a spreadsheet sort)
+P08c  ELIGIBLE    fail row deleted from the ledger after it blocked
+P09   ELIGIBLE    both review classes satisfied by rows whose reviewer names are two AI model labels
+P36   ELIGIBLE    medical_guidance entry tagged with one topic: pair rows list ONLY that topic
+P52   ELIGIBLE    fail row keyed to revision 2 while the entry says revision 1 (same content hash)
+P53   ELIGIBLE    fail row whose entry_id is a one-character typo of the real id (orphan ledger row)
+P10a  ELIGIBLE    approvals: chatgpt approved -> chatgpt WITHDRAWN -> technical_reviewer approved (later)
+P10b  ELIGIBLE    approvals: chatgpt approved -> external_sme REJECTED -> user approved (later)
+P11a  ELIGIBLE    approvals: approval dated 2099-01-01, then chatgpt withdrawal appended dated 2026-11-17
+P11b  ELIGIBLE    approvals: withdrawal appended later but dated one day before the approval
+P24   ELIGIBLE    calendar-impossible dates accepted (decided_on 2026-02-31, as_of_date 2026-13-45)
+P12   ELIGIBLE    image audits: decision=pass with identification/license/provenance checked = false, role user
+P13   ELIGIBLE    species plate: ONE photo file catalogued twice (two ids, two 'views') satisfies the two-view rule
+P14   ELIGIBLE    species plate: both diagnostic photos are catalogued as a DIFFERENT subject than the entry's scientific_name
+P15   ELIGIBLE    species plate made only of views 'look_alike' + 'other' (no photo of the target organism)
+P16   ELIGIBLE    after approval + audits: manifest caption, subject names and license text rewritten
+        before: "ELIGIBLE"
+P17   ELIGIBLE    after approval + safety review: image file swapped, manifest hash updated, new image audit by role user
+P32   ELIGIBLE    two species entries with the same scientific_name and the same photos
+P34   ELIGIBLE    AI-generated illustration with blank subject fields and no overlay label
+P18   ELIGIBLE    Z05 entry typed 'general' with no hazard tags reaches published with one approval row and no safety review
+        safety_rows: 0
+P19a  ELIGIBLE    medical_guidance entry with ZERO claims (procedure [], claim_ids []) reaches published
+P19b  ELIGIBLE    species_profile with ZERO claims reaches approved
+P21   ELIGIBLE    after approval: claim text + locator rewritten, claim re-pointed, source edition changed
+        before: "ELIGIBLE"
+P22a  ELIGIBLE    verified source with rights_status=rejected and provenance_class=third_party_mirror backs a published entry
+P22b  ELIGIBLE    source with intended_use=background backs a verified claim and a published entry
+P49   ELIGIBLE    verified source with edition_date=UNKNOWN, revision_date=UNKNOWN, no retrieval date, no hash, type website
+P47   ELIGIBLE    untagged 'general' entry resting on a claim of type medical, risk critical
+P46   ELIGIBLE    coverage row plans the entry with hazard_topics=[HZ-FORAGING-ID]; the entry carries no tags
+P27   ELIGIBLE    hazard-tagged verified entry: abort_if='N/A', verify='-', dangers=['n/a']
+P28   ELIGIBLE    step text carries an inconsistent inline conversion ('4 in (100 mm)') outside the unit table
+P29   ELIGIBLE    HZ-HARVEST-LEGAL entry: as_of_date=1990-01-01, region=['anywhere']
+P23   INFO        unit pairs accepted/rejected by the round-trip rule
+        1 mi / 2 km: "ACCEPTED"
+        1 in / 3 cm: "ACCEPTED"
+        2 lb / 1 kg: "ACCEPTED"
+        3 ft / 1 m: "ACCEPTED"
+        1 gal / 4 L: "ACCEPTED"
+        1 qt / 1 L: "ACCEPTED"
+        1 yd / 1 m: "ACCEPTED"
+        18 °F / 10 °C: "REJECTED: '18 °F' converts to -8 °c, not '10 °C'; '10 °C' converts to 50 °f, not '18 °F'"
+        1/4 in / 6.35 mm: "REJECTED: unknown unit '/4 in' in '1/4 in'"
+        4-6 in / 102-152 mm: "REJECTED: unknown unit '-6 in' in '4-6 in'"
+        8 fl oz / 237 ml: "ACCEPTED"
+        1 tsp / 5 ml: "REJECTED: unknown unit 'tsp' in '1 tsp'"
+        15 psi / 103 kPa: "ACCEPTED"
+P20   ELIGIBLE    'general' entry carrying approved medical/species safety fields: are they in the release PDF?
+        release_ok: true
+        release_errors: []
+        approved_strings_present_in_pdf: {"contraindications": false, "emergency_evacuation_threshold": false, "positive_identification_warning": false, "identification_uncertainty": false, "processing_restrictions": false, "title": true}
+        body_text_in_pdf: false
+        alt_text_visible_in_pdf: false
+        alt_text_in_pdf_bytes: false
+        release_manifest_keys: ["artifact", "entries", "environment", "kind", "latex_runs", "output", "pipeline", "zone"]
+P25   INFO        release built; a safety FAIL / approval withdrawal is then recorded; what is left in dist?
+        first_release_ok: true
+        second_release_ok: false
+        second_release_errors: ["APPROVAL_NOT_CURRENT"]
+        files_in_dist_before: ["Z09_tools_construction.build.json", "Z09_tools_construction.pdf"]
+        files_in_dist_after_refusal: ["Z09_tools_construction.build.json", "Z09_tools_construction.pdf"]
+P26   ELIGIBLE    zone PDF with two published entries citing the same source: link/destination integrity
+        release_ok: true
+        release_errors: []
+        release_warnings: ["PDF_UNTAGGED"]
+        duplicate_destination_lines_in_latex_log: 3
+        sample: "pdfTeX warning (ext4): destination with the same identifier (name{sfe:src:SRC-0"
+        pages: "2"

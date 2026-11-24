@@ -1,0 +1,29 @@
+342d4550f233e405d5a128e2ca7b656d25c9dc96,bd409f87b51efcfd1492125999beae790b3ce66f,HEAD -> gate-a/review-fixes-1,RUN-004 review: apply bounded FR-017/FR-021 fixes and verification record
+bd409f87b51efcfd1492125999beae790b3ce66f,ca8172778499cc7e748b383ceb83665f2a8464cc,gate-a/remediation-3,docs(RUN-004): add contract and evidence reconciliation report (RUN004_REVIEW_RECONCILIATION.md)
+ca8172778499cc7e748b383ceb83665f2a8464cc,12e068452921f0a68a2ebd9c51875d477ba694d5,,fix(release,tests): block withdrawn-edition reactivation, verify no pin self-generation, clean P72 leak check and fix RUN-004 probe summary typo
+12e068452921f0a68a2ebd9c51875d477ba694d5,b394b63abbf04e592885bdfcf143d3b8b21b26b5,,docs(RUN-004): run record, finding disposition matrix, release-state & migration notes, and P81 manifest path fix
+b394b63abbf04e592885bdfcf143d3b8b21b26b5,c43edf449e692c447cbb746db1b1cc6a264b3a48,,feat(ledger): external ledger continuity pin closing bare-export tail truncation (FR-003 residual)
+c43edf449e692c447cbb746db1b1cc6a264b3a48,8f6a2979bfde9c6f0438be9c5029f8858d692f8e,,feat(assets): EXIF/GPS-stripped publication derivatives, controlled licence vocabulary, rights evidence and quarantine (FR-014, FR-015)
+8f6a2979bfde9c6f0438be9c5029f8858d692f8e,3ae627748487996cf90a4087b62116f210977e8a,,feat(release): immutable edition archive, active-release manifest, atomic promotion, withdrawal and crash recovery (FR-017)
+3ae627748487996cf90a4087b62116f210977e8a,1987142f983ae62e44df5055f9d69174901ad930,,feat(units): a measurement-accuracy policy, fractions, ranges, intervals, and conversions in text (FR-019)
+1987142f983ae62e44df5055f9d69174901ad930,29818702d4f99f1724943053a580ef78b5e9b107,,feat(textcheck): mandatory safety fields must say something; one justified exception (FR-021)
+29818702d4f99f1724943053a580ef78b5e9b107,e0ab463d729e4b84aac3e2acd3e5c62452aa47a6,,feat(evidence): minimum claims and claim types by entry type; safety fields bound to claims (FR-008)
+e0ab463d729e4b84aac3e2acd3e5c62452aa47a6,3ef62a7ca042521ddad6a6d6ad4a18448fcc7a96,,docs(RUN-004): remediation contract for FR-008, FR-021, FR-019, FR-017, FR-014, FR-015 and the FR-003 residual
+3ef62a7ca042521ddad6a6d6ad4a18448fcc7a96,80386a4097699b99d4c17dda9e54dd075f171f16,gate-a/remediation-2,docs(RUN-003): run record, finding outcomes, probe comparison, migration notes; the sabotage harness
+80386a4097699b99d4c17dda9e54dd075f171f16,0408d851ed3ba54faafd3248ef519ad548d350d1,,test: replace the hash-entry test RUN-002 named wrongly; a pass listing no subject covers nothing
+0408d851ed3ba54faafd3248ef519ad548d350d1,935b7c98d6a2623b13e599d788eef834a507ae08,,test(probes): the 59 Fable probes ported to the RUN-003 model; empty-repository history fix
+935b7c98d6a2623b13e599d788eef834a507ae08,44e45188a91f99bfa4f27a44780bc27fb50e367d,,feat(identification): a plate rests on a taxon, a determined specimen and distinct files (FR-012)
+44e45188a91f99bfa4f27a44780bc27fb50e367d,c9c381f47ec94928ee9a15d27f042ed4a8f68222,,feat(sources): a verified source is identifiable, and only a claim source may back a claim (FR-009)
+c9c381f47ec94928ee9a15d27f042ed4a8f68222,2624dd3a0d0ae9a3f3ba4d7488b30190c4e034d0,,feat(render): renderer totality; approved text the layout would drop is refused or found missing (FR-011)
+2624dd3a0d0ae9a3f3ba4d7488b30190c4e034d0,9ec8307e8ffbade5fce77c14aaca0d2655ddc0e9,,feat(classify): derive the required review subjects; declared tags only add (FR-001)
+9ec8307e8ffbade5fce77c14aaca0d2655ddc0e9,967b323cb797fbafca136467ae4683151e6df37f,,feat(review): registered reviewers, package-bound reviews, authoritative adverse decisions (FR-002, FR-004, FR-005, FR-009, FR-010, FR-029)
+967b323cb797fbafca136467ae4683151e6df37f,da37de18eb857d922e571b0a055a1597a66335a0,,feat(ledger): sequence-ordered hash-chained ledgers and an owner-rooted reviewer registry (FR-003, FR-005, FR-022 in part)
+da37de18eb857d922e571b0a055a1597a66335a0,a08104a540f8017ac8f60c3405e1585e542806e6,,docs(RUN-003): remediation contract mapping each finding to cause, change, criteria, tests, migration
+a08104a540f8017ac8f60c3405e1585e542806e6,7615ca9c9c0f91717350d70d44557e14e05cebbf,tag: gate-a-remediation-1, gate-a/remediation-1,docs: RUN-002 (GA-001, GA-002 remediation evidence) and governance updates
+7615ca9c9c0f91717350d70d44557e14e05cebbf,605ed92191cc013435524a76782476819c16438e,,fix: epstopdf "Shell escape feature is not enabled" on newer TeX Live (narrow, guarded)
+605ed92191cc013435524a76782476819c16438e,dc678192da569638946ae9c8e4671cff2f7e8b0f,,fix(GA-001, GA-002): independent, current, precedence-aware safety reviews
+dc678192da569638946ae9c8e4671cff2f7e8b0f,ecf4c60a31be981e731fc3d98eb559b94ccc8ecf,tag: gate-a-submission, gate-a/scaffold,docs: README, GOVERNANCE, CHANGELOG, RUN-LOG, PROJECT_AUDIT, BUILD_PLAN, RUN-001
+ecf4c60a31be981e731fc3d98eb559b94ccc8ecf,bf74b13599b63154a8ac14f1fbc0ad60bad9fbd7,,feat: reproducible pdfLaTeX pipeline and labelled dummy specimen proof
+bf74b13599b63154a8ac14f1fbc0ad60bad9fbd7,6a70e3dab6b1389fa583a942e0111b997d20b6bd,,feat: validation gates, approval ledgers, provenance checks and tests
+6a70e3dab6b1389fa583a942e0111b997d20b6bd,edce9259be23964396a47ab1b5bc35167b3765e2,,feat: 16-zone structure, schemas, templates and header-only registers
+edce9259be23964396a47ab1b5bc35167b3765e2,,,chore: import supplied handoff package and baseline audit verbatim

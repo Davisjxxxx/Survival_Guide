@@ -1,0 +1,36 @@
+sha256sum -c PRESERVED_FILES.sha256
+BASELINE_AUDIT_20261116.md: OK
+handoff/README_INSTALL.md: OK
+handoff/SHA256SUMS.txt: OK
+handoff/SURVIVAL_FIELD_ENCYCLOPEDIA_ASTRA_CLI_HANDOFF.md: OK
+handoff/Survival_Field_Encyclopedia_Master_Sprint_Plan_v1.md: OK
+handoff/Survival_Field_Encyclopedia_Sprint_Tracker_v1.xlsx: OK
+cd handoff && sha256sum -c SHA256SUMS.txt
+SURVIVAL_FIELD_ENCYCLOPEDIA_ASTRA_CLI_HANDOFF.md: OK
+Survival_Field_Encyclopedia_Master_Sprint_Plan_v1.md: OK
+Survival_Field_Encyclopedia_Sprint_Tracker_v1.xlsx: OK
+python3 -m sfe validate
+validate[content]: 0 error(s), 0 warning(s)
+python3 -m sfe validate --specimen
+validate[specimen]: 0 error(s), 0 warning(s)
+python3 -m pytest -q
+........................................................................ [ 11%]
+........................................................................ [ 23%]
+........................................................................ [ 35%]
+........................................................................ [ 47%]
+........................................................................ [ 58%]
+........................................................................ [ 70%]
+........................................................................ [ 82%]
+........................................................................ [ 94%]
+...................................                                      [100%]
+611 passed in 37.59s
+python3 -m sfe proof
+WARNING PDF_UNTAGGED                           SPECIMEN_LAYOUT_PROOF.pdf: PDF is not tagged: accessibility tagging is unavailable with TeX Live 2023 pdfLaTeX (open decision, see BUILD_PLAN.md)
+proof[letter]: OK (0 error(s), 1 warning(s))
+  pdf    /home/jd/Survival_Guide/proofs/SPECIMEN_LAYOUT_PROOF.pdf
+  sha256 92e10f77c3d6a14539f899440c50f17752825c707c1cf2c56d7884c577665eed
+python3 -m sfe repro
+repro: REPRODUCIBLE
+  build A sha256 92e10f77c3d6a14539f899440c50f17752825c707c1cf2c56d7884c577665eed
+  build B sha256 92e10f77c3d6a14539f899440c50f17752825c707c1cf2c56d7884c577665eed
+  manifests identical: True
