@@ -338,9 +338,9 @@ Z11-P27 | Understand map datums (WGS84 vs NAD27) and coordinate mismatch risk | 
 objective: Prevent hundreds-of-meters coordinate offsets caused by mixing historical NAD27 map grids with modern WGS84/NAD83 GPS receivers.
 applies: Plotting smartphone or handheld GPS coordinates onto older printed USGS paper quadrangles.
 equipment: Paper topographic map (datum printed in bottom-left margin) and GPS/phone app settings.
-action: Check the geodetic datum printed in the map margin before plotting GPS points: modern US Topo sheets and GPS receivers default to WGS84 or NAD83 (virtually identical for foot travel), whereas older historical USGS sheets often use NAD27. @N01,N04
-action: Recognize that plotting a WGS84 GPS coordinate straight onto an unadjusted NAD27 map grid can shift your plotted position by tens to hundreds of meters—enough to place you on the wrong side of a cliff or river. @N01,ED
-action: Match your GPS receiver datum setting to the paper map's printed datum (or switch to a modern WGS84/NAD83 US Topo sheet) and always cross-check the plotted point against surrounding terrain contours. @N01,N03,ED
+action: Read the exact horizontal datum and coordinate format in the map margin and receiver. UTM is a grid system, not a datum. Confirm both before plotting. @N01,N11
+action: NAD27, NAD83 and WGS84 identifiers do not justify a guessed shift. Use an authoritative transformation when the reference frames differ; the displacement depends on location and reference. @N11
+action: Record datum, format and grid zone as applicable. Cross-check the transformed position against identifiable terrain before using it for movement. @N01,N11,ED
 failure: Copying WGS84 smartphone coordinates onto a vintage 1965 NAD27 paper quadrangle in fog and mistaking the shifted dot for a safe trail crossing. @N01,N04,N07
 verify: Confirm the datum printed on your paper map matches your GPS display setting before plotting or reporting grid coordinates. @N01,ED
 stop: Never trust a plotted grid point that contradicts visible surrounding terrain; verify datum settings and landmarks before moving. @N01,N03
@@ -367,7 +367,7 @@ objective: Eliminate false compass deflections caused by nearby ferrous metal, e
 applies: Taking any magnetic compass reading near packs, trekking poles, vehicles, knives or iron-bearing rock (such as northern Minnesota's Iron Range and basalt formations).
 equipment: Baseplate compass held level at chest/waist height clear of metal.
 action: Step several paces clear of vehicles, steel bridges, trail signs, metal fences, powerlines, stoves, knives, phones, smartwatches and magnetic jacket snaps before reading the needle. @N08
-action: Test for localized geologic magnetic anomalies (common in iron-rich northern bedrock) by walking twenty steps and sighting back toward your starting point—if the reverse bearing disagrees sharply from 180 degrees opposite, local rock is deflecting the needle. @N08,ED
+action: If reciprocal bearings disagree, recheck observation technique, equipment and nearby interference. The mismatch alone cannot identify the cause or establish a safe route. @N08,ED
 action: Cross-check every field bearing against visible landforms and an oriented map so a localized iron-rock deflection cannot steer you quietly off-course. @N08,N03
 failure: Resting a compass directly on a metal car hood, steel stove pot or iron-rich outcrop to plot a wilderness bearing. @N08
 verify: Hold the compass clear of watches, phones and belt buckles, confirm steady needle alignment and verify agreement with surrounding landforms. @N08,ED
@@ -438,7 +438,7 @@ applies: Confirming progress along a verified linear feature when one clear mapp
 equipment: Oriented topographic map and baseplate compass with verified declination.
 action: Confirm positively which linear feature (trail, road, ridge crest or lakeshore) you are standing on right now. @N03,N01
 action: Take a field-to-map compass bearing (clear of metal, adjusted for current declination) to one unmistakable distant mapped landmark located roughly sideways (ideally 45–90 degrees off your trail axis). @N08,T08
-action: Lay the compass edge on the mapped landmark aligned with map north and trace back along the edge until it intersects your known trail or ridge—that intersection marks your approximate position. @N08,N03,ED
+action: Use the correct map reference for the bearing. From the plotted landmark, draw the reciprocal direction back toward your known linear feature. Treat their crossing as a candidate location and compare it with the terrain. @N03,T08,ED
 failure: Sighting a landmark nearly straight ahead down the trail (shallow angle), where tiny compass error slides the intersection point half a mile along the line. @N08,N03
 verify: Confirm surrounding slope direction, nearby stream crossings or contour shape matches the intersection point on the map. @N03,ED
 stop: If the landmark identity is uncertain (two similar peaks or islands) or terrain contradicts the intersection, treat position as unconfirmed until verified. @N03,T06
@@ -450,7 +450,7 @@ Z11-P35 | Cross-check two visible landmark bearings for an approximate position 
 objective: Estimate position on open terrain by intersecting bearings from two or three clearly identified mapped landmarks.
 applies: Open ridges, lakeshores or clearings with unambiguous sightlines to two or three distinct mapped features.
 equipment: Current topographic map, baseplate compass, current declination and pencil.
-action: Identify two (ideally three) unmistakable mapped landmarks separated by a wide angular spread (roughly 60 to 120 degrees apart) rather than clustered close together. @N03,N08
+action: Use unmistakable mapped landmarks in substantially different directions. Near-parallel bearings make an approximate intersection less useful. @N03,ED
 action: Measure each field-to-map bearing clear of metal, apply current declination cleanly and draw or project each line backward from its mapped landmark across the sheet. @T08,N08
 action: Read the intersection (or small triangle of uncertainty from three bearings) together with local contour elevation and slope direction—real field fixes are approximate zones, not pinpoint dots. @N03,N08,ED
 failure: Misidentifying the wrong mountain peak or lake bay and trusting a bogus intersection over obvious ground contours. @N03,N08
@@ -746,7 +746,7 @@ applies: Selecting emergency communication devices for backcountry, marine or di
 equipment: Device specifications and NOAA SARSAT registration record (for PLBs).
 action: Recognize that **cell phones** provide rich voice/text and local 911 location where towers exist (and newer satellite-SOS models add limited sky-view text), yet rely on fragile batteries and fail broadly in valleys and regional outages. @T11,T14,E02
 action: Recognize that **two-way satellite messengers** allow custom texting, medical updates, check-ins and rescue cancellation under open sky, yet require active paid subscriptions, battery charging and commercial relay routing. @T06,N05,ED
-action: Recognize that **406 MHz Personal Locator Beacons (PLBs)** require NO subscription, transmit high-power distress alerts directly to NOAA SARSAT satellites and carry a local 121.5 MHz homing beacon—yet are ONE-WAY distress-only devices for grave and imminent danger. @N05
+action: A registered 406 MHz PLB sends a distress alert through the Cospas-Sarsat system. Check the beacon model for homing or return-link features. A return-link indication is not a two-way conversation or a guarantee of rescue. @N05,N12
 failure: Carrying an unsubscribed satellite messenger or an unregistered PLB into remote wilderness assuming pressing SOS works automatically. @N05,T06
 verify: Confirm active subscription or current NOAA registration, full battery charge/expiration date and practiced activation steps before departure. @N05,E02,ED
 stop: Never rely on any electronic device as a substitute for safe route judgment, shelter or a written trip plan left with a trusted contact. @E01,N05,T11
@@ -758,12 +758,12 @@ Z11-P57 | Register and maintain a 406 MHz Personal Locator Beacon via NOAA SARSA
 objective: Ensure a 406 MHz PLB triggers accurate, rapid search-and-rescue dispatch when activated in grave danger.
 applies: Owners and travelers carrying 406 MHz Personal Locator Beacons (PLBs) or marine EPIRBs in the United States.
 equipment: 406 MHz PLB, NOAA beacon registration confirmation (updated every 2 years) and battery expiration check.
-action: Register every 406 MHz PLB with NOAA SARSAT immediately upon purchase (required by federal law, free of charge) and update emergency contacts, medical notes and trip details whenever they change or at least every two years. @N05
+action: Register a U.S.-coded beacon with NOAA, update changed information and verify registration at least every two years. Check the relevant authority for other country codes. @N12
 action: Inspect the printed battery expiration date and run only the manufacturer-specified self-test sequence (never trigger a live SOS test) before extended trips. @N05,E02
 action: In a true grave-and-imminent emergency, deploy the antenna vertically per instructions with the clearest possible unobstructed view of the sky, keep the beacon dry and stationary away from body shielding and leave it running continuously until rescue arrives. @N05
 failure: Activating a PLB deep inside a metal vehicle or wet pack under dense trees, or forgetting to update NOAA registration after buying a used beacon. @N05
 verify: Confirm current NOAA registration decal/receipt, valid battery expiration date and clear knowledge of antenna deployment and self-test limits. @N05,ED
-stop: Reserve 406 MHz PLB activation strictly for grave and imminent life-safety emergencies—if accidentally triggered, shut it off immediately and notify NOAA SARSAT / rescue authorities to cancel false dispatch. @N05
+stop: For an accidental activation, turn the beacon off and contact the appropriate rescue coordination center immediately with the beacon ID. Use the current NOAA false-alert instructions. @N12
 diagram: Free mandatory NOAA registration | Check battery date & self-test | Deploy antenna upright to open sky
 visual: Exploded PLB readiness view highlighting NOAA registration record, battery expiration date, vertical antenna deployment and clear sky-view hemisphere. Conceptual, not to scale.
 reviewer: Search and rescue and emergency communications
@@ -871,13 +871,13 @@ objective: Keep the stranded party safe and avoid endangering arriving ground te
 applies: Confirmed incoming ground rescue team or air ambulance/SAR helicopter approaching a waiting site.
 equipment: Weighted loose gear, eye/ear protection (hood/glasses), flashlight and clear group positioning.
 action: Secure EVERY lightweight loose object (tarps, sleeping pads, rain jackets, pack covers, trash bags) tightly inside weighted packs BEFORE any helicopter approaches—rotor downwash turns loose items into lethal debris. @N09,T01,ED
-action: Move the entire group together to the upwind edge of a clear open space away from dead snags, powerlines and loose branches; crouch low protecting eyes from blowing grit/snow and stay put until flight crew explicitly wave you forward. @N09,E13,T01,ED
-action: Never approach a helicopter from uphill (spinning main rotor dips dangerously low) or anywhere near the rear tail rotor—approach ONLY from the front/side within the pilot's direct sight when signaled by crew. @T01,N09,ED
+action: Wait clear of the aircraft where dispatch or the crew directs. Secure loose gear from a safe position before its arrival, and keep the group together. @N13,ED
+action: Do not approach or enter a landing area without explicit crew direction. Crew instructions determine the approach, if any; improvised approach rules are not a substitute. @N13,ED
 failure: Running enthusiastically downhill toward a landing rescue helicopter with a flapping orange tarp in hand. @T01,N09
 verify: Confirm all loose items are stowed/weighted, group waits together clear of snags/wires and zero movement occurs until crew direct approach. @N09,T01,ED
 stop: If approaching ground or air crews encounter an unseen hazard (downed wire, thin ice, active rockfall), signal danger clearly from safe ground without rushing into the hazard. @T01,E12,N09
-diagram: Stow ALL loose fabric/gear | Wait clear of snags & wires | Approach ONLY when crew signals
-visual: Environmental helicopter/ground-extraction safety zone marking stowed-gear boundary, tail-rotor/uphill exclusion zones and crew-directed approach corridor. Conceptual, not to scale.
+diagram: Secure loose gear from safety | Wait clear of aircraft | Follow the crew only
+visual: Waiting-site priorities. This is not a landing-zone or aircraft approach diagram.
 reviewer: Search and rescue and aviation safety
 
 Z11-P66 | Avoid dangerous bystander self-rescue into cliffs, fast water or weak ice | ARC first aid, MN DNR ice and NPS emergency plan; new manuscript
@@ -886,7 +886,7 @@ applies: Witnessing a companion fall down a cliff, sweep into fast water or brea
 equipment: Phone/communicator, reach/throw aids from solid ground and warm dry layers.
 action: Pause and assess scene safety FIRST—entering swiftwater, steep loose cliffs, avalanche paths or weak lake ice without specialized training and gear routinely turns one victim into multiple fatalities. @T01,X18,E12
 action: Activate 911 / SAR immediately with exact location and hazard details while establishing calm voice contact with the victim from a secure anchored position on solid ground. @T02,T06,X18
-action: Offer ONLY low-risk shore-based assistance (extending a long branch, throwing a float/rope from firm ground, lowering dry warm clothing if safely anchored)—never climb unroped down slick cliffs or walk out onto broken ice. @T01,X18,K09
+action: From stable land, offer reach or throw assistance only if it can be done safely. Stop if you could be pulled in or need to approach the hazard. Follow dispatcher directions. @X20,T02
 failure: Running straight onto cracked lake ice or diving into freezing swiftwater to grab a struggling friend without flotation or training. @T01,X18,X02
 verify: Confirm every rescuer remains on solid safe ground, 911 is activated and any reach/throw aid keeps the helper securely anchored back from the edge. @T01,T02,X18,ED
 stop: When shore-based reach/throw cannot safely reach the victim, stay alive on safe ground, keep visual tracking of their position and guide arriving professional rescue teams. @T01,T02,X18

@@ -338,14 +338,14 @@ Z09-P25 | Saw downed wood cleanly while reading top and bottom log bind | USFS t
 objective: Prevent pinched saw blades and sudden log drop by identifying compression and tension sides before cutting deadfall.
 applies: Cross-cutting small-to-medium downed deadwood on the ground for permitted fires or trail clearance.
 equipment: Sharp folding saw or bow saw, stable stance and eye awareness.
-action: Observe how the downed log rests on the ground before touching the saw: a log supported at both ends sags in the middle (compression on top, tension on bottom), whereas a cantilevered overhanging end compresses on the bottom and pulls apart on top. @K05
-action: Make a shallow relief cut on the compression side first if needed, or cut from the tension-relieved side while watching the kerf—if the saw slot begins closing, STOP and relieve bind from the opposite side or reposition the support. @K05,ED
+action: Assess supports, slope and visible movement before touching the saw. A simple support sketch only indicates one possible load case; hidden constraints and decay can change the bind. @K05,ED
+action: Leave cuts requiring bind relief, support changes or work on loaded timber to trained sawyers. If the kerf closes or wood moves, stop and clear the drop or roll area. @K05,K10
 action: Keep your feet, knees and supporting hand well clear of where the cut log end will drop or roll once severed. @K05,K08
 failure: Sawing straight down through the top of a sagging log until the gap clamps shut onto the blade, bending or snapping the saw teeth. @K05,K04
 verify: Confirm compression versus tension side before sawing, maintain an open kerf and keep feet out of the drop zone. @K05,K08,ED
 stop: Leave large-diameter logs, complex tangled blowdowns and stressed trunks untouched—they require professional sawyers and exceed camp hand-saw limits. @K05,K10
-diagram: Compression closes saw kerf | Tension pulls kerf open | Cut safely clear of drop zone
-visual: Cutaway beam-stress schematic showing top-compression/bottom-tension sag versus cantilevered overhang bind during downed-log sawing. Conceptual, not to scale.
+diagram: Inspect supports from clear ground | Closing kerf signals bind | Stop and clear movement path
+visual: Hazard-recognition schematic. No relief-cut sequence or work under stored load is shown.
 reviewer: Forestry tool safety and mechanical safety
 
 Z09-P26 | Recognize spring poles and hung-up deadfall before making a cut | USFS trail handtools; new manuscript
@@ -366,12 +366,12 @@ Z09-P27 | Split small straight-grained deadwood safely using wedges or batoning 
 objective: Expose dry interior kindling cleanly without snapping knife blades or risking hatchet misses.
 applies: Preparing modest dry inner kindling from straight-grained small deadwood for an authorized fire.
 equipment: Stout wooden wedges and wooden mallet, or—only for small straight wood within blade limits—a full-tang fixed blade and soft deadwood baton.
-action: Prefer splitting small straight knot-free wood (wrist diameter or smaller) using wooden wedges driven by a stout deadwood mallet once a shallow starter split opens. @K12,K06,K03
-action: If batoning small straight deadwood with a sturdy fixed-blade knife, strike ONLY on the blade spine near the tip with a smooth deadwood club (never steel or rock), stopping immediately if the blade hits a hard knot or starts twisting. @K02,K12,ED
+action: Prefer small prepared fuel or a purpose-designed splitting tool used as directed on a stable work surface. Avoid knotty, twisted or stressed stock. @K01,K08,ED
+action: If a knife is not specifically rated by its maker for impact use, do not strike it. No improvised blade or club configuration is validated here. @K01,K02,ED
 action: Never baton a folding knife, serrated thin blade or oversized knotty log—excess impact shears pivot pins, snaps tangs and bounces blades unpredictably. @K01,K02
 failure: Hammering a pocket folder with a granite rock through a twisted oak knot, shattering the lock and cutting the holding hand. @K02,K12
 verify: Confirm straight knot-free wood, flat solid base block, wooden striking baton only and zero fingers near the exit line. @K02,K12,ED
-stop: If the blade binds hard or wood twists around a knot, stop pounding—tap the blade gently back out or use a wooden wedge to open the split safely. @K02,K06,K12
+stop: If a blade or wedge binds, stop applying force, clear the area and follow the tool maker or instructor for safe recovery. @K01,K02,ED
 diagram: Straight knot-free wood | Wooden wedge & deadwood club | Never hammer steel or folders
 visual: Mechanism diagram illustrating controlled wedge-splitting force transfer on straight-grained deadwood versus knot-bind blade fracture. Conceptual, not to scale.
 reviewer: Forestry tool safety and materials mechanics
@@ -600,18 +600,18 @@ diagram: Shallow ramp/wedge trades distance | Friction resists sudden kickback |
 visual: Mechanism diagram mapping wedge/inclined-plane force vectors, friction losses and incremental cribbing stabilization. Conceptual, not to scale.
 reviewer: Mechanical safety and occupational safety
 
-Z09-P44 | Understand pulley redirects, friction loss and anchor load doubling | NPS Forces and Tools and USFS rigging boundaries; new manuscript
-objective: Recognize how simple rope redirects change pull direction and multiply forces on the overhead anchor point.
+Z09-P44 | Understand the force on a fixed pulley redirect | NPS Forces and Tools and USFS rigging boundaries; new manuscript
+objective: Distinguish rope-segment tension from the anchor reaction in an ideal redirect.
 applies: Understanding mechanical principles in camp utility hoists (such as food-bag hangs) without overstating uncertified load ratings.
 equipment: Utility rope, smooth low-friction redirect or simple camp pulley and sound overhead anchor.
-action: Recognize that passing a rope over a single stationary limb or fixed pulley changes pulling direction (1:1 ideal advantage) while ACTUALLY DOUBLING the total downward load on the anchor (load plus pulling force) minus friction. @K06,K09
-action: Recognize that high friction over a rough tree branch can cut usable lifting output in half while sawing straight through rope fibers and damaging tree bark. @K06,K09,K11
-action: Remember that compound pulley systems multiply tension on anchors rapidly—camp cordage, tree branches and improvised carabiners carry ZERO certified lifting or rescue ratings. @K06,K09
-failure: Hauling a heavy gear sack over a dead brittle branch using a redirect without realizing the branch carries roughly double the bag weight plus friction pull. @K06,K09,E13
-verify: Inspect the overhead anchor for soundness, keep bystanders completely out from underneath suspended utility loads and stay well within light camp loads. @K06,K09,K08,E13
+action: A fixed pulley can redirect a line without ideal mechanical advantage. The anchor reaction comes from the vector sum of the segment pulls. Equal tensions give about twice a segment tension only when both segments pull in the same direction. @K13
+action: A different rope angle changes the resultant. Friction can produce unequal tensions; shock loading and support geometry change the practical hazard. This diagram is a static model, not sizing guidance. @K13,ED
+action: Inspect the concept unloaded. Use rated and independently reviewed equipment and systems for actual lifting. Keep people out of the load path and overhead hazard area. @K09,K13,ED
+failure: Assuming a redirect anchor only carries one line tension, or treating a two-times sketch as a safe working rating. @K13
+verify: In a diagram, identify both force directions and explain why their angle matters. @K13,ED
 stop: Never stand beneath a hanging pack or food bag and never rig improvised pulleys to lift people or heavy equipment. @K08,K09
-diagram: 1:1 redirect changes pull angle | Anchor sees ~2x downward load | Friction cuts output & wears cord
-visual: Mechanism diagram illustrating single-redirect load doubling on an overhead anchor, branch friction loss and zero-standing fall zone below. Conceptual, not to scale.
+diagram: Two rope pulls act on the pulley | Resultant depends on angle | No working-load rating
+visual: Free-body sketches show equal-tension parallel and right-angle examples under a static idealization.
 reviewer: Mechanical engineering and rigging safety
 
 Z09-P45 | Understand why conceptual mechanical diagrams are not load certifications | NPS Forces and Tools, OSHA and editorial governance; new manuscript

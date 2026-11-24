@@ -354,32 +354,31 @@
     "callout": "Pre-filter protects gear; never yields potable water"
   },
   "Z04-P34": {
-    "type": "cross_section",
-    "layers": [
-      "Protozoan cysts (1-15 um: blocked ≤1 um)",
-      "Bacteria (0.2-2 um: blocked ≤0.2 um)",
-      "Viruses (0.02-0.1 um: pass typical filters)",
-      "Dissolved chemicals (pass mechanical pores)"
+    "type": "mechanism",
+    "nodes": [
+      "Identify exact model",
+      "Check its organism claim",
+      "Add matched barriers"
     ],
-    "callout": "Pair filtration with disinfection for viral risk"
+    "callout": "A pore number is not a complete performance claim"
   },
   "Z04-P35": {
     "type": "comparison",
     "options": [
       {
-        "name": "Standard Chlorine",
-        "note": "Kills bacteria/viruses; weak on Crypto",
-        "limit": "Parasite gap in cold water"
+        "name": "Routine chlorine",
+        "note": "Typical doses miss Crypto",
+        "limit": "Parasite gap"
       },
       {
-        "name": "Cyst Filter (≤1 um)",
-        "note": "NSF 53/55 or ≤1 um absolute removes cysts",
-        "limit": "Protect from freezing"
+        "name": "Cyst filter",
+        "note": "Specific cyst claim or ≤1 μm absolute",
+        "limit": "No assumption of viral protection"
       },
       {
-        "name": "Rolling Boil",
-        "note": "1 min (3 min >6,500 ft) kills all microbes",
-        "limit": "No chemical removal"
+        "name": "Rolling boil",
+        "note": "CDC time and altitude rule",
+        "limit": "Chemical hazards excluded"
       }
     ]
   },
@@ -395,9 +394,9 @@
   },
   "Z04-P37": {
     "type": "failure_mode",
-    "cause": "Damp pores freeze overnight in outer pack pocket",
-    "cue": "Silent micro-fracture inside ceramic or hollow fibers",
-    "correction": "Insulate inside sleeping bag or switch to boiling"
+    "cause": "Wetted filter may freeze",
+    "correction": "Isolate filter",
+    "cue": "Damage may not be visible"
   },
   "Z04-P38": {
     "type": "exploded",
@@ -412,22 +411,20 @@
   "Z04-P39": {
     "type": "mechanism",
     "nodes": [
-      "Verify 5%-9% Unscented Label",
-      "Clarify + Measure Dose / Gal",
-      "Mix & Wait ≥30 Min (Faint Odor)"
+      "Confirm exact formulation",
+      "Use one official protocol",
+      "Verify dose and contact time"
     ],
-    "callout": "Ineffective on Cryptosporidium, chemicals & HAB toxins",
-    "accent": "#4d859a"
+    "callout": "Odor does not prove safe drinking water"
   },
   "Z04-P40": {
     "type": "mechanism",
     "nodes": [
-      "Match Chemistry & User Screen",
-      "Clarify + Cold-Water Time Adjust",
-      "Complete Full Contact Wait"
+      "Confirm target and product",
+      "Use label water conditions",
+      "Complete required contact time"
     ],
-    "callout": "Avoid iodine in pregnancy, thyroid disease or allergy",
-    "accent": "#5b899e"
+    "callout": "Do not invent cold-water dose or contact time"
   },
   "Z04-P41": {
     "type": "comparison",
@@ -572,9 +569,9 @@
   },
   "Z04-P52": {
     "type": "failure_mode",
-    "cause": "Filter bypass, old weak bleach or aborted UV cycle",
-    "cue": "Sudden fast flow, zero chlorine odor, error blink",
-    "correction": "Quarantine batch immediately; re-boil or switch supply"
+    "cause": "Treatment status uncertain",
+    "correction": "Quarantine batch",
+    "cue": "Bypass, dose or cycle failure"
   },
   "Z04-P53": {
     "type": "failure_mode",
@@ -856,12 +853,11 @@
   "Z02-P33": {
     "type": "mechanism",
     "nodes": [
-      "Wind Uplift & Rain Roof Load",
-      "Poles, Seams & Tensioned Guys",
-      "Firm Ground Anchor Resistance"
+      "Roof gravity load",
+      "Frame and fabric wind load",
+      "Line tension at anchors"
     ],
-    "callout": "Weakest link governs failure — no unvalidated load specs",
-    "accent": "#4e7c6d"
+    "callout": "Actual capacity requires design and site verification"
   },
   "Z02-P34": {
     "type": "exploded",
@@ -877,19 +873,19 @@
     "type": "comparison",
     "options": [
       {
-        "name": "Firm Soil",
-        "note": "Angled V/Y stake driven cleanly into earth",
-        "limit": "Recheck after soaking rain"
+        "name": "Firm site",
+        "note": "Use model instructions",
+        "limit": "No capacity from appearance"
       },
       {
-        "name": "Sand / Loose Snow",
-        "note": "Wide snow stake or buried deadman anchor",
-        "limit": "Wire pegs pull straight out"
+        "name": "Changing ground",
+        "note": "Recheck movement",
+        "limit": "Hand check is not a load test"
       },
       {
-        "name": "Rock / Hard Pad",
-        "note": "Lawful weighted rock wrap — no live roots",
-        "limit": "No universal pullout rating"
+        "name": "Anchor creeps",
+        "note": "Unsafe to rely on",
+        "limit": "Move to suitable refuge"
       }
     ]
   },
@@ -936,16 +932,10 @@
     "hazard": "Do not stack heavy limbs"
   },
   "Z02-P39": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Unrated deadfall ridge/ribs",
-      "Wet debris adds roof load",
-      "Collapse risk over sleeper"
-    ],
-    "callout": "NOT a snow-load spec",
-    "accent": "#a9734f",
-    "hazard": "Prefer safe windbreak"
+    "type": "failure_mode",
+    "cause": "Unknown roof structure",
+    "correction": "Stay clear",
+    "cue": "Load or movement"
   },
   "Z02-P40": {
     "type": "cutaway",
@@ -960,28 +950,17 @@
     "hazard": "Never burn inside enclosure"
   },
   "Z02-P41": {
-    "type": "cutaway",
-    "variant": "ground_pit",
-    "layers": [
-      "Avalanche/cornice check",
-      "Depth ≠ roof strength",
-      "Clear escape exit"
-    ],
-    "callout": "NOT an untrained build specification",
-    "accent": "#76a2b6",
-    "hazard": "Collapse & sweat risk"
+    "type": "branch",
+    "question": "Would the plan put snow overhead?",
+    "yes": "Use stable surface refuge",
+    "no": "Check terrain and exposure",
+    "stop": "Avoid avalanche runouts and drifting exits"
   },
   "Z02-P42": {
-    "type": "cutaway",
-    "variant": "ground_pit",
-    "layers": [
-      "Unvalidated snow ceiling",
-      "Vent & exit drift risk",
-      "Trained supervision only"
-    ],
-    "callout": "Suffocation, collapse & CO boundary",
-    "accent": "#6d98ad",
-    "hazard": "ZERO combustion inside"
+    "type": "failure_mode",
+    "cause": "Snow overhead",
+    "correction": "Leave for safer shelter",
+    "cue": "Roof or exit failure"
   },
   "Z02-P43": {
     "type": "cutaway",
@@ -1266,19 +1245,19 @@
     "type": "comparison",
     "options": [
       {
-        "name": "Canister Stove",
-        "note": "On/off valve (often Stage 1/2 compliant)",
-        "limit": "Cold drops vapor output"
+        "name": "Canister",
+        "note": "Check model fuel and limits",
+        "limit": "Check current order"
       },
       {
-        "name": "Liquid Fuel Stove",
-        "note": "Strong in freezing cold & high elevation",
-        "limit": "Careful outdoor priming"
+        "name": "Liquid fuel",
+        "note": "Follow model instructions",
+        "limit": "No universal altitude rating"
       },
       {
-        "name": "Solid / Alcohol",
-        "note": "Simple light burner; low wind resistance",
-        "limit": "Often banned (no shutoff)"
+        "name": "Solid / alcohol",
+        "note": "Verify appliance permitted",
+        "limit": "Choose no-fire if uncertain"
       }
     ]
   },
@@ -1293,14 +1272,10 @@
     "callout": "Cool completely, refuel away from flames & move off spills"
   },
   "Z03-P30": {
-    "type": "exploded",
-    "components": [
-      "Matched Pot Base",
-      "Level Stove Arms",
-      "Vented Windblock",
-      "Cool Canister Zone"
-    ],
-    "callout": "NEVER wrap tight foil around canister stoves (rupture risk)"
+    "type": "failure_mode",
+    "cause": "Restricted airflow or reflected heat",
+    "correction": "Stop and move clear if needed",
+    "cue": "Fuel system warms or flame changes"
   },
   "Z03-P31": {
     "type": "decision_tree",
@@ -1388,14 +1363,10 @@
     "hazard": "ZERO indoor/garage fuel use"
   },
   "Z03-P41": {
-    "type": "mechanism",
-    "nodes": [
-      "Cold Pot / Altitude Combustion",
-      "Semi-Enclosed Wind Eddy Trap",
-      "Odorless Lethal CO Buildup"
-    ],
-    "callout": "Blue flame ≠ zero CO; operate only in open outdoor air",
-    "accent": "#a05332"
+    "type": "failure_mode",
+    "cause": "Fuel combustion",
+    "correction": "Fresh air and help",
+    "cue": "CO may collect invisibly"
   },
   "Z03-P42": {
     "type": "comparison",
@@ -1750,16 +1721,10 @@
     "hazard": "Never pry chunks sideways"
   },
   "Z09-P25": {
-    "type": "cutaway",
-    "variant": "ground_pit",
-    "layers": [
-      "Top compression (closes)",
-      "Neutral wood center",
-      "Bottom tension (opens)"
-    ],
-    "callout": "Read log sag vs overhang bind before sawing",
-    "accent": "#8c704c",
-    "hazard": "Keep feet clear of drop"
+    "type": "failure_mode",
+    "cause": "Loaded or pinned timber",
+    "correction": "Stop and clear drop path",
+    "cue": "Kerf closes or wood moves"
   },
   "Z09-P26": {
     "type": "failure_mode",
@@ -1768,14 +1733,10 @@
     "correction": "Do NOT cut; detour wide & gather flat loose deadwood"
   },
   "Z09-P27": {
-    "type": "mechanism",
-    "nodes": [
-      "Straight Knot-Free Wood",
-      "Wooden Wedge + Deadwood Club",
-      "Clean Controlled Split"
-    ],
-    "callout": "Never hammer folders or hit steel with rock/steel",
-    "accent": "#8c6d48"
+    "type": "failure_mode",
+    "cause": "Tool or wood mismatched",
+    "correction": "Stop applying force",
+    "cue": "Blade binds or twists"
   },
   "Z09-P28": {
     "type": "cutaway",
@@ -1959,14 +1920,7 @@
     "accent": "#7c6c4e"
   },
   "Z09-P44": {
-    "type": "mechanism",
-    "nodes": [
-      "Utility Pull + Load Weight",
-      "Fixed Overhead Redirect (~2x Load)",
-      "Friction Loss & Rope Wear"
-    ],
-    "callout": "Inspect overhead branch; NEVER stand underneath or lift people",
-    "accent": "#a05332"
+    "type": "force_redirect"
   },
   "Z09-P45": {
     "type": "decision_tree",
@@ -2067,7 +2021,7 @@
       "Uphill V = valley/stream",
       "Blue = water/marsh barrier"
     ],
-    "callout": "Reconstructed B014-P04 — symbols-only Ely 1965 map in evidence",
+    "callout": "Ely 1965: symbols only",
     "accent": "#5f98ad"
   },
   "Z11-R05": {
@@ -2304,10 +2258,24 @@
     ]
   },
   "Z11-P27": {
-    "type": "failure_mode",
-    "cause": "Plotting modern WGS84 GPS coordinates onto older NAD27 paper grid",
-    "cue": "Plotted dot shifts tens to hundreds of meters off actual terrain",
-    "correction": "Match GPS datum to map margin or use current WGS84/NAD83 topo"
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Map reference",
+        "note": "Read datum and grid",
+        "limit": "UTM is not a datum"
+      },
+      {
+        "name": "Receiver reference",
+        "note": "Record both identifiers",
+        "limit": "No universal shift"
+      },
+      {
+        "name": "Compare",
+        "note": "Use authoritative transformation",
+        "limit": "Check nearby terrain"
+      }
+    ]
   },
   "Z11-P28": {
     "type": "exploded",
@@ -2621,14 +2589,11 @@
     ]
   },
   "Z11-P57": {
-    "type": "exploded",
-    "components": [
-      "Free NOAA Registration",
-      "Battery Exp Check",
-      "Upright Sky Antenna",
-      "Grave Danger Only"
-    ],
-    "callout": "Update NOAA SARSAT registration every 2 years; run self-test only"
+    "type": "branch",
+    "question": "Real distress or false alert?",
+    "yes": "Activate for real distress",
+    "no": "Contact coordination center for false alert",
+    "stop": "Keep registration and contacts current"
   },
   "Z11-P58": {
     "type": "environment",
@@ -2711,14 +2676,11 @@
     "callout": "Never mix DMS and decimal degrees or invent uncertain landmarks"
   },
   "Z11-P65": {
-    "type": "environment",
-    "variant": "terrain",
-    "zones": [
-      "Tail rotor & uphill (danger)",
-      "Stowed gear clear of snags",
-      "Front crew-signaled approach"
-    ],
-    "callout": "Crouch upwind, protect eyes & wait until flight crew wave forward"
+    "type": "branch",
+    "question": "Has the crew directed movement?",
+    "yes": "Follow explicit directions",
+    "no": "Wait clear of aircraft",
+    "stop": "Keep out of the landing area"
   },
   "Z11-P66": {
     "type": "decision_tree",
@@ -2952,30 +2914,25 @@
   "Z12-P20": {
     "type": "mechanism",
     "nodes": [
-      "~1 Min: Control Cold-Shock Gasp",
-      "~10 Min: Exit/Secure Before Swim Fails",
-      "~1 Hr+: Conserve Heat w/ Worn PFD"
+      "Cold shock can be immediate",
+      "Grip and swimming can fail",
+      "Core cooling time varies"
     ],
-    "callout": "Cold shock & swim failure drown strong swimmers long before hypothermia",
-    "accent": "#3f7a8f"
+    "callout": "1–10–1 is a mnemonic, not a rescue deadline"
   },
   "Z12-P21": {
-    "type": "decision_tree",
-    "gates": [
-      "Breathing calm & turned back?",
-      "Kicked horizontal onto rim?",
-      "Roll flat to shore & 911"
-    ],
-    "abort": "CANNOT EXIT: Hook arms on shelf, blow whistle & keep airway clear (review pending)"
+    "type": "branch",
+    "question": "Can you get out safely?",
+    "yes": "Face approach route, kick and pull",
+    "no": "Protect airway and signal",
+    "stop": "No guaranteed ice edge or time"
   },
   "Z12-P22": {
-    "type": "decision_tree",
-    "gates": [
-      "911 called & anchored on shore?",
-      "Pole reach or float throw safe?",
-      "Pull low from firm land"
-    ],
-    "abort": "UNREACHABLE: Stay alive on shore, track victim & guide arriving rescue"
+    "type": "branch",
+    "question": "Can you safely help from land?",
+    "yes": "Reach or throw from stable shore",
+    "no": "Call and direct responders",
+    "stop": "Stay on land and release if pulled"
   },
   "Z12-P23": {
     "type": "decision_tree",
@@ -3066,13 +3023,11 @@
     ]
   },
   "Z12-P30": {
-    "type": "decision_tree",
-    "gates": [
-      "Confused/collapsed in heat?",
-      "911 called immediately?",
-      "Douse cold water + fan NOW"
-    ],
-    "abort": "IMPAIRED AIRWAY: Zero oral drink; cool aggressively until EMS arrives"
+    "type": "branch",
+    "question": "Possible heat stroke?",
+    "yes": "Call EMS and begin cooling",
+    "no": "Reassess and get help as needed",
+    "stop": "Follow emergency directions"
   },
   "Z12-P31": {
     "type": "environment",
@@ -3152,13 +3107,11 @@
     "accent": "#4e7c8f"
   },
   "Z12-P40": {
-    "type": "decision_tree",
-    "gates": [
-      "Short of breath at rest (HAPE)?",
-      "Staggering/confused (HACE)?",
-      "Emergency medical descent"
-    ],
-    "abort": "HAPE OR HACE: Descend IMMEDIATELY accompanied & call 911/SAR"
+    "type": "branch",
+    "question": "Possible HAPE or HACE?",
+    "yes": "Activate rescue and descend safely",
+    "no": "Reassess before ascent",
+    "stop": "Do not send an impaired person alone"
   },
   "Z12-P41": {
     "type": "environment",
@@ -3229,7 +3182,7 @@
       "Deep cold muck & hidden water",
       "Firm upland mineral ridge"
     ],
-    "callout": "Probe uncertain damp edges with a pole; avoid quaking mats",
+    "callout": "Avoid floating mats",
     "accent": "#5f8c7b",
     "hazard": "Sudden deep plunge risk"
   },
@@ -3237,11 +3190,11 @@
     "type": "cutaway",
     "variant": "ground_pit",
     "layers": [
-      "Snow-drifted hollow ice crust",
-      "Drained beaver pond / peat warmth",
-      "Stay on upland winter ridge"
+      "Snow covers wetland ice",
+      "Hidden weak ice",
+      "Verified dry land"
     ],
-    "callout": "Wetland ice stays erratic all winter even in subzero spells",
+    "callout": "Snow can hide thin ice",
     "accent": "#6a9cb0",
     "hazard": "Boot-soak hypothermia trap"
   },
@@ -3322,19 +3275,21 @@
     "accent": "#3e7d94"
   },
   "Z12-P57": {
-    "type": "failure_mode",
-    "cause": "Irregular giant sneaker wave sweeps slick kelp rocks & drift logs",
-    "cue": "Wet black algae stain, rolling beach logs or breaking jetty spray",
-    "correction": "Never turn back to surf; watch sets from high dry ground"
+    "type": "environment",
+    "variant": "coastal",
+    "zones": [
+      "Wave reaches beyond earlier surf",
+      "Avoid mobile logs",
+      "Remain well back"
+    ],
+    "callout": "A quiet interval gives no clearance"
   },
   "Z12-P58": {
-    "type": "decision_tree",
-    "gates": [
-      "Quake, ocean roar or drawback?",
-      "Evacuate ON FOOT uphill NOW?",
-      "Stay high hours until all-clear"
-    ],
-    "abort": "TSUNAMI CUE/WARNING: Drop gear/car, climb high inland immediately"
+    "type": "branch",
+    "question": "Natural or official tsunami warning?",
+    "yes": "Use mapped evacuation route",
+    "no": "Stay alert to official directions",
+    "stop": "Wait for official all-clear"
   },
   "Z12-P59": {
     "type": "decision_tree",
@@ -3352,16 +3307,14 @@
     "correction": "Seal electronics/tools, rinse fresh & hold high ground in fog"
   },
   "Z12-P61": {
-    "type": "cutaway",
-    "variant": "vessel",
-    "layers": [
-      "Salt tidal wedge pushes upriver",
-      "Boil/filter CANNOT desalinate",
-      "Upstream freshwater / carried safe"
+    "type": "environment",
+    "variant": "coastal",
+    "zones": [
+      "Tidal water mixes inland",
+      "Appearance gives no assurance",
+      "Carry verified potable water"
     ],
-    "callout": "Carry full potable reserves on coastal beaches & islands",
-    "accent": "#4e8ca3",
-    "hazard": "NEVER drink seawater"
+    "callout": "No fixed freshwater boundary"
   },
   "Z12-P62": {
     "type": "exploded",
@@ -3404,13 +3357,24 @@
     ]
   },
   "Z12-P65": {
-    "type": "decision_tree",
-    "gates": [
-      "Hull buoyant & stays afloat?",
-      "Safe shore within short window?",
-      "Climb atop hull & signal"
-    ],
-    "abort": "FAR COLD SHORE: Stay w/ visible hull wearing PFD — do NOT long-swim"
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Flotation",
+        "note": "Protect airway and stay findable",
+        "limit": "Assess stability"
+      },
+      {
+        "name": "Exit water",
+        "note": "Stay supported if safe",
+        "limit": "Avoid capsize danger"
+      },
+      {
+        "name": "Immediate danger",
+        "note": "Use verified immediate safety",
+        "limit": "No fixed swim time"
+      }
+    ]
   },
   "Z12-P66": {
     "type": "mechanism",

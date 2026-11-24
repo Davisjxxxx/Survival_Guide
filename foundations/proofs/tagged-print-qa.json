@@ -1,0 +1,192 @@
+{
+  "foundations.pdf": {
+    "sheets": 177,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 177,
+    "bookmarks": 177,
+    "extracted_section_order": true,
+    "sha256": "5797c3fae2c2ffc3f49445416577fe2502f87abf0bb621fb6d818edd666a4d0e"
+  },
+  "foundations-a4.pdf": {
+    "sheets": 177,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 177,
+    "bookmarks": 177,
+    "extracted_section_order": true,
+    "sha256": "0b0599dd0d5a871ca753f00f623ecfba0a1250f5fc65cabbc21258bf243620f9"
+  },
+  "encyclopedia-letter.pdf": {
+    "sheets": 376,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 376,
+    "bookmarks": 376,
+    "extracted_section_order": true,
+    "sha256": "ef0728b18e18bc117dff31aeed035c0903448f9b2d1c7120135a75501a87ec2d"
+  },
+  "encyclopedia-a4.pdf": {
+    "sheets": 376,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 376,
+    "bookmarks": 376,
+    "extracted_section_order": true,
+    "sha256": "3807d43b0df4735fc47d57ffa2959e2abbc7490ee5b79bc234e273b9ea691067"
+  },
+  "Z01-letter.pdf": {
+    "sheets": 22,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 22,
+    "bookmarks": 22,
+    "extracted_section_order": true,
+    "sha256": "d4e291a0202d2ab0dc1ba3873c0fa2807cfb59008f5ae44be0e2a738f23185ee"
+  },
+  "Z01-a4.pdf": {
+    "sheets": 22,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 22,
+    "bookmarks": 22,
+    "extracted_section_order": true,
+    "sha256": "1e54d42f13add1912e19b9176b826288ae310df834e8c0c90ebd85d4b59553a7"
+  },
+  "Z02-letter.pdf": {
+    "sheets": 55,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 55,
+    "bookmarks": 55,
+    "extracted_section_order": true,
+    "sha256": "0a16a8a04e32b794c9d9330d90196a2eefba525b282a2399e58dad1e91c67c63"
+  },
+  "Z02-a4.pdf": {
+    "sheets": 55,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 55,
+    "bookmarks": 55,
+    "extracted_section_order": true,
+    "sha256": "38c334e8124f71cabaacde9c4532f79057fc9d358ffebf59093101196422651b"
+  },
+  "Z03-letter.pdf": {
+    "sheets": 45,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 45,
+    "bookmarks": 45,
+    "extracted_section_order": true,
+    "sha256": "d8bcf481bbe58ca3c820784bb0d70cc3d3bc598c97ce55d338d9b085f3f03a3d"
+  },
+  "Z03-a4.pdf": {
+    "sheets": 45,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 45,
+    "bookmarks": 45,
+    "extracted_section_order": true,
+    "sha256": "d4f8f46b4863cba8245c01a68a9fec78a5a42941850a624af4cd28c2c993446c"
+  },
+  "Z04-letter.pdf": {
+    "sheets": 55,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 55,
+    "bookmarks": 55,
+    "extracted_section_order": true,
+    "sha256": "b9ffd54c81cde301d85bca526d9d407df94e7a51391124a8b94733149a926e5e"
+  },
+  "Z04-a4.pdf": {
+    "sheets": 55,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 55,
+    "bookmarks": 55,
+    "extracted_section_order": true,
+    "sha256": "f6ffb44c0b3fdf71a09df67c599a1a2af57e3f1890e6d6c1e8b57588b613a4da"
+  },
+  "Z09-letter.pdf": {
+    "sheets": 53,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 53,
+    "bookmarks": 53,
+    "extracted_section_order": true,
+    "sha256": "eea325831096eaac6d54fa6abbff9b9cbb9815655fa61e9f565a0bd6ed14f49b"
+  },
+  "Z09-a4.pdf": {
+    "sheets": 53,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 53,
+    "bookmarks": 53,
+    "extracted_section_order": true,
+    "sha256": "7ea275886d3dd92af39180b3f697effd7de09046fbc09205cd207b605edce1a9"
+  },
+  "Z11-letter.pdf": {
+    "sheets": 68,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 68,
+    "bookmarks": 68,
+    "extracted_section_order": true,
+    "sha256": "a4cfd528d6c86657b95c6b885cdfeda8347c9529ae6567adba3113d1b7cb3499"
+  },
+  "Z11-a4.pdf": {
+    "sheets": 68,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 68,
+    "bookmarks": 68,
+    "extracted_section_order": true,
+    "sha256": "14c107948de34a693822da0859d037bfaefc35c7031a1c84f4d44ae7bc0ed67d"
+  },
+  "Z12-letter.pdf": {
+    "sheets": 75,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 75,
+    "bookmarks": 75,
+    "extracted_section_order": true,
+    "sha256": "ea5812941cb8d9959848fd62d25f7d6deb3067c7eb0981a57f48d3ce550a83f0"
+  },
+  "Z12-a4.pdf": {
+    "sheets": 75,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 75,
+    "bookmarks": 75,
+    "extracted_section_order": true,
+    "sha256": "06132e1b7d4e146a71153432b33cd626081c848d984a6a2f6302c3f05f87199a"
+  },
+  "reconstructions.pdf": {
+    "sheets": 13,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 13,
+    "bookmarks": 13,
+    "extracted_section_order": true,
+    "sha256": "9fab6379f0e3f65281d0c49b4af3e3d3a41eb16e6fb1af77e4e0cbe7ac6692f7"
+  }
+}

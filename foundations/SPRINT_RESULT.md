@@ -1,5 +1,7 @@
 # Survival Field Encyclopedia — Production Sprints F05–F08 & P09–P11 Result
 
+Historical production receipt for `4adfbd4`. Its metrics describe the delivered predecessor. The [A01 technical audit](audit/ASTRA_A01_EXECUTIVE_REPORT.md) records current changes and the remaining technical work.
+
 Review edition built strictly additively from frozen historical recovery checkpoint `890c66ac1d51465d3a4315e50fb2dbe1e0f78f6f` (extending Draft PR #3 foundational checkpoint `ef27447bc28a8efef615d55b2074e601ebe0fb3b`). Frozen predecessor branches (`main` `1db1efc`, `review/b013-b014-field-drafts-20261122` `6adbb05`, `review/s02-s03-historical-recovery-20261124` `890c66a`) and all frozen files remain completely untouched.
 
 Production Sprints **P09 (Z09 Tools and Construction)**, **P10 (Z11 Navigation, Weather and Rescue)**, and **P11 (Z12 Extreme Environments)** drafted, illustrated, verified, and packaged **194 new manuscript and reconstruction pages** (joining the 2 retained Z11 reconstruction cards from `05-reconstruction.cards` for **196 completed pages across Z09, Z11, and Z12**), advancing overall encyclopedia draft production from **177** to **373 completed pages across 7 active zones** (plus **3 starter reconstructions** in Z13/Z14/Z15 = **376 total reader cards**).

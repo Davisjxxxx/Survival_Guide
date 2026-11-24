@@ -241,7 +241,7 @@ objective: Recognize deceptive social and visual cues that routinely lure people
 applies: Winter shoreline decision-making around frozen lakes, parks and rivers.
 equipment: Independent safety judgment and verified land route.
 action: Reject three classic false visual signs: (1) "it has been freezing for days" (snow blankets and currents override air temp), (2) "the surface looks smooth and solid white" (snow hides slush and holes), and (3) "a thrown rock did not break it" (small stone impact ≠ human weight). @X01,E12
-action: Reject three classic false social signs: (4) "there are footprints or dog tracks ahead" (lighter weight or earlier colder morning), (5) "a snowmobile crossed fast" (speed skims thin spots that break under slow boots), and (6) "other people are out there" (others may be in unseen danger or over a different safe pocket). @X01,E12
+action: Reject tracks, observed crossings and other traffic as evidence that your location is safe. Loads and conditions differ and ice strength can vary over short distances. @X01,E12
 action: Base every shoreline decision strictly on verified land-route alternatives and independent safety limits rather than following crowds or tracks. @E12,X01,N10
 failure: Walking onto an unfamiliar frozen bay because old boot prints and a distant ice-fishing shack sit on the far side. @X01,E12
 verify: Name why tracks, rocks, crowds and cold air fail to establish crossing safety before stepping near any winter shoreline. @X01,E12,ED
@@ -268,26 +268,26 @@ Z12-P20 | Understand the cold-water 1-10-1 physiology: cold shock, swim failure 
 objective: Understand the rapid physiological timeline of cold-water immersion so immediate survival actions focus on breathing and flotation first.
 applies: Ice breakthroughs, capsized boats, cold-river falls and frigid coastal or marine immersion.
 equipment: Fastened USCG-approved life jacket (PFD) whenever on or near cold water.
-action: **First ~1 minute (Cold Shock):** Sudden cold immersion triggers an involuntary gasp reflex, rapid uncontrolled hyperventilation and blood-pressure spike—without a fastened life jacket keeping your mouth above water, inhaling water causes immediate drowning. @X02,X03,X04
-action: **First ~10 minutes (Cold Incapacitation / Swim Failure):** Frigid water cools arm and leg nerves and muscles rapidly, destroying finger grip and swimming power long before core hypothermia occurs—use these minutes to self-exit or secure flotation/rescue rather than attempting a long swim. @X02,X03
-action: **Roughly 1 hour+ (Core Hypothermia):** Core body temperature drops progressively over tens of minutes to an hour or more depending on clothing, size and water temperature—if trapped in water with flotation, minimize movement and conserve heat while awaiting rescue. @X02,X03
+action: Cold shock can begin immediately with gasp and rapid breathing. Protect the airway and use available flotation while breathing settles enough to act. @X02,X03,X04
+action: Cold can quickly reduce grip, movement and swimming ability. Take a safe opportunity for exit or flotation early; do not budget a fixed window for action. @X02,X03
+action: Core cooling and survival vary widely with water, clothing, flotation and the person. The 1–10–1 mnemonic describes phases, not deadlines or a promised survival time. @X03
 failure: Believing strong swimming ability prevents drowning in 40°F water without a life jacket, or panicking and trying to swim a quarter mile to shore during cold shock. @X02,X03,X04
 verify: Recite the three cold-water phases (breathing control -> brief functional exit window -> heat conservation) and verify PFD wear on cold water. @X02,X03,X04,ED
-stop: Treat ANY immersion in water below 70°F (especially below 50°F) as a time-critical drowning and hypothermia emergency requiring immediate 911/USCG activation. @X02,X03,T02
-diagram: ~1 min: control cold-shock gasp | ~10 min: exit/secure before swim fails | ~1 hr+: conserve heat w/ PFD
-visual: Mechanism timeline mapping the 1-10-1 cold-water immersion phases (cold shock, swim failure, core hypothermia) to time-critical survival actions. Conceptual, not to scale.
+stop: Respond to a cold-water emergency promptly. Keep the airway above water, signal for help and follow emergency guidance. Do not wait for a temperature or time threshold. @X02,X03,T02
+diagram: Cold shock can be immediate | Movement can deteriorate quickly | Core cooling varies
+visual: Conceptual phases with no fixed onset, swimming capability or survival window.
 reviewer: Cold-water rescue, maritime safety and wilderness medicine
 
 Z12-P21 | Execute cold-water ice self-rescue boundaries when falling through alone | B013-P06 self-rescue and MN DNR ice safety; adapted historical material
 objective: Outline the agency-recommended self-exit sequence during an accidental ice breakthrough while preserving specialist review holds.
 applies: High-consequence emergency reference only (NOT field-tested instruction; requires qualified ice-rescue training and review).
 equipment: Accessible neck-worn ice picks (if carried during equipped winter activity) and whistle.
-action: Control breathing first during the initial 1-minute cold-shock gasp—keep your airway clear above the rim, resist flailing wildly and turn back toward the direction you came from (where ice already held your weight). @X02,X03,X18
-action: Place arms flat on the solid shelf edge (planting ice picks if carried), kick your legs vigorously to bring your body horizontal like swimming and pull/slide forward onto the ice—if the rim breaks, keep working back toward thicker ice. @X18,X03
+action: Protect your airway and regain breathing control as able. If possible, face the direction you came from, which was the last route to support you. It is not guaranteed safe ice. @X19
+action: If able to self-exit, get your body horizontal and kick while using the edge or ice picks to pull forward. Avoid any promise that a particular edge will support you. @X19
 action: Once on the ice surface, DO NOT stand up immediately (standing concentrates weight on two small footprints)—roll or crawl flat away from the hole toward solid shore, then get urgently into warm dry shelter and medical care. @X18,T03,T02
 failure: Trying to climb vertically straight up onto thin ice like a pool ladder, exhausting arm strength before swim failure sets in, or standing up immediately on the broken rim. @X18,X02,X03
 verify: Understand the sequence conceptually during dry land education—staying off uncertain ice completely remains the primary lifesaving rule. @E12,X18,ED
-stop: If unable to exit within functional minutes, hook arms/coat sleeves onto the ice edge if freezing in place, blow whistle/shout and preserve airway while awaiting emergency rescue (specialist review pending). @X18,X03,T02
+stop: If unable to get out, signal for rescue and prioritize keeping your airway clear. Do not wait for a fixed number of minutes or rely on clothing freezing to the ice as a planned technique. @X19,X03
 diagram: Control cold-shock breath | Turn back, kick flat & pull out | Roll flat away -> urgent warmth/911
 visual: Decision tree outlining the high-consequence ice self-rescue sequence (breathing control, horizontal kick-out, flat roll retreat); specialist review required. Conceptual, not to scale.
 reviewer: Ice rescue specialist, EMS and wilderness medicine
@@ -297,11 +297,11 @@ objective: Assist someone who broke through ice without creating a second drowni
 applies: High-consequence witness response from solid shore; requires qualified ice-rescue review and dry-land rehearsal only.
 equipment: Phone for 911, long rigid reach pole/branch, buoyant throw bag/float line or linked dry jackets from anchored solid ground.
 action: **STOP ON SOLID SHORE AND CALL 911 FIRST:** Never run or walk out onto broken ice toward a struggling victim—untrained rescuer breakthroughs routinely cause double fatalities. @X18,T01,T02
-action: Talk calmly to help the victim control cold-shock breathing and turn toward thicker ice while you stay low and anchored on firm ground (or secured shore edge) extending a long branch, sled, ladder or throwing a buoyant rescue line/jug. @X18,X02,T01
-action: Brace yourself low on shore before pulling so a sudden jerk cannot drag you into the water; if no safe reach or throw reaches the victim, stay alive on shore, keep visual contact and guide arriving fire/ice rescue teams. @X18,T01,T02
+action: From stable shore, reassure the person and offer a reach or throw aid only if it can be done safely without entering the hazard. @X20
+action: Let go of a reach aid if you are being pulled in. If safe help is out of reach, remain on shore and report the person’s position to responders. @X20,T02
 failure: Sprinting across cracking ice to grab a victim's outstretched hand and plunging into the same freezing hole. @X18,T01
 verify: Confirm 911 is activated first, rescuers remain anchored on solid land and only dry-rehearsed reach/throw aids are deployed. @X18,T01,T02,ED
-stop: Never enter the water or step onto unsupported broken ice without specialized rescue training, exposure suit and tethered professional backup. @X18,T01
+stop: Stay on land. Do not enter the water or go onto ice to perform an improvised rescue. @X20,T01
 diagram: Call 911 & stay on solid shore | Reach w/ pole or throw float line | Brace low; NEVER walk out on ice
 visual: Decision tree enforcing the Reach-Throw-Don't-Go shore-based witness protocol with strict zero-walk-out stop gate. Conceptual, not to scale.
 reviewer: Ice rescue specialist and EMS
@@ -413,7 +413,7 @@ action: Begin rapid active cooling ON SITE right away ("cool first, transport sa
 action: Apply cold wet cloths or ice packs wrapped thinly at neck, armpits and groin while monitoring airway and breathing continuously; give NO oral fluids to confused, vomiting or drowsy patients. @T05,T09,T01
 failure: Waiting forty minutes in hot sun for an ambulance to arrive before pouring water over a confused heat-stroke victim. @T05,T09
 verify: Confirm 911 is activated, rapid water-and-airflow cooling is actively underway, airway stays clear and zero fluids are forced into an impaired mouth. @T05,T09,T02,ED
-stop: Continue active cooling until EMS takes over or the person becomes fully alert and shivering—follow 911 dispatcher directions strictly for breathing/CPR changes. @T05,T09,T02
+stop: Follow emergency-dispatch directions for cooling, airway and transfer. Improved alertness alone does not establish recovery; suspected heat stroke requires urgent medical evaluation. @T05,T09,T02
 diagram: Confusion/collapse -> call 911 | Douse cold water + fan fast | Clear airway; zero oral drink
 visual: Decision tree prioritizing immediate 911 activation alongside continuous cold-water dousing, evaporative fanning and airway protection. Conceptual, not to scale.
 reviewer: Emergency medicine and wilderness medicine
@@ -550,10 +550,10 @@ applies: Any person sleeping or traveling above ~8,000 feet showing severe respi
 equipment: Pre-planned rapid descent route, buddy support, emergency communicator/911 and clinical care access.
 action: Recognize **HAPE** (fluid in lungs—leading cause of altitude death): unusual shortness of breath AT REST, severe drop in walking performance, persistent cough (later wet/frothy), chest tightness, blue lips/nails or crackling breath sounds. @X09
 action: Recognize **HACE** (brain swelling—rapidly fatal): loss of balance/coordination (ataxia—cannot walk heel-to-toe straight), confusion, bizarre behavior, slurred speech, hallucinations or extreme drowsiness/coma. @X09,T01
-action: Treat BOTH HAPE and HACE as immediate life-threatening emergencies: **DESCEND IMMEDIATELY** (assisted—never send an impaired patient down alone!), activate 911/SAR and obtain urgent medical evaluation and oxygen. @X09,T02,E11
+action: Treat suspected HAPE or HACE as a medical emergency. Activate local rescue and arrange urgent safe accompanied descent. Oxygen or other medical measures, if available, must follow trained or dispatcher guidance and must not delay the rescue plan. @X09,T02
 failure: Telling a staggering, confused or gasping-at-rest climber at 11,000 feet to "sleep it off until morning" inside a tent. @X09
 verify: Run a quick heel-to-toe balance check and rest-breathing check on any companion struggling unexpectedly above 8,000 feet. @X09,ED
-stop: ANY shortness of breath at rest, staggering/ataxia or confusion at high altitude requires IMMEDIATE accompanied descent (even at night if safe) and 911/medical activation. @X09,T02
+stop: Do not ascend or send an impaired person down alone. If descent cannot be undertaken safely, contact rescue immediately and follow emergency guidance. @X09,T02
 diagram: Rest breathlessness/cough = HAPE | Staggering/confusion = HACE | DESCEND NOW + call 911/SAR
 visual: Decision tree routing HAPE respiratory red flags and HACE ataxia/confusion red flags directly to immediate accompanied descent and emergency medical care. Conceptual, not to scale.
 reviewer: Wilderness medicine and mountain rescue
@@ -590,7 +590,7 @@ Z12-P43 | Manage steep talus, loose scree and wet granite footing without trigge
 objective: Prevent slips, ankle fractures and knocking loose boulders down onto companions on steep rocky mountain trails.
 applies: Alpine boulder fields (talus), loose gravel slopes (scree), slick wet rock slabs and canyon trails.
 equipment: Supportive lug-soled footwear, trekking poles where helpful and disciplined group spacing.
-action: Test suspect talus boulders gently with weight centered before committing a full step, and space group members tightly side-by-side (or send one at a time diagonally out of the fall line) so a dislodged stone cannot strike companions below. @X10,E11,T01
+action: Avoid unstable talus or routes with exposed people below when possible. Keep companions out of the fall line rather than clustering beneath unstable material. @X10,ED
 action: Shout **"ROCK!"** loudly and instantly if ANY stone dislodges—people below should duck cleanly against uphill cover and protect their head rather than looking straight upward into the falling rock's path. @X10,T01,ED
 action: Avoid wet lichen-covered granite slabs, steep snow-choked chutes without traction/training and shortcuts cutting off switchbacks (which erode trails and knock rocks onto hikers below). @X10,E22
 failure: Cutting across steep loose scree switchbacks directly above another hiking group and kicking a football-sized stone down the slope. @X10,E22,T01
@@ -647,11 +647,11 @@ objective: Read wetland vegetation and soil cues to avoid sinking into concealed
 applies: Upper Midwest boreal bogs, marshes, beaver flowages, river deltas and coastal wetlands.
 equipment: Topographic map showing marsh symbols, sturdy pole to probe uncertain edges and dry spare socks.
 action: Recognize wetland warning terrain: flat carpets of bright sphagnum moss, sedge tussocks, stunted black spruce/tamarack and standing dark tea-colored water often form floating **quaking bog mats** over deep cold muck or open water underneath. @X12,X13,N02
-action: Probe uncertain damp edges ahead with a sturdy walking pole BEFORE stepping—avoid jumping onto floating peat mats or cutting across grassy marsh openings that look like dry meadows on older maps. @X12,X13,N10
+action: Treat floating mats and uncertain edges as exclusions. A pole can encounter a firmer patch without establishing that the ground will support a person. @X12,X13,N10,ED
 action: Route travel along firm elevated upland mineral ridges (pine/hardwood high ground), established boardwalks or verified bridges rather than wading through unmarked bog basins. @X12,N10,E22
 failure: Stepping onto a springy green sphagnum carpet assuming solid meadow and punching straight through to chest-deep freezing peat muck. @X12,X13
 verify: Confirm firm mineral soil footing or official boardwalk surface before committing group weight near mapped marsh symbols. @X12,N02,ED
-stop: Bouncing quaking ground, knee-deep sucking mud or concealed water channels stop forward travel—retreat along your entry footprints to firm upland ground. @X12,X13,N10
+stop: Avoid quaking ground, concealed channels and unstable footing. Turn back along a verified safe route while still on firm land. @X12,X13,N10
 diagram: Floating sphagnum bog mat | Deep cold muck & hidden water | Stay on firm upland mineral ridge
 visual: Cutaway wetland cross-section showing a floating sphagnum quaking-bog mat over deep peat muck and water versus firm upland mineral ground. Conceptual, not to scale.
 reviewer: Wetland ecology and search and rescue
@@ -660,14 +660,14 @@ Z12-P48 | Recognize unstable winter ice over wetlands, springs and decaying peat
 objective: Avoid hazardous hollow or rotten winter ice over marshes, swamps and beaver ponds even during deep subzero spells.
 applies: Winter travel across northern boreal bogs, alder swamps, cattail marshes and frozen beaver ponds.
 equipment: Verified upland winter trail map and land-only travel discipline.
-action: Understand why frozen wetlands stay treacherous all winter: decaying organic peat generates subtle warmth, groundwater seeps keep pockets unfrozen and fluctuating beaver-pond water levels leave hollow air gaps under thin brittle ice crusts. @X12,X01,E12
+action: Ice can vary over short distances. Groundwater, moving water, snow cover and changing water levels can hide weak areas. Do not infer safe footing from winter temperature or surface appearance. @X01,E12
 action: Avoid stepping onto snow-drifted cattail marshes, alder swales or frozen beaver dams—breaking through even into shallow freezing bog muck soaks boots instantly and triggers rapid frostbite and hypothermia far from roads. @X12,E12,E06
 action: Stay strictly on elevated upland ridges and verified dry winter trails cleanly skirting mapped wetland basins. @X12,E12,N10
 failure: Taking a winter snowshoe shortcut across a frozen beaver pond where water dropped two feet beneath a brittle snow-covered ice shell. @X12,X01,E12
 verify: Confirm your winter route avoids mapped marshes, beaver flowages and bog hollows entirely. @X12,N02,E12,ED
 stop: Hollow echoing crusts, dark wet snow patches, unfrozen muskrat/beaver leads or wet-boot breakthroughs stop travel—retreat to dry upland and swap to dry socks immediately. @X12,E12,E10
-diagram: Snow hides hollow ice crust | Decaying peat & seeps thaw ice | Detour strictly on upland ridges
-visual: Cutaway winter-wetland section illustrating hollow air gaps over drained beaver ponds and thermal peat seepage thinning snow-covered ice. Conceptual, not to scale.
+diagram: Snow hides surface features | Local ice strength varies | Keep to verified dry land
+visual: Conceptual wetland failure diagram. No heat source, water depth or ice strength is inferred from appearance.
 reviewer: Ice safety, wetland ecology and winter safety
 
 Z12-P49 | Prevent immersion foot (trench foot) and cold-wet skin breakdown in marshes | NPS wetlands and CDC cold/wet exposure; new manuscript
@@ -774,7 +774,7 @@ applies: Ocean surf beaches, Great Lakes sandbar beaches, piers, jetties and roc
 equipment: Lifeguarded beach preference, surf forecast check and calm flotation/escape awareness.
 action: Spot rip-current visual cues from shore: a narrow gap of darker calmer-looking water cutting through white breaking waves, a tongue of sandy discolored water or foam streaming steadily seaward, or fast currents running right beside piers and jetties (remember many rips look invisible). @X14
 action: If caught in a rip current, **STAY CALM AND DO NOT FIGHT DIRECTLY AGAINST IT** toward the beach—rip currents pull you seaward, NOT underwater, and fighting straight back exhausts even strong swimmers quickly. @X14
-action: Float or tread water to save breath, swim **PARALLEL TO THE SHORELINE** out of the narrow channel into breaking shoreward waves and then angle back to the beach—or if tired, keep floating/treading and wave and shout loudly for lifeguard help. @X14,T01
+action: Float or tread water and call or wave for help if you cannot escape. If able, move out of the current along the shoreline and then angle back toward safety. Local current and your swimming ability govern the decision. @X21
 failure: Panicking and sprinting straight toward the beach against a fast seaward rip channel until lungs give out and drowning occurs. @X14
 verify: Check daily beach surf flags/rip risk statements, swim near lifeguards and brief every companion on the "float + parallel to shore" rule. @X14,E11,ED
 stop: High Rip Current Risk warnings, rough pier/jetty surges or unguarded heavy surf require staying completely out of the water—witnesses must call lifeguards/911 and throw flotation rather than swimming in unequipped. @X14,T01,T02
@@ -786,9 +786,9 @@ Z12-P57 | Respect sneaker waves, slippery wet kelp ledges and surging breakwater
 objective: Prevent sudden sweep-offs into cold pounding surf along rocky shores, steep beaches and piers.
 applies: Pacific, Atlantic and Great Lakes rocky shores, steep beaches, sea walls and concrete breakwaters.
 equipment: High dry observation stance, sturdy gripping footwear and never turning your back to surf.
-action: Never turn your back on the ocean or Great Lakes surf—irregular **sneaker waves** surge suddenly far higher up beaches and rocky ledges than the previous twenty calm waves, dragging victims into cold swirling undertow. @X06,X14,X02
+action: Sneaker waves can surge well beyond prior waves after a quiet interval. A count of calm waves gives no safe interval. @X22
 action: Stay off dark wet algae- or kelp-slick coastal boulders, steep surf-washed drift logs (which roll violently in shallow wash with crushing weight) and storm-swept piers or concrete jetties. @X06,X15,T01
-action: Watch wave sets calmly for several full minutes from well above the highest wet sand/rock stain before choosing any shore stop or fishing vantage. @X06,X15,ED
+action: Remain well back from surf-washed rock, beaches and mobile logs. Follow local closures and warnings rather than relying on the most recent wet line. @X22
 failure: Standing on a wet black rocky ledge or climbing onto a large beach driftwood log with your back to the surf for a photo when a sneaker set sweeps over. @X06,X02,T01
 verify: Confirm your standing spot lies dry above the highest recent wave-wash stain and keep eyes angled toward incoming wave sets. @X06,X15,ED
 stop: Heavy swell advisories, breaking waves washing over jetties or slick dark tidal rock demand moving well back onto high dry shore immediately. @X06,X15
@@ -801,7 +801,7 @@ objective: React within seconds to natural coastal tsunami cues without waiting 
 applies: Earthquake-prone ocean coastlines, low estuaries, harbors and coastal beaches.
 equipment: Pre-checked local tsunami evacuation map, sturdy shoes and go-bag if staying on the coast.
 action: Know the three **NATURAL TSUNAMI WARNINGS**: (1) strong or long coastal ground shaking (Drop, Cover, Hold On until shaking stops), (2) a sudden loud ocean roar like a jet or freight train, or (3) sudden unusual ocean recession exposing seafloor or sudden surging wall of water. @X16
-action: Evacuate **IMMEDIATELY ON FOOT** inland and uphill to marked high ground (generally >100 feet elevation or well inland per local zone maps)—do NOT wait for sirens, do NOT pack gear and do NOT drive into gridlocked coastal roads. @X16,T13
+action: Move immediately out of the mapped tsunami zone to designated high ground or inland by local evacuation routes. Follow the local plan for travel mode and accessibility; do not wait for a siren after natural warning signs. @X16,X23
 action: Stay on high ground for HOURS until official emergency managers issue a verified all-clear—tsunamis arrive as a series of destructive waves over many hours, and the first wave is often NOT the largest. @X16
 failure: Walking out onto a suddenly exposed dry seafloor to pick up flopping fish or returning to the beach twenty minutes after the first small surge. @X16
 verify: Before staying or hiking on a coastal strip, locate the nearest marked Tsunami Evacuation Route and high-ground assembly point on foot. @X16,T13,ED
@@ -843,7 +843,7 @@ objective: Avoid collecting salty brackish water from tidal estuaries and recogn
 applies: Coastal trails, island camps and ocean-adjacent river mouths where freshwater creeks meet salt tides.
 equipment: Adequate carried freshwater reserve, topo map showing tidal elevation and validated microbial treatment for confirmed freshwater only.
 action: Understand that ocean tides push dense salty water far upstream inside flat coastal rivers and estuaries—drinking salty or brackish water worsens dehydration rapidly, and **standard boiling, bleach and portable camp filters CANNOT remove dissolved salt** (boiling evaporates freshwater and makes salty water even saltier!). @X15,W01,W22
-action: Collect coastal freshwater only well UPSTREAM above tidal reach (ideally above a clear drop/waterfall or at low tide verified upstream of marsh flats), then apply full chemical/watershed screening and microbial treatment. @X15,W09,W02
+action: A waterfall, location upstream or low tide does not verify freshwater or rule out other contaminants. Carry a known potable supply or use an authority-confirmed source. @W01,X15,ED
 action: Carry full potable freshwater reserves for coastal island and barrier-beach trips where surface water is brackish or absent. @W14,X15,ED
 failure: Boiling estuarine river water near a coastal beach expecting boiling to desalinate it, producing concentrated brine that worsens dehydration. @W01,W22,X15
 verify: Confirm any coastal stream collection sits clearly above high-tide reach and remains sweet freshwater before applying microbial treatment. @X15,W09,ED
@@ -898,9 +898,9 @@ Z12-P65 | Stay with a swamped buoyant hull rather than attempting long cold-wate
 objective: Maximize visibility and survival time after capsizing by remaining with floating craft unless safe shore is immediately reachable.
 applies: Capsized or swamped canoes, kayaks, small boats and open-water marine emergencies.
 equipment: Worn USCG-approved PFD, buoyant hull and waterproof distress signals attached to person.
-action: Control cold-shock breathing first while holding onto the capsized or swamped buoyant craft—most modern small boats and kayaks remain afloat even when flooded, giving critical extra flotation and a vastly larger visual target for Coast Guard/SAR aircraft. @X05,X02,X03
-action: Climb as high out of cold water onto the overturned hull or inside a swamped stable craft as safely possible—body heat drains roughly 25 times faster in cold water than in air of the same temperature. @X03,X02,X05
-action: Abandon a floating hull to swim for shore ONLY if calm safe shore is very close (well inside your short ~10-minute cold-water functional window), current is not pushing you away, you wear a PFD and staying puts you in immediate danger (waterfall, rocks, sinking hull). @X03,X05,X04
+action: Protect the airway, control breathing as able and use a buoyant craft for support when it remains safe to do so. Do not assume a flooded craft will remain stable or afloat. @X02,X03,X05
+action: Get as much of your body out of the water as you safely can without losing flotation or destabilizing the craft. Keep signaling for rescue. @X03,X05
+action: Avoid swimming away from flotation unless remaining creates immediate danger or you can reliably reach immediate safety. Do not estimate swimming range from a fixed cold-water time window. @X03,X05,ED
 failure: Leaving an overturned floating aluminum boat half a mile offshore in 45°F water to swim for land, losing muscle control halfway and drowning. @X02,X03,X05
 verify: Confirm all passengers stay together holding or atop the buoyant hull wearing buckled PFDs and activate VHF/PLB/visual signals. @X05,X04,N05,ED
 stop: Never dive back underwater inside a sinking cabin or swim away from a buoyant hull into distant cold open water. @X02,X03,X05
@@ -913,7 +913,7 @@ objective: Slow core heat loss in cold water when forced to float while awaiting
 applies: Cold-water immersion where the victim wears a buckled USCG-approved life jacket and cannot climb onto a hull or immediate shore.
 equipment: Properly buckled inherent-buoyancy USCG-approved life jacket (PFD) and warm layers worn underneath.
 action: **Solo — HELP (Heat Escape Lessening Posture):** While wearing a buckled PFD in calm-to-moderate water, draw knees up toward your chest, cross ankles and press arms snugly against the sides of your chest to shield high-heat-loss areas (armpits, groin, sides of torso)—NEVER attempt HELP without a PFD supporting your airway. @X03,X04,X02
-action: **Group — HUDDLE:** Two or more PFD-wearing survivors lock arms tightly in a tight circle pressing chest-to-chest (placing children or smaller chilled members inside the protected center) to conserve shared core heat, boost morale and form one larger visible search target. @X03,X04,E11
+action: A huddle may reduce heat loss when survivors have suitable flotation and can stay together without compromising anyone’s airway. A clear airway and stable flotation take precedence over any posture. @X03,X04
 action: Stay calm and avoid unnecessary treading or thrashing—extra movement pumps warm core blood into cold limbs and strips insulating water trapped inside clothing, accelerating hypothermia. @X02,X03
 failure: Thrashing arms wildly to "keep warm" in 50°F water, burning energy and accelerating core cooling dramatically. @X02,X03
 verify: Confirm buckled PFD supports airway effortlessly, high-heat-loss areas are shielded and groups huddle tightly together. @X03,X04,ED

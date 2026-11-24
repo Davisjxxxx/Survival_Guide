@@ -103,6 +103,8 @@ KIND_LABELS = {
     'cutaway': 'CUTAWAY VIEW',
     'exploded': 'EXPLODED COMPONENTS',
     'cross_section': 'MATERIAL CROSS-SECTION',
+    'force_redirect': 'STATIC FORCE SCHEMATIC',
+    'branch': 'CONDITIONAL DECISION',
     'mechanism': 'MECHANISM DIAGRAM',
     'comparison': 'COMPARATIVE CONFIGURATION',
     'environment': 'ENVIRONMENTAL RELATIONSHIP',
@@ -113,11 +115,51 @@ KIND_LABELS = {
 _SPECS_CACHE = None
 
 
+SPEC_KEYS = {
+    'cutaway': {'layers','callout','accent','variant'},
+    'exploded': {'components','callout'},
+    'cross_section': {'layers','callout'},
+    'mechanism': {'nodes','callout'},
+    'comparison': {'options'},
+    'environment': {'zones','callout','variant'},
+    'decision_tree': {'gates','abort'},
+    'failure_mode': {'cause','cue','correction'},
+    'branch': {'question','yes','no','stop'},
+    'force_redirect': set(),
+}
+SPEC_OPTIONAL = {'cutaway': {'hazard'}, 'mechanism': {'accent'}}
+SPEC_LIST_LENGTHS = {'layers':3,'components':4,'nodes':3,'options':3,'zones':3,'gates':3}
+
+
+def validate_spec(page, spec):
+    kind = spec.get('type')
+    keys = spec.keys() - {'type'}
+    if kind not in SPEC_KEYS or not SPEC_KEYS[kind] <= keys <= SPEC_KEYS[kind] | SPEC_OPTIONAL.get(kind,set()):
+        raise ValueError(f'Invalid figure specification on {page}: {kind}, {sorted(keys)}')
+    for key, value in spec.items():
+        if isinstance(value,str) and not value.strip():
+            raise ValueError(f'Blank figure label on {page}: {key}')
+        if key in SPEC_LIST_LENGTHS:
+            length = 4 if key == 'layers' and kind == 'cross_section' else SPEC_LIST_LENGTHS[key]
+            if not isinstance(value,list) or len(value) != length:
+                raise ValueError(f'Invalid figure label list on {page}: {key}')
+            if key == 'options':
+                for option in value:
+                    if not isinstance(option,dict) or set(option) != {'name','note','limit'} or any(
+                        not isinstance(part,str) or not part.strip() for part in option.values()
+                    ):
+                        raise ValueError(f'Invalid comparison option on {page}')
+            elif any(not isinstance(label,str) or not label.strip() for label in value):
+                raise ValueError(f'Invalid figure label on {page}: {key}')
+
+
 def load_specs():
     global _SPECS_CACHE
     if _SPECS_CACHE is None:
         if SPEC_PATH.exists():
             _SPECS_CACHE = json.loads(SPEC_PATH.read_text(encoding='utf-8'))
+            for page, spec in _SPECS_CACHE.items():
+                validate_spec(page,spec)
         else:
             _SPECS_CACHE = {}
     return _SPECS_CACHE
@@ -371,8 +413,42 @@ def _render_failure_mode(spec):
     return ''.join(parts)
 
 
+def _render_force_redirect(spec):
+    # Equal, static pulls on the pulley, not on the anchor. The resultant is dashed.
+    return (
+        '<g id="force-redirect-artwork" stroke-linecap="round">'
+        '<path d="M40 150h640" stroke="#92a595"/>'
+        '<circle cx="185" cy="56" r="20" fill="#dce8df" stroke="#285345" stroke-width="2"/>'
+        '<circle cx="520" cy="56" r="20" fill="#dce8df" stroke="#285345" stroke-width="2"/>'
+        '<g stroke="#285345" stroke-width="3" marker-end="url(#arrow)">'
+        '<path d="M169 62v56"/><path d="M201 62v56"/>'
+        '<path d="M520 62v56"/><path d="M526 56h58"/></g>'
+        '<g stroke="#963c24" stroke-width="3" stroke-dasharray="5 4" marker-end="url(#arrow)">'
+        '<path d="M185 58v72"/><path d="M521 58l50 50"/></g>'
+        + _lbl('T',156,99) + _lbl('T',215,99) + _lbl('2T',185,144)
+        + _lbl('T',506,104) + _lbl('T',579,43) + _lbl('√2 T',591,115)
+        + _lbl('Parallel pulls',100,145) + _lbl('Right-angle pulls',488,145)
+        + '</g>'
+    )
+
+
+def _render_branch(spec):
+    parts = ['<g id="conditional-artwork">']
+    parts.append('<rect x="40" y="42" width="640" height="25" rx="5" fill="#dce8df" stroke="#285345"/>')
+    parts.append(_lbl(spec['question'],360,59))
+    for i, (label, field) in enumerate((('YES','yes'),('NO','no'))):
+        x = 40 + 335*i
+        parts.append(f'<rect x="{x}" y="82" width="305" height="46" rx="6" fill="#f9faef" stroke="#688476"/>')
+        parts.append(_lbl(label,x+26,104,10))
+        parts.append(text(wrap(spec[field],29),x+53,101,13,11))
+    parts.append(_lbl(spec['stop'],360,149,11,'#672d18'))
+    return ''.join(parts) + '</g>'
+
+
 RENDERERS = {
     'cutaway': _render_cutaway,
+    'force_redirect': _render_force_redirect,
+    'branch': _render_branch,
     'exploded': _render_exploded,
     'cross_section': _render_cross_section,
     'mechanism': _render_mechanism,

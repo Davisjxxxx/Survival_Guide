@@ -50,23 +50,35 @@ def verify_photos():
 
 
 def verify_retained_pdfs():
-    for pdf in sorted((FOUND / 'proofs').glob('*.pdf')):
+    proofs = FOUND / 'proofs'
+    receipt_path = proofs / 'tagged-print-qa.json'
+    if receipt_path.is_file():
+        receipt = json.loads(receipt_path.read_text())
+        required = {'encyclopedia-letter.pdf', 'encyclopedia-a4.pdf'}
+        require(required <= set(receipt), 'Missing consolidated tagged proof receipt')
+        for name, record in receipt.items():
+            digest = hash_bytes((proofs / name).read_bytes())
+            require(digest == record['sha256'], f'Tagged proof receipt differs from {name}')
+    for pdf in sorted(proofs.glob('*.pdf')):
         head = pdf.read_bytes()[:5]
         require(head == b'%PDF-' and pdf.stat().st_size > 10_000, f'Invalid PDF proof: {pdf.name}')
 
 
 def package_members():
-    files = [p for path in ('reader', 'manuscripts', 'evidence') for p in (FOUND / path).rglob('*') if p.is_file()]
+    files = [p for path in ('reader', 'manuscripts', 'evidence', 'audit') for p in (FOUND / path).rglob('*') if p.is_file()]
     files.extend([FOUND / 'README.md', FOUND / 'SPRINT_RESULT.md'])
     for extra in ('ZONE_COMPLETION_MATRIX.csv', 'ASTRA_ESCALATION_REGISTER.md'):
         path = FOUND / extra
         if path.exists():
             files.append(path)
     # Include consolidated foundational proofs inside the offline ZIP while keeping zone PDFs separately in proofs/.
-    for pdf_name in ('foundations.pdf', 'foundations-a4.pdf', 'reconstructions.pdf'):
+    for pdf_name in ('foundations.pdf', 'foundations-a4.pdf', 'encyclopedia-letter.pdf', 'encyclopedia-a4.pdf', 'reconstructions.pdf'):
         pdf = FOUND / 'proofs' / pdf_name
         if pdf.exists():
             files.append(pdf)
+    receipt = FOUND / 'proofs/tagged-print-qa.json'
+    if receipt.is_file():
+        files.append(receipt)
     return {path.relative_to(FOUND).as_posix(): path.read_bytes() for path in sorted(set(files))}
 
 

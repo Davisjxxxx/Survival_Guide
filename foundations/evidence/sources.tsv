@@ -16,7 +16,7 @@ CDC-HEAT	CDC	About Heat and Your Health	https://www.cdc.gov/heat-health/about/in
 SMOKEY	USDA Forest Service / Smokey Bear	Smokey Bear’s Campfire Safety Guide	https://smokeybear.com/uploads/educational-materials/smokeycampfiresafetyguide.pdf	agency PDF	2026-11-24
 MN-FIRE	Minnesota DNR	Fire Danger and Burning Restrictions	https://www.dnr.state.mn.us/forestry/fire/firerating_restrictions.html	current web edition; verify at use	2026-11-24
 CPSC-C	CPSC	Portable Heaters and Camping Equipment	https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/Portable-Heaters--Camping-Equipment	current web edition	2026-11-24
-CPSC-G	CPSC	Generators and Engine-Driven Tools	https://www.cpsc.gov/Safety-Education/Safety-Guides/Carbon-Monoxide-Home/Generators-and-Engine-Driven-Tools	current web edition	2026-11-24
+CPSC-G	CPSC	CPSC Warns of Generator, Carbon Monoxide and Fire Hazards Ahead of Hurricane Season	https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Warns-of-Generator-Carbon-Monoxide-and-Fire-Hazards-Ahead-of-Hurricane-Season	2026 seasonal agency guidance	2026-11-24
 CPSC-CO	CPSC	Carbon Monoxide Fact Sheet	https://www.cpsc.gov/safety-education/safety-guides/carbon-monoxide/carbon-monoxide-fact-sheet	current web edition	2026-11-24
 FSG-4	USDA / FDA / CDC	Four Steps to Food Safety	https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety	current web edition	2026-11-24
 FSG-P	USDA / FDA / CDC	Food Safety During Power Outage	https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage	current web edition	2026-11-24
@@ -45,8 +45,7 @@ EPA-DISINF	US EPA	Emergency Disinfection of Drinking Water	https://www.epa.gov/g
 EPA-HAB	US EPA	Learn About Harmful Algae, Cyanobacteria and Cyanotoxins	https://www.epa.gov/habs/learn-about-harmful-algae-cyanobacteria-and-cyanotoxins	current web edition	2026-11-24
 EPA-CONTAM	US EPA	National Primary Drinking Water Regulations	https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations	current web edition	2026-11-24
 CDC-HAB	CDC	Harmful Algal Bloom (HAB)-Associated Illness	https://www.cdc.gov/harmful-algal-blooms/about/index.html	current web edition	2026-11-24
-CDC-WELL	CDC	What to Do With Your Private Well After a Flood	https://www.cdc.gov/water-emergency/about/what-to-do-with-your-private-well-after-a-flood.html	current web edition	2026-11-24
-CDC-CLEAN	CDC	How to Clean and Sanitize Water Storage Containers	https://www.cdc.gov/water-emergency/about/how-to-clean-and-sanitize-water-storage-containers.html	current web edition	2026-11-24
+CDC-WELL	CDC	What to Do With Your Private Well After a Flood	https://www.cdc.gov/water-emergency/about/how-to-disinfect-wells-after-an-emergency.html	current web edition	2026-11-24
 CDC-GIARDIA	CDC	Preventing Giardia Infection	https://www.cdc.gov/giardia/prevention/index.html	current web edition	2026-11-24
 CDC-CRYPTO	CDC	Preventing Cryptosporidium Infection	https://www.cdc.gov/cryptosporidium/prevention/index.html	current web edition	2026-11-24
 CDC-FILTERS	CDC	Choosing Home Water Filters and Other Water Treatment Systems	https://www.cdc.gov/drinking-water/prevention/about-choosing-home-water-filters.html	current web edition	2026-11-24
@@ -96,12 +95,20 @@ USCG-SAFE	US Coast Guard	Boating Safety Resource Center	https://www.uscgboating.
 USCG-PFD	US Coast Guard	Wearing Your Life Jacket	https://www.uscgboating.org/recreational-boaters/life-jacket-wear-wearing-your-life-jacket.php	current web edition	2026-11-24
 CDC-ALT	CDC	Travel to High Altitudes	https://wwwnc.cdc.gov/travel/page/travel-to-high-altitudes	current web edition	2026-11-24
 NOAA-TIDES	NOAA NOS	Tides and Water Levels Education Tutorial	https://oceanservice.noaa.gov/education/tutorial_tides/tides01_intro.html	current web edition	2026-11-24
-NOAA-COAST	NOAA NOS	Rip Currents Coastal Hazard	https://oceanservice.noaa.gov/hazards/ripcurrents	current web edition	2026-11-24
 EPA-WETLAND	US EPA	What is a Wetland	https://www.epa.gov/wetlands/what-wetland	current web edition	2026-11-24
 NPS-DESERT	NPS	Death Valley Safety (Desert Travel and Heat)	https://www.nps.gov/deva/planyourvisit/safety.htm	current web edition	2026-11-24
-NPS-MTN	NPS	Rocky Mountain Safety (High-Elevation and Mountain Travel)	https://www.nps.gov/romo/planyourvisit/safety.htm	current web edition	2026-11-24
+NPS-MTN	NPS	Rocky Mountain Safety (High-Elevation and Mountain Travel)	https://www.nps.gov/romo/planyourvisit/hiking-safety.htm	current web edition	2026-11-24
 NPS-WETLAND	NPS	Wetlands Subject Guide	https://www.nps.gov/subjects/wetlands/index.htm	current web edition	2026-11-24
 MN-ICE-THICK	Minnesota DNR	General Ice Thickness Guidelines	https://www.dnr.state.mn.us/safety/ice/thickness.html	current web edition	2026-11-24
 MN-COLDW	Minnesota DNR	Cold Water Safety	https://www.dnr.state.mn.us/safety/boatwater/cold-water.html	current web edition	2026-11-24
 READY-TSUNAMI	FEMA / Ready.gov	Tsunamis	https://www.ready.gov/tsunamis	current web edition	2026-11-24
 READY-LAND	FEMA / Ready.gov	Landslides and Debris Flow	https://www.ready.gov/landslides-debris-flow	current web edition	2026-11-24
+SAWYER-FREEZE	Sawyer	Water Filtration FAQs	https://www.sawyer.com/faq-categories/water-filtration	Current manufacturer FAQ	2026-11-24
+MSR-PR2	MSR	PocketRocket 2 instructions	https://www.msrgear.com/on/demandware.static/-/Library-Sites-cdiSharedLibrary/default/dw4ff96bf6/pdf/manuals/PocketRocket2_WebInstructions_EN.pdf	English owner instructions	2026-11-24
+NOAA-BEACON-FAQ	NOAA SARSAT	Frequently Asked Questions	https://www.sarsat.noaa.gov/faqs/	Current web edition	2026-11-24
+NWS-SNEAKER	NWS	Sneaker Waves	https://www.weather.gov/safety/sneaker-waves	Current web edition	2026-11-24
+NWS-TSUNAMI-B	NWS	Before a Tsunami	https://www.weather.gov/safety/tsunami-before	Current web edition	2026-11-24
+NWS-RIP-FAQ	NWS	Rip Current Questions and Answers	https://www.weather.gov/safety/ripcurrent-faqs	Current web edition	2026-11-24
+NPS-AV-LZ	NPS	Visitor Protection Aviation Program	https://www.nps.gov/orgs/aviationprogram/visitor-protection.htm	Current web edition	2026-11-24
+MN-ICE-SELF	Minnesota DNR	What if you fall in?	https://www.dnr.state.mn.us/safety/ice/survival.html	Current web edition	2026-11-24
+MN-ICE-WITNESS	Minnesota DNR	What if someone else falls in?	https://www.dnr.state.mn.us/safety/ice/saving.html	Current web edition	2026-11-24

@@ -3195,18 +3195,16 @@
     "category": "Adapted historical material",
     "action": [
       {
-        "text": "Trace downward and sideways loads from the roof surface through poles or ridgelines into tensioned guylines and ground anchors—the weakest link in that chain governs failure.",
+        "text": "Identify three separate paths: gravity loads the roof supports, wind acts on fabric and frame, and guyline tension transfers to anchors. The actual path depends on the shelter design.",
         "claims": [
-          "E20",
           "E16",
           "ED"
         ]
       },
       {
-        "text": "Keep pole joints fully seated, fabric panels evenly taut without concentrated stress wrinkles and guylines angled outward to oppose wind lift cleanly.",
+        "text": "Check joints, anchors and line routing against the shelter instructions. A taut panel cannot establish load capacity.",
         "claims": [
           "E20",
-          "E16",
           "ED"
         ]
       },
@@ -3242,15 +3240,14 @@
       ]
     },
     "stop": {
-      "text": "Any bent pole, splitting wood support, tearing seam or slipping anchor interrupts the load path; unload and vacate the shelter rather than sleeping beneath it.",
+      "text": "If supports shift, split or deform or the shelter tears, leave the hazard area. Keep people out until a competent assessment.",
       "claims": [
         "E16",
-        "E05",
         "ED"
       ]
     },
-    "diagram": "Wind & rain roof load | Poles & tensioned guylines | Ground anchor resistance",
-    "visual": "Mechanism diagram tracing wind uplift and roof loads through tensioned fabric, poles and guyline vectors into ground anchors. Conceptual, not to scale.",
+    "diagram": "Gravity loads supports | Wind loads fabric and frame | Tension reaches anchors",
+    "visual": "Load-path overview. Geometry, materials and anchor capacity remain unverified.",
     "reviewer": "Structural safety and shelter equipment"
   },
   {
@@ -3332,19 +3329,19 @@
         ]
       },
       {
-        "text": "Drive stakes at an outward angle per shelter instructions into firm soil, or use wide snow/sand stakes or clean wrapped deadman rocks/logs where terrain rules allow—avoiding live roots.",
+        "text": "Use shelter-maker instructions for anchor type, placement and orientation. Saturated, soft or changing ground requires a different site when anchors cannot be secured. Follow site rules for any disturbance.",
         "claims": [
           "E20",
-          "E22",
+          "E21",
           "ED"
         ]
       },
       {
-        "text": "Test anchor firmness gently by hand before relying on the pitch and recheck anchors after rain saturates the soil or afternoon sun softens snowpack.",
+        "text": "Inspect for movement after setup and weather changes. A gentle hand check can reveal a loose stake but cannot establish capacity in gusts.",
         "claims": [
           "E16",
-          "E04",
-          "E20"
+          "E20",
+          "ED"
         ]
       }
     ],
@@ -3631,11 +3628,11 @@
       ]
     },
     "stop": {
-      "text": "Never occupy an improvised roof that sags, creaks, shifts or accumulates snow; move immediately to clear ground, maintain wind/ground protection and seek help.",
+      "text": "Keep people out from under improvised roofs of unknown capacity. Sagging, movement or added wet debris are further reasons to leave the area immediately.",
       "claims": [
-        "E05",
         "E13",
-        "T06"
+        "E16",
+        "ED"
       ]
     },
     "diagram": "Unrated deadfall support | Unknown rot and roof weight | Prefer safe windbreak or rated tent",
@@ -3666,10 +3663,10 @@
         ]
       },
       {
-        "text": "Recognize there is NO universally safe fire-to-shelter clearance distance: wind eddies, dry brush, synthetic fabric melting, sparks and radiant heat vary at every site.",
+        "text": "Follow minimum clearances set by the site and product. Even when minimums are met, wind, sparks, combustibles and shelter materials can make outdoor placement unsafe.",
         "claims": [
           "C02",
-          "C18",
+          "C05",
           "ED"
         ]
       }
@@ -3698,12 +3695,11 @@
       ]
     },
     "stop": {
-      "text": "Extinguish or relocate an outdoor fire immediately if smoke enters the shelter, wind shifts toward dry materials or radiant heat warms shelter surfaces; never burn fuel inside an enclosure.",
+      "text": "Use an established alternate shelter or the no-fire plan if safe separation is uncertain. Keep combustion out of shelters and vestibules. If CO is suspected, move to fresh air and call emergency services.",
       "claims": [
-        "C02",
-        "C04",
         "C05",
-        "C16"
+        "C07",
+        "C08"
       ]
     },
     "diagram": "Open windbreak shelter | Unvalidated clearance zone | Separate attended lawful fire",
@@ -3734,9 +3730,9 @@
         ]
       },
       {
-        "text": "Without proper snow tools, formal training and an unobstructed escape plan, never roof over an excavated trench; use a low open windwall and insulated bed or existing refuge instead.",
+        "text": "Avoid roofed excavations in this guide. Use stable surface shelter and insulation or an established refuge. Tools or training alone do not establish roof capacity at a specific site.",
         "claims": [
-          "E05",
+          "E23",
           "E25",
           "ED"
         ]
@@ -3766,11 +3762,11 @@
       ]
     },
     "stop": {
-      "text": "Cracking, settling, dripping thaw, blocked drift exits or advancing hypothermia requires vacating any snow excavation immediately and moving to safer surface cover or rescue.",
+      "text": "Leave if an excavation shows movement, drift affects exit, or exposure worsens. Get to safer ground without entering runout terrain and seek help.",
       "claims": [
-        "E06",
+        "E23",
         "E25",
-        "T03"
+        "T06"
       ]
     },
     "diagram": "Depth ≠ roof strength | Sweat & collapse hazards | Unroofed windwall or rated refuge",
@@ -3801,7 +3797,7 @@
         ]
       },
       {
-        "text": "Exclude avalanche runouts, steep snow drifts and cornices entirely; keep digging tools inside with occupants only under trained protocols and maintain continuous external visibility/markers.",
+        "text": "Avoid avalanche runouts, unstable snow and cornices. Treat this as hazard recognition; do not enter, excavate or test an overhead snow cavity using the diagram.",
         "claims": [
           "E23",
           "E25",
@@ -3833,15 +3829,15 @@
       ]
     },
     "stop": {
-      "text": "Ceiling sag, cracking sounds, stuffy air, drowsiness, headache or drifting exit blockage demands immediate exit to fresh air and safer shelter.",
+      "text": "Exit immediately to fresh air and safer shelter if collapse, an obstructed exit or poor air is suspected. Seek emergency help for symptoms of CO exposure or serious cold illness.",
       "claims": [
+        "E23",
         "C07",
-        "E25",
         "T03"
       ]
     },
-    "diagram": "Unverified snow ceiling | Vent & exit drift-burial risk | Zero combustion inside cavity",
-    "visual": "Cutaway hazard schematic of a snow cave marking unvalidated ceiling stability, vent-occlusion risk, exit drift and absolute CO prohibition. Conceptual, not to scale.",
+    "diagram": "Roof can fail without warning | Drift can block exit and air | Use stable surface refuge",
+    "visual": "Hazard schematic. Layout gives no construction, ventilation or occupancy criteria.",
     "reviewer": "Cold-weather shelter, avalanche and carbon monoxide safety"
   },
   {
@@ -6043,18 +6039,17 @@
     "category": "Adapted historical material",
     "action": [
       {
-        "text": "Brace the tip of the ferrocerium rod firmly on a stable surface right beside the dry tinder bundle—stabilizing the rod prevents knocking the tinder apart mid-strike.",
+        "text": "Identify the rod, compatible striker and suitable dry tinder from the model instructions. Inspect tool control cold before any authorized live use.",
         "claims": [
-          "C11",
           "C03",
+          "C11",
           "ED"
         ]
       },
       {
-        "text": "Scrape firmly along the rod with a sharp square-spined striker (or pull the rod back cleanly against a stationary striker) to shave hot oxidizing ferrocerium particles directly onto fine tinder.",
+        "text": "Ferrocerium and traditional flint-and-steel produce hot particles from different materials. Follow the product instructions for any live training.",
         "claims": [
-          "C11",
-          "C03",
+          "C10",
           "ED"
         ]
       },
@@ -6109,16 +6104,15 @@
     "category": "Adapted historical material",
     "action": [
       {
-        "text": "Recognize that traditional flint-and-steel sheds tiny particles of carbon STEEL shaved off by a hard rock edge (flint/chert), producing cooler short-lived sparks that require charred cloth or specialized punkwood to catch an ember.",
+        "text": "In traditional flint-and-steel, a hard stone edge removes small steel particles. A compatible dry receiver, such as prepared char cloth used in the NPS demonstration, can catch them.",
         "claims": [
           "C10"
         ]
       },
       {
-        "text": "Recognize that a modern ferrocerium rod sheds engineered pyrophoric alloy shavings that burn far hotter and longer, able to ignite fine dry fibrous tinder or commercial tabs directly.",
+        "text": "Modern ferrocerium equipment differs in material and compatible striker. Use exact product instructions; this comparison does not establish relative spark temperature, duration or wet performance.",
         "claims": [
           "C10",
-          "C11",
           "ED"
         ]
       },
@@ -6298,7 +6292,7 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Recognize that upright isobutane/propane canisters are simple and have an on/off shutoff valve (often permitted under Stage 1/2 fire restrictions where open fires are banned), yet lose pressure sharply in freezing cold unless inverted/regulated per manufacturer design.",
+        "text": "Check the local order for the exact stove type and permitted operation. A shutoff valve alone does not establish permission. Check the model temperature and fuel limits.",
         "claims": [
           "C13",
           "C15",
@@ -6306,17 +6300,17 @@
         ]
       },
       {
-        "text": "Recognize that pumped liquid-fuel stoves maintain strong output in subfreezing temperatures and high elevation, yet require careful outdoor priming, leak checks and manufacturer-matched fuel.",
+        "text": "Match fuel and operating conditions to the stove instructions. This comparison does not establish that a given liquid-fuel stove will perform safely at a particular altitude or temperature.",
         "claims": [
           "C15",
           "ED"
         ]
       },
       {
-        "text": "Recognize that solid-fuel tablet or alcohol stoves lack an instant shutoff valve, are frequently prohibited during Stage 1/2 fire restrictions and burn weakly in wind without careful shielding.",
+        "text": "Check whether the exact solid-fuel or alcohol appliance is permitted. If legality or operation is uncertain, choose a no-fire alternative.",
         "claims": [
           "C13",
-          "C15",
+          "C08",
           "ED"
         ]
       }
@@ -6427,10 +6421,10 @@
         ]
       },
       {
-        "text": "Follow the exact manufacturer instructions for windscreen clearance and remote-canister routing; use a natural rock or pack windblock set well back instead of trapping heat around canisters.",
+        "text": "Follow the exact model instructions. Some canister-top stoves explicitly prohibit all windscreens. Do not add or position a barrier that the instructions prohibit or that can redirect heat toward the fuel container.",
         "claims": [
           "C15",
-          "ED"
+          "C21"
         ]
       },
       {
@@ -6462,10 +6456,11 @@
       ]
     },
     "stop": {
-      "text": "Shut off the stove immediately if the fuel canister grows noticeably warm, flames lick around the tank or pot supports wobble.",
+      "text": "If fuel heating, abnormal flames or unstable supports are suspected, stop use and follow the manufacturer emergency guidance. If you cannot safely shut it down, move away and seek help.",
       "claims": [
-        "C15",
-        "C05"
+        "C21",
+        "T01",
+        "T02"
       ]
     },
     "diagram": "Canister stays cool & vented | Matched windscreen clearance | Stable level pot support",
@@ -7129,10 +7124,10 @@
         ]
       },
       {
-        "text": "Recognize that high elevation lowers available oxygen and cold cooking pots quench flames, increasing incomplete combustion and CO output from camping stoves and heaters.",
+        "text": "Cold, altitude, appliance design and pot placement can affect combustion; appearance and altitude do not establish a safe CO output. Use camping stoves outdoors and follow the exact model limits.",
         "claims": [
-          "C05",
-          "C16"
+          "C16",
+          "C21"
         ]
       },
       {
@@ -7150,11 +7145,10 @@
     "applies": "High-elevation camps, wind-sheltered porches, carports, snow trenches and cold-weather stove use.",
     "equipment": "Open-air outdoor cooking location, battery lighting and symptom awareness across all group members.",
     "failure": {
-      "text": "Assuming a clean blue propane flame inside an open-sided snow pit or partly open garage produces no dangerous carbon monoxide.",
+      "text": "Treating an open vestibule or a blue flame as proof that exhaust cannot accumulate around people.",
       "claims": [
         "C05",
-        "C16",
-        "C07"
+        "C16"
       ]
     },
     "verify": {
@@ -9455,10 +9449,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Check whether the filter uses an absolute pore rating (typically ≤1 micron for cysts and ~0.1–0.2 micron for bacteria) or only an unverified nominal rating.",
+        "text": "Identify the exact model and treatment claim. Nominal and absolute pore ratings differ. Product certification or test evidence must cover the organism of concern.",
         "claims": [
           "W04",
-          "W19",
           "W20",
           "W21"
         ]
@@ -9529,11 +9522,9 @@
         ]
       },
       {
-        "text": "Select boiling or a filter explicitly certified for cyst reduction (absolute pore size ≤1 micron or NSF/ANSI Standard 53/55) to remove parasites reliably.",
+        "text": "Use boiling or a filter independently certified for cyst reduction or removal, or rated at one micron absolute or smaller for parasite reduction. Look for a cyst-specific claim under NSF/ANSI 53 or 58 where certified.",
         "claims": [
-          "W19",
-          "W20",
-          "W02"
+          "W20"
         ]
       },
       {
@@ -9549,7 +9540,7 @@
     "technical_review": "AI editorial check; qualified reviewer pending",
     "objective": "Choose effective parasite barriers where standard chlorine or iodine disinfection alone is unreliable.",
     "applies": "Surface water in wilderness, rural or flood-affected areas where wildlife or livestock can shed protozoan cysts.",
-    "equipment": "Filter independently rated for cyst reduction (absolute ≤1 micron or NSF/ANSI 53/55) or boiling setup.",
+    "equipment": "Filter rated for specific cyst reduction or removal, filter of one micron absolute or smaller, or boiling setup.",
     "failure": {
       "text": "Relying solely on standard chlorine drops in cold stream water where Cryptosporidium oocysts survive treatment.",
       "claims": [
@@ -9574,8 +9565,8 @@
         "W28"
       ]
     },
-    "diagram": "Chlorine misses Crypto | Cyst filter ≤1 um or NSF 53 | Boiling kills all classes",
-    "visual": "Comparative configuration contrasting parasite inactivation across standard chlorine, certified cyst filtration and rolling boil. Conceptual, not to scale.",
+    "diagram": "Routine chlorine misses Crypto | Verify specific cyst claim | Boil when appropriate",
+    "visual": "Compares parasite barriers. Neither a standard number by itself nor cyst removal establishes protection against all hazards.",
     "reviewer": "Drinking-water microbiology and public health"
   },
   {
@@ -9648,17 +9639,16 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Shake and blow or drain excess water gently per manufacturer instructions immediately after filtering, remembering that microscopic pores remain damp.",
+        "text": "Read the exact model instructions for draining and storage. A cartridge that looks drained can still contain water.",
         "claims": [
-          "W28",
-          "ED"
+          "W28"
         ]
       },
       {
-        "text": "Keep the damp cartridge sealed in a waterproof bag inside your inner clothing during travel and inside your sleeping bag overnight whenever temperatures approach freezing.",
+        "text": "Protect the wetted filter against freezing as the manufacturer directs. Maintain a treatment backup for water within its limits.",
         "claims": [
           "W28",
-          "E10"
+          "W02"
         ]
       },
       {
@@ -9689,7 +9679,7 @@
       ]
     },
     "stop": {
-      "text": "Any wet filter left out in freezing air is compromised—stop relying on it for microbial safety and use boiling or another verified supply.",
+      "text": "If a wetted filter might have frozen, stop relying on it and follow the model instructions for replacement or an approved integrity check. Use a supported alternate treatment or carried potable water.",
       "claims": [
         "W28",
         "W02"
@@ -9772,20 +9762,21 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Confirm the bottle is plain unscented liquid bleach with 5%–9% sodium hypochlorite—never use scented, color-safe, splash-less or cleaner-added bleach.",
+        "text": "Prefer an approved safe supply or boiling when appropriate. Use bleach only as an emergency option and only if the product and concentration are covered by a current official instruction.",
+        "claims": [
+          "W01",
+          "W02",
+          "W12"
+        ]
+      },
+      {
+        "text": "Follow local public health directions or one complete current EPA or CDC protocol. Verify the exact formulation, water volume and required pretreatment. Do not combine tables or improvise a rounded dose.",
         "claims": [
           "W12"
         ]
       },
       {
-        "text": "Clarify cloudy water first, measure the label-matched EPA/CDC dose (for 5%–9% bleach: about 8 drops or just under 1/8 tsp per gallon of clear water; double if still slightly cloudy), and mix thoroughly.",
-        "claims": [
-          "W12",
-          "W08"
-        ]
-      },
-      {
-        "text": "Let stand at least 30 minutes; water should have a faint chlorine odor (if not, repeat the dose and wait another 15 minutes), remembering chlorine does not reliably kill Cryptosporidium.",
+        "text": "Follow the selected protocol for the full dose and contact time. A chlorine smell alone cannot prove treatment, and this process does not reliably address all parasites.",
         "claims": [
           "W12",
           "W20"
@@ -9806,23 +9797,22 @@
       ]
     },
     "verify": {
-      "text": "Confirm bleach label concentration, exact volume dosed, 30-minute timer completion and faint chlorine smell before drinking.",
+      "text": "Record the source protocol, product concentration, water volume, exact dose and elapsed time.",
       "claims": [
         "W12",
         "ED"
       ]
     },
     "stop": {
-      "text": "Reject bleach disinfection if chemical/fuel/algal contamination is suspected, if bleach concentration is unreadable or non-plain, or if Cryptosporidium risk requires boiling or cyst filtration.",
+      "text": "Use another supply if the product strength or treatment steps are uncertain, or if a chemical, fuel or algal toxin hazard is suspected.",
       "claims": [
         "W01",
         "W12",
-        "W15",
-        "W20"
+        "W15"
       ]
     },
-    "diagram": "Verify 5-9% unscented label | Clarify and dose per gallon | Mix and wait ≥30 min",
-    "visual": "Mechanism diagram tracing chlorine concentration verification, turbidity pre-clarification and 30-minute contact-time inactivation kinetics. Conceptual, not to scale.",
+    "diagram": "Confirm product and concentration | Follow one official table | Record dose and contact time",
+    "visual": "Protocol-selection schematic. Select the applicable local or agency instructions for the entire procedure.",
     "reviewer": "Drinking-water safety and public health"
   },
   {
@@ -9841,10 +9831,10 @@
         ]
       },
       {
-        "text": "Clarify turbid water first and extend contact time strictly according to the label when treating cold water or targeting resistant parasites like Cryptosporidium.",
+        "text": "Follow the exact product instructions for water clarity, temperature, volume and contact time. If the product does not claim efficacy for the expected pathogen under those conditions, select a suitable treatment or verified supply.",
         "claims": [
+          "W04",
           "W05",
-          "W08",
           "W20"
         ]
       },
@@ -10611,10 +10601,10 @@
         ]
       },
       {
-        "text": "Reject chemical disinfection if bleach is older than recommended or lacks a faint chlorine odor after repeat dosing, or if tablets are expired, damp or crumbled.",
+        "text": "Reject unlabeled, expired or contaminated reagents and any batch that did not meet its official time and dose requirements. Odor cannot verify microbial safety.",
         "claims": [
-          "W12",
-          "W05"
+          "W05",
+          "W12"
         ]
       },
       {
@@ -12371,16 +12361,17 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Observe how the downed log rests on the ground before touching the saw: a log supported at both ends sags in the middle (compression on top, tension on bottom), whereas a cantilevered overhanging end compresses on the bottom and pulls apart on top.",
-        "claims": [
-          "K05"
-        ]
-      },
-      {
-        "text": "Make a shallow relief cut on the compression side first if needed, or cut from the tension-relieved side while watching the kerf—if the saw slot begins closing, STOP and relieve bind from the opposite side or reposition the support.",
+        "text": "Assess supports, slope and visible movement before touching the saw. A simple support sketch only indicates one possible load case; hidden constraints and decay can change the bind.",
         "claims": [
           "K05",
           "ED"
+        ]
+      },
+      {
+        "text": "Leave cuts requiring bind relief, support changes or work on loaded timber to trained sawyers. If the kerf closes or wood moves, stop and clear the drop or roll area.",
+        "claims": [
+          "K05",
+          "K10"
         ]
       },
       {
@@ -12419,8 +12410,8 @@
         "K10"
       ]
     },
-    "diagram": "Compression closes saw kerf | Tension pulls kerf open | Cut safely clear of drop zone",
-    "visual": "Cutaway beam-stress schematic showing top-compression/bottom-tension sag versus cantilevered overhang bind during downed-log sawing. Conceptual, not to scale.",
+    "diagram": "Inspect supports from clear ground | Closing kerf signals bind | Stop and clear movement path",
+    "visual": "Hazard-recognition schematic. No relief-cut sequence or work under stored load is shown.",
     "reviewer": "Forestry tool safety and mechanical safety"
   },
   {
@@ -12495,18 +12486,18 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Prefer splitting small straight knot-free wood (wrist diameter or smaller) using wooden wedges driven by a stout deadwood mallet once a shallow starter split opens.",
+        "text": "Prefer small prepared fuel or a purpose-designed splitting tool used as directed on a stable work surface. Avoid knotty, twisted or stressed stock.",
         "claims": [
-          "K12",
-          "K06",
-          "K03"
+          "K01",
+          "K08",
+          "ED"
         ]
       },
       {
-        "text": "If batoning small straight deadwood with a sturdy fixed-blade knife, strike ONLY on the blade spine near the tip with a smooth deadwood club (never steel or rock), stopping immediately if the blade hits a hard knot or starts twisting.",
+        "text": "If a knife is not specifically rated by its maker for impact use, do not strike it. No improvised blade or club configuration is validated here.",
         "claims": [
+          "K01",
           "K02",
-          "K12",
           "ED"
         ]
       },
@@ -12540,11 +12531,11 @@
       ]
     },
     "stop": {
-      "text": "If the blade binds hard or wood twists around a knot, stop pounding—tap the blade gently back out or use a wooden wedge to open the split safely.",
+      "text": "If a blade or wedge binds, stop applying force, clear the area and follow the tool maker or instructor for safe recovery.",
       "claims": [
+        "K01",
         "K02",
-        "K06",
-        "K12"
+        "ED"
       ]
     },
     "diagram": "Straight knot-free wood | Wooden wedge & deadwood club | Never hammer steel or folders",
@@ -13588,54 +13579,49 @@
   {
     "id": "Z09-P44",
     "zone": "Z09",
-    "title": "Understand pulley redirects, friction loss and anchor load doubling",
+    "title": "Understand the force on a fixed pulley redirect",
     "origin": "NPS Forces and Tools and USFS rigging boundaries; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Recognize that passing a rope over a single stationary limb or fixed pulley changes pulling direction (1:1 ideal advantage) while ACTUALLY DOUBLING the total downward load on the anchor (load plus pulling force) minus friction.",
+        "text": "A fixed pulley can redirect a line without ideal mechanical advantage. The anchor reaction comes from the vector sum of the segment pulls. Equal tensions give about twice a segment tension only when both segments pull in the same direction.",
         "claims": [
-          "K06",
-          "K09"
+          "K13"
         ]
       },
       {
-        "text": "Recognize that high friction over a rough tree branch can cut usable lifting output in half while sawing straight through rope fibers and damaging tree bark.",
+        "text": "A different rope angle changes the resultant. Friction can produce unequal tensions; shock loading and support geometry change the practical hazard. This diagram is a static model, not sizing guidance.",
         "claims": [
-          "K06",
+          "K13",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect the concept unloaded. Use rated and independently reviewed equipment and systems for actual lifting. Keep people out of the load path and overhead hazard area.",
+        "claims": [
           "K09",
-          "K11"
-        ]
-      },
-      {
-        "text": "Remember that compound pulley systems multiply tension on anchors rapidly—camp cordage, tree branches and improvised carabiners carry ZERO certified lifting or rescue ratings.",
-        "claims": [
-          "K06",
-          "K09"
+          "K13",
+          "ED"
         ]
       }
     ],
     "batch": "10-p09-z09-tools",
     "publication": "HOLD",
     "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Recognize how simple rope redirects change pull direction and multiply forces on the overhead anchor point.",
+    "objective": "Distinguish rope-segment tension from the anchor reaction in an ideal redirect.",
     "applies": "Understanding mechanical principles in camp utility hoists (such as food-bag hangs) without overstating uncertified load ratings.",
     "equipment": "Utility rope, smooth low-friction redirect or simple camp pulley and sound overhead anchor.",
     "failure": {
-      "text": "Hauling a heavy gear sack over a dead brittle branch using a redirect without realizing the branch carries roughly double the bag weight plus friction pull.",
+      "text": "Assuming a redirect anchor only carries one line tension, or treating a two-times sketch as a safe working rating.",
       "claims": [
-        "K06",
-        "K09",
-        "E13"
+        "K13"
       ]
     },
     "verify": {
-      "text": "Inspect the overhead anchor for soundness, keep bystanders completely out from underneath suspended utility loads and stay well within light camp loads.",
+      "text": "In a diagram, identify both force directions and explain why their angle matters.",
       "claims": [
-        "K06",
-        "K09",
-        "K08",
-        "E13"
+        "K13",
+        "ED"
       ]
     },
     "stop": {
@@ -13645,8 +13631,8 @@
         "K09"
       ]
     },
-    "diagram": "1:1 redirect changes pull angle | Anchor sees ~2x downward load | Friction cuts output & wears cord",
-    "visual": "Mechanism diagram illustrating single-redirect load doubling on an overhead anchor, branch friction loss and zero-standing fall zone below. Conceptual, not to scale.",
+    "diagram": "Two rope pulls act on the pulley | Resultant depends on angle | No working-load rating",
+    "visual": "Free-body sketches show equal-tension parallel and right-angle examples under a static idealization.",
     "reviewer": "Mechanical engineering and rigging safety"
   },
   {
@@ -15874,24 +15860,23 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Check the geodetic datum printed in the map margin before plotting GPS points: modern US Topo sheets and GPS receivers default to WGS84 or NAD83 (virtually identical for foot travel), whereas older historical USGS sheets often use NAD27.",
+        "text": "Read the exact horizontal datum and coordinate format in the map margin and receiver. UTM is a grid system, not a datum. Confirm both before plotting.",
         "claims": [
           "N01",
-          "N04"
+          "N11"
         ]
       },
       {
-        "text": "Recognize that plotting a WGS84 GPS coordinate straight onto an unadjusted NAD27 map grid can shift your plotted position by tens to hundreds of meters—enough to place you on the wrong side of a cliff or river.",
+        "text": "NAD27, NAD83 and WGS84 identifiers do not justify a guessed shift. Use an authoritative transformation when the reference frames differ; the displacement depends on location and reference.",
         "claims": [
-          "N01",
-          "ED"
+          "N11"
         ]
       },
       {
-        "text": "Match your GPS receiver datum setting to the paper map's printed datum (or switch to a modern WGS84/NAD83 US Topo sheet) and always cross-check the plotted point against surrounding terrain contours.",
+        "text": "Record datum, format and grid zone as applicable. Cross-check the transformed position against identifiable terrain before using it for movement.",
         "claims": [
           "N01",
-          "N03",
+          "N11",
           "ED"
         ]
       }
@@ -16005,7 +15990,7 @@
         ]
       },
       {
-        "text": "Test for localized geologic magnetic anomalies (common in iron-rich northern bedrock) by walking twenty steps and sighting back toward your starting point—if the reverse bearing disagrees sharply from 180 degrees opposite, local rock is deflecting the needle.",
+        "text": "If reciprocal bearings disagree, recheck observation technique, equipment and nearby interference. The mismatch alone cannot identify the cause or establish a safe route.",
         "claims": [
           "N08",
           "ED"
@@ -16316,10 +16301,10 @@
         ]
       },
       {
-        "text": "Lay the compass edge on the mapped landmark aligned with map north and trace back along the edge until it intersects your known trail or ridge—that intersection marks your approximate position.",
+        "text": "Use the correct map reference for the bearing. From the plotted landmark, draw the reciprocal direction back toward your known linear feature. Treat their crossing as a candidate location and compare it with the terrain.",
         "claims": [
-          "N08",
           "N03",
+          "T08",
           "ED"
         ]
       }
@@ -16363,10 +16348,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Identify two (ideally three) unmistakable mapped landmarks separated by a wide angular spread (roughly 60 to 120 degrees apart) rather than clustered close together.",
+        "text": "Use unmistakable mapped landmarks in substantially different directions. Near-parallel bearings make an approximate intersection less useful.",
         "claims": [
           "N03",
-          "N08"
+          "ED"
         ]
       },
       {
@@ -17724,9 +17709,10 @@
         ]
       },
       {
-        "text": "Recognize that **406 MHz Personal Locator Beacons (PLBs)** require NO subscription, transmit high-power distress alerts directly to NOAA SARSAT satellites and carry a local 121.5 MHz homing beacon—yet are ONE-WAY distress-only devices for grave and imminent danger.",
+        "text": "A registered 406 MHz PLB sends a distress alert through the Cospas-Sarsat system. Check the beacon model for homing or return-link features. A return-link indication is not a two-way conversation or a guarantee of rescue.",
         "claims": [
-          "N05"
+          "N05",
+          "N12"
         ]
       }
     ],
@@ -17771,9 +17757,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Register every 406 MHz PLB with NOAA SARSAT immediately upon purchase (required by federal law, free of charge) and update emergency contacts, medical notes and trip details whenever they change or at least every two years.",
+        "text": "Register a U.S.-coded beacon with NOAA, update changed information and verify registration at least every two years. Check the relevant authority for other country codes.",
         "claims": [
-          "N05"
+          "N12"
         ]
       },
       {
@@ -17810,9 +17796,9 @@
       ]
     },
     "stop": {
-      "text": "Reserve 406 MHz PLB activation strictly for grave and imminent life-safety emergencies—if accidentally triggered, shut it off immediately and notify NOAA SARSAT / rescue authorities to cancel false dispatch.",
+      "text": "For an accidental activation, turn the beacon off and contact the appropriate rescue coordination center immediately with the beacon ID. Use the current NOAA false-alert instructions.",
       "claims": [
-        "N05"
+        "N12"
       ]
     },
     "diagram": "Free mandatory NOAA registration | Check battery date & self-test | Deploy antenna upright to open sky",
@@ -18275,19 +18261,16 @@
         ]
       },
       {
-        "text": "Move the entire group together to the upwind edge of a clear open space away from dead snags, powerlines and loose branches; crouch low protecting eyes from blowing grit/snow and stay put until flight crew explicitly wave you forward.",
+        "text": "Wait clear of the aircraft where dispatch or the crew directs. Secure loose gear from a safe position before its arrival, and keep the group together.",
         "claims": [
-          "N09",
-          "E13",
-          "T01",
+          "N13",
           "ED"
         ]
       },
       {
-        "text": "Never approach a helicopter from uphill (spinning main rotor dips dangerously low) or anywhere near the rear tail rotor—approach ONLY from the front/side within the pilot's direct sight when signaled by crew.",
+        "text": "Do not approach or enter a landing area without explicit crew direction. Crew instructions determine the approach, if any; improvised approach rules are not a substitute.",
         "claims": [
-          "T01",
-          "N09",
+          "N13",
           "ED"
         ]
       }
@@ -18321,8 +18304,8 @@
         "N09"
       ]
     },
-    "diagram": "Stow ALL loose fabric/gear | Wait clear of snags & wires | Approach ONLY when crew signals",
-    "visual": "Environmental helicopter/ground-extraction safety zone marking stowed-gear boundary, tail-rotor/uphill exclusion zones and crew-directed approach corridor. Conceptual, not to scale.",
+    "diagram": "Secure loose gear from safety | Wait clear of aircraft | Follow the crew only",
+    "visual": "Waiting-site priorities. This is not a landing-zone or aircraft approach diagram.",
     "reviewer": "Search and rescue and aviation safety"
   },
   {
@@ -18349,11 +18332,10 @@
         ]
       },
       {
-        "text": "Offer ONLY low-risk shore-based assistance (extending a long branch, throwing a float/rope from firm ground, lowering dry warm clothing if safely anchored)—never climb unroped down slick cliffs or walk out onto broken ice.",
+        "text": "From stable land, offer reach or throw assistance only if it can be done safely. Stop if you could be pulled in or need to approach the hazard. Follow dispatcher directions.",
         "claims": [
-          "T01",
-          "X18",
-          "K09"
+          "X20",
+          "T02"
         ]
       }
     ],
@@ -19634,7 +19616,7 @@
         ]
       },
       {
-        "text": "Reject three classic false social signs: (4) \"there are footprints or dog tracks ahead\" (lighter weight or earlier colder morning), (5) \"a snowmobile crossed fast\" (speed skims thin spots that break under slow boots), and (6) \"other people are out there\" (others may be in unseen danger or over a different safe pocket).",
+        "text": "Reject tracks, observed crossings and other traffic as evidence that your location is safe. Loads and conditions differ and ice strength can vary over short distances.",
         "claims": [
           "X01",
           "E12"
@@ -19754,7 +19736,7 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "**First ~1 minute (Cold Shock):** Sudden cold immersion triggers an involuntary gasp reflex, rapid uncontrolled hyperventilation and blood-pressure spike—without a fastened life jacket keeping your mouth above water, inhaling water causes immediate drowning.",
+        "text": "Cold shock can begin immediately with gasp and rapid breathing. Protect the airway and use available flotation while breathing settles enough to act.",
         "claims": [
           "X02",
           "X03",
@@ -19762,16 +19744,15 @@
         ]
       },
       {
-        "text": "**First ~10 minutes (Cold Incapacitation / Swim Failure):** Frigid water cools arm and leg nerves and muscles rapidly, destroying finger grip and swimming power long before core hypothermia occurs—use these minutes to self-exit or secure flotation/rescue rather than attempting a long swim.",
+        "text": "Cold can quickly reduce grip, movement and swimming ability. Take a safe opportunity for exit or flotation early; do not budget a fixed window for action.",
         "claims": [
           "X02",
           "X03"
         ]
       },
       {
-        "text": "**Roughly 1 hour+ (Core Hypothermia):** Core body temperature drops progressively over tens of minutes to an hour or more depending on clothing, size and water temperature—if trapped in water with flotation, minimize movement and conserve heat while awaiting rescue.",
+        "text": "Core cooling and survival vary widely with water, clothing, flotation and the person. The 1–10–1 mnemonic describes phases, not deadlines or a promised survival time.",
         "claims": [
-          "X02",
           "X03"
         ]
       }
@@ -19800,15 +19781,15 @@
       ]
     },
     "stop": {
-      "text": "Treat ANY immersion in water below 70°F (especially below 50°F) as a time-critical drowning and hypothermia emergency requiring immediate 911/USCG activation.",
+      "text": "Respond to a cold-water emergency promptly. Keep the airway above water, signal for help and follow emergency guidance. Do not wait for a temperature or time threshold.",
       "claims": [
         "X02",
         "X03",
         "T02"
       ]
     },
-    "diagram": "~1 min: control cold-shock gasp | ~10 min: exit/secure before swim fails | ~1 hr+: conserve heat w/ PFD",
-    "visual": "Mechanism timeline mapping the 1-10-1 cold-water immersion phases (cold shock, swim failure, core hypothermia) to time-critical survival actions. Conceptual, not to scale.",
+    "diagram": "Cold shock can be immediate | Movement can deteriorate quickly | Core cooling varies",
+    "visual": "Conceptual phases with no fixed onset, swimming capability or survival window.",
     "reviewer": "Cold-water rescue, maritime safety and wilderness medicine"
   },
   {
@@ -19819,18 +19800,15 @@
     "category": "Adapted historical material",
     "action": [
       {
-        "text": "Control breathing first during the initial 1-minute cold-shock gasp—keep your airway clear above the rim, resist flailing wildly and turn back toward the direction you came from (where ice already held your weight).",
+        "text": "Protect your airway and regain breathing control as able. If possible, face the direction you came from, which was the last route to support you. It is not guaranteed safe ice.",
         "claims": [
-          "X02",
-          "X03",
-          "X18"
+          "X19"
         ]
       },
       {
-        "text": "Place arms flat on the solid shelf edge (planting ice picks if carried), kick your legs vigorously to bring your body horizontal like swimming and pull/slide forward onto the ice—if the rim breaks, keep working back toward thicker ice.",
+        "text": "If able to self-exit, get your body horizontal and kick while using the edge or ice picks to pull forward. Avoid any promise that a particular edge will support you.",
         "claims": [
-          "X18",
-          "X03"
+          "X19"
         ]
       },
       {
@@ -19865,11 +19843,10 @@
       ]
     },
     "stop": {
-      "text": "If unable to exit within functional minutes, hook arms/coat sleeves onto the ice edge if freezing in place, blow whistle/shout and preserve airway while awaiting emergency rescue (specialist review pending).",
+      "text": "If unable to get out, signal for rescue and prioritize keeping your airway clear. Do not wait for a fixed number of minutes or rely on clothing freezing to the ice as a planned technique.",
       "claims": [
-        "X18",
-        "X03",
-        "T02"
+        "X19",
+        "X03"
       ]
     },
     "diagram": "Control cold-shock breath | Turn back, kick flat & pull out | Roll flat away -> urgent warmth/911",
@@ -19892,18 +19869,15 @@
         ]
       },
       {
-        "text": "Talk calmly to help the victim control cold-shock breathing and turn toward thicker ice while you stay low and anchored on firm ground (or secured shore edge) extending a long branch, sled, ladder or throwing a buoyant rescue line/jug.",
+        "text": "From stable shore, reassure the person and offer a reach or throw aid only if it can be done safely without entering the hazard.",
         "claims": [
-          "X18",
-          "X02",
-          "T01"
+          "X20"
         ]
       },
       {
-        "text": "Brace yourself low on shore before pulling so a sudden jerk cannot drag you into the water; if no safe reach or throw reaches the victim, stay alive on shore, keep visual contact and guide arriving fire/ice rescue teams.",
+        "text": "Let go of a reach aid if you are being pulled in. If safe help is out of reach, remain on shore and report the person’s position to responders.",
         "claims": [
-          "X18",
-          "T01",
+          "X20",
           "T02"
         ]
       }
@@ -19931,9 +19905,9 @@
       ]
     },
     "stop": {
-      "text": "Never enter the water or step onto unsupported broken ice without specialized rescue training, exposure suit and tethered professional backup.",
+      "text": "Stay on land. Do not enter the water or go onto ice to perform an improvised rescue.",
       "claims": [
-        "X18",
+        "X20",
         "T01"
       ]
     },
@@ -20452,7 +20426,7 @@
       ]
     },
     "stop": {
-      "text": "Continue active cooling until EMS takes over or the person becomes fully alert and shivering—follow 911 dispatcher directions strictly for breathing/CPR changes.",
+      "text": "Follow emergency-dispatch directions for cooling, airway and transfer. Improved alertness alone does not establish recovery; suspected heat stroke requires urgent medical evaluation.",
       "claims": [
         "T05",
         "T09",
@@ -21062,11 +21036,10 @@
         ]
       },
       {
-        "text": "Treat BOTH HAPE and HACE as immediate life-threatening emergencies: **DESCEND IMMEDIATELY** (assisted—never send an impaired patient down alone!), activate 911/SAR and obtain urgent medical evaluation and oxygen.",
+        "text": "Treat suspected HAPE or HACE as a medical emergency. Activate local rescue and arrange urgent safe accompanied descent. Oxygen or other medical measures, if available, must follow trained or dispatcher guidance and must not delay the rescue plan.",
         "claims": [
           "X09",
-          "T02",
-          "E11"
+          "T02"
         ]
       }
     ],
@@ -21090,7 +21063,7 @@
       ]
     },
     "stop": {
-      "text": "ANY shortness of breath at rest, staggering/ataxia or confusion at high altitude requires IMMEDIATE accompanied descent (even at night if safe) and 911/medical activation.",
+      "text": "Do not ascend or send an impaired person down alone. If descent cannot be undertaken safely, contact rescue immediately and follow emergency guidance.",
       "claims": [
         "X09",
         "T02"
@@ -21222,11 +21195,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Test suspect talus boulders gently with weight centered before committing a full step, and space group members tightly side-by-side (or send one at a time diagonally out of the fall line) so a dislodged stone cannot strike companions below.",
+        "text": "Avoid unstable talus or routes with exposed people below when possible. Keep companions out of the fall line rather than clustering beneath unstable material.",
         "claims": [
           "X10",
-          "E11",
-          "T01"
+          "ED"
         ]
       },
       {
@@ -21486,11 +21458,12 @@
         ]
       },
       {
-        "text": "Probe uncertain damp edges ahead with a sturdy walking pole BEFORE stepping—avoid jumping onto floating peat mats or cutting across grassy marsh openings that look like dry meadows on older maps.",
+        "text": "Treat floating mats and uncertain edges as exclusions. A pole can encounter a firmer patch without establishing that the ground will support a person.",
         "claims": [
           "X12",
           "X13",
-          "N10"
+          "N10",
+          "ED"
         ]
       },
       {
@@ -21524,7 +21497,7 @@
       ]
     },
     "stop": {
-      "text": "Bouncing quaking ground, knee-deep sucking mud or concealed water channels stop forward travel—retreat along your entry footprints to firm upland ground.",
+      "text": "Avoid quaking ground, concealed channels and unstable footing. Turn back along a verified safe route while still on firm land.",
       "claims": [
         "X12",
         "X13",
@@ -21543,9 +21516,8 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Understand why frozen wetlands stay treacherous all winter: decaying organic peat generates subtle warmth, groundwater seeps keep pockets unfrozen and fluctuating beaver-pond water levels leave hollow air gaps under thin brittle ice crusts.",
+        "text": "Ice can vary over short distances. Groundwater, moving water, snow cover and changing water levels can hide weak areas. Do not infer safe footing from winter temperature or surface appearance.",
         "claims": [
-          "X12",
           "X01",
           "E12"
         ]
@@ -21598,8 +21570,8 @@
         "E10"
       ]
     },
-    "diagram": "Snow hides hollow ice crust | Decaying peat & seeps thaw ice | Detour strictly on upland ridges",
-    "visual": "Cutaway winter-wetland section illustrating hollow air gaps over drained beaver ponds and thermal peat seepage thinning snow-covered ice. Conceptual, not to scale.",
+    "diagram": "Snow hides surface features | Local ice strength varies | Keep to verified dry land",
+    "visual": "Conceptual wetland failure diagram. No heat source, water depth or ice strength is inferred from appearance.",
     "reviewer": "Ice safety, wetland ecology and winter safety"
   },
   {
@@ -22067,10 +22039,9 @@
         ]
       },
       {
-        "text": "Float or tread water to save breath, swim **PARALLEL TO THE SHORELINE** out of the narrow channel into breaking shoreward waves and then angle back to the beach—or if tired, keep floating/treading and wave and shout loudly for lifeguard help.",
+        "text": "Float or tread water and call or wave for help if you cannot escape. If able, move out of the current along the shoreline and then angle back toward safety. Local current and your swimming ability govern the decision.",
         "claims": [
-          "X14",
-          "T01"
+          "X21"
         ]
       }
     ],
@@ -22114,11 +22085,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Never turn your back on the ocean or Great Lakes surf—irregular **sneaker waves** surge suddenly far higher up beaches and rocky ledges than the previous twenty calm waves, dragging victims into cold swirling undertow.",
+        "text": "Sneaker waves can surge well beyond prior waves after a quiet interval. A count of calm waves gives no safe interval.",
         "claims": [
-          "X06",
-          "X14",
-          "X02"
+          "X22"
         ]
       },
       {
@@ -22130,11 +22099,9 @@
         ]
       },
       {
-        "text": "Watch wave sets calmly for several full minutes from well above the highest wet sand/rock stain before choosing any shore stop or fishing vantage.",
+        "text": "Remain well back from surf-washed rock, beaches and mobile logs. Follow local closures and warnings rather than relying on the most recent wet line.",
         "claims": [
-          "X06",
-          "X15",
-          "ED"
+          "X22"
         ]
       }
     ],
@@ -22185,10 +22152,10 @@
         ]
       },
       {
-        "text": "Evacuate **IMMEDIATELY ON FOOT** inland and uphill to marked high ground (generally >100 feet elevation or well inland per local zone maps)—do NOT wait for sirens, do NOT pack gear and do NOT drive into gridlocked coastal roads.",
+        "text": "Move immediately out of the mapped tsunami zone to designated high ground or inland by local evacuation routes. Follow the local plan for travel mode and accessibility; do not wait for a siren after natural warning signs.",
         "claims": [
           "X16",
-          "T13"
+          "X23"
         ]
       },
       {
@@ -22376,11 +22343,11 @@
         ]
       },
       {
-        "text": "Collect coastal freshwater only well UPSTREAM above tidal reach (ideally above a clear drop/waterfall or at low tide verified upstream of marsh flats), then apply full chemical/watershed screening and microbial treatment.",
+        "text": "A waterfall, location upstream or low tide does not verify freshwater or rule out other contaminants. Carry a known potable supply or use an authority-confirmed source.",
         "claims": [
+          "W01",
           "X15",
-          "W09",
-          "W02"
+          "ED"
         ]
       },
       {
@@ -22620,27 +22587,26 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Control cold-shock breathing first while holding onto the capsized or swamped buoyant craft—most modern small boats and kayaks remain afloat even when flooded, giving critical extra flotation and a vastly larger visual target for Coast Guard/SAR aircraft.",
+        "text": "Protect the airway, control breathing as able and use a buoyant craft for support when it remains safe to do so. Do not assume a flooded craft will remain stable or afloat.",
         "claims": [
-          "X05",
           "X02",
-          "X03"
-        ]
-      },
-      {
-        "text": "Climb as high out of cold water onto the overturned hull or inside a swamped stable craft as safely possible—body heat drains roughly 25 times faster in cold water than in air of the same temperature.",
-        "claims": [
           "X03",
-          "X02",
           "X05"
         ]
       },
       {
-        "text": "Abandon a floating hull to swim for shore ONLY if calm safe shore is very close (well inside your short ~10-minute cold-water functional window), current is not pushing you away, you wear a PFD and staying puts you in immediate danger (waterfall, rocks, sinking hull).",
+        "text": "Get as much of your body out of the water as you safely can without losing flotation or destabilizing the craft. Keep signaling for rescue.",
+        "claims": [
+          "X03",
+          "X05"
+        ]
+      },
+      {
+        "text": "Avoid swimming away from flotation unless remaining creates immediate danger or you can reliably reach immediate safety. Do not estimate swimming range from a fixed cold-water time window.",
         "claims": [
           "X03",
           "X05",
-          "X04"
+          "ED"
         ]
       }
     ],
@@ -22695,11 +22661,10 @@
         ]
       },
       {
-        "text": "**Group — HUDDLE:** Two or more PFD-wearing survivors lock arms tightly in a tight circle pressing chest-to-chest (placing children or smaller chilled members inside the protected center) to conserve shared core heat, boost morale and form one larger visible search target.",
+        "text": "A huddle may reduce heat loss when survivors have suitable flotation and can stay together without compromising anyone’s airway. A clear airway and stable flotation take precedence over any posture.",
         "claims": [
           "X03",
-          "X04",
-          "E11"
+          "X04"
         ]
       },
       {
