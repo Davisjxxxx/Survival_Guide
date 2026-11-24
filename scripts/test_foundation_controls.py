@@ -1,4 +1,4 @@
-"""Regression checks for unpublished page, evidence integrity, and contradiction guards."""
+"""Regression checks for unpublished page, evidence integrity, and domain contradiction guards."""
 import tempfile
 import unittest
 from pathlib import Path
@@ -60,6 +60,34 @@ class ControlTests(unittest.TestCase):
         )
         with self.assertRaisesRegex(ValueError, 'unvalidated structural load'):
             self.load(shelter)
+
+    def test_z09_unvalidated_cordage_rating_rejected(self):
+        tool = self.sample.replace('Z01-P01', 'Z09-P99').replace(
+            'Pause on stable ground', 'This improvised rope has a safe working load 300 lb for lifting'
+        )
+        with self.assertRaisesRegex(ValueError, 'unvalidated cordage/rigging'):
+            self.load(tool)
+
+    def test_z11_moss_north_myth_rejected(self):
+        nav = self.sample.replace('Z01-P01', 'Z11-P99').replace(
+            'Pause on stable ground', 'Moss always grows on the north side of trees to guide travel'
+        )
+        with self.assertRaisesRegex(ValueError, 'moss-north folklore'):
+            self.load(nav)
+
+    def test_z12_safe_ice_claim_rejected(self):
+        env = self.sample.replace('Z01-P01', 'Z12-P99').replace(
+            'Pause on stable ground', 'Foot tracks prove safe ice across the lake'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe universal ice'):
+            self.load(env)
+
+    def test_z12_swim_against_rip_rejected(self):
+        env = self.sample.replace('Z01-P01', 'Z12-P99').replace(
+            'Pause on stable ground', 'Swim directly against the rip current toward the beach'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe rip-current'):
+            self.load(env)
 
 
 if __name__ == '__main__':

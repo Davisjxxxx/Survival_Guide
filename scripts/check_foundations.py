@@ -1,4 +1,4 @@
-"""Check frozen-path custody, review assets and the offline package without network or browser."""
+"""Check frozen-path custody, review assets, zone PDFs, and the offline package without network or browser."""
 import argparse
 from hashlib import sha256
 import json
@@ -49,17 +49,23 @@ def verify_photos():
         )
 
 
+def verify_retained_pdfs():
+    for pdf in sorted((FOUND / 'proofs').glob('*.pdf')):
+        head = pdf.read_bytes()[:5]
+        require(head == b'%PDF-' and pdf.stat().st_size > 10_000, f'Invalid PDF proof: {pdf.name}')
+
+
 def package_members():
     files = [p for path in ('reader', 'manuscripts', 'evidence') for p in (FOUND / path).rglob('*') if p.is_file()]
     files.extend([FOUND / 'README.md', FOUND / 'SPRINT_RESULT.md'])
-    matrix = FOUND / 'ZONE_COMPLETION_MATRIX.csv'
-    if matrix.exists():
-        files.append(matrix)
-    # Include consolidated proofs and zone proofs (exclude superseded pilot/core PDFs if redundant or include primary PDFs).
-    for pdf in sorted((FOUND / 'proofs').glob('*.pdf')):
-        if pdf.name in {'foundations.pdf', 'foundations-a4.pdf', 'reconstructions.pdf',
-                        'Z01-letter.pdf', 'Z01-a4.pdf', 'Z02-letter.pdf', 'Z02-a4.pdf',
-                        'Z03-letter.pdf', 'Z03-a4.pdf', 'Z04-letter.pdf', 'Z04-a4.pdf'}:
+    for extra in ('ZONE_COMPLETION_MATRIX.csv', 'ASTRA_ESCALATION_REGISTER.md'):
+        path = FOUND / extra
+        if path.exists():
+            files.append(path)
+    # Include consolidated foundational proofs inside the offline ZIP while keeping zone PDFs separately in proofs/.
+    for pdf_name in ('foundations.pdf', 'foundations-a4.pdf', 'reconstructions.pdf'):
+        pdf = FOUND / 'proofs' / pdf_name
+        if pdf.exists():
             files.append(pdf)
     return {path.relative_to(FOUND).as_posix(): path.read_bytes() for path in sorted(set(files))}
 
@@ -93,6 +99,7 @@ def main():
             'Recovery checkpoint contains an edit or deletion')
     verify_generation()
     verify_photos()
+    verify_retained_pdfs()
     entries = package_payload()
     if args.write_package:
         package_write(entries)
@@ -103,7 +110,7 @@ def main():
             and all(hash_bytes(zipped.read(name)) == hash_bytes(data) for name, data in entries.items()),
             'Offline package does not match checked-in bytes',
         )
-    print(f'PASS: frozen paths, reproducible reader, photo provenance, {len(entries)-1} offline members')
+    print(f'PASS: frozen paths, reproducible reader, photo provenance, valid PDFs, {len(entries)-1} offline members')
     print(f'{BUNDLE.name} SHA-256 {hash_bytes(BUNDLE.read_bytes())}')
 
 

@@ -10861,6 +10861,3369 @@
     "reviewer": "Wilderness medicine, public health and search and rescue"
   },
   {
+    "id": "Z09-P01",
+    "zone": "Z09",
+    "title": "Match hand tools to task limits and operator skill",
+    "origin": "OSHA hand tools and USFS trail handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Match tool design to the actual material and cut—use saws for cross-cutting deadwood, small knives for fine shaping and proper levers or shovels for prying and digging.",
+        "claims": [
+          "K01",
+          "K02",
+          "K03"
+        ]
+      },
+      {
+        "text": "Favor lower-energy controlled tools (folding saw, compact fixed blade) over high-energy swinging tools (axes, machetes) whenever fatigue, tight space or limited training increases miss risk.",
+        "claims": [
+          "K01",
+          "K03",
+          "ED"
+        ]
+      },
+      {
+        "text": "Leave unnecessary heavy or specialized tools out of field kits and never attempt high-risk felling or structural fabrication beyond your training and equipment.",
+        "claims": [
+          "K01",
+          "K10",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Choose the lowest-risk, task-appropriate hand tool before starting any camp cutting, digging or repair job.",
+    "applies": "Selecting knives, saws, hatchets, shovels or multi-tools for backcountry, camp or home-outage tasks.",
+    "equipment": "Route-appropriate maintained hand tools, protective sheaths and pre-use inspection habit.",
+    "failure": {
+      "text": "Swinging a heavy camp hatchet to chop thin kindling on uneven ground when a folding saw would cut cleanly with far lower slip risk.",
+      "claims": [
+        "K01",
+        "K03"
+      ]
+    },
+    "verify": {
+      "text": "Name the exact cut or mechanical task, confirm the tool matches it and check that operator dexterity and lighting are adequate.",
+      "claims": [
+        "K01",
+        "K03",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the right tool is missing or the task exceeds safe camp-tool limits, choose an alternate low-risk method rather than improvising unsafe blade or impact substitutes.",
+      "claims": [
+        "K01",
+        "K02",
+        "K10"
+      ]
+    },
+    "diagram": "Define task and material | Pick lowest-risk matched tool | Stay inside skill boundaries",
+    "visual": "Comparative configuration contrasting folding saws, small fixed blades and swinging axes by energy hazard, control and appropriate camp tasks. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety and occupational safety"
+  },
+  {
+    "id": "Z09-P02",
+    "zone": "Z09",
+    "title": "Inspect cutting edges, handles and locks before every job",
+    "origin": "OSHA 3080 and USFS trail handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check wooden or composite handles for hairline splits, rot, wobble or loose head wedges; never swing an axe or hammer with a moving head.",
+        "claims": [
+          "K02",
+          "K03",
+          "K04"
+        ]
+      },
+      {
+        "text": "Test folding-knife and folding-saw locking mechanisms slowly with fingers completely clear of the closing arc to confirm zero blade play or slip.",
+        "claims": [
+          "K01",
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect metal edges and striking faces for cracks, chips, heavy rust or mushroomed rims that can snap or throw metal shards under load.",
+        "claims": [
+          "K02",
+          "K12"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Catch loose heads, cracked handles, worn folder locks and chipped steel before applying force.",
+    "applies": "Pre-use inspection of every knife, folding saw, hatchet, hammer, wedge or multi-tool prior to field or home use.",
+    "equipment": "Tool to be inspected, daylight or clear task lighting and clean cloth.",
+    "failure": {
+      "text": "Opening a gritty folding knife without checking whether the liner lock engaged, causing the blade to snap shut on fingers during a push cut.",
+      "claims": [
+        "K01",
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm tight head seating, sound uncracked handle, positive lock engagement and clean intact blade edge before starting work.",
+      "claims": [
+        "K01",
+        "K02",
+        "K03",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Immediately tag out and retire any tool with a loose head, cracked handle, unreliable lock or mushroomed striking poll—never patch a broken axe handle with tape.",
+      "claims": [
+        "K02",
+        "K04",
+        "K12"
+      ]
+    },
+    "diagram": "Check handle & head wedge | Verify blade lock safely | Inspect edge & striking poll",
+    "visual": "Exploded pre-use inspection view highlighting axe head wedge, handle grain, folder lock bar and striking-face integrity points. Conceptual, not to scale.",
+    "reviewer": "Tool safety and forestry maintenance"
+  },
+  {
+    "id": "Z09-P03",
+    "zone": "Z09",
+    "title": "Establish safe work circles and body-clear cutting lanes",
+    "origin": "OSHA 3080 and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Clear bystanders, pets, tents and trip hazards well outside an arm-plus-tool-length swing radius (often called a blood circle) before unsheathing cutting or swinging tools.",
+        "claims": [
+          "K03",
+          "K08"
+        ]
+      },
+      {
+        "text": "Orient every cutting stroke away from your thighs, torso, knee arteries and supporting hand—always predict where the blade will travel if the wood splits suddenly or the edge slips.",
+        "claims": [
+          "K02",
+          "K08"
+        ]
+      },
+      {
+        "text": "Plant stable balanced footing on clear level ground rather than kneeling awkwardly on slick rocks, wet logs or loose gravel.",
+        "claims": [
+          "K08",
+          "K03",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent glancing blows and cut follow-through injuries to yourself and companions during camp tool work.",
+    "applies": "Any cutting, sawing, chopping, splitting or cordage-tensioning activity in camp or during emergencies.",
+    "equipment": "Clear level ground, stable footwear, eye protection where available and clear verbal warning rule.",
+    "failure": {
+      "text": "Carving a stick braced against your thigh or chopping branches while a companion walks behind your backswing.",
+      "claims": [
+        "K02",
+        "K03",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero people or gear inside the work radius, clear follow-through path and solid level stance before the first cut.",
+      "claims": [
+        "K02",
+        "K03",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Pause immediately whenever anyone steps inside the work zone, footing slips or visibility drops; re-sheath the tool before moving.",
+      "claims": [
+        "K03",
+        "K08",
+        "ED"
+      ]
+    },
+    "diagram": "Clear full swing circle | Aim cut follow-through away | Maintain stable level footing",
+    "visual": "Environmental camp-work layout defining the operator stance, away-from-body cut arc and bystander exclusion perimeter. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety and occupational safety"
+  },
+  {
+    "id": "Z09-P04",
+    "zone": "Z09",
+    "title": "Understand wood grain, knots and decay before shaping deadfall",
+    "origin": "B007 wood notes and USFS trail handtools; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Inspect downed wood for straight parallel grain versus twisted knots, checking cracks and spongy insect-ridden rot—decayed wood snaps unpredictably under carving or lever loads.",
+        "claims": [
+          "K05",
+          "K10",
+          "ED"
+        ]
+      },
+      {
+        "text": "Cut with the grain rather than forcing blades straight into hard tight knots, which deflect edges sideways and chip thin steel bevels.",
+        "claims": [
+          "K02",
+          "K04",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that species identification and structural wood strength vary widely by moisture and decay; historical B007 wood notes do not certify field wood strength or species ID.",
+        "claims": [
+          "K09",
+          "K10",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Read grain direction, knots and internal rot in lawfully gathered deadwood so tools cut predictably without splitting unexpectedly.",
+    "applies": "Selecting small sound downed deadwood for pegs, toggles, levers or training components where gathering is lawful.",
+    "equipment": "Lawfully gathered dead downed wood, hand inspection and sharp appropriate tool.",
+    "failure": {
+      "text": "Trying to carve a load-bearing lever or split through a gnarly resinous knot with a thin pocket knife, snapping the blade tip or deflecting it into the hand.",
+      "claims": [
+        "K02",
+        "K05",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm deadwood is lawfully downed, sound inside, reasonably straight-grained and free of hidden nails or embedded grit.",
+      "claims": [
+        "K10",
+        "K11",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject brittle, rotted or heavily knotted wood rather than forcing a blade through resistance; never cut live trees for routine camp craft.",
+      "claims": [
+        "K02",
+        "K10",
+        "K11"
+      ]
+    },
+    "diagram": "Straight dry sound grain | Dense knot deflects edge | Spongy rot snaps under load",
+    "visual": "Material cross-section contrasting straight sound deadwood grain, dense grain-deflecting knots and weak decayed inner fibers. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety and wood mechanics"
+  },
+  {
+    "id": "Z09-P05",
+    "zone": "Z09",
+    "title": "Compare fixed-blade knives, folding knives and multi-tools",
+    "origin": "OSHA 3080 and NPS Ten Essentials; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Choose a sturdy modest fixed-blade knife when repeated wood prep or wet/cold gloved handling makes pivot grit and folding-lock failure a concern.",
+        "claims": [
+          "K01",
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Choose a locking folding knife strictly for light slicing, cord cutting and food/repair tasks—recognizing that pivot pins and locks are mechanical weak points under sideways twist or batoning.",
+        "claims": [
+          "K01",
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Choose a pliers-based multi-tool when gear maintenance (zippers, stove nuts, wire, small screws, pot gripping) is the main need, knowing small fold-out blades have narrow grips and thin geometry.",
+        "claims": [
+          "K07",
+          "K01",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Match blade tang strength, lock limits and compact utility tools to expected field tasks without overloading light mechanisms.",
+    "applies": "Choosing a primary cutting or repair tool for day hikes, backpacking, vehicle kits or home emergency kits.",
+    "equipment": "Fixed-blade knife with rigid sheath, locking folding knife or pliers-based multi-tool.",
+    "failure": {
+      "text": "Baton-hammering a folding pocket knife through thick oak or prying stubborn stove parts with a thin knife tip instead of pliers.",
+      "claims": [
+        "K02",
+        "K07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the carried blade or multi-tool fits the actual tasks planned, opens safely and stores in a secure sheath or pouch.",
+      "claims": [
+        "K01",
+        "K02",
+        "K07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never rely on a non-locking slip-joint blade for heavy push cuts or wet gloved work; stop and change tools whenever a blade flexes or binds.",
+      "claims": [
+        "K01",
+        "K02"
+      ]
+    },
+    "diagram": "Fixed blade: rigid tang | Folder: light slice only | Multi-tool: pliers & repair",
+    "visual": "Comparative configuration contrasting structural tang continuity, lock vulnerability and primary tasks across fixed blades, folders and multi-tools. Conceptual, not to scale.",
+    "reviewer": "Tool safety and field equipment"
+  },
+  {
+    "id": "Z09-P06",
+    "zone": "Z09",
+    "title": "Compare folding saws, bow saws and camp hatchets safely",
+    "origin": "USFS trail handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Prefer a sharp folding saw or bow saw for cross-cutting dead branches up to wrist thickness—saws cut cleanly with far less calorie burn and no high-energy swing miss path.",
+        "claims": [
+          "K03",
+          "K05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that bow saws handle thicker downed logs efficiently with replaceable blades, yet frame tension and blade alignment must be checked before every cut.",
+        "claims": [
+          "K03",
+          "K04",
+          "ED"
+        ]
+      },
+      {
+        "text": "Reserve hatchets and short axes for trained operators working on a low solid chopping block; short-handled hatchets easily deflect into knees or shins when swung at mid-air sticks.",
+        "claims": [
+          "K03",
+          "K02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Select efficient wood-processing tools while minimizing glancing-blow and fatigue injuries in camp.",
+    "applies": "Processing small lawful downed deadwood for permitted campfires or temporary emergency windbreaks.",
+    "equipment": "Pull-cut folding saw, lightweight bow saw or properly maintained camp hatchet with sheath.",
+    "failure": {
+      "text": "Trying to hack springy wrist-thick dead branches with a short hatchet held in one hand while steadying the stick with the other hand inches away.",
+      "claims": [
+        "K02",
+        "K03"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the selected tool matches wood diameter, operator training and safe cutting support before starting.",
+      "claims": [
+        "K01",
+        "K03",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Put away swinging tools immediately if footing is icy, lighting is dim or hands grow cold and clumsy; switch to a saw or no-cut deadfall gathering.",
+      "claims": [
+        "K03",
+        "K08",
+        "E06"
+      ]
+    },
+    "diagram": "Folding saw: compact & safe | Bow saw: thicker clean cuts | Hatchet: high swing-miss risk",
+    "visual": "Comparative configuration contrasting energy hazard, wood-diameter fit and precision across folding saws, bow saws and camp hatchets. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety"
+  },
+  {
+    "id": "Z09-P07",
+    "zone": "Z09",
+    "title": "Understand steel edge geometry, toughness and brittleness",
+    "origin": "USFS handtool maintenance and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize the basic trade-off: thin narrow bevels slice cordage and shavings cleanly with little effort, whereas thicker convex or stout bevels resist chipping on harder wood impacts.",
+        "claims": [
+          "K04",
+          "K01",
+          "ED"
+        ]
+      },
+      {
+        "text": "Avoid cutting directly against rock, sand, metal cans or bone with fine wood-carving blades—hard abrasive contact rolls or chips thin steel edges immediately.",
+        "claims": [
+          "K01",
+          "K04",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that very hard steel and subfreezing temperatures increase brittleness under lateral prying or heavy impact shocks.",
+        "claims": [
+          "K02",
+          "K04",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize how thin slicing grinds versus thicker chopping bevels behave so you do not chip or snap blades in cold or hard materials.",
+    "applies": "Using and maintaining knives, chisels, wedges and axe heads across field conditions.",
+    "equipment": "Hand tool with known blade profile and appropriate cutting surface (clean wood, not stone or metal).",
+    "failure": {
+      "text": "Using a thin kitchen or fillet blade to split frozen hardwood, snapping the blade cleanly in half toward the user's hand.",
+      "claims": [
+        "K01",
+        "K02",
+        "K04"
+      ]
+    },
+    "verify": {
+      "text": "Match blade thickness and grind to the target material and confirm a clean wood backing surface underneath cuts.",
+      "claims": [
+        "K01",
+        "K04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop cutting if an edge chips, cracks or bends noticeably; retire damaged steel rather than forcing a compromised blade deeper into tough material.",
+      "claims": [
+        "K02",
+        "K04"
+      ]
+    },
+    "diagram": "Thin bevel: fine clean slice | Thick bevel: wood impact | Rock/pry contact chips steel",
+    "visual": "Material cross-section comparing narrow slicing bevel geometry, stout chopping bevel support and edge rolling/chipping failure modes. Conceptual, not to scale.",
+    "reviewer": "Tool maintenance and materials mechanics"
+  },
+  {
+    "id": "Z09-P08",
+    "zone": "Z09",
+    "title": "Recognize why knives and wedges fail when used as pry bars",
+    "origin": "OSHA 3080 hand tool safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that hardened knife blades and thin screwdriver shanks are engineered for cutting or torque—NOT sideways bending—and can snap explosively under prying leverage.",
+        "claims": [
+          "K02",
+          "K01"
+        ]
+      },
+      {
+        "text": "Use a solid hardwood lever, flat metal tent-stake puller, multi-tool pliers or purpose-made pry bar for lifting, separating or digging stubborn items.",
+        "claims": [
+          "K02",
+          "K06",
+          "K07"
+        ]
+      },
+      {
+        "text": "Protect eyes and hands from sudden release whenever pulling frozen ground stakes or freeing stuck latches.",
+        "claims": [
+          "K08",
+          "K02"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent sudden blade snapping, flying steel tips and deep hand lacerations caused by lateral prying loads.",
+    "applies": "Opening stuck lids, splitting wood, lifting frozen stakes or freeing wedged equipment.",
+    "equipment": "Proper steel pry bar, solid wooden lever, pliers or wooden wedge matched to the job.",
+    "failure": {
+      "text": "Jamming a folding knife tip under a frozen metal container lid or twisting a blade sideways inside a split log to lever it apart.",
+      "claims": [
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the tool chosen is designed for bending or pulling loads before applying lateral force.",
+      "claims": [
+        "K01",
+        "K02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately the instant any knife blade flexes laterally or binds tightly in wood—withdraw straight back and switch to a wooden wedge or lever.",
+      "claims": [
+        "K02",
+        "K06"
+      ]
+    },
+    "diagram": "Sideways pry bends hard blade | Brittle snap launches sharp tip | Switch to wooden lever or pliers",
+    "visual": "Failure-mode illustration linking lateral prying stress on hardened steel blades to sudden fracture and wooden-lever substitution. Conceptual, not to scale.",
+    "reviewer": "Tool safety and occupational safety"
+  },
+  {
+    "id": "Z09-P09",
+    "zone": "Z09",
+    "title": "Keep sharp tools sheathed, visible and dry during camp carry",
+    "origin": "USFS trail handtools and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Keep every fixed blade, axe head and saw blade fully sheathed or folded locked whenever walking, climbing over logs or setting the tool down between cuts.",
+        "claims": [
+          "K03",
+          "K02"
+        ]
+      },
+      {
+        "text": "Never carry an unsheathed knife in a hand while stepping over slick roots, never stick blades loosely into camp soil or live trees and hand tools to companions handle-first with blade guarded.",
+        "claims": [
+          "K03",
+          "K11",
+          "ED"
+        ]
+      },
+      {
+        "text": "Mark dark tool handles with bright cord or tape and wipe blades dry after rain or sap contact so tools stay visible in leaf litter and free of pitting rust.",
+        "claims": [
+          "K04",
+          "K03",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent accidental stabs, lost tools and edge corrosion while traveling or setting down tools at camp.",
+    "applies": "Carrying knives, saws, hatchets and shears in packs, on belts or around shared campsites.",
+    "equipment": "Fitted blade sheath or guard, high-visibility lanyard/tape marker and dry wipe cloth.",
+    "failure": {
+      "text": "Laying an open knife on forest leaves beside a pack where a companion kneels onto the blade, or walking with an uncovered hatchet over icy roots.",
+      "claims": [
+        "K03",
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm secure sheath retention, dry blade storage and a consistent visible camp tool-parking spot off the walking lane.",
+      "claims": [
+        "K03",
+        "K04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Halt camp movement until dropped or misplaced sharp tools are located and safely sheathed.",
+      "claims": [
+        "K03",
+        "ED"
+      ]
+    },
+    "diagram": "Fitted rigid sheath | Handle-first safe handoff | Dry wipe & high-vis mark",
+    "visual": "Exploded safe-carry kit showing fitted rigid blade guard, handle-first transfer zone, dry cloth maintenance and high-visibility marker. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety"
+  },
+  {
+    "id": "Z09-P10",
+    "zone": "Z09",
+    "title": "Compare paracord, braided nylon, polypropylene and natural fibers",
+    "origin": "USFS cordage boundaries and B007A/B008; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Recognize that nylon stretches slightly when wet and absorbs modest shock cleanly, whereas polyester stretches less when wet (often preferred for taut tarp ridgelines).",
+        "claims": [
+          "K09",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that polypropylene floats on water and resists rot, yet slips more easily in simple knots and degrades quickly under prolonged sunlight (UV) and friction heat.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that natural plant fibers (hemp, sisal, field-harvested inner bark) grip knots well when dry yet vary enormously in strength, fray under abrasion and rot when stored damp—zero universal load rating applies.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Match cordage material stretch, moisture behavior, knot grip and UV resistance to camp utility tasks.",
+    "applies": "Choosing guyline, lashing, dry-bag tie-down and utility haul cordage for non-life-safety field use.",
+    "equipment": "Identified commercial utility cordage (e.g., nylon paracord, polyester guyline, polypropylene) or prepared natural fiber for training.",
+    "failure": {
+      "text": "Using slick UV-faded polypropylene twine with a sloppy knot on a storm-exposed ridge tarp, or assuming camp paracord equals certified climbing rope.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the cordage matches wet/dry stretch and knot-holding needs and stays strictly within non-life-safety utility use.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject frayed, sun-chalked, melted or unknown-history salvaged cordage for any overhead or tensioned utility load.",
+      "claims": [
+        "K09",
+        "K08"
+      ]
+    },
+    "diagram": "Nylon/Poly: guyline & utility | Polypropylene: floats, slips, UV-weak | Natural fiber: variable & unrated",
+    "visual": "Comparative configuration contrasting wet stretch, knot friction, UV aging and utility limits across nylon, polyester, polypropylene and natural cordage. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and materials mechanics"
+  },
+  {
+    "id": "Z09-P11",
+    "zone": "Z09",
+    "title": "Evaluate salvaged and natural cordage under abrasion and tension",
+    "origin": "B007A P01 and B008 P05 natural bowstring; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Inspect the entire length for thin pinched spots, brittle dry kinks, rot discoloration, cut strands and weak splices before tying—the narrowest damaged section governs failure.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Understand moving-cord wear from B007A/B008: reciprocating bowstrings suffer intense bending fatigue and surface friction at the spindle wrap, snapping far sooner than static tie-downs.",
+        "claims": [
+          "K09",
+          "C12",
+          "ED"
+        ]
+      },
+      {
+        "text": "Perform a gentle controlled low-level hand-pull check away from eyes and face, accepting that field hand-pulling verifies only basic integrity for light utility—NOT any engineered load rating.",
+        "claims": [
+          "K09",
+          "K08",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Inspect found string or prepared plant fibers systematically before trusting them in moving or tensioned mechanisms.",
+    "applies": "Evaluating salvaged utility twine or natural fiber cordage for bow-drill training, light lashings or temporary non-critical ties.",
+    "equipment": "Candidate natural or salvaged cordage tested at low safe hand tension (never overhead or life-safety).",
+    "failure": {
+      "text": "Wrapping uninspected dry brittle grass or nicked twine under high tension where sudden snap-back whips toward eyes or collapses a loaded assembly.",
+      "claims": [
+        "K09",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm uniform thickness, flexible unrotted fibers and strict confinement to light non-life-safety utility or supervised training.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Discard cordage showing powdering fibers, audible strand popping, glaze melts or uneven weak joints; never substitute improvised fiber for life-safety gear.",
+      "claims": [
+        "K09",
+        "K08"
+      ]
+    },
+    "diagram": "Inspect full fiber length | Moving wraps suffer rapid wear | Gentle check ≠ load rating",
+    "visual": "Mechanism diagram illustrating tension concentration, bend fatigue and surface abrasion on moving natural or salvaged cordage. Conceptual, not to scale.",
+    "reviewer": "Materials mechanics and rigging safety"
+  },
+  {
+    "id": "Z09-P12",
+    "zone": "Z09",
+    "title": "Form a two-ply reverse-wrap cord from prepared dry fibers",
+    "origin": "B007A P02 and B010 P05 cordage; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Prepare uniform, flexible fiber strands free of stiff brittle woody core fragments so strands twist smoothly without kinking or snapping.",
+        "claims": [
+          "K09",
+          "K11",
+          "ED"
+        ]
+      },
+      {
+        "text": "Apply the reverse-wrap lock: twist one strand clockwise away from you while wrapping the pair counterclockwise over each other—the opposing torsional tension locks the two plies together so the cord does not untwist.",
+        "claims": [
+          "K09",
+          "K06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Stagger fiber splices at uneven intervals rather than joining both plies at the same spot, avoiding a single abrupt weak point in the finished cord.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain the counter-twist locking principle that turns loose plant fibers into a cohesive two-ply utility string.",
+    "applies": "Supervised educational craft and emergency light-duty tying where lawful non-protected plant fibers are identified.",
+    "equipment": "Prepared pliable dry natural fibers (gathered lawfully without damaging live protected plants).",
+    "failure": {
+      "text": "Twisting both strands and wrapping them in the same direction, causing the entire string to unravel immediately when released, or joining both splices side by side.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the finished two-ply cord stays coiled tightly under light finger tension with evenly staggered splices and consistent diameter.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Keep hand-twisted natural cordage strictly for light utility ties or supervised training—never trust improvised fiber for overhead heavy loads or human suspension.",
+      "claims": [
+        "K09",
+        "K11"
+      ]
+    },
+    "diagram": "Twist ply clockwise | Wrap plies counterclockwise | Stagger splices for cohesion",
+    "visual": "Mechanism diagram depicting opposing strand twist and ply wrap torque vectors plus staggered splice geometry in two-ply reverse-wrap cordage. Conceptual, not to scale.",
+    "reviewer": "Materials mechanics and wilderness craft education"
+  },
+  {
+    "id": "Z09-P13",
+    "zone": "Z09",
+    "title": "Recognize why knots, wet fibers and sharp edges cut rope strength",
+    "origin": "USFS cordage boundaries and mechanical safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that EVERY knot reduces straight-line rope strength because tight bends concentrate stress unevenly across outer versus inner fibers—tighter radii weaken cord more sharply.",
+        "claims": [
+          "K09",
+          "K06"
+        ]
+      },
+      {
+        "text": "Recognize that embedded sand grit acts like internal sandpaper inside braided rope fibers under cyclic tension, while wet nylon and sharp metal/rock edges accelerate cut-through failure.",
+        "claims": [
+          "K09",
+          "K08"
+        ]
+      },
+      {
+        "text": "Pad or route tensioned lines over smooth rounded surfaces rather than sharp rock corners, sheet-metal edges or rough dry bark grooves, and shake grit off lines before stowing.",
+        "claims": [
+          "K09",
+          "K08",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Account for real-world strength reductions caused by tight bends, moisture, grit and sharp edges in camp rigging.",
+    "applies": "Every tensioned tarp ridgeline, gear haul line, tie-down or lash assembly using utility rope or cord.",
+    "equipment": "Utility rope, smooth attachment padding (cloth/bark guard where lawful) and visual inspection habit.",
+    "failure": {
+      "text": "Running a tight synthetic guyline directly across a sharp granite edge in high wind, sawing through the sheath within an hour.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm knots are dressed neatly without twisted crossings, sharp contact corners are avoided or padded and lines stay clean of embedded grit.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Retire any line with crushed flat spots, cut sheath strands or heat-glazed burn marks before applying tension.",
+      "claims": [
+        "K09",
+        "K08"
+      ]
+    },
+    "diagram": "Tight bend stresses outer fibers | Grit & sharp edges cut sheath | Pad corners & dress knots cleanly",
+    "visual": "Material cross-section illustrating uneven fiber stress inside a tight knot bend alongside sharp-edge sheath abrasion and internal grit wear. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and materials mechanics"
+  },
+  {
+    "id": "Z09-P14",
+    "zone": "Z09",
+    "title": "Tie and verify a bowline for a non-slip fixed utility loop",
+    "origin": "USFS cordage and camp rigging; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Form an overhand loop in the standing part, pass the working end up through the loop, around behind the standing part and back down through the same loop parallel to its entry.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Dress the knot cleanly by seating the collar snugly with a generous working tail, and add a stopper knot (such as a double overhand) on the tail—standard bowlines can shake loose under cyclic slack-and-tug loads in slick synthetic cord.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect the finished silhouette before loading: a distinct collar wraps the two parallel legs of the loop, and the working end sits cleanly inside the loop with its stopper tied.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Form, dress and safety-back a bowline loop that holds firm under steady tension yet unties cleanly afterward.",
+    "applies": "Securing tarp ridgelines, pack haul loops and non-life-safety anchor loops on utility cordage.",
+    "equipment": "Pliable utility cordage practiced dry before field reliance.",
+    "failure": {
+      "text": "Tying a capsized slip loop by pulling the working end wrong, or leaving a tiny untied tail on slick nylon cord that works free in gusty wind.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "verify": {
+      "text": "Check the collar shape, confirm the loop does not slip smaller when pulled and confirm the tail stopper knot is seated snugly.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never rely on an unverified or un-backed bowline for critical tensioned loads; keep utility bowlines strictly separate from life-safety climbing harnesses.",
+      "claims": [
+        "K09"
+      ]
+    },
+    "diagram": "Form loop & pass around standing | Dress collar snugly | Tie stopper on generous tail",
+    "visual": "Exploded knot-geometry diagram detailing standing part, locking collar, parallel loop entry and mandatory tail stopper on slick synthetic cord. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and field education"
+  },
+  {
+    "id": "Z09-P15",
+    "zone": "Z09",
+    "title": "Tie a figure-eight loop and stopper knot for secure termination",
+    "origin": "USFS cordage safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Tie a simple figure-eight stopper at line ends to stop cord from slipping through grommets, tarp eyelets or tensioners—its wider bend unties far easier than a jammed overhand knot.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Tie a figure-eight on a bight (folded double line) for a strong, easily inspected fixed utility loop that resists shaking loose under alternating wind gusts.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Dress all parallel strands smoothly side-by-side without crossed twists and leave a generous tail beyond the final collar.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Form a high-visibility, slip-resistant stopper knot and fixed end-loop for utility lines in wet or gloved hands.",
+    "applies": "Preventing lines from pulling through grommets/pulleys and tying secure non-slip end loops in utility cordage.",
+    "equipment": "Utility rope or tarp cordage.",
+    "failure": {
+      "text": "Using a tiny single overhand stopper that jams permanently under load or pulls straight through a wide tarp grommet.",
+      "claims": [
+        "K09"
+      ]
+    },
+    "verify": {
+      "text": "Visually confirm the clear figure-eight silhouette with parallel flat strands and an ample tail before applying utility tension.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Remember that even cleanly dressed figure-eight loops in camp utility cordage are NOT certified life-safety climbing anchors.",
+      "claims": [
+        "K09"
+      ]
+    },
+    "diagram": "Parallel dressed figure-eight | Wide stopper blocks pull-through | Ample tail; inspect before load",
+    "visual": "Exploded component geometry contrasting a single figure-eight stopper against a dressed parallel figure-eight-on-a-bight loop. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and field education"
+  },
+  {
+    "id": "Z09-P16",
+    "zone": "Z09",
+    "title": "Tie a clove hitch and round turn with two half hitches",
+    "origin": "USFS cordage and camp utility knots; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Use a round turn and two half hitches when tying off a ridgeline under variable wind or load—the full wrap around the post takes the friction load cleanly while two half hitches lock the tail without binding.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Reserve a clove hitch primarily for starting/ending static pole lashings or quick temporary holds under steady pull—clove hitches can roll and slip open on smooth posts when tension goes slack and re-loads.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Lock any clove hitch exposed to shifting gusts with two half hitches on the standing part so the binding cannot unwind overnight.",
+        "claims": [
+          "K09",
+          "E16",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Choose the right post-attachment hitch depending on whether tension stays steady or fluctuates in wind.",
+    "applies": "Anchoring tarp ridgelines, camp utility lines and lashings to sound posts or lawful deadwood anchors.",
+    "equipment": "Utility cordage and sound anchor post (use wide bark protection on live trees where lawful).",
+    "failure": {
+      "text": "Tying an un-backed clove hitch to a smooth wet sapling or tent pole in gusty wind, watching the hitch spill loose mid-storm.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm full friction wrap seating, properly oriented half hitches forming a clean clove on the standing line and zero slack slip under hand tug.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Avoid tying tight thin cords directly into soft living tree bark where prohibited; use wide webbing straps or lawful deadwood anchors instead.",
+      "claims": [
+        "K11",
+        "E22"
+      ]
+    },
+    "diagram": "Round turn + 2 half hitches | Clove hitch: static start only | Back up hitches against wind",
+    "visual": "Comparative configuration contrasting the friction-locked round turn with two half hitches against the rolling-slip vulnerability of an un-backed clove hitch. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and land management"
+  },
+  {
+    "id": "Z09-P17",
+    "zone": "Z09",
+    "title": "Tie an adjustable taut-line or trucker hitch for tarp guylines",
+    "origin": "NPS shelter setup and USFS cordage; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Use a midshipman's hitch (an improved friction grip over the classic taut-line hitch) around a stake when you need one-handed slide adjustment to take up wet-nylon sag.",
+        "claims": [
+          "K09",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Use a trucker's hitch (an inline slip loop used as a simple redirect) to cinch a ridgeline snugly between two anchors, locking the finish with a quick-release slipped half hitch so it unties easily when wet.",
+        "claims": [
+          "K09",
+          "K06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Apply moderate controlled tension—over-cranking a trucker's hitch can rip tarp tie-out seams, bend poles or pull stakes right out of damp soil.",
+        "claims": [
+          "K06",
+          "E16",
+          "E20"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Tension and re-adjust tarp ridgelines and tent guylines smoothly as wet nylon stretches or wind shifts.",
+    "applies": "Pitching tarps, securing rainflies and tying down non-critical camp loads on permitted sites.",
+    "equipment": "Utility guyline cordage and firm ground stakes or lawful anchor points.",
+    "failure": {
+      "text": "Pulling a ridgeline bar-tight with excessive mechanical leverage on a lightweight nylon tarp, tearing the corner stitching in the first gust.",
+      "claims": [
+        "K06",
+        "E16",
+        "E20"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the adjustable hitch grips firmly without sliding back under hand pull and releases cleanly without jamming.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Re-tie with dry high-friction wraps or add a backup half hitch if slick wet polypropylene or icy cord slips through the adjustable coils.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "diagram": "Midshipman grip slides & locks | Trucker redirect tensions line | Stop before over-stressing seams",
+    "visual": "Mechanism diagram comparing friction-coil gripping in an adjustable guyline hitch against directional redirect tension in a trucker's hitch. Conceptual, not to scale.",
+    "reviewer": "Shelter equipment and rigging safety"
+  },
+  {
+    "id": "Z09-P18",
+    "zone": "Z09",
+    "title": "Join two utility cords safely with a sheet bend or double fisherman",
+    "origin": "USFS cordage safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Use a sheet bend (or double sheet bend for slick/unequal cords) when joining two ropes of different diameters—form the bight in the thicker stiffer rope and tuck the thinner rope cleanly with both tails emerging on the SAME side.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Use a double fisherman's bend (grapevine knot) for joining two similar-diameter slick synthetic utility cords when maximum slip resistance is required, knowing it cinches very tight under heavy load.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Never use a square (reef) knot or granny knot to join two load-bearing lines—square knots capsize and spill rapidly when tugged unevenly or tied in unequal/slick ropes.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Splice two utility lines securely while avoiding the dangerous instability of square (reef) knots under load.",
+    "applies": "Lengthening camp guylines, rigging utility tie-downs or joining two cords of equal or unequal thickness.",
+    "equipment": "Two utility cords of known sound condition.",
+    "failure": {
+      "text": "Joining a thin nylon guyline to a thicker utility rope with a square knot, which flips straight open when wind jerks the line.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm matching tail orientation on sheet bends, opposing snug barrels on double fisherman's bends and generous tails on both ends.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject bulky mismatched joins that must pass over rough edges or pulleys; keep all field bends strictly inside utility non-life-safety tasks.",
+      "claims": [
+        "K09"
+      ]
+    },
+    "diagram": "Sheet bend: unequal cords | Double fisherman: slick equal cords | Reject square knot for loads",
+    "visual": "Comparative configuration showing proper same-side tail sheet bend, opposing double fisherman barrels and capsizing square-knot failure. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and field education"
+  },
+  {
+    "id": "Z09-P19",
+    "zone": "Z09",
+    "title": "Bind poles temporarily with square, diagonal and tripod lashings",
+    "origin": "USFS low-impact craft and B012 shelter boundaries; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Match the lashing to pole geometry: use square lashings for poles crossing tightly at right angles, diagonal lashings to pull springing crossed poles together and sheer/tripod lashings for light three-legged utility stands.",
+        "claims": [
+          "K09",
+          "K11",
+          "ED"
+        ]
+      },
+      {
+        "text": "Pull three neat parallel wrapping turns firmly around the poles and finish with two tight frapping turns cinched BETWEEN the poles to take out all slack before locking off with a clove hitch.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Dismantle temporary lashings cleanly and scatter deadwood upon leaving public lands; never nail or wire into living trees.",
+        "claims": [
+          "K11",
+          "E22"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Lash sound deadwood poles securely for light utility tripods, pot hangers or drying racks without nails or tree damage.",
+    "applies": "Temporary low-impact utility camp frames made strictly from lawful downed deadwood; NOT rated overhead sleeping roofs.",
+    "equipment": "Utility lashing cordage and sound straight downed deadwood poles.",
+    "failure": {
+      "text": "Skipping tight frapping turns between the poles, leaving a wobbly tripod that collapses when a water pot hangs from it.",
+      "claims": [
+        "K09",
+        "C15"
+      ]
+    },
+    "verify": {
+      "text": "Confirm neat uncrossed wraps, tight frapping turns between poles and zero wobble under gentle test weight before hanging utility items.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never sleep beneath lashed deadfall roofs or treat camp lashings as engineered overhead structures; keep hot boiling pots stable and clear of legs.",
+      "claims": [
+        "K09",
+        "C15",
+        "E13"
+      ]
+    },
+    "diagram": "Start hitch & tight wraps | Frapping turns remove slack | Light utility only; dismantle after",
+    "visual": "Exploded lashing sequence illustrating start clove hitch, parallel wrapping turns, internal tensioning fraps and end lock on crossed deadwood poles. Conceptual, not to scale.",
+    "reviewer": "Wilderness craft, rigging safety and land management"
+  },
+  {
+    "id": "Z09-P20",
+    "zone": "Z09",
+    "title": "Protect rope from chafing edges and snap-back recoil zones",
+    "origin": "OSHA 3080 and USFS rigging safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that stretched nylon and synthetic ropes store massive elastic energy—if an anchor, knot or frayed section parts under heavy tension, the broken end whips straight back along the line axis at high speed.",
+        "claims": [
+          "K08",
+          "K09"
+        ]
+      },
+      {
+        "text": "Stand completely outside the line-of-fire recoil path (the snap-back bight and straight-line axis) and keep bystanders clear whenever tensioning heavy utility lines.",
+        "claims": [
+          "K08",
+          "K09"
+        ]
+      },
+      {
+        "text": "Pad rough rock edges, metal brackets and sharp bark corners where tensioned cord bends, and monitor for audible creaking or stretching fibers.",
+        "claims": [
+          "K09",
+          "K08"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent sudden elastic rope snap-back injuries and edge cut-throughs during hauling or heavy tensioning.",
+    "applies": "Any tensioned utility line, vehicle/equipment pull, bear-hang haul or storm-guyed camp line.",
+    "equipment": "Sound utility rope, edge pad (folded cloth/canvas) and clear exclusion zone along the line axis.",
+    "failure": {
+      "text": "Standing directly behind a taut nylon haul line wrapped around a sharp metal bumper or rusty hook when the line parts.",
+      "claims": [
+        "K08",
+        "K09"
+      ]
+    },
+    "verify": {
+      "text": "Confirm all personnel stand laterally clear of the tension axis, contact edges are smooth or padded and load stays modest for the cord class.",
+      "claims": [
+        "K08",
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop pulling immediately if a rope begins glazing, creaking, unlaying strands or cutting into an anchor—release tension slowly from a safe offset position.",
+      "claims": [
+        "K08",
+        "K09"
+      ]
+    },
+    "diagram": "Stored stretch energy | Sharp edge or weak knot parts | Stand clear of snap-back axis",
+    "visual": "Failure-mode illustration mapping rope elastic energy release and sharp-edge abrasion to the lateral safe-standing zone outside the snap-back corridor. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and occupational safety"
+  },
+  {
+    "id": "Z09-P21",
+    "zone": "Z09",
+    "title": "Separate utility camp cordage from certified life-safety rigging",
+    "origin": "USFS cordage boundaries and OSHA safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat paracord, hardware-store rope, tarp guylines, bungee cords and natural fibers strictly as non-life-safety utility lines—never use them to support human body weight, rappel, belay or arrest falls.",
+        "claims": [
+          "K09",
+          "K08"
+        ]
+      },
+      {
+        "text": "Recognize that life-safety ropes, harnesses and carabiners require independent standards certification (UIAA/CE/NFPA), documented fall history and formal technical training outside camp craft.",
+        "claims": [
+          "K09",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Never attach bungee cords with open metal hooks under heavy stretch near eye level—rebound hook strikes cause severe eye trauma.",
+        "claims": [
+          "K08",
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Enforce a hard boundary between camp utility string and certified climbing, rescue or fall-arrest equipment.",
+    "applies": "All outdoor travel, camp setup, storm cleanup and rescue situations.",
+    "equipment": "Clear labeling and physical separation between camp utility cord and any specialized certified rescue gear.",
+    "failure": {
+      "text": "Trying to lower a person down a wet bluff or rescue someone from a steep ravine using hardware-store utility rope or 550 paracord.",
+      "claims": [
+        "K09",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero human weight or fall-arrest risk is placed on camp utility cordage, improvised knots or unrated hardware.",
+      "claims": [
+        "K09",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Any situation requiring vertical rope lowering, swiftwater tethering or technical cliff rescue exceeds camp-tool scope—stabilize on safe ground and summon trained SAR.",
+      "claims": [
+        "K09",
+        "T02",
+        "T06"
+      ]
+    },
+    "diagram": "Utility cord: tarps & gear | Certified gear: formal training | Zero human weight on camp cord",
+    "visual": "Decision tree enforcing an absolute separation between non-life-safety camp utility cordage and certified technical rescue systems. Conceptual, not to scale.",
+    "reviewer": "Technical rescue, rigging safety and occupational safety"
+  },
+  {
+    "id": "Z09-P22",
+    "zone": "Z09",
+    "title": "Carve safely using controlled away-from-body push and brace cuts",
+    "origin": "OSHA 3080 and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Sit or stand stably with elbows braced or workpiece resting against a solid wooden block, directing EVERY blade edge strictly away from fingers, forearms, thighs and companions.",
+        "claims": [
+          "K02",
+          "K08"
+        ]
+      },
+      {
+        "text": "Use short controlled thumb-assisted push cuts or chest-lever grips (holding wrists locked and opening shoulders rather than jerking arms) to take thin shavings instead of muscling deep gouges.",
+        "claims": [
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep your supporting hand strictly behind the cutting bevel—never hold a short stick with fingertips ahead of a pushing blade.",
+        "claims": [
+          "K02",
+          "K08"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Shape small deadwood pegs, shavings or notches smoothly while preventing knife slips into hands or legs.",
+    "applies": "Camp woodcraft, fire-shaving prep and field repair shaping with a sharp knife.",
+    "equipment": "Sharp fixed-blade or securely locked knife, stable seating/stance and sound deadwood workpiece.",
+    "failure": {
+      "text": "Sitting with knees together and carving straight downward between the thighs, where a slip hits the femoral artery.",
+      "claims": [
+        "K02",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Before every cut, trace the exact path the blade will travel if the wood splits suddenly and confirm zero body parts lie in that path.",
+      "claims": [
+        "K02",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop carving immediately if hands grow cold, wet, numb or fatigued; sheath the knife before standing or adjusting grip.",
+      "claims": [
+        "K02",
+        "K03",
+        "E06"
+      ]
+    },
+    "diagram": "Brace workpiece solidly | Keep support hand behind edge | Short controlled cuts away",
+    "visual": "Mechanism diagram illustrating braced away-from-body knife force vectors, safe support-hand zones and forbidden thigh-gap cutting lanes. Conceptual, not to scale.",
+    "reviewer": "Tool safety and outdoor education"
+  },
+  {
+    "id": "Z09-P23",
+    "zone": "Z09",
+    "title": "Shape non-destructive tent stakes, toggles and pot hooks from deadwood",
+    "origin": "NPS Leave No Trace and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Cut straight sound deadwood segments to length with a folding saw first, beveling the top rim gently so driving impacts do not splinter the end immediately.",
+        "claims": [
+          "K03",
+          "K05",
+          "K12"
+        ]
+      },
+      {
+        "text": "Carve a shallow tapered tip and clean cord-retention notch using away-from-body cuts over a stable wood block—avoid paper-thin tips that snap in rocky soil.",
+        "claims": [
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Use wooden toggles (short stout sticks slipped through a bight) to lock quick-release utility hitches so wet cold knots break open instantly without untying jammed cord.",
+        "claims": [
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Craft simple replacement camp hardware from sound downed wood without harming living trees or risking hand cuts.",
+    "applies": "Replacing a lost tent stake, broken toggle or utility hanger on permitted sites with abundant deadfall.",
+    "equipment": "Lawfully gathered sound downed hardwood/deadwood, folding saw and small knife.",
+    "failure": {
+      "text": "Cutting green living saplings to make tent pegs in a protected park, or whittling a thin sharp spike unsupported in mid-air.",
+      "claims": [
+        "K11",
+        "K02",
+        "E22"
+      ]
+    },
+    "verify": {
+      "text": "Confirm downed wood is sound and lawfully sourced, notches seat cord cleanly and sharp tools are sheathed once shaping finishes.",
+      "claims": [
+        "K11",
+        "K03",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not use brittle rotten deadwood for tensioned storm stakes or heavy pot hangers; substitute lawful rock weights or commercial hardware.",
+      "claims": [
+        "K09",
+        "E16",
+        "E22"
+      ]
+    },
+    "diagram": "Saw sound deadwood clean | Chamfer top & notch cleanly | Quick-release toggle hardware",
+    "visual": "Exploded craft schematic detailing chamfered stake top, cord-retention notch geometry and marlinspike quick-release toggle assembly. Conceptual, not to scale.",
+    "reviewer": "Outdoor education and land management"
+  },
+  {
+    "id": "Z09-P24",
+    "zone": "Z09",
+    "title": "Cut clean V-notches and saddle joints for stable temporary frames",
+    "origin": "B008/B010 notch craft and USFS handtools; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Score or make shallow stop-cuts with a saw first to define exact notch boundaries before paring out waste wood—stop-cuts prevent fibers from splitting down the entire workpiece.",
+        "claims": [
+          "K02",
+          "K05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Pare gradually from both sides toward the center stop-cut in thin controlled chips rather than prying chunks out sideways with the knife tip.",
+        "claims": [
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Match notch width and depth cleanly to the mating stick or hearth socket geometry so joints seat flat without rocking.",
+        "claims": [
+          "K05",
+          "C12",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Fit interlocking wood joints accurately for utility stands, hearth boards or non-structural frames without splitting wood.",
+    "applies": "Supervised craft, friction-hearth preparation and temporary light utility supports made from lawful deadwood.",
+    "equipment": "Folding saw, sharp fixed-blade knife and firm wooden backing block.",
+    "failure": {
+      "text": "Trying to dig out a deep notch in one heavy downward pry, splitting the stick in half and driving the blade into the supporting palm.",
+      "claims": [
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm flat mating surfaces, zero split cracks extending past the notch and safe body-clear cutting posture throughout.",
+      "claims": [
+        "K02",
+        "K05",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Switch to simple lashed overlap joints whenever cold hands, knotty wood or tool wear make precise notching unsafe.",
+      "claims": [
+        "K02",
+        "K09",
+        "E06"
+      ]
+    },
+    "diagram": "Saw stop-cuts define notch | Pare thin chips toward center | Check flat crack-free seat",
+    "visual": "Cutaway wood-joint view contrasting controlled stop-cut V-notch and saddle-joint paring against split-grain prying failure. Conceptual, not to scale.",
+    "reviewer": "Woodcraft mechanics and tool safety"
+  },
+  {
+    "id": "Z09-P25",
+    "zone": "Z09",
+    "title": "Saw downed wood cleanly while reading top and bottom log bind",
+    "origin": "USFS trail handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Observe how the downed log rests on the ground before touching the saw: a log supported at both ends sags in the middle (compression on top, tension on bottom), whereas a cantilevered overhanging end compresses on the bottom and pulls apart on top.",
+        "claims": [
+          "K05"
+        ]
+      },
+      {
+        "text": "Make a shallow relief cut on the compression side first if needed, or cut from the tension-relieved side while watching the kerf—if the saw slot begins closing, STOP and relieve bind from the opposite side or reposition the support.",
+        "claims": [
+          "K05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep your feet, knees and supporting hand well clear of where the cut log end will drop or roll once severed.",
+        "claims": [
+          "K05",
+          "K08"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent pinched saw blades and sudden log drop by identifying compression and tension sides before cutting deadfall.",
+    "applies": "Cross-cutting small-to-medium downed deadwood on the ground for permitted fires or trail clearance.",
+    "equipment": "Sharp folding saw or bow saw, stable stance and eye awareness.",
+    "failure": {
+      "text": "Sawing straight down through the top of a sagging log until the gap clamps shut onto the blade, bending or snapping the saw teeth.",
+      "claims": [
+        "K05",
+        "K04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm compression versus tension side before sawing, maintain an open kerf and keep feet out of the drop zone.",
+      "claims": [
+        "K05",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Leave large-diameter logs, complex tangled blowdowns and stressed trunks untouched—they require professional sawyers and exceed camp hand-saw limits.",
+      "claims": [
+        "K05",
+        "K10"
+      ]
+    },
+    "diagram": "Compression closes saw kerf | Tension pulls kerf open | Cut safely clear of drop zone",
+    "visual": "Cutaway beam-stress schematic showing top-compression/bottom-tension sag versus cantilevered overhang bind during downed-log sawing. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety and mechanical safety"
+  },
+  {
+    "id": "Z09-P26",
+    "zone": "Z09",
+    "title": "Recognize spring poles and hung-up deadfall before making a cut",
+    "origin": "USFS trail handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Scan any bent, pinned or arched sapling or branch—wood bent under a fallen trunk stores massive spring energy that whips sideways or upward instantly with bone-breaking force if cut.",
+        "claims": [
+          "K05",
+          "K10"
+        ]
+      },
+      {
+        "text": "Scan overhead for hung-up dead trees (widowmakers) leaning into neighboring branches; cutting or shifting the base log can bring the entire overhead mass crashing down unpredictably.",
+        "claims": [
+          "K05",
+          "K10",
+          "E13"
+        ]
+      },
+      {
+        "text": "Walk cleanly around storm tangles and gather small loose, unpinned deadwood lying flat on stable ground instead.",
+        "claims": [
+          "K10",
+          "E13"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Avoid lethal whipping recoil from bent saplings and sudden collapses from wedged overhead trees.",
+    "applies": "Storm-damaged woods, windthrow corridors and downed-wood gathering sites.",
+    "equipment": "Visual hazard assessment (no camp tool makes hazardous windthrow safe without specialist training).",
+    "failure": {
+      "text": "Sawing halfway through a bent sapling pinned under a fallen oak, releasing a violent whip-strike to the head or chest.",
+      "claims": [
+        "K05",
+        "K10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every piece of deadwood you cut lies flat, unbent, unpinned and completely clear of leaning overhead timber.",
+      "claims": [
+        "K05",
+        "K10",
+        "E13",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never cut spring poles, under-tension windthrow trunks or leaning hung-up trees with camp tools—detour clear and report trail hazards to land managers.",
+      "claims": [
+        "K05",
+        "K10",
+        "E13"
+      ]
+    },
+    "diagram": "Bent sapling stores energy | Cut releases violent whip-snap | Leave pinned windthrow untouched",
+    "visual": "Failure-mode illustration mapping stored bending energy in a pinned spring pole to its violent recoil arc and mandatory walk-around boundary. Conceptual, not to scale.",
+    "reviewer": "Forestry safety and wildland trail maintenance"
+  },
+  {
+    "id": "Z09-P27",
+    "zone": "Z09",
+    "title": "Split small straight-grained deadwood safely using wedges or batoning limits",
+    "origin": "USFS handtools and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Prefer splitting small straight knot-free wood (wrist diameter or smaller) using wooden wedges driven by a stout deadwood mallet once a shallow starter split opens.",
+        "claims": [
+          "K12",
+          "K06",
+          "K03"
+        ]
+      },
+      {
+        "text": "If batoning small straight deadwood with a sturdy fixed-blade knife, strike ONLY on the blade spine near the tip with a smooth deadwood club (never steel or rock), stopping immediately if the blade hits a hard knot or starts twisting.",
+        "claims": [
+          "K02",
+          "K12",
+          "ED"
+        ]
+      },
+      {
+        "text": "Never baton a folding knife, serrated thin blade or oversized knotty log—excess impact shears pivot pins, snaps tangs and bounces blades unpredictably.",
+        "claims": [
+          "K01",
+          "K02"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Expose dry interior kindling cleanly without snapping knife blades or risking hatchet misses.",
+    "applies": "Preparing modest dry inner kindling from straight-grained small deadwood for an authorized fire.",
+    "equipment": "Stout wooden wedges and wooden mallet, or—only for small straight wood within blade limits—a full-tang fixed blade and soft deadwood baton.",
+    "failure": {
+      "text": "Hammering a pocket folder with a granite rock through a twisted oak knot, shattering the lock and cutting the holding hand.",
+      "claims": [
+        "K02",
+        "K12"
+      ]
+    },
+    "verify": {
+      "text": "Confirm straight knot-free wood, flat solid base block, wooden striking baton only and zero fingers near the exit line.",
+      "claims": [
+        "K02",
+        "K12",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the blade binds hard or wood twists around a knot, stop pounding—tap the blade gently back out or use a wooden wedge to open the split safely.",
+      "claims": [
+        "K02",
+        "K06",
+        "K12"
+      ]
+    },
+    "diagram": "Straight knot-free wood | Wooden wedge & deadwood club | Never hammer steel or folders",
+    "visual": "Mechanism diagram illustrating controlled wedge-splitting force transfer on straight-grained deadwood versus knot-bind blade fracture. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety and materials mechanics"
+  },
+  {
+    "id": "Z09-P28",
+    "zone": "Z09",
+    "title": "Use an axe or hatchet only on a low stable chopping block",
+    "origin": "USFS trail handtools and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Place the workpiece firmly against a broad, solid low chopping block so any miss or pass-through buries cleanly into wood—never chop against bare soil, rock or elevated knee-height logs.",
+        "claims": [
+          "K03",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep your stance spread wide or kneel safely with the chopping block between the cutting arc and your legs so an over-swing strikes the block or ground safely short of shins and feet.",
+        "claims": [
+          "K03",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Use the contact-split method for short kindling blocks: press the hatchet bit squarely into the end grain first, lift wood and hatchet together as one unit and bring both down together onto the chopping block—keeping your free hand completely away from the blade.",
+        "claims": [
+          "K02",
+          "K03",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent deflection strikes into legs and feet when splitting or limbing small camp wood with a swinging edge.",
+    "applies": "Trained operators using a maintained camp axe or hatchet on an authorized site.",
+    "equipment": "Inspected sharp axe/hatchet with tight head, broad flat chopping block, clear work circle and sturdy boots.",
+    "failure": {
+      "text": "Holding a short stove-length billet upright with fingers two inches from the top while swinging a hatchet down at it.",
+      "claims": [
+        "K02",
+        "K03"
+      ]
+    },
+    "verify": {
+      "text": "Confirm tight head wedge, clear work circle, broad low chopping block and free hand strictly away from the impact zone.",
+      "claims": [
+        "K03",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never swing an axe or hatchet when tired, chilled, rushed or in dim twilight—sheath it and use a folding saw or hand-broken dead twigs instead.",
+      "claims": [
+        "K03",
+        "K08",
+        "E06"
+      ]
+    },
+    "diagram": "Broad low chopping block | Contact-split keeps hand clear | Over-swing hits block not leg",
+    "visual": "Cutaway chopping-geometry view illustrating safe low-block deflection clearance and contact-split hand safety versus dangerous mid-air chopping. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety"
+  },
+  {
+    "id": "Z09-P29",
+    "zone": "Z09",
+    "title": "Drive wooden wedges and stakes without steel-on-steel spalling",
+    "origin": "USFS handtools and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Never strike hardened steel against hardened steel (such as hammering an axe poll with a sledgehammer or driving a steel wedge with a hatchet back)—brittle steel can spall razor-sharp chips at bullet-like speed.",
+        "claims": [
+          "K12",
+          "K02"
+        ]
+      },
+      {
+        "text": "Use a stout wooden club, rubber mallet or dedicated flat-faced soft hammer to drive tent stakes and plastic/wooden splitting wedges, keeping fingers clear of the strike top.",
+        "claims": [
+          "K12",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect metal wedge heads and chisels regularly—mushroomed rolled rims fracture off violently under blows and must be properly dressed in a shop or retired from use.",
+        "claims": [
+          "K02",
+          "K12"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent high-velocity metal-chip eye injuries and damaged tools when driving stakes, wedges or pegs.",
+    "applies": "Driving tent stakes, splitting wedges or wooden pegs in camp or field maintenance.",
+    "equipment": "Wooden mallet, rubber/dead-blow hammer or smooth wooden billet; eye protection where available.",
+    "failure": {
+      "text": "Pounding the hardened back of a camp axe with a rock or metal hammer to force it through a stubborn log, splitting the eye and throwing steel shrapnel.",
+      "claims": [
+        "K12",
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm soft-on-hard or wood-on-wood striking pairing, intact un-mushroomed faces and bystanders clear of potential chip paths.",
+      "claims": [
+        "K12",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Retire any chisel, wedge or hammer displaying mushroomed edges, cracked eyes or chipped polls immediately.",
+      "claims": [
+        "K02",
+        "K12"
+      ]
+    },
+    "diagram": "Steel-on-steel spalls shards | Mushroomed rim fractures | Use wood mallet & intact faces",
+    "visual": "Failure-mode illustration contrasting high-velocity metal spalling from steel-on-steel and mushroomed heads against safe wooden-mallet driving. Conceptual, not to scale.",
+    "reviewer": "Occupational safety and forestry tool safety"
+  },
+  {
+    "id": "Z09-P30",
+    "zone": "Z09",
+    "title": "Join wood and repair gear using wedges, pegs and binding wraps",
+    "origin": "USFS handtools and mechanical principles; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Use tapered wooden wedges to tighten loose non-critical utility joints gently by expanding mating contact surfaces—remembering that broken axe handles require proper replacement, not makeshift field wedges.",
+        "claims": [
+          "K04",
+          "K06",
+          "K12"
+        ]
+      },
+      {
+        "text": "Use tight overlapping cord wraps (whipping) or high-adhesion repair tape over splinted poles or split pack stays to transfer bending loads across a break evenly.",
+        "claims": [
+          "K07",
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Test every field-joined assembly gently under light progressive pressure first and accept that temporary field joints lack full factory strength.",
+        "claims": [
+          "K07",
+          "K09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Understand how compression wedges, wooden pins and tension wraps hold simple field assemblies without metal fasteners.",
+    "applies": "Temporary camp equipment fixes, utility stand assembly and tool-handle emergency awareness.",
+    "equipment": "Sound deadwood wedges/pins, clean utility cordage or tape and sharp knife/saw.",
+    "failure": {
+      "text": "Trying to tape or wedge a split fiberglass tent pole or cracked hatchet handle and assuming it is restored to full storm or chopping strength.",
+      "claims": [
+        "K04",
+        "K07",
+        "E20"
+      ]
+    },
+    "verify": {
+      "text": "Confirm tight snug fit with zero sharp protruding splinters and strict confinement to temporary or light-duty use.",
+      "claims": [
+        "K07",
+        "K04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never use field-wedged or tape-wrapped handles on swinging impact tools (axes, hammers) or load-bearing safety gear—retire damaged handles safely.",
+      "claims": [
+        "K04",
+        "K02"
+      ]
+    },
+    "diagram": "Tapered wedge: tightens fit | Tight wrap + splint: spreads load | Temporary fix ≠ factory spec",
+    "visual": "Comparative configuration contrasting compression wedges, splinted tension wraps and factory-replacement boundaries for broken tool handles. Conceptual, not to scale.",
+    "reviewer": "Mechanical safety and field equipment"
+  },
+  {
+    "id": "Z09-P31",
+    "zone": "Z09",
+    "title": "Clear camp ground and dig lawful catholes using compact shovels",
+    "origin": "NPS Leave No Trace and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Verify folding-shovel locking collars are completely tightened before digging—a loose folding hinge collapses onto fingers under downward force.",
+        "claims": [
+          "K01",
+          "K03",
+          "ED"
+        ]
+      },
+      {
+        "text": "Follow agency Leave No Trace sanitation setbacks (typically at least 200 feet from water, trails and camps, 6–8 inches deep in organic soil where catholes are legal, or pack-out where required) without hacking large live tree roots.",
+        "claims": [
+          "K11",
+          "E22",
+          "E21"
+        ]
+      },
+      {
+        "text": "Use compact shovels strictly for soil, ash or snow work—never pry heavy boulders with thin stamped folding blades that buckle or snap.",
+        "claims": [
+          "K02",
+          "K03"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Use compact trowels and folding shovels safely for waste burial, fire-ring clearing and snow checks without injuring wrists or roots.",
+    "applies": "Backcountry sanitation catholes (where permitted), authorized fire-ring mineral clearing and camp maintenance.",
+    "equipment": "Durable trowel or compact shovel with secure hinge lock, local sanitation rules and work gloves if available.",
+    "failure": {
+      "text": "Digging a cathole right beside a creek bank or leaning body weight onto an unlocked folding shovel hinge.",
+      "claims": [
+        "K01",
+        "K11",
+        "E22"
+      ]
+    },
+    "verify": {
+      "text": "Confirm tight shovel collar, lawful setback from water/trails and clean soil restoration after use.",
+      "claims": [
+        "K01",
+        "K11",
+        "E22",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "In alpine, desert, snowy or pack-out-required zones where soil decomposition fails, carry waste out in approved bags rather than digging ineffective pits.",
+      "claims": [
+        "K11",
+        "E22"
+      ]
+    },
+    "diagram": "Lock folding collar tight | Set back ≥200 ft from water | Cut organic soil, not live roots",
+    "visual": "Cutaway ground profile illustrating lawful 6-8 inch organic-soil cathole depth, water-source setback and locked shovel blade angle. Conceptual, not to scale.",
+    "reviewer": "Land management and outdoor sanitation"
+  },
+  {
+    "id": "Z09-P32",
+    "zone": "Z09",
+    "title": "Follow low-impact construction rules without nailing or cutting live trees",
+    "origin": "NPS Leave No Trace and USFS camping rules; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check specific park or forest regulations before rigging tarps or gathering deadfall; cutting live saplings, peeling birch bark, digging trenches and driving nails into trees are widely prohibited.",
+        "claims": [
+          "K11",
+          "E21",
+          "E22"
+        ]
+      },
+      {
+        "text": "Rely on manufactured shelters, stoves and non-destructive wide-strap lashings for routine trips, removing all cordage and scattering deadfall when breaking camp.",
+        "claims": [
+          "K11",
+          "E22"
+        ]
+      },
+      {
+        "text": "Reserve natural-material improvised windbreaks strictly for genuine unequipped survival emergencies—and even then choose dead downed material on safe ground without cutting live timber needlessly.",
+        "claims": [
+          "K11",
+          "E05",
+          "E22"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep routine camp construction lawful and reversible while clearly separating recreation rules from rare life-safety emergencies.",
+    "applies": "All public forests, parks, wilderness areas and shared backcountry corridors.",
+    "equipment": "Local land-agency regulations, non-destructive cordage and manufactured camp gear.",
+    "failure": {
+      "text": "Building a semi-permanent pole camp and nailed bench in a national forest, damaging live trees and leaving hazardous wire and scars behind.",
+      "claims": [
+        "K11",
+        "E22"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero live vegetation cut, zero nails/wire driven into trees and full clean removal of temporary utility ties before departure.",
+      "claims": [
+        "K11",
+        "E22",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When local rules forbid deadfall collection or tree attachment, use freestanding gear and leave surrounding timber completely untouched.",
+      "claims": [
+        "K11",
+        "E21",
+        "E22"
+      ]
+    },
+    "diagram": "Routine trip: zero site alteration | Use freestanding gear & deadfall | Emergency: deadfall only, no nails",
+    "visual": "Decision tree distinguishing routine public-land low-impact rules from rare unequipped emergency deadfall windbreaks. Conceptual, not to scale.",
+    "reviewer": "Land management and wilderness ethics"
+  },
+  {
+    "id": "Z09-P33",
+    "zone": "Z09",
+    "title": "Understand why standing dead trees and overhead felling stay off-limits",
+    "origin": "USFS hazard trees and trail handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that standing dead trees (snags) often have hollow rotted cores, loose bark and brittle upper tops (widowmakers) that break backward straight onto the cutter at the first axe or saw vibration.",
+        "claims": [
+          "K10",
+          "E13"
+        ]
+      },
+      {
+        "text": "Restrict ALL camp woodworking and lawful firewood gathering strictly to manageable dead wood already lying flat on the ground.",
+        "claims": [
+          "K10",
+          "C17",
+          "E13"
+        ]
+      },
+      {
+        "text": "Keep camp, rest stops and tool-work zones well clear of leaning dead trunks, split forks and wind-damaged canopies.",
+        "claims": [
+          "E13",
+          "K10"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Exclude tree felling and dead-snag work from camp tool procedures to prevent catastrophic overhead crushing injuries.",
+    "applies": "All forested campsites, storm-damaged trails and fuel-gathering zones.",
+    "equipment": "Daylight visual overhead scan (felling requires certified sawyer training, wedges, PPE and escape paths outside this manual).",
+    "failure": {
+      "text": "Chopping at the base of a leaning dead birch snag for firewood, shaking loose a heavy rotten crown branch directly overhead.",
+      "claims": [
+        "K10",
+        "E13"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero standing trees—dead or alive—are cut, wedged or shaken during camp operations.",
+      "claims": [
+        "K10",
+        "E13",
+        "C17",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Walk well away from creaking or wind-stressed dead timber; never attempt to knock down a hung-up branch by throwing sticks or chopping its support.",
+      "claims": [
+        "K10",
+        "E13"
+      ]
+    },
+    "diagram": "Rotten snag crown above | Vibration drops dead top | Gather flat downed wood only",
+    "visual": "Environmental tree-hazard profile illustrating unpredictable crown drop from standing dead snags versus safe flat-ground deadfall gathering. Conceptual, not to scale.",
+    "reviewer": "Forestry safety and arboriculture"
+  },
+  {
+    "id": "Z09-P34",
+    "zone": "Z09",
+    "title": "Assemble a route-matched field repair kit before departure",
+    "origin": "NPS Ten Essentials and Ready.gov kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Audit every critical gear item you carry—shelter poles, fabric coating (silicone vs polyurethane), inflatable pad, pack hip-belt buckle, boots and stove—and pack the exact compatible patch or spare part.",
+        "claims": [
+          "K07",
+          "E20",
+          "E02"
+        ]
+      },
+      {
+        "text": "Recognize adhesive limits: standard duct tape peels right off silicone-coated (silnylon) tarps and wet cold fabrics—pack coating-matched tenacious/silicone repair tape where needed.",
+        "claims": [
+          "K07",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep the repair kit dry, compact and inventoried after every trip so used patches, blades or spare O-rings are replaced before the next outing.",
+        "claims": [
+          "K07",
+          "T12"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Carry compact, compatible repair supplies matched to your actual shelter, pack, sleep pad, clothing and water gear.",
+    "applies": "Day hikes, overnight backcountry trips and household emergency preparedness packs.",
+    "equipment": "Gear-matched repair pouch (fabric/silicone patch tape, pole splint, spare buckle, strong thread/needle, zip ties, cord, multi-tool).",
+    "failure": {
+      "text": "Packing only a roll of household duct tape on a cold wet trip with a silnylon tarp and inflatable sleeping pad, where the tape slides straight off wet silicone fabric.",
+      "claims": [
+        "K07",
+        "E20"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every major life-safety gear class has at least one compatible field patch, spare fastener or backup method in the repair pouch.",
+      "claims": [
+        "K07",
+        "E02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not rely on a field repair kit to compensate for already-failing primary shelter, footwear or water-treatment gear prior to departure.",
+      "claims": [
+        "K07",
+        "E20",
+        "E02"
+      ]
+    },
+    "diagram": "Tape matched to coating | Pole splint & spare buckle | Needle, cord & multi-tool",
+    "visual": "Exploded field repair kit organizing fabric patches, pole splints, fastener spares and multi-tool components matched to core gear. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety"
+  },
+  {
+    "id": "Z09-P35",
+    "zone": "Z09",
+    "title": "Patch torn tent flies, tarps and rain shells cleanly in the field",
+    "origin": "NPS camping gear and repair kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Dry and wipe dirt, grease or moisture completely off the torn fabric area—adhesive fails rapidly on damp, dusty or cold greasy fabric.",
+        "claims": [
+          "K07",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Cut patch corners into smooth rounded curves (square corners catch and peel immediately) leaving generous overlap beyond all tear ends, and press firmly from the center outward against a flat support; patch both sides on high-stress rips.",
+        "claims": [
+          "K07",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep high-stress seam rips or corner tie-out failures lightly loaded—adhesive tape stops drafts and small drips cleanly but cannot match sewn structural reinforcement in gales.",
+        "claims": [
+          "K07",
+          "E16",
+          "E20"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Stop fabric tears from propagating in wind and seal rain leaks cleanly with rounded adhesive patches.",
+    "applies": "Repairing punctures, ember holes or rips in nylon/polyester tents, rain shells and insulated jackets.",
+    "equipment": "Compatible fabric repair tape, clean dry cloth, small scissors and flat backing surface.",
+    "failure": {
+      "text": "Sticking a ragged square strip of damp tape onto a wet tent wall in driving rain without backing both sides or easing guyline tension.",
+      "claims": [
+        "K07",
+        "E20"
+      ]
+    },
+    "verify": {
+      "text": "Confirm clean dry bond, rounded patch edges, eased seam tension and dry interior below the patch during rain.",
+      "claims": [
+        "K07",
+        "E20",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If a structural load seam or large fly panel splits open in high wind, abandon reliance on temporary tape and relocate to safer refuge.",
+      "claims": [
+        "K07",
+        "E16"
+      ]
+    },
+    "diagram": "Dry & clean fabric surface | Round corners with wide overlap | Press flat; light load only",
+    "visual": "Material cross-section showing double-sided rounded patch tape sealing a torn coated fabric layer while easing wind-seam load. Conceptual, not to scale.",
+    "reviewer": "Shelter equipment and field maintenance"
+  },
+  {
+    "id": "Z09-P36",
+    "zone": "Z09",
+    "title": "Stabilize fractured pack frames, straps and buckles on the trail",
+    "origin": "NPS Ten Essentials and repair kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Replace snapped side-release hip-belt or sternum buckles using a slotted field-repair buckle, or tie the webbing tails securely through the remaining loop with a flat water-knot or doubled cord loop so weight stays balanced on hips.",
+        "claims": [
+          "K07",
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Lash a cracked external frame joint or popped stay cleanly with overlapping cord wraps or heavy zip ties, padding any sharp jagged metal or fiberglass end thoroughly so it cannot cut skin or pack fabric.",
+        "claims": [
+          "K07",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Redistribute heavy items (water, food, shelter) among healthy companions if a pack fails badly so no one hikes unbalanced on slick terrain.",
+        "claims": [
+          "E11",
+          "K07",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep essential gear carried safely and evenly when a hip-belt buckle snaps, shoulder strap tears or frame stay shifts.",
+    "applies": "Backcountry travel or evacuation marches when load-bearing backpack hardware breaks.",
+    "equipment": "Spare field-replaceable buckle or webbing loop, heavy utility cord, zip ties, strong thread/needle and repair tape.",
+    "failure": {
+      "text": "Continuing miles down steep terrain with one broken shoulder strap swinging loose and a sharp snapped stay poking through the back panel.",
+      "claims": [
+        "K07",
+        "K08",
+        "E11"
+      ]
+    },
+    "verify": {
+      "text": "Confirm padded sharp ends, balanced shoulder/hip weight distribution and secure knot or spare buckle holding under a test lift.",
+      "claims": [
+        "K07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If a major pack collapse prevents carrying essential shelter, warmth or water safely, redistribute group loads and shorten the route to the nearest exit.",
+      "claims": [
+        "K07",
+        "E11",
+        "E02"
+      ]
+    },
+    "diagram": "Replace or tie broken buckle | Pad & splint broken stay | Redistribute group load safely",
+    "visual": "Exploded backpack repair schematic showing slotted spare buckle, padded frame-stay lashing and balanced load-redistribution checkpoints. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety and outdoor leadership"
+  },
+  {
+    "id": "Z09-P37",
+    "zone": "Z09",
+    "title": "Perform temporary footwear sole, lace and gaiter field repairs",
+    "origin": "NPS Ten Essentials and cold/wet exposure safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Replace a snapped boot lace immediately with thin utility cord melted or knotted cleanly at the tips, checking that tension secures the heel without cutting off foot circulation—especially in cold weather.",
+        "claims": [
+          "K07",
+          "E10",
+          "ED"
+        ]
+      },
+      {
+        "text": "If a boot sole peels loose at the toe, wrap several snug turns of high-strength tape or heavy cord around the forefoot sole-and-upper junction strictly as a short-term exit measure—recognizing tape wears down fast on sharp rock and becomes slick on snow or wet roots.",
+        "claims": [
+          "K07",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect feet at the very next stop for hot spots, blisters, dampness or numbness caused by shifted seams or tight emergency wraps.",
+        "claims": [
+          "E10",
+          "E06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Maintain safe traction, ankle stability and dry socks until the party exits after boot-sole delamination or lace failure.",
+    "applies": "Broken shoelaces, peeling boot soles or torn gaiters during trail travel or evacuation.",
+    "equipment": "Spare utility cord (paracord), sturdy adhesive tape, zip ties and dry spare socks.",
+    "failure": {
+      "text": "Tightly strapping tape over a boot instep in cold weather, constricting blood flow and accelerating toe frostbite, or trusting taped soles on steep wet granite.",
+      "claims": [
+        "E10",
+        "T04",
+        "K07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm secure heel fit, comfortable toe circulation, intact traction awareness and dry socks inside the repaired boot.",
+      "claims": [
+        "K07",
+        "E10",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Delaminated soles or severely damaged boots reduce traction sharply—abort technical climbs, steep slopes and extended travel and exit via the safest low-angle route.",
+      "claims": [
+        "K07",
+        "E01",
+        "E11"
+      ]
+    },
+    "diagram": "Cord lace without constriction | Short-term sole wrap (slick!) | Check feet & exit early",
+    "visual": "Exploded footwear field-repair layout detailing cord lace routing, circulation check zones and temporary sole-wrap traction warnings. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety and wilderness medicine"
+  },
+  {
+    "id": "Z09-P38",
+    "zone": "Z09",
+    "title": "Repair leaky sleeping pads and dry-bag pinholes cleanly",
+    "origin": "NPS camping gear and cold-weather shelter; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inflate the pad firmly, check the valve seal first for grit or loose threads, then listen closely or wipe a thin film of clean water/soap suds across seams and fabric to spot tiny bubbles at pinholes—dry thoroughly before patching.",
+        "claims": [
+          "K07",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Mark the pinhole, clean and dry the surface completely, apply the manufacturer-compatible rounded patch with firm even pressure and allow full cure time before leaning body weight on it.",
+        "claims": [
+          "K07",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep a thin closed-cell foam pad or dry spare clothing plan ready in cold weather so a slow overnight leak never leaves the sleeper lying directly on frozen ground.",
+        "claims": [
+          "E05",
+          "E20",
+          "K07"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Locate slow leaks in inflatable ground pads and waterproof bags to preserve overnight insulation and dry gear.",
+    "applies": "Field troubleshooting of punctured inflatable sleeping pads, dry sacks or waterproof liners.",
+    "equipment": "Manufacturer patch kit (peel-and-stick or seam-grip patches), clean cloth and dry warm prep area.",
+    "failure": {
+      "text": "Trying to stick a cold patch onto a wet soapy sleeping pad at midnight without cleaning valve grit first.",
+      "claims": [
+        "K07",
+        "E20",
+        "E05"
+      ]
+    },
+    "verify": {
+      "text": "Re-inflate after curing and press gently for several minutes to confirm the pad holds firm pressure without hissing.",
+      "claims": [
+        "K07",
+        "E20",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If a baffle ruptures internally or a seam splits beyond patch width in freezing temperatures, rely on closed-cell foam/dry natural insulation below and shorten the trip.",
+      "claims": [
+        "E05",
+        "E06",
+        "K07"
+      ]
+    },
+    "diagram": "Check valve & find pinhole | Dry surface & apply patch | Back up with foam in cold",
+    "visual": "Cutaway inflatable-pad inspection diagram showing valve-gasket check, bubble leak detection, rounded patch cure and backup foam layer. Conceptual, not to scale.",
+    "reviewer": "Cold-weather shelter and field equipment"
+  },
+  {
+    "id": "Z09-P39",
+    "zone": "Z09",
+    "title": "Assess improvised utility containers for dry goods versus potable limits",
+    "origin": "B009/B010 vessel notes and CDC storage; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Maintain the strict Z04 potable boundary: drinking and cooking water belong ONLY in intact, sanitized food-grade containers with known clean prior history—never in salvaged fuel, oil, pesticide or chemical jugs.",
+        "claims": [
+          "W06",
+          "W13",
+          "W01"
+        ]
+      },
+      {
+        "text": "Limit salvaged unknown containers or natural bark/cloth pouches strictly to non-potable utility roles (carrying extinguishing water for campfires, gathering dry tinder, holding stakes or sorting dry tools).",
+        "claims": [
+          "W06",
+          "C02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Never heat water or food in soldered, plastic-lined, galvanized or unknown-coating metal cans; heating unknown coatings releases toxic fumes or leaches residues.",
+        "claims": [
+          "W01",
+          "W02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Separate clean food-grade water/food vessels strictly from salvaged or natural utility containers.",
+    "applies": "Evaluating salvaged cans, plastic jugs, birch bark or cloth sacks for camp transport, fire water or storage.",
+    "equipment": "Known clean food-grade vessels for potable use; separate marked salvaged vessels strictly for non-potable utility.",
+    "failure": {
+      "text": "Boiling drinking water inside a salvaged painted paint-thinner tin or storing potable water in a rinsed antifreeze jug.",
+      "claims": [
+        "W01",
+        "W06",
+        "W13"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every potable vessel has verified food-grade history and every salvaged utility container is clearly marked non-potable.",
+      "claims": [
+        "W06",
+        "W01",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If no verified safe potable container exists, do not improvise boiling in toxic or unknown vessels—rely on sealed commercial supplies or request help.",
+      "claims": [
+        "W01",
+        "W06",
+        "W09"
+      ]
+    },
+    "diagram": "Food-grade: potable/cook only | Salvaged clean: fire-water/gear | Chemical/lined: REJECT",
+    "visual": "Comparative configuration enforcing the hard boundary between verified food-grade potable containers, non-potable utility vessels and rejected toxic/lined cans. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and materials safety"
+  },
+  {
+    "id": "Z09-P40",
+    "zone": "Z09",
+    "title": "Fashion simple non-potable utility scoops and funnels safely",
+    "origin": "B009 P03 and B010 P06 collection limits; adapted historical material",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Cut clean known-history plastic bottles carefully away from hands to form a scoop or funnel, immediately covering or smoothing sharp cut plastic rims with tape so edges do not slice fingers.",
+        "claims": [
+          "K02",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep any improvised raw-water scoop strictly on the RAW side of your water workflow—never dip a raw scoop into treated drinking water or claim natural bark funnels purify water.",
+        "claims": [
+          "W06",
+          "W08",
+          "W09"
+        ]
+      },
+      {
+        "text": "Never cut into pressurized containers, unknown chemical bottles or sharp jagged tin lids without proper metal shears and cut protection.",
+        "claims": [
+          "K02",
+          "K08",
+          "W01"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Create temporary utility transfer aids cleanly while avoiding cut-edge hand injuries and raw-to-clean water contamination.",
+    "applies": "Transferring dry supplies, dipping raw water into a settling jar or staging campfire extinguishing water.",
+    "equipment": "Clean known-safe plastic bottle or clean food-grade container, sharp scissors/knife and smooth edge folding/taping.",
+    "failure": {
+      "text": "Sawing hastily at a slippery tin can with a pocket knife, suffering a deep laceration, or using the same cut bottle scoop for raw creek water and boiled water.",
+      "claims": [
+        "K02",
+        "W06",
+        "W08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm clean known container history, taped smooth rims and strict raw-versus-potable segregation.",
+      "claims": [
+        "K08",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject sharp jagged tin edges and any container whose previous contents are unknown.",
+      "claims": [
+        "K02",
+        "W01",
+        "W06"
+      ]
+    },
+    "diagram": "Clean known bottle body | Tape sharp cut rim smooth | Keep strictly on raw/utility side",
+    "visual": "Cutaway craft diagram illustrating safe rim-taped plastic scoop/funnel geometry and mandatory raw-side isolation from potable vessels. Conceptual, not to scale.",
+    "reviewer": "Tool safety and drinking-water safety"
+  },
+  {
+    "id": "Z09-P41",
+    "zone": "Z09",
+    "title": "Recognize temporary-repair limits before continuing into harsh weather",
+    "origin": "NPS Ten Essentials and field safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat EVERY field patch, pole splint, taped boot sole or knotted strap as a degraded temporary fix with lower strength and shorter service life than intact factory gear.",
+        "claims": [
+          "K07",
+          "E20",
+          "ED"
+        ]
+      },
+      {
+        "text": "Evaluate the consequence of a second failure: a patched jacket pocket is trivial, whereas a splinted tent pole ahead of a forecast windstorm or a leaking pad before a 10°F night threatens life safety.",
+        "claims": [
+          "K07",
+          "E16",
+          "E05"
+        ]
+      },
+      {
+        "text": "Shorten the trip or exit via the nearest verified safe route whenever a core shelter, footwear, navigation or water system relies on a fragile temporary repair.",
+        "claims": [
+          "K07",
+          "E01",
+          "T06"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Decide honestly when a field repair is good enough to finish safely versus when it requires turning back immediately.",
+    "applies": "Evaluating splinted tent poles, taped boots, patched sleeping pads or knotted pack straps mid-trip.",
+    "equipment": "Honest route/weather assessment, map of nearest bailout exits and group condition check.",
+    "failure": {
+      "text": "Pushing two days deeper into remote mountains after splinting a snapped main tent pole and taping a delaminating boot sole.",
+      "claims": [
+        "K07",
+        "E16",
+        "E20"
+      ]
+    },
+    "verify": {
+      "text": "State what happens if the temporary repair fails tonight and confirm the group has a safe exit or non-dependent backup.",
+      "claims": [
+        "K07",
+        "E02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When forecast weather or terrain difficulty exceeds what a temporarily repaired life-safety item can tolerate, abort onward travel and exit early.",
+      "claims": [
+        "K07",
+        "E16",
+        "E01"
+      ]
+    },
+    "diagram": "Repair restores partial margin | Assess 2nd-failure consequence | Exit early if weather rises",
+    "visual": "Decision tree weighing repair durability and second-failure consequence to choose between cautious continuation and immediate bailout exit. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety and outdoor leadership"
+  },
+  {
+    "id": "Z09-P42",
+    "zone": "Z09",
+    "title": "Use first-class levers and stable fulcrums to shift heavy downed logs",
+    "origin": "NPS Forces and Tools and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Place a broad stable fulcrum block close to the load so the effort arm is much longer than the load arm—remembering ideal lever ratios trade longer handle movement for reduced hand force.",
+        "claims": [
+          "K06",
+          "K05"
+        ]
+      },
+      {
+        "text": "Test the lever pole gently first for hidden rot or bending cracks, stand to the SIDE rather than straddling the handle and keep feet completely clear of the rolling or dropping load path.",
+        "claims": [
+          "K05",
+          "K08",
+          "K06"
+        ]
+      },
+      {
+        "text": "Chock or block a lifted object immediately with solid cribbing if you must pause—never place hands, fingers or feet underneath a suspended load held only by a wooden lever.",
+        "claims": [
+          "K08",
+          "K05",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Multiply modest human lifting force safely using a solid pry lever and firm fulcrum without standing in recoil zones.",
+    "applies": "Rolling modest downed deadwood clear of a tent pad or shifting heavy camp gear safely (NOT lifting unstable vehicles or heavy collapsed structures).",
+    "equipment": "Sound straight stout hardwood lever pole, solid low fulcrum block (stone or stable log) and firm footing.",
+    "failure": {
+      "text": "Leaning full body weight onto a brittle dead pine lever while standing downhill of a heavy log that rolls straight over ankles when shifted.",
+      "claims": [
+        "K05",
+        "K06",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm sound uncracked lever pole, broad stable fulcrum, clear downhill roll path and zero hands or feet under the lifted load.",
+      "claims": [
+        "K05",
+        "K06",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never attempt to lift vehicles, pinned storm trunks or trapped people with unrated wooden poles if uncontrolled shifting could crush anyone; stabilize and call emergency rescue.",
+      "claims": [
+        "K05",
+        "K08",
+        "T02"
+      ]
+    },
+    "diagram": "Long effort arm multiplies force | Broad stable fulcrum near load | Keep feet & hands out of drop path",
+    "visual": "Mechanism diagram illustrating first-class lever arm ratio, stable fulcrum contact and excluded crush/recoil zones around a shifted log. Conceptual, not to scale.",
+    "reviewer": "Mechanical safety and forestry tool safety"
+  },
+  {
+    "id": "Z09-P43",
+    "zone": "Z09",
+    "title": "Use wedges and inclined planes to gain controlled lifting force",
+    "origin": "NPS Forces and Tools and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that a wedge and an inclined plane use the same physical principle—moving a modest force over a longer shallow ramp distance lifts or separates a heavier load gradually.",
+        "claims": [
+          "K06"
+        ]
+      },
+      {
+        "text": "Drive wooden wedges incrementally with a wooden mallet while keeping blocking chocks tight behind the lift so the object cannot slam back if a wedge slips out.",
+        "claims": [
+          "K06",
+          "K12",
+          "K08"
+        ]
+      },
+      {
+        "text": "Account for real-world surface friction: rough wood-on-wood friction absorbs substantial input force (reducing ideal mechanical advantage) yet also helps prevent sudden uncontrolled slide-back.",
+        "claims": [
+          "K06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Apply gentle, incremental wedging and ramped slides to lift or move heavy utility objects with minimal sudden drop risk.",
+    "applies": "Shifting heavy camp supply crates, leveling stable surfaces or opening tight wood splits gradually.",
+    "equipment": "Sound wooden wedges, flat sturdy ramp planks where available, wooden mallet and blocking cribs.",
+    "failure": {
+      "text": "Stacking narrow unstable loose stones under a ramp or hammering brittle wedges without blocking, causing a heavy load to kick sideways onto shins.",
+      "claims": [
+        "K06",
+        "K08",
+        "K12"
+      ]
+    },
+    "verify": {
+      "text": "Confirm shallow stable ramp/wedge angle, solid blocking support and clear operator footing outside the slip trajectory.",
+      "claims": [
+        "K06",
+        "K08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately if wedges begin shooting backward, supports tilt or the mass exceeds safe manual control.",
+      "claims": [
+        "K06",
+        "K08"
+      ]
+    },
+    "diagram": "Shallow ramp/wedge trades distance | Friction resists sudden kickback | Block incrementally; stay clear",
+    "visual": "Mechanism diagram mapping wedge/inclined-plane force vectors, friction losses and incremental cribbing stabilization. Conceptual, not to scale.",
+    "reviewer": "Mechanical safety and occupational safety"
+  },
+  {
+    "id": "Z09-P44",
+    "zone": "Z09",
+    "title": "Understand pulley redirects, friction loss and anchor load doubling",
+    "origin": "NPS Forces and Tools and USFS rigging boundaries; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that passing a rope over a single stationary limb or fixed pulley changes pulling direction (1:1 ideal advantage) while ACTUALLY DOUBLING the total downward load on the anchor (load plus pulling force) minus friction.",
+        "claims": [
+          "K06",
+          "K09"
+        ]
+      },
+      {
+        "text": "Recognize that high friction over a rough tree branch can cut usable lifting output in half while sawing straight through rope fibers and damaging tree bark.",
+        "claims": [
+          "K06",
+          "K09",
+          "K11"
+        ]
+      },
+      {
+        "text": "Remember that compound pulley systems multiply tension on anchors rapidly—camp cordage, tree branches and improvised carabiners carry ZERO certified lifting or rescue ratings.",
+        "claims": [
+          "K06",
+          "K09"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize how simple rope redirects change pull direction and multiply forces on the overhead anchor point.",
+    "applies": "Understanding mechanical principles in camp utility hoists (such as food-bag hangs) without overstating uncertified load ratings.",
+    "equipment": "Utility rope, smooth low-friction redirect or simple camp pulley and sound overhead anchor.",
+    "failure": {
+      "text": "Hauling a heavy gear sack over a dead brittle branch using a redirect without realizing the branch carries roughly double the bag weight plus friction pull.",
+      "claims": [
+        "K06",
+        "K09",
+        "E13"
+      ]
+    },
+    "verify": {
+      "text": "Inspect the overhead anchor for soundness, keep bystanders completely out from underneath suspended utility loads and stay well within light camp loads.",
+      "claims": [
+        "K06",
+        "K09",
+        "K08",
+        "E13"
+      ]
+    },
+    "stop": {
+      "text": "Never stand beneath a hanging pack or food bag and never rig improvised pulleys to lift people or heavy equipment.",
+      "claims": [
+        "K08",
+        "K09"
+      ]
+    },
+    "diagram": "1:1 redirect changes pull angle | Anchor sees ~2x downward load | Friction cuts output & wears cord",
+    "visual": "Mechanism diagram illustrating single-redirect load doubling on an overhead anchor, branch friction loss and zero-standing fall zone below. Conceptual, not to scale.",
+    "reviewer": "Mechanical engineering and rigging safety"
+  },
+  {
+    "id": "Z09-P45",
+    "zone": "Z09",
+    "title": "Understand why conceptual mechanical diagrams are not load certifications",
+    "origin": "NPS Forces and Tools, OSHA and editorial governance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Separate conceptual physics drawings (which illustrate force directions, knot topology or load-path principles) from certified engineering specifications backed by laboratory load testing and material grade control.",
+        "claims": [
+          "K06",
+          "K09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that real field materials—deadwood grain, wet rope, field-tied knots, soil anchors and worn gear—have wide unmeasured variability that invalidates textbook ideal ratios.",
+        "claims": [
+          "K06",
+          "K09",
+          "K04"
+        ]
+      },
+      {
+        "text": "Use ONLY independently certified, manufacturer-rated equipment and qualified technical procedures whenever failure could drop a heavy load onto people or involve human suspension.",
+        "claims": [
+          "K09",
+          "K08",
+          "K01"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Read encyclopedia tool, knot and mechanical-advantage diagrams accurately without mistaking concepts for rated engineering specs.",
+    "applies": "All readers, instructors and reviewers applying Z09 tool, lashing, lever and pulley schematics.",
+    "equipment": "Manufacturer ratings and certified hardware whenever actual rated lifting or life-safety loads exist.",
+    "failure": {
+      "text": "Treating a conceptual 2:1 pulley schematic or natural-cordage plate as proof that camp paracord and deadwood can safely haul heavy loads over people.",
+      "claims": [
+        "K06",
+        "K09",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Check every Z09 figure caption and evidence drawer to confirm conceptual status and specialist-review boundaries before teaching or field use.",
+      "claims": [
+        "ED",
+        "K06",
+        "K09"
+      ]
+    },
+    "stop": {
+      "text": "Whenever human life, overhead crushing risk or structural load capacity is at stake, do not improvise from conceptual diagrams—use certified gear or professional rescue.",
+      "claims": [
+        "K09",
+        "K08",
+        "T02"
+      ]
+    },
+    "diagram": "Conceptual diagram = principle | Real wood/cord varies widely | Rated loads need certified gear",
+    "visual": "Decision tree separating conceptual mechanical schematics from laboratory-tested manufacturer specifications and life-safety exclusions. Conceptual, not to scale.",
+    "reviewer": "Mechanical engineering, rigging safety and editorial governance"
+  },
+  {
+    "id": "Z09-P46",
+    "zone": "Z09",
+    "title": "Secure and hone dull knife and axe bevels without finger exposure",
+    "origin": "USFS handtool sharpening and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Secure an axe or heavy tool firmly against a stable bench or pegged wood support before filing, using a file fitted with both a handle and knuckle guard—never file loose handheld steel toward your fingers.",
+        "claims": [
+          "K04",
+          "K02"
+        ]
+      },
+      {
+        "text": "Match the factory bevel angle steadily along a flat sharpening stone or puck with smooth light strokes rather than grinding steep blunt edges or overheating steel on dry power grinders (which ruins temper).",
+        "claims": [
+          "K04"
+        ]
+      },
+      {
+        "text": "Wipe metal filings cleanly away from food areas and fingers, test sharpness safely on a small scrap of paper or dry wood—NEVER draw a thumb lengthwise along a blade edge.",
+        "claims": [
+          "K04",
+          "K02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Restore a clean working cutting edge safely while keeping fingers protected and preserving factory bevel geometry.",
+    "applies": "Routine camp or home maintenance of dull (not chipped or cracked) knife blades and axe bits.",
+    "equipment": "Fine honing stone or bastard file with handle and knuckle guard, secure clamping/base and wipe cloth.",
+    "failure": {
+      "text": "Trying to sharpen a hatchet held loosely between knees with an unguarded bare-tang file, slicing deeply into the palm.",
+      "claims": [
+        "K04",
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm firm workpiece immobilization, protected fingers, preserved smooth bevel angle and clean safe testing on scrap material.",
+      "claims": [
+        "K04",
+        "K02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop field honing if the blade shows deep structural cracks, heat-blued soft spots or large jagged chips—retire or professionally regrind damaged steel.",
+      "claims": [
+        "K04",
+        "K02"
+      ]
+    },
+    "diagram": "Immobilize blade solidly | File/hone with guarded fingers | Preserve angle; test on wood",
+    "visual": "Exploded sharpening setup showing immobilized blade base, guarded file handle, preserved bevel angle and finger-clearance geometry. Conceptual, not to scale.",
+    "reviewer": "Tool maintenance and forestry safety"
+  },
+  {
+    "id": "Z09-P47",
+    "zone": "Z09",
+    "title": "Clean pitch, moisture and rust from saw teeth, hinges and blades",
+    "origin": "USFS handtool maintenance and Ready.gov kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Scrub sticky conifer pitch out of saw gullets and knife hinges gently with a brush and safe cleaner, keeping fingers well away from sharp saw tooth points—gummed teeth bind and snap blades.",
+        "claims": [
+          "K04",
+          "K03",
+          "ED"
+        ]
+      },
+      {
+        "text": "Dry carbon-steel blades and multi-tool pivots thoroughly after rain, snow or damp use and wipe a paper-thin coat of clean protective oil (food-safe oil on food knives) to stop rust pitting.",
+        "claims": [
+          "K04",
+          "K01",
+          "ED"
+        ]
+      },
+      {
+        "text": "Store leather-sheathed knives and axes clean and dry; trapped moisture inside damp leather corrodes carbon steel overnight.",
+        "claims": [
+          "K04",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep folding pivots, saw gullets and carbon-steel blades moving freely and free of corrosive pitting.",
+    "applies": "Post-trip and routine maintenance of folding saws, knives, axes, shears and multi-tools.",
+    "equipment": "Clean rag, mild soap/water or resin-safe solvent, toothbrush, light food-safe/tool oil and dry storage sheath.",
+    "failure": {
+      "text": "Stowing a sap-crusted wet folding saw in a sealed plastic bag for six months, discovering rusted seized pivot pins and bound teeth on the next trip.",
+      "claims": [
+        "K04",
+        "K03"
+      ]
+    },
+    "verify": {
+      "text": "Confirm clean tooth gullets, smooth dry pivot action, lightly oiled corrosion-free steel and dry sheath storage.",
+      "claims": [
+        "K04",
+        "K01",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Retire rusted-through hinges, bent saw plates or pitted corroded locks that will not open or latch smoothly after cleaning.",
+      "claims": [
+        "K04",
+        "K02"
+      ]
+    },
+    "diagram": "Clear pitch from teeth/hinges | Dry completely after wet use | Thin oil film & dry sheath",
+    "visual": "Exploded maintenance workflow showing saw gullet cleaning, pivot drying, light oil corrosion barrier and dry sheath storage. Conceptual, not to scale.",
+    "reviewer": "Tool maintenance and field equipment"
+  },
+  {
+    "id": "Z09-P48",
+    "zone": "Z09",
+    "title": "Inspect wooden tool handles for grain runout, cracks and loose heads",
+    "origin": "USFS trail handtools and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Sight along wooden axe and hammer handles for straight parallel grain running lengthwise with the head—steep diagonal grain runout splits diagonally under normal impact stress.",
+        "claims": [
+          "K03",
+          "K04"
+        ]
+      },
+      {
+        "text": "Check immediately below the metal eye/collar for crushed overstrike gouges, hairline checks, dry rot or gaps around the top wedge indicating a loose head that can fly off mid-swing.",
+        "claims": [
+          "K02",
+          "K03",
+          "K04"
+        ]
+      },
+      {
+        "text": "Keep sound wooden handles conditioned lightly with linseed oil and stored out of extreme dry stove heat that shrinks wood inside the head eye.",
+        "claims": [
+          "K04",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Detect hidden wooden handle defects before a swinging axe, hammer or shovel snaps mid-use.",
+    "applies": "Pre-trip inspection and purchasing/maintenance of hickory, ash or wood-handled camp and trail tools.",
+    "equipment": "Wooden-handled hand tools inspected in clear light.",
+    "failure": {
+      "text": "Wrapping electrical tape around a cracked axe neck or soaking a loose axe head in water overnight—which swells fibers briefly and leaves the head even looser after drying.",
+      "claims": [
+        "K04",
+        "K02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm straight lengthwise wood grain, tight immovable head seating and zero neck splits or overstrike cracks.",
+      "claims": [
+        "K03",
+        "K04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Immediately remove any tool with a cracked handle or loose head from service until properly re-hung with a sound replacement handle.",
+      "claims": [
+        "K02",
+        "K03",
+        "K04"
+      ]
+    },
+    "diagram": "Cracked neck or loose wedge | Diagonal grain runout splits | Retire & re-hang properly",
+    "visual": "Failure-mode illustration comparing sound straight lengthwise grain against hazardous diagonal grain runout, overstrike cracks and loose eye wedges. Conceptual, not to scale.",
+    "reviewer": "Forestry tool safety and occupational safety"
+  },
+  {
+    "id": "Z09-P49",
+    "zone": "Z09",
+    "title": "Diagnose dull blades, rolled edges, chipped bevels and warped saw plates",
+    "origin": "USFS handtool maintenance and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Spot a dull or rolled edge by checking whether a blade slips off wood instead of biting smoothly or glints brightly along the very apex under light—forcing a dull blade causes sudden uncontrolled slips.",
+        "claims": [
+          "K01",
+          "K04",
+          "K02"
+        ]
+      },
+      {
+        "text": "Spot a warped or tooth-damaged saw blade when the saw persistently curves sideways in a straight cut, chatters violently or jams repeatedly even in open kerfs.",
+        "claims": [
+          "K04",
+          "K05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Pause work calmly to touch up a mildly dulled bevel safely, or swap to a spare blade/backup tool rather than muscling through tough material.",
+        "claims": [
+          "K04",
+          "K01"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize cutting-edge degradation early because dull or bent tools force users to push harder and lose control.",
+    "applies": "Ongoing monitoring of knives, saws and hatchets during field or camp woodcraft.",
+    "equipment": "Visual light reflection check, safe scrap-wood test and field honing stone or spare saw blade.",
+    "failure": {
+      "text": "Pressing with full shoulder weight on a dull rolled knife blade until it skids off a dry branch straight into the opposite thumb.",
+      "claims": [
+        "K01",
+        "K02",
+        "K04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm smooth predictable bite at light hand pressure and straight tracking in saw cuts before continuing.",
+      "claims": [
+        "K01",
+        "K04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Retire cracked blades, bent saw plates or deeply chipped edges rather than fighting defective cutting geometry in the field.",
+      "claims": [
+        "K02",
+        "K04"
+      ]
+    },
+    "diagram": "Dull/bent blade resists cut | Extra force triggers violent slip | Hone safely or swap tool",
+    "visual": "Failure-mode illustration linking rolled bevels and warped saw plates to increased push-force slip hazards and safe honing/swap recovery. Conceptual, not to scale.",
+    "reviewer": "Tool maintenance and occupational safety"
+  },
+  {
+    "id": "Z09-P50",
+    "zone": "Z09",
+    "title": "Diagnose jammed multi-tool locks, stripped fasteners and snapped pins",
+    "origin": "OSHA 3080 and field equipment maintenance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check folding tool locks for grit buildup, incomplete lock-bar travel or wobbly pivot pins—never force a gritty stuck blade open by gripping the sharp edge with bare fingers.",
+        "claims": [
+          "K01",
+          "K02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Match screwdriver tips and hex wrenches snugly to fastener heads; loose undersized drivers cam out, stripping screw slots permanently and jabbing palms.",
+        "claims": [
+          "K01",
+          "K02"
+        ]
+      },
+      {
+        "text": "Inspect snowshoe clevis pins, ski/pole locks and stove linkages for bent clips or backing-out screws before leaving camp.",
+        "claims": [
+          "K07",
+          "E02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Spot mechanical fastener and pivot wear before a folding tool collapses on fingers or strips vital stove/gear screws.",
+    "applies": "Field and pre-trip checks of folding knives, multi-tools, stove valves, snowshoe bindings and shelter hardware.",
+    "equipment": "Clean brush, matched screwdriver/hex bit and spare field pins or zip ties.",
+    "failure": {
+      "text": "Trying to turn a stuck Phillips stove screw with a pointed knife tip, snapping the blade point and mangling the screw head beyond repair.",
+      "claims": [
+        "K01",
+        "K02",
+        "K07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm clean positive lock seating, matched driver fit and tight pins/fasteners across critical gear before use.",
+      "claims": [
+        "K01",
+        "K07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Retire any folding tool with an unreliable lock or cracked pivot and switch to a fixed backup or alternate gear plan.",
+      "claims": [
+        "K01",
+        "K02"
+      ]
+    },
+    "diagram": "Grit jams lock or wrong bit | Blade collapses or strips screw | Clean, match bit or retire tool",
+    "visual": "Failure-mode analysis linking gritty locks, worn pivot pins and mismatched drivers to blade collapse and fastener damage with safe recovery. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety and occupational safety"
+  },
+  {
+    "id": "Z09-P51",
+    "zone": "Z09",
+    "title": "Diagnose slipping knots, glazed synthetic rope and core-sheath damage",
+    "origin": "USFS cordage safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Feel along tensioned utility ropes for flat mushy sections (indicating crushed internal core strands), stiff glossy melted spots (friction glazing) or fuzzy torn outer sheaths exposing white inner filaments.",
+        "claims": [
+          "K09",
+          "K08"
+        ]
+      },
+      {
+        "text": "Check all critical utility knots after initial wind gusts or rain—watch for shrinking tails, distorted loops or loosening coils on slick wet cordage.",
+        "claims": [
+          "K09",
+          "E16"
+        ]
+      },
+      {
+        "text": "Cut out damaged end segments cleanly (fusing synthetic ends carefully away from dry fuels) or retire the entire rope if mid-line core damage or UV powdering appears.",
+        "claims": [
+          "K09",
+          "C02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Catch cordage wear and knot creep before tensioned tarps, packs or utility lines part unexpectedly.",
+    "applies": "Inspecting camp guylines, haul ropes, lashings and tie-downs after storms, heavy friction or long storage.",
+    "equipment": "Visual and tactile inch-by-inch rope inspection in good light.",
+    "failure": {
+      "text": "Reusing a sun-brittle, friction-glazed synthetic cord with an exposed inner core to guy out a shelter in rising wind.",
+      "claims": [
+        "K09",
+        "E16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm uniform round tactile feel, intact unglazed sheath and ample tail security on every active camp knot.",
+      "claims": [
+        "K09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Immediately retire any utility cord with core damage, severe sheath cuts, chemical burns or brittle UV chalking.",
+      "claims": [
+        "K09",
+        "K08"
+      ]
+    },
+    "diagram": "Glazed sheath or mushy core | Shortening tail warns knot slip | Retire damaged line & re-tie",
+    "visual": "Failure-mode illustration identifying friction-glazed sheaths, crushed cores and creeping knot tails alongside safe retirement cues. Conceptual, not to scale.",
+    "reviewer": "Rigging safety and materials mechanics"
+  },
+  {
+    "id": "Z09-P52",
+    "zone": "Z09",
+    "title": "Halt tool work immediately when cold hands, fatigue or dim light impair control",
+    "origin": "OSHA 3080, CDC hypothermia and USFS handtools; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Monitor yourself and companions for clumsy stiff fingers (early cold impairment), tunnel vision, rushed frustration or fading twilight before picking up any sharp or swinging tool.",
+        "claims": [
+          "E06",
+          "K08",
+          "K03"
+        ]
+      },
+      {
+        "text": "Recognize that cutting wood or repairing gear in remote terrain carries amplified medical risk because EMS evacuation for a deep cut or severed tendon can take hours.",
+        "claims": [
+          "T01",
+          "T02",
+          "K08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Warm hands inside shelter/layers first, put on a bright headlamp or defer non-urgent tool work completely until daylight and full dexterity return.",
+        "claims": [
+          "E06",
+          "E02",
+          "K08"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize human-factor limits that turn ordinary camp tool tasks into severe backcountry laceration emergencies.",
+    "applies": "Late-evening camp setup, freezing wet weather, exhausting climbs or high-stress emergency stops.",
+    "equipment": "Headlamp for task visibility, dry gloves/warmth layers and strict stop-work discipline.",
+    "failure": {
+      "text": "Trying to whittle kindling or split wood by dim dusk light with shivering numb fingers after a 12-mile hike, resulting in a severe hand laceration.",
+      "claims": [
+        "E06",
+        "K02",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm warm responsive fingers, clear lighting and calm unhurried focus before unsheathing any blade or saw.",
+      "claims": [
+        "K08",
+        "E06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "The moment hands fumble, shivering begins or light fades, sheath all sharp tools immediately and switch to zero-tool insulation, shelter and no-cook supplies.",
+      "claims": [
+        "E06",
+        "K08",
+        "C08"
+      ]
+    },
+    "diagram": "Cold, tired or dim light? | Fine motor control drops | Sheath tools & use no-tool plan",
+    "visual": "Decision tree gating all sharp and swinging tool use on warm hand dexterity, clear lighting and calm focus before unsheathing. Conceptual, not to scale.",
+    "reviewer": "Wilderness medicine and forestry tool safety"
+  },
+  {
+    "id": "Z09-P53",
+    "zone": "Z09",
+    "title": "Manage bleeding cuts, eye debris and tool-injury escalation in the field",
+    "origin": "ARC first aid and OSHA 3080; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stop tool work immediately, secure the sharp tool out of the way and check scene safety, responsiveness, breathing and life-threatening bleeding first.",
+        "claims": [
+          "T01",
+          "K03"
+        ]
+      },
+      {
+        "text": "For severe or spurting bleeding, call 911 immediately, apply firm direct pressure with clean dressing and follow dispatcher instructions within your training.",
+        "claims": [
+          "T02",
+          "T01"
+        ]
+      },
+      {
+        "text": "For eye strikes from wood chips, metal spalls or snapped cords, do NOT rub the eye or attempt to pull embedded objects out—shield the eye gently without pressure and seek urgent medical care.",
+        "claims": [
+          "T01",
+          "T02",
+          "K08",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "10-p09-z09-tools",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Respond calmly and within lay first-aid boundaries if a blade slip, flying wood chip or cord snap causes injury.",
+    "applies": "Immediate lay response to accidental cuts, puncture wounds, eye strikes or crush injuries during tool use (detailed clinical care belongs in Z10).",
+    "equipment": "Clean gauze/cloth dressing, clean potable water if needed for minor rinse, first-aid kit and communication device.",
+    "failure": {
+      "text": "Trying to keep working after a deep hand cut, rinsing an open wound with untreated creek water or rubbing a metal-shard eye injury.",
+      "claims": [
+        "T01",
+        "W29",
+        "K08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the sharp tool is secured, bleeding control or eye shielding is underway and emergency help or safe evacuation is activated when warranted.",
+      "claims": [
+        "T01",
+        "T02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Life-threatening bleeding, deep tendon/joint cuts, embedded foreign objects, eye trauma or suspected shock require immediate 911/SAR activation and termination of the trip.",
+      "claims": [
+        "T01",
+        "T02",
+        "T06"
+      ]
+    },
+    "diagram": "Secure tool & check scene | Severe bleed/eye -> call 911 | Follow dispatcher; abort trip",
+    "visual": "Decision tree routing tool-injury scene stabilization, severe-bleeding pressure and eye-trauma shielding to immediate EMS escalation. Conceptual, not to scale.",
+    "reviewer": "EMS, wilderness medicine and occupational safety"
+  },
+  {
     "id": "Z11-R02",
     "zone": "Z11",
     "title": "Confirm the starting point and first checkpoint",

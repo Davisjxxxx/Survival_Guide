@@ -1455,5 +1455,588 @@
       "Use as guided training"
     ],
     "abort": "EMERGENCY: Use verified modern kit + lawful checks + no-fire plan"
+  },
+  "Z09-P01": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Folding Saw",
+        "note": "Clean deadwood cross-cut; low slip energy",
+        "limit": "Avoid log bind/pinch"
+      },
+      {
+        "name": "Small Fixed Blade",
+        "note": "Controlled carving, cord & light prep",
+        "limit": "Never pry or hammer"
+      },
+      {
+        "name": "Camp Hatchet/Axe",
+        "note": "High swing energy; needs block & skill",
+        "limit": "High glancing-miss risk"
+      }
+    ]
+  },
+  "Z09-P02": {
+    "type": "exploded",
+    "components": [
+      "Head & Wedge Seat",
+      "Uncracked Handle",
+      "Positive Blade Lock",
+      "Intact Poll & Edge"
+    ],
+    "callout": "Retire loose heads, split handles or mushroomed steel — never tape"
+  },
+  "Z09-P03": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Operator level stance",
+      "Away-from-body cut arc",
+      "Bystander clear circle"
+    ],
+    "callout": "Maintain arm+tool clear circle before unsheathing sharp tools"
+  },
+  "Z09-P04": {
+    "type": "cross_section",
+    "layers": [
+      "Outer bark (strip/check wetness)",
+      "Straight sound deadwood grain (use)",
+      "Dense tight knot (deflects edge)",
+      "Spongy decayed heart rot (reject)"
+    ],
+    "callout": "Read grain before cutting; B007 notes are not wood strength certs"
+  },
+  "Z09-P05": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Fixed Blade",
+        "note": "Continuous tang; reliable in cold/wet gloves",
+        "limit": "Carry in rigid sheath"
+      },
+      {
+        "name": "Locking Folder",
+        "note": "Compact light slicing & cordage tasks",
+        "limit": "Pivot/lock fails if pried"
+      },
+      {
+        "name": "Pliers Multi-Tool",
+        "note": "Stoves, buckles, wire & gear maintenance",
+        "limit": "Thin small fold blades"
+      }
+    ]
+  },
+  "Z09-P06": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Folding Saw",
+        "note": "Compact pull-cut; minimal miss path",
+        "limit": "Match blade to branch size"
+      },
+      {
+        "name": "Bow Saw",
+        "note": "Fast clean cuts on thicker downed logs",
+        "limit": "Check frame tension first"
+      },
+      {
+        "name": "Camp Hatchet",
+        "note": "Trained low-block use only",
+        "limit": "Avoid mid-air stick swings"
+      }
+    ]
+  },
+  "Z09-P07": {
+    "type": "cross_section",
+    "layers": [
+      "Narrow acute slicing bevel (cord/shavings)",
+      "Stout convex chopping bevel (wood impact)",
+      "Abrasive rock/metal contact (rolls/chips)",
+      "Subfreezing lateral stress (brittle snap)"
+    ],
+    "callout": "Use clean wood backing — never cut against rock or metal"
+  },
+  "Z09-P08": {
+    "type": "failure_mode",
+    "cause": "Sideways prying bends hardened knife blade or thin shank",
+    "cue": "Blade flexes laterally or binds tightly inside split/lid",
+    "correction": "Withdraw straight back; switch to wooden lever or pliers"
+  },
+  "Z09-P09": {
+    "type": "exploded",
+    "components": [
+      "Fitted Rigid Sheath",
+      "Handle-First Handoff",
+      "High-Vis Cord Mark",
+      "Dry Wipe & Oil"
+    ],
+    "callout": "Keep edges covered during carry and clearly parked off footpaths"
+  },
+  "Z09-P10": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Nylon / Polyester",
+        "note": "Strong utility cord; poly stretches less wet",
+        "limit": "Not climbing/rescue rope"
+      },
+      {
+        "name": "Polypropylene",
+        "note": "Floats & rot-resistant; low knot friction",
+        "limit": "Degrades fast in sunlight"
+      },
+      {
+        "name": "Natural Fiber",
+        "note": "Good dry knot grip; variable unrated strength",
+        "limit": "Rots damp; wears fast"
+      }
+    ]
+  },
+  "Z09-P11": {
+    "type": "mechanism",
+    "nodes": [
+      "Inspect Full Fiber Length",
+      "Reciprocating Bend & Abrasion",
+      "Light Utility Tension Only"
+    ],
+    "callout": "Moving bowstrings wear fast — gentle hand pull ≠ load cert",
+    "accent": "#8c6d48"
+  },
+  "Z09-P12": {
+    "type": "mechanism",
+    "nodes": [
+      "Twist Ply Clockwise",
+      "Wrap Plies Counterclockwise",
+      "Locked Two-Ply Utility Cord"
+    ],
+    "callout": "Stagger fiber splices unevenly; light non-life-safety use only",
+    "accent": "#7a6845"
+  },
+  "Z09-P13": {
+    "type": "cross_section",
+    "layers": [
+      "Outer fiber tension (concentrated at tight bend)",
+      "Inner core grit abrasion (sand acts like file)",
+      "Sharp rock/metal corner (cuts sheath rapidly)",
+      "Clean padded curve + dressed knot (protected)"
+    ],
+    "callout": "Every knot lowers straight-line strength; pad sharp corners"
+  },
+  "Z09-P14": {
+    "type": "exploded",
+    "components": [
+      "Standing Part Loop",
+      "Locking Collar Wrap",
+      "Parallel Loop Entry",
+      "Tail Stopper Knot"
+    ],
+    "callout": "Always back up bowline tails on slick synthetic utility cordage"
+  },
+  "Z09-P15": {
+    "type": "exploded",
+    "components": [
+      "Wide Figure-8 Stopper",
+      "Parallel Dressed Bight",
+      "No Crossed Strands",
+      "Ample Loose Tail"
+    ],
+    "callout": "Easy visual inspection; utility use only (not life-safety anchor)"
+  },
+  "Z09-P16": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Round Turn + 2 Hitches",
+        "note": "Post takes friction; locks cleanly in gusts",
+        "limit": "Use bark pad on live trees"
+      },
+      {
+        "name": "Clove Hitch (Static)",
+        "note": "Fast start/end on static pole lashings",
+        "limit": "Rolls/slips if slackened"
+      },
+      {
+        "name": "Backed Clove Hitch",
+        "note": "Add two half hitches on standing line",
+        "limit": "Verify snug wrap seating"
+      }
+    ]
+  },
+  "Z09-P17": {
+    "type": "mechanism",
+    "nodes": [
+      "Anchor & Friction Coil / Redirect",
+      "Controlled Hand Tensioning",
+      "Snug Tarp Without Seam Tear"
+    ],
+    "callout": "Avoid over-cranking trucker hitches on lightweight nylon loops",
+    "accent": "#3f7566"
+  },
+  "Z09-P18": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Sheet Bend (Double)",
+        "note": "Joins unequal cords; both tails SAME side",
+        "limit": "Form bight in thicker rope"
+      },
+      {
+        "name": "Double Fisherman",
+        "note": "High slip resistance on equal slick cords",
+        "limit": "Cinches tight under load"
+      },
+      {
+        "name": "Square Knot (Reject)",
+        "note": "Capsizes & spills under uneven/slick loads",
+        "limit": "NEVER use on load lines"
+      }
+    ]
+  },
+  "Z09-P19": {
+    "type": "exploded",
+    "components": [
+      "Start Clove Hitch",
+      "Parallel Wrap Turns",
+      "Tight Internal Fraps",
+      "End Lock (Dismantle)"
+    ],
+    "callout": "Light temporary deadwood utility frames only — never sleep underneath"
+  },
+  "Z09-P20": {
+    "type": "failure_mode",
+    "cause": "Taut nylon line snaps at sharp edge or weak knot",
+    "cue": "Audible creaking, glazing, rapid stretch along tension axis",
+    "correction": "Stand laterally outside snap-back axis; pad edges & ease load"
+  },
+  "Z09-P21": {
+    "type": "decision_tree",
+    "gates": [
+      "Non-human utility load?",
+      "Cord intact & padded?",
+      "Use camp utility cord"
+    ],
+    "abort": "HUMAN WEIGHT / FALL RISK: Certified rescue gear & trained SAR only"
+  },
+  "Z09-P22": {
+    "type": "mechanism",
+    "nodes": [
+      "Solid Braced Wood Support",
+      "Short Away-From-Body Cut",
+      "Safe Controlled Shaving"
+    ],
+    "callout": "Keep thighs, knees & support fingers behind the blade edge",
+    "accent": "#5f7a58"
+  },
+  "Z09-P23": {
+    "type": "exploded",
+    "components": [
+      "Chamfered Top Rim",
+      "Cord Retention Notch",
+      "Stout Tapered Point",
+      "Quick-Release Toggle"
+    ],
+    "callout": "Craft from sound lawful deadfall only — leave live saplings intact"
+  },
+  "Z09-P24": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Saw stop-cut depth",
+      "Thin pared V-notch / saddle",
+      "Crack-free mating seat"
+    ],
+    "callout": "Stop-cuts prevent grain split-out",
+    "accent": "#9c7c54",
+    "hazard": "Never pry chunks sideways"
+  },
+  "Z09-P25": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Top compression (closes)",
+      "Neutral wood center",
+      "Bottom tension (opens)"
+    ],
+    "callout": "Read log sag vs overhang bind before sawing",
+    "accent": "#8c704c",
+    "hazard": "Keep feet clear of drop"
+  },
+  "Z09-P26": {
+    "type": "failure_mode",
+    "cause": "Pinned bent sapling or hung-up tree stores spring energy",
+    "cue": "Arched trunk under blowdown or wedged overhead dead limb",
+    "correction": "Do NOT cut; detour wide & gather flat loose deadwood"
+  },
+  "Z09-P27": {
+    "type": "mechanism",
+    "nodes": [
+      "Straight Knot-Free Wood",
+      "Wooden Wedge + Deadwood Club",
+      "Clean Controlled Split"
+    ],
+    "callout": "Never hammer folders or hit steel with rock/steel",
+    "accent": "#8c6d48"
+  },
+  "Z09-P28": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Contact-split seated bit",
+      "Broad low chopping block",
+      "Legs & free hand clear"
+    ],
+    "callout": "Over-swing buries in block",
+    "accent": "#9e7c54",
+    "hazard": "No mid-air stick chopping"
+  },
+  "Z09-P29": {
+    "type": "failure_mode",
+    "cause": "Hardened steel strikes steel or mushroomed wedge rim",
+    "cue": "Rolled metal edges, chipped eye or stone hammer sparks",
+    "correction": "Use wooden mallet; retire mushroomed steel immediately"
+  },
+  "Z09-P30": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Wooden Wedge",
+        "note": "Expands loose utility joint gently",
+        "limit": "Not for broken axe heads"
+      },
+      {
+        "name": "Splint + Tight Wrap",
+        "note": "Transfers bending load across broken stay",
+        "limit": "Lower than factory strength"
+      },
+      {
+        "name": "Factory Replacement",
+        "note": "Required for cracked impact tool handles",
+        "limit": "Never tape broken axes"
+      }
+    ]
+  },
+  "Z09-P31": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "≥200 ft from water/trail",
+      "6-8 in organic soil hole",
+      "Locked shovel collar"
+    ],
+    "callout": "Pack out waste where soil rules require",
+    "accent": "#7e6e54",
+    "hazard": "Do not cut live roots"
+  },
+  "Z09-P32": {
+    "type": "decision_tree",
+    "gates": [
+      "Routine public-land trip?",
+      "Freestanding gear usable?",
+      "Zero site alteration"
+    ],
+    "abort": "TRUE EMERGENCY ONLY: Deadfall windbreak without nails or live cuts"
+  },
+  "Z09-P33": {
+    "type": "environment",
+    "variant": "wind_tree",
+    "zones": [
+      "Standing dead snag (leave)",
+      "Unpredictable crown drop",
+      "Flat downed deadwood only"
+    ],
+    "callout": "Felling standing trees stays strictly outside camp tool scope"
+  },
+  "Z09-P34": {
+    "type": "exploded",
+    "components": [
+      "Coating-Matched Tape",
+      "Pole Splint Sleeve",
+      "Spare Buckle & Cord",
+      "Multi-Tool & Needle"
+    ],
+    "callout": "Standard duct tape fails on wet silnylon — match repair supplies"
+  },
+  "Z09-P35": {
+    "type": "cross_section",
+    "layers": [
+      "Rounded top patch tape (generous overlap)",
+      "Clean dry coated nylon/polyester fabric",
+      "Backed bottom patch (on high-stress rips)",
+      "Eased seam tension (temporary duty only)"
+    ],
+    "callout": "Dry & clean fabric first; round corners prevent peel-back"
+  },
+  "Z09-P36": {
+    "type": "exploded",
+    "components": [
+      "Slotted Spare Buckle",
+      "Flat Webbing Tie-Off",
+      "Padded Splinted Stay",
+      "Group Load Share"
+    ],
+    "callout": "Pad jagged broken stays and keep weight balanced on hips"
+  },
+  "Z09-P37": {
+    "type": "exploded",
+    "components": [
+      "Utility Cord Lace",
+      "Circulation Check",
+      "Short-Term Sole Wrap",
+      "Dry Spare Socks"
+    ],
+    "callout": "Taped soles are slick on snow/rock — exit via safest low-angle route"
+  },
+  "Z09-P38": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Check valve grit first",
+      "Bubble test & dry completely",
+      "Rounded patch + foam backup"
+    ],
+    "callout": "Allow full cure before load",
+    "accent": "#6a9cb0",
+    "hazard": "Carry foam in cold"
+  },
+  "Z09-P39": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Verified Food-Grade",
+        "note": "Clean known history; potable & cooking use",
+        "limit": "Heat only plain metal"
+      },
+      {
+        "name": "Clean Salvaged Utility",
+        "note": "Marked non-potable: fire water & gear",
+        "limit": "Never mix with drinking"
+      },
+      {
+        "name": "Chemical / Lined Can",
+        "note": "Prior fuel/pesticide or plastic-lined metal",
+        "limit": "REJECT completely"
+      }
+    ]
+  },
+  "Z09-P40": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Clean known bottle cut",
+      "Taped smooth rim guard",
+      "Raw/utility side ONLY"
+    ],
+    "callout": "Never cut pressurized cans; isolate raw scoops from potable gear",
+    "accent": "#5f98ad"
+  },
+  "Z09-P41": {
+    "type": "decision_tree",
+    "gates": [
+      "Life-safety gear patched?",
+      "2nd failure safe tonight?",
+      "Proceed cautiously"
+    ],
+    "abort": "HIGH CONSEQUENCE: Exit early before weather stresses temporary fix"
+  },
+  "Z09-P42": {
+    "type": "mechanism",
+    "nodes": [
+      "Long Sound Hardwood Effort Arm",
+      "Broad Stable Low Fulcrum",
+      "Controlled Log Roll (Clear Path)"
+    ],
+    "callout": "Never straddle handle or put limbs beneath unchocked load",
+    "accent": "#8c6d48"
+  },
+  "Z09-P43": {
+    "type": "mechanism",
+    "nodes": [
+      "Shallow Wooden Wedge / Ramp",
+      "Wood Friction & Incremental Chock",
+      "Gradual Controlled Lift"
+    ],
+    "callout": "Block tightly behind every lift; stay clear of kickback",
+    "accent": "#7c6c4e"
+  },
+  "Z09-P44": {
+    "type": "mechanism",
+    "nodes": [
+      "Utility Pull + Load Weight",
+      "Fixed Overhead Redirect (~2x Load)",
+      "Friction Loss & Rope Wear"
+    ],
+    "callout": "Inspect overhead branch; NEVER stand underneath or lift people",
+    "accent": "#a05332"
+  },
+  "Z09-P45": {
+    "type": "decision_tree",
+    "gates": [
+      "Conceptual principle only?",
+      "Zero life/crush hazard?",
+      "Apply for light utility"
+    ],
+    "abort": "RATED / LIFE-SAFETY LOAD: Certified hardware & trained pros only"
+  },
+  "Z09-P46": {
+    "type": "exploded",
+    "components": [
+      "Immobilized Blade Base",
+      "Guarded File / Stone",
+      "Matched Bevel Angle",
+      "Scrap-Wood Edge Test"
+    ],
+    "callout": "Never hone loose steel toward fingers or draw thumb along edge"
+  },
+  "Z09-P47": {
+    "type": "exploded",
+    "components": [
+      "Scrub Pitch / Gullets",
+      "Dry Pivots & Steel",
+      "Paper-Thin Oil Coat",
+      "Dry Breathable Sheath"
+    ],
+    "callout": "Clean sap & moisture after every trip; wet leather rusts steel"
+  },
+  "Z09-P48": {
+    "type": "failure_mode",
+    "cause": "Diagonal wood grain runout, overstrike crack or shrunk wedge",
+    "cue": "Hairline neck split, eye gap or head wobble during inspection",
+    "correction": "Retire immediately; re-hang with straight-grained replacement"
+  },
+  "Z09-P49": {
+    "type": "failure_mode",
+    "cause": "Dull rolled edge, chipped bevel or warped saw plate",
+    "cue": "Edge glints/skids on wood or saw curves & binds in kerf",
+    "correction": "Stop muscling; hone safely or swap to intact backup tool"
+  },
+  "Z09-P50": {
+    "type": "failure_mode",
+    "cause": "Gritty lock bar, loose pivot pin or wrong driver size",
+    "cue": "Incomplete lock travel, blade play or driver cam-out",
+    "correction": "Clean carefully, match bit snugly or retire defective folder"
+  },
+  "Z09-P51": {
+    "type": "failure_mode",
+    "cause": "Friction glazing, crushed internal core or UV powdering",
+    "cue": "Mushy flat spot, shiny melt mark or shrinking knot tail",
+    "correction": "Cut out end wear or retire full rope; re-tie & verify tails"
+  },
+  "Z09-P52": {
+    "type": "decision_tree",
+    "gates": [
+      "Hands warm & dexterous?",
+      "Clear light & calm focus?",
+      "Proceed carefully"
+    ],
+    "abort": "COLD / TIRED / DARK: Sheath sharp tools & use no-tool shelter"
+  },
+  "Z09-P53": {
+    "type": "decision_tree",
+    "gates": [
+      "Tool secured & scene safe?",
+      "Severe bleed or eye hit?",
+      "Clean lay care & exit"
+    ],
+    "abort": "SEVERE BLEED / EYE TRAUMA: Call 911, pressure/shield & follow dispatch"
   }
 }

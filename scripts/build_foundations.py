@@ -13,23 +13,35 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 FOUND = ROOT / 'foundations'
 FOUNDATIONAL_ZONES = ['Z01', 'Z02', 'Z03', 'Z04']
+ACTIVE_ZONES = ['Z01', 'Z02', 'Z03', 'Z04', 'Z09', 'Z11', 'Z12']
 ZONES = {
     'Z01': 'Survival fundamentals',
     'Z02': 'Shelter and housing',
     'Z03': 'Fire and ignition',
     'Z04': 'Water',
-    'Z11': 'Navigation reconstruction',
+    'Z09': 'Tools and construction',
+    'Z11': 'Navigation, weather and rescue',
+    'Z12': 'Extreme environments',
     'Z13': 'Home preparedness reconstruction',
     'Z14': 'Food preservation reconstruction',
     'Z15': 'Outage reconstruction',
 }
-ZONE_TARGETS = {'Z01': 22, 'Z02': 55, 'Z03': 45, 'Z04': 55}
-PACKS = {'water', 'fire', 'exposure', 'food', 'triage'}
+ZONE_TARGETS = {
+    'Z01': 22,
+    'Z02': 55,
+    'Z03': 45,
+    'Z04': 55,
+    'Z09': 53,
+    'Z11': 68,
+    'Z12': 75,
+}
+PACKS = {'water', 'fire', 'exposure', 'food', 'triage', 'tools', 'navigation', 'environments'}
 FIELDS = {'objective', 'applies', 'equipment', 'verify', 'stop', 'diagram', 'visual', 'reviewer'}
 CLAIM_FIELDS = {'id', 'pack', 'source', 'locator', 'conditions', 'support',
                 'limitations', 'conflicts', 'editorial_note', 'reviewer'}
 STATUS = 'Editorial review draft · Specialist review pending · Publication hold'
 ID = re.compile(r'Z\d{2}-[PR]\d{2}')
+ELY_MAP_CARDS = {'Z11-R04', 'Z11-P12', 'Z11-P19'}
 
 ALL_16_ZONES = [
     ('Z01', 'Survival fundamentals', 22, 'Critical'),
@@ -102,12 +114,14 @@ def classify_card(card_id, origin):
 
 def _sort_key(card_id):
     zone_order = list(ZONES).index(card_id[:3])
-    kind_order = 0 if card_id[4] == 'P' else 1
-    return (zone_order, kind_order, int(card_id[5:]))
+    # Order numerically within each zone so Z11-R01..R10 flow cleanly into Z11-P11..P68.
+    num = int(card_id[5:])
+    kind_order = 0 if card_id[4] == 'R' else 1
+    return (zone_order, num, kind_order)
 
 
 def lint_cards(cards):
-    """Detect duplicate titles and safety-critical instruction contradictions."""
+    """Detect duplicate titles and domain-specific safety-critical instruction contradictions."""
     titles = {}
     for cid, card in cards.items():
         norm_title = ' '.join(card['title'].lower().split())
@@ -129,7 +143,7 @@ def lint_cards(cards):
             if not re.search(r'\b(never|do not|keep|avoid|not)\b', full):
                 raise ValueError(f'Contradiction: enclosed combustion authorization in {cid}')
 
-        # Rule 3: Boiling duration must not omit altitude distinction when stating 1-minute rolling boil.
+        # Rule 3: Boiling duration must include altitude distinction when stating 1-minute rolling boil.
         if re.search(r'rolling boil.{0,25}(one|1)\s+minute', full):
             require('6,500' in full or 'altitude' in full or 'elevation' in full,
                     f'Contradiction: boiling duration omits altitude rule in {cid}')
@@ -139,9 +153,26 @@ def lint_cards(cards):
             nums = [int(m) for m in re.findall(r'\b(\d+)\s*feet\b', full)]
             require(all(n >= 20 for n in nums), f'Contradiction: generator distance < 20 ft in {cid}')
 
-        # Rule 5: Do not state unvalidated structural load capacities as safe engineering specs.
+        # Rule 5: Z02 must not state unvalidated structural load capacities.
         if card['zone'] == 'Z02' and re.search(r'\b(supports|holds|rated for|safe load of)\s+\d+\s*(lb|lbs|pounds|kg|psf)\b', full):
             raise ValueError(f'Contradiction: unvalidated structural load rating in {cid}')
+
+        # Rule 6: Z09 must not state unvalidated cordage/knot breaking-strength or working-load ratings.
+        if card['zone'] == 'Z09' and re.search(r'\b(rated for|safe working load|breaking strength of|holds)\s+\d+\s*(lb|lbs|pounds|kg|kn)\b', full):
+            raise ValueError(f'Contradiction: unvalidated cordage/rigging load rating in {cid}')
+
+        # Rule 7: Z11 must never teach moss-on-north folklore as reliable navigation.
+        if card['zone'] == 'Z11' and re.search(r'\bmoss (always )?grows on the north\b', full):
+            if not re.search(r'\b(myth|unreliable|never|not|reject)\b', full):
+                raise ValueError(f'Contradiction: unverified moss-north folklore in {cid}')
+
+        # Rule 8: Z12 must never claim universally safe ice or advise swimming directly against rip currents.
+        if card['zone'] == 'Z12':
+            if re.search(r'\bice is (always|universally|100%) safe\b|\btracks prove safe ice\b', full):
+                raise ValueError(f'Contradiction: unsafe universal ice claim in {cid}')
+            if re.search(r'\bswim directly against (a |the )?rip current\b', full):
+                if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', full):
+                    raise ValueError(f'Contradiction: unsafe rip-current swimming instruction in {cid}')
 
 
 def load_cards(paths, claims):
@@ -252,7 +283,7 @@ def badge_html(category):
 
 def navigation(previous, next_, zone):
     links = ['<a href="index.html">Contents &amp; search</a>']
-    if zone in FOUNDATIONAL_ZONES:
+    if zone in ACTIVE_ZONES:
         links.append(f'<a href="zones/{zone}/index.html">{zone} Zone reader</a>')
     links.append('<a href="directory.html">Encyclopedia directory</a>')
     for label, dest in [('Previous', previous), ('Next', next_)]:
@@ -289,6 +320,15 @@ def write_card(card, previous, next_, claims, sources, output):
         f'<p class="failure"><strong>Failure recognition</strong> · {statement(card["failure"])}</p>'
         if 'failure' in card else ''
     )
+    map_panel = ''
+    if card_id in ELY_MAP_CARDS:
+        map_panel = (
+            '<figure class="observation"><img src="maps/ely-1965.jpg" '
+            'alt="Historical USGS 1965 Ely, Minnesota 1:24,000 topographic quadrangle excerpt showing lakes, land corridors and contours">'
+            '<figcaption><strong>Authentic public-domain USGS map excerpt (symbols study only)</strong> · '
+            'USGS Ely, Minnesota, 1965, original scale 1:24,000, map ID 504440 (Public Domain). '
+            'No current route, trail condition or present-day magnetic declination may be inferred; specialist teaching approval pending.</figcaption></figure>'
+        )
     body = (
         navigation(previous, next_, card['zone'])
         + f'<main id="content"><article class="card">'
@@ -307,7 +347,7 @@ def write_card(card, previous, next_, claims, sources, output):
         f'<br>Evidence IDs · {escape(", ".join(refs))} · ED identifies an editorial check or adaptation.</footer>'
         '<details id="evidence" open><summary>Evidence and editorial notes</summary><dl>'
         + ''.join(entries)
-        + f'</dl><p>Source lineage · {origin} · Classification · {escape(card["category"])}.</p></details></article></main>'
+        + f'</dl>{map_panel}<p>Source lineage · {origin} · Classification · {escape(card["category"])}.</p></details></article></main>'
     )
     (output / f'{card_id}.html').write_text(doc(card['title'], body), encoding='utf-8')
 
@@ -322,11 +362,13 @@ def _card_search_text(card):
 
 def write_index(cards, output):
     found_cards = [c for c in cards.values() if c['zone'] in FOUNDATIONAL_ZONES]
-    recon_cards = [c for c in cards.values() if c['zone'] not in FOUNDATIONAL_ZONES]
+    active_extra = [c for c in cards.values() if c['zone'] in ACTIVE_ZONES and c['zone'] not in FOUNDATIONAL_ZONES]
+    recon_only = [c for c in cards.values() if c['zone'] not in ACTIVE_ZONES]
     zone_links = []
-    for z in FOUNDATIONAL_ZONES:
-        cnt = sum(1 for c in found_cards if c['zone'] == z)
-        zone_links.append(f'<a href="zones/{z}/index.html">{z} {escape(ZONES[z])} ({cnt}/{ZONE_TARGETS[z]})</a>')
+    for z in ACTIVE_ZONES:
+        cnt = sum(1 for c in cards.values() if c['zone'] == z)
+        if cnt > 0:
+            zone_links.append(f'<a href="zones/{z}/index.html">{z} {escape(ZONES[z])} ({cnt}/{ZONE_TARGETS[z]})</a>')
     zone_links.append('<a href="directory.html">16-Zone Encyclopedia Directory</a>')
 
     groups = []
@@ -346,30 +388,34 @@ def write_index(cards, output):
 
     body = (
         '<header class="cover-panel"><div><p>Survival Field Encyclopedia</p>'
-        '<h1>Foundational field cards</h1>'
-        f'<p class="cover-sub">{len(found_cards)} foundational draft pages across Z01–Z04 plus '
-        f'{len(recon_cards)} retained reconstruction drafts. Offline searchable edition.</p></div></header>'
+        '<h1>Field reference edition</h1>'
+        f'<p class="cover-sub">{len(found_cards)} foundational pages (Z01–Z04), '
+        f'{len(active_extra)} extended zone pages (Z09/Z11/Z12), and {len(recon_only)} '
+        'retained home/food/outage reconstructions. Offline searchable edition.</p></div></header>'
         '<main id="content">'
         f'<nav class="zone-bar" aria-label="Zone readers and directory">{"".join(zone_links)}</nav>'
         '<div class="lookup"><label for="lookup">Search field cards</label>'
-        '<input type="search" id="lookup" placeholder="e.g. hypothermia, boil, windbreak, ferro">'
+        '<input type="search" id="lookup" placeholder="e.g. hypothermia, bowline, declination, rip current">'
         '<p id="matches" role="status"></p></div>'
         f'<div class="catalog">{"".join(groups)}</div></main><script src="search.js"></script>'
     )
-    (output / 'index.html').write_text(doc('Foundational field cards', body), encoding='utf-8')
+    (output / 'index.html').write_text(doc('Survival Field Encyclopedia · Field cards', body), encoding='utf-8')
 
 
 def write_zone_readers(cards, output):
-    for zone in FOUNDATIONAL_ZONES:
+    for zone in ACTIVE_ZONES:
+        zcards = [c for c in cards.values() if c['zone'] == zone]
+        if not zcards:
+            continue
         zone_dir = output / 'zones' / zone
         zone_dir.mkdir(parents=True, exist_ok=True)
-        zcards = [c for c in cards.values() if c['zone'] == zone]
         adapted = sum(1 for c in zcards if c['category'] == 'Adapted historical material')
         new_ms = sum(1 for c in zcards if c['category'] == 'New manuscript')
+        recon = sum(1 for c in zcards if c['category'] == 'Reconstruction draft')
         nav_links = ['<a href="../../index.html">Consolidated reader</a>']
-        for z in FOUNDATIONAL_ZONES:
-            if z != zone:
-                nav_links.append(f'<a href="../{z}/index.html">{z} reader</a>')
+        for z in ACTIVE_ZONES:
+            if z != zone and any(c['zone'] == z for c in cards.values()):
+                nav_links.append(f'<a href="../{z}/index.html">{z}</a>')
         nav_links.append('<a href="../../directory.html">Encyclopedia directory</a>')
         items = []
         for card in zcards:
@@ -378,12 +424,15 @@ def write_zone_readers(cards, output):
                 f'<a href="../../{card["id"]}.html"><small>{card["id"]}</small> · {escape(card["title"])} '
                 f'{badge_html(card["category"])}</a></li>'
             )
+        summary_bits = [f'{adapted} adapted historical', f'{new_ms} new manuscripts']
+        if recon:
+            summary_bits.append(f'{recon} reconstruction drafts')
         body = (
             f'<nav class="folio" aria-label="Zone navigation">{"".join(nav_links)}</nav>'
             f'<header class="cover-panel"><div><p>Survival Field Encyclopedia · {zone}</p>'
             f'<h1>{escape(ZONES[zone])}</h1>'
             f'<p class="cover-sub">{len(zcards)} of {ZONE_TARGETS[zone]} draft pages '
-            f'({adapted} adapted historical · {new_ms} new manuscripts). Offline standalone zone reader.</p></div></header>'
+            f'({" · ".join(summary_bits)}). Offline standalone zone reader.</p></div></header>'
             '<main id="content"><div class="lookup"><label for="lookup">Search zone pages</label>'
             '<input type="search" id="lookup"><p id="matches" role="status"></p></div>'
             f'<div class="catalog"><section><h2>{zone} · {escape(ZONES[zone])}</h2><ul>{"".join(items)}</ul></section></div>'
@@ -404,7 +453,7 @@ def write_directory(cards, xwalk_rows, output):
     zone_rows = []
     for zid, zname, target, prio in ALL_16_ZONES:
         draft_cnt = counts.get(zid, 0)
-        if zid in FOUNDATIONAL_ZONES:
+        if zid in ACTIVE_ZONES and draft_cnt > 0:
             link = f'<a href="zones/{zid}/index.html">Open {zid} reader ({draft_cnt}/{target})</a>'
             state = 'DRAFT_COMPLETE' if draft_cnt == target else f'IN_PROGRESS ({draft_cnt}/{target})'
         elif draft_cnt:
@@ -450,30 +499,31 @@ def write_directory(cards, xwalk_rows, output):
             f'{badge_html(c["category"])}</a></li>'
         )
 
+    active_nav = ''.join(
+        f'<a href="zones/{z}/index.html">{z}</a>'
+        for z in ACTIVE_ZONES if counts.get(z, 0) > 0
+    )
     nav = (
         '<nav class="folio" aria-label="Directory navigation">'
-        '<a href="index.html">Consolidated foundational reader</a>'
-        '<a href="zones/Z01/index.html">Z01</a>'
-        '<a href="zones/Z02/index.html">Z02</a>'
-        '<a href="zones/Z03/index.html">Z03</a>'
-        '<a href="zones/Z04/index.html">Z04</a>'
+        '<a href="index.html">Consolidated reader</a>'
+        f'{active_nav}'
         '<a href="../../reader/index.html">Frozen Track B edition (unchanged)</a></nav>'
     )
     body = (
         nav
         + '<header class="cover-panel"><div><p>Survival Field Encyclopedia · Integrated Master Directory</p>'
         '<h1>Sixteen-zone encyclopedia directory</h1>'
-        '<p class="cover-sub">Links the foundational Z01–Z04 edition, retained reconstructions, and frozen Track B '
-        'historical proofs without altering any frozen edition files.</p></div></header>'
+        '<p class="cover-sub">Links all active draft zones (Z01–Z04, Z09, Z11, Z12), retained reconstructions, '
+        'and frozen Track B historical proofs without altering any frozen edition files.</p></div></header>'
         '<main id="content">'
         '<h2>Master 16-zone status</h2>'
         '<table class="dir-table"><thead><tr><th>Zone</th><th>Domain</th><th>Planned</th><th>Drafts</th>'
         '<th>Priority</th><th>Status</th><th>Reader access</th></tr></thead>'
         f'<tbody>{"".join(zone_rows)}</tbody></table>'
-        '<div class="lookup"><label for="lookup">Search across foundational pages, reconstructions, and frozen proofs</label>'
+        '<div class="lookup"><label for="lookup">Search across all active pages, reconstructions, and frozen proofs</label>'
         '<input type="search" id="lookup"><p id="matches" role="status"></p></div>'
         '<div class="catalog">'
-        f'<section><h2>Foundational &amp; reconstruction drafts ({len(cards)})</h2><ul>{"".join(found_links)}</ul></section>'
+        f'<section><h2>Active zone &amp; reconstruction drafts ({len(cards)})</h2><ul>{"".join(found_links)}</ul></section>'
         f'<section><h2>Frozen Track B historical proofs &amp; duplicates ({len(xwalk_rows)})</h2><ul>{"".join(proof_rows)}</ul></section>'
         '</div></main><script src="search.js"></script>'
     )
@@ -495,9 +545,11 @@ def main():
     output = args.output
     output.mkdir(parents=True, exist_ok=True)
     (output / 'visuals').mkdir(exist_ok=True)
+    (output / 'maps').mkdir(exist_ok=True)
     for path in ('library.css', 'search.js'):
         shutil.copyfile(ROOT / 'production/templates' / path, output / path)
     shutil.copyfile(FOUND / 'edition.css', output / 'edition.css')
+    shutil.copyfile(ROOT / 'reader/ely-1965.jpg', output / 'maps/ely-1965.jpg')
 
     keys = list(cards)
     visuals = []

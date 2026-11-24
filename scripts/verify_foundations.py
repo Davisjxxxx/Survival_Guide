@@ -13,7 +13,7 @@ import pymupdf
 from PIL import Image, ImageDraw
 from playwright.sync_api import sync_playwright
 
-from build_foundations import FOUND, FOUNDATIONAL_ZONES, crosswalk, require
+from build_foundations import ACTIVE_ZONES, FOUND, FOUNDATIONAL_ZONES, crosswalk, require
 
 PAPER_SIZES = {
     'letter': ('Letter', 612.0, 792.0),
@@ -41,15 +41,16 @@ def check_contents(page, output, cards):
 def check_zone_and_directory(page, output, cards):
     page.goto((output / 'directory.html').as_uri())
     require(page.locator('table.dir-table tbody tr').count() == 16, 'Directory must cover all 16 zones')
-    for zone in FOUNDATIONAL_ZONES:
+    for zone in ACTIVE_ZONES:
+        zcards = [c for c in cards if c['zone'] == zone]
+        if not zcards:
+            continue
         zpath = output / 'zones' / zone / 'index.html'
         require(zpath.exists(), f'Missing zone reader {zone}')
-        zcards = [c for c in cards if c['zone'] == zone]
         page.goto(zpath.as_uri())
         require(page.locator('.catalog li').count() == len(zcards), f'Zone {zone} count drift')
-        if zcards:
-            page.get_by_role('searchbox').fill(zcards[0]['id'])
-            require(page.locator('.catalog li:not([hidden])').count() == 1, f'Zone {zone} search failed')
+        page.get_by_role('searchbox').fill(zcards[0]['id'])
+        require(page.locator('.catalog li:not([hidden])').count() == 1, f'Zone {zone} search failed')
 
 
 def print_card(page, card, targets, fmt_key):
@@ -196,7 +197,9 @@ def main():
                         reports['axe_version'] = page.evaluate('axe.version')
                         reports['axe_incomplete'][slug] = [i['id'] for i in result['incomplete']]
                         reports['axe_violations'][slug] = [i['id'] for i in result['violations']]
-                    for zone in FOUNDATIONAL_ZONES:
+                    for zone in ACTIVE_ZONES:
+                        if not any(c['zone'] == zone for c in cards):
+                            continue
                         page.goto((output / 'zones' / zone / 'index.html').as_uri())
                         result = run_axe(page, args.axe)
                         reports['axe_incomplete'][f'zone-{zone}'] = [i['id'] for i in result['incomplete']]
@@ -243,7 +246,7 @@ def main():
                 pdf.set_toc(toc)
                 pdf.set_metadata({'title': f'Survival Field Encyclopedia · {args.name} ({fmt.upper()})',
                                   'subject': 'Editorial review draft'})
-                out_name = f'{args.name}.pdf' if fmt == 'letter' else f'{args.name}-{fmt}.pdf'
+                out_name = f'{args.name}-{fmt}.pdf' if args.zone else (f'{args.name}.pdf' if fmt == 'letter' else f'{args.name}-{fmt}.pdf')
                 pdf.save(proofs / out_name, garbage=4, deflate=True)
 
             if args.write_zone_pdfs:
