@@ -130,5 +130,181 @@
     "provenance": "01-pilot.cards and scripts/foundation_diagrams.py",
     "diagnostic_photo": false,
     "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z01-P04-FIG01",
+    "page": "Z01-P04",
+    "file": "visuals/Z01-P04.svg",
+    "sha256": "eea149f51df8e4ca8140c12bcb603c9f6b5f0b596e657fe434df7e0901094156",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z01-P05-FIG01",
+    "page": "Z01-P05",
+    "file": "visuals/Z01-P05.svg",
+    "sha256": "8f77f7583dec6c6f9173eb616e17ac5a08723f18ce0a14103bbf861e7b69a0aa",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z01-P06-FIG01",
+    "page": "Z01-P06",
+    "file": "visuals/Z01-P06.svg",
+    "sha256": "0357ff1a16ab3019d3ae7de3b5401732919022b943772f6828fa5b5505db022a",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z01-P07-FIG01",
+    "page": "Z01-P07",
+    "file": "visuals/Z01-P07.svg",
+    "sha256": "37e01c0f4401fc21ce0c8267be8ee27f7129c0bf0be6a4f723131fe6b12afbcb",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z02-P04-FIG01",
+    "page": "Z02-P04",
+    "file": "visuals/Z02-P04.svg",
+    "sha256": "41528e2c4968733b80dec4c72b44faef5a74a2b0aaef6ed1b522c17e377aad0c",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z02-P05-FIG01",
+    "page": "Z02-P05",
+    "file": "visuals/Z02-P05.svg",
+    "sha256": "fa6801dc86e4a7c423e4be048f927c67aad4183645b09ee648093c0a131848b4",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z02-P06-FIG01",
+    "page": "Z02-P06",
+    "file": "visuals/Z02-P06.svg",
+    "sha256": "69acf893422603ee11299bafe1fa5329037e0ac48530908d4b4e77b0dc70cbf5",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z02-P07-FIG01",
+    "page": "Z02-P07",
+    "file": "visuals/Z02-P07.svg",
+    "sha256": "87091383525c53ee2c8f8ebb63ee5af57f3ba6c889504017097fbbbe79060edd",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z03-P04-FIG01",
+    "page": "Z03-P04",
+    "file": "visuals/Z03-P04.svg",
+    "sha256": "c1a5ec996116775dfa7ab4d611bae7b4dc65d7736128edef567f8f8a1bef89f8",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z03-P05-FIG01",
+    "page": "Z03-P05",
+    "file": "visuals/Z03-P05.svg",
+    "sha256": "673114c513fd462dc596f67a96460436c0eb0682b383b323bc979231fa21997c",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z03-P06-FIG01",
+    "page": "Z03-P06",
+    "file": "visuals/Z03-P06.svg",
+    "sha256": "ed538756b4efd67ae7fe54ba19fec0a272d470a65dbb20836a43c0da5933638c",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z03-P07-FIG01",
+    "page": "Z03-P07",
+    "file": "visuals/Z03-P07.svg",
+    "sha256": "38d298b6661ae8c8d0f8494ba47eb993ff72e72da80e06c301f280b40792c8b0",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z04-P04-FIG01",
+    "page": "Z04-P04",
+    "file": "visuals/Z04-P04.svg",
+    "sha256": "7cbd288d2356e8b22de3b29f68c3c74bc08b7f35ce094a05dc2752c024f6787e",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z04-P05-FIG01",
+    "page": "Z04-P05",
+    "file": "visuals/Z04-P05.svg",
+    "sha256": "b7a4c2093f39b2ee059e3d352aafe6cd1311fd026d0fd1ae5d7fb17efade64ba",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z04-P06-FIG01",
+    "page": "Z04-P06",
+    "file": "visuals/Z04-P06.svg",
+    "sha256": "ccccf75b06fbf436250ecfb7721b1a87a9c2615f2740112987a382b78cbdbb0e",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
+  },
+  {
+    "id": "Z04-P07-FIG01",
+    "page": "Z04-P07",
+    "file": "visuals/Z04-P07.svg",
+    "sha256": "b881c7e74e2bfa8897f3093066f31760b81fb9c23da4386f70dec1461978ba1b",
+    "rights": "Project original",
+    "classification": "Editable conceptual diagram",
+    "provenance": "02-core.cards and scripts/foundation_diagrams.py",
+    "diagnostic_photo": false,
+    "review": "Independent subject review pending"
   }
 ]

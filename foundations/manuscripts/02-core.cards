@@ -1,0 +1,207 @@
+Z01-P04 | Leave a usable trip plan | B014 reconstruction R01 and B012 P02
+objective: Give a trusted person enough information to help responders if you are overdue.
+applies: A trip outside dependable cell service, especially an unfamiliar trail.
+equipment: Paper plan or saved message, mapped route, and contact information.
+action: Record the starting point, planned route and return time. Include names or party size and expected vehicle location if relevant. @E01,T06,ED
+action: Give the plan to a trusted contact and agree on the overdue reporting point and what information to pass to responders. @E01,T06,ED
+action: Carry a copy and notify the contact of significant changes when you can. Check back in at return. @E01,ED
+verify: Your contact can identify the trailhead and say when they should act. @ED
+stop: If nobody can act on an overdue report, reconsider the route and exposure before departing. @ED
+diagram: Route and group | Return and overdue time | Contact acknowledges plan
+visual: A trip plan is a handoff; the contact and the party have separate roles.
+reviewer: Search and rescue and land management
+
+Z01-P05 | Pack by failure mode | NPS Ten Essentials; new manuscript
+objective: Match kit functions to foreseeable failures and practice using them.
+applies: Day and overnight travel. Terrain, temperature and time without help shape the kit.
+equipment: Map, light, insulation, shelter, water, food, first aid and other route-appropriate essentials.
+action: Map darkness, navigation loss, exposure and delayed return to independent kit functions. Consider Sun protection and repair supplies as conditions warrant. @E02
+action: Check each function at home: a light turns on, the map works offline, the shelter can be set up, and spare insulation is dry. @E02,ED
+action: Give shared gear an owner. Ensure the group can reach critical pieces without emptying all the packs. @ED
+verify: Simulate one failure and retrieve the correct item without a signal or a search through loose gear. @ED
+stop: Narrow or postpone the trip if critical protection or navigation is absent. @E01,E02,ED
+diagram: Anticipate failure | Match a kit function | Demonstrate it works
+visual: Equipment checks link each object to a failure the party is likely to face.
+reviewer: Field education and search and rescue
+
+Z01-P06 | Set a turnaround before departure | B014 P18 and B012 P02
+objective: Preserve the time and energy needed to return.
+applies: An out-and-back trip where conditions, group speed or daylight can change.
+equipment: Watch, map and reliable forecast or local advisory.
+action: Identify a decision point and latest turnaround time. Build in daylight and delay margin for the slowest group member. @E01,ED
+action: At each reliable checkpoint compare actual progress and conditions with the plan. Recalculate when the return route or pace changes. @E01,ED
+action: Turn back early if visibility, access, group condition or the return margin deteriorates and the return route is known safe. @T06,ED
+verify: The group can name the trigger and the place where it will reassess. @ED
+stop: If the return route is no longer safe or known, use the stay/signal decision rather than a guessed shortcut. @T06
+diagram: Set return margin | Compare at checkpoints | Turn back while able
+visual: A decision occurs before the intended destination when the return margin is lost.
+reviewer: Navigation and search and rescue
+
+Z01-P07 | Give rescuers a usable location | B013 P13 and B014 P16
+objective: Report what you know and identify uncertainty explicitly.
+applies: Calling for rescue at an outdoor emergency in the United States.
+equipment: Phone or suitable communicator, offline map and light if available.
+action: Give the site or park name plus trailhead, road, junction or other verified landmark. If sending coordinates, read the format shown by the device. @T06,ED
+action: State how many people are involved, whether anyone is injured and what nearby hazards affect access. @T06,T02
+action: Specify whether you will wait or must move. Follow dispatcher directions and communicate changes if you can. @T06,T02
+verify: Ask whether your location was received and which approach the responder wants you to use, if any. @ED
+stop: Avoid moving solely to improve service if the route is uncertain or hazardous. @T06,ED
+diagram: Give verified location | Describe people and hazards | Confirm follow-up
+visual: Dispatch handoff sequence with known location separated from uncertain information.
+reviewer: Search and rescue and dispatch
+
+Z02-P04 | Pitch a purpose-made shelter | B012 P12 and B003 tarp plate
+objective: Use a known shelter system on a site that stays safe in changing conditions.
+applies: A commercial tent or tarp in its intended weather range on a permitted site.
+equipment: Shelter, parts and instructions for the exact model; dry pad and insulation.
+action: Pick a legal durable site outside runoff channels and clear of overhead hazards. Check the immediate weather before setting up. @E03,E04
+action: Assemble the shelter according to its instructions. Keep exits and equipment access clear and avoid putting wet gear on dry bedding. @E05,ED
+action: Inspect all attachment points and observe how the shelter responds to wind. Adjust within manufacturer limits or relocate to suitable shelter. @E05,ED
+verify: The shelter remains stable, rain drains away from the bed, and each occupant can exit without unfastening gear. @E04,ED
+stop: If wind, runoff or structural movement exceeds what you can manage safely, leave for more suitable cover. @E04,E05,ED
+diagram: Safe durable site | Pitch per instructions | Inspect anchors and exits
+visual: Three-step inspection card for design-specific shelter setup.
+reviewer: Shelter equipment and land management
+
+Z02-P05 | Leave a drainage channel early | B012 P09 and agency flood guide
+objective: Recognize where moving water will concentrate before precipitation reaches the site.
+applies: Campsites and travel near creeks, gullies, marsh edges and valley bottoms.
+equipment: Map, weather alerts and a light if available.
+action: Look for connected low ground and a clear route to higher ground. Study upstream conditions as part of the decision. @E04
+action: Select a higher, stable site away from streambeds and gullies. Be ready to move if warnings, rising water or new runoff appear. @E04
+action: Leave early by a safe route to higher ground. Follow local emergency directions. @E04,T07
+verify: Someone in the group can identify both the hazard path and the exit without entering the drainage. @ED
+stop: Never cross flooded routes to retrieve gear or reach the planned exit. @T07
+diagram: Trace the drainage | Choose higher ground | Leave before routes flood
+visual: An unscaled hazard sequence emphasizing early departure.
+reviewer: Emergency management and land management
+
+Z02-P06 | Seek lightning-safe shelter | NWS lightning guidance; new manuscript
+objective: Distinguish weather cover from lightning protection.
+applies: Thunder is heard or a thunderstorm threat makes continued exposure unsafe.
+equipment: Forecast, alert source and preidentified shelter destinations when available.
+action: Plan a way to reach a substantial building or enclosed hard-topped vehicle before storms develop. @E07,ED
+action: At thunder, stop outdoor activity and get to the identified shelter if safely accessible. A fabric shelter, open pavilion or isolated tree cannot provide comparable protection. @E07
+action: Wait at least 30 minutes after the last thunder before returning outside. Reassess other hazards before departure. @E07,ED
+verify: Confirm what the shelter actually is and when thunder was last heard. @E07,ED
+stop: If safe shelter is unavailable, remaining outdoors is hazardous. Seek the safest accessible option and avoid treating any outdoor location as safe from lightning. @E07
+diagram: Hear thunder | Substantial shelter | Wait after last thunder
+visual: Sequence identifies the shelter class and the condition for resuming outdoor activity.
+reviewer: Weather safety and emergency management
+
+Z02-P07 | Keep insulation dry across a stop | B012 P05–P06
+objective: Prevent sweat, wet gear and precipitation from soaking rest layers.
+applies: Cold travel where activity alternates with standing or resting.
+equipment: Dry spare insulation, weather shell and pack protection for dry items.
+action: Adjust layers before heavy exertion and use ventilation where weather permits. Avoid getting clothing wet with sweat. @E10
+action: Before a stop, find wind protection and add the reserved dry layer. Separate wet items from dry insulation. @E05,E10,ED
+action: Check companions for unusual fumbles, slurred speech or confusion as exposure continues. @E06
+verify: The rest layer is dry and easy to reach, and the group can stop without standing in exposed wind. @E05,ED
+stop: Suspected hypothermia needs medical help and protection against further cooling. @E06,T03
+diagram: Vent during effort | Add dry insulation at rest | Check the group
+visual: The dry reserve is used at the activity-to-rest transition.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z03-P04 | Put a campfire completely out | Smokey Bear campfire guide; new manuscript
+objective: Detect and eliminate hot material before anyone leaves a campfire.
+applies: A small attended campfire in an authorized ring or site. A spreading fire is a different emergency.
+equipment: Water and a stirring tool.
+action: Add water until active burning stops. Stir ash and embers to expose hot material. @C04
+action: Add more water as needed and check for remaining heat. Allow the material to cool completely before departing. @C04
+action: Keep someone at the site until the final check passes. Coal can remain hot after visible flame disappears. @C04
+verify: No heat remains when checked safely without touching suspected embers. @C04,ED
+stop: If a fire escapes your control, move to safety and call emergency services. @T01,T02,ED
+diagram: Drown burning material | Stir to expose hot spots | Cool completely
+visual: A repeated water-and-stir cycle ends only at the cool condition.
+reviewer: Fire prevention and land management
+
+Z03-P05 | Separate camp fuel from enclosed shelter | B012 P14/P18 and CPSC camping equipment
+objective: Prevent exposure from using fuel appliances in a tent or vehicle.
+applies: Fuel-burning stoves, heaters, charcoal and similar camping appliances.
+equipment: Product instructions, a lawful outdoor location and non-combustion alternatives for warmth.
+action: Keep fuel-burning camping equipment out of tents, vehicles and other enclosed sleeping spaces. Arrange the cooking area outdoors and follow equipment clearances. @C05,ED
+action: Use dry layers and ground insulation for warmth in sleeping areas. Keep the exit clear. @E05,ED
+action: If CO exposure is suspected, move to fresh air immediately and call emergency services. @C07
+verify: The appliance is outside and exhaust cannot enter the occupied shelter. @C05,ED
+stop: Headache, dizziness, nausea or confusion during fuel use warrants immediate action. @C07
+diagram: Fuel and exhaust outside | Enclosed shelter separate | Fresh air and help if exposed
+visual: Appliance location and occupied enclosure appear as separate control points.
+reviewer: Carbon monoxide safety and emergency medicine
+
+Z03-P06 | Place a portable generator outdoors | CPSC portable generator guidance; new manuscript
+objective: Plan generator placement that keeps exhaust away from the occupied building.
+applies: Household portable fuel-powered generator during a power outage.
+equipment: Generator instructions, outdoor location and working CO alarms appropriate to the home.
+action: Locate a suitable outdoor position at least 20 feet from the home. Direct exhaust away from the home and other occupied buildings. @C06
+action: Keep the generator out of the garage, porch enclosure and other occupied or partially enclosed spaces. Follow the manufacturer and a qualified electrician for connection requirements. @C06,ED
+action: If CO is suspected, get to fresh air immediately and call emergency services. @C07
+verify: Check the path from the outlet to doors, windows and vents. Reassess if the location or direction changes. @C06,ED
+stop: If you cannot provide the outdoor location and separation, leave the generator off. @C06
+diagram: Generator outdoors | At least 20 feet from home | Exhaust directed away
+visual: Not-to-scale placement decision. The numeric clearance applies to portable generators.
+reviewer: Electrical and carbon monoxide safety
+
+Z03-P07 | Prepare water before starting | B008 and Smokey Bear campfire guide
+objective: Prevent an ignition attempt from starting before extinguishing resources are in place.
+applies: A lawful outdoor fire where weather, site and attendance have already been checked.
+equipment: Ready water, stirring tool, ring and accessible non-fire alternative.
+action: Put extinguishing water and tool within reach outside the hot area. Assign an attendant who will stay until the site is cold. @C02,C04,ED
+action: Keep combustible supplies away from the ring and establish where the group will stand or walk. @C02,ED
+action: Stop before ignition if the water is lost, frozen or insufficient. Choose the no-fire plan rather than relying on a distant source. @C02,C04,C08,ED
+verify: The attendant can locate water and tool without crossing the fire area. @ED
+stop: Changing conditions or a loss of equipment triggers a fresh authorization and site check. @C01,C02,ED
+diagram: Place water and tool | Assign an attendant | Light only after checks
+visual: Extinguishing equipment precedes ignition.
+reviewer: Fire prevention and land management
+
+Z04-P04 | Reject a contaminated source | B009 original and revision
+objective: Screen for chemical contamination before choosing microbial treatment.
+applies: Selecting a water source after a spill, flood or uncertain local advisory.
+equipment: Known potable alternative and local advisory if available.
+action: Identify available safe water first. Check where runoff comes from and whether a local warning applies. @W01,W07,W09,ED
+action: Reject sources suspected of fuel, toxic chemicals or radioactive contamination. Seek a known safe source and follow local instructions. @W01,W07
+action: If only microbial contamination is suspected, select an appropriate microbial treatment and protect clean storage. @W02,W04,W06
+verify: State which hazard the procedure handles and which hazards required rejecting the source. @ED
+stop: Clear appearance, lack of odor or successful boiling cannot override a suspected chemical hazard. @W01,W09
+diagram: Identify supply | Reject chemical hazards | Treat remaining microbial risk
+visual: Source rejection is a decision upstream of all treatment.
+reviewer: Drinking-water safety
+
+Z04-P05 | Boil for microbial treatment | B009 revision and B012 P22
+objective: Apply the correct boiling endpoint and separate it from preclarification.
+applies: Water with an acceptable chemical source history and suspected microbial contamination. Stable safe heat is available.
+equipment: Clean heat-safe pot, safe heat source, timer or watch and sanitized covered container.
+action: Settle cloudy water or strain it through clean cloth before boiling. Use a stable setup according to equipment instructions. @W08,W02,ED
+action: Bring the water to a rolling boil and keep it there one minute. Above 6,500 feet, maintain the boil for three minutes. @W02
+action: Cool the water and keep it covered in a clean sanitized container. Use clean tools to avoid recontamination. @W02,W06,ED
+verify: Start timing only after a rolling boil begins, and protect the finished batch from raw water. @W02,ED
+stop: Use an alternate supply if chemical contamination is suspected or the pot or heat source is unsafe. @W01,ED
+diagram: Clarify if cloudy | Rolling boil plus timer | Cool and cover
+visual: Boiling is the microbial treatment step. Clarification and storage are separate.
+reviewer: Drinking-water safety and equipment safety
+
+Z04-P06 | Pair filtration with disinfection | B009 revision and CDC backcountry guide
+objective: Choose a matched backcountry treatment sequence and identify its limits.
+applies: An acceptable chemical source and documented equipment capable of addressing expected microbes.
+equipment: Matched filter and disinfectant with readable instructions; clean container.
+action: Check product labels, intended organisms and operating conditions. Typical portable filters leave gaps, especially for viruses. @W04
+action: Filter and then disinfect according to each product's directions, including concentration, contact time and water conditions. @W04,W05
+action: Keep any part that contacted raw water from the clean outlet and storage vessel. @W06,ED
+verify: Name each product, target limitation and the actual contact time used before drinking. @W04,W05,ED
+stop: Do not improvise a dose or assume an unknown filter covers viruses or chemicals. Use another known-safe supply or a supported procedure. @W01,W04,W05
+diagram: Check what filter covers | Disinfect as directed | Protect clean side
+visual: Devices are separate barriers with different contaminant limits.
+reviewer: Drinking-water safety and public health
+
+Z04-P07 | Keep treated water clean | B009 revision and B003 storage
+objective: Store drinking water without mixing it with raw sources or contaminated utensils.
+applies: Treated or commercially potable water kept for later use.
+equipment: Clean, sanitized tight-closing food-grade containers and separate raw-water container.
+action: Use a suitable vessel with known previous use. Reject one that held toxic chemicals. @W06
+action: Mark raw and finished containers. Keep the lid, threads and outlet on the clean side of the workflow. @W06,ED
+action: Dispense without introducing unclean hands, cups or raw-water implements. Close the vessel after use. @W06,ED
+verify: Containers stay distinguishable and the storage cap and dispensing surfaces remain clean. @W06,ED
+stop: If untreated water or suspect contact mixes with finished water, withhold it until an appropriate treatment decision is made. Suspected chemical contamination requires another supply. @W01,W06,ED
+diagram: Raw side separate | Clean closed vessel | Clean dispensing
+visual: Physical separation reduces accidental transfer at the container opening.
+reviewer: Drinking-water safety and public health
