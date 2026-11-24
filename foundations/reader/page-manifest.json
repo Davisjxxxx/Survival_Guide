@@ -3196,6 +3196,2774 @@
     "reviewer": "Drinking-water safety and wilderness medicine"
   },
   {
+    "id": "Z04-P13",
+    "zone": "Z04",
+    "title": "Screen watershed land use before collecting surface water",
+    "origin": "EPA contaminants and MDH drinking water; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Trace the drainage upstream on your map and by observation for roads, farms, pastures, mines, industrial sites, storm drains and septic outlets.",
+        "claims": [
+          "W22",
+          "W23",
+          "ED"
+        ]
+      },
+      {
+        "text": "Prefer smaller headwater streams or protected watershed supplies over downstream channels collecting agricultural or urban runoff.",
+        "claims": [
+          "W22",
+          "W23",
+          "W09"
+        ]
+      },
+      {
+        "text": "Treat any collected surface water from an acceptable watershed as microbiologically raw until a validated treatment finishes.",
+        "claims": [
+          "W09",
+          "W04"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Evaluate upstream drainage and land use to avoid hidden chemical and microbial pollution before filling a raw vessel.",
+    "applies": "Selecting a lake, river, creek or spring in rural, forested or mixed-use watersheds. Visual clarity never confirms chemical safety.",
+    "equipment": "Topographic or regional map, local advisories if available and dedicated raw-water collection container.",
+    "failure": {
+      "text": "Filling bottles immediately downstream of a highway culvert, cattle crossing or fertilized field because the water looks clear.",
+      "claims": [
+        "W22",
+        "W09",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Name what lies upstream of your collection point and confirm no suspected chemical or sewage discharge enters the channel.",
+      "claims": [
+        "W22",
+        "W23",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject the source if upstream mining, fuel spills, pesticide spraying, sewage or industrial discharge is suspected; seek an alternate supply.",
+      "claims": [
+        "W01",
+        "W22"
+      ]
+    },
+    "diagram": "Check upstream watershed | Exclude industrial and farm runoff | Treat remaining microbial risk",
+    "visual": "Environmental watershed diagram mapping upstream runoff sources, buffer terrain and chemical exclusion zones. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and watershed hydrology"
+  },
+  {
+    "id": "Z04-P14",
+    "zone": "Z04",
+    "title": "Reject water near harmful algal blooms and blue-green scum",
+    "origin": "CDC, EPA and Minnesota PCA HAB guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inspect the water surface and downwind shore for green, blue-green, turquoise or paint-like scum, surface mats, streaks or foul odor.",
+        "claims": [
+          "W15",
+          "W17"
+        ]
+      },
+      {
+        "text": "Keep people and pets out of contact with suspect bloom water and switch immediately to bottled or another verified safe supply.",
+        "claims": [
+          "W15",
+          "W17"
+        ]
+      },
+      {
+        "text": "Obey all local algal-toxin advisories even if the water looks clearer after wind shifts; dissolved cyanotoxins can persist without visible scum.",
+        "claims": [
+          "W16",
+          "W07"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize harmful algal bloom risks and avoid boiling or drinking cyanotoxin-contaminated water.",
+    "applies": "Warm, slow-moving lakes, ponds, reservoirs and backwaters during late spring through autumn, especially downwind shorelines.",
+    "equipment": "Carried safe water, local lake or utility advisories and alternative drinking supply.",
+    "failure": {
+      "text": "Trying to strain or boil blue-green lake water; heat does not destroy cyanotoxins and evaporation concentrates the toxins.",
+      "claims": [
+        "W15",
+        "W16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the chosen supply has no visible bloom signs and is outside any active harmful algal bloom advisory.",
+      "claims": [
+        "W15",
+        "W16",
+        "W17"
+      ]
+    },
+    "stop": {
+      "text": "Never boil, bleach or use standard portable filters to drink from a suspected harmful algal bloom; obtain an alternate potable source.",
+      "claims": [
+        "W15",
+        "W16",
+        "W01"
+      ]
+    },
+    "diagram": "Spot bloom or advisory | Reject boiling and filters | Use alternate potable source",
+    "visual": "Environmental shoreline schematic illustrating downwind cyanobacteria accumulation and toxin persistence beyond visible scum. Conceptual, not to scale.",
+    "reviewer": "Environmental health and drinking-water toxicology"
+  },
+  {
+    "id": "Z04-P15",
+    "zone": "Z04",
+    "title": "Separate visual clarity from biological and chemical safety",
+    "origin": "CDC backcountry water and EPA regulations; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat clear appearance, cold temperature and fast flow as non-indicators of safety; bacteria, viruses, cysts and dissolved chemicals are invisible.",
+        "claims": [
+          "W09",
+          "W22",
+          "W24"
+        ]
+      },
+      {
+        "text": "Screen for chemical, fuel, heavy-metal, nitrate and algal-toxin hazards first because ordinary field treatments cannot remove them.",
+        "claims": [
+          "W01",
+          "W15",
+          "W22"
+        ]
+      },
+      {
+        "text": "Clarify cloudy water only as a preparatory step before applying an effective microbial barrier matched to expected pathogens.",
+        "claims": [
+          "W08",
+          "W04",
+          "W02"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish visible turbidity from invisible pathogens and dissolved chemical contaminants when evaluating water.",
+    "applies": "Any untreated surface water, rain, snowmelt, spring or well source in backcountry or disaster settings.",
+    "equipment": "Source assessment checklist, validated microbial treatment and known-safe fallback supply.",
+    "failure": {
+      "text": "Drinking untreated clear mountain stream water or treating cloth-strained clear water as ready to drink.",
+      "claims": [
+        "W09",
+        "W08"
+      ]
+    },
+    "verify": {
+      "text": "State separately how suspended solids, pathogens and chemical hazards were each ruled out or addressed before drinking.",
+      "claims": [
+        "W01",
+        "W08",
+        "W09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If chemical safety cannot be reasonably established or microbial treatment is missing, reject the water and use an alternate supply.",
+      "claims": [
+        "W01",
+        "W09"
+      ]
+    },
+    "diagram": "Clarity is not safety | Screen chemical hazards | Match microbial treatment",
+    "visual": "Comparative configuration contrasting suspended turbidity, invisible microbes and dissolved chemicals against treatment reach. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and public health"
+  },
+  {
+    "id": "Z04-P16",
+    "zone": "Z04",
+    "title": "Assess moving streams versus stagnant ponds and pools",
+    "origin": "CDC backcountry water and USGS turbidity; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Prefer steadily moving, oxygenated channels away from shoreline debris over stagnant warm pools that concentrate organics, silt and algae.",
+        "claims": [
+          "W24",
+          "W16",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that moving streams still carry Giardia, Cryptosporidium, bacteria and storm-driven turbidity from upstream wildlife and soil erosion.",
+        "claims": [
+          "W09",
+          "W19",
+          "W20",
+          "W24"
+        ]
+      },
+      {
+        "text": "If only standing pond or lake water is available, inspect carefully for algal blooms, draw gently without stirring bottom mud and pre-clarify before treatment.",
+        "claims": [
+          "W15",
+          "W08",
+          "W24"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Compare physical, biological and sediment trade-offs between flowing streams and standing water bodies.",
+    "applies": "Selecting a raw backcountry water collection point after chemical and algal-bloom screening.",
+    "equipment": "Raw-water scoop or vessel, pre-filter cloth and validated downstream microbial treatment.",
+    "failure": {
+      "text": "Assuming fast-flowing cold streams are sterile or dipping straight into warm stagnant margins that clog filters and harbor cyanotoxins.",
+      "claims": [
+        "W09",
+        "W15",
+        "W24"
+      ]
+    },
+    "verify": {
+      "text": "Confirm no chemical or algal hazards exist and identify the exact clarification and microbial treatment steps matched to the chosen source.",
+      "claims": [
+        "W01",
+        "W15",
+        "W08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject stagnant water with algal scum, dead animals, oily sheen or foul chemical odor; relocate to a safer source or seek assistance.",
+      "claims": [
+        "W01",
+        "W15",
+        "W17"
+      ]
+    },
+    "diagram": "Compare flow and organics | Draw away from bottom mud | Clarify and treat all raw water",
+    "visual": "Comparative configuration showing flow, sediment load, algal risk and treatment prerequisites across moving streams and standing ponds. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and field hydrology"
+  },
+  {
+    "id": "Z04-P17",
+    "zone": "Z04",
+    "title": "Screen springs, seeps and groundwater outlets for hidden runoff",
+    "origin": "EPA contaminants and CDC backcountry water; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inspect the area directly above the spring outlet for trails, campsites, livestock, latrines, roads or surface runoff entering the seep.",
+        "claims": [
+          "W22",
+          "W09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Collect where water emerges cleanly before it pools in mud or vegetation, avoiding any corroded pipe or unknown catchment box of uncertain history.",
+        "claims": [
+          "W09",
+          "W06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Treat spring and seep water as raw unless an agency confirms current potable testing; shallow groundwater can carry pathogens and dissolved minerals.",
+        "claims": [
+          "W09",
+          "W23"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Evaluate natural springs and hillside seeps without assuming groundwater emergence guarantees purity.",
+    "applies": "Collecting water from rocky seeps, piped springs or shallow ground outlets in backcountry or rural terrain.",
+    "equipment": "Clean scoop or raw bottle, pre-filter cloth and validated microbial treatment.",
+    "failure": {
+      "text": "Assuming a cold roadside pipe or forest seep is naturally filtered free of Giardia, bacteria or agricultural nitrates.",
+      "claims": [
+        "W09",
+        "W19",
+        "W23"
+      ]
+    },
+    "verify": {
+      "text": "Confirm upstream ground is clear of obvious waste or spills and record the microbial treatment applied before drinking.",
+      "claims": [
+        "W09",
+        "W22",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject springs near mine tailings, oil sheen, septic drainfields or agricultural chemical runoff; microbial treatment cannot remove dissolved toxins.",
+      "claims": [
+        "W01",
+        "W22",
+        "W23"
+      ]
+    },
+    "diagram": "Inspect ground above seep | Collect at clean emergence | Apply microbial treatment",
+    "visual": "Cutaway view of a hillside spring separating surface-runoff infiltration pathways from the emergence point and raw-water vessel. Conceptual, not to scale.",
+    "reviewer": "Hydrogeology and drinking-water safety"
+  },
+  {
+    "id": "Z04-P18",
+    "zone": "Z04",
+    "title": "Recognize agricultural, livestock and road-runoff contamination",
+    "origin": "EPA regulations and Minnesota MDH contaminants; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Look for tile drains, ditch culverts, feedlots, heavily grazed banks, road salt residue, sheen or freshly applied fields draining into the channel.",
+        "claims": [
+          "W22",
+          "W23"
+        ]
+      },
+      {
+        "text": "Recognize that nitrates, pesticides, road de-icers and petroleum hydrocarbons dissolve in clear water and pass straight through boiling and standard field filters.",
+        "claims": [
+          "W01",
+          "W22",
+          "W23"
+        ]
+      },
+      {
+        "text": "Move upstream of road and agricultural inputs or rely on carried potable water rather than attempting to treat contaminated ditch runoff.",
+        "claims": [
+          "W01",
+          "W22",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify landscape markers of nitrate, pesticide, salt, fuel and manure runoff that rule out field water sources.",
+    "applies": "Rural, suburban, farmland and roadside drainages, especially during spring snowmelt or after heavy rainfall.",
+    "equipment": "Area map, carried potable water and alternate supply plan.",
+    "failure": {
+      "text": "Boiling roadside ditch water or filtering pasture-runoff creeks and assuming chemical fertilizers or fuel residues are removed.",
+      "claims": [
+        "W01",
+        "W22"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the selected water source sits clear of visible road culverts, feedlots and agricultural drainage inflows.",
+      "claims": [
+        "W22",
+        "W23",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Any fuel sheen, chemical odor, industrial outfall or active agricultural drainage is an immediate rejection boundary requiring another supply.",
+      "claims": [
+        "W01",
+        "W22"
+      ]
+    },
+    "diagram": "Spot farm and road drains | Reject dissolved chemical risk | Move upstream or use alternate",
+    "visual": "Environmental relationship schematic tracing road salt, fuel, pesticide and manure runoff paths into lower drainage channels. Conceptual, not to scale.",
+    "reviewer": "Environmental health and drinking-water toxicology"
+  },
+  {
+    "id": "Z04-P19",
+    "zone": "Z04",
+    "title": "Assess floodwater and post-storm surface sources",
+    "origin": "CDC emergency water and NWS flood guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stay out of active floodwater; storm surges carry raw sewage, fuel, submerged debris, agricultural chemicals and extreme turbidity that defeat routine filters.",
+        "claims": [
+          "W01",
+          "W24",
+          "T07"
+        ]
+      },
+      {
+        "text": "Use stored potable water, sealed commercial supplies or official distribution sites while flood conditions and utility advisories persist.",
+        "claims": [
+          "W06",
+          "W07",
+          "W14"
+        ]
+      },
+      {
+        "text": "Wait for official public-health clearance or safely accessible, non-flooded headwater sources before resuming routine backcountry water collection.",
+        "claims": [
+          "W07",
+          "W09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Avoid acute chemical, sewage and structural hazards when storm runoff transforms ordinary waterways.",
+    "applies": "Creeks, rivers, lakes and standing water during or immediately after heavy storms, flash floods or urban flooding.",
+    "equipment": "Bottled or stored potable reserve, local water advisories and safe high-ground access.",
+    "failure": {
+      "text": "Trying to filter muddy floodwater at a swollen riverbank, risking both chemical exposure and bank collapse or drowning.",
+      "claims": [
+        "W01",
+        "W24",
+        "T07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm all drinking water comes from verified potable reserves or cleared sources outside flood-impacted channels.",
+      "claims": [
+        "W06",
+        "W07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never wade into moving floodwater to reach a tap or stream, and never boil floodwater suspected of fuel or chemical contamination.",
+      "claims": [
+        "W01",
+        "T07"
+      ]
+    },
+    "diagram": "Flood mixes sewage and fuel | Rely on safe reserves | Wait for cleared sources",
+    "visual": "Failure-mode illustration showing how floodwaters combine physical drowning risk, chemical dilution failure and rapid filter clogging. Conceptual, not to scale.",
+    "reviewer": "Emergency management and drinking-water safety"
+  },
+  {
+    "id": "Z04-P20",
+    "zone": "Z04",
+    "title": "Protect against contaminated private wells after flooding",
+    "origin": "CDC private-well flood guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stop drinking tap water from any private well whose casing, pit or pump area was submerged or surrounded by floodwater; use bottled water instead.",
+        "claims": [
+          "W18",
+          "W06"
+        ]
+      },
+      {
+        "text": "Watch for chemical, fuel or pesticide spills near the well; if chemical contamination is suspected, do not boil or use the water and call health authorities.",
+        "claims": [
+          "W18",
+          "W01"
+        ]
+      },
+      {
+        "text": "Stay clear of flooded electrical pump panels and arrange a qualified well contractor and certified water test before returning the well to drinking service.",
+        "claims": [
+          "W18",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent waterborne illness and electrical hazards when a private well is submerged or affected by floodwater.",
+    "applies": "Rural homes, cabins and camps supplied by private wells after local flooding or surface-water intrusion around the wellhead.",
+    "equipment": "Bottled or verified safe water, local health department contact and qualified well-contractor information.",
+    "failure": {
+      "text": "Drinking clear tap water from a flooded well after surface water recedes, or attempting DIY shock chlorination around damaged wiring.",
+      "claims": [
+        "W18",
+        "W09"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household drinking, cooking and hygiene rely on verified safe water until certified lab tests clear the well.",
+      "claims": [
+        "W18",
+        "W29",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not resume drinking from a flood-impacted private well until professional inspection, disinfection if appropriate and laboratory testing confirm safety.",
+      "claims": [
+        "W18"
+      ]
+    },
+    "diagram": "Floodwater enters wellhead | Switch to safe supply | Professional inspection and test",
+    "visual": "Cutaway view of a private well casing showing floodwater intrusion pathways, pump electrical hazard and sanitary isolation boundary. Conceptual, not to scale.",
+    "reviewer": "Drinking-water utility and environmental health"
+  },
+  {
+    "id": "Z04-P21",
+    "zone": "Z04",
+    "title": "Estimate group hydration needs and reserve margins before travel",
+    "origin": "CDC emergency supply and NPS hiking safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Use the CDC household floor of at least 1 gallon per person per day for basic emergency storage, adjusting upward for heat, exertion, pregnancy, illness or pets.",
+        "claims": [
+          "W14",
+          "E08"
+        ]
+      },
+      {
+        "text": "Map verified water refill points along backcountry routes and check seasonal status; streams can dry up in late summer or freeze solid in winter.",
+        "claims": [
+          "E01",
+          "W09",
+          "W25",
+          "ED"
+        ]
+      },
+      {
+        "text": "Carry enough verified potable water to reach the next reliable checkpoint plus a delay reserve, along with a working treatment method matched to the route.",
+        "claims": [
+          "W09",
+          "W26",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Plan carried water capacity and refill checkpoints so the group does not run dry in uncertain watersheds.",
+    "applies": "Day hikes, overnight trips and household preparedness across warm, cold and arid or frozen seasons.",
+    "equipment": "Leak-proof potable containers, route map marking reliable water sources and weather forecast.",
+    "failure": {
+      "text": "Starting a hot or strenuous route with minimal carried water while assuming a seasonal creek shown on an old map will still be flowing.",
+      "claims": [
+        "W14",
+        "E08",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm total group liters carried, next reliable refill point and backup plan if that source is dry or contaminated.",
+      "claims": [
+        "W14",
+        "W09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Turn back early when carried water drops to the return-trip reserve and no verified refill source is confirmed ahead.",
+      "claims": [
+        "E01",
+        "W09",
+        "ED"
+      ]
+    },
+    "diagram": "Baseline daily need | Adjust for heat and effort | Map verified refill checkpoints",
+    "visual": "Comparative configuration showing household reserve baselines versus increased field hydration demand under heat, exertion and cold dry air. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and wilderness medicine"
+  },
+  {
+    "id": "Z04-P22",
+    "zone": "Z04",
+    "title": "Select safe food-contact surfaces for rain catchment",
+    "origin": "B003 rain catchment and CDC rainwater guidance; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Choose a clean, uncoated or food-contact catchment material with known history; reject tarps stained with fuel, pesticides, antifreeze or heavy mold.",
+        "claims": [
+          "W03",
+          "W01",
+          "W30"
+        ]
+      },
+      {
+        "text": "Suspend the catchment above ground splash and clear of overhanging branches, bird perches and roof eaves that shed droppings or chemical residues.",
+        "claims": [
+          "W03",
+          "W30"
+        ]
+      },
+      {
+        "text": "Direct the lowest corner into a covered raw-water vessel and keep all catchment parts strictly separate from finished drinking containers.",
+        "claims": [
+          "W03",
+          "W06",
+          "W30"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Minimize chemical leaching and debris pickup when setting up a clean temporary rain-catchment sheet.",
+    "applies": "Emergency or backcountry rain collection where lawful and no confirmed potable source is reachable.",
+    "equipment": "Clean food-contact tarp or sheet with known prior use, clean cordage and dedicated raw-water collection vessel.",
+    "failure": {
+      "text": "Catching rain off a painted vehicle hood, asphalt roof or dirty groundsheet and drinking it untreated.",
+      "claims": [
+        "W03",
+        "W01",
+        "W30"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the catchment surface is clean, elevated from splash and drains exclusively into a clearly marked raw container.",
+      "claims": [
+        "W30",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject collected rain if chemical residue, fuel odor or heavy bird-dropping contamination is present; treat all acceptable rain before drinking.",
+      "claims": [
+        "W01",
+        "W03",
+        "W30"
+      ]
+    },
+    "diagram": "Clean elevated sheet | Avoid roof and splash | Drain to raw vessel then treat",
+    "visual": "Cutaway view of a suspended rain-catchment sheet showing ground-splash clearance, drip funnel and raw-to-clean treatment break. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and environmental health"
+  },
+  {
+    "id": "Z04-P23",
+    "zone": "Z04",
+    "title": "Separate first-flush debris and roof runoff from raw storage",
+    "origin": "B003 P02 and CDC rainwater guidance; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Allow initial rainfall to wash surface dust and loose grit off the catchment onto the ground before diverting flow into the raw vessel.",
+        "claims": [
+          "W30",
+          "W03"
+        ]
+      },
+      {
+        "text": "Place a clean mesh or cloth screen over the raw vessel mouth to exclude leaves and insects while keeping screen surfaces on the raw side.",
+        "claims": [
+          "W30",
+          "W08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Treat roof-collected rain as high-risk raw water because roofing shingles, solder, gutters and bird waste can introduce both pathogens and chemicals.",
+        "claims": [
+          "W03",
+          "W01",
+          "W30"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reduce coarse dust, pollen and droppings entering raw rain storage without mistaking screening for purification.",
+    "applies": "Temporary tarp catchment or emergency roof-downspout collection when no safer potable source is available.",
+    "equipment": "Clean catchment surface, coarse debris screen, discard bucket and separate raw-water storage vessel.",
+    "failure": {
+      "text": "Assuming first-flush diversion or a leaf screen produces drinkable rainwater without microbial treatment or chemical screening.",
+      "claims": [
+        "W03",
+        "W30",
+        "W08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm initial washout was discarded, raw storage stays covered and a validated microbial treatment is ready before drinking.",
+      "claims": [
+        "W30",
+        "W02",
+        "W04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Prefer commercial or verified potable water over roof runoff whenever available; reject runoff from treated, flaking or chemically contaminated roofs.",
+      "claims": [
+        "W03",
+        "W01"
+      ]
+    },
+    "diagram": "Discard initial washout | Screen coarse raw debris | Treat before clean storage",
+    "visual": "Cutaway vessel diagram illustrating first-flush diversion, coarse raw-side screening and the mandatory downstream microbial barrier. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and environmental health"
+  },
+  {
+    "id": "Z04-P24",
+    "zone": "Z04",
+    "title": "Recognize contamination limits of leaf and branch runoff",
+    "origin": "B003 leaf runoff and CDC rainwater guidance; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Prefer a clean synthetic or food-contact sheet over tree bark or foliage, which accumulate bird droppings, insect frass, pollen, mold and natural plant tannins.",
+        "claims": [
+          "W03",
+          "W30",
+          "ED"
+        ]
+      },
+      {
+        "text": "Never collect runoff from unidentified plants, toxic shrubs, sprayed roadside trees or sap-oozing bark because dissolved plant compounds or pesticides can enter the water.",
+        "claims": [
+          "W01",
+          "W22",
+          "W30",
+          "ED"
+        ]
+      },
+      {
+        "text": "If clean foliage dew or drip is ever gathered in an extreme emergency from known safe non-toxic surfaces, classify it strictly as raw water requiring clarification and microbial treatment.",
+        "claims": [
+          "W03",
+          "W08",
+          "W09"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify botanical, chemical and microbial hazards that limit collecting runoff from foliage or tree trunks.",
+    "applies": "Wet forest environments where rainwater drips from branches or leaves and readers consider improvised plant collection.",
+    "equipment": "Dedicated clean catchment sheet if available, raw collection cup and validated microbial treatment.",
+    "failure": {
+      "text": "Treating clear raindrops gathered off unknown leaves or moss-covered bark as pure drinking water.",
+      "claims": [
+        "W03",
+        "W09",
+        "W30"
+      ]
+    },
+    "verify": {
+      "text": "Confirm collection surfaces are known non-toxic and chemical-free, and apply full microbial treatment before consumption.",
+      "claims": [
+        "W01",
+        "W03",
+        "W09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject foliage or bark runoff whenever plant identity, roadside spraying or bird-waste contamination is uncertain; use a clean catchment or alternate supply.",
+      "claims": [
+        "W01",
+        "W03",
+        "W30"
+      ]
+    },
+    "diagram": "Bark and leaf contaminants | Risk of toxins and droppings | Prefer clean sheet and treat",
+    "visual": "Material cross-section showing surface dust, tannins, bird droppings and pesticide residues carried off leaves into raw drip water. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and botany safety"
+  },
+  {
+    "id": "Z04-P25",
+    "zone": "Z04",
+    "title": "Collect from shallow streams without disturbing bottom sediment",
+    "origin": "B009 collection and USGS turbidity; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Position yourself on stable footing slightly downstream of your collection spot so foot movement does not push mud into the intake.",
+        "claims": [
+          "W24",
+          "ED"
+        ]
+      },
+      {
+        "text": "Skim gently near the upper-middle water layer with a clean raw scoop rather than plunging the bottle mouth into bottom silt or surface scum.",
+        "claims": [
+          "W24",
+          "W08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Pour through a clean pre-filter cloth into the raw holding vessel if visible grit remains, keeping raw scoop and cloth isolated from clean gear.",
+        "claims": [
+          "W08",
+          "W06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Draw clearer raw water from shallow or silty streams so downstream filters and disinfectants work reliably.",
+    "applies": "Shallow creeks, muddy banks or slow brooks after upstream watershed and chemical screening passes.",
+    "equipment": "Clean dedicated raw-water scoop or cup, pre-filter cloth and raw-water container.",
+    "failure": {
+      "text": "Dipping a filter intake directly into churned streambed silt, plugging the cartridge within minutes and forcing untreated bypass attempts.",
+      "claims": [
+        "W24",
+        "W08",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Raw water collected is free of coarse bottom sand and ready for settling or direct entry to the rated treatment stage.",
+      "claims": [
+        "W08",
+        "W24",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If bank footing is unstable, current is swift or heavy storm turbidity overwhelms collection, step back to stable ground and choose another source.",
+      "claims": [
+        "W24",
+        "T07",
+        "ED"
+      ]
+    },
+    "diagram": "Stand downstream on firm bank | Skim mid-depth gently | Isolate raw scoop and pre-filter",
+    "visual": "Mechanism diagram illustrating laminar mid-depth skimming above disturbed benthic silt to minimize particulate load on downstream filters. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and field hydrology"
+  },
+  {
+    "id": "Z04-P26",
+    "zone": "Z04",
+    "title": "Screen snowpack layers for windblown dust, tracks and spills",
+    "origin": "B012 P22 and USGS snowmelt cycle; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Avoid snow near roads, parking areas, snowmobile tracks, fuel canisters, camp latrines, animal droppings or discolored windblown dust crusts.",
+        "claims": [
+          "W01",
+          "W25"
+        ]
+      },
+      {
+        "text": "Scrape away the surface crust and gather cleaner consolidated snow from beneath the top layer without digging into soil, pine needles or underlying slush.",
+        "claims": [
+          "W25",
+          "W08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that even clean white subsurface snow can contain airborne particles and microbes; always treat meltwater before drinking.",
+        "claims": [
+          "W25",
+          "W09",
+          "W02"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Select cleaner snow strata before melting while keeping raw snow separate from potable drinking water.",
+    "applies": "Winter backcountry or storm isolation where melting snow is the fallback raw-water source.",
+    "equipment": "Clean scoop or pot dedicated to raw snow, stove/pot setup and clean finished-water vessel.",
+    "failure": {
+      "text": "Scooping snow next to a roadside snowbank contaminated with de-icing salt and petroleum spray, or assuming white snow needs no microbial treatment.",
+      "claims": [
+        "W01",
+        "W25",
+        "W09"
+      ]
+    },
+    "verify": {
+      "text": "Collected snow is free of visible grit, discoloration and fuel odor, and is staged strictly on the raw side for melting and treatment.",
+      "claims": [
+        "W25",
+        "W01",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject snow near fuel spills, vehicle exhaust or discolored algal/chemical patches; eating raw snow also chills the core during cold exposure.",
+      "claims": [
+        "W01",
+        "W25",
+        "E06"
+      ]
+    },
+    "diagram": "Discard dirty surface crust | Gather clean middle stratum | Avoid soil and treat meltwater",
+    "visual": "Material cross-section of a winter snowpack showing surface deposition, cleaner mid-pack snow and bottom organic/soil contamination zone. Conceptual, not to scale.",
+    "reviewer": "Cold-weather operations and drinking-water safety"
+  },
+  {
+    "id": "Z04-P27",
+    "zone": "Z04",
+    "title": "Melt snow safely without scorching vessels or wasting fuel",
+    "origin": "B012 P22 and NPS water purification; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Start with a small layer of liquid water in the bottom of the pot if available so heat conducts evenly and snow does not vaporize and scorch the dry metal.",
+        "claims": [
+          "W02",
+          "W26",
+          "ED"
+        ]
+      },
+      {
+        "text": "Add snow gradually in dense handfuls with the lid on to reduce wind cooling and fuel consumption, operating the stove strictly outdoors away from shelters.",
+        "claims": [
+          "C05",
+          "C15",
+          "W26",
+          "ED"
+        ]
+      },
+      {
+        "text": "Once melted, clarify any needles or grit if needed and then bring the water to a full rolling boil (1 minute; 3 minutes above 6,500 feet) or apply another validated treatment.",
+        "claims": [
+          "W02",
+          "W08"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Convert raw snow into liquid water efficiently in a heat-safe pot while keeping melting distinct from microbial treatment.",
+    "applies": "Cold-weather camp with a rated outdoor stove or permitted fire and a suitable metal cooking vessel.",
+    "equipment": "Heat-safe metal pot with lid, rated outdoor stove and fuel, starter liquid water if available and sanitized finished container.",
+    "failure": {
+      "text": "Packing fluffy dry snow into a dry pot over high flame—burning the metal—or drinking freshly melted snow without boiling or disinfecting.",
+      "claims": [
+        "W02",
+        "W09",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Liquid meltwater completes a timed rolling boil or validated treatment cycle and transfers into a clean covered vessel.",
+      "claims": [
+        "W02",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never melt snow with a fuel stove inside a tent, vestibule or vehicle; stop and switch to carried reserves if fuel or safe outdoor setup is insufficient.",
+      "claims": [
+        "C05",
+        "C16",
+        "W26"
+      ]
+    },
+    "diagram": "Seed pot with starter water | Melt covered outdoors | Complete separate treatment",
+    "visual": "Mechanism diagram comparing conductive heat transfer in seeded meltwater versus scorching dry snow, with outdoor stove boundary. Conceptual, not to scale.",
+    "reviewer": "Cold-weather operations and portable appliance safety"
+  },
+  {
+    "id": "Z04-P28",
+    "zone": "Z04",
+    "title": "Decide when to melt clear ice versus loose snow",
+    "origin": "USGS snowmelt and MN DNR ice safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that dense, bubble-free ice yields far more liquid water per pot volume and requires less stove fuel than fluffy dry snow.",
+        "claims": [
+          "W25",
+          "W26",
+          "ED"
+        ]
+      },
+      {
+        "text": "Collect ice only from stable land—such as safe broken shoreline pieces or clean ground-accessible blocks—never step onto uncertain lake or river ice to chop water holes.",
+        "claims": [
+          "E12",
+          "ED"
+        ]
+      },
+      {
+        "text": "Treat melted ice as microbiologically raw water; freezing slows bacteria and preserves cysts rather than sterilizing the source.",
+        "claims": [
+          "W09",
+          "W19",
+          "W02"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Weigh fuel savings of solid ice against ice-access drowning hazards and mandatory microbial treatment.",
+    "applies": "Winter camp where loose snow and safe shoreline or icicle ice fragments are available without stepping onto frozen water bodies.",
+    "equipment": "Safe land-based access, heat-safe metal pot, outdoor stove and validated microbial treatment.",
+    "failure": {
+      "text": "Walking onto thin river ice to reach open water or drinking melted lake ice under the myth that freezing kills germs.",
+      "claims": [
+        "E12",
+        "W09",
+        "W19"
+      ]
+    },
+    "verify": {
+      "text": "Confirm collection occurred strictly from stable land and that meltwater undergoes boiling or rated microbial treatment before drinking.",
+      "claims": [
+        "E12",
+        "W02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If reaching ice requires stepping onto unverified lake or stream ice or beneath hanging roof icicles, stay on safe land and melt clean snow instead.",
+      "claims": [
+        "E12",
+        "E13",
+        "ED"
+      ]
+    },
+    "diagram": "Stay on stable land | Dense ice saves stove fuel | Freezing does not kill germs",
+    "visual": "Comparative configuration contrasting water yield, fuel use and access hazards across loose snow, shoreline ice and unsafe lake ice. Conceptual, not to scale.",
+    "reviewer": "Cold-weather operations and ice safety"
+  },
+  {
+    "id": "Z04-P29",
+    "zone": "Z04",
+    "title": "Account for seasonal drought, low flow and warm-water bloom shifts",
+    "origin": "USGS water cycle and Minnesota PCA HAB guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Expect high turbidity, bank erosion and agricultural runoff during spring snowmelt and heavy rains, requiring pre-clarification and stricter chemical screening.",
+        "claims": [
+          "W25",
+          "W24",
+          "W22"
+        ]
+      },
+      {
+        "text": "Expect dried headwaters, warm stagnant pools and blue-green algal blooms during mid-to-late summer drought, requiring larger carried water reserves.",
+        "claims": [
+          "W15",
+          "W17",
+          "W14"
+        ]
+      },
+      {
+        "text": "Expect leaf tannins and organic debris clogging fine filters during autumn and frozen shallow creeks in late fall and winter.",
+        "claims": [
+          "W24",
+          "W28",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Adjust water-sourcing plans across spring snowmelt, summer low-water heat and autumn leaf-drop conditions.",
+    "applies": "Multi-season Upper Midwest and North American backcountry planning and emergency water sourcing.",
+    "equipment": "Seasonal watershed forecast, topographic map, pre-filter cloth and multi-barrier treatment kit.",
+    "failure": {
+      "text": "Planning an August or November water route using spring runoff expectations without pre-filters, freeze protection or enough carried water.",
+      "claims": [
+        "W24",
+        "W17",
+        "W28"
+      ]
+    },
+    "verify": {
+      "text": "Match your carried capacity, pre-filter and treatment backup to the current season's water flow, temperature and bloom risk.",
+      "claims": [
+        "W26",
+        "W14",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When seasonal drought, blooms or freeze-up eliminate acceptable raw sources along the route, carry full potable reserves or reroute.",
+      "claims": [
+        "W15",
+        "W09",
+        "ED"
+      ]
+    },
+    "diagram": "Spring turbid runoff | Summer drought and blooms | Autumn debris and winter freeze",
+    "visual": "Environmental relationship diagram mapping seasonal changes in turbidity, algal bloom risk, water availability and filter vulnerability. Conceptual, not to scale.",
+    "reviewer": "Field hydrology and drinking-water safety"
+  },
+  {
+    "id": "Z04-P30",
+    "zone": "Z04",
+    "title": "Manage winter freeze-up of surface sources and intake gear",
+    "origin": "CDC freeze-damage limits and NWS cold safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Prefer boiling or chemical disinfection matched to cold-water contact times when subfreezing temperatures threaten mechanical filters and pump hoses.",
+        "claims": [
+          "W28",
+          "W02",
+          "W05",
+          "W26"
+        ]
+      },
+      {
+        "text": "Drain excess water from squeeze filters and hoses immediately after use and store wet cartridges inside an insulated inner jacket pocket or sleeping bag to prevent freezing.",
+        "claims": [
+          "W28",
+          "E10",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recognize that cold water slows chemical disinfectant reactions; check product labels for cold-water extended wait times before drinking.",
+        "claims": [
+          "W05",
+          "W12"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent hoses, valves, squeeze bags and filter elements from freezing solid during cold-weather collection.",
+    "applies": "Backcountry travel when air temperatures approach or fall below freezing (32°F / 0°C).",
+    "equipment": "Wide-mouth bottles, insulated carry sleeves, chemical or boiling backup and dry storage bag for wet filter elements.",
+    "failure": {
+      "text": "Leaving a damp hollow-fiber filter in an outside pack pocket overnight below freezing, cracking fibers invisibly and continuing to drink bypassed water.",
+      "claims": [
+        "W28"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every wet filter stayed continuously above freezing or switch immediately to boiling or a verified unaffected backup.",
+      "claims": [
+        "W28",
+        "W02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Discard or retire any hollow-fiber or ceramic filter suspected of freezing while wet; never guess whether internal fibers survived intact.",
+      "claims": [
+        "W28"
+      ]
+    },
+    "diagram": "Subfreezing air hits wet filter | Invisible internal fiber crack | Retire filter and switch to boil",
+    "visual": "Failure-mode illustration showing ice expansion inside wet filter fibers leading to invisible bypass channels and mandatory retirement. Conceptual, not to scale.",
+    "reviewer": "Cold-weather operations and drinking-water treatment"
+  },
+  {
+    "id": "Z04-P31",
+    "zone": "Z04",
+    "title": "Avoid unsafe stream banks, thin ice and steep water access",
+    "origin": "MN DNR ice safety and NWS flood guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inspect bank stability, current speed, slippery algae-covered rock and ice shelves before stepping toward the water's edge.",
+        "claims": [
+          "E12",
+          "T07",
+          "ED"
+        ]
+      },
+      {
+        "text": "Choose a gently sloping, firm gravel or rock access point out of fast current; keep one partner back on solid ground when collection footing is awkward.",
+        "claims": [
+          "E12",
+          "T01",
+          "ED"
+        ]
+      },
+      {
+        "text": "Stay completely off overhanging snow cornices, shelf ice and undercut mud banks that can collapse into deep or cold water.",
+        "claims": [
+          "E12",
+          "T07"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent slips, cold-water immersion and falls when approaching rivers, lakes, ravines or winter shorelines for water.",
+    "applies": "Collecting raw water along steep embankments, mossy rocks, fast currents, flood-swollen rivers or frozen edges.",
+    "equipment": "Dedicated weighted scoop or cord-tied raw container if needed, stable footwear and partner spotter.",
+    "failure": {
+      "text": "Leaning over a fast flooded bank or stepping onto a snowy shoreline shelf to reach open water, causing an immersion emergency.",
+      "claims": [
+        "E12",
+        "T07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm solid dry footing and an easy step-back path before dipping the raw vessel.",
+      "claims": [
+        "T01",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the only reachable water requires risking a fall, fast current or uncertain ice, abandon that access point and melt snow or move to a safer site.",
+      "claims": [
+        "E12",
+        "T07",
+        "ED"
+      ]
+    },
+    "diagram": "Check bank, ice and current | Use firm shallow access | Never risk immersion for water",
+    "visual": "Decision tree gating water-edge approach on firm footing, safe current and absence of shelf ice before dipping a raw vessel. Conceptual, not to scale.",
+    "reviewer": "Swiftwater safety, ice safety and search and rescue"
+  },
+  {
+    "id": "Z04-P32",
+    "zone": "Z04",
+    "title": "Match gravity settling time and decanting to turbid water",
+    "origin": "B009 settling and USGS turbidity; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Fill the raw settling container and set it undisturbed on level ground in shade so coarse sand and silt sink toward the bottom.",
+        "claims": [
+          "W08",
+          "W24"
+        ]
+      },
+      {
+        "text": "Gently decant or ladle the clearer upper layer into the treatment vessel without tilting up the bottom sludge layer.",
+        "claims": [
+          "W08",
+          "W24",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep the settling container and ladle strictly on the raw side and follow with full microbial treatment (boiling, certified filtration plus disinfection, or verified UV once clear).",
+        "claims": [
+          "W08",
+          "W02",
+          "W04",
+          "W11"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Allow heavy silt and clay to drop out cleanly before pouring clearer raw water into a filter or boiling pot.",
+    "applies": "Muddy, storm-roiled or silty raw water that has passed chemical and algal-bloom screening.",
+    "equipment": "Wide, stable raw settling vessel, clean raw dipper or pour lip and separate downstream treatment equipment.",
+    "failure": {
+      "text": "Agitating the settled jar while pouring, carrying heavy grit into a fine filter, or drinking decanted water without microbial treatment.",
+      "claims": [
+        "W08",
+        "W24"
+      ]
+    },
+    "verify": {
+      "text": "Decanted water shows visibly reduced sediment while raw sludge stays behind and downstream microbial treatment is clearly staged.",
+      "claims": [
+        "W08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If fine suspended clay will not settle enough for UV or filtration, switch to boiling after cloth straining or locate a clearer acceptable source.",
+      "claims": [
+        "W08",
+        "W02",
+        "W11"
+      ]
+    },
+    "diagram": "Rest raw water undisturbed | Decant clearer upper layer | Transfer to microbial treatment",
+    "visual": "Cutaway vessel view showing settled silt bed, clear supernatant draw-off zone and downstream treatment handoff. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and treatment mechanics"
+  },
+  {
+    "id": "Z04-P33",
+    "zone": "Z04",
+    "title": "Pre-filter coarse particles with cloth or coffee filter before treatment",
+    "origin": "B009 clarification and CDC emergency water; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Secure a clean cloth, layered paper towel or coffee filter over the mouth of a dedicated raw container and pour settled raw water through slowly.",
+        "claims": [
+          "W08",
+          "W24"
+        ]
+      },
+      {
+        "text": "Replace or rinse clogged pre-filter media away from the clean side rather than squeezing muddy sludge forcefully through the weave.",
+        "claims": [
+          "W08",
+          "W24",
+          "ED"
+        ]
+      },
+      {
+        "text": "Treat pre-filtered water immediately as still microbiologically unsafe—cloth and paper never stop bacteria, viruses or protozoan cysts.",
+        "claims": [
+          "W08",
+          "W09",
+          "W19",
+          "W20"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Remove suspended grit, leaves and organic clumps cleanly to protect porous filters and improve disinfection reliability.",
+    "applies": "Turbid or debris-laden raw water from a chemically acceptable source prior to boiling, filtration or chemical disinfection.",
+    "equipment": "Clean woven cloth, bandana, paper coffee filter or mesh pre-filter, raw catch vessel and validated microbial treatment.",
+    "failure": {
+      "text": "Squeezing a muddy bandana into a drinking bottle or treating coffee-filtered clear-looking water as potable.",
+      "claims": [
+        "W08",
+        "W09"
+      ]
+    },
+    "verify": {
+      "text": "Coarse debris is retained on the raw cloth while the strained water enters a validated microbial treatment step.",
+      "claims": [
+        "W08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject cloth pre-filtration as a standalone treatment; if no validated microbial barrier is available after straining, do not treat the water as potable.",
+      "claims": [
+        "W08",
+        "W09"
+      ]
+    },
+    "diagram": "Coarse organic debris | Clean cloth or paper weave | Strained raw water to treatment",
+    "visual": "Material cross-section illustrating cloth/paper weave trapping visible silt while invisible bacteria, viruses and cysts pass through to treatment. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety"
+  },
+  {
+    "id": "Z04-P34",
+    "zone": "Z04",
+    "title": "Understand what pore-size filtration removes and what passes through",
+    "origin": "CDC backcountry treatment and filter standards; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check whether the filter uses an absolute pore rating (typically ≤1 micron for cysts and ~0.1–0.2 micron for bacteria) or only an unverified nominal rating.",
+        "claims": [
+          "W04",
+          "W19",
+          "W20",
+          "W21"
+        ]
+      },
+      {
+        "text": "Recognize that standard backcountry mechanical filters do not remove most viruses or dissolved chemicals; pair mechanical filtration with chemical disinfection or boiling when viruses are a concern.",
+        "claims": [
+          "W04",
+          "W21",
+          "W22"
+        ]
+      },
+      {
+        "text": "Confirm whether any activated-carbon stage is strictly for taste/odor or holds independent NSF certification for specific listed chemicals; carbon alone does not disinfect microbes.",
+        "claims": [
+          "W21",
+          "W22"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Match mechanical filter pore ratings accurately against protozoa, bacteria, viruses and dissolved chemicals.",
+    "applies": "Choosing or using any portable backcountry or emergency point-of-use water filter.",
+    "equipment": "Filter specification sheet or label showing absolute pore rating or independent certification (NSF/ANSI 53, 55 or EPA purifier standard).",
+    "failure": {
+      "text": "Assuming a 0.2-micron hollow-fiber filter stops viruses or removes agricultural nitrates, fuel or heavy metals.",
+      "claims": [
+        "W04",
+        "W21",
+        "W22"
+      ]
+    },
+    "verify": {
+      "text": "State the filter's exact certified target classes and name the second barrier covering any remaining microbial gaps.",
+      "claims": [
+        "W04",
+        "W21",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never rely on an unlabeled, uncertified or improvised sand/charcoal filter for microbial or chemical safety.",
+      "claims": [
+        "W04",
+        "W08",
+        "W21"
+      ]
+    },
+    "diagram": "Cysts and bacteria blocked | Viruses pass standard pores | Chemicals pass mechanical media",
+    "visual": "Material cross-section comparing relative scale of protozoa, bacteria, viruses and dissolved molecules against porous filter membranes. Conceptual, not to scale.",
+    "reviewer": "Drinking-water microbiology and treatment engineering"
+  },
+  {
+    "id": "Z04-P35",
+    "zone": "Z04",
+    "title": "Select certified filters for Giardia and Cryptosporidium cysts",
+    "origin": "CDC Giardia, Cryptosporidium and filter guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that Cryptosporidium oocysts strongly resist routine chlorine bleach and iodine doses, and Giardia cysts also resist brief cold-water chlorination.",
+        "claims": [
+          "W19",
+          "W20",
+          "W10"
+        ]
+      },
+      {
+        "text": "Select boiling or a filter explicitly certified for cyst reduction (absolute pore size ≤1 micron or NSF/ANSI Standard 53/55) to remove parasites reliably.",
+        "claims": [
+          "W19",
+          "W20",
+          "W02"
+        ]
+      },
+      {
+        "text": "Combine cyst-rated filtration with chemical disinfection when viral risk is also present (such as near human sewage or heavy-use corridors).",
+        "claims": [
+          "W04",
+          "W20"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Choose effective parasite barriers where standard chlorine or iodine disinfection alone is unreliable.",
+    "applies": "Surface water in wilderness, rural or flood-affected areas where wildlife or livestock can shed protozoan cysts.",
+    "equipment": "Filter independently rated for cyst reduction (absolute ≤1 micron or NSF/ANSI 53/55) or boiling setup.",
+    "failure": {
+      "text": "Relying solely on standard chlorine drops in cold stream water where Cryptosporidium oocysts survive treatment.",
+      "claims": [
+        "W20",
+        "W05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the filter label explicitly states cyst removal or absolute ≤1 micron rating and that seals and cartridge are intact.",
+      "claims": [
+        "W19",
+        "W20",
+        "W28",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the filter lacks cyst verification or suffers seal or freeze damage, boil the water instead or switch to a known potable supply.",
+      "claims": [
+        "W02",
+        "W20",
+        "W28"
+      ]
+    },
+    "diagram": "Chlorine misses Crypto | Cyst filter ≤1 um or NSF 53 | Boiling kills all classes",
+    "visual": "Comparative configuration contrasting parasite inactivation across standard chlorine, certified cyst filtration and rolling boil. Conceptual, not to scale.",
+    "reviewer": "Drinking-water microbiology and public health"
+  },
+  {
+    "id": "Z04-P36",
+    "zone": "Z04",
+    "title": "Operate pump, squeeze and gravity filters without cross-contaminating outlets",
+    "origin": "B009 equipment hygiene and CDC treatment; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Lay out the raw intake hose or dirty reservoir on one side and the clean outlet spout and open potable bottle on a separate clean surface.",
+        "claims": [
+          "W04",
+          "W06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Hold the dirty squeeze bag or pump body without letting raw water drip down the outside of the bottle threads onto the clean nozzle or cap.",
+        "claims": [
+          "W06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Store the raw hose and dirty bag inside their own sealed pouch apart from the clean outlet hose and drinking bottles after use.",
+        "claims": [
+          "W06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep raw intake hoses, wet dirty bags and hands physically isolated from clean spouts and potable bottles.",
+    "applies": "Field operation of portable hand-pump, squeeze-pouch or gravity-bag water filters.",
+    "equipment": "Complete filter assembly with marked raw and clean lines, separate storage bags and clean potable bottle.",
+    "failure": {
+      "text": "Letting a wet dirty squeeze pouch drip raw stream water over the rim of the clean bottle while squeezing into the opening.",
+      "claims": [
+        "W06",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the clean outlet never touches raw water, dirty bags, ground soil or unwashed fingers during filtering and packing.",
+      "claims": [
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If raw water splashes onto the clean outlet or inside the finished bottle, empty or re-treat the batch and clean the contact surface before drinking.",
+      "claims": [
+        "W06",
+        "W04",
+        "ED"
+      ]
+    },
+    "diagram": "Dirty intake / raw bag | Cartridge seal boundary | Protected clean outlet and rim",
+    "visual": "Exploded component view of a portable filter showing raw intake, cartridge barrier, seal interface and clean-side drip guard. Conceptual, not to scale.",
+    "reviewer": "Drinking-water treatment and field hygiene"
+  },
+  {
+    "id": "Z04-P37",
+    "zone": "Z04",
+    "title": "Protect wet hollow-fiber and ceramic filters from freeze damage",
+    "origin": "CDC backcountry filter maintenance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Shake and blow or drain excess water gently per manufacturer instructions immediately after filtering, remembering that microscopic pores remain damp.",
+        "claims": [
+          "W28",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep the damp cartridge sealed in a waterproof bag inside your inner clothing during travel and inside your sleeping bag overnight whenever temperatures approach freezing.",
+        "claims": [
+          "W28",
+          "E10"
+        ]
+      },
+      {
+        "text": "Run the manufacturer's integrity check where specified (such as air-pressure or ceramic gauge checks) only as directed; never assume a visual glance detects internal cracks.",
+        "claims": [
+          "W28",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent invisible ice-expansion damage inside porous filter elements during cold trips and overnight stops.",
+    "applies": "Any outing where temperatures may drop near or below freezing while carrying a previously wetted filter.",
+    "equipment": "Sealable dry bag for the filter element, insulated interior pocket or sleeping bag and backup boiling or chemical method.",
+    "failure": {
+      "text": "Stashing a wet filter in a pack's outer mesh pocket at dusk when temperatures dip below 32°F, silently rupturing hollow fibers.",
+      "claims": [
+        "W28"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the filter has never been exposed to freezing temperatures while damp, or switch immediately to boiling.",
+      "claims": [
+        "W28",
+        "W02"
+      ]
+    },
+    "stop": {
+      "text": "Any wet filter left out in freezing air is compromised—stop relying on it for microbial safety and use boiling or another verified supply.",
+      "claims": [
+        "W28",
+        "W02"
+      ]
+    },
+    "diagram": "Residual moisture in pores | Below-freezing exposure | Invisible crack bypasses barrier",
+    "visual": "Failure-mode illustration linking trapped pore water and subfreezing exposure to silent internal membrane rupture and backup switch. Conceptual, not to scale.",
+    "reviewer": "Drinking-water treatment and cold-weather equipment"
+  },
+  {
+    "id": "Z04-P38",
+    "zone": "Z04",
+    "title": "Backflush and inspect field filter cartridges for flow or seal failure",
+    "origin": "CDC filter guidance and manufacturer maintenance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Backflush hollow-fiber filters or gently scrub ceramic elements strictly per manufacturer instructions using only clean treated water—never raw water.",
+        "claims": [
+          "W04",
+          "W06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect cartridge threads, O-rings, check valves and housing seams for cracks, grit or pinched gaskets that let untreated water slip past the element.",
+        "claims": [
+          "W04",
+          "W28",
+          "ED"
+        ]
+      },
+      {
+        "text": "Track cumulative volume and filter age; replace carbon or composite cartridges on schedule rather than pushing degraded media beyond rated capacity.",
+        "claims": [
+          "W21",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Restore slowed flow safely with clean water and detect torn O-rings, loose threads or cracked housings early.",
+    "applies": "Routine field and post-trip maintenance of reusable hollow-fiber, ceramic or carbon-core portable filters.",
+    "equipment": "Manufacturer backflush syringe or clean-water port, confirmed clean water, spare O-rings if supplied and product manual.",
+    "failure": {
+      "text": "Backflushing a hollow-fiber filter with raw stream water—contaminating the clean side—or forcing a clogged squeeze bag until seams burst.",
+      "claims": [
+        "W06",
+        "W04",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm steady normal flow rate, seated O-rings, clean backflush water source and intact housing before packing.",
+      "claims": [
+        "W04",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If flow drops to a trickle despite clean backflushing, or if water bypasses suddenly at high speed, retire the cartridge and switch to boiling or another method.",
+      "claims": [
+        "W04",
+        "W28",
+        "W02"
+      ]
+    },
+    "diagram": "Inspect seals and housing | Clean-water backflush only | Verify normal flow resistance",
+    "visual": "Exploded component diagram highlighting O-ring seals, cartridge thread seat, clean-side backflush port and cracked-housing bypass points. Conceptual, not to scale.",
+    "reviewer": "Drinking-water treatment and equipment maintenance"
+  },
+  {
+    "id": "Z04-P39",
+    "zone": "Z04",
+    "title": "Disinfect clear water with unscented household chlorine bleach",
+    "origin": "EPA and CDC emergency disinfection guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Confirm the bottle is plain unscented liquid bleach with 5%–9% sodium hypochlorite—never use scented, color-safe, splash-less or cleaner-added bleach.",
+        "claims": [
+          "W12"
+        ]
+      },
+      {
+        "text": "Clarify cloudy water first, measure the label-matched EPA/CDC dose (for 5%–9% bleach: about 8 drops or just under 1/8 tsp per gallon of clear water; double if still slightly cloudy), and mix thoroughly.",
+        "claims": [
+          "W12",
+          "W08"
+        ]
+      },
+      {
+        "text": "Let stand at least 30 minutes; water should have a faint chlorine odor (if not, repeat the dose and wait another 15 minutes), remembering chlorine does not reliably kill Cryptosporidium.",
+        "claims": [
+          "W12",
+          "W20"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Apply label-verified household sodium hypochlorite accurately when boiling is unavailable and chemical hazards are excluded.",
+    "applies": "Emergency drinking-water disinfection using fresh, regular unscented liquid bleach (5%–9% sodium hypochlorite) on chemically acceptable water.",
+    "equipment": "Fresh unscented 5%–9% liquid bleach with readable label, clean dropper or measuring spoon, pre-filter cloth, timer and clean lidded container.",
+    "failure": {
+      "text": "Using aged weak bleach, scented laundry bleach, or drinking immediately without the 30-minute contact wait.",
+      "claims": [
+        "W12",
+        "W05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm bleach label concentration, exact volume dosed, 30-minute timer completion and faint chlorine smell before drinking.",
+      "claims": [
+        "W12",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject bleach disinfection if chemical/fuel/algal contamination is suspected, if bleach concentration is unreadable or non-plain, or if Cryptosporidium risk requires boiling or cyst filtration.",
+      "claims": [
+        "W01",
+        "W12",
+        "W15",
+        "W20"
+      ]
+    },
+    "diagram": "Verify 5-9% unscented label | Clarify and dose per gallon | Mix and wait ≥30 min",
+    "visual": "Mechanism diagram tracing chlorine concentration verification, turbidity pre-clarification and 30-minute contact-time inactivation kinetics. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and public health"
+  },
+  {
+    "id": "Z04-P40",
+    "zone": "Z04",
+    "title": "Match chlorine dioxide and halogen tablets to temperature and contact time",
+    "origin": "CDC backcountry treatment; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Read the product's active chemistry, expiration date and exact volume rating; chlorine dioxide, chlorine and iodine differ sharply in cyst coverage and wait times.",
+        "claims": [
+          "W05",
+          "W10",
+          "W20"
+        ]
+      },
+      {
+        "text": "Clarify turbid water first and extend contact time strictly according to the label when treating cold water or targeting resistant parasites like Cryptosporidium.",
+        "claims": [
+          "W05",
+          "W08",
+          "W20"
+        ]
+      },
+      {
+        "text": "Screen every group member before using iodine—avoid iodine-treated water during pregnancy, with thyroid conditions or with iodine hypersensitivity.",
+        "claims": [
+          "W10"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Follow exact manufacturer dose, water-temperature and contact-time tables for portable chemical disinfection products.",
+    "applies": "Backcountry travel using commercial chlorine dioxide tablets/drops, chlorine tablets or iodine products on chemically acceptable raw water.",
+    "equipment": "Unexpired commercial disinfectant in original labeled packaging, graduated container, pre-filter cloth and watch or timer.",
+    "failure": {
+      "text": "Using a short summer wait time in near-freezing stream water, or using expired blister packs with discolored crumbled tablets.",
+      "claims": [
+        "W05",
+        "W10"
+      ]
+    },
+    "verify": {
+      "text": "Record exact product, volume, water clarity, start time and label-required finish time before anyone drinks.",
+      "claims": [
+        "W05",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not guess doses from unlabeled loose tablets or use chemical disinfection to handle suspected fuel, chemical or algal-toxin contamination.",
+      "claims": [
+        "W01",
+        "W05",
+        "W15"
+      ]
+    },
+    "diagram": "Match chemistry and user | Adjust wait for cold water | Complete full contact time",
+    "visual": "Mechanism diagram illustrating how water clarity, cold temperature and active halogen/chlorine-dioxide chemistry govern required contact time. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and wilderness medicine"
+  },
+  {
+    "id": "Z04-P41",
+    "zone": "Z04",
+    "title": "Recognize why boiling and chlorine fail against algal and chemical toxins",
+    "origin": "CDC, EPA and MDH contaminant guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Distinguish living pathogens (bacteria, viruses, parasites—killed by heat or targeted disinfection) from chemical poisons (cyanotoxins, metals, nitrates, solvents—unaffected by boiling).",
+        "claims": [
+          "W01",
+          "W15",
+          "W22"
+        ]
+      },
+      {
+        "text": "Recognize that boiling water containing dissolved heavy metals, nitrates or cyanotoxins evaporates pure steam and leaves the remaining liquid MORE concentrated in toxin.",
+        "claims": [
+          "W15",
+          "W16",
+          "W22"
+        ]
+      },
+      {
+        "text": "Switch immediately to sealed commercial water, verified municipal stations or an uncontaminated watershed whenever chemical or algal-toxin hazards are present.",
+        "claims": [
+          "W01",
+          "W07",
+          "W15"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Understand the physical and chemical boundary separating living microbes from heat-stable toxins and dissolved chemicals.",
+    "applies": "Any water source impacted by harmful algal blooms, fuel spills, mine drainage, agricultural nitrates, heavy metals or industrial releases.",
+    "equipment": "Local advisories, alternate potable water supply and poison-control or public-health contact information.",
+    "failure": {
+      "text": "Applying a rolling boil or double chlorine dose to green lake scum or fuel-tainted floodwater in the belief that stronger microbial treatment removes poisons.",
+      "claims": [
+        "W01",
+        "W15",
+        "W16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every group member can name two contaminants that boiling makes worse rather than safer.",
+      "claims": [
+        "W15",
+        "W22",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Suspected chemical, fuel, heavy-metal, radioactive or harmful algal bloom contamination is an absolute stop to field boiling and standard disinfection.",
+      "claims": [
+        "W01",
+        "W15",
+        "W16",
+        "W22"
+      ]
+    },
+    "diagram": "Microbes: killed by heat | Toxins: survive boiling | Evaporation concentrates poisons",
+    "visual": "Comparative configuration contrasting pathogen thermal inactivation against heat-stable cyanotoxins and dissolved inorganic/organic chemicals. Conceptual, not to scale.",
+    "reviewer": "Environmental toxicology and drinking-water safety"
+  },
+  {
+    "id": "Z04-P42",
+    "zone": "Z04",
+    "title": "Sequence clarification, filtration and chemical or UV disinfection",
+    "origin": "CDC multi-barrier backcountry guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Clarify turbid water first by settling or cloth straining so sediment does not clog the fine filter cartridge or block UV light.",
+        "claims": [
+          "W08",
+          "W24",
+          "W11"
+        ]
+      },
+      {
+        "text": "Pass clarified water through a cyst- and bacteria-rated filter into a clean vessel to remove protozoa (Giardia, Cryptosporidium) and particulate shielding.",
+        "claims": [
+          "W04",
+          "W19",
+          "W20"
+        ]
+      },
+      {
+        "text": "Apply the secondary barrier—label-directed chemical disinfection or rated UV cycle—to inactivate viruses and any bacteria not caught by the filter, keeping threads clean.",
+        "claims": [
+          "W04",
+          "W05",
+          "W11"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Combine physical clarification, pore filtration and secondary disinfection in the right order to close single-method gaps.",
+    "applies": "Untreated surface water where turbidity, parasites, bacteria and viruses may coexist and chemical hazards are excluded.",
+    "equipment": "Pre-filter cloth or settling vessel, cyst-rated filter and matched chemical disinfectant or UV purifier.",
+    "failure": {
+      "text": "Running UV or bleach before settling cloudy water, or filtering after disinfection through a dirty cartridge that reintroduces microbes.",
+      "claims": [
+        "W08",
+        "W11",
+        "W04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm each barrier ran in strict order (screen -> clarify -> filter -> disinfect) with no raw-side contact after the final step.",
+      "claims": [
+        "W04",
+        "W08",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If any required barrier fails or chemical contamination is suspected, switch to boiling (if chemically safe) or seek an alternate potable source.",
+      "claims": [
+        "W01",
+        "W02",
+        "W04"
+      ]
+    },
+    "diagram": "Clarify solids first | Filter cysts and bacteria | Disinfect viruses last",
+    "visual": "Mechanism diagram sequencing four progressive barriers from raw source screening through clarification, filtration and viral disinfection. Conceptual, not to scale.",
+    "reviewer": "Drinking-water treatment engineering"
+  },
+  {
+    "id": "Z04-P43",
+    "zone": "Z04",
+    "title": "Aerate and cool boiled water cleanly without recontamination",
+    "origin": "EPA emergency disinfection and CDC storage; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Keep the pot covered while boiling water cools naturally so airborne dust, ash and insects do not enter the clean batch.",
+        "claims": [
+          "W02",
+          "W06"
+        ]
+      },
+      {
+        "text": "If flat taste is an issue after cooling, pour the cooled water back and forth between two clean, sanitized containers in clean air, or add a tiny pinch of clean salt per quart if appropriate.",
+        "claims": [
+          "W27",
+          "W06"
+        ]
+      },
+      {
+        "text": "Transfer into a labeled, tightly capped potable vessel without touching the inner rim, spout or water surface with unwashed hands or raw utensils.",
+        "claims": [
+          "W06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Cool boiled water safely and improve flat taste only with sanitized clean-side containers.",
+    "applies": "Water that has completed a full CDC rolling boil (1 minute; 3 minutes above 6,500 feet) in a clean pot.",
+    "equipment": "Clean pot lid, two clean sanitized food-grade pouring vessels and clean storage cap.",
+    "failure": {
+      "text": "Cooling an uncovered pot beside a dusty campfire or pouring boiled water through an unwashed raw funnel to aerate it.",
+      "claims": [
+        "W02",
+        "W06",
+        "W27"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the pot stayed covered during cooling and any aeration vessels were strictly clean-side sanitized.",
+      "claims": [
+        "W02",
+        "W27",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Skip open-air aeration in dusty, smoky or unsanitary conditions; if raw splashes enter cooled water, re-boil the batch before drinking.",
+      "claims": [
+        "W27",
+        "W02",
+        "W06"
+      ]
+    },
+    "diagram": "Cool covered in pot | Optional clean-vessel pour | Seal in labeled potable bottle",
+    "visual": "Cutaway vessel view showing covered cooling protection, clean-to-clean aeration pour and sealed potable storage boundary. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and public health"
+  },
+  {
+    "id": "Z04-P44",
+    "zone": "Z04",
+    "title": "Choose primary and backup treatment methods by route and elevation",
+    "origin": "NPS water purification and CDC treatment; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Match your primary method to expected water turbidity, temperature, group size and fuel supply—remembering boiling requires 3 minutes above 6,500 feet.",
+        "claims": [
+          "W26",
+          "W02",
+          "W24"
+        ]
+      },
+      {
+        "text": "Choose a backup with a different failure mode (for example, chemical tablets or boiling to back up a freeze-vulnerable filter or battery-dependent UV wand).",
+        "claims": [
+          "W26",
+          "W28",
+          "W11"
+        ]
+      },
+      {
+        "text": "Verify that every container, stove fuel canister, battery and disinfectant packet needed for both systems is packed, compatible and tested before leaving home.",
+        "claims": [
+          "W26",
+          "E02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Pair two complementary treatment methods before departure so cold, altitude, turbidity or gear failure does not leave the group stranded.",
+    "applies": "Pre-trip water-system planning across summer trails, high-altitude routes, winter camps and emergency kits.",
+    "equipment": "Primary treatment method (e.g., cyst-rated filter or stove/pot) plus independent backup (e.g., chemical tablets or boiling vessel).",
+    "failure": {
+      "text": "Carrying two battery-powered devices in winter cold or relying solely on a hollow-fiber filter on a high-silt glacial or storm-swollen river.",
+      "claims": [
+        "W26",
+        "W28",
+        "W11"
+      ]
+    },
+    "verify": {
+      "text": "Confirm you can execute your backup treatment completely independently if your primary device breaks, clogs or loses power.",
+      "claims": [
+        "W26",
+        "E02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not start an extended remote route with only a single untested treatment device and no safe carried water reserve.",
+      "claims": [
+        "W09",
+        "W26",
+        "E02"
+      ]
+    },
+    "diagram": "Assess silt, cold and altitude | Select primary method | Pair independent backup",
+    "visual": "Decision tree matching elevation, temperature and turbidity constraints to non-overlapping primary and backup treatment pairs. Conceptual, not to scale.",
+    "reviewer": "Backcountry water safety and field equipment"
+  },
+  {
+    "id": "Z04-P45",
+    "zone": "Z04",
+    "title": "Clean and sanitize reusable food-grade water storage containers",
+    "origin": "CDC container sanitization guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inspect the container first—use only intact food-grade vessels with tight-fitting lids, never containers that ever held toxic chemicals, cleaners or fuel.",
+        "claims": [
+          "W06",
+          "W13"
+        ]
+      },
+      {
+        "text": "Wash the interior, cap and threads thoroughly with dish soap and warm water, then rinse completely with safe water.",
+        "claims": [
+          "W13"
+        ]
+      },
+      {
+        "text": "Sanitize by swirling a CDC bleach solution (1 teaspoon unscented 5%–9% bleach per quart of water) over all inner surfaces for at least 30 seconds, pour out and rinse with safe water or air dry.",
+        "claims": [
+          "W13"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prepare safe food-grade containers before filling them with emergency or backcountry drinking water.",
+    "applies": "Reusable food-grade plastic or metal water jugs, bottles and bladders prior to filling with potable water.",
+    "equipment": "Dishwashing soap, warm potable water, plain unscented 5%–9% liquid household bleach, measuring teaspoon and clean drain rack.",
+    "failure": {
+      "text": "Filling unwashed recycled milk jugs, cracked bottles or former chemical containers with emergency drinking water.",
+      "claims": [
+        "W06",
+        "W13"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the container is food-grade, odor-free, rinsed clean after sanitizing and sealed promptly with a clean tight cap.",
+      "claims": [
+        "W13",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Discard containers with persistent chemical odor, cracked plastic, damaged gaskets or unknown industrial history; washing cannot make them safe.",
+      "claims": [
+        "W06",
+        "W13"
+      ]
+    },
+    "diagram": "Wash with soap and rinse | Sanitize ≥30 s dilute bleach | Rinse with safe water and seal",
+    "visual": "Exploded component view showing container body, cap threads, gasket seal and the three-stage wash-sanitize-rinse sequence. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and public health"
+  },
+  {
+    "id": "Z04-P46",
+    "zone": "Z04",
+    "title": "Reject incompatible, chemical-residue or unrated water vessels",
+    "origin": "CDC storage containers and B009 vessel limits; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Reject any jug, drum or bottle that previously stored fuel, pesticides, motor oil, pool chemicals, paint or industrial cleaners—trace residues cannot be washed out reliably.",
+        "claims": [
+          "W06",
+          "W13",
+          "W01"
+        ]
+      },
+      {
+        "text": "Avoid glass containers for emergency water storage or transport because breakage causes sudden water loss and injury; reject degraded brittle plastic jugs.",
+        "claims": [
+          "W06",
+          "W13"
+        ]
+      },
+      {
+        "text": "Never heat or boil water in lined, painted, soldered, unknown-alloy or plastic containers not expressly rated by the manufacturer for direct heat.",
+        "claims": [
+          "W01",
+          "W02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent chemical leaching, breakage and heat failure by screening container materials before storage or boiling.",
+    "applies": "Selecting emergency storage jugs, field canteens and cooking vessels in household or improvised settings.",
+    "equipment": "Marked food-grade containers (e.g., HDPE/food-safe plastic or food-grade stainless steel) and permanent marker for labeling.",
+    "failure": {
+      "text": "Storing drinking water in a rinsed windshield-washer jug or boiling water inside an epoxy-lined aluminum bottle or unknown salvaged can.",
+      "claims": [
+        "W06",
+        "W01",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every storage vessel is food-grade with known clean history and every boiling pot is plain, unlined, heat-rated metal.",
+      "claims": [
+        "W06",
+        "W02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When no verified safe vessel exists for boiling or storage, rely on sealed commercial water or seek assistance rather than heating unknown containers.",
+      "claims": [
+        "W01",
+        "W06",
+        "W09"
+      ]
+    },
+    "diagram": "Food-grade clean history | Reject prior chemical jugs | Heat only rated plain metal",
+    "visual": "Comparative configuration contrasting approved food-grade storage and plain metal boil pots against rejected chemical, glass and lined vessels. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and materials safety"
+  },
+  {
+    "id": "Z04-P47",
+    "zone": "Z04",
+    "title": "Match boiling vessels to stoves and outdoor fires safely",
+    "origin": "B009 vessel notes and NPS/CPSC stove safety; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Use only single-wall, unlined heat-safe metal vessels—never heat sealed bottles, vacuum-insulated flasks (which can rupture) or plastic containers over flame.",
+        "claims": [
+          "W02",
+          "C15",
+          "ED"
+        ]
+      },
+      {
+        "text": "Check pot stability on stove supports or fire grates on level cleared outdoor ground so boiling water cannot tip onto legs or extinguish the burner with spilled fuel.",
+        "claims": [
+          "C15",
+          "C02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep all stove and fire boiling strictly outdoors away from tents, vestibules and vehicles, and use a pot lifter or insulated grip when removing hot lids.",
+        "claims": [
+          "C05",
+          "C16",
+          "C15"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent tipping burns, vessel failure and carbon monoxide hazards when heating water for microbial treatment.",
+    "applies": "Boiling acceptable raw water outdoors on a portable camp stove or authorized campfire ring.",
+    "equipment": "Plain single-wall heat-safe metal pot with lid and lifter/handle, stable outdoor stove or authorized grate and level non-combustible base.",
+    "failure": {
+      "text": "Placing a vacuum-insulated steel bottle on coals or balancing an oversized heavy pot on a narrow ultralight stove inside a tent vestibule.",
+      "claims": [
+        "C05",
+        "C15",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm single-wall unlined metal construction, unsealed lid venting, level outdoor support and clear space around the hot zone.",
+      "claims": [
+        "C15",
+        "C05",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the vessel is sealed, lined, unstable or the only sheltered space is enclosed, stop heating and use an alternate safe method or supply.",
+      "claims": [
+        "C05",
+        "C15",
+        "W02"
+      ]
+    },
+    "diagram": "Single-wall unlined metal | Level outdoor stove support | Vent lid and clear hot zone",
+    "visual": "Exploded view of a safe outdoor boiling assembly contrasting single-wall vented pots against sealed/insulated rupture hazards. Conceptual, not to scale.",
+    "reviewer": "Portable appliance safety and drinking-water safety"
+  },
+  {
+    "id": "Z04-P48",
+    "zone": "Z04",
+    "title": "Prevent bottle, bladder and valve freezing during winter transport",
+    "origin": "NWS cold safety and CDC cold-weather limits; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Prefer wide-mouth hard bottles over narrow-neck bottles or thin hydration bite-valves and tubes, which freeze shut quickly in subfreezing wind.",
+        "claims": [
+          "E15",
+          "E10",
+          "ED"
+        ]
+      },
+      {
+        "text": "Carry water inside insulated sleeves or near the center of your pack wrapped in spare layers, storing wide-mouth bottles upside down so ice forms away from the threads first.",
+        "claims": [
+          "E15",
+          "ED"
+        ]
+      },
+      {
+        "text": "Check cap gaskets before stowing inside dry insulation or a sleeping bag so a leaky lid cannot soak critical dry clothing or bedding.",
+        "claims": [
+          "E10",
+          "W06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep treated drinking water liquid and accessible during subfreezing travel without damaging bottles or soaking insulation.",
+    "applies": "Winter hiking, skiing, snowshoeing or cold vehicle emergencies below 32°F (0°C).",
+    "equipment": "Wide-mouth insulated bottles, tight-sealing leak-proof caps and insulating sleeves or inner-pack placement.",
+    "failure": {
+      "text": "Relying on an exposed shoulder-strap hose that freezes solid in the first mile, leaving liters of water inaccessible until camp.",
+      "claims": [
+        "E15",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm caps seal leak-free, mouth openings are accessible without frozen valves and water stays liquid at scheduled drink breaks.",
+      "claims": [
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never warm frozen plastic bottles directly over open flame or stove burners; thaw safely in warm water or sheltered body/ambient heat.",
+      "claims": [
+        "W02",
+        "C15",
+        "ED"
+      ]
+    },
+    "diagram": "Wide-mouth leak-proof bottle | Insulated inner-pack carry | Avoid exposed freeze-prone tubes",
+    "visual": "Cutaway view of an insulated wide-mouth bottle stored inverted inside pack layers versus a frozen exposed hydration tube. Conceptual, not to scale.",
+    "reviewer": "Cold-weather operations and field equipment"
+  },
+  {
+    "id": "Z04-P49",
+    "zone": "Z04",
+    "title": "Label and physically separate raw, in-treatment and potable containers",
+    "origin": "B009 hygiene and CDC storage; new manuscript",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Assign unmistakable physical differences—color, shape or bold waterproof labels—to raw collection bags, active chemical-wait vessels and ready-to-drink containers.",
+        "claims": [
+          "W06",
+          "W05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep raw vessels, scoops and pre-filters in a separate physical zone from clean drinking bottles, cups and cooking utensils.",
+        "claims": [
+          "W06",
+          "W08",
+          "ED"
+        ]
+      },
+      {
+        "text": "Tag any chemically disinfecting bottle with its finish time (or keep its lid visibly marked) so no one drinks before contact time expires.",
+        "claims": [
+          "W05",
+          "W12",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate mix-ups between untreated water, actively disinfecting batches and finished drinking water.",
+    "applies": "Multi-person camps, households under boil advisories and backcountry groups running batch water treatment.",
+    "equipment": "Permanent marker or high-contrast tape, distinct raw-only and potable-only vessels and timer or written batch log.",
+    "failure": {
+      "text": "Handing an unlabeled clear bottle mid-disinfection to a thirsty companion or scooping boiled water with the same mug used to dip stream water.",
+      "claims": [
+        "W06",
+        "W05",
+        "W09"
+      ]
+    },
+    "verify": {
+      "text": "Any group member can identify raw, waiting and potable vessels immediately in dim light without asking or guessing by clarity.",
+      "claims": [
+        "W06",
+        "W09",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If a container's treatment status becomes uncertain or raw water contacts a clean rim, reclassify the entire vessel as raw until re-treated.",
+      "claims": [
+        "W06",
+        "W09",
+        "ED"
+      ]
+    },
+    "diagram": "Raw zone: marked dirty | Waiting zone: timed batch | Clean zone: sealed potable",
+    "visual": "Comparative configuration showing three physically separated container zones with high-contrast labels and clean-side dispensing control. Conceptual, not to scale.",
+    "reviewer": "Drinking-water safety and public health"
+  },
+  {
+    "id": "Z04-P50",
+    "zone": "Z04",
+    "title": "Rotate household water reserves and inspect seals and storage heat",
+    "origin": "CDC emergency water supply; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Label self-filled potable containers with fill date and rotate stored tap water every 6 months; follow printed expiration dates on sealed commercial water.",
+        "claims": [
+          "W14",
+          "W06"
+        ]
+      },
+      {
+        "text": "Store water in a cool, dark location off bare concrete if recommended and well away from gasoline, pesticides, paint thinners or cleaning chemicals whose vapors can permeate plastics.",
+        "claims": [
+          "W06",
+          "W01"
+        ]
+      },
+      {
+        "text": "Inspect stored jugs periodically for leaks, swollen caps, brittle plastic or off-odors, and keep a portable portion ready for rapid evacuation.",
+        "claims": [
+          "W06",
+          "W14",
+          "T13"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Maintain stored household potable water so containers stay intact, cool and ready when municipal service fails.",
+    "applies": "Home, cabin and vehicle emergency water reserves prepared ahead of outages, storms or advisories.",
+    "equipment": "Commercially bottled water or sanitized food-grade jugs, permanent marker, cool dark storage space and calendar reminder.",
+    "failure": {
+      "text": "Stacking emergency water jugs next to lawnmower gas cans in a hot garage for years without checking seals or rotating water.",
+      "claims": [
+        "W01",
+        "W06",
+        "W14"
+      ]
+    },
+    "verify": {
+      "text": "Confirm fill/expiration dates are current, seals are tight, storage stays cool and chemical-free, and at least 1 gallon per person per day for 3+ days is accessible.",
+      "claims": [
+        "W14",
+        "W06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Replace any leaking, sun-degraded or chemically exposed container immediately rather than trusting its contents during an emergency.",
+      "claims": [
+        "W01",
+        "W06"
+      ]
+    },
+    "diagram": "Date and rotate every 6 mo | Store cool away from fuels | Inspect seals and evacuation grab",
+    "visual": "Exploded maintenance layout detailing storage environment isolation, six-month rotation tagging, seal inspection and evacuation reserve staging. Conceptual, not to scale.",
+    "reviewer": "Household preparedness and drinking-water safety"
+  },
+  {
+    "id": "Z04-P51",
+    "zone": "Z04",
+    "title": "Enforce potable-water boundaries for hygiene, wounds and infant formula",
+    "origin": "CDC emergency water and advisories; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Use only bottled or properly boiled-and-cooled water for drinking, mixing infant formula, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes.",
+        "claims": [
+          "W29",
+          "W07"
+        ]
+      },
+      {
+        "text": "Rinse open wounds only with confirmed clean potable water (or sterile saline if available); never irrigate wounds with untreated stream, flood or bloom-affected water.",
+        "claims": [
+          "W29",
+          "W15",
+          "T01"
+        ]
+      },
+      {
+        "text": "Under a Do Not Use advisory, obey official prohibitions on bathing, dishwashing and skin contact completely until authorities lift the order.",
+        "claims": [
+          "W07",
+          "W29"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Apply safe-water standards consistently to teeth brushing, food washing, wound rinsing and infant feeding during advisories.",
+    "applies": "Boil-water advisories, backcountry camps and disaster outages where untreated water is nearby for utility tasks.",
+    "equipment": "Verified potable water, separate labeled utility water if permitted by notice, soap or alcohol hand sanitizer and clean utensils.",
+    "failure": {
+      "text": "Boiling water for drinking while brushing teeth, washing lettuce or mixing baby formula with unboiled advisory tap water.",
+      "claims": [
+        "W29",
+        "W07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every ingestion, oral-hygiene, food-prep, infant-formula and wound-care task draws exclusively from the verified potable supply.",
+      "claims": [
+        "W29",
+        "W07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance.",
+      "claims": [
+        "W29",
+        "T02",
+        "ED"
+      ]
+    },
+    "diagram": "Ingestion and formula: potable | Wounds and dishes: potable | Do-Not-Use: zero tap contact",
+    "visual": "Decision tree routing household and field hygiene tasks strictly between verified potable supplies and official advisory prohibitions. Conceptual, not to scale.",
+    "reviewer": "Public health and wilderness medicine"
+  },
+  {
+    "id": "Z04-P52",
+    "zone": "Z04",
+    "title": "Recognize filter bypass, expired bleach and incomplete UV cycles",
+    "origin": "CDC water treatment limits; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat sudden unusually fast filter flow, cracked housings, missing O-rings or prior freezing of a wet cartridge as signs of mechanical bypass.",
+        "claims": [
+          "W28",
+          "W04"
+        ]
+      },
+      {
+        "text": "Reject chemical disinfection if bleach is older than recommended or lacks a faint chlorine odor after repeat dosing, or if tablets are expired, damp or crumbled.",
+        "claims": [
+          "W12",
+          "W05"
+        ]
+      },
+      {
+        "text": "Treat blinking error indicators, low-battery shutdowns, turbid water or oversized bottles as incomplete UV cycles that leave microbes active.",
+        "claims": [
+          "W11"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Catch silent treatment failures before anyone drinks an inadequately treated batch of water.",
+    "applies": "Field and household operation of portable filters, chemical disinfectants and battery-powered UV purifiers.",
+    "equipment": "Working backup treatment method, product labels, watch/timer and batch tracking log.",
+    "failure": {
+      "text": "Drinking a batch after a UV wand flickered out mid-cycle or after a frozen squeeze filter suddenly flowed twice as fast as normal.",
+      "claims": [
+        "W11",
+        "W28"
+      ]
+    },
+    "verify": {
+      "text": "Confirm each treatment batch met its full mechanical integrity, dose/odor or rated UV cycle criterion before releasing it to the clean side.",
+      "claims": [
+        "W04",
+        "W11",
+        "W12",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Whenever any treatment device shows bypass, power failure or uncertain dose, quarantine the batch and re-treat by boiling (if chemically safe) or switch to another supply.",
+      "claims": [
+        "W02",
+        "W11",
+        "W28"
+      ]
+    },
+    "diagram": "Abnormal flow or UV error | Quarantine suspect batch | Re-boil or switch supply",
+    "visual": "Failure-mode illustration linking filter bypass, degraded bleach and aborted UV cycles to observable cues and immediate batch quarantine. Conceptual, not to scale.",
+    "reviewer": "Drinking-water treatment and equipment safety"
+  },
+  {
+    "id": "Z04-P53",
+    "zone": "Z04",
+    "title": "Recognize chemical odor, sheen, industrial runoff and taste warnings",
+    "origin": "CDC and EPA chemical water hazards; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Reject any water showing iridescent fuel sheen, chemical or solvent odor, soapy foam from industrial discharge, strange color or dead fish/wildlife nearby.",
+        "claims": [
+          "W01",
+          "W22",
+          "W15"
+        ]
+      },
+      {
+        "text": "Recognize the opposite trap: dangerous concentrations of lead, arsenic, nitrates, pesticides and many cyanotoxins have no smell, taste or color—never taste suspect water to test it.",
+        "claims": [
+          "W22",
+          "W23",
+          "W16"
+        ]
+      },
+      {
+        "text": "Keep suspected chemical-contaminated water off skin and away from cooking pots, filters and clean storage containers to avoid contaminating your equipment.",
+        "claims": [
+          "W01",
+          "W06",
+          "W18"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify sensory and environmental warning signs of toxic chemical contamination while recognizing that many chemicals are odorless.",
+    "applies": "Screening surface water, flood-affected wells, damaged pipes and emergency storage containers before treatment.",
+    "equipment": "Local advisories, carried potable water and alternate supply contacts.",
+    "failure": {
+      "text": "Dipping a reusable filter into oily storm runoff to see if carbon removes the smell, ruining the cartridge and still risking toxic exposure.",
+      "claims": [
+        "W01",
+        "W21",
+        "W22"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero sensory or landscape indicators of chemical release and verify no local Do Not Drink or Do Not Use notice applies.",
+      "claims": [
+        "W01",
+        "W07",
+        "W22",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Any suspected fuel, solvent, pesticide, heavy-metal or algal-toxin hazard requires immediate source abandonment and switching to an alternate safe supply.",
+      "claims": [
+        "W01",
+        "W15",
+        "W22"
+      ]
+    },
+    "diagram": "Sheen, odor or runoff cue | Never taste to test | Abandon source and protect gear",
+    "visual": "Failure-mode illustration separating visible/odor chemical cues from invisible dissolved toxins and showing mandatory gear/source rejection. Conceptual, not to scale.",
+    "reviewer": "Environmental toxicology and drinking-water safety"
+  },
+  {
+    "id": "Z04-P54",
+    "zone": "Z04",
+    "title": "Shift to alternative water supplies when local sources are unusable",
+    "origin": "CDC advisories and emergency water supply; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inventory remaining sealed commercial water and verified potable household reserves (including safe drained water-heater tanks only if municipal supply was uncontaminated and power/fuel is shut off per official guidance).",
+        "claims": [
+          "W06",
+          "W07",
+          "W14",
+          "ED"
+        ]
+      },
+      {
+        "text": "Locate official municipal bulk-water distribution sites, neighboring uncontaminated utilities or alternate mapped watersheds reachable without creating travel hazards.",
+        "claims": [
+          "W07",
+          "W01",
+          "E01"
+        ]
+      },
+      {
+        "text": "Reduce physical exertion and heat exposure while conserving safe drinking water; prioritize hydration for infants, older adults and medically vulnerable members.",
+        "claims": [
+          "E08",
+          "W14",
+          "T10"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Execute a structured fallback plan when chemical spills, algal blooms, drought or equipment failure eliminate local water sources.",
+    "applies": "Household water disruptions, contaminated local lakes/wells and backcountry trips encountering dry or polluted sources.",
+    "equipment": "Local emergency distribution info, vehicle/exit map, sealed potable reserve and communication device.",
+    "failure": {
+      "text": "Trying to push deeper into a dry or bloom-affected backcountry corridor or attempting risky improvised distillation of chemical-contaminated water.",
+      "claims": [
+        "W01",
+        "W15",
+        "E01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm remaining safe liters, hours of margin and the exact safe route to an official potable refill or exit.",
+      "claims": [
+        "W14",
+        "W07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Turn back or relocate early before safe drinking water runs out; never drink chemically contaminated water as a stopgap.",
+      "claims": [
+        "W01",
+        "W07",
+        "ED"
+      ]
+    },
+    "diagram": "Audit remaining potable reserve | Cut heat and exertion loss | Relocate to verified supply",
+    "visual": "Decision tree directing transitions from local source rejection to reserve auditing, exertion reduction and verified alternate potable sources. Conceptual, not to scale.",
+    "reviewer": "Emergency management and drinking-water safety"
+  },
+  {
+    "id": "Z04-P55",
+    "zone": "Z04",
+    "title": "Escalate to emergency assistance when safe hydration cannot be maintained",
+    "origin": "NPS emergency plan, ARC first aid and CDC water; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Halt strenuous travel in shade or wind protection to slow fluid loss through sweat and respiration while assessing remaining safe water and exit distance.",
+        "claims": [
+          "E08",
+          "E05",
+          "W09"
+        ]
+      },
+      {
+        "text": "Watch the group for worsening dizziness, confusion, inability to keep fluids down, minimal dark urination or heat illness—signs that require prompt medical help.",
+        "claims": [
+          "T01",
+          "T05",
+          "T09"
+        ]
+      },
+      {
+        "text": "Contact 911, local emergency management or search and rescue early with your verified location, party size, water status and any medical or mobility needs.",
+        "claims": [
+          "T02",
+          "T06",
+          "T10"
+        ]
+      }
+    ],
+    "batch": "07-f06-z04-water",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize severe dehydration or unresolvable water shortage early enough to summon help safely.",
+    "applies": "Stranded outdoor parties or isolated households without safe water, working treatment or safe self-evacuation routes.",
+    "equipment": "Phone, emergency communicator or NOAA radio, written location details and shade or thermal shelter.",
+    "failure": {
+      "text": "Waiting until severe confusion or heat stroke develops before calling for help, or drinking fuel- or bloom-tainted water out of panic.",
+      "claims": [
+        "T05",
+        "T09",
+        "W01",
+        "W15"
+      ]
+    },
+    "verify": {
+      "text": "Confirm your location, water shortage duration and any medical symptoms have been communicated clearly to responders or emergency contacts.",
+      "claims": [
+        "T06",
+        "T02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Confusion, collapse, severe heat illness or multi-day inability to obtain safe water is an emergency requiring immediate responder activation.",
+      "claims": [
+        "T02",
+        "T05",
+        "T09",
+        "W01"
+      ]
+    },
+    "diagram": "Halt exertion in shelter | Screen dehydration and heat signs | Call responders early with location",
+    "visual": "Decision tree connecting unresolvable water shortage and symptom screening to early shelter stabilization and emergency rescue activation. Conceptual, not to scale.",
+    "reviewer": "Wilderness medicine, public health and search and rescue"
+  },
+  {
     "id": "Z11-R02",
     "zone": "Z11",
     "title": "Confirm the starting point and first checkpoint",

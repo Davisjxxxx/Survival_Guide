@@ -103,5 +103,501 @@
     "cause": "Cold battery drop, frozen filter, torn anchor, dead light",
     "cue": "Dim beam, bypass risk, heat loss or missing redundancy",
     "correction": "Switch to backup immediately and shorten or halt trip"
+  },
+  "Z04-P13": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Roads, farms & mines",
+      "Watershed screening buffer",
+      "Protected headwater (raw)"
+    ],
+    "callout": "Upstream land-use runoff enters lower channels"
+  },
+  "Z04-P14": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Downwind bloom & scum",
+      "Dissolved cyanotoxins",
+      "Alternate potable source"
+    ],
+    "callout": "Wind concentrates cyanobacteria; heat does NOT destroy toxins"
+  },
+  "Z04-P15": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Turbidity",
+        "note": "Visible silt/clay; removed by settling & cloth",
+        "limit": "Clarity ≠ potability"
+      },
+      {
+        "name": "Microbes",
+        "note": "Invisible bacteria, viruses, cysts; boil/filter+disinfect",
+        "limit": "Zero visual warning"
+      },
+      {
+        "name": "Chemicals",
+        "note": "Fuel, metals, nitrates, HAB toxins; reject source",
+        "limit": "Boiling can concentrate"
+      }
+    ]
+  },
+  "Z04-P16": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Moving Stream",
+        "note": "Lower algae & organics; still carries cysts/bacteria",
+        "limit": "Always treat raw water"
+      },
+      {
+        "name": "Clear Lake / Pond",
+        "note": "Moderate silt; check downwind shore for blooms",
+        "limit": "Screen HABs & runoff"
+      },
+      {
+        "name": "Stagnant Pool",
+        "note": "High organics, silt & bloom hazard",
+        "limit": "Reject if scum or odor"
+      }
+    ]
+  },
+  "Z04-P17": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Surface runoff / trails",
+      "Emergence point (raw)",
+      "Soil percolation"
+    ],
+    "callout": "Shallow seeps still carry microbes & nitrates",
+    "accent": "#5f98ad",
+    "hazard": "Always treat spring water"
+  },
+  "Z04-P18": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Culverts, fields & feedlots",
+      "Dissolved nitrates & fuel",
+      "Upstream / alternate supply"
+    ],
+    "callout": "Agricultural & road runoff bypasses microbial treatment"
+  },
+  "Z04-P19": {
+    "type": "failure_mode",
+    "cause": "Floodwaters mix sewage, fuel, debris & heavy silt",
+    "cue": "Swollen muddy river, oil sheen, rapid bank erosion",
+    "correction": "Stay on high ground; use potable reserves & advisories"
+  },
+  "Z04-P20": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Flooded wellhead",
+      "Casing & electrical risk",
+      "Bottled safe water"
+    ],
+    "callout": "Contractor disinfection & lab test required",
+    "accent": "#6a9cb0",
+    "hazard": "Do not drink flooded well"
+  },
+  "Z04-P21": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Household Floor",
+        "note": "≥1 gal/person/day for 3+ days baseline",
+        "limit": "Add for pets & medical"
+      },
+      {
+        "name": "Warm / Active",
+        "note": "Higher sweat loss; verify seasonal refills",
+        "limit": "Streams dry in drought"
+      },
+      {
+        "name": "Cold / Winter",
+        "note": "Dry air + stove fuel needed to melt snow",
+        "limit": "Sources freeze solid"
+      }
+    ]
+  },
+  "Z04-P22": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Clean suspended tarp",
+      "Splash-free raw catch",
+      "Separate clean storage"
+    ],
+    "callout": "Microbial treatment required before potable use",
+    "accent": "#699fb5",
+    "hazard": "Reject fuel/roof surfaces"
+  },
+  "Z04-P23": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Initial washout discard",
+      "Coarse raw screen",
+      "Raw hold -> Treatment"
+    ],
+    "callout": "Screening ≠ disinfection; roof runoff carries chemicals",
+    "accent": "#5f98ad"
+  },
+  "Z04-P24": {
+    "type": "cross_section",
+    "layers": [
+      "Bird droppings & dust",
+      "Leaf surface & plant tannins",
+      "Sprayed pesticide / sap risk",
+      "Raw drip water (untreated)"
+    ],
+    "callout": "Prefer clean food-contact sheet over foliage"
+  },
+  "Z04-P25": {
+    "type": "mechanism",
+    "nodes": [
+      "Stand Downstream on Firm Bank",
+      "Mid-Depth Gentle Skim Scoop",
+      "Lower-Silt Raw Batch"
+    ],
+    "callout": "Avoid stirring bottom mud that clogs filters",
+    "accent": "#4c869c"
+  },
+  "Z04-P26": {
+    "type": "cross_section",
+    "layers": [
+      "Windblown dust, tracks & salt crust (discard)",
+      "Clean mid-pack consolidated snow (raw)",
+      "Pine needles, soil & wet slush (avoid)",
+      "Frozen ground substrate"
+    ],
+    "callout": "All melted snow still requires microbial treatment"
+  },
+  "Z04-P27": {
+    "type": "mechanism",
+    "nodes": [
+      "Starter Water + Covered Pot Outdoors",
+      "Gradual Snow Addition (No Scorch)",
+      "Separate Rolling Boil / Treatment"
+    ],
+    "callout": "Never run fuel stove inside tent or vehicle",
+    "accent": "#c87b42"
+  },
+  "Z04-P28": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Loose Dry Snow",
+        "note": "Safe land collection; high stove fuel per liter",
+        "limit": "Treat after melting"
+      },
+      {
+        "name": "Shoreline Clear Ice",
+        "note": "Higher yield per pot if safely on solid land",
+        "limit": "Freezing ≠ sterilization"
+      },
+      {
+        "name": "Lake / River Ice",
+        "note": "Unverified thickness & immersion hazard",
+        "limit": "STOP: Stay on solid land"
+      }
+    ]
+  },
+  "Z04-P29": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Spring turbid snowmelt",
+      "Summer drought & HABs",
+      "Fall debris & winter freeze"
+    ],
+    "callout": "Match pre-filter, reserve volume & freeze plan to season"
+  },
+  "Z04-P30": {
+    "type": "failure_mode",
+    "cause": "Wet hollow-fiber / ceramic filter exposed below 32 F",
+    "cue": "No external crack visible; sudden fast flow bypass",
+    "correction": "Retire suspect filter; keep dry/warm or boil instead"
+  },
+  "Z04-P31": {
+    "type": "decision_tree",
+    "gates": [
+      "Firm bank & safe current?",
+      "Clear of shelf ice?",
+      "Collect from edge"
+    ],
+    "abort": "UNSAFE ACCESS: Step back, find shallow bank or melt snow"
+  },
+  "Z04-P32": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Raw turbid settling jar",
+      "Clearer upper decant",
+      "Downstream treatment"
+    ],
+    "callout": "Leave bottom silt undisturbed; settling ≠ disinfection",
+    "accent": "#689cb0"
+  },
+  "Z04-P33": {
+    "type": "cross_section",
+    "layers": [
+      "Coarse leaves, sand & silt (trapped)",
+      "Clean cloth / coffee filter weave",
+      "Strained raw water (microbes pass)",
+      "Mandatory boil / filter / disinfect stage"
+    ],
+    "callout": "Pre-filter protects gear; never yields potable water"
+  },
+  "Z04-P34": {
+    "type": "cross_section",
+    "layers": [
+      "Protozoan cysts (1-15 um: blocked ≤1 um)",
+      "Bacteria (0.2-2 um: blocked ≤0.2 um)",
+      "Viruses (0.02-0.1 um: pass typical filters)",
+      "Dissolved chemicals (pass mechanical pores)"
+    ],
+    "callout": "Pair filtration with disinfection for viral risk"
+  },
+  "Z04-P35": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Standard Chlorine",
+        "note": "Kills bacteria/viruses; weak on Crypto",
+        "limit": "Parasite gap in cold water"
+      },
+      {
+        "name": "Cyst Filter (≤1 um)",
+        "note": "NSF 53/55 or ≤1 um absolute removes cysts",
+        "limit": "Protect from freezing"
+      },
+      {
+        "name": "Rolling Boil",
+        "note": "1 min (3 min >6,500 ft) kills all microbes",
+        "limit": "No chemical removal"
+      }
+    ]
+  },
+  "Z04-P36": {
+    "type": "exploded",
+    "components": [
+      "Raw Intake / Bag",
+      "Cartridge Seal",
+      "Clean Outlet Spout",
+      "Potable Bottle Rim"
+    ],
+    "callout": "Strict raw-to-clean segregation prevents drip recontamination"
+  },
+  "Z04-P37": {
+    "type": "failure_mode",
+    "cause": "Damp pores freeze overnight in outer pack pocket",
+    "cue": "Silent micro-fracture inside ceramic or hollow fibers",
+    "correction": "Insulate inside sleeping bag or switch to boiling"
+  },
+  "Z04-P38": {
+    "type": "exploded",
+    "components": [
+      "Housing & Threads",
+      "O-Ring Gasket",
+      "Filter Element",
+      "Clean Backflush Port"
+    ],
+    "callout": "Backflush only with clean treated water; check seals for bypass"
+  },
+  "Z04-P39": {
+    "type": "mechanism",
+    "nodes": [
+      "Verify 5%-9% Unscented Label",
+      "Clarify + Measure Dose / Gal",
+      "Mix & Wait ≥30 Min (Faint Odor)"
+    ],
+    "callout": "Ineffective on Cryptosporidium, chemicals & HAB toxins",
+    "accent": "#4d859a"
+  },
+  "Z04-P40": {
+    "type": "mechanism",
+    "nodes": [
+      "Match Chemistry & User Screen",
+      "Clarify + Cold-Water Time Adjust",
+      "Complete Full Contact Wait"
+    ],
+    "callout": "Avoid iodine in pregnancy, thyroid disease or allergy",
+    "accent": "#5b899e"
+  },
+  "Z04-P41": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Pathogens",
+        "note": "Bacteria, viruses, cysts inactivated by boiling",
+        "limit": "Verify altitude boil time"
+      },
+      {
+        "name": "Cyanotoxins (HAB)",
+        "note": "Heat-stable; boiling concentrates toxins",
+        "limit": "STOP: Reject source"
+      },
+      {
+        "name": "Fuel / Metals / Nitrates",
+        "note": "Unaffected by boil, bleach or standard filter",
+        "limit": "STOP: Alternate supply"
+      }
+    ]
+  },
+  "Z04-P42": {
+    "type": "mechanism",
+    "nodes": [
+      "Screen & Clarify Solids",
+      "Cyst/Bacteria Pore Filter",
+      "Chemical or UV Viral Barrier"
+    ],
+    "callout": "Order matters: turbidity blocks UV & clogs filters",
+    "accent": "#3d7a69"
+  },
+  "Z04-P43": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Covered cooling pot",
+      "Clean-to-clean aeration",
+      "Labeled sealed potable"
+    ],
+    "callout": "Skip open pouring in dust/smoke; zero raw contact",
+    "accent": "#6aa1b4"
+  },
+  "Z04-P44": {
+    "type": "decision_tree",
+    "gates": [
+      "Source chemically safe?",
+      "Primary fits temp/silt?",
+      "Run + carry backup"
+    ],
+    "abort": "SINGLE-POINT FAILURE: Pair independent backup or carry safe reserve"
+  },
+  "Z04-P45": {
+    "type": "exploded",
+    "components": [
+      "Food-Grade Body",
+      "Soap Wash & Rinse",
+      "30s Bleach Sanitize",
+      "Safe Rinse & Tight Cap"
+    ],
+    "callout": "Never reuse containers that held fuel, bleach or toxic cleaners"
+  },
+  "Z04-P46": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Approved Storage",
+        "note": "Intact food-grade plastic or plain stainless",
+        "limit": "Tight lid, clean history"
+      },
+      {
+        "name": "Heat-Rated Boil Pot",
+        "note": "Single-wall unlined plain metal vessel",
+        "limit": "Never heat sealed flasks"
+      },
+      {
+        "name": "Rejected Vessels",
+        "note": "Prior chemical jugs, glass, lined/soldered cans",
+        "limit": "STOP: Do not use"
+      }
+    ]
+  },
+  "Z04-P47": {
+    "type": "exploded",
+    "components": [
+      "Single-Wall Metal Pot",
+      "Vented Lid & Lifter",
+      "Level Outdoor Stove",
+      "Cleared Fuel-Free Base"
+    ],
+    "callout": "Keep stoves outdoors; never heat sealed or vacuum-insulated vessels"
+  },
+  "Z04-P48": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Insulated pack core / sleeve",
+      "Inverted wide-mouth bottle",
+      "Dry leak-proof cap check"
+    ],
+    "callout": "Avoid exposed hoses",
+    "accent": "#6a9fb2",
+    "hazard": "Never flame-thaw plastic"
+  },
+  "Z04-P49": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "RAW Zone",
+        "note": "Marked dirty scoop, cloth & collection bags",
+        "limit": "Never touch clean rim"
+      },
+      {
+        "name": "WAITING Zone",
+        "note": "Tagged batch during active chemical contact",
+        "limit": "Do not drink early"
+      },
+      {
+        "name": "POTABLE Zone",
+        "note": "Labeled clean sealed bottles & clean cups",
+        "limit": "Re-treat if splashed"
+      }
+    ]
+  },
+  "Z04-P50": {
+    "type": "exploded",
+    "components": [
+      "6-Month Fill Date",
+      "Cool Dark Storage",
+      "Chemical-Free Zone",
+      "Evacuation Grab Jugs"
+    ],
+    "callout": "Store ≥1 gal/person/day away from heat, fuels and household cleaners"
+  },
+  "Z04-P51": {
+    "type": "decision_tree",
+    "gates": [
+      "Do-Not-Use notice?",
+      "Ingestion/wound/infant?",
+      "Use verified potable"
+    ],
+    "abort": "DO-NOT-USE: Zero tap contact; use bottled or official safe water"
+  },
+  "Z04-P52": {
+    "type": "failure_mode",
+    "cause": "Filter bypass, old weak bleach or aborted UV cycle",
+    "cue": "Sudden fast flow, zero chlorine odor, error blink",
+    "correction": "Quarantine batch immediately; re-boil or switch supply"
+  },
+  "Z04-P53": {
+    "type": "failure_mode",
+    "cause": "Fuel sheen, industrial solvent, pesticide or invisible toxin",
+    "cue": "Odor, iridescent film, foam — or ZERO visual warning",
+    "correction": "Never taste to test; abandon source & protect equipment"
+  },
+  "Z04-P54": {
+    "type": "decision_tree",
+    "gates": [
+      "Potable reserve left?",
+      "Safe alternate reachable?",
+      "Conserve & relocate"
+    ],
+    "abort": "NO SAFE SOURCE: Cut exertion, obey advisories & exit early"
+  },
+  "Z04-P55": {
+    "type": "decision_tree",
+    "gates": [
+      "Safe exit reachable?",
+      "Alert & no heat signs?",
+      "Stabilize in shade"
+    ],
+    "abort": "EMERGENCY: Confusion, heat illness or no safe water -> Call 911 / SAR"
   }
 }
