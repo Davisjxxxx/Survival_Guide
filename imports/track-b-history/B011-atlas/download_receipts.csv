@@ -1,0 +1,15 @@
+asset_id,state,original_sha1,original_sha256,derivative_sha256,rights_checked_at_download,source_page,reviewer,species_identity_review,pixel_dimensions,error
+BAS-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+BAS-BARK,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+ASP-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+ASP-BARK,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+CED-BARK,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+CED-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+BIR-BARK,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+BIR-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+COT-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+MUL-PLANT,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)
+MUL-STALK,FAILED,,,,,,,,,HTTP Error 429: Too Many Requests
+DOG-PLANT,FAILED,,,,,,,,,HTTP Error 429: Too Many Requests
+DOG-DETAIL,FAILED,,,,,,,,,HTTP Error 429: Too Many Requests
+NET-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too Many Requests

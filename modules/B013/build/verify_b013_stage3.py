@@ -3,12 +3,15 @@ from pathlib import Path
 from functools import partial
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 import threading
-p=Path('/mnt/data/survival_field_encyclopedia/B013_Ice_Safety_18_Page_Reader_REVIEW.html')
-out=p.parent/'review_screenshots';out.mkdir(exist_ok=True)
+import os
+import shutil
+p=next((Path(__file__).resolve().parents[1]/'reader').glob('*18*html'))
+out=Path(__file__).resolve().parents[3]/'production/evidence/b013-standalone'
+out.mkdir(parents=True,exist_ok=True)
 httpd=ThreadingHTTPServer(('127.0.0.1', 0),partial(SimpleHTTPRequestHandler,directory=str(p.parent)))
 threading.Thread(target=httpd.serve_forever,daemon=True).start()
 with sync_playwright() as w:
- b=w.chromium.launch(headless=True,executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-gpu'])
+ b=w.chromium.launch(headless=True,executable_path=os.environ.get('PLAYWRIGHT_CHROMIUM') or shutil.which('chromium') or shutil.which('google-chrome'),args=['--no-sandbox','--disable-gpu'])
  page=b.new_page(viewport={'width':1280,'height':1050},device_scale_factor=1)
  error=[]
  page.on('pageerror',lambda e:error.append(str(e)))
@@ -20,11 +23,14 @@ with sync_playwright() as w:
   count=page.locator('#count').inner_text()
   box=page.locator('#'+pid).bounding_box()
   page.locator('#'+pid).screenshot(path=str(out/f'{pid}.png'))
+  assert active == pid and box['height'] > 0 and count.startswith(str(int(pid[1:]))+' of ')
   print(pid,active,count,'height',round(box['height']))
  page.set_viewport_size({'width':390,'height':844})
  page.locator('#pages').select_option('P18')
  page.locator('#P18').screenshot(path=str(out/'P18_mobile.png'))
  print('mobile overflow:',page.evaluate('document.documentElement.scrollWidth > window.innerWidth'))
+ assert not page.evaluate('document.documentElement.scrollWidth > window.innerWidth')
+ assert not error, error
  print('script errors:',error)
  b.close()
 

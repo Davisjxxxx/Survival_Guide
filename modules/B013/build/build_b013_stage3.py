@@ -7,7 +7,15 @@ from html import escape
 from datetime import date
 import csv, json, re, shutil, zipfile
 
-ROOT=Path('/mnt/data/survival_field_encyclopedia')
+import argparse
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('output',type=Path,help='New or empty output directory')
+ROOT=parser.parse_args().output.resolve()
+ROOT.mkdir(parents=True,exist_ok=True)
+if any(ROOT.iterdir()):
+ raise SystemExit('Build requires an empty output directory')
+shutil.copyfile(next((Path(__file__).resolve().parents[1]/'reader').glob('*14*html')),
+                 ROOT/'B013_Ice_Safety_14_Page_Reader.html')
 SOURCE=ROOT/'B013_Ice_Safety_14_Page_Reader.html'
 OUT=ROOT/'B013_Ice_Safety_18_Page_Reader_REVIEW.html'
 ASSETS=ROOT/'B013_stage3_assets'

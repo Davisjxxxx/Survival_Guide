@@ -1,0 +1,342 @@
+{
+  "axe": "4.14.1",
+  "engine": "155.0.8059.79",
+  "pages": {
+    "B007.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P01.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P02.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P03.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P04.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P05.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P06.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P07.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P08.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P09.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P10.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P11.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P12.html": {
+      "violations": [],
+      "incomplete": []
+    },
+    "B012-P13.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P14.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P15.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P16.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P17.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P18.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P19.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P20.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P21.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P22.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P23.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P24.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P25.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P26.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P27.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B012-P28.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P01.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P02.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P03.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P04.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P05.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P06.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P07.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P08.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P09.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P10.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P11.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P12.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P13.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P14.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B013-P15.html": {
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    "B013-P16.html": {
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    "B013-P17.html": {
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    "B013-P18.html": {
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    "B014-P11.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P12.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P13.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P14.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P15.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P16.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P17.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P18.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P19.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "B014-P20.html": {
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    "index.html": {
+      "violations": [],
+      "incomplete": []
+    }
+  }
+}
