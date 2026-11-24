@@ -2038,5 +2038,714 @@
       "Clean lay care & exit"
     ],
     "abort": "SEVERE BLEED / EYE TRAUMA: Call 911, pressure/shield & follow dispatch"
+  },
+  "Z11-R01": {
+    "type": "exploded",
+    "components": [
+      "Trailhead & Route",
+      "Party & Vehicle ID",
+      "Overdue Cutoff Time",
+      "Contact Read-Back"
+    ],
+    "callout": "Reconstructed B014-P01 — confirm contact knows who to call"
+  },
+  "Z11-R03": {
+    "type": "exploded",
+    "components": [
+      "Publication Date",
+      "Graphic Scale Bar",
+      "Contour Interval",
+      "True/Grid/Mag North"
+    ],
+    "callout": "Reconstructed B014-P03 — look up current-year declination"
+  },
+  "Z11-R04": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Tight lines = steep bluff",
+      "Uphill V = valley/stream",
+      "Blue = water/marsh barrier"
+    ],
+    "callout": "Reconstructed B014-P04 — symbols-only Ely 1965 map in evidence",
+    "accent": "#5f98ad"
+  },
+  "Z11-R05": {
+    "type": "mechanism",
+    "nodes": [
+      "Clear Metal + Map Meridian",
+      "Rotate Map Until Needle Aligns",
+      "Confirm With Two Landmarks"
+    ],
+    "callout": "Reconstructed B014-P05 — step away from vehicles & iron rock",
+    "accent": "#3f7566"
+  },
+  "Z11-R06": {
+    "type": "mechanism",
+    "nodes": [
+      "Baseplate Start -> Target Arrow",
+      "Apply Current Local Declination",
+      "Sight Intermediate Landmark"
+    ],
+    "callout": "Reconstructed B014-P06 — sanity-check direction to stop 180° flips",
+    "accent": "#3d7a69"
+  },
+  "Z11-R07": {
+    "type": "decision_tree",
+    "gates": [
+      "Matched checkpoint on time?",
+      "Daylight & pace margin OK?",
+      "Continue next short leg"
+    ],
+    "abort": "BEHIND SCHEDULE / LOW LIGHT: Turn back on verified safe route"
+  },
+  "Z11-R09": {
+    "type": "decision_tree",
+    "gates": [
+      "Expected feature missing?",
+      "100% sure of backtrack?",
+      "Return to confirmed LKP"
+    ],
+    "abort": "UNCERTAIN POSITION: Stop, record LKP, shelter & stay findable"
+  },
+  "Z11-R10": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Primary Navigator",
+        "note": "Leads checkpoints & calls halts at every fork",
+        "limit": "Never walk ahead alone"
+      },
+      {
+        "name": "Backup Navigator",
+        "note": "Carries independent paper map & cross-checks",
+        "limit": "Challenge mismatches early"
+      },
+      {
+        "name": "Rear Sweep",
+        "note": "Holds tail count & whistle stop communication",
+        "limit": "Zero uncounted stragglers"
+      }
+    ]
+  },
+  "Z11-P11": {
+    "type": "failure_mode",
+    "cause": "Blowing snow whiteout or dense fog erases landmarks & contrast",
+    "cue": "Lost depth perception; compass cannot detect hidden drops/ice",
+    "correction": "Halt on verified stable land, group up, shelter & wait"
+  },
+  "Z11-P12": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Lake / bog / thin ice (stop)",
+      "Shoreline observation edge",
+      "Authorized dry land detour"
+    ],
+    "callout": "Adapted B014-P12 — see USGS 1965 Ely symbol excerpt in evidence"
+  },
+  "Z11-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Plant Folklore (Reject)",
+        "note": "Moss & branches reflect local shade/wind only",
+        "limit": "Unreliable; causes drift"
+      },
+      {
+        "name": "Sun / Stars (Coarse)",
+        "note": "Needs clear sky & time; rough orientation only",
+        "limit": "Fails in fog & overcast"
+      },
+      {
+        "name": "Map + Compass",
+        "note": "Verified instrument & terrain match",
+        "limit": "Keep clear of metal/iron"
+      }
+    ]
+  },
+  "Z11-P14": {
+    "type": "mechanism",
+    "nodes": [
+      "True North (Geographic Pole)",
+      "Grid North vs Magnetic North",
+      "Current-Year Declination Angle"
+    ],
+    "callout": "Verify East/West conversion sign on a known trailhead landmark",
+    "accent": "#4d7c8f"
+  },
+  "Z11-P15": {
+    "type": "failure_mode",
+    "cause": "Cold lithium voltage drop or cracked screen kills phone GPS",
+    "cue": "Sudden black screen with unopened paper map in pack",
+    "correction": "Keep phone warm/airplane mode; track checkpoints on paper early"
+  },
+  "Z11-P16": {
+    "type": "exploded",
+    "components": [
+      "Sheltered Wait Spot",
+      "Open Clearing Contrast",
+      "Body-Worn Whistle",
+      "Night LED / Strobe"
+    ],
+    "callout": "Stay stationary at your signaled site — never wander off"
+  },
+  "Z11-P17": {
+    "type": "decision_tree",
+    "gates": [
+      "PLS marked & group held?",
+      "Brief buddy camp check?",
+      "Found safely -> debrief"
+    ],
+    "abort": "NOT FOUND / CHILD / HAZARD: Call 911 early with PLS & details"
+  },
+  "Z11-P18": {
+    "type": "decision_tree",
+    "gates": [
+      "Reachable before dark?",
+      "Clear easy trail + lights?",
+      "Exit together steadily"
+    ],
+    "abort": "LOW LIGHT / UNCERTAIN: Stop 45-60 min before dark & build camp"
+  },
+  "Z11-P19": {
+    "type": "failure_mode",
+    "cause": "Old maps, buried signs, blowdowns, hidden bogs, dead phone/weather",
+    "cue": "Ground terrain contradicts dashed map line or sign vanishes",
+    "correction": "Trust permanent terrain, use pre-planned bailout or halt early"
+  },
+  "Z11-P20": {
+    "type": "decision_tree",
+    "gates": [
+      "Off ice & dry layers on?",
+      "No hypothermia & exit sure?",
+      "Careful verified exit"
+    ],
+    "abort": "LOST / COLD / UNCERTAIN: Stay put, shelter, call 911 & signal"
+  },
+  "Z11-P21": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "1:24,000 Quad",
+        "note": "High contour detail (1 in ≈ 2,000 ft) for routes",
+        "limit": "Covers narrow area"
+      },
+      {
+        "name": "1:50,000 – 1:100,000",
+        "note": "Broader trail & valley overview; coarser relief",
+        "limit": "Hides small ledges/bogs"
+      },
+      {
+        "name": "Regional Road Map",
+        "note": "Shows bailout highways & evacuation exits",
+        "limit": "Always pair with topo"
+      }
+    ]
+  },
+  "Z11-P22": {
+    "type": "cross_section",
+    "layers": [
+      "Evenly spaced contours = uniform steady climb",
+      "Widening spacing downhill = gentler concave slope",
+      "Tightening downhill = convex bluff hiding cliff",
+      "Hachured closed ring = sinkhole/depression"
+    ],
+    "callout": "Always check the printed contour interval (10, 20 or 40 ft)"
+  },
+  "Z11-P23": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Valley / re-entrant (V uphill)",
+      "Saddle pass (hourglass dip)",
+      "Ridge / spur (U downhill)"
+    ],
+    "callout": "Match big permanent landforms first before minor details"
+  },
+  "Z11-P24": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Linear handrail (trail/ridge)",
+      "Target checkpoint on route",
+      "Perpendicular backstop barrier"
+    ],
+    "callout": "Hitting the backstop without seeing target = immediate overshoot stop"
+  },
+  "Z11-P25": {
+    "type": "mechanism",
+    "nodes": [
+      "Deliberate One-Side Bearing Bias",
+      "Arrive on Known Side of River/Road",
+      "Turn One Certain Way to Target"
+    ],
+    "callout": "Eliminates left-or-right guesswork; bias away from hazards",
+    "accent": "#3f7566"
+  },
+  "Z11-P26": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Decimal Degrees",
+        "note": "47.9032° N, 91.8671° W (single decimal)",
+        "limit": "State hemisphere/minus"
+      },
+      {
+        "name": "Deg Min Sec (DMS)",
+        "note": "47° 54' 11\" N (base-60 minutes/seconds)",
+        "limit": "Never mix with decimals"
+      },
+      {
+        "name": "UTM Metric Grid",
+        "note": "Zone 15T · Easting (right) · Northing (up)",
+        "limit": "Always include Grid Zone"
+      }
+    ]
+  },
+  "Z11-P27": {
+    "type": "failure_mode",
+    "cause": "Plotting modern WGS84 GPS coordinates onto older NAD27 paper grid",
+    "cue": "Plotted dot shifts tens to hundreds of meters off actual terrain",
+    "correction": "Match GPS datum to map margin or use current WGS84/NAD83 topo"
+  },
+  "Z11-P28": {
+    "type": "exploded",
+    "components": [
+      "Clear Liquid Capsule",
+      "Free North Needle",
+      "Legible Rotating Bezel",
+      "Verified Declination"
+    ],
+    "callout": "Store away from magnets & phones; retire leaky or sticky compasses"
+  },
+  "Z11-P29": {
+    "type": "failure_mode",
+    "cause": "Vehicles, phones, knives or northern iron-rich bedrock near compass",
+    "cue": "Erratic needle swing or >10° error on 180° back-bearing check",
+    "correction": "Step clear of metal/iron; verify with visible landforms & handrails"
+  },
+  "Z11-P30": {
+    "type": "mechanism",
+    "nodes": [
+      "Sight Visible Landmark (Level)",
+      "Convert & Plot Bearing on Map",
+      "Check ±180° Reciprocal Back-Bearing"
+    ],
+    "callout": "Reciprocal sighting catches sideways drift and local anomalies",
+    "accent": "#4d7c8f"
+  },
+  "Z11-P31": {
+    "type": "mechanism",
+    "nodes": [
+      "Sight Distinct Tree Ahead",
+      "Walk Watching Footing Cleanly",
+      "Re-Sight Next Short Target"
+    ],
+    "callout": "Never hike staring down at bouncing needle; leapfrog in woods",
+    "accent": "#3f7566"
+  },
+  "Z11-P32": {
+    "type": "mechanism",
+    "nodes": [
+      "Turn 90° & Count Offset Paces",
+      "Pass Obstacle on Main Bearing",
+      "Turn Back 90° & Match Paces"
+    ],
+    "callout": "Use only for compact dry-land barriers; map-reroute large lakes",
+    "accent": "#5b899e"
+  },
+  "Z11-P33": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Flat Measured Trail",
+        "note": "Baseline pre-measured double-steps / 100 m",
+        "limit": "Calibrate wearing pack"
+      },
+      {
+        "name": "Steep Climb / Mud",
+        "note": "Shorter stride & add elevation climb time",
+        "limit": "Recheck at first 2 points"
+      },
+      {
+        "name": "Deep Winter Snow",
+        "note": "Sharp pace drop; short daylight window",
+        "limit": "Stop if >1.5x overdue"
+      }
+    ]
+  },
+  "Z11-P34": {
+    "type": "mechanism",
+    "nodes": [
+      "Confirmed Linear Trail/Shore",
+      "Bearing to Sideways Landmark (45-90°)",
+      "Map Intersection = Approx Spot"
+    ],
+    "callout": "Avoid shallow angles; verify local contours match intersection",
+    "accent": "#4d7c8f"
+  },
+  "Z11-P35": {
+    "type": "mechanism",
+    "nodes": [
+      "2-3 Wide-Angled Landmarks (60-120°)",
+      "Plot Declination-Adjusted Lines",
+      "Small Triangle + Contour Check"
+    ],
+    "callout": "Field fixes are approximate zones — reject if relief disagrees",
+    "accent": "#3f7566"
+  },
+  "Z11-P36": {
+    "type": "failure_mode",
+    "cause": "Outdated topo sheet misses logging spurs, blowdowns or washouts",
+    "cue": "Wide unsigned skid road or missing bridge conflicts with map",
+    "correction": "Trust permanent hills & valleys; verify before taking new forks"
+  },
+  "Z11-P37": {
+    "type": "cross_section",
+    "layers": [
+      "High wispy cirrus (earliest 12-24 hr warm-front cue)",
+      "Milky cirrostratus & gray lowering altostratus",
+      "Low steady rain nimbostratus deck",
+      "Fast dark cold-front squall line & sharp wind shift"
+    ],
+    "callout": "Visual sky cues supplement — never replace — official NWS alerts"
+  },
+  "Z11-P38": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Tall cumulus congestus towers",
+      "Flat anvil & ahead lightning",
+      "Early retreat below treeline"
+    ],
+    "callout": "Lightning strikes miles ahead of rain — leave ridges before thunder"
+  },
+  "Z11-P39": {
+    "type": "mechanism",
+    "nodes": [
+      "Stationary Barometric Drop",
+      "Backing/Shifting Surface Wind",
+      "Approaching Front / Squall"
+    ],
+    "callout": "Climbing elevation mimics pressure drops — log while stationary",
+    "accent": "#4c8396"
+  },
+  "Z11-P40": {
+    "type": "environment",
+    "variant": "wind_tree",
+    "zones": [
+      "Funneled mountain pass gusts",
+      "Sudden lake-effect snow squall",
+      "Sheltered lower valley refuge"
+    ],
+    "callout": "Calm valleys mask 45+ mph ridge gusts and snapping timber"
+  },
+  "Z11-P41": {
+    "type": "environment",
+    "variant": "watershed",
+    "zones": [
+      "Damp river/bog radiation fog",
+      "Cold-water coastal advection fog",
+      "Finish crossings before dusk"
+    ],
+    "callout": "Clear calm evenings form blinding ground fog rapidly"
+  },
+  "Z11-P42": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Advisory",
+        "note": "Caution for lower-grade travel hazards",
+        "limit": "Check elevation effects"
+      },
+      {
+        "name": "Watch",
+        "note": "Conditions favorable for severe weather",
+        "limit": "Keep exits & shelter open"
+      },
+      {
+        "name": "Warning",
+        "note": "Imminent/occurring threat — act immediately",
+        "limit": "Live sky overrides radar lag"
+      }
+    ]
+  },
+  "Z11-P43": {
+    "type": "failure_mode",
+    "cause": "Canyon multipath bounce, wet canopy shadow or cold battery drop",
+    "cue": "Jumping blue dot, frozen track or wiped map cache offline",
+    "correction": "Test offline tiles pre-trip; cross-check paper map & contours"
+  },
+  "Z11-P44": {
+    "type": "failure_mode",
+    "cause": "Featureless flatwoods, snowplains or bogs lack visual anchors",
+    "cue": "Unconscious circular walking drift off unsigned spur",
+    "correction": "Stay on signed trails; use short compass hops & catching backstops"
+  },
+  "Z11-P45": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Buried signs & false tracks",
+      "Short winter daylight window",
+      "Early turnaround on map features"
+    ],
+    "callout": "Never follow unknown winter tracks blindly onto snow-covered ice"
+  },
+  "Z11-P46": {
+    "type": "failure_mode",
+    "cause": "Convex false summits & clear-air valley foreshortening",
+    "cue": "Visible ridge hides higher crest or extra miles of gullies",
+    "correction": "Measure true distance & vertical contour gain on the map"
+  },
+  "Z11-P47": {
+    "type": "failure_mode",
+    "cause": "Bending the map to match wishes, confirmation bias & rushing",
+    "cue": "Rationalizing missing signs or wrong slope direction",
+    "correction": "Require 2+ independent map matches; halt at contradictions"
+  },
+  "Z11-P48": {
+    "type": "decision_tree",
+    "gates": [
+      "Max-pace circle around LKP?",
+      "2+ solid landform matches?",
+      "Confirm & resume carefully"
+    ],
+    "abort": "UNRESOLVED MATCH: Do not guess shortcuts — stay put & signal"
+  },
+  "Z11-P49": {
+    "type": "decision_tree",
+    "gates": [
+      "Safe light, weather & health?",
+      "Checkpoints matching cleanly?",
+      "Continue to next stop"
+    ],
+    "abort": "DARK / STORM / FATIGUE / ERRORS: End travel & stabilize camp"
+  },
+  "Z11-P50": {
+    "type": "decision_tree",
+    "gates": [
+      "Immediate hazard at spot?",
+      "Sit, breathe & warm up (STOP)",
+      "Stay put & signal calmly"
+    ],
+    "abort": "IMMEDIATE DANGER: Shift short distance to safe ground, then STOP"
+  },
+  "Z11-P51": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Scattered wandering tracks (bad)",
+      "Compact sheltered wait site",
+      "Anchored contrast & move note"
+    ],
+    "callout": "Stay compact to aid SAR trackers & K9s; note any forced move"
+  },
+  "Z11-P52": {
+    "type": "decision_tree",
+    "gates": [
+      "Spot safe from acute danger?",
+      "Route 100% sure & group fit?",
+      "Exit carefully together"
+    ],
+    "abort": "ROUTE UNCERTAIN / INJURED: Stay put, shelter & summon rescue"
+  },
+  "Z11-P53": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Paced Together",
+        "note": "Slowest hiker near front; clear lead & sweep",
+        "limit": "Announce every brief stop"
+      },
+      {
+        "name": "Junction Halts",
+        "note": "Zero-exception full head count at every fork",
+        "limit": "Never split on trails"
+      },
+      {
+        "name": "Strung-Out (Risk)",
+        "note": "Fast walkers vanish ahead out of voice range",
+        "limit": "Primary cause of searches"
+      }
+    ]
+  },
+  "Z11-P54": {
+    "type": "decision_tree",
+    "gates": [
+      "PLS marked & adult stays put?",
+      "10-15 min buddy check finds?",
+      "Reunite & account all"
+    ],
+    "abort": "UNFOUND / CHILD / COLD / WATER: Call 911 immediately; no solo search"
+  },
+  "Z11-P55": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Shelter & Warmth",
+        "note": "Maintains wind block, dry layers & pad",
+        "limit": "Buddy-check cold signs"
+      },
+      {
+        "name": "Signal & Watch",
+        "note": "Stays alert for aircraft/whistles/lights",
+        "limit": "Rotate awake shifts"
+      },
+      {
+        "name": "Supply & Power Log",
+        "note": "Tracks safe water, food & battery reserve",
+        "limit": "Avoid early drain"
+      }
+    ]
+  },
+  "Z11-P56": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cell Phone",
+        "note": "Voice/SMS where towers reach; rich detail",
+        "limit": "Fails in valleys/outages"
+      },
+      {
+        "name": "2-Way Sat Messenger",
+        "note": "Custom texting & updates under open sky",
+        "limit": "Paid sub + battery charge"
+      },
+      {
+        "name": "406 MHz PLB",
+        "note": "Direct NOAA SARSAT SOS + 121.5 MHz homer",
+        "limit": "One-way grave danger only"
+      }
+    ]
+  },
+  "Z11-P57": {
+    "type": "exploded",
+    "components": [
+      "Free NOAA Registration",
+      "Battery Exp Check",
+      "Upright Sky Antenna",
+      "Grave Danger Only"
+    ],
+    "callout": "Update NOAA SARSAT registration every 2 years; run self-test only"
+  },
+  "Z11-P58": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Canyon/canopy sky shadow",
+      "Safe open sky clearing",
+      "Confirmed message receipt"
+    ],
+    "callout": "Never cross thin ice or cliffs solely to chase one bar of signal"
+  },
+  "Z11-P59": {
+    "type": "mechanism",
+    "nodes": [
+      "Matched Channel & FCC License",
+      "Open Line-of-Sight Terrain",
+      "Scheduled Check-In Window"
+    ],
+    "callout": "Hills/valleys block handheld VHF/UHF — pair with 911/PLB",
+    "accent": "#4d7c8f"
+  },
+  "Z11-P60": {
+    "type": "mechanism",
+    "nodes": [
+      "Pea-Less Whistle on Chest",
+      "3 Sharp Blasts -> 1 Min Pause",
+      "Hear Faint Responder Replies"
+    ],
+    "callout": "Carries farther than shouting and works wet or freezing",
+    "accent": "#3f7566"
+  },
+  "Z11-P61": {
+    "type": "exploded",
+    "components": [
+      "High-Contrast Ground X",
+      "Weighted Wind Anchors",
+      "Snow Shadow Letters",
+      "Daylight Mirror Sweep"
+    ],
+    "callout": "Stow all loose fabric tightly before any rescue helicopter nears"
+  },
+  "Z11-P62": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dim Task Mode",
+        "note": "Conserves battery across long cold nights",
+        "limit": "Keep spare cells warm"
+      },
+      {
+        "name": "3-Pulse Flash",
+        "note": "Deploy when searchers/vehicles are heard",
+        "limit": "Aim into open clearing"
+      },
+      {
+        "name": "Pilot Safety Rule",
+        "note": "Illuminate ground beside you on approach",
+        "limit": "NEVER blind pilot eyes"
+      }
+    ]
+  },
+  "Z11-P63": {
+    "type": "exploded",
+    "components": [
+      "1. Location & Format",
+      "2. Injuries & Headcount",
+      "3. Access Hazards",
+      "4. Stay-Put & Battery"
+    ],
+    "callout": "Lead with LOCATION FIRST in case weak signal drops mid-call"
+  },
+  "Z11-P64": {
+    "type": "exploded",
+    "components": [
+      "Full Unrounded Digits",
+      "Format + Zone + Datum",
+      "Verified LKP vs Guess",
+      "Dispatcher Read-Back"
+    ],
+    "callout": "Never mix DMS and decimal degrees or invent uncertain landmarks"
+  },
+  "Z11-P65": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Tail rotor & uphill (danger)",
+      "Stowed gear clear of snags",
+      "Front crew-signaled approach"
+    ],
+    "callout": "Crouch upwind, protect eyes & wait until flight crew wave forward"
+  },
+  "Z11-P66": {
+    "type": "decision_tree",
+    "gates": [
+      "Solid anchored shore footing?",
+      "Safe reach/throw aid works?",
+      "Assist from shore & 911"
+    ],
+    "abort": "HIGH HAZARD WATER/CLIFF/ICE: Call 911; stay alive & guide SAR"
+  },
+  "Z11-P67": {
+    "type": "exploded",
+    "components": [
+      "Bounded Dry Park",
+      "Map & Compass Check",
+      "Offline Airplane Test",
+      "Mock STOP (No Live SOS)"
+    ],
+    "callout": "Rehearse every tool & drill at home before remote reliance"
+  },
+  "Z11-P68": {
+    "type": "decision_tree",
+    "gates": [
+      "Forecast, map & plan set?",
+      "Checkpoints & sky clear?",
+      "Proceed w/ group count"
+    ],
+    "abort": "UNCERTAINTY / WARNING: STOP, stabilize shelter & signal/call early"
   }
 }

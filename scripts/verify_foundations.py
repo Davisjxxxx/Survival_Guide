@@ -211,7 +211,7 @@ def main():
                     require(
                         page.locator('h1').inner_text() == card['title']
                         and page.evaluate('document.documentElement.scrollWidth <= innerWidth+1')
-                        and page.locator('figure img').evaluate('(i) => i.complete && i.naturalWidth > 0'),
+                        and page.locator('figure img').evaluate_all('(imgs) => imgs.length > 0 && imgs.every((i) => i.complete && i.naturalWidth > 0)'),
                         f'Layout, content or figure failed at {width}: {card["id"]}',
                     )
                     expected_markers = len(card['action']) + 2 + (1 if 'failure' in card else 0)
