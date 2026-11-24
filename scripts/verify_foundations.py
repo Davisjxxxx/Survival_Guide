@@ -52,7 +52,7 @@ def check_zone_and_directory(page, output, cards):
             require(page.locator('.catalog li:not([hidden])').count() == 1, f'Zone {zone} search failed')
 
 
-def print_card(page, card, pdf, fmt_key):
+def print_card(page, card, targets, fmt_key):
     fmt_name, exp_w, exp_h = PAPER_SIZES[fmt_key]
     raw = page.pdf(
         format=fmt_name,
@@ -79,7 +79,8 @@ def print_card(page, card, pdf, fmt_key):
         for text_item in [*required, *[item['text'] for item in statements]]:
             require(' '.join(text_item.split()) in normal,
                     f'Print ({fmt_name}) missing content on {card["id"]}: {text_item}')
-        pdf.insert_pdf(single)
+        for target_pdf in targets:
+            target_pdf.insert_pdf(single)
 
 
 def contact_sheet(pdf, cards, path):
@@ -223,11 +224,12 @@ def main():
                         shots.append(shot)
                     if width == 1280 and card['id'] in chosen_ids:
                         for fmt in formats:
-                            print_card(page, card, pdfs[fmt], fmt)
+                            targets = [pdfs[fmt]]
                             if args.write_zone_pdfs and card['zone'] in FOUNDATIONAL_ZONES:
-                                print_card(page, card, zone_pdfs[(card['zone'], fmt)], fmt)
+                                targets.append(zone_pdfs[(card['zone'], fmt)])
+                            print_card(page, card, targets, fmt)
                     if width == 1280 and args.write_zone_pdfs and card['zone'] not in FOUNDATIONAL_ZONES:
-                        print_card(page, card, recon_pdf, 'letter')
+                        print_card(page, card, [recon_pdf], 'letter')
                 context.close()
             browser.close()
 
