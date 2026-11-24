@@ -1095,5 +1095,365 @@
       "Relocate together & report"
     ],
     "abort": "ROUTE BLOCKED: Take safest high/clear refuge & call 911 immediately"
+  },
+  "Z03-P13": {
+    "type": "mechanism",
+    "nodes": [
+      "Ignition Heat + Dry Fuel",
+      "Open Oxygen Airflow",
+      "Small Controlled Flame"
+    ],
+    "callout": "Remove any leg to extinguish; keep size modest & attended",
+    "accent": "#c87137"
+  },
+  "Z03-P14": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Cleared grass/needles",
+      "Bare mineral soil base",
+      "No roots or deep peat"
+    ],
+    "callout": "Check overhead limbs & subsurface duff",
+    "accent": "#c77438",
+    "hazard": "Confirm legal burn status"
+  },
+  "Z03-P15": {
+    "type": "cross_section",
+    "layers": [
+      "Rain/snow-wetted outer bark (damp)",
+      "Sound dry interior deadwood core (use)",
+      "Spongy punky ground rot (reject)",
+      "Wet forest soil or snow surface"
+    ],
+    "callout": "Test dry interior snap; keep off wet snow"
+  },
+  "Z03-P16": {
+    "type": "environment",
+    "variant": "wind_tree",
+    "zones": [
+      "Live trees / snags (leave)",
+      "Lawful downed dead sticks",
+      "Designated park ring"
+    ],
+    "callout": "Verify unit gathering rules & certified local firewood laws"
+  },
+  "Z03-P17": {
+    "type": "cross_section",
+    "layers": [
+      "Fine loose fibrous tinder (catches spark/flame)",
+      "Pencil-thin dry wood curls & kindling",
+      "Medium dry split transition fuel",
+      "Dry elevated prep base off wet soil"
+    ],
+    "callout": "Carve safely away from body; stop if hands grow numb"
+  },
+  "Z03-P18": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Graduated dry kindling",
+      "Rising convective flame",
+      "Open bottom oxygen intake"
+    ],
+    "callout": "Keep all ends inside ring",
+    "accent": "#c97438",
+    "hazard": "Avoid smothering airflow"
+  },
+  "Z03-P19": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Downwind ember hazard zone",
+      "Active cleared fire ring",
+      "Upwind dry fuel off snow"
+    ],
+    "callout": "Keep fuel canisters, lighters & packs well away from heat"
+  },
+  "Z03-P20": {
+    "type": "failure_mode",
+    "cause": "Pouring liquid stove fuel / gas or burning aerosol cans",
+    "cue": "Invisible heavy vapors pool; sudden explosive flashback",
+    "correction": "ZERO liquid accelerants; use only dry solid tinder"
+  },
+  "Z03-P21": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Butane Lighter",
+        "note": "Fast open flame in mild dry weather",
+        "limit": "Fails in cold & wet wheel"
+      },
+      {
+        "name": "Storm Matches",
+        "note": "Windproof self-sustaining flame; dry striker",
+        "limit": "Finite consumable count"
+      },
+      {
+        "name": "Ferrocerium Rod",
+        "note": "Works wet & freezing; high durability",
+        "limit": "Requires fine dry tinder"
+      }
+    ]
+  },
+  "Z03-P22": {
+    "type": "failure_mode",
+    "cause": "Subfreezing air drops butane pressure; wet flint skips",
+    "cue": "No gas vapor hiss or dead wheel with cold fingers",
+    "correction": "Warm in inner pocket; dry wheel or use backup tool"
+  },
+  "Z03-P23": {
+    "type": "exploded",
+    "components": [
+      "Waterproof Case",
+      "O-Ring Seal",
+      "Protected Striker Strip",
+      "Stormproof Matches"
+    ],
+    "callout": "Stage dry tinder first; protect striker strip from wet hands"
+  },
+  "Z03-P24": {
+    "type": "mechanism",
+    "nodes": [
+      "Braced Ferro Rod Tip",
+      "Sharp 90° Spine Scraper",
+      "Hot Pyrophoric Spark Shower"
+    ],
+    "callout": "Never strike with knife edge; aim sparks into fine dry tinder",
+    "accent": "#c87137"
+  },
+  "Z03-P25": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Flint & Steel",
+        "note": "Hard rock shaves carbon STEEL particles",
+        "limit": "Needs charred tinder -> ember"
+      },
+      {
+        "name": "Ferrocerium Rod",
+        "note": "Striker shaves hotter engineered alloy sparks",
+        "limit": "Needs fine dry fibrous tinder"
+      },
+      {
+        "name": "Random Creek Rock",
+        "note": "Unknown mineral hardness & fracture risk",
+        "limit": "STOP: Unreliable & unsafe"
+      }
+    ]
+  },
+  "Z03-P26": {
+    "type": "cross_section",
+    "layers": [
+      "Incoming low-energy steel spark",
+      "Porous dry charred cloth / punkwood (ember)",
+      "Aerated loose dry fibrous tinder bundle",
+      "Gentle steady airflow -> open flame"
+    ],
+    "callout": "Cool & seal char tins completely so embers cannot reignite"
+  },
+  "Z03-P27": {
+    "type": "exploded",
+    "components": [
+      "Top Bearing Block",
+      "Rotating Wood Spindle",
+      "V-Notched Hearth Board",
+      "Hot Dust Pile Catch"
+    ],
+    "callout": "Conceptual cold mechanism — NOT a winter survival guarantee"
+  },
+  "Z03-P28": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Canister Stove",
+        "note": "On/off valve (often Stage 1/2 compliant)",
+        "limit": "Cold drops vapor output"
+      },
+      {
+        "name": "Liquid Fuel Stove",
+        "note": "Strong in freezing cold & high elevation",
+        "limit": "Careful outdoor priming"
+      },
+      {
+        "name": "Solid / Alcohol",
+        "note": "Simple light burner; low wind resistance",
+        "limit": "Often banned (no shutoff)"
+      }
+    ]
+  },
+  "Z03-P29": {
+    "type": "exploded",
+    "components": [
+      "Cooled Stove Body",
+      "Approved Fuel Bottle",
+      "Cleared Outdoor Ground",
+      "Spill-Free Light Spot"
+    ],
+    "callout": "Cool completely, refuel away from flames & move off spills"
+  },
+  "Z03-P30": {
+    "type": "exploded",
+    "components": [
+      "Matched Pot Base",
+      "Level Stove Arms",
+      "Vented Windblock",
+      "Cool Canister Zone"
+    ],
+    "callout": "NEVER wrap tight foil around canister stoves (rupture risk)"
+  },
+  "Z03-P31": {
+    "type": "decision_tree",
+    "gates": [
+      "Local burn ban clear?",
+      "No Red Flag / gusts?",
+      "Lawful ring fire OK"
+    ],
+    "abort": "RESTRICTED / RED FLAG: Shutoff stove only if allowed, or NO FIRE"
+  },
+  "Z03-P32": {
+    "type": "decision_tree",
+    "gates": [
+      "Certified local firewood?",
+      "Designated ring open?",
+      "Burn clean to cold ash"
+    ],
+    "abort": "UNAPPROVED WOOD / CLOSED RING: Skip campfire; use stove/no-fire"
+  },
+  "Z03-P33": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Active fire ring",
+      "Downwind ember fall zone",
+      "Dry grass & uphill brush"
+    ],
+    "callout": "Gusts and low humidity carry embers past cleared mineral rings"
+  },
+  "Z03-P34": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Deceptively gray cool top ash",
+      "Hidden smoldering roots/peat",
+      "Repeat drown-stir-feel cold"
+    ],
+    "callout": "NEVER bury coals with dirt/snow",
+    "accent": "#b85c2b",
+    "hazard": "Holdover wildfire risk"
+  },
+  "Z03-P35": {
+    "type": "failure_mode",
+    "cause": "Campfire heat melts deep pit through winter snowpack",
+    "cue": "Fuel collapses into slush or smoke escapes beneath snow",
+    "correction": "Drown remnants cold; prefer rated outdoor stove or insulation"
+  },
+  "Z03-P36": {
+    "type": "failure_mode",
+    "cause": "Damp fuel, airless pile or missing pencil-thin kindling",
+    "cue": "Thick white smoke or brief flash that dies immediately",
+    "correction": "Fix dry prep once; abort to dry shelter before fingers chill"
+  },
+  "Z03-P37": {
+    "type": "failure_mode",
+    "cause": "Resinous wood, slipping cord or dull bearing pressure",
+    "cue": "Shiny black glazed socket & squeaking with zero dark dust",
+    "correction": "Adjust training set cold; never rely on friction in emergencies"
+  },
+  "Z03-P38": {
+    "type": "failure_mode",
+    "cause": "Loose fuel thread, clogged jet or excess priming spill",
+    "cue": "Fuel odor, valve hiss, yellow sputtering or tall flare-up",
+    "correction": "Shut off if safe or step back; NEVER pour water on liquid fuel"
+  },
+  "Z03-P39": {
+    "type": "decision_tree",
+    "gates": [
+      "Tiny spark & water ready?",
+      "Instant safe douse works?",
+      "Drown & verify cold"
+    ],
+    "abort": "ESCAPED / WILDFIRE: Leave gear, evacuate open route & call 911"
+  },
+  "Z03-P40": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Charcoal/stoves OUTDOORS",
+      "Hard zero-CO barrier line",
+      "CO alarms + fresh air exit"
+    ],
+    "callout": "Generators ≥ 20 ft outdoors",
+    "accent": "#c87137",
+    "hazard": "ZERO indoor/garage fuel use"
+  },
+  "Z03-P41": {
+    "type": "mechanism",
+    "nodes": [
+      "Cold Pot / Altitude Combustion",
+      "Semi-Enclosed Wind Eddy Trap",
+      "Odorless Lethal CO Buildup"
+    ],
+    "callout": "Blue flame ≠ zero CO; operate only in open outdoor air",
+    "accent": "#a05332"
+  },
+  "Z03-P42": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dry Layers & Pad",
+        "note": "Wind block + ground pad + dry wool/synthetic",
+        "limit": "Avoid sweat & cotton"
+      },
+      {
+        "name": "No-Cook Calories",
+        "note": "High-calorie dry food & safe hydration",
+        "limit": "Pace without chilling"
+      },
+      {
+        "name": "Chemical Warmers",
+        "note": "Air-activated packs over cloth barrier",
+        "limit": "Never on bare numb skin"
+      }
+    ]
+  },
+  "Z03-P43": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "LED Light & Backup",
+        "note": "Task lighting & night flash without flame",
+        "limit": "Keep spare cold batteries"
+      },
+      {
+        "name": "Whistle & High-Vis",
+        "note": "3-blast audio + bright panel / mirror",
+        "limit": "Use in clearings safely"
+      },
+      {
+        "name": "Phone / Beacon",
+        "note": "Direct location & status to responders",
+        "limit": "Confirm message receipt"
+      }
+    ]
+  },
+  "Z03-P44": {
+    "type": "exploded",
+    "components": [
+      "Calm Legal Mineral Site",
+      "Staged Water Bucket",
+      "Dedicated Observer",
+      "Cold-Ash Sign-Off"
+    ],
+    "callout": "Supervised dry-day practice ≠ guaranteed wet winter field ignition"
+  },
+  "Z03-P45": {
+    "type": "decision_tree",
+    "gates": [
+      "Conceptual plate only?",
+      "Lawful & practiced skill?",
+      "Use as guided training"
+    ],
+    "abort": "EMERGENCY: Use verified modern kit + lawful checks + no-fire plan"
   }
 }
