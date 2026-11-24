@@ -12,6 +12,7 @@ on:
       - 'modules/B012/reconciliation/**'
       - 'scripts/audit_b012_recovery.py'
       - 'scripts/verify_recovered_downloads.py'
+      - 'scripts/verify_b012_claim_triage.py'
       - '.github/workflows/b012-recovery-integrity.yml'
 
 permissions:
@@ -24,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Compile audit tools
-        run: python3 -m py_compile scripts/audit_b012_recovery.py scripts/verify_recovered_downloads.py
+        run: python3 -m py_compile scripts/audit_b012_recovery.py scripts/verify_recovered_downloads.py scripts/verify_b012_claim_triage.py
       - name: Validate original vector graphics as self-contained SVG documents
         run: |
           python3 - <<'PY'
@@ -43,6 +44,8 @@ jobs:
               assert not list(root.iter(ns+'image')), 'External/staged image injection must be reviewed'
           print('SVG XML, accessible title/description and no raster embeds validated:',len(files))
           PY
+      - name: Check claim-triage coverage and retained publication blocks
+        run: python3 scripts/verify_b012_claim_triage.py
       - name: Verify all seven imported artifacts and ZIP CRCs
         run: python3 scripts/verify_recovered_downloads.py > /tmp/verified-imports.json
       - name: Audit 28-page original reader
