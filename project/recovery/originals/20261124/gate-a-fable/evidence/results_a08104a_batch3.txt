@@ -1,0 +1,18 @@
+P90   licence texts offered as an APPROVED licence
+        license='All rights reserved'            allowed_derivatives='none'             -> ACCEPTED
+        license='CC BY-NC-ND 4.0'                allowed_derivatives='none'             -> ACCEPTED
+        license='Fair use'                       allowed_derivatives='resize and crop'  -> ACCEPTED
+        license='Copyright Fixture Publisher'    allowed_derivatives='unknown'          -> ACCEPTED
+        license='public domain'                  allowed_derivatives='resize and crop'  -> REJECTED LICENSE_AMBIGUOUS
+P91   generation_method is self-declared (an AI image declared as a photograph is indistinguishable to the gate)
+        generation_method='camera_photo', role=verified_diagnostic -> ACCEPTED
+        generation_method='scan', role=verified_diagnostic -> ACCEPTED
+P92   verified_diagnostic photo with no scientific name, no locality, no observation date
+        -> ACCEPTED
+P93   'verified' rung: technical_reviewer is any non-empty string, with no ledger row behind it
+        technical_reviewer='x' -> ELIGIBLE
+P94   two published entries, one zone PDF: where does the shared source link land?
+        release_ok: True | findings: ['PDF_UNTAGGED']
+        dest: 1 [ XYZ 312 385 null ] "sfe:Z09-FIXTURE-001:sources"
+        dest: 1 [ XYZ 46 294 null ] "sfe:src:SRC-0001"
+        dest: 2 [ XYZ 312 385 null ] "sfe:Z09-FIXTURE-002:sources"

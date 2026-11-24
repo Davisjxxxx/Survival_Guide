@@ -1,0 +1,10 @@
+id,artifacts,relationship,evidence,disposition
+V01,Approximately 870-page Research Blueprint vs 1016-page v1 plan,Historical estimate expanded in dated master plan,E05 worksheet plus Master Sprint Plan 16 allocations,Keep both figures with dates; retain the current plan allocation pending recovery of the older blueprint
+V02,Combined 28-page primer vs individual 10+9+9 PDFs,Possible assembled derivative,E01–E04 workbook rows,Keep four recovery slots until page identity can be compared
+V03,B008 and B009 originals and revised compatible editions,Verified editorial revisions with original copies,Original production ZIPs and retained revised PDFs,Preserve dual lineage; reviewers choose wording at individual claim level
+V04,B012 original vs overlay vs unified edition,Original and editorial derivatives,Checksum-audited original and P13–P18 overlay; unified P08/P25 corrections,Keep original bytes and versioned editorial dispositions
+V05,B013 14-page and 18-page readers vs unified edition,Standalone baseline and supplement followed by review-edition edits,Frozen ice comparison and 14-member Stage 3 rebuild receipt,Preserve standalone and unified editions
+V06,B014 historical P01–P10 vs P11–P20 supplement and foundation draft,Unresolved and distinct editorial draft relationship,Continuation brief and recovery draft labels,Keep outstanding original slot and block assembly changes
+V07,Gate letters in master prose vs sprint rows workbook and Astra handoff,Different labels reused across documents,Master proof gates A–H; tracker G0 and GA–GH; sprint B1 etc; handoff phase A–D,Use criteria and exact source prefix when comparing gate status
+V08,Initial abandoned import vs accepted import,Seven exact payload copies and differing custody path,Abandoned staged index and frozen original manifest,Preserve project-only receipt; use accepted import for source custody
+V09,B011 earlier atlas source vs later retry,Same declared manifest and downloader,Exact duplicate checks and failed retry receipt,Keep both records and zero acquired image status

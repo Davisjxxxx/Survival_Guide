@@ -1,0 +1,2 @@
+asset_id,state,original_sha1,original_sha256,derivative_sha256,rights_checked_at_download,source_page,reviewer,species_identity_review,pixel_dimensions,error
+BAS-LEAF,FAILED,,,,,,,,,HTTP Error 429: Too many requests. Please contact the Wikimedia SRE team at noc@wikimedia.org and refer to this message. (daab851)

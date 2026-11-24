@@ -1,0 +1,38 @@
+P09b  ELIGIBLE    same reviewer name in BOTH review classes: does release refuse?
+        release_ok: true
+        release_errors: []
+P18b  ELIGIBLE    Z10 (wilderness medicine) entry typed technical_procedure, no tags: published with no safety review
+        safety_rows: 0
+P13b  ELIGIBLE    ONE image file catalogued as verified_diagnostic for TWO different subjects
+P60   ELIGIBLE    hazard-topic checklist changed AFTER the safety reviews were recorded
+        before: "ELIGIBLE"
+P70   ELIGIBLE    layout: 60 danger lines in one entry (minipage cannot break across pages)
+        release_ok: false
+        release_errors: ["LAYOUT_OVERFLOW", "PDF_OUTSIDE_MARGIN"]
+        seconds: 1.2
+P71   ELIGIBLE    layout: 40 procedure steps (breakable box) across pages
+        release_ok: true
+        release_errors: []
+        seconds: 1.2
+        actions_present: 40
+        pages: "2"
+P72   ELIGIBLE    JPEG with EXIF (artist, description, GPS) embedded through a release build
+        release_ok: true
+        release_errors: []
+        exif_in_source_file: true
+        exif_artist_in_pdf_bytes: true
+        exif_description_in_pdf_bytes: true
+        gps_ifd_in_source_file: true
+        exif_recovered_from_pdf_images: {"x-000.jpg": {"artist": "Fixture EXIF artist QQXIFARTIST", "gps": {"1": "N", "2": "(44.0, 58.0, 12.34)", "3": "W", "4": "(93.0, 15.0, 56.78)"}}}
+P73   INFO        release determinism: same published tree built twice
+        both_ok: true
+        byte_identical: true
+P80   ELIGIBLE    scale: validate 1,000 published entries / 3,000 claims / 1,000 approvals
+        validate_seconds: 2.7
+P81   ELIGIBLE    scale: one zone PDF with 120 published entries
+        release_ok: true
+        release_errors: []
+        seconds: 34.4
+        pages: "120"
+        bytes: 1519447
+        latex_runs: 2

@@ -1,0 +1,11 @@
+
+
+<pasted_content id="b6fb">
+home directory. Read the Astra handoff, master sprint plan and any existing
+  project files. Do not create another repository or restart completed work.
+  Inventory the existing implementation, identify missing sprint deliverables,
+  determine the current Git state, and create a concise baseline audit with
+  next actions. Do not write survival content or begin bulk implementation.
+  Stop after the audit and return the exact file paths and evidence needed for
+  Gate A review.
+</pasted_content id="b6fb">
