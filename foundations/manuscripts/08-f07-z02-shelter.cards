@@ -282,14 +282,14 @@ Z02-P33 | Understand load paths across ridgepoles, tent poles, fabric and guylin
 objective: Trace how wind, fabric tension and precipitation forces travel through a shelter frame down to ground anchors.
 applies: Inspecting manufactured tents, tarps and emergency windbreaks before and during weather exposure.
 equipment: Complete shelter assembly and inspection checklist (no unvalidated field load testing).
-action: Trace downward and sideways loads from the roof surface through poles or ridgelines into tensioned guylines and ground anchors—the weakest link in that chain governs failure. @E20,E16,ED
-action: Keep pole joints fully seated, fabric panels evenly taut without concentrated stress wrinkles and guylines angled outward to oppose wind lift cleanly. @E20,E16,ED
+action: Identify three separate paths: gravity loads the roof supports, wind acts on fabric and frame, and guyline tension transfers to anchors. The actual path depends on the shelter design. @E16,ED
+action: Check joints, anchors and line routing against the shelter instructions. A taut panel cannot establish load capacity. @E20,ED
 action: Recognize that improvised deadfall frames and field-cut poles have unknown wood grain, rot and joint friction—never assign them unvalidated snow-load or wind-load capacities. @E13,E05,ED
 failure: Attaching a heavy tarp mid-panel with a pebble knot or leaning snow-laden branches onto a cracked deadwood ridgepole. @E16,E13,ED
 verify: Confirm every load-bearing junction—pole ferrule, corner seam, guyline knot and ground stake—shows even tension without kinks, splits or loose play. @E20,E16,ED
-stop: Any bent pole, splitting wood support, tearing seam or slipping anchor interrupts the load path; unload and vacate the shelter rather than sleeping beneath it. @E16,E05,ED
-diagram: Wind & rain roof load | Poles & tensioned guylines | Ground anchor resistance
-visual: Mechanism diagram tracing wind uplift and roof loads through tensioned fabric, poles and guyline vectors into ground anchors. Conceptual, not to scale.
+stop: If supports shift, split or deform or the shelter tears, leave the hazard area. Keep people out until a competent assessment. @E16,ED
+diagram: Gravity loads supports | Wind loads fabric and frame | Tension reaches anchors
+visual: Load-path overview. Geometry, materials and anchor capacity remain unverified.
 reviewer: Structural safety and shelter equipment
 
 Z02-P34 | Inspect fabric coatings, seam tape, zippers and pole joints before use | NPS camping gear and Ready.gov kit maintenance; new manuscript
@@ -311,8 +311,8 @@ objective: Recognize how substrate type changes anchor holding behavior without 
 applies: Anchoring manufactured tents and tarps on forest soil, rocky pads, wet mud, sand or consolidated snow.
 equipment: Stakes matched to expected ground (Y/V-profile stakes, wider sand/snow stakes or clean deadman/rock options where lawful).
 action: Check substrate firmness before pitching; slim wire pegs pull straight out of soft mud, loose sand, thick leaf duff and dry snow under modest wind gusts. @E16,E20,ED
-action: Drive stakes at an outward angle per shelter instructions into firm soil, or use wide snow/sand stakes or clean wrapped deadman rocks/logs where terrain rules allow—avoiding live roots. @E20,E22,ED
-action: Test anchor firmness gently by hand before relying on the pitch and recheck anchors after rain saturates the soil or afternoon sun softens snowpack. @E16,E04,E20
+action: Use shelter-maker instructions for anchor type, placement and orientation. Saturated, soft or changing ground requires a different site when anchors cannot be secured. Follow site rules for any disturbance. @E20,E21,ED
+action: Inspect for movement after setup and weather changes. A gentle hand check can reveal a loose stake but cannot establish capacity in gusts. @E16,E20,ED
 failure: Expecting standard aluminum wire pegs pushed into wet forest duff or melting spring snow to hold a tarp through a night squall. @E16,E20
 verify: Confirm every primary corner and windward guyline sits in firm substrate and resists steady hand tension without creeping. @E16,E20,ED
 stop: Anchor strength varies wildly with soil moisture and snow crystal state—no universal pullout rating is implied; relocate to protected refuge if anchors creep in rising wind. @E16,E05,ED
@@ -371,7 +371,7 @@ action: Recognize that deadfall ridgepoles and side ribs have unpredictable inte
 action: Recognize that wet leaves, damp moss or melting snow piled onto an improvised frame soak bedding rapidly and add sudden roof weight that can collapse onto an occupied sleeping area. @E05,E10,ED
 failure: Sleeping beneath a heavy debris roof built from brittle deadwood during wet snowfall or rising wind. @E13,E05,E16
 verify: Confirm you can explain why a low windbreak plus dry ground insulation beats an untested overhead roof when wood soundness or weather loading is uncertain. @E05,E13,ED
-stop: Never occupy an improvised roof that sags, creaks, shifts or accumulates snow; move immediately to clear ground, maintain wind/ground protection and seek help. @E05,E13,T06
+stop: Keep people out from under improvised roofs of unknown capacity. Sagging, movement or added wet debris are further reasons to leave the area immediately. @E13,E16,ED
 diagram: Unrated deadfall support | Unknown rot and roof weight | Prefer safe windbreak or rated tent
 visual: Cutaway hazard schematic of an improvised branch A-frame labeling unvalidated ridge support, wet debris weight and collapse risk. Conceptual, not to scale.
 reviewer: Cold-weather shelter and structural safety
@@ -382,10 +382,10 @@ applies: Conceptual shelter-and-fire relationship; open fires require lawful aut
 equipment: Safe site assessment, dry insulation layers, and—only where fire is lawful and controllable—water and stirring tool.
 action: Treat an open lean-to strictly as a directional windbreak clear of overhead hazards and runoff, keeping an unobstructed exit at all times. @E05,E04,E13
 action: Treat any outdoor fire as an independent hazard requiring current burn permission, wind screening, water ready and a named awake attendant—never sleep next to an unattended fire. @C01,C02,C04
-action: Recognize there is NO universally safe fire-to-shelter clearance distance: wind eddies, dry brush, synthetic fabric melting, sparks and radiant heat vary at every site. @C02,C18,ED
+action: Follow minimum clearances set by the site and product. Even when minimums are met, wind, sparks, combustibles and shelter materials can make outdoor placement unsafe. @C02,C05,ED
 failure: Building a roaring fire close to a synthetic tarp or dry brush lean-to using a memorized step-count clearance and falling asleep while wind shifts sparks onto bedding. @C02,C04,C18
 verify: Confirm exposure control relies on dry insulation and wind protection first, with zero flame or hot embers threatening fabric, wood or breathing air. @E05,C02,C05,ED
-stop: Extinguish or relocate an outdoor fire immediately if smoke enters the shelter, wind shifts toward dry materials or radiant heat warms shelter surfaces; never burn fuel inside an enclosure. @C02,C04,C05,C16
+stop: Use an established alternate shelter or the no-fire plan if safe separation is uncertain. Keep combustion out of shelters and vestibules. If CO is suspected, move to fresh air and call emergency services. @C05,C07,C08
 diagram: Open windbreak shelter | Unvalidated clearance zone | Separate attended lawful fire
 visual: Cutaway schematic highlighting swirling wind/spark hazard between an open lean-to and an outdoor fire, explicitly noting no universal safe distance. Conceptual, not to scale.
 reviewer: Fire prevention and cold-weather shelter
@@ -396,10 +396,10 @@ applies: Winter snowpack environments; this card states hazard boundaries and is
 equipment: Formal winter training, avalanche check, snow shovel, dry reserve layers and rescue communication plan.
 action: Prefer existing stable buildings, safe vehicles or rated tents over digging snow when exposure, wind or fatigue is rising—digging burns heavy energy and causes dangerous sweating. @E14,E10,E25
 action: Exclude avalanche slopes, cornices, stream channels and unstable granular snow; snow depth alone NEVER proves roof strength or block cohesion. @E23,E04,ED
-action: Without proper snow tools, formal training and an unobstructed escape plan, never roof over an excavated trench; use a low open windwall and insulated bed or existing refuge instead. @E05,E25,ED
+action: Avoid roofed excavations in this guide. Use stable surface shelter and insulation or an established refuge. Tools or training alone do not establish roof capacity at a specific site. @E23,E25,ED
 failure: Digging a roofed snow trench with bare gloves in sugary unconsolidated snow, soaking clothing with sweat and risking sudden slab collapse. @E10,E23,E25
 verify: Confirm avalanche terrain is excluded, dry layers stay protected from sweat and no occupant sleeps beneath an unverified snow roof. @E23,E10,E05,ED
-stop: Cracking, settling, dripping thaw, blocked drift exits or advancing hypothermia requires vacating any snow excavation immediately and moving to safer surface cover or rescue. @E06,E25,T03
+stop: Leave if an excavation shows movement, drift affects exit, or exposure worsens. Get to safer ground without entering runout terrain and seek help. @E23,E25,T06
 diagram: Depth ≠ roof strength | Sweat & collapse hazards | Unroofed windwall or rated refuge
 visual: Cutaway hazard schematic of a snow trench illustrating unvalidated roof loading, drift-blocked exit risk and mandatory escape clearance. Conceptual, not to scale.
 reviewer: Cold-weather shelter and snow-safety specialist
@@ -410,12 +410,12 @@ applies: Deep-snow backcountry zones; strictly an informational hazard boundary,
 equipment: Qualified winter instructor supervision, avalanche evaluation, dedicated shovels, snow probe/markers and CO-free heat rules.
 action: Treat snow caves and quinzhees as structural systems requiring specialized training, proper snow sintering evaluation and supervised practice—never as a no-gear emergency shortcut. @E23,E25,ED
 action: Recognize four acute hazards inside snow enclosures: unverified ceiling collapse (especially during warming or rain-on-snow), blocked ventilation holes, snow-drifted exits and rapid lethal CO from any stove or candle. @C05,C16,E25
-action: Exclude avalanche runouts, steep snow drifts and cornices entirely; keep digging tools inside with occupants only under trained protocols and maintain continuous external visibility/markers. @E23,E25,ED
+action: Avoid avalanche runouts, unstable snow and cornices. Treat this as hazard recognition; do not enter, excavate or test an overhead snow cavity using the diagram. @E23,E25,ED
 failure: Attempting an unsupervised quinzhee in wet warming snow or lighting a small camp stove inside a snow cave to warm the air. @C05,C16,E25
 verify: Confirm that without qualified training and suitable snowpack, the group chooses existing refuge, rated winter tent or surface windbreak and rescue signaling instead. @E05,E14,T06,ED
-stop: Ceiling sag, cracking sounds, stuffy air, drowsiness, headache or drifting exit blockage demands immediate exit to fresh air and safer shelter. @C07,E25,T03
-diagram: Unverified snow ceiling | Vent & exit drift-burial risk | Zero combustion inside cavity
-visual: Cutaway hazard schematic of a snow cave marking unvalidated ceiling stability, vent-occlusion risk, exit drift and absolute CO prohibition. Conceptual, not to scale.
+stop: Exit immediately to fresh air and safer shelter if collapse, an obstructed exit or poor air is suspected. Seek emergency help for symptoms of CO exposure or serious cold illness. @E23,C07,T03
+diagram: Roof can fail without warning | Drift can block exit and air | Use stable surface refuge
+visual: Hazard schematic. Layout gives no construction, ventilation or occupancy criteria.
 reviewer: Cold-weather shelter, avalanche and carbon monoxide safety
 
 Z02-P43 | Reject improvised earth, root-ball and stone-roofed pit shelters | B012 P17 earth / stone shelter; adapted historical material

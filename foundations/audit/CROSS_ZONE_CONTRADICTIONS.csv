@@ -1,0 +1,9 @@
+id,zones,evidence_ids,baseline_conflict,a01_disposition,finding
+CZ-01,Z02/Z03/Z04/Z12,C05 C06 C07 C16 C21,"Tent/vestibule, partly enclosed heat and portable generator distance mixed with campfire clearance",Separate 20 ft portable-generator control and exact equipment instructions from fire rules. No combustion under shelter.,A01-02
+CZ-02,Z04/Z12,W01 W02 W04 W12 W20 W28,Generic EPA/CDC label and wait language mixed. Device treatments implied benefit against chemical hazards,"Use one protocol, matched product conditions, alternative supply for chemicals and cyst-specific filter claims.",A01-03/A01-04
+CZ-03,Z01/Z11/Z12 and B013,T06 X01 X03 X19 X20,A timed window and thicker approach ice can override stable-shore witness decision,"Separate lay witness from immersed survivor, last route as uncertain, urgent flotation and help.",A01-08/A01-09
+CZ-04,Z09/Z02,K09 K13 E16 E20,Load paths and anchors could read as verified capacities; redirect angle omitted,"Show static vector relationship, maintain no-load-rating boundary, exclude unknown overhead structures.",A01-01/A01-05
+CZ-05,Z01/Z11/Z12,T08 N08 N11,"Mixing compass reference, grid and datum could move rescue point",Keep all four inputs distinct; verify transformation and send raw format with known landmarks.,A01-07
+CZ-06,Z03/Z12,C05 C21 E14,Fuel-powered heat limits and winter vehicle shelter are separate choices,Shelter option does not qualify running equipment. Treat blocked exhaust and possible CO as emergency conditions.,A01-02
+CZ-07,Z01/Z02/Z12 and planned Z10,T02 T05 T09 X09,Improved symptoms or fixed alternative trigger could delay emergency evaluation,"Rapid shelter/cooling, dispatcher directions and safe descent, with medical specialist disposition.",A01-10
+CZ-08,Z02/Z11/Z12,E04 N10 X11 X16 X22,Cutaway or directional rule can imply universal evacuation direction or fixed setback,Use verified high ground and current mapped routes; site assessment and warning take priority.,A01-11

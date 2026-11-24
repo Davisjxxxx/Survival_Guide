@@ -1,0 +1,18 @@
+id,zones,required_specialist,scope,required_receipt,escalation,status,publication
+H01,Z02,Structural and cold-weather shelter,"Review real load paths, anchors, deformation, buried exits and site-specific wind/snow constraints",Controlled engineering assessment and representative diagrams,ASTRA-001,PENDING,HOLD
+H02,Z04,Drinking-water microbiology,"Product cyst and virus claims, temperature/contact time and treatability","Exact model/label, organism, concentration and valid water conditions",ASTRA-002,PENDING,HOLD
+H03,Z04/Z12,Water toxicology,"Chemical, algal and brackish source rejection and alternative supply",Review scope of field methods and model-specific contaminant exceptions,ASTRA-002,PENDING,HOLD
+H04,Z03/Z02/Z13,"Combustion, appliance and electrical safety","CO, regulator limits, field refueling, ventilation and clearance",Verified model manuals plus jurisdiction and scenario review,ASTRA-003,PENDING,HOLD
+H05,Z03/Z09,Mechanics and firecraft instructor,Individual ignition component relationships and measurement,Cold demonstration and independently reviewed diagrams before any live exercise,ASTRA-003/005,PENDING,HOLD
+H06,Z09,Rigging and cordage,"Knot topology, anchor vectors, drift and dynamic/human-rated limits","Independent system drawings, ratings and use limitations",ASTRA-005,PENDING,HOLD
+H07,Z09,Sawyer and forestry,"Loaded/downed wood examples, PPE and exclusion boundaries",Qualified case review without requiring hazardous demonstration,ASTRA-005,PENDING,HOLD
+H08,Z11,Cartography and field navigation,"Datum, declination, map legend, reciprocal bearings, resection and map vintage",Worked examples with known coordinates and reference labels,ASTRA-006,PENDING,HOLD
+H09,Z11,SAR aviation and communications,"Device and contact protocols, landing-area exclusion; no universal approach",Dispatch and flight governing protocols with role-based review,ASTRA-006,PENDING,HOLD
+H10,Z11/Z12,Ice and open-water rescue,"Self-exit, shore-only assistance, PFD posture, hypothermia and immersion",Role-by-role specialist review with agency standard and appropriate exercises,ASTRA-007,PENDING,HOLD
+H11,Z10/Z12,Wilderness medicine and EMS,"Heat stroke cooling, frostbite, hypothermia, trauma and altitude emergencies",Qualified clinician decisions with escalation and contraindications,ASTRA-007,PENDING,HOLD
+H12,Z12,Avalanche and mountain safety,"Connected terrain, forecast, unstable slopes, weather and runout",Qualified instructor verifies test scenarios and no implied threshold guarantee,ASTRA-007,PENDING,HOLD
+H13,Z12/Z15,Coastal safety and local emergency management,"Rip, surge, tsunami and flood route applicability",Local jurisdictions and tested accessible evacuation maps,ASTRA-007,PENDING,HOLD
+H14,All,Accessibility and print QA,"PDF/UA, actual assistive-device reads, grayscale and proof conditions",Validator report plus physical and assistive reader checks,ASTRA-004,PENDING,HOLD
+H15,Z05/Z08/Z16,"Botanist, mycologist, geology and image-rights reviewers","Identity, lookalikes, provenance and lawful diagnostic display",Multiview originals and matched evidence reviewed separately,Continued production,PENDING,HOLD
+H16,Z06/Z07,"Wildlife, law and animal welfare",Scope of regulations and user-facing safety boundaries,"Named authority, season, geography, version and review date",Continued production,PENDING,HOLD
+H17,Z14,Food preservation and public health,Tested recipes and equipment / altitude constraints,Qualified verification of official method and editorial applicability,Continued production,PENDING,HOLD

@@ -296,7 +296,7 @@ Z04-P34 | Understand what pore-size filtration removes and what passes through |
 objective: Match mechanical filter pore ratings accurately against protozoa, bacteria, viruses and dissolved chemicals.
 applies: Choosing or using any portable backcountry or emergency point-of-use water filter.
 equipment: Filter specification sheet or label showing absolute pore rating or independent certification (NSF/ANSI 53, 55 or EPA purifier standard).
-action: Check whether the filter uses an absolute pore rating (typically ≤1 micron for cysts and ~0.1–0.2 micron for bacteria) or only an unverified nominal rating. @W04,W19,W20,W21
+action: Identify the exact model and treatment claim. Nominal and absolute pore ratings differ. Product certification or test evidence must cover the organism of concern. @W04,W20,W21
 action: Recognize that standard backcountry mechanical filters do not remove most viruses or dissolved chemicals; pair mechanical filtration with chemical disinfection or boiling when viruses are a concern. @W04,W21,W22
 action: Confirm whether any activated-carbon stage is strictly for taste/odor or holds independent NSF certification for specific listed chemicals; carbon alone does not disinfect microbes. @W21,W22
 failure: Assuming a 0.2-micron hollow-fiber filter stops viruses or removes agricultural nitrates, fuel or heavy metals. @W04,W21,W22
@@ -309,15 +309,15 @@ reviewer: Drinking-water microbiology and treatment engineering
 Z04-P35 | Select certified filters for Giardia and Cryptosporidium cysts | CDC Giardia, Cryptosporidium and filter guidance; new manuscript
 objective: Choose effective parasite barriers where standard chlorine or iodine disinfection alone is unreliable.
 applies: Surface water in wilderness, rural or flood-affected areas where wildlife or livestock can shed protozoan cysts.
-equipment: Filter independently rated for cyst reduction (absolute ≤1 micron or NSF/ANSI 53/55) or boiling setup.
+equipment: Filter rated for specific cyst reduction or removal, filter of one micron absolute or smaller, or boiling setup.
 action: Recognize that Cryptosporidium oocysts strongly resist routine chlorine bleach and iodine doses, and Giardia cysts also resist brief cold-water chlorination. @W19,W20,W10
-action: Select boiling or a filter explicitly certified for cyst reduction (absolute pore size ≤1 micron or NSF/ANSI Standard 53/55) to remove parasites reliably. @W19,W20,W02
+action: Use boiling or a filter independently certified for cyst reduction or removal, or rated at one micron absolute or smaller for parasite reduction. Look for a cyst-specific claim under NSF/ANSI 53 or 58 where certified. @W20
 action: Combine cyst-rated filtration with chemical disinfection when viral risk is also present (such as near human sewage or heavy-use corridors). @W04,W20
 failure: Relying solely on standard chlorine drops in cold stream water where Cryptosporidium oocysts survive treatment. @W20,W05
 verify: Confirm the filter label explicitly states cyst removal or absolute ≤1 micron rating and that seals and cartridge are intact. @W19,W20,W28,ED
 stop: If the filter lacks cyst verification or suffers seal or freeze damage, boil the water instead or switch to a known potable supply. @W02,W20,W28
-diagram: Chlorine misses Crypto | Cyst filter ≤1 um or NSF 53 | Boiling kills all classes
-visual: Comparative configuration contrasting parasite inactivation across standard chlorine, certified cyst filtration and rolling boil. Conceptual, not to scale.
+diagram: Routine chlorine misses Crypto | Verify specific cyst claim | Boil when appropriate
+visual: Compares parasite barriers. Neither a standard number by itself nor cyst removal establishes protection against all hazards.
 reviewer: Drinking-water microbiology and public health
 
 Z04-P36 | Operate pump, squeeze and gravity filters without cross-contaminating outlets | B009 equipment hygiene and CDC treatment; new manuscript
@@ -338,12 +338,12 @@ Z04-P37 | Protect wet hollow-fiber and ceramic filters from freeze damage | CDC 
 objective: Prevent invisible ice-expansion damage inside porous filter elements during cold trips and overnight stops.
 applies: Any outing where temperatures may drop near or below freezing while carrying a previously wetted filter.
 equipment: Sealable dry bag for the filter element, insulated interior pocket or sleeping bag and backup boiling or chemical method.
-action: Shake and blow or drain excess water gently per manufacturer instructions immediately after filtering, remembering that microscopic pores remain damp. @W28,ED
-action: Keep the damp cartridge sealed in a waterproof bag inside your inner clothing during travel and inside your sleeping bag overnight whenever temperatures approach freezing. @W28,E10
+action: Read the exact model instructions for draining and storage. A cartridge that looks drained can still contain water. @W28
+action: Protect the wetted filter against freezing as the manufacturer directs. Maintain a treatment backup for water within its limits. @W28,W02
 action: Run the manufacturer's integrity check where specified (such as air-pressure or ceramic gauge checks) only as directed; never assume a visual glance detects internal cracks. @W28,ED
 failure: Stashing a wet filter in a pack's outer mesh pocket at dusk when temperatures dip below 32°F, silently rupturing hollow fibers. @W28
 verify: Confirm the filter has never been exposed to freezing temperatures while damp, or switch immediately to boiling. @W28,W02
-stop: Any wet filter left out in freezing air is compromised—stop relying on it for microbial safety and use boiling or another verified supply. @W28,W02
+stop: If a wetted filter might have frozen, stop relying on it and follow the model instructions for replacement or an approved integrity check. Use a supported alternate treatment or carried potable water. @W28,W02
 diagram: Residual moisture in pores | Below-freezing exposure | Invisible crack bypasses barrier
 visual: Failure-mode illustration linking trapped pore water and subfreezing exposure to silent internal membrane rupture and backup switch. Conceptual, not to scale.
 reviewer: Drinking-water treatment and cold-weather equipment
@@ -366,14 +366,14 @@ Z04-P39 | Disinfect clear water with unscented household chlorine bleach | EPA a
 objective: Apply label-verified household sodium hypochlorite accurately when boiling is unavailable and chemical hazards are excluded.
 applies: Emergency drinking-water disinfection using fresh, regular unscented liquid bleach (5%–9% sodium hypochlorite) on chemically acceptable water.
 equipment: Fresh unscented 5%–9% liquid bleach with readable label, clean dropper or measuring spoon, pre-filter cloth, timer and clean lidded container.
-action: Confirm the bottle is plain unscented liquid bleach with 5%–9% sodium hypochlorite—never use scented, color-safe, splash-less or cleaner-added bleach. @W12
-action: Clarify cloudy water first, measure the label-matched EPA/CDC dose (for 5%–9% bleach: about 8 drops or just under 1/8 tsp per gallon of clear water; double if still slightly cloudy), and mix thoroughly. @W12,W08
-action: Let stand at least 30 minutes; water should have a faint chlorine odor (if not, repeat the dose and wait another 15 minutes), remembering chlorine does not reliably kill Cryptosporidium. @W12,W20
+action: Prefer an approved safe supply or boiling when appropriate. Use bleach only as an emergency option and only if the product and concentration are covered by a current official instruction. @W01,W02,W12
+action: Follow local public health directions or one complete current EPA or CDC protocol. Verify the exact formulation, water volume and required pretreatment. Do not combine tables or improvise a rounded dose. @W12
+action: Follow the selected protocol for the full dose and contact time. A chlorine smell alone cannot prove treatment, and this process does not reliably address all parasites. @W12,W20
 failure: Using aged weak bleach, scented laundry bleach, or drinking immediately without the 30-minute contact wait. @W12,W05
-verify: Confirm bleach label concentration, exact volume dosed, 30-minute timer completion and faint chlorine smell before drinking. @W12,ED
-stop: Reject bleach disinfection if chemical/fuel/algal contamination is suspected, if bleach concentration is unreadable or non-plain, or if Cryptosporidium risk requires boiling or cyst filtration. @W01,W12,W15,W20
-diagram: Verify 5-9% unscented label | Clarify and dose per gallon | Mix and wait ≥30 min
-visual: Mechanism diagram tracing chlorine concentration verification, turbidity pre-clarification and 30-minute contact-time inactivation kinetics. Conceptual, not to scale.
+verify: Record the source protocol, product concentration, water volume, exact dose and elapsed time. @W12,ED
+stop: Use another supply if the product strength or treatment steps are uncertain, or if a chemical, fuel or algal toxin hazard is suspected. @W01,W12,W15
+diagram: Confirm product and concentration | Follow one official table | Record dose and contact time
+visual: Protocol-selection schematic. Select the applicable local or agency instructions for the entire procedure.
 reviewer: Drinking-water safety and public health
 
 Z04-P40 | Match chlorine dioxide and halogen tablets to temperature and contact time | CDC backcountry treatment; new manuscript
@@ -381,7 +381,7 @@ objective: Follow exact manufacturer dose, water-temperature and contact-time ta
 applies: Backcountry travel using commercial chlorine dioxide tablets/drops, chlorine tablets or iodine products on chemically acceptable raw water.
 equipment: Unexpired commercial disinfectant in original labeled packaging, graduated container, pre-filter cloth and watch or timer.
 action: Read the product's active chemistry, expiration date and exact volume rating; chlorine dioxide, chlorine and iodine differ sharply in cyst coverage and wait times. @W05,W10,W20
-action: Clarify turbid water first and extend contact time strictly according to the label when treating cold water or targeting resistant parasites like Cryptosporidium. @W05,W08,W20
+action: Follow the exact product instructions for water clarity, temperature, volume and contact time. If the product does not claim efficacy for the expected pathogen under those conditions, select a suitable treatment or verified supply. @W04,W05,W20
 action: Screen every group member before using iodine—avoid iodine-treated water during pregnancy, with thyroid conditions or with iodine hypersensitivity. @W10
 failure: Using a short summer wait time in near-freezing stream water, or using expired blister packs with discolored crumbled tablets. @W05,W10
 verify: Record exact product, volume, water clarity, start time and label-required finish time before anyone drinks. @W05,ED
@@ -549,7 +549,7 @@ objective: Catch silent treatment failures before anyone drinks an inadequately 
 applies: Field and household operation of portable filters, chemical disinfectants and battery-powered UV purifiers.
 equipment: Working backup treatment method, product labels, watch/timer and batch tracking log.
 action: Treat sudden unusually fast filter flow, cracked housings, missing O-rings or prior freezing of a wet cartridge as signs of mechanical bypass. @W28,W04
-action: Reject chemical disinfection if bleach is older than recommended or lacks a faint chlorine odor after repeat dosing, or if tablets are expired, damp or crumbled. @W12,W05
+action: Reject unlabeled, expired or contaminated reagents and any batch that did not meet its official time and dose requirements. Odor cannot verify microbial safety. @W05,W12
 action: Treat blinking error indicators, low-battery shutdowns, turbid water or oversized bottles as incomplete UV cycles that leave microbes active. @W11
 failure: Drinking a batch after a UV wand flickered out mid-cycle or after a frozen squeeze filter suddenly flowed twice as fast as normal. @W11,W28
 verify: Confirm each treatment batch met its full mechanical integrity, dose/odor or rated UV cycle criterion before releasing it to the clean side. @W04,W11,W12,ED

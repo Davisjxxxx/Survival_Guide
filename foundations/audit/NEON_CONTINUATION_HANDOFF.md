@@ -1,0 +1,19 @@
+# Neon production handoff
+
+The A01 candidate has 373 zone drafts and three additional starter reconstructions. Use the original 1,016-page scope and preserve the production, recovery and owner-review checkpoints. The nine remaining allocations total 643 pages. Proofs and qualified approval remain separate. No publication authority is transferred.
+
+## Batch order and qualification gates
+
+| Priority | Zone | Remaining | Production boundary and reviewer |
+|---|---|---:|---|
+| 1 | Z05 Wilderness medicine | 135 | Use current clinical guidance with explicit audience, setting, urgency and dispatcher boundaries. Start with recognition, communication and referral. Hold dosage, invasive care, independent diagnosis and conflicting management guidance for qualified wilderness-medicine and EMS review. |
+| 2 | Z13 Home survival and utilities | 70 | Use the starter as a labeled reconstruction. Record device, electrical and jurisdictional conditions. Hold transfer connections, gas and combustion installations, and improvised plumbing or electrical systems for licensed trades, fire-safety and public-health review. |
+| 3 | Z14 Food production and preservation | 80 | Reconcile the starter with independently tested food preservation methods. Preserve recipe, preparation, equipment, altitude and time as a single protocol. Hold substitutions and claimed safe shelf lives for extension or process-authority review. |
+| 4 | Z15 Disaster scenarios | 65 | Keep the starter separately traceable. Identify agency, jurisdiction, trigger and evacuation destination for each scenario. Hold broad emergency predictions, improvised water crossings or rescue procedures for emergency-management and hazard specialists. |
+| 5 | Z10 Rocks, minerals and materials | 80 | Anchor species and material identification to references and non-destructive observations. Cover dust and toxicity boundaries. Hold structural suitability, unidentified material use and hazardous extraction methods for geology, materials and industrial-hygiene review. |
+| 6 | Z06 Hunting and fishing | 48 | Use public-agency sources for seasons, licensing, habitat, local advisories, conservation and handling. Escalate location-specific legal claims and high-consequence equipment topics to the appropriate authorities and specialists. |
+| 7 | Z07 Traps and snares | 30 | Preserve the zone allocation. Start with regulations, wildlife welfare, unintended-contact hazards, encounter avoidance and authority referral. Escalate potentially injurious mechanisms and placement details for legal, animal-welfare and safety review. |
+| 8 | Z08 Wild foods and poisonous lookalikes | 60 | Separate recognition from edibility. Use range, season and limits and require diagnostic images plus expert review for identification pairs. Hold unidentified consumption advice and toxicity or emergency-treatment conclusions for botany, mycology and poison-center review. |
+| 9 | Z16 Field reference atlas | 75 | Use the same approved source lineage and IDs as full chapters. Cross-index each zone and repeat constraints that affect action. Hold atlas plates with unverified diagnostic imagery, stale jurisdictional references or shortened safety-critical instructions. |
+
+Audit a small first batch per new domain against the A01 claim and illustration controls, then build the rest in bounded batches. Trace high-consequence claims before drafting decision or action diagrams. Repair conflicts at the upstream claim and all downstream cards in the same change. Keep the 59 unresolved baseline claims and 17 pending specialist holds visible throughout production. Preserve the three primer-linked starters and ten B014 reconstructions as labeled derivatives while the archival targets remain unresolved. Use [the original matrix](../ZONE_COMPLETION_MATRIX.csv) for scope and [the A01 register](SPECIALIST_REVIEW_REGISTER.csv) for technical dependencies.

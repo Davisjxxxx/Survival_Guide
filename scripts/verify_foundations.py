@@ -13,7 +13,7 @@ import pymupdf
 from PIL import Image, ImageDraw
 from playwright.sync_api import sync_playwright
 
-from build_foundations import ACTIVE_ZONES, FOUND, FOUNDATIONAL_ZONES, crosswalk, require
+from build_foundations import active_zones, FOUND, FOUNDATIONAL_ZONES, crosswalk, require
 
 PAPER_SIZES = {
     'letter': ('Letter', 612.0, 792.0),
@@ -41,7 +41,9 @@ def check_contents(page, output, cards):
 def check_zone_and_directory(page, output, cards):
     page.goto((output / 'directory.html').as_uri())
     require(page.locator('table.dir-table tbody tr').count() == 16, 'Directory must cover all 16 zones')
-    for zone in ACTIVE_ZONES:
+    for link in page.locator('a[href^="history/"]').evaluate_all('a=>a.map(x=>x.getAttribute("href"))'):
+        require((output/link).is_file(), f'Missing offline historical target {link}')
+    for zone in active_zones(cards):
         zcards = [c for c in cards if c['zone'] == zone]
         if not zcards:
             continue
@@ -78,7 +80,7 @@ def print_card(page, card, targets, fmt_key):
         if 'failure' in card:
             statements.append(card['failure'])
         for text_item in [*required, *[item['text'] for item in statements]]:
-            require(' '.join(text_item.split()) in normal,
+            require(' '.join(text_item.replace('**','').split()) in normal,
                     f'Print ({fmt_name}) missing content on {card["id"]}: {text_item}')
         for target_pdf in targets:
             target_pdf.insert_pdf(single)
@@ -113,6 +115,7 @@ def main():
     parser.add_argument('--reader', type=Path, default=FOUND / 'reader')
     parser.add_argument('--proofs', type=Path, default=FOUND / 'proofs')
     parser.add_argument('--axe', type=Path)
+    parser.add_argument('--browser-only', action='store_true', help='Run browser QA without writing legacy print proofs')
     parser.add_argument('--batch')
     parser.add_argument('--zone')
     parser.add_argument('--foundations-only', action='store_true')
@@ -123,6 +126,10 @@ def main():
 
     formats = [f.strip().lower() for f in args.formats.split(',') if f.strip()]
     require(formats and all(f in PAPER_SIZES for f in formats), f'Invalid formats: {args.formats}')
+
+    if args.browser_only:
+        formats = []
+        require(not args.write_zone_pdfs,'Use tagged print separately from browser-only QA')
 
     output, proofs = args.reader.resolve(), args.proofs.resolve()
     proofs.mkdir(parents=True, exist_ok=True)
@@ -164,7 +171,7 @@ def main():
     widths = (320, 390, 1280)
     reports = {
         'tested_cards': len(cards),
-        'printed_cards': len(chosen),
+        'printed_cards': len(chosen) if formats else 0,
         'formats': formats,
         'widths': list(widths),
         'actual_browser_errors': [],
@@ -197,7 +204,7 @@ def main():
                         reports['axe_version'] = page.evaluate('axe.version')
                         reports['axe_incomplete'][slug] = [i['id'] for i in result['incomplete']]
                         reports['axe_violations'][slug] = [i['id'] for i in result['violations']]
-                    for zone in ACTIVE_ZONES:
+                    for zone in active_zones(cards):
                         if not any(c['zone'] == zone for c in cards):
                             continue
                         page.goto((output / 'zones' / zone / 'index.html').as_uri())
@@ -267,7 +274,8 @@ def main():
                                             'subject': 'Editorial review draft'})
                     recon_pdf.save(proofs / 'reconstructions.pdf', garbage=4, deflate=True)
 
-            contact_sheet(pdfs[formats[0]], chosen, proofs / f'{args.name}-contact.jpg')
+            if formats:
+                contact_sheet(pdfs[formats[0]], chosen, proofs / f'{args.name}-contact.jpg')
             for shot in shots:
                 shutil.copyfile(shot, proofs / shot.name)
     finally:

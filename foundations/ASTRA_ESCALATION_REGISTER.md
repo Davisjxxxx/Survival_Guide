@@ -1,5 +1,7 @@
 # Consolidated Astra Technical-Review Escalation Register
 
+The register below preserves the original escalations. A01 recorded dispositions for ASTRA-001 through ASTRA-008 in the [technical findings](audit/TECHNICAL_FINDINGS.csv) and [cross-zone comparison](audit/CROSS_ZONE_CONTRADICTIONS.csv). Every qualified reviewer disposition remains [pending on HOLD](audit/SPECIALIST_REVIEW_REGISTER.csv).
+
 Maintained across completed foundational zones (Z01–Z04) and extended production zones (Z09, Z11, Z12). All listed items remain on `publication: HOLD` until Astra technical audit and qualified human specialist dispositions are recorded.
 
 | Escalation ID | Zone & Page IDs | Severity | Category | Summary of technical risk / conflict | Supporting evidence | Proposed resolution / audit action |

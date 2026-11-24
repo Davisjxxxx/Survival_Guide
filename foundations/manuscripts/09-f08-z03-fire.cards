@@ -156,8 +156,8 @@ Z03-P24 | Understand ferrocerium rod scraping mechanics and spark direction | B0
 objective: Understand how a sharp striker shaves burning pyrophoric ferrocerium particles cleanly into prepared fine tinder.
 applies: Supervised practice or lawful outdoor ignition using a commercial ferrocerium rod and dedicated striker.
 equipment: Ferrocerium rod, sharp 90-degree striker (not a knife's sharp cutting edge), receptive fine dry tinder and fire-control water.
-action: Brace the tip of the ferrocerium rod firmly on a stable surface right beside the dry tinder bundle—stabilizing the rod prevents knocking the tinder apart mid-strike. @C11,C03,ED
-action: Scrape firmly along the rod with a sharp square-spined striker (or pull the rod back cleanly against a stationary striker) to shave hot oxidizing ferrocerium particles directly onto fine tinder. @C11,C03,ED
+action: Identify the rod, compatible striker and suitable dry tinder from the model instructions. Inspect tool control cold before any authorized live use. @C03,C11,ED
+action: Ferrocerium and traditional flint-and-steel produce hot particles from different materials. Follow the product instructions for any live training. @C10,ED
 action: Avoid striking with a knife's cutting edge, which dulls the blade and risks severe hand lacerations if the blade slips toward fingers or legs. @T01,ED
 failure: Waving a ferro rod wildly in midair above coarse sticks, scattering sparks harmlessly away from the tinder or slicing a hand with a knife blade. @C03,T01,ED
 verify: In a cold dry-run position check, confirm stable braced tip placement, sharp square striker spine and fine fibrous tinder directly in the spark path. @C03,C11,ED
@@ -170,8 +170,8 @@ Z03-P25 | Distinguish traditional steel-and-flint sparks from ferrocerium sparks
 objective: Contrast the physics, spark temperature and tinder requirements of traditional flint-and-steel versus modern ferrocerium rods.
 applies: Historical interpretation, mechanism education and supervised firecraft training.
 equipment: Identified traditional carbon-steel striker and flint/chert edge alongside a modern ferrocerium rod for cold comparison.
-action: Recognize that traditional flint-and-steel sheds tiny particles of carbon STEEL shaved off by a hard rock edge (flint/chert), producing cooler short-lived sparks that require charred cloth or specialized punkwood to catch an ember. @C10
-action: Recognize that a modern ferrocerium rod sheds engineered pyrophoric alloy shavings that burn far hotter and longer, able to ignite fine dry fibrous tinder or commercial tabs directly. @C10,C11,ED
+action: In traditional flint-and-steel, a hard stone edge removes small steel particles. A compatible dry receiver, such as prepared char cloth used in the NPS demonstration, can catch them. @C10
+action: Modern ferrocerium equipment differs in material and compatible striker. Use exact product instructions; this comparison does not establish relative spark temperature, duration or wet performance. @C10,ED
 action: Keep historical flint-and-steel clearly classified as a skill-intensive educational or supervised heritage technique rather than substituting it for dependable modern emergency ignition. @C10,C11,C08
 failure: Assuming any random shiny rock from a creek bed sparks like a ferrocerium rod or expecting traditional steel sparks to light ordinary twigs directly. @C10,C03
 verify: Explain clearly which material sheds the spark in each system and why charred tinder is required for traditional steel sparks. @C10,ED
@@ -212,9 +212,9 @@ Z03-P28 | Compare canister, liquid-fuel and solid-fuel stoves by temperature and
 objective: Match portable outdoor stove types to ambient temperature, wind, elevation and local fire-restriction rules.
 applies: Selecting a camp stove for boiling water and cooking across three-season, winter and fire-restricted backcountry trips.
 equipment: Manufacturer stove specifications, matched fuel and current land-unit fire restriction order.
-action: Recognize that upright isobutane/propane canisters are simple and have an on/off shutoff valve (often permitted under Stage 1/2 fire restrictions where open fires are banned), yet lose pressure sharply in freezing cold unless inverted/regulated per manufacturer design. @C13,C15,ED
-action: Recognize that pumped liquid-fuel stoves maintain strong output in subfreezing temperatures and high elevation, yet require careful outdoor priming, leak checks and manufacturer-matched fuel. @C15,ED
-action: Recognize that solid-fuel tablet or alcohol stoves lack an instant shutoff valve, are frequently prohibited during Stage 1/2 fire restrictions and burn weakly in wind without careful shielding. @C13,C15,ED
+action: Check the local order for the exact stove type and permitted operation. A shutoff valve alone does not establish permission. Check the model temperature and fuel limits. @C13,C15,ED
+action: Match fuel and operating conditions to the stove instructions. This comparison does not establish that a given liquid-fuel stove will perform safely at a particular altitude or temperature. @C15,ED
+action: Check whether the exact solid-fuel or alcohol appliance is permitted. If legality or operation is uncertain, choose a no-fire alternative. @C13,C08,ED
 failure: Taking an unregulated canister stove into 5°F winter air without testing cold output, or using an open alcohol stove during a Stage 2 shutoff-valve-only restriction. @C13,C15
 verify: Confirm the stove matches local fire restriction rules (on/off valve requirement), forecast low temperature and manufacturer-approved fuel type. @C13,C15,ED
 stop: Never operate any stove indoors or in a tent vestibule, and never substitute unapproved fuels in a stove rated for a specific fuel. @C05,C15,C16
@@ -241,11 +241,11 @@ objective: Prevent fuel-canister overheating, burst pressure valves and pot tip-
 applies: Setting up canister or liquid camp stoves in breezy outdoor conditions.
 equipment: Stove, manufacturer-approved windscreen (if permitted for that stove), level base and matched fuel canister or bottle.
 action: Never wrap a tight full-enclosure foil windscreen around a canister-top stove—trapped radiant heat can overheat the pressurized fuel canister underneath and cause a catastrophic rupture. @C15,ED
-action: Follow the exact manufacturer instructions for windscreen clearance and remote-canister routing; use a natural rock or pack windblock set well back instead of trapping heat around canisters. @C15,ED
+action: Follow the exact model instructions. Some canister-top stoves explicitly prohibit all windscreens. Do not add or position a barrier that the instructions prohibit or that can redirect heat toward the fuel container. @C15,C21
 action: Match pot diameter to stove arm limits and place the stove on a flat non-flammable surface so boiling pots cannot tip onto operators or dry needles. @C15,C02
 failure: Wrapping heavy aluminum foil snugly around a threaded isobutane canister until the metal becomes too hot to touch. @C15
 verify: Confirm fuel canister stays cool to touch during operation, pot sits centered on stable supports and surrounding ground is cleared of dry needles. @C15,C02,ED
-stop: Shut off the stove immediately if the fuel canister grows noticeably warm, flames lick around the tank or pot supports wobble. @C15,C05
+stop: If fuel heating, abnormal flames or unstable supports are suspected, stop use and follow the manufacturer emergency guidance. If you cannot safely shut it down, move away and seek help. @C21,T01,T02
 diagram: Canister stays cool & vented | Matched windscreen clearance | Stable level pot support
 visual: Exploded stove-accessory layout showing safe open canister ventilation versus prohibited tight foil wrap overheating hazard. Conceptual, not to scale.
 reviewer: Portable appliance safety
@@ -395,9 +395,9 @@ objective: Understand why cold air, high elevation and semi-enclosed spaces acce
 applies: High-elevation camps, wind-sheltered porches, carports, snow trenches and cold-weather stove use.
 equipment: Open-air outdoor cooking location, battery lighting and symptom awareness across all group members.
 action: Recognize that carbon monoxide is completely colorless, odorless and tasteless—you cannot detect dangerous buildup by smell, smoke visibility or clean blue flame color. @C07,C16
-action: Recognize that high elevation lowers available oxygen and cold cooking pots quench flames, increasing incomplete combustion and CO output from camping stoves and heaters. @C05,C16
+action: Cold, altitude, appliance design and pot placement can affect combustion; appearance and altitude do not establish a safe CO output. Use camping stoves outdoors and follow the exact model limits. @C16,C21
 action: Treat semi-enclosed carports, screened porches, snow-walled wind pits and open-door garages as trapped-exhaust enclosures where wind eddies recirculate lethal CO back toward people. @C16,C06
-failure: Assuming a clean blue propane flame inside an open-sided snow pit or partly open garage produces no dangerous carbon monoxide. @C05,C16,C07
+failure: Treating an open vestibule or a blue flame as proof that exhaust cannot accumulate around people. @C05,C16
 verify: Confirm all fuel combustion occurs in fully open outdoor air with exhaust carried cleanly away from occupied areas and air intakes. @C05,C06,C16,ED
 stop: Any flu-like headache, nausea, fatigue or confusion near combustion equipment demands immediate escape to open fresh air and emergency medical evaluation. @C07,T02
 diagram: Cold/altitude -> higher CO | Semi-enclosure traps exhaust | Odorless hazard -> open air only
