@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 116" role="img" aria-labelledby="title desc"><title id="title">Test offline maps and paper backup</title><desc id="desc">Save relevant map area | Test without coverage | Match paper backup</desc><defs><marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker></defs><rect width="720" height="116" rx="12" fill="#edf1e9"/><g font-family="system-ui,sans-serif" font-size="15" font-weight="650" fill="#183c31"><text x="20" y="23">Z11-R08 · FIELD SCHEMATIC</text><rect x="20" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="63">Save relevant map area</text><path d="M236 69h13" stroke="#285345" stroke-width="2" marker-end="url(#arrow)"/><rect x="253" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="63">Test without coverage</text><path d="M469 69h13" stroke="#285345" stroke-width="2" marker-end="url(#arrow)"/><rect x="486" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="63">Match paper backup</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 116" role="img" aria-labelledby="title desc">
+  <title id="title">Test offline maps and paper backup</title>
+  <desc id="desc">Save relevant map area | Test without coverage | Match paper backup</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
+  </defs>
+  <rect width="720" height="116" rx="12" fill="#edf1e9"/>
+  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
+    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z11-R08 · FIELD SCHEMATIC</text>
+    
+    <g id="stage-panels"><rect x="20" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="63" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Save relevant map area</text><path d="M236 69h13" stroke="#285345" stroke-width="2" marker-end="url(#arrow)"/><rect x="253" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="63" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Test without coverage</text><path d="M469 69h13" stroke="#285345" stroke-width="2" marker-end="url(#arrow)"/><rect x="486" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="63" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Match paper backup</text></g>
+  </g>
+</svg>

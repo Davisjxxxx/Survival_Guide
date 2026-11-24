@@ -1,0 +1,107 @@
+{
+  "Z01-P13": {
+    "type": "decision_tree",
+    "gates": [
+      "Forecast & alerts clear?",
+      "Group & daylight fit?",
+      "Depart with bailouts"
+    ],
+    "abort": "STOP: Postpone, shorten, or choose safer alternate route"
+  },
+  "Z01-P14": {
+    "type": "exploded",
+    "components": [
+      "Power & Light",
+      "Offline Map & Radio",
+      "Shelter & Seams",
+      "Water & First Aid"
+    ],
+    "callout": "Pre-trip live function test axis — verify every subsystem before departure"
+  },
+  "Z01-P15": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Lead Role",
+        "note": "Sets sustainable pace and halts at every junction",
+        "limit": "Never outpace visual/voice contact"
+      },
+      {
+        "name": "Middle & Check-ins",
+        "note": "Monitors fatigue, warmth, hydration and morale",
+        "limit": "Anyone can call a safety halt"
+      },
+      {
+        "name": "Sweep Role",
+        "note": "Stays behind last person with backup map & whistle",
+        "limit": "Zero uncounted trailing hikers"
+      }
+    ]
+  },
+  "Z01-P16": {
+    "type": "mechanism",
+    "nodes": [
+      "WEA + NOAA Weather Radio (VHF)",
+      "Written Plan + Low-Power Phone",
+      "Confirmed Out-of-Area Handoff"
+    ],
+    "callout": "Terrain shadow or tower outage blocks single-channel plans",
+    "accent": "#3f7688"
+  },
+  "Z01-P17": {
+    "type": "decision_tree",
+    "gates": [
+      "Watch only & safe?",
+      "Warning or local cue?",
+      "Continue w/ margin"
+    ],
+    "abort": "WARNING / CUE: Shelter immediately or evacuate early"
+  },
+  "Z01-P18": {
+    "type": "exploded",
+    "components": [
+      "Support Network",
+      "Meds & Power Backup",
+      "Accessible Transport",
+      "Service Animal Kit"
+    ],
+    "callout": "Accessible planning integrates all four subsystems before disruption"
+  },
+  "Z01-P19": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Wind & rain barrier",
+      "Dry rest layers & clear exit",
+      "Insulated pad off cold ground"
+    ],
+    "callout": "Stop before dark",
+    "accent": "#d4ae5d",
+    "hazard": "No indoor fuel combustion"
+  },
+  "Z01-P20": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Storm / wildfire corridor",
+      "Open early-exit buffer",
+      "Hazard-matched refuge"
+    ],
+    "callout": "Wind direction, outflow gusts & smoke plume advance"
+  },
+  "Z01-P21": {
+    "type": "decision_tree",
+    "gates": [
+      "No medical red flags?",
+      "Recovered after rest?",
+      "Exit together early"
+    ],
+    "abort": "RED FLAG / UNRECOVERED: Halt, stabilize & call 911 / SAR"
+  },
+  "Z01-P22": {
+    "type": "failure_mode",
+    "cause": "Cold battery drop, frozen filter, torn anchor, dead light",
+    "cue": "Dim beam, bypass risk, heat loss or missing redundancy",
+    "correction": "Switch to backup immediately and shorten or halt trip"
+  }
+}

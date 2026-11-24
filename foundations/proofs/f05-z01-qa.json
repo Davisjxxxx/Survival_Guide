@@ -1,0 +1,56 @@
+{
+  "tested_cards": 63,
+  "printed_cards": 10,
+  "formats": [
+    "letter",
+    "a4"
+  ],
+  "widths": [
+    320,
+    390,
+    1280
+  ],
+  "actual_browser_errors": [],
+  "http_requests": [],
+  "axe_incomplete": {
+    "index": [],
+    "directory": [],
+    "zone-Z01": [],
+    "zone-Z02": [],
+    "zone-Z03": [],
+    "zone-Z04": [],
+    "Z01-P13": [],
+    "Z01-P14": [],
+    "Z01-P15": [],
+    "Z01-P16": [],
+    "Z01-P17": [],
+    "Z01-P18": [],
+    "Z01-P19": [],
+    "Z01-P20": [],
+    "Z01-P21": [],
+    "Z01-P22": []
+  },
+  "axe_violations": {
+    "index": [],
+    "directory": [],
+    "zone-Z01": [],
+    "zone-Z02": [],
+    "zone-Z03": [],
+    "zone-Z04": [],
+    "Z01-P13": [],
+    "Z01-P14": [],
+    "Z01-P15": [],
+    "Z01-P16": [],
+    "Z01-P17": [],
+    "Z01-P18": [],
+    "Z01-P19": [],
+    "Z01-P20": [],
+    "Z01-P21": [],
+    "Z01-P22": []
+  },
+  "chromium": "155.0.8059.79",
+  "axe_version": "4.11.4",
+  "zones": {
+    "Z01": 10
+  }
+}

@@ -1,13 +1,13 @@
 # Combustion, carbon monoxide and fire safety · evidence pack
 
-Checked 2026-11-24. Minnesota land-use examples and U.S. consumer product guidance. Use C01–C12 in the [claim register](claims.tsv) and agency versions in the [source register](sources.tsv).
+Checked 2026-11-24. Minnesota land-use examples and U.S. federal fire-prevention and consumer-product guidance. Use C01–C20 in the [claim register](claims.tsv) and dated primary references in the [source register](sources.tsv).
 
 | Decision | Source-supported boundary | Editorial implementation |
 |---|---|---|
-| Site and restrictions | Site rules and current restrictions come before ignition. Wind and nearby fuels affect spread. | Require a local check, water, tool and an attendant. When uncertain, use insulation and non-combustion lighting. |
-| Materials and mechanisms | Tinder, kindling and larger fuel serve different roles. Traditional flint-and-steel sheds hot steel particles. Friction drills heat wood dust at the contact interface. | Use relative material relationships and cold inspection figures. Live practice, local fuel identity and performance limits remain subject-reviewed work. |
-| Extinguishment | Occupied fires require attendance and repeated wetting and stirring until cold. | Test a dry role handoff and show the decision after each check. Escaped fire requires emergency action. |
-| Camping equipment and CO | Fuel appliances can produce fatal buildup in tents, vehicles and enclosed spaces. | Move a heat source outside its affected occupied space, follow exact equipment instructions and use fresh air and emergency assistance for suspected exposure. |
-| Portable generators | CPSC advises at least 20 feet from the home with exhaust facing away. CO alarms belong outside sleeping areas and on every level. | Show a measured separation and exhaust orientation for generators only. Electrical connections belong with equipment instructions and qualified review. |
+| Lawful use and fire restrictions | Local land rules, burn bans, Stage 1/2/3 restriction orders, and Red Flag Warnings govern whether open fires or stoves are legal (C01, C13, C18, C20). | Place restriction verification and Red Flag abort triggers ahead of every ignition card; distinguish open wood fires from shutoff-valve stoves. |
+| Site clearance and underground fire | Clear flammable grass, needles, and duff down to mineral soil where campfires are allowed (C02, C14); peat, roots, and duff can smolder beneath ash or snow. | Include mineral-soil cutaway, root/duff hazard failure modes, and low-impact dead/downed wood rules (C17). |
+| Tinder, kindling, fuel, and mechanisms | Dry tinder, kindling, and fuel serve distinct roles (C03). Flint-and-steel sheds oxidizing steel particles (C10); bow/hand drills heat wood dust via friction (C12). | Preserve historical mechanism plates separately; distinguish conceptual cold-inspection diagrams from field-validated ignition procedures. |
+| Stoves, refueling, and CO prevention | Operate portable stoves on level cleared outdoor surfaces, cool before refueling, and never burn charcoal, stoves, or heaters inside tents, vehicles, or garages even partly open (C05, C15, C16). Portable generators stay >=20 ft outdoors with exhaust away (C06). | Enforce zero-tolerance indoor combustion rules, CO alarm/symptom escalation (C07, C09), and no-fire warmth/lighting fallbacks (C08, C11). |
+| Extinguishment and wildfire escape | Stay with the fire; drown, stir, and confirm cold ash (C04). Evacuate early from approaching wildfire or heavy smoke per official orders (C19). | Treat dirt-only burial as unsafe; document drown-stir-verify cycle and wildfire smoke/escape thresholds. |
 
-Verify burn status at the time and place of use. Fire engineering and carbon monoxide reviewers must check diagram roles, placement and appliance clearance boundaries.
+Fire-prevention, combustion-safety, and carbon-monoxide specialists must verify appliance clearance boundaries, training protocols, and regional restriction frameworks prior to field authorization.

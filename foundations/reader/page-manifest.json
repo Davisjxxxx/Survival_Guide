@@ -4,6 +4,7 @@
     "zone": "Z01",
     "title": "Stop, stabilize, signal",
     "origin": "B012-P01",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Pause on stable ground and check the scene before approaching an injured person. Check responsiveness, breathing and obvious life-threatening injury.",
@@ -53,6 +54,7 @@
     "zone": "Z01",
     "title": "Assess before you move",
     "origin": "B012-P02",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Inventory the group, the weather, the remaining daylight and the last place you can identify confidently.",
@@ -105,6 +107,7 @@
     "zone": "Z01",
     "title": "Stay, signal or move",
     "origin": "B012-P26",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Stop. If an immediate hazard threatens the spot, reach safer ground nearby only when you can identify a safe way there.",
@@ -152,10 +155,1129 @@
     "reviewer": "Search and rescue"
   },
   {
+    "id": "Z01-P04",
+    "zone": "Z01",
+    "title": "Leave a usable trip plan",
+    "origin": "B014 reconstruction R01 and B012 P02",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Record the starting point, planned route and return time. Include names or party size and expected vehicle location if relevant.",
+        "claims": [
+          "E01",
+          "T06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Give the plan to a trusted contact and agree on the overdue reporting point and what information to pass to responders.",
+        "claims": [
+          "E01",
+          "T06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Carry a copy and notify the contact of significant changes when you can. Check back in at return.",
+        "claims": [
+          "E01",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Give a trusted person enough information to help responders if you are overdue.",
+    "applies": "A trip outside dependable cell service, especially an unfamiliar trail.",
+    "equipment": "Paper plan or saved message, mapped route, and contact information.",
+    "verify": {
+      "text": "Your contact can identify the trailhead and say when they should act.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If nobody can act on an overdue report, reconsider the route and exposure before departing.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "diagram": "Route and group | Return and overdue time | Contact acknowledges plan",
+    "visual": "A trip plan is a handoff; the contact and the party have separate roles.",
+    "reviewer": "Search and rescue and land management"
+  },
+  {
+    "id": "Z01-P05",
+    "zone": "Z01",
+    "title": "Pack by failure mode",
+    "origin": "NPS Ten Essentials; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Map darkness, navigation loss, exposure and delayed return to independent kit functions. Consider Sun protection and repair supplies as conditions warrant.",
+        "claims": [
+          "E02"
+        ]
+      },
+      {
+        "text": "Check each function at home: a light turns on, the map works offline, the shelter can be set up, and spare insulation is dry.",
+        "claims": [
+          "E02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Give shared gear an owner. Ensure the group can reach critical pieces without emptying all the packs.",
+        "claims": [
+          "ED"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Match kit functions to foreseeable failures and practice using them.",
+    "applies": "Day and overnight travel. Terrain, temperature and time without help shape the kit.",
+    "equipment": "Map, light, insulation, shelter, water, food, first aid and other route-appropriate essentials.",
+    "verify": {
+      "text": "Simulate one failure and retrieve the correct item without a signal or a search through loose gear.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Narrow or postpone the trip if critical protection or navigation is absent.",
+      "claims": [
+        "E01",
+        "E02",
+        "ED"
+      ]
+    },
+    "diagram": "Anticipate failure | Match a kit function | Demonstrate it works",
+    "visual": "Equipment checks link each object to a failure the party is likely to face.",
+    "reviewer": "Field education and search and rescue"
+  },
+  {
+    "id": "Z01-P06",
+    "zone": "Z01",
+    "title": "Set a turnaround before departure",
+    "origin": "B014 P18 and B012 P02",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Identify a decision point and latest turnaround time. Build in daylight and delay margin for the slowest group member.",
+        "claims": [
+          "E01",
+          "ED"
+        ]
+      },
+      {
+        "text": "At each reliable checkpoint compare actual progress and conditions with the plan. Recalculate when the return route or pace changes.",
+        "claims": [
+          "E01",
+          "ED"
+        ]
+      },
+      {
+        "text": "Turn back early if visibility, access, group condition or the return margin deteriorates and the return route is known safe.",
+        "claims": [
+          "T06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Preserve the time and energy needed to return.",
+    "applies": "An out-and-back trip where conditions, group speed or daylight can change.",
+    "equipment": "Watch, map and reliable forecast or local advisory.",
+    "verify": {
+      "text": "The group can name the trigger and the place where it will reassess.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the return route is no longer safe or known, use the stay/signal decision rather than a guessed shortcut.",
+      "claims": [
+        "T06"
+      ]
+    },
+    "diagram": "Set return margin | Compare at checkpoints | Turn back while able",
+    "visual": "A decision occurs before the intended destination when the return margin is lost.",
+    "reviewer": "Navigation and search and rescue"
+  },
+  {
+    "id": "Z01-P07",
+    "zone": "Z01",
+    "title": "Give rescuers a usable location",
+    "origin": "B013 P13 and B014 P16",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Give the site or park name plus trailhead, road, junction or other verified landmark. If sending coordinates, read the format shown by the device.",
+        "claims": [
+          "T06",
+          "ED"
+        ]
+      },
+      {
+        "text": "State how many people are involved, whether anyone is injured and what nearby hazards affect access.",
+        "claims": [
+          "T06",
+          "T02"
+        ]
+      },
+      {
+        "text": "Specify whether you will wait or must move. Follow dispatcher directions and communicate changes if you can.",
+        "claims": [
+          "T06",
+          "T02"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Report what you know and identify uncertainty explicitly.",
+    "applies": "Calling for rescue at an outdoor emergency in the United States.",
+    "equipment": "Phone or suitable communicator, offline map and light if available.",
+    "verify": {
+      "text": "Ask whether your location was received and which approach the responder wants you to use, if any.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Avoid moving solely to improve service if the route is uncertain or hazardous.",
+      "claims": [
+        "T06",
+        "ED"
+      ]
+    },
+    "diagram": "Give verified location | Describe people and hazards | Confirm follow-up",
+    "visual": "Dispatch handoff sequence with known location separated from uncertain information.",
+    "reviewer": "Search and rescue and dispatch"
+  },
+  {
+    "id": "Z01-P08",
+    "zone": "Z01",
+    "title": "Keep track of everyone",
+    "origin": "NPS Hike Smart and B014 P17",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Choose a route and pace that the whole group can manage. Agree that nobody leaves a junction before the group is accounted for.",
+        "claims": [
+          "E11",
+          "ED"
+        ]
+      },
+      {
+        "text": "Check attendance at the start, at junctions and before leaving a long stop. Give the back of the group a way to signal the front.",
+        "claims": [
+          "E11",
+          "ED"
+        ]
+      },
+      {
+        "text": "If someone is missing, keep the remaining group together. Record the last place and time where the person was seen and contact responders when needed.",
+        "claims": [
+          "E11",
+          "T06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent unplanned separation before it becomes a search.",
+    "applies": "Group travel on land in uneven terrain, variable visibility or busy trail networks.",
+    "equipment": "Group roster or head count, paper or offline map and an agreed signal.",
+    "verify": {
+      "text": "Everyone knows the next checkpoint and the count agrees at every major stop.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Avoid splitting into an uncoordinated search. Follow directions from responders.",
+      "claims": [
+        "T06",
+        "ED"
+      ]
+    },
+    "diagram": "Count at departure | Recount at junctions | Record last known point",
+    "visual": "The count belongs at points where separation is likely.",
+    "reviewer": "Group leaders and search and rescue"
+  },
+  {
+    "id": "Z01-P09",
+    "zone": "Z01",
+    "title": "Prepare a communication backup",
+    "origin": "NPS Ten Essentials and B014 P15/P16",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Save the route, emergency numbers and trip information before leaving coverage. Carry a paper copy independent of the phone battery.",
+        "claims": [
+          "E01",
+          "E02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Check how your equipment works before the trip and agree on an overdue trigger with a contact. A signal device helps nearby responders but cannot promise that someone knows your location.",
+        "claims": [
+          "E01",
+          "T06",
+          "ED"
+        ]
+      },
+      {
+        "text": "If no message can get through, avoid uncertain travel just to find signal. Prepare to be located using known landmarks, shelter and available signals.",
+        "claims": [
+          "T06",
+          "E05",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep a way to share essential information if a primary device fails.",
+    "applies": "Trips without dependable voice or data service.",
+    "equipment": "Phone, paper map and trip plan, whistle and light. Add a suitable emergency communicator if available.",
+    "verify": {
+      "text": "Demonstrate one location report and one backup signal while the phone is disconnected.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not assume help has been dispatched if you cannot confirm that a message was received.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "diagram": "Save information offline | Give a contact the plan | Practice a backup signal",
+    "visual": "The location record, overdue contact and signal serve different purposes.",
+    "reviewer": "Search and rescue and communication equipment"
+  },
+  {
+    "id": "Z01-P10",
+    "zone": "Z01",
+    "title": "Recognize the moment to call for help",
+    "origin": "American Red Cross first aid; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Look for ongoing danger before approaching. Observe responsiveness, breathing and life-threatening bleeding.",
+        "claims": [
+          "T01"
+        ]
+      },
+      {
+        "text": "Call 911 for unresponsiveness, abnormal breathing or life-threatening bleeding. Give the exact location and describe what you see in plain language.",
+        "claims": [
+          "T02",
+          "T06"
+        ]
+      },
+      {
+        "text": "Follow the dispatcher and work within your training. If someone else is available, assign them to communicate and guide responders.",
+        "claims": [
+          "T02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize emergency signs and transfer clear information to EMS.",
+    "applies": "Lay responder at a sudden injury or illness in the United States.",
+    "equipment": "Phone or emergency communicator and first-aid equipment as available.",
+    "verify": {
+      "text": "State the emergency, location and access route. Confirm which person is calling.",
+      "claims": [
+        "T02",
+        "T06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the scene is unsafe, keep clear and give responders the hazard details.",
+      "claims": [
+        "T01",
+        "T02"
+      ]
+    },
+    "diagram": "Scene safety | Recognize emergency signs | Call and follow dispatcher",
+    "visual": "A lay escalation pathway. Detailed first-aid procedures belong in Z10.",
+    "reviewer": "EMS and wilderness medicine"
+  },
+  {
+    "id": "Z01-P11",
+    "zone": "Z01",
+    "title": "Stop at uncertain ice",
+    "origin": "B013 P01–P05 and B014 P12",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Stop on stable land. Ice varies across one body of water; appearance, footsteps or a nearby measurement cannot establish your crossing.",
+        "claims": [
+          "E12"
+        ]
+      },
+      {
+        "text": "Use a verified land route if conditions and group ability allow. If you cannot identify one, reassess time, exposure and communication from stable ground.",
+        "claims": [
+          "E12",
+          "T06",
+          "ED"
+        ]
+      },
+      {
+        "text": "Share your location and the changed route or hold decision. Keep the group off the uncertain surface.",
+        "claims": [
+          "T06",
+          "E12",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "04-methods",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Preserve a safe land route when a winter shortcut is unverified.",
+    "applies": "A walking party approaching a frozen lake, stream, flooded path or marsh.",
+    "equipment": "Map and sufficient insulation and time for a safe alternative.",
+    "verify": {
+      "text": "The next segment stays on known ground and the group can describe its return option.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "An unverified shortcut, bridge approach or ice edge remains a stop point.",
+      "claims": [
+        "E12",
+        "ED"
+      ]
+    },
+    "diagram": "Stop on land | Identify a verified land option | Hold and seek help if uncertain",
+    "visual": "Route decision for walking parties. Ice travel and rescue belong in the separate B013 chapters.",
+    "reviewer": "Ice safety and search and rescue"
+  },
+  {
+    "id": "Z01-P12",
+    "zone": "Z01",
+    "title": "Turn back at a flooded route",
+    "origin": "FEMA flood guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Turn around before entering floodwater. Its depth and force may be difficult to judge and the road surface can be damaged.",
+        "claims": [
+          "T07"
+        ]
+      },
+      {
+        "text": "Check local evacuation instructions and choose an official, open alternate route or safe higher location. Avoid relying on a previous crossing or another vehicle's tracks.",
+        "claims": [
+          "T07",
+          "ED"
+        ]
+      },
+      {
+        "text": "Report your updated position and route to the appropriate contact when you can. Call for emergency help if trapped.",
+        "claims": [
+          "T07",
+          "T06"
+        ]
+      }
+    ],
+    "batch": "04-methods",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Preserve an evacuation option when a familiar road or foot route floods.",
+    "applies": "Rising or standing floodwater blocking a road, path or crossing.",
+    "equipment": "Current emergency directions and a map for alternatives if available.",
+    "verify": {
+      "text": "A safe route is confirmed from reliable local information, or the group is waiting at a safer location.",
+      "claims": [
+        "T07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not drive or walk around a closure into floodwater.",
+      "claims": [
+        "T07"
+      ]
+    },
+    "diagram": "Flooded road ahead | Turn around early | Use official route or higher ground",
+    "visual": "Road closure is a stop condition, independent of the apparent depth.",
+    "reviewer": "Emergency management and transportation safety"
+  },
+  {
+    "id": "Z01-P13",
+    "zone": "Z01",
+    "title": "Assess route, weather and group risk before departure",
+    "origin": "MN DNR, NPS Hike Smart and NWS alerts; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Review forecast temperatures, wind, precipitation, fire restrictions and any active Watches or Warnings for the exact route and elevation.",
+        "claims": [
+          "E01",
+          "T16",
+          "C01"
+        ]
+      },
+      {
+        "text": "Match distance, elevation gain, terrain hazards and available daylight to the least experienced or slowest person in the group.",
+        "claims": [
+          "E11",
+          "E01"
+        ]
+      },
+      {
+        "text": "Identify bailout exits, water access and shelter points along the route, and define conditions that cancel or shorten the trip before departing.",
+        "claims": [
+          "E01",
+          "T13",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Screen weather, terrain, daylight and group capability before committing to a route.",
+    "applies": "Pre-departure planning for day or overnight outdoor travel across seasons. Conditions change rapidly and require re-checking at the trailhead.",
+    "equipment": "Current forecast and alerts, topographic or trail map, daylight table and group health summary.",
+    "failure": {
+      "text": "Proceeding with an outdated forecast, overestimating daylight or assuming the group will speed up on unfamiliar terrain.",
+      "claims": [
+        "E01",
+        "E11",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Every participant can state the route length, expected return time, top weather hazard and pre-agreed cancellation trigger.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Active Severe Weather Warnings, unresolved hazard closures or missing essential protection require postponing or changing the route.",
+      "claims": [
+        "T16",
+        "E02",
+        "E18"
+      ]
+    },
+    "diagram": "Check forecast and alerts | Match route to group | Set bailouts and cancel triggers",
+    "visual": "Pre-departure risk decision tree separating weather, group capability and exit margin. Conceptual, not to scale.",
+    "reviewer": "Search and rescue and outdoor leadership"
+  },
+  {
+    "id": "Z01-P14",
+    "zone": "Z01",
+    "title": "Inspect critical gear before failure occurs",
+    "origin": "NPS Ten Essentials and Ready.gov kit maintenance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Test lighting, communication devices and weather radio under battery power alone, and confirm offline maps open with airplane mode enabled.",
+        "claims": [
+          "E02",
+          "T12",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect shelter seams, poles, zippers, water containers, filter seals and first-aid expiration dates for wear, brittleness or missing parts.",
+        "claims": [
+          "E20",
+          "W06",
+          "T12"
+        ]
+      },
+      {
+        "text": "Confirm cold-sensitive items such as batteries, fuel canisters and wet filters have thermal protection suited to forecast lows.",
+        "claims": [
+          "E02",
+          "W28",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Detect degraded batteries, leaks, tears and expired supplies before entering the field.",
+    "applies": "Routine pre-trip readiness check for backcountry packs and household emergency go-bags. Does not replace manufacturer servicing.",
+    "equipment": "Packed kit, spare batteries, water containers, light, shelter, navigation tools and maintenance checklist.",
+    "failure": {
+      "text": "Discovering dead batteries, cracked water lids, missing tent poles or dried-out bandages only after stopping in poor weather.",
+      "claims": [
+        "E20",
+        "T12",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Every life-safety subsystem passes a live hands-on function test at home and is repacked in an accessible order.",
+      "claims": [
+        "E02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Replace or repair damaged shelter, navigation, light or water gear before departure, or cancel the outing until functional gear is ready.",
+      "claims": [
+        "E02",
+        "E20",
+        "T12"
+      ]
+    },
+    "diagram": "Test power and offline tools | Inspect seals, poles and fabric | Verify cold-weather protection",
+    "visual": "Exploded pre-trip readiness inspection showing four independent life-safety kit subsystems. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety and search and rescue"
+  },
+  {
+    "id": "Z01-P15",
+    "zone": "Z01",
+    "title": "Assign group roles and pacing boundaries",
+    "origin": "NPS Hike Smart and Ready.gov planning; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Designate a lead who sets a sustainable pace, a sweep who stays behind the last person, and a backup navigator carrying an independent map.",
+        "claims": [
+          "E11",
+          "E02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Establish mandatory regroup points at every trail junction, water crossing, steep climb and visibility drop before stepping off.",
+        "claims": [
+          "E11",
+          "ED"
+        ]
+      },
+      {
+        "text": "Rotate check-ins for hydration, warmth, foot comfort and morale so quieter or fatigued members can call a halt without social pressure.",
+        "claims": [
+          "E11",
+          "E06",
+          "E08"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Maintain clear leadership, head counts and mutual accountability during group travel or emergencies.",
+    "applies": "Groups of two or more hikers, families or mixed-ability parties on land. Solo travelers use external check-in contacts instead.",
+    "equipment": "Written group roster, agreed whistle signals, map copy for more than one person and shared emergency contact sheet.",
+    "failure": {
+      "text": "Unassigned leadership, fast walkers outpacing slower members past forks, or hidden fatigue going unreported until collapse.",
+      "claims": [
+        "E11",
+        "E06",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Every member knows who is lead, who is sweep, what whistle signal means stop and where the next regroup point lies.",
+      "claims": [
+        "E11",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If the group loses visual or voice accountability or someone cannot sustain the pace safely, halt immediately, regroup and revise the objective.",
+      "claims": [
+        "E11",
+        "T06",
+        "ED"
+      ]
+    },
+    "diagram": "Assign lead, sweep and backup | Regroup at every junction | Check fatigue and morale openly",
+    "visual": "Comparative configuration contrasting coordinated lead-and-sweep accountability against uncoordinated group separation. Conceptual, not to scale.",
+    "reviewer": "Outdoor group leadership and search and rescue"
+  },
+  {
+    "id": "Z01-P16",
+    "zone": "Z01",
+    "title": "Layer alert receivers and emergency messages",
+    "origin": "Ready.gov alerts, plan and NOAA Weather Radio; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Enable Wireless Emergency Alerts and local agency notifications, and carry a battery or hand-crank NOAA Weather Radio tested for local VHF reception.",
+        "claims": [
+          "T14",
+          "T15"
+        ]
+      },
+      {
+        "text": "Record an out-of-area contact, local meeting points and critical medical notes on waterproof paper so communication survives a dead phone.",
+        "claims": [
+          "T11",
+          "T12"
+        ]
+      },
+      {
+        "text": "Prefer short text messages over voice calls during network congestion, and conserve device battery by using low-power or airplane mode between checks.",
+        "claims": [
+          "T11",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep emergency warnings and outbound family coordination working when one communication network fails.",
+    "applies": "Home preparedness and outdoor travel across areas with patchy cellular service or power outages.",
+    "equipment": "Mobile phone with alerts enabled, battery or hand-crank NOAA Weather Radio, paper contact card and optional satellite communicator.",
+    "failure": {
+      "text": "Relying solely on a single smartphone battery or live data connection in a valley, storm or regional tower outage.",
+      "claims": [
+        "T14",
+        "T15",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm NOAA Weather Radio receives the local broadcast and that every group member carries the written contact and meeting-point card.",
+      "claims": [
+        "T15",
+        "T11",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never assume an unsent or unacknowledged message has triggered rescue; shift to stay-put visibility and physical signaling if contact fails.",
+      "claims": [
+        "T06",
+        "T11",
+        "ED"
+      ]
+    },
+    "diagram": "Official alerts and NWR | Written plan and out-of-area contact | Battery-smart messaging",
+    "visual": "Mechanism diagram illustrating parallel inbound alert channels and outbound confirmation paths with terrain-shadow limits. Conceptual, not to scale.",
+    "reviewer": "Emergency communications and search and rescue"
+  },
+  {
+    "id": "Z01-P17",
+    "zone": "Z01",
+    "title": "Act on weather watches, warnings and abort triggers",
+    "origin": "NWS flood, thunderstorm and Ready.gov evacuation guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat a Weather Watch as a trigger to review exits, shorten exposed routes and verify shelter options while conditions are still favorable.",
+        "claims": [
+          "T16",
+          "E18",
+          "ED"
+        ]
+      },
+      {
+        "text": "Treat a Weather Warning, approaching thunder, rising runoff or rapid visibility loss as an immediate action threshold to seek proper shelter or evacuate.",
+        "claims": [
+          "T16",
+          "E07",
+          "T13"
+        ]
+      },
+      {
+        "text": "Combine official alerts with on-site red flags—sudden wind shifts, darkening outflow clouds, dropping temperatures or declining group judgment—to abort early.",
+        "claims": [
+          "E18",
+          "E06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Translate forecast alert tiers and field observations into timely stop, shelter or retreat actions.",
+    "applies": "Outdoor travel and household emergency monitoring under changing storm, flood, wind, cold or wildfire conditions.",
+    "equipment": "Weather alert receiver, local map showing exits and shelters, watch and written group turnaround limits.",
+    "failure": {
+      "text": "Waiting for rain or debris to strike before leaving a ridge, creek bed or exposed trail, or confusing a Watch with routine weather.",
+      "claims": [
+        "T16",
+        "E18",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "The group can state the exact threshold that shifts the plan from continue to shorten, shelter or evacuate.",
+      "claims": [
+        "T16",
+        "T13",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When an active Warning or deteriorating field condition outpaces your return route, stop advancing and commit immediately to the safest reachable refuge.",
+      "claims": [
+        "T16",
+        "E07",
+        "T13"
+      ]
+    },
+    "diagram": "Watch: adjust and stage | Warning: shelter or evacuate | Local cues override schedule",
+    "visual": "Decision tree mapping Watch, Warning and local field red flags to concrete route abort and sheltering actions. Conceptual, not to scale.",
+    "reviewer": "Emergency management and meteorology"
+  },
+  {
+    "id": "Z01-P18",
+    "zone": "Z01",
+    "title": "Build an accessible emergency and evacuation plan",
+    "origin": "Ready.gov People with Disabilities; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Build a personal support network of at least three trusted contacts who know your plan, supply locations, mobility aids and communication preferences.",
+        "claims": [
+          "T10",
+          "T11"
+        ]
+      },
+      {
+        "text": "Arrange accessible evacuation transportation ahead of time and check whether local emergency management offers voluntary registries or utility priority-restoration lists.",
+        "claims": [
+          "T10",
+          "T13"
+        ]
+      },
+      {
+        "text": "Pack a go-bag and shelter-in-place kit with written prescriptions, device specs, backup power, spare eyewear or hearing batteries and service-animal food and water.",
+        "claims": [
+          "T10",
+          "T12"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Account for mobility, sensory, medical, power and service-animal needs before an emergency disrupts daily support.",
+    "applies": "Individuals and groups with disabilities, chronic medical conditions, older adults or temporary mobility limits in home or travel settings.",
+    "equipment": "Personal support network list, medication and dosage card, backup power or spare batteries, accessible transport contacts and service-animal supplies.",
+    "failure": {
+      "text": "Assuming standard evacuation shelters, public buses or unassisted foot routes can accommodate wheelchairs, oxygen concentrators, deaf/blind alerting or service animals.",
+      "claims": [
+        "T10",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Review and rehearse the plan with your support network, confirming backup power duration and two accessible exit routes from home or camp.",
+      "claims": [
+        "T10",
+        "T11",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If power-dependent medical equipment approaches reserve limits or accessible evacuation routes are threatened, activate emergency medical or local assistance early.",
+      "claims": [
+        "T10",
+        "T02",
+        "T13"
+      ]
+    },
+    "diagram": "Support network and registry | Medical power and device kit | Accessible exits and transport",
+    "visual": "Exploded component diagram detailing the four interdependent subsystems of an accessible emergency plan. Conceptual, not to scale.",
+    "reviewer": "Accessible emergency management and public health"
+  },
+  {
+    "id": "Z01-P19",
+    "zone": "Z01",
+    "title": "Stabilize an unexpected overnight or multi-day delay",
+    "origin": "NWS winter, NPS Ten Essentials and Ready.gov kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stop travel well before dark while energy and judgment remain intact, selecting a safe, dry, sheltered position clear of flood, tree and traffic hazards.",
+        "claims": [
+          "E03",
+          "E04",
+          "E13",
+          "ED"
+        ]
+      },
+      {
+        "text": "Establish immediate exposure control—wind barrier, dry ground insulation and dry rest layers—before spending effort on secondary tasks.",
+        "claims": [
+          "E05",
+          "E09",
+          "E10"
+        ]
+      },
+      {
+        "text": "Inventory safe water, food, battery charge and medication across expected delay hours, assigning scheduled check-ins and conserving energy and heat.",
+        "claims": [
+          "T12",
+          "W09",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Shift from travel mode to sustained shelter, hydration, warmth and accountability during an unplanned night or prolonged emergency.",
+    "applies": "Stranded travelers, overdue hikers or households facing multi-day disruption where immediate rescue or restoration is delayed.",
+    "equipment": "Shelter and ground insulation, dry spare layers, safe water supply, lighting, communication device and emergency food.",
+    "failure": {
+      "text": "Pushing into darkness until exhausted, neglecting ground insulation until shivering begins, or draining phone batteries on futile searches for signal.",
+      "claims": [
+        "E05",
+        "E06",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Every occupant has wind/ground protection, reachable exit lighting, a rationed water plan and a scheduled communication or signaling window.",
+      "claims": [
+        "E05",
+        "T12",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Worsening confusion, hypothermia, heat stroke, severe dehydration or an unsafe shelter site requires immediate escalation to emergency services.",
+      "claims": [
+        "T03",
+        "T05",
+        "T02"
+      ]
+    },
+    "diagram": "Stop early before dark | Lock in shelter and insulation | Manage water, power and checks",
+    "visual": "Cutaway view of an overnight stabilization setup showing wind protection, ground insulation, exit clearance and conserved supply staging. Conceptual, not to scale.",
+    "reviewer": "Search and rescue and wilderness medicine"
+  },
+  {
+    "id": "Z01-P20",
+    "zone": "Z01",
+    "title": "Decide early when storm or wildfire threatens the route",
+    "origin": "NWS wildfire, thunderstorm and Ready.gov evacuation; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Monitor wind direction, smoke plumes, storm outflow gusts and official evacuation notices to keep at least two exit paths open away from the hazard.",
+        "claims": [
+          "T13",
+          "C18",
+          "E18"
+        ]
+      },
+      {
+        "text": "Evacuate early along open official routes when wildfire approaches or Red Flag winds threaten your corridor; do not wait for flames or roadblocks.",
+        "claims": [
+          "C19",
+          "T13"
+        ]
+      },
+      {
+        "text": "If a severe thunderstorm or tornado warning intercepts you, abandon tents and exposed timber immediately for the lowest interior room of a sturdy building or hard-topped vehicle for lightning.",
+        "claims": [
+          "E07",
+          "E17",
+          "E24"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Choose timely exit routes and hazard-specific refuge when severe storms or wildfire develop near camp or travel corridors.",
+    "applies": "Outdoor travel or rural camp exposed to approaching severe thunderstorms, straight-line winds, tornado warnings or wildfire smoke and spread.",
+    "equipment": "Official alert receiver, map showing multiple road or trail exits, respiratory/eye protection if smoke is present and vehicle or go-bag.",
+    "failure": {
+      "text": "Waiting to pack nonessential camp gear while smoke thickens, wind topples trees or a single exit road closes behind the party.",
+      "claims": [
+        "C19",
+        "E16",
+        "T13"
+      ]
+    },
+    "verify": {
+      "text": "Everyone knows the immediate departure trigger, which gear is left behind if ordered out and the designated safe rally destination.",
+      "claims": [
+        "T13",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never drive or walk through active flames, downed power lines, flooded crossings or zero-visibility smoke; follow emergency responder directions immediately.",
+      "claims": [
+        "C19",
+        "T07",
+        "T01"
+      ]
+    },
+    "diagram": "Track hazard path and wind | Leave early via open exit | Match refuge to hazard class",
+    "visual": "Environmental relationship schematic comparing hazard approach corridors, buffer zones and hazard-appropriate refuge choices. Conceptual, not to scale.",
+    "reviewer": "Emergency management and wildland fire safety"
+  },
+  {
+    "id": "Z01-P21",
+    "zone": "Z01",
+    "title": "Adapt the plan when a companion cannot keep pace",
+    "origin": "NPS Hike Smart, ARC first aid and NPS emergency plan; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stop the entire group on safe ground and screen the slowed person for life-threatening distress, confusion, slurred speech, chest pain, hypothermia or heat stroke.",
+        "claims": [
+          "T01",
+          "T03",
+          "T09"
+        ]
+      },
+      {
+        "text": "If no urgent red flags are present, rest in shelter, address footwear, hydration, nutrition and pack load redistribution, and reassess honestly.",
+        "claims": [
+          "E11",
+          "E08",
+          "E05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Shorten the route to the nearest safe exit if recovery is incomplete; never leave an impaired or exhausted member alone to catch up later.",
+        "claims": [
+          "E11",
+          "T06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish manageable fatigue from medical distress and safely shorten, stabilize or escalate the trip.",
+    "applies": "Any group outing where one participant slows sharply, develops pain or injury, or shows early signs of cold, heat or altitude illness.",
+    "equipment": "First-aid kit, spare layers, safe water, communication device and offline map showing nearest bailout exits.",
+    "failure": {
+      "text": "Splitting the group so faster members push to the summit while a fatigued or confused companion falls behind unobserved.",
+      "claims": [
+        "E11",
+        "T03",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "The affected person speaks clearly, moves steadily after rest and agrees with the revised exit or hold plan.",
+      "claims": [
+        "T01",
+        "E11",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Confusion, stumbling, inability to bear weight, severe pain, heat stroke or hypothermia requires stopping travel immediately and activating 911 or SAR.",
+      "claims": [
+        "T02",
+        "T03",
+        "T09"
+      ]
+    },
+    "diagram": "Halt and screen red flags | Redistribute load and reassess | Exit together or call rescue",
+    "visual": "Decision tree branching from medical red-flag screening to rest/reassessment, early group exit or immediate rescue activation. Conceptual, not to scale.",
+    "reviewer": "Wilderness medicine and search and rescue"
+  },
+  {
+    "id": "Z01-P22",
+    "zone": "Z01",
+    "title": "Recognize and recover from core gear failure",
+    "origin": "NPS Ten Essentials, CDC filter limits and Ready.gov kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Watch for early failure cues—dimming headlamp, phone battery drop in cold, frozen water filter, jammed stove valve or torn shelter anchor.",
+        "claims": [
+          "E02",
+          "W28",
+          "C15",
+          "ED"
+        ]
+      },
+      {
+        "text": "Pause on safe ground and switch immediately to your independent backup system rather than improvising hazardous repairs under stress.",
+        "claims": [
+          "E02",
+          "W09",
+          "ED"
+        ]
+      },
+      {
+        "text": "Recalculate your safety margin once a primary system fails; a trip relying on its last backup is a cue to turn back or stabilize early.",
+        "claims": [
+          "E01",
+          "T06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "06-f05-z01-fundamentals",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Spot silent or sudden failure of lighting, navigation, water treatment or shelter gear and shift safely to backups.",
+    "applies": "Field travel or home emergencies when primary equipment breaks, freezes, leaks or loses power.",
+    "equipment": "Redundant core gear (backup light, paper map, secondary water method, repair tape and emergency shelter).",
+    "failure": {
+      "text": "Continuing deeper into remote terrain after losing primary light, offline navigation, shelter integrity or water treatment without a working backup.",
+      "claims": [
+        "E02",
+        "W28",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the backup system functions cleanly right now and that the revised route matches your remaining safety margin.",
+      "claims": [
+        "E02",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When both primary and backup systems for warmth, shelter, navigation or water fail, halt onward travel, protect the group and seek assistance.",
+      "claims": [
+        "E02",
+        "T06",
+        "W09"
+      ]
+    },
+    "diagram": "Spot early failure cue | Switch to independent backup | Shorten route or stabilize",
+    "visual": "Failure-mode illustration linking silent or sudden gear breakdown to observable warning cues and immediate backup/abort recovery. Conceptual, not to scale.",
+    "reviewer": "Field equipment safety and search and rescue"
+  },
+  {
     "id": "Z02-P01",
     "zone": "Z02",
     "title": "Reject unsafe shelter sites",
     "origin": "B012-P09",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Check land rules and choose an established or designated site when required. Inspect the site and access route before unpacking.",
@@ -206,6 +1328,7 @@
     "zone": "Z02",
     "title": "Block wind before building a roof",
     "origin": "B012-P10",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Choose the sheltered side of an existing stable barrier. Check that you remain clear of runoff and falling material.",
@@ -259,6 +1382,7 @@
     "zone": "Z02",
     "title": "Make a dry insulated bed",
     "origin": "B012-P11",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Select ground away from runoff and above standing water. Keep dry gear out of splash and wet snow.",
@@ -307,10 +1431,485 @@
     "reviewer": "Cold-weather shelter and wilderness medicine"
   },
   {
+    "id": "Z02-P04",
+    "zone": "Z02",
+    "title": "Pitch a purpose-made shelter",
+    "origin": "B012 P12 and B003 tarp plate",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Pick a legal durable site outside runoff channels and clear of overhead hazards. Check the immediate weather before setting up.",
+        "claims": [
+          "E03",
+          "E04"
+        ]
+      },
+      {
+        "text": "Assemble the shelter according to its instructions. Keep exits and equipment access clear and avoid putting wet gear on dry bedding.",
+        "claims": [
+          "E05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Inspect all attachment points and observe how the shelter responds to wind. Adjust within manufacturer limits or relocate to suitable shelter.",
+        "claims": [
+          "E05",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Use a known shelter system on a site that stays safe in changing conditions.",
+    "applies": "A commercial tent or tarp in its intended weather range on a permitted site.",
+    "equipment": "Shelter, parts and instructions for the exact model; dry pad and insulation.",
+    "verify": {
+      "text": "The shelter remains stable, rain drains away from the bed, and each occupant can exit without unfastening gear.",
+      "claims": [
+        "E04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If wind, runoff or structural movement exceeds what you can manage safely, leave for more suitable cover.",
+      "claims": [
+        "E04",
+        "E05",
+        "ED"
+      ]
+    },
+    "diagram": "Safe durable site | Pitch per instructions | Inspect anchors and exits",
+    "visual": "Three-step inspection card for design-specific shelter setup.",
+    "reviewer": "Shelter equipment and land management"
+  },
+  {
+    "id": "Z02-P05",
+    "zone": "Z02",
+    "title": "Leave a drainage channel early",
+    "origin": "B012 P09 and agency flood guide",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Look for connected low ground and a clear route to higher ground. Study upstream conditions as part of the decision.",
+        "claims": [
+          "E04"
+        ]
+      },
+      {
+        "text": "Select a higher, stable site away from streambeds and gullies. Be ready to move if warnings, rising water or new runoff appear.",
+        "claims": [
+          "E04"
+        ]
+      },
+      {
+        "text": "Leave early by a safe route to higher ground. Follow local emergency directions.",
+        "claims": [
+          "E04",
+          "T07"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize where moving water will concentrate before precipitation reaches the site.",
+    "applies": "Campsites and travel near creeks, gullies, marsh edges and valley bottoms.",
+    "equipment": "Map, weather alerts and a light if available.",
+    "verify": {
+      "text": "Someone in the group can identify both the hazard path and the exit without entering the drainage.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Never cross flooded routes to retrieve gear or reach the planned exit.",
+      "claims": [
+        "T07"
+      ]
+    },
+    "diagram": "Trace the drainage | Choose higher ground | Leave before routes flood",
+    "visual": "An unscaled hazard sequence emphasizing early departure.",
+    "reviewer": "Emergency management and land management"
+  },
+  {
+    "id": "Z02-P06",
+    "zone": "Z02",
+    "title": "Seek lightning-safe shelter",
+    "origin": "NWS lightning guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Plan a way to reach a substantial building or enclosed hard-topped vehicle before storms develop.",
+        "claims": [
+          "E07",
+          "ED"
+        ]
+      },
+      {
+        "text": "At thunder, stop outdoor activity and get to the identified shelter if safely accessible. A fabric shelter, open pavilion or isolated tree cannot provide comparable protection.",
+        "claims": [
+          "E07"
+        ]
+      },
+      {
+        "text": "Wait at least 30 minutes after the last thunder before returning outside. Reassess other hazards before departure.",
+        "claims": [
+          "E07",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish weather cover from lightning protection.",
+    "applies": "Thunder is heard or a thunderstorm threat makes continued exposure unsafe.",
+    "equipment": "Forecast, alert source and preidentified shelter destinations when available.",
+    "verify": {
+      "text": "Confirm what the shelter actually is and when thunder was last heard.",
+      "claims": [
+        "E07",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If safe shelter is unavailable, remaining outdoors is hazardous. Seek the safest accessible option and avoid treating any outdoor location as safe from lightning.",
+      "claims": [
+        "E07"
+      ]
+    },
+    "diagram": "Hear thunder | Substantial shelter | Wait after last thunder",
+    "visual": "Sequence identifies the shelter class and the condition for resuming outdoor activity.",
+    "reviewer": "Weather safety and emergency management"
+  },
+  {
+    "id": "Z02-P07",
+    "zone": "Z02",
+    "title": "Keep insulation dry across a stop",
+    "origin": "B012 P05–P06",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Adjust layers before heavy exertion and use ventilation where weather permits. Avoid getting clothing wet with sweat.",
+        "claims": [
+          "E10"
+        ]
+      },
+      {
+        "text": "Before a stop, find wind protection and add the reserved dry layer. Separate wet items from dry insulation.",
+        "claims": [
+          "E05",
+          "E10",
+          "ED"
+        ]
+      },
+      {
+        "text": "Check companions for unusual fumbles, slurred speech or confusion as exposure continues.",
+        "claims": [
+          "E06"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent sweat, wet gear and precipitation from soaking rest layers.",
+    "applies": "Cold travel where activity alternates with standing or resting.",
+    "equipment": "Dry spare insulation, weather shell and pack protection for dry items.",
+    "verify": {
+      "text": "The rest layer is dry and easy to reach, and the group can stop without standing in exposed wind.",
+      "claims": [
+        "E05",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Suspected hypothermia needs medical help and protection against further cooling.",
+      "claims": [
+        "E06",
+        "T03"
+      ]
+    },
+    "diagram": "Vent during effort | Add dry insulation at rest | Check the group",
+    "visual": "The dry reserve is used at the activity-to-rest transition.",
+    "reviewer": "Cold-weather shelter and wilderness medicine"
+  },
+  {
+    "id": "Z02-P08",
+    "zone": "Z02",
+    "title": "Choose shade and reduce exertion",
+    "origin": "CDC heat guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Schedule exertion for cooler periods where possible. Use a shaded or air-conditioned rest location and take breaks before anyone becomes ill.",
+        "claims": [
+          "E08"
+        ]
+      },
+      {
+        "text": "Keep safe water accessible and check the group for changes in coordination, speech or behavior.",
+        "claims": [
+          "E08",
+          "T09",
+          "ED"
+        ]
+      },
+      {
+        "text": "If heat stroke is suspected, call 911 and start cooling promptly while following emergency directions.",
+        "claims": [
+          "T09"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reduce heat load before the group becomes ill.",
+    "applies": "Hot weather outdoors, especially exertion or long exposure.",
+    "equipment": "Accessible cool refuge, safe drinking water and a working way to call for help.",
+    "verify": {
+      "text": "Identify the nearest practical cool refuge and how the group will reach it before continuing.",
+      "claims": [
+        "E08",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Confusion, slurred speech or loss of consciousness in the heat is an emergency.",
+      "claims": [
+        "T09"
+      ]
+    },
+    "diagram": "Avoid peak exertion | Rest in a cooler place | Emergency help for altered alertness",
+    "visual": "Exposure control and emergency recognition are separate decisions.",
+    "reviewer": "Heat illness and emergency medicine"
+  },
+  {
+    "id": "Z02-P09",
+    "zone": "Z02",
+    "title": "Inspect a shelter after the weather changes",
+    "origin": "B012 P18 and B003 shelter troubleshooting",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "From a safe position look for new runoff, pooling, drift at exits or displacement of the shelter and its anchors.",
+        "claims": [
+          "E04",
+          "E05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep exits free of gear or snow. Follow the shelter's operating instructions for its vents and supports. Keep combustion outside.",
+        "claims": [
+          "E05",
+          "C05",
+          "ED"
+        ]
+      },
+      {
+        "text": "If you cannot restore safe conditions without remaining in danger, leave to a known safer location while the route is available.",
+        "claims": [
+          "E04",
+          "E05",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Re-check exit, anchors and water paths after wind, rain or drifting snow changes.",
+    "applies": "An occupied temporary commercial shelter on an initially safe site.",
+    "equipment": "Light and shelter instructions, weather alerts and dry reserve insulation.",
+    "verify": {
+      "text": "An occupant can identify and use the exit and the sleep area stays dry.",
+      "claims": [
+        "E05",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Uncontrolled flooding, collapse risk or suspected carbon monoxide exposure requires leaving and seeking appropriate help.",
+      "claims": [
+        "E04",
+        "C07"
+      ]
+    },
+    "diagram": "Inspect changed runoff | Check exits and supports | Relocate if unsafe",
+    "visual": "A reinspection sequence driven by changed weather, not an engineered load rating.",
+    "reviewer": "Cold-weather shelter and fire safety"
+  },
+  {
+    "id": "Z02-P10",
+    "zone": "Z02",
+    "title": "Keep sleeping gear out of runoff",
+    "origin": "B003 tarp and B012 shelter plates",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Choose ground with no active runoff crossing the sleeping area. Consider where water will drip from the shelter and where it will flow.",
+        "claims": [
+          "E03",
+          "E04",
+          "ED"
+        ]
+      },
+      {
+        "text": "Install the shelter and ground protection as instructed. Keep bedding away from standing water and wet gear.",
+        "claims": [
+          "E05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Observe the outside drainage from a safe position after rain starts. Relocate if it starts to cross the floor or exit route.",
+        "claims": [
+          "E04",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Separate the dry sleep system from wet ground and roof drainage.",
+    "applies": "Tent or tarp using a suitable site with rain or meltwater expected.",
+    "equipment": "Manufacturer-specified ground protection and dry insulation.",
+    "verify": {
+      "text": "The visible drip path leads away from bedding and normal exits.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do not try to divert floodwater or depend on a shelter floor in a drainage channel.",
+      "claims": [
+        "E04",
+        "T07",
+        "ED"
+      ]
+    },
+    "diagram": "Roof drip line | Dry sleep area | Runoff away from exit",
+    "visual": "The section places water flow outside the protected bed and exit area.",
+    "reviewer": "Shelter equipment and land management"
+  },
+  {
+    "id": "Z02-P11",
+    "zone": "Z02",
+    "title": "Look up before stopping below trees",
+    "origin": "Forest Service hazard tree guide; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Scan for dead, damaged or leaning trees and material overhead before entering the potential fall zone.",
+        "claims": [
+          "E13"
+        ]
+      },
+      {
+        "text": "Choose a durable site away from hazardous trees. Tell campground staff about a hazard in a designated site.",
+        "claims": [
+          "E13",
+          "E03"
+        ]
+      },
+      {
+        "text": "Reassess when wind rises or debris falls. Move to safer ground rather than trying to correct an unstable tree or branch.",
+        "claims": [
+          "E13",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "04-methods",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Screen the campsite and approach for falling trees or suspended material.",
+    "applies": "Forested site, particularly after wind, fire, heavy snow or visible damage.",
+    "equipment": "Daylight or sufficient visibility to assess the area from a safe position.",
+    "verify": {
+      "text": "The sleep site, gathering spot and access route avoid observed overhead hazards.",
+      "claims": [
+        "E13",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Poor visibility, active fall or strong wind can defeat the inspection. Use a different safe site.",
+      "claims": [
+        "E13",
+        "ED"
+      ]
+    },
+    "diagram": "Scan above the site | Avoid hazardous trees | Recheck when wind changes",
+    "visual": "Hazard screening is an exclusion process. This drawing supplies no universal fall-zone distance.",
+    "reviewer": "Land management and field safety"
+  },
+  {
+    "id": "Z02-P12",
+    "zone": "Z02",
+    "title": "Use a stranded vehicle as shelter",
+    "origin": "NWS winter storm guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "If no safe nearby destination is obvious, stay with the vehicle. Report your location, vehicle and people to emergency services or your contact.",
+        "claims": [
+          "E14",
+          "T06"
+        ]
+      },
+      {
+        "text": "Use available dry insulation and make the vehicle visible without exposing yourself to traffic or the storm.",
+        "claims": [
+          "E14",
+          "E05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep the group together and reassess if the vehicle location becomes dangerous. Follow responder directions.",
+        "claims": [
+          "E14",
+          "T02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "04-methods",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep weather protection and visibility when winter travel is interrupted.",
+    "applies": "Stranded vehicle in a winter storm with no immediate fire, roadway or other vehicle hazard.",
+    "equipment": "Dry layers, emergency supplies, communications and a visibility marker if available.",
+    "verify": {
+      "text": "Somebody can describe the vehicle's position and how rescuers will recognize it.",
+      "claims": [
+        "T06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Suspected carbon monoxide exposure requires fresh air and emergency help. Use the safest accessible route away from immediate hazards.",
+      "claims": [
+        "C07",
+        "T01"
+      ]
+    },
+    "diagram": "Confirm location is safe | Retain weather protection | Report and make visible",
+    "visual": "The shelter decision is independent of engine operation.",
+    "reviewer": "Winter response and emergency medicine"
+  },
+  {
     "id": "Z03-P01",
     "zone": "Z03",
     "title": "Decide whether to light a fire",
     "origin": "B012-P19",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Check current restrictions and site rules. Skip a fire if the rules prohibit it or the answer is uncertain.",
@@ -365,6 +1964,7 @@
     "zone": "Z03",
     "title": "Select dry tinder and kindling",
     "origin": "B012-P20",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Prepare dry tinder and separate it from wet, moldy or frozen surface material. Keep the prepared materials dry while staging.",
@@ -418,6 +2018,7 @@
     "zone": "Z03",
     "title": "Keep warm without fire",
     "origin": "B012-P21",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Move to an identifiable safe sheltered spot. Get out of wind and off the cold ground.",
@@ -467,10 +2068,491 @@
     "reviewer": "Cold-weather shelter and wilderness medicine"
   },
   {
+    "id": "Z03-P04",
+    "zone": "Z03",
+    "title": "Put a campfire completely out",
+    "origin": "Smokey Bear campfire guide; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Add water until active burning stops. Stir ash and embers to expose hot material.",
+        "claims": [
+          "C04"
+        ]
+      },
+      {
+        "text": "Add more water as needed and check for remaining heat. Allow the material to cool completely before departing.",
+        "claims": [
+          "C04"
+        ]
+      },
+      {
+        "text": "Keep someone at the site until the final check passes. Coal can remain hot after visible flame disappears.",
+        "claims": [
+          "C04"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Detect and eliminate hot material before anyone leaves a campfire.",
+    "applies": "A small attended campfire in an authorized ring or site. A spreading fire is a different emergency.",
+    "equipment": "Water and a stirring tool.",
+    "verify": {
+      "text": "No heat remains when checked safely without touching suspected embers.",
+      "claims": [
+        "C04",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If a fire escapes your control, move to safety and call emergency services.",
+      "claims": [
+        "T01",
+        "T02",
+        "ED"
+      ]
+    },
+    "diagram": "Drown burning material | Stir to expose hot spots | Cool completely",
+    "visual": "A repeated water-and-stir cycle ends only at the cool condition.",
+    "reviewer": "Fire prevention and land management"
+  },
+  {
+    "id": "Z03-P05",
+    "zone": "Z03",
+    "title": "Separate camp fuel from enclosed shelter",
+    "origin": "B012 P14/P18 and CPSC camping equipment",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Keep fuel-burning camping equipment out of tents, vehicles and other enclosed sleeping spaces. Arrange the cooking area outdoors and follow equipment clearances.",
+        "claims": [
+          "C05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Use dry layers and ground insulation for warmth in sleeping areas. Keep the exit clear.",
+        "claims": [
+          "E05",
+          "ED"
+        ]
+      },
+      {
+        "text": "If CO exposure is suspected, move to fresh air immediately and call emergency services.",
+        "claims": [
+          "C07"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent exposure from using fuel appliances in a tent or vehicle.",
+    "applies": "Fuel-burning stoves, heaters, charcoal and similar camping appliances.",
+    "equipment": "Product instructions, a lawful outdoor location and non-combustion alternatives for warmth.",
+    "verify": {
+      "text": "The appliance is outside and exhaust cannot enter the occupied shelter.",
+      "claims": [
+        "C05",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Headache, dizziness, nausea or confusion during fuel use warrants immediate action.",
+      "claims": [
+        "C07"
+      ]
+    },
+    "diagram": "Fuel and exhaust outside | Enclosed shelter separate | Fresh air and help if exposed",
+    "visual": "Appliance location and occupied enclosure appear as separate control points.",
+    "reviewer": "Carbon monoxide safety and emergency medicine"
+  },
+  {
+    "id": "Z03-P06",
+    "zone": "Z03",
+    "title": "Place a portable generator outdoors",
+    "origin": "CPSC portable generator guidance; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Locate a suitable outdoor position at least 20 feet from the home. Direct exhaust away from the home and other occupied buildings.",
+        "claims": [
+          "C06"
+        ]
+      },
+      {
+        "text": "Keep the generator out of the garage, porch enclosure and other occupied or partially enclosed spaces. Follow the manufacturer and a qualified electrician for connection requirements.",
+        "claims": [
+          "C06",
+          "ED"
+        ]
+      },
+      {
+        "text": "If CO is suspected, get to fresh air immediately and call emergency services.",
+        "claims": [
+          "C07"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Plan generator placement that keeps exhaust away from the occupied building.",
+    "applies": "Household portable fuel-powered generator during a power outage.",
+    "equipment": "Generator instructions, outdoor location and working CO alarms appropriate to the home.",
+    "verify": {
+      "text": "Check the path from the outlet to doors, windows and vents. Reassess if the location or direction changes.",
+      "claims": [
+        "C06",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If you cannot provide the outdoor location and separation, leave the generator off.",
+      "claims": [
+        "C06"
+      ]
+    },
+    "diagram": "Exhaust directed away | At least 20 feet from home | Occupied building",
+    "visual": "Not-to-scale placement decision. The numeric clearance applies to portable generators.",
+    "reviewer": "Electrical and carbon monoxide safety"
+  },
+  {
+    "id": "Z03-P07",
+    "zone": "Z03",
+    "title": "Prepare water before starting",
+    "origin": "B008 and Smokey Bear campfire guide",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Put extinguishing water and tool within reach outside the hot area. Assign an attendant who will stay until the site is cold.",
+        "claims": [
+          "C02",
+          "C04",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep combustible supplies away from the ring and establish where the group will stand or walk.",
+        "claims": [
+          "C02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Stop before ignition if the water is lost, frozen or insufficient. Choose the no-fire plan rather than relying on a distant source.",
+        "claims": [
+          "C02",
+          "C04",
+          "C08",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "02-core",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent an ignition attempt from starting before extinguishing resources are in place.",
+    "applies": "A lawful outdoor fire where weather, site and attendance have already been checked.",
+    "equipment": "Ready water, stirring tool, ring and accessible non-fire alternative.",
+    "verify": {
+      "text": "The attendant can locate water and tool without crossing the fire area.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Changing conditions or a loss of equipment triggers a fresh authorization and site check.",
+      "claims": [
+        "C01",
+        "C02",
+        "ED"
+      ]
+    },
+    "diagram": "Place water and tool | Assign an attendant | Light only after checks",
+    "visual": "Extinguishing equipment precedes ignition.",
+    "reviewer": "Fire prevention and land management"
+  },
+  {
+    "id": "Z03-P08",
+    "zone": "Z03",
+    "title": "Use a light without combustion",
+    "origin": "NPS Ten Essentials and B012 P21",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Carry a working light and spare power. Test the intended brightness and access before nightfall.",
+        "claims": [
+          "E02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Keep one light reachable for a nighttime exit. Reserve a second light or spare battery for failure.",
+        "claims": [
+          "E02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Use non-combustion lighting inside shelter and keep fuel-burning lights or appliances outside enclosed space.",
+        "claims": [
+          "C05",
+          "E02"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Provide task and signal lighting when a fire is unnecessary.",
+    "applies": "Camp tasks, searching packs or signaling at night.",
+    "equipment": "Headlamp or flashlight with spare batteries or independent backup.",
+    "verify": {
+      "text": "Someone can turn on a backup while the main light is off.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "When safe movement depends on unavailable light, stop or reroute instead of guessing footing or starting a fire.",
+      "claims": [
+        "E02",
+        "T06",
+        "ED"
+      ]
+    },
+    "diagram": "Carry light | Test backup power | Keep exit light reachable",
+    "visual": "A lighting fallback functions independently of heating and cooking.",
+    "reviewer": "Field equipment and fire prevention"
+  },
+  {
+    "id": "Z03-P09",
+    "zone": "Z03",
+    "title": "Check an outdoor stove before use",
+    "origin": "CDC and CPSC equipment safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check land rules and confirm the exact stove and fuel configuration from the instructions. Use the stove only in its intended outdoor conditions.",
+        "claims": [
+          "C01",
+          "C05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Position the appliance away from enclosed shelters and combustibles. Keep people clear of the hot area and follow device-specific clearance requirements.",
+        "claims": [
+          "C05",
+          "C02",
+          "ED"
+        ]
+      },
+      {
+        "text": "Observe for instability, abnormal operation or signs of leaking fuel. Stop and follow the manufacturer's safe shutdown instructions if conditions change.",
+        "claims": [
+          "C05",
+          "C04",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify placement, equipment and shutdown failures before using a stove outdoors.",
+    "applies": "Manufacturer-rated portable camping stove. Current site restrictions determine whether use is allowed.",
+    "equipment": "Stove and compatible fuel, manufacturer instructions and a stable outdoor working surface.",
+    "verify": {
+      "text": "Check that the pot and stove are secure and that the shutoff is accessible before use.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If equipment condition or clearance is uncertain, leave it off. If CO exposure is suspected, move to fresh air and seek emergency help.",
+      "claims": [
+        "C05",
+        "C07",
+        "ED"
+      ]
+    },
+    "diagram": "Check stove and fuel | Use stable outdoor site | Keep shutdown accessible",
+    "visual": "An inspection sequence without a universal fuel coupling or clearance.",
+    "reviewer": "Portable appliance safety and fire prevention"
+  },
+  {
+    "id": "Z03-P10",
+    "zone": "Z03",
+    "title": "Identify the spark source in flint-and-steel",
+    "origin": "Gate A physics check and NPS Pipe Spring demonstration; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify the steel, hard edge and tinder receiver before arranging a demonstration. Use the documented kit rather than assuming two unknown stones will work.",
+        "claims": [
+          "C10",
+          "ED"
+        ]
+      },
+      {
+        "text": "Trace the spark origin. The hard edge removes small steel particles, which heat and burn. The receiving tinder must be able to accept brief hot particles.",
+        "claims": [
+          "C10"
+        ]
+      },
+      {
+        "text": "Keep a live demonstration separate from an equipment inspection. Skip live ignition unless current rules, conditions, supervision and extinguishing arrangements permit it.",
+        "claims": [
+          "C01",
+          "C02",
+          "C04",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "03-conditions",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain what produces the spark in a traditional flint-and-steel kit.",
+    "applies": "Interpretation or supervised demonstration outdoors at a currently authorized fire site.",
+    "equipment": "Identified traditional kit with suitable steel, a hard striking edge, prepared receptive tinder and fire-control equipment for any live demonstration.",
+    "verify": {
+      "text": "Point to the steel particle path between striking edge and tinder. Confirm which component sheds the burning particle.",
+      "claims": [
+        "C10",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "If material identity or site control is uncertain, discuss the schematic with the equipment cold.",
+      "claims": [
+        "C02",
+        "C10",
+        "ED"
+      ]
+    },
+    "diagram": "Hard striking edge | Steel sheds particles | Receptive tinder",
+    "visual": "A material-flow mechanism. The colored particle path starts on steel and ends at the receiver.",
+    "reviewer": "Fire prevention and materials mechanics"
+  },
+  {
+    "id": "Z03-P11",
+    "zone": "Z03",
+    "title": "Keep ignition supplies dry",
+    "origin": "NPS Ten Essentials and B012 P20",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Carry a familiar ignition option and protect it against moisture. Keep tinder dry and separate from wet gear.",
+        "claims": [
+          "C11",
+          "C03"
+        ]
+      },
+      {
+        "text": "Make access and status checks while the device is cold. Keep it separate from fuel containers and follow its instructions.",
+        "claims": [
+          "C11",
+          "ED"
+        ]
+      },
+      {
+        "text": "Carry independent lighting and insulation. A dry ignition kit is one option, with an established no-fire alternative.",
+        "claims": [
+          "C11",
+          "E02",
+          "C08"
+        ]
+      }
+    ],
+    "batch": "04-methods",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect the ignition and first fuel materials until a permitted use.",
+    "applies": "Packing for wet or cold travel. All fire use depends on site, weather and restrictions.",
+    "equipment": "Suitable ignition device, dry tinder and a waterproof or weather-resistant storage system.",
+    "verify": {
+      "text": "In a dry practice check, locate the ignition kit and backup light without emptying the pack.",
+      "claims": [
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Reject damaged equipment or damp material you cannot verify and use a no-fire fallback.",
+      "claims": [
+        "C03",
+        "C08",
+        "ED"
+      ]
+    },
+    "diagram": "Protect ignition device | Protect tinder separately | Carry a fallback",
+    "visual": "Packed kit organization and a dry inspection, without any required ignition.",
+    "reviewer": "Fire prevention and equipment safety"
+  },
+  {
+    "id": "Z03-P12",
+    "zone": "Z03",
+    "title": "Trace heat in a bow-drill mechanism",
+    "origin": "B008/B010 mechanisms and NPS Forces and Tools",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Identify the bow as the input, the cord as the motion transfer, and the spindle as the rotating part.",
+        "claims": [
+          "C12"
+        ]
+      },
+      {
+        "text": "Trace pressure and rotation to the spindle-to-hearth contact. That interface heats the dust; the top support controls the spindle position.",
+        "claims": [
+          "C12"
+        ]
+      },
+      {
+        "text": "Separate visible smoke from an ember that persists. Use a supervised demonstration to confirm the teaching sequence only where fire is authorized and controlled.",
+        "claims": [
+          "C12",
+          "C01",
+          "C02",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "04-methods",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain how reciprocating bow motion can create an ember at a wood interface.",
+    "applies": "Interpretation or supervised firecraft teaching. Use the unlit assembly for the first inspection.",
+    "equipment": "Identified bow, cord, spindle, bearing block and hearth board. Any live practice needs site authorization and fire-control equipment.",
+    "verify": {
+      "text": "A learner can point to the rotating part, the contact that heats the wood and the intended ember location.",
+      "claims": [
+        "C12",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Stop if materials or assembly are uncertain. A prolonged ignition attempt that compromises warmth or safety is a reason to switch methods.",
+      "claims": [
+        "C08",
+        "C12",
+        "ED"
+      ]
+    },
+    "diagram": "Bow and cord transmit motion | Spindle rotates | Heat at wood contact",
+    "visual": "Cold mechanism diagram. No fixed dimensions, fuel identity or guaranteed ignition time.",
+    "reviewer": "Fire prevention and mechanism reviewer"
+  },
+  {
     "id": "Z04-P01",
     "zone": "Z04",
     "title": "Catch rain as raw water",
     "origin": "B003",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Choose materials with known prior use. Avoid collecting from roof, gutter or other surfaces where chemicals, droppings or debris may enter the supply.",
@@ -524,6 +2606,7 @@
     "zone": "Z04",
     "title": "Turn acceptable snow into treated water",
     "origin": "B012-P22",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Reject snow near spills or suspected chemical contamination. Melt snow in a safe vessel; melting alone does not disinfect it.",
@@ -580,6 +2663,7 @@
     "zone": "Z04",
     "title": "When you cannot treat water",
     "origin": "B012-P23",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Check for carried safe water or an accessible official source before collecting untreated water. Keep route safety in the choice.",
@@ -630,619 +2714,11 @@
     "reviewer": "Drinking-water safety and public health"
   },
   {
-    "id": "Z01-P04",
-    "zone": "Z01",
-    "title": "Leave a usable trip plan",
-    "origin": "B014 reconstruction R01 and B012 P02",
-    "action": [
-      {
-        "text": "Record the starting point, planned route and return time. Include names or party size and expected vehicle location if relevant.",
-        "claims": [
-          "E01",
-          "T06",
-          "ED"
-        ]
-      },
-      {
-        "text": "Give the plan to a trusted contact and agree on the overdue reporting point and what information to pass to responders.",
-        "claims": [
-          "E01",
-          "T06",
-          "ED"
-        ]
-      },
-      {
-        "text": "Carry a copy and notify the contact of significant changes when you can. Check back in at return.",
-        "claims": [
-          "E01",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Give a trusted person enough information to help responders if you are overdue.",
-    "applies": "A trip outside dependable cell service, especially an unfamiliar trail.",
-    "equipment": "Paper plan or saved message, mapped route, and contact information.",
-    "verify": {
-      "text": "Your contact can identify the trailhead and say when they should act.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If nobody can act on an overdue report, reconsider the route and exposure before departing.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "diagram": "Route and group | Return and overdue time | Contact acknowledges plan",
-    "visual": "A trip plan is a handoff; the contact and the party have separate roles.",
-    "reviewer": "Search and rescue and land management"
-  },
-  {
-    "id": "Z01-P05",
-    "zone": "Z01",
-    "title": "Pack by failure mode",
-    "origin": "NPS Ten Essentials; new manuscript",
-    "action": [
-      {
-        "text": "Map darkness, navigation loss, exposure and delayed return to independent kit functions. Consider Sun protection and repair supplies as conditions warrant.",
-        "claims": [
-          "E02"
-        ]
-      },
-      {
-        "text": "Check each function at home: a light turns on, the map works offline, the shelter can be set up, and spare insulation is dry.",
-        "claims": [
-          "E02",
-          "ED"
-        ]
-      },
-      {
-        "text": "Give shared gear an owner. Ensure the group can reach critical pieces without emptying all the packs.",
-        "claims": [
-          "ED"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Match kit functions to foreseeable failures and practice using them.",
-    "applies": "Day and overnight travel. Terrain, temperature and time without help shape the kit.",
-    "equipment": "Map, light, insulation, shelter, water, food, first aid and other route-appropriate essentials.",
-    "verify": {
-      "text": "Simulate one failure and retrieve the correct item without a signal or a search through loose gear.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Narrow or postpone the trip if critical protection or navigation is absent.",
-      "claims": [
-        "E01",
-        "E02",
-        "ED"
-      ]
-    },
-    "diagram": "Anticipate failure | Match a kit function | Demonstrate it works",
-    "visual": "Equipment checks link each object to a failure the party is likely to face.",
-    "reviewer": "Field education and search and rescue"
-  },
-  {
-    "id": "Z01-P06",
-    "zone": "Z01",
-    "title": "Set a turnaround before departure",
-    "origin": "B014 P18 and B012 P02",
-    "action": [
-      {
-        "text": "Identify a decision point and latest turnaround time. Build in daylight and delay margin for the slowest group member.",
-        "claims": [
-          "E01",
-          "ED"
-        ]
-      },
-      {
-        "text": "At each reliable checkpoint compare actual progress and conditions with the plan. Recalculate when the return route or pace changes.",
-        "claims": [
-          "E01",
-          "ED"
-        ]
-      },
-      {
-        "text": "Turn back early if visibility, access, group condition or the return margin deteriorates and the return route is known safe.",
-        "claims": [
-          "T06",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Preserve the time and energy needed to return.",
-    "applies": "An out-and-back trip where conditions, group speed or daylight can change.",
-    "equipment": "Watch, map and reliable forecast or local advisory.",
-    "verify": {
-      "text": "The group can name the trigger and the place where it will reassess.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If the return route is no longer safe or known, use the stay/signal decision rather than a guessed shortcut.",
-      "claims": [
-        "T06"
-      ]
-    },
-    "diagram": "Set return margin | Compare at checkpoints | Turn back while able",
-    "visual": "A decision occurs before the intended destination when the return margin is lost.",
-    "reviewer": "Navigation and search and rescue"
-  },
-  {
-    "id": "Z01-P07",
-    "zone": "Z01",
-    "title": "Give rescuers a usable location",
-    "origin": "B013 P13 and B014 P16",
-    "action": [
-      {
-        "text": "Give the site or park name plus trailhead, road, junction or other verified landmark. If sending coordinates, read the format shown by the device.",
-        "claims": [
-          "T06",
-          "ED"
-        ]
-      },
-      {
-        "text": "State how many people are involved, whether anyone is injured and what nearby hazards affect access.",
-        "claims": [
-          "T06",
-          "T02"
-        ]
-      },
-      {
-        "text": "Specify whether you will wait or must move. Follow dispatcher directions and communicate changes if you can.",
-        "claims": [
-          "T06",
-          "T02"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Report what you know and identify uncertainty explicitly.",
-    "applies": "Calling for rescue at an outdoor emergency in the United States.",
-    "equipment": "Phone or suitable communicator, offline map and light if available.",
-    "verify": {
-      "text": "Ask whether your location was received and which approach the responder wants you to use, if any.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Avoid moving solely to improve service if the route is uncertain or hazardous.",
-      "claims": [
-        "T06",
-        "ED"
-      ]
-    },
-    "diagram": "Give verified location | Describe people and hazards | Confirm follow-up",
-    "visual": "Dispatch handoff sequence with known location separated from uncertain information.",
-    "reviewer": "Search and rescue and dispatch"
-  },
-  {
-    "id": "Z02-P04",
-    "zone": "Z02",
-    "title": "Pitch a purpose-made shelter",
-    "origin": "B012 P12 and B003 tarp plate",
-    "action": [
-      {
-        "text": "Pick a legal durable site outside runoff channels and clear of overhead hazards. Check the immediate weather before setting up.",
-        "claims": [
-          "E03",
-          "E04"
-        ]
-      },
-      {
-        "text": "Assemble the shelter according to its instructions. Keep exits and equipment access clear and avoid putting wet gear on dry bedding.",
-        "claims": [
-          "E05",
-          "ED"
-        ]
-      },
-      {
-        "text": "Inspect all attachment points and observe how the shelter responds to wind. Adjust within manufacturer limits or relocate to suitable shelter.",
-        "claims": [
-          "E05",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Use a known shelter system on a site that stays safe in changing conditions.",
-    "applies": "A commercial tent or tarp in its intended weather range on a permitted site.",
-    "equipment": "Shelter, parts and instructions for the exact model; dry pad and insulation.",
-    "verify": {
-      "text": "The shelter remains stable, rain drains away from the bed, and each occupant can exit without unfastening gear.",
-      "claims": [
-        "E04",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If wind, runoff or structural movement exceeds what you can manage safely, leave for more suitable cover.",
-      "claims": [
-        "E04",
-        "E05",
-        "ED"
-      ]
-    },
-    "diagram": "Safe durable site | Pitch per instructions | Inspect anchors and exits",
-    "visual": "Three-step inspection card for design-specific shelter setup.",
-    "reviewer": "Shelter equipment and land management"
-  },
-  {
-    "id": "Z02-P05",
-    "zone": "Z02",
-    "title": "Leave a drainage channel early",
-    "origin": "B012 P09 and agency flood guide",
-    "action": [
-      {
-        "text": "Look for connected low ground and a clear route to higher ground. Study upstream conditions as part of the decision.",
-        "claims": [
-          "E04"
-        ]
-      },
-      {
-        "text": "Select a higher, stable site away from streambeds and gullies. Be ready to move if warnings, rising water or new runoff appear.",
-        "claims": [
-          "E04"
-        ]
-      },
-      {
-        "text": "Leave early by a safe route to higher ground. Follow local emergency directions.",
-        "claims": [
-          "E04",
-          "T07"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Recognize where moving water will concentrate before precipitation reaches the site.",
-    "applies": "Campsites and travel near creeks, gullies, marsh edges and valley bottoms.",
-    "equipment": "Map, weather alerts and a light if available.",
-    "verify": {
-      "text": "Someone in the group can identify both the hazard path and the exit without entering the drainage.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Never cross flooded routes to retrieve gear or reach the planned exit.",
-      "claims": [
-        "T07"
-      ]
-    },
-    "diagram": "Trace the drainage | Choose higher ground | Leave before routes flood",
-    "visual": "An unscaled hazard sequence emphasizing early departure.",
-    "reviewer": "Emergency management and land management"
-  },
-  {
-    "id": "Z02-P06",
-    "zone": "Z02",
-    "title": "Seek lightning-safe shelter",
-    "origin": "NWS lightning guidance; new manuscript",
-    "action": [
-      {
-        "text": "Plan a way to reach a substantial building or enclosed hard-topped vehicle before storms develop.",
-        "claims": [
-          "E07",
-          "ED"
-        ]
-      },
-      {
-        "text": "At thunder, stop outdoor activity and get to the identified shelter if safely accessible. A fabric shelter, open pavilion or isolated tree cannot provide comparable protection.",
-        "claims": [
-          "E07"
-        ]
-      },
-      {
-        "text": "Wait at least 30 minutes after the last thunder before returning outside. Reassess other hazards before departure.",
-        "claims": [
-          "E07",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Distinguish weather cover from lightning protection.",
-    "applies": "Thunder is heard or a thunderstorm threat makes continued exposure unsafe.",
-    "equipment": "Forecast, alert source and preidentified shelter destinations when available.",
-    "verify": {
-      "text": "Confirm what the shelter actually is and when thunder was last heard.",
-      "claims": [
-        "E07",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If safe shelter is unavailable, remaining outdoors is hazardous. Seek the safest accessible option and avoid treating any outdoor location as safe from lightning.",
-      "claims": [
-        "E07"
-      ]
-    },
-    "diagram": "Hear thunder | Substantial shelter | Wait after last thunder",
-    "visual": "Sequence identifies the shelter class and the condition for resuming outdoor activity.",
-    "reviewer": "Weather safety and emergency management"
-  },
-  {
-    "id": "Z02-P07",
-    "zone": "Z02",
-    "title": "Keep insulation dry across a stop",
-    "origin": "B012 P05–P06",
-    "action": [
-      {
-        "text": "Adjust layers before heavy exertion and use ventilation where weather permits. Avoid getting clothing wet with sweat.",
-        "claims": [
-          "E10"
-        ]
-      },
-      {
-        "text": "Before a stop, find wind protection and add the reserved dry layer. Separate wet items from dry insulation.",
-        "claims": [
-          "E05",
-          "E10",
-          "ED"
-        ]
-      },
-      {
-        "text": "Check companions for unusual fumbles, slurred speech or confusion as exposure continues.",
-        "claims": [
-          "E06"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Prevent sweat, wet gear and precipitation from soaking rest layers.",
-    "applies": "Cold travel where activity alternates with standing or resting.",
-    "equipment": "Dry spare insulation, weather shell and pack protection for dry items.",
-    "verify": {
-      "text": "The rest layer is dry and easy to reach, and the group can stop without standing in exposed wind.",
-      "claims": [
-        "E05",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Suspected hypothermia needs medical help and protection against further cooling.",
-      "claims": [
-        "E06",
-        "T03"
-      ]
-    },
-    "diagram": "Vent during effort | Add dry insulation at rest | Check the group",
-    "visual": "The dry reserve is used at the activity-to-rest transition.",
-    "reviewer": "Cold-weather shelter and wilderness medicine"
-  },
-  {
-    "id": "Z03-P04",
-    "zone": "Z03",
-    "title": "Put a campfire completely out",
-    "origin": "Smokey Bear campfire guide; new manuscript",
-    "action": [
-      {
-        "text": "Add water until active burning stops. Stir ash and embers to expose hot material.",
-        "claims": [
-          "C04"
-        ]
-      },
-      {
-        "text": "Add more water as needed and check for remaining heat. Allow the material to cool completely before departing.",
-        "claims": [
-          "C04"
-        ]
-      },
-      {
-        "text": "Keep someone at the site until the final check passes. Coal can remain hot after visible flame disappears.",
-        "claims": [
-          "C04"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Detect and eliminate hot material before anyone leaves a campfire.",
-    "applies": "A small attended campfire in an authorized ring or site. A spreading fire is a different emergency.",
-    "equipment": "Water and a stirring tool.",
-    "verify": {
-      "text": "No heat remains when checked safely without touching suspected embers.",
-      "claims": [
-        "C04",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If a fire escapes your control, move to safety and call emergency services.",
-      "claims": [
-        "T01",
-        "T02",
-        "ED"
-      ]
-    },
-    "diagram": "Drown burning material | Stir to expose hot spots | Cool completely",
-    "visual": "A repeated water-and-stir cycle ends only at the cool condition.",
-    "reviewer": "Fire prevention and land management"
-  },
-  {
-    "id": "Z03-P05",
-    "zone": "Z03",
-    "title": "Separate camp fuel from enclosed shelter",
-    "origin": "B012 P14/P18 and CPSC camping equipment",
-    "action": [
-      {
-        "text": "Keep fuel-burning camping equipment out of tents, vehicles and other enclosed sleeping spaces. Arrange the cooking area outdoors and follow equipment clearances.",
-        "claims": [
-          "C05",
-          "ED"
-        ]
-      },
-      {
-        "text": "Use dry layers and ground insulation for warmth in sleeping areas. Keep the exit clear.",
-        "claims": [
-          "E05",
-          "ED"
-        ]
-      },
-      {
-        "text": "If CO exposure is suspected, move to fresh air immediately and call emergency services.",
-        "claims": [
-          "C07"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Prevent exposure from using fuel appliances in a tent or vehicle.",
-    "applies": "Fuel-burning stoves, heaters, charcoal and similar camping appliances.",
-    "equipment": "Product instructions, a lawful outdoor location and non-combustion alternatives for warmth.",
-    "verify": {
-      "text": "The appliance is outside and exhaust cannot enter the occupied shelter.",
-      "claims": [
-        "C05",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Headache, dizziness, nausea or confusion during fuel use warrants immediate action.",
-      "claims": [
-        "C07"
-      ]
-    },
-    "diagram": "Fuel and exhaust outside | Enclosed shelter separate | Fresh air and help if exposed",
-    "visual": "Appliance location and occupied enclosure appear as separate control points.",
-    "reviewer": "Carbon monoxide safety and emergency medicine"
-  },
-  {
-    "id": "Z03-P06",
-    "zone": "Z03",
-    "title": "Place a portable generator outdoors",
-    "origin": "CPSC portable generator guidance; new manuscript",
-    "action": [
-      {
-        "text": "Locate a suitable outdoor position at least 20 feet from the home. Direct exhaust away from the home and other occupied buildings.",
-        "claims": [
-          "C06"
-        ]
-      },
-      {
-        "text": "Keep the generator out of the garage, porch enclosure and other occupied or partially enclosed spaces. Follow the manufacturer and a qualified electrician for connection requirements.",
-        "claims": [
-          "C06",
-          "ED"
-        ]
-      },
-      {
-        "text": "If CO is suspected, get to fresh air immediately and call emergency services.",
-        "claims": [
-          "C07"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Plan generator placement that keeps exhaust away from the occupied building.",
-    "applies": "Household portable fuel-powered generator during a power outage.",
-    "equipment": "Generator instructions, outdoor location and working CO alarms appropriate to the home.",
-    "verify": {
-      "text": "Check the path from the outlet to doors, windows and vents. Reassess if the location or direction changes.",
-      "claims": [
-        "C06",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If you cannot provide the outdoor location and separation, leave the generator off.",
-      "claims": [
-        "C06"
-      ]
-    },
-    "diagram": "Exhaust directed away | At least 20 feet from home | Occupied building",
-    "visual": "Not-to-scale placement decision. The numeric clearance applies to portable generators.",
-    "reviewer": "Electrical and carbon monoxide safety"
-  },
-  {
-    "id": "Z03-P07",
-    "zone": "Z03",
-    "title": "Prepare water before starting",
-    "origin": "B008 and Smokey Bear campfire guide",
-    "action": [
-      {
-        "text": "Put extinguishing water and tool within reach outside the hot area. Assign an attendant who will stay until the site is cold.",
-        "claims": [
-          "C02",
-          "C04",
-          "ED"
-        ]
-      },
-      {
-        "text": "Keep combustible supplies away from the ring and establish where the group will stand or walk.",
-        "claims": [
-          "C02",
-          "ED"
-        ]
-      },
-      {
-        "text": "Stop before ignition if the water is lost, frozen or insufficient. Choose the no-fire plan rather than relying on a distant source.",
-        "claims": [
-          "C02",
-          "C04",
-          "C08",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "02-core",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Prevent an ignition attempt from starting before extinguishing resources are in place.",
-    "applies": "A lawful outdoor fire where weather, site and attendance have already been checked.",
-    "equipment": "Ready water, stirring tool, ring and accessible non-fire alternative.",
-    "verify": {
-      "text": "The attendant can locate water and tool without crossing the fire area.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Changing conditions or a loss of equipment triggers a fresh authorization and site check.",
-      "claims": [
-        "C01",
-        "C02",
-        "ED"
-      ]
-    },
-    "diagram": "Place water and tool | Assign an attendant | Light only after checks",
-    "visual": "Extinguishing equipment precedes ignition.",
-    "reviewer": "Fire prevention and land management"
-  },
-  {
     "id": "Z04-P04",
     "zone": "Z04",
     "title": "Reject a contaminated source",
     "origin": "B009 original and revision",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Identify available safe water first. Check where runoff comes from and whether a local warning applies.",
@@ -1297,6 +2773,7 @@
     "zone": "Z04",
     "title": "Boil for microbial treatment",
     "origin": "B009 revision and B012 P22",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Settle cloudy water or strain it through clean cloth before boiling. Use a stable setup according to equipment instructions.",
@@ -1350,6 +2827,7 @@
     "zone": "Z04",
     "title": "Pair filtration with disinfection",
     "origin": "B009 revision and CDC backcountry guide",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Check product labels, intended organisms and operating conditions. Typical portable filters leave gaps, especially for viruses.",
@@ -1403,6 +2881,7 @@
     "zone": "Z04",
     "title": "Keep treated water clean",
     "origin": "B009 revision and B003 storage",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Use a suitable vessel with known previous use. Reject one that held toxic chemicals.",
@@ -1451,486 +2930,11 @@
     "reviewer": "Drinking-water safety and public health"
   },
   {
-    "id": "Z01-P08",
-    "zone": "Z01",
-    "title": "Keep track of everyone",
-    "origin": "NPS Hike Smart and B014 P17",
-    "action": [
-      {
-        "text": "Choose a route and pace that the whole group can manage. Agree that nobody leaves a junction before the group is accounted for.",
-        "claims": [
-          "E11",
-          "ED"
-        ]
-      },
-      {
-        "text": "Check attendance at the start, at junctions and before leaving a long stop. Give the back of the group a way to signal the front.",
-        "claims": [
-          "E11",
-          "ED"
-        ]
-      },
-      {
-        "text": "If someone is missing, keep the remaining group together. Record the last place and time where the person was seen and contact responders when needed.",
-        "claims": [
-          "E11",
-          "T06",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Prevent unplanned separation before it becomes a search.",
-    "applies": "Group travel on land in uneven terrain, variable visibility or busy trail networks.",
-    "equipment": "Group roster or head count, paper or offline map and an agreed signal.",
-    "verify": {
-      "text": "Everyone knows the next checkpoint and the count agrees at every major stop.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Avoid splitting into an uncoordinated search. Follow directions from responders.",
-      "claims": [
-        "T06",
-        "ED"
-      ]
-    },
-    "diagram": "Count at departure | Recount at junctions | Record last known point",
-    "visual": "The count belongs at points where separation is likely.",
-    "reviewer": "Group leaders and search and rescue"
-  },
-  {
-    "id": "Z01-P09",
-    "zone": "Z01",
-    "title": "Prepare a communication backup",
-    "origin": "NPS Ten Essentials and B014 P15/P16",
-    "action": [
-      {
-        "text": "Save the route, emergency numbers and trip information before leaving coverage. Carry a paper copy independent of the phone battery.",
-        "claims": [
-          "E01",
-          "E02",
-          "ED"
-        ]
-      },
-      {
-        "text": "Check how your equipment works before the trip and agree on an overdue trigger with a contact. A signal device helps nearby responders but cannot promise that someone knows your location.",
-        "claims": [
-          "E01",
-          "T06",
-          "ED"
-        ]
-      },
-      {
-        "text": "If no message can get through, avoid uncertain travel just to find signal. Prepare to be located using known landmarks, shelter and available signals.",
-        "claims": [
-          "T06",
-          "E05",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Keep a way to share essential information if a primary device fails.",
-    "applies": "Trips without dependable voice or data service.",
-    "equipment": "Phone, paper map and trip plan, whistle and light. Add a suitable emergency communicator if available.",
-    "verify": {
-      "text": "Demonstrate one location report and one backup signal while the phone is disconnected.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Do not assume help has been dispatched if you cannot confirm that a message was received.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "diagram": "Save information offline | Give a contact the plan | Practice a backup signal",
-    "visual": "The location record, overdue contact and signal serve different purposes.",
-    "reviewer": "Search and rescue and communication equipment"
-  },
-  {
-    "id": "Z01-P10",
-    "zone": "Z01",
-    "title": "Recognize the moment to call for help",
-    "origin": "American Red Cross first aid; new manuscript",
-    "action": [
-      {
-        "text": "Look for ongoing danger before approaching. Observe responsiveness, breathing and life-threatening bleeding.",
-        "claims": [
-          "T01"
-        ]
-      },
-      {
-        "text": "Call 911 for unresponsiveness, abnormal breathing or life-threatening bleeding. Give the exact location and describe what you see in plain language.",
-        "claims": [
-          "T02",
-          "T06"
-        ]
-      },
-      {
-        "text": "Follow the dispatcher and work within your training. If someone else is available, assign them to communicate and guide responders.",
-        "claims": [
-          "T02",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Recognize emergency signs and transfer clear information to EMS.",
-    "applies": "Lay responder at a sudden injury or illness in the United States.",
-    "equipment": "Phone or emergency communicator and first-aid equipment as available.",
-    "verify": {
-      "text": "State the emergency, location and access route. Confirm which person is calling.",
-      "claims": [
-        "T02",
-        "T06",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If the scene is unsafe, keep clear and give responders the hazard details.",
-      "claims": [
-        "T01",
-        "T02"
-      ]
-    },
-    "diagram": "Scene safety | Recognize emergency signs | Call and follow dispatcher",
-    "visual": "A lay escalation pathway. Detailed first-aid procedures belong in Z10.",
-    "reviewer": "EMS and wilderness medicine"
-  },
-  {
-    "id": "Z02-P08",
-    "zone": "Z02",
-    "title": "Choose shade and reduce exertion",
-    "origin": "CDC heat guidance; new manuscript",
-    "action": [
-      {
-        "text": "Schedule exertion for cooler periods where possible. Use a shaded or air-conditioned rest location and take breaks before anyone becomes ill.",
-        "claims": [
-          "E08"
-        ]
-      },
-      {
-        "text": "Keep safe water accessible and check the group for changes in coordination, speech or behavior.",
-        "claims": [
-          "E08",
-          "T09",
-          "ED"
-        ]
-      },
-      {
-        "text": "If heat stroke is suspected, call 911 and start cooling promptly while following emergency directions.",
-        "claims": [
-          "T09"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Reduce heat load before the group becomes ill.",
-    "applies": "Hot weather outdoors, especially exertion or long exposure.",
-    "equipment": "Accessible cool refuge, safe drinking water and a working way to call for help.",
-    "verify": {
-      "text": "Identify the nearest practical cool refuge and how the group will reach it before continuing.",
-      "claims": [
-        "E08",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Confusion, slurred speech or loss of consciousness in the heat is an emergency.",
-      "claims": [
-        "T09"
-      ]
-    },
-    "diagram": "Avoid peak exertion | Rest in a cooler place | Emergency help for altered alertness",
-    "visual": "Exposure control and emergency recognition are separate decisions.",
-    "reviewer": "Heat illness and emergency medicine"
-  },
-  {
-    "id": "Z02-P09",
-    "zone": "Z02",
-    "title": "Inspect a shelter after the weather changes",
-    "origin": "B012 P18 and B003 shelter troubleshooting",
-    "action": [
-      {
-        "text": "From a safe position look for new runoff, pooling, drift at exits or displacement of the shelter and its anchors.",
-        "claims": [
-          "E04",
-          "E05",
-          "ED"
-        ]
-      },
-      {
-        "text": "Keep exits free of gear or snow. Follow the shelter's operating instructions for its vents and supports. Keep combustion outside.",
-        "claims": [
-          "E05",
-          "C05",
-          "ED"
-        ]
-      },
-      {
-        "text": "If you cannot restore safe conditions without remaining in danger, leave to a known safer location while the route is available.",
-        "claims": [
-          "E04",
-          "E05",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Re-check exit, anchors and water paths after wind, rain or drifting snow changes.",
-    "applies": "An occupied temporary commercial shelter on an initially safe site.",
-    "equipment": "Light and shelter instructions, weather alerts and dry reserve insulation.",
-    "verify": {
-      "text": "An occupant can identify and use the exit and the sleep area stays dry.",
-      "claims": [
-        "E05",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Uncontrolled flooding, collapse risk or suspected carbon monoxide exposure requires leaving and seeking appropriate help.",
-      "claims": [
-        "E04",
-        "C07"
-      ]
-    },
-    "diagram": "Inspect changed runoff | Check exits and supports | Relocate if unsafe",
-    "visual": "A reinspection sequence driven by changed weather, not an engineered load rating.",
-    "reviewer": "Cold-weather shelter and fire safety"
-  },
-  {
-    "id": "Z02-P10",
-    "zone": "Z02",
-    "title": "Keep sleeping gear out of runoff",
-    "origin": "B003 tarp and B012 shelter plates",
-    "action": [
-      {
-        "text": "Choose ground with no active runoff crossing the sleeping area. Consider where water will drip from the shelter and where it will flow.",
-        "claims": [
-          "E03",
-          "E04",
-          "ED"
-        ]
-      },
-      {
-        "text": "Install the shelter and ground protection as instructed. Keep bedding away from standing water and wet gear.",
-        "claims": [
-          "E05",
-          "ED"
-        ]
-      },
-      {
-        "text": "Observe the outside drainage from a safe position after rain starts. Relocate if it starts to cross the floor or exit route.",
-        "claims": [
-          "E04",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Separate the dry sleep system from wet ground and roof drainage.",
-    "applies": "Tent or tarp using a suitable site with rain or meltwater expected.",
-    "equipment": "Manufacturer-specified ground protection and dry insulation.",
-    "verify": {
-      "text": "The visible drip path leads away from bedding and normal exits.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Do not try to divert floodwater or depend on a shelter floor in a drainage channel.",
-      "claims": [
-        "E04",
-        "T07",
-        "ED"
-      ]
-    },
-    "diagram": "Roof drip line | Dry sleep area | Runoff away from exit",
-    "visual": "The section places water flow outside the protected bed and exit area.",
-    "reviewer": "Shelter equipment and land management"
-  },
-  {
-    "id": "Z03-P08",
-    "zone": "Z03",
-    "title": "Use a light without combustion",
-    "origin": "NPS Ten Essentials and B012 P21",
-    "action": [
-      {
-        "text": "Carry a working light and spare power. Test the intended brightness and access before nightfall.",
-        "claims": [
-          "E02",
-          "ED"
-        ]
-      },
-      {
-        "text": "Keep one light reachable for a nighttime exit. Reserve a second light or spare battery for failure.",
-        "claims": [
-          "E02",
-          "ED"
-        ]
-      },
-      {
-        "text": "Use non-combustion lighting inside shelter and keep fuel-burning lights or appliances outside enclosed space.",
-        "claims": [
-          "C05",
-          "E02"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Provide task and signal lighting when a fire is unnecessary.",
-    "applies": "Camp tasks, searching packs or signaling at night.",
-    "equipment": "Headlamp or flashlight with spare batteries or independent backup.",
-    "verify": {
-      "text": "Someone can turn on a backup while the main light is off.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "When safe movement depends on unavailable light, stop or reroute instead of guessing footing or starting a fire.",
-      "claims": [
-        "E02",
-        "T06",
-        "ED"
-      ]
-    },
-    "diagram": "Carry light | Test backup power | Keep exit light reachable",
-    "visual": "A lighting fallback functions independently of heating and cooking.",
-    "reviewer": "Field equipment and fire prevention"
-  },
-  {
-    "id": "Z03-P09",
-    "zone": "Z03",
-    "title": "Check an outdoor stove before use",
-    "origin": "CDC and CPSC equipment safety; new manuscript",
-    "action": [
-      {
-        "text": "Check land rules and confirm the exact stove and fuel configuration from the instructions. Use the stove only in its intended outdoor conditions.",
-        "claims": [
-          "C01",
-          "C05",
-          "ED"
-        ]
-      },
-      {
-        "text": "Position the appliance away from enclosed shelters and combustibles. Keep people clear of the hot area and follow device-specific clearance requirements.",
-        "claims": [
-          "C05",
-          "C02",
-          "ED"
-        ]
-      },
-      {
-        "text": "Observe for instability, abnormal operation or signs of leaking fuel. Stop and follow the manufacturer's safe shutdown instructions if conditions change.",
-        "claims": [
-          "C05",
-          "C04",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Identify placement, equipment and shutdown failures before using a stove outdoors.",
-    "applies": "Manufacturer-rated portable camping stove. Current site restrictions determine whether use is allowed.",
-    "equipment": "Stove and compatible fuel, manufacturer instructions and a stable outdoor working surface.",
-    "verify": {
-      "text": "Check that the pot and stove are secure and that the shutoff is accessible before use.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If equipment condition or clearance is uncertain, leave it off. If CO exposure is suspected, move to fresh air and seek emergency help.",
-      "claims": [
-        "C05",
-        "C07",
-        "ED"
-      ]
-    },
-    "diagram": "Check stove and fuel | Use stable outdoor site | Keep shutdown accessible",
-    "visual": "An inspection sequence without a universal fuel coupling or clearance.",
-    "reviewer": "Portable appliance safety and fire prevention"
-  },
-  {
-    "id": "Z03-P10",
-    "zone": "Z03",
-    "title": "Identify the spark source in flint-and-steel",
-    "origin": "Gate A physics check and NPS Pipe Spring demonstration; new manuscript",
-    "action": [
-      {
-        "text": "Identify the steel, hard edge and tinder receiver before arranging a demonstration. Use the documented kit rather than assuming two unknown stones will work.",
-        "claims": [
-          "C10",
-          "ED"
-        ]
-      },
-      {
-        "text": "Trace the spark origin. The hard edge removes small steel particles, which heat and burn. The receiving tinder must be able to accept brief hot particles.",
-        "claims": [
-          "C10"
-        ]
-      },
-      {
-        "text": "Keep a live demonstration separate from an equipment inspection. Skip live ignition unless current rules, conditions, supervision and extinguishing arrangements permit it.",
-        "claims": [
-          "C01",
-          "C02",
-          "C04",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "03-conditions",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Explain what produces the spark in a traditional flint-and-steel kit.",
-    "applies": "Interpretation or supervised demonstration outdoors at a currently authorized fire site.",
-    "equipment": "Identified traditional kit with suitable steel, a hard striking edge, prepared receptive tinder and fire-control equipment for any live demonstration.",
-    "verify": {
-      "text": "Point to the steel particle path between striking edge and tinder. Confirm which component sheds the burning particle.",
-      "claims": [
-        "C10",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "If material identity or site control is uncertain, discuss the schematic with the equipment cold.",
-      "claims": [
-        "C02",
-        "C10",
-        "ED"
-      ]
-    },
-    "diagram": "Hard striking edge | Steel sheds particles | Receptive tinder",
-    "visual": "A material-flow mechanism. The colored particle path starts on steel and ends at the receiver.",
-    "reviewer": "Fire prevention and materials mechanics"
-  },
-  {
     "id": "Z04-P08",
     "zone": "Z04",
     "title": "Read the exact water advisory",
     "origin": "CDC public drinking-water advisories; new manuscript",
+    "category": "New manuscript",
     "action": [
       {
         "text": "Identify the affected area and the exact type of notice. Follow instructions for drinking, food preparation, hygiene and other uses.",
@@ -1980,6 +2984,7 @@
     "zone": "Z04",
     "title": "Prepare a household water reserve",
     "origin": "CDC emergency water supply; new manuscript",
+    "category": "New manuscript",
     "action": [
       {
         "text": "Start with commercially bottled water or an approved potable source. If filling containers, use CDC storage guidance and choose vessels with known prior contents.",
@@ -2032,6 +3037,7 @@
     "zone": "Z04",
     "title": "Clarify muddy water before treatment",
     "origin": "B009 clarification concepts",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Reject water with suspected fuel or toxic chemicals. If turbidity is the remaining issue, let sediment settle or strain through clean cloth.",
@@ -2082,323 +3088,11 @@
     "reviewer": "Drinking-water safety"
   },
   {
-    "id": "Z01-P11",
-    "zone": "Z01",
-    "title": "Stop at uncertain ice",
-    "origin": "B013 P01–P05 and B014 P12",
-    "action": [
-      {
-        "text": "Stop on stable land. Ice varies across one body of water; appearance, footsteps or a nearby measurement cannot establish your crossing.",
-        "claims": [
-          "E12"
-        ]
-      },
-      {
-        "text": "Use a verified land route if conditions and group ability allow. If you cannot identify one, reassess time, exposure and communication from stable ground.",
-        "claims": [
-          "E12",
-          "T06",
-          "ED"
-        ]
-      },
-      {
-        "text": "Share your location and the changed route or hold decision. Keep the group off the uncertain surface.",
-        "claims": [
-          "T06",
-          "E12",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "04-methods",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Preserve a safe land route when a winter shortcut is unverified.",
-    "applies": "A walking party approaching a frozen lake, stream, flooded path or marsh.",
-    "equipment": "Map and sufficient insulation and time for a safe alternative.",
-    "verify": {
-      "text": "The next segment stays on known ground and the group can describe its return option.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "An unverified shortcut, bridge approach or ice edge remains a stop point.",
-      "claims": [
-        "E12",
-        "ED"
-      ]
-    },
-    "diagram": "Stop on land | Identify a verified land option | Hold and seek help if uncertain",
-    "visual": "Route decision for walking parties. Ice travel and rescue belong in the separate B013 chapters.",
-    "reviewer": "Ice safety and search and rescue"
-  },
-  {
-    "id": "Z01-P12",
-    "zone": "Z01",
-    "title": "Turn back at a flooded route",
-    "origin": "FEMA flood guidance; new manuscript",
-    "action": [
-      {
-        "text": "Turn around before entering floodwater. Its depth and force may be difficult to judge and the road surface can be damaged.",
-        "claims": [
-          "T07"
-        ]
-      },
-      {
-        "text": "Check local evacuation instructions and choose an official, open alternate route or safe higher location. Avoid relying on a previous crossing or another vehicle's tracks.",
-        "claims": [
-          "T07",
-          "ED"
-        ]
-      },
-      {
-        "text": "Report your updated position and route to the appropriate contact when you can. Call for emergency help if trapped.",
-        "claims": [
-          "T07",
-          "T06"
-        ]
-      }
-    ],
-    "batch": "04-methods",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Preserve an evacuation option when a familiar road or foot route floods.",
-    "applies": "Rising or standing floodwater blocking a road, path or crossing.",
-    "equipment": "Current emergency directions and a map for alternatives if available.",
-    "verify": {
-      "text": "A safe route is confirmed from reliable local information, or the group is waiting at a safer location.",
-      "claims": [
-        "T07",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Do not drive or walk around a closure into floodwater.",
-      "claims": [
-        "T07"
-      ]
-    },
-    "diagram": "Flooded road ahead | Turn around early | Use official route or higher ground",
-    "visual": "Road closure is a stop condition, independent of the apparent depth.",
-    "reviewer": "Emergency management and transportation safety"
-  },
-  {
-    "id": "Z02-P11",
-    "zone": "Z02",
-    "title": "Look up before stopping below trees",
-    "origin": "Forest Service hazard tree guide; new manuscript",
-    "action": [
-      {
-        "text": "Scan for dead, damaged or leaning trees and material overhead before entering the potential fall zone.",
-        "claims": [
-          "E13"
-        ]
-      },
-      {
-        "text": "Choose a durable site away from hazardous trees. Tell campground staff about a hazard in a designated site.",
-        "claims": [
-          "E13",
-          "E03"
-        ]
-      },
-      {
-        "text": "Reassess when wind rises or debris falls. Move to safer ground rather than trying to correct an unstable tree or branch.",
-        "claims": [
-          "E13",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "04-methods",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Screen the campsite and approach for falling trees or suspended material.",
-    "applies": "Forested site, particularly after wind, fire, heavy snow or visible damage.",
-    "equipment": "Daylight or sufficient visibility to assess the area from a safe position.",
-    "verify": {
-      "text": "The sleep site, gathering spot and access route avoid observed overhead hazards.",
-      "claims": [
-        "E13",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Poor visibility, active fall or strong wind can defeat the inspection. Use a different safe site.",
-      "claims": [
-        "E13",
-        "ED"
-      ]
-    },
-    "diagram": "Scan above the site | Avoid hazardous trees | Recheck when wind changes",
-    "visual": "Hazard screening is an exclusion process. This drawing supplies no universal fall-zone distance.",
-    "reviewer": "Land management and field safety"
-  },
-  {
-    "id": "Z02-P12",
-    "zone": "Z02",
-    "title": "Use a stranded vehicle as shelter",
-    "origin": "NWS winter storm guidance; new manuscript",
-    "action": [
-      {
-        "text": "If no safe nearby destination is obvious, stay with the vehicle. Report your location, vehicle and people to emergency services or your contact.",
-        "claims": [
-          "E14",
-          "T06"
-        ]
-      },
-      {
-        "text": "Use available dry insulation and make the vehicle visible without exposing yourself to traffic or the storm.",
-        "claims": [
-          "E14",
-          "E05",
-          "ED"
-        ]
-      },
-      {
-        "text": "Keep the group together and reassess if the vehicle location becomes dangerous. Follow responder directions.",
-        "claims": [
-          "E14",
-          "T02",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "04-methods",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Keep weather protection and visibility when winter travel is interrupted.",
-    "applies": "Stranded vehicle in a winter storm with no immediate fire, roadway or other vehicle hazard.",
-    "equipment": "Dry layers, emergency supplies, communications and a visibility marker if available.",
-    "verify": {
-      "text": "Somebody can describe the vehicle's position and how rescuers will recognize it.",
-      "claims": [
-        "T06",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Suspected carbon monoxide exposure requires fresh air and emergency help. Use the safest accessible route away from immediate hazards.",
-      "claims": [
-        "C07",
-        "T01"
-      ]
-    },
-    "diagram": "Confirm location is safe | Retain weather protection | Report and make visible",
-    "visual": "The shelter decision is independent of engine operation.",
-    "reviewer": "Winter response and emergency medicine"
-  },
-  {
-    "id": "Z03-P11",
-    "zone": "Z03",
-    "title": "Keep ignition supplies dry",
-    "origin": "NPS Ten Essentials and B012 P20",
-    "action": [
-      {
-        "text": "Carry a familiar ignition option and protect it against moisture. Keep tinder dry and separate from wet gear.",
-        "claims": [
-          "C11",
-          "C03"
-        ]
-      },
-      {
-        "text": "Make access and status checks while the device is cold. Keep it separate from fuel containers and follow its instructions.",
-        "claims": [
-          "C11",
-          "ED"
-        ]
-      },
-      {
-        "text": "Carry independent lighting and insulation. A dry ignition kit is one option, with an established no-fire alternative.",
-        "claims": [
-          "C11",
-          "E02",
-          "C08"
-        ]
-      }
-    ],
-    "batch": "04-methods",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Protect the ignition and first fuel materials until a permitted use.",
-    "applies": "Packing for wet or cold travel. All fire use depends on site, weather and restrictions.",
-    "equipment": "Suitable ignition device, dry tinder and a waterproof or weather-resistant storage system.",
-    "verify": {
-      "text": "In a dry practice check, locate the ignition kit and backup light without emptying the pack.",
-      "claims": [
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Reject damaged equipment or damp material you cannot verify and use a no-fire fallback.",
-      "claims": [
-        "C03",
-        "C08",
-        "ED"
-      ]
-    },
-    "diagram": "Protect ignition device | Protect tinder separately | Carry a fallback",
-    "visual": "Packed kit organization and a dry inspection, without any required ignition.",
-    "reviewer": "Fire prevention and equipment safety"
-  },
-  {
-    "id": "Z03-P12",
-    "zone": "Z03",
-    "title": "Trace heat in a bow-drill mechanism",
-    "origin": "B008/B010 mechanisms and NPS Forces and Tools",
-    "action": [
-      {
-        "text": "Identify the bow as the input, the cord as the motion transfer, and the spindle as the rotating part.",
-        "claims": [
-          "C12"
-        ]
-      },
-      {
-        "text": "Trace pressure and rotation to the spindle-to-hearth contact. That interface heats the dust; the top support controls the spindle position.",
-        "claims": [
-          "C12"
-        ]
-      },
-      {
-        "text": "Separate visible smoke from an ember that persists. Use a supervised demonstration to confirm the teaching sequence only where fire is authorized and controlled.",
-        "claims": [
-          "C12",
-          "C01",
-          "C02",
-          "ED"
-        ]
-      }
-    ],
-    "batch": "04-methods",
-    "publication": "HOLD",
-    "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Explain how reciprocating bow motion can create an ember at a wood interface.",
-    "applies": "Interpretation or supervised firecraft teaching. Use the unlit assembly for the first inspection.",
-    "equipment": "Identified bow, cord, spindle, bearing block and hearth board. Any live practice needs site authorization and fire-control equipment.",
-    "verify": {
-      "text": "A learner can point to the rotating part, the contact that heats the wood and the intended ember location.",
-      "claims": [
-        "C12",
-        "ED"
-      ]
-    },
-    "stop": {
-      "text": "Stop if materials or assembly are uncertain. A prolonged ignition attempt that compromises warmth or safety is a reason to switch methods.",
-      "claims": [
-        "C08",
-        "C12",
-        "ED"
-      ]
-    },
-    "diagram": "Bow and cord transmit motion | Spindle rotates | Heat at wood contact",
-    "visual": "Cold mechanism diagram. No fixed dimensions, fuel identity or guaranteed ignition time.",
-    "reviewer": "Fire prevention and mechanism reviewer"
-  },
-  {
     "id": "Z04-P11",
     "zone": "Z04",
     "title": "Check whether a UV device applies",
     "origin": "B009 equipment notes and CDC backcountry guide",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Check the manufacturer's supported water clarity, volume and operating conditions. Suspended particles can reduce UV exposure.",
@@ -2451,6 +3145,7 @@
     "zone": "Z04",
     "title": "Screen chemical disinfectant limitations",
     "origin": "B009 revision and CDC backcountry guide",
+    "category": "Adapted historical material",
     "action": [
       {
         "text": "Check the product's claim, contact time and batch volume. Typical chemical disinfection leaves gaps for some parasites; CDC advises filtering before disinfecting when using this sequence.",
@@ -2505,6 +3200,7 @@
     "zone": "Z11",
     "title": "Confirm the starting point and first checkpoint",
     "origin": "B014 reconstruction · continuation of r01",
+    "category": "Reconstruction draft",
     "action": [
       {
         "text": "Identify the trailhead on the map and match its name or another reliable feature to the location.",
@@ -2558,6 +3254,7 @@
     "zone": "Z11",
     "title": "Test offline maps and paper backup",
     "origin": "B014 reconstruction · continuation of r01",
+    "category": "Reconstruction draft",
     "action": [
       {
         "text": "Obtain a current map that includes the planned route, nearby alternatives and identifiable roads or exits.",
@@ -2612,6 +3309,7 @@
     "zone": "Z13",
     "title": "Check carbon monoxide alarms before an outage",
     "origin": "Preparedness primer reconstruction · Home Resilience",
+    "category": "Reconstruction draft",
     "action": [
       {
         "text": "Check whether there are CO alarms on each level and outside sleeping areas. Follow placement and maintenance instructions for each unit.",
@@ -2665,6 +3363,7 @@
     "zone": "Z14",
     "title": "Match preservation plans to tested recipes",
     "origin": "Preparedness primer reconstruction · Small Acreage Self-Reliance",
+    "category": "Reconstruction draft",
     "action": [
       {
         "text": "Find a tested recipe for the exact food and preparation. Distinguish low-acid foods that require a tested pressure-canning process from foods with other tested processes.",
@@ -2717,6 +3416,7 @@
     "zone": "Z15",
     "title": "Track cold food during a power outage",
     "origin": "Preparedness primer reconstruction · Thirty-Day Outage Operations",
+    "category": "Reconstruction draft",
     "action": [
       {
         "text": "Note when power went out and keep doors closed. A closed refrigerator typically preserves safe conditions for about four hours.",
