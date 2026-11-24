@@ -1,0 +1,38 @@
+.foundation main { max-width: 58rem; }
+.foundation .cover-panel { display: block; }
+.foundation header.cover-panel > div { padding: clamp(1.5rem, 6vw, 4rem); }
+.foundation .cover-panel h1 { max-width: 15ch; }
+.foundation .card { background: #fffdf7; border: 1px solid #c4bcab; padding: clamp(1rem, 4vw, 2rem); }
+.foundation .card h1 { max-width: none; font-size: clamp(2rem, 4.8vw, 3.55rem); }
+.foundation .kicker { color: #456453; font-size: .88rem; letter-spacing: .045em; font-weight: 700; }
+.foundation .objective { color: #285345; font-weight: 650; }
+.foundation .card h2 { color: #fffdf7; background: #184438; padding: .45rem .65rem; font: 650 1.05rem/1.25 system-ui, sans-serif; margin: 1.1rem 0 .55rem; }
+.foundation .card p { margin: .55rem 0; }
+.foundation figure { margin: 1rem 0; padding: .65rem; background: #edf1e9; border: 1px solid #a7b9ab; }
+.foundation figure img { display: block; width: 100%; height: auto; }
+.foundation figcaption { font-size: .88rem; }
+.foundation .actions { padding-left: 1.35rem; }
+.foundation .actions li { padding-left: .2rem; margin: .4rem 0; }
+.foundation .stop { padding: .55rem .75rem; background: #faeee5; border-left: .3rem solid #a05332; color: #642e1e; }
+.foundation .card-footer { border-top: 1px solid #aebeb2; margin-top: .9rem; padding-top: .5rem; font-size: .86rem; }
+.foundation [data-claims] sup { line-height: 0; padding-left: .23em; }
+.foundation [data-claims] sup a { text-decoration: underline; }
+.foundation details { margin-top: 1.2rem; }
+.foundation summary { cursor: pointer; font-weight: 650; }
+.foundation dt { font-weight: 700; margin-top: 1rem; }
+.foundation dd { margin: .15rem 0 .6rem; }
+@media print {
+  @page { margin: 12mm 13mm; }
+  body.foundation { font-size: 11.5pt; line-height: 1.44; background: #fff; }
+  .foundation main { padding: 0; }
+  .foundation .card { border: 0; padding: 0; }
+  .foundation .card h1 { font-size: 24pt; }
+  .foundation .card h2 { margin: .7em 0 .38em; font-size: 10.5pt; }
+  .foundation .card p { margin: .27em 0; }
+  .foundation figure { margin: .55em 0; padding: .25em .45em; }
+  .foundation figure img { height: 145px; width: 100%; object-fit: contain; }
+  .foundation figcaption { font-size: 9pt; }
+  .foundation details { display: none; }
+  .foundation .card-footer { font-size: 9pt; }
+  .foundation .edition { margin-bottom: .5em; }
+}

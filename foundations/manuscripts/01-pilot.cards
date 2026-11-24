@@ -1,0 +1,155 @@
+Z01-P01 | Stop, stabilize, signal | B012-P01
+objective: Decide what needs action before the group moves.
+applies: A walking party in Minnesota or the Upper Midwest with an unexpected delay, injury or loss of route.
+equipment: Use a phone, communicator, whistle, headlamp and insulation if available.
+action: Pause on stable ground and check the scene before approaching an injured person. Check responsiveness, breathing and obvious life-threatening injury. @T01
+action: If someone is unresponsive, breathing abnormally or bleeding severely, call 911 and follow the dispatcher. Give your location and the immediate hazard. @T02,T06
+action: If travel has stopped, use available shelter and insulation. Tell everyone where to wait and who is trying to make contact. @E05,ED
+verify: Each person can name the immediate hazard, the group's location or last known point, and who is attempting contact. @ED
+stop: Leave immediate danger by a clearly safer path. If location and safe travel are uncertain, stay findable and seek help. @T06
+diagram: Stop on safe ground | Check people and hazards | Signal and protect the group
+visual: Role and decision sequence. Reading order follows the first actions.
+reviewer: Wilderness medicine and search and rescue
+
+Z01-P02 | Assess before you move | B012-P02
+objective: Use location, daylight and group condition to decide whether travel makes sense.
+applies: A stopped group with a potentially safe route and enough time to assess.
+equipment: Offline map or paper map, watch, light and weather information if available.
+action: Inventory the group, the weather, the remaining daylight and the last place you can identify confidently. @E01,E02,ED
+action: Compare what you see with a mapped trail, junction or other reliable feature. Record the last verified place if your current location is uncertain. @T06,E01
+action: Move only when the group can name a safe next checkpoint and is able to reach it. Keep current conditions and the slowest member in the decision. @T06,ED
+verify: Before stepping off, someone can point to the next checkpoint and explain how the party will know it has reached it. @ED
+stop: Weather, terrain or group condition can invalidate a previously reasonable route. Halt if the next checkpoint becomes uncertain. @E01,T06
+diagram: Last verified place | Check group and conditions | Name a safe next point
+visual: Route-confidence decision schematic with three checkpoints.
+reviewer: Navigation and search and rescue
+
+Z01-P03 | Stay, signal or move | B012-P26
+objective: Make an explicit choice between staying findable and moving to a known safe position.
+applies: Lost or overdue outdoor party. Immediate danger and known route are separate questions.
+equipment: Phone or emergency communicator, whistle, light, bright material and weather protection if available.
+action: Stop. If an immediate hazard threatens the spot, reach safer ground nearby only when you can identify a safe way there. @T06
+action: Contact 911 when help is needed and service is available. Report last known position, landmarks, number of people, injuries and any planned movement. @T06,T02
+action: If you cannot determine a safe route, stay together in a findable location, shelter from weather and prepare to signal when responders are nearby. @T06,E05
+verify: Your location description gives responders a usable starting point. Mark a plan change in your message if you must move. @T06,ED
+stop: Never attempt an uncertain shortcut over water or ice to reach a signal or a road. @T06,ED
+diagram: Immediate danger? | Safe route known? | If uncertain, stay findable
+visual: Two-question decision sequence with a stay-put outcome.
+reviewer: Search and rescue
+
+Z02-P01 | Reject unsafe shelter sites | B012-P09
+objective: Rule out unsafe sites before judging comfort or convenience.
+applies: Choosing temporary cover or a permitted campsite on land. Site rules and local hazards vary.
+equipment: Map and weather information if available. Use daylight for inspection where possible.
+action: Check land rules and choose an established or designated site when required. Inspect the site and access route before unpacking. @E03
+action: Leave stream channels, low ground that can flood and other routes concentrating runoff. Upstream rain can reach a site even when the local sky is clear. @E04
+action: Scan overhead and upslope. Leave any spot where loose limbs, loose material or an unstable slope threaten the group. @E03,ED
+verify: Identify an exit to safer ground and a place for the party away from overhead hazards and drainage paths. @E04,ED
+stop: Reject a site if you cannot confirm a clear exit or if runoff, wind or falling material threatens it. @E04,ED
+diagram: Runoff channel | Higher site | Exit to higher ground
+visual: Site cross-section with blue drainage path and a separate higher site. Terrain is conceptual and unscaled.
+reviewer: Wilderness shelter and land management
+
+Z02-P02 | Block wind before building a roof | B012-P10
+objective: Reduce exposure using an available barrier while keeping an escape route.
+applies: Cold wind or blowing snow. Stable site already selected.
+equipment: Existing wind barrier, insulating layers and optional shelter material made for outdoor use.
+action: Choose the sheltered side of an existing stable barrier. Check that you remain clear of runoff and falling material. @E05,E04,ED
+action: Keep the exit easy to reach. Put on dry layers and protect yourself from the ground while conditions allow. @E05,E10
+action: Reassess as wind direction or drifting changes. Seek a safer shelter if the barrier no longer works. @E05,ED
+verify: Group members can move out without climbing over a barrier. Clothing and bedding are staying dry. @ED,E05
+stop: Leave unstable cover or a blocked exit. Keep fuel-burning equipment outside enclosed shelters. @ED,C05
+diagram: Wind | Stable barrier | Sheltered side and clear exit
+visual: Side view showing windward exposure and leeward waiting position with an open exit.
+reviewer: Cold-weather shelter specialist
+
+Z02-P03 | Make a dry insulated bed | B012-P11
+objective: Reduce heat loss through contact with cold ground.
+applies: Short-term rest outdoors on a safe, dry site.
+equipment: Camping pad or other dry insulating layer, dry clothing and weather cover if available.
+action: Select ground away from runoff and above standing water. Keep dry gear out of splash and wet snow. @E04,E05
+action: Place dry insulation between body and ground. Add dry layers above and keep protection available for wind and precipitation. @E05,E09
+action: Check for gaps under the body and wet material after settling. Replace wet insulation or move if the site is deteriorating. @E05,ED
+verify: The body is separated from cold ground and the bedding stays dry where the person rests. @E05,ED
+stop: If the person becomes confused, very drowsy or loses coordination after cold exposure, seek help promptly. @E06,T03
+diagram: Body and dry cover | Insulation below | Cold ground
+visual: Layered side view distinguishes underbody insulation from upper cover.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z03-P01 | Decide whether to light a fire | B012-P19
+objective: Decide whether outdoor fire is lawful, controllable and necessary.
+applies: Outdoor campfire in Minnesota. Local jurisdiction, fire restrictions and current weather apply.
+equipment: Established ring where required, water and a stirring tool.
+action: Check current restrictions and site rules. Skip a fire if the rules prohibit it or the answer is uncertain. @C01,ED
+action: Evaluate wind, nearby vegetation and overhead hazards. Have water available and an attendant who can stay until it is fully out. @C02,C04
+action: Use non-fire warmth or lighting if conditions or equipment are inadequate. Keep camping fuel appliances out of tents and enclosed sleeping areas. @C08,C05
+verify: Confirm lawful use, controllable conditions, water ready and a named attendant before ignition. @C01,C02,C04,ED
+stop: Wind gusts, missing water or combustibles in the exposure area stop the setup. @C02,C04
+diagram: Permission | Site and weather | Water and attendant
+visual: Fire decision checks before ignition. All three must be satisfied.
+reviewer: Fire prevention and local land management
+
+Z03-P02 | Select dry tinder and kindling | B012-P20
+objective: Recognize the difference between material that catches and material that carries a small fire.
+applies: An authorized and controllable outdoor campfire site. For lawful collection, follow site rules.
+equipment: Dry tinder, dry small kindling, larger dry fuel and extinguishing water.
+action: Prepare dry tinder and separate it from wet, moldy or frozen surface material. Keep the prepared materials dry while staging. @C03,ED
+action: Stage dry small kindling and then larger pieces. Dry tinder starts the flame; progressively larger material carries it after the smaller material burns. @C03
+action: Check the fire site again before ignition. Keep accelerants away and stay with the fire until it is out. @C02,C03,C04
+verify: Tinder, kindling and fuel are distinguished, dry and ready before a match is struck. @C03,ED
+stop: If you lack dry materials or the site cannot be controlled, change to the no-fire plan. @C03,C08,ED
+diagram: Fine dry tinder | Small dry kindling | Larger fuel
+visual: Conceptual relative size comparison. Three distinct groups and no prescribed dimensions.
+reviewer: Fire prevention
+
+Z03-P03 | Keep warm without fire | B012-P21
+objective: Shift attention from ignition attempts to exposure control.
+applies: Cold, wet or windy conditions when fire is unavailable, unsafe, or prohibited.
+equipment: Dry clothing, ground insulation, emergency shelter, light and communications if available.
+action: Move to an identifiable safe sheltered spot. Get out of wind and off the cold ground. @C08,E05
+action: Put on available dry insulation. Keep wet outer gear from soaking your dry layers. @E05,E10
+action: Communicate location and plans if delayed or in distress. Monitor group coordination and alertness. @T06,T03
+verify: The group has protection below and around the body and someone knows how help will be requested. @E05,T06,ED
+stop: Seek emergency help for confusion, slurred speech or reduced responsiveness after cold exposure. @T03,T02
+diagram: Wind protection | Dry layers | Insulation below
+visual: Heat-loss pathways and corresponding barriers.
+reviewer: Cold-weather shelter and wilderness medicine
+
+Z04-P01 | Catch rain as raw water | B003
+objective: Collect rain while keeping raw water separate from finished drinking water.
+applies: Rain collection where lawful. Prioritize a known safe supply and avoid contaminated surfaces.
+equipment: Clean food-contact catchment and vessel if available. Separate, labelled potable container.
+action: Choose materials with known prior use. Avoid collecting from roof, gutter or other surfaces where chemicals, droppings or debris may enter the supply. @W03,W01
+action: Catch water into the raw-water vessel and close or cover it. Keep its outlet and utensils apart from the drinking container. @W03,W06,ED
+action: Use a confirmed safe supply for drinking if available. For a chemically acceptable source, choose a dependable microbial treatment before drinking. @W03,W01,W09
+verify: The raw vessel and clean vessel can be identified without relying on water clarity. @W03,ED
+stop: If you suspect fuel or toxic chemicals, reject the source. Boiling or ordinary disinfection cannot correct that hazard. @W01
+diagram: Catch surface | Raw vessel | Separate clean vessel
+visual: Material flow with a break between raw water and clean storage. Treatment takes place before transfer.
+reviewer: Drinking-water safety and public health
+
+Z04-P02 | Turn acceptable snow into treated water | B012-P22
+objective: Keep source assessment, melting, microbial treatment and storage distinct.
+applies: Snow as a fallback source. Slow or unsafe access, chemical contamination and weak ice rule out collection.
+equipment: Clean heat-safe vessel, safe outdoor heat source, and clean covered storage.
+action: Reject snow near spills or suspected chemical contamination. Melt snow in a safe vessel; melting alone does not disinfect it. @W01,W02,W09,ED
+action: Let cloudy meltwater settle or clarify it through a clean cloth. Then bring acceptable water to a rolling boil for one minute, or three minutes above 6,500 feet. @W08,W02
+action: Let it cool and store it covered in a cleaned, sanitized container. Keep raw snow and utensils away from the finished water. @W02,W06,ED
+verify: Record or track the rolling boil and active timer, then close the clean container. @W02,ED
+stop: Use another supply if you cannot rule out a suspected chemical hazard or safely use the vessel and heat source. @W01,W02,ED
+diagram: Assess and melt | Clarify then treat | Cool, cover and store
+visual: Four operations shown in three grouped blocks, with treatment explicitly independent from melting.
+reviewer: Drinking-water safety and cold-weather operations
+
+Z04-P03 | When you cannot treat water | B012-P23
+objective: Recognize when a water-treatment fallback is unavailable.
+applies: Outdoor delay without a reliable heat source, safe vessel or validated product.
+equipment: Known-safe carried water if available. Communication and shelter equipment as conditions allow.
+action: Check for carried safe water or an accessible official source before collecting untreated water. Keep route safety in the choice. @W09,E01,ED
+action: If a known method is available, check what it is designed to remove. Cloth straining and clear appearance do not address microbial risks. @W04,W08,W09
+action: If no dependable method exists, communicate your location and need. Avoid creating another emergency by travelling an unsafe route to find water. @T06,ED
+verify: Name the supply and the treatment steps you can actually perform before treating a collected source as drinking water. @W04,W09,ED
+stop: Suspected toxic contamination requires an alternate source even if you can boil or disinfect. @W01
+diagram: Safe supply available? | Matched treatment available? | If neither, seek help
+visual: Treatment-limit decision strip. It contains no improvised potability test.
+reviewer: Drinking-water safety and public health
