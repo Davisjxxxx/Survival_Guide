@@ -15,3 +15,9 @@ Draft field guidance is **not** a substitute for local official warnings, profes
 - **B014 — North Woods Navigation**: research continuation and visual/page planning; final assembly and safety review pending.
 
 See the review branch and pull request for staged artifacts.
+
+## Owner review edition · November 24, 2026
+
+Download the [complete offline review package](production/Survival-Field-Encyclopedia-Owner-Review.zip), extract it and open `reader/index.html`. The [print proof](production/Survival-Field-Encyclopedia-Review.pdf) includes a numbered emergency directory. The [owner review notes](production/OWNER_REVIEW.md) describe coverage and verification. The [open issues](production/OUTSTANDING_ISSUES.md) identify missing source material, unfinished image work and specialist approvals.
+
+This edition continues Draft PR #1. Public field use requires separate approval.

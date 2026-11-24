@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="296" viewBox="0 0 560 296" role="img" aria-labelledby="roles">
+<title id="roles">Two roles in an ice emergency. Witness on shore calls 911. Person in water faces the approach, kicks and pulls out, then rolls away.</title>
+<rect width="560" height="296" rx="10" fill="#eff3e9"/>
+<g font-family="Arial,sans-serif" fill="#173c31">
+<text x="26" y="40" font-size="26" font-weight="bold">Who is taking action?</text>
+<path d="M26 60h508" stroke="#82988a"/>
+<text x="26" y="94" font-size="22" font-weight="bold">Witness on stable shore</text>
+<text x="26" y="126" font-size="20">Call 911. Give the location.</text>
+<text x="26" y="153" font-size="20">Stay on shore and follow dispatcher directions.</text>
+<path d="M26 173h508" stroke="#82988a"/>
+<text x="26" y="207" font-size="22" font-weight="bold">Person in the water</text>
+<text x="26" y="238" font-size="20">Face the direction you came from. Kick and</text>
+<text x="26" y="265" font-size="20">pull onto the ice. Stay flat and roll away.</text>
+</g></svg>

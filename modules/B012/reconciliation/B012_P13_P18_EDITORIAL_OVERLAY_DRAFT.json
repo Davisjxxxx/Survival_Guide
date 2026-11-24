@@ -1,0 +1,32 @@
+{
+  "P13": {
+    "bad": "An improvised roof sags, branches shift, or snow accumulates over the sleeping area.",
+    "fix": "Move clear of the unstable structure. Use a safer above-ground windbreak and dry ground insulation; keep the exit unobstructed and seek help.",
+    "limit": "Fallen-branch construction has no verified snow-load capacity. This conceptual drawing does not authorize sleeping beneath an untested roof."
+  },
+  "P14": {
+    "bad": "Sparks, shifting wind, smoke, or radiant heat reach shelter fabric or dry covering.",
+    "fix": "Extinguish or relocate the outdoor fire before it threatens the shelter. Prefer wind protection and dry insulation over risky combustion.",
+    "limit": "There is no universally safe fire-to-shelter distance. Fire restrictions, local wind, fuel, materials, and ground conditions require separate assessment. Never burn fuel inside an enclosure."
+  },
+  "P15": {
+    "bad": "Roofed snow begins cracking or settling, the exit drifts shut, or digging causes heavy sweating and exhaustion.",
+    "fix": "Do not occupy beneath uncertain snow. Move to existing shelter or a safer open windbreak, protect dry layers, and contact rescue services.",
+    "limit": "Snow depth is not proof of roof strength. Roofed snow-trench construction requires suitable conditions, trained judgment, equipment, and an escape plan; this draft is not a build specification."
+  },
+  "P16": {
+    "bad": "The ceiling settles, cracks appear, an exit becomes obstructed, ventilation deteriorates, or someone brings combustion equipment inside.",
+    "fix": "Leave an unstable or poorly ventilated enclosure when safely possible. Do not operate fuel-burning heaters in snow shelters; choose safer wind protection and signal for help.",
+    "limit": "Untrained overhead snow excavation is not a no-equipment survival shortcut. The diagram cannot verify snow stability, oxygen supply, or structural capacity."
+  },
+  "P17": {
+    "bad": "Excavation walls slough, stone supports shift, water collects, or a pit becomes difficult to exit.",
+    "fix": "Stop the excavation and move to stable above-ground location. Use dry insulation and known-safe shelter without a fire or heater in the excavation.",
+    "limit": "No soil strength, rock stability, roof loads, or drainage are established. A covered pit is not approved as an improvised winter shelter."
+  },
+  "P18": {
+    "bad": "Condensation wets bedding, the entry or ventilation is obstructed, or the frame begins to settle.",
+    "fix": "Exit an unsafe enclosure, restore unobstructed air and egress from a safe position, replace wet insulation, and seek more dependable shelter.",
+    "limit": "A warmer-feeling shelter is not evidence of safe air, dry bedding, or load capacity. Do not use combustion heat in enclosed improvised shelters."
+  }
+}

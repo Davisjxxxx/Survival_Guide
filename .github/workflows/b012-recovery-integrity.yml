@@ -1,0 +1,88 @@
+name: Survival Guide recovery integrity (not a safety approval)
+
+on:
+  push:
+    branches:
+      - review/b013-b014-field-drafts-20261122
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'imports/local-downloads/**'
+      - 'modules/B012/reconciliation/**'
+      - 'scripts/audit_b012_recovery.py'
+      - 'scripts/verify_recovered_downloads.py'
+      - 'scripts/verify_b012_claim_triage.py'
+      - '.github/workflows/b012-recovery-integrity.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  b012-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile audit tools
+        run: python3 -m py_compile scripts/audit_b012_recovery.py scripts/verify_recovered_downloads.py scripts/verify_b012_claim_triage.py
+      - name: Validate original vector graphics as self-contained SVG documents
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from xml.etree import ElementTree as ET
+          folder=Path('modules/B012/reconciliation/visuals')
+          files=sorted(folder.glob('*.svg'))
+          assert len(files)>=2
+          ns='{http://www.w3.org/2000/svg}'
+          for path in files:
+              tree=ET.parse(path)
+              root=tree.getroot()
+              assert root.tag==ns+'svg'
+              assert root.find(ns+'title') is not None, str(path)
+              assert root.find(ns+'desc') is not None, str(path)
+              assert not list(root.iter(ns+'image')), 'External/staged image injection must be reviewed'
+          print('SVG XML, accessible title/description and no raster embeds validated:',len(files))
+          PY
+      - name: Check claim-triage coverage and retained publication blocks
+        run: python3 scripts/verify_b012_claim_triage.py
+      - name: Verify all seven imported artifacts and ZIP CRCs
+        run: python3 scripts/verify_recovered_downloads.py > /tmp/verified-imports.json
+      - name: Audit 28-page original reader
+        run: |
+          python3 scripts/audit_b012_recovery.py \
+            imports/local-downloads/20261123T145517Z-405239/B012_28_PAGE_OFFLINE_DRAFT_READER.html \
+            --json-output /tmp/b012-audit.json \
+            --csv-output /tmp/b012-pages.csv
+          python3 - <<'PY'
+          import json
+          a=json.load(open('/tmp/b012-audit.json'))
+          assert a['matches_imported_source'] and a['ordered_unique_pages']
+          assert (a['page_count'],a['image_count'],a['svg_count']) == (28,51,22)
+          assert a['unresolved_placeholders'] == 18
+          assert a['invalid_embedded_images'] == 0
+          assert a['external_asset_references'] == 0
+          assert a['source_group_counts']=={'A':6,'B':6,'C':5,'D':5,'E':6}
+          print('Expected inherited defects identified; original reader remains blocked.')
+          PY
+      - name: Build an explicitly unapproved correction preview outside repository
+        run: |
+          python3 scripts/audit_b012_recovery.py \
+            imports/local-downloads/20261123T145517Z-405239/B012_28_PAGE_OFFLINE_DRAFT_READER.html \
+            --overlay modules/B012/reconciliation/B012_P13_P18_EDITORIAL_OVERLAY_DRAFT.json \
+            --review-output /tmp/B012_28_PAGE_RECONCILED_REVIEW.html
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          original=Path('imports/local-downloads/20261123T145517Z-405239/B012_28_PAGE_OFFLINE_DRAFT_READER.html')
+          preview=Path('/tmp/B012_28_PAGE_RECONCILED_REVIEW.html')
+          pattern=re.compile(r'<script\b[^>]*\bid="b012_data"[^>]*>(.*?)</script>',re.S)
+          a=json.loads(pattern.search(original.read_text()).group(1))
+          b=json.loads(pattern.search(preview.read_text()).group(1))
+          assert len(a)==len(b)==28
+          assert sum('{html.escape(' in x['html'] for x in a)==6
+          assert not any('{html.escape(' in x['html'] for x in b)
+          assert [x['html'] for x in a if x['id'] not in {f'P{i:02d}' for i in range(13,19)}] == [x['html'] for x in b if x['id'] not in {f'P{i:02d}' for i in range(13,19)}]
+          assert 'EDITORIAL REVIEW COPY ONLY' in preview.read_text()
+          print('Review-only overlay works; original page content outside P13-P18 preserved.')
+          PY

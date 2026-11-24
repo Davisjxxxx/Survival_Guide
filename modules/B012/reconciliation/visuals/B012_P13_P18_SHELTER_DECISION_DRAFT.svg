@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">B012 P13–P18 shelter decision — stop before unsupported overhead structures</title>
+  <desc id="desc">Original editorial decision schematic. A safe existing shelter is preferred; otherwise use a low-risk above-ground windbreak, dry insulation and rescue signaling. Untrained snow roofs and dug-out pits are rejected. It does not authorize construction or verify load strength.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#264e3b" stroke-width="2"/></marker>
+    <style>
+      .title{font:700 42px system-ui,sans-serif;fill:#f7f2e7}
+      .sub{font:20px system-ui,sans-serif;fill:#dde5d9}
+      .card-title{font:700 24px system-ui,sans-serif;fill:#183c2c}
+      .copy{font:18px system-ui,sans-serif;fill:#1c3026}
+      .step{font:700 16px system-ui,sans-serif;fill:#40604b;letter-spacing:2px}
+      .warn-title{font:700 25px system-ui,sans-serif;fill:#812f24}
+      .warn{font:19px system-ui,sans-serif;fill:#673028}
+      .foot{font:16px system-ui,sans-serif;fill:#3e584a}
+      .flow{stroke:#264e3b;stroke-width:4;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="800" fill="#f8f4e9"/>
+  <rect width="1200" height="156" fill="#173c2a"/>
+  <text class="title" x="55" y="75">SHELTER: DECIDE BEFORE BUILDING</text>
+  <text class="sub" x="55" y="118">Minnesota winter • No-gear first • P13–P18 conceptual review plate</text>
+  <rect x="46" y="195" rx="14" width="330" height="300" fill="#e9efe6" stroke="#9cb7a3" stroke-width="2"/>
+  <rect x="436" y="195" rx="14" width="330" height="300" fill="#e9efe6" stroke="#9cb7a3" stroke-width="2"/>
+  <rect x="826" y="195" rx="14" width="330" height="300" fill="#e9efe6" stroke="#9cb7a3" stroke-width="2"/>
+  <text x="70" y="237" class="step">01 / SCAN</text>
+  <text x="70" y="280" class="card-title">Reject immediate hazards</text>
+  <path d="M84 396 L137 303 L190 396 M108 352 L166 352 M225 401 L269 324 L311 401" fill="none" stroke="#345746" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M260 320 L280 335 M270 313 L294 337" stroke="#a44e33" stroke-width="5"/>
+  <text x="70" y="442" class="copy">Ice • dead overhead wood •</text>
+  <text x="70" y="469" class="copy">runoff • unstable slopes</text>
+  <path class="flow" d="M382 344 H424"/>
+  <text x="460" y="237" class="step">02 / CHOOSE</text>
+  <text x="460" y="280" class="card-title">Use existing safe refuge</text>
+  <path d="M505 389 L602 304 L699 389 M524 377 V434 H680 V377 M588 434 V376 H622 V434" fill="none" stroke="#345746" stroke-width="7" stroke-linejoin="round"/>
+  <text x="460" y="467" class="copy">If available, use shelter with</text>
+  <text x="460" y="491" class="copy">a dependable exit.</text>
+  <path class="flow" d="M772 344 H814"/>
+  <text x="850" y="237" class="step">03 / IF NONE</text>
+  <text x="850" y="280" class="card-title">Lower-risk fallback</text>
+  <path d="M868 410 L1040 333 L1120 381 M882 412 H1115 M900 431 H1095" fill="none" stroke="#345746" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M908 450 H1091 M925 461 H1070" stroke="#b68a45" stroke-width="8" stroke-linecap="round"/>
+  <text x="850" y="486" class="copy">Above-ground windbreak,</text>
+  <text x="850" y="510" class="copy">dry bedding, signal for help.</text>
+  <rect x="46" y="542" rx="14" width="1110" height="145" fill="#fae8df" stroke="#bd7664" stroke-width="2"/>
+  <text x="76" y="589" class="warn-title">STOP: Untrained overhead roofs / snow caves / excavated pits</text>
+  <text x="76" y="630" class="warn">Do not infer strength from snow depth or a convincing illustration. No enclosed fuel-burning heat.</text>
+  <text x="76" y="660" class="warn">If structure cracks, settles, wets bedding or blocks exit: abandon it and seek safer refuge.</text>
+  <text class="foot" x="47" y="738">Original editable vector • Not field-tested • Structural, fire and snow-shelter specialist review required</text>
+  <text class="foot" x="47" y="768">SURVIVAL FIELD ENCYCLOPEDIA / B012 / VISUAL RECONCILIATION DRAFT / 2026-11-23</text>
+</svg>

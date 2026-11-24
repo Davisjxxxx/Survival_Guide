@@ -1,0 +1,18 @@
+source_id,organization,title,url,category,relevance_or_caution
+S01,CDC,Preventing Hypothermia,https://www.cdc.gov/winter-weather/prevention/index.html,Medical,"Recognize confusion, shivering, impaired coordination; move to warm shelter and seek medical care"
+S02,US Army,"Cold Weather Injuries Peak in January, February",https://www.army.mil/article/282512/cold_weather_injuries_peak_in_january_february,Field/Medical,COLD layered/dry clothing principles and observable impaired behavior
+S03,National Weather Service,What To Do If You Are Caught in a Winter Storm,https://www.weather.gov/safety/winter-during,Winter field,"Windbreak/shelter, snow melt, exposure; broad field guidance requiring specificity"
+S04,National Weather Service,What Is a Ground Blizzard?,https://www.weather.gov/safety/winter-ground-blizzard,Regional,Severe visibility deterioration even without active snowfall
+S05,National Weather Service,Winter Weather Resources and FAQ,https://www.weather.gov/safety/cold-outreach,Medical / Prevention,"Loose layers, vapor management, cold injuries"
+S06,CDC,Preventing Frostbite,https://www.cdc.gov/winter-weather/prevention/preventing-frostbite.html,Medical,"Protect affected areas, no rubbing or direct heat, medical care"
+S07,Minnesota DNR,What if You Fall Through the Ice?,https://www.dnr.state.mn.us/safety/ice/survival.html,Ice safety,Reserve detailed self rescue for B013; B012 emergency routing
+S08,Minnesota DNR,Ice Safety,https://www.dnr.state.mn.us/safety/ice/index.html,Ice safety,No universally safe ice; context-dependent strength
+S09,National Weather Service,Winter Weather Warnings Watches and Advisories,https://www.weather.gov/safety/winter-ww,Regional / Rescue,Avoid travel in blizzard conditions; stranded vehicle priority
+S10,Minnesota DNR,State Forest Rules,https://www.dnr.state.mn.us/state-forests/rules.html,Regional law,Do not cut/remove living plants; permit rules for bark/boughs; downed campfire wood restrictions
+S11,CDC,Clinical Guidance: Carbon Monoxide Poisoning Following Disasters,https://www.cdc.gov/carbon-monoxide/hcp/clinical-guidance/index.html,Combustion,Burning fuel in enclosures is dangerous; no indoor improvised hearth
+S12,CDC,Making Water Safe in an Emergency,https://www.cdc.gov/water-emergency/about/index.html,Water,Treatment limits; source contamination; water clarification is not disinfection
+S13,U.S. National Park Service,North Cascades Winter Safety,https://www.nps.gov/noca/planyourvisit/winter-safety.htm,Terrain,"Storm, avalanche and travel hazards vary by terrain"
+S14,DVIDS / Minnesota Air National Guard,Air National Guard Security Forces Cold Weather Operations Course (Image 28),https://www.dvidshub.net/image/8203189/air-national-guard-security-forces-hosts-cold-weather-operations-course,Photo lead,"Equipped shelter training at Camp Ripley, identify specific image, verify restrictions"
+S15,DVIDS / U.S. National Guard,720th Special Tactics Group Holds Cold-Weather Survival Training (Image 4),https://www.dvidshub.net/image/7019307/720th-special-tactics-group-holds-cold-weather-survival-training,Photo lead,"Actual snow shelter training photo, inspect for suitability and rights"
+S16,National Guard,Minnesota Guard Trains Norwegian Youths,https://www.nationalguard.mil/News/Article/576662/minnesota-guard-trains-norwegian-youths/,Photo lead,"Natural shelter training photo, verify depicted equipment and context"
+S17,Minnesota DNR,Dispersed Camping in Minnesota State Forests,https://www.dnr.state.mn.us/state-forests/dispersed-camping.html,Regional law,"No unauthorized trenching/digging, protect land"

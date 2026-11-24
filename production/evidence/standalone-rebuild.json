@@ -1,0 +1,10 @@
+{
+  "checkpoint": "56645a0b2fb92421500511c058dc58d0503622f2",
+  "reader_sha256": "cce21639ca8d07ddf75ea32a42e05841c5b149aa5af7579c2d7be430e12dafe2",
+  "reader_rebuild_identical": true,
+  "all_eight_svg_identical": true,
+  "archive_member_count": 14,
+  "different_archive_members": [],
+  "baseline_zip_sha256": "49105139cf12e47901c8afe8b4df0fb77ada9fbba28b0d3b57819779635ba7c4",
+  "rebuilt_zip_sha256": "85f36b1e3ad4e849131599993ad21979ddadfc4d5b6699ed81b43038856b90ae"
+}

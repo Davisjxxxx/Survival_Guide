@@ -1,0 +1,38 @@
+{
+  "NPS-PLAN": {
+    "title": "National Park Service \u2014 Outdoor Emergency Plan",
+    "url": "https://www.nps.gov/articles/gtgemergencyplan.htm"
+  },
+  "NPS-WINTER": {
+    "title": "National Park Service \u2014 Winter Hiking Tips",
+    "url": "https://home.nps.gov/articles/000/winterhikingtips.htm"
+  },
+  "DNR-FOREST": {
+    "title": "Minnesota DNR \u2014 Safety in State Forests",
+    "url": "https://www.dnr.state.mn.us/state-forests/safety.html"
+  },
+  "DNR-HIKE": {
+    "title": "Minnesota DNR \u2014 Hiking Safety Tips",
+    "url": "https://www.dnr.state.mn.us/hiking/safety.html"
+  },
+  "DNR-ICE": {
+    "title": "Minnesota DNR \u2014 Ice Safety",
+    "url": "https://www.dnr.state.mn.us/safety/ice/index.html"
+  },
+  "NWS-WINTER": {
+    "title": "NWS Twin Cities \u2014 Watch, Warning and Advisory Criteria",
+    "url": "https://www.weather.gov/mpx/wwa_criteria"
+  },
+  "NWS-COLD": {
+    "title": "National Weather Service \u2014 During Extremely Cold Weather",
+    "url": "https://www.weather.gov/safety/cold-during"
+  },
+  "USGS-MAP": {
+    "title": "USGS \u2014 US Topo Map Symbol Guide",
+    "url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-map-symbol-guide"
+  },
+  "NOAA-DECL": {
+    "title": "NOAA NCEI \u2014 Magnetic Declination",
+    "url": "https://www.ncei.noaa.gov/products/magnetic-declination"
+  }
+}
