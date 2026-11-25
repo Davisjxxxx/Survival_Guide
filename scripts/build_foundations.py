@@ -231,6 +231,49 @@ def lint_cards(cards):
                     if not re.search(r'\b(never|do not|don\'t|avoid|unsafe|not)\b', clause):
                         raise ValueError(f'Contradiction: unsafe tornado overpass shelter advice in {cid}')
 
+        # Rule 13: Z08 must never claim visual rock appearance proves chemical/structural safety or authorize dry grinding without dust precautions.
+        if card['zone'] == 'Z08':
+            for clause in clauses:
+                if re.search(r'\bvisual (appearance|inspection)\b[^.]{0,35}\b(proves|guarantees|certifies)\b[^.]{0,35}\b(safe|non-toxic|structural)\b', clause):
+                    if not re.search(r'\b(never|not|cannot|does not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe visual material safety certification in {cid}')
+                if re.search(r'\b(dry[- ]grind|crush|knap)\b[^.]{0,40}\b(without|no)\b[^.]{0,25}\b(eye|respirat|dust)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', clause):
+                        raise ValueError(f'Contradiction: unprotected mineral dust or eye hazard in {cid}')
+
+        # Rule 14: Z06 must never imply an emergency automatically grants a legal hunting/fishing exemption.
+        if card['zone'] == 'Z06':
+            for clause in clauses:
+                if re.search(r'\bemergency\b[^.]{0,40}\b(automatically )?(grants|creates|gives)\b[^.]{0,35}\b(legal exemption|exemption|right to harvest)\b', clause):
+                    if not re.search(r'\b(never|not|no |does not|cannot)\b', clause):
+                        raise ValueError(f'Contradiction: unauthorized emergency legal harvest exemption in {cid}')
+
+        # Rule 15: Z07 must never publish actionable injurious trap/snare construction or hazardous placement instructions.
+        if card['zone'] == 'Z07':
+            for clause in clauses:
+                if re.search(r'\b(set|construct|build|conceal|anchor|rig)\b[^.]{0,35}\b(a |an )?(lethal |wire |spring |body-grip |foothold |deadfall )?(snare|deadfall trigger|foothold trap|conibear|spring pole|pitfall)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|prohibit|not|illegal|unlawful|without)\b', clause):
+                        raise ValueError(f'Contradiction: actionable injurious trap construction or placement in {cid}')
+
+        # Rule 16: Z05 must never promote universal edibility test folklore, boiling-all-mushrooms myths, or photo-only edibility clearance.
+        if card['zone'] == 'Z05':
+            for clause in clauses:
+                if re.search(r'\b(rub|touch|place)\b[^.]{0,30}\b(lip|skin|tongue)\b[^.]{0,35}\b(test edibility|prove (it is )?safe|edibility test)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|reject|myth|unreliable|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe universal edibility test folklore in {cid}')
+                if re.search(r'\b(animals eat it|silver spoon|peel the cap|boiling removes all)\b[^.]{0,35}\b(safe|edible|toxins?|poisons?)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|reject|myth|false|unreliable|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe folk toxicity test in {cid}')
+                if re.search(r'\b(illustration|diagram|single photo)\b[^.]{0,35}\b(authorizes|proves|clears)\b[^.]{0,25}\b(consumption|eating|edibility)\b', clause):
+                    if not re.search(r'\b(never|not|cannot|does not)\b', clause):
+                        raise ValueError(f'Contradiction: unauthorized visual-only consumption clearance in {cid}')
+
+        # Rule 17: Z16 atlas cards must cite at least one upstream zone (Z01-Z15) in prose or lineage so summaries stay anchored.
+        if card['zone'] == 'Z16':
+            combined_refs = ' '.join([card['title'], card['objective'], card['applies'], card['origin'], *statements])
+            if not re.search(r'\bZ(0[1-9]|1[0-5])\b', combined_refs):
+                raise ValueError(f'Contradiction: Z16 atlas card lacks upstream zone cross-reference in {cid}')
+
 
 def load_cards(paths, claims):
     cards = {}

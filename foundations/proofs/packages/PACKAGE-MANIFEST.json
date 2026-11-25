@@ -1,0 +1,85 @@
+{
+  "foundations-offline.zip": {
+    "bytes": 30177484,
+    "members": 1535,
+    "scope": "Core offline HTML reader, SVGs, manuscripts, evidence, audit registers & reconstructions (consolidated PDFs kept separately in proofs/ for GitHub scalability)",
+    "sha256": "924734425923967b76b72776bbfff71ba852d72376fb8eee239033482f5928b9"
+  },
+  "packages/zone-Z01.zip": {
+    "bytes": 1794692,
+    "members": 59,
+    "pages": 22,
+    "sha256": "8dcffc247748ea72e3a127a27ff6440c63cfb62dfa56f5383eaa00ce8861452d",
+    "zone": "Z01"
+  },
+  "packages/zone-Z02.zip": {
+    "bytes": 2852624,
+    "members": 125,
+    "pages": 55,
+    "sha256": "ae27c9340d389e17340964bbe07109aac26a0b8de52df247736590c1448f7bb2",
+    "zone": "Z02"
+  },
+  "packages/zone-Z03.zip": {
+    "bytes": 2543009,
+    "members": 105,
+    "pages": 45,
+    "sha256": "4c0b34119ff17b60609b7cb822a875820173c00342d37a9085a25953b27f1c4a",
+    "zone": "Z03"
+  },
+  "packages/zone-Z04.zip": {
+    "bytes": 2875644,
+    "members": 125,
+    "pages": 55,
+    "sha256": "79bf58ee9500465d970e6b281c485efcd6a39d2b1bb9ce2d6700a0a9d89f9a69",
+    "zone": "Z04"
+  },
+  "packages/zone-Z09.zip": {
+    "bytes": 2931070,
+    "members": 121,
+    "pages": 53,
+    "sha256": "b0de5159d1df3c6b9bd7dad1f23987ab84ebae2b3edd182464f8f070e9f02a71",
+    "zone": "Z09"
+  },
+  "packages/zone-Z10.zip": {
+    "bytes": 4056857,
+    "members": 175,
+    "pages": 80,
+    "sha256": "cde1ac75cc3d1253c0726ed2644b2b7df4a2cc1c8ee5183cbaf40239945b27ff",
+    "zone": "Z10"
+  },
+  "packages/zone-Z11.zip": {
+    "bytes": 3628914,
+    "members": 152,
+    "pages": 68,
+    "sha256": "7ea0688a26eba555d4b8e07f4c60dd9531d7d1c6bf4ff365de5005d565c16d3a",
+    "zone": "Z11"
+  },
+  "packages/zone-Z12.zip": {
+    "bytes": 3669925,
+    "members": 165,
+    "pages": 75,
+    "sha256": "26ac33c12aa9977d5696630ca99d380aa8720276a52ce68b041ebd205f411bfc",
+    "zone": "Z12"
+  },
+  "packages/zone-Z13.zip": {
+    "bytes": 3757429,
+    "members": 155,
+    "pages": 70,
+    "sha256": "922b4e21740661797b2e07b5dc25d0a542b287fe803b6a1d39421cc99d8002c5",
+    "zone": "Z13"
+  },
+  "packages/zone-Z14.zip": {
+    "bytes": 4098433,
+    "members": 175,
+    "pages": 80,
+    "sha256": "3de6b18c3dc778e85a87680ddb5226c556466ce240dc2ff712b42e379ad101cb",
+    "zone": "Z14"
+  },
+  "packages/zone-Z15.zip": {
+    "bytes": 3623181,
+    "members": 145,
+    "pages": 65,
+    "sha256": "9e4eec8e545ef42f5bc2643c956f33017d557ebeb52c881264fc76880d04f578",
+    "zone": "Z15"
+  }
+}
