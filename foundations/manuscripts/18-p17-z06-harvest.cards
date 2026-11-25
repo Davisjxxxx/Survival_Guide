@@ -1,0 +1,671 @@
+Z06-P01 | Fishing Is Never the First Survival Priority | Adapted historical material (B013-P15 fishing decisions)
+objective: Keep warmth, shelter, water, and rescue signaling strictly ahead of risky angling or unverified ice access.
+applies: Winter and open-water emergencies where fishing competes with life-safety decisions.
+equipment: Appropriate flotation/cold gear, current license, lawful shore access only.
+diagram: Prioritize shelter and signaling first | Reject risky ice or swift banks | Fish only when safe and lawful
+visual: Conceptual decision boundary adapted from B013-P15 separating safe land refuge from unverified ice-fishing exposure.
+action: Keep shelter, dry insulation, water, and rescue signaling ahead of food gathering because no fish harvest offsets cold-water immersion or hypothermia. @H01,H18,T01
+action: Choose lawful open-water shore access only when weather, footing, and current Minnesota DNR rules permit rather than venturing onto unverified ice. @H01,H18,X03
+action: Check lake-specific fishing regulations, license requirements, and waterbody consumption advisories before planning any angling activity. @H01,H04
+failure: Treating tracks on ice or visible fish as permission to cross thin ice leads to rapid fatal cold-water immersion. @H18,X03
+verify: Party remains on stable ground, emergency priorities are secured, and angling proceeds only with verified lawful access and gear. @H01,H18
+stop: Stop angling plans immediately whenever ice is unverified, wind or lightning builds, or cold stress begins. @H18,X03
+reviewer: Ice-safety, wilderness rescue, and DNR fisheries reviewer
+
+Z06-P02 | Zero-Tool Ice-Hole Prohibition and Shore Fallback | Adapted historical material (B013-P16 zero-equipment ice limits)
+objective: Reject improvised ice-hole chipping, burning, or stomping when proper augers and ice-safety gear are absent.
+applies: Frozen-lake environments without verified ice thickness, flotation, and proper cutting tools.
+equipment: Shoreline shelter and signaling gear; lawful ice auger and rescue picks only on verified recreational trips.
+diagram: Recognize zero-tool stop condition | Reject chipping or melting holes | Stay ashore and signal help
+visual: Conceptual failure analysis adapted from B013-P16 showing why breaking or melting natural lake ice creates immediate fall hazards.
+action: Stay completely off frozen water when lacking ice-assessment tools, personal flotation, rescue picks, and a verified route. @H18,X03
+action: Never stomp, strike with rocks, chop haphazardly, or build fires to melt a fishing hole through natural ice because localized fractures trigger sudden breakthrough. @H18,X03
+action: Limit angling strictly to lawful open-water shore sites when physically safe, recognizing that conserving calories and warmth beats speculative winter fishing. @H01,H18
+failure: Attempting to smash or burn a hole in lake ice compromises surrounding ice strength and creates an unguarded immersion trap. @H18,X03
+verify: No improvised ice-hole cutting occurs and all group members stay on stable land when proper ice gear is absent. @H18,X03
+stop: Stop immediately at the shoreline if proper ice tools, flotation, verified rules, or safe ice conditions are absent. @H01,H18,X03
+reviewer: Ice-rescue and DNR fisheries reviewer
+
+Z06-P03 | No Automatic Emergency Legal Exemption for Wildlife Harvest | New manuscript (Z06 P17 legal boundary)
+objective: Clarify that wildlife, fishing, and firearm statutes remain legally binding and emergencies do not create blanket harvest exemptions.
+applies: All hunting, fishing, and backcountry planning in Minnesota and neighboring jurisdictions.
+equipment: Current DNR regulation booklet, official digital/offline agency summary, check date.
+diagram: Verify jurisdiction and date first | Separate statutory law from survival myths | Escalate legal questions to authorities
+visual: Conceptual legal gate emphasizing jurisdiction, authority, season, check date, and explicit rejection of automatic emergency exemptions.
+action: Verify current licensing, seasons, bag limits, and protected-species rules with the governing wildlife agency before any hunting or fishing trip. @H01,H02
+action: Never assume an outdoor emergency or lost-person situation automatically grants a legal exemption to take wildlife, fish out of season, or bypass federal protections. @H01,H02,H14
+action: Prioritize emergency shelter, water, and rescue communication during genuine emergencies rather than risking unlawful harvest and additional injury. @H02,T01
+failure: Relying on folklore claims of blanket survival exemptions results in severe state or federal wildlife violations and wasted rescue energy. @H01,H02,H14
+verify: Every harvest plan documents governing jurisdiction, species, season, authority URL/handbook, and verification date. @H01,H02
+stop: Stop any harvest activity when season status, species legality, land ownership, or permit validity is uncertain. @H01,H02,H14
+reviewer: Wildlife law and DNR enforcement reviewer
+
+Z06-P04 | Minnesota Fishing Licenses, Seasons and Special Waterbody Rules | New manuscript (Z06 P17 Minnesota regulations)
+objective: Confirm current Minnesota DNR angling licenses, seasonal openers, possession limits, and lake-specific special regulations before fishing.
+applies: Inland lakes, rivers, trout streams, and border waters across Minnesota.
+equipment: Valid Minnesota angling license/stamps, current MN DNR Fishing Regulations handbook, measuring board.
+diagram: Check license and stamp exemptions | Verify waterbody special slot rules | Record check date before casting
+visual: Conceptual regulatory verification plate for Minnesota DNR inland, trout, and border-water angling compliance.
+action: Obtain the required Minnesota fishing license and any trout/salmon stamp before fishing unless explicitly covered by a current statutory exemption. @H01
+action: Look up the exact waterbody in the current Minnesota DNR Fishing Regulations because special length slots, catch-and-release mandates, and seasonal closures override statewide defaults. @H01
+action: Carry an accurate rigid measuring rule to verify minimum or protected length slots before keeping any fish. @H01,H06
+failure: Relying on outdated regulation booklets or statewide general limits on a special-regulation lake causes accidental illegal possession. @H01
+verify: Current year DNR handbook, waterbody exceptions, license validity, and measuring tool are confirmed prior to fishing. @H01
+stop: Stop keeping any fish whose species, length slot, or current season status cannot be verified immediately on the water. @H01,H06
+reviewer: Minnesota DNR fisheries regulation reviewer
+
+Z06-P05 | Minnesota Hunting Licenses, Permit Areas and Legal Shooting Hours | New manuscript (Z06 P17 Minnesota regulations)
+objective: Verify hunting licenses, deer permit areas, seasonal dates, legal shooting hours, and method rules before entering the field.
+applies: Minnesota big-game, small-game, and migratory-bird hunting seasons.
+equipment: Valid license/tags, current MN DNR Hunting & Trapping Regulations, sunrise/sunset table, timepiece.
+diagram: Confirm license and permit area | Verify exact legal shooting hours | Check method and tagging rules
+visual: Conceptual regulatory checklist binding Minnesota DNR hunting zones, permit tags, legal hours, and statutory methods.
+action: Verify valid hunting licenses, species stamps, lottery/permit-area authorizations, and firearms-safety certification requirements in the current Minnesota DNR handbook. @H02,H03
+action: Confirm official legal shooting hours adjusted for longitude and date before afield travel, and follow mandatory electronic or physical harvest registration rules. @H02
+action: Check local municipal discharge ordinances, county restrictions, and state-park or refuge closures before hunting near developed areas. @H02,L07
+failure: Hunting across a permit-area boundary, outside legal shooting minutes, or without required certification violates state wildlife law and endangers bystanders. @H02,H03
+verify: Permit area map, exact legal shooting window, valid tags, and local ordinance checks are verified on the current check date. @H02
+stop: Stop hunting immediately at the close of legal shooting hours, when boundary lines are unclear, or when target identification is uncertain. @H02,H03
+reviewer: Minnesota DNR wildlife law reviewer
+
+Z06-P06 | Border Waters, Tribal Jurisdictions and Private-Land Permission | New manuscript (Z06 P17 jurisdictional boundaries)
+objective: Respect overlapping state-border, federal, tribal, and private-property jurisdictions governing hunting and fishing access.
+applies: Boundary waters, Lake Superior, Mississippi/St. Croix/Red River borders, tribal reservations, and private farmland/forests.
+equipment: Current parcel/public-land map, written landowner permission where applicable, border-water rules.
+diagram: Confirm exact water or parcel jurisdiction | Respect tribal and border treaties | Secure private landowner permission
+visual: Conceptual spatial boundary diagram distinguishing state public lands, tribal jurisdictions, border waters, and private property.
+action: Verify special reciprocal or separate border-water regulations on Minnesota boundary waters with Wisconsin, Iowa, North Dakota, South Dakota, and Ontario. @H01,H02
+action: Recognize that tribal reservation lands and ceded-territory treaty frameworks carry distinct sovereign wildlife and fisheries authorities; check applicable tribal and DNR notices. @H01,H02
+action: Obtain explicit permission before entering posted or agricultural private land, obeying Minnesota trespass statutes and leaving gates and crops undisturbed. @H02
+failure: Assuming a Minnesota state license authorizes entry onto private agricultural fields, reservation waters, or opposite-state shorelines causes trespass and poaching violations. @H01,H02
+verify: Parcel ownership, border-water agreement, or tribal jurisdiction rules are verified before launching or walking afield. @H01,H02
+stop: Stop immediately at posted boundaries, unverified reservation borders, or uncertain property lines. @H01,H02
+reviewer: Wildlife legal and tribal/jurisdictional reviewer
+
+Z06-P07 | Minnesota Freshwater Habitat Zones and Seasonal Fish Behavior | New manuscript (Z06 P17 fish ecology)
+objective: Understand seasonal water-temperature stratification, dissolved oxygen, and littoral-to-deep habitat shifts in northern lakes.
+applies: Ecological context for inland lakes, reservoirs, and cold-water rivers.
+equipment: Lake bathymetric map, seasonal water-temperature observations.
+diagram: Map littoral weedbeds and drop-offs | Track spring/fall turnover cycles | Avoid stressing thermal refuges
+visual: Conceptual lake transect showing upland shore, shallow littoral weedbed, thermocline layer, and deep cold basin.
+action: Understand that northern lakes stratify in summer into warm sunlit upper water and cooler deeper water separated by a thermocline, mixing during spring and fall turnover. @H06
+action: Recognize how seasonal spawning, insect hatches, and dissolved-oxygen levels shift fish between shallow littoral flats, weedlines, and deeper structure. @H06
+action: Avoid targeting cold-water fish like trout during severe summer heat waves when warm surface water causes high catch-and-release mortality. @H01,H06
+failure: Assuming fish occupy identical depths year-round or catching deep/warm-stressed fish casually causes severe barotrauma and thermal mortality. @H06
+verify: Habitat observations account for season, surface water warmth, and conservation limits before angling. @H01,H06
+stop: Stop catch-and-release fishing for cold-water species during high water temperatures or low dissolved-oxygen stress events. @H01,H06
+reviewer: Fisheries ecologist
+
+Z06-P08 | Positive Fish Identification: Walleye, Sauger and Yellow Perch | New manuscript (Z06 P17 species documentation)
+objective: Distinguish closely related Percidae species accurately to comply with separate possession limits, length slots, and border rules.
+applies: Inland lakes and large river systems across Minnesota.
+equipment: Current MN DNR Fishes of Minnesota guide, measuring board.
+diagram: Inspect dorsal fin spotting pattern | Check white lower tail tip | Release uncertain hybrids immediately
+visual: Conceptual freshwater fish anatomical diagram highlighting spiny dorsal fin, white lower caudal tip, and dark blotches.
+action: Compare multiple anatomical traits: walleye typically show a dark blotch at the rear base of the spiny dorsal fin and a white lower tail tip without neat rows of spots across the dorsal membrane. @H06
+action: Distinguish sauger by distinct rows of dark spots on the spiny dorsal fin, rough cheeks, and dark saddle blotches without the bright white lower tail tip. @H06
+action: Recognize yellow perch by vertical dark side bars and lack of large canine teeth, releasing any uncertain walleye-sauger hybrid when length or bag limits differ. @H01,H06
+failure: Mistaking a protected-slot walleye for a sauger or juvenile perch violates length and aggregate possession regulations. @H01,H06
+verify: Dorsal fin markings, tail tip, mouth structure, and measured length are verified against DNR species keys before retention. @H01,H06
+stop: Stop and immediately release any fish whose species identification or legal slot compliance remains uncertain. @H01,H06
+reviewer: Fisheries biologist
+
+Z06-P09 | Northern Pike, Muskellunge and Protected Slot Identification | New manuscript (Z06 P17 species documentation)
+objective: Differentiate northern pike from muskellunge and tiger muskellunge accurately so protected trophy muskellunge are never illegally harvested.
+applies: Minnesota lakes and rivers supporting esocid populations.
+equipment: MN DNR fish ID card, long-nose hemostat/pliers, rigid measuring board.
+diagram: Check cheek scale pattern & pores | Inspect dark vs light body markings | Verify regional pike zone slots
+visual: Conceptual esocid diagnostic comparison contrasting northern pike bean spots and cheek scales against muskellunge vertical bars and chin pores.
+action: Distinguish northern pike (light bean-shaped spots on a dark background, fully scaled cheeks, five or fewer pores per side under the lower jaw) from muskellunge (dark vertical bars or spots on a light background, scales only on upper cheek, six to nine pores per jaw side). @H06
+action: Verify Minnesota regional northern pike management-zone slot regulations and muskellunge high minimum-length limits before fishing. @H01,H06
+action: Handle sharp-toothed esocids with wet hands and long-nose unhooking tools—never grip gill arches—to prevent severe lacerations and fish mortality. @H06,M06
+failure: Confusing an immature muskellunge for a northern pike results in unlawful harvest of a high-minimum-size gamefish and severe hand cuts from gill rakers. @H01,H06
+verify: Cheek scalation, lower-jaw pore count, body pattern, and zone-specific length slots are confirmed before keeping any pike. @H01,H06
+stop: Stop and release immediately in water whenever esocid species identity or zone length slot is in doubt. @H01,H06
+reviewer: Fisheries biologist
+
+Z06-P10 | Bass, Sunfish and Crappie Spawning Conservation Boundaries | New manuscript (Z06 P17 conservation)
+objective: Identify regional centrarchid species accurately and protect nesting beds and quality panfish populations.
+applies: Warm-water lakes, bays, and slow rivers across Minnesota.
+equipment: MN DNR species guide, barbless or crimped hooks where practical, measuring rule.
+diagram: Separate largemouth vs smallmouth | Check special sunfish/crappie limits | Avoid stressing shallow nests
+visual: Conceptual anatomical comparison of jaw-to-eye alignment in largemouth versus smallmouth bass and crappie dorsal spines.
+action: Distinguish largemouth bass (upper jaw extends past rear eye edge, horizontal dark stripe) from smallmouth bass (jaw ends under eye, vertical bars) and verify regional closed seasons or catch-and-release zones. @H01,H06
+action: Check waterbody-specific Quality Sunfish Initiative or reduced crappie bag limits, which are lower than statewide limits on many Minnesota lakes. @H01
+action: Minimize air exposure and avoid repeatedly pulling guarding male bass or sunfish off shallow spring spawning beds. @H01,H06
+failure: Ignoring local reduced sunfish limits or keeping bass during closed/catch-and-release spring windows violates regulations and depletes breeding stock. @H01
+verify: Species ID, seasonal open status, and lake-specific reduced panfish limits are verified before keeping any catch. @H01,H06
+stop: Stop keeping panfish or bass if special waterbody rules have not been checked or spawning fish show stress. @H01
+reviewer: Fisheries conservation biologist
+
+Z06-P11 | Cold-Water Trout, Lake Trout and Designated Stream Rules | New manuscript (Z06 P17 regulations and ecology)
+objective: Verify trout-stamp requirements, designated trout-stream boundaries, and cold-water conservation rules.
+applies: Southeastern spring creeks, North Shore tributaries, and deep northern lake-trout lakes.
+equipment: Minnesota trout/salmon stamp, DNR designated trout-stream map, thermometer for stream-temp checks.
+diagram: Verify designated stream boundaries | Confirm trout stamp & gear rules | Halt fishing in warm summer water
+visual: Conceptual regulatory boundary highlighting designated trout waters, trout-stamp mandate, and summer thermal-stress cutoff.
+action: Confirm whether a stream or lake is a Minnesota DNR Designated Trout Water requiring a valid trout stamp, specific open seasons, and artificial-only or barbless gear rules. @H01
+action: Distinguish native brook trout (light worm-like vermiculations on dark back, white-edged lower fins) from brown and rainbow trout, obeying strict North Shore steelhead and brook-trout regulations. @H01,H06
+action: Keep hands wet when unhooking trout and stop catch-and-release fishing when stream temperatures climb into thermal-stress levels during hot summer afternoons. @H06
+failure: Using prohibited live bait on an artificial-only trout stream or handling trout with dry hands strips protective slime and causes delayed mortality. @H01,H06
+verify: Trout stamp, stream-specific gear rules, species identity, and cool water conditions are verified before fishing. @H01,H06
+stop: Stop fishing designated trout waters if gear restrictions are unclear or summer water temperatures stress cold-water fish. @H01,H06
+reviewer: Cold-water fisheries biologist
+
+Z06-P12 | Catfish, Bullheads, Sturgeon and Protected Native Fish Exclusions | New manuscript (Z06 P17 species protection)
+objective: Recognize protected sturgeon, paddlefish, and native rough fish so threatened species are never injured or retained unlawfully.
+applies: Large rivers (Mississippi, St. Croix, Rainy, Minnesota) and connected lakes.
+equipment: MN DNR species identification key, heavy pliers for safe hook removal.
+diagram: Recognize bony scutes and barbels | Know closed sturgeon/paddlefish rules | Watch sharp catfish fin spines
+visual: Conceptual diagnostic contrast separating legal channel/flathead catfish from strictly regulated lake sturgeon and protected paddlefish.
+action: Identify strictly protected species—including paddlefish (long paddle snout, closed statewide) and lake/shovelnose sturgeon (bony scutes, shark-like tail, strict seasonal/tag rules)—and release them immediately in water. @H01,H06,L04
+action: Handle catfish and bullheads carefully to avoid venomous-mucus puncture wounds from locked dorsal and pectoral fin spines. @H06,M06
+action: Verify river-specific catfish possession limits and MDH consumption advisories because long-lived bottom feeders accumulate higher PCB and mercury loads in some rivers. @H01,H04
+failure: Pulling a protected sturgeon out of water for prolonged photos or mishandling bullhead spines causes illegal take and infected puncture injuries. @H01,H06,M06
+verify: Protected river species are recognized on sight and released unharmed in water without delay. @H01,H06
+stop: Stop handling if a fin-spine puncture causes worsening swelling, redness, or fever; clean thoroughly and seek medical evaluation. @M06
+reviewer: River fisheries biologist
+
+Z06-P13 | Catch-and-Release Handling to Minimize Post-Release Mortality | New manuscript (Z06 P17 conservation)
+objective: Apply low-stress unhooking and water-support practices so released fish survive without gill or internal organ injury.
+applies: All recreational catch-and-release angling and mandatory slot-limit releases.
+equipment: Rubberized landing net, long-nose hemostat/pliers, line cutters.
+diagram: Keep fish wet and horizontally supported | Cut line on deep gut hooks | Revive upright facing gentle flow
+visual: Conceptual four-step fish-release workflow emphasizing wet hands, horizontal support, cutting deep hooks, and gentle water revival.
+action: Land fish promptly without exhausting them, wet hands before contact, use a knotless rubber net, and support larger fish horizontally rather than hanging vertically by the jaw. @H06
+action: Keep air exposure brief—especially in freezing air or hot sun—and cut the line close to a deeply swallowed hook rather than tearing gills or esophagus. @H06
+action: Hold recovering fish gently upright in water facing a light current until it swims away strongly under its own power. @H06
+failure: Squeezing fish gills, dragging fish across dry gravel, or yanking deep hooks causes high unseen post-release death. @H06
+verify: Wet hands, rapid unhooking, horizontal support, and active swim-away are observed on every release. @H06
+stop: Stop fishing if repeated deep hooking, barotrauma from deep water, or extreme air/water temperatures prevent healthy release. @H06
+reviewer: Fisheries conservation specialist
+
+Z06-P14 | Aquatic Invasive Species: Clean, Drain, Dry and Bait Disposal Law | New manuscript (Z06 P17 conservation law)
+objective: Comply with Minnesota Aquatic Invasive Species (AIS) statutes whenever moving boats, kayaks, waders, or fishing gear between waters.
+applies: All watercraft launches, shore waders, ice gear, and live-bait transport in Minnesota.
+equipment: Drain plug wrench, towel/brush, trash bag for unwanted bait.
+diagram: Clean plants and mud off gear | Drain bilge and pull plugs | Dispose unwanted bait in trash
+visual: Conceptual regulatory sequence enforcing Minnesota statutory Clean, Drain, Dry and zero-water-transport AIS rules.
+action: Clean all visible aquatic plants, zebra mussels, and mud from boats, trailers, kayaks, anchors, waders, and fishing nets before leaving the water access. @H07
+action: Drain all water from bilges, livewells, and bait containers and keep drain plugs removed during highway transport as required by Minnesota law. @H07
+action: Dispose of unwanted live bait in trash receptacles—never dump bait or lake water into another waterbody—and dry gear thoroughly before visiting new waters. @H07
+failure: Hauling a wet livewell, weed-draped anchor, or leftover minnows between lakes spreads zebra mussels, spiny waterflea, and fish diseases illegally. @H07
+verify: Plugs are pulled, hulls/waders/nets are visibly plant- and water-free, and zero live fish or lake water leaves infested accesses. @H07
+stop: Stop moving watercraft or wet waders to another watershed until full cleaning, draining, and drying or approved decontamination is complete. @H07
+reviewer: Minnesota DNR AIS specialist
+
+Z06-P15 | Checking Minnesota Department of Health Waterbody Fish Advisories | New manuscript (Z06 P17 fish advisories)
+objective: Verify current MDH species-, size-, and waterbody-specific consumption guidelines before eating any wild-caught freshwater fish.
+applies: All Minnesota lakes, rivers, and Lake Superior angling.
+equipment: Current MDH waterbody fish-consumption lookup record and check date.
+diagram: Look up exact lake or river reach | Match fish species and length | Follow strictest meal-frequency cap
+visual: Conceptual decision boundary pairing exact waterbody lookup, fish size/species, and sensitive-population limits.
+action: Check the Minnesota Department of Health (MDH) waterbody-specific fish consumption lookup for the exact lake or river stretch, species, and fish length before eating caught fish. @H04
+action: Understand that visually healthy fish from clear pristine-looking northern lakes can still carry elevated mercury, while urban or industrial waters may add PFAS or PCB restrictions. @H04
+action: Apply statewide safe-eating guidelines when a waterbody is untested rather than assuming an unlisted lake is contaminant-free. @H04,H05
+failure: Judging fish safety by water clarity or healthy appearance ignores invisible mercury, PFAS, and PCB contamination. @H04
+verify: Exact waterbody name, species, size bracket, check date, and MDH meal-frequency limit are verified prior to consumption. @H04
+stop: Stop and do not eat any fish from a waterbody carrying a Do Not Eat advisory or unknown chemical spill warning. @H04
+reviewer: Public-health toxicologist and MDH reviewer
+
+Z06-P16 | Mercury Bioaccumulation in Predatory vs Panfish Species | New manuscript (Z06 P17 fish advisories)
+objective: Reduce dietary mercury exposure by understanding how mercury concentrates in older, larger predatory fish.
+applies: Selecting fish meals under MDH statewide and waterbody guidelines.
+equipment: Measuring board, MDH statewide/lake chart.
+diagram: Prefer smaller younger panfish | Limit large older predators | Remember mercury stays in muscle
+visual: Conceptual ecological food-chain cutaway illustrating mercury biomagnification from small forage fish up to large old walleye and pike.
+action: Recognize that methylmercury biomagnifies up the aquatic food chain, reaching higher levels in larger, older predatory fish such as big walleye, northern pike, bass, and lake trout. @H04,H05
+action: Choose smaller panfish (sunfish, crappie, yellow perch) within lawful limits and MDH meal allowances rather than eating frequent meals of large apex predators. @H04
+action: Remember that mercury binds directly to muscle protein, so trimming fat, skinning, or cooking cannot reduce mercury content. @H05
+failure: Assuming frying or skinning a large northern pike removes mercury exposes households to neurotoxic methylmercury. @H04,H05
+verify: Kept meal fish align with smaller legal sizes and MDH weekly/monthly mercury meal frequencies. @H04,H05
+stop: Stop consuming large predatory fish above MDH meal limits, especially for pregnant or nursing people and children under 15. @H04
+reviewer: Environmental health toxicologist
+
+Z06-P17 | PFAS and PCB Fish Advisories in Metro and Industrial Waters | New manuscript (Z06 P17 fish advisories)
+objective: Account for persistent industrial chemicals (PFAS and PCBs) that trigger strict meal limits or Do Not Eat advisories on specific waters.
+applies: Twin Cities metro lakes, Mississippi River pools, Lake Superior, and waters near historic industrial or firefighting-foam sites.
+equipment: Current MDH waterbody advisory table.
+diagram: Check waterbody PFAS and PCB flags | Honor Do Not Eat lake postings | Never assume cooking destroys PFAS
+visual: Conceptual system boundary contrasting watershed industrial/PFAS runoff against safe-meal advisory screening.
+action: Consult MDH waterbody-specific notices for PFAS (per- and polyfluoroalkyl substances) and PCBs, which can drive far stricter limits than statewide mercury charts—including Do Not Eat notices. @H04
+action: Recognize that PFAS distribute in blood and lean tissue as well as organs and cannot be removed by trimming fat, washing, or cooking. @H04,H05
+action: Respect posted shoreline advisory signs and avoid harvesting fish near industrial outfalls, stormwater retention ponds, or active spill zones. @H04
+failure: Applying statewide mercury meal counts to a PFAS-restricted metro lake or retention pond exposes eaters to high persistent chemical doses. @H04
+verify: Current MDH waterbody lookup confirms absence of Do Not Eat, PFAS, or PCB overrides before keeping fish for food. @H04
+stop: Stop keeping fish for consumption from any stormwater pond, spill-impacted water, or Do Not Eat advisory reach. @H04
+reviewer: Environmental toxicologist
+
+Z06-P18 | Trimming Fat and Skin for PCBs vs Mercury Persistence | New manuscript (Z06 P17 fish preparation)
+objective: Use MDH-recommended fat-trimming and cooking methods to reduce fat-soluble PCBs while recognizing their zero effect on mercury or PFAS.
+applies: Preparing advisory-cleared freshwater fish from PCB-affected rivers or Great Lakes waters.
+equipment: Clean fillet knife, cutting board, rack or grill allowing fat to drip away.
+diagram: Remove skin and fatty dark strips | Discard belly and dorsal fat | Never treat trimming as mercury fix
+visual: Conceptual fish fillet cross-section marking belly flap, lateral dark fat strip, dorsal fat line, and skin removal zones.
+action: Trim away the skin, belly flap fat, dorsal fat along the back, and dark lateral-line fatty tissue when preparing advisory-cleared fish from PCB-affected waters. @H05
+action: Cook trimmed fillets by baking, broiling, or grilling on a rack so remaining fat drips away, discarding pan drippings rather than making fish broth or frying in reused fat. @H05
+action: Keep trimming strictly framed as a PCB-reduction aid—never a substitute for waterbody meal limits, because mercury and PFAS stay in lean muscle. @H04,H05
+failure: Deep-frying unskinned fatty fish or assuming trimmed fillets bypass mercury/PFAS advisories increases chemical intake. @H04,H05
+verify: Skin and visible fat strips are trimmed, drippings discarded, and MDH meal counts remain respected. @H04,H05
+stop: Stop preparing any fish carrying a Do Not Eat advisory; trimming cannot make restricted fish safe. @H04,H05
+reviewer: Public-health food-safety specialist
+
+Z06-P19 | Fish Consumption Limits for Pregnant People and Children Under 15 | New manuscript (Z06 P17 vulnerable groups)
+objective: Enforce MDH stricter fish-consumption tiers for pregnant people, people who may become pregnant, nursing parents, and children under 15.
+applies: Household meal planning with wild-caught freshwater fish.
+equipment: MDH sensitive-population advisory chart.
+diagram: Identify sensitive household members | Apply stricter MDH meal caps | Exclude high-mercury predators
+visual: Conceptual comparison of MDH general-population versus sensitive-population fish consumption tiers.
+action: Apply MDH stricter sensitive-population meal allowances to anyone pregnant, planning pregnancy, nursing, or under age 15 because developing nervous systems are highly vulnerable to mercury and PCBs. @H04
+action: Exclude large predatory fish and advisory-flagged species from meals served to young children and pregnant family members, substituting verified low-mercury choices within MDH guidance. @H04
+action: Check both wild-caught local advisories and commercial fish limits together so combined weekly mercury intake does not accumulate. @H04
+failure: Serving general-adult predator fish portions to toddlers or pregnant people exceeds developmental neurotoxicity thresholds. @H04
+verify: Household meal plans verify sensitive-group MDH limits separately from general-adult allowances. @H04
+stop: Stop serving wild-caught fish to pregnant people or children whenever waterbody advisory status is unknown. @H04
+reviewer: Pediatric public-health and toxicology reviewer
+
+Z06-P20 | Open-Water Shore, Wading and Cold-Water Angling Safety | New manuscript (Z06 P17 angling safety)
+objective: Prevent drowning, cold-water shock, and lightning strikes while shore-angling, wading rivers, or fishing from small watercraft.
+applies: Rivers, rocky North Shore ledges, reservoirs, and small fishing boats/kayaks.
+equipment: USCG-approved PFD worn buckled, wading belt/staff where appropriate, weather radio.
+diagram: Wear buckled PFD on boats/kayaks | Check river current and drop-offs | Exit water early for lightning
+visual: Conceptual hazard zone map highlighting slippery undercut banks, swift river drop-offs, and cold-water PFD requirements.
+action: Wear a buckled USCG-approved personal flotation device whenever fishing from kayaks, canoes, or small boats—especially in spring and autumn cold water when immersion rapidly disables swimming. @H18,X17
+action: Assess river current, submerged drop-offs, and slick algae boulders before wading; wear a snug wading belt over chest waders and never wade fast flood-swollen streams. @H18
+action: Move off open lakes, rocky points, and metal boats immediately when thunder is heard or storm fronts build because graphite rods and open water heighten lightning danger. @H18,N05
+failure: Sitting on a stowed life jacket in cold spring water or wading above waist-deep swift currents leads to rapid drowning. @H18,X17
+verify: PFDs are worn buckled afloat, wading stays shallow and stable, and weather is monitored continuously. @H18
+stop: Stop angling and move to safe shore shelter immediately if wind builds whitecaps, river flow rises, or lightning approaches. @H18,N05
+reviewer: Water-safety and USCG/boating reviewer
+
+Z06-P21 | White-Tailed Deer Ecology, Seasonal Movement and Habitat Sign | New manuscript (Z06 P17 wildlife ecology)
+objective: Interpret white-tailed deer habitat use, seasonal rut and winter yarding, and browse sign without misreading or harassing wildlife.
+applies: Upper Midwest hardwood-conifer edges, agricultural margins, and winter cedar yards.
+equipment: Binoculars, metric scale ruler, notebook.
+diagram: Read edge habitat and food cover | Recognize autumn rut and winter yards | Avoid disturbing winter-stressed deer
+visual: Conceptual seasonal timeline tracking white-tailed deer spring fawning, summer browse, autumn rut, and winter energy conservation.
+action: Understand that white-tailed deer thrive along forest-opening edges, shifting from herbaceous summer forage to woody browse and sheltered conifer yards during deep northern winters. @H16,H17
+action: Recognize heart-shaped cloven hoof prints, woody twig browse with ragged torn ends (deer lack upper incisors), autumn antler rubs, and matted snow beds in context. @H16
+action: Avoid pushing or chasing deer out of winter yarding cover because forced flight in deep snow rapidly depletes critical fat reserves. @H16,H17
+failure: Confusing domestic sheep/goat tracks or clean rabbit-clipped twigs with deer sign—or harassing winter-yarded herds—misreads ecology and harms wildlife. @H16,H17
+verify: Multiple signs (cloven track dimensions, ragged browse, and habitat cover) corroborate observation without disturbing resting animals. @H16
+stop: Stop following wildlife trails during severe deep-snow cold snaps or onto posted private or refuge lands. @H02,H16
+reviewer: Wildlife ecologist
+
+Z06-P22 | Small Game Ecology: Cottontails, Snowshoe Hares and Squirrels | New manuscript (Z06 P17 wildlife ecology)
+objective: Recognize regional lagomorph and tree-squirrel ecology, seasonal coat shifts, and disease-hygiene boundaries.
+applies: Minnesota brushy edges, boreal swamps, and oak-hickory hardwoods.
+equipment: Binoculars, field guide, current DNR small-game handbook.
+diagram: Match species to brush or boreal cover | Note 45-degree clipped woody twigs | Enforce tularemia glove hygiene
+visual: Conceptual wildlife plate comparing bounding lagomorph hind-ahead-of-front track sets and angled clean-cut twig browse.
+action: Distinguish eastern cottontails (brushy southern/central edges), snowshoe hares (northern boreal conifer swamps with seasonal white winter pelage), and gray/fox/red squirrels. @H16
+action: Recognize classic bounding tracks where larger hind feet land ahead of smaller staggered front prints, alongside crisp 45-degree diagonal twig cuts made by sharp incisors. @H16
+action: Verify current DNR small-game seasons and treat any sluggish, abnormal, or found-dead rabbit or rodent as a severe tularemia hazard never handled barehanded. @H02,H11
+failure: Confusing snowshoe hare with cottontail seasons or skinning wild rabbits without impervious gloves risks legal errors and tularemia infection. @H02,H11
+verify: Habitat, track pattern, season legality, and strict glove/illness-exclusion hygiene are confirmed. @H02,H11,H16
+stop: Stop handling any sluggish or visibly ill small mammal immediately; do not harvest or touch found-dead carcasses. @H11
+reviewer: Wildlife biologist and infectious-disease reviewer
+
+Z06-P23 | Upland Game Birds and Protected Songbird/Raptor Exclusions | New manuscript (Z06 P17 wildlife ecology)
+objective: Distinguish regulated upland game birds (ruffed grouse, pheasant) from federally protected hawks, owls, and nongame birds.
+applies: Young aspen forests, prairie grasslands, and wooded edges in Minnesota.
+equipment: Current DNR hunting guide, binoculars, blaze orange visibility gear when afield in season.
+diagram: Confirm upland species before any act | Protect all raptors and songbirds | Verify season and blaze clothing
+visual: Conceptual contrast distinguishing regulated upland game-bird habitat/silhouette from federally protected raptors and nongame birds.
+action: Verify exact positive species identification before any lawful upland harvest—distinguishing ruffed grouse in young aspen cover and ring-necked pheasants in grassland cover from protected spruce grouse closures or nongame birds. @H02,H14
+action: Protect all raptors (hawks, owls, eagles), songbirds, woodpeckers, and nests unconditionally under the federal Migratory Bird Treaty Act and state law. @H14,L14
+action: Wear required Minnesota blaze orange/pink clothing during applicable seasons and verify clear sky/ground backstops beyond flying birds. @H02,H03
+failure: Firing at an unidentified flushed silhouette risks illegally killing a protected raptor or endangered species and injuring companions. @H02,H03,H14
+verify: Positive species ID, open season, safe firing zone, and blaze visibility are confirmed prior to any upland activity. @H02,H03,H14
+stop: Stop immediately whenever bird identity, background safety (buildings, roads, dogs, partners), or legal status is uncertain. @H02,H03,H14
+reviewer: Ornithologist and hunter-education reviewer
+
+Z06-P24 | Migratory Waterfowl Ecology and Federal Stamp/Shot Rules | New manuscript (Z06 P17 federal and state law)
+objective: Comply with dual federal-state waterfowl frameworks, positive duck-species ID, and mandatory non-toxic shot regulations.
+applies: Wetlands, marshes, lakes, and river flyways during lawful waterfowl seasons.
+equipment: State license + federal Duck Stamp + HIP certification, non-toxic shot only, binoculars, USCG PFD.
+diagram: Hold federal Duck Stamp and state tag | Verify species-specific daily limits | Use approved non-toxic shot only
+visual: Conceptual regulatory boundary combining USFWS Migratory Bird Treaty Act mandates, non-toxic shot law, and Minnesota waterfowl rules.
+action: Hold both current Minnesota licenses/stamps and a signed federal Migratory Bird Hunting and Conservation Stamp (Duck Stamp) plus HIP registration before hunting waterfowl. @H02,H14,H18
+action: Use only USFWS-approved non-toxic shot—never lead shot—to prevent lethal lead poisoning in waterfowl and scavenging bald eagles. @H14,H18
+action: Confirm positive duck species and sex identification on the wing because daily bag limits vary strictly by species (such as canvasback, pintail, wood duck, and hen mallards). @H02,H14,H18
+failure: Carrying lead shells in a wetland blind or shooting unidentified silhouettes in dim dawn light violates federal law and poisons eagles. @H14,H18
+verify: Federal Duck Stamp, non-toxic shells, legal shooting light, and species bag limits are confirmed before afield travel. @H14,H18
+stop: Stop shooting when dim light, fog, or distance prevents positive waterfowl species identification or safe boat stability. @H03,H14,H18
+reviewer: USFWS waterfowl and water-safety reviewer
+
+Z06-P25 | Reading Mammal Tracks with Metric Scale and Substrate Limits | New manuscript (Z06 P17 track recognition)
+objective: Measure mammal tracks accurately while accounting for snow melt, mud spread, and overlap distortion.
+applies: Snow, wet sand, mudflats, and dusty trail ecological observation.
+equipment: Metric/inch ruler, camera, notebook.
+diagram: Count toes, claws, and heel lobes | Measure length and width with ruler | Adjust for snow melt and mud spread
+visual: Conceptual paw-and-hoof comparison plate with metric scale bar noting claw marks, symmetrical pads, and substrate expansion.
+action: Count visible toe pads, claw marks, and heel-pad shape across several consecutive prints rather than relying on a single distorted track. @H16
+action: Place a metric ruler beside clean tracks to record length and width, remembering that sun-melted snow and soft mud can enlarge prints significantly. @H16
+action: Compare symmetrical four-toe oval canine tracks (claws usually showing, X-space between pads) against rounder asymmetrical feline tracks (claws usually retracted, three-lobed heel pad) and five-toed mustelid/procyonid prints. @H16
+failure: Mistaking a sun-melted domestic dog print for a wolf or mountain lion—or guessing species from one muddy smear—produces unreliable field reports. @H16
+verify: Multiple clean prints are measured with a ruler alongside trail width and habitat context before proposing a candidate family. @H16
+stop: Stop trailing fresh tracks of large carnivores (bear, wolf, cougar) or entering private or hazardous ice areas. @H12,H13,H16
+reviewer: Mammalogist and wildlife tracker
+
+Z06-P26 | Animal Gait Patterns: Walkers, Bounders, Hoppers and Gallopers | New manuscript (Z06 P17 track recognition)
+objective: Use stride, straddle, and trail pattern across multiple meters to corroborate mammal family identification.
+applies: Snowfields, sandbars, and trail corridors where continuous track lines remain visible.
+equipment: Measuring tape/ruler, notebook.
+diagram: Step back to read multi-meter gait | Measure stride and trail straddle | Combine gait with track anatomy
+visual: Conceptual overhead gait pattern showing alternating diagonal direct-register walks versus bounding and hopping trails.
+action: Observe at least three to five meters of uninterrupted trail to distinguish diagonal walkers (deer, canines, felines), bounders (weasels, mink, otter), gallopers/hoppers (rabbits, squirrels), and wide waddlers (bear, beaver, porcupine, skunk). @H16
+action: Measure stride (distance between consecutive prints of the same foot) and straddle (overall width of the trail) alongside snow depth, because deep snow forces animals to switch gaits. @H16
+action: Use gait analysis strictly as ecological observation paired with individual print anatomy and habitat. @H16
+failure: Reading a single print without checking trail width and gait misclassifies fast-running canines as rabbits or drags in deep snow as larger species. @H16
+verify: Stride, straddle, gait class, and individual pad features agree across multiple consecutive prints. @H16
+stop: Stop following continuous trails across frozen water, onto private property, or into dense cover with fresh predator sign. @H12,H16,H18
+reviewer: Wildlife ecologist
+
+Z06-P27 | Scat, Browse and Bedding Sign Interpretation and Hygiene | New manuscript (Z06 P17 sign recognition)
+objective: Interpret wildlife feeding and scat sign visually from safe distance without bare-hand contact or aerosolized parasite risk.
+applies: Forests, shorelines, and campsites with animal sign.
+equipment: Metric scale placed nearby without touching scat, camera, hand sanitizer/soap.
+diagram: Observe scat visually without touch | Check browse cuts and bedding cover | Guard against raccoon roundworm
+visual: Conceptual sign hygiene plate separating visual measurement of scat and browse from hazardous bare-hand contact.
+action: Inspect animal scat visually with a nearby ruler for approximate diameter, segmented shape, and visible hair, seeds, or bone without poking or breaking it dry. @H16
+action: Never touch wild carnivore or raccoon scat barehanded—and avoid sweeping dry raccoon latrines—because Baylisascaris roundworm eggs and Echinococcus tapeworm eggs cause severe human disease if ingested or inhaled. @H16,M22
+action: Cross-check scat observations with clipped twigs (clean diagonal rabbit cut vs ragged deer tear), bark gnawing (beaver/porcupine), and habitat. @H16
+failure: Breaking open dry scat with bare fingers or camping beside active raccoon latrines risks catastrophic parasitic infection. @H16
+verify: All scat observations remain strictly no-contact, and hands are washed before eating. @H16
+stop: Stop inspecting enclosed barns, tree cavities, or latrine piles emitting dry dust; move away and wash hands. @H16
+reviewer: Wildlife veterinarian and parasitologist
+
+Z06-P28 | Protected Nongame Wildlife, Turtles and Nesting Exclusions | New manuscript (Z06 P17 species protection)
+objective: Recognize legally protected nongame mammals, birds, reptiles, and amphibians that must never be harassed, collected, or harvested.
+applies: Wetlands, shorelines, woodlands, and prairies across Minnesota.
+equipment: MN DNR Rare Species & Nongame reference.
+diagram: Verify nongame protection status | Leave nesting turtles and fawns | Avoid disturbing dens and rookeries
+visual: Conceptual legal protection gate highlighting state and federal exclusions for nongame species, rare turtles, bats, and rookeries.
+action: Recognize that most native wildlife—including songbirds, raptors, bats, flying squirrels, wood turtles, Blanding turtles, and rare amphibians—are strictly protected nongame or listed species. @H14,L04,L05
+action: Leave solitary deer fawns, fledged birds, and nesting turtles undisturbed rather than assuming they are orphaned or relocating them. @L05,L06
+action: Keep clear of heron rookeries, eagle nests, bat hibernacula, and turtle nesting beaches during sensitive spring and summer breeding windows. @H14,L04,L05
+failure: Collecting wild turtles, disturbing eagle nests, or taking nongame animals causes irreversible population loss and legal penalties. @H14,L04,L05
+verify: All nongame and listed wildlife are observed quietly from a respectful distance with zero capture or disturbance. @L04,L05
+stop: Stop approaching whenever wildlife alters feeding/nesting behavior, gives alarm calls, or displays defensive posture. @L05
+reviewer: Nongame wildlife biologist
+
+Z06-P29 | Wildlife Species Documentation with Scale and Locality Records | New manuscript (Z06 P17 species documentation)
+objective: Document notable wildlife sightings, tracks, and rare-species encounters cleanly for agency or biodiversity records without harassing animals.
+applies: Reporting rare species, fish anomalies, or tracks to MN DNR or Bell Museum.
+equipment: Camera with zoom lens, metric scale for stationary tracks, GPS/notebook.
+diagram: Zoom from non-disturbing distance | Photograph tracks with metric scale | Submit locality to wildlife agency
+visual: Conceptual four-view wildlife documentation workflow covering habitat context, subject/track with scale, date/GPS, and agency review.
+action: Photograph live wildlife only with a zoom lens from a distance that causes zero flight or stress behavior, never baiting or chasing subjects for closer shots. @H16,L05
+action: For stationary tracks or sign, capture both a multi-meter gait overview and a perpendicular close-up with a readable metric scale ruler. @H16
+action: Log exact date, time, county, GPS coordinates, and habitat context, keeping exact rare-species nest or den coordinates confidential except when reporting to MN DNR. @L04,H16
+failure: Broadcasting exact rare-species locations publicly or crowding wildlife for phone photos exposes animals to poaching and stress. @L04,L05
+verify: Sightings carry complete non-disturbing visual evidence, metric scale where applicable, and responsible agency reporting. @H16,L04
+stop: Stop photographing immediately if an animal retreats, vocalizes alarm, or focuses defensively on observers. @H12,L05
+reviewer: Wildlife biologist and biodiversity curator
+
+Z06-P30 | Conservation Ethics, Fair Chase and Wanton-Waste Prohibitions | New manuscript (Z06 P17 conservation)
+objective: Uphold statutory wanton-waste prohibitions, ethical shot selection, and prompt retrieval responsibilities during lawful harvest.
+applies: All lawful hunting and fishing activities.
+equipment: Current DNR regulations, tracking light, game bags, cooler.
+diagram: Take only high-percentage lawful shots | Recover and utilize edible meat | Respect landowners and habitats
+visual: Conceptual three-gate conservation decision tree linking lawful authority, ethical clean-harvest capability, and cold-chain utilization.
+action: Verify before harvesting any legal fish or game animal that you have the lawful right, equipment, cooling capacity, and transport plan to recover and utilize the edible meat without wanton waste. @H01,H02,H17
+action: Pass up uncertain, long-range, obscured, or late-light shots where clean recovery is doubtful, and make every lawful effort to track and retrieve wounded game. @H02,H03
+action: Pack out all spent shells, monofilament fishing line, lead sinkers, and litter because discarded line and tackle kill waterbirds and wildlife. @H07,L13
+failure: Harvesting fish or game in hot weather without ice/transport or leaving tangled fishing line along shores causes illegal waste and wildlife entanglement. @H07,H17,L13
+verify: Recovery plan, cooling gear, litter/line pack-out, and lawful utilization are prepared prior to harvest. @H02,H17
+stop: Stop harvesting immediately once personal cooling, transport, or legal bag/possession capacity is reached. @H01,H02,H17
+reviewer: Wildlife conservation and hunter-ethics reviewer
+
+Z06-P31 | Four Fundamental Firearm Safety Rules and Certification Gate | New manuscript (Z06 P17 equipment safety)
+objective: Enforce the four non-negotiable firearm safety rules and statutory hunter-education certification before any firearm handling.
+applies: All lawful firearm transport, range practice, and afield hunting.
+equipment: Certified firearm safety completion certificate, chamber flag, ear and eye protection.
+diagram: Treat every firearm as loaded | Control muzzle & finger off trigger | Verify target and full backstop
+visual: Conceptual four-panel safety sequence locking muzzle control, loaded-status discipline, trigger-finger index, and target/backstop verification.
+action: Apply all four rules simultaneously at every moment: treat every firearm as loaded, keep the muzzle pointed in a safe direction, keep your finger outside the trigger guard until ready to shoot, and positively identify your target and everything beyond it. @H03
+action: Complete formal Minnesota DNR Firearms Safety Certification as required by statute; written reference cards never replace hands-on certified training. @H03
+action: Never rely on a mechanical safety switch as a substitute for safe muzzle direction and an unloaded, open action during crossing obstacles or transport. @H03
+failure: Violating even a single rule—such as resting a finger on the trigger, crossing a fence loaded, or shooting toward brush without verifying the backstop—causes fatal gunshot injuries. @H03
+verify: Every handler demonstrates continuous muzzle control, finger off trigger, open unloaded action when not hunting, and certified training status. @H03
+stop: Stop afield firearm activity immediately if anyone shows unsafe muzzle control, fatigue, alcohol/impairment, or poor visibility. @H03
+reviewer: Certified firearms-safety and hunter-education instructor
+
+Z06-P32 | Safe Firearm Transport, Unloaded Crossings and Barrel Checks | New manuscript (Z06 P17 equipment safety)
+objective: Prevent negligent discharges and barrel-obstruction ruptures during vehicle transport, fence crossings, and muddy/snowy travel.
+applies: Moving firearms between vehicles, boats, camps, and field terrain.
+equipment: Cased/locked transport compliant with state law, cleaning rod/pull-through, chamber flag.
+diagram: Unload and case for transport | Unload before crossing fences/ditches | Check bore after any slip or snow
+visual: Conceptual correct-versus-incorrect comparison contrasting unloaded obstacle crossings and clean bores against loaded carries and mud-plugged barrels.
+action: Unload firearms completely and visually and physically verify an empty chamber and magazine before casing for vehicle or boat transport per Minnesota transport law. @H02,H03
+action: Unload completely and open the action before climbing treestands, crossing fences, stepping over slippery logs, or passing a firearm to another person. @H03
+action: Unload and inspect the bore from the breech end immediately after any stumble, muzzle dip in snow/mud, or heavy brush push because a plugged barrel can burst catastrophically. @H03
+failure: Carrying a chambered firearm over a wet log or firing with snow packed inside the muzzle causes fatal self-inflicted wounds or barrel rupture. @H03
+verify: Chamber is visually and physically verified empty during transport/crossings, and bore is clear after any fall or snow contact. @H03
+stop: Stop and safely unload immediately if snow, mud, ice, or mismatched ammunition is suspected in any firearm. @H03
+reviewer: Certified firearms-safety instructor
+
+Z06-P33 | Blaze Visibility and Safe Zone-of-Fire Boundaries | New manuscript (Z06 P17 equipment safety)
+objective: Prevent hunting-party and bystander shootings through statutory blaze-color visibility and disciplined zones of fire.
+applies: All firearms hunting seasons and multi-use public lands during autumn.
+equipment: Statutory Minnesota blaze orange or blaze pink hat and outer torso garment.
+diagram: Wear statutory blaze orange/pink | Assign fixed zones of fire | Never swing past a partner line
+visual: Conceptual spatial exclusion map assigning 45-degree forward safe zones of fire and wide no-shoot sectors toward partners, roads, and buildings.
+action: Wear required Minnesota blaze orange or blaze pink outer clothing visible from all sides during firearms deer and applicable seasons—and encourage non-hunting hikers on open public lands to wear bright blaze visibility too. @H02,H03
+action: Agree on explicit forward zones of fire before walking in a group, maintain visual/voice spacing, and never swing a muzzle across a companion line. @H03
+action: Verify exact statutory setback distances from occupied buildings, livestock, roads, and public trails before entering hunting cover. @H02,H03
+failure: Wearing camouflage during firearms deer season or swinging on fast-flushing game across a partner line causes preventable shootings. @H02,H03
+verify: Blaze garments are worn visibly on head and torso, group spacing is clear, and no-shoot building/road sectors are mapped. @H02,H03
+stop: Stop movement and unload immediately if a group member loses sight of partners or bystanders/hikers enter the sector. @H03
+reviewer: Hunter-education and outdoor safety reviewer
+
+Z06-P34 | Archery Equipment Inspection, Broadhead Guards and Backstops | New manuscript (Z06 P17 equipment safety)
+objective: Prevent catastrophic arrow-shaft splinters, broadhead lacerations, and pass-through hazards during lawful archery.
+applies: Archery range practice and lawful bowhunting.
+equipment: Covered rigid broadhead quiver, inspected carbon/aluminum arrows, bowstring wax, certified instruction.
+diagram: Flex-check carbon arrows every outing | Keep broadheads fully hooded | Confirm solid earth backstop
+visual: Conceptual failure recognition plate for cracked carbon arrow shafts and unguarded razor broadheads.
+action: Inspect every carbon or fiberglass arrow shaft visually and with a gentle flex-and-listen check before shooting, immediately discarding any cracked, splintered, or bent shaft that can shatter into the bow hand. @H03
+action: Store razor-sharp broadheads inside a rigid, fully covered quiver—never carry loose arrows in hand while walking or climbing—to prevent lethal arterial lacerations during a fall. @H03,M01
+action: Verify an unobstructed shooting lane and solid safe backstop beyond the target, never nocking an arrow until settled safely on stand or at the firing line. @H03
+failure: Shooting a cracked carbon arrow or tripping while holding an exposed broadhead causes severe hand impalement or arterial bleeding. @H03,M01
+verify: All arrow shafts pass flex inspection, broadheads stay hooded during movement, and backstops are clear. @H03
+stop: Stop shooting immediately if a bowstring frays, a limb cracks, an arrow strikes rock/wood, or bystanders enter downrange. @H03
+reviewer: Certified bowhunter-education instructor
+
+Z06-P35 | Treestand Fall-Arrest Harness and Haul-Line Boundaries | New manuscript (Z06 P17 equipment safety)
+objective: Prevent fatal elevated falls and suspension trauma through full-body fall-arrest systems and unloaded gear hoisting.
+applies: Elevated hunting stands during lawful seasons.
+equipment: TMA-certified full-body fall-arrest harness, lifeline tether, suspension-relief strap, separate haul line.
+diagram: Stay tethered ground-to-ground | Hoist unloaded cased gear separately | Inspect straps and tree health
+visual: Conceptual four-step elevated-stand safety sequence locking ground-to-ground lifeline attachment and unloaded haul-line use.
+action: Wear a manufacturer-certified full-body fall-arrest harness attached to a climbing lifeline from the moment feet leave the ground until returning safely to earth, carrying a suspension-relief strap to prevent harness suspension trauma. @H03
+action: Never climb with a firearm, bow, or pack in hand; always hoist completely unloaded firearms (muzzle down) or hooded-quiver bows separately on a dedicated haul line after securing yourself. @H03
+action: Inspect stand chains, ratchet straps, ladder joints, and the host tree for rot, dead limbs, or ice before every ascent, replacing weathered straps per manufacturer schedule. @H03,R15
+failure: Using a single waist belt, unhooking to step onto the platform, or hauling a loaded gun causes fatal falls and gunshot accidents. @H03
+verify: Full-body harness, lifeline, relief strap, solid tree check, and unloaded haul line are verified before climbing. @H03
+stop: Stop climbing immediately if straps are frayed, steps are iced, tree bark/wood is decayed, or wind/fatigue impairs balance. @H03,R15
+reviewer: Hunter-education and fall-protection specialist
+
+Z06-P36 | Cold-Water Waterfowl Boating and Overloading Limits | New manuscript (Z06 P17 equipment safety)
+objective: Prevent cold-water capsizing in small hunting skiffs, canoes, and johnboats carrying heavy seasonal gear.
+applies: Late-autumn lakes, marshes, and rivers with near-freezing water.
+equipment: USCG-approved PFD worn buckled, capacity plate check, dry emergency thermal kit, VHF/whistle.
+diagram: Obey boat capacity plate strictly | Wear buckled PFD over layers | Stay ashore in high autumn winds
+visual: Conceptual cutaway showing low freeboard overloading risk, centered gear trim, and mandatory PFD flotation in cold water.
+action: Never exceed the boat capacity plate for combined weight of people, dogs, decoys, motor, and gear, keeping loads low and centered to preserve freeboard in chop. @H18,X17
+action: Wear a buckled USCG-approved PFD or flotation coat at all times afloat because cold-water shock causes involuntary gasping and rapid swim failure within minutes. @H18,X17
+action: Carry waterproof communication and thermal recovery gear on shore or in a clipped dry bag, and cancel open-water crossings whenever autumn gusts build steep waves. @H18,X17
+failure: Overloading a flat-bottom skiff with wet gear and standing up to shoot in cold wind causes instantaneous capsizing and hypothermia. @H18,X17
+verify: Load stays well below rated capacity, all occupants wear buckled PFDs, and wind/wave forecast supports safe return. @H18,X17
+stop: Stop launching or immediately head for the nearest lee shore if waves splash over the bow or gusts intensify. @H18,X17
+reviewer: Boating-safety and cold-water rescue reviewer
+
+Z06-P37 | Field-Dressing Hygiene and Contamination Prevention | New manuscript (Z06 P17 field hygiene)
+objective: Prevent bacterial spoilage and zoonotic exposure during lawful game field dressing through gloves, clean tools, and intact viscera handling.
+applies: Post-harvest handling of legally taken big game and small game.
+equipment: Impervious disposable gloves, clean sharp knife, potable rinse/wash supplies, clean game bags.
+diagram: Wear impervious gloves always | Keep gut contents off edible meat | Wash hands and blades thoroughly
+visual: Conceptual four-step hygienic field-dressing workflow emphasizing gloves, clean cavity opening, breath/hair/dirt exclusion, and handwashing.
+action: Wear impervious nitrile or rubber gloves and cover any skin cuts before handling any wild game carcass to block tularemia, brucellosis, and bacterial wound infection. @H09,H11
+action: Prevent rupturing the digestive tract, bladder, or gall bladder; immediately trim away any meat visibly soiled by gut contents, hair, or dirt rather than smearing contamination by rinsing indiscriminately. @H17
+action: Keep brain, spinal cord, spleen, and lymph-node tissues out of meat contact and sanitize knives, saws, and hands thoroughly afterward. @H09,H17
+failure: Field-dressing barehanded with nicked fingers or puncturing intestines contaminates edible muscle with E. coli, Salmonella, or zoonotic pathogens. @H09,H11,H17
+verify: Gloves remain intact, viscera are removed cleanly without contaminating meat, and knives/hands are sanitized. @H09,H11,H17
+stop: Stop processing and discard visibly diseased carcasses showing widespread abscesses, foul odor, or abnormal organ lesions. @H09,H11,H17
+reviewer: Wildlife veterinarian and food-safety specialist
+
+Z06-P38 | Rapid Carcass Cooling Below 40 F and Warm-Weather Spoilage | New manuscript (Z06 P17 food spoilage)
+objective: Cool legally harvested game meat rapidly below 40 F and recognize time-temperature spoilage limits during warm autumn weather.
+applies: Post-harvest transport and field storage of venison, small game, and poultry.
+equipment: Breathable clean game bags, food-grade ice/cooler, calibrated probe thermometer.
+diagram: Vent heat from carcass rapidly | Chill meat below 40 F promptly | Discard warm spoiled or sour meat
+visual: Conceptual thermal cooling boundary showing rapid airflow/ice cooling versus bacterial danger zone above 40 F.
+action: Dissipate body heat promptly after lawful field dressing by propping open the cavity, elevating in shade with airflow, or packing sealed clean ice bags around wrapped quarters during warm weather. @H17,F01
+action: Protect cooling meat from flies, dust, and scavengers inside breathable clean cotton game bags—never seal hot meat inside airtight plastic bags that trap heat and accelerate souring. @H17
+action: Cool meat to 40 F or below as rapidly as possible and discard any game meat held warm in the bacterial danger zone or showing sour odor, slimy sheen, or greenish discoloration. @H17,F01
+failure: Hauling an uncooled carcass in a closed warm vehicle trunk or sealed plastic tarp causes rapid bone-sour bacterial spoilage. @H17,F01
+verify: Meat is shaded, ventilated, kept clean of flies, and cooled promptly below 40 F with ice or refrigeration. @H17,F01
+stop: Stop and discard meat that smells sour, feels slimy, or sat uncooled in warm ambient temperatures beyond safe food-safety limits. @H17,F01
+reviewer: Food-safety microbiologist
+
+Z06-P39 | Chronic Wasting Disease (CWD) Surveillance and Prion Precautions | New manuscript (Z06 P17 CWD safety)
+objective: Follow Minnesota DNR CWD testing, carcass-movement laws, and CDC prion hygiene whenever harvesting deer in or near CWD areas.
+applies: Minnesota CWD management, control, and surveillance permit areas.
+equipment: Current MN DNR CWD zone map, nitrile gloves, dedicated boning knife, DNR sampling drop-off info.
+diagram: Check CWD zone & carcass bans | Bone out without cutting spine/brain | Test before eating any meat
+visual: Conceptual regulatory and hygiene gate combining MN DNR CWD carcass transport rules with CDC prion avoidance.
+action: Check current Minnesota DNR CWD permit-area maps before hunting because mandatory sampling, whole-carcass movement bans, and approved dumpster disposal rules carry legal penalties. @H08
+action: Follow CDC precautions: wear gloves, bone out meat without sawing through skull, brain, or spinal cord, avoid eyes/spleen/lymph nodes, and never eat meat from an animal that tests positive or looks sick. @H08,H09
+action: Hold all venison from CWD-affected areas separately labeled in cold storage until negative laboratory CWD test results return, recognizing that cooking does NOT destroy prions. @H08,H09
+failure: Sawing through the spine, moving whole carcasses out of a CWD restriction zone, or assuming cooking kills prions spreads CWD and risks exposure. @H08,H09
+verify: CWD zone rules, clean boning away from CNS tissue, sampling submission, and negative test verification precede consumption. @H08,H09
+stop: Stop and do not consume or share venison from any visibly emaciated/abnormal deer or any animal testing CWD-positive. @H08,H09
+reviewer: Wildlife veterinarian and infectious-disease reviewer
+
+Z06-P40 | Trichinellosis Prevention in Wild Bear and Omnivorous Game | New manuscript (Z06 P17 food safety)
+objective: Prevent severe parasitic trichinellosis by cooking wild bear and omnivore game meat to verified safe internal temperatures.
+applies: Preparing legally harvested black bear, wild boar, or other omnivorous/carnivorous game.
+equipment: Calibrated digital meat thermometer, dedicated clean cutting board.
+diagram: Reject freezing as bear parasite kill | Verify >= 165 F with thermometer | Clean knives and grinders thoroughly
+visual: Conceptual correct-versus-incorrect cooking plate contrasting thermometer-verified thorough cooking against unreliable freezing or color checks.
+action: Understand that wild bear and other omnivorous game frequently harbor freeze-resistant Trichinella larvae that survive home deep-freezing, curing, smoking, and salting. @H10
+action: Cook all wild bear and omnivore game meat thoroughly to a minimum safe internal temperature of at least 165 F (74 C) verified in the thickest parts with a calibrated food thermometer—never judge doneness by color alone. @H10,F02
+action: Sanitize meat grinders, cutting boards, and utensils thoroughly with hot soapy water and sanitizer after processing wild bear meat so raw residues do not contaminate other foods. @H10,F02
+failure: Relying on deep-freezing bear meat, making raw-cured jerky/sausage, or eating pink center cuts causes severe systemic trichinellosis. @H10
+verify: Calibrated thermometer confirms safe internal cooking temperature throughout every cut and grinder/surfaces are sanitized. @H10,F02
+stop: Stop and seek medical care promptly if nausea, diarrhea, fever, facial swelling, or muscle pain follow eating wild game. @H10
+reviewer: Food-safety microbiologist and infectious-disease clinician
+
+Z06-P41 | Tularemia Precautions with Wild Rabbits, Hares and Rodents | New manuscript (Z06 P17 zoonotic hygiene)
+objective: Prevent potentially severe tularemia infection from skin contact, ticks, or aerosols when handling wild rabbits, hares, or rodents.
+applies: Small-game field handling, outdoor camps, and tick-habitat fieldwork.
+equipment: Impervious gloves, insect repellent, calibrated meat thermometer.
+diagram: Reject sluggish or sick rabbits | Wear impervious gloves while cleaning | Cook thoroughly and guard skin cuts
+visual: Conceptual exposure boundary blocking Francisella tularensis entry through skin breaks, contaminated knives, or undercooked meat.
+action: Observe wild rabbits and hares before lawful harvest and immediately reject any animal acting sluggish, tamer than normal, or visibly ill; never touch found-dead rabbits or rodents. @H11
+action: Wear impervious rubber or nitrile gloves throughout skinning and cleaning, inspect livers for pinpoint white spots (discard entire carcass if present), and wash hands and knives thoroughly. @H11
+action: Cook legally harvested healthy rabbit meat thoroughly to safe internal temperatures verified by thermometer, and prevent tick bites in small-game habitat. @H11,F02
+failure: Skinning a wild rabbit barehanded with a small hangnail or handling a found-dead rodent allows rapid bacterial entry causing ulceroglandular or pneumonic tularemia. @H11
+verify: Only alert healthy rabbits are handled with intact gloves, abnormal organs trigger immediate disposal, and meat is cooked thoroughly. @H11
+stop: Stop and seek prompt medical evaluation—telling the clinician about wild-rabbit or tick exposure—if sudden fever, chills, swollen glands, or a skin ulcer develop. @H11
+reviewer: Infectious-disease clinician and wildlife veterinarian
+
+Z06-P42 | Safe Fish Cleaning, Cold Chain and Parasite Cooking Verification | New manuscript (Z06 P17 food safety)
+objective: Prevent bacterial spoilage and freshwater fish tapeworm/parasite infection through rapid icing and thorough cooking.
+applies: Cleaning, storing, and cooking advisory-cleared freshwater fish.
+equipment: Clean ice cooler, fillet knife, potable water, food thermometer.
+diagram: Chill caught fish on ice immediately | Clean away from drinking water | Cook to 145 F opaque flake
+visual: Conceptual four-step fish food-safety chain from immediate icing through sanitary filleting to thermometer-verified 145 F cooking.
+action: Keep retained legal fish cold on clean ice immediately—rather than dragging warm dead fish on a stringer in summer surface water—to slow bacterial spoilage and histamine formation. @H05,F01
+action: Clean fish hygienically away from drinking-water intakes and dispose of fish entrails lawfully per DNR/park rules (never dump fish remains at boat ramps or bear-country campsites). @H01,H12
+action: Cook freshwater fish thoroughly to an internal temperature of 145 F (63 C) until flesh is opaque and flakes easily; never eat raw or lightly pickled wild freshwater fish due to tapeworm parasites. @F02,H05
+failure: Leaving caught fish on a warm stringer for hours or eating raw freshwater fish causes foodborne illness and fish tapeworm infection. @H05,F01,F02
+verify: Fish stays iced below 40 F, offal is disposed lawfully away from camp/water, and fillets reach 145 F before serving. @H05,H12,F02
+stop: Stop and discard fish that smells strongly ammoniacal/sour, has sunken cloudy eyes and mushy flesh, or lacks MDH advisory clearance. @H04,F01
+reviewer: Food-safety specialist
+
+Z06-P43 | Discarding Sick, Found-Dead or Compromised Wild Meat | New manuscript (Z06 P17 food contamination)
+objective: Enforce clear rejection rules for roadkill, found-dead carcasses, abnormal organs, and chemically exposed wildlife.
+applies: All field encounters with dead or abnormal animals.
+equipment: None—leave untouched and notify wildlife authorities when appropriate.
+diagram: Never salvage unknown dead carcasses | Reject abnormal organs or foul odor | Report unusual wildlife die-offs
+visual: Conceptual decision tree rejecting found-dead carcasses, visible disease lesions, and chemical-spill wildlife from food use.
+action: Never consume found-dead wildlife or unverified carcasses because time of death, poison/rodenticide ingestion, anthrax/tularemia/rabies, and bacterial spoilage cannot be ruled out. @H09,H11,H17
+action: Discard any lawfully harvested animal showing widespread pus abscesses, abnormal liver spots, emaciation, unusual neurological behavior, or foul odor, and wash tools/hands thoroughly. @H08,H11,H17
+action: Report unusual clusters of dead birds, fish kills, or visibly sick deer/carnivores to Minnesota DNR wildlife health authorities without touching the carcasses. @H08,H15
+failure: Salvaging an unverified dead animal or trimming around systemic infection exposes people to lethal toxins, prions, and severe zoonoses. @H09,H11,H17
+verify: Zero found-dead or visibly diseased carcasses enter the food chain, and unusual die-offs are reported cleanly to DNR. @H08,H15
+stop: Stop immediately and contact DNR wildlife authorities if multiple dead animals or neurologic sick wildlife are observed. @H08,H15
+reviewer: Wildlife veterinarian and public-health reviewer
+
+Z06-P44 | Black Bear Encounter Avoidance and Attractant Control | New manuscript (Z06 P17 wildlife avoidance)
+objective: Prevent black bear conflicts around fishing shores, camps, and game-processing sites through strict attractant discipline and calm response.
+applies: Northern and central Minnesota forests, Boundary Waters, and bear-range shorelines.
+equipment: Bear-resistant food canister/locker, clean fish-disposal plan, bear spray where lawful and trained.
+diagram: Secure all food and fish waste | Make calm noise in dense brush | Back away slowly; never run
+visual: Conceptual three-tier bear-safety ladder moving from attractant prevention to calm stand-ground/back-away deterrence and reporting.
+action: Store all food, fish bait, coolers, cooking grease, and scented toiletries in bear-resistant containers or approved elevated hangs away from sleeping tents, and clean fish well away from camp. @H12
+action: Make periodic calm voice noise along noisy streams or thick berry brush so bears hear you early, and never approach a bear or come between a sow and cubs. @H12
+action: If a black bear approaches, remain calm, stand tall, speak firmly, keep children/dogs close, back away slowly without running, and fight back vigorously if a rare predatory black-bear contact attack occurs. @H12
+failure: Keeping fish guts near camp, running from a bear, or feeding wildlife habituates bears and causes dangerous camp raids and attacks. @H12
+verify: Camp is strictly scent-clean, fish offal is properly managed far from sleeping areas, and party members know calm encounter steps. @H12
+stop: Stop camping at a site showing persistent bold bear visits; relocate safely and report aggressive habituated bears to MN DNR. @H12,H15
+reviewer: Wildlife conflict specialist
+
+Z06-P45 | Gray Wolf Legal Protection and Safe Encounter Boundaries | New manuscript (Z06 P17 wildlife avoidance)
+objective: Respect federal/state legal protections for gray wolves while protecting pets and responding calmly to rare close encounters.
+applies: Northern Minnesota forests, trails, and rural edges within wolf range.
+equipment: Short sturdy dog leash, flashlight/noise maker, DNR contact info.
+diagram: Keep dogs leashed near wolf sign | Stand tall and assert presence | Respect strict legal protection
+visual: Conceptual boundary plate pairing gray wolf legal protection status with pet-leashing prevention and calm hazing guidance.
+action: Respect that gray wolves in Minnesota carry strict federal and state legal protections; never feed, bait, approach, or unlawfully harass wolves. @H13,L03
+action: Keep dogs on short leashes on trails and under close visual supervision near active wolf sign or hunting/baiting areas because domestic dogs can trigger territorial wolf aggression. @H13
+action: If a wolf approaches closely and does not retreat, stand tall, wave arms, shout firmly, keep pets close, back slowly toward shelter, and report bold or food-conditioned wolves to MN DNR. @H13,H15
+failure: Letting dogs roam off-leash near fresh wolf tracks or feeding wildlife creates dangerous conflict and potential illegal-take incidents. @H13,L03
+verify: Pets stay leashed in active wolf range, attractants are secured, and bold encounters are reported promptly to DNR. @H13,H15
+stop: Stop advancing along a trail showing fresh wolf kills or territorial howling; leash pets tightly and retreat calmly. @H13
+reviewer: Large-carnivore biologist and legal reviewer
+
+Z06-P46 | Moose, Rutting Deer and Protective Parent Wildlife Boundaries | New manuscript (Z06 P17 wildlife avoidance)
+objective: Avoid severe blunt trauma from defensive moose, rutting bucks, and protective mothers by giving large ungulates wide space.
+applies: Northern Minnesota moose bogs, trails, and autumn hardwood forests.
+equipment: Binoculars for distant viewing, solid tree cover awareness.
+diagram: Give moose wide buffer always | Watch ears-back charge warning | Put solid trees between you and moose
+visual: Conceptual warning plate highlighting moose defensive posture (laid-back ears, raised hackles) and rapid retreat behind solid cover.
+action: Give moose—especially cows with calves in spring/summer and bulls during autumn rut—extremely wide distance because moose charge rapidly and stomp threats with lethal force. @H16,L04
+action: Recognize warning signs immediately: pinned-back ears, raised neck hackles, lip licking, head lowering, or stomping hooves mean you are far too close. @H16
+action: Back away calmly and put large solid tree trunks, boulders, or a vehicle between yourself and an agitated moose or rutting buck; keep dogs tightly leashed because dogs provoke moose charges back toward owners. @H16
+failure: Crowding a moose for a photograph or letting an unleashed dog bark at a cow with calf triggers immediate high-speed defensive charges. @H16
+verify: Observers maintain distant binocular viewing, leash dogs strictly, and yield trails immediately to large ungulates. @H16
+stop: Stop and move behind solid cover at the very first sign of pinned ears, staring, or approach by any moose or rutting deer. @H16
+reviewer: Large-mammal wildlife safety specialist
+
+Z06-P47 | Turn In Poachers (TIP) and Non-Confrontational Violation Reporting | New manuscript (Z06 P17 incident reporting)
+objective: Report suspected poaching, illegal fishing, or wildlife harassment safely without confronting armed or hostile individuals.
+applies: Witnessing suspected wildlife, fish, AIS, or trespass violations.
+equipment: Notebook, phone/offline note app, MN DNR TIP 24-hour hotline info.
+diagram: Stay safe and never confront suspects | Record time, place & plate safely | Call MN DNR TIP promptly
+visual: Conceptual three-step non-confrontational witness reporting workflow protecting observer safety and preserving evidence.
+action: Prioritize personal safety above all else—never confront, pursue, argue with, or attempt to detain suspected violators, who may be armed or hostile. @H15
+action: From a safe concealed or distant vantage, record objective details: exact location/GPS, date, time, number of people, clothing/vehicle descriptions, boat registration or license plate, and specific observed actions. @H15
+action: Report details promptly to the Minnesota DNR Turn In Poachers (TIP) line (1-800-652-9093) or local law enforcement/911 if immediate human danger exists. @H15
+failure: Confronting poachers in remote areas escalates minor property/wildlife cases into lethal interpersonal violence. @H15
+verify: Observer stays safely disengaged, logs objective facts, and hands investigation exclusively to Conservation Officers or police. @H15
+stop: Stop observing and leave the area immediately if suspects notice you or show aggression; call 911 for active human threats. @H15,T01
+reviewer: Conservation enforcement reviewer
+
+Z06-P48 | Hunting and Angling Trip Plans and Emergency Incident Reporting | New manuscript (Z06 P17 emergency communication)
+objective: Establish reliable check-in plans, trauma readiness, and emergency reporting procedures for remote hunting and fishing outings.
+applies: All solo or group hunting, shore-angling, boating, and ice-fishing outings.
+equipment: Written trip plan with shore contact, whistle, charged comm/PLB, bleeding/thermal first-aid kit.
+diagram: Leave exact water/unit plan ashore | Carry bleeding & thermal essentials | Activate 911 early for trauma
+visual: Conceptual emergency readiness sequence linking pre-trip check-in, afield trauma/cold stabilization, and rapid 911/DNR incident reporting.
+action: Leave a written trip plan with a trusted contact specifying exact launch/parking spot, hunting unit or lake name, vehicle description, companion names, and overdue-alert time. @H15,H18,T08
+action: Carry essential trauma and cold-exposure items—including bleeding-control dressings/tourniquet where trained, whistle, headlamp, dry fire/thermal layer, and offline GPS coordinates—on every outing. @H03,H18,M01
+action: Activate 911 immediately for any firearm, archery, treestand-fall, capsizing, or cold-immersion incident, giving exact access coordinates and securing unloaded firearms before responders arrive. @H03,H15,H18
+failure: Hunting or boating solo without a check-in plan or delaying 911 after a fall or gunshot wound turns survivable emergencies fatal. @H03,H18,T08
+verify: Shore contact holds exact location and return deadline, trauma/thermal essentials are packed, and firearms are cleared before EMS arrival. @H03,H18,T08
+stop: Stop and activate emergency rescue immediately for any severe bleeding, fall from height, cold-water immersion, or lost/overdue party member. @H03,H18,M01
+reviewer: SAR, EMS, and hunter-safety reviewer

@@ -252,6 +252,104 @@ class ControlTests(unittest.TestCase):
                 'cue': 'Check', 'variant': 'bleeding',
             })
 
+    def test_z08_materials_guard_rejects_visual_safety_and_unprotected_dust(self):
+        vis = self.sample.replace('Z01-P01', 'Z08-P01').replace(
+            'Pause on stable ground', 'Visual appearance guarantees safe non-toxic stone for boiling'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe visual material safety'):
+            self.load(vis)
+        dust = self.sample.replace('Z01-P01', 'Z08-P01').replace(
+            'Pause on stable ground', 'Dry-grind quartz flakes without eye or dust protection'
+        )
+        with self.assertRaisesRegex(ValueError, 'unprotected mineral dust'):
+            self.load(dust)
+
+    def test_z06_harvest_guard_rejects_emergency_legal_exemption(self):
+        harv = self.sample.replace('Z01-P01', 'Z06-P01').replace(
+            'Pause on stable ground', 'An emergency automatically grants a legal exemption from fishing rules'
+        )
+        with self.assertRaisesRegex(ValueError, 'emergency legal harvest exemption'):
+            self.load(harv)
+
+    def test_z07_traps_guard_rejects_actionable_injurious_trap_construction(self):
+        trap = self.sample.replace('Z01-P01', 'Z07-P01').replace(
+            'Pause on stable ground', 'Set a wire snare along the narrow trail to catch small mammals'
+        )
+        with self.assertRaisesRegex(ValueError, 'actionable injurious trap'):
+            self.load(trap)
+
+    def test_z05_wild_foods_guard_rejects_edibility_folklore_and_photo_clearance(self):
+        folk = self.sample.replace('Z01-P01', 'Z05-P01').replace(
+            'Pause on stable ground', 'Rub sap on your lip to test edibility of an unknown plant'
+        )
+        with self.assertRaisesRegex(ValueError, 'universal edibility test'):
+            self.load(folk)
+        myth = self.sample.replace('Z01-P01', 'Z05-P01').replace(
+            'Pause on stable ground', 'Boiling removes all mushroom toxins before eating'
+        )
+        with self.assertRaisesRegex(ValueError, 'folk toxicity test'):
+            self.load(myth)
+        pic = self.sample.replace('Z01-P01', 'Z05-P01').replace(
+            'Pause on stable ground', 'A single photo authorizes consumption of a wild berry'
+        )
+        with self.assertRaisesRegex(ValueError, 'visual-only consumption clearance'):
+            self.load(pic)
+
+    def test_z16_atlas_guard_requires_upstream_zone_cross_reference(self):
+        atlas = self.sample.replace('Z01-P01', 'Z16-P01').replace('B012-P01', 'Atlas standalone')
+        with self.assertRaisesRegex(ValueError, 'upstream zone cross-reference'):
+            self.load(atlas)
+
+    def test_a02_handoff_matches_canonical_remaining_five_zones(self):
+        handoff = (FOUND / 'audit/a02/NEON_FINAL_PRODUCTION_HANDOFF.md').read_text(encoding='utf-8')
+        rows = re.findall(r'^\|\s*P\d{2}\s*\|\s*(Z\d{2})\s+([^|]+?)\s*\|\s*(\d+)\s*\|', handoff, flags=re.M)
+        self.assertEqual(len(rows), 5)
+        expected = {z: (_norm_domain(d), p) for z, d, p, _ in ALL_16_ZONES if z in {'Z05', 'Z06', 'Z07', 'Z08', 'Z16'}}
+        found = {z: (_norm_domain(d), int(p)) for z, d, p in rows}
+        self.assertEqual(found, expected)
+
+    def test_p16_p20_domain_diagram_contracts_validate_strictly(self):
+        validate_spec('Z05-P01', {
+            'type': 'lookalike_diagnostic',
+            'target_name': 'Target specimen', 'target_traits': ['Trait A', 'Trait B'],
+            'toxic_name': 'Toxic lookalike', 'toxic_traits': ['Hazard A', 'Hazard B'],
+            'exclusion': 'Stop if any key feature is absent', 'variant': 'plant_pair',
+        })
+        validate_spec('Z05-P90', {
+            'type': 'fungal_anatomy',
+            'features': ['Cap & cuticle', 'Free white gills', 'Annulus ring', 'Basal volva cup'],
+            'scale': 'Scale: cm bar (conceptual)', 'hold': 'HOLD: No consumption clearance', 'variant': 'agaric_volva',
+        })
+        validate_spec('Z08-P01', {
+            'type': 'geological_strata',
+            'strata': ['Glacial till', 'Sedimentary bed', 'Crystalline bedrock'],
+            'note': 'Regional survey context', 'hazard': 'Dust/collect rules apply', 'variant': 'strata',
+        })
+        with self.assertRaisesRegex(ValueError, 'Invalid figure label list'):
+            validate_spec('Z05-P02', {
+                'type': 'fungal_anatomy',
+                'features': ['Only two', 'features'],
+                'scale': 'cm', 'hold': 'HOLD', 'variant': 'agaric_volva',
+            })
+
+    def test_taxonomic_register_schema_when_present(self):
+        reg = FOUND / 'evidence/z05-taxonomic-register.tsv'
+        if not reg.exists():
+            return
+        with reg.open(encoding='utf-8', newline='') as f:
+            rows = list(csv.DictReader(f, delimiter='\t'))
+        self.assertGreaterEqual(len(rows), 6)
+        required_cols = {
+            'page_id', 'kingdom', 'accepted_binomial', 'authority', 'synonyms',
+            'regional_scope', 'voucher_source', 'season', 'life_stage',
+            'diagnostic_features', 'poisonous_lookalike', 'observable_exclusions',
+            'image_provenance', 'image_rights', 'consumption_status', 'expert_review',
+        }
+        self.assertTrue(required_cols <= set(rows[0].keys()))
+        for r in rows:
+            self.assertEqual(r['consumption_status'], 'WITHHELD_HOLD')
+            self.assertIn('PENDING', r['expert_review'])
+
 
 if __name__ == '__main__':
     unittest.main()

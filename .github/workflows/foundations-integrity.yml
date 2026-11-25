@@ -6,12 +6,14 @@ on:
       - review/astra-a01-technical-audit-20261124
       - review/neon-p12-p15-20261124
       - review/astra-a02-technical-audit-20261125
+      - review/neon-p16-p20-20261125
   pull_request:
     branches:
       - review/s02-s03-historical-recovery-20261124
       - review/foundational-production-20261124
       - review/astra-a01-technical-audit-20261124
       - review/neon-p12-p15-20261124
+      - review/astra-a02-technical-audit-20261125
 permissions:
   contents: read
 jobs:

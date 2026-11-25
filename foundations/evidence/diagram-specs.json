@@ -8071,5 +8071,5107 @@
       }
     ],
     "trigger": "Publication remains HOLD — zero qualified human disaster approvals granted"
+  },
+  "Z08-P01": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Glacial till & erratic cobbles",
+      "Paleozoic limestone & sandstone",
+      "Precambrian shield & rift rock"
+    ],
+    "note": "Map regional bedrock & drift",
+    "hazard": "Maps never certify local rock safety"
+  },
+  "Z08-P02": {
+    "type": "mineral_test_plate",
+    "variant": "mohs",
+    "tests": [
+      "Daylight luster & grain check",
+      "Ordered hardness scratch steps",
+      "Unglazed porcelain streak test",
+      "Cleavage vs fracture inspection"
+    ],
+    "scale": "Non-destructive field screen only",
+    "hazard": "Never taste, burn, or break fibrous ore"
+  },
+  "Z08-P03": {
+    "type": "geological_strata",
+    "variant": "fracture",
+    "strata": [
+      "Conchoidal curved silica ripples",
+      "Hardness scratches steel (> 6.5)",
+      "Compare vs flat planar cleavage"
+    ],
+    "note": "Visual ID != thermal/load rating",
+    "hazard": "Silica dust & flying flake hazard"
+  },
+  "Z08-P04": {
+    "type": "specimen_doc_plate",
+    "variant": "mineral_voucher",
+    "views": [
+      "Wide outcrop or landform",
+      "Natural weathered surface",
+      "Clean fresh face + cm bar",
+      "GPS, date & land status"
+    ],
+    "voucher": "Provisional until curator check",
+    "hold": "HOLD: Photos do not prove composition"
+  },
+  "Z08-P05": {
+    "type": "regulation_boundary",
+    "variant": "collecting",
+    "authority": "NPS 36 CFR 2.1 · MN DNR · Landowner",
+    "checks": [
+      "Verify exact park, SNA, forest, or private boundary",
+      "Confirm collecting statute & current date before touching",
+      "Stay out of active quarries & highway right-of-way"
+    ],
+    "prohibition": "STOP: Zero collecting in National Parks, MN State Parks & SNAs"
+  },
+  "Z08-P06": {
+    "type": "geological_strata",
+    "variant": "dust_hazard",
+    "strata": [
+      "Fractured quartz/chert -> silica dust",
+      "Fibrous veins -> possible asbestos",
+      "Upwind exclusion & wet/PPE control"
+    ],
+    "note": "Observe intact; avoid dry grinding",
+    "hazard": "STOP: Leave fibrous mineral veins intact"
+  },
+  "Z08-P07": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Thin glacial soil & mossy cap",
+      "Jointed granite & gneiss slopes",
+      "Magnetic mafic & iron-rich zones"
+    ],
+    "note": "Check wet lichen & compass drift",
+    "hazard": "Protected Shield parks prohibit take"
+  },
+  "Z08-P08": {
+    "type": "mineral_test_plate",
+    "variant": "rift",
+    "tests": [
+      "Dark dense basalt matrix check",
+      "Vesicle fill hardness vs steel",
+      "Banded translucent waxy luster",
+      "Verify non-park lawful shoreline"
+    ],
+    "scale": "Compare dry vs wet cobble luster",
+    "hazard": "State parks & wet wave ledges off-limits"
+  },
+  "Z08-P09": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Fractured dolostone caprock",
+      "Weak shale undercut notch",
+      "Talus apron & karst sinkholes"
+    ],
+    "note": "Observe bluffs from safe distance",
+    "hazard": "Freeze-thaw rockfall & rapid runoff"
+  },
+  "Z08-P10": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Glacial till",
+        "note": "Unsorted clay, silt & boulders",
+        "limit": "Poor drainage; mixed provenance"
+      },
+      {
+        "name": "Meltwater outwash",
+        "note": "Sorted sand & rounded gravel",
+        "limit": "Loose banks collapse rapidly"
+      },
+      {
+        "name": "Lake-plain silt",
+        "note": "Flat fine clay & silt beds",
+        "limit": "Shrinks/swells; holds ponding"
+      }
+    ]
+  },
+  "Z08-P11": {
+    "type": "mineral_test_plate",
+    "variant": "igneous",
+    "tests": [
+      "Interlocking random crystal check",
+      "Coarse (granite/gabbro) vs fine",
+      "Quartz glassy grains vs dark mafic",
+      "Check hairline cracks & moisture"
+    ],
+    "scale": "Hand lens + mm grain gauge",
+    "hazard": "River/damp cobbles spall in heat"
+  },
+  "Z08-P12": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Conglomerate: cemented pebbles",
+      "Sandstone: gritty quartz grains",
+      "Shale: thin brittle clay sheets"
+    ],
+    "note": "High porosity & weak bedding",
+    "hazard": "Crumbling ledges & quartz dust"
+  },
+  "Z08-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Gneiss / Schist",
+        "note": "Aligned bands or shiny mica",
+        "limit": "Splits on foliation; watch fibers"
+      },
+      {
+        "name": "Slate",
+        "note": "Very fine flat platy sheets",
+        "limit": "Brittle edges; slippery when wet"
+      },
+      {
+        "name": "Quartzite",
+        "note": "Fused glassy quartz grains",
+        "limit": "Hard; fractures create silica dust"
+      }
+    ]
+  },
+  "Z08-P14": {
+    "type": "correct_vs_wrong",
+    "variant": "materials",
+    "correct_title": "Bounded Field Screening",
+    "correct_items": [
+      "Log rind, texture & uncertainty",
+      "Use existing natural clean faces"
+    ],
+    "wrong_title": "Unsafe Identification Errors",
+    "wrong_items": [
+      "Guess composition from surface color",
+      "Hammer protected outcrops for core"
+    ],
+    "reason": "Visual field cues never prove chemical or structural safety"
+  },
+  "Z08-P15": {
+    "type": "mineral_test_plate",
+    "variant": "quartz",
+    "tests": [
+      "Scratches steel (Mohs ~7)",
+      "Curved fracture; zero cleavage",
+      "Glassy crystal vs waxy chert",
+      "Verify lawful non-park site"
+    ],
+    "scale": "10x hand lens + cm scale bar",
+    "hazard": "High crystalline silica dust hazard"
+  },
+  "Z08-P16": {
+    "type": "geological_strata",
+    "variant": "fracture",
+    "strata": [
+      "Planar cleavage: repeating flat steps",
+      "Conchoidal: smooth curved ripples",
+      "Uneven/hackly: jagged rough break"
+    ],
+    "note": "Tilt natural edge in daylight",
+    "hazard": "Do not hammer protected stone"
+  },
+  "Z08-P17": {
+    "type": "mineral_test_plate",
+    "variant": "streak",
+    "tests": [
+      "Metallic vs glassy/waxy luster",
+      "Check hardness < 6.5 before streak",
+      "Read powder color on white tile",
+      "Wash hands after ore contact"
+    ],
+    "scale": "Unglazed white porcelain tile",
+    "hazard": "Skip crumbly metallic or toxic crusts"
+  },
+  "Z08-P18": {
+    "type": "correct_vs_wrong",
+    "variant": "carbonate",
+    "correct_title": "Safe Carbonate Screening",
+    "correct_items": [
+      "Use copper/steel hardness steps",
+      "Keep limestone away from high heat"
+    ],
+    "wrong_title": "Hazardous Shortcuts",
+    "wrong_items": [
+      "Assume white vein equals quartz",
+      "Heat damp limestone in fire ring"
+    ],
+    "reason": "Carbonates are soft, porous, and spall or calcine in fire"
+  },
+  "Z08-P19": {
+    "type": "mineral_test_plate",
+    "variant": "silicates",
+    "tests": [
+      "Feldspar: 2 flat planes near 90 deg",
+      "Feldspar hardness ~6 (near steel)",
+      "Mica: shiny thin peeling sheets",
+      "Quartz: glassy, no flat cleavage"
+    ],
+    "scale": "Hand lens + daylight angle tilt",
+    "hazard": "Inspect adjacent veins for fibers"
+  },
+  "Z08-P20": {
+    "type": "system_boundary",
+    "variant": "magnetic",
+    "zone_a": "Magnetite iron-formation outcrop",
+    "zone_b": "Verified terrain & map bearing",
+    "barrier": "Reciprocal bearing cross-check",
+    "hazard": "STOP: Never enter mine pits or trust deflected needles"
+  },
+  "Z08-P21": {
+    "type": "hazard_exclusion_map",
+    "variant": "ore",
+    "zones": [
+      "Metallic ore / tailings: zero contact or heat",
+      "Hand-wash & gear-clean perimeter",
+      "Safe photo-only observation station"
+    ],
+    "buffer": "Observe intact; wash hands thoroughly",
+    "report": "Suspected ingestion -> Poison Help 1-800-222-1222"
+  },
+  "Z08-P22": {
+    "type": "failure_mode",
+    "cause": "Pore water in river/porous stone flashes to steam",
+    "cue": "Hissing, popping, or widening hairline cracks",
+    "correction": "Keep all unverified stone out of fires"
+  },
+  "Z08-P23": {
+    "type": "correct_vs_wrong",
+    "variant": "abrasion",
+    "correct_title": "Controlled Tool Maintenance",
+    "correct_items": [
+      "Carry maintained manufactured hone",
+      "Observe sandstone intact without dust"
+    ],
+    "wrong_title": "Uncontrolled Stone Grinding",
+    "wrong_items": [
+      "Dry-grind unknown sandstone blocks",
+      "Assume gritty stone equals safe hone"
+    ],
+    "reason": "Quartz dust harms lungs and irregular grit damages edges"
+  },
+  "Z08-P24": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Chert / Quartz",
+        "note": "High scratch hardness (~7)",
+        "limit": "Brittle under bending/impact"
+      },
+      {
+        "name": "Calcite / Shale",
+        "note": "Low hardness; planar splits",
+        "limit": "Crushes & cleaves easily"
+      },
+      {
+        "name": "Tempered steel",
+        "note": "Engineered toughness balance",
+        "limit": "Requires inspection & care"
+      }
+    ]
+  },
+  "Z08-P25": {
+    "type": "geological_strata",
+    "variant": "clay_soil",
+    "strata": [
+      "O/A horizon: dark organic topsoil",
+      "B horizon: dense plastic lake clay",
+      "C horizon: sand/gravel drift base"
+    ],
+    "note": "Check land law & runoff history",
+    "hazard": "Fine clay binds lead & heavy metals"
+  },
+  "Z08-P26": {
+    "type": "sequence_plate",
+    "variant": "clay_test",
+    "steps": [
+      {
+        "label": "1. Screen site",
+        "detail": "Confirm lawful & clean area"
+      },
+      {
+        "label": "2. Moisten",
+        "detail": "Wet small gloved pinch"
+      },
+      {
+        "label": "3. Ribbon check",
+        "detail": "Cohesive clay vs gritty sand"
+      },
+      {
+        "label": "4. Log limit",
+        "detail": "Shrinkage & no food safety"
+      }
+    ],
+    "cue": "Texture check never proves chemical purity or firing strength"
+  },
+  "Z08-P27": {
+    "type": "hazard_exclusion_map",
+    "variant": "soil",
+    "zones": [
+      "Roadway, old paint & tailings: reject soil",
+      "Downslope runoff wash: suspect metals",
+      "Verified clean site: non-food study only"
+    ],
+    "buffer": "Sight/smell never detect soil lead",
+    "report": "Use lab soil testing before food use"
+  },
+  "Z08-P28": {
+    "type": "failure_mode",
+    "cause": "Uneven clay shrinkage, steam pockets & unknown metals",
+    "cue": "Cracking, spalling, or porous seepage under heat",
+    "correction": "Use tested metal vessels; keep wild clay non-food"
+  },
+  "Z08-P29": {
+    "type": "geological_strata",
+    "variant": "clay_soil",
+    "strata": [
+      "Coarse sand: drains fast, weak stake grip",
+      "Loam mix: moderate drainage & hold",
+      "Dense clay: ponds water, slick mud"
+    ],
+    "note": "Check drainage before storm arrives",
+    "hazard": "Wet clay flats pool cold runoff"
+  },
+  "Z08-P30": {
+    "type": "system_boundary",
+    "variant": "ash_carbon",
+    "zone_a": "Caustic wet wood ash & crude char",
+    "zone_b": "Validated NSF carbon & water care",
+    "barrier": "Keep ash out of eyes, skin & water",
+    "hazard": "STOP: Treated-wood ash holds toxic metals"
+  },
+  "Z08-P31": {
+    "type": "geological_strata",
+    "variant": "clay_soil",
+    "strata": [
+      "Live sphagnum & dry surface moss",
+      "Waterlogged deep fibrous peat",
+      "Hidden bog water or soft muck"
+    ],
+    "note": "Zero fire on peat or organic duff",
+    "hazard": "Subterranean fire & sudden sink risk"
+  },
+  "Z08-P32": {
+    "type": "failure_mode",
+    "cause": "Freeze-thaw, saturation & undercut erosion",
+    "cue": "Rim tension cracks, leaning trees, fresh talus",
+    "correction": "Maintain wide setback on stable upland ground"
+  },
+  "Z08-P33": {
+    "type": "geological_strata",
+    "variant": "wood_grain",
+    "strata": [
+      "Bark & thin inner cambium/bast",
+      "Sapwood & heartwood growth rings",
+      "Straight grain vs weak diagonal runout"
+    ],
+    "note": "Dead downed lawful wood only",
+    "hazard": "Visual check != structural load rating"
+  },
+  "Z08-P34": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dense hardwood",
+        "note": "Oak, maple, hickory: slow coals",
+        "limit": "Hard to split; slow to season"
+      },
+      {
+        "name": "Soft low-resin",
+        "note": "Basswood, aspen: light & even",
+        "limit": "Burns fast; decays rapidly wet"
+      },
+      {
+        "name": "Resinous conifer",
+        "note": "Pine, spruce: quick flame",
+        "limit": "Pops sparks; sticky pitch buildup"
+      }
+    ]
+  },
+  "Z08-P35": {
+    "type": "failure_mode",
+    "cause": "Ground moisture, fungi & beetles weaken wood core",
+    "cue": "Shelf conks, spongy crumble, loose bark, overhead snags",
+    "correction": "Clear snag zone; reject punky decayed wood"
+  },
+  "Z08-P36": {
+    "type": "correct_vs_wrong",
+    "variant": "bark",
+    "correct_title": "Lawful Fiber Study",
+    "correct_items": [
+      "Use fallen dead windfall where lawful",
+      "Keep bast cordage non-load-rated"
+    ],
+    "wrong_title": "Damaging & Illegal Harvest",
+    "wrong_items": [
+      "Peel bark from live standing trees",
+      "Assign weight ratings to plant cord"
+    ],
+    "reason": "Girdling kills trees and natural fiber strength is unrated"
+  },
+  "Z08-P37": {
+    "type": "system_boundary",
+    "variant": "plant_fiber",
+    "zone_a": "Verified lawful non-toxic dry stem",
+    "zone_b": "Toxic sap/umbel & protected flora",
+    "barrier": "ID + gloves + land permission gate",
+    "hazard": "STOP: Never touch unknown sap or protected wetlands"
+  },
+  "Z08-P38": {
+    "type": "seasonal_timeline",
+    "variant": "fiber_decay",
+    "phases": [
+      {
+        "window": "Fresh dry",
+        "focus": "Pliable sound strand"
+      },
+      {
+        "window": "Wet/damp",
+        "focus": "Swelling & rot risk"
+      },
+      {
+        "window": "UV/abrasion",
+        "focus": "Fuzzing & brittle dry"
+      },
+      {
+        "window": "Retire",
+        "focus": "Discard frayed cord"
+      }
+    ],
+    "threshold": "STOP: Natural cordage is never rated for human/overhead loads"
+  },
+  "Z08-P39": {
+    "type": "failure_mode",
+    "cause": "Uneven drying shrinkage across growth rings",
+    "cue": "Radial end-grain splits, warped shaft, loose head",
+    "correction": "Use dry seasoned wood; retire cracked handles"
+  },
+  "Z08-P40": {
+    "type": "correct_vs_wrong",
+    "variant": "wood_grain",
+    "correct_title": "Sound Grain Alignment",
+    "correct_items": [
+      "Continuous lengthwise fibers",
+      "No dead knots in bend zone"
+    ],
+    "wrong_title": "Snap-Prone Wood Defects",
+    "wrong_items": [
+      "Diagonal grain exiting shaft side",
+      "Beetle holes or radial splits"
+    ],
+    "reason": "Cross-grain and knots snap without warning under bend"
+  },
+  "Z08-P41": {
+    "type": "specimen_doc_plate",
+    "variant": "wood_b007",
+    "views": [
+      "Whole tree & habitat",
+      "Leaf & twig close-up",
+      "Bark & winter bud view",
+      "Dry dead wood end-grain"
+    ],
+    "voucher": "B007 lineage; multi-view ID needed",
+    "hold": "HOLD: No live cutting; not emergency backup"
+  },
+  "Z08-P42": {
+    "type": "correct_vs_wrong",
+    "variant": "cedar_cotton",
+    "correct_title": "Dry Sound Deadfall",
+    "correct_items": [
+      "Shaved face dry & crisp",
+      "Zero sticky pitch glaze"
+    ],
+    "wrong_title": "Reject Wood Conditions",
+    "wrong_items": [
+      "Damp ground-contact logs",
+      "Live tree bark stripping"
+    ],
+    "reason": "Wet or resinous wood glazes; live stripping harms trees"
+  },
+  "Z08-P43": {
+    "type": "lookalike_diagnostic",
+    "variant": "stalk_pair",
+    "target_name": "Dry Mullein Stalk",
+    "target_traits": [
+      "Dense woolly seed spike",
+      "Solid pithy unbranched stalk"
+    ],
+    "toxic_name": "Dry Hemlock / Parsnip",
+    "toxic_traits": [
+      "Branching flat umbel rays",
+      "Hollow chambered toxic stem"
+    ],
+    "exclusion": "HOLD: Verify dried stalk ID; never handle unknown umbels"
+  },
+  "Z08-P44": {
+    "type": "system_boundary",
+    "variant": "b007a_cord",
+    "zone_a": "Educational lawful bast fiber",
+    "zone_b": "Rated commercial cordage tasks",
+    "barrier": "Zero load rating on wild fiber",
+    "hazard": "STOP: Never load improvised twine overhead or for life safety"
+  },
+  "Z08-P45": {
+    "type": "correct_vs_wrong",
+    "variant": "b008_resin",
+    "correct_title": "Role-Separated Wood Use",
+    "correct_items": [
+      "Dead fallen wood where lawful",
+      "Outdoor mineral-soil fire only"
+    ],
+    "wrong_title": "Hazardous Mix-Ups",
+    "wrong_items": [
+      "Use pitchy pine on friction hearth",
+      "Burn resinous wood in shelter"
+    ],
+    "reason": "Pitch glazes friction boards and creates hazardous indoor smoke"
+  },
+  "Z08-P46": {
+    "type": "specimen_doc_plate",
+    "variant": "b011_lead",
+    "views": [
+      "Match accepted binomial",
+      "Link regional voucher ID",
+      "Acquire rights-cleared views",
+      "Complete SME sign-off"
+    ],
+    "voucher": "B011 leads remain unverified",
+    "hold": "HOLD: Zero fabricated species plates"
+  },
+  "Z08-P47": {
+    "type": "decision_tree",
+    "gates": [
+      "Gate 1: Lawful site & permission?",
+      "Gate 2: Zero silica/fiber/toxin risk?",
+      "Gate 3: Non-critical task & sound?"
+    ],
+    "abort": "ABORT: Any NO or doubt -> leave intact & use tested gear"
+  },
+  "Z08-P48": {
+    "type": "seasonal_timeline",
+    "variant": "frost_wedge",
+    "phases": [
+      {
+        "window": "Rain/melt",
+        "focus": "Water fills rock joints"
+      },
+      {
+        "window": "Hard freeze",
+        "focus": "Ice expands & widens crack"
+      },
+      {
+        "window": "Spring thaw",
+        "focus": "Ice bond releases slab"
+      },
+      {
+        "window": "Rockfall",
+        "focus": "Sudden bluff detachment"
+      }
+    ],
+    "threshold": "STOP: Stay clear of thawing bluffs and fresh talus"
+  },
+  "Z08-P49": {
+    "type": "mineral_test_plate",
+    "variant": "degradation",
+    "tests": [
+      "Fungal rot: soft & musty smell",
+      "Insects: pinholes & fine frass",
+      "UV sun: chalky brittle fibers",
+      "Corrosion: rust swell at eyes"
+    ],
+    "scale": "Inspect in daylight before use",
+    "hazard": "Retire degraded gear before failure"
+  },
+  "Z08-P50": {
+    "type": "sequence_plate",
+    "variant": "thermal_crack",
+    "steps": [
+      {
+        "label": "1. Rapid heat",
+        "detail": "Minerals expand unevenly"
+      },
+      {
+        "label": "2. Micro-cracks",
+        "detail": "Internal stress fractures"
+      },
+      {
+        "label": "3. Moisture entry",
+        "detail": "Rain fills new fissures"
+      },
+      {
+        "label": "4. Reheat spall",
+        "detail": "Sharp violent fracture"
+      }
+    ],
+    "cue": "Even dry stone degrades after repeated heat cycles"
+  },
+  "Z08-P51": {
+    "type": "hazard_exclusion_map",
+    "variant": "flakes",
+    "zones": [
+      "Active edge: razor-cut & chip zone",
+      "Bystander eye-safety setback",
+      "First-aid & clean-up perimeter"
+    ],
+    "buffer": "ANSI eye protection + leather gloves",
+    "report": "Deep laceration -> direct pressure & EMS"
+  },
+  "Z08-P52": {
+    "type": "system_boundary",
+    "variant": "struct_cert",
+    "zone_a": "Visual field material recognition",
+    "zone_b": "Engineered structural load rating",
+    "barrier": "No load rating from sight alone",
+    "hazard": "STOP: Use rated hardware for life-safety loads"
+  },
+  "Z08-P53": {
+    "type": "system_boundary",
+    "variant": "food_contact",
+    "zone_a": "Unverified stone, wild clay & scrap",
+    "zone_b": "Food-grade tested cookware & vessels",
+    "barrier": "Visual cleanliness != chemical safety",
+    "hazard": "STOP: Never heat galvanized, painted, or ore rock"
+  },
+  "Z08-P54": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Field observer",
+        "scope": "Non-contact photo + scale",
+        "action": "Leave intact & log locality"
+      },
+      {
+        "role": "Regional survey",
+        "scope": "MGS / DNR / museum review",
+        "action": "Confirm formation & ID"
+      },
+      {
+        "role": "Lab / hygienist",
+        "scope": "Assay & safety clearance",
+        "action": "Test dust, fibers, metals"
+      }
+    ],
+    "trigger": "HOLD: Uncertain specimens are never cleared for field use"
+  },
+  "Z08-P55": {
+    "type": "regulation_boundary",
+    "variant": "nps_cfr",
+    "authority": "36 CFR 2.1 · National Park Service",
+    "checks": [
+      "Confirm exact NPS unit & riverway boundaries",
+      "Check park Superintendent Compendium rules",
+      "Limit fieldwork strictly to non-contact photos"
+    ],
+    "prohibition": "STOP: Collecting rocks, fossils, soil, or wood is prohibited"
+  },
+  "Z08-P56": {
+    "type": "regulation_boundary",
+    "variant": "mn_parks",
+    "authority": "Minnesota DNR · State Parks & SNAs",
+    "checks": [
+      "Check DNR land-type map before entering site",
+      "Zero collecting of rocks, soil, or plants in parks",
+      "Obey strict SNA zero-disturbance & no-fire rules"
+    ],
+    "prohibition": "STOP: Leave all rocks, minerals & wood undisturbed"
+  },
+  "Z08-P57": {
+    "type": "hazard_exclusion_map",
+    "variant": "quarry",
+    "zones": [
+      "Active quarry highwall & pit: zero entry",
+      "Highway shoulder: traffic strike zone",
+      "Permitted low-slope site: lawful study"
+    ],
+    "buffer": "Explicit landowner permission required",
+    "report": "Verify site status before every visit"
+  },
+  "Z08-P58": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Eliminate",
+        "scope": "Observe intact stone",
+        "action": "Avoid dry breaking/grinding"
+      },
+      {
+        "role": "Wet control",
+        "scope": "Authorized workshop",
+        "action": "Continuous water & airflow"
+      },
+      {
+        "role": "Fitted PPE",
+        "scope": "Verified hazard zone",
+        "action": "ANSI eyes + NIOSH N95/P100"
+      }
+    ],
+    "trigger": "STOP: Visible silica dust or missing PPE halts stone work"
+  },
+  "Z08-P59": {
+    "type": "hazard_exclusion_map",
+    "variant": "asbestos",
+    "zones": [
+      "Fibrous vein / mine waste: zero disturbance",
+      "Upwind clear observation stance",
+      "Outdoor wet wash of dusty boots"
+    ],
+    "buffer": "Sight cannot clear fibrous minerals",
+    "report": "Consult state geologic/health agency"
+  },
+  "Z08-P60": {
+    "type": "sequence_plate",
+    "variant": "decon",
+    "steps": [
+      {
+        "label": "1. Segregate",
+        "detail": "Keep stones off food gear"
+      },
+      {
+        "label": "2. Wash hands",
+        "detail": "Soap & water before eating"
+      },
+      {
+        "label": "3. Rinse boots",
+        "detail": "Clean mud away from wells"
+      },
+      {
+        "label": "4. Store safely",
+        "detail": "Labeled box out of reach"
+      }
+    ],
+    "cue": "Prevent hand-to-mouth transfer of silica, lead, and ores"
+  },
+  "Z06-P01": {
+    "type": "correct_vs_wrong",
+    "variant": "b013_p15",
+    "correct_title": "Safe Lawful Priority",
+    "correct_items": [
+      "Warmth, shelter & signaling first",
+      "Verify license, rules & shore footing"
+    ],
+    "wrong_title": "Fatal Angling Shortcuts",
+    "wrong_items": [
+      "Cross unverified ice for fish",
+      "Follow old tracks as safety proof"
+    ],
+    "reason": "No fish harvest justifies cold-water immersion risk"
+  },
+  "Z06-P02": {
+    "type": "failure_mode",
+    "cause": "Chipping, stomping, or fire-melting weakens lake ice",
+    "cue": "Radiating cracks, wet slush, unmeasured thin cover",
+    "correction": "Stay ashore; never improvise ice holes"
+  },
+  "Z06-P03": {
+    "type": "regulation_boundary",
+    "variant": "legal_gate",
+    "authority": "MN DNR · USFWS · Tribal Authority",
+    "checks": [
+      "Record jurisdiction, waters/zone & exact check date",
+      "Confirm valid license, stamp, season & species limit",
+      "Verify lawful land access & private permission"
+    ],
+    "prohibition": "STOP: Emergencies never create automatic legal harvest exemptions"
+  },
+  "Z06-P04": {
+    "type": "regulation_boundary",
+    "variant": "fishing",
+    "authority": "Minnesota DNR Fishing Regulations",
+    "checks": [
+      "Verify valid license & trout/salmon stamps",
+      "Look up lake- or stream-specific special rules",
+      "Confirm current season date & possession limits"
+    ],
+    "prohibition": "STOP: Release immediately if species or slot limit is uncertain"
+  },
+  "Z06-P05": {
+    "type": "regulation_boundary",
+    "variant": "hunting",
+    "authority": "Minnesota DNR Hunting Regulations",
+    "checks": [
+      "Confirm license, tags, permit area & certification",
+      "Verify exact daily legal shooting start/end times",
+      "Check municipal, refuge & park boundary closures"
+    ],
+    "prohibition": "STOP: Never shoot outside legal hours or across uncertain lines"
+  },
+  "Z06-P06": {
+    "type": "hazard_exclusion_map",
+    "variant": "jurisdiction",
+    "zones": [
+      "Private posted / agricultural land: permission needed",
+      "Tribal / border waters: distinct authority rules",
+      "Verified public WMA/forest: current DNR rules"
+    ],
+    "buffer": "Confirm parcel & authority before entry",
+    "report": "Verify official county/DNR/tribal maps"
+  },
+  "Z06-P07": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Shoreline & shallow littoral flat",
+      "Submerged weedline & rock drop-off",
+      "Summer thermocline oxygen boundary",
+      "Deep cold basin (barotrauma risk)"
+    ],
+    "scale": "Conceptual lake depth transect",
+    "limit": "Protect thermal refuges during heat"
+  },
+  "Z06-P08": {
+    "type": "wildlife_track_plate",
+    "variant": "fish_anatomy",
+    "features": [
+      "Spiny dorsal fin: rear blotch vs spots",
+      "Lower caudal tail tip: white vs plain",
+      "Cheek scales & large canine teeth",
+      "Rigid ruler length-slot verification"
+    ],
+    "scale": "Measure pinched tail on flat board",
+    "limit": "Uncertain species -> release at once"
+  },
+  "Z06-P09": {
+    "type": "lookalike_diagnostic",
+    "variant": "fish_pair",
+    "target_name": "Northern Pike",
+    "target_traits": [
+      "Light bean spots on dark flank",
+      "Fully scaled cheek; <= 5 chin pores"
+    ],
+    "toxic_name": "Protected Muskellunge",
+    "toxic_traits": [
+      "Dark bars/spots on light flank",
+      "Upper cheek scaled; 6-9 chin pores"
+    ],
+    "exclusion": "HOLD: Verify jaw pores & regional zone slots; release if unsure"
+  },
+  "Z06-P10": {
+    "type": "wildlife_track_plate",
+    "variant": "fish_anatomy",
+    "features": [
+      "Jaw hinge past eye (largemouth)",
+      "Jaw ends below eye (smallmouth)",
+      "Dorsal spine count on crappies",
+      "Check lake Quality Sunfish limits"
+    ],
+    "scale": "Verify lake-specific reduced limits",
+    "limit": "Keep air exposure minimal on release"
+  },
+  "Z06-P11": {
+    "type": "regulation_boundary",
+    "variant": "trout",
+    "authority": "MN DNR Designated Trout Waters",
+    "checks": [
+      "Confirm trout stamp & designated stream map",
+      "Verify artificial-only & hook/bait restrictions",
+      "Identify brook, brown, rainbow & lake trout"
+    ],
+    "prohibition": "STOP: Cease catch-and-release during summer thermal stress"
+  },
+  "Z06-P12": {
+    "type": "lookalike_diagnostic",
+    "variant": "river_fish",
+    "target_name": "Channel / Flathead Catfish",
+    "target_traits": [
+      "Smooth scaleless skin & barbels",
+      "Sharp locked dorsal/pectoral spines"
+    ],
+    "toxic_name": "Protected Sturgeon / Paddlefish",
+    "toxic_traits": [
+      "Bony armor scutes or long paddle",
+      "Strictly closed or special-tag only"
+    ],
+    "exclusion": "HOLD: Release protected river species immediately in water"
+  },
+  "Z06-P13": {
+    "type": "sequence_plate",
+    "variant": "fish_release",
+    "steps": [
+      {
+        "label": "1. Wet gear",
+        "detail": "Rubber net & wet hands"
+      },
+      {
+        "label": "2. Support body",
+        "detail": "Horizontal hold; no gill grip"
+      },
+      {
+        "label": "3. Unhook fast",
+        "detail": "Cut line on deep gut hooks"
+      },
+      {
+        "label": "4. Revive",
+        "detail": "Release upright in water"
+      }
+    ],
+    "cue": "Minimize air exposure, especially in freezing or hot air"
+  },
+  "Z06-P14": {
+    "type": "sequence_plate",
+    "variant": "ais_law",
+    "steps": [
+      {
+        "label": "1. Clean",
+        "detail": "Remove plants, mud & mussels"
+      },
+      {
+        "label": "2. Drain",
+        "detail": "Empty bilge & pull plugs"
+      },
+      {
+        "label": "3. Trash bait",
+        "detail": "Never dump bait in water"
+      },
+      {
+        "label": "4. Dry",
+        "detail": "Dry gear before next lake"
+      }
+    ],
+    "cue": "Mandatory under Minnesota AIS statute at every water access"
+  },
+  "Z06-P15": {
+    "type": "regulation_boundary",
+    "variant": "mdh_fish",
+    "authority": "MN Dept. of Health Fish Guidelines",
+    "checks": [
+      "Look up exact lake/river reach & current date",
+      "Match fish species, length & contaminant type",
+      "Apply stricter limit for pregnancy & kids < 15"
+    ],
+    "prohibition": "STOP: Water clarity never proves fish are free of mercury/PFAS"
+  },
+  "Z06-P16": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Lower risk",
+        "scope": "Small panfish",
+        "action": "Sunfish/perch per MDH limits"
+      },
+      {
+        "role": "Moderate",
+        "scope": "Medium predators",
+        "action": "Strict size & monthly limits"
+      },
+      {
+        "role": "Highest load",
+        "scope": "Large old predators",
+        "action": "Avoid or follow lake caps"
+      }
+    ],
+    "trigger": "Mercury binds in muscle: trimming or cooking never removes it"
+  },
+  "Z06-P17": {
+    "type": "system_boundary",
+    "variant": "pfas_fish",
+    "zone_a": "PFAS/PCB-advised or urban runoff waters",
+    "zone_b": "MDH-screened lawful meal waters",
+    "barrier": "Exact waterbody MDH check + date",
+    "hazard": "STOP: Cooking and trimming cannot remove PFAS or mercury"
+  },
+  "Z06-P18": {
+    "type": "wildlife_track_plate",
+    "variant": "fish_anatomy",
+    "features": [
+      "Remove outer skin cleanly",
+      "Trim belly flap fat strip",
+      "Cut dorsal & dark lateral fat",
+      "Cook on rack; discard drippings"
+    ],
+    "scale": "Reduces fat-soluble PCBs only",
+    "limit": "Does NOT remove mercury or PFAS"
+  },
+  "Z06-P19": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Sensitive group",
+        "note": "Pregnant, nursing & kids < 15",
+        "limit": "Strict MDH caps; skip big fish"
+      },
+      {
+        "name": "General adult",
+        "note": "Non-pregnant adults & 15+",
+        "limit": "Still bound by lake & size limits"
+      },
+      {
+        "name": "Do Not Eat water",
+        "note": "High PFAS/PCB/mercury alert",
+        "limit": "Zero consumption for ALL people"
+      }
+    ]
+  },
+  "Z06-P20": {
+    "type": "hazard_exclusion_map",
+    "variant": "angling_water",
+    "zones": [
+      "Fast drop-off / cold open water: PFD mandatory",
+      "Slick wave-washed bank: stay back",
+      "Stable shore refuge: weather exit"
+    ],
+    "buffer": "Cold water disables un-vested swimmers fast",
+    "report": "Exit water at first thunder or whitecaps"
+  },
+  "Z06-P21": {
+    "type": "seasonal_timeline",
+    "variant": "deer_cycle",
+    "phases": [
+      {
+        "window": "Spring",
+        "focus": "Fawning; leave fawns alone"
+      },
+      {
+        "window": "Summer",
+        "focus": "Edge forage & thick cover"
+      },
+      {
+        "window": "Autumn",
+        "focus": "Rut travel & rubs/scrapes"
+      },
+      {
+        "window": "Winter",
+        "focus": "Conifer yards; zero chase"
+      }
+    ],
+    "threshold": "Do not approach solitary fawns or push winter-stressed deer"
+  },
+  "Z06-P22": {
+    "type": "wildlife_track_plate",
+    "variant": "tracks",
+    "features": [
+      "Hind prints land ahead of fronts",
+      "Staggered fronts = rabbit/hare",
+      "Paired fronts = tree squirrel",
+      "Clean 45-deg incisor twig cut"
+    ],
+    "scale": "Measure stride & hind-foot length",
+    "limit": "Wear gloves; reject sick rabbits (tularemia)"
+  },
+  "Z06-P23": {
+    "type": "lookalike_diagnostic",
+    "variant": "bird_pair",
+    "target_name": "Regulated Upland Game",
+    "target_traits": [
+      "Positive ID (e.g. ruffed grouse)",
+      "Open DNR season & safe backstop"
+    ],
+    "toxic_name": "Protected Raptors & Nongame",
+    "toxic_traits": [
+      "Hawks, owls, songbirds & nests",
+      "Strict federal MBTA penalties"
+    ],
+    "exclusion": "STOP: Unidentified bird silhouette -> never shoot or disturb"
+  },
+  "Z06-P24": {
+    "type": "regulation_boundary",
+    "variant": "waterfowl",
+    "authority": "USFWS MBTA · MN DNR Waterfowl",
+    "checks": [
+      "Carry signed federal Duck Stamp + state stamps",
+      "Verify 100% USFWS-approved non-toxic shot",
+      "Confirm species & sex bag limits in clear light"
+    ],
+    "prohibition": "STOP: Lead shot and unidentified silhouettes are prohibited"
+  },
+  "Z06-P25": {
+    "type": "wildlife_track_plate",
+    "variant": "tracks",
+    "features": [
+      "Count toes (4 vs 5 vs cloven 2)",
+      "Check claw marks & heel lobes",
+      "Place cm/inch ruler in frame",
+      "Account for snow-melt expansion"
+    ],
+    "scale": "Record print length, width & stride",
+    "limit": "Never follow fresh large-predator tracks"
+  },
+  "Z06-P26": {
+    "type": "wildlife_track_plate",
+    "variant": "gait",
+    "features": [
+      "Diagonal walker: deer, fox, bobcat",
+      "Bounder: mink, weasel, fisher",
+      "Hopper: rabbit (staggered), squirrel",
+      "Waddler: wide track (bear, beaver)"
+    ],
+    "scale": "Measure 3-5 m stride & straddle",
+    "limit": "Deep snow alters normal gait patterns"
+  },
+  "Z06-P27": {
+    "type": "system_boundary",
+    "variant": "scat_hygiene",
+    "zone_a": "Wild scat & raccoon latrine dust",
+    "zone_b": "No-contact visual scale observation",
+    "barrier": "Zero bare-hand touch or dry breaking",
+    "hazard": "STOP: Raccoon/canid scat holds dangerous parasite eggs"
+  },
+  "Z06-P28": {
+    "type": "regulation_boundary",
+    "variant": "nongame",
+    "authority": "MN DNR Nongame · USFWS ESA/MBTA",
+    "checks": [
+      "Most native birds, bats & reptiles are protected",
+      "Keep wide buffer from nests, dens & rookeries",
+      "Never relocate turtles, fawns, or fledglings"
+    ],
+    "prohibition": "STOP: Zero capture or disturbance of protected nongame wildlife"
+  },
+  "Z06-P29": {
+    "type": "specimen_doc_plate",
+    "variant": "wildlife_sign",
+    "views": [
+      "Wide habitat & landform",
+      "Multi-meter trail/gait",
+      "Close-up print + cm bar",
+      "Date, GPS & DNR report"
+    ],
+    "voucher": "Zoom only; zero baiting or chase",
+    "hold": "Keep rare nest/den locations private"
+  },
+  "Z06-P30": {
+    "type": "decision_tree",
+    "gates": [
+      "License, season & ID?",
+      "Clean retrieval viable?",
+      "Cooling & zero waste?"
+    ],
+    "abort": "ABORT: Any NO -> pass on harvest & pack out all litter"
+  },
+  "Z06-P31": {
+    "type": "sequence_plate",
+    "variant": "firearm_4",
+    "steps": [
+      {
+        "label": "1. Loaded",
+        "detail": "Treat every gun as loaded"
+      },
+      {
+        "label": "2. Muzzle",
+        "detail": "Safe direction always"
+      },
+      {
+        "label": "3. Trigger",
+        "detail": "Finger off until shooting"
+      },
+      {
+        "label": "4. Backstop",
+        "detail": "Verify target & beyond"
+      }
+    ],
+    "cue": "Formal DNR certification required; mechanical safeties can fail"
+  },
+  "Z06-P32": {
+    "type": "correct_vs_wrong",
+    "variant": "transport",
+    "correct_title": "Safe Field Handling",
+    "correct_items": [
+      "Unload & open action at obstacles",
+      "Verify empty chamber & clear bore"
+    ],
+    "wrong_title": "High-Fatality Errors",
+    "wrong_items": [
+      "Climb stands or fences loaded",
+      "Fire after muzzle touches snow/mud"
+    ],
+    "reason": "Unloading at obstacles prevents discharges and barrel bursts"
+  },
+  "Z06-P33": {
+    "type": "hazard_exclusion_map",
+    "variant": "zone_fire",
+    "zones": [
+      "No-shoot: partners, roads & buildings",
+      "45-deg forward clear backstop zone",
+      "Blaze-orange visible hiker/hunter line"
+    ],
+    "buffer": "Verify target & beyond every time",
+    "report": "Lose sight of partner -> halt & call out"
+  },
+  "Z06-P34": {
+    "type": "failure_mode",
+    "cause": "Cracked carbon shaft or unhooded razor broadhead",
+    "cue": "Crackling flex sound, frayed string, exposed blades",
+    "correction": "Discard damaged shafts; keep broadheads hooded"
+  },
+  "Z06-P35": {
+    "type": "sequence_plate",
+    "variant": "treestand",
+    "steps": [
+      {
+        "label": "1. Inspect",
+        "detail": "Check tree, straps & ice"
+      },
+      {
+        "label": "2. Harness",
+        "detail": "Full-body + relief strap"
+      },
+      {
+        "label": "3. Lifeline",
+        "detail": "Clip in ground-to-ground"
+      },
+      {
+        "label": "4. Haul line",
+        "detail": "Hoist unloaded gear last"
+      }
+    ],
+    "cue": "Most treestand fatalities occur while climbing or stepping in"
+  },
+  "Z06-P36": {
+    "type": "failure_mode",
+    "cause": "Overloaded low-freeboard skiff + shifting weight in chop",
+    "cue": "Bow taking spray, rolling instability, cold wind rise",
+    "correction": "Stay below capacity plate; wear PFD; abort in wind"
+  },
+  "Z06-P37": {
+    "type": "sequence_plate",
+    "variant": "field_dress",
+    "steps": [
+      {
+        "label": "1. Glove up",
+        "detail": "Cover cuts; wear nitrile"
+      },
+      {
+        "label": "2. Keep clean",
+        "detail": "Avoid gut & spinal fluids"
+      },
+      {
+        "label": "3. Trim soil",
+        "detail": "Cut away dirty/hair spots"
+      },
+      {
+        "label": "4. Sanitize",
+        "detail": "Wash blades & hands clean"
+      }
+    ],
+    "cue": "Inspect carcass health first; discard visibly sick animals"
+  },
+  "Z06-P38": {
+    "type": "wildlife_track_plate",
+    "variant": "field_hygiene",
+    "features": [
+      "Prop open cavity; shade & airflow",
+      "Breathable clean cloth game bags",
+      "Pack sealed ice if > 40 F outside",
+      "Never seal warm meat in plastic"
+    ],
+    "scale": "Target <= 40 F cold-chain quickly",
+    "limit": "Sour odor or slime -> discard meat"
+  },
+  "Z06-P39": {
+    "type": "system_boundary",
+    "variant": "cwd_prion",
+    "zone_a": "Brain, spine, lymph nodes & CWD-pos meat",
+    "zone_b": "Tested negative clean boned venison",
+    "barrier": "No bone-sawing + lab test before eating",
+    "hazard": "STOP: Normal cooking NEVER destroys CWD prions"
+  },
+  "Z06-P40": {
+    "type": "correct_vs_wrong",
+    "variant": "trichinella",
+    "correct_title": "Verified Parasite Destruction",
+    "correct_items": [
+      "Cook bear/omnivores >= 165 F",
+      "Verify thickest spot by thermometer"
+    ],
+    "wrong_title": "Unreliable Folk Methods",
+    "wrong_items": [
+      "Freeze wild bear to kill larvae",
+      "Judge safety by smoke/cure/color"
+    ],
+    "reason": "Arctic/wild Trichinella species survive home freezing and curing"
+  },
+  "Z06-P41": {
+    "type": "system_boundary",
+    "variant": "tularemia",
+    "zone_a": "Sick/dead rabbits, bare skin & raw blood",
+    "zone_b": "Gloved clean handling & full cooking",
+    "barrier": "Impervious gloves + organ check + cook",
+    "hazard": "STOP: Fever or skin ulcer after exposure -> prompt medical care"
+  },
+  "Z06-P42": {
+    "type": "sequence_plate",
+    "variant": "fish_hygiene",
+    "steps": [
+      {
+        "label": "1. Ice fast",
+        "detail": "Chill <= 40 F immediately"
+      },
+      {
+        "label": "2. Clean safely",
+        "detail": "Away from camp & water"
+      },
+      {
+        "label": "3. Dispose offal",
+        "detail": "Lawful & bear-safe site"
+      },
+      {
+        "label": "4. Cook 145 F",
+        "detail": "Never eat raw freshwater fish"
+      }
+    ],
+    "cue": "Verify MDH waterbody advisory before keeping fish for food"
+  },
+  "Z06-P43": {
+    "type": "decision_tree",
+    "gates": [
+      "Lawful alert harvest?",
+      "Organs & smell normal?",
+      "Cooled & CWD clear?"
+    ],
+    "abort": "ABORT: Any NO -> discard safely & report unusual die-offs"
+  },
+  "Z06-P44": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Prevent",
+        "scope": "Clean camp & shore",
+        "action": "Lock food, bait & fish waste"
+      },
+      {
+        "role": "Encounter",
+        "scope": "Bear sighted",
+        "action": "Stand tall, talk firmly, back slow"
+      },
+      {
+        "role": "Report / Deter",
+        "scope": "Bold or charging bear",
+        "action": "Use spray if carried; call DNR"
+      }
+    ],
+    "trigger": "STOP: Never run from a bear, feed wildlife, or approach cubs"
+  },
+  "Z06-P45": {
+    "type": "hazard_exclusion_map",
+    "variant": "wolf_zone",
+    "zones": [
+      "Fresh kill / den site: retreat calmly",
+      "Active trail: keep dogs on short leash",
+      "Camp: zero food or carcass attractants"
+    ],
+    "buffer": "Gray wolves are legally protected",
+    "report": "Report bold wolves to MN DNR immediately"
+  },
+  "Z06-P46": {
+    "type": "failure_mode",
+    "cause": "Crowding moose, rutting bucks, or off-leash dog provocation",
+    "cue": "Pinned ears, raised neck hackles, stomping, staring",
+    "correction": "Retreat fast behind solid trees; keep dogs leashed"
+  },
+  "Z06-P47": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Observe safely",
+        "scope": "Distant vantage only",
+        "action": "Zero confrontation or pursuit"
+      },
+      {
+        "role": "Log facts",
+        "scope": "Objective details",
+        "action": "GPS, time, plates & actions"
+      },
+      {
+        "role": "Report",
+        "scope": "MN DNR TIP / 911",
+        "action": "Call 1-800-652-9093 (911 danger)"
+      }
+    ],
+    "trigger": "STOP: Never confront armed suspects or disturb physical evidence"
+  },
+  "Z06-P48": {
+    "type": "sequence_plate",
+    "variant": "hunt_plan",
+    "steps": [
+      {
+        "label": "1. Trip plan",
+        "detail": "Lake/unit & overdue time"
+      },
+      {
+        "label": "2. Pack safety",
+        "detail": "PFD, blaze, bleed & light"
+      },
+      {
+        "label": "3. Clear gear",
+        "detail": "Unload arms if injury hits"
+      },
+      {
+        "label": "4. Call 911",
+        "detail": "Exact access & GPS coords"
+      }
+    ],
+    "cue": "Emergency rescue always overrides hunting or fishing plans"
+  },
+  "Z07-P01": {
+    "type": "system_boundary",
+    "variant": "z07_scope",
+    "zone_a": "Hazard ID, ecology, law & reporting",
+    "zone_b": "Actionable trap/snare construction",
+    "barrier": "Strict editorial prohibition",
+    "hazard": "STOP: Never publish or improvise injurious sets"
+  },
+  "Z07-P02": {
+    "type": "regulation_boundary",
+    "variant": "mn_trap",
+    "authority": "Minnesota DNR Trapping Statutes",
+    "checks": [
+      "Verify current year furbearer season & zones",
+      "Confirm license, check-interval & tagging law",
+      "Check whether land is open WMA vs closed park"
+    ],
+    "prohibition": "STOP: Unauthorized trapping or tampering violates state law"
+  },
+  "Z07-P03": {
+    "type": "correct_vs_wrong",
+    "variant": "no_exempt",
+    "correct_title": "Evidence-Based Emergency Plan",
+    "correct_items": [
+      "Prioritize shelter, water & rescue",
+      "Respect wildlife law at all times"
+    ],
+    "wrong_title": "Hazardous Folklore Myths",
+    "wrong_items": [
+      "Assume emergency exempts snaring",
+      "Leave wire loops in wildlife habitat"
+    ],
+    "reason": "Improvised snares are illegal, inhumane, and waste survival energy"
+  },
+  "Z07-P04": {
+    "type": "regulation_boundary",
+    "variant": "esa_lynx",
+    "authority": "USFWS Endangered Species Act",
+    "checks": [
+      "Strict federal ban on incidental or direct take",
+      "Special northern MN Canada lynx zone rules",
+      "Immediate agency notice if listed animal injured"
+    ],
+    "prohibition": "STOP: Zero disturbance or capture of federally listed species"
+  },
+  "Z07-P05": {
+    "type": "hazard_exclusion_map",
+    "variant": "rare_species",
+    "zones": [
+      "Dens, burrows & wetland nests: zero disturbance",
+      "Protected nongame habitat corridor",
+      "Trail-bound quiet observation zone"
+    ],
+    "buffer": "Most native wildlife is legally protected",
+    "report": "Report rare-species threats to MN DNR"
+  },
+  "Z07-P06": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "NPS & MN SNAs",
+        "note": "Strict federal/state preserves",
+        "limit": "Trapping strictly prohibited"
+      },
+      {
+        "name": "MN State Parks",
+        "note": "Protected recreation parks",
+        "limit": "Public trapping prohibited"
+      },
+      {
+        "name": "WMAs & Forests",
+        "note": "Multi-use public lands",
+        "limit": "Lawful seasonal sets possible"
+      }
+    ]
+  },
+  "Z07-P07": {
+    "type": "hazard_exclusion_map",
+    "variant": "trapping_corridor",
+    "zones": [
+      "Culverts & stream banks: high set probability",
+      "Brush edges & scent piles: keep pets out",
+      "Maintained upland trail: short-leash travel"
+    ],
+    "buffer": "Stay on upland trails in fall/winter",
+    "report": "Do not disturb flagged shoreline markers"
+  },
+  "Z07-P08": {
+    "type": "sequence_plate",
+    "variant": "afwa_bmp",
+    "steps": [
+      {
+        "label": "1. Welfare",
+        "detail": "Minimize trauma & distress"
+      },
+      {
+        "label": "2. Selectivity",
+        "detail": "Exclude non-target & pets"
+      },
+      {
+        "label": "3. User safety",
+        "detail": "Control stored-energy risk"
+      },
+      {
+        "label": "4. Lawful check",
+        "detail": "Follow strict agency rules"
+      }
+    ],
+    "cue": "Improvised traps fail every scientific welfare and selectivity test"
+  },
+  "Z07-P09": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cage / Box traps",
+        "note": "Enclosed live-restraining mesh",
+        "limit": "Bite/rabies hazard; never open"
+      },
+      {
+        "name": "Foothold / Cable",
+        "note": "Staked ground restraining gear",
+        "limit": "Spring pinch & distress hazard"
+      },
+      {
+        "name": "Body-grip frame",
+        "note": "High-force square spring bars",
+        "limit": "Extreme crush & lethal pet risk"
+      }
+    ]
+  },
+  "Z07-P10": {
+    "type": "failure_mode",
+    "cause": "Unselective improvised triggers lack calibration & locks",
+    "cue": "Non-target maiming, slow suffering, unpredictable collapse",
+    "correction": "Prohibit construction; rely on lawful non-capture plans"
+  },
+  "Z07-P11": {
+    "type": "system_boundary",
+    "variant": "spring_energy",
+    "zone_a": "Loaded spring bars & tensioned wire",
+    "zone_b": "Hands-off safe bystander corridor",
+    "barrier": "Zero probing with hands, boots, or sticks",
+    "hazard": "STOP: Stored spring energy crushes fingers instantaneously"
+  },
+  "Z07-P12": {
+    "type": "seasonal_timeline",
+    "variant": "ghost_gear",
+    "phases": [
+      {
+        "window": "Open season",
+        "focus": "Lawful tagged & checked"
+      },
+      {
+        "window": "Season close",
+        "focus": "All gear must be removed"
+      },
+      {
+        "window": "Abandoned",
+        "focus": "Ghost-entanglement risk"
+      },
+      {
+        "window": "Report",
+        "focus": "GPS photo to MN DNR TIP"
+      }
+    ],
+    "threshold": "STOP: Never tamper with active gear; report derelict sets to DNR"
+  },
+  "Z07-P13": {
+    "type": "sequence_plate",
+    "variant": "trail_check",
+    "steps": [
+      {
+        "label": "1. Check map",
+        "detail": "Park/SNA vs WMA/Forest"
+      },
+      {
+        "label": "2. Check dates",
+        "detail": "Oct-Mar furbearer windows"
+      },
+      {
+        "label": "3. Plan pets",
+        "detail": "Short leash on open land"
+      },
+      {
+        "label": "4. Read signs",
+        "detail": "Check trailhead notices"
+      }
+    ],
+    "cue": "Verify land type and season dates before walking dogs afield"
+  },
+  "Z07-P14": {
+    "type": "hazard_exclusion_map",
+    "variant": "pet_leash",
+    "zones": [
+      "Off-trail brush & culverts: high risk",
+      "Shoreline scent piles: strict exclusion",
+      "Clear trail center: <= 6 ft fixed leash"
+    ],
+    "buffer": "Prevention by leashing beats emergency release",
+    "report": "Carry 24-hr rural emergency vet contact"
+  },
+  "Z07-P15": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Flagged stakes or marked saplings",
+      "Stick/box cubby or narrow funnel",
+      "Freshly raked dirt or wired anchor",
+      "Strong fish, musk, or carrion odor"
+    ],
+    "scale": "Recognize early from safe trail",
+    "limit": "Route wide; never inspect close-up"
+  },
+  "Z07-P16": {
+    "type": "regulation_boundary",
+    "variant": "raptor_law",
+    "authority": "MBTA · Eagle Protection Act · MN DNR",
+    "checks": [
+      "Exposed sight baits endanger soaring raptors",
+      "Strict state & federal exposed-bait rules apply",
+      "Talons cause deep injury: call rehab/DNR only"
+    ],
+    "prohibition": "STOP: Never touch or approach an entangled eagle, hawk, or owl"
+  },
+  "Z07-P17": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Pre-hike brief",
+        "scope": "All youth & adults",
+        "action": "Hands-off unknown gear/flags"
+      },
+      {
+        "role": "Spot hazard",
+        "scope": "Group halts",
+        "action": "Freeze, step back & tell leader"
+      },
+      {
+        "role": "Route / Report",
+        "scope": "Safe distance",
+        "action": "Detour wide; report if unsafe"
+      }
+    ],
+    "trigger": "STOP: Never let children pull flags, wires, or inspect boxes"
+  },
+  "Z07-P18": {
+    "type": "sequence_plate",
+    "variant": "pet_vet",
+    "steps": [
+      {
+        "label": "1. Prevent",
+        "detail": "<= 6 ft leash on open lands"
+      },
+      {
+        "label": "2. Stay safe",
+        "detail": "Guard against panic bites"
+      },
+      {
+        "label": "3. Stabilize",
+        "detail": "Keep pet calm & warm"
+      },
+      {
+        "label": "4. Vet care",
+        "detail": "Check crush/airway injury"
+      }
+    ],
+    "cue": "Hidden crush or airway swelling requires urgent vet assessment"
+  },
+  "Z07-P19": {
+    "type": "correct_vs_wrong",
+    "variant": "non_tamper",
+    "correct_title": "Safe Lawful Response",
+    "correct_items": [
+      "Stay back & detour smoothly",
+      "Report suspected violations to DNR"
+    ],
+    "wrong_title": "Unsafe & Illegal Actions",
+    "wrong_items": [
+      "Spring or move found traps",
+      "Touch cables or boxes up close"
+    ],
+    "reason": "Tampering risks severe crush injury and statutory penalties"
+  },
+  "Z07-P20": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Keep clear",
+        "scope": "Safe distance",
+        "action": "Zero touch or dismantling"
+      },
+      {
+        "role": "Document",
+        "scope": "GPS & landmark",
+        "action": "Log time, trail & wide photo"
+      },
+      {
+        "role": "Notify DNR",
+        "scope": "TIP / Park Ranger",
+        "action": "Call 1-800-652-9093 promptly"
+      }
+    ],
+    "trigger": "STOP: Leave physical evidence intact for Conservation Officers"
+  },
+  "Z07-P21": {
+    "type": "hazard_exclusion_map",
+    "variant": "trapped_animal",
+    "zones": [
+      "Restrained animal: severe bite/talon zone",
+      "Quiet visual setback: reduce animal stress",
+      "Safe call station: GPS to DNR/rehab"
+    ],
+    "buffer": "Zero barehanded release attempts",
+    "report": "Call MN DNR or licensed wildlife rehabber"
+  },
+  "Z07-P22": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Avoid",
+        "scope": "Hands-off distance",
+        "action": "Never handle distressed mammals"
+      },
+      {
+        "role": "If exposed",
+        "scope": "Immediate first aid",
+        "action": "Wash thoroughly with soap & water"
+      },
+      {
+        "role": "Clinician",
+        "scope": "Urgent medical eval",
+        "action": "Assess rabies PEP & wound care"
+      }
+    ],
+    "trigger": "STOP: Rabies is fatal once symptomatic; evaluate bites promptly"
+  },
+  "Z07-P23": {
+    "type": "hazard_exclusion_map",
+    "variant": "carrion",
+    "zones": [
+      "Carcass / bait pile: predator & gear zone",
+      "Wide upwind bypass corridor",
+      "Safe calm group regroup point"
+    ],
+    "buffer": "Never inspect smelly carcass piles",
+    "report": "Report suspicious unlawful baiting to DNR"
+  },
+  "Z07-P24": {
+    "type": "specimen_doc_plate",
+    "variant": "hazard_gps",
+    "views": [
+      "WGS84 GPS from safe spot",
+      "Trail junction & distance",
+      "Distant wide context photo",
+      "Direct call to DNR / Ranger"
+    ],
+    "voucher": "Zero entry into hazard zone",
+    "hold": "Deliver exact report to authorities first"
+  },
+  "Z07-P25": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Active beaver lodge: zero climbing",
+      "Thin ice over underwater runs",
+      "Woodland dens & hollow trees",
+      "Firm upland viewing setback"
+    ],
+    "scale": "Protect winter shelter & thin ice",
+    "limit": "Damaging lodges/dens is illegal & unsafe"
+  },
+  "Z07-P26": {
+    "type": "correct_vs_wrong",
+    "variant": "ghost_line",
+    "correct_title": "Zero-Entanglement Ethics",
+    "correct_items": [
+      "Pack out all cord, wire & line",
+      "Use shore monofilament bins"
+    ],
+    "wrong_title": "Persistent Ghost Hazards",
+    "wrong_items": [
+      "Drop tangled fishing line ashore",
+      "Leave cord loops hanging in brush"
+    ],
+    "reason": "Abandoned wire and fishing line entangle birds and mammals indefinitely"
+  },
+  "Z07-P27": {
+    "type": "regulation_boundary",
+    "variant": "private_land",
+    "authority": "MN Trespass Law · Private Landowners",
+    "checks": [
+      "Obtain explicit permission before entering parcels",
+      "Ask owner about active hunting/trapping seasons",
+      "Respect all posted signs, crops & closed gates"
+    ],
+    "prohibition": "STOP: Unfenced rural land is NOT automatically public access"
+  },
+  "Z07-P28": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Exclude",
+        "scope": "Non-lethal prevention",
+        "action": "Secure trash & seal home gaps"
+      },
+      {
+        "role": "Check law",
+        "scope": "City & DNR rules",
+        "action": "Verify local bans on relocation"
+      },
+      {
+        "role": "Refer",
+        "scope": "Licensed control",
+        "action": "Call animal control or licensed pro"
+      }
+    ],
+    "trigger": "STOP: Never relocate skunks/raccoons or improvise backyard traps"
+  },
+  "Z07-P29": {
+    "type": "correct_vs_wrong",
+    "variant": "ethics",
+    "correct_title": "Ethical Wildlife Stewardship",
+    "correct_items": [
+      "Track & observe from afar",
+      "Leave zero food or wire behind"
+    ],
+    "wrong_title": "Harmful Field Habits",
+    "wrong_items": [
+      "Bait or crowd animals for close-ups",
+      "Practice capture craft on wildlife"
+    ],
+    "reason": "Healthy wildlife populations depend on low-impact respect and law"
+  },
+  "Z07-P30": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Field user",
+        "scope": "Uncertain rule/set",
+        "action": "Hold action & keep safe distance"
+      },
+      {
+        "role": "Agency",
+        "scope": "MN DNR / USFWS / City",
+        "action": "Confirm statute & report hazard"
+      },
+      {
+        "role": "SME review",
+        "scope": "Law & welfare board",
+        "action": "Formal Z07 sign-off before release"
+      }
+    ],
+    "trigger": "HOLD: Z07 requires qualified wildlife, legal & welfare sign-off"
+  },
+  "Z05-P01": {
+    "type": "specimen_doc_plate",
+    "variant": "botanical_voucher",
+    "views": [
+      "Whole habit & habitat",
+      "Diagnostic leaf/cap view",
+      "Underside, root or base",
+      "cm ruler, GPS & voucher"
+    ],
+    "voucher": "Bell Museum / MyCoPortal key",
+    "hold": "HOLD: Recognition != Consumption"
+  },
+  "Z05-P19": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Basal hairless toothed rosette",
+      "Single hollow leafless stalk",
+      "Milky sap; solitary head",
+      "Exclude branching hairy stems"
+    ],
+    "scale": "Metric ruler + whole plant view",
+    "hold": "HOLD: Consumption withheld; no sprayed turf"
+  },
+  "Z05-P42": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Pinus strobus (White Pine)",
+    "target_traits": [
+      "Soft needles in bundles of 5",
+      "Long woody drooping pine cones"
+    ],
+    "toxic_name": "Taxus spp. (Lethal Yew)",
+    "toxic_traits": [
+      "Flat single dark needles on twig",
+      "Red fleshy cup around toxic seed"
+    ],
+    "exclusion": "HOLD: All yew parts carry lethal cardiac toxins; never consume"
+  },
+  "Z05-P60": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Clustered aggregate drupelets",
+      "Prickly/bristly biennial canes",
+      "3-5 toothed compound leaflets",
+      "Exclude smooth single dark fruit"
+    ],
+    "scale": "Close-up fruit + cane + leaf",
+    "hold": "HOLD: Verify land law; consumption withheld"
+  },
+  "Z05-P76": {
+    "type": "regulation_boundary",
+    "variant": "butternut",
+    "authority": "MN DNR Rare Species · Forest Health",
+    "checks": [
+      "Recognize oblong sticky husk & velvety scar",
+      "Minnesota Species of Special Concern (canker)",
+      "Zero seed or branch harvesting from native trees"
+    ],
+    "prohibition": "STOP: Protect declining native butternut trees completely"
+  },
+  "Z05-P95": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Cap cuticle, shape & margin",
+      "Underside: gills/pores & attachment",
+      "Stipe texture & annulus ring",
+      "Intact base: check soil volva cup"
+    ],
+    "scale": "cm bar + black/white spore card",
+    "hold": "HOLD: Fungal ID never clears consumption"
+  },
+  "Z05-P98": {
+    "type": "fungal_anatomy",
+    "variant": "morel_cutaway",
+    "features": [
+      "True: deep honeycomb pits",
+      "True: 100% hollow tip-to-base",
+      "False: wrinkled brain lobes",
+      "False: chambered/cotton interior"
+    ],
+    "scale": "Lengthwise cutaway + cm scale",
+    "hold": "HOLD: Gyromitra carries lethal gyromitrin"
+  },
+  "Z05-P116": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Lethal Amanita Features",
+    "target_traits": [
+      "Free white gills + white spores",
+      "Skirt ring & hidden basal volva"
+    ],
+    "toxic_name": "Fatal Misidentification Traps",
+    "toxic_traits": [
+      "Egg button mimics small puffball",
+      "Delayed 6-24 hr onset -> liver fail"
+    ],
+    "exclusion": "EMERGENCY: Cooking NEVER destroys amatoxins · Call 1-800-222-1222"
+  },
+  "Z05-P02": {
+    "type": "correct_vs_wrong",
+    "variant": "nomenclature",
+    "correct_title": "Controlled Taxonomy",
+    "correct_items": [
+      "Accepted binomial + author + date",
+      "Separate Plantae & Fungi schemas"
+    ],
+    "wrong_title": "Ambiguous Common Names",
+    "wrong_items": [
+      "Rely on folk names (hemlock/berry)",
+      "Mix obsolete & current species names"
+    ],
+    "reason": "Common names overlap lethal and unrelated species"
+  },
+  "Z05-P03": {
+    "type": "specimen_doc_plate",
+    "variant": "voucher_link",
+    "views": [
+      "Check MN Atlas county map",
+      "Match dichotomous key",
+      "Log habitat & phenology",
+      "Queue curator verification"
+    ],
+    "voucher": "Atlas presence != field ID",
+    "hold": "HOLD: Never trust image-search apps"
+  },
+  "Z05-P04": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Opposite vs alternate stem nodes",
+      "Locate axillary bud (simple/comp)",
+      "Smooth, toothed, or lobed margin",
+      "Observe clear vs milky/colored sap"
+    ],
+    "scale": "10x hand lens + cm ruler",
+    "hold": "HOLD: Never taste sap to identify a plant"
+  },
+  "Z05-P05": {
+    "type": "botanical_morphology",
+    "variant": "umbel_root",
+    "features": [
+      "Flat-topped compound umbel rays",
+      "Sheathing stem bases (Apiaceae)",
+      "Chambered roots (Cicuta hazard)",
+      "Yellow umbels -> photodermatitis"
+    ],
+    "scale": "Hands-off observation + zoom",
+    "hold": "STOP: Reject all unverified wild umbels"
+  },
+  "Z05-P06": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Aggregate drupelets vs smooth skin",
+      "Check seed count & crescent shape",
+      "Inspect persistent calyx & leaf node",
+      "Color NEVER predicts toxicity"
+    ],
+    "scale": "Cross-section + mm scale (gloved)",
+    "hold": "HOLD: Never taste unknown wild fruit"
+  },
+  "Z05-P07": {
+    "type": "system_boundary",
+    "variant": "roots_hold",
+    "zone_a": "Lethal lookalike roots & protected flora",
+    "zone_b": "Non-destructive botanical study",
+    "barrier": "Zero public digging + full plant ID",
+    "hazard": "STOP: Never dig unknown roots or bulbs"
+  },
+  "Z05-P08": {
+    "type": "botanical_morphology",
+    "variant": "phenology",
+    "features": [
+      "Spring shoots: highest lookalike risk",
+      "Summer bloom: best floral key traits",
+      "Autumn fruit: check parent foliage",
+      "Winter stems: dormant toxin persists"
+    ],
+    "scale": "Log exact month & life stage",
+    "hold": "HOLD: Missing stage traits -> STOP ID"
+  },
+  "Z05-P09": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Boreal bog: toxic heaths & sumac",
+      "Hardwood forest: fungi & nut trees",
+      "Woodland edge: buckthorn & brambles",
+      "Disturbed road/field: spray hazard"
+    ],
+    "scale": "Habitat guides search, never proves ID",
+    "limit": "Zero harvest in rare native communities"
+  },
+  "Z05-P10": {
+    "type": "regulation_boundary",
+    "variant": "forage_law",
+    "authority": "MN DNR · NPS 36 CFR 2.1 · Rare Flora",
+    "checks": [
+      "Zero foraging/picking of any kind in MN SNAs",
+      "Zero root digging or plant damage in State Parks",
+      "Strict protection for listed rare plants & ginseng"
+    ],
+    "prohibition": "STOP: Always verify current park/forest rules before picking"
+  },
+  "Z05-P11": {
+    "type": "hazard_exclusion_map",
+    "variant": "site_contam",
+    "zones": [
+      "Roads, rails & sprayed lawns: reject all",
+      "Industrial/flooded soil: heavy metals",
+      "Verified clean site: still HOLD for ID"
+    ],
+    "buffer": "Clean taxonomy never overrides dirty soil",
+    "report": "Check municipal spray & soil history"
+  },
+  "Z05-P12": {
+    "type": "correct_vs_wrong",
+    "variant": "folklore_ban",
+    "correct_title": "Scientific Safety Standard",
+    "correct_items": [
+      "Multi-trait key + voucher + SME",
+      "Call 1-800-222-1222 on exposure"
+    ],
+    "wrong_title": "Lethal Folklore Myths",
+    "wrong_items": [
+      "Skin/lip rub or small taste test",
+      "Boiling or animal-browsing proves safe"
+    ],
+    "reason": "Heat-stable amatoxins and hemlocks defeat every folk test"
+  },
+  "Z05-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Oxalates / Tannins",
+        "note": "Mouth burn & GI/kidney stress",
+        "limit": "Part/stage dependent; HOLD"
+      },
+      {
+        "name": "Cyanogenic / Saponin",
+        "note": "Pits, wilted leaves, raw stems",
+        "limit": "Never chew pits or raw stems"
+      },
+      {
+        "name": "Alkaloids / Glycosides",
+        "note": "Hemlock, yew, nightshade",
+        "limit": "Rapid seizures/cardiac arrest"
+      }
+    ]
+  },
+  "Z05-P14": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Risk screen",
+        "scope": "Kids, pregnancy, meds",
+        "action": "Zero unsupervised wild trials"
+      },
+      {
+        "role": "Mild reaction",
+        "scope": "Rash or GI upset",
+        "action": "Call Poison Help 1-800-222-1222"
+      },
+      {
+        "role": "Anaphylaxis",
+        "scope": "Airway/wheeze/faint",
+        "action": "Call 911 & own epinephrine"
+      }
+    ],
+    "trigger": "HOLD: Individual medical safety is never cleared by taxonomy alone"
+  },
+  "Z05-P15": {
+    "type": "specimen_doc_plate",
+    "variant": "photo_proto",
+    "views": [
+      "Wide habitat & host",
+      "Whole plant/cluster",
+      "Macro leaf/flower/cap",
+      "Underside, base + cm"
+    ],
+    "voucher": "Single-angle photos fail ID",
+    "hold": "HOLD: Expert validation required"
+  },
+  "Z05-P16": {
+    "type": "system_boundary",
+    "variant": "b011_z05",
+    "zone_a": "Frozen B011 unverified leads",
+    "zone_b": "Z05 taxonomic & photo register",
+    "barrier": "Zero fabricated plates; HOLD active",
+    "hazard": "STOP: Expert review required before release"
+  },
+  "Z05-P17": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "5-7 parallel arched leaf veins",
+      "Stringy fibrous leaf petioles",
+      "Basal rosette; tall thin spike",
+      "Exclude lily-of-the-valley bells"
+    ],
+    "scale": "Leaf underside veins + cm ruler",
+    "hold": "HOLD: Reject sprayed turf; consumption withheld"
+  },
+  "Z05-P18": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Urtica dioica (Nettle)",
+    "target_traits": [
+      "Opposite toothed leaves; sting hairs",
+      "Drooping green flower tassels"
+    ],
+    "toxic_name": "Ageratina (White Snakeroot)",
+    "toxic_traits": [
+      "No stinging hairs; smooth stem",
+      "Bright white flat flower clusters"
+    ],
+    "exclusion": "HOLD: Wear gloves for stinging hairs; reject white snakeroot"
+  },
+  "Z05-P20": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "3 oval leaflets + pale V-mark",
+      "Dense globe pink/white heads",
+      "Clasping stem stipules",
+      "Exclude moldy or pinnate stems"
+    ],
+    "scale": "Leaf chevron + head macro",
+    "hold": "HOLD: Mold/spray risk; consumption withheld"
+  },
+  "Z05-P21": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Viola sororia (Violet)",
+    "target_traits": [
+      "Scalloped heart-shaped leaves",
+      "Asymmetric 5-petal spurred bloom"
+    ],
+    "toxic_name": "Caltha / Ranunculus",
+    "toxic_traits": [
+      "Glossy bright yellow radial bloom",
+      "Protoanemonin blistering sap"
+    ],
+    "exclusion": "HOLD: Verify spurred violet bloom; reject glossy yellow lookalikes"
+  },
+  "Z05-P22": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "3 deeply notched heart leaflets",
+      "5-petal small yellow flowers",
+      "Clear watery sap (not milky)",
+      "Oxalic acid renal-limit note"
+    ],
+    "scale": "Close-up leaflet crease + pod",
+    "hold": "HOLD: Soluble oxalates; consumption withheld"
+  },
+  "Z05-P23": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Papery ocrea sheath at node",
+      "Wavy curled or arrow leaves",
+      "Rusty 3-winged seed clusters",
+      "Exclude smooth non-ocrea stems"
+    ],
+    "scale": "Node sheath + leaf margin macro",
+    "hold": "HOLD: High oxalate levels; consumption withheld"
+  },
+  "Z05-P24": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Chenopodium album",
+    "target_traits": [
+      "White mealy powder on leaf backs",
+      "Tiny petal-less green flower clusters"
+    ],
+    "toxic_name": "Solanum (Nightshade)",
+    "toxic_traits": [
+      "Smooth unpowdered dark leaves",
+      "White star blooms & toxic berries"
+    ],
+    "exclusion": "HOLD: Nitrate/oxalate & nightshade risk; consumption withheld"
+  },
+  "Z05-P25": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Prominent pale underside veins",
+      "Rough hairy reddish lower stem",
+      "Dense bristly green seed spikes",
+      "Exclude smooth purple pokeweed"
+    ],
+    "scale": "Stem hair + spike close-up",
+    "hold": "HOLD: Nitrate/oxalate risk; consumption withheld"
+  },
+  "Z05-P26": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Portulaca oleracea",
+    "target_traits": [
+      "Thick fleshy paddle leaves",
+      "Clear watery sap; smooth stem"
+    ],
+    "toxic_name": "Euphorbia maculata (Spurge)",
+    "toxic_traits": [
+      "Thin flat leaves w/ dark spot",
+      "Toxic milky latex sap when cut"
+    ],
+    "exclusion": "HOLD: Milky sap = immediate STOP; wash sap off skin/eyes"
+  },
+  "Z05-P27": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "4-petal white cross-shaped bloom",
+      "Scalloped kidney -> triangle leaf",
+      "Distinct garlic scent when bruised",
+      "Verify park has zero herbicide spray"
+    ],
+    "scale": "Flower cross + seed silique",
+    "hold": "HOLD: Often herbicide-sprayed; consumption withheld"
+  },
+  "Z05-P28": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Stellaria media (Chickweed)",
+    "target_traits": [
+      "Single hair line on round stem",
+      "5 deeply split white star petals"
+    ],
+    "toxic_name": "Scarlet Pimpernel / Spurge",
+    "toxic_traits": [
+      "Square hairless stem or milky sap",
+      "Orange/blue bloom or flat pods"
+    ],
+    "exclusion": "HOLD: Confirm single stem hair line w/ 10x lens; HOLD"
+  },
+  "Z05-P29": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Arctium minus (Burdock)",
+    "target_traits": [
+      "Woolly-gray leaf undersides",
+      "Hooked round purple-tipped burs"
+    ],
+    "toxic_name": "Rhubarb / Foxglove Leaf",
+    "toxic_traits": [
+      "Smooth toxic oxalate leaf blades",
+      "Or toxic cardiac bell flowers"
+    ],
+    "exclusion": "HOLD: Never dig public roots; reject smooth toxic rosettes"
+  },
+  "Z05-P30": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Square-notched sky-blue rays",
+      "Stiff branching stems + milky sap",
+      "Basal dandelion-like rosette",
+      "Exclude roadside spray corridors"
+    ],
+    "scale": "Flower head + basal leaf view",
+    "hold": "HOLD: Roadside contamination high; withheld"
+  },
+  "Z05-P31": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Asclepias syriaca",
+    "target_traits": [
+      "Single stout unbranched stem",
+      "Velvety leaves & warty pods"
+    ],
+    "toxic_name": "Apocynum (Dogbane)",
+    "toxic_traits": [
+      "Branching reddish smooth stems",
+      "Slender paired smooth pods"
+    ],
+    "exclusion": "HOLD: Both carry cardiac glycosides; never sample raw shoots"
+  },
+  "Z05-P32": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Alternate 3-veined lance leaves",
+      "Arching plumes of tiny yellow heads",
+      "Sticky insect pollen (not ragweed)",
+      "Exclude Packera/Senecio ragworts"
+    ],
+    "scale": "Leaf venation + flower plume",
+    "hold": "HOLD: Asteraceae allergy & lookalike HOLD"
+  },
+  "Z05-P33": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Square 4-angled stem cross-section",
+      "Opposite toothed aromatic leaves",
+      "Tubular 2-lipped lavender head",
+      "Verify non-SNA lawful prairie"
+    ],
+    "scale": "Stem square feel + flower tube",
+    "hold": "HOLD: Protect native prairies; withheld"
+  },
+  "Z05-P34": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Mentha canadensis (Mint)",
+    "target_traits": [
+      "Square stem; opposite simple leaves",
+      "Crisp mint scent; axillary blooms"
+    ],
+    "toxic_name": "Cicuta (Water Hemlock)",
+    "toxic_traits": [
+      "Round hollow stem; compound leaves",
+      "White umbels; lethal neurotoxin"
+    ],
+    "exclusion": "HOLD: Inspect wetland banks carefully for co-occurring Cicuta"
+  },
+  "Z05-P35": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "3 coarsely toothed leaflets",
+      "5-petal white flowers (not yellow)",
+      "Trailing runners; pitted red fruit",
+      "Exclude yellow-bloom Potentilla"
+    ],
+    "scale": "Flower color + 3-leaflet node",
+    "hold": "HOLD: Verify land rules; withheld"
+  },
+  "Z05-P36": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Translucent watery jointed stem",
+      "Leaves bead silvery when wet",
+      "Hanging orange spotted hood bloom",
+      "Co-occurs with poison ivy & Cicuta"
+    ],
+    "scale": "Whole stem + hanging flower view",
+    "hold": "HOLD: Oxalate content; not validated medical cure"
+  },
+  "Z05-P37": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Hemerocallis (Daylily)",
+    "target_traits": [
+      "Leafless tall flower scape",
+      "Basal arching ribbon leaves"
+    ],
+    "toxic_name": "True Lilium / Iris",
+    "toxic_traits": [
+      "Leaves attached up flower stem",
+      "Or flat iris fan & toxic rhizome"
+    ],
+    "exclusion": "HOLD: GI reactions & cat lethality; roadside spray risk"
+  },
+  "Z05-P38": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Umbel / Hollow",
+        "scope": "Apiaceae check",
+        "action": "Reject all wild carrot-family"
+      },
+      {
+        "role": "Milky / Glossy",
+        "scope": "Spurge/Dogbane/Solanum",
+        "action": "Stop on latex or star blooms"
+      },
+      {
+        "role": "Clean site",
+        "scope": "Herbicide & SNA check",
+        "action": "Reject roadsides & preserves"
+      }
+    ],
+    "trigger": "HOLD: Herbaceous recognition never clears consumption"
+  },
+  "Z05-P39": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Stiff 4-sided needles roll in fingers",
+      "Attached on tiny woody stem pegs",
+      "Hanging dry papery-scale cones",
+      "Exclude flat-needled lethal Taxus"
+    ],
+    "scale": "Needle cross-section + twig peg",
+    "hold": "HOLD: Confirm woody pegs; consumption withheld"
+  },
+  "Z05-P40": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Abies balsamea (Fir)",
+    "target_traits": [
+      "Blunt flat needles; 2 white bands",
+      "Round twig scars; resin bark blisters"
+    ],
+    "toxic_name": "Taxus canadensis (Yew)",
+    "toxic_traits": [
+      "Pointed flat needles; yellow-green",
+      "Green twigs; lethal cardiac taxines"
+    ],
+    "exclusion": "HOLD: Both grow together in boreal shade; never confuse yew"
+  },
+  "Z05-P41": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Flat fan sprays of tiny scale leaves",
+      "Shredding gray-red fibrous bark",
+      "Tiny upright woody seed cones",
+      "Contains neurotoxic thujone"
+    ],
+    "scale": "Flat scale spray + tiny cone",
+    "hold": "STOP: Thujone toxicity; do not brew cedar tea"
+  },
+  "Z05-P43": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Strictly opposite twigs & buds",
+      "Palmate 5-lobed simple leaves",
+      "Paired winged samara seeds",
+      "Zero tapping on public park trees"
+    ],
+    "scale": "Opposite twig + samara pair",
+    "hold": "HOLD: Public-land tapping banned; withheld"
+  },
+  "Z05-P44": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Horizontal dark bark lenticels",
+      "Alternate doubly-toothed leaves",
+      "Bronze curly twigs (yellow birch)",
+      "Exclude toxic cyanogenic Prunus"
+    ],
+    "scale": "Twig lenticels + leaf margin",
+    "hold": "HOLD: Never peel live trees; withheld"
+  },
+  "Z05-P45": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Asymmetric lopsided heart base",
+      "Alternate coarsely toothed leaf",
+      "Round nutlets on wing-like bract",
+      "Reddish plump winter buds"
+    ],
+    "scale": "Asymmetric base + bract macro",
+    "hold": "HOLD: Preserve B007 wood hold; withheld"
+  },
+  "Z05-P46": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Distinctly flattened leafstalks",
+      "Rounded (aspen) or triangular leaf",
+      "Pale scarred vs deep furrowed bark",
+      "Salicylate allergy caution in bark"
+    ],
+    "scale": "Flat petiole close-up + bark",
+    "hold": "HOLD: No live cutting; consumption withheld"
+  },
+  "Z05-P47": {
+    "type": "system_boundary",
+    "variant": "salix_caution",
+    "zone_a": "Wild Salix bark (unmeasured salicin)",
+    "zone_b": "Clinical medical care & dosing",
+    "barrier": "No wild bark dosing; allergy/bleed risk",
+    "hazard": "STOP: Salicylate hazard for kids, asthma & blood thinners"
+  },
+  "Z05-P48": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Rhus typhina (Red Sumac)",
+    "target_traits": [
+      "Dry upland; 11-31 toothed leaflets",
+      "Upright dense fuzzy crimson cone"
+    ],
+    "toxic_name": "Toxicodendron vernix",
+    "toxic_traits": [
+      "Wet bogs; 7-13 smooth leaflets",
+      "Drooping waxy white-gray berries"
+    ],
+    "exclusion": "HOLD: Severe urushiol hazard in poison sumac; Anacardiaceae allergy"
+  },
+  "Z05-P49": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Prunus (Wild Cherry)",
+    "target_traits": [
+      "Alternate leaves + petiole glands",
+      "Single pit (CYANOGENIC — toxic!)"
+    ],
+    "toxic_name": "Rhamnus (Buckthorn)",
+    "toxic_traits": [
+      "Sub-opposite leaves + twig spine",
+      "3-4 seeds; severe GI purging"
+    ],
+    "exclusion": "HOLD: Never chew cherry pits or wilted leaves; exclude buckthorn"
+  },
+  "Z05-P50": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Sticky fragrant pointed resin buds",
+      "Oval leaves pale rusty underneath",
+      "Round (non-flat) leaf petioles",
+      "Contact-allergy resin caution"
+    ],
+    "scale": "Resinous winter bud + leaf back",
+    "hold": "HOLD: Allergen caution; no live cutting"
+  },
+  "Z05-P51": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Persistent woody miniature cones",
+      "Distinctly stalked winter buds",
+      "Doubly-toothed deeply veined leaf",
+      "Exclude smooth-leaf buckthorn"
+    ],
+    "scale": "Mini-cones + stalked winter bud",
+    "hold": "HOLD: Habitat/ecology ID reference only"
+  },
+  "Z05-P52": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Fine vertical shredding bark strips",
+      "Papery hop-like fruit bladders",
+      "Birch-like alternate toothed leaf",
+      "Dense heavy wood; no live cut"
+    ],
+    "scale": "Bark texture + hop fruit cluster",
+    "hold": "HOLD: Ecology & material reference only"
+  },
+  "Z05-P53": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Unequal asymmetric leaf base",
+      "Doubly-toothed rough upper face",
+      "Flat round papery winged seeds",
+      "Zero live inner-bark stripping"
+    ],
+    "scale": "Leaf base + samara close-up",
+    "hold": "HOLD: Protect declining native elms"
+  },
+  "Z05-P54": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Strictly opposite bright-red twigs",
+      "Smooth-edged arcuate-vein leaves",
+      "Bitter white berries (non-food)",
+      "Exclude poison sumac & baneberry"
+    ],
+    "scale": "Opposite red twig + leaf venation",
+    "hold": "HOLD: Non-food shrub ID reference only"
+  },
+  "Z05-P55": {
+    "type": "sequence_plate",
+    "variant": "winter_twig",
+    "steps": [
+      {
+        "label": "1. Branching",
+        "detail": "Opposite vs alternate nodes"
+      },
+      {
+        "label": "2. Bud scales",
+        "detail": "Single cap vs overlapping"
+      },
+      {
+        "label": "3. Leaf scar",
+        "detail": "Shape & bundle-scar dots"
+      },
+      {
+        "label": "4. Vine check",
+        "detail": "Never touch/burn fuzzy vines"
+      }
+    ],
+    "cue": "Dormant winter poison ivy retains active urushiol oil"
+  },
+  "Z05-P56": {
+    "type": "regulation_boundary",
+    "variant": "tree_limits",
+    "authority": "MN DNR Forestry · NPS · Botanist",
+    "checks": [
+      "Zero live bark stripping or twig cutting in parks",
+      "Exclude Taxus, Prunus wilted leaves & Toxicodendron",
+      "Keep all tree teas & barks on WITHHELD_HOLD"
+    ],
+    "prohibition": "STOP: Never injure living trees or brew unverified foliage"
+  },
+  "Z05-P57": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Low woody acid-soil shrub",
+      "Dusty blue berry + 5-point crown",
+      "Many tiny soft seeds inside",
+      "Exclude toxic bog heaths & SNAs"
+    ],
+    "scale": "Crown star close-up + leaf margin",
+    "hold": "HOLD: Verify land rules; consumption withheld"
+  },
+  "Z05-P58": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Amelanchier (Serviceberry)",
+    "target_traits": [
+      "Alternate spineless toothed leaves",
+      "Crowned mini-apple pome; 4-10 seeds"
+    ],
+    "toxic_name": "Rhamnus (Buckthorn)",
+    "toxic_traits": [
+      "Sub-opposite leaves + twig spine",
+      "Smooth uncrowned dark purging berry"
+    ],
+    "exclusion": "HOLD: Confirm spineless twigs & crown; consumption withheld"
+  },
+  "Z05-P59": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Sambucus canadensis",
+    "target_traits": [
+      "Woody opposite compound shrub",
+      "Flat cymes; stems/raw fruit TOXIC"
+    ],
+    "toxic_name": "S. racemosa / Cicuta",
+    "toxic_traits": [
+      "Red berries (S. racemosa)",
+      "Or non-woody lethal water hemlock"
+    ],
+    "exclusion": "HOLD: Raw stems/seeds/unripe berries are toxic; never confuse Cicuta"
+  },
+  "Z05-P61": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Alternate maple-like lobed leaves",
+      "Nodal spines on gooseberry stems",
+      "Berry keeps dried tip flower tube",
+      "Exclude non-lobed dark berries"
+    ],
+    "scale": "Lobed leaf + apical calyx view",
+    "hold": "HOLD: Verify land law; consumption withheld"
+  },
+  "Z05-P62": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Strictly opposite leaf nodes",
+      "Single flattened disc-shaped pit",
+      "Winged petiole or 3-lobed leaf",
+      "Exclude multi-seeded baneberry"
+    ],
+    "scale": "Flat disc stone + opposite twig",
+    "hold": "HOLD: Confirm single flat stone; withheld"
+  },
+  "Z05-P63": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Alternate sharply serrated leaves",
+      "2-3 cm yellow-red dusty plum",
+      "Single large flat pit (TOXIC!)",
+      "Exclude small black buckthorn"
+    ],
+    "scale": "Fruit diameter + flat pit view",
+    "hold": "HOLD: Cyanogenic pit warning; withheld"
+  },
+  "Z05-P64": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Vitis riparia (Wild Grape)",
+    "target_traits": [
+      "Forked tendrils + toothed leaves",
+      "2-4 smooth pear-shaped seeds"
+    ],
+    "toxic_name": "Menispermum (Moonseed)",
+    "toxic_traits": [
+      "ZERO tendrils; smooth leaf edges",
+      "Single flat CRESCENT ridged seed"
+    ],
+    "exclusion": "STOP: Check tendrils AND cut fruit for crescent seed; HOLD"
+  },
+  "Z05-P65": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Rosa spp. (Rose Hip)",
+    "target_traits": [
+      "Pinnate serrated leaves + stipules",
+      "Red urn hip w/ bristly inner hairs"
+    ],
+    "toxic_name": "Solanum dulcamara",
+    "toxic_traits": [
+      "Lobed purple-bloom climbing vine",
+      "Smooth red toxic solanine berry"
+    ],
+    "exclusion": "HOLD: Inner hip hairs irritate GI; exclude nightshade vines"
+  },
+  "Z05-P66": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Tree w/ variable mitten/lobed leaf",
+      "Elongated soft clustered fruit",
+      "Unripe green fruit & sap TOXIC",
+      "Verify non-protected native tree"
+    ],
+    "scale": "Variable leaves + fruit close-up",
+    "hold": "HOLD: Unripe fruit toxic; consumption withheld"
+  },
+  "Z05-P67": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Long 3-7 cm smooth sharp thorns",
+      "Alternate toothed deciduous leaves",
+      "Closed red mini-apple + hard pits",
+      "Exclude open red cup of Taxus"
+    ],
+    "scale": "Thorn + closed pome cross-section",
+    "hold": "HOLD: Puncture & seed cyanogenic caution"
+  },
+  "Z05-P68": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Spineless alternate toothed leaves",
+      "Tiny dark glands on upper midrib",
+      "Shiny black crowned mini-pomes",
+      "Exclude smooth-leaf buckthorn"
+    ],
+    "scale": "10x lens upper midrib glands",
+    "hold": "HOLD: Bog SNA rules; consumption withheld"
+  },
+  "Z05-P69": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Low leathery evergreen leaves",
+      "Distinct wintergreen leaf scent",
+      "Bright red 5-pointed crowned berry",
+      "Methyl salicylate medical caution"
+    ],
+    "scale": "Whole low plant + red berry",
+    "hold": "HOLD: Salicylate hazard; consumption withheld"
+  },
+  "Z05-P70": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Cornus canadensis",
+    "target_traits": [
+      "Low whorl of 4-6 smooth leaves",
+      "Tight cluster of bright red fruit"
+    ],
+    "toxic_name": "Actaea rubra (Baneberry)",
+    "toxic_traits": [
+      "Tall compound toothed leaves",
+      "Glossy toxic cardiogenic berries"
+    ],
+    "exclusion": "HOLD: Boreal red berries require full-plant check; withheld"
+  },
+  "Z05-P71": {
+    "type": "system_boundary",
+    "variant": "mayapple_tox",
+    "zone_a": "Podophyllum roots, leaves, seeds & green fruit",
+    "zone_b": "Non-contact woodland botany study",
+    "barrier": "Podophyllotoxin severe cellular poison",
+    "hazard": "STOP: Never sample any part of mayapple; call 1-800-222-1222"
+  },
+  "Z05-P72": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Dark / Black",
+        "scope": "Moonseed, Buckthorn, Poke",
+        "action": "Check tendrils, spines & seeds"
+      },
+      {
+        "role": "Red",
+        "scope": "Yew, Baneberry, Nightshade",
+        "action": "Check flat needles & open cup"
+      },
+      {
+        "role": "White",
+        "scope": "Poison Sumac, Doll-eyes",
+        "action": "Reject all wild white berries"
+      }
+    ],
+    "trigger": "STOP: Berry color never predicts edibility; call 1-800-222-1222"
+  },
+  "Z05-P73": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Quercus spp. (Acorn)",
+    "target_traits": [
+      "Alternate lobed leaves; scaly cup",
+      "RAW tannins irritate GI/kidneys"
+    ],
+    "toxic_name": "Aesculus (Buckeye)",
+    "toxic_traits": [
+      "Opposite palmate compound leaf",
+      "Glossy eye-spot nut; lethal toxins"
+    ],
+    "exclusion": "HOLD: Never eat raw acorns or buckeyes; leaching on HOLD"
+  },
+  "Z05-P74": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Multi-stemmed alternate toothed shrub",
+      "Ruffled leafy or bristly beak husk",
+      "Hard round nut inside papery bract",
+      "Tree-nut anaphylaxis & husk hairs"
+    ],
+    "scale": "Husk + leaf margin + nut scale",
+    "hold": "HOLD: Tree-nut allergen; consumption withheld"
+  },
+  "Z05-P75": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "15-23 alternate pinnate leaflets",
+      "Chambered pith in cut twig",
+      "Un-split green aromatic husk",
+      "Severe nut allergy & moldy-hull risk"
+    ],
+    "scale": "Husk + corrugated shell scale",
+    "hold": "HOLD: Tree-nut allergen; moldy hulls toxic"
+  },
+  "Z05-P77": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Alternate 5-9 pinnate leaflets",
+      "4-valved husk splits on seams",
+      "Peeling bark (shagbark) vs yellow bud",
+      "Exclude opposite-leaf buckeyes"
+    ],
+    "scale": "4-part husk + bark/bud close-up",
+    "hold": "HOLD: Tree-nut allergen; consumption withheld"
+  },
+  "Z05-P78": {
+    "type": "specimen_doc_plate",
+    "variant": "range_check",
+    "views": [
+      "Verify Bell Atlas MN range",
+      "Compare bark & winter buds",
+      "Check planted vs wild site",
+      "Reject out-of-range guesses"
+    ],
+    "voucher": "Range check stops false IDs",
+    "hold": "HOLD: Verify regional occurrence first"
+  },
+  "Z05-P79": {
+    "type": "regulation_boundary",
+    "variant": "wild_rice",
+    "authority": "Sovereign Tribal Authorities · MN DNR",
+    "checks": [
+      "Verify tribal reservation & ceded-territory rules",
+      "Confirm MN DNR wild-rice license & open dates",
+      "Obey strict non-motorized flail & boat statutes"
+    ],
+    "prohibition": "STOP: Unauthorized wild-rice harvest violates state & tribal law"
+  },
+  "Z05-P80": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Tall rough-sandpapery stems",
+      "Large yellow ray + brown/yellow disk",
+      "Flat seed head w/ striped achenes",
+      "Exclude sprayed edges & SNAs"
+    ],
+    "scale": "Flower head + stem roughness",
+    "hold": "HOLD: Native prairie protection; withheld"
+  },
+  "Z05-P81": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Woody Pine Cone Seed",
+    "target_traits": [
+      "Tiny winged seed in woody cone",
+      "Bundled conifer needles on tree"
+    ],
+    "toxic_name": "Aesculus (Buckeye)",
+    "toxic_traits": [
+      "Large glossy nut w/ pale eye",
+      "Opposite palmate leaves; TOXIC"
+    ],
+    "exclusion": "STOP: Buckeyes & horsechestnuts are poisonous; call 1-800-222-1222"
+  },
+  "Z05-P82": {
+    "type": "failure_mode",
+    "cause": "Damp fallen nuts grow heat-stable mold mycotoxins",
+    "cue": "Cracked shells, musty smell, dark/fuzzy meat, insect holes",
+    "correction": "Discard suspect nuts; enforce nut-allergy & HOLD gates"
+  },
+  "Z05-P83": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Typha latifolia (Cattail)",
+    "target_traits": [
+      "Spongy D-shaped thick leaves",
+      "Cylindrical brown flower spike"
+    ],
+    "toxic_name": "Iris versicolor (Blue Flag)",
+    "toxic_traits": [
+      "Flat sword leaves in tight fan",
+      "Toxic rhizomes; no brown spike"
+    ],
+    "exclusion": "HOLD: Non-flowering shoots high risk; never dig wetland roots"
+  },
+  "Z05-P84": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Sagittaria latifolia",
+    "target_traits": [
+      "3-petal white whorled flowers",
+      "Pointed arrow leaves; smooth stalk"
+    ],
+    "toxic_name": "Calla / Peltandra (Arums)",
+    "toxic_traits": [
+      "Hooded spathe & club spadix",
+      "Severe calcium-oxalate crystals"
+    ],
+    "exclusion": "HOLD: Verify 3-petal bloom; never dig public wetlands"
+  },
+  "Z05-P85": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Allium spp. (Wild Leek/Onion)",
+    "target_traits": [
+      "Strong onion scent on leaf & bulb",
+      "Slow-growing; no public digging"
+    ],
+    "toxic_name": "Convallaria / Death Camas",
+    "toxic_traits": [
+      "ZERO onion or garlic odor",
+      "Lethal cardiac/alkaloid toxins"
+    ],
+    "exclusion": "STOP: Zero onion odor = lethal lookalike risk; protect native ramps"
+  },
+  "Z05-P86": {
+    "type": "botanical_morphology",
+    "variant": "umbel_root",
+    "features": [
+      "Tall rough sunflower stem intact",
+      "Winged-petiole sandpapery leaves",
+      "Knobby tuber only on verified stem",
+      "Zero public-land root digging"
+    ],
+    "scale": "Intact stem + flower + tuber note",
+    "hold": "HOLD: Never dig dormant unverified roots"
+  },
+  "Z05-P87": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Twining vine; 5-7 smooth leaflets",
+      "Dense brownish-maroon pea blooms",
+      "Beaded chains of tubers (raw toxic)",
+      "Exclude 3-leaflet poison ivy"
+    ],
+    "scale": "Compound 5-7 leaf + pea bloom",
+    "hold": "HOLD: Raw tubers unsafe; no public digging"
+  },
+  "Z05-P88": {
+    "type": "regulation_boundary",
+    "variant": "prairie_turnip",
+    "authority": "MN DNR Native Prairie & SNA Protection",
+    "checks": [
+      "Native MN tallgrass prairie is critically rare",
+      "Zero digging of prairie roots on public lands",
+      "Exclude toxic multi-leaflet Lupinus/Astragalus"
+    ],
+    "prohibition": "STOP: Observe native prairie flora without disturbing soil"
+  },
+  "Z05-P89": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Smilax (Greenbrier)",
+    "target_traits": [
+      "Paired tendrils at petiole base",
+      "Strong parallel curving leaf veins"
+    ],
+    "toxic_name": "Menispermum (Moonseed)",
+    "toxic_traits": [
+      "Zero tendrils; net-veined leaves",
+      "Lethal crescent-seeded dark fruit"
+    ],
+    "exclusion": "HOLD: Confirm paired tendrils & parallel veins; withheld"
+  },
+  "Z05-P90": {
+    "type": "regulation_boundary",
+    "variant": "aquatic_plants",
+    "authority": "MN DNR Aquatic Plant Management Law",
+    "checks": [
+      "Public-water aquatic vegetation is regulated",
+      "Lake mud concentrates runoff metals/pathogens",
+      "Lily rhizomes contain nupharine alkaloids"
+    ],
+    "prohibition": "STOP: Do not uproot aquatic plants or sample raw rhizomes"
+  },
+  "Z05-P91": {
+    "type": "botanical_morphology",
+    "variant": "phenology",
+    "features": [
+      "Single pair narrow opposite leaves",
+      "5-petal white pink-veined blooms",
+      "Brief Apr-May woodland window",
+      "Exclude ferny toxic Dicentra"
+    ],
+    "scale": "Opposite leaf pair + flower veins",
+    "hold": "HOLD: Protect spring ephemerals; no digging"
+  },
+  "Z05-P92": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Daucus carota (Wild Carrot)",
+    "target_traits": [
+      "Bristly hairy green stem + lacy bracts",
+      "Extreme fatal lookalike overlap!"
+    ],
+    "toxic_name": "Conium & Cicuta (Hemlocks)",
+    "toxic_traits": [
+      "Smooth spotted or chambered stem",
+      "RAPID SEIZURES, PARALYSIS, DEATH"
+    ],
+    "exclusion": "STOP: Unconditional no-forage rule on ALL wild Apiaceae umbels"
+  },
+  "Z05-P93": {
+    "type": "regulation_boundary",
+    "variant": "root_law",
+    "authority": "MN DNR · NPS 36 CFR 2.1 · Rare Species",
+    "checks": [
+      "Root digging prohibited in State/National Parks & SNAs",
+      "Wild ginseng & native orchids strictly protected",
+      "Dormant roots lack diagnostic foliage & hold metals"
+    ],
+    "prohibition": "STOP: Never dig wild roots, bulbs, or corms on public lands"
+  },
+  "Z05-P94": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Wetland root",
+        "scope": "Cicuta & Iris",
+        "action": "Reject all marsh umbels & fans"
+      },
+      {
+        "role": "Bulb check",
+        "scope": "Camas & Lily-valley",
+        "action": "Zero onion smell -> STOP"
+      },
+      {
+        "role": "Woodland root",
+        "scope": "Mayapple & Dicentra",
+        "action": "Never dig public/unknown roots"
+      }
+    ],
+    "trigger": "STOP: Underground ID errors are fatal; call 1-800-222-1222"
+  },
+  "Z05-P96": {
+    "type": "fungal_anatomy",
+    "variant": "spore_substrate",
+    "features": [
+      "Split black & white spore card",
+      "Check white, rusty, green, black",
+      "Log soil vs hardwood vs conifer",
+      "Spore color alone != safety"
+    ],
+    "scale": "2-12 hr draft-free deposit",
+    "hold": "HOLD: Lethal Amanita also drops white spores"
+  },
+  "Z05-P97": {
+    "type": "failure_mode",
+    "cause": "Sealed plastic, decay, raw toxins & soil heavy metals",
+    "cue": "Slimy caps, foul odor, urban/roadside soil, raw sampling",
+    "correction": "Use paper bags for vouchers; keep consumption WITHHELD"
+  },
+  "Z05-P99": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Overlapping orange-yellow brackets",
+      "Tiny pore underside (ZERO gills)",
+      "Confirm hardwood (oak) host only",
+      "Exclude conifer-host & gilled orange"
+    ],
+    "scale": "Pore underside + host tree ID",
+    "hold": "HOLD: Conifer hosts & GI reactions; withheld"
+  },
+  "Z05-P100": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Dense gray-brown frond rosette",
+      "Tiny white pores (zero gills)",
+      "Mature oak base substrate",
+      "Check no rapid black bruising"
+    ],
+    "scale": "Frond underside + oak trunk view",
+    "hold": "HOLD: Confirm pore surface; withheld"
+  },
+  "Z05-P101": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Cantharellus (Chanterelle)",
+    "target_traits": [
+      "On SOIL; blunt forked false ridges",
+      "Solid WHITE interior flesh on cut"
+    ],
+    "toxic_name": "Omphalotus (Jack-o-Lantern)",
+    "toxic_traits": [
+      "Clustered on WOOD; sharp true gills",
+      "ORANGE flesh; severe GI toxin"
+    ],
+    "exclusion": "HOLD: Always slice flesh & verify soil substrate; withheld"
+  },
+  "Z05-P102": {
+    "type": "fungal_anatomy",
+    "variant": "morel_cutaway",
+    "features": [
+      "Thin dark hollow trumpet funnel",
+      "Smooth/wrinkled outer face (no gills)",
+      "Grows in mossy oak forest soil",
+      "Exclude orange scaly vase fungi"
+    ],
+    "scale": "Cutaway funnel + outer surface",
+    "hold": "HOLD: Verify zero gills; consumption withheld"
+  },
+  "Z05-P103": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Pleurotus (Oyster)",
+    "target_traits": [
+      "Fleshy caps on HARDWOOD logs",
+      "Decurrent smooth-edged white gills"
+    ],
+    "toxic_name": "Pleurocybella (Angel Wing)",
+    "toxic_traits": [
+      "Fragile pure-white on CONIFERS",
+      "Linked to fatal encephalopathy"
+    ],
+    "exclusion": "HOLD: Confirm hardwood host & white/lilac spore print; withheld"
+  },
+  "Z05-P104": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Soft white hanging icicle spines",
+      "No gills, pores, or upward forks",
+      "Hardwood trunk or log substrate",
+      "Exclude soil corals & yellow decay"
+    ],
+    "scale": "Hanging spine macro + host log",
+    "hold": "HOLD: Verify hardwood host; withheld"
+  },
+  "Z05-P105": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Puffball Cutaway",
+    "target_traits": [
+      "100% uniform pure-white interior",
+      "Zero embryonic cap/stem outline"
+    ],
+    "toxic_name": "Amanita Egg / Earthball",
+    "toxic_traits": [
+      "Hidden mushroom outline inside egg",
+      "Or dark purple-black earthball core"
+    ],
+    "exclusion": "STOP: Never skip vertical slice; ANY outline or dark core = REJECT"
+  },
+  "Z05-P106": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Tall cylindrical shaggy-scaled cap",
+      "Free gills turn rapidly to black ink",
+      "No basal volva; hollow stem",
+      "Exclude smooth gray Coprinopsis"
+    ],
+    "scale": "Height profile + gill margin",
+    "hold": "HOLD: Coprine-alcohol lookalike & spray risk"
+  },
+  "Z05-P107": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Tan cap w/ dark brown scales",
+      "Large angular cream pores (no gills)",
+      "Stout dark velvety off-center base",
+      "Fresh cucumber-rind odor note"
+    ],
+    "scale": "Angular pore close-up + cm bar",
+    "hold": "HOLD: Verify pore surface; withheld"
+  },
+  "Z05-P108": {
+    "type": "system_boundary",
+    "variant": "chaga_oxalate",
+    "zone_a": "High-oxalate chaga & live birch injury",
+    "zone_b": "Non-destructive boreal mycology study",
+    "barrier": "Zero live-tree hacking; oxalate renal risk",
+    "hazard": "STOP: High oxalate nephropathy risk & park harvest bans"
+  },
+  "Z05-P109": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Spongy vertical pore layer (no gills)",
+      "Check pore color: reject red/orange",
+      "Slice stem: watch rapid blue stain",
+      "Inspect stem net vs dark scabers"
+    ],
+    "scale": "Pore face + sliced stem check",
+    "hold": "HOLD: Reject red-pored & blue-staining boletes"
+  },
+  "Z05-P110": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Armillaria (Honey)",
+    "target_traits": [
+      "Dense clusters; tiny dark cap scales",
+      "Strictly WHITE spore print (verify!)"
+    ],
+    "toxic_name": "Galerina marginata (LETHAL)",
+    "toxic_traits": [
+      "Smooth brown cap on rotting wood",
+      "RUSTY-BROWN spores; AMATOXINS!"
+    ],
+    "exclusion": "STOP: Check spore print on EVERY cap; Galerina is fatal"
+  },
+  "Z05-P111": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Cap & stem on mossy forest floor",
+      "Fragile pale downward underside teeth",
+      "White spore print (no gills/pores)",
+      "Exclude dark scaly brown-spored teeth"
+    ],
+    "scale": "Underside teeth macro + cm bar",
+    "hold": "HOLD: Confirm white spore print; withheld"
+  },
+  "Z05-P112": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Flattened cream ruffled ribbons",
+      "Central base near oak/conifer",
+      "Smooth fertile faces (no pores)",
+      "Exclude cylindrical toxic corals"
+    ],
+    "scale": "Ribbon cross-section + habitat",
+    "hold": "HOLD: Confirm flat ribbons; withheld"
+  },
+  "Z05-P113": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Flammulina velutipes",
+    "target_traits": [
+      "Sticky orange cap; NO stem ring",
+      "Black-velvet lower stem; WHITE spore"
+    ],
+    "toxic_name": "Galerina marginata (LETHAL)",
+    "toxic_traits": [
+      "Faint ring; non-velvet pale stem",
+      "RUSTY-BROWN spores; AMATOXINS!"
+    ],
+    "exclusion": "STOP: Never skip spore print; Galerina causes fatal liver failure"
+  },
+  "Z05-P114": {
+    "type": "correct_vs_wrong",
+    "variant": "fungi_myths",
+    "correct_title": "Mycological Rigor",
+    "correct_items": [
+      "Slice puffballs & morels lengthwise",
+      "Verify spores, base & host tree"
+    ],
+    "wrong_title": "Dangerous Fungal Shortcuts",
+    "wrong_items": [
+      "Assume no gills equals safe",
+      "Skip base excavation or spore print"
+    ],
+    "reason": "Gyromitra, Amanita eggs, and red boletes break simple rules"
+  },
+  "Z05-P115": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Field record",
+        "scope": "Multi-view + base",
+        "action": "Log cap, gills, volva & spore print"
+      },
+      {
+        "role": "Voucher check",
+        "scope": "MyCoPortal / Bell",
+        "action": "Match key & toxic lookalikes"
+      },
+      {
+        "role": "Mycologist",
+        "scope": "Independent SME",
+        "action": "Formal review; HOLD stays active"
+      }
+    ],
+    "trigger": "HOLD: Zero wild mushrooms cleared for eating by draft cards"
+  },
+  "Z05-P117": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Small brown cap on rotting wood",
+      "Attached tan-to-rusty gills",
+      "Faint fragile stem ring",
+      "RUSTY-BROWN spore print (LETHAL)"
+    ],
+    "scale": "Spore print on white paper",
+    "hold": "EMERGENCY: Contains fatal amatoxins; 1-800-222-1222"
+  },
+  "Z05-P118": {
+    "type": "fungal_anatomy",
+    "variant": "morel_cutaway",
+    "features": [
+      "Wrinkled brain-like lobed cap",
+      "Chambered/cotton-filled interior",
+      "Toxic gyromitrin & cooking fumes",
+      "Causes seizures & liver failure"
+    ],
+    "scale": "Lengthwise cutaway comparison",
+    "hold": "STOP: Toxic gyromitrin; call 1-800-222-1222"
+  },
+  "Z05-P119": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Tawny-orange cap in conifer moss",
+      "Cobweb veil (cortina) on young cap",
+      "Rusty-brown spore print",
+      "Silent kidney failure 2-14+ days"
+    ],
+    "scale": "Cobweb veil + rusty spore check",
+    "hold": "EMERGENCY: Orellanine delayed renal failure"
+  },
+  "Z05-P120": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Omphalotus (TOXIC)",
+    "target_traits": [
+      "Clustered on wood; sharp true gills",
+      "ORANGE interior flesh; illudin toxin"
+    ],
+    "toxic_name": "Often Mistaken For",
+    "toxic_traits": [
+      "Cantharellus (soil; white flesh)",
+      "Laetiporus (pores, zero gills)"
+    ],
+    "exclusion": "STOP: Violent GI poisoning; slice cap & check substrate"
+  },
+  "Z05-P121": {
+    "type": "fungal_anatomy",
+    "variant": "spore_substrate",
+    "features": [
+      "Large scaly white umbrella on lawn",
+      "Free gills turn dingy gray-green",
+      "OLIVE-GREEN spore print (key!)",
+      "Causes severe rapid GI poisoning"
+    ],
+    "scale": "Mandatory spore print on white",
+    "hold": "STOP: #1 North American mushroom poisoning"
+  },
+  "Z05-P122": {
+    "type": "botanical_morphology",
+    "variant": "umbel_root",
+    "features": [
+      "Veins end in leaf-tooth NOTCHES",
+      "Smooth hollow purple-streaked stem",
+      "Flat-topped white compound umbels",
+      "Chambered root: LETHAL cicutoxin"
+    ],
+    "scale": "Hands-off zoom observation only",
+    "hold": "EMERGENCY: Most toxic North American plant · Call 911"
+  },
+  "Z05-P123": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Conium maculatum (LETHAL)",
+    "target_traits": [
+      "Smooth HAIRLESS purple-blotched stem",
+      "Ferny leaves; flat white umbels"
+    ],
+    "toxic_name": "Fatal Paralysis Hazard",
+    "toxic_traits": [
+      "Mimics wild carrot/parsley roots",
+      "Coniine causes respiratory arrest"
+    ],
+    "exclusion": "EMERGENCY: Reject ALL wild white umbels; call 911 if eaten"
+  },
+  "Z05-P124": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Swept-back 5-petal star flowers",
+      "Bright yellow fused anther cone",
+      "Glossy oval red or black berries",
+      "Solanine glycoalkaloid hazard"
+    ],
+    "scale": "Star flower + glossy berry view",
+    "hold": "STOP: Attractive toxic berries; 1-800-222-1222"
+  },
+  "Z05-P125": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Ageratina (White Snakeroot)",
+    "target_traits": [
+      "Opposite 3-veined smooth leaves",
+      "Bright white heads; tremetol toxin"
+    ],
+    "toxic_name": "Phytolacca (Pokeweed)",
+    "toxic_traits": [
+      "Stout smooth magenta-purple stem",
+      "Hanging ink-purple toxic berries"
+    ],
+    "exclusion": "STOP: Both are toxic; never treat pokeweed as safe folk greens"
+  },
+  "Z05-P126": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Sub-opposite glossy curved-vein leaf",
+      "Short terminal spine between buds",
+      "Orange inner bark; late green leaf",
+      "3-4 seeded purging black berries"
+    ],
+    "scale": "Terminal twig spine + 4-seed cut",
+    "hold": "STOP: Common MN invasive toxic berry"
+  },
+  "Z05-P127": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Menispermum (LETHAL)",
+    "target_traits": [
+      "ZERO tendrils; smooth leaf edges",
+      "Single flat CRESCENT ridged pit"
+    ],
+    "toxic_name": "Confused With Wild Grape",
+    "toxic_traits": [
+      "Vitis has forked tendrils & teeth",
+      "Vitis has 2-4 smooth pear seeds"
+    ],
+    "exclusion": "EMERGENCY: Crescent seed = LETHAL moonseed · Call 1-800-222-1222"
+  },
+  "Z05-P128": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Large jagged compound foliage",
+      "Porcelain-white black-dot berries",
+      "Or glossy red berries on thin stalks",
+      "Cardiogenic & oral-blister toxin"
+    ],
+    "scale": "Whole stem + berry stalk view",
+    "hold": "EMERGENCY: Cardiogenic berries · Call 1-800-222-1222"
+  },
+  "Z05-P129": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Flat pointed single dark needles",
+      "Green twigs; no white bands below",
+      "Open red cup around TOXIC seed",
+      "Taxine causes fatal arrhythmia"
+    ],
+    "scale": "Flat needle rank + open red aril",
+    "hold": "EMERGENCY: Lethal cardiac taxines · Call 911"
+  },
+  "Z05-P130": {
+    "type": "system_boundary",
+    "variant": "urushiol",
+    "zone_a": "Leaves, roots, fuzzy winter vines & smoke",
+    "zone_b": "Cool soap wash & separate laundry",
+    "barrier": "Zero bare touch; NEVER burn vines",
+    "hazard": "STOP: Inhaled poison-ivy smoke causes airway emergency -> 911"
+  },
+  "Z05-P131": {
+    "type": "sequence_plate",
+    "variant": "parsnip_burn",
+    "steps": [
+      {
+        "label": "1. Recognize",
+        "detail": "Flat yellow umbel + grooved stem"
+      },
+      {
+        "label": "2. Avoid sap",
+        "detail": "Wear long pants & gloves"
+      },
+      {
+        "label": "3. Wash fast",
+        "detail": "Soap & cool water immediately"
+      },
+      {
+        "label": "4. Block sun",
+        "detail": "Shield skin from UV 48+ hrs"
+      }
+    ],
+    "cue": "Furocoumarin sap + sunlight causes blistering chemical burns"
+  },
+  "Z05-P132": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Convallaria (LETHAL)",
+    "target_traits": [
+      "Smooth parallel leaves; NO onion smell",
+      "White bells -> red berries; cardiac"
+    ],
+    "toxic_name": "Veratrum (LETHAL)",
+    "toxic_traits": [
+      "Pleated ribbed broad spring leaves",
+      "Severe bradycardia & shock toxins"
+    ],
+    "exclusion": "EMERGENCY: Zero onion scent on spring strap leaves -> STOP"
+  },
+  "Z05-P133": {
+    "type": "seasonal_timeline",
+    "variant": "mush_onset",
+    "phases": [
+      {
+        "window": "0.5-3 hrs",
+        "focus": "GI / muscarinic / neuro"
+      },
+      {
+        "window": "6-24 hrs",
+        "focus": "RED ALERT: Amatoxin GI"
+      },
+      {
+        "window": "Day 2 lull",
+        "focus": "FALSE recovery (liver injury)"
+      },
+      {
+        "window": "2-14+ days",
+        "focus": "Liver or renal failure"
+      }
+    ],
+    "threshold": "EMERGENCY: Never wait for symptoms · Call 1-800-222-1222 at once"
+  },
+  "Z05-P134": {
+    "type": "sequence_plate",
+    "variant": "poison_sample",
+    "steps": [
+      {
+        "label": "1. Call help",
+        "detail": "1-800-222-1222 or 911 first"
+      },
+      {
+        "label": "2. Save pieces",
+        "detail": "Raw/cooked scraps & trim"
+      },
+      {
+        "label": "3. Paper bag",
+        "detail": "Dry paper; NEVER plastic"
+      },
+      {
+        "label": "4. Bring to ER",
+        "detail": "With time & site photos"
+      }
+    ],
+    "cue": "Never delay 911 care to search for extra field samples"
+  },
+  "Z05-P135": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Immediate 911",
+        "scope": "Breathing/seizure/faint",
+        "action": "Call 911; clear mouth if awake"
+      },
+      {
+        "role": "Poison Help",
+        "scope": "Any suspect exposure",
+        "action": "Call 1-800-222-1222 at once"
+      },
+      {
+        "role": "ER Toxicology",
+        "scope": "Paper-bag specimen",
+        "action": "Follow hospital & SME plan"
+      }
+    ],
+    "trigger": "STOP: Never induce vomiting or wait for delayed symptoms"
+  },
+  "Z16-P01": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z01-P01..P06",
+        "scope": "Scene scan & trip abort",
+        "action": "Unsafe terrain -> hold"
+      },
+      {
+        "role": "Z10-P01..P02",
+        "scope": "Primary survey & 911",
+        "action": "Red flags -> call 911"
+      },
+      {
+        "role": "Z11-P43..P55",
+        "scope": "Lost STOP & signaling",
+        "action": "Lost -> stay put"
+      }
+    ],
+    "trigger": "Atlas preserves every upstream Z01/Z10/Z11 stop threshold"
+  },
+  "Z16-P02": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z10-P03..P05",
+        "scope": "Direct pressure &",
+        "action": "Never loosen placed TQ"
+      },
+      {
+        "role": "Z09-P02..P29",
+        "scope": "Blade/saw bleed",
+        "action": "Unstable cut -> stop"
+      },
+      {
+        "role": "Z06-P31..P48",
+        "scope": "Field trauma & clear",
+        "action": "Unload arms -> call 911"
+      }
+    ],
+    "trigger": "Civilian visible-wound TQ: 2-3 in above wound, off joint; call 911"
+  },
+  "Z16-P03": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z10-P08..P12",
+        "scope": "Adult/peds CPR & choking",
+        "action": "No 60-sec check delay"
+      },
+      {
+        "role": "Z12-P16..P64",
+        "scope": "Drowning & cold",
+        "action": "Reach-Throw-Dont-Go"
+      },
+      {
+        "role": "Z06-P20..P36",
+        "scope": "Boating PFD & cold water",
+        "action": "Wear buckled PFD afloat"
+      }
+    ],
+    "trigger": "Preserve dispatcher guidance and drowning/pediatric breath rules"
+  },
+  "Z16-P04": {
+    "type": "system_boundary",
+    "variant": "z16_b4",
+    "zone_a": "Tent/snow ventilation & CO",
+    "zone_b": "Home CO alarm & vents",
+    "barrier": "No charcoal/stoves inside",
+    "hazard": "CO alarm = evacuate to fresh air FIRST; never delay to shut gear"
+  },
+  "Z16-P05": {
+    "type": "sequence_plate",
+    "variant": "z16_q5",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z02-P03..P18"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Ground pad & wind"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Hypothermia &"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Wet insulation -> stop"
+      }
+    ],
+    "cue": "Never rub frostbite with snow or thaw if refreezing can occur"
+  },
+  "Z16-P06": {
+    "type": "sequence_plate",
+    "variant": "z16_q6",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z10-P46..P48"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Heat stroke rapid"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Desert & exertion heat"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Altered -> 911 + cool"
+      }
+    ],
+    "cue": "Cool immediately + call 911; CDC advises fans only below 90 F"
+  },
+  "Z16-P07": {
+    "type": "sequence_plate",
+    "variant": "z16_q7",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z04-P14,P32"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "HABs, chemicals &"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Boil altitude &"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Clarity != potability"
+      }
+    ],
+    "cue": "1 min boil (<6,500 ft) / 3 min (>=6,500 ft); boiling fails HABs/chemicals"
+  },
+  "Z16-P08": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z05-P116..P135",
+        "scope": "Amanita/Hemlock/Poison",
+        "action": "Call 1-800-222-1222 now"
+      },
+      {
+        "role": "Z10-P60..P64",
+        "scope": "Ingestion & anaphylaxis",
+        "action": "No uninstructed vomiting"
+      },
+      {
+        "role": "Z14-P61..P62",
+        "scope": "Botulism cues & detox",
+        "action": "Neuro signs -> 911 now"
+      }
+    ],
+    "trigger": "Never wait for symptoms; save fungi in dry paper; call 1-800-222-1222"
+  },
+  "Z16-P09": {
+    "type": "sequence_plate",
+    "variant": "z16_q9",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z15-P16..P18"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Tornado safe room"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Flood & washout"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "NEVER use overpass"
+      }
+    ],
+    "cue": "Local NWS orders supersede general summaries; exit open terrain early"
+  },
+  "Z16-P10": {
+    "type": "system_boundary",
+    "variant": "z16_b10",
+    "zone_a": "Smoke + extreme indoor heat",
+    "zone_b": "Outage + subzero cold",
+    "barrier": "Zero wading near power",
+    "hazard": "No static ranking overrides local emergency orders during compound"
+  },
+  "Z16-P11": {
+    "type": "sequence_plate",
+    "variant": "z16_q11",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z01-P18,Z15-P55"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Mobility & medical"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Infant formula & peds"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Relocate before"
+      }
+    ],
+    "cue": "Plan accessible evacuation & backup power early with local registries"
+  },
+  "Z16-P12": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z01,Z10,Z13,Z15",
+        "scope": "Life threat / CO / gas",
+        "action": "Call 911 from safe air"
+      },
+      {
+        "role": "Z05,Z10,Z13",
+        "scope": "Plant/fungi/chem poison",
+        "action": "1-800-222-1222 at once"
+      },
+      {
+        "role": "Z06,Z07,Z11",
+        "scope": "Wildlife TIP & SAR/PLB",
+        "action": "1-800-652-9093; no"
+      }
+    ],
+    "trigger": "Keep local county, utility & vet contacts written offline before travel"
+  },
+  "Z16-P13": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s13",
+    "phases": [
+      {
+        "window": "Z15-P13..P15",
+        "focus": "Blizzard & stranded car"
+      },
+      {
+        "window": "Z02-P41,Z12-P07",
+        "focus": "Snow shelter & wind"
+      },
+      {
+        "window": "Z13-P24..P31",
+        "focus": "PVC vents & pipe freeze"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Clear exhaust; stay put"
+      }
+    ],
+    "threshold": "Calendar aids never override live NWS blizzard/cold warnings"
+  },
+  "Z16-P14": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s14",
+    "phases": [
+      {
+        "window": "Z12-P13..P20",
+        "focus": "Clear/white/candled ice"
+      },
+      {
+        "window": "Z06-P01..P02",
+        "focus": "Ice angling & B013"
+      },
+      {
+        "window": "Z07-P25,Z12-P16",
+        "focus": "Beaver runs & shore"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "No ice is 100% safe"
+      }
+    ],
+    "threshold": "Tracks never prove safe ice; DNR thresholds apply only to new clear ice"
+  },
+  "Z16-P15": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s15",
+    "phases": [
+      {
+        "window": "Z15-P24,Z08-P32",
+        "focus": "Snowmelt floods & bluffs"
+      },
+      {
+        "window": "Z06-P20,Z12-P64",
+        "focus": "Warm air + freezing"
+      },
+      {
+        "window": "Z05-P08,P83,P98",
+        "focus": "Spring shoots &"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Zero flooded road"
+      }
+    ],
+    "threshold": "Spring warmth masks freezing water, thawing bluffs & lethal shoots"
+  },
+  "Z16-P16": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s16",
+    "phases": [
+      {
+        "window": "Z04-P14,Z06-P15",
+        "focus": "HABs & MDH fish"
+      },
+      {
+        "window": "Z12-P56,Z15-P16",
+        "focus": "Rip currents & derechos"
+      },
+      {
+        "window": "Z10-P58,Z05-P13",
+        "focus": "Deer ticks & wild"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Reject algal scum water"
+      }
+    ],
+    "threshold": "Check daily NWS forecasts, surf flags, AQI & waterbody notices"
+  },
+  "Z16-P17": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s17",
+    "phases": [
+      {
+        "window": "Z06-P33,Z07-P14",
+        "focus": "Blaze gear & pet short"
+      },
+      {
+        "window": "Z06-P36..P40",
+        "focus": "Cold boat, CWD & bear"
+      },
+      {
+        "window": "Z05-P116..P119",
+        "focus": "Peak Amanita/Galerina"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "<= 6 ft leash on open"
+      }
+    ],
+    "threshold": "Autumn overlaps firearms, trapping seasons, cold water & lethal fungi"
+  },
+  "Z16-P18": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s18",
+    "phases": [
+      {
+        "window": "Z14-P04,Z08-P27",
+        "focus": "Frost dates & soil lead"
+      },
+      {
+        "window": "Z14-P27..P33",
+        "focus": "4-zone root-cellar"
+      },
+      {
+        "window": "Z14-P45..P62",
+        "focus": "USDA/NCHFP tested"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Test urban/old-home soil"
+      }
+    ],
+    "threshold": "Never modify tested USDA/NCHFP canning recipes or altitude times"
+  },
+  "Z16-P19": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s19",
+    "phases": [
+      {
+        "window": "Z13-P06..P07",
+        "focus": "Generator >= 20 ft &"
+      },
+      {
+        "window": "Z13-P20..P26",
+        "focus": "CO alarms, chimneys &"
+      },
+      {
+        "window": "Z13-P38..P45",
+        "focus": "Wells, pipes & flood"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Zero wall-outlet"
+      }
+    ],
+    "threshold": "Conceptual utility guides are never DIY code installation manuals"
+  },
+  "Z16-P20": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s20",
+    "phases": [
+      {
+        "window": "Z05-P08,P105",
+        "focus": "Spring shoots & egg"
+      },
+      {
+        "window": "Z06-P25..P26",
+        "focus": "Snow-melt track"
+      },
+      {
+        "window": "Z08-P14,P59",
+        "focus": "Lichen rinds & rock"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Missing traits -> STOP"
+      }
+    ],
+    "threshold": "Stop field identification whenever season hides key diagnostic traits"
+  },
+  "Z16-P21": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h21",
+    "zones": [
+      "Z04-P34..P42: Freeze-damaged -> trash",
+      "Z04-P14,Z12-P65: Never boil HAB/chem",
+      "Z13-P40..P43: Lab test before drinking"
+    ],
+    "buffer": "Boil, filter & chlorine limits",
+    "report": "Visual clarity never proves potability"
+  },
+  "Z16-P22": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h22",
+    "zones": [
+      "Z03-P01,P37,P42: Red Flag -> zero open fire",
+      "Z15-P29..P31: GO order -> leave now",
+      "Z15-P33,P37: Hot room -> clean-air site"
+    ],
+    "buffer": "Burn bans & no-fire fallback",
+    "report": "Follow local fire orders; never run ozone"
+  },
+  "Z16-P23": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h23",
+    "zones": [
+      "Z12-P40..P42: Whumpfing/cracks -> avoid",
+      "Z10-P49,Z12-P35: Descend immediately + EMS",
+      "Z08-P09,P32,P48: Keep clear of fresh talus"
+    ],
+    "buffer": "Avalanche red flags & forecast",
+    "report": "No slope angle guarantees avalanche"
+  },
+  "Z16-P24": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h24",
+    "zones": [
+      "Z12-P47,Z08-P31: Flexing mat -> turn back",
+      "Z03-P01,Z08-P31: Mineral soil only",
+      "Z05-P122,Z07-P25: Zero marsh foraging/ice"
+    ],
+    "buffer": "Quaking bog & peat substrate",
+    "report": "Stay on firm upland ground; zero open"
+  },
+  "Z16-P25": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h25",
+    "zones": [
+      "Z12-P56..P60: Swim parallel; stay dry",
+      "Z12-P61,Z15-P27: Quake/alert -> high ground",
+      "Z06-P20,Z12-P64: Buckled PFD; no seawater"
+    ],
+    "buffer": "Rip currents & wet ledges",
+    "report": "Local coastal/Great Lakes alerts and"
+  },
+  "Z16-P26": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h26",
+    "zones": [
+      "Z13-P26: Zero sparks -> exit & 911",
+      "Z13-P54: Never mix; 1-800-222-1222",
+      "Z15-P48..P49: HVAC off; follow official order"
+    ],
+    "buffer": "Indoor gas/propane leak",
+    "report": "Official incident-specific orders always"
+  },
+  "Z16-P27": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h27",
+    "zones": [
+      "Z06-P44..P46: Never run; leash dogs",
+      "Z07-P21..P22: Hands off -> call DNR",
+      "Z10-P57..P59: No cutting/sucking bites"
+    ],
+    "buffer": "Bears, wolves & moose",
+    "report": "Zero barehanded wildlife release"
+  },
+  "Z16-P28": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h28",
+    "zones": [
+      "Z08-P06,P58: No dry grinding; PPE/wet",
+      "Z08-P21,P59: Leave intact; wash hands",
+      "Z08-P27,Z14-P04: Lab test; no wild pots"
+    ],
+    "buffer": "Crystalline silica dust",
+    "report": "Visual cleanliness never proves rock"
+  },
+  "Z16-P29": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z01-P05..P11",
+        "note": "Trip plan & core kit check",
+        "limit": "Missing core -> postpone"
+      },
+      {
+        "name": "Z02,Z03,Z04",
+        "note": "Shelter, ignition & water",
+        "limit": "Test gear pre-trip"
+      },
+      {
+        "name": "Z10-P75,Z11",
+        "note": "Med kit, map & whistle",
+        "limit": "Never rely on phone only"
+      }
+    ]
+  },
+  "Z16-P30": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z04-P01,P27,P32",
+        "note": "Raw vs clean & pre-settle",
+        "limit": "Zero cross-contamination"
+      },
+      {
+        "name": "Z04-P37..P40",
+        "note": "Filter freeze & virus",
+        "limit": "Froze wet -> discard"
+      },
+      {
+        "name": "Z04-P34,P36",
+        "note": "Boil & chemical kinetics",
+        "limit": "Cold water needs longer"
+      }
+    ]
+  },
+  "Z16-P31": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z02-P03,P15",
+        "note": "Ground R-value & dry loft",
+        "limit": "Wet loft fails fast"
+      },
+      {
+        "name": "Z02-P05,P11",
+        "note": "Drainage & hazard trees",
+        "limit": "Zero camp under snags"
+      },
+      {
+        "name": "Z02-P24,P44,P49",
+        "note": "Ventilation, CO & collapse",
+        "limit": "Zero stoves inside"
+      }
+    ]
+  },
+  "Z16-P32": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z03-P25..P29",
+        "note": "Cold fuel, windscreen &",
+        "limit": "Never wrap upright can"
+      },
+      {
+        "name": "Z03-P37,P42",
+        "note": "Burn bans & no-fire plan",
+        "limit": "Ban -> zero open flame"
+      },
+      {
+        "name": "Z03-P40,Z13-P20",
+        "note": "Outdoor-only combustion",
+        "limit": "Zero vestibule/tent use"
+      }
+    ]
+  },
+  "Z16-P33": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z08-P40,Z09-P48",
+        "note": "Handle grain & eye wedge",
+        "limit": "Cracked/loose -> retire"
+      },
+      {
+        "name": "Z09-P25..P26",
+        "note": "Saw bind & spring poles",
+        "limit": "Tensioned logs -> walk"
+      },
+      {
+        "name": "Z08-P44,Z09-P44",
+        "note": "Cordage & pulley vectors",
+        "limit": "Zero unrated life loads"
+      }
+    ]
+  },
+  "Z16-P34": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z11-P12..P14",
+        "note": "Datum & current",
+        "limit": "Match WGS84/NAD27"
+      },
+      {
+        "name": "Z08-P20,Z11-P29",
+        "note": "Iron-rock needle",
+        "limit": "Cross-check terrain"
+      },
+      {
+        "name": "Z11-P56..P57",
+        "note": "PLB registration & radio",
+        "limit": "Register 406 MHz pre-trip"
+      }
+    ]
+  },
+  "Z16-P35": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z13-P06..P07",
+        "note": "Generator & transfer",
+        "limit": "NEVER backfeed outlets"
+      },
+      {
+        "name": "Z13-P11..P13",
+        "note": "Lithium & lead-acid banks",
+        "limit": "Swollen/wet pack -> stop"
+      },
+      {
+        "name": "Z13-P20,Z15-P02",
+        "note": "CO alarms & NOAA SAME",
+        "limit": "Zero indoor candles/CO"
+      }
+    ]
+  },
+  "Z16-P36": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z14-P52..P56",
+        "note": "Pressure canner & 10-min",
+        "limit": "Test dial gauge yearly"
+      },
+      {
+        "name": "Z14-P48,P25",
+        "note": "Water/steam canner acid",
+        "limit": "Low-acid = pressure ONLY"
+      },
+      {
+        "name": "Z14-P68,Z06-P40",
+        "note": "Jerky/bear/fish probe",
+        "limit": "Verify by thermometer"
+      }
+    ]
+  },
+  "Z16-P37": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z08-P01,P07,P20",
+        "topic": "Shield, rift & iron anomalies",
+        "stop": "Cross-check compass"
+      },
+      {
+        "zones": "Z08-P09,Z04-P03",
+        "topic": "Karst bluffs & springs",
+        "stop": "Treat clear karst water"
+      },
+      {
+        "zones": "Z08-P10,P32",
+        "topic": "Glacial drift & bank slump",
+        "stop": "Stay off undercut rims"
+      }
+    ],
+    "preserve": "Regional geologic maps orient travel; they never certify site safety"
+  },
+  "Z16-P38": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z08-P02,P16,P17",
+        "topic": "Hardness, cleavage & streak",
+        "stop": "Never taste/burn ore"
+      },
+      {
+        "zones": "Z08-P03,P15,P58",
+        "topic": "Chert/quartz & silica dust",
+        "stop": "No dry grinding; PPE"
+      },
+      {
+        "zones": "Z08-P22,P50",
+        "topic": "Wet-rock thermal spalling",
+        "stop": "Keep wet stone out of fire"
+      }
+    ],
+    "preserve": "Observe minerals intact; separate hardness from toughness & safety"
+  },
+  "Z16-P39": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z08-P33..P40",
+        "topic": "Grain, rot & handle checks",
+        "stop": "Diagonal runout -> retire"
+      },
+      {
+        "zones": "Z08-P41..P45",
+        "topic": "B007/B008 wood & resin roles",
+        "stop": "No live bark stripping"
+      },
+      {
+        "zones": "Z03-P12,Z05-P44",
+        "topic": "Training limits & tree ID",
+        "stop": "Warmth > friction craft"
+      }
+    ],
+    "preserve": "Never strip live bark; visual grain checks never certify load capacity"
+  },
+  "Z16-P40": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z08-P25,P29,Z02",
+        "topic": "Sand vs clay site drainage",
+        "stop": "Avoid flat wet clay"
+      },
+      {
+        "zones": "Z08-P27,Z14-P04",
+        "topic": "Urban lead & tailings check",
+        "stop": "Lab test garden soil"
+      },
+      {
+        "zones": "Z08-P28,P53",
+        "topic": "Wild clay cookware limits",
+        "stop": "Use tested metal pots"
+      }
+    ],
+    "preserve": "Texture checks never verify firing integrity or chemical soil purity"
+  },
+  "Z16-P41": {
+    "type": "system_boundary",
+    "variant": "z16_b41",
+    "zone_a": "NPS 36 CFR 2.1 & MN SNAs",
+    "zone_b": "WMAs, tribal & private land",
+    "barrier": "Zero rocks, roots, traps",
+    "hazard": "Check current agency rules & parcel maps; zero emergency exemption"
+  },
+  "Z16-P42": {
+    "type": "system_boundary",
+    "variant": "z16_b42",
+    "zone_a": "Debris/snow shelter loads",
+    "zone_b": "Cordage & pulley rigging",
+    "barrier": "Sight != load or food safe",
+    "hazard": "Visual recognition never certifies engineering loads or chemical safety"
+  },
+  "Z16-P43": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z09-P11..P21",
+        "topic": "Utility knots & slick backup",
+        "stop": "Dress & back up slick cord"
+      },
+      {
+        "zones": "Z09-P42..P45",
+        "topic": "Pulley vector & non-cert",
+        "stop": "Redirect doubles anchor"
+      },
+      {
+        "zones": "Z08-P44,Z02",
+        "topic": "Natural cord & tarp lines",
+        "stop": "Zero human/climbing loads"
+      }
+    ],
+    "preserve": "Conceptual knot & pulley plates are not life-safety rigging approvals"
+  },
+  "Z16-P44": {
+    "type": "sequence_plate",
+    "variant": "z16_q44",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z11-P11..P28"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Contours, bearings &"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Lost STOP & SAR"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "2 missed cues -> STOP"
+      }
+    ],
+    "cue": "Original B014 P01-P10 remains open behind Z11-R01..R10 reconstructions"
+  },
+  "Z16-P45": {
+    "type": "sequence_plate",
+    "variant": "z16_q45",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z10-P01,P20..P35"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Scope, wounds, burns"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Seizures & low blood"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "No dosing; check CSM"
+      }
+    ],
+    "cue": "Lay reference only; follow 911 dispatcher & personal clinician action"
+  },
+  "Z16-P46": {
+    "type": "sequence_plate",
+    "variant": "z16_q46",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z14-P38..P41"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Outage fridge/freezer"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Bear >=165 F & fish"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": ">40 F for 2 hr ->"
+      }
+    ],
+    "cue": "When in doubt, throw it out—never taste suspect outage or game food"
+  },
+  "Z16-P47": {
+    "type": "sequence_plate",
+    "variant": "z16_q47",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z14-P45..P51"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "High-acid & tomato"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Low-acid pressure &"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Acidify ALL canned"
+      }
+    ],
+    "cue": "Exact tested USDA/NCHFP recipes only; no substitutions or shortcuts"
+  },
+  "Z16-P48": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z06-P03..P12",
+        "topic": "DNR license, slots & fish ID",
+        "stop": "Unsure ID -> release now"
+      },
+      {
+        "zones": "Z06-P15..P19",
+        "topic": "MDH mercury/PFAS/PCB",
+        "stop": "Trim fails mercury/PFAS"
+      },
+      {
+        "zones": "Z06-P14,P20",
+        "topic": "AIS law & cold-water PFD",
+        "stop": "Clean-Drain-Dry; PFD on"
+      }
+    ],
+    "preserve": "Record jurisdiction, waterbody & check date; zero emergency exemption"
+  },
+  "Z16-P49": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z06-P31..P33",
+        "topic": "4 firearm rules & blaze",
+        "stop": "Unload at all obstacles"
+      },
+      {
+        "zones": "Z06-P34..P35",
+        "topic": "Archery & treestand harness",
+        "stop": "Clip ground-to-ground"
+      },
+      {
+        "zones": "Z06-P37..P43",
+        "topic": "Gloves, CWD, Trich & Tular",
+        "stop": "Test CWD; reject sick"
+      }
+    ],
+    "preserve": "Written summaries never replace formal DNR hunter-safety certification"
+  },
+  "Z16-P50": {
+    "type": "system_boundary",
+    "variant": "z16_b50",
+    "zone_a": "Law, ESA & AFWA welfare",
+    "zone_b": "Non-tamper & TIP/rehab call",
+    "barrier": "<= 6 ft leash; skip culverts",
+    "hazard": "Zero actionable injurious trap construction; escalate unresolved"
+  },
+  "Z16-P51": {
+    "type": "system_boundary",
+    "variant": "z16_b51",
+    "zone_a": "Binomials, vouchers & nodes",
+    "zone_b": "Zero folklore & B011 leads",
+    "barrier": "No SNAs or roadsides",
+    "hazard": "HOLD: Botanical recognition and consumption remain strictly separate"
+  },
+  "Z16-P52": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z05-P05,P122..123",
+        "topic": "Water & poison hemlock",
+        "stop": "Reject ALL wild umbels"
+      },
+      {
+        "zones": "Z05-P18,P24..P31",
+        "topic": "Spurge, dogbane, snakeroot",
+        "stop": "Milky/smooth -> STOP"
+      },
+      {
+        "zones": "Z05-P19,P131",
+        "topic": "Sprayed turf & wild parsnip",
+        "stop": "Block UV; WITHHELD_HOLD"
+      }
+    ],
+    "preserve": "HOLD: Zero herbaceous wild plants cleared for consumption"
+  },
+  "Z16-P53": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z05-P39..P42,P129",
+        "topic": "Pine/spruce/fir vs yew",
+        "stop": "Taxus = lethal cardiac"
+      },
+      {
+        "zones": "Z05-P41,P47,P49",
+        "topic": "Cedar, willow & Prunus",
+        "stop": "Thujone/salicin/cyanide"
+      },
+      {
+        "zones": "Z05-P48,P55,P130",
+        "topic": "Sumac & winter poison ivy",
+        "stop": "NEVER burn fuzzy vines"
+      }
+    ],
+    "preserve": "HOLD: Zero wild conifer teas, barks, or shoots cleared for eating"
+  },
+  "Z16-P54": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z05-P64,P127",
+        "topic": "Wild grape vs moonseed",
+        "stop": "Crescent seed = LETHAL"
+      },
+      {
+        "zones": "Z05-P58,P60,P126",
+        "topic": "Rubus/Amelanchier vs buck",
+        "stop": "Sub-opp spine = toxic"
+      },
+      {
+        "zones": "Z05-P71,P124..129",
+        "topic": "Mayapple/bane/yew/poke",
+        "stop": "Color NEVER proves safe"
+      }
+    ],
+    "preserve": "HOLD: Never sample unknown wild berries; call 1-800-222-1222"
+  },
+  "Z16-P55": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z05-P73,P81",
+        "topic": "Acorns/pines vs buckeye",
+        "stop": "Aesculus = poisonous"
+      },
+      {
+        "zones": "Z05-P76,P79",
+        "topic": "Butternut & wild rice law",
+        "stop": "Protect trees; tribal law"
+      },
+      {
+        "zones": "Z05-P75,P82",
+        "topic": "Moldy nuts & anaphylaxis",
+        "stop": "Heat fails aflatoxin"
+      }
+    ],
+    "preserve": "HOLD: Raw acorns, buckeyes & moldy nuts are unsafe; respect tribal law"
+  },
+  "Z16-P56": {
+    "type": "system_boundary",
+    "variant": "z16_b56",
+    "zone_a": "Iris, arums, camas & lily",
+    "zone_b": "Public/prairie/water law",
+    "barrier": "Reject ALL wild Apiaceae",
+    "hazard": "STOP: Underground wild-food ID carries highest fatal error & legal risk"
+  },
+  "Z16-P57": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z05-P95..P97",
+        "topic": "Base/volva, spores & paper",
+        "stop": "Never seal in plastic"
+      },
+      {
+        "zones": "Z05-P98,P105",
+        "topic": "Morel & puffball cutaways",
+        "stop": "Slice 100% top-to-bottom"
+      },
+      {
+        "zones": "Z05-P99..P115",
+        "topic": "Host tree & SME HOLD gate",
+        "stop": "HOLD: No photo clears eat"
+      }
+    ],
+    "preserve": "Fungi use a separate mycological schema; zero mushrooms cleared to eat"
+  },
+  "Z16-P58": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z05-P116..P117",
+        "scope": "Amanita & Galerina",
+        "action": "Cooking FAILS; 6-24h GI"
+      },
+      {
+        "role": "Z05-P118..P121",
+        "scope": "Gyromitra, Cort, Omphal",
+        "action": "Silent 2-14d renal risk"
+      },
+      {
+        "role": "Z05-P133..P135",
+        "scope": "CDC MMWR & paper-bag ER",
+        "action": "Call 1-800-222-1222 now"
+      }
+    ],
+    "trigger": "EMERGENCY: Never wait for symptoms; cooking never destroys amatoxins"
+  },
+  "Z16-P59": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z14,Z05,Z13",
+        "topic": "Acidification, Amatoxin, Backfeed",
+        "stop": "Refer to full zone card"
+      },
+      {
+        "zones": "Z12,Z05,Z08",
+        "topic": "Candled ice, Cicutoxin, Cleavage",
+        "stop": "Definitions != approval"
+      },
+      {
+        "zones": "Z10,Z06,Z04",
+        "topic": "CSM, CWD prion, Cyanotoxin",
+        "stop": "Preserve clinical bounds"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P60": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z11,Z05",
+        "topic": "Datum, Declination, Decurrent",
+        "stop": "Check current local values"
+      },
+      {
+        "zones": "Z08,Z09,Z10",
+        "topic": "Erratic, Exclusion, Exposure",
+        "stop": "Never assume local bedrock"
+      },
+      {
+        "zones": "Z05,Z03,Z10",
+        "topic": "Fascicle, Fatwood, Frostbite",
+        "stop": "Never rub frostbite w/ snow"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P61": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_1",
+    "rows": [
+      {
+        "zones": "Z07,Z05,Z04,Z10",
+        "topic": "Ghost gear, Gyromitrin, HAB, HAPE",
+        "stop": "HAPE -> descend + EMS"
+      },
+      {
+        "zones": "Z12,Z13,Z08",
+        "topic": "HELP, Interlock, Karst",
+        "stop": "Licensed switch only"
+      },
+      {
+        "zones": "Z09,Z05,Z06",
+        "topic": "Lashing, Lenticel, Lookalike",
+        "stop": "Zero unrated load claims"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P62": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z05,Z08,Z07",
+        "topic": "Manoomin, Mohs, Mycotoxin, Nongame",
+        "stop": "Respect tribal/ESA law"
+      },
+      {
+        "zones": "Z05,Z06",
+        "topic": "Ocrea, Orellanine, PFAS, Phenology",
+        "stop": "Check MDH waterbodies"
+      },
+      {
+        "zones": "Z05,Z11,Z14",
+        "topic": "Photodermatitis, PLB, Canner",
+        "stop": "Low-acid = pressure only"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P63": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z12,Z11,Z08",
+        "topic": "Quaking bog, Resection, Rip, Runout",
+        "stop": "Swim parallel; retire bad grain"
+      },
+      {
+        "zones": "Z15,Z08,Z12",
+        "topic": "SAME, Silica, Sneaker, Spalling",
+        "stop": "Wet/PPE dust; stay dry rock"
+      },
+      {
+        "zones": "Z05,Z09,Z04",
+        "topic": "Spore print, Spring pole, Supernatant",
+        "stop": "Decant != potable"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P64": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z05,Z06",
+        "topic": "Taxine, Thermocline, Trich, Tular",
+        "stop": "Taxus lethal; cook bear 165 F"
+      },
+      {
+        "zones": "Z05,Z08",
+        "topic": "Umbel, Urushiol, Volva, Voucher",
+        "stop": "Excavate base; reject umbels"
+      },
+      {
+        "zones": "Z14,Z02,Z06",
+        "topic": "Water-bath, Widowmaker, Zone-Fire",
+        "stop": "WITHHELD_HOLD stays active"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P65": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z10,Z07",
+        "topic": "ACS, AED, AVPU, CSM, PEP",
+        "stop": "Follow 911 dispatcher"
+      },
+      {
+        "zones": "Z04,Z06,Z13,Z15",
+        "topic": "AQI, CO, HAB, HEPA, NSF, PFAS",
+        "stop": "Zero ozone air cleaners"
+      },
+      {
+        "zones": "Z05,Z08,Z14",
+        "topic": "MMWR, NAMA, NCHFP, PPE",
+        "stop": "Tested recipes & PPE only"
+      }
+    ],
+    "preserve": "Acronym reference only—verify exact thresholds in upstream cards"
+  },
+  "Z16-P66": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_1",
+    "rows": [
+      {
+        "zones": "Z11,Z12,Z13,Z15",
+        "topic": "NWS, FEMA, USCG, EPA",
+        "stop": "Live alerts govern action"
+      },
+      {
+        "zones": "Z05,Z06,Z07,Z08",
+        "topic": "MN DNR, MDH, MGS, USFWS, NPS",
+        "stop": "Recheck annual statutes"
+      },
+      {
+        "zones": "Z04,Z05,Z10,Z14",
+        "topic": "CDC, Bell, NCHFP, Poison",
+        "stop": "1-800-222-1222 24/7"
+      }
+    ],
+    "preserve": "253 live-verified primary sources tracked in foundations/evidence/sources.tsv"
+  },
+  "Z16-P67": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z06,Z14,Z15",
+        "topic": "40 F, 90 F, 145/160/165 F",
+        "stop": "Verify w/ probe therm"
+      },
+      {
+        "zones": "Z03,Z04,Z13,Z14",
+        "topic": ">=20 ft, 1k ft, 6.5k ft",
+        "stop": "Apply exact alt rules"
+      },
+      {
+        "zones": "Z02,Z08,Z09",
+        "topic": "Zero invented load numbers",
+        "stop": "Never extrapolate ratings"
+      }
+    ],
+    "preserve": "Never extrapolate unverified numbers beyond cited primary conditions"
+  },
+  "Z16-P68": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z01..Z08",
+        "topic": "Core, Flora, Harvest, Geo (450)",
+        "stop": "Z05 WITHHELD_HOLD"
+      },
+      {
+        "zones": "Z09..Z15",
+        "topic": "Tools, Med, Nav, Home (491)",
+        "stop": "13 labeled recons open"
+      },
+      {
+        "zones": "Z16 + Reader",
+        "topic": "Atlas (75) -> 1,016 total",
+        "stop": "Publication: HOLD"
+      }
+    ],
+    "preserve": "All 16 canonical zones & 1,016 pages match frozen master matrix 1:1"
+  },
+  "Z16-P69": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "A - C Index",
+        "topic": "AIS, Amanita, Bleed, Boil, Botul",
+        "stop": "Open full cited card"
+      },
+      {
+        "zones": "C - E Index",
+        "topic": "CO, CWD, Clay, Compass, CPR",
+        "stop": "Preserve all stop rules"
+      },
+      {
+        "zones": "E - G Index",
+        "topic": "Firearms, Fish, Flood, Galerina",
+        "stop": "Zero standalone shortcuts"
+      }
+    ],
+    "preserve": "Offline lookup index—always consult the full cited upstream page"
+  },
+  "Z16-P70": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "H - L Index",
+        "topic": "HAB, HAPE, Heat, Hemlock, Ice",
+        "stop": "Open full cited card"
+      },
+      {
+        "zones": "M - O Index",
+        "topic": "Maps, Moonseed, Morels, Outage",
+        "stop": "Preserve all stop rules"
+      },
+      {
+        "zones": "P Index",
+        "topic": "Parks, Peat, PLB, Poison, Pulley",
+        "stop": "Zero standalone shortcuts"
+      }
+    ],
+    "preserve": "Offline lookup index—always consult the full cited upstream page"
+  },
+  "Z16-P71": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_1",
+    "rows": [
+      {
+        "zones": "Q - S Index",
+        "topic": "Quaking bog, Rabies, Rip, Silica",
+        "stop": "Open full cited card"
+      },
+      {
+        "zones": "T - V Index",
+        "topic": "Ticks, TIP, Tornado, Trich, Vouch",
+        "stop": "Preserve all stop rules"
+      },
+      {
+        "zones": "W - Z Index",
+        "topic": "Water, Wildfire, Wolves, Yew",
+        "stop": "Zero standalone shortcuts"
+      }
+    ],
+    "preserve": "Offline lookup index—always consult the full cited upstream page"
+  },
+  "Z16-P72": {
+    "type": "system_boundary",
+    "variant": "z16_b72",
+    "zone_a": "Frozen proofs & B011 leads",
+    "zone_b": "Z11-R01..10, Z13/14/15-R",
+    "barrier": "B014 P01-P10 stays open",
+    "hazard": "Strictly additive custody vs 890c66a; open recovery items stay explicit"
+  },
+  "Z16-P73": {
+    "type": "system_boundary",
+    "variant": "z16_b73",
+    "zone_a": "Documentary context JPEGs",
+    "zone_b": "A02 backlog + P16..P20 SVGs",
+    "barrier": "0 diagnostic photos yet",
+    "hazard": "Zero fabricated diagnostic photos; documentary vs diagnostic stay"
+  },
+  "Z16-P74": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "A01/A02 Open",
+        "scope": "116 unresolved claim",
+        "action": "Zero unverified closures"
+      },
+      {
+        "role": "H01..H25 Holds",
+        "scope": "25 pending specialist",
+        "action": "0 qualified approvals"
+      },
+      {
+        "role": "ASTRA-001..017",
+        "scope": "Consolidated A03 queue",
+        "action": "Publication stays HOLD"
+      }
+    ],
+    "trigger": "Automated validation never substitutes for qualified human specialist"
+  },
+  "Z16-P75": {
+    "type": "system_boundary",
+    "variant": "z16_b75",
+    "zone_a": "packages/zone-Z01..Z16.zip",
+    "zone_b": "PDF/UA, screen-reader, SME",
+    "barrier": "Verify SHA-256 & CRC",
+    "hazard": "1,016 draft pages complete · 0 human approvals · Publication: HOLD"
   }
 }

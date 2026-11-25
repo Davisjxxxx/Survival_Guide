@@ -117,6 +117,16 @@ KIND_LABELS = {
     'escalation_ladder': 'CARE / ESCALATION LADDER',
     'anatomy_zone': 'CONCEPTUAL ORIENTATION & ZONE GUIDE',
     'seasonal_timeline': 'TIME / SEASONAL PROGRESSION',
+    'geological_strata': 'GEOLOGICAL STRATA & MATERIAL PROFILE',
+    'mineral_test_plate': 'NON-DESTRUCTIVE MINERAL OBSERVATION PLATE',
+    'wildlife_track_plate': 'WILDLIFE SIGN, TRACK & HABITAT PLATE',
+    'regulation_boundary': 'JURISDICTION, SEASON & LEGAL BOUNDARY',
+    'hazard_exclusion_map': 'SPATIAL HAZARD & EXCLUSION ZONE MAP',
+    'botanical_morphology': 'BOTANICAL DIAGNOSTIC MORPHOLOGY',
+    'fungal_anatomy': 'FUNGAL ANATOMICAL CUTAWAY',
+    'lookalike_diagnostic': 'DIAGNOSTIC LOOKALIKE CONTRAST PLATE',
+    'atlas_crossref_plate': 'CROSS-ZONE REFERENCE & THRESHOLD MATRIX',
+    'specimen_doc_plate': 'SPECIMEN VOUCHER & MULTI-VIEW PROTOCOL',
 }
 
 _SPECS_CACHE = None
@@ -140,6 +150,16 @@ SPEC_KEYS = {
     'escalation_ladder': {'tiers','trigger'},
     'anatomy_zone': {'regions','priority','stop','variant'},
     'seasonal_timeline': {'phases','threshold','variant'},
+    'geological_strata': {'strata','note','hazard','variant'},
+    'mineral_test_plate': {'tests','scale','hazard','variant'},
+    'wildlife_track_plate': {'features','scale','limit','variant'},
+    'regulation_boundary': {'authority','checks','prohibition','variant'},
+    'hazard_exclusion_map': {'zones','buffer','report','variant'},
+    'botanical_morphology': {'features','scale','hold','variant'},
+    'fungal_anatomy': {'features','scale','hold','variant'},
+    'lookalike_diagnostic': {'target_name','target_traits','toxic_name','toxic_traits','exclusion','variant'},
+    'atlas_crossref_plate': {'rows','preserve','variant'},
+    'specimen_doc_plate': {'views','voucher','hold','variant'},
 }
 SPEC_OPTIONAL = {
     'cutaway': {'hazard'},
@@ -150,10 +170,22 @@ SPEC_OPTIONAL = {
     'escalation_ladder': {'reuse_note'},
     'anatomy_zone': {'reuse_note'},
     'seasonal_timeline': {'reuse_note'},
+    'geological_strata': {'reuse_note'},
+    'mineral_test_plate': {'reuse_note'},
+    'wildlife_track_plate': {'reuse_note'},
+    'regulation_boundary': {'reuse_note'},
+    'hazard_exclusion_map': {'reuse_note'},
+    'botanical_morphology': {'reuse_note'},
+    'fungal_anatomy': {'reuse_note'},
+    'lookalike_diagnostic': {'reuse_note'},
+    'atlas_crossref_plate': {'reuse_note'},
+    'specimen_doc_plate': {'reuse_note'},
 }
 SPEC_LIST_LENGTHS = {
     'layers':3,'components':4,'nodes':3,'options':3,'zones':3,'gates':3,
     'correct_items':2,'wrong_items':2,'steps':4,'tiers':3,'regions':3,'phases':4,
+    'strata':3,'tests':4,'features':4,'checks':3,'target_traits':2,'toxic_traits':2,
+    'rows':3,'views':4,
 }
 
 
@@ -193,6 +225,12 @@ def validate_spec(page, spec):
                         not isinstance(part,str) or not part.strip() for part in phase.values()
                     ):
                         raise ValueError(f'Invalid timeline phase on {page}')
+            elif key == 'rows':
+                for row in value:
+                    if not isinstance(row,dict) or set(row) != {'zones','topic','stop'} or any(
+                        not isinstance(part,str) or not part.strip() for part in row.values()
+                    ):
+                        raise ValueError(f'Invalid atlas matrix row on {page}')
             elif any(not isinstance(label,str) or not label.strip() for label in value):
                 raise ValueError(f'Invalid figure label on {page}: {key}')
 
@@ -734,6 +772,380 @@ def _render_canner_vent(_spec):
     ])
 
 
+def _render_geological_strata(spec):
+    """Geological cross-section, fracture geometry, soil horizon, or wood-grain plate."""
+    variant = spec['variant']
+    strata = spec['strata']
+    parts = [f'<g id="geological-strata-{variant}-artwork">']
+    parts.append('<rect x="28" y="38" width="236" height="96" rx="6" fill="#f7f4ea" stroke="#2c4b3f" stroke-width="2.2"/>')
+    if variant == 'fracture':
+        # Conchoidal fracture ripples vs planar cleavage
+        parts.append('<path d="M48 118L84 52L152 48L188 94L138 122Z" fill="#bfc8bf" stroke="#183c31" stroke-width="2.2"/>')
+        parts.append('<path d="M90 64q24 14 48 2M82 80q32 16 64 2M76 96q36 16 70 0" fill="none" stroke="#315245" stroke-width="1.8"/>')
+        parts.append('<path d="M196 54h52v62h-52Z" fill="#dcd6c4" stroke="#6d5c42" stroke-width="2" stroke-dasharray="5 3"/>')
+        parts.append('<path d="M196 74h52M196 94h52" stroke="#6d5c42" stroke-width="1.8"/>')
+    elif variant == 'clay_soil':
+        # Soil horizons O/A/B/C with drainage arrows
+        parts.append('<rect x="32" y="42" width="228" height="20" fill="#8b7a5e"/>')
+        parts.append('<rect x="32" y="62" width="228" height="28" fill="#b79c73"/>')
+        parts.append('<rect x="32" y="90" width="228" height="22" fill="#9a8d82"/>')
+        parts.append('<rect x="32" y="112" width="228" height="18" fill="#c7c4ba" stroke-dasharray="4 3"/>')
+        parts.append('<path d="M62 46v78M142 46v78M222 46v78" stroke="#245368" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>')
+    elif variant == 'wood_grain':
+        # Wood cross-section rings, radial checks, and bast fiber bark layers
+        parts.append('<circle cx="94" cy="86" r="38" fill="#d9c094" stroke="#4f3c24" stroke-width="2.6"/>')
+        parts.append('<circle cx="94" cy="86" r="27" fill="none" stroke="#7c5e3a" stroke-width="1.6"/>')
+        parts.append('<circle cx="94" cy="86" r="16" fill="none" stroke="#7c5e3a" stroke-width="1.6"/>')
+        parts.append('<path d="M94 86l36-14M154 50h96v72h-96Z" fill="#e9dec7" stroke="#4f3c24" stroke-width="2"/>')
+        parts.append('<path d="M162 54v64M178 54v64M194 54v64M210 54v64M226 54v64" stroke="#7c5e3a" stroke-width="1.6"/>')
+    elif variant == 'dust_hazard':
+        # Airborne silica / fiber plume + eye & respiratory exclusion boundary
+        parts.append('<path d="M46 118l44-24 26 24Z" fill="#9ea39b" stroke="#263d35" stroke-width="2"/>')
+        parts.append('<circle cx="118" cy="76" r="22" fill="#f2d6cc" stroke="#8f381c" stroke-width="2.2" stroke-dasharray="4 3"/>')
+        parts.append('<circle cx="152" cy="64" r="16" fill="#f7e4dc" stroke="#8f381c" stroke-width="1.8" stroke-dasharray="3 3"/>')
+        parts.append('<path d="M194 48v76" stroke="#8f381c" stroke-width="3" stroke-dasharray="6 4"/>')
+        parts.append(_lbl('PPE', 228, 90, 11, '#183c31'))
+    else:
+        # Upper Midwest stratified glacial drift over Paleozoic sedimentary over Precambrian shield
+        parts.append('<path d="M32 64q56-10 114 0t114-4v22H32Z" fill="#c7d1b6" stroke="#315245" stroke-width="1.5"/>')
+        parts.append('<path d="M32 86h228v22H32Z" fill="#d9cba8" stroke="#6d5c42" stroke-width="1.5"/>')
+        parts.append('<path d="M32 108h228v22H32Z" fill="#9ea5a0" stroke="#263d35" stroke-width="1.8"/>')
+        parts.append('<path d="M52 108l14 22M106 108l14 22M160 108l14 22M214 108l14 22" stroke="#263d35" stroke-width="1.4"/>')
+    # Scale bar inside graphic
+    parts.append('<path d="M38 128h46M38 124v8M84 124v8" stroke="#183c31" stroke-width="1.8"/>')
+    for i, layer in enumerate(strata):
+        y = 38 + i * 33
+        parts.append(f'<rect x="278" y="{y}" width="414" height="28" rx="5" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="278" y="{y}" width="26" height="28" rx="4" fill="#184438"/>')
+        parts.append(_lbl(str(i + 1), 291, y + 18, 11, '#fffdf7'))
+        parts.append(_lbl(layer, 314, y + 18, 11, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="320" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['note'], 188, 152, 10.4, '#183c31'))
+    parts.append('<rect x="358" y="139" width="334" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['hazard'], 525, 152, 10.4, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_mineral_test_plate(spec):
+    """Non-destructive field mineral observation grid with Mohs reference bar."""
+    variant = spec['variant']
+    tests = spec['tests']
+    parts = [f'<g id="mineral-test-{variant}-artwork">']
+    # Left Mohs hardness / property ladder
+    parts.append('<rect x="28" y="38" width="164" height="96" rx="6" fill="#eef3ee" stroke="#285345" stroke-width="2.2"/>')
+    parts.append('<path d="M46 56h128M46 76h128M46 96h128M46 116h128" stroke="#6f8c7a" stroke-width="2"/>')
+    for idx, tag in enumerate(('1-2 Soft', '3-5 Mid', '6-7 Quartz', '8-10 Hard')):
+        parts.append(f'<rect x="36" y="{44 + idx * 20}" width="{22 + idx * 18}" height="10" rx="2" fill="#315245" opacity="{0.45 + idx * 0.16:.2f}"/>')
+        parts.append(_lbl(tag, 186, 53 + idx * 20, 9.4, '#183c31', 'end'))
+    # Right 2x2 non-destructive observation grid
+    for i, item in enumerate(tests):
+        col, row = i % 2, i // 2
+        x = 206 + col * 246
+        y = 38 + row * 50
+        parts.append(f'<rect x="{x}" y="{y}" width="236" height="44" rx="6" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="24" height="44" rx="4" fill="#285345"/>')
+        parts.append(_lbl(str(i + 1), x + 12, y + 26, 11, '#fffdf7'))
+        parts.append(text(wrap(item, 27)[:2], x + 32, y + 18, 14, 10.6, 650, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="290" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['scale'], 173, 152, 10.4, '#183c31'))
+    parts.append('<rect x="328" y="139" width="364" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['hazard'], 510, 152, 10.4, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_wildlife_track_plate(spec):
+    """Wildlife track/gait/fish anatomy/habitat observation plate with scale ruler."""
+    variant = spec['variant']
+    features = spec['features']
+    parts = [f'<g id="wildlife-track-{variant}-artwork">']
+    parts.append('<rect x="28" y="38" width="206" height="96" rx="6" fill="#f6f4eb" stroke="#2c4b3f" stroke-width="2.2"/>')
+    if variant == 'tracks':
+        # Conceptual paw pad + toe pads + cloven hoof comparison with ruler
+        parts.append('<ellipse cx="82" cy="96" rx="16" ry="12" fill="#4f6c5d"/>')
+        for tx, ty in ((62, 74), (75, 64), (91, 64), (102, 74)):
+            parts.append(f'<ellipse cx="{tx}" cy="{ty}" rx="6" ry="9" fill="#315245"/>')
+        parts.append('<path d="M148 112c-12-16-8-42 6-52c4 14 4 38-6 52ZM176 112c12-16 8-42-6-52c-4 14-4 38 6 52Z" fill="#5e4b35"/>')
+    elif variant == 'fish_anatomy':
+        # Conceptual freshwater fish silhouette with dorsal/adipose/caudal fins & lateral line
+        parts.append('<path d="M52 86q56-34 114-4l30-18-10 22 10 22-30-18q-58 30-114-4Z" fill="#b7d2d9" stroke="#183c31" stroke-width="2.2"/>')
+        parts.append('<path d="M88 64l28-14 14 14M74 86q42-4 82 0" fill="none" stroke="#315245" stroke-width="2" stroke-dasharray="4 3"/>')
+        parts.append('<circle cx="72" cy="82" r="3.5" fill="#183c31"/>')
+    elif variant == 'habitat_layers':
+        # Upland forest -> riparian edge -> littoral shelf -> deep basin transect
+        parts.append('<path d="M32 76L94 82L152 108L230 120V130H32Z" fill="#c7d4b6" stroke="#315245" stroke-width="1.8"/>')
+        parts.append('<path d="M126 94H230V120L152 108Z" fill="#a8cad4" opacity="0.8"/>')
+        parts.append('<path d="M54 76V52M46 64l8-14 8 14M74 78V56M66 68l8-14 8 14" stroke="#184438" stroke-width="2" fill="none"/>')
+    elif variant == 'field_hygiene':
+        # Clean knife/gloves -> cold chain <= 40 F -> safe internal cook temp
+        parts.append('<rect x="42" y="54" width="52" height="58" rx="5" fill="#dceadf" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M96 83h24" stroke="#184438" stroke-width="2.5" marker-end="url(#arrow)"/>')
+        parts.append('<rect x="124" y="54" width="96" height="58" rx="5" fill="#d9e8ef" stroke="#245368" stroke-width="2"/>')
+        parts.append(_lbl('COOL', 172, 78, 11, '#183c31'))
+        parts.append(_lbl('CLEAN', 68, 86, 10.5, '#183c31'))
+    else:
+        # Gait trail straddle & stride diagram
+        for gx, gy in ((52, 108), (86, 68), (124, 108), (160, 68), (196, 108)):
+            parts.append(f'<circle cx="{gx}" cy="{gy}" r="8" fill="#315245"/>')
+        parts.append('<path d="M52 108h144M52 68h144" stroke="#8f381c" stroke-width="1.5" stroke-dasharray="4 3"/>')
+    # Metric/inch scale ticks along bottom of left plate
+    parts.append('<path d="M38 126h100M38 121v8M63 123v6M88 121v8M113 123v6M138 121v8" stroke="#183c31" stroke-width="1.6"/>')
+    for i, feat in enumerate(features):
+        col, row = i % 2, i // 2
+        x = 248 + col * 224
+        y = 38 + row * 50
+        parts.append(f'<rect x="{x}" y="{y}" width="216" height="44" rx="5" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="22" height="44" rx="4" fill="#184438"/>')
+        parts.append(_lbl(str(i + 1), x + 11, y + 26, 10.6, '#fffdf7'))
+        parts.append(text(wrap(feat, 25)[:2], x + 28, y + 18, 14, 10.4, 650, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="290" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['scale'], 173, 152, 10.4, '#183c31'))
+    parts.append('<rect x="328" y="139" width="364" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['limit'], 510, 152, 10.4, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_regulation_boundary(spec):
+    """Jurisdiction, authority, season, and no-emergency-exemption verification schematic."""
+    variant = spec['variant']
+    checks = spec['checks']
+    parts = [f'<g id="regulation-boundary-{variant}-artwork">']
+    parts.append('<rect x="28" y="38" width="200" height="96" rx="7" fill="#184438" stroke="#183c31" stroke-width="2"/>')
+    parts.append(_lbl('AUTHORITY GATE', 128, 60, 11, '#dceadf'))
+    parts.append(text(wrap(spec['authority'], 21)[:3], 128, 82, 16, 11.5, 700, '#fffdf7', 'middle'))
+    parts.append('<path d="M230 86h20" stroke="#184438" stroke-width="3" marker-end="url(#arrow)"/>')
+    for i, chk in enumerate(checks):
+        y = 38 + i * 33
+        parts.append(f'<rect x="256" y="{y}" width="436" height="28" rx="5" fill="#f9faef" stroke="#315245" stroke-width="1.8"/>')
+        parts.append(f'<rect x="256" y="{y}" width="26" height="28" rx="4" fill="#2b5d4e"/>')
+        parts.append(_lbl(str(i + 1), 269, y + 18, 10.8, '#fffdf7'))
+        parts.append(_lbl(chk, 292, y + 18, 10.8, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="664" height="18" rx="4" fill="#f7dfd6" stroke="#8f381c" stroke-width="1.6"/>')
+    parts.append(_lbl(spec['prohibition'], 360, 152, 10.6, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_hazard_exclusion_map(spec):
+    """Overhead spatial hazard/exclusion-zone map with compass cue and reporting bar."""
+    variant = spec['variant']
+    zones = spec['zones']
+    parts = [f'<g id="hazard-exclusion-{variant}-artwork">']
+    # Left overhead concentric / corridor hazard map
+    parts.append('<rect x="28" y="38" width="224" height="96" rx="6" fill="#eef3ec" stroke="#285345" stroke-width="2.2"/>')
+    if variant == 'trapping_corridor':
+        parts.append('<path d="M36 96q68-22 140 6t68-14" fill="none" stroke="#5b8fa1" stroke-width="10"/>')
+        parts.append('<path d="M36 62h208" stroke="#6f8c7a" stroke-width="4" stroke-dasharray="6 4"/>')
+        parts.append('<circle cx="136" cy="88" r="18" fill="#f5d9cf" stroke="#8f381c" stroke-width="2.2" stroke-dasharray="4 3"/>')
+        parts.append(_lbl('HAZARD', 136, 92, 9.6, '#642e1e'))
+    elif variant == 'pet_leash':
+        parts.append('<path d="M36 86h208" stroke="#285345" stroke-width="6"/>')
+        parts.append('<rect x="36" y="42" width="208" height="24" fill="#f5dfd5" stroke="#8f381c" stroke-dasharray="5 3"/>')
+        parts.append('<rect x="36" y="106" width="208" height="24" fill="#f5dfd5" stroke="#8f381c" stroke-dasharray="5 3"/>')
+        parts.append(_lbl('ON-LEASH TRAIL', 140, 90, 9.8, '#fffdf7'))
+    else:
+        parts.append('<circle cx="140" cy="86" r="40" fill="#dceadf" stroke="#285345" stroke-width="2"/>')
+        parts.append('<circle cx="140" cy="86" r="24" fill="#f5e6c8" stroke="#7c6928" stroke-width="2" stroke-dasharray="5 3"/>')
+        parts.append('<circle cx="140" cy="86" r="10" fill="#d97254" stroke="#8f381c" stroke-width="2"/>')
+    # North arrow cue
+    parts.append('<path d="M44 62V44" stroke="#183c31" stroke-width="2" marker-end="url(#arrow)"/>')
+    parts.append(_lbl('N', 54, 52, 10, '#183c31'))
+    for i, z in enumerate(zones):
+        y = 38 + i * 33
+        parts.append(f'<rect x="266" y="{y}" width="426" height="28" rx="5" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="266" y="{y}" width="26" height="28" rx="4" fill="{"#8f381c" if i == 0 else "#285345"}"/>')
+        parts.append(_lbl(str(i + 1), 279, y + 18, 10.8, '#fffdf7'))
+        parts.append(_lbl(z, 302, y + 18, 10.8, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="318" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['buffer'], 187, 152, 10.4, '#183c31'))
+    parts.append('<rect x="356" y="139" width="336" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['report'], 524, 152, 10.4, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_botanical_morphology(spec):
+    """Conceptual botanical anatomy cutaway (leaves, umbel/roots, berries, trees) with HOLD bar."""
+    variant = spec['variant']
+    features = spec['features']
+    parts = [f'<g id="botanical-morphology-{variant}-artwork">']
+    parts.append('<rect x="28" y="38" width="206" height="96" rx="6" fill="#f6f7ef" stroke="#2c4b3f" stroke-width="2.2"/>')
+    if variant == 'umbel_root':
+        # Compound umbel + hollow/chambered root cutaway
+        parts.append('<path d="M90 122V66M90 66l-28-14M90 66l-10-18M90 66l10-18M90 66l28-14" stroke="#285345" stroke-width="2.2"/>')
+        for cx in (62, 80, 100, 118):
+            parts.append(f'<circle cx="{cx}" cy="49" r="5" fill="#dceadf" stroke="#285345" stroke-width="1.5"/>')
+        parts.append('<path d="M168 54c-16 14-14 48 0 68c14-20 16-54 0-68Z" fill="#e6d9be" stroke="#5e4b35" stroke-width="2.2"/>')
+        parts.append('<path d="M158 72h20M156 86h24M158 100h20" stroke="#8f381c" stroke-width="2"/>')
+    elif variant == 'berry_shrub':
+        # Branch + alternate leaves + multi-seeded drupe/berry cluster + calyx
+        parts.append('<path d="M44 114L176 54" stroke="#5e4b35" stroke-width="3.2"/>')
+        parts.append('<ellipse cx="86" cy="70" rx="20" ry="9" transform="rotate(-35 86 70)" fill="#94b698" stroke="#184438" stroke-width="1.8"/>')
+        parts.append('<ellipse cx="134" cy="96" rx="20" ry="9" transform="rotate(28 134 96)" fill="#94b698" stroke="#184438" stroke-width="1.8"/>')
+        for bx, by in ((164, 68), (182, 74), (172, 88), (192, 86)):
+            parts.append(f'<circle cx="{bx}" cy="{by}" r="7.5" fill="#4f3d59" stroke="#183c31" stroke-width="1.6"/>')
+    elif variant == 'tree_nut':
+        # Needle fascicle / lobed leaf + armored nut/acorn cap
+        parts.append('<path d="M74 116V56M74 86l-24-18M74 86l24-18M74 70l-18-16M74 70l18-16" stroke="#184438" stroke-width="2.4"/>')
+        parts.append('<path d="M150 74h48q0-18-24-20q-24 2-24 20Z" fill="#7c6345" stroke="#3d2e1e" stroke-width="2"/>')
+        parts.append('<path d="M154 74h40v20q0 20-20 26q-20-6-20-26Z" fill="#d9be92" stroke="#3d2e1e" stroke-width="2"/>')
+    elif variant == 'phenology':
+        # 4 seasonal life stages: shoot -> flower -> fruit -> dormant twig
+        for idx, (x, h) in enumerate(((56, 22), (102, 42), (148, 48), (194, 34))):
+            parts.append(f'<path d="M{x} 118v-{h}" stroke="#285345" stroke-width="2.6"/>')
+            parts.append(f'<circle cx="{x}" cy="{118 - h}" r="{5 + (idx % 2) * 3}" fill="{"#94b698" if idx < 2 else "#8f381c"}" stroke="#183c31"/>')
+    else:
+        # Opposite vs alternate leaf arrangement on stems
+        parts.append('<path d="M78 120V48" stroke="#285345" stroke-width="3"/>')
+        parts.append('<ellipse cx="56" cy="70" rx="16" ry="7" fill="#94b698" stroke="#184438"/>')
+        parts.append('<ellipse cx="100" cy="70" rx="16" ry="7" fill="#94b698" stroke="#184438"/>')
+        parts.append('<ellipse cx="56" cy="98" rx="16" ry="7" fill="#94b698" stroke="#184438"/>')
+        parts.append('<ellipse cx="100" cy="98" rx="16" ry="7" fill="#94b698" stroke="#184438"/>')
+        parts.append('<path d="M168 120V48" stroke="#285345" stroke-width="3"/>')
+        parts.append('<ellipse cx="146" cy="64" rx="16" ry="7" fill="#c7d4b6" stroke="#184438"/>')
+        parts.append('<ellipse cx="190" cy="84" rx="16" ry="7" fill="#c7d4b6" stroke="#184438"/>')
+        parts.append('<ellipse cx="146" cy="104" rx="16" ry="7" fill="#c7d4b6" stroke="#184438"/>')
+    parts.append('<path d="M38 127h72M38 123v7M74 123v7M110 123v7" stroke="#183c31" stroke-width="1.6"/>')
+    for i, feat in enumerate(features):
+        col, row = i % 2, i // 2
+        x = 248 + col * 224
+        y = 38 + row * 50
+        parts.append(f'<rect x="{x}" y="{y}" width="216" height="44" rx="5" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="22" height="44" rx="4" fill="#184438"/>')
+        parts.append(_lbl(str(i + 1), x + 11, y + 26, 10.6, '#fffdf7'))
+        parts.append(text(wrap(feat, 25)[:2], x + 28, y + 18, 14, 10.4, 650, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="276" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['scale'], 166, 152, 10.3, '#183c31'))
+    parts.append('<rect x="314" y="139" width="378" height="18" rx="4" fill="#f7dfd6" stroke="#8f381c" stroke-width="1.6"/>')
+    parts.append(_lbl(spec['hold'], 503, 152, 10.3, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_fungal_anatomy(spec):
+    """Conceptual mushroom anatomical cross-section (cap, gills/pores, annulus, volva, substrate)."""
+    variant = spec['variant']
+    features = spec['features']
+    parts = [f'<g id="fungal-anatomy-{variant}-artwork">']
+    parts.append('<rect x="28" y="38" width="206" height="96" rx="6" fill="#f7f4ec" stroke="#2c4b3f" stroke-width="2.2"/>')
+    if variant == 'morel_cutaway':
+        # True hollow morel cutaway vs chambered/stuffed false morel
+        parts.append('<path d="M78 46c-18 8-22 30-14 48h28c8-18 4-40-14-48Z" fill="#c9b896" stroke="#4f3c24" stroke-width="2"/>')
+        parts.append('<path d="M78 54c-8 6-10 22-6 36h12c4-14 2-30-6-36Z" fill="#fffdf7" stroke="#4f3c24" stroke-width="1.6"/>')
+        parts.append('<rect x="69" y="94" width="18" height="28" fill="#fffdf7" stroke="#4f3c24" stroke-width="2"/>')
+        parts.append('<path d="M168 48c-22 6-24 28-14 40h28c10-12 8-34-14-40Z" fill="#a6684b" stroke="#642e1e" stroke-width="2"/>')
+        parts.append('<path d="M158 64h20M156 76h24M162 88v32M174 88v32" stroke="#642e1e" stroke-width="2"/>')
+    elif variant == 'polypore_tooth':
+        # Shelf bracket polypore on deadwood substrate showing pore underside
+        parts.append('<rect x="44" y="44" width="26" height="82" fill="#8b7152" stroke="#3d2e1e" stroke-width="2"/>')
+        parts.append('<path d="M70 64q66-14 116 14q-24 18-116 14Z" fill="#d9a66c" stroke="#5e3d1e" stroke-width="2.2"/>')
+        parts.append('<path d="M76 84h98" stroke="#5e3d1e" stroke-width="2" stroke-dasharray="2 3"/>')
+        parts.append('<path d="M70 98q48-6 84 10q-16 12-84 8Z" fill="#c9935b" stroke="#5e3d1e" stroke-width="2"/>')
+    elif variant == 'spore_substrate':
+        # Spore print card (half dark/half light) + wood vs soil substrate check
+        parts.append('<rect x="46" y="50" width="76" height="58" fill="#fffdf7" stroke="#263d35" stroke-width="2"/>')
+        parts.append('<rect x="84" y="50" width="38" height="58" fill="#263d35"/>')
+        parts.append('<circle cx="84" cy="79" r="20" fill="none" stroke="#8f381c" stroke-width="2.5" stroke-dasharray="4 3"/>')
+        parts.append('<rect x="138" y="88" width="80" height="24" rx="4" fill="#9c8261" stroke="#4f3c24" stroke-width="2"/>')
+        parts.append('<path d="M178 88V64m-18 0q18-14 36 0Z" fill="#d7ceb8" stroke="#4f3c24" stroke-width="2"/>')
+    else:
+        # Agaric cutaway: cap, gills, annulus ring, stipe, basal volva cup in soil
+        parts.append('<path d="M68 74q58-42 116 0Z" fill="#d8ccb4" stroke="#3d2e1e" stroke-width="2.2"/>')
+        parts.append('<path d="M78 74v6M92 74v6M106 74v6M146 74v6M160 74v6M174 74v6" stroke="#5e4b35" stroke-width="1.6"/>')
+        parts.append('<rect x="116" y="74" width="20" height="44" fill="#f9f7ef" stroke="#3d2e1e" stroke-width="2"/>')
+        parts.append('<path d="M110 88l16 8 16-8" fill="none" stroke="#8f381c" stroke-width="2.4"/>')
+        parts.append('<path d="M104 108q22 24 44 0l-6 18h-32Z" fill="#e6c8ba" stroke="#8f381c" stroke-width="2.2"/>')
+        parts.append('<path d="M40 120h180" stroke="#7c6345" stroke-width="2" stroke-dasharray="5 3"/>')
+    parts.append('<path d="M38 128h64M38 124v7M102 124v7" stroke="#183c31" stroke-width="1.6"/>')
+    for i, feat in enumerate(features):
+        col, row = i % 2, i // 2
+        x = 248 + col * 224
+        y = 38 + row * 50
+        parts.append(f'<rect x="{x}" y="{y}" width="216" height="44" rx="5" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="22" height="44" rx="4" fill="{"#8f381c" if i == 3 else "#184438"}"/>')
+        parts.append(_lbl(str(i + 1), x + 11, y + 26, 10.6, '#fffdf7'))
+        parts.append(text(wrap(feat, 25)[:2], x + 28, y + 18, 14, 10.4, 650, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="276" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['scale'], 166, 152, 10.3, '#183c31'))
+    parts.append('<rect x="314" y="139" width="378" height="18" rx="4" fill="#f7dfd6" stroke="#8f381c" stroke-width="1.6"/>')
+    parts.append(_lbl(spec['hold'], 503, 152, 10.3, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_lookalike_diagnostic(spec):
+    """Side-by-side target vs toxic-lookalike contrast plate with explicit HOLD exclusion bar."""
+    variant = spec['variant']
+    parts = [f'<g id="lookalike-diagnostic-{variant}-artwork">']
+    # Left panel: Target specimen traits (solid dark border)
+    parts.append('<rect x="28" y="38" width="318" height="96" rx="7" fill="#e6efe8" stroke="#184438" stroke-width="2.6"/>')
+    parts.append('<rect x="28" y="38" width="318" height="23" rx="5" fill="#184438"/>')
+    parts.append(_lbl('SUBJECT · ' + spec['target_name'], 187, 54, 10.8, '#fffdf7'))
+    for idx, line in enumerate(spec['target_traits']):
+        parts.append(text(wrap(f'{idx + 1}. {line}', 36)[:2], 40, 77 + idx * 29, 13, 10.5, 650, '#183c31', 'start'))
+    # Center contrast divider badge
+    parts.append('<circle cx="360" cy="86" r="15" fill="#fffdf7" stroke="#642e1e" stroke-width="2.2"/>')
+    parts.append(_lbl('VS', 360, 90, 10.5, '#642e1e'))
+    # Right panel: Toxic lookalike warning (dashed rust border)
+    parts.append('<rect x="374" y="38" width="318" height="96" rx="7" fill="#f9eae3" stroke="#8f381c" stroke-width="2.6" stroke-dasharray="7 4"/>')
+    parts.append('<rect x="374" y="38" width="318" height="23" rx="5" fill="#8f381c"/>')
+    parts.append(_lbl('TOXIC LOOKALIKE · ' + spec['toxic_name'], 533, 54, 10.8, '#fffdf7'))
+    for idx, line in enumerate(spec['toxic_traits']):
+        parts.append(text(wrap(f'! {line}', 36)[:2], 386, 77 + idx * 29, 13, 10.5, 650, '#642e1e', 'start'))
+    parts.append('<rect x="28" y="139" width="664" height="18" rx="4" fill="#f7dfd6" stroke="#8f381c" stroke-width="1.6"/>')
+    parts.append(_lbl(spec['exclusion'], 360, 152, 10.5, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_atlas_crossref_plate(spec):
+    """Cross-zone field reference index preserving upstream zone IDs, conditions, and stop rules."""
+    variant = spec['variant']
+    rows = spec['rows']
+    parts = [f'<g id="atlas-crossref-{variant}-artwork">']
+    parts.append('<rect x="28" y="38" width="664" height="22" rx="4" fill="#184438"/>')
+    parts.append(_lbl('SOURCE ZONES', 96, 53, 10.5, '#fffdf7'))
+    parts.append(_lbl('INDEXED TOPIC & CONDITION', 308, 53, 10.5, '#fffdf7'))
+    parts.append(_lbl('PRESERVED STOP / ESCALATION', 566, 53, 10.5, '#fffdf7'))
+    for i, row in enumerate(rows):
+        y = 63 + i * 24
+        bg = '#f9faef' if i % 2 == 0 else '#eef3ee'
+        parts.append(f'<rect x="28" y="{y}" width="664" height="22" rx="3" fill="{bg}" stroke="#7e9485" stroke-width="1.3"/>')
+        parts.append(f'<rect x="28" y="{y}" width="136" height="22" rx="3" fill="#dceadf" stroke="#4f6c5d" stroke-width="1.2"/>')
+        parts.append(_lbl(row['zones'], 96, y + 15, 10.5, '#183c31'))
+        parts.append(_lbl(row['topic'], 174, y + 15, 10.4, '#183c31', 'start'))
+        parts.append(_lbl(row['stop'], 456, y + 15, 10.4, '#642e1e', 'start'))
+    parts.append('<rect x="28" y="139" width="664" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['preserve'], 360, 152, 10.5, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_specimen_doc_plate(spec):
+    """Multi-view voucher specimen documentation workflow for botany, mycology, geology, and tracks."""
+    variant = spec['variant']
+    views = spec['views']
+    parts = [f'<g id="specimen-doc-{variant}-artwork">']
+    for i, view in enumerate(views):
+        x = 28 + i * 168
+        parts.append(f'<rect x="{x}" y="38" width="156" height="96" rx="6" fill="#f9faef" stroke="#285345" stroke-width="2"/>')
+        parts.append(f'<rect x="{x}" y="38" width="156" height="22" rx="4" fill="#285345"/>')
+        parts.append(_lbl(f'VIEW {i + 1}', x + 78, 53, 10.6, '#fffdf7'))
+        # Viewfinder corner brackets inside card
+        parts.append(f'<path d="M{x+12} 72v-6h6M{x+144} 72v-6h-6M{x+12} 120v6h6M{x+144} 120v6h-6" fill="none" stroke="#6f8c7a" stroke-width="1.8"/>')
+        parts.append(text(wrap(view, 18)[:3], x + 78, 84, 14, 10.6, 650, '#183c31', 'middle'))
+        if i < 3:
+            parts.append(f'<path d="M{x+157} 86h9" stroke="#285345" stroke-width="2.2" marker-end="url(#arrow)"/>')
+    parts.append('<rect x="28" y="139" width="330" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['voucher'], 193, 152, 10.3, '#183c31'))
+    parts.append('<rect x="366" y="139" width="326" height="18" rx="4" fill="#f7dfd6" stroke="#8f381c"/>')
+    parts.append(_lbl(spec['hold'], 529, 152, 10.3, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
 RENDERERS = {
     'cutaway': _render_cutaway,
     'force_redirect': _render_force_redirect,
@@ -752,6 +1164,16 @@ RENDERERS = {
     'escalation_ladder': _render_escalation_ladder,
     'anatomy_zone': _render_anatomy_zone,
     'seasonal_timeline': _render_seasonal_timeline,
+    'geological_strata': _render_geological_strata,
+    'mineral_test_plate': _render_mineral_test_plate,
+    'wildlife_track_plate': _render_wildlife_track_plate,
+    'regulation_boundary': _render_regulation_boundary,
+    'hazard_exclusion_map': _render_hazard_exclusion_map,
+    'botanical_morphology': _render_botanical_morphology,
+    'fungal_anatomy': _render_fungal_anatomy,
+    'lookalike_diagnostic': _render_lookalike_diagnostic,
+    'atlas_crossref_plate': _render_atlas_crossref_plate,
+    'specimen_doc_plate': _render_specimen_doc_plate,
 }
 
 
