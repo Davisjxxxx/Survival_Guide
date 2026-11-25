@@ -1,0 +1,1049 @@
+Z16-P01 | Emergency Scene Safety and STOP Triad Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Index immediate scene-safety, lost-person STOP, and 911 escalation gates across Z01, Z10, and Z11 without dropping upstream limits.
+applies: First 60 seconds of any backcountry, weather, or trauma emergency.
+equipment: Full offline reader (Z01, Z10, Z11), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01, Z10, Z11 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01, Z10, Z11 with preserved upstream conditions and stop thresholds.
+action: Pause on stable ground (Z01-P01, Z11-P43) to scan active traffic, water, ice, fire, electrical, or overhead-snag hazards before approaching a casualty or moving further. @A01,T01
+action: Activate 911 or emergency SOS early (Z01-P16, Z10-P01) while establishing shelter, bleeding control, or rescue signaling rather than delaying for uncertain self-rescue. @A01,A09,M01
+action: Defer immediately to the full upstream Z01, Z10, or Z11 card for scene-specific exclusions; never treat a condensed atlas summary as standalone clinical clearance. @A01,A10
+failure: Rushing into an active water, ice, gas, electrical, or wildlife hazard creates a second casualty and delays rescue. @A01,T01
+verify: Scene hazards are checked, exact upstream Z01, Z10, Z11 card IDs are located, and emergency help is notified early. @A01,A09
+stop: Stop advancing into any unverified hazard zone and hold on safe ground until qualified responders or verified conditions permit movement. @A01,T01
+reviewer: SAR, EMS, and emergency-management reviewer
+
+Z16-P02 | Life-Threatening Bleeding and Civilian Tourniquet Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Cross-reference Z10 hemorrhage control, Z09 sharp-tool laceration risks, and Z06 field-trauma readiness while preserving civilian visible-wound tourniquet rules.
+applies: Severe arterial, venous bleeding from falls, tools, siliceous stone, or hunting incidents.
+equipment: Full offline reader (Z10, Z06, Z09), primary zone cards, and local emergency and agency references.
+diagram: Locate Z10, Z06, Z09 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z10, Z06, Z09 with preserved upstream conditions and stop thresholds.
+action: Apply firm continuous direct pressure on visible life-threatening bleeding and pack junctional wounds per Z10-P03 and Z10-P04 while activating 911 immediately. @A01,M01
+action: For visible life-threatening extremity hemorrhage, apply a commercial windlass tourniquet 2 to 3 inches above the wound—never over a joint—tightening until bleeding stops and recording application time (Z10-P04); separate tactical high-and-tight contexts and pediatric fit limits remain binding. @A01,M02
+action: Secure tools, knives, saws, or unloaded firearms (Z06-P48, Z09-P02) away from casualties and monitor continuously for shock (Z10-P05) without giving oral fluids to impaired patients. @A01,M05,H03
+failure: Mixing tactical high-and-tight instructions with visible-wound spacing, loosening a needed tourniquet, or using improvised narrow cords causes fatal blood loss. @M01,M02
+verify: Direct pressure or properly placed commercial tourniquet stops bright bleeding, time is noted, and 911 is en route. @M01,M02
+stop: Stop improvised tourniquet experiments when commercial gear or firm direct pressure, packing is indicated, and never remove a placed tourniquet outside clinician direction. @M01,M02
+reviewer: Trauma EMS and wilderness-medicine reviewer
+
+Z16-P03 | Airway, CPR, Choking and Drowning Resuscitation Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Index adult, pediatric, and drowning resuscitation distinctions across Z10 and Z12 without stripping dispatcher guidance or rescue-breath exceptions.
+applies: Unresponsive casualty, choking, or post-immersion drowning rescue.
+equipment: Full offline reader (Z10, Z12, Z06), primary zone cards, and local emergency and agency references.
+diagram: Locate Z10, Z12, Z06 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z10, Z12, Z06 with preserved upstream conditions and stop thresholds.
+action: Check responsiveness and normal breathing rapidly without imposing an arbitrary full-minute delay, activate 911, AED immediately, and follow dispatcher-guided CPR (Z10-P08, Z10-P09). @A01,M03
+action: Preserve Z10 and Z12 cause-specific distinctions: drowning and pediatric cardiac arrest prioritize rescue breaths alongside compressions when trained, rather than assuming hands-only CPR fits every casualty. @A01,M03,X03
+action: In water or ice incidents (Z12-P16, Z06-P20), enforce Reach-Throw-Dont-Go shore-based assistance so untrained rescuers do not enter cold water and drown. @A01,X03,H18
+failure: Delaying compressions for prolonged checks, omitting rescue breaths in drowning, pediatric arrest, or swimming after victims causes preventable fatalities. @M03,X03
+verify: 911 and AED are activated immediately, dispatcher instructions are followed, and shore-rescue limits hold. @M03,X03
+stop: Stop hands-only assumptions for drowning or pediatric patients when trained for breaths, and never enter unstable ice or surf without rescue gear. @M03,X03
+reviewer: EMS, resuscitation, and water-rescue reviewer
+
+Z16-P04 | Carbon Monoxide Immediate Evacuation and Combustion Clearance Index | New manuscript (Z16 P20 emergency index)
+objective: Consolidate zero-delay CO alarm evacuation and outdoor-only combustion boundaries across Z02, Z03, Z13, and Z15.
+applies: Any tent, cabin, vehicle, basement, or home using stoves, heaters, fireplaces, or portable generators.
+equipment: Full offline reader (Z02, Z03, Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z02, Z03, Z13, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z02, Z03, Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: Evacuate everyone immediately into fresh outdoor air and call 911 or the fire department whenever a CO alarm sounds or CO symptoms appear (Z13-P20, Z03-P40)—never delay exit to shut down equipment. @A01,C07,U05
+action: Operate portable generators strictly outdoors at least 20 feet from windows, doors, vents, and garages with exhaust pointed away (Z03-P06, Z13-P06), and never run fuel stoves, grills, or charcoal inside tents, snow caves, vehicles, or enclosures (Z02-P44). @A01,C05,C06,U04
+action: Clear snow-buried furnace, dryer exterior PVC vents (Z13-P24) and stranded-vehicle tailpipes (Z15-P14) before operating heating appliances or engines. @A01,U07,D19
+failure: Stopping to turn off a generator or furnace during a CO alarm—or cracking a tent zipper while burning a stove—causes fatal hypoxic collapse. @C05,C07,U05
+verify: Battery-backed CO alarms are installed, generators sit at least 20 ft outdoors, and immediate fresh-air exit precedes any equipment action. @C06,C07,U04,U05
+stop: Stop all indoor fuel combustion immediately and leave the building at once on any CO alarm or unexplained headache, dizziness. @C07,U05
+reviewer: Fire service, HVAC/CO, and wilderness-shelter reviewer
+
+Z16-P05 | Hypothermia, Cold-Water Shock and Frostbite Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Integrate cold-exposure prevention, hypothermia gentle handling, and non-refreezing frostbite rules across Z02, Z10, Z12, and Z13.
+applies: Cold rain, wind chill, winter outages, snow travel, and cold-water immersion.
+equipment: Full offline reader (Z02, Z10, Z12, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z02, Z10, Z12, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z02, Z10, Z12, Z13 with preserved upstream conditions and stop thresholds.
+action: Prioritize dry ground insulation, windproof shelter, and vapor, moisture control (Z02-P03, Z12-P04) before cold stress advances to shivering cessation or confusion. @A01,E03,X02
+action: Handle severe hypothermia gently, insulate from ground, avoid rapid peripheral rubbing or alcohol, and activate EMS early (Z10-P42, Z12-P08); for frostbite, never rub with snow or thaw tissue if refreezing is possible (Z10-P44). @A01,M11,M12,X02
+action: During winter power outages (Z13-P18, Z15-P13), consolidate into one safe insulated interior room or move early to a designated public warming center rather than using unsafe unvented heaters. @A01,U06,D19
+failure: Rubbing frostbitten digits with snow, thawing feet before a cold hike out, or rough handling of severely hypothermic patients worsens tissue loss and cardiac arrhythmia. @M11,M12
+verify: Dry ground barrier, gentle warming, non-refreezing frostbite rule, and warming-center, EMS triggers are preserved intact. @E03,M11,M12
+stop: Stop outdoor travel and activate rescue immediately when shivering stops, speech slurs, or coordination fails. @M11,X02
+reviewer: Wilderness medicine and cold-weather rescue reviewer
+
+Z16-P06 | Extreme Heat Stroke Cooling and Indoor Fan Limit Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Align rapid heat-stroke cooling, CDC indoor fan limits, and desert, urban heat triggers across Z10, Z12, and Z15.
+applies: Summer heat waves, power outages with high indoor heat, and desert or heavy-exertion travel.
+equipment: Full offline reader (Z10, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z10, Z12, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z10, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: Recognize heat stroke (confusion, altered alertness, collapse, very high body heat) as a life-threatening emergency requiring immediate 911 activation AND rapid cooling simultaneously (Z10-P46, Z12-P30). @A01,M27,X07
+action: Use cold-water immersion when safely accessible and airway-protected, or continuous water dousing plus brisk airflow, and never force oral fluids into a confused or vomiting patient (Z10-P46). @A01,M27
+action: Apply CDC indoor heat guidance in Z15-P37: indoor electric fans are advised only below 90 F; move to a cooler air-conditioned shelter or cooling center when indoor temperatures climb above safe limits. @A01,D21
+failure: Delaying active cooling while awaiting EMS, giving fluids to altered patients, or relying solely on fans in >90 F rooms causes fatal organ failure. @M27,D21
+verify: 911 + immediate cooling, airway fluid exclusion, and CDC below 90 F fan boundaries stay harmonized across zones. @M27,D21
+stop: Stop exertion immediately on dizziness, nausea, or confusion and initiate aggressive cooling plus 911. @M27,X07
+reviewer: Emergency medicine and public-health heat reviewer
+
+Z16-P07 | Water Treatment, Altitude Boiling and Chemical Rejection Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Synthesize Z04 microbial treatment, altitude boiling duration, HAB, chemical source rejection, and Z13 boil-water, private-well rules.
+applies: Backcountry water sourcing, flood boil-water advisories, and household emergency storage.
+equipment: Full offline reader (Z04, Z12, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z12, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z12, Z13 with preserved upstream conditions and stop thresholds.
+action: Separate visual clarification (settling, cloth strain) from validated microbial treatment; clear water is NEVER proven potable by appearance alone (Z04-P01, Z04-P32). @A03,W01,W03
+action: Preserve exact CDC boiling conditions: bring water to a rolling boil for 1 full minute below 6,500 feet elevation and 3 full minutes above 6,500 feet (Z04-P34); pair filtration with viral disinfection or boiling where viruses exist (Z04-P37). @A03,W11,W15
+action: Reject chemical spills, industrial, mine runoff, and cyanobacterial harmful algal blooms (HABs) outright—boiling concentrates cyanotoxins and does not remove lead, nitrates, or fuels (Z04-P14, Z13-P41). @A03,W04,W05,U11
+failure: Omission of the 6,500-ft boiling altitude rule or boiling HAB, chemically polluted water causes severe illness or toxin concentration. @W04,W05,W11
+verify: Clarification, elevation-adjusted boiling, filter freeze-damage checks, and chemical, HAB exclusions remain intact. @W04,W11,W15
+stop: Stop using any water source suspected of chemical spills, fuel sheen, mine runoff, or algal blooms; use stored bottled water or relocate. @W04,W05
+reviewer: Drinking-water microbiology and public-health reviewer
+
+Z16-P08 | Plant, Berry and Wild Mushroom Poison Emergency Cross-Reference | New manuscript (Z16 P20 emergency index)
+objective: Link Z05 lethal lookalikes, Z10 toxicology first response, and Z14 botulism red flags to immediate 1-800-222-1222 and 911 escalation.
+applies: Any suspected ingestion of unknown plants, berries, roots, wild mushrooms, or suspect home-canned foods.
+equipment: Full offline reader (Z05, Z10, Z14), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z10, Z14 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z10, Z14 with preserved upstream conditions and stop thresholds.
+action: Call 911 immediately for airway swelling, breathing difficulty, seizures, confusion, vision, swallowing trouble, or collapse; call Poison Help (1-800-222-1222) at once for ANY suspected plant or mushroom ingestion without waiting for symptoms (Z05-P135, Z10-P61). @A09,B09,M19
+action: Preserve delayed-onset red alerts: 6–24 hour GI onset with a deceptive day-two lull signals potentially fatal amatoxin poisoning (Amanita, Galerina, Z05-P133), while blurred vision, slurred speech, or swallowing trouble after preserved foods signals botulism emergency (Z14-P61). @A03,B06,P23
+action: Save uneaten plant or mushroom pieces in dry paper bags (never sealed plastic, Z05-P134) and never induce vomiting uninstructed or open suspect bulging canning jars (Z14-P62). @A09,B08,P23
+failure: Waiting for symptoms to worsen, sealing mushrooms in plastic, or tasting suspect canned food leads to preventable organ failure or respiratory paralysis. @B06,B08,P23
+verify: 911 vs 1-800-222-1222 pathways, dry-paper specimen retention, and zero uninstructed emetics are preserved intact. @B08,B09,P23
+stop: Stop all field activity and seek emergency clinical evaluation immediately after any suspected toxic plant, mushroom, or botulism exposure. @B09,P23
+reviewer: Clinical medical toxicologist and mycologist
+
+Z16-P09 | Severe Weather Immediate Action: Tornado, Flood and Lightning Index | New manuscript (Z16 P20 emergency index)
+objective: Synthesize NWS immediate protective actions for tornadoes, flash floods, and lightning across Z11, Z12, and Z15 without losing exceptions.
+applies: Active NWS Tornado Warning, Flash Flood Warning, Severe Thunderstorm, or visible lightning.
+equipment: Full offline reader (Z11, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z11, Z12, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z11, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: For tornadoes (Z15-P16..P18), move to a basement, safe room, or lowest interior windowless room—NEVER shelter under a highway overpass or remain in a mobile home. @A01,D04,D05
+action: For flooding (Z15-P24..P26), obey Turn Around Dont Drown—NEVER drive or walk across flooded roads or around barricades; move to higher ground immediately. @A01,D07
+action: For lightning (Z11-P38, Z12-P38, Z10-P50), leave open water, ridgelines, and isolated trees early for a substantial building or hard-topped vehicle; lightning victims retain no electrical charge and require immediate 911 and safe CPR if unresponsive. @A01,N05,M28
+failure: Sheltering under highway overpasses, driving into murky floodwater over washed-out culverts, or hesitating to touch a lightning casualty causes fatalities. @D04,D07,M28
+verify: Local NWS warning tiers, zero overpass, flood-crossing prohibitions, and lightning-casualty safety remain aligned. @D04,D07,M28
+stop: Stop outdoor travel immediately upon NWS warnings, approaching thunder, or rising water over roadways. @D04,D07,N05
+reviewer: Meteorologist and emergency-management reviewer
+
+Z16-P10 | Compound Hazard Tradeoffs: Smoke+Heat, Outage+Cold and Flood+Power | New manuscript (Z16 P20 compound hazards)
+objective: Preserve A02 compound-hazard boundaries where single-hazard instructions conflict (wildfire smoke plus heat, outage plus subzero cold, flood plus wet electrical panels).
+applies: Multi-hazard events requiring simultaneous protection from conflicting environmental threats.
+equipment: Full offline reader (Z12, Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z12, Z13, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z12, Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: When wildfire smoke coincides with extreme indoor heat or cooling failure (Z15-P33, Z15-P37), do not trap occupants in an overheated uncooled room—relocate to a cooler cleaner-air public shelter per EPA, local guidance. @A08,D20,D21
+action: When flooding enters a basement or structure (Z13-P45, Z15-P28), stay strictly clear of standing water near electrical panels, outlets, or submerged tools and require licensed electrician, utility clearance before restoring power. @A08,U20
+action: When extended winter power outages coincide with subzero cold (Z13-P18, Z15-P13), prioritize safe indoor heat consolidation or early relocation to a warming center while maintaining zero-delay CO evacuation. @A08,U05,D19
+failure: Applying one single-hazard checklist blindly—such as sealing windows tightly during dangerous indoor heat or wading into a flooded basement to flip breakers—creates fatal secondary hazards. @D20,U20
+verify: Compound-hazard conflict rules defer cleanly to local emergency-management orders and preserve every upstream stop condition. @A08,D20,U20
+stop: Stop sheltering in place whenever indoor temperatures, smoke infiltration, floodwater, or CO alarms make the structure unsafe; evacuate per local authority. @A08,D20,U20
+reviewer: Emergency management, public health, and licensed electrical reviewer
+
+Z16-P11 | Accessible and Functional-Needs Emergency Planning Index | New manuscript (Z16 P20 accessibility index)
+objective: Cross-reference disability, mobility, sensory, power-dependent medical device, pediatric, and older-adult planning requirements across Z01, Z10, Z13, and Z15.
+applies: Inclusive emergency preparedness for households, caregivers, and group leaders.
+equipment: Full offline reader (Z01, Z10, Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01, Z10, Z13, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01, Z10, Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: Map accessible evacuation routes, local paratransit, emergency-registry options, and utility priority-restoration programs before disasters strike (Z01-P18, Z15-P55). @A01,T14,D14
+action: Maintain backup power plans for electrically dependent medical devices (oxygen concentrators, CPAP, refrigerated insulin) without unsafe indoor generators (Z13-P11, Z15-P55), and use ready-to-feed infant formula when available during water outages (Z14-P75). @A03,U04,P26
+action: Include visual, vibrating weather and CO alerts, written medical, medication lists, service-animal supplies, and pediatric, older-adult rapid-escalation cues (Z10-P68, Z15-P56). @A01,M22,D14
+failure: Assuming every household member can climb stairs, hear sirens, tolerate extreme heat, cold, or evacuate rapidly without support causes severe preventable harm. @T14,D14,P26
+verify: Accessible evacuation, device backup, infant-feeding safety, and personal support-network plans are documented in advance. @T14,D14,P26
+stop: Stop waiting until a warning hits to arrange mobility transport or medical-device backup power; relocate early when outages threaten medical equipment. @T14,D14
+reviewer: Accessibility, EMS, and emergency-management reviewer
+
+Z16-P12 | Consolidated Emergency Communication and Agency Referral Directory | New manuscript (Z16 P20 contacts index)
+objective: Separate life-threat 911 activation, Poison Help 1-800-222-1222, utility leak lines, and MN DNR wildlife, TIP reporting across all zones.
+applies: Quick offline lookup of the right authority channel during any emergency or field incident.
+equipment: Full offline reader (Z01, Z05, Z06, Z07, Z10, Z11, Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01, Z05, Z06, Z07,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01, Z05, Z06, Z07, Z10, Z11, Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: Dial 911 immediately for any life-threatening trauma, chest pain, breathing trouble, fire, CO alarm evacuation, gas leak (from outside), drowning, or violent threat (Z01-P16, Z10-P01, Z13-P26). @A09,T08,M01,U08
+action: Dial Poison Help (1-800-222-1222, 24, 7) immediately for suspected toxic plant, mushroom, chemical, or bleach-mixing exposures (Z05-P135, Z10-P61, Z13-P54) without waiting for symptoms. @A09,B09,U19
+action: Route wildlife poaching, illegal, abandoned traps, injured wildlife, or hazardous animal encounters non-confrontationally to MN DNR TIP (1-800-652-9093) or licensed wildlife rehabilitators (Z06-P47, Z07-P20, Z07-P21), and pre-plan offline, PLB, NOAA radio backups where cell service fails (Z11-P56). @A09,H15,L06,N08
+failure: Calling a non-emergency wildlife or utility line during an airway or CO emergency—or lacking offline emergency numbers when cell towers fail—delays lifesaving response. @A09,T08,B09
+verify: Local county dispatch, gas, electric utility, emergency vet, Poison Help, and DNR contacts are recorded offline before travel. @A09,T08
+stop: Stop troubleshooting remotely when life-threat red flags exist; activate 911 or registered PLB, SOS immediately. @A09,M01,N08
+reviewer: Emergency-communications and SAR reviewer
+
+Z16-P13 | Upper Midwest Winter Deep-Cold and Blizzard Index | New manuscript (Z16 P20 seasonal index)
+objective: Cross-index winter wind-chill, stranded-motorist, snow-shelter, and furnace-vent hazards across Z02, Z10, Z12, Z13, and Z15.
+applies: November through March subzero cold snaps and blizzards in Minnesota and the Upper Midwest.
+equipment: Full offline reader (Z02, Z10, Z12, Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z02, Z10, Z12, Z13,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z02, Z10, Z12, Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: Anchor travel decisions to NWS Blizzard and Cold Weather advisories (Z15-P13); if stranded in a vehicle in open winter storms, stay with the vehicle when safe, keep the tailpipe strictly clear of snow, and follow NWS engine-idling CO precautions (Z15-P14). @A02,D19,X01
+action: Preserve Z02 and Z12 snow-shelter limits: never imply unvalidated snow-cave roof load ratings, keep vent holes open, mark emergency exits, and prohibit indoor stoves (Z02-P41, Z12-P07). @A02,E16,C05
+action: Protect household plumbing and heating during extreme cold by clearing exterior snow-drifted furnace PVC vents (Z13-P24) and maintaining safe CO-monitored indoor refuge. @A02,U07
+failure: Leaving a stranded vehicle in whiteout visibility or idling with a snow-blocked exhaust pipe causes rapid fatal hypothermia or CO poisoning. @D19,C07
+verify: Winter vehicle kit, clear exhaust, vent checks, and non-engineering snow-shelter limits stay intact across zones. @A02,D19,U07
+stop: Stop highway travel before blizzard whiteouts hit and abandon any enclosed space immediately on CO alarm or exhaust odor. @D19,C07
+reviewer: Winter SAR and meteorology reviewer
+
+Z16-P14 | Ice Safety, Deterioration and Zero-Guarantee Cross-Reference | New manuscript (Z16 P20 seasonal index)
+objective: Harmonize Minnesota DNR ice-thickness guidance, spring candled-ice hazards, and B013 zero-guarantee angling boundaries across Z06, Z11, and Z12.
+applies: Early freeze-up, mid-winter snow-insulated ice, and spring thaw on lakes and rivers.
+equipment: Full offline reader (Z06, Z11, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z06, Z11, Z12 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z06, Z11, Z12 with preserved upstream conditions and stop thresholds.
+action: Enforce the universal Z12, B013 rule: NO ice is ever 100% safe, prior foot or vehicle tracks never certify ice strength, and Minnesota DNR thickness guidelines apply only to new, clear, solid ice (Z12-P13, Z06-P01). @A02,X03,H18
+action: Keep angling strictly secondary to survival priorities—never improvise ice holes without proper tools, flotation, rescue picks, and verified thickness measurements (Z06-P01, Z06-P02). @A02,H18,X03
+action: Avoid river inlets, outlets, springs, pressure ridges, beaver runs, and spring candled vertical-column ice unconditionally, using Reach-Throw-Dont-Go shore assistance for any immersion emergency (Z12-P16, Z07-P25). @A02,X03,L13
+failure: Trusting a single shoreline measurement or stepping onto snow-covered spring ice triggers sudden cold-water shock and drowning. @X03,H18
+verify: Zero-guarantee ice rules, current, inlet exclusions, flotation wear, and shore-only rescue boundaries remain aligned. @X03,H18
+stop: Stop at the shoreline whenever ice thickness, clarity, current influence, or rescue gear is uncertain. @X03,H18
+reviewer: Ice-rescue and DNR safety reviewer
+
+Z16-P15 | Spring Thaw, Flood Washout, Bluff Rockfall and Morel Season Index | New manuscript (Z16 P20 seasonal index)
+objective: Integrate overlapping spring Upper Midwest hazards: rapid snowmelt flooding, freeze-thaw bluff rockfall, cold-water shock, and spring toxic plant, fungal lookalikes.
+applies: March through June Upper Midwest spring transition.
+equipment: Full offline reader (Z05, Z08, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z08, Z12, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z08, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: Expect peak flash flooding, washed-out culverts, and unstable undercut stream banks during rapid snowmelt and spring rain (Z15-P24, Z08-P32)—never cross flooded roads or stand on thawing bluff rims. @A02,D07,R16
+action: Guard against cold-water shock on warm sunny spring days when lake, river temperatures remain near freezing (Z06-P20, Z12-P64) by wearing buckled USCG PFDs afloat. @A02,H18,X17
+action: Apply strict spring Z05 identification stops: young non-flowering wetland shoots (blue flag iris vs cattail, water hemlock) and spring false morels (Gyromitra vs hollow Morchella) carry peak poisoning risk under WITHHELD_HOLD (Z05-P08, Z05-P83, Z05-P98). @A02,A05,B08,B11
+failure: Assuming warm spring air equals safe water temperatures, solid cliffs, or easy spring foraging causes drowning, rockfall, and poisoning. @D07,R16,B08
+verify: Spring thaw, cold-water PFD, bluff setback, and spring shoot, morel HOLD rules stay connected. @A02,R16,B08
+stop: Stop spring crossings, bluff approaches, or unverified shoot, mushroom sampling whenever water, rock, or diagnostic traits are uncertain. @D07,R16,B08
+reviewer: Meteorology, geology, and botany/mycology reviewer
+
+Z16-P16 | Summer Storms, HABs, Ticks, Rip Currents and Photodermatitis Index | New manuscript (Z16 P20 seasonal index)
+objective: Cross-index peak summer Upper Midwest hazards across water, shoreline, dermatology, ticks, heat, and severe convective storms.
+applies: June through August summer recreation, fieldwork, and household emergencies.
+equipment: Full offline reader (Z04, Z05, Z06, Z10, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z05, Z06, Z10,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z05, Z06, Z10, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: Watch for cyanobacteria harmful algal blooms (HABs) in warm nutrient-rich lakes (Z04-P14), checking MDH waterbody fish advisories (Z06-P15) and never boiling HAB-scum water. @A02,W04,H04
+action: Protect against Great Lakes, ocean rip currents (escape parallel to shore, never fight directly against current, Z12-P56), derecho, tornado storms (Z15-P16), and rapid heat stroke (Z10-P46). @A02,X15,D04,M27
+action: Perform daily deer-tick checks using vertical skin-level fine-tipped tweezer removal (Z10-P58), and recognize wild parsnip yellow umbels (photodermatitis burns) and poison ivy (Z05-P130, Z05-P131). @A02,M17,B12,B14
+failure: Brushing bare legs through roadside wild parsnip, fighting a rip current head-on, or ignoring embedded ticks leads to severe burns, drowning, or tickborne illness. @B14,X15,M17
+verify: Summer storm, water, tick, rip-current, and dermatitis controls are aligned across zones. @A02,W04,X15,B14
+stop: Stop water entry during red-flag surf, thunderstorms, or visible algal scum, and seek care for post-tick rash, fever or blistering parsnip burns. @W04,X15,B14
+reviewer: Public-health, coastal-safety, and entomology reviewer
+
+Z16-P17 | Autumn Hunting Blaze, Cold-Water Boating, CWD and Trapping-Season Index | New manuscript (Z16 P20 seasonal index)
+objective: Coordinate autumn safety across hunting blaze visibility, cold-water waterfowl boating, CWD, game cooling, mushroom-season amatoxins, and pet leashing in trapping zones.
+applies: September through November autumn fieldwork across Minnesota public and private lands.
+equipment: Full offline reader (Z05, Z06, Z07, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z06, Z07, Z12 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z06, Z07, Z12 with preserved upstream conditions and stop thresholds.
+action: Wear bright blaze orange or pink outer clothing on multi-use public lands during firearms seasons (Z06-P33) and keep dogs on short fixed leashes (at or below 6 ft) on open WMAs and forests during furbearer seasons (Z07-P14). @A02,A06,H02,L10
+action: Enforce cold-water PFD wear and boat capacity limits during windy autumn boating (Z06-P36) alongside rapid game cooling below 40 F, CWD testing, and bear-meat cooking at least 165 F (Z06-P38..P40). @A02,H08,H10,H18
+action: Recognize autumn peak fruiting of lethal Amanita, Galerina marginata, and Cortinarius mushrooms (Z05-P116..P119)—maintaining strict consumption WITHHELD_HOLD and immediate Poison Control referral. @A02,A05,B06,B07
+failure: Hiking in earth tones during deer season, running dogs off-leash near WMA culverts, or sampling autumn woodland mushrooms causes high-severity fatalities. @H02,L10,B06
+verify: Blaze visibility, short-leash pet rules, cold-water PFD compliance, and autumn fungal HOLD rules are all active. @H02,L10,B06
+stop: Stop autumn boating in high wind, decline uncooled, untested CWD meat, and keep dogs leashed on every open multi-use forest or WMA. @H08,H18,L10
+reviewer: Wildlife-safety, DNR enforcement, and mycology reviewer
+
+Z16-P18 | Four-Season Northern Gardening, Storage and Preservation Calendar Index | New manuscript (Z16 P20 seasonal index)
+objective: Map northern short-season gardening, soil-lead testing, root-cellar storage zones, and USDA, NCHFP tested canning milestones from Z14.
+applies: Year-round household food-production and preservation planning in Upper Midwest zones 3–5.
+equipment: Full offline reader (Z14, Z08, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z14, Z08, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z14, Z08, Z13 with preserved upstream conditions and stop thresholds.
+action: Anchor planting to local last, first frost dates and verify urban, older-home soil lead testing before growing root crops (Z14-P04, Z08-P27). @A02,P01,R12
+action: Match cured produce strictly to its four-zone root-cellar temperature and humidity regime (cold, moist vs cool, dry vs warm, dry squash), discarding green, bitter potatoes and rotting stock (Z14-P27..P33, P21). @A02,P08,P21
+action: Follow tested USDA, NCHFP boiling-water or pressure-canning recipes with exact altitude adjustments and annual dial-gauge calibration—never using oven or open-kettle canning (Z14-P45..P60). @A02,P11,P13
+failure: Improvising low-acid canning times or storing squash in wet near-freezing root cellars causes catastrophic botulism risk or rapid winter spoilage. @P11,P13,P08
+verify: Soil-lead check, storage-zone separation, altitude adjustments, and tested-recipe adherence are verified across seasons. @P01,P11,P13
+stop: Stop and discard any bulging, spurting, moldy, or unverified home-canned jar using NCHFP detoxification guidance without tasting. @P23
+reviewer: University Extension horticulture and food-preservation reviewer
+
+Z16-P19 | Seasonal Home Utility Resilience Calendar Index | New manuscript (Z16 P20 seasonal index)
+objective: Cross-reference seasonal home readiness checks for generators, batteries, chimneys, pipes, wells, septic systems, and clean rooms across Z13 and Z15.
+applies: Spring, summer, autumn, and winter residential utility maintenance.
+equipment: Full offline reader (Z13, Z14, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z13, Z14, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z13, Z14, Z15 with preserved upstream conditions and stop thresholds.
+action: Pre-winter: have chimneys and furnaces inspected by qualified pros, test battery-backed smoke, CO alarms, locate main water, gas shutoffs, and mark private wellheads for snowplows (Z13-P20..P25, Z13-P40). @A02,U05,U07,U11
+action: Pre-summer: verify HEPA clean-room filters for wildfire smoke (Z15-P33), check cooling-center access for >90 F indoor heat waves (Z15-P37), and inspect sump-pump battery backups for spring floods (Z13-P45). @A02,D20,D21,U20
+action: Maintain licensed transfer-switch isolation for portable generators (at least 20 ft outdoors, zero wall-outlet backfeeding) and keep emergency drinking water rotated cleanly (Z13-P06, Z13-P07, Z13-P38). @A02,U04,U10
+failure: Skipping annual CO-alarm battery checks, chimney cleaning, or transfer-switch installation leaves households vulnerable during peak seasonal outages. @U04,U05,U07
+verify: Shutoffs are labeled, CO, smoke alarms tested, vents clear, and licensed trade boundaries respected. @U04,U05,U07
+stop: Stop DIY electrical panel wiring, gas-line repairs, or indoor generator operation; call licensed trades or evacuate for leaks, CO. @U04,U05,U08
+reviewer: Licensed electrician, HVAC/gas, and emergency-management reviewer
+
+Z16-P20 | Seasonal Phenology and Missing-Feature Identification Stop Index | New manuscript (Z16 P20 seasonal index)
+objective: Synthesize when seasonal life stages, snow cover, or weathering make plant, fungal, wildlife-track, or rock identification unreliable.
+applies: Year-round field identification where seasonal changes obscure key diagnostic traits.
+equipment: Full offline reader (Z05, Z06, Z08), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z06, Z08 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z06, Z08 with preserved upstream conditions and stop thresholds.
+action: In Z05 botany, mycology, stop identification whenever early spring shoots, immature mushroom egg buttons, or leafless winter stalks hide flowers, fruit, gills, or volva bases (Z05-P08, Z05-P95, Z05-P105). @A02,A05,B05,B20
+action: In Z06 wildlife tracking, account for sun-melted snow expansion, soft mud spread, and deep-snow gait shifts across multiple consecutive prints before proposing a family (Z06-P25, Z06-P26). @A02,H16
+action: In Z08 geology, recognize that snow cover, algae, lichen, and orange oxidation rinds mask fine-grained rock texture and dangerous fibrous veins (Z08-P14, Z08-P59). @A02,A04,R03,R07
+failure: Guessing species or rock composition during dormant, weathered, or melted-track seasons generates dangerous false confidence. @B20,H16,R03
+verify: Every field ID records current date, season, life stage or substrate condition, and stops whenever required cues are missing. @B20,H16,R03
+stop: Stop identification and maintain explicit HOLD status whenever seasonal stage or surface cover conceals diagnostic anatomy. @B20,B24,R03
+reviewer: Botanist, mycologist, mammalogist, and geologist
+
+Z16-P21 | Waterborne Pathogen, HAB Cyanotoxin and Chemical Hazard Index | New manuscript (Z16 P20 hazard index)
+objective: Cross-index biological vs chemical water hazards across backcountry (Z04), extreme environments (Z12), and household, well outages (Z13).
+applies: Evaluating unfamiliar lakes, streams, floodwaters, snowmelt, and flooded private wells.
+equipment: Full offline reader (Z04, Z12, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z12, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z12, Z13 with preserved upstream conditions and stop thresholds.
+action: Match microbial barriers to pathogen size: hollow-fiber microfilters remove bacteria and protozoa (Giardia, Cryptosporidium) but require boiling or chemical, UV viral steps where viruses exist, and freeze-cracked filters must be discarded (Z04-P37, Z04-P39). @A03,W15,W16
+action: Preserve Cryptosporidium chlorine-resistance and cold-water chemical-disinfection caveats (Z04-P36) alongside elevation-adjusted rolling boil times (Z04-P34). @A03,W11,W14
+action: Reject HAB cyanobacteria blooms, agricultural, mine, industrial runoff, brackish, seawater, and post-flood untested private wells (Z04-P14, Z12-P65, Z13-P41) because boiling and standard filters do not remove salts, metals, nitrates, or cyanotoxins. @A03,W04,W05,U11
+failure: Boiling cyanotoxin water or drinking seawater, nitrate well water worsens poisoning and dehydration. @W04,W05,U11
+verify: Pathogen class, filter freeze status, altitude boiling, and chemical, HAB rejections are all checked together. @W04,W11,W15
+stop: Stop drinking any source with oil sheen, chemical smell, algal scum, flood sewage, or salt taste; switch to verified safe water. @W04,W05
+reviewer: Drinking-water microbiology and toxicology reviewer
+
+Z16-P22 | Wildfire Ready-Set-Go, Burn Bans and Smoke Clean-Room Index | New manuscript (Z16 P20 hazard index)
+objective: Link Z03 lawful fire prevention and burn bans with Z15 wildfire Ready-Set-Go evacuation and EPA HEPA indoor clean-room guidance.
+applies: Dry fire-weather seasons, Red Flag Warnings, and regional wildfire smoke plumes.
+equipment: Full offline reader (Z03, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z03, Z12, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z03, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: Obey local burn bans, Red Flag Warnings, and mineral-soil, extinguish-cold rules unconditionally (Z03-P01, Z03-P37); switch to no-fire thermal, food plans whenever fire restrictions or peat, duff ground exist (Z03-P42, Z08-P31). @A08,C01,C05,R18
+action: Follow local Ready-Set-Go wildfire evacuation notices early (Z15-P29..P31)—evacuate immediately on GO orders rather than waiting for visible flames or gridlocked roads. @A08,D09
+action: During regional smoke plumes (Z15-P33), monitor AirNow AQI, run a non-ozone portable HEPA cleaner in a closed interior room, use properly fitted NIOSH N95 respirators outdoors if needed, and relocate to a cooler clean-air center if indoor heat becomes unsafe (Z15-P37). @A08,D10,D20
+failure: Ignoring Red Flag bans, using ozone air purifiers, or staying inside an uncooled sealed room during compound smoke and heat endangers lungs and life. @C05,D10,D20
+verify: Burn-ban compliance, Ready-Set-Go triggers, non-ozone HEPA setup, and smoke+heat relocation rules stay harmonized. @C05,D09,D20
+stop: Stop all open flames during Red Flag Warnings or on peat duff, and evacuate immediately when official wildfire orders issue. @C05,D09
+reviewer: Wildland fire, air-quality, and emergency-management reviewer
+
+Z16-P23 | Mountain, Avalanche, Altitude (HAPE, HACE) and Slope-Failure Index | New manuscript (Z16 P20 hazard index)
+objective: Integrate mountain avalanche red flags, high-altitude HAPE, HACE emergency descent, and bluff, talus slope failures across Z08, Z10, Z11, and Z12.
+applies: Steep snow slopes, high-elevation travel, karst bluffs, and unstable gravel, shale terrain.
+equipment: Full offline reader (Z08, Z10, Z11, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z08, Z10, Z11, Z12 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z08, Z10, Z11, Z12 with preserved upstream conditions and stop thresholds.
+action: Check official avalanche forecasts before winter mountain travel and treat shooting cracks, whumpfing collapses, recent crowns, or overhanging cornices as immediate avoidance red flags (Z12-P40..P42)—never implying slope-angle guarantees. @A08,X10
+action: Recognize HAPE (shortness of breath at rest, wet cough) and HACE (ataxia, confusion) at altitude as fatal emergencies whose primary definitive treatment is immediate assisted descent and rescue activation (Z10-P49, Z12-P35). @A08,M13,X09
+action: Maintain wide setback from thawing karst bluffs, undercut riverbanks, tension-cracked gravel cuts, and fresh talus cones (Z08-P09, Z08-P32, Z08-P48). @A04,R16
+failure: Ascending further with altitude symptoms, crossing connected avalanche runouts, or camping beneath fresh talus causes fatal trauma or cerebral, pulmonary edema. @X09,X10,R16
+verify: Forecast checks, HAPE, HACE descent triggers, and bluff, talus setbacks are preserved without inventing threshold guarantees. @X09,X10,R16
+stop: Stop ascending immediately on ataxia, resting breathlessness, avalanche red flags, or active rockfall cues. @M13,X10,R16
+reviewer: Avalanche, wilderness-medicine, and engineering-geology reviewer
+
+Z16-P24 | Wetland, Quaking Bog, Peat-Fire and Swamp Hazard Index | New manuscript (Z16 P20 hazard index)
+objective: Cross-reference floating sphagnum bog entrapment, subterranean peat fires, wetland toxic flora, and aquatic wildlife protection across five zones.
+applies: Northern Minnesota bogs, fens, cedar swamps, and marsh shorelines.
+equipment: Full offline reader (Z03, Z05, Z07, Z08, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z03, Z05, Z07, Z08,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z03, Z05, Z07, Z08, Z12 with preserved upstream conditions and stop thresholds.
+action: Stay on established upland trails or boardwalks rather than stepping onto flexing floating sphagnum bog mats that conceal deep cold water (Z12-P47, Z08-P31). @A08,X12,R18
+action: Prohibit open fires on dry peat, sphagnum moss, or thick organic wetland duff because root fires smolder underground and ignite wildfires days later (Z03-P01, Z08-P31). @A04,C01,R18
+action: Watch for wetland-specific biological hazards and laws: spotted water hemlock (Cicuta), poison sumac (Toxicodendron vernix), blue flag iris, thin ice over beaver runs, and SNA zero-disturbance rules (Z05-P83, Z05-P122, Z05-P130, Z07-P25). @A05,A06,B11,B12,L13
+failure: Stepping off upland soil onto a quaking mat, building a campfire on peat, or sampling marsh shoots, umbels causes entrapment, ground fire, or fatal poisoning. @X12,R18,B11
+verify: Upland firm footing, zero peat fires, wetland toxic-plant avoidance, and SNA boundaries stay harmonized. @X12,R18,B11
+stop: Stop advancing when ground flexes underfoot, standing tannin water surrounds roots, or wetland umbels, poison sumac appear. @X12,B11,B12
+reviewer: Wetland ecologist and wildland-fire reviewer
+
+Z16-P25 | Coastal, Great Lakes Surf, Tsunami and Maritime Survival Index | New manuscript (Z16 P20 hazard index)
+objective: Align coastal, Lake Superior surf hazards, rip-current escape, sneaker waves, tsunami high-ground evacuation, and maritime 1-10-1, HELP-HUDDLE rules.
+applies: Lake Superior North Shore, Great Lakes beaches, ocean coastlines, and cold open water.
+equipment: Full offline reader (Z06, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z06, Z12, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z06, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: Recognize rip currents (darker calmer break with churning seaward foam, Z12-P56): never swim directly against a rip current—float, stay calm, swim parallel to shore out of the narrow pull, or signal for rescue. @A08,X15
+action: Stay off dark wave-washed wet rocks and coastal basalt ledges where unexpected sneaker waves sweep observers into freezing surf (Z12-P60, Z08-P08), and move immediately to local high ground on tsunami warnings or strong coastal earthquakes (Z12-P61, Z15-P27). @A08,X16,R16
+action: Wear buckled USCG PFDs afloat in cold water (Z06-P20, Z12-P64) to survive initial 1-minute cold-shock gasping, use HELP, HUDDLE posture if awaiting rescue, and never drink seawater (Z12-P65). @A08,H18,X17
+failure: Fighting a rip current head-on, turning your back on Lake Superior, ocean surf on wet rock, or stowing PFDs under seats causes rapid drowning. @X15,X16,X17
+verify: Surf-flag checks, parallel rip escape, wet-rock avoidance, high-ground tsunami triggers, and buckled-PFD rules align. @X15,X16,X17
+stop: Stop shoreline or boating entry immediately under Small Craft Advisories, Beach Hazard Statements, or tsunami alerts. @X15,X16,X17
+reviewer: Coastal rescue, USCG, and NOAA safety reviewer
+
+Z16-P26 | Chemical Spill, Hazmat Shelter-in-Place and Gas-Leak Index | New manuscript (Z16 P20 hazard index)
+objective: Separate immediate evacuation for indoor natural-gas, propane leaks from short-term official hazmat shelter-in-place sealing across Z13 and Z15.
+applies: Residential gas odor, chemical-cleaning mishaps, or nearby highway, rail hazmat releases.
+equipment: Full offline reader (Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z13, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: If you smell rotten-egg gas odor or hear a hissing gas line indoors (Z13-P26), evacuate immediately without touching light switches, phones, or appliances, and call 911 and the gas utility from well outside. @A08,U08
+action: Never mix bleach with ammonia, vinegar, or other household cleaners (Z13-P54)—chloramine, chlorine gases injure lungs rapidly; exit to fresh air and call Poison Control (1-800-222-1222). @A08,U19,B09
+action: When official emergency authorities order short-term chemical shelter-in-place for an outdoor hazmat plume (Z15-P48), move indoors, shut off HVAC, fans, close windows, vents, seal an interior room briefly as directed, and monitor official updates until all-clear or evacuation orders arrive. @A08,D13
+failure: Flipping electrical switches during a gas leak, mixing cleaners, or staying sealed inside without monitoring official all-clear, evacuation orders risks explosion or toxic inhalation. @U08,U19,D13
+verify: Gas-leak zero-spark exit, zero chemical mixing, and short-term official hazmat shelter boundaries stay distinct. @U08,U19,D13
+stop: Stop sheltering inside if chemical vapors penetrate the room or official evacuation orders supersede shelter-in-place. @D13
+reviewer: Hazmat emergency-management and fire-service reviewer
+
+Z16-P27 | Wildlife Encounter, Zoonosis and Rabies Prevention Index | New manuscript (Z16 P20 hazard index)
+objective: Cross-index black bear, gray wolf, moose, tick, venomous snake, wild-game zoonosis, and trapped-wildlife rabies boundaries across Z06, Z07, and Z10.
+applies: Backcountry camping, fishing, hunting, and rural trail travel.
+equipment: Full offline reader (Z06, Z07, Z10), primary zone cards, and local emergency and agency references.
+diagram: Locate Z06, Z07, Z10 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z06, Z07, Z10 with preserved upstream conditions and stop thresholds.
+action: Control food, fish offal, and camp scents strictly in bear country (Z06-P44), keep dogs on short leashes around wolves, moose, and trapping zones (Z06-P45, Z06-P46, Z07-P14), and detour wide around carrion piles (Z07-P23). @A06,H12,H13,L10,L12
+action: Never handle injured, trapped, sluggish, or found-dead wild mammals barehanded (Z06-P41, Z06-P43, Z07-P21, Z07-P22)—contact MN DNR or licensed wildlife rehabilitators and seek urgent medical care for any bite, scratch, or bat exposure (Z10-P57). @A06,H11,L06,M17
+action: Enforce zero cutting, sucking, tourniquets on venomous snakebites (immobilize calmly and evacuate to hospital antivenom, Z10-P59), and wear gloves for field dressing alongside CWD testing and at least 165 F bear-meat cooking (Z06-P37..P40). @A03,H08,H10,M18
+failure: Running from bears, releasing trapped carnivores barehanded, or cutting snakebites turns avoidable encounters into lethal trauma or rabies, zoonotic emergencies. @H12,L06,M17,M18
+verify: Attractant control, short-leash pet rules, hands-off trapped wildlife, and clinical bite escalation stay aligned. @H12,L06,M17
+stop: Stop approaching any defensive, sick, entangled, or unusually tame wild animal; call 911, clinician for bites and DNR for wildlife hazards. @H12,L06,M17
+reviewer: Wildlife veterinarian, conflict specialist, and EMS reviewer
+
+Z16-P28 | Mineral Dust, Asbestos Fibers, Lead Soil and Toxic Ore Index | New manuscript (Z16 P20 hazard index)
+objective: Consolidate invisible inorganic health hazards—crystalline silica, asbestiform mineral veins, heavy-metal ores, and lead-contaminated soils—across Z08, Z13, and Z14.
+applies: Geological observation, urban, homestead gardening, and disaster cleanup.
+equipment: Full offline reader (Z08, Z13, Z14), primary zone cards, and local emergency and agency references.
+diagram: Locate Z08, Z13, Z14 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z08, Z13, Z14 with preserved upstream conditions and stop thresholds.
+action: Avoid dry grinding, crushing, or striking quartz, chert, sandstone, or concrete without wet suppression, eye protection, and NIOSH particulate respiratory controls (Z08-P06, Z08-P58). @A04,R06
+action: Leave silky, splintery, or matted fibrous mineral veins completely undisturbed (Z08-P06, Z08-P59) and never taste, heat, or handle heavy metallic sulfide ores near food or children (Z08-P21). @A04,R07,R14
+action: Screen urban, roadside, pre-1978 structure, and mine-tailings soils before gardening or clay study (Z08-P27, Z14-P04), keep unverified wild stone, clay out of cookware (Z08-P28, Z08-P53), and wash hands thoroughly after fieldwork (Z08-P60). @A04,R12,P01
+failure: Judging rock or urban soil safety by clean appearance exposes families to irreversible silicosis, asbestos fibers, or pediatric lead poisoning. @R06,R07,R12
+verify: Zero dry silica abrasion, zero disturbed fibrous veins, clean-soil lab testing, and strict food-contact separation remain enforced. @R06,R07,R12
+stop: Stop disturbing suspect fibrous rock, dusty concrete, silica, metallic ores, or unverified urban soils immediately. @R06,R07,R12
+reviewer: Industrial hygienist, geologist, and environmental-health reviewer
+
+Z16-P29 | Core Field Daypack and Overnight Readiness Equipment Index | New manuscript (Z16 P20 equipment index)
+objective: Cross-index essential navigation, thermal insulation, rain shelter, water treatment, light, signaling, and first-aid gear across Z01–Z04, Z10, and Z11.
+applies: Pre-trip packing and equipment readiness checks for day and overnight outings.
+equipment: Full offline reader (Z01, Z02, Z03, Z04, Z10, Z11), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01, Z02, Z03, Z04,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01, Z02, Z03, Z04, Z10, Z11 with preserved upstream conditions and stop thresholds.
+action: Pack redundant essentials sized to worst-case local weather rather than sunny trailhead conditions: dry insulation and ground barrier (Z02), rain, wind shell, reliable ignition plus no-fire backup (Z03), water treatment plus containers (Z04), and map, compass, light, whistle (Z01-P05, Z11). @A01,T04,E03
+action: Verify equipment function BEFORE departure—test headlamps, batteries in cold, confirm filter cartridges never froze wet, check first-aid supplies and personal prescriptions, and file a written trip plan with an overdue contact (Z01-P11, Z04-P37, Z10-P75). @A01,T04,W15,M23
+action: Treat gear as a failure-prone system requiring backup layers rather than trusting any single electronic phone, battery, or improvised field craft. @A01,T04,N01
+failure: Assuming a smartphone replaces paper maps, whistles, dry thermal layers, and physical water vessels leaves parties stranded when cold drains batteries. @T04,N01
+verify: Pre-trip inspection checklist verifies every core system, cold-battery margin, and shore contact before leaving. @T04,M23
+stop: Stop or postpone departure when critical thermal, water, navigation, or medical readiness gear is broken or missing. @T04
+reviewer: SAR and outdoor-equipment safety reviewer
+
+Z16-P30 | Water Filtration, Boiling and Disinfection Equipment Index | New manuscript (Z16 P20 equipment index)
+objective: Cross-reference vessels, pre-filters, hollow-fiber, ceramic filters, chemical drops, tablets, and UV purifiers with exact failure cues from Z04.
+applies: Selecting, inspecting, and pairing water-treatment gear for field or home outages.
+equipment: Full offline reader (Z04, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z13 with preserved upstream conditions and stop thresholds.
+action: Separate raw-water collection containers strictly from clean treated-water storage vessels (Z04-P01, Z04-P27) and pre-clarify turbid water before filtration, chemical dosing, or UV light (Z04-P32). @A03,W01,W15
+action: Protect wet hollow-fiber and ceramic filter elements from freezing temperatures (sleep with wet filter inside insulated dry bag); discard any filter suspected of freezing because invisible cracked fibers pass pathogens freely (Z04-P37). @A03,W15
+action: Match product label claims exactly—noting NSF, ANSI certification, virus-removal gaps in microfilters, cold, turbid contact-time extensions for chlorine, chlorine dioxide, and non-galvanized metal vessels for boiling (Z04-P34..P42, Z08-P53). @A03,W11,W14,W15
+failure: Using a frozen filter cartridge, treating murky water with UV alone, or dipping dirty threads into clean bottles causes waterborne illness. @W15,W16
+verify: Clean, dirty container separation, freeze protection, label-verified contact times, and metal boiling vessels are verified. @W11,W15
+stop: Stop trusting any dropped ceramic filter, frozen hollow-fiber element, or expired chemical tablets; switch immediately to elevation-adjusted rolling boil. @W11,W15
+reviewer: Drinking-water treatment specialist
+
+Z16-P31 | Shelter Insulation, Tarp Pitch, Ventilation and Condensation Index | New manuscript (Z16 P20 equipment index)
+objective: Cross-reference ground pads, sleeping-bag ratings, tarp anchors, ventilation airflow, and structural abandonment cues across Z02 and Z12.
+applies: Selecting and monitoring manufactured tents, tarps, bivies, and improvised windbreaks.
+equipment: Full offline reader (Z02, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z02, Z12 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z02, Z12 with preserved upstream conditions and stop thresholds.
+action: Prioritize conductive ground insulation (high R-value foam, insulated pads) beneath sleeping bags because compressed loft loses insulating value rapidly against frozen soil or snow (Z02-P03, Z02-P15). @A01,E03
+action: Maintain active ridge, vestibule ventilation to reduce interior frost and damp condensation that degrades down insulation, while keeping ALL combustion appliances strictly outside tents and vestibules (Z02-P24, Z02-P44). @A01,E11,C05
+action: Inspect site drainage, overhead hazard trees, snags, and anchor holding before pitching (Z02-P05, Z02-P11); abandon shelters early if snow loads deform poles or flash drainage approaches (Z02-P49) without assuming unvalidated structural load numbers. @A01,E01,E05,E16
+failure: Sealing tent vents tightly in cold weather, pitching under dead snags, or trusting unvalidated improvised roofs risks condensation hypothermia or collapse. @E05,E11,E16
+verify: Drainage, overhead canopy, ground R-value, open airflow, and zero indoor stoves are checked before sleep. @E01,E03,E05,C05
+stop: Stop using any shelter showing bending poles, sagging wet snow load, encroaching runoff, or overhead snag creaking. @E05,E16
+reviewer: Shelter and cold-weather exposure reviewer
+
+Z16-P32 | Camp Stoves, Fuels, Windscreens and Ignition Equipment Index | New manuscript (Z16 P20 equipment index)
+objective: Cross-index canister, liquid-fuel, alcohol, and solid-fuel stoves with cold-weather performance, windscreen overheating, refueling, and fire-ban rules from Z03.
+applies: Operating outdoor cooking stoves and ignition gear across seasons.
+equipment: Full offline reader (Z03, Z12, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z03, Z12, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z03, Z12, Z13 with preserved upstream conditions and stop thresholds.
+action: Check outdoor fire restrictions before lighting any open flame (Z03-P37) and carry redundant waterproof ignition (lighters, storm matches, ferrocerium rod) paired with dry tinder while keeping a no-fire emergency fallback (Z03-P03, Z03-P19, Z03-P42). @A01,C01,C03,C16
+action: Prevent canister-stove overheating explosions: NEVER wrap a full enclosing windscreen tightly around an upright isobutane canister stove (Z03-P28); switch to inverted-canister or cold-rated liquid-fuel stoves in sub-freezing temperatures (Z03-P25, Z12-P06). @A01,C12,C15
+action: Refuel liquid-fuel and alcohol stoves strictly outdoors after flames are completely extinguished and metal is cool (Z03-P29), never priming or cooking inside tents, vestibules, or enclosed rooms (Z03-P40). @A01,C05,C12
+failure: Wrapping an upright fuel canister tightly, pouring alcohol into a hot burner with invisible flame, or firing stoves inside vestibules causes flash burns, explosions, and CO death. @C05,C12
+verify: Outdoor level mineral-soil setup, open canister airflow, cool refueling, and complete cold-out extinguishment are confirmed. @C01,C05,C12
+stop: Stop using any stove showing fuel leaks, erratic yellow flaring, or hot canister walls; let cool completely and switch to no-fire plans. @C12,C16
+reviewer: Appliance-safety and fire-prevention reviewer
+
+Z16-P33 | Tools, Saws, Axes, Cordage and Zero-Load-Rating Equipment Index | New manuscript (Z16 P20 equipment index)
+objective: Cross-reference safe cutting-tool boundaries, wooden handle grain inspection, saw-bind spring-pole hazards, and non-rated cordage limits across Z08 and Z09.
+applies: Selecting, inspecting, and maintaining knives, folding saws, axes, and utility cordage.
+equipment: Full offline reader (Z08, Z09), primary zone cards, and local emergency and agency references.
+diagram: Locate Z08, Z09 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z08, Z09 with preserved upstream conditions and stop thresholds.
+action: Inspect wooden axe, tool handles for continuous lengthwise grain, tight eye wedges, and zero diagonal runout or neck cracks before every swing (Z08-P40, Z09-P48); use maintained manufactured sharpeners rather than dry-grinding wild sandstone (Z08-P23, Z09-P46). @A04,R15,K08,K09
+action: Enforce strict blade, saw exclusion zones (blood circle, kneeling or stable bracing, zero cutting toward thighs, hands, Z09-P02..P04) and reject storm blowdowns, hung-up snags, and tensioned spring poles unless trained with full sawyer PPE (Z09-P25, Z09-P26). @A04,K08,K10
+action: Keep natural plant cordage and conceptual knots, lashings strictly non-life-safety (Z08-P44, Z09-P12..P21)—NEVER assign unvalidated breaking-strength pounds or use field knots for climbing, towing, or human suspension. @A04,R18,K04,K06
+failure: Swinging a cracked-handle axe, cutting under-tension spring poles, or loading improvised cordage causes catastrophic lacerations, recoil trauma, and load drops. @K06,K09,K10
+verify: Tool edges, handles pass daylight inspection, cutting circles are clear, and load-rating boundaries remain strictly observed. @K06,K08,K09
+stop: Stop tool work immediately when fatigue, cold-numb fingers, loose heads, pinched saw kerfs, or tensioned timber appear. @K08,K09,K10
+reviewer: Forestry sawyer, rigging, and tool-safety reviewer
+
+Z16-P34 | Navigation, Map, Compass, Datum, PLB and Radio Equipment Index | New manuscript (Z16 P20 equipment index)
+objective: Align topographic map datums, magnetic declination, iron-rock deflection, cold battery limits, and registered SARSAT PLB, VHF communications across Z08 and Z11.
+applies: Land navigation, route tracking, and emergency rescue signaling.
+equipment: Full offline reader (Z08, Z11), primary zone cards, and local emergency and agency references.
+diagram: Locate Z08, Z11 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z08, Z11 with preserved upstream conditions and stop thresholds.
+action: Match map datum (WGS84 vs NAD27) to GPS settings before plotting coordinates (Z11-P12) and apply current local magnetic declination carefully—never inferring present-day declination from historical reference maps like the 1965 Ely excerpt (Z11-P14). @A01,N02,N03
+action: Cross-check compass bearings against terrain features in northern Minnesota iron-formation and gabbro bedrock zones where magnetite deflects needles locally (Z08-P20, Z11-P29), and reject moss-on-north folklore unconditionally (Z11-P35). @A04,R20,N03
+action: Keep paper maps and baseplate compass as primary cold-proof navigation alongside warm-carried electronics, and register 406 MHz PLBs, satellite messengers with NOAA before trips so rescue dispatch receives emergency contacts immediately (Z11-P56, Z11-P57). @A09,N08,N09
+failure: Mixing NAD27 and WGS84 coordinates, ignoring iron-rock compass anomalies, or carrying an unregistered beacon delays SAR teams by miles or hours. @N02,N03,N08,R20
+verify: Map vintage, datum, current declination, iron-rock cross-checks, and active beacon registration are verified pre-trip. @N02,N03,N08
+stop: Stop advancing when position uncertainty grows; apply STOP (Z11-P43), relocate to known handrail, last verified point, or activate rescue signaling. @N01,N08
+reviewer: Cartography, navigation, and SAR communications reviewer
+
+Z16-P35 | Household Outage Power, Battery, Transfer Switch and Alert Gear Index | New manuscript (Z16 P20 equipment index)
+objective: Synthesize safe portable-power, generator transfer-switch, lithium-battery thermal-runaway, and NOAA weather-radio equipment rules from Z13 and Z15.
+applies: Residential power-outage readiness and severe-weather alerting.
+equipment: Full offline reader (Z13, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z13, Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z13, Z15 with preserved upstream conditions and stop thresholds.
+action: Power household circuits from a portable generator ONLY through a licensed-electrician-installed transfer switch or approved interlock kit—NEVER backfeed a generator into a wall or dryer outlet (Z13-P07), keeping the unit at least 20 ft outdoors (Z13-P06). @A01,U04,C06
+action: Inspect portable lithium-ion power stations for swelling, overheating, or flood submersion, storing and charging away from exits and combustibles (Z13-P11..P13); ventilate flooded lead-acid charging areas for hydrogen gas. @A01,U04
+action: Keep a battery, hand-crank NOAA Weather Radio with SAME county alerts, battery-backed CO, smoke alarms on every level, and dry flashlights (avoiding open candles) ready for multi-day outages (Z13-P20, Z15-P02). @A09,U05,D01
+failure: Backfeeding household wiring electrocutes utility linemen, while charging damaged lithium packs or burning unattended candles ignites structure fires. @U04,U05
+verify: Transfer switch, heavy outdoor GFCI cord, intact battery packs, tested CO alarms, and NOAA radio readiness are confirmed. @U04,U05,D01
+stop: Stop using any generator within 20 ft of openings, any swollen, wet lithium pack, or any wet electrical panel after flooding. @U04,U20
+reviewer: Licensed master electrician and fire-safety reviewer
+
+Z16-P36 | Home Food Preservation Equipment: Canners, Gauges and Thermometers Index | New manuscript (Z16 P20 equipment index)
+objective: Cross-index USDA, NCHFP boiling-water, atmospheric-steam, and pressure-canner equipment rules alongside calibrated food thermometers from Z14 and Z06.
+applies: Safe home canning, jerky dehydration, and wild-game, fish temperature verification.
+equipment: Full offline reader (Z14, Z06), primary zone cards, and local emergency and agency references.
+diagram: Locate Z14, Z06 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z14, Z06 with preserved upstream conditions and stop thresholds.
+action: Use a dedicated USDA-recommended pressure canner (holding at least 4 quart jars) for ALL low-acid foods (vegetables, meats, poultry, fish, soups), venting steady steam for 10 full minutes before pressurizing and testing dial gauges annually (Z14-P52..P56). @A03,P13,P14
+action: Restrict boiling-water canners and research-tested atmospheric steam canners (at or below 45 min total including elevation) strictly to high-acid or properly acidified tested recipes—NEVER use electric multi-cookers, oven canning, or open-kettle canning (Z14-P48, P25). @A03,P11,P25
+action: Use a calibrated digital probe thermometer to verify jerky pre-heating (160 F meat and 165 F poultry, Z14-P68, P24), wild-bear, omnivore cooking (at least 165 F, Z06-P40), freshwater fish (145 F, Z06-P42), and refrigerator cold-chain (at or below 40 F, Z14-P38). @A03,P24,H10,F01
+failure: Skipping the 10-minute pressure-canner vent, trusting an uncalibrated dial gauge, or canning low-acid beans in a boiling-water bath creates lethal botulism conditions. @P13,P14,P23
+verify: Tested equipment class, annual dial-gauge check, 10-minute steam vent, and calibrated probe thermometer are confirmed. @P13,P14,P24
+stop: Stop processing if pressure drops below target mid-cycle (reprocess full time per NCHFP) or if unverified appliances are proposed. @P13,P14
+reviewer: Food-preservation process authority and Extension reviewer
+
+Z16-P37 | Minnesota Bedrock Provinces, Glacial Drift and Karst Cross-Reference | New manuscript (Z16 P20 material index)
+objective: Link Z08 regional geology provinces with Z11 compass interference, Z04 karst spring contamination, and bluff rockfall hazards.
+applies: Field orientation across Minnesota Canadian Shield, Rift, Driftless karst, and glacial plains.
+equipment: Full offline reader (Z08, Z11, Z04), primary zone cards, and local emergency and agency references.
+diagram: Locate Z08, Z11, Z04 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z08, Z11, Z04 with preserved upstream conditions and stop thresholds.
+action: Map surficial glacial drift separately from underlying Precambrian Shield, Midcontinent Rift basalt, and southeastern Paleozoic limestone, sandstone strata using MGS references (Z08-P01, Z08-P07..P10). @A04,R01,R02
+action: Connect geology directly to operational hazards: northern iron formations deflect compass needles (Z08-P20, Z11-P29); southeastern karst fissures transmit rapid surface contamination into visually clear springs (Z08-P09, Z04-P03). @A04,R16,R20,W03
+action: Keep clear of unstable drift gravel cuts, undercut riverbanks, and thawing Paleozoic bluff talus aprons (Z08-P09, Z08-P32). @A04,R16
+failure: Treating erratic glacial cobbles as local bedrock or drinking untreated clear karst spring water misreads regional geology dangerously. @R02,R16,W03
+verify: Regional geologic province, magnetic-anomaly checks, karst water treatment, and bluff setbacks align. @R01,R16,R20
+stop: Stop collecting on protected Shield, North Shore parks or approaching active bluff, quarry faces. @R08,R09,R16
+reviewer: Regional geologist and hydrologist
+
+Z16-P38 | Non-Destructive Mineral Properties and Conchoidal Fracture Index | New manuscript (Z16 P20 material index)
+objective: Synthesize Z08 ordered hardness, luster, streak, cleavage-vs-fracture screening, and thermal-spalling exclusions.
+applies: Non-destructive field mineral observation without tasting, burning, or dry grinding.
+equipment: Full offline reader (Z08, Z03), primary zone cards, and local emergency and agency references.
+diagram: Locate Z08, Z03 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z08, Z03 with preserved upstream conditions and stop thresholds.
+action: Apply ordered non-destructive screening—daylight luster, cleavage-plane angle tilt, Mohs fingernail, copper, steel scratch steps, and porcelain streak—rather than unreliable bulk color (Z08-P02, Z08-P16, Z08-P17). @A04,R04
+action: Distinguish hard conchoidal-fracturing silica rocks (chert, flint, jasper, quartz, Mohs ~7) from softer carbonates (calcite, dolostone) and blocky feldspars, micas while enforcing eye and silica-dust boundaries (Z08-P03, Z08-P15, Z08-P18, Z08-P19). @A04,R04,R05,R06
+action: Keep wet, river-sourced, porous sandstone, shale, and unverified cobbles completely out of campfires and boiling setups due to violent steam spalling (Z08-P22, Z03-P01). @A04,R13
+failure: Heating creek cobbles, breaking fibrous metamorphic veins, or dry-chipping quartz without PPE causes eye trauma, spalling injuries, and silica exposure. @R06,R07,R13
+verify: Non-destructive checks, silica, asbestos exclusions, and zero unverified fire-stone use stay enforced. @R04,R06,R13
+stop: Stop handling immediately if fibrous veins, bright heavy metallic crusts, or visible mineral dust appear. @R06,R07,R14
+reviewer: Mineralogist and industrial hygienist
+
+Z16-P39 | Wood Species, Grain Runout and B007, B008 Historical Lineage Index | New manuscript (Z16 P20 material index)
+objective: Cross-reference dead-downed wood moisture, grain screening, tree identification, and reconciled B007, B007A, B008, B011 material holds across four zones.
+applies: Evaluating wood for lawful fires, tool handles, and controlled training without live tree cutting.
+equipment: Full offline reader (Z03, Z05, Z08, Z09), primary zone cards, and local emergency and agency references.
+diagram: Locate Z03, Z05, Z08, Z09 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z03, Z05, Z08, Z09 with preserved upstream conditions and stop thresholds.
+action: Screen dead downed wood for dryness, straight continuous grain, non-punky firmness, and absence of fungal conks or overhead widowmaker snags (Z08-P33..P35, Z08-P40, Z09-P48). @A04,R15,K09
+action: Preserve reconciled B007, B008 friction-material distinctions: dry low-resin basswood, aspen, cedar, cottonwood, and mullein for controlled training versus pitchy resinous fatwood strictly for lawful outdoor tinder—never relying on friction fire in hypothermic emergencies (Z08-P41..P45, Z03-P12). @A04,R15,C04,C16
+action: Respect public-land tree protection and firewood pest quarantines (emerald ash borer): never cut live trees, never peel live birch, cedar, elm bark, and cross-check Z05 tree taxonomy, photo holds (Z08-P34, Z08-P36, Z05-P44..P53). @A04,A05,R09,R15,B16
+failure: Stripping live bark, trusting diagonal grain runout in handles, or burning resinous pitch wood indoors causes ecological harm, handle breakage, and heavy CO, smoke. @R09,R15,C07
+verify: Lawful dead-downed sourcing, grain, rot screening, and B007–B011 photo, review holds remain aligned. @R09,R15
+stop: Stop cutting live trees, transporting quarantined firewood, or trusting cracked, punky poles under load. @R09,R15,K09
+reviewer: Forestry botanist and woodworking specialist
+
+Z16-P40 | Soil Texture, Clay Plasticity and Contamination Exclusion Index | New manuscript (Z16 P20 material index)
+objective: Integrate soil drainage, clay ribbon screening, lead, tailings contamination, and wild-clay cookware limits across Z02, Z08, and Z14.
+applies: Campsite drainage selection, home garden soil safety, and non-food geological clay study.
+equipment: Full offline reader (Z02, Z08, Z14), primary zone cards, and local emergency and agency references.
+diagram: Locate Z02, Z08, Z14 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z02, Z08, Z14 with preserved upstream conditions and stop thresholds.
+action: Use sandy-versus-clay texture recognition to avoid camping on flat ponding clay basins or unstable saturated riverbanks (Z08-P25, Z08-P29, Z02-P05). @A04,R17,E01
+action: Exclude urban, pre-1978 painted-structure, roadway, railway, and mine-tailings soils from food growing or bare-hand clay work unless laboratory testing verifies safety (Z08-P27, Z14-P04). @A04,R12,P01
+action: Reject unverified wild clay for cooking pots or drinking-water storage because trapped moisture cracks over fire and unknown clays leach heavy metals (Z08-P28, Z08-P53). @A04,R12,R13,R17
+failure: Mistaking clean-looking river clay or old yard soil for food-safe material risks thermal scald bursts and lead exposure. @R12,R13,R17
+verify: Drainage check, laboratory lead testing for gardens, and non-food boundaries on wild clay stay intact. @R12,R17,P01
+stop: Stop digging soil on public parks, SNAs or using wild clay, soil near drinking water and food. @R09,R12,R17
+reviewer: Soil scientist and environmental-health reviewer
+
+Z16-P41 | Public-Land Resource Collection Law Matrix (NPS, MN Parks, SNAs) | New manuscript (Z16 P20 legal index)
+objective: Consolidate federal and Minnesota land-designation rules across National Parks, State Parks, SNAs, WMAs, forests, and private land.
+applies: Verifying legal collection, foraging, hunting, fishing, and trapping boundaries before entering any site.
+equipment: Full offline reader (Z05, Z06, Z07, Z08), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z06, Z07, Z08 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z06, Z07, Z08 with preserved upstream conditions and stop thresholds.
+action: Enforce zero-collection bans inside National Park units (36 CFR 2.1, Z08-P55) and Minnesota Scientific and Natural Areas (SNAs: zero rock, plant, berry, mushroom, wood, fire, or trapping disturbance, Z08-P56, Z05-P10, Z07-P06). @A06,R08,R10,B22,L07
+action: Verify Minnesota State Park rules separately: zero rock, mineral, soil, root removal or public trapping, with narrow personal berry, mushroom allowances only where explicitly authorized by current statute (Z08-P56, Z05-P10, Z07-P06). @A06,R09,B23,L07
+action: Check current DNR regulations, tribal sovereign boundaries, and explicit private-landowner permission on multi-use forests, WMAs, and private parcels—never assuming an emergency grants a legal exemption (Z06-P03, Z06-P06, Z07-P03). @A06,H01,H02,L01
+failure: Treating adjacent parks, SNAs, WMAs, tribal waters, and private fields as interchangeable leads to trespass and resource-protection violations. @R08,R10,H02,L07
+verify: Exact land designation, governing authority, current rule check date, and private permission are confirmed pre-trip. @R08,H01,L01
+stop: Stop collecting, digging, hunting, or unleashing pets immediately whenever land boundaries or statutory permissions are uncertain. @R08,B22,L07
+reviewer: Public-lands resource manager and wildlife-law reviewer
+
+Z16-P42 | Material Non-Certification Boundary: Sight Never Proves Load or Safety | New manuscript (Z16 P20 governance index)
+objective: Enforce the encyclopedia-wide separation between conceptual material recognition and engineering load, anchor, or chemical safety certifications.
+applies: Any cross-zone decision involving wild timber, rock ledges, natural fibers, knots, or salvaged scrap.
+equipment: Full offline reader (Z02, Z08, Z09), primary zone cards, and local emergency and agency references.
+diagram: Locate Z02, Z08, Z09 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z02, Z08, Z09 with preserved upstream conditions and stop thresholds.
+action: Never infer structural load capacities in pounds, kilograms, or kilonewtons for wild wood spans, shelter roofs, snow trenches, rock anchors, or hand-twisted cordage (Z02-P33, Z08-P52, Z09-P45). @A04,E16,R15,K06
+action: Never infer food-contact or drinking-water chemical safety from visual cleanliness of stones, wild clay, galvanized, painted scrap, or driftwood (Z08-P53, Z04-P01). @A04,R12,R14
+action: Use manufacturer-rated, inspected commercial hardware and food-grade tested vessels whenever human life safety, overhead loads, or food, water heating are involved. @A04,K06,W11
+failure: Treating a visual field guide as an engineering specification or food-safety lab test causes structural collapse or heavy-metal poisoning. @E16,R14,K06
+verify: Non-certification disclaimers stay visible across every shelter, tool, rigging, and material reference. @R15,K06
+stop: Stop any plan relying on unverified wild materials for climbing, hoisting, overhead shelter loads, or cookware. @R14,R15,K06
+reviewer: Structural engineer, materials scientist, and toxicologist
+
+Z16-P43 | Knots, Hitches, Lashings and Mechanical-Advantage Safety Index | New manuscript (Z16 P20 technique index)
+objective: Cross-index core non-life-safety utility knots, slick-synthetic backup rules, and pulley anchor-load doubling across Z09, Z02, and Z08.
+applies: Camp tarp rigging, gear lashing, and conceptual mechanical-advantage study.
+equipment: Full offline reader (Z09, Z02, Z08), primary zone cards, and local emergency and agency references.
+diagram: Locate Z09, Z02, Z08 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z09, Z02, Z08 with preserved upstream conditions and stop thresholds.
+action: Match knot geometry to load behavior (e.g., stopper backups on slick synthetics, bowline, figure-eight loop dressing, taut-line, trucker hitch tensioning) without assigning invented breaking-strength ratings (Z09-P11..P21). @A04,K05,K06
+action: Preserve Z09-P44 physics warning: a 180-degree pulley redirect can nearly DOUBLE the force applied to the redirect anchor compared with the load weight—requiring rated hardware and qualified rigging review for heavy loads. @A04,K06,K12
+action: Keep all Z09 knots, lashings, and natural bast fibers strictly outside climbing, fall-arrest, or human-hoisting systems (Z08-P44, Z09-P45). @A04,R18,K06
+failure: Underestimating pulley redirect anchor multiplication or trusting undressed slick-cord knots causes sudden rigging failure. @K05,K06,K12
+verify: Proper knot dressing, backup stoppers, anchor force multiplication awareness, and zero life-safety rigging limits hold. @K05,K06
+stop: Stop loading any improvised lashing, natural cordage, or unrated pulley anchor with heavy or overhead loads. @K06,R18
+reviewer: Rigging and mechanical-safety specialist
+
+Z16-P44 | Map Orientation, Resection, Lost-Person STOP and Signaling Index | New manuscript (Z16 P20 technique index)
+objective: Synthesize topographic contour reading, bearing discipline, lost-person STOP protocol, and rescue signaling across Z01, Z11, and Z12.
+applies: Backcountry route planning, position recovery, and SAR coordination.
+equipment: Full offline reader (Z01, Z11, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01, Z11, Z12 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01, Z11, Z12 with preserved upstream conditions and stop thresholds.
+action: Track position continuously via terrain handrails, catching features, and elevation contours rather than waiting until lost to consult the map (Z11-P11..P26). @A01,N01,N02
+action: When position is lost, execute STOP immediately (Sit, Think, Observe, Plan, Z11-P43), stay put near clear visibility, shelter rather than wandering off search grids, and deploy three-blast whistle, mirror, high-contrast ground signals plus registered PLB, SOS if needed (Z11-P53..P58). @A01,A09,N07,N08
+action: Maintain strict helicopter landing-zone exclusion and follow ONLY rescue-crew hand, voice directions—never approaching an aircraft from an assumed universal safe quadrant (Z11-P65). @A01,N09
+failure: Continuing to walk blindly after losing position or rushing toward a landing rescue helicopter causes search delays and fatal rotor trauma. @N07,N09
+verify: Continuous map-terrain tracking, STOP hold, three-signal convention, and crew-directed aviation boundaries stay intact. @N01,N07,N09
+stop: Stop moving forward once two consecutive terrain checkpoints fail to match the map; hold, stabilize, and signal. @N01,N07
+reviewer: Cartography, SAR, and aviation-safety reviewer
+
+Z16-P45 | Layperson First-Aid, Wound Care, Splinting and Monitoring Index | New manuscript (Z16 P20 clinical index)
+objective: Index layperson, dispatcher, and clinician boundaries across trauma, wounds, burns, fractures, seizures, hypoglycemia, and documentation in Z10.
+applies: Backcountry and home emergency stabilization awaiting qualified EMS, clinical care.
+equipment: Full offline reader (Z10, Z01), primary zone cards, and local emergency and agency references.
+diagram: Locate Z10, Z01 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z10, Z01 with preserved upstream conditions and stop thresholds.
+action: Enforce layperson scope strictly (Z10-P01): zero unauthorized medication mg, mL dosing, zero invasive procedures (tracheotomy, cutting wounds, bites, suturing), and prompt 911, dispatcher activation for red flags. @A03,M01,M22
+action: Clean minor wounds with safe potable water and clean dressings (Z10-P20), cool thermal burns with cool running water (no ice, butter, Z10-P26), pad extremity splints across adjacent joints while checking distal circulation, sensation, motion (CSM, Z10-P32), and follow CDC seizure timing (>5 min = 911, Z10-P53, M29) and awake-only fast sugar for known hypoglycemia (Z10-P54, M30). @A03,M06,M08,M29,M30
+action: Record timed vital trends, allergies, medications, and interventions (SAMPLE, AVPU notes, Z10-P70) to hand directly to EMS or hospital clinicians. @A03,M22
+failure: Giving oral sugar to an unconscious diabetic, restraining a seizing patient, or skipping distal CSM checks after splinting causes aspiration or limb ischemia. @M08,M29,M30
+verify: Layperson boundaries, CSM splinting checks, seizure, hypoglycemia triggers, and written patient logs remain preserved. @M06,M29,M30
+stop: Stop lay field management and evacuate or call 911 immediately for worsening alertness, airway compromise, uncontrolled bleeding, or loss of distal pulse, sensation. @M01,M08
+reviewer: Wilderness-medicine physician and EMS director
+
+Z16-P46 | Food Cold-Chain, Safe Cooking Temperatures and Outage Spoilage Index | New manuscript (Z16 P20 food safety index)
+objective: Harmonize refrigerator, freezer outage timelines, wild-game, fish cooking temperatures, and Clean, Separate, Cook, Chill hygiene across Z14, Z06, and Z13.
+applies: Power outages, field-game processing, and everyday food-spoilage triage.
+equipment: Full offline reader (Z14, Z06, Z13), primary zone cards, and local emergency and agency references.
+diagram: Locate Z14, Z06, Z13 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z14, Z06, Z13 with preserved upstream conditions and stop thresholds.
+action: Keep refrigerator doors closed during outages (cold holds roughly 4 hours; full closed freezer ~48 hours, half-full ~24 hours) and verify at or below 40 F with an appliance thermometer—discarding perishable foods held above 40 F over 2 hours (1 hour if > 90 F) per Z14-P38..P41. @A03,F01,P09
+action: Verify internal cooking temperatures strictly with a calibrated food thermometer rather than color: freshwater fish 145 F (Z06-P42), whole-muscle jerky wet-heat 160 F meat and 165 F poultry (Z14-P68, P24), and wild bear, omnivore game at least 165 F for freeze-resistant Trichinella (Z06-P40). @A03,F02,H10,P24
+action: Never taste questionable outage or wild-game meat to test safety—pathogenic bacteria and toxins frequently show zero off-odor (Z14-P41, Z06-P43). @A03,F01,H17
+failure: Tasting warm outage leftovers, refreezing completely thawed warm meat, or relying on freezing to kill bear Trichinella causes severe foodborne illness. @F01,H10
+verify: Thermometer verification, 4-hour fridge and 40 F thresholds, and zero taste-testing rules stay aligned across zones. @F01,F02,H10
+stop: Stop and discard any perishable food exceeding safe time-temperature limits or lacking thermometer verification. @F01
+reviewer: Food-safety microbiologist and Extension reviewer
+
+Z16-P47 | USDA, NCHFP Canning Method, Acidification and Altitude Matrix | New manuscript (Z16 P20 preservation index)
+objective: Preserve exact USDA, NCHFP food-preservation decision boundaries separating high-acid water-bath, steam canning from mandatory low-acid pressure canning.
+applies: All home canning planning, recipe selection, and post-processing seal inspection in Z14.
+equipment: Full offline reader (Z14), primary zone cards, and local emergency and agency references.
+diagram: Locate Z14 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z14 with preserved upstream conditions and stop thresholds.
+action: Route foods strictly by pH and tested USDA, NCHFP recipe: low-acid foods (pH > 4.6: vegetables, meats, poultry, fish, beans, soups) MUST be pressure-canned—NEVER water-bath, oven, open-kettle, or multi-cooker canned (Z14-P45..P56). @A03,P11,P13
+action: Follow exact tomato acidification (citric acid or bottled lemon juice even when pressure-canning per NCHFP, P22), reject tomatoes from frost-killed, dead vines, and adjust boiling time or pressure PSI for elevations above 1,000 feet (Z14-P49, Z14-P55). @A03,P12,P22
+action: Inspect cooled two-piece lids without screw bands (Z14-P59) and treat bulging, leaking, spurting, or suspicious jars under NCHFP botulism detoxification, disposal without tasting—calling 911 immediately for any neurologic botulism signs (Z14-P61, Z14-P62, P23). @A03,P15,P23
+failure: Omitting tomato acidification, skipping altitude PSI boosts, or altering salsa, vegetable ratios creates fatal Clostridium botulinum toxin risk. @P11,P13,P22,P23
+verify: Tested USDA, NCHFP recipe, exact acid, altitude adjustment, 10-minute steam vent, and zero-taste spoilage rules remain intact. @P11,P13,P22
+stop: Stop canning immediately if an untested family recipe, uncalibrated dial gauge, or oven, open-kettle shortcut is suggested. @P11,P13
+reviewer: Food-preservation process authority and food microbiologist
+
+Z16-P48 | Minnesota Angling, MDH Fish Advisories and AIS Compliance Index | New manuscript (Z16 P20 harvest index)
+objective: Cross-index Z06 fishing licenses, special waterbody slots, MDH mercury, PFAS, PCB fish advisories, and statutory Clean-Drain-Dry AIS rules.
+applies: All recreational and educational fishing planning in Minnesota.
+equipment: Full offline reader (Z06, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z06, Z12 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z06, Z12 with preserved upstream conditions and stop thresholds.
+action: Verify current MN DNR license, trout stamp, waterbody-specific length slots, and positive species ID (walleye vs sauger, pike vs muskellunge, protected sturgeon, paddlefish release, Z06-P04, Z06-P08..P12)—remembering emergencies create zero legal exemption (Z06-P03). @A06,H01,H06
+action: Check current MDH waterbody-specific fish consumption advisories for mercury, PFAS, and PCBs before keeping meal fish, enforcing stricter limits for pregnant, nursing people and children under 15 (Z06-P15..P19)—trimming fat lowers PCBs only, never mercury or PFAS. @A06,H04,H05
+action: Comply with statutory Clean, Drain, Dry and drain-plug-out transport laws at every access, trashing unwanted live bait rather than dumping it in lakes (Z06-P14). @A06,H07
+failure: Ignoring lake-specific PFAS, mercury Do Not Eat advisories, keeping an unverified fish species, or transporting lake water violates public-health and AIS law. @H01,H04,H07
+verify: License, date, positive species ID, MDH waterbody lookup, and Clean-Drain-Dry steps are all verified. @H01,H04,H07
+stop: Stop keeping any fish whose species, slot limit, or MDH waterbody advisory status is uncertain. @H01,H04,H06
+reviewer: Minnesota DNR fisheries and MDH toxicology reviewer
+
+Z16-P49 | Firearms Safety, Archery, Treestands and Game-Zoonosis Hygiene Index | New manuscript (Z16 P20 harvest index)
+objective: Consolidate bounded weapon-safety rules, elevated-stand fall arrest, and CWD, Trichinella, tularemia game-handling gates from Z06.
+applies: Lawful regulated hunting planning, field dressing, and wild-game preparation.
+equipment: Full offline reader (Z06, Z10), primary zone cards, and local emergency and agency references.
+diagram: Locate Z06, Z10 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z06, Z10 with preserved upstream conditions and stop thresholds.
+action: Enforce all four fundamental firearm safety rules simultaneously alongside formal DNR certification, unloaded obstacle, transport handling, statutory blaze visibility, and clear backstops (Z06-P31..P33). @A06,H02,H03
+action: Flex-check carbon arrows, hood broadheads in rigid quivers (Z06-P34), stay tethered ground-to-ground in a certified full-body treestand harness with suspension-relief strap, and hoist unloaded gear on a haul line (Z06-P35). @A06,H03
+action: Wear impervious gloves during field dressing, reject visibly sick or found-dead animals, follow MN DNR CWD zone testing, no-spine-sawing rules (cooking never destroys prions), cook wild bear at least 165 F, and guard against rabbit tularemia (Z06-P37..P43). @A06,H08,H09,H10,H11
+failure: Climbing stands untethered, carrying loaded guns over fences, or sawing CWD-zone deer spines causes fatal trauma and zoonotic, prion exposure. @H03,H08,H09
+verify: Certification, unloaded crossings, full-body harness, gloves, CWD test hold, and thermometer cooking are verified. @H03,H08,H10
+stop: Stop hunting immediately on unsafe muzzle control, damaged arrows, straps, expired legal shooting light, or visibly sick wildlife. @H02,H03,H11
+reviewer: Hunter-education instructor and wildlife veterinarian
+
+Z16-P50 | Trapping Law, AFWA Welfare, Pet Leashing and Reporting Index | New manuscript (Z16 P20 regulated-equipment index)
+objective: Preserve Z07 zero-actionable-construction boundaries while indexing trapping statutes, ESA, nongame protections, pet safety, and DNR TIP reporting.
+applies: Bystander, hiker, pet-owner, and conservation-ethics orientation around regulated trapping.
+equipment: Full offline reader (Z07, Z06), primary zone cards, and local emergency and agency references.
+diagram: Locate Z07, Z06 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z07, Z06 with preserved upstream conditions and stop thresholds.
+action: Maintain Z07 strict scope: cover wildlife ecology, AFWA BMP welfare principles, conceptual hazard recognition, statutory restrictions, and authority referral—ZERO actionable trap, snare construction or placement instructions (Z07-P01, Z07-P08..P10). @A06,L01,L02,L11
+action: Protect companion dogs and children on open multi-use forests and WMAs during autumn, winter trapping seasons via short fixed leashes (at or below 6 ft), staying clear of culverts, flagged stakes, cubbies, and scent piles (Z07-P13..P17). @A06,L07,L10,L12
+action: Never touch, spring, or tamper with discovered hardware (stored spring crush hazard + statutory penalties, Z07-P11, Z07-P19) and never attempt barehanded release of trapped wildlife; record safe distant GPS coordinates and call MN DNR TIP (1-800-652-9093) or licensed rehabilitators (Z07-P20, Z07-P21). @A06,L06,L09
+failure: Touching unfamiliar spring bars, letting dogs roam off-leash near WMA culverts, or attempting barehanded wildlife release causes severe crush, bite, or rabies injuries. @L06,L09,L10,L11
+verify: Zero construction specs, short-leash pet control, hands-off hardware rules, and DNR, TIP reporting remain intact. @L01,L06,L09,L10
+stop: Stop approaching any unfamiliar metal hardware, staked wire, or distressed animal; back away and notify authorities. @L06,L09,L11
+reviewer: Wildlife-law, enforcement, and animal-welfare reviewer
+
+Z16-P51 | Botanical Multi-Character Taxonomy and Voucher Workflow Index | New manuscript (Z16 P20 botanical index)
+objective: Index Z05 P19-A, B taxonomic controls: Latin binomials, Bell Museum, USDA PLANTS vouchers, multi-view photos, and permanent consumption HOLD.
+applies: Any plant identification study referencing Z05 profiles.
+equipment: Full offline reader (Z05), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05 with preserved upstream conditions and stop thresholds.
+action: Anchor every plant entry to accepted Latin binomial, naming authority, synonyms, and regional Bell Museum Minnesota Biodiversity Atlas occurrence (Z05-P01..P03) tracked in the Z05 taxonomic register. @A05,B01,B02,B03
+action: Verify multiple independent vegetative and floral, fruiting characters at the observed life stage (Z05-P04..P08) and exclude sprayed roadsides, floodplains, and protected SNAs, parks (Z05-P10, Z05-P11). @A05,B19,B20,B22
+action: Reject all folk edibility tests (lip, skin rub, animal browsing, boiling myths) and maintain strict WITHHELD_HOLD consumption status until independent botanist and clinical toxicology sign-off (Z05-P12, Z05-P15). @A05,B24
+failure: Using common names, phone-app guesses, or conceptual SVG plates to clear eating wild plants risks fatal poisoning. @B02,B03,B24
+verify: Binomial verification, multi-trait keys, clean lawful site checks, and permanent WITHHELD_HOLD stay intact. @B02,B20,B24
+stop: Stop plant identification whenever required flowers, leaves, or fruits are missing; call 1-800-222-1222 on suspected ingestion. @B09,B20,B24
+reviewer: Regional botanist and curator
+
+Z16-P52 | Herbaceous Plants and Lethal Apiaceae, Latex Exclusion Index | New manuscript (Z16 P20 botanical index)
+objective: Cross-reference Z05 herbaceous profiles (`Z05-P17`–`P38`) against lethal water, poison hemlock, dogbane, spurge, white snakeroot, and nightshade.
+applies: Screening Minnesota meadow, woodland, and wetland herbaceous plants under WITHHELD_HOLD.
+equipment: Full offline reader (Z05), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05 with preserved upstream conditions and stop thresholds.
+action: Enforce the unconditional wild Apiaceae stop gate: reject ALL unverified compound-umbel plants in wetlands, ditches, and fields due to lethal Cicuta maculata (water hemlock), Conium maculatum (poison hemlock), and burn-causing Pastinaca sativa (Z05-P05, Z05-P92, Z05-P122, Z05-P123, Z05-P131). @A05,B11,B14
+action: Screen milky latex sap and smooth unpowdered foliage sharply: separate purslane from toxic milky spotted spurge (Z05-P26), milkweed from cardiac dogbane (Z05-P31), lambsquarters from nightshades (Z05-P24), and stinging nettle from smooth white snakeroot (Z05-P18, Z05-P125). @A05,B10,B20
+action: Account for high soluble oxalates (wood sorrel, dock, rhubarb blades, jewelweed), nitrates (amaranth, lambsquarters), and sprayed turf, roadsides (dandelion, plantain, chicory) under permanent WITHHELD_HOLD (Z05-P13, Z05-P19, Z05-P22..P30). @A05,B19,B21,B24
+failure: Sampling an unverified umbel, milky stem, or smooth woodland green risks rapid seizures, paralysis, or chemical burns. @B10,B11,B14
+verify: All herbaceous cross-references preserve lethal lookalike exclusions, contamination stops, and WITHHELD_HOLD. @B11,B20,B24
+stop: Stop immediately on any compound umbel, milky sap, smooth white-headed woodland stem, or sprayed lawn, roadside. @B11,B19,B24
+reviewer: Regional botanist and medical toxicologist
+
+Z16-P53 | Minnesota Trees, Conifers and Lethal Yew, Cyanogenic Index | New manuscript (Z16 P20 botanical index)
+objective: Cross-reference Z05 woody tree, shrub profiles (`Z05-P39`–`P56`) with Z08 wood materials while highlighting lethal Taxus yew, cyanogenic Prunus, and thujone cedar.
+applies: Woody plant identification across Minnesota conifer and hardwood forests.
+equipment: Full offline reader (Z05, Z08), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z08 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z08 with preserved upstream conditions and stop thresholds.
+action: Separate bundled 5-needle white pine (Z05-P42), pegged 4-sided spruce (Z05-P39), and white-striped blunt balsam fir (Z05-P40) sharply from flat-needled green-twigged lethal yew (Taxus spp., Z05-P129), whose taxine alkaloids cause fatal cardiac arrest. @A05,B10,B16
+action: Preserve key woody-plant toxicity exclusions: northern white cedar thujone neurotoxicity (Z05-P41), cyanogenic Prunus cherry, plum pits and wilted leaves (Z05-P49), unstandardized willow, birch salicylate risks (Z05-P47), and wetland poison sumac vs upland red sumac (Z05-P48, Z05-P130). @A05,B12,B16,B21
+action: Obey winter-twig poison-ivy urushiol cautions (never touch or burn fuzzy climbing vines, Z05-P55, Z05-P130) and zero live tree cutting, tapping, or bark stripping on public lands (Z05-P56, Z08-P36). @A05,A04,B12,R09
+failure: Brewing yew needles or cedar twigs, chewing cherry pits, or burning dormant poison-ivy vines causes cardiac arrest, cyanide toxicity, or severe lung burns. @B10,B12,B21
+verify: Needle, twig anatomy, Taxus, Prunus, Toxicodendron exclusions, and no-live-tree-harm rules remain linked. @B12,B16,R09
+stop: Stop immediately on flat dark single conifer needles, red fleshy cups, wilted cherry foliage, or fuzzy climbing vines. @B10,B12
+reviewer: Forestry botanist and medical toxicologist
+
+Z16-P54 | Wild Berries and Lethal Moonseed, Buckthorn, Baneberry Index | New manuscript (Z16 P20 botanical index)
+objective: Cross-reference Z05 berry profiles (`Z05-P57`–`P72`) with lethal Canada moonseed, common buckthorn, baneberry, nightshade, and pokeweed.
+applies: Summer and autumn wild-fruit observation and pediatric hazard prevention.
+equipment: Full offline reader (Z05), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05 with preserved upstream conditions and stop thresholds.
+action: Enforce the universal Z05 fruit rule: berry color NEVER predicts safety (Z05-P06, Z05-P72)—white, red, blue, and black fruits all contain severely toxic Minnesota species. @A05,B10,B15
+action: Check parent foliage AND seed anatomy on every dark or red fruit: forked tendrils + pear seeds (wild grape) vs zero tendrils + lethal crescent seed (Canada moonseed, Z05-P64, Z05-P127); alternate spineless vs sub-opposite twig-spine purging common buckthorn (Z05-P58, Z05-P126); aggregate bramble drupelets vs smooth single toxic berries (Z05-P60). @A05,B10,B15,B20
+action: Exclude cardiogenic white, red baneberry (Actaea, Z05-P128), lethal yew red arils (Z05-P129), podophyllotoxin mayapple (Z05-P71), raw cyanogenic elderberry stems, seeds (Z05-P59), nightshades (Z05-P124), and pokeweed (Z05-P125) under permanent WITHHELD_HOLD. @A05,B10,B21,B24
+failure: Allowing children to sample smooth dark or bright red trailside berries without verified parent foliage and seed cuts risks rapid fatal poisoning. @B10,B15
+verify: Seed-shape, tendril, spine diagnostics, color-myth rejection, and pediatric Poison Help referral stay intact. @B09,B10,B15
+stop: Stop immediately if parent leaves are absent, a single crescent seed appears, or a child mouths any wild berry (call 1-800-222-1222). @B09,B10
+reviewer: Regional botanist and clinical toxicologist
+
+Z16-P55 | Wild Nuts, Seeds, Wild Rice Law and Mycotoxin, Allergy Index | New manuscript (Z16 P20 botanical index)
+objective: Cross-reference Z05 nut and seed profiles (`Z05-P73`–`P82`) with toxic buckeyes, raw acorn tannins, butternut conservation, wild-rice sovereignty, and nut anaphylaxis.
+applies: Autumn nut, seed, and aquatic-grain observation across Minnesota.
+equipment: Full offline reader (Z05, Z06, Z10), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z06, Z10 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z06, Z10 with preserved upstream conditions and stop thresholds.
+action: Separate alternate-leaved oaks, hickories, walnuts, and hazelnuts sharply from opposite palmately-leaved toxic Ohio buckeye and horsechestnut (Aesculus, Z05-P73, Z05-P81) and reject raw tannin-rich acorns and unvalidated leaching shortcuts. @A05,B10,B16,B21
+action: Honor strict conservation and sovereign legal boundaries: protect declining Minnesota Special Concern butternut trees (Z05-P76) and obey tribal sovereignty plus MN DNR licensing, flail statutes governing northern wild rice (Manoomin, Z05-P79). @A05,A06,B17,H01
+action: Screen out moldy, cracked, musty, or dark-meated fallen nuts, hulls due to heat-stable mycotoxins, aflatoxins and enforce strict tree-nut anaphylaxis exclusions under WITHHELD_HOLD (Z05-P75, Z05-P82, Z10-P55). @A05,B21,B24,M14
+failure: Roasting toxic buckeyes, eating moldy fallen nuts, or harvesting wild rice unlawfully causes severe poisoning or tribal, state legal violations. @B10,B17,B21
+verify: Aesculus exclusions, butternut, wild-rice legal limits, mold rejection, and nut-allergy warnings remain intact. @B10,B17,B21
+stop: Stop immediately on opposite palmate leaves, pale-eyed glossy buckeyes, musty, moldy kernels, or unlicensed wild-rice waters. @B10,B17,B21
+reviewer: Botanist, food toxicologist, and tribal/DNR legal reviewer
+
+Z16-P56 | Underground Roots, Bulbs, Zero-Digging Law and Lethal Lookalike Index | New manuscript (Z16 P20 botanical index)
+objective: Consolidate Z05 underground-structure boundaries (`Z05-P83`–`P94`): public-land zero-digging laws and lethal water hemlock, blue flag iris, death camas, and lily-of-the-valley.
+applies: Botanical study of perennial underground storage structures across Minnesota.
+equipment: Full offline reader (Z05, Z08), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z08 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z08 with preserved upstream conditions and stop thresholds.
+action: Enforce public-land zero-digging statutes unconditionally across National Parks, Minnesota State Parks, SNAs, native prairies, aquatic plant beds, and rare-flora habitats (Z05-P88, Z05-P90, Z05-P93). @A05,A06,B17,B22,B23
+action: Highlight the four highest-lethality subterranean lookalikes: chambered water hemlock and smooth poison hemlock (unconditional Apiaceae STOP, Z05-P92), flat-fan blue flag iris vs spongy D-shaped cattail (Z05-P83), odorless death camas and lily-of-the-valley vs pungent Allium (Z05-P85, Z05-P132), and calcium-oxalate marsh arums vs arrowhead (Z05-P84). @A05,B10,B11,B20
+action: Reject digging dormant leafless roots (missing above-ground flowers, foliage) and reject urban, ditch, runoff wetland rhizomes that accumulate heavy metals under permanent WITHHELD_HOLD (Z05-P86, Z05-P94). @A05,B19,B24
+failure: Digging an odorless spring bulb or wetland root without flowers causes rapidly fatal cardiac, neurotoxic, or convulsant poisoning. @B10,B11
+verify: Zero public digging, strict onion-odor and umbel stop rules, and clean-site exclusions remain preserved. @B11,B17,B24
+stop: Stop immediately whenever above-ground foliage is absent, onion odor is lacking on bulbs, or public-land protection applies. @B10,B11,B17
+reviewer: Botanist, conservation officer, and medical toxicologist
+
+Z16-P57 | Macrofungi Separate Schema: Spore Prints, Cutaways and Host Trees Index | New manuscript (Z16 P20 mycology index)
+objective: Cross-reference Z05 dedicated mycological workflow (`Z05-P95`–`P115`) keeping fungal anatomy, spore prints, cutaways, and substrate hosts separate from plants.
+applies: All macrofungi observation and voucher documentation in Minnesota.
+equipment: Full offline reader (Z05), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05 with preserved upstream conditions and stop thresholds.
+action: Require every fungal profile to verify cap, fertile surface (gills, pores, teeth, smooth) and attachment, stipe, ring, excavated intact basal volva, bulb, dual black, white spore print, and exact substrate, host tree (Z05-P95, Z05-P96). @A05,B05
+action: Enforce mandatory lengthwise cutaways on puffballs (100% pure-white core vs hidden lethal Amanita egg silhouette or dark earthball, Z05-P105) and true morels (100% continuous hollow vs chambered Gyromitra, Z05-P98) alongside hardwood-only host checks (oyster vs conifer angel wing, chicken of the woods, Z05-P99, Z05-P103). @A05,B05,B06,B08
+action: Reject sealed plastic bags (rapid bacterial spoilage), reject raw wild mushrooms, reject red-pored, blue-staining boletes and conifer-host Laetiporus, and preserve permanent WITHHELD_HOLD pending qualified mycologist review (Z05-P97, Z05-P109, Z05-P114, Z05-P115). @A05,B05,B08,B24
+failure: Skipping base excavation, spore prints, or vertical bisection directly causes fatal Amanita and Galerina misidentifications. @B05,B06,B07
+verify: Separate fungal schema, mandatory cutaways, spore prints, paper-bag handling, and WITHHELD_HOLD stay intact. @B05,B24
+stop: Stop fungal identification on immature buttons, cut-off stems missing bases, decayed caps, or ambiguous spore prints. @B05,B24
+reviewer: Qualified mycologist
+
+Z16-P58 | Lethal Fungi Cross-Reference: Amanita, Galerina, Gyromitra and Cortinarius | New manuscript (Z16 P20 mycology toxicology)
+objective: Highlight the four deadliest Minnesota, Upper Midwest fungal toxin classes and immediate CDC, Poison Control emergency protocols.
+applies: High-consequence fungal hazard recognition and clinical toxicology escalation.
+equipment: Full offline reader (Z05, Z10), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z10 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z10 with preserved upstream conditions and stop thresholds.
+action: Recognize heat-stable amatoxin mushrooms documented in CDC Minnesota and 2026 outbreaks: Amanita bisporigera, phalloides (free white gills, ring, hidden soil volva, white spores, Z05-P116) and Galerina marginata (small brown caps on rotting wood, faint ring, RUSTY-BROWN spores mimicking Armillaria, Flammulina, Z05-P110, Z05-P113, Z05-P117). @A05,B06,B07,B08
+action: Recognize lethal gyromitrin false morels (brain-lobed chambered Gyromitra, Z05-P118), delayed renal-failure webcaps (Cortinarius cobweb veil + rusty spores, 2–14+ day silent onset, Z05-P119), violent GI jack-o-lanterns (Omphalotus on wood, orange flesh, Z05-P120), and green-spored lawn parasols (Chlorophyllum molybdites, Z05-P121). @A05,B08
+action: Act immediately on ANY suspected wild mushroom ingestion without waiting for 6–24 hour delayed symptoms or trusting day-two false recovery: save uneaten pieces in dry paper bags and call 1-800-222-1222 or 911 at once (Z05-P133..P135). @A09,B06,B08,B09
+failure: Boiling an unknown mushroom, waiting overnight for nausea, or discarding leftover trimmings leads to preventable liver or kidney transplant failure and death. @B06,B07,B08
+verify: All lethal fungal syndromes, heat-stability warnings, paper-bag specimen preservation, and 1-800-222-1222 triggers align. @B06,B08,B09
+stop: Stop waiting immediately and activate 1-800-222-1222 and emergency hospital care after any suspected wild mushroom ingestion. @B06,B09
+reviewer: Medical toxicologist and qualified mycologist
+
+Z16-P59 | Encyclopedia Technical Glossary: A through C | New manuscript (Z16 P20 glossary)
+objective: Standardize definitions from Acidification through CWD so terminology stays consistent across all sixteen zones without adding standalone procedures.
+applies: Cross-zone terminology lookup for readers and technical reviewers.
+equipment: Full offline reader (Z04, Z05, Z06, Z08, Z10, Z14), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z05, Z06, Z08,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z05, Z06, Z08, Z10, Z14 with preserved upstream conditions and stop thresholds.
+action: Define core A–B terms consistently: Acidification (adding measured bottled lemon juice or citric acid per NCHFP to lower tomato pH at or below 4.6, Z14); Amatoxin (heat-stable lethal hepatotoxin in Amanita, Galerina, Z05); Annulus (stem ring remnant of partial veil, Z05); Backfeeding (illegal lethal generator-to-outlet connection, Z13). @A07,P22,B06,U04
+action: Define core C terms consistently: Candled ice (deteriorating vertical-column spring ice, Z12); Cicutoxin (lethal convulsant in water hemlock, Z05); Cleavage vs Conchoidal fracture (atomic planar split vs curved glassy silica break, Z08); Cortina (cobweb veil in Cortinarius, Z05). @A07,X03,B11,R04
+action: Define clinical, wildlife C terms: CSM check (distal circulation, sensation, motion after splinting, Z10); CWD (Chronic Wasting Disease fatal cervid prion illness not destroyed by cooking, Z06); Cyanotoxin (algal toxin concentrated by boiling HAB water, Z04). @A07,M08,H09,W04
+failure: Inconsistent definitions across chapters blur safety boundaries such as acidification, candled ice, or cleavage versus fracture. @A07
+verify: Every glossary term cites its governing upstream zone and adds zero ungrounded operational instructions. @A07
+stop: Stop using glossary definitions as standalone instructions; open the cited zone card for full conditions and stop rules. @A07,A10
+reviewer: Multi-domain technical editor
+
+Z16-P60 | Encyclopedia Technical Glossary: D through F | New manuscript (Z16 P20 glossary)
+objective: Standardize definitions from Datum through Frostbite across navigation, botany, mycology, geology, and wilderness medicine.
+applies: Cross-zone terminology lookup for D–F technical terms.
+equipment: Full offline reader (Z03, Z05, Z08, Z10, Z11, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z03, Z05, Z08, Z10,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z03, Z05, Z08, Z10, Z11, Z12 with preserved upstream conditions and stop thresholds.
+action: Define D terms: Datum (geodetic coordinate grid such as WGS84 vs NAD27 that must match map and GPS, Z11); Declination (angular difference between true and magnetic north, Z11); Decurrent gills (gills running down stem, Z05); Deliquescence (cap, gills liquefying to ink in Coprinus, Z05). @A07,N02,N03,B05
+action: Define E terms: Erratic (glacially transported cobble unrelated to underlying bedrock, Z08); Exclusion zone (safe setback around saw bind, trapping hardware, or hazards, Z07, Z09); Exposure (hypothermia, frostbite, or heat-illness stress, Z02, Z10, Z12). @A07,R02,K10,M11
+action: Define F terms: Fascicle (bundled pine needle sheath, Z05); Fatwood (resin-saturated dead pine tinder unsuitable for friction hearths, Z03, Z08); Foliation (aligned metamorphic rock banding, Z08); Frostbite (tissue freezing requiring non-refreezing care, Z10). @A07,B16,R03,M12
+failure: Confusing WGS84 with NAD27 or erratic cobbles with local bedrock introduces navigation and geological errors. @A07,N02,R02
+verify: Definitions align word-for-word with upstream Z03, Z05, Z08, Z10, Z11, and Z12 cards. @A07
+stop: Stop inferring operational thresholds from brief definitions; consult the full cited zone card. @A07,A10
+reviewer: Multi-domain technical editor
+
+Z16-P61 | Encyclopedia Technical Glossary: G through L | New manuscript (Z16 P20 glossary)
+objective: Standardize definitions from Galerina through Lashing across mycology, geology, mountain medicine, water, and rigging.
+applies: Cross-zone terminology lookup for G–L technical terms.
+equipment: Full offline reader (Z04, Z05, Z07, Z08, Z09, Z10, Z12), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z05, Z07, Z08,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z05, Z07, Z08, Z09, Z10, Z12 with preserved upstream conditions and stop thresholds.
+action: Define G–H terms: Ghost gear (abandoned wire, line, or derelict traps causing ongoing wildlife entanglement, Z07); Gyromitrin (neurotoxic, hepatotoxic compound in false morels, Z05); HAB (Harmful Algal Bloom producing heat-stable cyanotoxins, Z04); HAPE, HACE (fatal high-altitude pulmonary, cerebral edema demanding descent, Z10, Z12). @A07,L13,B08,W04,M13
+action: Define H–K terms: HELP, HUDDLE (Heat Escape Lessening Posture in cold water wearing PFD, Z12); Hypothermia (core temperature drop requiring gentle handling, Z10, Z12); Interlock, Transfer switch (licensed electrical generator isolation, Z13); Karst (soluble limestone bedrock with sinkholes and rapid unfiltered spring flow, Z08). @A07,X17,M11,U04,R16
+action: Define L terms: Lashing (conceptual cordage binding without certified load ratings, Z09); Lenticels (horizontal bark breathing pores useful in birch, cherry ID, Z05); Littoral zone (shallow sunlit lake shelf, Z06); Lookalike (toxic species sharing superficial visual traits with a target taxon, Z05). @A07,K06,B16,H06
+failure: Blurring HABs with ordinary turbidity or karsts with filtered groundwater hides serious contamination risks. @A07,W04,R16
+verify: Definitions stay anchored to upstream evidence without expanding scope. @A07
+stop: Stop using definitions without checking full upstream safety conditions. @A07,A10
+reviewer: Multi-domain technical editor
+
+Z16-P62 | Encyclopedia Technical Glossary: M through P | New manuscript (Z16 P20 glossary)
+objective: Standardize definitions from Manoomin through Pyrolysis across botany, geology, preservation, and public health.
+applies: Cross-zone terminology lookup for M–P technical terms.
+equipment: Full offline reader (Z03, Z05, Z06, Z08, Z10, Z14), primary zone cards, and local emergency and agency references.
+diagram: Locate Z03, Z05, Z06, Z08,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z03, Z05, Z06, Z08, Z10, Z14 with preserved upstream conditions and stop thresholds.
+action: Define M–N terms: Manoomin (northern wild rice Zizania palustris governed by tribal sovereignty and DNR law, Z05); Mohs scale (1–10 relative scratch hardness scale separate from toughness, Z08); Mycotoxin (heat-stable mold toxin such as aflatoxin in damp nuts, grains, Z05, Z14); Nongame (legally protected non-harvested wildlife, Z06, Z07). @A07,B17,R04,L05
+action: Define O–P terms: Ocrea (papery stem-node sheath in dock, Polygonaceae, Z05); Orellanine (delayed renal-failure toxin in Cortinarius, Z05); PFAS, PCBs (persistent chemical fish contaminants requiring MDH waterbody lookup, Z06); Phenology (seasonal life-stage timing affecting ID reliability, Z05). @A07,B08,H04,B20
+action: Define P terms: Phytophotodermatitis (UV-activated chemical skin burns from wild parsnip sap, Z05); PLB (Personal Locator Beacon registered with NOAA 406 MHz SARSAT, Z11); Podophyllotoxin (severe toxin in mayapple, Z05); Pressure canner (tested steam-pressure vessel mandatory for low-acid canning, Z14). @A07,B14,N08,P13
+failure: Confusing scratch hardness with impact toughness or overlooking delayed orellanine renal failure distorts field risk. @A07,R04,B08
+verify: Every M–P definition matches its authoritative upstream zone text. @A07
+stop: Stop relying on abbreviated glossary text for clinical, legal, or preservation decisions. @A07,A10
+reviewer: Multi-domain technical editor
+
+Z16-P63 | Encyclopedia Technical Glossary: Q through S | New manuscript (Z16 P20 glossary)
+objective: Standardize definitions from Quaking Bog through Spore Print across wetlands, navigation, geology, fire, and mycology.
+applies: Cross-zone terminology lookup for Q–S technical terms.
+equipment: Full offline reader (Z04, Z05, Z08, Z09, Z11, Z12, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z05, Z08, Z09,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z05, Z08, Z09, Z11, Z12, Z15 with preserved upstream conditions and stop thresholds.
+action: Define Q–R terms: Quaking bog (floating sphagnum peat mat over deep cold water, Z08, Z12); Resection (locating map position via two or more terrain bearings, Z11); Rip current (narrow seaward channel escaped parallel to shore, Z12); Runout (diagonal wood grain exiting a handle side causing sudden snap, Z08, Z09). @A07,X12,N03,X15,K09
+action: Define S terms: SAME radio (NOAA Weather Radio filtered to county alerts, Z15); Silica dust (respirable quartz, chert particles causing silicosis, Z08); Sneaker wave (abrupt large coastal surge sweeping wet rocks, Z12); Spalling (violent rock shattering from trapped steam or thermal shock, Z08). @A07,D01,R06,X16,R13
+action: Define additional S terms: Spore print (diagnostic color deposit on split black, white paper, Z05); Spring pole (bent tensioned sapling storing lethal snap-back energy, Z09); Stipe (mushroom stem, Z05); Supernatant (clarified upper water decanted before microbial treatment, Z04). @A07,B05,K10,W01
+failure: Confusing supernatant settling with disinfection or missing diagonal handle runout introduces acute field injury. @A07,W01,K09
+verify: All Q–S definitions remain harmonized with Z04, Z05, Z08, Z09, Z11, Z12, and Z15. @A07
+stop: Stop substituting glossary glosses for full upstream zone verification steps. @A07,A10
+reviewer: Multi-domain technical editor
+
+Z16-P64 | Encyclopedia Technical Glossary: T through Z | New manuscript (Z16 P20 glossary)
+objective: Standardize definitions from Taxine through Zone of Fire across toxicology, botany, mycology, geology, and hunting safety.
+applies: Cross-zone terminology lookup for T–Z technical terms.
+equipment: Full offline reader (Z05, Z06, Z07, Z08, Z10, Z11, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z05, Z06, Z07, Z08,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z05, Z06, Z07, Z08, Z10, Z11, Z15 with preserved upstream conditions and stop thresholds.
+action: Define T terms: Taxine (lethal cardiac alkaloid in Taxus yew needles and seeds, Z05); Thermocline (lake temperature boundary separating warm surface and cold deep water, Z06); Trichinella (freeze-resistant wild bear, omnivore parasite requiring at least 165 F cooking, Z06); Tularemia (severe rabbit, rodent bacterial zoonosis requiring gloves, Z06). @A07,B10,H06,H10,H11
+action: Define U–V terms: Umbel (umbrella-like spoke flower cluster flagging lethal Apiaceae hemlocks and wild parsnip, Z05); Urushiol (persistent allergic oil in poison ivy, sumac active year-round and hazardous in smoke, Z05); Volva (sac-like basal cup on lethal Amanita mushrooms often hidden in leaf litter, Z05); Voucher (curated museum reference specimen with locality and ID, Z05, Z08). @A07,B02,B05,B11,B12
+action: Define W–Z terms: Water-bath canner (boiling vessel restricted strictly to tested high-acid, acidified recipes, Z14); Widowmaker (leaning dead snag or hung overhead limb, Z02, Z08); WITHHELD_HOLD (mandatory Z05 status withholding consumption clearance until SME review); Zone of Fire (assigned forward safe shooting arc clear of partners, buildings, Z06). @A07,P11,E05,B24,H03
+failure: Overlooking a concealed soil volva or misreading umbel terminology risks fatal mushroom or hemlock poisoning. @A07,B05,B11
+verify: All T–Z terminology aligns across upstream cards and taxonomic registers. @A07
+stop: Stop assuming recognition of a term authorizes field execution without consulting the governing zone card. @A07,A10
+reviewer: Multi-domain technical editor
+
+Z16-P65 | Clinical, Toxicological and Public-Health Acronyms Reference | New manuscript (Z16 P20 glossary)
+objective: Decode medical, environmental-health, and food-safety acronyms used across the encyclopedia so critical distinctions are never misread offline.
+applies: Quick acronym lookup across medical, water, air-quality, and food-preservation cards.
+equipment: Full offline reader (Z04, Z05, Z10, Z13, Z14, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z05, Z10, Z13,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z05, Z10, Z13, Z14, Z15 with preserved upstream conditions and stop thresholds.
+action: Clinical acronyms: ACS (American College of Surgeons — Stop the Bleed, Z10); AED (Automated External Defibrillator, Z10); ARC (American Red Cross, Z10); AVPU (Alert, Verbal, Pain, Unresponsive alertness scale, Z10); CPR (Cardiopulmonary Resuscitation, Z10); CSM (Circulation, Sensation, Motion, Z10); EMS (Emergency Medical Services); PEP (Post-Exposure Prophylaxis e.g. rabies, Z07, Z10). @A03,A07,M01,M03,M08,M17
+action: Environmental & water acronyms: AQI (Air Quality Index, Z15); CO (Carbon Monoxide, Z02, Z03, Z13); HAB (Harmful Algal Bloom, Z04); HEPA (High-Efficiency Particulate Air filter, Z15); NSF, ANSI (drinking-water treatment certification standards, Z04); PFAS, PCBs (persistent chemical contaminants, Z06). @A03,A07,D10,C07,W04,H04
+action: Food & toxicology acronyms: FIFO (First-In First-Out pantry rotation, Z14); GI (Gastrointestinal, Z05, Z14); MMWR (CDC Morbidity and Mortality Weekly Report, Z05); NAMA (North American Mycological Association, Z05); NCHFP (National Center for Home Food Preservation, Z14); PPE (Personal Protective Equipment, Z08, Z10). @A03,A07,B06,B08,P11,R06
+failure: Misreading an acronym such as CO vs CO2, HAPE vs heat cramps, or NSF pore standards causes serious operational mistakes. @A07
+verify: Every acronym expands accurately and maps back to its primary source zone. @A07
+stop: Stop guessing unfamiliar technical abbreviations; verify exact meaning in the cited zone card and source pack. @A07,A10
+reviewer: Medical and public-health technical editor
+
+Z16-P66 | Governing Agency, Regulatory and Scientific Authority Index | New manuscript (Z16 P20 authority index)
+objective: Map each encyclopedia domain to its authoritative federal, state, university, or scientific agency so users know where to verify live updates.
+applies: Checking current regulations, advisories, forecasts, and taxonomic records prior to fieldwork.
+equipment: Full offline reader (Z04, Z05, Z06, Z07, Z08, Z11, Z13, Z14, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z05, Z06, Z07,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z05, Z06, Z07, Z08, Z11, Z13, Z14, Z15 with preserved upstream conditions and stop thresholds.
+action: Weather, hazards & rescue: NWS, NOAA (weather warnings, surf, ice, tsunami, Z11, Z12, Z15); FEMA, Ready.gov (disaster preparedness, Z13, Z15); USCG (boating, maritime safety, Z12); SARSAT, NOAA (406 MHz PLB registration, Z11). @A06,A09,D01,N08,X17
+action: Minnesota natural resources & geology: MN DNR (fishing, hunting, trapping, CWD, AIS, parks, SNAs, wild rice, Z05–Z08); MDH (waterbody fish advisories, private wells, Z06, Z13); MGS & USGS (bedrock, topographic maps, minerals, Z08, Z11); USFWS & NPS (ESA, MBTA, 36 CFR 2.1, Z06–Z08). @A06,H01,H04,L03,R01,R08
+action: Health, taxonomy & food safety: CDC, NIOSH, EPA (water, silica, asbestos, smoke, lead, botulism, Z04, Z08, Z10, Z15); Bell Museum, USDA PLANTS, ITIS & MyCoPortal (vouchers & taxonomy, Z05); USDA, NCHFP & UMN Extension (canning, gardening, food safety, Z14); Minnesota Poison Control (1-800-222-1222, Z05, Z10). @A03,A05,B01,B09,P11,R06
+failure: Relying on undated blog posts or outdated print tables instead of the governing agency misses annual hunting, fishing rule changes and active health advisories. @A06,H01
+verify: Every domain maps cleanly to live-verified public agencies tracked in sources.tsv. @A06,A10
+stop: Stop assuming static print summaries override live agency advisories, park rules, or emergency orders. @A06,A10
+reviewer: Editorial governance and regulatory reviewer
+
+Z16-P67 | Units, Temperature Conversions and Non-Extrapolation Rules | New manuscript (Z16 P20 reference tables)
+objective: Provide exact verified temperature and elevation reference points used across the encyclopedia while blocking unsafe unit extrapolation.
+applies: Offline verification of Fahrenheit, Celsius thresholds and elevation cutoffs cited across Z04–Z15.
+equipment: Full offline reader (Z04, Z06, Z08, Z10, Z12, Z14, Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z04, Z06, Z08, Z10,  cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z04, Z06, Z08, Z10, Z12, Z14, Z15 with preserved upstream conditions and stop thresholds.
+action: Food, cold-chain & cooking benchmarks: 32 F (0 C) water freezing; 40 F (4 C) max safe cold-chain fridge, carcass storage (Z06, Z14); 90 F (32 C) CDC indoor electric fan ceiling (Z15); 145 F (63 C) freshwater fish (Z06); 160 F (71 C) jerky meat and 165 F (74 C) poultry & wild bear Trichinella kill (Z06, Z14); 212 F (100 C) sea-level water boil (Z04). @A03,A07,F01,H10,D21,P24,W11
+action: Distance and elevation benchmarks: at least 20 feet (~6 m) minimum outdoor portable generator setback (Z03, Z13); 1000 feet (~305 m) USDA, NCHFP canning altitude adjustment threshold (Z14); 6500 feet (~2000 m) CDC boiling extension from 1 min to 3 min (Z04). @A03,A07,C06,P12,W11
+action: Non-extrapolation rule: NEVER extrapolate linear time, temperature formulas, unverified wind-chill survival minutes, improvised cordage breaking pounds, or unvalidated structural snow loads outside cited primary sources. @A01,A07,E16,K06
+failure: Confusing Celsius with Fahrenheit (e.g., 40 C vs 40 F) or omitting elevation thresholds causes botulism, food spoilage, or incomplete boiling. @A07,F01,W11
+verify: All cross-zone numeric benchmarks match exact upstream primary sources with clear units and conditions. @A07
+stop: Stop using any numeric threshold whose unit, altitude, or source condition cannot be confirmed on its upstream card. @A07,A10
+reviewer: Technical QA and metrology reviewer
+
+Z16-P68 | Master Sixteen-Zone Architecture and Standalone Zone-Reader Map | New manuscript (Z16 P20 offline navigation)
+objective: Map all 16 canonical zones (1,016 pages), standalone zone readers, consolidated directory, and tagged Letter, A4 proofs for offline navigation.
+applies: Orienting readers, auditors, and print reviewers across the complete offline edition.
+equipment: Full offline reader (Z01–Z15 (All 16 Zones)), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z15 (All 16 Zone cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z15 (All 16 Zones) with preserved upstream conditions and stop thresholds.
+action: Navigate all 16 completed draft zones matching the frozen master scope exactly: Z01 Fundamentals (22), Z02 Shelter (55), Z03 Fire (45), Z04 Water (55), Z05 Wild Foods & Lookalikes (135), Z06 Hunting & Fishing (48), Z07 Traps & Snares (30), Z08 Rocks & Materials (60). @A10
+action: Navigate zones Z09–Z16: Z09 Tools & Construction (53), Z10 Wilderness Medicine (80), Z11 Navigation, Weather, Rescue (68 incl. 10 reconstructions), Z12 Extreme Environments (75), Z13 Home Utilities (70 incl. Z13-R03), Z14 Food Preservation (80 incl. Z14-R01), Z15 Disasters (65 incl. Z15-R03), Z16 Field Reference Atlas (75) = 1,016 total pages. @A10
+action: Use reader, index.html for instant offline full-text search, each standalone zone reader under reader, zones, reader, directory.html for the 16-zone status table plus untouched Track B history files, and the proofs folder for tagged Letter and A4 PDFs. @A10
+failure: Searching only one zone misses critical cross-zone safety bounds such as CO clearance (Z02, Z03, Z13) or water, well limits (Z04, Z13). @A10
+verify: All 16 zone allocations sum to 1,016 pages and match frozen the frozen master ZONE_COMPLETION_MATRIX 1:1. @A10
+stop: Stop assuming draft completion equals publication approval; every reader page carries an explicit HOLD banner. @A10
+reviewer: Accessibility, print QA, and editorial reviewer
+
+Z16-P69 | Master Offline Topic and Keyword Lookup Index: A through G | New manuscript (Z16 P20 keyword index)
+objective: Provide a fast offline alphabetical lookup mapping topics A–G to exact zone and page ranges without stripping upstream safety warnings.
+applies: Print and offline keyword navigation across all 1,016 encyclopedia pages.
+equipment: Full offline reader (Z01–Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z15 with preserved upstream conditions and stop thresholds.
+action: A–C topics: Accessibility (Z01-P18, Z15-P55); Acorns, Buckeyes (Z05-P73, P81); AIS Clean-Drain-Dry (Z06-P14); Amanita amatoxins (Z05-P116, P133); Anaphylaxis (Z10-P55, Z05-P14); Asbestos fibers (Z08-P06, P59); Avalanche (Z12-P40..P42); Baneberry (Z05-P128); Bears (Z06-P44); Bleeding, Tourniquet (Z10-P03..P04); Blizzards (Z15-P13..P15); Boiling altitude (Z04-P34); Botulism (Z14-P61..P62); Buckthorn (Z05-P126); Burns (Z10-P26). @A01,A10
+action: C–E topics: Canning pressure, water-bath (Z14-P45..P60); Carbon monoxide (Z02-P44, Z03-P40, Z13-P20); Cattail vs Iris (Z05-P83); Chert, Conchoidal fracture (Z08-P03, P15); Clay, Soil lead (Z08-P25..P28, Z14-P04); Cold-water immersion (Z12-P16, P64, Z06-P20); Compass, Declination (Z11-P14, P29, Z08-P20); Cordage, Knots (Z08-P44, Z09-P11..P21); CPR, Choking (Z10-P08..P12); CWD prions (Z06-P39); Drowning (Z10-P09, Z12-P16). @A01,A10
+action: E–G topics: Elderberry raw toxicity (Z05-P59); Electrical flood, panel (Z13-P07, P45); Evacuation Ready-Set-Go (Z15-P29..P31); Fans >90 F limit (Z15-P37); Firearm safety (Z06-P31..P33); Fish advisories, ID (Z06-P08..P19); Floods, Washouts (Z15-P24..P26); Frostbite (Z10-P44); Galerina deadly (Z05-P117); Gas leaks (Z13-P26); Generators at least 20 ft (Z03-P06, Z13-P06..P07); Ghost gear (Z07-P12, P26); Gyromitra false morel (Z05-P98, P118). @A01,A10
+failure: Using an index term without opening the linked zone card skips mandatory conditions, altitude rules, and stop thresholds. @A01,A10
+verify: Every keyword routes cleanly to verified existing page IDs across Z01–Z15. @A10
+stop: Stop acting on index keywords alone; open and verify the full referenced page before action. @A01,A10
+reviewer: Editorial indexer and QA reviewer
+
+Z16-P70 | Master Offline Topic and Keyword Lookup Index: H through P | New manuscript (Z16 P20 keyword index)
+objective: Provide a fast offline alphabetical lookup mapping topics H–P to exact zone and page ranges while preserving upstream safety gates.
+applies: Print and offline keyword navigation across all 1,016 encyclopedia pages.
+equipment: Full offline reader (Z01–Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z15 with preserved upstream conditions and stop thresholds.
+action: H–L topics: HABs cyanobacteria (Z04-P14); HAPE, HACE altitude (Z10-P49, Z12-P35); Hazmat shelter-in-place (Z15-P48); Heat stroke cooling (Z10-P46, Z12-P30); Hemlocks water, poison (Z05-P92, P122..P123); HEPA clean rooms (Z15-P33); Hypothermia (Z10-P42, Z12-P08); Ice safety, candled (Z12-P13..P20, Z06-P01..P02); Infant formula (Z14-P75); Iron-rock deflection (Z08-P20, Z11-P29); Jack-o-lantern fungus (Z05-P101, P120); Jerky heat-kill (Z14-P68); Karst bluffs (Z08-P09); Lightning (Z10-P50, Z11-P38); Lost STOP (Z11-P43). @A01,A10
+action: M–O topics: Maps, Datum (Z11-P12); Mayapple toxicity (Z05-P71); Mercury, PFAS fish (Z06-P15..P19); Mineral properties, Mohs (Z08-P02, P16..P19); Moonseed vs grape (Z05-P64, P127); Moose safety (Z06-P46); Morels cutaway (Z05-P98); Nightshade (Z05-P124); No-fire alternatives (Z03-P42); Nuts, Allergies (Z05-P73..P82); Outage cold-chain (Z14-P38..P41); Overpass tornado ban (Z15-P16). @A01,A10
+action: P topics: Parks, SNA collecting laws (Z08-P55..P56, Z05-P10, Z07-P06); Peat fire ban (Z08-P31); Pet leash trapping safety (Z07-P14, P18); PLB registration (Z11-P56); Poison Control 1-800-222-1222 (Z05-P135, Z10-P61); Poison ivy, sumac smoke (Z05-P130); Pokeweed (Z05-P125); Potatoes green, bitter (Z14-P30); Pressure canner vent (Z14-P54); Puffballs cutaway (Z05-P105); Pulley anchor doubling (Z09-P44). @A01,A10
+failure: Acting on an abbreviated index entry misses critical qualifications like altitude adjustments, host-tree limits, or medical escalation. @A01,A10
+verify: Every H–P entry resolves cleanly to exact verified page IDs. @A10
+stop: Stop relying on keyword pointers alone; open the cited card and check all stop conditions. @A01,A10
+reviewer: Editorial indexer and QA reviewer
+
+Z16-P71 | Master Offline Topic and Keyword Lookup Index: Q through Z | New manuscript (Z16 P20 keyword index)
+objective: Provide a fast offline alphabetical lookup mapping topics Q–Z to exact zone and page ranges while preserving upstream safety gates.
+applies: Print and offline keyword navigation across all 1,016 encyclopedia pages.
+equipment: Full offline reader (Z01–Z15), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z15 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z15 with preserved upstream conditions and stop thresholds.
+action: Q–S topics: Quaking bogs (Z12-P47, Z08-P31); Quarries, Private land (Z08-P57); Rabies, Wild mammal bites (Z07-P22, Z10-P57); Rare plants, Digging ban (Z05-P93); Reconstructions lineage (Z16-P72, Z11-R01..R10); Rip currents (Z12-P56); Root cellars 4 zones (Z14-P27..P33); Saw bind, Spring poles (Z09-P25..P26); Seizures >5 min (Z10-P53); Septic, Wells post-flood (Z13-P40..P48); Shelter insulation, CO (Z02-P03, P44); Silica dust (Z08-P06, P58); Snakebites (Z10-P59); Sneaker waves (Z12-P60); Spalling rocks (Z08-P22); Splints, CSM (Z10-P32); Spore prints (Z05-P96); Stoves, Windscreens (Z03-P25..P29). @A01,A10
+action: T–V topics: Ticks, Tweezers (Z10-P58); TIP poaching, trap reporting (Z06-P47, Z07-P20); Tomatoes acidification (Z14-P49); Tornadoes (Z15-P16..P18); Tracks, Gait, Scat hygiene (Z06-P25..P27); Transfer switches (Z13-P07); Trapped wildlife referral (Z07-P21); Treestands, Harness (Z06-P35); Trichinella bear at least 165 F (Z06-P40); Tsunamis (Z12-P61); Tularemia rabbits (Z06-P41); Universal edibility myth ban (Z05-P12); Vent snow clearing (Z13-P24); Vouchers (Z05-P03, Z08-P04). @A01,A10
+action: W–Z topics: Water treatment, Filters (Z04-P32..P42); Waterfowl non-toxic shot (Z06-P24, P36); White snakeroot (Z05-P125); Wild parsnip burns (Z05-P131); Wild rice tribal, DNR law (Z05-P79); Wildfire smoke+heat (Z15-P33, P37); Willow salicylate caution (Z05-P47); Winter vehicles (Z15-P14); Wolves protection (Z06-P45); Wood grain, B007 (Z08-P33..P46); Yew lethal cardiac (Z05-P42, P129); Zone of Fire (Z06-P33). @A01,A10
+failure: Jumping straight to field execution without verifying full upstream stop rules omits high-consequence exceptions. @A01,A10
+verify: Every Q–Z entry resolves accurately to verified page IDs across Z01–Z15. @A10
+stop: Stop acting on brief index entries; review the complete linked zone card first. @A01,A10
+reviewer: Editorial indexer and QA reviewer
+
+Z16-P72 | Historical Track B Lineage and Open Recovery Register Index | Adapted historical material (B003/B011 crosswalk & Track B lineage)
+objective: Preserve complete transparent lineage linking all frozen Track B historical artifacts, adapted manuscripts, explicit reconstructions, and unresolved historical gaps.
+applies: Auditors and readers tracing historical continuity without altering frozen recovery checkpoints.
+equipment: Full offline reader (Z01–Z15 (Track B B003–B014)), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z15 (Track B B00 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z15 (Track B B003–B014) with preserved upstream conditions and stop thresholds.
+action: Verify that every frozen Track B artifact (B003, B007, B007A, B008 and B008-original, B009 and B009-original, B010, B011 lead register, B012 28-page winter draft, B013 18-page ice draft, B014 P11–P20, and historical USGS 1965 Ely quadrangle) remains untouched in the reader history folder and tracked in track-b-crosswalk.tsv. @A10
+action: Preserve all 13 explicitly labeled Reconstruction draft cards (Z11-R01..Z11-R10 for missing B014 P01–P10; Z13-R03 Home Resilience primer; Z14-R01 Small Acreage primer; Z15-R03 Thirty-Day Outage primer) alongside open historical lacunae B001, B002, B004, B005, B006. @A10
+action: Never silently overwrite frozen historical drafts or relabel reconstructions as recovered originals; record adapted lineage explicitly on every card (150 adapted historical cards, 853 new manuscripts, 13 reconstruction drafts = 1,016 total). @A10
+failure: Conflating newly authored reconstructions with recovered historical originals corrupts archival custody and hides open source gaps. @A10
+verify: Frozen diff check vs 890c66a remains strictly additive and every historical artifact maps uniquely in track-b-crosswalk.tsv. @A10
+stop: Stop any edit that modifies frozen Track B files or removes explicit Reconstruction draft badges. @A10
+reviewer: Archival custodian and technical auditor
+
+Z16-P73 | Open Authentic Diagnostic Photography and Visual Redesign Index | New manuscript (Z16 P20 visual governance)
+objective: Summarize the open authentic diagnostic photography register, documentary context assets, and Astra A02 visual redesign backlog honestly.
+applies: Visual QA, curator acquisition planning, and publication-gate transparency.
+equipment: Full offline reader (Z01–Z16), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z16 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z16 with preserved upstream conditions and stop thresholds.
+action: Keep documentary context photographs (provider JPEGs with SHA-256, public-domain credit, and diagnostic_photo=false in photos manifest.json) strictly separate from expert-validated diagnostic photographs (currently 0 acquired). @A10,B02
+action: Track all 54 open authentic diagnostic photography requirements in photo-requirements.tsv (35 A01–A02 baseline requirements across Z02–Z15 PLUS 19 new P16–P20 requirements across Z08, Z06, Z07, and Z05). @A10,B02
+action: Preserve Astra A02 visual quality classification and 490-candidate baseline visual redesign register alongside P16–P20 domain-specific diagram expansions, never presenting conceptual SVG illustrations as diagnostic photographs or consumption, engineering clearances. @A10,B24
+failure: Mislabeling a conceptual vector or documentary context photo as diagnostic specimen proof misleads identification and violates publication controls. @A10,B02,B24
+verify: Every SVG carries CONCEPTUAL NOT TO SCALE labeling, all photo checksums verify, and all 54 diagnostic needs remain visibly OPEN. @A10,B02
+stop: Stop advancing any high-risk visual identification zone out of HOLD until rights-cleared, multi-view, expert-validated diagnostic photographs are acquired. @A10,B02,B24
+reviewer: Curatorial photographer, image-rights, and visual QA reviewer
+
+Z16-P74 | Open Evidence Claims and Qualified Specialist Hold Index | New manuscript (Z16 P20 governance index)
+objective: Preserve complete visibility into all unresolved A01, A02 evidence items, Astra escalation queues, and pending qualified human specialist holds.
+applies: Technical audit handoff (Astra A03) and qualified human SME review scheduling.
+equipment: Full offline reader (Z01–Z16), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z16 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z16 with preserved upstream conditions and stop thresholds.
+action: Preserve all 116 unresolved evidence records documented in Astra A02 (the unresolved evidence register, including all 59 inherited A01 entries) without marking any item closed without new verified primary evidence. @A10
+action: Maintain all 21 pending specialist holds from A02 (H01–H21 in the specialist review register) plus P16–P20 escalations (ASTRA-013 Z08 geology, silica, ASTRA-014 Z06 harvest, advisories, ASTRA-015 Z07 trap law, welfare, ASTRA-016 Z05 botany, mycology, toxicology, ASTRA-017 Z16 cross-zone fidelity) and new specialist holds H22–H25. @A10,A05,A06
+action: Distinguish six separate milestones transparently: manuscript completion (1,016, 1,016 drafts), source linkage, visual audit, automated verification, qualified human specialist approval (0, 16 zones approved), and publication readiness (HOLD). @A10
+failure: Conflating 100% draft manuscript completion or passing automated tests with human clinical, legal, botanical, or engineering approval is a critical safety failure. @A10
+verify: Zero specialist holds are closed prematurely, and all 1,016 cards retain publication: HOLD. @A10
+stop: Stop any publication attempt until formal Astra A03 technical acceptance and independent qualified human specialist sign-offs close every applicable HOLD. @A10
+reviewer: Editorial director and multi-domain specialist review board
+
+Z16-P75 | Offline Archive Verification, Checksums and Publication HOLD Governance | New manuscript (Z16 P20 archive governance)
+objective: Document the GitHub-safe modular zone archive, deterministic checksums, reproducible complete-bundle builder, and final publication HOLD gate.
+applies: Verifying downloaded offline review packages, print proofs, and repository integrity.
+equipment: Full offline reader (Z01–Z16), primary zone cards, and local emergency and agency references.
+diagram: Locate Z01–Z16 cards | Preserve exact stop & limits | Defer to full zone card
+visual: Cross-zone atlas schematic linking Z01–Z16 with preserved upstream conditions and stop thresholds.
+action: Verify offline package integrity via PACKAGE-MANIFEST.json and the package SHA-256 manifest covering the core offline reader bundle (foundations-offline.zip) plus 16 checksum-verified per-zone packages (zone-Z01.zip through zone-Z16.zip), keeping every committed archive cleanly under GitHub size limits. @A10
+action: Reproduce the complete single-file archive locally on demand via python3 check_foundations.py with the assemble-complete flag, and re-verify frozen custody, reproducible HTML generation, tagged Letter and A4 proofs, and all regression tests offline. @A10
+action: Keep formal PDF, UA conformance validation, physical grayscale print contrast checks, assistive-device screen-reader trials (H14), and all human specialist approvals explicitly open under publication: HOLD. @A10
+failure: Distributing unchecksummed bundles or treating automated Chromium, PyMuPDF checks as formal PDF, UA or field-use approval violates project governance. @A10
+verify: Every committed archive passes CRC and SHA-256 verification under the 45 MB ceiling, and reproducible builds match checked-in bytes. @A10
+stop: Stop distribution for public field use while publication: HOLD remains active across all 1,016 draft pages. @A10
+reviewer: Release engineering, accessibility, and governance reviewer

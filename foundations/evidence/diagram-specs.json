@@ -11757,5 +11757,1421 @@
       }
     ],
     "trigger": "STOP: Never induce vomiting or wait for delayed symptoms"
+  },
+  "Z16-P01": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z01-P01..P06",
+        "scope": "Scene scan & trip abor",
+        "action": "Unsafe terrain -> hold"
+      },
+      {
+        "role": "Z10-P01..P02",
+        "scope": "Primary survey & 911",
+        "action": "Red flags -> call 911"
+      },
+      {
+        "role": "Z11-P43..P55",
+        "scope": "Lost STOP & signaling",
+        "action": "Lost -> stay put"
+      }
+    ],
+    "trigger": "Atlas preserves every upstream Z01/Z10/Z11 stop threshold"
+  },
+  "Z16-P02": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z10-P03..P05",
+        "scope": "Direct pressure & tour",
+        "action": "Never loosen placed TQ"
+      },
+      {
+        "role": "Z09-P02..P29",
+        "scope": "Blade/saw bleed preven",
+        "action": "Unstable cut -> stop"
+      },
+      {
+        "role": "Z06-P31..P48",
+        "scope": "Field trauma & clear a",
+        "action": "Unload arms -> call 911"
+      }
+    ],
+    "trigger": "Civilian visible-wound TQ: 2-3 in above wound, off joint; call 911"
+  },
+  "Z16-P03": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z10-P08..P12",
+        "scope": "Adult/peds CPR & choki",
+        "action": "No 60-sec check delay"
+      },
+      {
+        "role": "Z12-P16..P64",
+        "scope": "Drowning & cold immers",
+        "action": "Reach-Throw-Dont-Go"
+      },
+      {
+        "role": "Z06-P20..P36",
+        "scope": "Boating PFD & cold wat",
+        "action": "Wear buckled PFD afloat"
+      }
+    ],
+    "trigger": "Preserve dispatcher guidance and drowning/pediatric breath rules"
+  },
+  "Z16-P04": {
+    "type": "system_boundary",
+    "variant": "z16_b4",
+    "zone_a": "Tent/snow ventilation & CO",
+    "zone_b": "Home CO alarm & vents",
+    "barrier": "No charcoal/stoves inside",
+    "hazard": "CO alarm = evacuate to fresh air FIRST; never delay to shut gear"
+  },
+  "Z16-P05": {
+    "type": "sequence_plate",
+    "variant": "z16_q5",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z02-P03..P18"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Ground pad & wind ba"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Hypothermia & frostb"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Wet insulation -> st"
+      }
+    ],
+    "cue": "Never rub frostbite with snow or thaw if refreezing can occur"
+  },
+  "Z16-P06": {
+    "type": "sequence_plate",
+    "variant": "z16_q6",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z10-P46..P48"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Heat stroke rapid co"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Desert & exertion he"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Altered -> 911 + coo"
+      }
+    ],
+    "cue": "Cool immediately + call 911; CDC advises fans only below 90 F"
+  },
+  "Z16-P07": {
+    "type": "sequence_plate",
+    "variant": "z16_q7",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z04-P14,P32"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "HABs, chemicals & se"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Boil altitude & filt"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Clarity != potabilit"
+      }
+    ],
+    "cue": "1 min boil (<6,500 ft) / 3 min (>=6,500 ft); boiling fails HABs/chemicals"
+  },
+  "Z16-P08": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z05-P116..P135",
+        "scope": "Amanita/Hemlock/Poison",
+        "action": "Call 1-800-222-1222 now"
+      },
+      {
+        "role": "Z10-P60..P64",
+        "scope": "Ingestion & anaphylaxi",
+        "action": "No uninstructed vomiting"
+      },
+      {
+        "role": "Z14-P61..P62",
+        "scope": "Botulism cues & detox",
+        "action": "Neuro signs -> 911 now"
+      }
+    ],
+    "trigger": "Never wait for symptoms; save fungi in dry paper; call 1-800-222-1222"
+  },
+  "Z16-P09": {
+    "type": "sequence_plate",
+    "variant": "z16_q9",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z15-P16..P18"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Tornado safe room ru"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Flood & washout haza"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "NEVER use overpass"
+      }
+    ],
+    "cue": "Local NWS orders supersede general summaries; exit open terrain early"
+  },
+  "Z16-P10": {
+    "type": "system_boundary",
+    "variant": "z16_b10",
+    "zone_a": "Smoke + extreme indoor heat",
+    "zone_b": "Outage + subzero cold",
+    "barrier": "Zero wading near power",
+    "hazard": "No static ranking overrides local emergency orders during compound event"
+  },
+  "Z16-P11": {
+    "type": "sequence_plate",
+    "variant": "z16_q11",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z01-P18,Z15-P55"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Mobility & medical p"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Infant formula & ped"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Relocate before batt"
+      }
+    ],
+    "cue": "Plan accessible evacuation & backup power early with local registries"
+  },
+  "Z16-P12": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z01,Z10,Z13,Z15",
+        "scope": "Life threat / CO / gas",
+        "action": "Call 911 from safe air"
+      },
+      {
+        "role": "Z05,Z10,Z13",
+        "scope": "Plant/fungi/chem poiso",
+        "action": "1-800-222-1222 at once"
+      },
+      {
+        "role": "Z06,Z07,Z11",
+        "scope": "Wildlife TIP & SAR/PLB",
+        "action": "1-800-652-9093; no confron"
+      }
+    ],
+    "trigger": "Keep local county, utility & vet contacts written offline before travel"
+  },
+  "Z16-P13": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s13",
+    "phases": [
+      {
+        "window": "Z15-P13..P15",
+        "focus": "Blizzard & stranded ca"
+      },
+      {
+        "window": "Z02-P41,Z12-P0",
+        "focus": "Snow shelter & wind ch"
+      },
+      {
+        "window": "Z13-P24..P31",
+        "focus": "PVC vents & pipe freez"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Clear exhaust; stay pu"
+      }
+    ],
+    "threshold": "Calendar aids never override live NWS blizzard/cold warnings"
+  },
+  "Z16-P14": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s14",
+    "phases": [
+      {
+        "window": "Z12-P13..P20",
+        "focus": "Clear/white/candled ic"
+      },
+      {
+        "window": "Z06-P01..P02",
+        "focus": "Ice angling & B013 lim"
+      },
+      {
+        "window": "Z07-P25,Z12-P1",
+        "focus": "Beaver runs & shore re"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "No ice is 100% safe"
+      }
+    ],
+    "threshold": "Tracks never prove safe ice; DNR thresholds apply only to new clear ice"
+  },
+  "Z16-P15": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s15",
+    "phases": [
+      {
+        "window": "Z15-P24,Z08-P3",
+        "focus": "Snowmelt floods & bluf"
+      },
+      {
+        "window": "Z06-P20,Z12-P6",
+        "focus": "Warm air + freezing wa"
+      },
+      {
+        "window": "Z05-P08,P83,P9",
+        "focus": "Spring shoots & Gyromi"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Zero flooded road cros"
+      }
+    ],
+    "threshold": "Spring warmth masks freezing water, thawing bluffs & lethal shoots"
+  },
+  "Z16-P16": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s16",
+    "phases": [
+      {
+        "window": "Z04-P14,Z06-P1",
+        "focus": "HABs & MDH fish adviso"
+      },
+      {
+        "window": "Z12-P56,Z15-P1",
+        "focus": "Rip currents & derecho"
+      },
+      {
+        "window": "Z10-P58,Z05-P1",
+        "focus": "Deer ticks & wild pars"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Reject algal scum wate"
+      }
+    ],
+    "threshold": "Check daily NWS forecasts, surf flags, AQI & waterbody notices"
+  },
+  "Z16-P17": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s17",
+    "phases": [
+      {
+        "window": "Z06-P33,Z07-P1",
+        "focus": "Blaze gear & pet short"
+      },
+      {
+        "window": "Z06-P36..P40",
+        "focus": "Cold boat, CWD & bear "
+      },
+      {
+        "window": "Z05-P116..P119",
+        "focus": "Peak Amanita/Galerina "
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "<= 6 ft leash on open "
+      }
+    ],
+    "threshold": "Autumn overlaps firearms, trapping seasons, cold water & lethal fungi"
+  },
+  "Z16-P18": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s18",
+    "phases": [
+      {
+        "window": "Z14-P04,Z08-P2",
+        "focus": "Frost dates & soil lea"
+      },
+      {
+        "window": "Z14-P27..P33",
+        "focus": "4-zone root-cellar sto"
+      },
+      {
+        "window": "Z14-P45..P62",
+        "focus": "USDA/NCHFP tested cann"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Test urban/old-home so"
+      }
+    ],
+    "threshold": "Never modify tested USDA/NCHFP canning recipes or altitude times"
+  },
+  "Z16-P19": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s19",
+    "phases": [
+      {
+        "window": "Z13-P06..P07",
+        "focus": "Generator >= 20 ft & t"
+      },
+      {
+        "window": "Z13-P20..P26",
+        "focus": "CO alarms, chimneys & "
+      },
+      {
+        "window": "Z13-P38..P45",
+        "focus": "Wells, pipes & flood p"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Zero wall-outlet backf"
+      }
+    ],
+    "threshold": "Conceptual utility guides are never DIY code installation manuals"
+  },
+  "Z16-P20": {
+    "type": "seasonal_timeline",
+    "variant": "z16_s20",
+    "phases": [
+      {
+        "window": "Z05-P08,P105",
+        "focus": "Spring shoots & egg bu"
+      },
+      {
+        "window": "Z06-P25..P26",
+        "focus": "Snow-melt track distor"
+      },
+      {
+        "window": "Z08-P14,P59",
+        "focus": "Lichen rinds & rock ve"
+      },
+      {
+        "window": "Upstream stop",
+        "focus": "Missing traits -> STOP"
+      }
+    ],
+    "threshold": "Stop field identification whenever season hides key diagnostic traits"
+  },
+  "Z16-P21": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h21",
+    "zones": [
+      "Z04-P34..P42: Freeze-damaged -> trash",
+      "Z04-P14,Z12-P65: Never boil HAB/chem",
+      "Z13-P40..P43: Lab test before drinking"
+    ],
+    "buffer": "Boil, filter & chlorine limits",
+    "report": "Visual clarity never proves potability; ch"
+  },
+  "Z16-P22": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h22",
+    "zones": [
+      "Z03-P01,P37,P42: Red Flag -> zero open fire",
+      "Z15-P29..P31: GO order -> leave now",
+      "Z15-P33,P37: Hot room -> clean-air site"
+    ],
+    "buffer": "Burn bans & no-fire fallback",
+    "report": "Follow local fire orders; never run ozone "
+  },
+  "Z16-P23": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h23",
+    "zones": [
+      "Z12-P40..P42: Whumpfing/cracks -> avoid",
+      "Z10-P49,Z12-P35: Descend immediately + EMS",
+      "Z08-P09,P32,P48: Keep clear of fresh talus"
+    ],
+    "buffer": "Avalanche red flags & forecast",
+    "report": "No slope angle guarantees avalanche safety"
+  },
+  "Z16-P24": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h24",
+    "zones": [
+      "Z12-P47,Z08-P31: Flexing mat -> turn back",
+      "Z03-P01,Z08-P31: Mineral soil only",
+      "Z05-P122,Z07-P25: Zero marsh foraging/ice"
+    ],
+    "buffer": "Quaking bog & peat substrate",
+    "report": "Stay on firm upland ground; zero open fire"
+  },
+  "Z16-P25": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h25",
+    "zones": [
+      "Z12-P56..P60: Swim parallel; stay dry",
+      "Z12-P61,Z15-P27: Quake/alert -> high ground",
+      "Z06-P20,Z12-P64: Buckled PFD; no seawater"
+    ],
+    "buffer": "Rip currents & wet ledges",
+    "report": "Local coastal/Great Lakes alerts and teste"
+  },
+  "Z16-P26": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h26",
+    "zones": [
+      "Z13-P26: Zero sparks -> exit & 911",
+      "Z13-P54: Never mix; 1-800-222-1222",
+      "Z15-P48..P49: HVAC off; follow official order"
+    ],
+    "buffer": "Indoor gas/propane leak",
+    "report": "Official incident-specific orders always g"
+  },
+  "Z16-P27": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h27",
+    "zones": [
+      "Z06-P44..P46: Never run; leash dogs",
+      "Z07-P21..P22: Hands off -> call DNR",
+      "Z10-P57..P59: No cutting/sucking bites"
+    ],
+    "buffer": "Bears, wolves & moose",
+    "report": "Zero barehanded wildlife release; evaluate"
+  },
+  "Z16-P28": {
+    "type": "hazard_exclusion_map",
+    "variant": "z16_h28",
+    "zones": [
+      "Z08-P06,P58: No dry grinding; PPE/wet",
+      "Z08-P21,P59: Leave intact; wash hands",
+      "Z08-P27,Z14-P04: Lab test; no wild pots"
+    ],
+    "buffer": "Crystalline silica dust",
+    "report": "Visual cleanliness never proves rock, clay"
+  },
+  "Z16-P29": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z01-P05..P11",
+        "note": "Trip plan & core kit check",
+        "limit": "Missing core -> postpone"
+      },
+      {
+        "name": "Z02,Z03,Z04",
+        "note": "Shelter, ignition & water",
+        "limit": "Test gear pre-trip"
+      },
+      {
+        "name": "Z10-P75,Z11",
+        "note": "Med kit, map & whistle",
+        "limit": "Never rely on phone only"
+      }
+    ]
+  },
+  "Z16-P30": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z04-P01,P27,P32",
+        "note": "Raw vs clean & pre-settle",
+        "limit": "Zero cross-contamination"
+      },
+      {
+        "name": "Z04-P37..P40",
+        "note": "Filter freeze & virus limi",
+        "limit": "Froze wet -> discard"
+      },
+      {
+        "name": "Z04-P34,P36",
+        "note": "Boil & chemical kinetics",
+        "limit": "Cold water needs longer"
+      }
+    ]
+  },
+  "Z16-P31": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z02-P03,P15",
+        "note": "Ground R-value & dry loft",
+        "limit": "Wet loft fails fast"
+      },
+      {
+        "name": "Z02-P05,P11",
+        "note": "Drainage & hazard trees",
+        "limit": "Zero camp under snags"
+      },
+      {
+        "name": "Z02-P24,P44,P49",
+        "note": "Ventilation, CO & collapse",
+        "limit": "Zero stoves inside"
+      }
+    ]
+  },
+  "Z16-P32": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z03-P25..P29",
+        "note": "Cold fuel, windscreen & fi",
+        "limit": "Never wrap upright can"
+      },
+      {
+        "name": "Z03-P37,P42",
+        "note": "Burn bans & no-fire plan",
+        "limit": "Ban -> zero open flame"
+      },
+      {
+        "name": "Z03-P40,Z13-P20",
+        "note": "Outdoor-only combustion",
+        "limit": "Zero vestibule/tent use"
+      }
+    ]
+  },
+  "Z16-P33": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z08-P40,Z09-P48",
+        "note": "Handle grain & eye wedge",
+        "limit": "Cracked/loose -> retire"
+      },
+      {
+        "name": "Z09-P25..P26",
+        "note": "Saw bind & spring poles",
+        "limit": "Tensioned logs -> walk"
+      },
+      {
+        "name": "Z08-P44,Z09-P44",
+        "note": "Cordage & pulley vectors",
+        "limit": "Zero unrated life loads"
+      }
+    ]
+  },
+  "Z16-P34": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z11-P12..P14",
+        "note": "Datum & current declinatio",
+        "limit": "Match WGS84/NAD27"
+      },
+      {
+        "name": "Z08-P20,Z11-P29",
+        "note": "Iron-rock needle deflectio",
+        "limit": "Cross-check terrain"
+      },
+      {
+        "name": "Z11-P56..P57",
+        "note": "PLB registration & radio",
+        "limit": "Register 406 MHz pre-trip"
+      }
+    ]
+  },
+  "Z16-P35": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z13-P06..P07",
+        "note": "Generator & transfer switc",
+        "limit": "NEVER backfeed outlets"
+      },
+      {
+        "name": "Z13-P11..P13",
+        "note": "Lithium & lead-acid banks",
+        "limit": "Swollen/wet pack -> stop"
+      },
+      {
+        "name": "Z13-P20,Z15-P02",
+        "note": "CO alarms & NOAA SAME",
+        "limit": "Zero indoor candles/CO"
+      }
+    ]
+  },
+  "Z16-P36": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Z14-P52..P56",
+        "note": "Pressure canner & 10-min v",
+        "limit": "Test dial gauge yearly"
+      },
+      {
+        "name": "Z14-P48,P25",
+        "note": "Water/steam canner acid ga",
+        "limit": "Low-acid = pressure ONLY"
+      },
+      {
+        "name": "Z14-P68,Z06-P40",
+        "note": "Jerky/bear/fish probe temp",
+        "limit": "Verify by thermometer"
+      }
+    ]
+  },
+  "Z16-P37": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z08-P01,P07,P20",
+        "topic": "Shield, rift & iron anomalies",
+        "stop": "Cross-check compass"
+      },
+      {
+        "zones": "Z08-P09,Z04-P03",
+        "topic": "Karst bluffs & springs",
+        "stop": "Treat clear karst water"
+      },
+      {
+        "zones": "Z08-P10,P32",
+        "topic": "Glacial drift & bank slump",
+        "stop": "Stay off undercut rims"
+      }
+    ],
+    "preserve": "Regional geologic maps orient travel; they never certify site safety"
+  },
+  "Z16-P38": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z08-P02,P16,P17",
+        "topic": "Hardness, cleavage & streak",
+        "stop": "Never taste/burn ore"
+      },
+      {
+        "zones": "Z08-P03,P15,P58",
+        "topic": "Chert/quartz & silica dust",
+        "stop": "No dry grinding; PPE"
+      },
+      {
+        "zones": "Z08-P22,P50",
+        "topic": "Wet-rock thermal spalling",
+        "stop": "Keep wet stone out of fire"
+      }
+    ],
+    "preserve": "Observe minerals intact; separate hardness from toughness & safety"
+  },
+  "Z16-P39": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z08-P33..P40",
+        "topic": "Grain, rot & handle checks",
+        "stop": "Diagonal runout -> retire"
+      },
+      {
+        "zones": "Z08-P41..P45",
+        "topic": "B007/B008 wood & resin roles",
+        "stop": "No live bark stripping"
+      },
+      {
+        "zones": "Z03-P12,Z05-P44",
+        "topic": "Training limits & tree ID",
+        "stop": "Warmth > friction craft"
+      }
+    ],
+    "preserve": "Never strip live bark; visual grain checks never certify load capacity"
+  },
+  "Z16-P40": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z08-P25,P29,Z02",
+        "topic": "Sand vs clay site drainage",
+        "stop": "Avoid flat wet clay"
+      },
+      {
+        "zones": "Z08-P27,Z14-P04",
+        "topic": "Urban lead & tailings check",
+        "stop": "Lab test garden soil"
+      },
+      {
+        "zones": "Z08-P28,P53",
+        "topic": "Wild clay cookware limits",
+        "stop": "Use tested metal pots"
+      }
+    ],
+    "preserve": "Texture checks never verify firing integrity or chemical soil purity"
+  },
+  "Z16-P41": {
+    "type": "system_boundary",
+    "variant": "z16_b41",
+    "zone_a": "NPS 36 CFR 2.1 & MN SNAs",
+    "zone_b": "WMAs, tribal & private land",
+    "barrier": "Zero rocks, roots, traps",
+    "hazard": "Check current agency rules & parcel maps; zero emergency exemption"
+  },
+  "Z16-P42": {
+    "type": "system_boundary",
+    "variant": "z16_b42",
+    "zone_a": "Debris/snow shelter loads",
+    "zone_b": "Cordage & pulley rigging",
+    "barrier": "Sight != load or food safe",
+    "hazard": "Visual recognition never certifies engineering loads or chemical safety"
+  },
+  "Z16-P43": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z09-P11..P21",
+        "topic": "Utility knots & slick backup",
+        "stop": "Dress & back up slick cord"
+      },
+      {
+        "zones": "Z09-P42..P45",
+        "topic": "Pulley vector & non-cert",
+        "stop": "Redirect doubles anchor"
+      },
+      {
+        "zones": "Z08-P44,Z02",
+        "topic": "Natural cord & tarp lines",
+        "stop": "Zero human/climbing loads"
+      }
+    ],
+    "preserve": "Conceptual knot & pulley plates are not life-safety rigging approvals"
+  },
+  "Z16-P44": {
+    "type": "sequence_plate",
+    "variant": "z16_q44",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z11-P11..P28"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Contours, bearings &"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Lost STOP & SAR sign"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "2 missed cues -> STO"
+      }
+    ],
+    "cue": "Original B014 P01-P10 remains open behind Z11-R01..R10 reconstructions"
+  },
+  "Z16-P45": {
+    "type": "sequence_plate",
+    "variant": "z16_q45",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z10-P01,P20..P35"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Scope, wounds, burns"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Seizures & low blood"
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "No dosing; check CSM"
+      }
+    ],
+    "cue": "Lay reference only; follow 911 dispatcher & personal clinician action plan"
+  },
+  "Z16-P46": {
+    "type": "sequence_plate",
+    "variant": "z16_q46",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z14-P38..P41"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "Outage fridge/freeze"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Bear >=165 F & fish "
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": ">40 F for 2 hr -> di"
+      }
+    ],
+    "cue": "When in doubt, throw it out—never taste suspect outage or game food"
+  },
+  "Z16-P47": {
+    "type": "sequence_plate",
+    "variant": "z16_q47",
+    "steps": [
+      {
+        "label": "1. Locate",
+        "detail": "Z14-P45..P51"
+      },
+      {
+        "label": "2. Apply",
+        "detail": "High-acid & tomato a"
+      },
+      {
+        "label": "3. Verify",
+        "detail": "Low-acid pressure & "
+      },
+      {
+        "label": "4. Stop rule",
+        "detail": "Acidify ALL canned t"
+      }
+    ],
+    "cue": "Exact tested USDA/NCHFP recipes only; no substitutions or shortcuts"
+  },
+  "Z16-P48": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z06-P03..P12",
+        "topic": "DNR license, slots & fish ID",
+        "stop": "Unsure ID -> release now"
+      },
+      {
+        "zones": "Z06-P15..P19",
+        "topic": "MDH mercury/PFAS/PCB",
+        "stop": "Trim fails mercury/PFAS"
+      },
+      {
+        "zones": "Z06-P14,P20",
+        "topic": "AIS law & cold-water PFD",
+        "stop": "Clean-Drain-Dry; PFD on"
+      }
+    ],
+    "preserve": "Record jurisdiction, waterbody & check date; zero emergency exemption"
+  },
+  "Z16-P49": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z06-P31..P33",
+        "topic": "4 firearm rules & blaze",
+        "stop": "Unload at all obstacles"
+      },
+      {
+        "zones": "Z06-P34..P35",
+        "topic": "Archery & treestand harness",
+        "stop": "Clip ground-to-ground"
+      },
+      {
+        "zones": "Z06-P37..P43",
+        "topic": "Gloves, CWD, Trich & Tular",
+        "stop": "Test CWD; reject sick"
+      }
+    ],
+    "preserve": "Written summaries never replace formal DNR hunter-safety certification"
+  },
+  "Z16-P50": {
+    "type": "system_boundary",
+    "variant": "z16_b50",
+    "zone_a": "Law, ESA & AFWA welfare",
+    "zone_b": "Non-tamper & TIP/rehab call",
+    "barrier": "<= 6 ft leash; skip culverts",
+    "hazard": "Zero actionable injurious trap construction; escalate unresolved law/wel"
+  },
+  "Z16-P51": {
+    "type": "system_boundary",
+    "variant": "z16_b51",
+    "zone_a": "Binomials, vouchers & nodes",
+    "zone_b": "Zero folklore & B011 leads",
+    "barrier": "No SNAs or roadsides",
+    "hazard": "HOLD: Botanical recognition and consumption remain strictly separate"
+  },
+  "Z16-P52": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z05-P05,P122..123",
+        "topic": "Water & poison hemlock",
+        "stop": "Reject ALL wild umbels"
+      },
+      {
+        "zones": "Z05-P18,P24..P31",
+        "topic": "Spurge, dogbane, snakeroot",
+        "stop": "Milky/smooth -> STOP"
+      },
+      {
+        "zones": "Z05-P19,P131",
+        "topic": "Sprayed turf & wild parsnip",
+        "stop": "Block UV; WITHHELD_HOLD"
+      }
+    ],
+    "preserve": "HOLD: Zero herbaceous wild plants cleared for consumption"
+  },
+  "Z16-P53": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z05-P39..P42,P129",
+        "topic": "Pine/spruce/fir vs yew",
+        "stop": "Taxus = lethal cardiac"
+      },
+      {
+        "zones": "Z05-P41,P47,P49",
+        "topic": "Cedar, willow & Prunus",
+        "stop": "Thujone/salicin/cyanide"
+      },
+      {
+        "zones": "Z05-P48,P55,P130",
+        "topic": "Sumac & winter poison ivy",
+        "stop": "NEVER burn fuzzy vines"
+      }
+    ],
+    "preserve": "HOLD: Zero wild conifer teas, barks, or shoots cleared for eating"
+  },
+  "Z16-P54": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z05-P64,P127",
+        "topic": "Wild grape vs moonseed",
+        "stop": "Crescent seed = LETHAL"
+      },
+      {
+        "zones": "Z05-P58,P60,P126",
+        "topic": "Rubus/Amelanchier vs buck",
+        "stop": "Sub-opp spine = toxic"
+      },
+      {
+        "zones": "Z05-P71,P124..129",
+        "topic": "Mayapple/bane/yew/poke",
+        "stop": "Color NEVER proves safe"
+      }
+    ],
+    "preserve": "HOLD: Never sample unknown wild berries; call 1-800-222-1222"
+  },
+  "Z16-P55": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z05-P73,P81",
+        "topic": "Acorns/pines vs buckeye",
+        "stop": "Aesculus = poisonous"
+      },
+      {
+        "zones": "Z05-P76,P79",
+        "topic": "Butternut & wild rice law",
+        "stop": "Protect trees; tribal law"
+      },
+      {
+        "zones": "Z05-P75,P82",
+        "topic": "Moldy nuts & anaphylaxis",
+        "stop": "Heat fails aflatoxin"
+      }
+    ],
+    "preserve": "HOLD: Raw acorns, buckeyes & moldy nuts are unsafe; respect tribal law"
+  },
+  "Z16-P56": {
+    "type": "system_boundary",
+    "variant": "z16_b56",
+    "zone_a": "Iris, arums, camas & lily",
+    "zone_b": "Public/prairie/water law",
+    "barrier": "Reject ALL wild Apiaceae",
+    "hazard": "STOP: Underground wild-food ID carries highest fatal error & legal risk"
+  },
+  "Z16-P57": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z05-P95..P97",
+        "topic": "Base/volva, spores & paper",
+        "stop": "Never seal in plastic"
+      },
+      {
+        "zones": "Z05-P98,P105",
+        "topic": "Morel & puffball cutaways",
+        "stop": "Slice 100% top-to-bottom"
+      },
+      {
+        "zones": "Z05-P99..P115",
+        "topic": "Host tree & SME HOLD gate",
+        "stop": "HOLD: No photo clears eat"
+      }
+    ],
+    "preserve": "Fungi use a separate mycological schema; zero mushrooms cleared to eat"
+  },
+  "Z16-P58": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Z05-P116..P117",
+        "scope": "Amanita & Galerina (am",
+        "action": "Cooking FAILS; 6-24h GI"
+      },
+      {
+        "role": "Z05-P118..P121",
+        "scope": "Gyromitra, Cort, Ompha",
+        "action": "Silent 2-14d renal risk"
+      },
+      {
+        "role": "Z05-P133..P135",
+        "scope": "CDC MMWR & paper-bag E",
+        "action": "Call 1-800-222-1222 now"
+      }
+    ],
+    "trigger": "EMERGENCY: Never wait for symptoms; cooking never destroys amatoxins"
+  },
+  "Z16-P59": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z14,Z05,Z13",
+        "topic": "Acidification, Amatoxin, Backfeed",
+        "stop": "Refer to full zone card"
+      },
+      {
+        "zones": "Z12,Z05,Z08",
+        "topic": "Candled ice, Cicutoxin, Cleavage",
+        "stop": "Definitions != approval"
+      },
+      {
+        "zones": "Z10,Z06,Z04",
+        "topic": "CSM, CWD prion, Cyanotoxin",
+        "stop": "Preserve clinical bounds"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P60": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z11,Z05",
+        "topic": "Datum, Declination, Decurrent",
+        "stop": "Check current local values"
+      },
+      {
+        "zones": "Z08,Z09,Z10",
+        "topic": "Erratic, Exclusion, Exposure",
+        "stop": "Never assume local bedrock"
+      },
+      {
+        "zones": "Z05,Z03,Z10",
+        "topic": "Fascicle, Fatwood, Frostbite",
+        "stop": "Never rub frostbite w/ snow"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P61": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_1",
+    "rows": [
+      {
+        "zones": "Z07,Z05,Z04,Z10",
+        "topic": "Ghost gear, Gyromitrin, HAB, HAPE",
+        "stop": "HAPE -> descend + EMS"
+      },
+      {
+        "zones": "Z12,Z13,Z08",
+        "topic": "HELP, Interlock, Karst",
+        "stop": "Licensed switch only"
+      },
+      {
+        "zones": "Z09,Z05,Z06",
+        "topic": "Lashing, Lenticel, Lookalike",
+        "stop": "Zero unrated load claims"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P62": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z05,Z08,Z07",
+        "topic": "Manoomin, Mohs, Mycotoxin, Nongame",
+        "stop": "Respect tribal/ESA law"
+      },
+      {
+        "zones": "Z05,Z06",
+        "topic": "Ocrea, Orellanine, PFAS, Phenology",
+        "stop": "Check MDH waterbodies"
+      },
+      {
+        "zones": "Z05,Z11,Z14",
+        "topic": "Photodermatitis, PLB, Canner",
+        "stop": "Low-acid = pressure only"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P63": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z12,Z11,Z08",
+        "topic": "Quaking bog, Resection, Rip, Runout",
+        "stop": "Swim parallel; retire bad grain"
+      },
+      {
+        "zones": "Z15,Z08,Z12",
+        "topic": "SAME, Silica, Sneaker, Spalling",
+        "stop": "Wet/PPE dust; stay dry rock"
+      },
+      {
+        "zones": "Z05,Z09,Z04",
+        "topic": "Spore print, Spring pole, Supernatant",
+        "stop": "Decant != potable"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P64": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "Z05,Z06",
+        "topic": "Taxine, Thermocline, Trich, Tular",
+        "stop": "Taxus lethal; cook bear 165 F"
+      },
+      {
+        "zones": "Z05,Z08",
+        "topic": "Umbel, Urushiol, Volva, Voucher",
+        "stop": "Excavate base; reject umbels"
+      },
+      {
+        "zones": "Z14,Z02,Z06",
+        "topic": "Water-bath, Widowmaker, Zone-Fire",
+        "stop": "WITHHELD_HOLD stays active"
+      }
+    ],
+    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+  },
+  "Z16-P65": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "Z10,Z07",
+        "topic": "ACS, AED, AVPU, CSM, PEP",
+        "stop": "Follow 911 dispatcher"
+      },
+      {
+        "zones": "Z04,Z06,Z13,Z15",
+        "topic": "AQI, CO, HAB, HEPA, NSF, PFAS",
+        "stop": "Zero ozone air cleaners"
+      },
+      {
+        "zones": "Z05,Z08,Z14",
+        "topic": "MMWR, NAMA, NCHFP, PPE",
+        "stop": "Tested recipes & PPE only"
+      }
+    ],
+    "preserve": "Acronym reference only—verify exact thresholds in upstream cards"
+  },
+  "Z16-P66": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_1",
+    "rows": [
+      {
+        "zones": "Z11,Z12,Z13,Z15",
+        "topic": "NWS, FEMA, USCG, EPA",
+        "stop": "Live alerts govern action"
+      },
+      {
+        "zones": "Z05,Z06,Z07,Z08",
+        "topic": "MN DNR, MDH, MGS, USFWS, NPS",
+        "stop": "Recheck annual statutes"
+      },
+      {
+        "zones": "Z04,Z05,Z10,Z14",
+        "topic": "CDC, Bell, NCHFP, Poison",
+        "stop": "1-800-222-1222 24/7"
+      }
+    ],
+    "preserve": "253 live-verified primary sources tracked in foundations/evidence/sources.tsv"
+  },
+  "Z16-P67": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_2",
+    "rows": [
+      {
+        "zones": "Z06,Z14,Z15",
+        "topic": "40 F, 90 F, 145/160/165 F",
+        "stop": "Verify w/ probe therm"
+      },
+      {
+        "zones": "Z03,Z04,Z13,Z14",
+        "topic": ">=20 ft, 1k ft, 6.5k ft",
+        "stop": "Apply exact alt rules"
+      },
+      {
+        "zones": "Z02,Z08,Z09",
+        "topic": "Zero invented load numbers",
+        "stop": "Never extrapolate ratings"
+      }
+    ],
+    "preserve": "Never extrapolate unverified numbers beyond cited primary conditions"
+  },
+  "Z16-P68": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_3",
+    "rows": [
+      {
+        "zones": "Z01..Z08",
+        "topic": "Core, Flora, Harvest, Geo (450)",
+        "stop": "Z05 WITHHELD_HOLD"
+      },
+      {
+        "zones": "Z09..Z15",
+        "topic": "Tools, Med, Nav, Home (491)",
+        "stop": "13 labeled recons open"
+      },
+      {
+        "zones": "Z16 + Reader",
+        "topic": "Atlas (75) -> 1,016 total",
+        "stop": "Publication: HOLD"
+      }
+    ],
+    "preserve": "All 16 canonical zones & 1,016 pages match frozen master matrix 1:1"
+  },
+  "Z16-P69": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_4",
+    "rows": [
+      {
+        "zones": "A - C Index",
+        "topic": "AIS, Amanita, Bleed, Boil, Botul",
+        "stop": "Open full cited card"
+      },
+      {
+        "zones": "C - E Index",
+        "topic": "CO, CWD, Clay, Compass, CPR",
+        "stop": "Preserve all stop rules"
+      },
+      {
+        "zones": "E - G Index",
+        "topic": "Firearms, Fish, Flood, Galerina",
+        "stop": "Zero standalone shortcuts"
+      }
+    ],
+    "preserve": "Offline lookup index—always consult the full cited upstream page"
+  },
+  "Z16-P70": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_0",
+    "rows": [
+      {
+        "zones": "H - L Index",
+        "topic": "HAB, HAPE, Heat, Hemlock, Ice",
+        "stop": "Open full cited card"
+      },
+      {
+        "zones": "M - O Index",
+        "topic": "Maps, Moonseed, Morels, Outage",
+        "stop": "Preserve all stop rules"
+      },
+      {
+        "zones": "P Index",
+        "topic": "Parks, Peat, PLB, Poison, Pulley",
+        "stop": "Zero standalone shortcuts"
+      }
+    ],
+    "preserve": "Offline lookup index—always consult the full cited upstream page"
+  },
+  "Z16-P71": {
+    "type": "atlas_crossref_plate",
+    "variant": "atlas_matrix_1",
+    "rows": [
+      {
+        "zones": "Q - S Index",
+        "topic": "Quaking bog, Rabies, Rip, Silica",
+        "stop": "Open full cited card"
+      },
+      {
+        "zones": "T - V Index",
+        "topic": "Ticks, TIP, Tornado, Trich, Vouch",
+        "stop": "Preserve all stop rules"
+      },
+      {
+        "zones": "W - Z Index",
+        "topic": "Water, Wildfire, Wolves, Yew",
+        "stop": "Zero standalone shortcuts"
+      }
+    ],
+    "preserve": "Offline lookup index—always consult the full cited upstream page"
+  },
+  "Z16-P72": {
+    "type": "system_boundary",
+    "variant": "z16_b72",
+    "zone_a": "Frozen proofs & B011 leads",
+    "zone_b": "Z11-R01..10, Z13/14/15-R",
+    "barrier": "B014 P01-P10 stays open",
+    "hazard": "Strictly additive custody vs 890c66a; open recovery items stay explicit"
+  },
+  "Z16-P73": {
+    "type": "system_boundary",
+    "variant": "z16_b73",
+    "zone_a": "Documentary context JPEGs",
+    "zone_b": "A02 backlog + P16..P20 SVGs",
+    "barrier": "0 diagnostic photos yet",
+    "hazard": "Zero fabricated diagnostic photos; documentary vs diagnostic stay separa"
+  },
+  "Z16-P74": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "A01/A02 Open",
+        "scope": "116 unresolved claim i",
+        "action": "Zero unverified closures"
+      },
+      {
+        "role": "H01..H25 Holds",
+        "scope": "25 pending specialist ",
+        "action": "0 qualified approvals"
+      },
+      {
+        "role": "ASTRA-001..017",
+        "scope": "Consolidated A03 queue",
+        "action": "Publication stays HOLD"
+      }
+    ],
+    "trigger": "Automated validation never substitutes for qualified human specialist revi"
+  },
+  "Z16-P75": {
+    "type": "system_boundary",
+    "variant": "z16_b75",
+    "zone_a": "packages/zone-Z01..Z16.zip",
+    "zone_b": "PDF/UA, screen-reader, SME",
+    "barrier": "Verify SHA-256 & CRC",
+    "hazard": "1,016 draft pages complete · 0 human approvals · Publication: HOLD"
   }
 }
