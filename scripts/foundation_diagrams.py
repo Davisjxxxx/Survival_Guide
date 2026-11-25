@@ -133,6 +133,7 @@ _SPECS_CACHE = None
 
 
 SPEC_KEYS = {
+    'v01_artwork': set(),
     'cutaway': {'layers','callout','accent','variant'},
     'exploded': {'components','callout'},
     'cross_section': {'layers','callout'},
@@ -1177,11 +1178,17 @@ RENDERERS = {
 }
 
 
+def v01_source_path(card_id):
+    return ROOT / 'foundations/visual/VISUAL_PILOT_REVIEW_PACKAGE/revised' / f'{card_id}.svg'
+
+
 def render_diagram(card):
     stages = card['diagram'].split(' | ')
     card_id = card['id']
     specs = load_specs()
     spec = specs.get(card_id)
+    if spec and spec['type'] == 'v01_artwork':
+        return v01_source_path(card_id).read_text(encoding='utf-8')
     if card_id in CROSS_SECTIONS:
         artwork = CROSS_SECTIONS[card_id]
         header_tag = f'{card_id} · FIELD SCHEMATIC'

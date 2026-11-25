@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 116" role="img" aria-labelledby="title desc">
-  <title id="title">Pack by failure mode</title>
-  <desc id="desc">Anticipate failure | Match a kit function | Demonstrate it works</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="116" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z01-P05 · FIELD SCHEMATIC</text>
-    
-    <g id="stage-panels"><rect x="20" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="63" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Anticipate failure</text><path d="M236 69h13" stroke="#285345" stroke-width="2" marker-end="url(#arrow)"/><rect x="253" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="63" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Match a kit function</text><path d="M469 69h13" stroke="#285345" stroke-width="2" marker-end="url(#arrow)"/><rect x="486" y="38" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="63" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Demonstrate it works</text></g>
-  </g>
+<svg class="v01-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Separate immediate-use equipment from packed reserves</title><desc id="desc">Exploded schematic of a pack with detachable lighting, emergency signals and warm layers, without a load recommendation.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+<path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker></defs>
+<style>.v01-svg text{font-family:system-ui,sans-serif;font-size:24px;font-weight:650;fill:#183a30}
+.v01-svg .heading{font-size:21px;letter-spacing:1px;font-weight:750}.v01-svg .guard{font-size:23px;fill:#6d301f}
+.v01-svg .leader{fill:none;stroke:#365c50;stroke-width:3}.v01-svg .flow{fill:none;stroke:#205b68;stroke-width:5;marker-end:url(#arrow)}
+.v01-svg .dashed{fill:none;stroke:#365c50;stroke-width:3;stroke-dasharray:12 9}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="37">Z01-P05 · V01 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v01-artwork"><path d="M350 118Q365 87 447 87Q532 87 545 118L569 273Q551 305 448 309Q346 304 327 273Z" fill="#c9d9c9" stroke="#244f42" stroke-width="7"/><path d="M376 106Q452 75 515 108M338 246Q446 269 557 246" fill="none" stroke="#244f42" stroke-width="6"/><rect x="56" y="99" width="131" height="63" rx="12" fill="#e4c987" stroke="#244f42" stroke-width="3"/><path class="flow" d="M187 131L315 173"/><text x="31" y="197">Light and signal</text><rect x="57" y="247" width="134" height="44" rx="12" fill="#bed7e2" stroke="#244f42" stroke-width="3"/><path class="flow" d="M191 270L317 257"/><text x="30" y="325">Trip essentials</text><rect x="690" y="154" width="128" height="84" rx="12" fill="#e0c2a9" stroke="#244f42" stroke-width="3"/><path class="flow" d="M690 196L582 212"/><text x="630" y="284">Insulation and</text><text x="630" y="324">weather protection</text></g>
+<rect x="23" y="342" width="854" height="38" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Practice retrieving critical equipment without emptying the pack.</text>
 </svg>

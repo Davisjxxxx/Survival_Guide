@@ -68,18 +68,18 @@ verify: Protected nongame status and den/habitat non-disturbance rules are honor
 stop: Stop approaching burrows, dens, or nesting areas whenever wildlife alarm or defensive cues appear. @L04,L05
 reviewer: Conservation biologist and nongame specialist
 
-Z07-P06 | National Park, State Park and SNA Trapping Prohibitions | New manuscript (Z07 P18 environmental restrictions)
+Z07-P06 | Check National Park, Minnesota State Park and SNA Wildlife Rules | New manuscript (Z07 P18 environmental restrictions)
 objective: Distinguish public-land categories where trapping is strictly prohibited from multiple-use lands where regulated seasonal trapping may occur.
 applies: Navigating overlapping federal, state, county, and municipal land boundaries in Minnesota.
 equipment: Current land-ownership map (NPS, MN DNR State Parks, SNAs, WMAs, National/State Forests).
-diagram: Check exact public-land designation | Expect zero trapping in parks/SNAs | Stay alert on open WMAs/forests
+diagram: Identify the exact land manager | Check rules for the activity and date | Keep away if the boundary is unclear
 visual: Conceptual comparison of trapping status across National Parks/SNAs (prohibited), State Parks (generally prohibited), and open WMAs/Forests (regulated seasonal).
-action: Verify exact land-management status before travel: National Park System lands (36 CFR 2.1), Minnesota Scientific and Natural Areas (SNAs), and Minnesota State Parks generally prohibit trapping and wildlife disturbance. @L07,L08
-action: Recognize that State Forests, National Forests, Wildlife Management Areas (WMAs), and county tax-forfeited lands may allow lawful regulated trapping during open autumn and winter seasons. @L01,L07
+action: Check the exact land manager and the current unit instructions. National Park System wildlife protection is addressed in 36 CFR 2.2. Minnesota SNAs have site-specific hunting and trapping rules. @L07,L08
+action: Use the governing source for the exact unit, date and activity. A neighboring public-land category cannot establish permission. @L01,L07,L08
 action: Check posted trailhead kiosks and agency maps at every boundary crossing because park and forest borders often sit immediately adjacent. @L07,L08
 failure: Crossing from a state park into an adjacent WMA or state forest with an off-leash dog during autumn furbearer season exposes pets to lawful regulated sets. @L07,L10
 verify: Land-use category and seasonal trapping status are confirmed before entering or unleashing pets on public lands. @L07,L08,L10
-stop: Stop and leash pets immediately whenever leaving a park boundary onto multi-use forest or WMA land during open trapping seasons. @L07,L10
+stop: If the area boundary or rules are uncertain, keep people and pets on the designated route and obtain current agency guidance. @L07,L08,L10
 reviewer: Public-lands manager
 
 Z07-P07 | Furbearer Ecology and Riparian Travel Corridors | New manuscript (Z07 P18 wildlife ecology)
@@ -194,18 +194,18 @@ verify: Dog stays on a short fixed leash on clear trail tread, away from shoreli
 stop: Stop and immediately pull dogs back onto clear ground whenever strong carcass, fish, or musk lure odors are noticed. @L10,L12
 reviewer: Veterinary and outdoor pet-safety reviewer
 
-Z07-P15 | Recognizing Shoreline, Culvert, Bait-Pile and Cubby Hazard Cues | New manuscript (Z07 P18 hazard recognition)
+Z07-P15 | Avoid Suspected Wildlife Equipment and Disturbed Areas | New manuscript (Z07 P18 hazard recognition)
 objective: Spot subtle visual and olfactory field cues indicating active regulated sets or hazardous wildlife attractants so you can steer clear early.
 applies: Walking multi-use shorelines, ditches, marshes, and woodland trails in autumn and winter.
 equipment: Visual awareness and short pet leash.
-diagram: Watch for flagged stakes and cubbies | Detect strong fish or musk lure | Route wide without touching
-visual: Conceptual four-cue visual recognition grid highlighting colored survey flags, stick cubbies, disturbed dirt mounds, and strong scent cues.
-action: Scan multi-use trail margins, stream banks, and culvert openings for visual cues such as colored flagging tape, neat stick-or-box cubbies, wired stakes, freshly turned dirt patches, or narrow fenced-off trail funnels. @L10,L12
-action: Treat sudden strong odors of skunk essence, fish oil, anise, or decaying meat along a bank or ditch as an immediate cue to keep children and leashed pets far away. @L10,L12
-action: Give suspected set locations a wide silent detour without approaching closer to inspect or photograph close-up. @L09,L10,L12
+diagram: Notice an uncertain object or obstruction | Keep people and pets clear | Leave safely and notify staff
+visual: Avoidance decision for unidentified equipment or a blocked route. No device layout or trigger is shown.
+action: Keep away from unidentified wildlife equipment or an area cordoned off by staff. Keep children on the designated route. @L09,L10
+action: If you notice debris, carcasses or suspect equipment, prevent contact by pets and people. Appearance and odor cannot establish what is present. @L09,L10
+action: Leave the area by the safest open route. If you can describe the location from a safe distance, report it to the land manager. @L09
 failure: Walking up to a neat wooden box or flagged stake in a culvert to see what is inside exposes people and pets to concealed spring jaws. @L09,L10,L12
 verify: Hazard cues trigger immediate wide rerouting while keeping hands, boots, and pets well clear. @L10,L12
-stop: Stop advancing into any narrow brush funnel, culvert mouth, or strong-smelling bait patch on multi-use land. @L10,L12
+stop: If you cannot pass without approaching a possible hazard, turn around. @L09,L10
 reviewer: Outdoor safety and wildlife-education reviewer
 
 Z07-P16 | Preventing Unintended Capture of Raptors and Protected Birds | New manuscript (Z07 P18 unintended capture)
@@ -282,10 +282,10 @@ Z07-P21 | Safe Response to an Accidentally Trapped Wild Animal | New manuscript 
 objective: Protect both human rescuers and distressed wildlife by contacting Conservation Officers or licensed rehabilitators instead of attempting barehanded release.
 applies: Discovering a live trapped, entangled, or injured wild animal in the field.
 equipment: Phone/GPS for authority call; keep pets and group far back.
-diagram: Keep quiet wide perimeter | Never attempt barehanded release | Call MN DNR or licensed rehabber
+diagram: Keep away from the animal and device | Keep people and pets clear | Call the authorized responder
 visual: Conceptual spatial exclusion map keeping observers quiet and distant while calling MN DNR Conservation Officers or licensed wildlife rehabilitators.
 action: Stop immediately, leash pets tightly, and back away quietly because human proximity spikes panic, exhaustion, and self-injury in a restrained wild animal. @L06
-action: Never attempt barehanded release of any wild mammal or bird—even small raccoons, foxes, badgers, beavers, owls, or hawks inflict severe bites, talon wounds, and potential rabies exposure. @L06,L14,M17
+action: Do not approach, handle the animal, or manipulate any device. Keep pets and other people away while an authorized responder gives instructions. @L06,L09
 action: Record exact GPS coordinates, species description if safely visible from afar, and visible injury status, then call Minnesota DNR Conservation Officers or a DNR-licensed wildlife rehabilitator. @L06
 failure: Rushing in to pry open hardware on a panicked wild carnivore or raptor causes severe lacerations, rabies post-exposure treatment, and worse animal injury. @L06,M17
 verify: Wide quiet perimeter is maintained, zero barehanded contact occurs, and wildlife authorities receive exact GPS coordinates. @L06

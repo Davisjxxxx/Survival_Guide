@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Understand the force on a fixed pulley redirect</title>
-  <desc id="desc">STATIC FORCE SCHEMATIC: Two rope pulls act on the pulley | Resultant depends on angle | No working-load rating — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z09-P44 · STATIC FORCE SCHEMATIC (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="force-redirect-artwork" stroke-linecap="round"><path d="M40 150h640" stroke="#92a595"/><circle cx="185" cy="56" r="20" fill="#dce8df" stroke="#285345" stroke-width="2"/><circle cx="520" cy="56" r="20" fill="#dce8df" stroke="#285345" stroke-width="2"/><g stroke="#285345" stroke-width="3" marker-end="url(#arrow)"><path d="M169 62v56"/><path d="M201 62v56"/><path d="M520 62v56"/><path d="M526 56h58"/></g><g stroke="#963c24" stroke-width="3" stroke-dasharray="5 4" marker-end="url(#arrow)"><path d="M185 58v72"/><path d="M521 58l50 50"/></g><text x="156" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">T</text><text x="215" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">T</text><text x="185" y="144" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">2T</text><text x="506" y="104" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">T</text><text x="579" y="43" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">T</text><text x="591" y="115" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">√2 T</text><text x="100" y="145" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Parallel pulls</text><text x="488" y="145" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Right-angle pulls</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Two rope pulls act on</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">the pulley</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Resultant depends on</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">angle</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">No working-load rating</text></g>
-  </g>
+<svg class="v01-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Pulley redirect: compare static resultant forces</title><desc id="desc">Comparison of two ideal fixed pulley diagrams with equal tension in two strands. Parallel downward pulls result in two T downward. Perpendicular pulls result in square root of two T along the bisector.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+<path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker></defs>
+<style>.v01-svg text{font-family:system-ui,sans-serif;font-size:24px;font-weight:650;fill:#183a30}
+.v01-svg .heading{font-size:21px;letter-spacing:1px;font-weight:750}.v01-svg .guard{font-size:23px;fill:#6d301f}
+.v01-svg .leader{fill:none;stroke:#365c50;stroke-width:3}.v01-svg .flow{fill:none;stroke:#205b68;stroke-width:5;marker-end:url(#arrow)}
+.v01-svg .dashed{fill:none;stroke:#365c50;stroke-width:3;stroke-dasharray:12 9}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="37">Z09-P44 · V01 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v01-artwork"><circle cx="220" cy="126" r="41" fill="#c7d6c8" stroke="#244f42" stroke-width="5"/><circle cx="620" cy="126" r="41" fill="#c7d6c8" stroke="#244f42" stroke-width="5"/><path class="flow" d="M180 135v113 M260 135v113"/><path class="flow" d="M220 181v105"/><path class="flow" d="M620 166v91"/><path class="flow" d="M651 126h112"/><path class="flow" d="M651 163l76 77"/><text x="129" y="224">T</text><text x="276" y="224">T</text><text x="229" y="284">2T</text><text x="579" y="252">T</text><text x="777" y="135">T</text><text x="720" y="276">√2 T</text><text x="69" y="319">Parallel strands</text><text x="549" y="319">Right-angle strands</text></g>
+<rect x="23" y="342" width="854" height="38" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Equal tensions in a static idealization. This is not a working-load rating.</text>
 </svg>

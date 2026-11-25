@@ -71,15 +71,15 @@ reviewer: Public-lands resource manager and legal reviewer
 Z08-P06 | Respirable Crystalline Silica and Fibrous Mineral Stop Rules | New manuscript (Z08 P16 dust and toxicity)
 objective: Prevent irreversible lung injury from crystalline silica dust and naturally occurring asbestiform mineral fibers during material observation or instruction.
 applies: Any encounter with quartz-bearing stone, sandstone, iron-formation rock, or fibrous mineral veins.
-equipment: Eye protection, NIOSH-approved respirator where authorized dust work exists, wash water.
-diagram: Recognize silica and fibrous veins | Avoid dry breaking or grinding | Isolate dust and wash hands
-visual: Conceptual airborne dust plume and PPE exclusion boundary separating intact rock observation from hazardous dry abrasion.
+equipment: Camera or notebook for non-contact observation. A specialist selects controls and protective equipment for authorized work.
+diagram: Identify a potential dust hazard | Choose non-disturbing observation | Leave suspect fibrous material intact
+visual: Decision diagram separating low-disturbance observation from work requiring exposure assessment.
 action: Avoid dry grinding, crushing, sanding, or hammering quartz, chert, sandstone, or granite because fracturing silica generates hazardous respirable crystalline silica dust. @R06
 action: Leave fibrous, silky, splintery, or matted mineral veins completely undisturbed because field sight cannot separate harmless fibers from regulated asbestos. @R07
-action: Treat outdoor wind as unreliable dust control, keep bystanders upwind and clear, and wash hands and clothing after dusty geological fieldwork. @R06,R07,R14
+action: Step away from dust-producing work. Visibility and wind cannot establish exposure control. Use a non-disturbing observation route. @R06,R07
 failure: Working stone dry without respiratory protection or disturbing fibrous iron-formation veins exposes lungs to cumulative fibrotic and carcinogenic hazards. @R06,R07
 verify: No dry stone abrasion occurs in field exercises and all fibrous mineral outcrops remain untouched and noted as hazard exclusions. @R06,R07
-stop: Stop all mechanical stone work immediately whenever visible dust rises, fibrous mineral textures appear, or certified eye and dust protection is absent. @R06,R07
+stop: Stop any unassessed work that may generate dust. Do not disturb suspected fibrous material. @R06,R07
 reviewer: Industrial hygienist and mineralogist
 
 Z08-P07 | Precambrian Canadian Shield Outcrops in Northern Minnesota | New manuscript (Z08 P16 regional formations)
@@ -213,7 +213,7 @@ objective: Use breakage geometry to separate minerals that split along atomic cr
 applies: Field mineral diagnostics on naturally broken edges.
 equipment: 10x hand lens, bright daylight, notebook.
 diagram: Tilt specimen in daylight | Spot flat step-like cleavage | Contrast with curved shell ripples
-visual: Conceptual geometry plate contrasting 90-degree feldspar cleavage steps, mica sheets, and curved chert fracture.
+visual: Compare repeated planar breaks with a curved fracture surface. These concept sketches show geometry, not a specific mineral determination.
 action: Rotate a clean natural face in sunlight to catch flat, parallel, mirror-like reflections indicating true atomic cleavage planes. @R04
 action: Count cleavage directions and rough angles—such as one basal sheet in mica, two near-90-degree planes in feldspar, or rhombs in calcite—before consulting a key. @R04
 action: Confirm curved shell-like ripples without repeating flat steps as conchoidal fracture typical of quartz, chert, and natural glass. @R04,R05
@@ -296,10 +296,10 @@ Z08-P22 | Thermal Shock and Wet-Rock Spalling Hazards | New manuscript (Z08 P16 
 objective: Prevent explosive rock shattering caused by trapped internal moisture and rapid temperature gradients near campfires or heated stones.
 applies: Campfire surrounds, improvised hearths, and any environment with river, shoreline, or porous stones.
 equipment: Dry mineral-soil clearing, approved camp stove or lawful hearth.
-diagram: Reject shoreline and porous rock | Expect hidden internal moisture | Keep unverified stone out of fires
+diagram: Recognize different heat failures | Keep unknown stone out of fires | Stay clear of damaged stone
 visual: Conceptual cutaway showing trapped steam pressure inside porous river stone expanding violently under heat.
-action: Reject all river, lake-shore, wetland, layered sedimentary, and vesicular volcanic stones from any fire ring or heat source because trapped pore water flashes to steam. @R13,R16
-action: Recognize that dry-looking exterior rock surfaces frequently hide damp interior micro-fractures capable of hurling sharp fragments at eye level. @R13
+action: Do not select unknown rocks for direct fire or heat service. Moisture, pre-existing flaws and thermal stress can contribute to failure, and a dry surface does not clear a rock. @R13,ED
+action: Keep people clear of cracking, popping or shifting heated material. The appearance of a stone cannot identify all failure modes. @R13,ED
 action: Use a cleared mineral-soil fire pad where lawful or an approved camp stove rather than relying on stacked wild stones to contain fire or heat water. @R13,C01
 failure: Lining a fire with creek cobbles or dropping unverified hot rocks into vessels causes explosive spalling, severe eye trauma, and scalds. @R13
 verify: No creek, shoreline, shale, or porous rock is placed near flames or coals, and lawful fire boundaries rely on mineral soil clearance. @R13,C01
@@ -382,8 +382,8 @@ applies: Evaluating improvised pottery claims versus safe field water-boiling an
 equipment: Tested stainless-steel or anodized metal vessel for real boiling.
 diagram: Note shrinkage and steam-burst failure | Separate texture from chemical safety | Use tested metal cookware
 visual: Conceptual failure analysis showing steam pockets and unverified mineral impurities cracking raw wild clay over heat.
-action: Recognize that unverified wild clay contains variable silt, organic bits, and trapped moisture that crack or burst during rapid open-fire heating. @R13,R17
-action: Reject wild clay vessels for drinking water or food preparation because unknown clay can leach heavy metals and porous walls harbor bacteria. @R12,R17
+action: Treat unidentified clay and vessels made from it as unqualified for open-fire use. Observed texture, drying and color do not establish heat performance. @R17,ED
+action: Keep untested or decorative pottery out of food and drinking-water service. A finished surface or an assurance about the clay alone does not establish food-contact safety. @R21,R17
 action: Rely on tested, food-grade metal vessels for boiling water and cooking rather than depending on unverified improvised pottery. @R12,R17,W11
 failure: Attempting to boil emergency water in untested field clay wastes scarce fuel and risks scalding bursts or heavy-metal leaching. @R12,R13,R17
 verify: Wild clay is treated strictly as a geological/educational subject while water boiling uses verified heat-safe vessels. @R12,W11
@@ -688,14 +688,14 @@ Z08-P50 | Thermal Embrittlement and Cracking of Heated Stone | New manuscript (Z
 objective: Explain how repeated heating cycles fracture even dry-looking rocks into sharp unstable fragments.
 applies: Fire-ring inspection and camp safety around previously burned stone.
 equipment: Visual inspection after coals are cold out.
-diagram: Recognize heat-crazed rock fractures | Avoid reusing cracked hearth stones | Clear mineral soil instead
+diagram: Treat unknown prior heating as unqualified | Recognize visible damage | Keep people away from unstable material
 visual: Conceptual cutaway showing differential thermal expansion opening jagged internal micro-cracks across heated stone.
-action: Recognize that different minerals inside granite, gneiss, and sedimentary stone expand at different rates when heated, generating internal tensile fractures. @R03,R13
+action: Treat previously heated rock as unqualified for reuse when its condition and prior temperature are unknown. Surface cracks and changes warrant avoidance. @R13,ED
 action: Avoid stacking or stepping on heat-reddened, blackened, or craze-cracked rocks from old fire rings because they crumble sharply under weight or reheating. @R13
 action: Follow Leave No Trace and agency fire-ring rules rather than pulling fresh rocks from shorelines or banks to build new stone rings. @R08,R09,R13
 failure: Reheating cracked fire-ring rocks or building new rings from shoreline cobbles causes flying hot splinters and shoreline damage. @R09,R13
 verify: Only authorized existing agency fire grates/rings or approved stoves are used; cracked stones are left undisturbed. @R08,R13
-stop: Stop using cracked or river-sourced hearth stones and switch to an approved camp stove. @R13,C01
+stop: Keep people away from damaged or unstable hearth material and follow current fire-site rules. @R13,C13
 reviewer: Geologist and fire safety reviewer
 
 Z08-P51 | Sharp Flake and Edge-Failure Hazards in Siliceous Stone | New manuscript (Z08 P16 failure recognition)
@@ -797,41 +797,41 @@ stop: Stop and leave immediately if no-trespassing signs, active machinery, vert
 reviewer: Public-lands legal and quarry safety reviewer
 
 Z08-P58 | Crystalline Silica Dust Controls in Authorized Stone Work | New manuscript (Z08 P16 dust hazards)
-objective: Enforce engineering, wet-suppression, and PPE barriers against respirable crystalline silica during any authorized geological or lapidary instruction.
+objective: Distinguish non-disturbing observation from authorized work needing assessed silica controls.
 applies: Supervised authorized geology labs, rock saws, or historical-craft demonstrations.
-equipment: Wet-cutting water feed, ANSI Z87.1 eye protection, NIOSH N95/P100 particulate respirator where indicated.
-diagram: Eliminate dry stone grinding | Apply wet suppression and ventilation | Wear eye and respiratory protection
-visual: Conceptual engineering control ladder prioritizing elimination and wet dust suppression ahead of respiratory PPE.
-action: Treat quartz, chert, flint, sandstone, quartzite, and granite as high-silica materials whose fine fractured dust causes irreversible silicosis and lung cancer. @R06
-action: Replace dry hammering or dry grinding with wet suppression or non-abrasive observation in authorized workshops, keeping bystanders upwind and outside the dust zone. @R06
-action: Wear ANSI Z87.1 eye protection and properly fitted NIOSH particulate respiratory protection whenever authorized instruction risks generating airborne mineral dust. @R06
+equipment: For observation, a camera or notebook. Use only equipment and protective measures specified by the authorized work assessment.
+diagram: Identify possible dust | Stop unassessed work | Use qualified controls
+visual: Decision diagram showing when to stop and require an exposure assessment. Absence of visible dust is insufficient.
+action: Cutting, grinding and fracturing silica-bearing stone can generate hazardous respirable dust, including particles too small to see. @R06
+action: Use non-disturbing observation in the field. Any authorized dust-producing work requires a task-specific exposure assessment and appropriate engineering controls. @R06
+action: Have a qualified instructor or exposure specialist select the controls and any required protective equipment for that task. A breeze, casual wetting or a respirator by itself does not establish use conditions. @R06
 failure: Relying on an open backyard breeze or a loose cloth bandana fails to block invisible respirable silica particles. @R06
-verify: Zero dry stone grinding occurs, dust is suppressed wet or avoided entirely, and eye/respiratory protection matches the exposure. @R06
-stop: Stop any mechanical stone operation immediately if water feed fails, visible dust clouds rise, or fitted PPE is unavailable. @R06
+verify: Confirm non-disturbing observation or a task-specific assessment and controls before work. @R06
+stop: Stop if controls are absent, fail, or were never assessed for the work. Visible dust is a warning cue but its absence is insufficient. @R06
 reviewer: Certified industrial hygienist
 
 Z08-P59 | Naturally Occurring Asbestos and Elongated Mineral Fibers | New manuscript (Z08 P16 toxicity hazards)
 objective: Recognize potential asbestiform mineral habitats and enforce strict non-disturbance rules in iron-formation and ultramafic rock zones.
 applies: Northern Minnesota iron formations, serpentinite, greenstone belts, and fibrous mineral veins.
 equipment: Non-contact camera and map only.
-diagram: Spot fibrous silky or matted veins | Never break, collect, or brush fibers | Leave and report hazardous dust
+diagram: Do not disturb suspect material | Leave without spreading dust | Seek local environmental-health guidance
 visual: Conceptual hazard zone isolating fibrous mineral outcrops from physical contact, hammering, or dust disturbance.
-action: Recognize that naturally occurring asbestos and elongated mineral fibers occur in certain metamorphic, ultramafic, and northern iron-formation bedrock units. @R07,R20
+action: Naturally occurring fibrous minerals can differ in composition. Site geology and specialized sampling are needed to determine whether an asbestos hazard exists. @R07
 action: Leave any rock showing silky, woolly, needle-like, or matted fibrous veins completely untouched because visual inspection cannot verify whether fibers are regulated asbestos. @R07
-action: Avoid kicking up dry dust on unimproved trails or mine waste piles in fibrous-mineral districts, and wash dusty boots and gear outdoors with water. @R07,R14
+action: Avoid disturbing the material or transporting dust away. Seek local environmental-health guidance for suspected exposure or contaminated gear. @R07
 failure: Collecting pretty fibrous green or white mineral veins or hammering iron-formation waste rock releases persistent carcinogenic fibers into lungs and home clothing. @R07
 verify: Suspect fibrous outcrops remain completely undisturbed and documented only from a safe non-contact distance. @R07,R19
-stop: Stop immediately and move upwind if fibrous mineral veins or dusty mine-waste exposures are encountered. @R07
+stop: Step away from suspect material without disturbing it. Do not collect a sample for home identification. @R07
 reviewer: Industrial hygienist and mineralogist
 
 Z08-P60 | Heavy-Metal Dust Hygiene and Post-Field Decontamination | New manuscript (Z08 P16 toxicity hygiene)
 objective: Prevent secondary ingestion or household transfer of lead, arsenic, silica, and soil contaminants after geological fieldwork.
 applies: End-of-day cleanup after soil, clay, gravel, or mineral observation trips.
 equipment: Soap, clean water, dedicated specimen bags (only where lawful), separate laundry bag.
-diagram: Wash hands before eating or drinking | Bag dusty boots and gear outside | Keep wild minerals away from kitchens
+diagram: Segregate specimens from food | Isolate potentially contaminated gear | Ask the local authority for cleanup guidance
 visual: Conceptual four-step decontamination sequence moving from field handwash to outdoor gear rinse and separate home storage.
 action: Wash hands and forearms thoroughly with soap and clean water after handling rocks, soil, clay, or wood ash—always before eating, drinking, or touching your face. @R12,R14
-action: Keep field boots, rock hammers, and dusty packs out of living and kitchen areas, rinsing mud outdoors away from drinking-water wells. @R06,R12,R14
+action: Keep potentially contaminated gear out of kitchens and living spaces. Where a mine, tailings or industrial site may be involved, ask the local environmental authority how to manage contaminated gear. @R12,R14
 action: Store any lawfully collected educational geological specimens labeled in sealed containers away from food surfaces and young children. @R14,R19
 failure: Eating trail snacks with mineral-dusted hands or washing dusty fieldwork clothes with family linens transfers lead, arsenic, and silica indoors. @R06,R12,R14
 verify: Hands are washed before food contact, dusty gear stays segregated from kitchens, and labeled specimens remain out of child reach. @R12,R14

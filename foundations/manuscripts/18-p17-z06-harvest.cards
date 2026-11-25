@@ -226,10 +226,10 @@ Z06-P17 | PFAS and PCB Fish Advisories in Metro and Industrial Waters | New manu
 objective: Account for persistent industrial chemicals (PFAS and PCBs) that trigger strict meal limits or Do Not Eat advisories on specific waters.
 applies: Twin Cities metro lakes, Mississippi River pools, Lake Superior, and waters near historic industrial or firefighting-foam sites.
 equipment: Current MDH waterbody advisory table.
-diagram: Check waterbody PFAS and PCB flags | Honor Do Not Eat lake postings | Never assume cooking destroys PFAS
+diagram: Find the exact waterbody | Read the current people and species limits | Follow the relevant advisory
 visual: Conceptual system boundary contrasting watershed industrial/PFAS runoff against safe-meal advisory screening.
 action: Consult MDH waterbody-specific notices for PFAS (per- and polyfluoroalkyl substances) and PCBs, which can drive far stricter limits than statewide mercury charts—including Do Not Eat notices. @H04
-action: Recognize that PFAS distribute in blood and lean tissue as well as organs and cannot be removed by trimming fat, washing, or cooking. @H04,H05
+action: Do not use cleaning or cooking to override a contaminant advisory. Follow the exact MDH waterbody, species and population recommendation. @H04,H05
 action: Respect posted shoreline advisory signs and avoid harvesting fish near industrial outfalls, stormwater retention ponds, or active spill zones. @H04
 failure: Applying statewide mercury meal counts to a PFAS-restricted metro lake or retention pond exposes eaters to high persistent chemical doses. @H04
 verify: Current MDH waterbody lookup confirms absence of Do Not Eat, PFAS, or PCB overrides before keeping fish for food. @H04
@@ -254,10 +254,10 @@ Z06-P19 | Fish Consumption Limits for Pregnant People and Children Under 15 | Ne
 objective: Enforce MDH stricter fish-consumption tiers for pregnant people, people who may become pregnant, nursing parents, and children under 15.
 applies: Household meal planning with wild-caught freshwater fish.
 equipment: MDH sensitive-population advisory chart.
-diagram: Identify sensitive household members | Apply stricter MDH meal caps | Exclude high-mercury predators
+diagram: Check the advisory group | Confirm fish size and species | Use waterbody-specific advice
 visual: Conceptual comparison of MDH general-population versus sensitive-population fish consumption tiers.
-action: Apply MDH stricter sensitive-population meal allowances to anyone pregnant, planning pregnancy, nursing, or under age 15 because developing nervous systems are highly vulnerable to mercury and PCBs. @H04
-action: Exclude large predatory fish and advisory-flagged species from meals served to young children and pregnant family members, substituting verified low-mercury choices within MDH guidance. @H04
+action: Use the sensitivity category described in the current MDH advisory. Check pregnancy, possible pregnancy, nursing and child age against that specific instruction. @H04
+action: Use the current species, measured size and waterbody guidance to select fish. A broad label such as predatory fish does not replace the chart. @H04
 action: Check both wild-caught local advisories and commercial fish limits together so combined weekly mercury intake does not accumulate. @H04
 failure: Serving general-adult predator fish portions to toddlers or pregnant people exceeds developmental neurotoxicity thresholds. @H04
 verify: Household meal plans verify sensitive-group MDH limits separately from general-adult allowances. @H04
@@ -534,11 +534,11 @@ Z06-P39 | Chronic Wasting Disease (CWD) Surveillance and Prion Precautions | New
 objective: Follow Minnesota DNR CWD testing, carcass-movement laws, and CDC prion hygiene whenever harvesting deer in or near CWD areas.
 applies: Minnesota CWD management, control, and surveillance permit areas.
 equipment: Current MN DNR CWD zone map, nitrile gloves, dedicated boning knife, DNR sampling drop-off info.
-diagram: Check CWD zone & carcass bans | Bone out without cutting spine/brain | Test before eating any meat
+diagram: Keep the lot separate | Follow the applicable testing and movement rules | Do not eat a positive animal
 visual: Conceptual regulatory and hygiene gate combining MN DNR CWD carcass transport rules with CDC prion avoidance.
 action: Check current Minnesota DNR CWD permit-area maps before hunting because mandatory sampling, whole-carcass movement bans, and approved dumpster disposal rules carry legal penalties. @H08
 action: Follow CDC precautions: wear gloves, bone out meat without sawing through skull, brain, or spinal cord, avoid eyes/spleen/lymph nodes, and never eat meat from an animal that tests positive or looks sick. @H08,H09
-action: Hold all venison from CWD-affected areas separately labeled in cold storage until negative laboratory CWD test results return, recognizing that cooking does NOT destroy prions. @H08,H09
+action: Follow the applicable DNR testing and movement rules. Keep the lot separate while awaiting relevant results and do not consume meat from a positive animal. A negative test does not clear unrelated hazards. @H08,H09
 failure: Sawing through the spine, moving whole carcasses out of a CWD restriction zone, or assuming cooking kills prions spreads CWD and risks exposure. @H08,H09
 verify: CWD zone rules, clean boning away from CNS tissue, sampling submission, and negative test verification precede consumption. @H08,H09
 stop: Stop and do not consume or share venison from any visibly emaciated/abnormal deer or any animal testing CWD-positive. @H08,H09
@@ -548,11 +548,11 @@ Z06-P40 | Trichinellosis Prevention in Wild Bear and Omnivorous Game | New manus
 objective: Prevent severe parasitic trichinellosis by cooking wild bear and omnivore game meat to verified safe internal temperatures.
 applies: Preparing legally harvested black bear, wild boar, or other omnivorous/carnivorous game.
 equipment: Calibrated digital meat thermometer, dedicated clean cutting board.
-diagram: Reject freezing as bear parasite kill | Verify >= 165 F with thermometer | Clean knives and grinders thoroughly
+diagram: Recall that wild-game parasites can survive freezing | Verify internal temperature with a thermometer | Separate raw meat
 visual: Conceptual correct-versus-incorrect cooking plate contrasting thermometer-verified thorough cooking against unreliable freezing or color checks.
-action: Understand that wild bear and other omnivorous game frequently harbor freeze-resistant Trichinella larvae that survive home deep-freezing, curing, smoking, and salting. @H10
-action: Cook all wild bear and omnivore game meat thoroughly to a minimum safe internal temperature of at least 165 F (74 C) verified in the thickest parts with a calibrated food thermometer—never judge doneness by color alone. @H10,F02
-action: Sanitize meat grinders, cutting boards, and utensils thoroughly with hot soapy water and sanitizer after processing wild bear meat so raw residues do not contaminate other foods. @H10,F02
+action: Wild game can carry Trichinella that survive freezing. Processing methods such as curing, drying or smoking alone are unreliable. @H10
+action: Use the CDC outbreak report’s public-health guidance for wild game in this context and verify at least 165°F (74°C) with a food thermometer. Color does not establish doneness. @H10
+action: Keep raw meat and juices separate from other foods. Wash and sanitize food-contact equipment according to current food-safety guidance. @H10,F01
 failure: Relying on deep-freezing bear meat, making raw-cured jerky/sausage, or eating pink center cuts causes severe systemic trichinellosis. @H10
 verify: Calibrated thermometer confirms safe internal cooking temperature throughout every cut and grinder/surfaces are sanitized. @H10,F02
 stop: Stop and seek medical care promptly if nausea, diarrhea, fever, facial swelling, or muscle pain follow eating wild game. @H10
@@ -620,7 +620,7 @@ applies: Northern Minnesota forests, trails, and rural edges within wolf range.
 equipment: Short sturdy dog leash, flashlight/noise maker, DNR contact info.
 diagram: Keep dogs leashed near wolf sign | Stand tall and assert presence | Respect strict legal protection
 visual: Conceptual boundary plate pairing gray wolf legal protection status with pet-leashing prevention and calm hazing guidance.
-action: Respect that gray wolves in Minnesota carry strict federal and state legal protections; never feed, bait, approach, or unlawfully harass wolves. @H13,L03
+action: Consult current state and federal wolf protection rules for the location before any interaction. Maintain distance and do not feed or approach wolves. @H13
 action: Keep dogs on short leashes on trails and under close visual supervision near active wolf sign or hunting/baiting areas because domestic dogs can trigger territorial wolf aggression. @H13
 action: If a wolf approaches closely and does not retreat, stand tall, wave arms, shout firmly, keep pets close, back slowly toward shelter, and report bold or food-conditioned wolves to MN DNR. @H13,H15
 failure: Letting dogs roam off-leash near fresh wolf tracks or feeding wildlife creates dangerous conflict and potential illegal-take incidents. @H13,L03

@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Operate a pressure canner cleanly: 10-minute steam vent and target PSI</title>
-  <desc id="desc">PRESSURE CANNER VENT PATH: Ten minutes of continuous steam venting | Recipe-specific gauge and elevation values | Maintain the target for the specified time — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z14-P54 · PRESSURE CANNER VENT PATH (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="canner-vent-artwork"><path d="M45 72H350V116Q350 142 325 142H70Q45 142 45 116Z" fill="#f5f5ea" stroke="#315245" stroke-width="3"/><path d="M49 126Q103 121 158 126T268 126T346 126V131L335 140H58L49 132Z" fill="#bddce3"/><path d="M64 128H331" stroke="#315245" stroke-width="2"/><path d="M95 126V101Q95 96 101 96H128Q134 96 134 101V126 M167 126V101Q167 96 173 96H200Q206 96 206 101V126 M239 126V101Q239 96 245 96H272Q278 96 278 101V126" fill="#e1eee3" stroke="#315245" stroke-width="2"/><path d="M86 72Q103 57 167 57H214Q280 57 307 72M189 57V48H202V57" fill="none" stroke="#315245" stroke-width="3"/><path d="M195 94V77M195 63V32" stroke="#24829b" stroke-width="3" stroke-dasharray="4 3" marker-end="url(#arrow)"/><path d="M204 49h136l25-5M280 100h80M346 133h14" fill="none" stroke="#697f73" stroke-width="1.5"/><text x="374" y="48" font-size="12" font-weight="650" fill="#183c31" text-anchor="start">Open vent: steam exits before pressurizing</text><text x="374" y="104" font-size="12" font-weight="650" fill="#183c31" text-anchor="start">Jars stand on rack above the base</text><text x="374" y="137" font-size="12" font-weight="650" fill="#183c31" text-anchor="start">Use specified water depth and loading</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Ten minutes of</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">continuous steam venting</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Recipe-specific gauge</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">and elevation values</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Maintain the target for</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">the specified time</text></g>
-  </g>
+<svg class="v01-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Canner vent and steam path before pressure</title><desc id="desc">Cutaway of a vented canner before pressurizing. Jars rest on a rack above the base, and steam escapes through the open vent in the raised lid.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+<path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker></defs>
+<style>.v01-svg text{font-family:system-ui,sans-serif;font-size:24px;font-weight:650;fill:#183a30}
+.v01-svg .heading{font-size:21px;letter-spacing:1px;font-weight:750}.v01-svg .guard{font-size:23px;fill:#6d301f}
+.v01-svg .leader{fill:none;stroke:#365c50;stroke-width:3}.v01-svg .flow{fill:none;stroke:#205b68;stroke-width:5;marker-end:url(#arrow)}
+.v01-svg .dashed{fill:none;stroke:#365c50;stroke-width:3;stroke-dasharray:12 9}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="37">Z14-P54 · V01 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v01-artwork"><path d="M68 137H496L483 280Q477 306 432 309H130Q82 308 76 280Z" fill="#e5eee3" stroke="#34594d" stroke-width="6"/><path d="M75 259Q200 244 295 257T486 257L477 286Q465 306 434 305H132Q89 305 81 282Z" fill="#9bc7d4"/><path d="M96 257H472M110 137Q135 105 235 102H327Q430 105 460 137M276 101V83H299V101" fill="none" stroke="#35594e" stroke-width="7"/><path d="M128 254v-66q0-10 12-10h59q12 0 12 10v66M252 254v-66q0-10 12-10h59q12 0 12 10v66M376 254v-66q0-10 12-10h59q12 0 12 10v66" fill="#e9cfad" stroke="#6b5139" stroke-width="4"/><path class="flow" d="M288 160V62"/><path class="leader" d="M309 86H541"/><text x="560" y="94">Open vent</text><path class="leader" d="M497 188H544"/><text x="560" y="197">Jars on rack</text><path class="leader" d="M490 264H545"/><text x="560" y="274">Recipe water depth</text></g>
+<rect x="23" y="342" width="854" height="38" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Study the steam path. Use the tested recipe, gauge, elevation and model.</text>
 </svg>

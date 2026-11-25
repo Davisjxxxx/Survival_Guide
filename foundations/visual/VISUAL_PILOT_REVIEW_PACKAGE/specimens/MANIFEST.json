@@ -1,0 +1,158 @@
+[
+  {
+    "file": "MIN-989518-1420206.jpg",
+    "sha256": "79a8331a2e5526278b5ec5e7c260cf48b5767bd133f02775e8d24d8a4bf184df",
+    "pixels": [
+      3634,
+      5451
+    ],
+    "original_url": "https://bellatlas-images.s3.msi.umn.edu/MIN_Plants/01420/1420206.jpg",
+    "catalogue_url": "https://www.gbif.org/occurrence/4929679330",
+    "originating_collection": null,
+    "taxon_as_catalogued": "Conium maculatum L.",
+    "taxon_as_displayed": "Conium maculatum",
+    "catalog_number": "989518",
+    "date": "2021-05-27",
+    "credit": "Bell Museum",
+    "rights_holder": "Bell Museum plants",
+    "rights": "CC0",
+    "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "related_pages": [
+      "Z05-P123"
+    ],
+    "classification": "Authentic voucher study media",
+    "specialist_status": "PENDING",
+    "diagnostic_qualification": "WITHHELD",
+    "limits": "Pressed specimen or archival documentation. Item does not establish all diagnostic field views, season, or edibility."
+  },
+  {
+    "file": "MIN-991627-1422858.jpg",
+    "sha256": "bc79c84c991b014bb782451f1c2487f3a1b2a936c15122361179c15d8521e36a",
+    "pixels": [
+      3951,
+      5927
+    ],
+    "original_url": "https://bellatlas-images.s3.msi.umn.edu/MIN_Plants/01422/1422858.jpg",
+    "catalogue_url": "https://www.gbif.org/occurrence/4438441379",
+    "originating_collection": null,
+    "taxon_as_catalogued": "Vitis riparia Michx.",
+    "taxon_as_displayed": "Vitis riparia",
+    "catalog_number": "991627",
+    "date": "2023-07-18",
+    "credit": "Bell Museum",
+    "rights_holder": "Bell Museum plants",
+    "rights": "CC0",
+    "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "related_pages": [
+      "Z05-P64"
+    ],
+    "classification": "Authentic voucher study media",
+    "specialist_status": "PENDING",
+    "diagnostic_qualification": "WITHHELD",
+    "limits": "Pressed specimen or archival documentation. Item does not establish all diagnostic field views, season, or edibility."
+  },
+  {
+    "file": "MIN-991717-1422958.jpg",
+    "sha256": "7d3d7642ec1b1c91ce946ca1cbda52f1490c8110a010b50aefbc74a2cdb3ee2e",
+    "pixels": [
+      3934,
+      5901
+    ],
+    "original_url": "https://bellatlas-images.s3.msi.umn.edu/MIN_Plants/01422/1422958.jpg",
+    "catalogue_url": "https://www.gbif.org/occurrence/4438441373",
+    "originating_collection": null,
+    "taxon_as_catalogued": "Menispermum canadense L.",
+    "taxon_as_displayed": "Menispermum canadense",
+    "catalog_number": "991717",
+    "date": "2023-06-13",
+    "credit": "Bell Museum",
+    "rights_holder": "Bell Museum plants",
+    "rights": "CC0",
+    "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "related_pages": [
+      "Z05-P127"
+    ],
+    "classification": "Authentic voucher study media",
+    "specialist_status": "PENDING",
+    "diagnostic_qualification": "WITHHELD",
+    "limits": "Pressed specimen or archival documentation. Item does not establish all diagnostic field views, season, or edibility."
+  },
+  {
+    "file": "MIN-977290-1402874_lg.jpg",
+    "sha256": "fa25e54ccddd74cd89ef365b40e909c0362de0d623d44fc0b7d121923e3a9814",
+    "pixels": [
+      5000,
+      7500
+    ],
+    "original_url": "https://bellatlas-images.s3.msi.umn.edu/MIN_Plants/01402/1402874_lg.jpg",
+    "catalogue_url": "https://www.gbif.org/occurrence/4903548499",
+    "originating_collection": null,
+    "taxon_as_catalogued": "Taxus canadensis Marshall",
+    "taxon_as_displayed": "Taxus canadensis",
+    "catalog_number": "977290",
+    "date": "2014-08-30",
+    "credit": "Bell Museum",
+    "rights_holder": "Bell Museum plants",
+    "rights": "CC0",
+    "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "related_pages": [
+      "Z05-P129"
+    ],
+    "classification": "Authentic voucher study media",
+    "specialist_status": "PENDING",
+    "diagnostic_qualification": "WITHHELD",
+    "limits": "Pressed specimen or archival documentation. Item does not establish all diagnostic field views, season, or edibility."
+  },
+  {
+    "file": "MIN-957094-1298980_1554839954.jpg",
+    "sha256": "1453489d1bc4f8e79a7ca7d14d3850058af272d28725c72b2cecb3232d2504bc",
+    "pixels": [
+      2000,
+      954
+    ],
+    "original_url": "https://bellatlas-images.s3.msi.umn.edu/MIN_Fungi/201904/1298980_1554839954.jpg",
+    "catalogue_url": "https://www.gbif.org/occurrence/2268308941",
+    "originating_collection": null,
+    "taxon_as_catalogued": "Amanita bisporigera G.F.Atk.",
+    "taxon_as_displayed": "Amanita cf. bisporigera",
+    "catalog_number": "957094",
+    "date": "2017-07-29",
+    "credit": "Anna Gerenday",
+    "rights_holder": "Bell Museum, University of Minnesota",
+    "rights": "CC0",
+    "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "related_pages": [
+      "Z05-P116"
+    ],
+    "classification": "Authentic voucher study media",
+    "specialist_status": "PENDING",
+    "diagnostic_qualification": "WITHHELD",
+    "limits": "Provisional cf. determination in provider media. Shows voucher context only. Do not use as a confirmed species or edibility plate."
+  },
+  {
+    "file": "MIN-957094-957094_2_lg.jpg",
+    "sha256": "9d6f88d83b6347be08d983cc4ad34cc7f82137d67a94bde7c88b6cdf62c14861",
+    "pixels": [
+      3024,
+      4032
+    ],
+    "original_url": "https://bellatlas-images.s3.msi.umn.edu/MIN_Fungi/00957/957094_2_lg.jpg",
+    "catalogue_url": "https://www.gbif.org/occurrence/2268308941",
+    "originating_collection": null,
+    "taxon_as_catalogued": "Amanita bisporigera G.F.Atk.",
+    "taxon_as_displayed": "Amanita cf. bisporigera",
+    "catalog_number": "957094",
+    "date": "2017-07-29",
+    "credit": "Bell Museum",
+    "rights_holder": "Bell Museum fungi",
+    "rights": "CC0",
+    "rights_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "related_pages": [
+      "Z05-P116"
+    ],
+    "classification": "Authentic voucher study media",
+    "specialist_status": "PENDING",
+    "diagnostic_qualification": "WITHHELD",
+    "limits": "Provisional cf. determination in provider media. Shows voucher context only. Do not use as a confirmed species or edibility plate."
+  }
+]
