@@ -4761,5 +4761,1048 @@
       }
     ],
     "trigger": "Publication remains HOLD — zero qualified human clinical approvals granted"
+  },
+  "Z13-P01": {
+    "type": "exploded",
+    "components": [
+      "Main water valve (tagged)",
+      "Main breaker panel",
+      "Exterior gas meter",
+      "Paper outage binder"
+    ],
+    "callout": "Walk & tag every main shutoff in daylight — escalate leaks to licensed pros"
+  },
+  "Z13-P02": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · UTILITY REGISTRY",
+        "scope": "Voluntary notice",
+        "action": "Enroll early (never guarantees power)"
+      },
+      {
+        "role": "2 · UL BACKUP POWER",
+        "scope": "Budget device watts",
+        "action": "Stage tested UL batteries / O2 spares"
+      },
+      {
+        "role": "3 · EARLY RELOCATE",
+        "scope": "Before reserve floor",
+        "action": "Move to powered medical care or 911"
+      }
+    ],
+    "trigger": "Leave for powered medical support BEFORE battery reserves hit critical floors"
+  },
+  "Z13-P04": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "LED lights",
+        "detail": "Zero candles; check neighbor power"
+      },
+      {
+        "label": "Log & report",
+        "detail": "Write outage time; call utility"
+      },
+      {
+        "label": "Shut cold doors",
+        "detail": "Keep fridge & freezer sealed tight"
+      },
+      {
+        "label": "Unplug surges",
+        "detail": "Unplug sensitive/heat loads; 1 lamp"
+      }
+    ],
+    "cue": "Burning wiring smell, gas odor or downed lines -> evacuate & call 911 outside"
+  },
+  "Z13-P05": {
+    "type": "correct_vs_wrong",
+    "variant": "electrical",
+    "correct_title": "STAGGERED SAFE RESTART",
+    "correct_items": [
+      "Unplug space heaters & electronics early",
+      "Leave 1 LED lamp; wait steady power"
+    ],
+    "wrong_title": "SURGE & BROWNOUT HAZARD",
+    "wrong_items": [
+      "Unattended heaters auto-start on return",
+      "Running motors on flickering half-power"
+    ],
+    "reason": "Flickering dim power or hot outlets signal open-neutral faults — shut off & call pro"
+  },
+  "Z13-P06": {
+    "type": "system_boundary",
+    "variant": "panel_gen",
+    "zone_a": "OCCUPIED HOME\nCO alarms active on every floor",
+    "barrier": "≥20 FT OPEN AIR\nExhaust pointed away",
+    "zone_b": "OUTDOOR GENERATOR\nNEVER garage, porch or shed",
+    "hazard": "Even open garage doors let lethal odorless CO flood bedrooms in minutes"
+  },
+  "Z13-P07": {
+    "type": "correct_vs_wrong",
+    "variant": "electrical",
+    "correct_title": "ISOLATED SAFE CONNECTION",
+    "correct_items": [
+      "Direct heavy outdoor cords to appliances",
+      "OR licensed inspected transfer switch"
+    ],
+    "wrong_title": "DEADLY OUTLET BACKFEED",
+    "wrong_items": [
+      "Double-male cord into wall/dryer plug",
+      "Energizes street lines & kills linemen"
+    ],
+    "reason": "Conceptual safety boundary ONLY — all panel transfer switches need licensed trades"
+  },
+  "Z13-P08": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Dry canopy",
+        "detail": "Open-sided cover; zero enclosed porch"
+      },
+      {
+        "label": "GFCI cords",
+        "detail": "Dry hands; cords out of puddles"
+      },
+      {
+        "label": "Shut OFF",
+        "detail": "Stop engine completely before fuel"
+      },
+      {
+        "label": "Cool fully",
+        "detail": "Wait cold muffler before opening cap"
+      }
+    ],
+    "cue": "Gasoline spilled onto a hot generator muffler flashes into fire in seconds"
+  },
+  "Z13-P09": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Comms & LEDs",
+        "note": "Phones, NOAA radio, LEDs & Wi-Fi (5–50 W)",
+        "limit": "Runs days on bank"
+      },
+      {
+        "name": "CPAP & Fridge",
+        "note": "Check startup surge + cold derating",
+        "limit": "Budget watts first"
+      },
+      {
+        "name": "Electric Heat",
+        "note": "Space heaters & kettles draw 1500+ W",
+        "limit": "Drains bank in <1 hr"
+      }
+    ]
+  },
+  "Z13-P10": {
+    "type": "failure_mode",
+    "cause": "Off-brand charger, drop or charging <32°F",
+    "cue": "Swollen case, hissing, heat or sweet odor",
+    "correction": "Unplug/isolate outdoors & call 911 if smoke"
+  },
+  "Z13-P11": {
+    "type": "system_boundary",
+    "variant": "panel_gen",
+    "zone_a": "VENTED BATTERY BOX\nCovered posts & licensed fuse",
+    "barrier": "SPARK-FREE GAP\nNo metal tools overhead",
+    "zone_b": "IGNITION SOURCES\nPilot flames, switches, bedrooms",
+    "hazard": "Charging flooded lead-acid batteries vents explosive hydrogen gas"
+  },
+  "Z13-P12": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Summer sun",
+        "focus": "High sun angle & long charge hours"
+      },
+      {
+        "window": "Autumn drop",
+        "focus": "Shorter days & angled roof shadows"
+      },
+      {
+        "window": "MN Winter",
+        "focus": "8–9 h dim sun & snow slash output"
+      },
+      {
+        "window": "Indoor battery",
+        "focus": "Keep pack warm; match panel Voc"
+      }
+    ],
+    "threshold": "Never rely solely on small solar panels for winter heat or medical loads"
+  },
+  "Z13-P13": {
+    "type": "correct_vs_wrong",
+    "variant": "thermal",
+    "correct_title": "COOL BATTERY LED LIGHTING",
+    "correct_items": [
+      "Headlamps & LED lanterns on every floor",
+      "Low mode runs days; fresh spare cells"
+    ],
+    "wrong_title": "OPEN-FLAME CANDLES",
+    "wrong_items": [
+      "Top cause of fatal blackout house fires",
+      "Tip-over danger near kids, pets & drapes"
+    ],
+    "reason": "Stage flashlights in bedrooms and by utility shutoffs before storms strike"
+  },
+  "Z13-P14": {
+    "type": "system_boundary",
+    "variant": "panel_gen",
+    "zone_a": "OPEN DRIVEWAY\nTailpipe 100% clear of snow",
+    "barrier": "OUTDOOR AIR GAP\nFar from house vents",
+    "zone_b": "ATTACHED GARAGE\nLethal CO backflow even open",
+    "hazard": "NEVER idle a vehicle inside a garage to charge phones or warm up"
+  },
+  "Z13-P15": {
+    "type": "exploded",
+    "components": [
+      "Battery NOAA radio",
+      "Local AM/FM radio",
+      "Phone + power bank",
+      "Printed contact card"
+    ],
+    "callout": "Wi-Fi & cordless phones die instantly — preserve cell battery for 911 & brief SMS"
+  },
+  "Z13-P16": {
+    "type": "failure_mode",
+    "cause": "Thin 16-AWG coiled cord or pinched door",
+    "cue": "Warm soft jacket, scorched prong or shock",
+    "correction": "Unplug NOW; use uncoiled 10–12 AWG outdoor"
+  },
+  "Z13-P17": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · SINGLE TRIP",
+        "scope": "Clear dry floor",
+        "action": "Unplug overload; reset breaker ONCE"
+      },
+      {
+        "role": "2 · REPEAT TRIP",
+        "scope": "Fault persisted",
+        "action": "Leave breaker OFF; call licensed electrician"
+      },
+      {
+        "role": "3 · WET / ARCING",
+        "scope": "Water/heat/buzz",
+        "action": "NEVER touch wet panel; exit & call 911"
+      }
+    ],
+    "trigger": "Keep 3 ft dry clear access in front of breaker panels at all times"
+  },
+  "Z13-P18": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Outer rooms closed off as cold buffer",
+      "1 small interior room + window blankets",
+      "Indoor tent + dry pads (ZERO fuel heat)"
+    ],
+    "callout": "Track room temp",
+    "accent": "#d4e5ec",
+    "hazard": "Relocate before freeze"
+  },
+  "Z13-P19": {
+    "type": "correct_vs_wrong",
+    "variant": "thermal",
+    "correct_title": "3-FT CLEAR & WALL PLUG",
+    "correct_items": [
+      "3 ft clear of beds, drapes & firewood",
+      "Direct wall plug only; OFF when sleeping"
+    ],
+    "wrong_title": "OVERLOADED FIRE TRAP",
+    "wrong_items": [
+      "Extension cords/power strips melt & burn",
+      "Blankets draped near unattended heaters"
+    ],
+    "reason": "Space heaters & heating gear are a leading driver of winter house fires"
+  },
+  "Z13-P20": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "SAFE WARMTH\nDry layers, blankets & warming center",
+    "barrier": "ZERO INDOOR FLAME\nCO alarms active",
+    "zone_b": "FORBIDDEN HEATERS\nOvens, charcoal grills, camp stoves",
+    "hazard": "NEVER heat a home with ovens, charcoal grills or camp stoves — fatal CO"
+  },
+  "Z13-P21": {
+    "type": "decision_tree",
+    "gates": [
+      "Code allows & indoor-rated?",
+      "Exact fuel + window vent?",
+      "Operate AWAKE only + CO alarm"
+    ],
+    "abort": "STOP: Outdoor heaters, wrong fuel, sleep time or yellow soot -> shut OFF"
+  },
+  "Z13-P22": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Annually swept chimney flue (no creosote)",
+      "Dry seasoned split wood (zero trash)",
+      "3-ft clearance & hearth pad + CO/smoke"
+    ],
+    "callout": "Swept flue only",
+    "accent": "#e5c8a3",
+    "hazard": "Roaring flue -> exit & 911"
+  },
+  "Z13-P23": {
+    "type": "correct_vs_wrong",
+    "variant": "thermal",
+    "correct_title": "LIDDED METAL CAN OUTDOORS",
+    "correct_items": [
+      "Metal shovel into tight lidded metal can",
+      "Set on bare dirt/stone 10+ ft from decks"
+    ],
+    "wrong_title": "CARDBOARD OR WOOD DECK",
+    "wrong_items": [
+      "Plastic/cardboard ignites days later",
+      "Hot metal base burns wooden porches"
+    ],
+    "reason": "Hidden coals inside seemingly cold ash stay hot enough to ignite wood for days"
+  },
+  "Z13-P24": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "Snowdrift burying low PVC vent",
+      "Sidewall intake & exhaust pipes",
+      "Clear hand-shoveled airflow channel"
+    ],
+    "callout": "Clear every storm",
+    "accent": "#d4e5ec",
+    "hazard": "Blocked vent = indoor CO"
+  },
+  "Z13-P25": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Spot cues",
+        "detail": "Rotten-egg odor or hissing near gas"
+      },
+      {
+        "label": "Exit NOW",
+        "detail": "Leave doors open; move everyone out"
+      },
+      {
+        "label": "Zero sparks",
+        "detail": "No light switches, flames or phones in"
+      },
+      {
+        "label": "Call outside",
+        "detail": "Call 911 & utility from well away"
+      }
+    ],
+    "cue": "Never re-enter a suspected gas-leak home until responders clear with meters"
+  },
+  "Z13-P26": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · NORMAL OUTAGE",
+        "scope": "No gas odor/leak",
+        "action": "Leave gas meter ON (avoid long relight wait)"
+      },
+      {
+        "role": "2 · LEAK / HISS",
+        "scope": "Active hazard",
+        "action": "Evacuate immediately; call 911 & utility"
+      },
+      {
+        "role": "3 · RESTORATION",
+        "scope": "After any shutoff",
+        "action": "ONLY licensed utility restores & relights"
+      }
+    ],
+    "trigger": "NEVER turn a shut-off main gas or propane valve back on yourself"
+  },
+  "Z13-P27": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Outdoor hose disconnected pre-freeze",
+      "Insulated rim-joist & garage pipes",
+      "Open sink cabinet doors let room warmth in"
+    ],
+    "callout": "Guard cold walls",
+    "accent": "#d4e5ec",
+    "hazard": "Trickle drop = freezing pipe"
+  },
+  "Z13-P28": {
+    "type": "exploded",
+    "components": [
+      "Tagged main valve",
+      "Well pump breaker",
+      "Water-heater power",
+      "Lowest relief tap"
+    ],
+    "callout": "Ball valve closes 90°; gate valve turns clockwise gently — never force seized stems"
+  },
+  "Z13-P29": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Shut main",
+        "detail": "Close main water valve & well breaker"
+      },
+      {
+        "label": "Kill heater",
+        "detail": "Turn off water-heater power/gas first"
+      },
+      {
+        "label": "Drain top-down",
+        "detail": "Open taps high-to-low; no car antifreeze"
+      },
+      {
+        "label": "Boiler limit",
+        "detail": "Leave hydronic boilers to licensed HVAC"
+      }
+    ],
+    "cue": "Never pour toxic automotive antifreeze into household sinks or drain traps"
+  },
+  "Z13-P30": {
+    "type": "correct_vs_wrong",
+    "variant": "thermal",
+    "correct_title": "GENTLE NON-FLAME THAW",
+    "correct_items": [
+      "Open faucet slightly; guard main shutoff",
+      "Use hair dryer or warm wet towels only"
+    ],
+    "wrong_title": "OPEN FLAME IN WALLS",
+    "wrong_items": [
+      "Propane torches ignite hidden wall wood",
+      "Thawing sealed pipe traps burst pressure"
+    ],
+    "reason": "Closed-wall freezes or cracked/dripping pipes require shutting main valve & plumber"
+  },
+  "Z13-P31": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Warm attic leak forms eave ice dam",
+      "Safe ground-level roof snow rake zone",
+      "Overhead electrical service drop exclusion"
+    ],
+    "callout": "Rake from GROUND",
+    "accent": "#d4e5ec",
+    "hazard": "Jammed doors/sag -> exit NOW"
+  },
+  "Z13-P32": {
+    "type": "cross_section",
+    "layers": [
+      "Midday south sun (open shades)",
+      "Night window blanket & door draft roll",
+      "Condensation wiped dry daily",
+      "Fireplace damper shut ONLY when cold"
+    ],
+    "callout": "Retain heat without indoor combustion"
+  },
+  "Z13-P33": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "3-Day Floor",
+        "note": "≥1 gal/person/day minimum baseline",
+        "limit": "Add kids, heat & pets"
+      },
+      {
+        "name": "14-Day Target",
+        "note": "Extended outage & rural well buffer",
+        "limit": "Label potable vs utility"
+      },
+      {
+        "name": "Safe Storage",
+        "note": "Cool, dark, off bare concrete floor",
+        "limit": "Far from fuel/chemicals"
+      }
+    ]
+  },
+  "Z13-P34": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Food-grade",
+        "detail": "HDPE #2 jugs only (never milk/chem jugs)"
+      },
+      {
+        "label": "Soap wash",
+        "detail": "Wash interior cleanly with warm dish soap"
+      },
+      {
+        "label": "30 s sanitize",
+        "detail": "CDC dilute bleach swirl + safe rinse"
+      },
+      {
+        "label": "Label & rotate",
+        "detail": "Mark DRINKING WATER & date; swap 6 mo"
+      }
+    ],
+    "cue": "Containers that ever held fuel or toxic chemicals can NEVER be made potable"
+  },
+  "Z13-P35": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "ISOLATED WATER HEATER",
+    "correct_items": [
+      "Shut breaker/gas & cold inlet valve FIRST",
+      "Flush rust; draw only if supply was safe"
+    ],
+    "wrong_title": "FORBIDDEN HOME TANKS",
+    "wrong_items": [
+      "Radiators, boilers, spas & waterbeds",
+      "Blue-chemical treated toilet tanks"
+    ],
+    "reason": "Do Not Drink or flood advisories disqualify water-heater reserves completely"
+  },
+  "Z13-P36": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · BOIL WATER",
+        "scope": "Microbial risk",
+        "action": "Rolling boil 1 m (3 m >6500 ft) for drink/food"
+      },
+      {
+        "role": "2 · DO NOT DRINK",
+        "scope": "Chemical/toxin",
+        "action": "NEVER boil (concentrates!); bottled only"
+      },
+      {
+        "role": "3 · DO NOT USE",
+        "scope": "Severe hazard",
+        "action": "Zero tap contact (no bath/dishes) til clear"
+      }
+    ],
+    "trigger": "Follow exact local utility notice wording until formal lab clearance issues"
+  },
+  "Z13-P37": {
+    "type": "exploded",
+    "components": [
+      "Icemaker OFF (dump ice)",
+      "CPAP/humidifier safe H2O",
+      "Fridge carbon filter",
+      "Dishwasher sanitize"
+    ],
+    "callout": "Freezing does NOT kill germs & basic fridge filters do NOT clear Boil Water notices"
+  },
+  "Z13-P38": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Utility clear",
+        "detail": "Wait for official lab-tested notice"
+      },
+      {
+        "label": "Run cold taps",
+        "detail": "Flush all cold faucets until cool & clear"
+      },
+      {
+        "label": "Swap filters",
+        "detail": "Replace exposed fridge/pitcher cartridges"
+      },
+      {
+        "label": "Dump 1st ice",
+        "detail": "Discard initial post-advisory ice batches"
+      }
+    ],
+    "cue": "Persistent cloudy, metallic or fuel-odor tap water -> stop use & call utility"
+  },
+  "Z13-P39": {
+    "type": "system_boundary",
+    "variant": "well_septic",
+    "zone_a": "MUNICIPAL UTILITY\nDaily regulated utility testing",
+    "barrier": "OWNERSHIP LINE\nSDWA excludes wells",
+    "zone_b": "PRIVATE HOME WELL\nOwner tests & hires pros",
+    "hazard": "Cold crystal-clear well water can still hide invisible nitrates, arsenic or E. coli"
+  },
+  "Z13-P40": {
+    "type": "system_boundary",
+    "variant": "well_septic",
+    "zone_a": "ELEVATED WELLHEAD\nSealed sanitary cap + tall marker",
+    "barrier": "UPSLOPE SETBACK\nSoil grades away",
+    "zone_b": "RUNOFF & SEPTIC\nFuel, salt, manure, drainfield",
+    "hazard": "A snowplow-cracked well casing opens a direct path for surface bacteria"
+  },
+  "Z13-P41": {
+    "type": "failure_mode",
+    "cause": "Power outage or flickering brownout",
+    "cue": "Bladder tank empties in ~5–15 gal; pump surges",
+    "correction": "Kill well breaker in brownout; store water"
+  },
+  "Z13-P42": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Switch bottled",
+        "detail": "Assume flooded well is contaminated"
+      },
+      {
+        "label": "Electrical hold",
+        "detail": "Keep pump OFF until pro inspects wiring"
+      },
+      {
+        "label": "Licensed pro",
+        "detail": "MDH/licensed contractor flush & shock"
+      },
+      {
+        "label": "Lab PASS",
+        "detail": "Certified lab clears bacteria/chemicals"
+      }
+    ],
+    "cue": "Never pour DIY bleach down a wet submerged well or drink before lab clearance"
+  },
+  "Z13-P43": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Every Year",
+        "focus": "Certified lab: coliform, nitrate, TDS, pH"
+      },
+      {
+        "window": "Regional MN",
+        "focus": "Test arsenic, lead & local ag hazards"
+      },
+      {
+        "window": "Event Retest",
+        "focus": "After floods, pump work or new infant"
+      },
+      {
+        "window": "Nitrate rule",
+        "focus": "NEVER boil high-nitrate water!"
+      }
+    ],
+    "threshold": "Boiling high-nitrate water evaporates water and concentrates toxic nitrates"
+  },
+  "Z13-P44": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "AIR GAP & VACUUM BREAKER",
+    "correct_items": [
+      "Anti-siphon valve on every outdoor spigot",
+      "Clear vertical air gap above bucket rims"
+    ],
+    "wrong_title": "SUBMERGED BACKSIPHONAGE",
+    "wrong_items": [
+      "Hose end left underwater in soap/trough",
+      "Pressure drop sucks toxins into home pipes"
+    ],
+    "reason": "Never cross-connect rain cisterns or sumps into household potable plumbing"
+  },
+  "Z13-P45": {
+    "type": "system_boundary",
+    "variant": "well_septic",
+    "zone_a": "ROOF RAIN BARREL\nMesh screen, child lid, NON-POTABLE",
+    "barrier": "PHYSICAL ISOLATION\nZero splice to taps",
+    "zone_b": "POTABLE PLUMBING\nTested drinking supply only",
+    "hazard": "Roof runoff carries bird droppings & shingle grit — drain before winter freeze"
+  },
+  "Z13-P46": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "NSF 42 Carbon",
+        "note": "Improves chlorine taste & odor ONLY",
+        "limit": "NO germs or lead"
+      },
+      {
+        "name": "NSF 53 / 58",
+        "note": "Verify SPECIFIC named cyst/lead claim",
+        "limit": "Swap cartridge on time"
+      },
+      {
+        "name": "Boil / Bottled",
+        "note": "Validated backup for advisories/floods",
+        "limit": "Replace frozen filters"
+      }
+    ]
+  },
+  "Z13-P47": {
+    "type": "system_boundary",
+    "variant": "well_septic",
+    "zone_a": "HOME PLUMBING\nPause laundry, showers & flushes",
+    "barrier": "LIFT-PUMP OUTAGE\nLimited reserve tank",
+    "zone_b": "SEPTIC & DRAINFIELD\nNo cars or snowplows above",
+    "hazard": "High indoor water use on a dead septic lift pump backs raw sewage into basements"
+  },
+  "Z13-P48": {
+    "type": "failure_mode",
+    "cause": "Pumping septic tank while yard is flooded",
+    "cue": "Hollow empty tank floats up in wet earth",
+    "correction": "Conserve water; wait for dry ground + pro"
+  },
+  "Z13-P49": {
+    "type": "exploded",
+    "components": [
+      "Solid bucket (2x 3-mil bag)",
+      "Dry sawdust/peat cover",
+      "Separate liquid bucket",
+      "Soap handwash station"
+    ],
+    "callout": "Snap tight lids immediately; keep far from food/wells; follow county disposal rules"
+  },
+  "Z13-P50": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Spigot stream",
+        "detail": "Pour thin safe water stream over soap"
+      },
+      {
+        "label": "20 s scrub",
+        "detail": "Wash thoroughly before food & after waste"
+      },
+      {
+        "label": "Sanitizer aid",
+        "detail": "Use ≥60% alcohol when hands look clean"
+      },
+      {
+        "label": "Paper plates",
+        "detail": "Save potable water during strict rationing"
+      }
+    ],
+    "cue": "Catch wash water in basin & dump well away from wells and vegetable gardens"
+  },
+  "Z13-P51": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "BLEACH + PLAIN WATER ONLY",
+    "correct_items": [
+      "Dilute unscented bleach in cool water only",
+      "Ventilate room; keep original labels intact"
+    ],
+    "wrong_title": "DEADLY CHEMICAL MIXING",
+    "wrong_items": [
+      "Bleach + ammonia = toxic chloramine gas",
+      "Bleach + vinegar/acid = lethal chlorine gas"
+    ],
+    "reason": "Choking odor or burning eyes -> drop bucket, exit to fresh air & call 911"
+  },
+  "Z13-P52": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "DRY TRASH STAGING\nClean paper/plastic kept indoors",
+    "barrier": "DOUBLE-BAG SEAL\nWash hands after",
+    "zone_b": "RIGID OUTDOOR BIN\nLatched wet food waste only",
+    "hazard": "NEVER burn plastics or household garbage in fireplaces or indoor stoves"
+  },
+  "Z13-P53": {
+    "type": "decision_tree",
+    "gates": [
+      "Sewer/gravity line open?",
+      "Light greywater <24 h?",
+      "Pour 1–2 gal briskly in bowl"
+    ],
+    "abort": "STOP: Flooded/pump septic, raw-meat/fecal water or slow drain -> bucket toilet"
+  },
+  "Z13-P54": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Power/gas OFF",
+        "detail": "Never wade before dry electrical clear"
+      },
+      {
+        "label": "Sewage PPE",
+        "detail": "Rubber boots, gloves, goggles & N95"
+      },
+      {
+        "label": "Photo & strip",
+        "detail": "Document & remove wet carpet/drywall"
+      },
+      {
+        "label": "Outdoor pump",
+        "detail": "NEVER run fuel dewatering pumps inside"
+      }
+    ],
+    "cue": "Gas pumps inside flooded basements generate fatal odorless carbon monoxide"
+  },
+  "Z13-P55": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · POWER & GAS",
+        "scope": "Clear hazards first",
+        "action": "Utility/licensed check on wet wiring/valves"
+      },
+      {
+        "role": "2 · DRAINS/SEPTIC",
+        "scope": "Verify safe exit",
+        "action": "Confirm open sewer/septic before flushing"
+      },
+      {
+        "role": "3 · POTABLE TEST",
+        "scope": "Lab/utility clear",
+        "action": "Flush taps or pass well coliform lab test"
+      }
+    ],
+    "trigger": "Replace flood-submerged gas water-heater/furnace controls via licensed trades"
+  },
+  "Z13-P56": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Upper floor: smoke + CO outside bedrooms",
+      "Main floor: smoke + CO near living/kitchen",
+      "Basement: smoke + CO near furnace/stairs"
+    ],
+    "callout": "Check expiry dates",
+    "accent": "#e5d4a1",
+    "hazard": "CO expires ~5–10 yr"
+  },
+  "Z13-P57": {
+    "type": "decision_tree",
+    "gates": [
+      "Everyone exiting + 911?",
+      "Tiny fire + back to exit?",
+      "ABC PASS: Pull Aim Squeeze Sweep"
+    ],
+    "abort": "EVACUATE NOW: Thick smoke, grease + water hazard, blocked exit or growing flame"
+  },
+  "Z13-P58": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · NOAA / AM-FM",
+        "scope": "Grid-free radio",
+        "action": "County SAME alerts & local generator AM/FM"
+      },
+      {
+        "role": "2 · LOW-POWER SMS",
+        "scope": "Conserve phone",
+        "action": "Airplane mode between checks; brief texts"
+      },
+      {
+        "role": "3 · RALLY / MOVE",
+        "scope": "Total isolation",
+        "action": "Neighbor checks or relocate before storm"
+      }
+    ],
+    "trigger": "Keep phone batteries guarded for true 911 calls — never drain on streaming"
+  },
+  "Z13-P59": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Map neighbors",
+        "detail": "Note older, solo & power-dependent homes"
+      },
+      {
+        "label": "Swap contacts",
+        "detail": "Keep printed phone & knock plan"
+      },
+      {
+        "label": "Daytime knocks",
+        "detail": "Check warmth, CO alarms, water & meds"
+      },
+      {
+        "label": "Welfare 911",
+        "detail": "Call dispatch if vulnerable neighbor silent"
+      }
+    ],
+    "cue": "Community daytime check-ins prevent silent winter/heat-wave isolation deaths"
+  },
+  "Z13-P60": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "EXTERIOR VENTED SHED\nUpright UL cans & LP cylinders",
+    "barrier": "OUTDOOR SEPARATION\nCool shade; locked",
+    "zone_b": "BASEMENT / LIVING\nPilot flames, sparks & sleepers",
+    "hazard": "Heavy fuel vapors creep along basement floors and explode at pilot flames"
+  },
+  "Z13-P61": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Early Fall",
+        "focus": "Service furnace & sweep chimney flue"
+      },
+      {
+        "window": "Pre-Freeze",
+        "focus": "Drain hoses, insulate pipes & mark well"
+      },
+      {
+        "window": "Test Day",
+        "focus": "Check alarms & 15 m outdoor gen run"
+      },
+      {
+        "window": "Winter Ready",
+        "focus": "Rotate water, batteries & snow gear"
+      }
+    ],
+    "threshold": "Fix cracked heat exchangers, bad flues or panel faults BEFORE winter arrives"
+  },
+  "Z13-P62": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Snowmelt",
+        "focus": "Bucket-test sump pump & clear drainage"
+      },
+      {
+        "window": "Spring Lab",
+        "focus": "Inspect well cap & run annual lab test"
+      },
+      {
+        "window": "Storm Prep",
+        "focus": "Test NOAA SAME alerts & surge strips"
+      },
+      {
+        "window": "Summer Air",
+        "focus": "Check cooling backups & HEPA smoke filter"
+      }
+    ],
+    "threshold": "Repair failing sump pumps and cracked wellheads before spring floods hit"
+  },
+  "Z13-P63": {
+    "type": "failure_mode",
+    "cause": "Gas leak, arcing panel, CO or downed wire",
+    "cue": "Rotten eggs, hot buzz, alarm or fallen cable",
+    "correction": "Instant exit; stay ≥35 ft from wires & 911"
+  },
+  "Z13-P64": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · MANAGEABLE",
+        "scope": "Safe indoor temp",
+        "action": "Warm room, LEDs, stored water, working CO"
+      },
+      {
+        "role": "2 · EARLY EXIT",
+        "scope": "Approaching cold/heat",
+        "action": "Relocate in daylight before roads freeze"
+      },
+      {
+        "role": "3 · ABANDON NOW",
+        "scope": "CO/gas/sewage/sag",
+        "action": "Instant evacuation & 911 from outside"
+      }
+    ],
+    "trigger": "Track real indoor temperature & battery floors — never wait until trapped"
+  },
+  "Z13-P65": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Verify open",
+        "detail": "Check shelter/relative, pets & road 511"
+      },
+      {
+        "label": "Quick shutoff",
+        "detail": "Kill main water/heaters if freeze looms"
+      },
+      {
+        "label": "Grab essentials",
+        "detail": "Go-bags, Rx meds, IDs, chargers & pets"
+      },
+      {
+        "label": "Text check-in",
+        "detail": "Notify out-of-area relay upon arrival"
+      }
+    ],
+    "cue": "Relocate in safe daylight BEFORE whiteouts or flash floods close highways"
+  },
+  "Z13-P66": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Balcony/indoor generator BANNED (CO)",
+      "Elevators & water booster pumps fail",
+      "Use 2 stairwell exits & UL indoor battery"
+    ],
+    "callout": "Multi-family limits",
+    "accent": "#f7e6dc",
+    "hazard": "Exhaust enters neighbor vents"
+  },
+  "Z13-P67": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Plowed EMS & LP truck path",
+      "Bulk LP tank (refill 20–30%)",
+      "Upland well & downslope septic"
+    ],
+    "callout": "Rural feeders restore last — plan 7–14+ day reserves"
+  },
+  "Z13-P68": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Wait 10–15 m",
+        "detail": "Confirm indicator lamp stays steady bright"
+      },
+      {
+        "label": "Stagger loads",
+        "detail": "Reconnect heat & fridge one at a time"
+      },
+      {
+        "label": "Audit hazards",
+        "detail": "Check stove/heaters OFF & fridge temps"
+      },
+      {
+        "label": "Verify pumps",
+        "detail": "Confirm sump, septic & CO alarms normal"
+      }
+    ],
+    "cue": "Flickering brownout power or burnt odor -> shut circuit OFF & call utility"
+  },
+  "Z13-P69": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · HOMEOWNER",
+        "scope": "Non-invasive ops",
+        "action": "Tagged shutoffs, alarm tests, listed cords"
+      },
+      {
+        "role": "2 · LICENSED TRADES",
+        "scope": "Permitted work",
+        "action": "Transfer switch, gas/HVAC, flue, well, septic"
+      },
+      {
+        "role": "3 · UTILITY / 911",
+        "scope": "Active hazard",
+        "action": "Gas leaks, downed lines, CO & flood panels"
+      }
+    ],
+    "trigger": "Conceptual diagrams are NEVER licensed wiring, plumbing or gas install specs"
+  },
+  "Z13-P70": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · DRAFT + R03",
+        "scope": "70 Z13 pages",
+        "action": "Upper Midwest utility boundaries; R03 kept"
+      },
+      {
+        "role": "2 · CODE & MANUALS",
+        "scope": "Local authority",
+        "action": "Exact appliance manuals & city/state codes"
+      },
+      {
+        "role": "3 · TRADE SIGN-OFF",
+        "scope": "Mandatory gate",
+        "action": "Electrician, HVAC, well, septic & fire (H04)"
+      }
+    ],
+    "trigger": "Publication remains HOLD — zero qualified human trade approvals granted"
   }
 }
