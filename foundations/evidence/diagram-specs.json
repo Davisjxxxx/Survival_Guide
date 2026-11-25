@@ -7005,5 +7005,1092 @@
       }
     ],
     "trigger": "Publication remains HOLD — zero qualified human preservation approvals granted"
+  },
+  "Z15-P01": {
+    "type": "exploded",
+    "components": [
+      "County hazard map",
+      "Phone WEA alerts",
+      "County opt-in alerts",
+      "Battery NOAA radio"
+    ],
+    "callout": "Layer ≥3 independent warning channels + printed local radio/agency sheet"
+  },
+  "Z15-P02": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · WATCH",
+        "scope": "Conditions favorable",
+        "action": "Stage fuel/gear, charge cells, monitor live"
+      },
+      {
+        "role": "2 · WARNING",
+        "scope": "Imminent/occurring",
+        "action": "Take immediate shelter or high ground NOW"
+      },
+      {
+        "role": "3 · EMERGENCY",
+        "scope": "Extreme rare tier",
+        "action": "Maximum shelter or mandatory instant exit"
+      }
+    ],
+    "trigger": "NEVER wait to see a funnel cloud, flood wall or flames after a Warning"
+  },
+  "Z15-P04": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Spring",
+        "focus": "Snowmelt river floods, ice jams & storms"
+      },
+      {
+        "window": "Summer",
+        "focus": "Tornadoes, derechos, heat domes & smoke"
+      },
+      {
+        "window": "Autumn",
+        "focus": "Early wet snow, winds & winter switchover"
+      },
+      {
+        "window": "Winter",
+        "focus": "Blizzards, ice storms & polar wind chill"
+      }
+    ],
+    "threshold": "Refresh vehicle/home kits 2x/yr — obey live NWS alerts in ANY month"
+  },
+  "Z15-P05": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Wallet cards",
+        "detail": "Laminated numbers, allergies & addresses"
+      },
+      {
+        "label": "Out-of-area hub",
+        "detail": "Brief SMS text to distant relay contact"
+      },
+      {
+        "label": "Block rally",
+        "detail": "Immediate outdoor spot for fire/gas exit"
+      },
+      {
+        "label": "Town rally",
+        "detail": "Backup meeting spot if street blocked"
+      }
+    ],
+    "cue": "Never drive into closed hazard perimeters searching — reunite via relay hub"
+  },
+  "Z15-P06": {
+    "type": "exploded",
+    "components": [
+      "Waterproof IDs/Rx pouch",
+      "Encrypted offline USB",
+      "Room inventory photos",
+      "Small cash (–0s)"
+    ],
+    "callout": "Regional blackouts shut ATMs, card terminals & cloud portals immediately"
+  },
+  "Z15-P07": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Children & Schools",
+        "note": "Buddy adult + updated school pick-up IDs",
+        "limit": "Verify off-site center"
+      },
+      {
+        "name": "Disability / Elders",
+        "note": "Spare glasses, Rx, hearing/mobility power",
+        "limit": "Leave on early Watch"
+      },
+      {
+        "name": "Pets & Service",
+        "note": "Carriers, tags, vaccines & 7-d food/H2O",
+        "limit": "Never leave chained"
+      }
+    ]
+  },
+  "Z15-P08": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "GRAB-AND-GO BAGS\n2-min lift: IDs, Rx, light, H2O, cash",
+    "barrier": "EXIT DOOR SPLIT\nRefresh 2x/yr",
+    "zone_b": "STAY-HOME RESILIENCE\n14–30 d pantry, water, bucket, HEPA",
+    "hazard": "Never delay an urgent evacuation trying to haul heavy stay-home tubs"
+  },
+  "Z15-P09": {
+    "type": "seasonal_timeline",
+    "variant": "storm_lead",
+    "phases": [
+      {
+        "window": "Watch -24 h",
+        "focus": "Fuel cars, fill Rx, stock water & pantry"
+      },
+      {
+        "window": "Pre-Storm",
+        "focus": "Charge all power banks; bring shovel in"
+      },
+      {
+        "window": "Safety Check",
+        "focus": "Test CO/smoke alarms & note PVC vents"
+      },
+      {
+        "window": "Warning Hit",
+        "focus": "Cancel ALL non-essential highway travel"
+      }
+    ],
+    "threshold": "Dot No-Travel & Blizzard Warnings close highways faster than plows clear"
+  },
+  "Z15-P10": {
+    "type": "environment",
+    "variant": "wind_tree",
+    "zones": [
+      "Ice-loaded snapping tree canopy",
+      "≥35 ft downed live-wire exclusion",
+      "Interior warm room (zero indoor fuel)"
+    ],
+    "callout": "Ice storms break poles across regions -> plan 3–14 day blackout"
+  },
+  "Z15-P11": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · COLD ADVISORY",
+        "scope": "Brisk sub-zero",
+        "action": "Layer windproof dry wool; check pipes"
+      },
+      {
+        "role": "2 · EXTREME COLD",
+        "scope": "-25°F to -50°F WC",
+        "action": "Cover 100% skin; brief essential tasks only"
+      },
+      {
+        "role": "3 · FROSTBITE / LOSS",
+        "scope": "Numb skin / no heat",
+        "action": "Stop exposure NOW; pets in; check elders"
+      }
+    ],
+    "trigger": "Exposed skin & bare metal contact freeze in minutes during polar outbreaks"
+  },
+  "Z15-P12": {
+    "type": "decision_tree",
+    "gates": [
+      "DOT 511 open & clear?",
+      "Fuel >1/2 + winter trunk kit?",
+      "Visibility & traction safe?"
+    ],
+    "abort": "ABORT EARLY: Exit at nearest safe town — NEVER drive past Road Closed gates"
+  },
+  "Z15-P13": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Clear ENTIRE tailpipe & underbody snow",
+      "Crack downwind window; stay awake",
+      "Bright cloth on antenna; stay WITH car"
+    ],
+    "callout": "Run heat max ~10 min/hr",
+    "accent": "#d4e5ec",
+    "hazard": "NEVER sleep with engine idling"
+  },
+  "Z15-P14": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Vents & exits",
+        "detail": "Clear low PVC furnace vents & doors 1st"
+      },
+      {
+        "label": "Push small",
+        "detail": "Avoid heavy lifts; rest warm frequently"
+      },
+      {
+        "label": "Chute OFF",
+        "detail": "Engine OFF + wood stick (never hands!)"
+      },
+      {
+        "label": "Cardiac stop",
+        "detail": "Chest pressure, dizzy or breath -> 911"
+      }
+    ],
+    "cue": "Wet heavy snow shoveling in freezing air spikes heart-attack risk sharply"
+  },
+  "Z15-P15": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · WARM ROOM",
+        "scope": "Safe indoor temp",
+        "action": "Seal 1 room, zero indoor fuel, track temp"
+      },
+      {
+        "role": "2 · DAYLIGHT MOVE",
+        "scope": "Temp falling",
+        "action": "Check 211/radio open overnight shelter; go"
+      },
+      {
+        "role": "3 · TRAPPED COLD",
+        "scope": "Roads closed + cold",
+        "action": "Call 911 rescue — never drive in whiteout"
+      }
+    ],
+    "trigger": "Leave during safe daylight BEFORE roads close or indoor air freezes"
+  },
+  "Z15-P16": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Upper floors & wide garage (UNSAFE)",
+      "Smallest lowest interior room (no windows)",
+      "Basement / FEMA safe room + sturdy cover"
+    ],
+    "callout": "Shoes, helmets & whistle inside",
+    "accent": "#dce8df",
+    "hazard": "Never stop to crack windows"
+  },
+  "Z15-P17": {
+    "type": "correct_vs_wrong",
+    "variant": "hazard",
+    "correct_title": "STURDY BUILDING EARLY",
+    "correct_items": [
+      "Leave mobile homes/RVs early on Watch",
+      "Reach sturdy interior room before Warning"
+    ],
+    "wrong_title": "FATAL OVERPASS / TRAILER",
+    "wrong_items": [
+      "Highway overpasses create debris wind tunnels",
+      "Mobile homes & RVs disintegrate rapidly"
+    ],
+    "reason": "If trapped in a car with no building -> buckle low below windows & cover head"
+  },
+  "Z15-P18": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Wide-span retail/gym roof & glass (EXIT)",
+      "Interior concrete-block restroom / stairwell",
+      "Crouch low facing wall; cover head & neck"
+    ],
+    "callout": "Skip parking lot dash",
+    "accent": "#dce8df",
+    "hazard": "Stay clear of tall stock racks"
+  },
+  "Z15-P19": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Watch prep",
+        "detail": "Tie down loose yard gear before storms"
+      },
+      {
+        "label": "Warning in",
+        "detail": "Move indoors BEFORE outflow gusts arrive"
+      },
+      {
+        "label": "Skip glass",
+        "detail": "Draw blinds; avoid windows & skylights"
+      },
+      {
+        "label": "Drop low",
+        "detail": "Roaring wind/debris -> basement shelter"
+      }
+    ],
+    "cue": "Derechos pack 70–100+ mph straight-line winds arriving ahead of rain"
+  },
+  "Z15-P20": {
+    "type": "correct_vs_wrong",
+    "variant": "hazard",
+    "correct_title": "ENCLOSED BUILDING + 30 MIN",
+    "correct_items": [
+      "Substantial building or hard-top metal car",
+      "Wait full 30 min after LAST heard thunder"
+    ],
+    "wrong_title": "TREES, PAVILIONS, SHOWERS",
+    "wrong_items": [
+      "Open pavilions, tents & trees are unsafe",
+      "Indoor showers, dishes & cords conduct bolts"
+    ],
+    "reason": "Lightning strikes 10+ miles from rain under blue sky — thunder resets 30-min clock"
+  },
+  "Z15-P21": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Boots & gloves",
+        "detail": "Thick soles, gloves, N95 & LED light only"
+      },
+      {
+        "label": "Wires ≥35 ft",
+        "detail": "Assume ALL downed lines live & lethal"
+      },
+      {
+        "label": "Gas & walls",
+        "detail": "Rotten-egg smell or tilt walls -> stay out"
+      },
+      {
+        "label": "Call pros",
+        "detail": "Report trapped/leaks to 911 & utilities"
+      }
+    ],
+    "cue": "Never use matches/lighters or enter collapsed structures after windstorms"
+  },
+  "Z15-P22": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "OUTDOOR SIRENS\nMuffled by double-pane glass & AC",
+    "barrier": "INSULATED WALL\nUnreliable indoors",
+    "zone_b": "BEDROOM ALERTS\nBattery NOAA SAME + Phone WEA ON",
+    "hazard": "Keep shoes & flashlight beside the bed on evening Tornado Watch nights"
+  },
+  "Z15-P23": {
+    "type": "seasonal_timeline",
+    "variant": "storm_lead",
+    "phases": [
+      {
+        "window": "River Flood",
+        "focus": "Days lead -> move IDs/chems & evac early"
+      },
+      {
+        "window": "Flash Watch",
+        "focus": "Heavy rain/ice jam -> map high routes"
+      },
+      {
+        "window": "Flash Warning",
+        "focus": "Minutes -> move to high ground NOW"
+      },
+      {
+        "window": "Dam / Levee",
+        "focus": "Instant evacuation order — zero delay"
+      }
+    ],
+    "threshold": "Never wait to see water rise outside before acting on Flash Flood Warnings"
+  },
+  "Z15-P24": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "6 in fast water knocks adult down",
+      "12 in cars; 18–24 in trucks",
+      "Hidden washed-out roadbed & open drains"
+    ],
+    "callout": "Turn Around Don’t Drown",
+    "accent": "#639db2",
+    "hazard": "NEVER bypass road barricades"
+  },
+  "Z15-P25": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Closed windowless attic (FATAL TRAP!)",
+      "Highest OPEN floor / last-resort roof",
+      "Flooded basement & live wires (EXIT UP)"
+    ],
+    "callout": "Call 911 & wave bright cloth",
+    "accent": "#639db2",
+    "hazard": "Never swim swift flood current"
+  },
+  "Z15-P26": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Turn around",
+        "detail": "Best rule: NEVER drive into floodwater"
+      },
+      {
+        "label": "Windows NOW",
+        "detail": "Unbuckle & lower windows while power works"
+      },
+      {
+        "label": "Exit high",
+        "detail": "Shallow still edge OR climb onto car ROOF"
+      },
+      {
+        "label": "Call 911",
+        "detail": "Hold on roof for swift-water rescue team"
+      }
+    ],
+    "cue": "If doors pin shut, exit tempered SIDE windows (never laminated windshields)"
+  },
+  "Z15-P27": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Move high",
+        "detail": "Lift IDs, Rx & basement fuels/paint upstairs"
+      },
+      {
+        "label": "Test sump",
+        "detail": "Check pump + battery & clear storm drains"
+      },
+      {
+        "label": "Park high",
+        "detail": "Move vehicles onto verified high dry ground"
+      },
+      {
+        "label": "Evac early",
+        "detail": "Leave while roads stay completely dry"
+      }
+    ],
+    "cue": "Lifting basement fuels/chemicals prevents toxic floodwater soup inside home"
+  },
+  "Z15-P28": {
+    "type": "cross_section",
+    "layers": [
+      "Calm murky street surface (looks shallow)",
+      "Raw sewage, fuel oil & agricultural chemicals",
+      "Sharp submerged glass, nails & downed wires",
+      "Open storm-culvert underwater suction trap"
+    ],
+    "callout": "Zero wading or kids playing — wash splashes with soap & safe water"
+  },
+  "Z15-P29": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · DAYLIGHT LOOK",
+        "scope": "Official clear",
+        "action": "Check tilting walls, foundation & gas odor"
+      },
+      {
+        "role": "2 · PRO CLEARANCE",
+        "scope": "Power/gas/water",
+        "action": "Electrician, utility & certified well lab"
+      },
+      {
+        "role": "3 · PPE CLEANUP",
+        "scope": "Photo claims 1st",
+        "action": "Strip wet porous; outdoor pumps ONLY"
+      }
+    ],
+    "trigger": "NEVER flip flooded breaker panels ON or run gas dewatering pumps indoors"
+  },
+  "Z15-P30": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · READY",
+        "scope": "Year-round",
+        "action": "Defensible space, go-bags & 2 exit routes"
+      },
+      {
+        "role": "2 · SET",
+        "scope": "Fire nearby",
+        "action": "Load car nose-out full fuel; cotton/boots"
+      },
+      {
+        "role": "3 · GO NOW",
+        "scope": "Order / unsafe",
+        "action": "Evacuate IMMEDIATELY on official open road"
+      }
+    ],
+    "trigger": "Wind shifts & spotting embers jump highways in minutes — leave early"
+  },
+  "Z15-P31": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Seal cabin",
+        "detail": "Low beams ON, windows UP, air RECIRCULATE"
+      },
+      {
+        "label": "Official road",
+        "detail": "Obey deputies/DOT — skip GPS shortcuts!"
+      },
+      {
+        "label": "Avoid walls",
+        "detail": "Never drive into flames or zero-vis smoke"
+      },
+      {
+        "label": "Check in",
+        "detail": "Text relay & shelter; stay out til cleared"
+      }
+    ],
+    "cue": "GPS apps divert cars off highways onto burning side roads or locked gates"
+  },
+  "Z15-P32": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · AQI 101–150",
+        "scope": "Sensitive groups",
+        "action": "Kids, elders, asthma/heart move indoors"
+      },
+      {
+        "role": "2 · AQI 151–200",
+        "scope": "Unhealthy (ALL)",
+        "action": "Everyone indoors; cut heavy outdoor effort"
+      },
+      {
+        "role": "3 · AQI 201+",
+        "scope": "Very Unhealthy+",
+        "action": "Close house; HEPA clean room; watch breath"
+      }
+    ],
+    "trigger": "Long-range smoke plumes 500+ miles away still drive dangerous PM2.5 lungs"
+  },
+  "Z15-P33": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Windows & outdoor air intakes CLOSED",
+      "Sized portable non-ozone HEPA purifier",
+      "Zero frying, candles, smoking or non-HEPA vac"
+    ],
+    "callout": "HVAC on RECIRCULATE",
+    "accent": "#dce8df",
+    "hazard": "NEVER use ozone generators"
+  },
+  "Z15-P34": {
+    "type": "branch",
+    "question": "Do you have working recirculating AC inside your sealed clean room?",
+    "yes": "Run AC on RECIRCULATE + HEPA purifier; monitor indoor temp continuously",
+    "no": "HEAT STROKE KILLS FASTER -> Relocate early to AC clean-air cooling center",
+    "stop": "Never trap elders or infants in a sealed >90–95°F un-air-conditioned room"
+  },
+  "Z15-P35": {
+    "type": "correct_vs_wrong",
+    "variant": "hazard",
+    "correct_title": "SEALED NIOSH N95 / P100",
+    "correct_items": [
+      "Dual head straps & nose wire on smooth skin",
+      "Filters fine PM2.5 smoke particles ONLY"
+    ],
+    "wrong_title": "BANDANAS, SURGICAL, CO",
+    "wrong_items": [
+      "Cloth/surgical masks & beards leak PM2.5",
+      "Zero protection vs CO or low oxygen near fire"
+    ],
+    "reason": "Keep young children indoors in HEPA clean air rather than loose adult N95s"
+  },
+  "Z15-P36": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Hidden smoldering ash root pits",
+      "Falling fire-weakened snags/poles",
+      "Burn-scar rain debris-flow chute"
+    ],
+    "callout": "Return ONLY after official clearance — wear leather boots, gloves & N95"
+  },
+  "Z15-P37": {
+    "type": "seasonal_timeline",
+    "variant": "food_temp",
+    "phases": [
+      {
+        "window": "Day 1 Peak",
+        "focus": "Draw sun shades; shift tasks to early dawn"
+      },
+      {
+        "window": "Warm Night",
+        "focus": "Overnight >75–80°F blocks body cooling"
+      },
+      {
+        "window": "Days 2–4",
+        "focus": "Cumulative heat stress; check elders 2x/d"
+      },
+      {
+        "window": "Action Gate",
+        "focus": "No AC + rising indoor heat -> AC center"
+      }
+    ],
+    "threshold": "High overnight lows turn multi-day heat waves lethal inside un-cooled homes"
+  },
+  "Z15-P38": {
+    "type": "correct_vs_wrong",
+    "variant": "thermal",
+    "correct_title": "COOL BASEMENT / AC CENTER",
+    "correct_items": [
+      "Cool wet cloths, cool showers & shaded floor",
+      "Relocate to AC cooling center before >95°F"
+    ],
+    "wrong_title": "ELECTRIC FANS >95°F HEAT",
+    "wrong_items": [
+      "Blowing >95°F air increases body heat gain",
+      "Trapped top-floor heat without AC backup"
+    ],
+    "reason": "Never rely solely on electric fans for older/frail people in extreme heat"
+  },
+  "Z15-P39": {
+    "type": "seasonal_timeline",
+    "variant": "food_temp",
+    "phases": [
+      {
+        "window": "T+0 Min",
+        "focus": "Mild 70°F sunny parking lot"
+      },
+      {
+        "window": "T+10 Min",
+        "focus": "Cabin jumps +20°F even with cracked glass"
+      },
+      {
+        "window": "T+30 Min",
+        "focus": "Fatal >115–120°F greenhouse heat stroke"
+      },
+      {
+        "window": "Zero Habit",
+        "focus": "Put bag/shoe by rear seat; open rear door"
+      }
+    ],
+    "threshold": "NEVER leave a child, dependent adult or pet alone in a parked car — 0 min"
+  },
+  "Z15-P40": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Find 211 AC",
+        "detail": "Map free libraries, malls & county centers"
+      },
+      {
+        "label": "Peak hours",
+        "detail": "Spend ~11 a.m.–6 p.m. in cool AC spaces"
+      },
+      {
+        "label": "Check 2x/day",
+        "detail": "Call/knock on solo & older neighbors"
+      },
+      {
+        "label": "Escalate 911",
+        "detail": "Unanswered check or confusion -> call 911"
+      }
+    ],
+    "cue": "Verify accessible transit and pet/service-animal rules before heat peaks"
+  },
+  "Z15-P41": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · HEAT EXHAUST",
+        "scope": "Dizzy/sweaty/weak",
+        "action": "Shade/AC, cool cloths, sip water, monitor"
+      },
+      {
+        "role": "2 · HEAT STROKE",
+        "scope": "Confused/collapse",
+        "action": "Call 911 NOW + cold water douse/immersion"
+      },
+      {
+        "role": "3 · EMS HOSPITAL",
+        "scope": "Mandatory eval",
+        "action": "Keep NPO; cool continuously until EMS"
+      }
+    ],
+    "trigger": "Never delay cooling until an ambulance arrives — cool FIRST and continuously"
+  },
+  "Z15-P42": {
+    "type": "mechanism",
+    "nodes": [
+      "Wide-area grid blackout",
+      "Gas pumps, ATMs, towers & wells fail",
+      "Half-tank, cash, water & paper buffers"
+    ],
+    "callout": "Restore hospitals & mains before rural taps"
+  },
+  "Z15-P43": {
+    "type": "seasonal_timeline",
+    "variant": "outage_30d",
+    "phases": [
+      {
+        "window": "Hour 1",
+        "focus": "LEDs (no candles), shut cold doors, unplug"
+      },
+      {
+        "window": "Days 1–2",
+        "focus": "Cold-food triage; outdoor-only ≥20 ft gen"
+      },
+      {
+        "window": "Days 3–7",
+        "focus": "Daily temp/reserve log; zero indoor fuel"
+      },
+      {
+        "window": "Exit Gate",
+        "focus": "Relocate early if cold/heat/meds hit floor"
+      }
+    ],
+    "threshold": "Fatigue on Day 4 NEVER excuses pulling a generator into a garage or porch"
+  },
+  "Z15-P44": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · BOIL WATER",
+        "scope": "Microbial notice",
+        "action": "Clear rolling boil 1 m (3 m >6500 ft); no ice"
+      },
+      {
+        "role": "2 · DO NOT DRINK",
+        "scope": "Chemical/algal",
+        "action": "NEVER boil! Bottled/supplied safe H2O only"
+      },
+      {
+        "role": "3 · DO NOT USE",
+        "scope": "Severe hazard",
+        "action": "Zero tap contact til formal utility lab clear"
+      }
+    ],
+    "trigger": "Returning tap pressure & clear water do NOT end an advisory — wait for notice"
+  },
+  "Z15-P45": {
+    "type": "system_boundary",
+    "variant": "well_septic",
+    "zone_a": "PROTECTED DRINKING\nNever starve daily body hydration",
+    "barrier": "48-HR REFILL FLOOR\nSanitized jugs -> POD hub",
+    "zone_b": "WASTE CUTS\nPaper plates, spigot wash, bucket toilet",
+    "hazard": "Refill sanitized food-grade jugs at county hubs BEFORE home stocks run dry"
+  },
+  "Z15-P46": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Brief SMS",
+        "detail": "Text slips through when voice calls jam"
+      },
+      {
+        "label": "Save battery",
+        "detail": "Airplane mode between scheduled check-ins"
+      },
+      {
+        "label": "NOAA / AM-FM",
+        "detail": "Monitor county alerts & backup 911 numbers"
+      },
+      {
+        "label": "Physical hub",
+        "detail": "Know nearest staffed fire station/hospital"
+      }
+    ],
+    "cue": "Medically fragile households without 911 access should relocate early"
+  },
+  "Z15-P47": {
+    "type": "correct_vs_wrong",
+    "variant": "hazard",
+    "correct_title": "1/2-TANK + SMALL CASH",
+    "correct_items": [
+      "Refuel every vehicle at 1/2 tank year-round",
+      "Stage small –0 cash for offline retail"
+    ],
+    "wrong_title": "EMPTY TANK / CABIN GAS",
+    "wrong_items": [
+      "Queuing on empty when blackout kills pumps",
+      "Carrying loose fuel jugs inside car cabins"
+    ],
+    "reason": "Half-tank discipline gives instant 150–250+ mile evacuation range anytime"
+  },
+  "Z15-P48": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "OUTDOOR CHEM PLUME\nHeavy gases sink low to basements",
+    "barrier": "LOCKED + HVAC OFF\nAll fans & vents OFF",
+    "zone_b": "ABOVE-GROUND ROOM\nShort-term seal ONLY per order",
+    "hazard": "Unseal & ventilate promptly on all-clear — sealed rooms build CO2 over hours"
+  },
+  "Z15-P49": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Wildfire Smoke",
+        "note": "Closed windows + HEPA purifier + recirc",
+        "limit": "Relocate if heat spikes"
+      },
+      {
+        "name": "Outdoor Hazmat",
+        "note": "All HVAC/fans OFF + above-ground short seal",
+        "limit": "HEPA ≠ gas filter"
+      },
+      {
+        "name": "Indoor Gas / CO",
+        "note": "Evacuate IMMEDIATELY to open outdoor air",
+        "limit": "Call 911 outside"
+      }
+    ]
+  },
+  "Z15-P50": {
+    "type": "decision_tree",
+    "gates": [
+      "Mandatory evac / fire / flood / CO?",
+      "Outdoor storm/hazmat safer inside?",
+      "Follow official SHELTER order"
+    ],
+    "abort": "EVACUATE NOW: Mandatory orders, advancing fire/flood, CO or failed habitability"
+  },
+  "Z15-P51": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Primary Route A (monitored)",
+      "Flood/fire closure + GPS trap",
+      "Independent Opposite Route B"
+    ],
+    "callout": "Keep PAPER county map in car — obey deputies/DOT over GPS apps"
+  },
+  "Z15-P52": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Buddy pairs",
+        "detail": "1 adult assigned per child, elder or pet"
+      },
+      {
+        "label": "3 headcounts",
+        "detail": "Exit door -> vehicle/block -> shelter arrival"
+      },
+      {
+        "label": "School rules",
+        "detail": "Photo ID & official off-site reunification"
+      },
+      {
+        "label": "Relay text",
+        "detail": "Update out-of-area hub once safely arrived"
+      }
+    ],
+    "cue": "Missing person at rally point -> tell fire/police; NEVER re-enter hazard"
+  },
+  "Z15-P53": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "PUBLIC SHELTER\nRegister desk, own Rx, ADA service dogs",
+    "barrier": "SAFETY & ADA RULES\nNo flames/weapons",
+    "zone_b": "CO-LOCATED PET BAY\nCompanion pets, carriers & vaccines",
+    "hazard": "Report acute illness or medical-power limits immediately to shelter staff"
+  },
+  "Z15-P54": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Early Watch",
+        "detail": "Activate 3-person support network early"
+      },
+      {
+        "label": "Summary card",
+        "detail": "Laminated Rx, device watts & comms needs"
+      },
+      {
+        "label": "Spares ready",
+        "detail": "Hearing/mobility batteries & manual backup"
+      },
+      {
+        "label": "Accessible move",
+        "detail": "Pre-mapped lift transport or early 911"
+      }
+    ],
+    "cue": "Extra lead time is essential — leave on Advisory/Watch before last-hour rush"
+  },
+  "Z15-P55": {
+    "type": "exploded",
+    "components": [
+      "Sturdy labeled carrier/leash",
+      "ID tags + microchip/vaccines",
+      "7-d pet food, water & meds",
+      "Pre-mapped pet hotels/PODs"
+    ],
+    "callout": "If it is not safe for you, it is not safe for pets — move livestock EARLY"
+  },
+  "Z15-P56": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "Official clear",
+        "detail": "Wait for county re-entry + bring photo ID"
+      },
+      {
+        "label": "360° daylight",
+        "detail": "Inspect wires, walls, trees & gas smell 1st"
+      },
+      {
+        "label": "Photo damage",
+        "detail": "Video every room BEFORE moving debris"
+      },
+      {
+        "label": "Clear hazards",
+        "detail": "Keep kids & pets out until glass/sewage clear"
+      }
+    ],
+    "cue": "Tilting walls, sagging ceilings, gas odor or wet panels -> stay out & call pros"
+  },
+  "Z15-P57": {
+    "type": "seasonal_timeline",
+    "variant": "outage_30d",
+    "phases": [
+      {
+        "window": "Days 1–3",
+        "focus": "Stabilize: safety, alarms, cold doors, comms"
+      },
+      {
+        "window": "Days 4–14",
+        "focus": "Adapt: daily logs, sanitation & hub refills"
+      },
+      {
+        "window": "Days 15–25",
+        "focus": "Sustain: routines, morale & mutual aid"
+      },
+      {
+        "window": "Days 26–30",
+        "focus": "Recover: phased utility return & claims"
+      }
+    ],
+    "threshold": "Structured phasing prevents Day 1–3 fuel burnout and Week 2 hygiene collapse"
+  },
+  "Z15-P58": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Log 4 metrics",
+        "detail": "Water gal, food days, fuel & battery/Rx"
+      },
+      {
+        "label": "Smart eat order",
+        "detail": "Fridge -> freezer -> cellar -> shelf pantry"
+      },
+      {
+        "label": "48–72 h floor",
+        "detail": "Red-line trigger BEFORE stocks hit zero"
+      },
+      {
+        "label": "Calm resupply",
+        "detail": "Hit county POD hub or relocate in daylight"
+      }
+    ],
+    "cue": "Five calm minutes of evening paper logging prevents simultaneous shortages"
+  },
+  "Z15-P59": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "CLEAN POTABLE ZONE\nDrinking jugs & meal prep strictly isolated",
+    "barrier": "DAILY CHORE ROTA\n20 s soap & lids",
+    "zone_b": "WASH / WASTE / SICK\nLaundry tub, sealed bins & sick room",
+    "hazard": "Week 2 hygiene lapses trigger household diarrheal outbreaks — rotate chores"
+  },
+  "Z15-P60": {
+    "type": "sequence_plate",
+    "variant": "evac",
+    "steps": [
+      {
+        "label": "10-m huddle",
+        "detail": "Share verified radio facts; skip rumors"
+      },
+      {
+        "label": "Kid routines",
+        "detail": "Steady meals, sleep, books & helper tasks"
+      },
+      {
+        "label": "Rotate rest",
+        "detail": "Share watch/chores so adults stay sharp"
+      },
+      {
+        "label": "Crisis support",
+        "detail": "Reach community support / 988 / 911 early"
+      }
+    ],
+    "cue": "Sleep-deprived adults make lethal generator, stove & driving errors"
+  },
+  "Z15-P61": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · HOME RESERVES",
+        "scope": "Core family floor",
+        "action": "Protect medical, water & pantry baseline"
+      },
+      {
+        "role": "2 · NEIGHBOR AID",
+        "scope": "Mutual check-ins",
+        "action": "Share non-critical surplus & check elders"
+      },
+      {
+        "role": "3 · COUNTY POD HUBS",
+        "scope": "Official relief",
+        "action": "Use water/charging/ice PODs early; no freelance"
+      }
+    ],
+    "trigger": "Community-integrated resilience saves lives — NEVER freelance in rescue scenes"
+  },
+  "Z15-P62": {
+    "type": "decision_tree",
+    "gates": [
+      "Meds/H2O >48 h & safe temp?",
+      "Zero CO/gas/sewage & no order?",
+      "Continue steady home pacing"
+    ],
+    "abort": "RELOCATE OR CALL 911 NOW: Crossing ANY of the 5 red lines = plan SUCCESS"
+  },
+  "Z15-P63": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Spring Check",
+        "focus": "Alarms, NOAA SAME, sump & tornado drill"
+      },
+      {
+        "window": "Summer Update",
+        "focus": "Swap kids gear, Rx & cooling/HEPA stock"
+      },
+      {
+        "window": "Fall Check",
+        "focus": "Rotate 6-mo water, winter kit & shutoff walk"
+      },
+      {
+        "window": "Year-Round",
+        "focus": "Update wallet cards whenever phones change"
+      }
+    ],
+    "threshold": "Two 30-minute refreshes yearly turn paper binders into calm muscle memory"
+  },
+  "Z15-P64": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Photo first",
+        "detail": "Document EVERY room & waterline pre-cleanup"
+      },
+      {
+        "label": "Save receipts",
+        "detail": "Keep lodging, tarp, fuel & repair receipts"
+      },
+      {
+        "label": "Official .gov",
+        "detail": "FEMA/state applications are ALWAYS free"
+      },
+      {
+        "label": "Vet builders",
+        "detail": "Check state license; zero 100% cash upfront"
+      }
+    ],
+    "cue": "High-pressure cash demands or FEMA-fee solicitors are disaster scams"
+  },
+  "Z15-P65": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · DRAFT + R03",
+        "scope": "65 Z15 pages",
+        "action": "FEMA/NWS/EPA/MN bounds; primer kept"
+      },
+      {
+        "role": "2 · LOCAL ORDERS",
+        "scope": "Live authority",
+        "action": "County evac maps, DOT & NWS supersede text"
+      },
+      {
+        "role": "3 · SME SIGN-OFF",
+        "scope": "Mandatory gate",
+        "action": "EM director, meteorology & hazmat (H13)"
+      }
+    ],
+    "trigger": "Publication remains HOLD — zero qualified human disaster approvals granted"
   }
 }

@@ -37007,6 +37007,130 @@
     "reviewer": "Food preservation process authority, food microbiologist, and Extension governance"
   },
   {
+    "id": "Z15-P01",
+    "zone": "Z15",
+    "title": "Build a local jurisdiction hazard profile and multi-channel warning stack",
+    "origin": "FEMA Ready.gov Be Informed and Alerts; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify the primary hazards specific to your county and neighborhood (river floodplains, tornado corridors, winter ice/blizzard feeders, wildland-urban interface, rail/highway hazmat routes) using county emergency-management maps rather than generic national checklists.",
+        "claims": [
+          "D01",
+          "D02"
+        ]
+      },
+      {
+        "text": "Layer at least THREE independent warning channels: Wireless Emergency Alerts (WEA) on phones, local municipal/county opt-in text/voice alerts, and a battery/hand-crank NOAA Weather Radio with SAME county coding so a dead cell tower never leaves you blind overnight.",
+        "claims": [
+          "D01",
+          "T14",
+          "T15"
+        ]
+      },
+      {
+        "text": "Record local county emergency management, non-emergency dispatch, utility outage hotlines, and official local radio stations on paper reviewed twice yearly.",
+        "claims": [
+          "D01",
+          "U16"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Align household emergency plans with the real local hazards, official alert systems, and county evacuation maps where you live.",
+    "applies": "Households, families, and rural/urban residents establishing a multi-hazard preparedness baseline.",
+    "equipment": "Smartphone with WEA alerts enabled, county opt-in alert enrollment, battery/crank NOAA Weather Radio, and printed local shelter/agency map.",
+    "failure": {
+      "text": "Relying solely on outdoor tornado sirens or social media feeds that fail when cell towers lose power during a nighttime storm.",
+      "claims": [
+        "D01",
+        "D03"
+      ]
+    },
+    "verify": {
+      "text": "Confirm WEA enabled, county opt-in registered, NOAA radio SAME code tested, and printed local hazard/agency list stored with kits.",
+      "claims": [
+        "D01",
+        "T15"
+      ]
+    },
+    "stop": {
+      "text": "Do not assume out-of-state or outdated maps reflect current evacuation zones, sirens, or local emergency procedures—verify directly with local authorities.",
+      "claims": [
+        "D01"
+      ]
+    },
+    "diagram": "Map county hazards & evacuation zones | Layer WEA + county opt-in + NOAA radio | Print local agency & radio list; review 2x/yr",
+    "visual": "Exploded four-channel local alert stack combining county hazard mapping, smartphone WEA, local opt-in alerts, and battery NOAA Weather Radio. Conceptual, not to scale.",
+    "reviewer": "Emergency management specialist"
+  },
+  {
+    "id": "Z15-P02",
+    "zone": "Z15",
+    "title": "Distinguish Watch, Warning, Advisory, and Emergency alert tiers cleanly",
+    "origin": "NWS Flood/Tornado Safety and Ready.gov; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat a **WATCH** (conditions are favorable for dangerous weather to develop across the area) as your **PREPARE & STAGE** trigger: finish fuel/supply staging, charge batteries, monitor live updates closely, cancel exposed outdoor travel, and verify shelter readiness.",
+        "claims": [
+          "T16",
+          "D03",
+          "D01"
+        ]
+      },
+      {
+        "text": "Treat a **WARNING** (hazardous weather or flooding is imminent or ALREADY OCCURRING in your warned polygon) as your **ACT IMMEDIATELY** trigger: move straight to lowest interior shelter (tornado), high ground (flash flood), or off roads (blizzard) without waiting to look outside.",
+        "claims": [
+          "T16",
+          "D03",
+          "D05"
+        ]
+      },
+      {
+        "text": "Treat an **EMERGENCY** tier (Tornado Emergency, Flash Flood Emergency, Evacuation Order) as an extreme life-threatening rare escalation demanding maximum immediate protective action or mandatory departure.",
+        "claims": [
+          "D03",
+          "D05",
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Match household urgency accurately to official NWS and emergency-management alert language so action starts early without confusion.",
+    "applies": "Severe thunderstorm, tornado, flash flood, blizzard, ice storm, extreme heat, and wildfire alerts.",
+    "equipment": "NOAA Weather Radio, smartphone WEA, and written household Watch-vs-Warning action triggers.",
+    "failure": {
+      "text": "Confusing a Tornado Warning with a Watch and stepping onto the porch to film dark clouds instead of moving immediately to the basement.",
+      "claims": [
+        "D03",
+        "T16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every adult and older child knows Watch = prepare/monitor and Warning = act NOW without visual confirmation.",
+      "claims": [
+        "T16",
+        "D03"
+      ]
+    },
+    "stop": {
+      "text": "Never wait to see a funnel cloud, wall of water, or flames before executing Warning-level protective actions.",
+      "claims": [
+        "D03",
+        "D05",
+        "D08"
+      ]
+    },
+    "diagram": "WATCH = conditions favorable -> prepare | WARNING = imminent/occurring -> act NOW | EMERGENCY = extreme threat -> max shelter",
+    "visual": "Three-tier NWS alert escalation ladder differentiating Watch preparation, Warning immediate shelter/evacuation, and rare Emergency life-threat escalations. Conceptual, not to scale.",
+    "reviewer": "Meteorology and emergency management"
+  },
+  {
     "id": "Z15-R03",
     "zone": "Z15",
     "title": "Track cold food during a power outage",
@@ -37056,5 +37180,3753 @@
     "diagram": "Record power-off time | Keep doors closed | Apply official food chart",
     "visual": "Time and measured temperature together inform the per-item decision.",
     "reviewer": "Food safety and household preparedness"
+  },
+  {
+    "id": "Z15-P04",
+    "zone": "Z15",
+    "title": "Anticipate Minnesota and Upper Midwest four-season disaster patterns",
+    "origin": "MN HSEM Weather Awareness; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Align seasonal staging with Upper Midwest risk windows: **Spring** (rapid snowmelt river flooding, ice jams, early severe storms), **Summer** (tornadoes, straight-line derechos, flash floods, extreme heat domes, regional wildfire smoke plumes), **Autumn** (early wet snow/windstorms, harvest fire/smoke), and **Winter** (blizzards, freezing-rain ice storms, extreme wind-chill blackouts).",
+        "claims": [
+          "D02",
+          "D06",
+          "D10"
+        ]
+      },
+      {
+        "text": "Refresh vehicle and household kits proactively twice a year (spring severe-storm/flood switchover and autumn winter-storm/heating switchover) rather than hunting for shovels or HEPA filters mid-crisis.",
+        "claims": [
+          "D02",
+          "U10"
+        ]
+      },
+      {
+        "text": "Treat seasonal calendars strictly as planning aids—unseasonal December tornadoes, November blizzards, and early-spring droughts occur, so live NWS warnings ALWAYS govern daily decisions.",
+        "claims": [
+          "D02",
+          "D01"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Stage seasonal gear, alerts, and household drills ahead of each Upper Midwest hazard peak while staying alert for off-season extremes.",
+    "applies": "Residents and travelers across Minnesota, Wisconsin, Iowa, the Dakotas, and northern continental climates.",
+    "equipment": "Annual four-season preparedness calendar, NOAA Weather Radio, and seasonal home/vehicle kits.",
+    "failure": {
+      "text": "Leaving winter blankets, snow shovel, and jumper gear out of the car trunk until late November and getting stranded in an early-season freezing sleet storm.",
+      "claims": [
+        "D02",
+        "D10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm spring and autumn seasonal kit switchovers scheduled on calendar and live NWS/MN HSEM alerts active year-round.",
+      "claims": [
+        "D02"
+      ]
+    },
+    "stop": {
+      "text": "Never dismiss an off-season NWS Warning because \"it is too early/late in the year for that hazard.\"",
+      "claims": [
+        "D02"
+      ]
+    },
+    "diagram": "Spring: snowmelt flood & early storms | Summer: tornado, derecho, heat & smoke | Winter: blizzard, ice storm & wind chill",
+    "visual": "Four-season Upper Midwest disaster timeline mapping spring flood, summer storm/heat/smoke, autumn transition, and winter blizzard/ice-storm readiness. Conceptual, not to scale.",
+    "reviewer": "Regional emergency management and meteorology"
+  },
+  {
+    "id": "Z15-P05",
+    "zone": "Z15",
+    "title": "Maintain household communication cards, out-of-area relays, and rally points",
+    "origin": "FEMA Ready.gov Make a Plan; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Designate ONE **out-of-area emergency contact** (relative or friend living in another state/region outside the local disaster zone)—during regional disasters, local calls often jam while brief SMS texts to an out-of-area number still get through so everyone checks in through one hub.",
+        "claims": [
+          "T11",
+          "D13"
+        ]
+      },
+      {
+        "text": "Agree on TWO physical meeting places BEFORE an emergency: **1) Neighborhood rally point** right outside your block (for house fires or gas leaks), and **2) Out-of-neighborhood or out-of-town rally point** (library, school, relative's home) if police block entry to your street.",
+        "claims": [
+          "T11",
+          "D13"
+        ]
+      },
+      {
+        "text": "Put a laminated paper contact card (names, phones, rally addresses, medical allergies, school pick-up authorization) in every adult wallet and child backpack so no one depends on a dead smartphone screen.",
+        "claims": [
+          "T11",
+          "D13"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reunite separated family members reliably when disasters strike during school or work hours and local cell circuits overload.",
+    "applies": "Families, roommates, and households whose members commute to separate schools, jobs, or care sites.",
+    "equipment": "Laminated wallet contact cards for every member, designated out-of-area relay person, and two mapped physical rally points.",
+    "failure": {
+      "text": "Losing cell service during a midday tornado while family members drive to opposite sides of town guessing where everyone else went.",
+      "claims": [
+        "T11",
+        "D13"
+      ]
+    },
+    "verify": {
+      "text": "Confirm every member carries a paper contact card, knows the out-of-area relay, and has walked or viewed both physical rally points.",
+      "claims": [
+        "T11",
+        "D13"
+      ]
+    },
+    "stop": {
+      "text": "Never drive into active law-enforcement road closures or live hazard zones trying to locate family—check in via the out-of-area contact and designated rally point.",
+      "claims": [
+        "D13",
+        "D14"
+      ]
+    },
+    "diagram": "Out-of-area relay contact + SMS texts | 2 rally points: block & out-of-neighborhood | Paper wallet/backpack card for everyone",
+    "visual": "Four-step family communication and reunification plate covering wallet cards, out-of-area SMS hub, neighborhood rally, and out-of-town rally. Conceptual, not to scale.",
+    "reviewer": "Emergency management and family reunification"
+  },
+  {
+    "id": "Z15-P06",
+    "zone": "Z15",
+    "title": "Safeguard vital documents, insurance records, and small cash reserves",
+    "origin": "FEMA Ready.gov Financial Preparedness; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Store physical copies (plus encrypted offline digital copies) of critical records inside a sealed waterproof grab-and-go pouch: photo IDs, birth/marriage certificates, medical, prescription, and immunization lists, insurance policies, property deeds/leases, bank/utility account numbers, and pet vaccination records.",
+        "claims": [
+          "D16",
+          "D17"
+        ]
+      },
+      {
+        "text": "Keep a modest reserve of **small-denomination cash** ($1s, $5s, $10s, $20s) stored securely at home—regional blackouts shut down ATMs, bank branches, and retail credit-card terminals immediately, and stores often cannot make change for large bills.",
+        "claims": [
+          "D16",
+          "D11"
+        ]
+      },
+      {
+        "text": "Walk through every room and garage annually taking clear smartphone photos/videos of furnishings, tools, and serial numbers backed up offline so post-storm or post-flood insurance claims rest on solid documentation.",
+        "claims": [
+          "D16"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Ensure households can prove identity, obtain prescriptions, buy fuel/food when card networks fail, and file recovery claims rapidly.",
+    "applies": "Pre-disaster household continuity planning and post-disaster recovery.",
+    "equipment": "Waterproof/fire-resistant grab-and-go pouch, encrypted offline USB/drive backup, home-inventory photos, and small-denomination cash.",
+    "failure": {
+      "text": "Evacuating a wildfire or flood with zero paper IDs, zero prescription list, and $0 cash while regional card networks and cloud portals stay offline for four days.",
+      "claims": [
+        "D16",
+        "D11"
+      ]
+    },
+    "verify": {
+      "text": "Confirm waterproof document pouch staged with go-bag, encrypted offline backup updated annually, home photos stored, and small cash secured.",
+      "claims": [
+        "D16"
+      ]
+    },
+    "stop": {
+      "text": "Never leave unencrypted sensitive identity files exposed in shared public spaces or hand personal banking info to unverified post-disaster solicitors.",
+      "claims": [
+        "D16"
+      ]
+    },
+    "diagram": "Waterproof pouch: IDs, Rx, deeds, insurance | Small bills cash (ATMs/cards die in outage) | Annual room-by-room home photo inventory",
+    "visual": "Exploded four-part financial-continuity kit covering waterproof vital documents, encrypted offline drive, room inventory photos, and small-denomination cash. Conceptual, not to scale.",
+    "reviewer": "Emergency management and household continuity"
+  },
+  {
+    "id": "Z15-P07",
+    "zone": "Z15",
+    "title": "Account for children, older adults, disabilities, and pets in every plan",
+    "origin": "FEMA People with Disabilities and Pets; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Build explicit individualized plans BEFORE disasters: identify personal support buddies for older or mobility-limited adults, pack spare eyeglasses/hearing-aid batteries/mobility chargers and 7+ days of prescriptions, and confirm accessible evacuation vehicles ahead of time.",
+        "claims": [
+          "T10",
+          "D17"
+        ]
+      },
+      {
+        "text": "Pre-pack sturdy leashes, carriers, collars with current ID tags, vaccination records, and 7+ days of food/water for companion pets and service animals—NEVER leave pets chained or locked inside homes during mandatory evacuations.",
+        "claims": [
+          "D17",
+          "P15"
+        ]
+      },
+      {
+        "text": "Verify school, daycare, and senior-facility emergency evacuation locations and authorized pick-up lists twice a year so parents/caregivers know exact institutional reunification rules.",
+        "claims": [
+          "T11",
+          "D17"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate life-threatening last-minute gaps for household members who need extra time, mobility assistance, medications, or animal transport.",
+    "applies": "Every household caring for children, older adults, individuals with access/functional needs, service animals, or pets.",
+    "equipment": "Written individual support plans, spare medical/mobility aids, labeled comfort/care bags, and pet leashes/carriers.",
+    "failure": {
+      "text": "Trying to wrangle two terrified loose cats during a 10-minute wildfire evacuation without carriers, or forgetting a grandparent's hearing-aid batteries and wheelchair charger.",
+      "claims": [
+        "T10",
+        "D17"
+      ]
+    },
+    "verify": {
+      "text": "Confirm buddy assignments, spare sensory/mobility/medication items packed, pet carriers staged by exits, and school/care-facility plans verified.",
+      "claims": [
+        "T10",
+        "D17"
+      ]
+    },
+    "stop": {
+      "text": "Extra evacuation lead time is non-negotiable for households with access needs—leave on early advisory/voluntary notices rather than waiting for final-hour orders.",
+      "claims": [
+        "T10",
+        "D14"
+      ]
+    },
+    "diagram": "Buddy plans + spare Rx/mobility/hearing | Carriers, tags & food staged for ALL pets | Leave EARLY when access needs add time",
+    "visual": "Comparative household-needs matrix mapping children/school reunification, disability/medical power spares, and pet vs ADA service-animal transport prep. Conceptual, not to scale.",
+    "reviewer": "Accessible emergency management and animal welfare"
+  },
+  {
+    "id": "Z15-P08",
+    "zone": "Z15",
+    "title": "Separate grab-and-go evacuation bags from multi-week stay-home kits",
+    "origin": "FEMA Ready.gov Build a Kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stage lightweight **grab-and-go bags** (one per person/family unit near an exit or car trunk) containing 72-hour essentials you can grab in under two minutes: water bottles, no-cook snacks, headlamp, NOAA/hand radio, phone power bank, rain/warm layers, basic first-aid kit, N95 masks, waterproof document pouch, cash, and 7-day spare medications.",
+        "claims": [
+          "T12",
+          "D14",
+          "D16"
+        ]
+      },
+      {
+        "text": "Keep bulkier **stay-home resilience supplies** separately at home (14–30 day rotated food pantry, multi-gallon water jugs, emergency bucket sanitation, blankets/sleeping bags, tools, HEPA clean-room fan/filter, and outdoor cooking backup) so heavy bins never slow down an urgent evacuation.",
+        "claims": [
+          "T12",
+          "U08",
+          "D18"
+        ]
+      },
+      {
+        "text": "Inspect both kits twice yearly (when clocks change in spring and autumn) to swap expired batteries, rotate seasonal warm/cool clothing, and update children's clothing sizes and prescriptions.",
+        "claims": [
+          "T12"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep evacuation gear light enough to carry in two minutes while maintaining bulkier multi-week supplies cleanly at home.",
+    "applies": "Residential preparedness for both rapid evacuation (fire/flood/hazmat) and prolonged sheltering (blizzard/blackout).",
+    "equipment": "Portable backpacks/duffels (go-bags) near exit plus labeled home pantry, water, and utility bins.",
+    "failure": {
+      "text": "Packing all emergency supplies into one 90-pound plastic tub in the attic that cannot be lifted down stairs during a sudden midnight wildfire evacuation.",
+      "claims": [
+        "T12",
+        "D14"
+      ]
+    },
+    "verify": {
+      "text": "Confirm go-bags are liftable in 2 minutes by their assigned carrier, stay-home bins are labeled separately, and 6-month refresh dates are logged.",
+      "claims": [
+        "T12",
+        "D14"
+      ]
+    },
+    "stop": {
+      "text": "Never delay an urgent evacuation to pack bulky stay-home items—human life and compact go-bags leave first.",
+      "claims": [
+        "D14",
+        "T13"
+      ]
+    },
+    "diagram": "Go-bag (2-min grab): IDs, meds, light, H2O | Stay-home kit: bulk water, pantry, bucket | Refresh seasonal clothes & cells 2x/yr",
+    "visual": "System boundary diagram contrasting lightweight 2-minute grab-and-go bags by exits against heavy multi-week stay-home resilience bins. Conceptual, not to scale.",
+    "reviewer": "Emergency management specialist"
+  },
+  {
+    "id": "Z15-P09",
+    "zone": "Z15",
+    "title": "Stage household supplies and vehicles before Blizzard and Ice Storm Warnings hit",
+    "origin": "FEMA Winter Weather and NWS Winter Safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Complete errands EARLY on Winter Storm Watch days: top off vehicle fuel tanks, fill critical prescription refills, stage stored drinking water and no-cook pantry foods, fully charge all phones/power banks/medical batteries, and bring a snow shovel and ice-melt/sand inside near the door.",
+        "claims": [
+          "D10",
+          "U01",
+          "U10"
+        ]
+      },
+      {
+        "text": "Clear gutters/downspouts before freezing-rain ice storms, check exterior furnace/dryer vent locations, test smoke and CO alarms, and confirm family warming-center backup options before whiteouts begin.",
+        "claims": [
+          "D10",
+          "U12",
+          "U17"
+        ]
+      },
+      {
+        "text": "Cancel non-essential travel completely once a Blizzard Warning or Ice Storm Warning takes effect—highway closures and multi-vehicle pileups trap drivers far faster than plows can clear drifts.",
+        "claims": [
+          "D10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Complete all fuel, food, prescription, battery, and shelter preparations 12 to 24 hours before severe winter storms immobilize roads.",
+    "applies": "Approaching Winter Storm Warnings, Blizzard Warnings, and Ice Storm Warnings across northern regions.",
+    "equipment": "Vehicle fuel tank ≥half/full, stocked pantry/water, charged power banks, snow shovel indoors, and NOAA Weather Radio.",
+    "failure": {
+      "text": "Driving to the grocery store after freezing rain begins coating overhead tree limbs and roadways, sliding into a ditch as power lines snap.",
+      "claims": [
+        "D10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm vehicle fueled, meds/water/batteries topped off, alarms tested, and non-essential trips cancelled pre-onset.",
+      "claims": [
+        "D10",
+        "U12"
+      ]
+    },
+    "stop": {
+      "text": "Active Blizzard Warnings, freezing-rain glaze, or state DOT \"No Travel Advised\" orders halt road departure immediately.",
+      "claims": [
+        "D10"
+      ]
+    },
+    "diagram": "Watch day: fuel, Rx, charge, shovel in | Clear vents & test CO/smoke alarms | Warning issued -> cancel ALL non-essential drive",
+    "visual": "Four-step pre-blizzard staging timeline covering 24-hour Watch supply run, alarm/vent check, battery charging, and strict Warning travel halt. Conceptual, not to scale.",
+    "reviewer": "Cold-weather emergency management"
+  },
+  {
+    "id": "Z15-P10",
+    "zone": "Z15",
+    "title": "Navigate multi-day regional ice-storm blackouts and downed-wire hazards",
+    "origin": "FEMA Power Outages and NWS Winter Safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stay INDOORS away from ice-loaded trees and sagging overhead utility lines during and immediately after an ice storm—even light wind gusts hours after rain stops snap heavy frozen limbs and energized high-voltage cables unpredictably.",
+        "claims": [
+          "D10",
+          "D04",
+          "E13"
+        ]
+      },
+      {
+        "text": "Recognize that widespread ice storms break thousands of utility poles simultaneously, routinely producing **3-to-14-day blackouts** across rural and suburban feeders—conserve battery power immediately, seal off one interior warm room with zero indoor combustion, and monitor indoor temperature closely.",
+        "claims": [
+          "D10",
+          "D11",
+          "U10"
+        ]
+      },
+      {
+        "text": "Keep at least 35+ feet clear of ANY downed or low-hanging power line, metal fence, puddle, or tree branch touching a cable—assume every downed wire is live and lethal, and call 911/utility immediately.",
+        "claims": [
+          "D04",
+          "T01"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect household occupants from snapping ice-laden branches, energized downed power lines, and prolonged sub-zero heating loss.",
+    "applies": "Freezing rain depositing ¼ to ½+ inch radial ice glaze across trees, power lines, and roadways.",
+    "equipment": "Interior warm-room setup, LED lighting, NOAA radio, indoor thermometer, and strict outdoor exclusion awareness.",
+    "failure": {
+      "text": "Walking outside under cracking ice-coated oak limbs to drag a fallen branch off a downed neighborhood wire.",
+      "claims": [
+        "D10",
+        "D04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm family stays indoors away from heavy ice-glazed trees/wires, warm-room insulation active, and relocation threshold monitored.",
+      "claims": [
+        "D10",
+        "U10",
+        "U17"
+      ]
+    },
+    "stop": {
+      "text": "Indoor freezing temps, exhausted medical batteries, or a tree crashing onto the roof/utility mast triggers immediate safe exit away from wires and calling 911.",
+      "claims": [
+        "D10",
+        "U17",
+        "D04"
+      ]
+    },
+    "diagram": "Ice snaps trees & live wires hours later | Stay ≥35 ft clear of ALL downed cables | Plan 3–14 d blackout; relocate pre-freeze",
+    "visual": "Environmental ice-storm hazard schematic illustrating ice-loaded canopy drop zone, ≥35-ft downed-wire exclusion perimeter, and interior safe room. Conceptual, not to scale.",
+    "reviewer": "Utility safety and cold-weather emergency management"
+  },
+  {
+    "id": "Z15-P11",
+    "zone": "Z15",
+    "title": "Respond safely to extreme wind-chill warnings and sub-zero cold emergencies",
+    "origin": "NWS Cold Weather Safety and CDC Hypothermia; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Restrict outdoor exposure strictly to brief essential tasks during Extreme Cold Warnings—wind chill below minus 30°F freezes exposed cheeks, nose tips, and bare fingers in minutes, while metal door handles and bare fuel nozzles cause instant contact frostbite.",
+        "claims": [
+          "E15",
+          "T04"
+        ]
+      },
+      {
+        "text": "Cover 100% of exposed skin before stepping outside (windproof shell, insulated mittens over gloves, face mask/balaclava, goggles, warm hat, dry wool socks), buddy-check faces frequently, and bring pets indoors into heated shelter.",
+        "claims": [
+          "E15",
+          "D17"
+        ]
+      },
+      {
+        "text": "Watch vulnerable plumbing pipes, check that car batteries crank before urgent trips, check on elderly/solo neighbors by phone or safe daytime knock, and never let anyone venture out alone in extreme cold without a check-in time.",
+        "claims": [
+          "U10",
+          "U14",
+          "E15"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent rapid frostbite (under 10 minutes on exposed skin) and vehicle/home mechanical failures during Arctic polar-vortex outbreaks.",
+    "applies": "Extreme Cold Warnings / Wind Chill Warnings (air and wind chills plunging minus 25°F to minus 50°F across the Upper Midwest).",
+    "equipment": "Windproof layered outerwear covering every inch of skin, insulated boots/mittens, indoor warmth plan, and neighbor wellness-check list.",
+    "failure": {
+      "text": "Stepping outside bare-handed in minus 35°F wind chill to shovel snow or pump gas for \"just five minutes,\" freezing fingertips white and numb.",
+      "claims": [
+        "E15",
+        "T04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero exposed skin during brief outdoor tasks, pets sheltered warm, exterior-wall sink cabinets open, and vulnerable neighbors checked.",
+      "claims": [
+        "E15",
+        "U10",
+        "D17"
+      ]
+    },
+    "stop": {
+      "text": "Tingling/numb white skin, shivering/clumsiness, or outdoor work that can wait until midday warmth halts exposure immediately.",
+      "claims": [
+        "E15",
+        "T04",
+        "E06"
+      ]
+    },
+    "diagram": "Extreme cold freezes skin in minutes | Cover 100% skin; mittens + face/eye shield | Bring pets in; check pipes & solo neighbors",
+    "visual": "Escalation ladder linking cold advisories to Extreme Cold Warnings (100% skin cover, brief essential tasks only, pet/pipe/neighbor protection). Conceptual, not to scale.",
+    "reviewer": "Cold-weather safety and wilderness medicine"
+  },
+  {
+    "id": "Z15-P12",
+    "zone": "Z15",
+    "title": "Make conservative winter highway abort decisions before whiteouts trap vehicles",
+    "origin": "NWS Winter Storm and MN HSEM; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check live state DOT road reports (such as Minnesota 511) AND NWS forecasts BEFORE leaving—Remember clear blue sky plus 35 mph wind over open farmland still generates zero-visibility ground blizzards and black-ice whiteouts.",
+        "claims": [
+          "D10",
+          "D02",
+          "N07"
+        ]
+      },
+      {
+        "text": "Keep winter gas tanks above HALF-FULL at all times and pack a real winter trunk kit (wool blankets/sleeping bags, dry hats/mittens, metal shovel, traction sand/cat litter, tow strap, jumper pack, headlamp, snacks, water, high-visibility cloth).",
+        "claims": [
+          "D10",
+          "T12"
+        ]
+      },
+      {
+        "text": "Exit early into a safe open town, motel, or rest stop the moment visibility drops, wipers freeze solid, or plows pull off the road—NEVER push past closed-road gates or follow tail lights blindly into whiteouts.",
+        "claims": [
+          "D10",
+          "N07"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent fatal roadside strandings and multi-car pileups by halting winter trips early at safe towns or staying home.",
+    "applies": "Driving across rural plains, interstates, or forested highways during snowstorms, ground blizzards, or freezing rain.",
+    "equipment": "State DOT 511 road-condition app/radio, winter car kit (blankets, shovel, sand/traction, water, snacks, headlamp, charger), and ≥half tank fuel.",
+    "failure": {
+      "text": "Driving past a \"Road Closed\" winter gate on a rural highway at dusk trying to beat a blizzard home, getting buried in a six-foot snowdrift.",
+      "claims": [
+        "D10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm 511 road status open, fuel >half-tank, full winter trunk kit loaded, and someone knows your route and ETA before departing.",
+      "claims": [
+        "D10",
+        "E01"
+      ]
+    },
+    "stop": {
+      "text": "Freezing rain glaze, zero-visibility whiteout, or DOT \"No Travel Advised\" / closed gates mandate halting immediately at the nearest safe town.",
+      "claims": [
+        "D10"
+      ]
+    },
+    "diagram": "Check 511 roads + keep fuel >half-tank | Pack shovel, warm bags, light & traction | Visibility drops -> exit early at safe town",
+    "visual": "Decision tree screening DOT 511 road status, fuel/kit readiness, and whiteout visibility to trigger early safe-town stops. Conceptual, not to scale.",
+    "reviewer": "Winter transportation safety and emergency management"
+  },
+  {
+    "id": "Z15-P13",
+    "zone": "Z15",
+    "title": "Shelter safely inside a stranded winter vehicle and guard against exhaust CO",
+    "origin": "NWS In Vehicles During a Winter Storm; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "**STAY WITH YOUR VEHICLE** if stranded in a winter storm unless a clearly visible, open, heated building is literally yards away—wandering on foot into blowing snow disorients travelers within seconds and causes fatal hypothermia.",
+        "claims": [
+          "E14",
+          "D10"
+        ]
+      },
+      {
+        "text": "Call 911 with your highway/milepost/GPS location, tie a bright cloth to the antenna or top of a rolled-up window, turn on the interior dome light at night when running briefly, and huddle occupants together under winter blankets/layers.",
+        "claims": [
+          "E14",
+          "T06"
+        ]
+      },
+      {
+        "text": "Before running the engine for brief 10-minute-per-hour warming cycles, step out ONLY if safe to **PHYSICALLY CLEAR SNOW FROM THE ENTIRE TAILPIPE AND UNDERBODY**, crack a downwind window slightly for fresh air, and NEVER let everyone sleep while the engine idles (snowdrifts plug tailpipes silently and fill cabins with lethal CO!).",
+        "claims": [
+          "E14",
+          "C05",
+          "C07"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Survive being snowbound in a vehicle without wandering to death in whiteouts or dying silently from snow-blocked tailpipe CO.",
+    "applies": "Vehicles stuck in ditches, highway closures, or rural snowdrifts during blizzards and extreme cold.",
+    "equipment": "Vehicle winter kit, shovel, bright signal cloth, phone/911, and strict tailpipe inspection routine.",
+    "failure": {
+      "text": "Leaving a stranded car's engine running continuously all night while occupants sleep as drifting snow seals the exhaust pipe beneath the bumper.",
+      "claims": [
+        "E14",
+        "C05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm 911 notified, tailpipe confirmed 100% snow-free before any brief engine cycle, downwind window cracked, and bright marker visible.",
+      "claims": [
+        "E14"
+      ]
+    },
+    "stop": {
+      "text": "Any exhaust odor, headache, drowsiness, or rapidly drifting snow sealing the undercarriage requires shutting off the engine immediately and relying on dry layered insulation.",
+      "claims": [
+        "E14",
+        "C07"
+      ]
+    },
+    "diagram": "STAY with vehicle (never walk in whiteout) | Clear ENTIRE tailpipe before 10-m heat run | Crack downwind window; NEVER sleep idling",
+    "visual": "Cutaway stranded winter vehicle showing snow-cleared tailpipe, slightly cracked downwind window, bright antenna marker, and layered occupants. Conceptual, not to scale.",
+    "reviewer": "Winter emergency response and carbon monoxide safety"
+  },
+  {
+    "id": "Z15-P14",
+    "zone": "Z15",
+    "title": "Avoid snow-shoveling cardiac strain and manage post-blizzard exterior hazards",
+    "origin": "FEMA Winter Weather and AHA/Red Cross Heart Safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that heavy wet snow shoveling in freezing air spikes heart rate and blood pressure dramatically—push snow rather than lifting heavy loads, take small scoops, pace slowly with frequent warm indoor breaks, stay hydrated, and let younger/fitter helpers or hired plows clear driveways for older adults or anyone with heart history.",
+        "claims": [
+          "D10",
+          "T02"
+        ]
+      },
+      {
+        "text": "Clear exterior furnace/water-heater PVC exhaust vents, fire hydrants near the curb, and primary exit doors FIRST before tackling full driveways—and NEVER stick hands or feet inside a clogged snowblower chute (always shut the engine completely OFF and use a wooden clearing stick!).",
+        "claims": [
+          "U12",
+          "K02",
+          "D10"
+        ]
+      },
+      {
+        "text": "Watch overhead for hanging icicles and sliding roof snow avalanches when clearing walkways right along building eaves.",
+        "claims": [
+          "U10",
+          "D10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent preventable post-storm heart attacks, back injuries, and roof/vent failures while digging out after heavy snowfalls.",
+    "applies": "Post-blizzard residential cleanup, especially wet heavy snowfalls and sub-zero mornings.",
+    "equipment": "Ergonomic push shovel, traction cleats/warm layers, buddy awareness, and snow-blower safety discipline.",
+    "failure": {
+      "text": "Rushing out at dawn with known high blood pressure to heave waist-deep wet snow nonstop, ignoring chest tightness and shortness of breath.",
+      "claims": [
+        "D10",
+        "T02"
+      ]
+    },
+    "verify": {
+      "text": "Confirm exterior exhaust vents and exit doors cleared first, slow push-and-rest pacing used, and zero hands placed near snowblower chutes.",
+      "claims": [
+        "U12",
+        "D10"
+      ]
+    },
+    "stop": {
+      "text": "ANY chest pressure, jaw/arm pain, unusual shortness of breath, dizziness, or cold sweat while shoveling requires stopping immediately, sitting inside, and calling 911.",
+      "claims": [
+        "T02",
+        "M05"
+      ]
+    },
+    "diagram": "Clear PVC vents & doors FIRST | Push small loads; rest often (heart risk!) | Chest pain/dizzy -> stop NOW & call 911",
+    "visual": "Four-step post-blizzard dig-out plate prioritizing PVC vents/exits, small push-scoop heart pacing, off-engine stick clearing, and 911 cardiac stop cues. Conceptual, not to scale.",
+    "reviewer": "Cardiology/EMS safety and winter preparedness"
+  },
+  {
+    "id": "Z15-P15",
+    "zone": "Z15",
+    "title": "Transition safely to community warming centers when winter home heat fails",
+    "origin": "FEMA Winter Weather and Evacuation; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Monitor county emergency management, local AM/FM radio, or dial **211** (where active) as soon as a prolonged winter outage begins so you know exact community warming-center addresses, hours (daytime vs overnight), accessibility features, and pet policies BEFORE nightfall.",
+        "claims": [
+          "U17",
+          "D10",
+          "D14"
+        ]
+      },
+      {
+        "text": "Trigger departure proactively during safe daylight if indoor temperatures trend steadily downward toward unsafe cold (especially with infants, older adults, or medically fragile occupants) rather than waiting for midnight emergencies.",
+        "claims": [
+          "U17",
+          "D10"
+        ]
+      },
+      {
+        "text": "Shut off home space heaters/stoves, protect water lines if freezing is imminent, pack medications/chargers/warm bedding/IDs, and check in with your out-of-area relay upon arrival.",
+        "claims": [
+          "U17",
+          "U10",
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Move household occupants cleanly to public heated facilities before indoor cold causes hypothermia or frozen roads prevent exit.",
+    "applies": "Multi-day winter blackouts or furnace failures where home indoor temperatures drop toward unsafe levels.",
+    "equipment": "Local 211 / county emergency-management shelter listings, pre-packed go-bags, prescriptions, pet transport plan, and safe winter vehicle.",
+    "failure": {
+      "text": "Waiting until indoor temperature hits 36°F at 2 a.m. in a blizzard only to find the nearest daytime library warming center closed at 6 p.m.",
+      "claims": [
+        "U17",
+        "D10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm shelter hours/overnight status verified, roads passable, home shutoffs secured, and medications/IDs/pets accounted for.",
+      "claims": [
+        "U17",
+        "D14",
+        "D17"
+      ]
+    },
+    "stop": {
+      "text": "If impassable blizzard roads make driving unsafe while indoor heat fails and life safety is threatened, call 911 for coordinated emergency rescue rather than driving into whiteouts.",
+      "claims": [
+        "D10",
+        "U17"
+      ]
+    },
+    "diagram": "Verify open overnight shelter via radio/211 | Leave in safe daylight BEFORE deep cold | Secure water/heaters; grab Rx, IDs & pets",
+    "visual": "Three-tier winter shelter transition ladder separating manageable warm-room hold, daylight warming-center move, and 911 impassable-road rescue. Conceptual, not to scale.",
+    "reviewer": "Emergency management and cold-weather operations"
+  },
+  {
+    "id": "Z15-P16",
+    "zone": "Z15",
+    "title": "Move immediately to lowest interior tornado shelter on Tornado Warnings",
+    "origin": "FEMA Ready.gov Tornadoes and NWS; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "On a **Tornado Warning**, move IMMEDIATELY to a FEMA-rated storm shelter/safe room or underground basement (getting beneath a sturdy workbench or interior staircase away from heavy overhead appliances like pianos/fridges on the floor above).",
+        "claims": [
+          "D03",
+          "E17"
+        ]
+      },
+      {
+        "text": "If NO basement exists, move to the **SMALLEST INTERIOR ROOM ON THE LOWEST FLOOR** (interior bathroom, closet, or central hallway) with as many walls between you and the outdoors as possible—staying strictly AWAY from windows, exterior doors, and wide-span garage/gym roofs.",
+        "claims": [
+          "D03",
+          "E17"
+        ]
+      },
+      {
+        "text": "Keep sturdy closed-toe shoes, a flashlight, a rescue whistle, and helmets/thick blankets staged in your tornado shelter spot so occupants can protect heads/necks immediately and walk safely across broken glass afterward.",
+        "claims": [
+          "D03",
+          "T12"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Put maximum structural walls and earth between occupants and deadly flying tornado debris within seconds of a Warning.",
+    "applies": "Homes, apartments, workplaces, and schools under an active NWS Tornado Warning.",
+    "equipment": "Pre-designated safe spot, bicycle/sports helmets for head protection, sturdy closed-toe shoes, flashlight, whistle, and NOAA/phone alerts.",
+    "failure": {
+      "text": "Stopping to crack open windows (\"to equalize pressure\"—a dangerous myth!) or staying in an upstairs bedroom watching the storm approach.",
+      "claims": [
+        "D03"
+      ]
+    },
+    "verify": {
+      "text": "Confirm lowest interior safe spot chosen ahead of time, shoes, helmets, whistle, and flashlight staged inside, and windows avoided completely.",
+      "claims": [
+        "D03"
+      ]
+    },
+    "stop": {
+      "text": "Stay in shelter until the official Tornado Warning expires or radar confirms the storm has safely passed—secondary vortexes and hail can follow.",
+      "claims": [
+        "D03"
+      ]
+    },
+    "diagram": "Basement / safe room under sturdy cover | No basement -> smallest lowest interior room | Keep shoes, helmets, whistle & light inside",
+    "visual": "Cutaway two-story home highlighting basement/lowest interior closet safe zone versus dangerous windows, upper floors, and wide-span garages. Conceptual, not to scale.",
+    "reviewer": "Meteorology, structural safety, and emergency management"
+  },
+  {
+    "id": "Z15-P17",
+    "zone": "Z15",
+    "title": "Avoid mobile homes, vehicles, and highway overpasses during tornadoes",
+    "origin": "NWS Tornado Safety and Ready.gov Tornadoes; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that **mobile homes, manufactured homes, RVs, tents, and campers are NEVER safe during a tornado**—even anchored units roll and disintegrate rapidly; identify a sturdy nearby community shelter or friend's basement BEFORE storm season and move there early on Tornado Watch/approaching-storm alerts.",
+        "claims": [
+          "D03",
+          "E17"
+        ]
+      },
+      {
+        "text": "**NEVER shelter under a highway overpass or bridge**—overpasses create violent wind-tunnel acceleration, offer zero protection from horizontal flying debris, and block highway lanes so trailing vehicles crash or get trapped.",
+        "claims": [
+          "D03",
+          "E17"
+        ]
+      },
+      {
+        "text": "If caught inside a vehicle with a tornado visibly approaching and NO sturdy building reachable: either drive smoothly at right angles away from the tornado path if traffic/roads allow, OR pull safely off the road, stay buckled inside the vehicle with head below window level covered by coats/arms, or lie flat in a low ditch ONLY if well lower than the road and free of flash-flood water (protecting head/neck).",
+        "claims": [
+          "D03",
+          "E17"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent the highest-fatality tornado mistakes by leaving fragile structures early and rejecting deadly overpass shelter myths.",
+    "applies": "Manufactured/mobile homes, RVs, campgrounds, and motorists encountering Tornado Watches or Warnings.",
+    "equipment": "Pre-identified nearby sturdy community storm shelter, vehicle keys ready on Watch days, and NOAA/WEA alerts.",
+    "failure": {
+      "text": "Parking under an interstate overpass during a Tornado Warning, creating a deadly traffic jam inside a high-speed debris wind tunnel.",
+      "claims": [
+        "D03",
+        "E17"
+      ]
+    },
+    "verify": {
+      "text": "Confirm mobile-home/camper residents have a pre-arranged sturdy shelter plan and every driver rejects highway overpasses categorically.",
+      "claims": [
+        "D03",
+        "E17"
+      ]
+    },
+    "stop": {
+      "text": "Do not attempt to outrun a rain-wrapped tornado across congested city streets or flooded rural roads—pull into the nearest sturdy interior building early.",
+      "claims": [
+        "D03",
+        "D05"
+      ]
+    },
+    "diagram": "Mobile homes/RVs/tents are NEVER safe | NEVER shelter under highway overpasses | Reach sturdy building early; buckle low if trapped",
+    "visual": "Correct versus incorrect tornado sheltering contrasting early sturdy-building relocation against fatal mobile-home and highway-overpass wind tunnels. Conceptual, not to scale.",
+    "reviewer": "Meteorology and emergency management"
+  },
+  {
+    "id": "Z15-P18",
+    "zone": "Z15",
+    "title": "Protect yourself during Tornado Warnings in stores, schools, or workplaces",
+    "origin": "FEMA Ready.gov Tornadoes; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Move immediately AWAY from wide-span unsupported roofs (big-box retail floors, auditoriums, cafeterias, gymnasiums, and atrium lobbies) and tall glass storefronts—wide-span roofs are the first structural elements to lift and collapse in violent winds.",
+        "claims": [
+          "D03"
+        ]
+      },
+      {
+        "text": "Follow staff promptly to designated Severe Weather Shelter areas, basement levels, or sturdy interior small-span rooms (interior concrete-block restrooms, windowless interior stairwells, or central reinforced hallways away from heavy overhead stock racks).",
+        "claims": [
+          "D03"
+        ]
+      },
+      {
+        "text": "Crouch low facing interior walls, cover head and neck firmly with arms, coats, or sturdy bags, and stay clear of exterior doors until staff/officials confirm the Warning has passed.",
+        "claims": [
+          "D03"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify safe interior shelter pockets quickly inside unfamiliar public buildings and avoid deadly wide-span roof collapse.",
+    "applies": "Grocery stores, big-box retail shops, warehouses, offices, gyms, churches, and schools during severe weather.",
+    "equipment": "Situational awareness of posted Severe Weather Shelter signs and interior restrooms/hallways.",
+    "failure": {
+      "text": "Running out to a retail parking lot to drive home mid-Warning, or sheltering right beside towering glass store doors and stacked warehouse pallets.",
+      "claims": [
+        "D03"
+      ]
+    },
+    "verify": {
+      "text": "Confirm public-building shelter avoids wide-span roofs, glass doors, and heavy high shelving, prioritizing small interior masonry rooms.",
+      "claims": [
+        "D03"
+      ]
+    },
+    "stop": {
+      "text": "Never step outside into active wind/hail to move a parked car during a Tornado Warning.",
+      "claims": [
+        "D03"
+      ]
+    },
+    "diagram": "Exit wide-span floors, gyms & glass doors | Move to interior masonry restrooms/halls | Crouch low; protect head; stay off parking lot",
+    "visual": "Cutaway public building plan contrasting hazardous wide-span retail/gym roof and glass walls against sturdy interior masonry restroom/corridor shelter. Conceptual, not to scale.",
+    "reviewer": "Emergency management and structural safety"
+  },
+  {
+    "id": "Z15-P19",
+    "zone": "Z15",
+    "title": "Prepare for straight-line derechos and damaging hail before outflow gusts hit",
+    "origin": "FEMA Ready.gov Thunderstorms and NWS; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that Upper Midwest **derechos** produce sustained straight-line wind gusts rivaling weak-to-moderate tornadoes across hundreds of miles—moving rapidly at 50–70 mph with violent outflow gusts arriving BEFORE rain begins.",
+        "claims": [
+          "D04",
+          "E18"
+        ]
+      },
+      {
+        "text": "Move inside a sturdy building away from windows and skylights immediately upon a Severe Thunderstorm Warning (especially tags noting \"Destructive\" or 70+ mph winds / large hail)—shut blinds/curtains beforehand to help catch shattering glass and avoid rooms beneath towering dead/leaning yard trees if an interior room exists.",
+        "claims": [
+          "D04",
+          "E13"
+        ]
+      },
+      {
+        "text": "Secure lightweight patio furniture, grills, and loose tools BEFORE storms arrive on Watch days—NEVER run outside during rising outflow gusts to chase trash cans or patio umbrellas.",
+        "claims": [
+          "D04",
+          "E18"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Treat Severe Thunderstorm Warnings with high-wind/derecho potential seriously to prevent crushing tree falls, glass injuries, and blackouts.",
+    "applies": "Fast-moving squall lines, bow-echo derechos (70–100+ mph straight-line winds), and severe hailstorms across the Midwest.",
+    "equipment": "Sturdy indoor interior room away from windows, NOAA/WEA alerts, and pre-storm secured yard furniture.",
+    "failure": {
+      "text": "Staying in a glass-walled sunroom or backyard tent during a 85 mph derecho outflow gust that drives hail through panes and drops mature limbs.",
+      "claims": [
+        "D04",
+        "E18"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household moves inside away from windows/skylights on Severe Thunderstorm Warnings and outdoor gear is secured ahead of storms.",
+      "claims": [
+        "D04"
+      ]
+    },
+    "stop": {
+      "text": "Flying debris, shattering glass, or roaring wind shifts require dropping immediately to the lowest interior tornado-safe room.",
+      "claims": [
+        "D03",
+        "D04"
+      ]
+    },
+    "diagram": "Derechos hit 70–100+ mph BEFORE rain | Move indoors away from glass & skylights | Never chase yard gear in outflow gusts",
+    "visual": "Four-step derecho and hail response plate covering pre-storm Watch tie-down, early indoor move, interior window avoidance, and tornado escalation. Conceptual, not to scale.",
+    "reviewer": "Meteorology and emergency management"
+  },
+  {
+    "id": "Z15-P20",
+    "zone": "Z15",
+    "title": "Enforce indoor and outdoor lightning safety plus the 30-minute rule",
+    "origin": "NWS Lightning Tips and Ready.gov Thunderstorms; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Obey **\"When Thunder Roars, Go Indoors\"**—lightning strikes 10+ miles away from rain cores under clear blue sky; move immediately inside a substantial enclosed building or hard-topped metal vehicle (windows closed) rather than open picnic pavilions, fabric tents, dugouts, porches, or under trees.",
+        "claims": [
+          "E07",
+          "D04"
+        ]
+      },
+      {
+        "text": "Inside a home during active lightning, stay OFF corded landline phones, avoid touching plugged-in charging electronics, stay away from exterior windows/concrete basement floors/walls (rebar conducts ground current), and do NOT shower, bathe, or wash dishes (plumbing pipes and water conduct lightning current indoors!).",
+        "claims": [
+          "D04",
+          "E07"
+        ]
+      },
+      {
+        "text": "Wait a full **30 MINUTES AFTER THE LAST HEARD THUNDER** before resuming swimming, boating, yard work, or outdoor play—many fatal lightning strikes occur as storms depart.",
+        "claims": [
+          "E07",
+          "D04"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent direct and conductive indoor/outdoor lightning injuries during every electrical storm.",
+    "applies": "Homes, yards, lakes, ballfields, and campgrounds whenever thunder is audible or lightning flashes.",
+    "equipment": "Substantial enclosed building (with wiring/plumbing) or hard-topped metal vehicle with windows rolled up, plus watch for 30-minute timer.",
+    "failure": {
+      "text": "Stepping back onto the lake dock five minutes after rain stops while distant thunder still rumbles, or taking a hot shower during a direct thunderstorm.",
+      "claims": [
+        "E07",
+        "D04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm everyone shelters inside a substantial building/hard-top car at first thunder, avoids indoor plumbing/corded gear, and times a full 30-minute clear window.",
+      "claims": [
+        "E07",
+        "D04"
+      ]
+    },
+    "stop": {
+      "text": "Any renewed clap of thunder resets the 30-minute indoor safety timer back to zero immediately.",
+      "claims": [
+        "E07"
+      ]
+    },
+    "diagram": "Thunder -> substantial building/hard car | Indoors: skip showers, dishes & corded gear | Wait full 30 min after LAST thunder",
+    "visual": "Correct versus incorrect lightning shelter contrasting enclosed substantial buildings (skipping plumbing/cords) against trees, open pavilions, and showers. Conceptual, not to scale.",
+    "reviewer": "Meteorology and lightning safety"
+  },
+  {
+    "id": "Z15-P21",
+    "zone": "Z15",
+    "title": "Navigate post-tornado and derecho debris safely without secondary injuries",
+    "origin": "FEMA Ready.gov Tornadoes and Thunderstorms; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Wait until official storm warnings clear before leaving shelter, put on sturdy thick-soled boots and heavy work gloves immediately, and watch every step for shattered glass, upturned nails, splintered lumber, and unstable leaning walls or hanging \"widowmaker\" tree limbs overhead.",
+        "claims": [
+          "D03",
+          "D04",
+          "E13"
+        ]
+      },
+      {
+        "text": "Assume EVERY downed or tangled utility wire is **ENERGIZED AND LETHAL** (stay ≥35+ feet back; never touch wet metal fences, aluminum siding, or tree limbs touching wires), and evacuate immediately if you smell rotten-egg natural gas or hear hissing pipes—using flashlights ONLY, never matches or lighters.",
+        "claims": [
+          "D04",
+          "U11",
+          "D03"
+        ]
+      },
+      {
+        "text": "Do NOT enter heavily damaged buildings or crawl into collapsed debris looking for belongings—account for household members/neighbors verbally from safe ground and leave structural search-and-rescue to trained fire/USAR teams.",
+        "claims": [
+          "D03",
+          "T01"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent electrocution, gas explosions, puncture wounds, and structural collapses during the dangerous hours immediately after windstorms.",
+    "applies": "Exiting shelters and inspecting damaged neighborhoods after tornadoes, derechos, or severe windstorms.",
+    "equipment": "Sturdy thick-soled boots, heavy work gloves, N95 mask, flashlight (no open flames), and phone for 911/utility reporting.",
+    "failure": {
+      "text": "Walking barefoot out of a basement in the dark with a cigarette lighter after a tornado when a broken gas line is hissing beside a downed power wire.",
+      "claims": [
+        "D03",
+        "U11",
+        "D04"
+      ]
+    },
+    "verify": {
+      "text": "Confirm boots/gloves worn, flashlights only (zero open flames), ≥35 ft clear of downed wires, and damaged buildings left to responders.",
+      "claims": [
+        "D03",
+        "D04",
+        "U11"
+      ]
+    },
+    "stop": {
+      "text": "Any gas odor, sizzling/sparking wire, creaking unstable wall, or bleeding injury halts cleanup immediately in favor of retreat and 911.",
+      "claims": [
+        "D03",
+        "U11",
+        "M01"
+      ]
+    },
+    "diagram": "Boots, gloves & LED light (zero flames) | Stay ≥35 ft clear of ALL downed wires | Gas smell or damaged walls -> stay out & 911",
+    "visual": "Four-step post-windstorm hazard plate covering protective boots/gloves, overhead snag/wire screening, gas-odor exclusion, and responder handoff. Conceptual, not to scale.",
+    "reviewer": "Urban search and rescue and utility safety"
+  },
+  {
+    "id": "Z15-P22",
+    "zone": "Z15",
+    "title": "Recognize why outdoor sirens never replace indoor nighttime warning receivers",
+    "origin": "FEMA Ready.gov Tornadoes and Alerts; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand explicitly that municipal **outdoor warning sirens** are engineered ONLY to alert people who are OUTDOORS—modern double-pane windows, air conditioners, heavy rain, wind roar, and rural distances routinely make sirens completely inaudible inside sleeping bedrooms.",
+        "claims": [
+          "D03",
+          "T14"
+        ]
+      },
+      {
+        "text": "Place a loud battery-backed **NOAA Weather Radio** programmed with your county SAME code inside your bedroom AND verify smartphone **Wireless Emergency Alerts (WEA)** remain turned ON and allowed to sound through nighttime Do-Not-Disturb settings.",
+        "claims": [
+          "T15",
+          "D01",
+          "D03"
+        ]
+      },
+      {
+        "text": "Keep sturdy shoes, a flashlight, and phone charger beside the bed on evening Tornado Watch nights so waking to an alarm leads straight to basement shelter in seconds.",
+        "claims": [
+          "D03"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate deadly nighttime tornado vulnerability caused by expecting outdoor municipal sirens to wake sleeping families inside insulated homes.",
+    "applies": "All residential neighborhoods, rural areas, and nocturnal severe-weather seasons.",
+    "equipment": "Bedside battery-backed NOAA Weather Radio with SAME alarm and smartphone set to bypass Do-Not-Disturb for WEA alerts.",
+    "failure": {
+      "text": "Going to bed during a summer Tornado Watch with phone on silent, no NOAA radio, and assuming \"the town siren will wake us up.\"",
+      "claims": [
+        "D03",
+        "T15"
+      ]
+    },
+    "verify": {
+      "text": "Confirm bedside NOAA SAME radio tested with fresh backup batteries and phone WEA enabled to override silent/sleep modes.",
+      "claims": [
+        "T15",
+        "D01"
+      ]
+    },
+    "stop": {
+      "text": "Never rely on a single power-dependent or outdoor-only warning method during overnight severe-weather watches.",
+      "claims": [
+        "D01",
+        "T15"
+      ]
+    },
+    "diagram": "Outdoor sirens are NOT indoor wake alarms | Bedside NOAA SAME radio + phone WEA ON | Stage shoes & flashlight by bed on Watch nights",
+    "visual": "System boundary diagram contrasting muffled outdoor siren sound stopped by insulated bedroom walls against loud bedside NOAA SAME and WEA alerts. Conceptual, not to scale.",
+    "reviewer": "Meteorology and emergency communications"
+  },
+  {
+    "id": "Z15-P23",
+    "zone": "Z15",
+    "title": "Distinguish slow river/snowmelt floods from sudden Flash Flood Warnings",
+    "origin": "FEMA Ready.gov Floods and NWS; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Distinguish **river/snowmelt flooding** (builds over hours to days with predictable crest forecasts—allowing early document/vehicle moving, utility prep, and orderly evacuation) from **Flash Flooding** (erupts within minutes from intense rainstorms, clogged urban drains, ice jams, or dam/levee failures with violent wall-of-water surges).",
+        "claims": [
+          "D05",
+          "T16",
+          "E04"
+        ]
+      },
+      {
+        "text": "Act IMMEDIATELY on a **Flash Flood Warning** or **Flash Flood Emergency**: move straight to verified higher ground on foot or along open high roads BEFORE low streets, underpasses, and creek bridges vanish underwater.",
+        "claims": [
+          "D05",
+          "T16"
+        ]
+      },
+      {
+        "text": "Remember that levees and dams reduce risk rather than eliminating it—any official levee-breach or dam-failure evacuation order demands instant high-ground departure with zero delay.",
+        "claims": [
+          "D05",
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Match household preparation lead times and immediate high-ground evacuation urgency to the exact flood mechanism.",
+    "applies": "River valleys, snowmelt basins, urban storm-drain low spots, creek canyons, and properties below dams or levees.",
+    "equipment": "Local river-gauge/NWS alert feeds, county flood-zone map, high-ground evacuation route, and pre-packed go-bags.",
+    "failure": {
+      "text": "Waiting to watch a rising neighborhood creek out the window during a Flash Flood Warning until the single exit road washes out.",
+      "claims": [
+        "D05",
+        "T16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm home flood-zone status checked, two elevated exit routes mapped, and Flash Flood Warnings treated as instant high-ground triggers.",
+      "claims": [
+        "D05",
+        "D14"
+      ]
+    },
+    "stop": {
+      "text": "Rising water in basements, rushing street gutters, or official evacuation orders halt packing immediately—move people to high ground NOW.",
+      "claims": [
+        "D05"
+      ]
+    },
+    "diagram": "River flood: days lead -> prep & evac early | Flash flood: minutes -> move high NOW | Dam/levee order -> instant high-ground exit",
+    "visual": "Comparative flood-mechanism timeline contrasting multi-day snowmelt/river crests against sudden minutes-scale flash floods and dam-failure surges. Conceptual, not to scale.",
+    "reviewer": "Flood hydrology and emergency management"
+  },
+  {
+    "id": "Z15-P24",
+    "zone": "Z15",
+    "title": "Obey Turn Around Don't Drown: 6-inch walking and 12-inch vehicle flood physics",
+    "origin": "NWS Turn Around Don't Drown and Ready.gov Floods; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Respect proven floodwater force thresholds: just **6 inches** of fast-moving water can knock a healthy adult off their feet, **12 inches** of rushing water floats and sweeps away most passenger cars, and **18 to 24 inches** carries away heavy SUVs and pickup trucks effortlessly.",
+        "claims": [
+          "D05",
+          "T07",
+          "N10"
+        ]
+      },
+      {
+        "text": "NEVER drive around \"Road Closed\" barricades or into flooded underpasses/roads—especially at night when murky water hides completely washed-out pavement, open storm manholes, and deep sinkholes beneath an apparently shallow surface.",
+        "claims": [
+          "D05",
+          "N10"
+        ]
+      },
+      {
+        "text": "Turn around immediately to an open high-ground detour, OR wait safely on high dry ground until waters recede and highway crews verify bridge/roadbed integrity.",
+        "claims": [
+          "D05",
+          "N10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent the #1 cause of U.S. flood deaths by keeping people and vehicles completely out of moving or standing floodwater.",
+    "applies": "Flooded city underpasses, country roads, low-water bridges, trails, and submerged parking lots day or night.",
+    "equipment": "Alternate high-ground route plan and absolute refusal to bypass road barricades.",
+    "failure": {
+      "text": "Driving an SUV past a flashing barricade across a flooded creek road at night because \"it looks only a few inches deep,\" dropping into a washed-out culvert.",
+      "claims": [
+        "D05",
+        "N10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero walking or driving into floodwater, zero barricade bypassing, and extra night caution near low crossings.",
+      "claims": [
+        "D05",
+        "N10"
+      ]
+    },
+    "stop": {
+      "text": "ANY water covering a roadway where pavement markings and roadbed stability cannot be verified is an automatic turnaround stop.",
+      "claims": [
+        "D05",
+        "N10"
+      ]
+    },
+    "diagram": "6 in water knocks adult down | 12 in floats cars; 18–24 in sweeps trucks | NEVER bypass barricades -> Turn Around!",
+    "visual": "Cutaway floodwater-depth scale illustrating 6-inch knockdown, 12-inch sedan float, 18–24-inch truck sweep, and concealed washed-out roadbed below murky water. Conceptual, not to scale.",
+    "reviewer": "Flood safety and transportation emergency management"
+  },
+  {
+    "id": "Z15-P25",
+    "zone": "Z15",
+    "title": "Seek safe elevated refuge if sudden flash floodwater traps roads or homes",
+    "origin": "FEMA Ready.gov Floods; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "If floodwater surrounds your home and safe dry evacuation is NO LONGER POSSIBLE, move immediately to the **HIGHEST OPEN LEVEL** of the building—never stay in a basement or crawlspace where rising water and electrical hazards trap people rapidly.",
+        "claims": [
+          "D05"
+        ]
+      },
+      {
+        "text": "**NEVER climb into a closed, windowless attic** where rising floodwater can trap you beneath a solid roof with no escape—climb onto the roof ONLY if rising water forces you upward as a last resort, call 911 with your exact address, and signal clearly for water/air rescue.",
+        "claims": [
+          "D05",
+          "T02"
+        ]
+      },
+      {
+        "text": "Do NOT enter rushing outdoor floodwater trying to swim or wade to safety—wait for trained swift-water rescue teams unless the structure itself is actively collapsing.",
+        "claims": [
+          "D05",
+          "X02"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Make life-saving vertical-refuge decisions when evacuation routes are already cut off—without trapping occupants inside closed attics.",
+    "applies": "Sudden urban or valley flash flooding where water surrounds a building or rises rapidly indoors.",
+    "equipment": "Phone for 911 rescue, whistle/bright cloth for roof signaling, and strict closed-attic avoidance.",
+    "failure": {
+      "text": "Retreating into a sealed garage attic with no exterior access hatch as flash floodwater rises past the second floor.",
+      "claims": [
+        "D05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household knows highest open-access refuge level, avoids closed windowless attics, and calls 911 early if surrounded.",
+      "claims": [
+        "D05"
+      ]
+    },
+    "stop": {
+      "text": "Rising water approaching basement electrical panels or lower exits requires moving upward early—never waiting in basements to \"save boxes.\"",
+      "claims": [
+        "D05",
+        "U01"
+      ]
+    },
+    "diagram": "Routes cut -> move to highest OPEN floor | NEVER trap yourself in closed attics | Call 911 & signal; skip rushing water swims",
+    "visual": "Cutaway flooded house contrasting dangerous basement and trapped closed-attic zones against open upper-floor/last-resort roof rescue refuge. Conceptual, not to scale.",
+    "reviewer": "Swift-water rescue and emergency management"
+  },
+  {
+    "id": "Z15-P26",
+    "zone": "Z15",
+    "title": "Escape a stalled or flooded vehicle safely without wading into swift current",
+    "origin": "NWS Flood Safety and Ready.gov Floods; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "If a vehicle stalls in rising water on a flooded road, act BEFORE water pressure pins car doors shut: **unbuckle, lower windows early** while battery power still operates, abandon the car ONLY if safe shallow non-rushing ground is immediately reachable—otherwise climb straight onto the **ROOF of the vehicle** and call 911 immediately rather than trying to wade through fast deep current.",
+        "claims": [
+          "D05",
+          "N10"
+        ]
+      },
+      {
+        "text": "If water rapidly rises inside a submerged vehicle and doors will not open against outside water pressure, exit through an open or broken **SIDE window** (never kick a laminated windshield—it will not shatter out cleanly; strike the corner of tempered side glass if a rescue tool is carried).",
+        "claims": [
+          "D05",
+          "ED"
+        ]
+      },
+      {
+        "text": "Never stay trapped inside a sinking vehicle trying to restart a flooded engine or call a tow truck while water climbs past the floorboards.",
+        "claims": [
+          "D05"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent drowning if flash floodwater unexpectedly rises around a car on a low road or underpass.",
+    "applies": "Motorists whose vehicle stalls or begins floating in unexpectedly rising road floodwater.",
+    "equipment": "Seatbelt release, window-escape awareness (roll windows down EARLY while electrical power still works), and 911 access.",
+    "failure": {
+      "text": "Sitting inside a stalled sedan in a flooded underpass calling roadside assistance until rising water pins the doors shut and shorts power windows.",
+      "claims": [
+        "D05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm vehicle occupants know never to drive into floodwater first, and if suddenly engulfed, exit windows early to high ground or vehicle roof + 911.",
+      "claims": [
+        "D05",
+        "N10"
+      ]
+    },
+    "stop": {
+      "text": "Fast-moving chest-deep current around a trapped car prohibits wading—hold on the vehicle roof and summon swift-water 911 rescue.",
+      "claims": [
+        "D05"
+      ]
+    },
+    "diagram": "Best cure: NEVER enter flooded roads | Stalled in rising water -> windows open NOW | Climb to high ground or roof + call 911",
+    "visual": "Four-step flooded-vehicle escape plate showing early turnaround prevention, immediate window opening, safe high-ground/roof climb, and 911 swift-water call. Conceptual, not to scale.",
+    "reviewer": "Swift-water rescue and driver safety"
+  },
+  {
+    "id": "Z15-P27",
+    "zone": "Z15",
+    "title": "Prepare low-lying homes proactively before spring snowmelt flood crests",
+    "origin": "FEMA Ready.gov Floods and MN HSEM; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Move vital documents, irreplaceable photos, medications, electronics, and hazardous basement chemicals (paints, fuels, pesticides—so floodwaters do NOT turn into toxic chemical soup!) up to upper floors well before flood crests arrive.",
+        "claims": [
+          "D05",
+          "D16",
+          "U04"
+        ]
+      },
+      {
+        "text": "Test sump pumps and battery backups, clear storm drains/gutters safely, elevate or unplug lower-level appliances if dry, and follow official municipal guidance on sandbagging or utility shutoffs ONLY while access roads remain completely dry and open.",
+        "claims": [
+          "D05",
+          "U01"
+        ]
+      },
+      {
+        "text": "Park vehicles on verified high dry ground ahead of crest and evacuate early if authorities issue voluntary or mandatory flood evacuation orders.",
+        "claims": [
+          "D05",
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reduce catastrophic basement damage and protect essential household records and utilities during predictable multi-day river rises.",
+    "applies": "Homes in floodplains or low drainage basins with 24-to-72-hour Flood Watch/Warning lead times.",
+    "equipment": "Tested sump pump + battery backup, waterproof document pouch, utility shutoff map, sandbag guidance from county if applicable, and early evacuation plan.",
+    "failure": {
+      "text": "Leaving 5-gallon gas cans, lawn pesticides, and vital home deeds on a basement shelf until floodwater lifts them and contaminates the entire house.",
+      "claims": [
+        "D05",
+        "D16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm basement chemicals/valuables moved high, sump pump checked, cars parked high, and early departure timed before roads flood.",
+      "claims": [
+        "D05",
+        "D16"
+      ]
+    },
+    "stop": {
+      "text": "Rising water entering the basement or approaching exit roads halts all home-prep tasks immediately—evacuate safely to high ground.",
+      "claims": [
+        "D05",
+        "D14"
+      ]
+    },
+    "diagram": "Move IDs, Rx & basement chemicals HIGH | Check sump pump & park cars on high ground | Leave BEFORE exit roads flood over",
+    "visual": "Four-step pre-crest flood staging plate covering upper-floor chemical/document elevation, sump check, high-ground parking, and early dry departure. Conceptual, not to scale.",
+    "reviewer": "Floodplain emergency management"
+  },
+  {
+    "id": "Z15-P28",
+    "zone": "Z15",
+    "title": "Avoid hidden biological, chemical, and electrical hazards in floodwater",
+    "origin": "FEMA Ready.gov Floods and CDC Water; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat EVERY drop of urban or rural floodwater as dangerous mixed hazard water containing **raw municipal/septic sewage, spilled heating oil/gasoline, agricultural pesticides, sharp submerged glass/metal, displaced wildlife, and potentially energized downed electrical lines**.",
+        "claims": [
+          "D05",
+          "U13",
+          "W18"
+        ]
+      },
+      {
+        "text": "Keep children and pets completely OUT of flooded yards, ditches, and storm-drain puddles—never allow playing, wading, or kayaking in neighborhood floodwaters where submerged open storm culverts create deadly underwater suction traps.",
+        "claims": [
+          "D05",
+          "N10"
+        ]
+      },
+      {
+        "text": "If accidental skin contact occurs, wash immediately and thoroughly with soap and confirmed safe potable water, keep any open cuts covered cleanly, and seek prompt medical evaluation for any floodwater-exposed wound or tetanus update.",
+        "claims": [
+          "M06",
+          "W29",
+          "D05"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent electrocution, severe wound infections, chemical burns, and unseen drop-off drownings during and after floods.",
+    "applies": "Flooded yards, streets, basements, parks, and riverbanks after heavy storms or snowmelt crests.",
+    "equipment": "Strict avoidance discipline, waterproof boots/gloves/goggles/N95 (for cleared shallow recovery only), and potable wash water.",
+    "failure": {
+      "text": "Letting kids splash barefoot in ankle-deep neighborhood street floodwater near a storm drain and submerged electric transformer box.",
+      "claims": [
+        "D05",
+        "M06"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero recreational wading, zero bare-skin floodwater contact, immediate soap/safe-water washing if splashed, and cuts escalated clinically.",
+      "claims": [
+        "D05",
+        "M06"
+      ]
+    },
+    "stop": {
+      "text": "Downed wires near floodwater, fuel sheens, fast current, or open wounds prohibit entering the water completely.",
+      "claims": [
+        "D05",
+        "U01"
+      ]
+    },
+    "diagram": "Floodwater = sewage + fuel + sharp debris | Hidden storm drains & live wires kill | Zero wading/play; wash splashes w/ soap",
+    "visual": "Cutaway cross-section of seemingly calm street floodwater revealing submerged open manhole suction, sharp debris, sewage/fuel contamination, and live downed wire. Conceptual, not to scale.",
+    "reviewer": "Environmental health and flood rescue"
+  },
+  {
+    "id": "Z15-P29",
+    "zone": "Z15",
+    "title": "Follow strict structural, utility, and mold clearance before post-flood re-entry",
+    "origin": "FEMA Ready.gov Floods and EPA; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Return ONLY after local officials declare the area safe, enter in **DAYLIGHT** using flashlights (zero matches/lighters), inspect exterior walls/foundation/porches for tilting, washed-out soil, or sagging ceilings BEFORE stepping inside, and exit immediately if you smell gas or hear hissing.",
+        "claims": [
+          "D05",
+          "U11",
+          "D14"
+        ]
+      },
+      {
+        "text": "Keep main electricity OFF until a licensed electrician/utility verifies wet panels, outlets, and submerged appliances are safe, do NOT drink municipal tap or private well water until utility/certified-lab clearance issues, and photograph all damage thoroughly for insurance/FEMA BEFORE stripping debris.",
+        "claims": [
+          "D05",
+          "U01",
+          "W18",
+          "D16"
+        ]
+      },
+      {
+        "text": "Remove soaked drywall, insulation, carpet padding, and porous furniture cleanly wearing N95/gloves/goggles to halt rapid 24-to-48-hour mold growth, and NEVER run fuel-powered generators or dewatering pumps inside wet basements or garages.",
+        "claims": [
+          "D05",
+          "C16",
+          "U13"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect returning families from collapsing floors, gas explosions, hidden electrical shorts, and toxic mold growth after floodwaters recede.",
+    "applies": "Returning home after mandatory flood evacuation or severe basement/first-floor inundation.",
+    "equipment": "Official local all-clear notice, daylight entry only, camera for insurance photos, boots/gloves/N95, and licensed utility/structural contacts.",
+    "failure": {
+      "text": "Flipping the basement breaker back ON to run a wet shop-vac in a damp flooded basement before an electrician inspects submerged outlets.",
+      "claims": [
+        "D05",
+        "U01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm official all-clear, daylight structural check, zero gas odor, utility/lab clearances, photo records, and outdoor-only generators/pumps.",
+      "claims": [
+        "D05",
+        "U11",
+        "C16"
+      ]
+    },
+    "stop": {
+      "text": "Bowed foundation walls, sagging ceilings, submerged breaker panels, gas smell, or widespread black sewage require exiting and hiring licensed pros.",
+      "claims": [
+        "D05",
+        "U11"
+      ]
+    },
+    "diagram": "Official clear + daylight + structure look | Power/gas/water pro-cleared before use | Photo claims; strip wet porous; outdoor pumps",
+    "visual": "Escalation ladder ordering post-flood official all-clear, structural/gas/electrical pro clearance, water lab clearance, and safe PPE mold cleanup. Conceptual, not to scale.",
+    "reviewer": "Disaster restoration, building safety, and environmental health"
+  },
+  {
+    "id": "Z15-P30",
+    "zone": "Z15",
+    "title": "Execute Ready-Set-Go wildfire evacuation tiers before smoke traps roads",
+    "origin": "FEMA Ready.gov Wildfires; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Follow official three-tier **Ready – Set – Go** wildfire posture: **READY** (year-round defensible space, go-bags, two routes mapped), **SET** (fire nearby/Advisory: load go-bags, prescriptions, IDs, and pets into the car parked FACING OUTWARD toward the road with full fuel tank, dress in cotton/wool long sleeves and sturdy boots, monitor alerts nonstop), and **GO** (mandatory/voluntary order: leave IMMEDIATELY!).",
+        "claims": [
+          "D08",
+          "C19",
+          "D14"
+        ]
+      },
+      {
+        "text": "Remember that wind shifts and spotting embers jump highways and change fire direction in minutes—if you feel unsafe or see thick advancing smoke/ash even BEFORE a formal Go order arrives, leave early on your own initiative.",
+        "claims": [
+          "D08",
+          "C18"
+        ]
+      },
+      {
+        "text": "Never stay behind trying to defend a house with a garden hose when mandatory evacuation orders issue—wildland fire storms overwhelm municipal water pressure and trap stay-behind residents behind burning trees.",
+        "claims": [
+          "D08",
+          "C19"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Leave wildland-urban interface areas decisively while roads stay clear and visible instead of gambling on last-minute escapes.",
+    "applies": "Forested communities, cabins, rural acreage, and suburban edges facing Red Flag Warnings or active wildfires.",
+    "equipment": "Multi-channel local evacuation alerts, outward-parked fueled vehicle, pre-packed go-bags, and two mapped exit corridors.",
+    "failure": {
+      "text": "Waiting on the porch during a Level 2 \"Set\" advisory to see flames before loading the car, only to find smoke and fire trucks blocking the sole forest road.",
+      "claims": [
+        "D08",
+        "D14"
+      ]
+    },
+    "verify": {
+      "text": "Confirm vehicle parked nose-out with fuel full during Set stage, go-bags/pets/meds loaded, and immediate departure on Go orders.",
+      "claims": [
+        "D08",
+        "D14"
+      ]
+    },
+    "stop": {
+      "text": "Advancing flames, falling burning embers, or official Go orders override every property task—drive out immediately along official open routes.",
+      "claims": [
+        "D08",
+        "D14"
+      ]
+    },
+    "diagram": "READY: kits & 2 routes | SET: nose-out car loaded | GO: leave NOW on official open route",
+    "visual": "Three-tier Ready-Set-Go wildfire evacuation ladder pairing alert posture with vehicle nose-out staging and immediate departure rules. Conceptual, not to scale.",
+    "reviewer": "Wildland fire management and emergency services"
+  },
+  {
+    "id": "Z15-P31",
+    "zone": "Z15",
+    "title": "Drive safely through wildfire evacuation corridors and avoid trap roads",
+    "origin": "FEMA Ready.gov Wildfires and Evacuation; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Drive with headlights ON (low beams in thick smoke), windows rolled tightly UP, and vehicle cabin air set strictly to **RECIRCULATE** (blocking outside smoke and embers from entering cabin vents), moving calmly with traffic flow along **official law-enforcement evacuation routes**.",
+        "claims": [
+          "D08",
+          "D14",
+          "D06"
+        ]
+      },
+      {
+        "text": "Do NOT follow smartphone GPS \"shortcut\" detours onto narrow gravel forest roads or dead-end side streets—apps routinely route evacuees straight into active fire flanks or locked logging gates; obey live deputies, fire crews, and official DOT closures.",
+        "claims": [
+          "D14",
+          "D08"
+        ]
+      },
+      {
+        "text": "Once clear of the fire perimeter, check in with your out-of-area relay contact and official evacuation shelter registry, and NEVER attempt to drive back inside fire lines until authorities formally lift closures.",
+        "claims": [
+          "D14",
+          "D08"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reach clear safe shelter during wildfire evacuations without stalling in zero-visibility smoke or following GPS onto burning side roads.",
+    "applies": "Motorists evacuating active wildfire zones or encountering sudden highway smoke plumes.",
+    "equipment": "Vehicle headlights, HVAC set to RECIRCULATE, wet cotton cloths/N95 backup, paper road map, and live law-enforcement/DOT directions.",
+    "failure": {
+      "text": "Turning off a slow official evacuation highway onto a GPS-suggested forest shortcut that dead-ends behind burning timber.",
+      "claims": [
+        "D14",
+        "D08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm headlights on, windows shut, cabin air on RECIRCULATE, official open routes followed, and post-arrival check-in sent.",
+      "claims": [
+        "D08",
+        "D14"
+      ]
+    },
+    "stop": {
+      "text": "If sudden fire blocks every route ahead with zero safe escape, turn around early if open—never drive straight into active flames or dense zero-visibility smoke walls.",
+      "claims": [
+        "D08",
+        "C19"
+      ]
+    },
+    "diagram": "Low beams ON; windows up; air RECIRCULATE | Follow deputies/DOT (skip GPS shortcuts!) | Check in safely; never re-enter closed lines",
+    "visual": "Four-step wildfire driving plate covering cabin-recirculate setup, official-route compliance over GPS shortcuts, smoke-wall abort, and shelter check-in. Conceptual, not to scale.",
+    "reviewer": "Wildland fire operations and transportation safety"
+  },
+  {
+    "id": "Z15-P32",
+    "zone": "Z15",
+    "title": "Use live AirNow AQI categories to protect lungs from regional wildfire smoke",
+    "origin": "US EPA AirNow Wildfires; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check live official **AirNow AQI** (PM2.5) readings rather than relying only on haze appearance: **Moderate (51–100)** alerts unusually sensitive groups; **Unhealthy for Sensitive Groups (101–150)** moves children, older adults, pregnant individuals, and people with asthma/heart/lung disease indoors; **Unhealthy (151–200)** and **Very Unhealthy / Hazardous (201+)** require EVERYONE to move indoors, close windows, and cancel heavy outdoor exertion.",
+        "claims": [
+          "D06"
+        ]
+      },
+      {
+        "text": "Cut heavy outdoor running, yard work, and sports immediately as AQI climbs—strenuous breathing pulls deep fine PM2.5 particles far deeper into lung alveoli and bloodstream than quiet indoor rest.",
+        "claims": [
+          "D06"
+        ]
+      },
+      {
+        "text": "Keep windows, doors, and fresh-air HVAC intakes tightly closed during high-AQI plumes, switching immediately to indoor clean-room filtration and keeping personal prescribed rescue inhalers at hand.",
+        "claims": [
+          "D06",
+          "D07",
+          "M08"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Scale outdoor exertion, indoor filtration, and vulnerable-person protections objectively using official PM2.5 Air Quality Index readings.",
+    "applies": "Local wildfires AND long-range Canadian/western smoke plumes routinely blanketing Minnesota and the Upper Midwest.",
+    "equipment": "Official AirNow.gov / local air-quality alerts, indoor clean-room HEPA purifier, and own prescribed asthma/heart inhalers.",
+    "failure": {
+      "text": "Holding outdoor youth soccer practice or heavy wood-splitting in Purple \"Very Unhealthy\" (AQI 230) smoke haze because \"the fire is 500 miles away.\"",
+      "claims": [
+        "D06"
+      ]
+    },
+    "verify": {
+      "text": "Confirm official AirNow AQI checked, outdoor exertion scaled back/cancelled at thresholds, windows shut, and vulnerable members monitored.",
+      "claims": [
+        "D06",
+        "D07"
+      ]
+    },
+    "stop": {
+      "text": "Wheezing, persistent cough, chest tightness, shortness of breath, or dizziness during smoke events requires clean indoor air immediately and 911/clinical evaluation.",
+      "claims": [
+        "D06",
+        "M08",
+        "T02"
+      ]
+    },
+    "diagram": "AQI 101–150: protect sensitive groups | AQI 151+: ALL move indoors & halt exertion | Close windows; activate HEPA clean room",
+    "visual": "Three-tier AirNow AQI escalation ladder linking Moderate/USG, Unhealthy, and Very Unhealthy/Hazardous PM2.5 bands to concrete indoor protective actions. Conceptual, not to scale.",
+    "reviewer": "Air quality, pulmonology, and public health"
+  },
+  {
+    "id": "Z15-P33",
+    "zone": "Z15",
+    "title": "Assemble and run an indoor HEPA clean room during prolonged wildfire smoke",
+    "origin": "US EPA Create a Clean Room; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Pick one comfortable interior room (often a bedroom) with minimal exterior doors/windows, close all exterior openings tightly, and run a **correctly sized portable HEPA air cleaner** continuously on high/medium—NEVER use an \"ozone generator\" or unverified ionizer air cleaner, which emits lung-damaging ozone gas!",
+        "claims": [
+          "D07"
+        ]
+      },
+      {
+        "text": "If your home has central HVAC, set the system to **RECIRCULATE** (closing any fresh outdoor-air intake damper) and install a high-efficiency **MERV-13** (or highest rating your exact furnace blower safely supports per manual) filter replaced promptly when gray with smoke soot.",
+        "claims": [
+          "D07"
+        ]
+      },
+      {
+        "text": "Eliminate ALL indoor particulate sources inside the clean room and house: NO frying/broiling on stoves, NO candles/incense, NO smoking/vaping, NO fireplaces, and NO vacuuming unless using a true sealed HEPA vacuum (regular vacuums stir fine settled ash back into breathing air).",
+        "claims": [
+          "D07"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Create one low-particulate safe breathing room inside an ordinary home during multi-day smoke plumes without introducing indoor pollution or ozone.",
+    "applies": "Multi-day Unhealthy/Hazardous wildfire smoke events impacting homes and apartments.",
+    "equipment": "Correctly sized portable HEPA air cleaner (non-ozone-generating) OR compatible HVAC MERV-13 filter on recirculate, plus interior room with few openings.",
+    "failure": {
+      "text": "Running a portable HEPA purifier in the bedroom while frying bacon on a gas stove and burning scented candles in the kitchen next door.",
+      "claims": [
+        "D07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm true non-ozone HEPA purifier sized to room square footage, HVAC on recirculate, windows closed, and zero indoor smoke/candle/frying sources.",
+      "claims": [
+        "D07"
+      ]
+    },
+    "stop": {
+      "text": "Indoor room temperatures climbing to unsafe heat-wave levels inside a sealed clean room require prioritizing heat-stroke safety via air-conditioned clean-air shelters.",
+      "claims": [
+        "D07",
+        "D09"
+      ]
+    },
+    "diagram": "Pick 1 small room; shut windows/intakes | Run sized non-ozone HEPA (or MERV-13 recirc) | Zero frying, candles, smoking or non-HEPA vac",
+    "visual": "Cutaway residential clean room illustrating sealed windows, sized non-ozone portable HEPA recirculation, and exclusion of indoor frying/candle particulates. Conceptual, not to scale.",
+    "reviewer": "Indoor air quality and environmental health"
+  },
+  {
+    "id": "Z15-P34",
+    "zone": "Z15",
+    "title": "Resolve compound smoke-plus-extreme-heat emergencies safely",
+    "origin": "US EPA Clean Room and Ready.gov Heat; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize the compound hazard trap: sealing windows tightly against smoke inside a home WITHOUT air conditioning causes indoor heat to climb to life-threatening heat-stroke levels within hours—**acute heat stroke kills much faster than brief moderate smoke exposure**.",
+        "claims": [
+          "D07",
+          "D09"
+        ]
+      },
+      {
+        "text": "If your home lacks air conditioning (or power fails) during simultaneous smoke and extreme heat, relocate proactively to a public air-conditioned clean-air cooling center, library, mall, or cooled relative's home—taking vulnerable elders, infants, and asthmatics early.",
+        "claims": [
+          "D07",
+          "D09",
+          "D14"
+        ]
+      },
+      {
+        "text": "If using a window or portable air conditioner during smoke, verify it is set to **RECIRCULATE** indoor air (avoid single-hose portable AC units or evaporative swamp coolers that pull smokey outdoor air directly inside unless paired with HEPA filtration, and watch indoor thermometer continuously).",
+        "claims": [
+          "D07",
+          "D09"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent fatal indoor heat stroke when a wildfire smoke plume overlaps an extreme summer heat wave in homes lacking air conditioning.",
+    "applies": "Un-air-conditioned homes or power-outage residences facing simultaneous High AQI smoke AND Excessive Heat Warnings.",
+    "equipment": "Indoor thermometer, live AirNow AQI + NWS Heat alerts, portable AC/HEPA awareness, and public air-conditioned clean-air shelter list.",
+    "failure": {
+      "text": "Keeping every window sealed tight in a 98°F third-floor un-air-conditioned apartment to block smoke haze while an elderly resident develops fatal heat stroke.",
+      "claims": [
+        "D07",
+        "D09"
+      ]
+    },
+    "verify": {
+      "text": "Confirm indoor temperature monitored alongside AQI, AC recirculate mode verified, and air-conditioned shelter relocation triggered early if indoor heat spikes.",
+      "claims": [
+        "D07",
+        "D09"
+      ]
+    },
+    "stop": {
+      "text": "Dangerous indoor heat buildup overrides window-sealing rules—relocate immediately to an air-conditioned clean-air space or summon 911 for heat-illness symptoms.",
+      "claims": [
+        "D07",
+        "D09",
+        "T09"
+      ]
+    },
+    "diagram": "Smoke + no AC + heat wave = lethal trap | Heat stroke kills faster -> prioritize cooling | Relocate early to AC clean-air center",
+    "visual": "Branch decision tree resolving simultaneous Unhealthy AQI smoke and extreme indoor heat between AC+HEPA recirculation and immediate cooling-center relocation. Conceptual, not to scale.",
+    "reviewer": "Public health, indoor air quality, and heat-illness specialist"
+  },
+  {
+    "id": "Z15-P35",
+    "zone": "Z15",
+    "title": "Respect NIOSH N95/P100 particulate respirator limits in wildfire smoke",
+    "origin": "US EPA AirNow Wildfires; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Verify the respirator is stamped **NIOSH N95 or P100** with dual head straps (not loose single-loop dust masks, surgical masks, cloth gaiters, or bandanas, which leak fine PM2.5 smoke freely around the cheeks and nose).",
+        "claims": [
+          "D06",
+          "C19"
+        ]
+      },
+      {
+        "text": "Seal the nose clip and dual straps cleanly against smooth skin (heavy facial hair breaks the seal sharply, and standard adult N95s do NOT fit young children—keep children indoors in clean HEPA air instead).",
+        "claims": [
+          "D06"
+        ]
+      },
+      {
+        "text": "Remember critical respirator boundaries: an N95/P100 filters solid fine smoke particles ONLY—it offers **ZERO protection against carbon monoxide, toxic chemical vapors, or oxygen-deficient air near active flames**; individuals with heart or lung disease should ask their clinician before prolonged respirator use.",
+        "claims": [
+          "D06",
+          "C05"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Use respiratory protection accurately for essential outdoor wildfire-smoke tasks without trusting masks against gases or unsealed fits.",
+    "applies": "Essential brief outdoor tasks during Unhealthy or Hazardous wildfire smoke when staying indoors is impossible.",
+    "equipment": "Properly fitted NIOSH-approved N95 or P100 particulate respirator (two head straps, moldable nose wire).",
+    "failure": {
+      "text": "Wearing a damp cloth bandana or loose surgical mask while clearing storm brush in heavy wildfire smoke near active glowing ash.",
+      "claims": [
+        "D06",
+        "C19"
+      ]
+    },
+    "verify": {
+      "text": "Confirm NIOSH N95/P100 stamp, snug dual-strap seal, children kept in indoor HEPA air, and zero reliance near active flames/CO.",
+      "claims": [
+        "D06",
+        "D07"
+      ]
+    },
+    "stop": {
+      "text": "Dizziness, labored breathing inside a mask, or proximity to active flames/chemical fumes requires moving immediately indoors to clean air or evacuating.",
+      "claims": [
+        "D06",
+        "C19"
+      ]
+    },
+    "diagram": "NIOSH N95/P100 dual straps = PM2.5 only | Cloth/surgical/beards leak fine smoke | ZERO protection vs CO or low oxygen",
+    "visual": "Correct versus incorrect smoke protection contrasting sealed NIOSH N95/P100 particulate respirators against leaky cloth/surgical masks and CO-gas blind spots. Conceptual, not to scale.",
+    "reviewer": "Industrial hygiene, air quality, and public health"
+  },
+  {
+    "id": "Z15-P36",
+    "zone": "Z15",
+    "title": "Follow strict post-wildfire return clearance for ash pits, snags, and debris flows",
+    "origin": "FEMA Ready.gov Wildfires and Landslides; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Return ONLY after fire officials lift evacuation closures; walk carefully wearing thick leather boots, gloves, and N95 masks because gray ash heaps conceal **smoldering underground root embers and hot ash pits** capable of melting soles and causing deep burns weeks after flames pass.",
+        "claims": [
+          "D08",
+          "C14",
+          "M07"
+        ]
+      },
+      {
+        "text": "Watch overhead constantly for silent falling fire-weakened trees (\"snags\"), burned wooden utility poles, damaged propane tanks, and downed power lines—and NEVER wet down deep toxic structural ash indiscriminately without PPE and local hazmat/debris guidance.",
+        "claims": [
+          "E13",
+          "D08",
+          "D04"
+        ]
+      },
+      {
+        "text": "Stay alert for **years after a wildfire** during heavy rainstorms: burned hillsides lose root-soil stability and shed rain violently into fast-moving **flash floods and deadly debris flows** even from modest downpours.",
+        "claims": [
+          "X11",
+          "D05"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent deep hidden ash-pit burns, falling fire-weakened trees, utility shocks, and post-fire mudslides when returning to burned areas.",
+    "applies": "Residents returning to wildfire-affected neighborhoods, rural properties, or forested corridors after officials lift closures.",
+    "equipment": "Official re-entry clearance, leather boots, long sleeves, gloves, NIOSH N95 respirator, and flash-flood/debris-flow alert channel.",
+    "failure": {
+      "text": "Letting children and pets run across soft gray ash in sneakers the morning after a neighborhood wildfire closure lifts.",
+      "claims": [
+        "D08",
+        "C14"
+      ]
+    },
+    "verify": {
+      "text": "Confirm official re-entry clearance, leather boots/gloves/N95 worn, overhead snags/poles checked, and post-fire flood alerts active.",
+      "claims": [
+        "D08",
+        "X11"
+      ]
+    },
+    "stop": {
+      "text": "Smoldering hot spots, hissing propane/gas lines, leaning burned trees, or heavy rain over upslope burn scars require immediate withdrawal and 911/official report.",
+      "claims": [
+        "D08",
+        "X11",
+        "U11"
+      ]
+    },
+    "diagram": "Gray ash hides burning root pits for weeks | Watch overhead fire-weakened trees/poles | Burn scars trigger fast rain debris flows",
+    "visual": "Environmental burn-scar hazard cutaway illustrating hidden hot ash pits, falling snags/burned poles, and post-fire rainstorm debris-flow chutes. Conceptual, not to scale.",
+    "reviewer": "Wildland fire safety and geological hazards"
+  },
+  {
+    "id": "Z15-P37",
+    "zone": "Z15",
+    "title": "Act early on Excessive Heat Warnings and high overnight low temperatures",
+    "origin": "NWS Heat Safety and FEMA Extreme Heat; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Monitor both daytime **Heat Index** (temperature + humidity) AND **overnight minimum temperatures**—when nighttime air stays above 75–80°F in un-air-conditioned homes, bodies never shed stored daytime heat, causing cumulative organ stress across days 2 through 5 of a heat wave.",
+        "claims": [
+          "D09",
+          "E08"
+        ]
+      },
+      {
+        "text": "Reschedule outdoor work, athletics, and errands strictly to early morning before peak sun, draw shades/blinds on sun-facing windows early, avoid running home ovens, wear light loose breathable clothes, and hydrate steadily with safe water before thirst lags.",
+        "claims": [
+          "D09",
+          "E08",
+          "E19"
+        ]
+      },
+      {
+        "text": "Check TWICE DAILY on older adults, infants, pregnant individuals, outdoor workers, and neighbors taking heat-sensitive medications (such as diuretics or certain psychiatric/heart drugs).",
+        "claims": [
+          "D09",
+          "T10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize why consecutive hot days paired with warm humid nights overwhelm human recovery and trigger fatal heat waves.",
+    "applies": "Summer heat domes, humid Upper Midwest heat waves, and urban heat islands.",
+    "equipment": "Live NWS Heat Advisory/Excessive Heat Warning alerts, indoor thermometer, hydration plan, and cooling-center list.",
+    "failure": {
+      "text": "Ignoring day three of a humid heat wave in an upstairs apartment because daytime air dropped two degrees while indoor walls radiate 92°F heat all night.",
+      "claims": [
+        "D09",
+        "E08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm live NWS heat alerts monitored, sun-facing blinds shut early, exertion shifted to dawn, and vulnerable neighbors checked twice daily.",
+      "claims": [
+        "D09"
+      ]
+    },
+    "stop": {
+      "text": "Indoor living temperatures climbing into dangerous heat stress without working AC triggers immediate relocation to an air-conditioned cooling center.",
+      "claims": [
+        "D09",
+        "U17"
+      ]
+    },
+    "diagram": "Warm humid nights block body heat recovery | Draw sun shades; shift tasks to early dawn | Check elders & ill neighbors twice daily",
+    "visual": "Multi-day heat-wave timeline illustrating cumulative daytime Heat Index plus warm-night thermal buildup and twice-daily neighbor checks. Conceptual, not to scale.",
+    "reviewer": "Public health and heat-illness medicine"
+  },
+  {
+    "id": "Z15-P38",
+    "zone": "Z15",
+    "title": "Manage home cooling during extreme heat waves and recognize electric-fan limits",
+    "origin": "FEMA Extreme Heat and CDC Heat Health; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand the critical CDC/FEMA **electric fan limit**: electric fans move air to evaporate sweat in moderate heat, BUT when indoor air climbs into extreme heat ranges (above roughly **95°F**) with high humidity, blowing superheated air directly onto skin can actually **INCREASE** heat gain rather than cool the body—never rely on fans as your primary heat-wave defense!",
+        "claims": [
+          "D09",
+          "E08"
+        ]
+      },
+      {
+        "text": "During summer outages or non-AC heat waves, move to the coolest lowest shaded floor (such as a dry basement), block direct sunlight on south/west glass with curtains or reflective shades, take cool showers/baths or drape cool damp cloths across neck, wrists, and torso, and eat light no-cook meals.",
+        "claims": [
+          "D09",
+          "E19"
+        ]
+      },
+      {
+        "text": "Preserve grid stability safely when utilities issue conservation appeals only within safe indoor temperatures—never turn AC off for frail, elderly, or heat-vulnerable household members during Excessive Heat Warnings.",
+        "claims": [
+          "D09",
+          "T10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent false reliance on electric box fans at extreme indoor temperatures and use safe low-energy cooling strategies during grid brownouts.",
+    "applies": "Un-air-conditioned homes, apartments, and summer power outages during Excessive Heat Warnings.",
+    "equipment": "Indoor thermometer, cool damp cloths/cool showers, blackout window shades, and verified AC cooling-center locations.",
+    "failure": {
+      "text": "Leaving a frail older adult in a 98°F closed apartment with a single oscillating floor fan believing the moving air prevents heat stroke.",
+      "claims": [
+        "D09",
+        "E08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm real indoor temperature measured, fans NOT relied upon above ~95°F, cool-cloth/basement cooling used, and AC shelter plan active.",
+      "claims": [
+        "D09"
+      ]
+    },
+    "stop": {
+      "text": "Indoor air climbing past safe comfort toward 90–95°F without AC requires moving vulnerable occupants immediately to public air-conditioned spaces.",
+      "claims": [
+        "D09",
+        "U17"
+      ]
+    },
+    "diagram": "Fans FAIL to prevent heat stroke >~95°F | Block south/west sun; cool wet cloths/bath | Move vulnerable people to AC cooling center",
+    "visual": "Correct versus incorrect extreme-heat cooling contrasting cool basements, wet cloths, and AC cooling centers against relying on fans in >95°F indoor heat. Conceptual, not to scale.",
+    "reviewer": "Heat-illness medicine and public health"
+  },
+  {
+    "id": "Z15-P39",
+    "zone": "Z15",
+    "title": "Prevent fatal parked-vehicle heat deaths with zero-exception look-before-locking rules",
+    "origin": "FEMA Extreme Heat and NPS Desert Safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "NEVER leave a child, dependent adult, or pet alone inside a parked vehicle for even **\"just two minutes\"**—greenhouse solar heating spikes cabin temperatures by roughly 20°F in 10 minutes and can reach fatal temperatures above 120°F even when outdoor air is a mild 70°F and windows are cracked open.",
+        "claims": [
+          "D09",
+          "X07"
+        ]
+      },
+      {
+        "text": "Build automatic fail-safe habits to defeat routine-change memory slips: place your purse, work badge, lunch bag, or left shoe right beside the rear child car seat, ALWAYS open the back door to look before locking, and keep parked cars locked at home so toddlers cannot climb inside unattended.",
+        "claims": [
+          "D09"
+        ]
+      },
+      {
+        "text": "If you ever see a child or pet locked alone in a hot parked car showing distress or unresponsiveness, call **911 IMMEDIATELY** and follow dispatcher/Good Samaritan legal guidance to get them out and begin immediate rapid cooling.",
+        "claims": [
+          "D09",
+          "T09"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate preventable pediatric, older-adult, and pet heat-stroke deaths inside parked cars—even on mild sunny days.",
+    "applies": "Every motorist, parent, caregiver, and pet owner during spring, summer, and autumn sunshine.",
+    "equipment": "Physical back-seat reminder habit (bag/shoe/phone placed beside child seat) and zero-exception exit scan.",
+    "failure": {
+      "text": "Cracking car windows an inch in a 75°F sunny parking lot for ten minutes while running into a store with a sleeping toddler or dog in back.",
+      "claims": [
+        "D09",
+        "X07"
+      ]
+    },
+    "verify": {
+      "text": "Confirm back-seat look-before-lock habit active on every drive, parked vehicles locked at home, and zero unattended minutes tolerated.",
+      "claims": [
+        "D09"
+      ]
+    },
+    "stop": {
+      "text": "Any child, adult, or pet left inside a hot vehicle is an immediate life-threatening emergency requiring urgent rescue and 911 medical cooling.",
+      "claims": [
+        "D09",
+        "T09"
+      ]
+    },
+    "diagram": "70°F sun spikes cabin fast past fatal heat | Cracked windows do NOT stop greenhouse heat | Open rear door EVERY stop; zero exceptions",
+    "visual": "Time-temperature vehicle cabin curve showing rapid greenhouse heat spike within 10–30 minutes even on a mild 70°F day with cracked windows. Conceptual, not to scale.",
+    "reviewer": "Pediatric safety, emergency medicine, and public health"
+  },
+  {
+    "id": "Z15-P40",
+    "zone": "Z15",
+    "title": "Locate public cooling centers early and run twice-daily neighbor heat checks",
+    "origin": "FEMA Extreme Heat and Ready.gov Alerts; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify nearby public **cooling centers** (public libraries, community centers, senior centers, malls, county emergency cooling sites via 211 or local broadcast radio) BEFORE peak afternoon temperatures hit, checking accessible transit and pet/service-animal rules in advance.",
+        "claims": [
+          "D09",
+          "D17",
+          "U17"
+        ]
+      },
+      {
+        "text": "Plan spending the hottest peak hours (roughly 11 a.m. to 6 p.m.) inside air-conditioned spaces whenever home cooling fails—just several continuous hours in cool AC dramatically lowers cumulative cardiovascular and kidney strain.",
+        "claims": [
+          "D09"
+        ]
+      },
+      {
+        "text": "Check in by phone or brief daytime door knock at least TWICE DAILY on older neighbors, people living alone, and households without AC—summoning 911 promptly if someone fails to answer or appears flushed, confused, or dizzy.",
+        "claims": [
+          "D09",
+          "U14",
+          "T09"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep lower-income, elderly, medically fragile, and un-air-conditioned households connected to free air-conditioned refuge during heat waves.",
+    "applies": "Multi-day Excessive Heat Warnings, urban heat domes, and summer power blackouts.",
+    "equipment": "County 211 / municipal cooling-center map, transit/ride plan, charged phone, and neighbor check-in roster.",
+    "failure": {
+      "text": "Staying isolated inside a top-floor un-air-conditioned bedroom through day four of an Excessive Heat Warning without telling family or visiting a free library cooling center.",
+      "claims": [
+        "D09",
+        "U14"
+      ]
+    },
+    "verify": {
+      "text": "Confirm local cooling-center hours/transit verified via 211/radio and twice-daily neighbor/relative check-ins active during heat waves.",
+      "claims": [
+        "D09",
+        "U14"
+      ]
+    },
+    "stop": {
+      "text": "Confusion, slurred speech, collapse, or unanswered welfare check during extreme heat triggers immediate 911 activation.",
+      "claims": [
+        "D09",
+        "T09"
+      ]
+    },
+    "diagram": "Map free AC libraries & 211 centers early | Spend peak 11 a.m.–6 p.m. hours in AC | Check solo & older neighbors twice daily",
+    "visual": "Four-step community heat-wave plate covering 211/library mapping, peak-hour AC relocation, twice-daily neighbor checks, and 911 heat-collapse escalation. Conceptual, not to scale.",
+    "reviewer": "Public health and community emergency management"
+  },
+  {
+    "id": "Z15-P41",
+    "zone": "Z15",
+    "title": "Coordinate immediate rapid cooling and 911 for community heat-stroke collapse",
+    "origin": "CDC NIOSH Heat Illnesses and Ready.gov Heat; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat ANY sudden confusion, slurred speech, stumbling, agitation, seizure, fainting, or hot skin during a heat wave as **LIFE-THREATENING HEAT STROKE**—call **911 IMMEDIATELY** and move the person into shade or air conditioning without delay.",
+        "claims": [
+          "T09",
+          "T05",
+          "D09"
+        ]
+      },
+      {
+        "text": "Start continuous rapid cooling IMMEDIATELY while awaiting the ambulance: immerse trunk/limbs in cold water if safely available (keeping airway supported above water), OR douse continuously with cold water and cold wet sheets/towels over neck, armpits, groin, and chest while fanning aggressively.",
+        "claims": [
+          "T09",
+          "T05"
+        ]
+      },
+      {
+        "text": "Keep bystanders clear for airflow, do NOT force drinks into a confused or drowsy person's mouth, and follow live 911 dispatcher guidance until EMS transports the patient to an emergency department.",
+        "claims": [
+          "T09",
+          "M05"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Save lives during urban, workplace, or event heat-stroke collapses by cooling immediately on scene while EMS responds.",
+    "applies": "Outdoor work crews, summer festivals, neighborhoods, or hot un-air-conditioned homes during heat waves.",
+    "equipment": "Cold water hoses/tubs/ice-water soaked sheets, shade/AC room, fan, and 911 phone access.",
+    "failure": {
+      "text": "Seating a slurring, stumbling heat-stroke victim on a sunny curb handing them a warm bottle of water while waiting 15 minutes for an ambulance without cooling.",
+      "claims": [
+        "T09",
+        "T05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm 911 dispatched, continuous cold-water dousing/immersion active, airway protected, and zero forced oral fluids given.",
+      "claims": [
+        "T09",
+        "M05"
+      ]
+    },
+    "stop": {
+      "text": "Heat stroke ALWAYS demands continuous rapid cooling and mandatory emergency hospital transport—never pause evaluation even if alertness flickers back.",
+      "claims": [
+        "T09",
+        "T05"
+      ]
+    },
+    "diagram": "Heat + confusion/slur/collapse = 911 NOW | Cool aggressively NOW (cold water + fan) | Zero forced oral fluids; hospital mandatory",
+    "visual": "Escalation ladder distinguishing early heat exhaustion (shade, sip water, monitor) from heat-stroke collapse (911 + immediate cold dousing/immersion + NPO). Conceptual, not to scale.",
+    "reviewer": "Emergency medicine and heat-illness specialist"
+  },
+  {
+    "id": "Z15-P42",
+    "zone": "Z15",
+    "title": "Anticipate cascading infrastructure failures during prolonged grid blackouts",
+    "origin": "FEMA Ready.gov Power Outages; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Map the cascading chain BEFORE storms hit: when regional power drops, **gas-station fuel pumps stop**, **ATMs and credit-card terminals go offline**, **cell-tower backup batteries drain within hours to a day**, **elevators and residential well/septic pumps stop**, and **municipal water pressure may drop** triggering Boil Water notices.",
+        "claims": [
+          "D11",
+          "U01",
+          "U16"
+        ]
+      },
+      {
+        "text": "Build simple everyday habits that buffer cascading failures automatically: keep vehicle fuel above **HALF-TANK** year-round, maintain small-denomination cash, keep stored potable water and FIFO pantry food ready, and store critical phone numbers and medication lists on paper.",
+        "claims": [
+          "D11",
+          "D16",
+          "W14"
+        ]
+      },
+      {
+        "text": "Understand utility restoration order realistically: crews clear life-threatening downed wires first, then restore high-voltage transmission lines, substations, hospitals/water plants, main feeders, and finally isolated residential tap lines—so individual rural or side-street homes can wait days longer than downtown corridors.",
+        "claims": [
+          "D11"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prepare realistically for how a single wide-area electrical blackout disables fuel pumps, payment networks, water pressure, and communications simultaneously.",
+    "applies": "Regional ice storms, derechos, severe heat-wave blackouts, or multi-day utility transmission failures.",
+    "equipment": "Pre-outage cash, ≥half-tank vehicle fuel, stored drinking water, NOAA/AM-FM radio, and paper contact/medication binder.",
+    "failure": {
+      "text": "Waiting until a regional derecho cuts power across five counties to drive on an empty gas tank to an ATM and grocery store.",
+      "claims": [
+        "D11",
+        "D16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm half-tank fuel habit, small cash staged, stored water independent of electric pumps, and paper contact binder ready.",
+      "claims": [
+        "D11",
+        "D16",
+        "U08"
+      ]
+    },
+    "stop": {
+      "text": "Cascading utility losses combining dead heat/cooling, lost water, and failing medical power trigger early relocation outside the affected grid zone.",
+      "claims": [
+        "D11",
+        "U17"
+      ]
+    },
+    "diagram": "Grid loss kills gas pumps, ATMs & cell towers | Keep fuel >1/2 tank, cash, water & paper list | Utilities restore hospitals & mains before taps",
+    "visual": "Mechanism cascade diagram tracing a regional grid blackout across fuel pumps, card/ATM networks, cell-tower batteries, and water pumps to household buffers. Conceptual, not to scale.",
+    "reviewer": "Critical infrastructure and emergency management"
+  },
+  {
+    "id": "Z15-P43",
+    "zone": "Z15",
+    "title": "Manage multi-day electrical outages safely without indoor combustion or fires",
+    "origin": "FEMA Power Outages and CPSC; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Establish a calm daily blackout rhythm right away: switch to low-mode LED lighting (zero candles), log power-off times and guard refrigerator/freezer doors, unplug surge-sensitive electronics/heaters, and conserve smartphone power strictly for brief SMS check-ins and 911.",
+        "claims": [
+          "U01",
+          "U04",
+          "F04",
+          "U16"
+        ]
+      },
+      {
+        "text": "Enforce ZERO indoor combustion compromises across every day of the outage—keep portable generators ≥20 feet outdoors with exhaust away from structures, cook strictly outdoors on grills/camp stoves (or eat no-cook pantry meals), and never heat homes with gas ovens or charcoal.",
+        "claims": [
+          "C06",
+          "C16",
+          "U02"
+        ]
+      },
+      {
+        "text": "Track household health, indoor room temperature, water supply, and fuel/battery burn rate daily so you relocate cleanly to powered shelter or community hubs BEFORE reserves hit zero.",
+        "claims": [
+          "U17",
+          "D18"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Sustain safe lighting, food triage, temperature control, and battery conservation across 3-to-14-day regional blackouts.",
+    "applies": "Multi-day residential power loss across winter or summer disaster scenarios.",
+    "equipment": "LED lanterns, UL battery power banks, outdoor-only ≥20 ft generator (if owned), CO/smoke alarms, and appliance thermometers.",
+    "failure": {
+      "text": "Staying disciplined on day one of a blackout, then pulling a generator into the garage on day four out of fatigue and rain frustration.",
+      "claims": [
+        "C06",
+        "C16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm zero indoor combustion, active battery CO/smoke alarms, logged fridge/freezer temps, and daily reserve tracking.",
+      "claims": [
+        "C06",
+        "U12",
+        "F04"
+      ]
+    },
+    "stop": {
+      "text": "Any indoor CO alarm, unsafe cold/heat indoors, or exhausted medical power ends home sheltering immediately in favor of relocation or 911.",
+      "claims": [
+        "C07",
+        "U17"
+      ]
+    },
+    "diagram": "LED low-mode, shut cold doors & unplug surges | Zero indoor gens/stoves/ovens EVERY day | Track daily temp & reserves; move early",
+    "visual": "Four-phase multi-day blackout timeline tracking Hour 1 stabilization, Day 1–2 cold-chain triage, Day 3+ battery/temp rationing, and safe relocation/restoration. Conceptual, not to scale.",
+    "reviewer": "Emergency management and electrical/CO safety"
+  },
+  {
+    "id": "Z15-P44",
+    "zone": "Z15",
+    "title": "Navigate municipal water-system interruptions and multi-tier advisories",
+    "origin": "CDC Drinking Water Advisories; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Confirm the EXACT official advisory tier from your water utility or health department before touching tap water: **Boil Water** (microbial risk → clear water rolling boil 1 min; 3 min above 6,500 ft), **Do Not Drink** (chemical/algal risk → NEVER boil; bottled/supplied water ONLY), or **Do Not Use** (severe hazard → zero skin/bath/dish/drinking contact).",
+        "claims": [
+          "D12",
+          "W07",
+          "W02"
+        ]
+      },
+      {
+        "text": "Immediately switch OFF automatic refrigerator icemakers and water dispensers, dump suspect ice, use safe bottled/boiled-and-cooled water for brushing teeth, washing ready-to-eat produce, and mixing infant formula, and rely on disposable plates to stretch drinking reserves.",
+        "claims": [
+          "D12",
+          "W29",
+          "U13"
+        ]
+      },
+      {
+        "text": "Wait for formal laboratory-tested utility clearance before flushing cold taps, replacing exposed inline carbon filters, and restoring normal tap use.",
+        "claims": [
+          "D12",
+          "W07"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect household health cleanly during water-main breaks, depressurization, chemical releases, or treatment-plant outages.",
+    "applies": "Municipal tap-water loss or official Boil Water, Do Not Drink, or Do Not Use orders during disasters.",
+    "equipment": "Stored sealed potable water, official local utility alerts, clean boiling pot/timer, and offline appliance-isolation checklist.",
+    "failure": {
+      "text": "Boiling tap water after an industrial rail chemical spill triggers a Do Not Drink notice, releasing toxic vapors inside the kitchen.",
+      "claims": [
+        "D12",
+        "W01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm active utility advisory tier verified, icemaker shut off, potable safe water used for teeth/produce/formula, and official clearance awaited.",
+      "claims": [
+        "D12",
+        "W07",
+        "W29"
+      ]
+    },
+    "stop": {
+      "text": "Never guess that tap water is safe just because water pressure returned and flows clear—wait strictly for official utility lab clearance.",
+      "claims": [
+        "D12",
+        "W07"
+      ]
+    },
+    "diagram": "Read EXACT utility tier: Boil / No Drink / No Use | Kill icemaker; safe H2O for teeth & formula | Wait for formal utility lab clearance",
+    "visual": "Escalation ladder matching Boil Water, Do Not Drink, and Do Not Use municipal notices to exact household ingestion, hygiene, and restoration rules. Conceptual, not to scale.",
+    "reviewer": "Drinking-water utility and public health"
+  },
+  {
+    "id": "Z15-P45",
+    "zone": "Z15",
+    "title": "Ration potable water and use community distribution hubs during extended water cuts",
+    "origin": "CDC Emergency Water Supply and Ready.gov Water; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "**NEVER ration drinking water below basic physiological hydration**—drink what your body needs today while slashing non-drinking waste dramatically (use disposable plates, thin-stream spigot handwashing, alcohol hand rub when clean, and emergency bucket toilets instead of 1.6-gallon toilet flushes).",
+        "claims": [
+          "W14",
+          "U13",
+          "M17"
+        ]
+      },
+      {
+        "text": "Monitor county radio/211 for official municipal bulk-water tanker or bottled-water distribution sites, bringing clean, sanitized, clearly labeled **DRINKING WATER** food-grade containers (never dirty utility buckets or old chemical jugs) to refill early before home stocks run dry.",
+        "claims": [
+          "W06",
+          "W13",
+          "D18"
+        ]
+      },
+      {
+        "text": "Track household drinking-water gallons remaining every evening so you trigger distribution pickups, safe validated treatment, or relocation with at least 48 hours of buffer left.",
+        "claims": [
+          "W14",
+          "D18"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Stretch household drinking water safely during multi-week water outages without inducing dehydration or sanitation breakdown.",
+    "applies": "Multi-day to multi-week municipal water-plant failures, main collapses, or rural well/power outages.",
+    "equipment": "Sanitized food-grade jugs for agency bulk-water pickup, written daily water-ration log, spigot handwashing station, and bucket sanitation.",
+    "failure": {
+      "text": "Forcing family members to skip drinking water to save gallons for flushing toilets, causing severe dehydration and urinary/heat illness.",
+      "claims": [
+        "M17",
+        "U13"
+      ]
+    },
+    "verify": {
+      "text": "Confirm drinking hydration prioritized first, non-potable flushing cut via bucket sanitation, and clean food-grade jugs ready for hub refills.",
+      "claims": [
+        "W14",
+        "U13",
+        "W13"
+      ]
+    },
+    "stop": {
+      "text": "Dropping below a 48-hour drinking-water buffer without confirmed safe resupply or validated treatment triggers immediate relocation to serviced areas.",
+      "claims": [
+        "W14",
+        "U17"
+      ]
+    },
+    "diagram": "Never starve daily drinking hydration | Cut flush/dish waste via paper & buckets | Refill sanitized food-grade jugs at hubs early",
+    "visual": "System boundary water-budget diagram protecting daily drinking/medical hydration inside a locked tier while shifting flushing/dishes to non-potable/bucket savings. Conceptual, not to scale.",
+    "reviewer": "Public health, drinking-water safety, and emergency management"
+  },
+  {
+    "id": "Z15-P46",
+    "zone": "Z15",
+    "title": "Adapt cleanly when cellular networks congest, broadband drops, and 911 is degraded",
+    "origin": "FEMA Alerts and Make a Plan; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Switch from voice calls to **short SMS text messages** immediately during regional disasters—voice circuits jam within minutes while brief texts queue and slip through congested towers using minimal phone battery.",
+        "claims": [
+          "D13",
+          "T11"
+        ]
+      },
+      {
+        "text": "Keep phones in Airplane Mode or Low-Power Mode between scheduled check-in windows, disable auto-sync/video streaming, and check local official AM/FM and NOAA Weather Radio broadcasts for county updates and alternate emergency dispatch numbers if 911 lines experience local outages.",
+        "claims": [
+          "D13",
+          "U16",
+          "T15"
+        ]
+      },
+      {
+        "text": "Note that Text-to-911 availability varies by county (call voice 911 first whenever possible; use Text-to-911 only where supported or if unable to speak)—and if ALL phone networks fail completely during a life-threatening emergency, know the physical address of your nearest staffed fire station, police precinct, or hospital.",
+        "claims": [
+          "D13",
+          "T02"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep emergency alerts, family status updates, and rescue access working despite regional telecom blackouts.",
+    "applies": "Widespread storms, wildfires, cyber/fiber cuts, or tower power failures disrupting phone and internet service.",
+    "equipment": "Battery NOAA Weather Radio, AM/FM radio, paper contact cards, phone in low-power SMS mode, and knowledge of nearest fire/police station.",
+    "failure": {
+      "text": "Making twenty frantic back-to-back voice calls on a congested network until the battery dies before an important evacuation update arrives.",
+      "claims": [
+        "D13",
+        "U16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm SMS priority habit, paper address of nearest fire station/hospital logged, and battery NOAA/AM-FM radios active.",
+      "claims": [
+        "D13",
+        "U16"
+      ]
+    },
+    "stop": {
+      "text": "Medically fragile households facing complete loss of 911 access during an active hazard should relocate early to a staffed serviced area.",
+      "claims": [
+        "D13",
+        "T10",
+        "U17"
+      ]
+    },
+    "diagram": "Voice jams fast -> send brief SMS texts | Use battery NOAA/AM-FM for county updates | Know nearest staffed fire station / hospital",
+    "visual": "Four-step communications-outage fallback plate ordering low-power SMS, out-of-area relay, NOAA/AM-FM broadcasts, and physical fire-station/hospital fallback. Conceptual, not to scale.",
+    "reviewer": "Emergency communications specialist"
+  },
+  {
+    "id": "Z15-P47",
+    "zone": "Z15",
+    "title": "Maintain vehicle fuel buffers and cash liquidity when retail payment systems fail",
+    "origin": "FEMA Financial Preparedness and Power Outages; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Adopt the simple **\"Half-Tank Is Empty\"** rule year-round—refueling every household vehicle whenever gauges near half-full guarantees immediate 150-to-250+ mile evacuation range even if a sudden blackout shuts down every local gas station pump overnight.",
+        "claims": [
+          "D11",
+          "D14"
+        ]
+      },
+      {
+        "text": "Keep small-denomination physical cash ($1s, $5s, $10s, $20s) stored securely alongside vital documents so you can purchase food, ice, lodging, or fuel at generator-backed rural stores when broadband card terminals and ATMs stay dark.",
+        "claims": [
+          "D16",
+          "D11"
+        ]
+      },
+      {
+        "text": "Never hoard gasoline in unapproved jugs, glass bottles, or inside car trunks/living quarters during storm panics—spilled fuel vapors ignite explosively from static sparks or rear-end collisions.",
+        "claims": [
+          "U04",
+          "C15"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent being stranded at home or on evacuation roads when grid blackouts disable retail fuel pumps and card readers.",
+    "applies": "Pre-storm staging and prolonged multi-week regional disruptions.",
+    "equipment": "Vehicle kept ≥half-tank year-round, small-denomination cash reserve, and safe exterior fuel storage limits if generator-equipped.",
+    "failure": {
+      "text": "Waiting until a Hurricane/Blizzard Warning hits to queue at empty gas stations with 1/8 tank left and zero cash while card networks fail.",
+      "claims": [
+        "D11",
+        "D16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household vehicles routinely refuel at half-tank, small cash bills staged safely, and zero fuel stored inside vehicle cabins/homes.",
+      "claims": [
+        "D11",
+        "D16",
+        "U04"
+      ]
+    },
+    "stop": {
+      "text": "Driving an evacuation vehicle into an active disaster zone below quarter-tank without confirmed open fuel stations ahead risks stranding.",
+      "claims": [
+        "D11",
+        "D14"
+      ]
+    },
+    "diagram": "Treat 1/2 tank as EMPTY year-round | Stage small-bill cash ($1–$20) for offline pay | NEVER carry loose gas cans in car cabins",
+    "visual": "Correct versus incorrect fuel-and-payment readiness contrasting the half-tank rule and small cash reserves against empty tanks and unsafe trunk fuel hoarding. Conceptual, not to scale.",
+    "reviewer": "Emergency management and fire prevention"
+  },
+  {
+    "id": "Z15-P48",
+    "zone": "Z15",
+    "title": "Shelter-in-place properly for chemical or hazardous-materials airborne plumes",
+    "origin": "FEMA Ready.gov Hazardous Materials Incidents; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Move EVERY person and pet indoors IMMEDIATELY on a hazmat Shelter-in-Place alert, close and lock ALL exterior doors and windows, and **SHUT OFF ALL HVAC SYSTEMS, FURNACES, AIR CONDITIONERS, BATHROOM/KITCHEN EXHAUST FANS, AND FIREPLACE DAMPERS** so mechanical fans do NOT suck outside chemical vapors indoors.",
+        "claims": [
+          "D15",
+          "E24"
+        ]
+      },
+      {
+        "text": "Move to an interior room (preferably ABOVE ground level, because many heavy industrial gases like chlorine or anhydrous ammonia sink into basements and low spots!), and seal door/window/vent gaps temporarily with plastic sheeting and duct tape **ONLY when local authorities specifically instruct sealing**.",
+        "claims": [
+          "D15",
+          "E24"
+        ]
+      },
+      {
+        "text": "Monitor official emergency broadcasts continuously and **UNSEAL AND VENTILATE PROMPTLY** the moment officials announce the all-clear—short-term sealed rooms build up carbon dioxide over hours and are strictly temporary (typically a few hours, NOT multi-day living!).",
+        "claims": [
+          "D15",
+          "E24"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Keep acute toxic rail, highway, or industrial chemical vapors outside living air during short-duration official Shelter-in-Place orders.",
+    "applies": "Train derailments, highway tanker spills, anhydrous-ammonia releases, or chemical plant incidents where officials issue an indoor Shelter-in-Place order.",
+    "equipment": "Interior windowless/minimal-window room, HVAC/fan shutoff access, pre-cut plastic sheeting + duct tape (ONLY when officially directed), and NOAA/local radio.",
+    "failure": {
+      "text": "Leaving central air conditioning or bathroom exhaust fans running during a nearby rail-tanker ammonia leak, pulling toxic vapors straight through wall leaks.",
+      "claims": [
+        "D15"
+      ]
+    },
+    "verify": {
+      "text": "Confirm all exterior doors/windows locked, all HVAC/exhaust fans switched OFF, occupants gathered in an above-ground interior room, and live official radio monitored.",
+      "claims": [
+        "D15"
+      ]
+    },
+    "stop": {
+      "text": "Strong chemical odor, burning eyes/throat inside a sealed room, or an official upgrade to Evacuation requires immediate action per fire/hazmat responders and 911.",
+      "claims": [
+        "D15",
+        "M15"
+      ]
+    },
+    "diagram": "Move in NOW; lock ALL doors & windows | Shut OFF HVAC, fans & vents (zero intake) | Above-ground room; unseal fast on all-clear",
+    "visual": "System boundary hazmat cutaway showing locked exterior envelope, HVAC/exhaust fans switched OFF, above-ground interior refuge, and heavy-gas basement avoidance. Conceptual, not to scale.",
+    "reviewer": "Hazardous-materials response and emergency management"
+  },
+  {
+    "id": "Z15-P49",
+    "zone": "Z15",
+    "title": "Separate wildfire HEPA clean rooms, hazmat room sealing, and evacuation orders",
+    "origin": "US EPA Clean Room and FEMA Hazmat; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Match indoor air defense strictly to the hazard: for **wildfire smoke** (multi-day PM2.5 particles), keep windows closed with HVAC on RECIRCULATE and a non-ozone portable **HEPA air cleaner** running (relocating to AC if heat spikes); for an **outdoor chemical/hazmat plume** (short-term gas/vapor), switch **ALL HVAC and exhaust fans OFF** and seal an above-ground room ONLY per official order (HEPA does NOT stop toxic gases!).",
+        "claims": [
+          "D07",
+          "D06",
+          "D15"
+        ]
+      },
+      {
+        "text": "Contrast both with **INDOOR gas leak, carbon monoxide alarm, or advancing flames**, where staying inside is LETHAL—evacuate IMMEDIATELY into clean open outdoor air and move upwind/away.",
+        "claims": [
+          "U11",
+          "C07",
+          "D08"
+        ]
+      },
+      {
+        "text": "Always follow live local fire, hazmat, and emergency-management directives first—never apply a wildfire smoke guide to a chemical tanker spill or an indoor CO alarm.",
+        "claims": [
+          "D15",
+          "D07",
+          "C07"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent fatal confusion between three very different airborne emergencies (smoke filtration, short-term chemical sealing, and immediate exit).",
+    "applies": "Multi-hazard residential decision-making when smoke, chemical plumes, or indoor gas leaks occur.",
+    "equipment": "Official agency alert channel, portable HEPA purifier (smoke only), and pre-planned evacuation routes.",
+    "failure": {
+      "text": "Running a portable HEPA fan expecting it to filter chlorine gas during a rail spill, OR sealing windows tight during an indoor natural-gas leak.",
+      "claims": [
+        "D15",
+        "U11"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household distinguishes particulate smoke (HEPA), short-term outdoor chemical gas (HVAC OFF + above-ground seal), and indoor CO/gas/fire (EXIT NOW).",
+      "claims": [
+        "D07",
+        "D15",
+        "C07"
+      ]
+    },
+    "stop": {
+      "text": "Any confusion about airborne hazard type paired with eye/throat burning or dizziness triggers calling 911/local dispatch immediately for authoritative direction.",
+      "claims": [
+        "D15",
+        "M15"
+      ]
+    },
+    "diagram": "Smoke = closed + HEPA recirc (particles) | Outdoor chem = HVAC OFF + short seal | Indoor gas/CO/flames = EXIT IMMEDIATELY",
+    "visual": "Comparative airborne-hazard matrix contrasting wildfire particulate HEPA clean rooms, short-term outdoor chemical HVAC-off sealing, and instant indoor-hazard exit. Conceptual, not to scale.",
+    "reviewer": "Hazmat, indoor air quality, and emergency management"
+  },
+  {
+    "id": "Z15-P50",
+    "zone": "Z15",
+    "title": "Decide objectively between shelter-in-place and evacuation by hazard and official order",
+    "origin": "FEMA Ready.gov Shelter and Evacuation; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "**EVACUATE IMMEDIATELY** whenever authorities issue a mandatory evacuation order, flames/floodwater threaten routes, indoor gas/CO/structural hazards occur, or prolonged utility loss pushes indoor heat/cold/medical batteries past safe floors while roads remain open.",
+        "claims": [
+          "D14",
+          "T13",
+          "U17"
+        ]
+      },
+      {
+        "text": "**SHELTER IN PLACE** when moving outside exposes occupants to greater immediate danger than staying inside—such as active Tornado Warnings, lightning/derecho squalls, blinding whiteout blizzards, impassable flash floods, or official short-term hazmat Shelter-in-Place orders.",
+        "claims": [
+          "E24",
+          "D03",
+          "D10",
+          "D15"
+        ]
+      },
+      {
+        "text": "Re-evaluate continuously as conditions evolve: a safe blizzard shelter-in-place on Day 1 can shift into a necessary daylight warming-center evacuation on Day 3 once roads plow open and indoor temperatures fall.",
+        "claims": [
+          "U17",
+          "D10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate hesitation by anchoring stay-vs-go decisions to clear hazard physics, official orders, and household vulnerability.",
+    "applies": "Any rapidly developing storm, flood, wildfire, hazmat spill, or prolonged utility collapse.",
+    "equipment": "Official local alert channels, printed evacuation triggers, and pre-packed go-bags.",
+    "failure": {
+      "text": "Trying to drive across town during an active Tornado Warning, OR stubbornly sheltering in place inside a mandatory wildfire evacuation zone.",
+      "claims": [
+        "D03",
+        "D08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household checks official orders first, compares outdoor vs indoor lethality honestly, and revisits stay/go triggers as conditions shift.",
+      "claims": [
+        "D14",
+        "E24"
+      ]
+    },
+    "stop": {
+      "text": "Official mandatory evacuation orders ALWAYS override personal preference to stay and guard property.",
+      "claims": [
+        "D14",
+        "T13"
+      ]
+    },
+    "diagram": "Mandatory order / fire / flood / CO -> EVAC | Tornado / blizzard / hazmat order -> SHELTER | Re-check stay vs go as conditions shift",
+    "visual": "Decision tree sorting active outdoor lethality (tornado/blizzard/hazmat) versus route/home failure (fire/flood/CO/order) into shelter-in-place or evacuation. Conceptual, not to scale.",
+    "reviewer": "Emergency management specialist"
+  },
+  {
+    "id": "Z15-P51",
+    "zone": "Z15",
+    "title": "Map two independent neighborhood exit routes and override unsafe GPS detours",
+    "origin": "FEMA Ready.gov Evacuation; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Highlight at least **TWO completely independent exit routes** leaving your neighborhood and town in opposite compass directions on a PAPER road map kept inside each vehicle—if a river bridge floods, a train derails, or a wildfire jumps the main highway, you immediately pivot to Route B without panic.",
+        "claims": [
+          "D14",
+          "T13"
+        ]
+      },
+      {
+        "text": "Drive both routes once in daylight during calm weather so every household driver recognizes intersections, low-lying flood bridges to avoid, and rural gravel dead-ends.",
+        "claims": [
+          "D14",
+          "D05"
+        ]
+      },
+      {
+        "text": "During an active disaster evacuation, **FOLLOW LIVE LAW-ENFORCEMENT OFFICERS, FIRE CREWS, AND OFFICIAL DOT ROAD CLOSURES—NOT SMARTPHONE GPS SHORTCUTS**, because crowdsourced traffic apps automatically divert drivers off congested main highways onto flooded side roads, downed-wire streets, or burning flanks.",
+        "claims": [
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent gridlock traps and closed-road dead-ends by pre-planning multiple physical routes out of your block, town, and county.",
+    "applies": "Wildfire, flood, hazmat, and winter evacuation planning for every driver and household.",
+    "equipment": "Printed paper county/state highway map kept in glovebox, highlighted primary + alternate exit corridors, and state DOT 511 radio/alerts.",
+    "failure": {
+      "text": "Letting a phone navigation app reroute an evacuating family off a slow county highway onto an unmonitored low-water creek bridge washed out by flash flooding.",
+      "claims": [
+        "D14",
+        "D05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm paper road map in every car with ≥2 opposite exit routes marked and every driver briefed to override GPS for live official closures.",
+      "claims": [
+        "D14"
+      ]
+    },
+    "stop": {
+      "text": "Any police barricade, downed wire, active smoke wall, or water across pavement halts forward travel immediately—turn back calmly to an open official corridor.",
+      "claims": [
+        "D14",
+        "D05"
+      ]
+    },
+    "diagram": "Mark ≥2 opposite exit routes on PAPER map | Obey live deputies & DOT over GPS apps | Never bypass road barricades or water",
+    "visual": "Environmental neighborhood evacuation map illustrating primary Route A, independent opposite-direction Route B, blocked flood/fire hazard, and GPS shortcut trap. Conceptual, not to scale.",
+    "reviewer": "Transportation emergency management"
+  },
+  {
+    "id": "Z15-P52",
+    "zone": "Z15",
+    "title": "Maintain group accountability, buddy roles, and school/workplace reunification",
+    "origin": "FEMA Make a Plan and Evacuation; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Assign a specific adult **BUDDY** to every young child, older adult, mobility-limited member, and pet carrier BEFORE an evacuation begins—loud alarms and smoke cause people to assume \"someone else grabbed them.\"",
+        "claims": [
+          "T11",
+          "D17"
+        ]
+      },
+      {
+        "text": "Run a verbal headcount at THREE fixed checkpoints: 1) before leaving the building, 2) inside the vehicle or at the neighborhood rally point, and 3) upon arriving at the shelter or out-of-town rally point—immediately texting status to your out-of-area relay contact.",
+        "claims": [
+          "T11",
+          "D14"
+        ]
+      },
+      {
+        "text": "Know exact school and daycare emergency reunification rules (official photo ID required, pre-listed backup authorized adults, designated off-site reunification center)—never rush an active emergency perimeter without following official reunification instructions.",
+        "claims": [
+          "T11",
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Ensure no child, older adult, or companion is overlooked during chaotic evacuations or separated without a clear reunification plan.",
+    "applies": "Families, multi-generational households, community groups, and workplaces during disasters.",
+    "equipment": "Written household headcount/buddy list, school/daycare emergency cards, and Red Cross Safe & Well / out-of-area relay contact.",
+    "failure": {
+      "text": "Two parents assuming the other checked the basement bedroom for a sleeping teenager during a hurried midnight gas-leak evacuation.",
+      "claims": [
+        "T11",
+        "U11"
+      ]
+    },
+    "verify": {
+      "text": "Confirm explicit buddy assignments, three-point headcount habit, updated school pick-up lists, and out-of-area relay number memorized/printed.",
+      "claims": [
+        "T11",
+        "D14"
+      ]
+    },
+    "stop": {
+      "text": "Any missing household member at a rally point triggers immediate notification to arriving fire/police/SAR commanders—NEVER re-enter a burning, gas-filled, or collapsing building yourself.",
+      "claims": [
+        "T01",
+        "U11",
+        "U04"
+      ]
+    },
+    "diagram": "Assign 1 adult buddy per child/elder/pet | Headcount: exit door -> vehicle -> arrival | Text out-of-area relay; obey school ID rules",
+    "visual": "Four-step group accountability plate tracking buddy assignment, three-checkpoint headcount, school/workplace ID reunification, and out-of-area relay update. Conceptual, not to scale.",
+    "reviewer": "Emergency management and family reunification"
+  },
+  {
+    "id": "Z15-P53",
+    "zone": "Z15",
+    "title": "Register safely at public emergency shelters and know ADA service-animal rules",
+    "origin": "FEMA Evacuation and Pets; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check in formally at the shelter registration desk upon arrival AND update your status through official channels (such as Red Cross Safe & Well and your out-of-area family relay) so anxious relatives and SAR teams know you are safe.",
+        "claims": [
+          "D14",
+          "T11"
+        ]
+      },
+      {
+        "text": "Bring personal medications, hearing/mobility aids, infant formula/diapers, pillow/blanket, phone chargers, and earplugs—remember general public shelters prohibit weapons, alcohol, illegal drugs, and personal cooking flames indoors.",
+        "claims": [
+          "D14",
+          "T10"
+        ]
+      },
+      {
+        "text": "Understand the exact legal distinction for animals: **ADA-defined trained service animals** are legally admitted inside general public emergency shelters with their handler, whereas **companion pets** typically require designated pet-friendly shelters or co-located animal-shelter bays—verify county pet-shelter sites BEFORE storms hit!",
+        "claims": [
+          "D17"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Transition smoothly into municipal or Red Cross shelters while respecting shelter safety rules, medical needs, and legal animal distinctions.",
+    "applies": "Evacuees using community warming/cooling centers or overnight disaster shelters.",
+    "equipment": "Go-bags, photo IDs (helpful, though shelters do not turn away disaster victims lacking ID), prescriptions, personal hygiene items, and comfort items.",
+    "failure": {
+      "text": "Refusing mandatory flood evacuation because of assuming no county pet-friendly shelter exists, or arriving without critical prescription medications.",
+      "claims": [
+        "D17",
+        "D14"
+      ]
+    },
+    "verify": {
+      "text": "Confirm shelter registration completed, out-of-area relay notified, prescriptions carried on-person, and local pet-shelter options mapped beforehand.",
+      "claims": [
+        "D14",
+        "D17"
+      ]
+    },
+    "stop": {
+      "text": "Acute medical symptoms, contagious vomiting/diarrhea, or depleted oxygen/dialysis supplies inside a general shelter must be reported immediately to the shelter nurse/manager.",
+      "claims": [
+        "T10",
+        "D14"
+      ]
+    },
+    "diagram": "Register at desk & notify out-of-area relay | Bring own Rx, chargers, formula & comfort gear | ADA service animals IN; pets -> pet shelter",
+    "visual": "System boundary shelter guide distinguishing general-population shelter rules and ADA service-animal access from co-located pet-shelter staging. Conceptual, not to scale.",
+    "reviewer": "Shelter operations, ADA accessibility, and emergency management"
+  },
+  {
+    "id": "Z15-P54",
+    "zone": "Z15",
+    "title": "Execute accessible evacuations for disability, mobility, and medical-power needs",
+    "origin": "FEMA People with Disabilities; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Activate your **personal support network** (at least three trusted neighbors, relatives, or coworkers trained on how your mobility/medical equipment operates) early on Watch/Advisory notices rather than waiting until mandatory final-hour departures.",
+        "claims": [
+          "T10",
+          "D14"
+        ]
+      },
+      {
+        "text": "Pack a laminated **medical and communication summary card** (diagnoses, exact medications/doses, device wattage, allergies, primary clinician, and preferred communication method—e.g., ASL interpreter, large print, written pad) plus spare hearing-aid batteries, glasses, manual cane/chair backup, and labeled device chargers.",
+        "claims": [
+          "T10",
+          "D16"
+        ]
+      },
+      {
+        "text": "Confirm accessible vehicle transport (wheelchair-lift van or local paratransit emergency registration) and ADA-accessible shelter capabilities ahead of time, alerting arriving responders immediately to any power-dependent life-support device.",
+        "claims": [
+          "T10",
+          "U02"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Provide practical, dignified evacuation execution for household members who use wheelchairs, oxygen, sensory aids, or medical electricity.",
+    "applies": "Households and caregivers supporting individuals with mobility, vision, hearing, cognitive, or medical-technology needs.",
+    "equipment": "Personal support network (3+ trusted contacts), backup batteries/manual wheelchair option, medical summary card, and accessible transport plan.",
+    "failure": {
+      "text": "Relying solely on a 300-pound powered wheelchair with no manual backup or pre-arranged lift-van network during an apartment power outage and flood evacuation.",
+      "claims": [
+        "T10",
+        "U01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm 3-person personal support network briefed, medical summary card packed, spare sensory/battery supplies charged, and accessible exit pre-mapped.",
+      "claims": [
+        "T10"
+      ]
+    },
+    "stop": {
+      "text": "Imminent medical-battery exhaustion or blocked accessible exit requires calling 911 early to request specialized EMS/fire accessible extraction.",
+      "claims": [
+        "T10",
+        "U17"
+      ]
+    },
+    "diagram": "Activate 3-person support network EARLY | Pack Rx, spares, device watts & comms card | Pre-arrange accessible transport & 911 early",
+    "visual": "Four-step accessible evacuation plate mapping early Watch activation, personal support network, laminated medical/comms card, and accessible shelter/911 handoff. Conceptual, not to scale.",
+    "reviewer": "Disability/accessible emergency management and EMS"
+  },
+  {
+    "id": "Z15-P55",
+    "zone": "Z15",
+    "title": "Evacuate companion animals and prepare rural livestock contingencies safely",
+    "origin": "FEMA Ready.gov Pets; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Follow the universal preparedness rule: **\"If it is not safe for you, it is not safe for your pets\"**—keep sturdy labeled carriers, leashes, collars with ID tags, microchip numbers, vaccination copies (required by most pet shelters/boarding kennels), and a 7-day supply of pet food, water, and medications packed beside human go-bags.",
+        "claims": [
+          "D17"
+        ]
+      },
+      {
+        "text": "Practice loading nervous cats and dogs into carriers calmly during normal weeks and map pet-friendly motels, relatives, and county co-located animal shelters along BOTH evacuation routes ahead of disaster season.",
+        "claims": [
+          "D17",
+          "D14"
+        ]
+      },
+      {
+        "text": "For small-acreage horses or livestock, plan high-ground pasture access, sturdy fencing identification, and early trailer hauling agreements with neighbors/fairgrounds well ahead of fire or flood—never risk human lives trying to haul panicked livestock into active flames or floodwater.",
+        "claims": [
+          "D17",
+          "D08"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent both animal tragedies and dangerous delayed human evacuations caused by unplanned pet or livestock scrambles.",
+    "applies": "Households with dogs, cats, small cage pets, or small-acreage horses/chickens/livestock.",
+    "equipment": "Sturdy carriers/leashes, current ID tags + microchip records, 7-day pet food/water, vaccination proof, and pre-arranged rural boarding/trailer contacts.",
+    "failure": {
+      "text": "Leaving panicked pets untagged inside a house during a wildfire evacuation, then sneaking back across police lines and getting trapped by flames.",
+      "claims": [
+        "D17",
+        "D08"
+      ]
+    },
+    "verify": {
+      "text": "Confirm carriers/leashes/ID tags/vaccination papers/7-day pet food staged by exits and pet-friendly hotels/shelters mapped beforehand.",
+      "claims": [
+        "D17"
+      ]
+    },
+    "stop": {
+      "text": "Never re-enter a closed disaster perimeter for animals—coordinate strictly with official animal-control and fire/rescue teams once cleared.",
+      "claims": [
+        "D17",
+        "D08"
+      ]
+    },
+    "diagram": "Stage carriers, leashes, IDs & vaccine papers | Map pet-friendly hotels & county pet shelters | Move livestock EARLY; never re-enter fire lines",
+    "visual": "Exploded four-part animal-evacuation kit covering sturdy carrier/leash, microchip/vaccination folder, 7-day food/water/Rx, and pre-mapped pet-friendly stops. Conceptual, not to scale.",
+    "reviewer": "Animal emergency management and Extension"
+  },
+  {
+    "id": "Z15-P56",
+    "zone": "Z15",
+    "title": "Follow official re-entry orders and safe post-disaster inspection sequences",
+    "origin": "FEMA Ready.gov Evacuation and Recovery; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Wait strictly for official county/city re-entry authorization (bringing photo ID and proof of address for law-enforcement checkpoints) and return in **DAYLIGHT** so structural damage, downed wires, and road washouts are clearly visible.",
+        "claims": [
+          "D14",
+          "D05",
+          "D08"
+        ]
+      },
+      {
+        "text": "Walk a complete **360-degree exterior inspection** BEFORE unlocking the door—checking for downed utility drops, leaning walls, shifted foundations, broken propane/gas lines (rotten-egg odor → leave immediately!), and hanging storm-broken tree limbs overhead.",
+        "claims": [
+          "D05",
+          "U11",
+          "D03"
+        ]
+      },
+      {
+        "text": "Photograph and video ALL exterior and interior damage thoroughly BEFORE moving debris or beginning cleanup for insurance and FEMA assistance, and keep children and pets safely away until broken glass, sewage, ash, and utility hazards are fully cleared.",
+        "claims": [
+          "D16",
+          "D05"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent preventable post-disaster injuries during emotional homecomings after storms, fires, floods, or hazmat evacuations.",
+    "applies": "Any household returning home after a mandatory or voluntary disaster evacuation.",
+    "equipment": "Official local all-clear announcement, photo ID (often needed at neighborhood checkpoints), boots/gloves/N95, flashlight, and camera.",
+    "failure": {
+      "text": "Driving around a police checkpoint at dusk right after a flood or tornado and stepping straight into an energized flooded hallway.",
+      "claims": [
+        "D14",
+        "D05"
+      ]
+    },
+    "verify": {
+      "text": "Confirm official all-clear received, daylight 360-degree exterior utility/structural check passed, damage documented visually, and kids/pets kept clear.",
+      "claims": [
+        "D14",
+        "D16",
+        "D05"
+      ]
+    },
+    "stop": {
+      "text": "Any visible structural tilt, sagging ceiling, gas odor, sparking line, or submerged breaker panel halts entry immediately—step back and call utility/pros.",
+      "claims": [
+        "D05",
+        "U11"
+      ]
+    },
+    "diagram": "Wait for official all-clear + daylight + ID | Walk 360° exterior check (wires/gas/walls) | Photo ALL damage before moving debris",
+    "visual": "Four-step safe re-entry inspection plate ordering official clearance, 360-degree exterior utility/structure walk, damage photo logging, and controlled cleanup. Conceptual, not to scale.",
+    "reviewer": "Emergency management and building safety"
+  },
+  {
+    "id": "Z15-P57",
+    "zone": "Z15",
+    "title": "Phase a 30-day regional disruption into stabilization, adaptation, and recovery",
+    "origin": "FEMA Ready.gov Multi-Hazard Resilience; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Organize prolonged emergencies intentionally into THREE operational phases, beginning with **Days 1–3 (Stabilize)**: secure life safety, CO/smoke alarms, shelter warmth/cooling, fridge/freezer outage triage, family check-ins, and zero indoor combustion.",
+        "claims": [
+          "D18",
+          "U01",
+          "F04"
+        ]
+      },
+      {
+        "text": "Shift purposefully into **Days 4–14 (Adapt):** Establish daily water/food/battery pacing logs, reliable sanitation and hygiene stations, neighborhood wellness check-ins, and safe resupply trips to county distribution hubs or open towns.",
+        "claims": [
+          "D18",
+          "U13",
+          "U16"
+        ]
+      },
+      {
+        "text": "Transition cleanly into **Days 15–30 (Sustain & Recover):** Maintain health/morale routines, monitor reserve replenishment triggers with 48-hour buffers, coordinate mutual aid and county/FEMA assistance claims, and execute safe phased utility restoration as infrastructure returns.",
+        "claims": [
+          "D18",
+          "D16",
+          "U01"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Replace panic or burnout during multi-week regional supply/utility disruptions with a structured three-phase household operating framework.",
+    "applies": "Extended regional ice-storm blackouts, major flood isolation, pandemic/supply-chain shocks, or multi-week rural disruptions.",
+    "equipment": "Written 30-day household logbook, daily inventory tracker, NOAA/AM-FM radio, and community resource list.",
+    "failure": {
+      "text": "Burning through all stored generator fuel, fresh batteries, and favorite pantry foods during Days 1–3 with no written pacing log for Weeks 2–4.",
+      "claims": [
+        "D18",
+        "U01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm household transitions deliberately from Day 1–3 emergency response into steady Day 4–30 logging, sanitation, and community resupply cadence.",
+      "claims": [
+        "D18"
+      ]
+    },
+    "stop": {
+      "text": "Any unresolvable medical depletion, unsafe indoor temperature, or collapsed sanitation ends home stay immediately in favor of relocation or county aid.",
+      "claims": [
+        "D18",
+        "U17"
+      ]
+    },
+    "diagram": "Days 1–3: life safety, cold doors & comms | Days 4–14: daily logs, sanitation & hub resupply | Days 15–30: morale, mutual aid & recovery",
+    "visual": "Three-phase 30-day disruption timeline structuring Days 1–3 stabilization, Days 4–14 adaptation, and Days 15–30 sustained recovery and relocation gates. Conceptual, not to scale.",
+    "reviewer": "Emergency management and community resilience"
+  },
+  {
+    "id": "Z15-P58",
+    "zone": "Z15",
+    "title": "Run daily household water, food, fuel, and battery pacing logs over 30 days",
+    "origin": "FEMA Ready.gov and CDC Emergency Water; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Spend five calm minutes every evening writing down FOUR concrete numbers on paper: **potable drinking-water gallons left**, **days of familiar pantry food left**, **heating/generator/vehicle fuel left**, and **battery/medical-power charge state** (plus prescription days remaining).",
+        "claims": [
+          "D18",
+          "W14",
+          "T10"
+        ]
+      },
+      {
+        "text": "Eat household food in smart spoilage order across weeks: **1)** Safe-temp refrigerated perishables first, **2)** Safe frozen items if power fails, **3)** Root-cellar/fresh produce showing early age, and **4)** Rotated shelf-stable canned and dry pantry staples last.",
+        "claims": [
+          "D18",
+          "F04",
+          "P15"
+        ]
+      },
+      {
+        "text": "Set a hard **RED-LINE RESUPPLY TRIGGER** at 48 to 72 hours of remaining critical supply (water, prescriptions, infant formula, or heating fuel)—never wait until the last bottle or last pill before seeking county hubs or relocating.",
+        "claims": [
+          "D18",
+          "T10",
+          "U17"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Detect shrinking reserves days ahead of exhaustion so households resupply or relocate calmly without sudden crises.",
+    "applies": "Multi-week outages, supply-chain disruptions, or winter isolation events.",
+    "equipment": "Paper notebook, pencil, and four-column daily reserve log (Drinking Water, Food Days, Fuel/Heat, Battery/Med Power).",
+    "failure": {
+      "text": "Discovering on Day 12 of a regional disruption that insulin, drinking water, and vehicle gas all hit zero on the exact same snowy evening.",
+      "claims": [
+        "D18",
+        "T10"
+      ]
+    },
+    "verify": {
+      "text": "Confirm nightly 5-minute paper log tracks water, food, fuel, batteries, and prescriptions against a 48–72-hour action floor.",
+      "claims": [
+        "D18"
+      ]
+    },
+    "stop": {
+      "text": "Reaching a 48–72-hour critical reserve floor with no confirmed resupply triggers immediate relocation or county emergency-management assistance.",
+      "claims": [
+        "D18",
+        "U17"
+      ]
+    },
+    "diagram": "Log 4 numbers nightly: H2O, food, fuel, meds | Eat order: fridge -> freezer -> cellar -> pantry | Trigger resupply/move at 48–72 h buffer",
+    "visual": "Four-step daily reserve-pacing plate covering nightly 4-metric log, smart spoilage eating order, 48–72 hour red-line trigger, and calm resupply/relocation. Conceptual, not to scale.",
+    "reviewer": "Emergency management and logistics"
+  },
+  {
+    "id": "Z15-P59",
+    "zone": "Z15",
+    "title": "Sustain household hygiene, laundry, waste, and illness isolation across 30 days",
+    "origin": "CDC Emergency Sanitation and USDA Food Safety; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat strict hand hygiene, clean drinking/cooking water, and sealed waste containment as non-negotiable daily chores—assigning clear daily rotation among household members so fatigue never lets sanitation slip in Week 2.",
+        "claims": [
+          "U13",
+          "F01",
+          "D18"
+        ]
+      },
+      {
+        "text": "Manage laundry conservatively when machines are offline (wearing clean dry inner base layers, airing outer wool/fleece layers, hand-washing essential undergarments/socks in a labeled tub with minimal water away from drinking jugs, and line-drying cleanly).",
+        "claims": [
+          "U13",
+          "D18"
+        ]
+      },
+      {
+        "text": "If ANY household member develops vomiting, diarrhea, fever, or contagious cough during a prolonged disruption, isolate them in a separate ventilated room if possible, dedicate separate cups/towels/waste liners, and enforce strict caregiver handwashing while monitoring for medical evacuation red flags.",
+        "claims": [
+          "U13",
+          "M17",
+          "F01"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent secondary diarrheal, respiratory, and skin-infection outbreaks that historically cause major morbidity during prolonged disasters.",
+    "applies": "Multi-week water, sewer, garbage, or grid disruptions with families living closely indoors.",
+    "equipment": "Spigot handwashing station, soap/alcohol rub, double-bagged sanitation/trash bins, clean linens, and sick-room separation plan.",
+    "failure": {
+      "text": "Letting dirty dishes, unwashed hands, and unsealed garbage accumulate in Week 2 of an outage until gastrointestinal illness sweeps the whole house.",
+      "claims": [
+        "U13",
+        "F01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm daily assigned hygiene/waste chores, isolated clean drinking-water jugs, and sick-room separation readiness.",
+      "claims": [
+        "U13",
+        "D18"
+      ]
+    },
+    "stop": {
+      "text": "Uncontrolled household vomiting/diarrhea, failed sanitation containment, or worsening fever/dehydration requires medical care and relocation to functioning facilities.",
+      "claims": [
+        "M17",
+        "U13",
+        "U17"
+      ]
+    },
+    "diagram": "Assign daily hygiene & sealed waste chores | Separate sick rooms, cups & towels early | Keep potable jugs isolated from wash tubs",
+    "visual": "System boundary 30-day home hygiene layout separating clean potable/food zones from laundry/greywater tubs, sealed waste, and sick-room isolation. Conceptual, not to scale.",
+    "reviewer": "Environmental health and infectious-disease prevention"
+  },
+  {
+    "id": "Z15-P60",
+    "zone": "Z15",
+    "title": "Protect household morale, children's routines, and steady decision-making over 30 days",
+    "origin": "FEMA Ready.gov Make a Plan and Coping; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Hold a calm 10-minute **daily family huddle** at a set morning or evening hour to share verified radio facts (avoiding nonstop rumor scrolling), review today's simple chores, check everyone's physical/emotional health, and make practical choices while everyone is rested.",
+        "claims": [
+          "D18",
+          "T11"
+        ]
+      },
+      {
+        "text": "Keep predictable daily anchors—consistent wake/meal/bedtimes, simple age-appropriate helper jobs for children, offline board games, books, journaling, and safe daytime outdoor walks when weather/air allow—routine calms children and cuts adult fatigue sharply.",
+        "claims": [
+          "D18"
+        ]
+      },
+      {
+        "text": "Rotate demanding watch duties (storm monitoring, stove/wood tending, caregiver shifts) fairly so no single adult collapses from 72 hours without sleep and makes dangerous safety mistakes (like mis-placing a generator or forgetting a valve).",
+        "claims": [
+          "D18",
+          "E11"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent decision fatigue, sleep deprivation, and household conflict during stressful multi-week disruptions.",
+    "applies": "Families, roommates, and isolated households enduring prolonged weather, outage, or recovery crises.",
+    "equipment": "Daily posted routine schedule, age-appropriate books/games/flashlights for children, regular meal/sleep times, and brief daily family huddle.",
+    "failure": {
+      "text": "One exhausted parent trying to manage every outage chore sleeplessly for four days straight while kids panic over unverified disaster rumors.",
+      "claims": [
+        "D18"
+      ]
+    },
+    "verify": {
+      "text": "Confirm daily 10-minute fact-based huddle, shared chore/rest rotations, predictable child routines, and rumor-free official radio updates.",
+      "claims": [
+        "D18",
+        "U16"
+      ]
+    },
+    "stop": {
+      "text": "Severe emotional crisis, acute panic, or inability to sustain safe caretaking requires reaching out immediately to support networks, county crisis lines (988 in U.S. where reachable), or 911.",
+      "claims": [
+        "D18",
+        "T02"
+      ]
+    },
+    "diagram": "10-min daily huddle with verified radio facts | Keep predictable meals, sleep & kid routines | Rotate chores & sleep to stop fatigue errors",
+    "visual": "Four-step prolonged-crisis resilience plate balancing daily fact huddles, predictable routines, fair rest rotations, and crisis-support escalation. Conceptual, not to scale.",
+    "reviewer": "Behavioral disaster health and emergency management"
+  },
+  {
+    "id": "Z15-P61",
+    "zone": "Z15",
+    "title": "Coordinate neighborhood mutual aid and county relief hubs responsibly",
+    "origin": "FEMA Ready.gov Multi-Hazard Resilience; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that true 30-day resilience is **COMMUNITY-INTEGRATED**, not hostile isolation: share non-critical surpluses (spare batteries, charging slots on a safe outdoor generator, shoveled sidewalks, shared hot water/meals, childcare swaps) cleanly with trusted neighbors while protecting core family medical/water floors.",
+        "claims": [
+          "D18",
+          "U14"
+        ]
+      },
+      {
+        "text": "Use official county, Red Cross, National Guard, and municipal distribution hubs (PODs — Points of Distribution for water, MREs/groceries, ice, tarps, charging, and medical triage) proactively as soon as opened rather than waiting until home supplies are completely empty.",
+        "claims": [
+          "D18",
+          "D14"
+        ]
+      },
+      {
+        "text": "Volunteer safely within your real physical limits and training—checking on elderly neighbors, clearing shared curb fire hydrants, and coordinating through established local faith/civic/emergency channels rather than freelancing into active rescue scenes.",
+        "claims": [
+          "D18",
+          "T01"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Multiply household safety and endurance by pairing private readiness with structured neighborhood sharing and official municipal relief.",
+    "applies": "Multi-week storms, regional blackouts, floods, or community-wide recovery events.",
+    "equipment": "Neighborhood skill/contact roster, local 211/county emergency-management broadcasts, and clear safety boundaries.",
+    "failure": {
+      "text": "Refusing community water/charging support out of pride while a household's medical batteries run dry, OR freelancing untrained into an active flood-rescue street.",
+      "claims": [
+        "D18",
+        "T01"
+      ]
+    },
+    "verify": {
+      "text": "Confirm local 211/county POD announcements monitored, neighbor check-in roster active, and personal medical/water floors protected.",
+      "claims": [
+        "D18",
+        "U14"
+      ]
+    },
+    "stop": {
+      "text": "Never self-deploy into active fire, flood, downed-wire, or hazmat scenes—leave technical rescue strictly to trained emergency responders.",
+      "claims": [
+        "T01",
+        "D05"
+      ]
+    },
+    "diagram": "Pair home reserves + trusted neighbor aid | Use county water/charging POD hubs early | Help safely; NEVER self-deploy to rescue scenes",
+    "visual": "Three-tier community resilience ladder linking household reserves, structured neighborhood mutual aid, and official county/Red Cross distribution hubs. Conceptual, not to scale.",
+    "reviewer": "Community emergency management specialist"
+  },
+  {
+    "id": "Z15-P62",
+    "zone": "Z15",
+    "title": "Recognize firm thresholds when 30-day home resilience must yield to aid or exit",
+    "origin": "FEMA Ready.gov Evacuation and Power Outages; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Commit in advance to FIVE objective red lines where staying home STOPS immediately: **1)** acute medical red flag, worsening chronic illness, or under 48 hours of critical prescriptions/medical power; **2)** uncontrolled indoor freezing cold or extreme >90–95°F un-cooled heat; **3)** persistent CO alarm, gas leak, structural damage, or sewage/hazmat hazard; **4)** drinking water under 48 hours with zero safe resupply; **5)** official mandatory evacuation order.",
+        "claims": [
+          "U17",
+          "D18",
+          "D14",
+          "T10"
+        ]
+      },
+      {
+        "text": "Treat evacuating to a powered hotel, relative's town, or county shelter as a **SUCCESSFUL EXECUTION OF THE PLAN**—never as a failure of self-reliance.",
+        "claims": [
+          "U17",
+          "D18"
+        ]
+      },
+      {
+        "text": "Leave while roads, daylight, fuel, and physical energy remain comfortably intact rather than waiting for all five red lines to converge simultaneously.",
+        "claims": [
+          "U17",
+          "D14"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate dangerous \"bunker mentality\" by defining objective medical, utility, and environmental red lines that trigger orderly evacuation or 911.",
+    "applies": "Extended multi-week disruptions across winter, summer, flood, or infrastructure crises.",
+    "equipment": "Pre-agreed written household red-line card signed/reviewed before disasters.",
+    "failure": {
+      "text": "Stubbornly staying in a freezing dark house until prescriptions run out, pipes burst, and roads glaze over solid.",
+      "claims": [
+        "U17",
+        "D18"
+      ]
+    },
+    "verify": {
+      "text": "Confirm all five written household exit red lines are posted in the outage binder and agreed upon by every adult beforehand.",
+      "claims": [
+        "U17",
+        "D18"
+      ]
+    },
+    "stop": {
+      "text": "Crossing ANY single objective red line activates orderly relocation or emergency-service assistance immediately.",
+      "claims": [
+        "U17",
+        "D14"
+      ]
+    },
+    "diagram": "5 hard red lines: Meds/Temp/CO/H2O/Order | Relocation is plan SUCCESS, not failure | Exit with daylight, fuel & energy intact",
+    "visual": "Decision tree testing the five hard household red lines (medical, indoor temp, CO/gas/structure, 48-h water, mandatory order) to trigger early safe relocation. Conceptual, not to scale.",
+    "reviewer": "Emergency management and wilderness/disaster medicine"
+  },
+  {
+    "id": "Z15-P63",
+    "zone": "Z15",
+    "title": "Conduct twice-yearly household disaster drills, kit refreshes, and route checks",
+    "origin": "FEMA Ready.gov Make a Plan and Build a Kit; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Anchor a simple **30-minute household preparedness check** twice every year (spring severe-weather/flood prep and autumn winter/heating prep): test every smoke and CO alarm, swap expired batteries/water/food (FIFO), update children's clothing sizes and prescription lists, and verify NOAA radio reception.",
+        "claims": [
+          "T12",
+          "U12",
+          "D02"
+        ]
+      },
+      {
+        "text": "Practice ONE realistic low-stress drill each season—walking to the tornado basement safe spot in two minutes with shoes/helmets, pointing out the main water/breaker shutoffs, reviewing the two neighborhood/out-of-town rally points, and testing a brief text check-in with your out-of-area relay contact.",
+        "claims": [
+          "D01",
+          "T11",
+          "D03"
+        ]
+      },
+      {
+        "text": "Update wallet contact cards and school/workplace authorized pick-up forms immediately whenever phone numbers, addresses, or household medical needs change.",
+        "claims": [
+          "T11",
+          "T10"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Turn paper disaster plans into calm muscle memory while keeping batteries, water, food, and contact cards fresh year-round.",
+    "applies": "Every household, apartment, family with children, and rural property.",
+    "equipment": "Semi-annual spring/autumn calendar reminder, 30-minute drill checklist, and kit rotation log.",
+    "failure": {
+      "text": "Writing an elaborate emergency binder five years ago and never updating disconnected phone numbers, expired CO alarms, or dead flashlight batteries.",
+      "claims": [
+        "T12",
+        "U12"
+      ]
+    },
+    "verify": {
+      "text": "Confirm spring and autumn 30-minute refreshes completed, one physical drill walked cleanly, and contact cards updated.",
+      "claims": [
+        "T12",
+        "D01"
+      ]
+    },
+    "stop": {
+      "text": "Any missing critical equipment (expired CO alarm, dead radio, missing pet carrier, expired infant formula) discovered during a drill gets fixed that same week.",
+      "claims": [
+        "T12",
+        "U12",
+        "P15"
+      ]
+    },
+    "diagram": "Spring & Fall 30-min check (clocks/seasons) | Test alarms, NOAA, water, FIFO & Rx lists | Walk 1 simple drill: tornado spot / rally / shutoffs",
+    "visual": "Seasonal twice-yearly drill and refresh cycle linking spring tornado/flood checks with autumn winter/heating/water-rotation drills. Conceptual, not to scale.",
+    "reviewer": "Emergency management and family preparedness"
+  },
+  {
+    "id": "Z15-P64",
+    "zone": "Z15",
+    "title": "Document disaster losses accurately and guard against post-disaster scams",
+    "origin": "FEMA Financial Preparedness and Recovery; new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Photograph and video EVERY damaged room, roof, basement waterline, vehicle, and ruined item clearly BEFORE discarding debris (keeping a small swatch of ruined carpet/flooring if insurance requests it), and save EVERY receipt for emergency lodging, tarps, fuel, food loss, and repairs in one dedicated folder.",
+        "claims": [
+          "D16"
+        ]
+      },
+      {
+        "text": "Contact your homeowner/renter/auto insurer promptly AND verify whether county/state/FEMA disaster assistance declarations open via official `.gov` websites or 211—never pay upfront fees to anyone claiming to \"expedite FEMA applications\" (official federal/state disaster applications are ALWAYS free!).",
+        "claims": [
+          "D16"
+        ]
+      },
+      {
+        "text": "Guard aggressively against post-storm contractor fraud: verify state contractor licenses, proof of insurance, written itemized estimates, and local references—NEVER sign blank insurance assignment forms or pay 100% cash upfront to unsolicited door-to-door crews right after hailstorms or floods.",
+        "claims": [
+          "D16"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect household financial recovery after storms, floods, or fires through clean visual documentation and contractor/scam verification.",
+    "applies": "Post-disaster property damage, insurance claims, and county/FEMA disaster assistance applications.",
+    "equipment": "Photos/videos of damage BEFORE cleanup, itemized receipts, insurance policy numbers, and state contractor-license lookup.",
+    "failure": {
+      "text": "Throwing out flood-soaked appliances before taking photos, then paying $5,000 cash upfront to an unlicensed out-of-state storm-chaser who disappears.",
+      "claims": [
+        "D16"
+      ]
+    },
+    "verify": {
+      "text": "Confirm pre-cleanup damage photos saved, all emergency receipts kept together, official `.gov` assistance checked, and contractor licenses verified.",
+      "claims": [
+        "D16"
+      ]
+    },
+    "stop": {
+      "text": "High-pressure cash-upfront demands, refusal to show state license/insurance, or requests for bank passwords/FEMA fees terminate contact immediately and get reported to state authorities.",
+      "claims": [
+        "D16"
+      ]
+    },
+    "diagram": "Photo/video ALL damage BEFORE cleanup | Save receipts; official FEMA aid is ALWAYS free | Verify contractor license; zero 100% cash upfront",
+    "visual": "Four-step post-disaster financial recovery plate covering pre-cleanup photo logging, receipt saving, free official .gov claims, and contractor-scam verification. Conceptual, not to scale.",
+    "reviewer": "Disaster recovery and consumer protection"
+  },
+  {
+    "id": "Z15-P65",
+    "zone": "Z15",
+    "title": "Maintain Z15 hazard-specialist holds, primer lineage, and publication HOLD",
+    "origin": "Astra A01 Specialist Register and Ready.gov (retaining Z15-R03); new manuscript",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Preserve the zone's starter outage-food card explicitly as a labeled `Reconstruction draft` tied to the unrecovered Thirty-Day Outage Operations primer while keeping all 64 newly authored Z15 cards bound to current FEMA/Ready.gov, NWS, US EPA/AirNow, CDC, and Minnesota HSEM guidance.",
+        "claims": [
+          "D01",
+          "F04",
+          "ED"
+        ]
+      },
+      {
+        "text": "Reinforce across every scenario that local jurisdictional alerts, law-enforcement road closures, county evacuation maps, and live NWS/fire/hazmat directives ALWAYS supersede generalized encyclopedia guidance—no draft text predicts site-specific disaster safety.",
+        "claims": [
+          "D01",
+          "D14",
+          "D15"
+        ]
+      },
+      {
+        "text": "Maintain `publication: HOLD` and zero qualified human approvals across all 65 Z15 pages until qualified emergency-management directors, meteorologists, air-quality/public-health specialists, hazmat responders, and accessibility planners complete formal sign-off (`H13`).",
+        "claims": [
+          "D01",
+          "D06",
+          "ED"
+        ]
+      }
+    ],
+    "batch": "16-p15-z15-disasters",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Preserve explicit governance gates, local-authority supremacy, and primer reconstruction traceability across all 65 pages of Zone Z15.",
+    "applies": "Governance, editorial review, and specialist sign-off across all 65 pages of Zone Z15 (Disaster Scenarios, including its retained outage-food primer reconstruction).",
+    "equipment": "Astra A01 specialist review register (H13 and P15 updates), disasters evidence pack (`disasters.md`), and local county emergency-management plans.",
+    "failure": {
+      "text": "Distributing unreviewed disaster-scenario drafts as official local emergency instructions without county/jurisdictional alignment or qualified specialist review.",
+      "claims": [
+        "D01",
+        "ED"
+      ]
+    },
+    "verify": {
+      "text": "Confirm the primer reconstruction label is preserved, zero flood-driving or tornado-overpass errors exist, and `publication: HOLD` stays active on all 65 Z15 cards.",
+      "claims": [
+        "D05",
+        "D03",
+        "ED"
+      ]
+    },
+    "stop": {
+      "text": "Do NOT lift `publication: HOLD` or merge into `main` until Astra technical audit and qualified hazard/emergency-management reviews are recorded in the custody ledger.",
+      "claims": [
+        "D01",
+        "ED"
+      ]
+    },
+    "diagram": "Editorial draft ≠ local official order | Preserve outage-primer reconstruction lineage | Maintain Z15 Publication HOLD (H13)",
+    "visual": "Governance escalation ladder linking local-authority supremacy and primer reconstruction traceability to mandatory emergency-management specialist sign-off. Conceptual, not to scale.",
+    "reviewer": "Emergency management director, meteorology, hazmat, and editorial governance"
   }
 ]
