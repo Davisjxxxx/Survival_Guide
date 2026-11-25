@@ -1,0 +1,25 @@
+# A02 technical audit and corrected draft baseline
+
+**Publication HOLD · zero qualified human approvals**
+
+A02 started at `8f5313d1cb75f6ec4cc7c214ccb6cf467928d525`. The audit focused on the 295 Z10, Z13, Z14 and Z15 pages, including the three starter reconstructions promoted into those allocations. There are 292 new IDs compared with A01. The review screened related statements and figures in the preceding zones for cross-zone contradictions. The 668 draft pages and the original 1,016-page allocation are preserved.
+
+| Coverage | Result |
+|---|---|
+| Canonical scope | 16 assignments match the frozen master plan, and active manifests, compiled directory, evidence domains and tests carry Z05 wild foods / 135, Z08 materials / 60 and Z10 medicine / 80. |
+| Manuscripts | 1,767 action, verification, failure and stop statements screened in the four target zones. The ledger includes 17 additional statements on amended prior cards. A02 made 221 recorded field edits across 71 cards. |
+| New baseline claims | All 80 assessed. Twenty-three have bounded primary support after corrections, including 22 with revised wording or source. Five more were corrected with partial coverage. Thirty-one remain partial and 21 remain open. |
+| New evidence added | Seventeen bounded claims and 31 new source records. The working catalog has 247 claims and 192 registered sources across 12 packs. |
+| Inherited evidence | All 59 A01 unresolved entries were accounted for. Nine received a narrower, source-backed statement. Fifty were carried forward. All 59 retain open downstream or qualified review work. |
+| Linkage | All 23 previously editorial-only statements reviewed. One now has a separate source link. Twenty-two retain an editorial role. The link inventory is 3,933 of 3,955. |
+| Illustrations | Chromium measured labels for 668 SVGs. A02 visually sampled 46 distinct cards or figures, with print samples across 11 zones. 35 SVGs changed. There are 32 measured geometry groups and zero observed label overlaps or clipped labels in that check. |
+| Diagnostic imagery | All 35 requirements are open. Two original provider JPEGs were acquired for documentary context, with credit and hash. There were no expert-validated diagnostic acquisitions. |
+| Findings and holds | Fifteen high and six medium findings, four domain escalations and ten cross-zone interactions. All 21 specialist holds remain pending. |
+
+A02 maps each operational assertion to its referenced rows and uses exact primary sections for the bounded claims reported as supported. Bundled or insufficiently specific instructions remain individually traceable. Of 125 distinct source locations in the scoped fetch, 94 returned source bytes and 31 were blocked, unavailable or required another access path. Two returned 404 and received replacement locators with limits recorded in the [source repair ledger](SOURCE_REPAIRS.csv). The claim notes separately record the substance of the review. See the [claim support audit](CLAIM_SUPPORT_AUDIT.csv), [unresolved evidence register](UNRESOLVED_EVIDENCE_REGISTER.csv), [assertion ledger](ASSERTION_SCREEN.csv) and [access attempt receipt](SOURCE_ACCESS_RECEIPT.csv).
+
+Priority corrections separate civilian visible-wound tourniquet positioning from tactical contexts, recognize adult, pediatric and drowning resuscitation conditions, protect immediate exit during internal gas and CO events, tie canning to validated equipment and method, and separate water, chemical sheltering, flood, heat and smoke decisions. Several operational and equipment topics still rely on broad sources. The register retains these as scoped evidence and specialist dependencies. Exact edits and affected figures are in the [findings](TECHNICAL_FINDINGS.csv), [cross-zone register](CROSS_ZONE_CONTRADICTIONS.csv), [wording ledger](REVISED_WORDING.csv) and [diagram revisions](REVISED_DIAGRAM_SPECS.csv).
+
+The new canner cutaway shows the steam route through an open vent before pressurization. It also makes the instructional quality gap visible. Many other figures still repeat three instructions rather than showing anatomy, contact, orientation or a meaningful failure mechanism. The reuse threshold identifies 490 redesign candidates for triage. The number is a geometry-based screening result, with subject-specific visual judgments retained separately. Small labels remain a risk on low-resolution screens and reduced print. See the [visual classification](VISUAL_QUALITY_CLASSIFICATION.csv), [Letter samples](PRINT_SAMPLE_COLOR.jpg), [A4 grayscale samples](PRINT_SAMPLE_GRAYSCALE.jpg) and [photography plan](DIAGNOSTIC_PHOTOGRAPHY_ACQUISITION_PLAN.csv).
+
+The 668-sheet Letter and A4 proofs are tagged and bookmarked. The print audit checks structure, alternative text, margins, extracted section order and every destination. Formal PDF/UA conformance, physical grayscale print, assistive-device navigation and field trials are open. The [specialist register](SPECIALIST_REVIEW_REGISTER.csv) tracks the approval work. The [Neon continuation](NEON_FINAL_PRODUCTION_HANDOFF.md) retains 348 pages across the canonical five zones.

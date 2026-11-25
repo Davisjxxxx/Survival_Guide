@@ -166,11 +166,12 @@ def main():
     ]
     require(chosen, 'No cards in selected scope')
     chosen_ids = {c['id'] for c in chosen}
+    cards_to_visit = chosen if args.batch or args.zone else cards
 
     shots = []
     widths = (320, 390, 1280)
     reports = {
-        'tested_cards': len(cards),
+        'tested_cards': len(cards_to_visit),
         'printed_cards': len(chosen) if formats else 0,
         'formats': formats,
         'widths': list(widths),
@@ -212,7 +213,6 @@ def main():
                         reports['axe_incomplete'][f'zone-{zone}'] = [i['id'] for i in result['incomplete']]
                         reports['axe_violations'][f'zone-{zone}'] = [i['id'] for i in result['violations']]
 
-                cards_to_visit = cards if (not args.batch and not args.zone) else chosen
                 for card in cards_to_visit:
                     page.goto((output / f'{card["id"]}.html').as_uri())
                     require(
@@ -288,7 +288,8 @@ def main():
 
     reports['zones'] = dict(Counter(c['zone'] for c in chosen))
     (proofs / f'{args.name}-qa.json').write_text(json.dumps(reports, indent=2) + '\n', encoding='utf-8')
-    print(f'PASS: {len(cards)} cards checked at {len(widths)} widths, {len(chosen)} printed sheets x {formats}, '
+    printed = f'{reports["printed_cards"]} printed sheets per format {formats}, ' if formats else ''
+    print(f'PASS: {reports["tested_cards"]} cards checked at {len(widths)} widths, {printed}'
           f'{len(reports["axe_violations"])} axe audits; no HTTP requests or JavaScript errors.')
 
 

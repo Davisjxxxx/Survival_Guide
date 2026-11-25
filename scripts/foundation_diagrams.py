@@ -104,6 +104,7 @@ KIND_LABELS = {
     'exploded': 'EXPLODED COMPONENTS',
     'cross_section': 'MATERIAL CROSS-SECTION',
     'force_redirect': 'STATIC FORCE SCHEMATIC',
+    'canner_vent': 'PRESSURE CANNER VENT PATH',
     'branch': 'CONDITIONAL DECISION',
     'mechanism': 'MECHANISM DIAGRAM',
     'comparison': 'COMPARATIVE CONFIGURATION',
@@ -132,6 +133,7 @@ SPEC_KEYS = {
     'failure_mode': {'cause','cue','correction'},
     'branch': {'question','yes','no','stop'},
     'force_redirect': set(),
+    'canner_vent': set(),
     'correct_vs_wrong': {'correct_title','correct_items','wrong_title','wrong_items','reason','variant'},
     'sequence_plate': {'steps','cue','variant'},
     'system_boundary': {'zone_a','zone_b','barrier','hazard','variant'},
@@ -706,9 +708,36 @@ def _render_seasonal_timeline(spec):
     return ''.join(parts)
 
 
+def _render_canner_vent(_spec):
+    """Show steam leaving an open vent before the canner is pressurized."""
+    return ''.join([
+        '<g id="canner-vent-artwork">',
+        '<path d="M45 72H350V116Q350 142 325 142H70Q45 142 45 116Z" '
+        'fill="#f5f5ea" stroke="#315245" stroke-width="3"/>',
+        '<path d="M49 126Q103 121 158 126T268 126T346 126V131L335 140H58L49 132Z" '
+        'fill="#bddce3"/>',
+        '<path d="M64 128H331" stroke="#315245" stroke-width="2"/>',
+        '<path d="M95 126V101Q95 96 101 96H128Q134 96 134 101V126 '
+        'M167 126V101Q167 96 173 96H200Q206 96 206 101V126 '
+        'M239 126V101Q239 96 245 96H272Q278 96 278 101V126" '
+        'fill="#e1eee3" stroke="#315245" stroke-width="2"/>',
+        '<path d="M86 72Q103 57 167 57H214Q280 57 307 72M189 57V48H202V57" '
+        'fill="none" stroke="#315245" stroke-width="3"/>',
+        '<path d="M195 94V77M195 63V32" stroke="#24829b" stroke-width="3" '
+        'stroke-dasharray="4 3" marker-end="url(#arrow)"/>',
+        '<path d="M204 49h136l25-5M280 100h80M346 133h14" fill="none" '
+        'stroke="#697f73" stroke-width="1.5"/>',
+        _lbl('Open vent: steam exits before pressurizing', 374, 48, 12, anchor='start'),
+        _lbl('Jars stand on rack above the base', 374, 104, 12, anchor='start'),
+        _lbl('Use specified water depth and loading', 374, 137, 12, anchor='start'),
+        '</g>',
+    ])
+
+
 RENDERERS = {
     'cutaway': _render_cutaway,
     'force_redirect': _render_force_redirect,
+    'canner_vent': _render_canner_vent,
     'branch': _render_branch,
     'exploded': _render_exploded,
     'cross_section': _render_cross_section,

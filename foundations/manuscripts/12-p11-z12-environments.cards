@@ -614,18 +614,18 @@ diagram: Burn scar repels heavy rain | Roar/mud surge = debris flow | Evacuate u
 visual: Failure-mode cross-section showing water-repellent burn-scar runoff triggering a fast canyon debris flow and perpendicular uphill escape path. Conceptual, not to scale.
 reviewer: Geological hazard specialist and emergency management
 
-Z12-P45 | Assess cold fast snowmelt stream crossings without risking foot entrapment | NWS flood safety and NPS mountain safety; new manuscript
-objective: Evaluate swift mountain streams safely and recognize when high water requires turning back or waiting for morning lows.
+Z12-P45 | Recognize when a snowmelt stream requires a detour | NWS flood safety and NPS mountain safety; new manuscript
+objective: Decide from the bank when to turn back or use an official crossing.
 applies: Unbridged mountain creeks and spring/summer glacial or snowmelt crossings.
-equipment: Sturdy footwear worn across (never barefoot), trekking poles for third-point balance and unbuckled pack hip belt/sternum strap.
-action: Time glacial and snowmelt stream crossings for EARLY MORNING—afternoon sun melts high snowpack rapidly, turning a calm ankle-deep morning creek into a roaring waist-deep torrent by 4 p.m. @X10,W25,E04
-action: Scout carefully from the bank BEFORE stepping in: reject any crossing with fast waist-deep flow, rolling rocks audible underneath, murky silty water hiding holes, slippery logs, waterfalls/strainers (downed trees) immediately downstream or water above knee depth in swift current. @N10,T07,X10
-action: On a verified shallow, manageable crossing ONLY: keep sturdy shoes ON (protecting feet from slick rock cuts), UNBUCKLE pack hip-belt and sternum straps (so a heavy pack cannot pin you underwater if you slip) and face slightly upstream using poles or linked group support. @N10,E11,ED
+equipment: Current route information, alternate route, and time and insulation to wait safely outside the flood zone.
+action: Assess from a stable bank. Heat, rain and upstream releases can alter snowmelt flow. Do not infer a safe hour or wading depth. @X10,W25,T16
+action: Reject floodwater, hidden footing, strong current, ice-cold water, drop-offs or downstream obstructions. Find a maintained open bridge or another official route. @N10,T07,T16
+action: If there is no verified safe route, turn back or wait outside the flood zone. Seek local guidance instead of improvised group wading. @N10,T16
 failure: Stepping into a rushing thigh-deep icy snowmelt stream at 3 p.m. with a heavy backpack buckled tightly around the waist and a logjam thirty feet downstream. @N10,X10,X02
-verify: Confirm clear shallow footing, zero downstream log strainers/drops, shoes on and pack straps unbuckled before stepping off the bank. @N10,ED
-stop: Fast murky floodwater, water above knee depth in swift current, downstream log strainers or cold-water shock risk stops crossing—camp safely on the near bank until morning lows or turn back. @N10,T07,X02
-diagram: Cross early before afternoon melt | Reject deep swift water & strainers | Shoes on; unbuckle pack straps
-visual: Decision tree gating mountain stream crossings on morning snowmelt lows, depth/current limits, downstream strainer hazards and unbuckled pack safety. Conceptual, not to scale.
+verify: Confirm the alternate route avoids the water and its downstream hazards. @N10,T16,ED
+stop: Any flooding or uncertainty about footing, current or a safe exit stops the crossing. @N10,T07,T16
+diagram: Assess from stable ground | Reject floodwater and unknown footing | Use maintained crossing or turn back
+visual: Decision schematic for rejecting uncertain crossings. It establishes no cutoff for safe wading.
 reviewer: Swiftwater safety, mountain safety and search and rescue
 
 Z12-P46 | Account for high-altitude boiling time, stove output and increased CO hazards | CDC boiling, CPSC CO and NPS mountain safety; new manuscript
@@ -853,10 +853,10 @@ visual: Cutaway coastal-estuary profile illustrating saltwater wedge intrusion a
 reviewer: Drinking-water safety and coastal hydrology
 
 Z12-P62 | Wear a fitted USCG-approved life jacket continuously on cold or open water | USCG life jacket wear and NWS cold water; new manuscript
-objective: Eliminate sudden cold-shock drowning by wearing a properly buckled life jacket whenever underway in small craft.
+objective: Reduce drowning risk by wearing a correctly fitted life jacket throughout small-craft travel.
 applies: Canoes, kayaks, rowboats, motorboats and paddleboards on lakes, rivers and coastal/maritime waters.
 equipment: Properly sized U.S. Coast Guard-approved Personal Flotation Device (PFD) matched to user weight and activity, plus attached pea-less whistle.
-action: WEAR your buckled, properly fitted USCG-approved PFD continuously from dock launch to landing—sudden capsizes in cold water trigger 1-minute cold shock before anyone can dig stowed jackets out from under seats or buckle straps with numb fingers. @X04,X02
+action: Wear a correctly fitted, buckled USCG-approved life jacket from launch to landing. Cold shock can begin immediately, so a stowed device cannot provide support at capsize. @X04,X02
 action: Check PFD fit snugly at shoulders and waist (it should not ride up over chin or ears when pulled upward at the shoulders), verify buckles/zippers are intact and confirm inflatable PFDs are properly armed and appropriate for the user and water class per label. @X04
 action: Clip a pea-less safety whistle and small waterproof strobe/signal light directly onto the PFD chest where hands reach them while floating. @X04,E02,N09
 failure: Sitting on top of a loose life jacket in a calm-looking 48°F northern lake until a sudden wake flips the canoe and cold shock prevents swimming. @X04,X02

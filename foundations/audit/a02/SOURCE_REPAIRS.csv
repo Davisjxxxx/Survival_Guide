@@ -1,0 +1,3 @@
+baseline_source,baseline_url,access_result,current_source,replacement_url,substantive_boundary
+NPS-MTN,https://www.nps.gov/romo/planyourvisit/hiking-safety.htm,HTTP 404 during A02 scoped fetch,NPS-MTN,https://home.nps.gov/romo/planyourvisit/all-about-weather.htm,High-elevation weather is local to Rocky Mountain National Park. Snowmelt flow and slope criteria remain open.
+MN-HSEM,https://dps.mn.gov/divisions/hsem/weather-awareness-preparedness/Pages/default.aspx,HTTP 404 during A02 scoped fetch,NOAA-MN-CLIMATE,https://statesummaries.ncics.org/chapter/mn/,Statewide climatology supports seasonal context. A fixed local warning calendar and smoke timing remain open.

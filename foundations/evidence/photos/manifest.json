@@ -32,5 +32,39 @@
     "accessed": "2026-11-24",
     "classification": "Documentary context",
     "diagnostic_photo": false
+  },
+  {
+    "id": "PHOTO-CDC-02",
+    "file": "cdc-phil-31569-provider-lowres.jpg",
+    "source": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31569",
+    "download": "https://wwwn.cdc.gov/phil/PHIL_Images/31569/31569_lores.jpg",
+    "credit": "CDC Public Health Image Library / Lauren Bishop",
+    "rights": "Public Domain",
+    "date": "2025",
+    "subject": "Adult female blacklegged tick crawling through hair on a person’s leg",
+    "limitation": "Documentary tick context only. No attachment, tweezer position, scale, rash or identification qualification.",
+    "variant": "Provider low-resolution JPEG",
+    "related_card": "Z10-P58",
+    "sha256": "6652450f0aa6d4da370553eac49df48a84f8b81fdf242ae89442b8075e1630e1",
+    "accessed": "2026-11-25",
+    "classification": "Documentary context",
+    "diagnostic_photo": false
+  },
+  {
+    "id": "PHOTO-NWS-02",
+    "file": "nws-big-sur-rip-provider.jpg",
+    "source": "https://www.weather.gov/safety/ripcurrent-photos",
+    "download": "https://www.weather.gov/images/safety/photo/DE%20SG%20CA%20rip%20Big%20Sur%20area.jpg",
+    "credit": "NOAA / NWS Video Lab",
+    "rights": "Public Domain",
+    "date": "Date not supplied on agency gallery",
+    "subject": "Nearshore rip current off Big Sur, California",
+    "limitation": "One Pacific shoreline scene. No visual prediction of safe routes, timing or current velocity.",
+    "variant": "Provider gallery JPEG",
+    "related_card": "Z12-P56",
+    "sha256": "94d72d858ea0da83e40bc1a5c2a1ceef84cd3f3cc837caface2ee5652be3a310",
+    "accessed": "2026-11-25",
+    "classification": "Documentary context",
+    "diagnostic_photo": false
   }
 ]

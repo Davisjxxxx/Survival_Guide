@@ -143,6 +143,23 @@ def lint_cards(cards):
                 if not re.search(r'\b(never|do not|keep|avoid|not)\b', clause):
                     raise ValueError(f'Contradiction: enclosed combustion authorization in {cid}')
 
+        for clause in clauses:
+            co_alarm = re.search(r'\b(co alarm|carbon monoxide|co poisoning)\b', clause)
+            delay = re.search(r'\b(shut(?:ting)? (?:off|down)|switch(?:ing)? off|turn(?:ing)? off)\b'
+                              r'[^.]{0,60}\b(before (?:leaving|exiting|evacuat\w*)|and evacuating|then evacuat\w*)\b',
+                              clause)
+            if co_alarm and delay and not re.search(r'\b(do not|never|without delaying)\b', clause):
+                raise ValueError(f'Contradiction: CO evacuation delayed by shutdown in {cid}')
+
+            if card['zone'] == 'Z10':
+                fixed_breath_delay = re.search(
+                    r'\b(?:check|monitor|observe)\b[^.]{0,50}\bbreathing\b[^.]{0,25}'
+                    r'\b(?:a full minute|60 seconds)\b[^.]{0,35}\b(?:cpr|resuscitation)\b', clause)
+                if fixed_breath_delay:
+                    raise ValueError(f'Contradiction: fixed lay breathing-check delay in {cid}')
+                if 'high and tight' in clause and re.search(r'\b2\s*(?:to|–|-)\s*3\s*inches\b', clause):
+                    raise ValueError(f'Contradiction: mixed tourniquet placement instructions in {cid}')
+
         # Rule 3: Boiling duration must include altitude distinction when stating 1-minute rolling boil.
         if re.search(r'rolling boil.{0,25}(one|1)\s+minute', full):
             require('6,500' in full or 'altitude' in full or 'elevation' in full,
@@ -251,6 +268,9 @@ def load_cards(paths, claims):
                             and all(ref in claims or ref == 'ED' for ref in claim_ids),
                             f'Broken claim links in {card_id}: {line}')
                     require(key == 'action' or key not in card, f'Duplicate {key} in {card_id}')
+                    if is_expanded_batch and key in {'action', 'stop'}:
+                        require(claim_ids != ['ED'],
+                                f'Operational action or stop needs a direct claim in {card_id}')
                     item = {'text': text_part, 'claims': claim_ids}
                     if key == 'action':
                         card[key].append(item)

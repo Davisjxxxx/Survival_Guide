@@ -459,8 +459,9 @@
       ]
     },
     "stop": {
-      "text": "Do not assume help has been dispatched if you cannot confirm that a message was received.",
+      "text": "Do not assume responders were notified without confirmation. Use the next safe communication option in your trip plan.",
       "claims": [
+        "T06",
         "ED"
       ]
     },
@@ -14398,7 +14399,7 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Place a commercial tourniquet high and tight on the injured arm or leg—at least 2 to 3 inches above the wound and NEVER directly over a knee or elbow joint—and tighten the windlass until bright bleeding stops completely.",
+        "text": "For life-threatening arm or leg bleeding with a visible wound, follow training and the device directions. Place a commercial tourniquet 2 to 3 inches toward the torso from the wound, clear of any joint, and tighten until bleeding stops.",
         "claims": [
           "M02"
         ]
@@ -14411,7 +14412,7 @@
         ]
       },
       {
-        "text": "Never loosen or remove a tourniquet placed for life-threatening bleeding in the field; hospital surgical teams manage definitive removal.",
+        "text": "Leave the tourniquet in place for medical personnel. Do not loosen it during evacuation.",
         "claims": [
           "M02"
         ]
@@ -14421,7 +14422,7 @@
     "publication": "HOLD",
     "technical_review": "AI editorial check; qualified reviewer pending",
     "objective": "Distinguish validated commercial extremity tourniquets from unsafe improvised straps when direct pressure fails.",
-    "applies": "Life-threatening arm or leg bleeding uncontrolled by firm direct pressure when a commercial windlass tourniquet and training are available.",
+    "applies": "Life-threatening bleeding from a visible arm or leg wound when a suitable commercial tourniquet is available.",
     "equipment": "Commercial windlass tourniquet (e.g., CAT/SOFTT), permanent marker or written log, and watch.",
     "failure": {
       "text": "Relying on shoelaces, thin paracord, or loose belts that pinch skin without occluding arterial flow, or hiding the tourniquet under a blanket without recording application time.",
@@ -14437,14 +14438,13 @@
       ]
     },
     "stop": {
-      "text": "If bleeding persists after tightening one properly placed commercial tourniquet, apply a second commercial tourniquet directly above the first if available and expedite EMS rescue.",
+      "text": "If bleeding continues after correct placement and maximum tightening, follow your training or dispatcher instructions. The Red Cross describes a second commercial tourniquet above the first when available.",
       "claims": [
-        "M02",
-        "T02"
+        "M02"
       ]
     },
-    "diagram": "Commercial high/tight above joint | Lock windlass & log exact time | Leave visible for EMS; never loosen",
-    "visual": "Correct versus incorrect configuration contrasting proper commercial tourniquet placement and time logging against hazardous thin improvised straps or joint placement. Conceptual, not to scale.",
+    "diagram": "Visible limb wound | Place clear of joint toward torso | Tighten and leave for EMS",
+    "visual": "Placement decision for a visible extremity wound. Follow exact device directions and instructor guidance.",
     "reviewer": "Trauma EMS and wilderness medicine"
   },
   {
@@ -14647,10 +14647,11 @@
         ]
       },
       {
-        "text": "Call 911 immediately on speakerphone, send a bystander for an AED if near a trailhead or building, and begin firm center-of-chest compressions per certified CPR training or live 911 dispatcher coaching.",
+        "text": "Call 911 on speaker, send someone for an AED if available, and start CPR as directed. Tell dispatch if the patient is an infant or child or if the arrest followed submersion. Breaths are important in pediatric and drowning arrests.",
         "claims": [
           "M03",
-          "T02"
+          "M25",
+          "M26"
         ]
       },
       {
@@ -14673,20 +14674,20 @@
       ]
     },
     "verify": {
-      "text": "Confirm 911 is active, compressions follow dispatcher or certified-course rhythm, and responders rotate every two minutes when teammates are present to prevent fatigue.",
+      "text": "Confirm emergency activation and follow dispatcher, training and AED prompts. Avoid unnecessary interruptions in compressions.",
       "claims": [
         "M03",
-        "ED"
+        "M25"
       ]
     },
     "stop": {
-      "text": "Stop compressions only if the scene becomes unsafe, clear normal breathing/movement resumes, an AED instructs hands-off analysis, or EMS assumes care.",
+      "text": "An AED pause for analysis or shock is temporary. Resume CPR when prompted unless normal breathing returns, the scene becomes unsafe, or EMS takes over.",
       "claims": [
         "M03",
-        "T01"
+        "M25"
       ]
     },
-    "diagram": "Unresponsive + no normal breath | Call 911 & fetch AED immediately | Follow trained or dispatcher CPR",
+    "diagram": "Unresponsive with absent or abnormal breathing | Call 911, start CPR and get AED | Follow age, cause and AED prompts",
     "visual": "Three-tier cardiac-arrest escalation ladder separating immediate lay recognition/compressions, dispatcher coaching, and EMS/AED handoff. Conceptual, not to scale.",
     "reviewer": "Resuscitation and EMS"
   },
@@ -14698,23 +14699,23 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "If the person can cough forcefully or speak, stay beside them and encourage continued coughing without slapping their back or interfering with their own airway clearing.",
+        "text": "If the person is coughing effectively, encourage coughing and watch for a weak cough, inability to speak or breathe, or worsening responsiveness.",
         "claims": [
           "M04"
         ]
       },
       {
-        "text": "If the person is silent, clutches their throat, cannot cough or speak, or turns bluish, call 911 immediately and apply trained back blows/abdominal thrusts (or live dispatcher-guided steps).",
+        "text": "Call 911 for severe obstruction. Follow dispatcher or age-appropriate training. Adults and children use a different thrust technique from infants. Tell dispatch if the patient is an infant, in late pregnancy, or cannot be encircled.",
         "claims": [
           "M04",
-          "T02"
+          "M25"
         ]
       },
       {
-        "text": "If a choking person becomes unresponsive, lower them safely to firm ground, confirm 911 is activated, and begin dispatcher-guided or trained CPR—never perform blind finger sweeps into the throat.",
+        "text": "If the person becomes unresponsive, begin dispatcher-guided CPR. Remove an object only if you see it when opening the airway. Never sweep blindly.",
         "claims": [
           "M04",
-          "M03"
+          "M25"
         ]
       }
     ],
@@ -14731,10 +14732,10 @@
       ]
     },
     "verify": {
-      "text": "Confirm normal speech and easy breathing return after any obstruction clears, and arrange medical evaluation after abdominal thrusts or persistent coughing.",
+      "text": "Monitor breathing and responsiveness until advanced care arrives.",
       "claims": [
         "M04",
-        "ED"
+        "M25"
       ]
     },
     "stop": {
@@ -14744,7 +14745,7 @@
         "T02"
       ]
     },
-    "diagram": "Forceful cough -> encourage only | Silent obstruction -> 911 + aid | Unresponsive -> CPR; zero blind sweeps",
+    "diagram": "Effective cough: watch | Severe blockage: 911 and age-specific care | Unresponsive: guided CPR",
     "visual": "Correct versus incorrect choking response contrasting encouraged coughing and trained/dispatcher steps against hazardous blind finger sweeps. Conceptual, not to scale.",
     "reviewer": "EMS and emergency medicine"
   },
@@ -14756,10 +14757,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Verify normal rhythmic breathing and absence of high-force fall or neck/back trauma before rolling the patient; if spinal injury is suspected, leave them in place unless vomiting or fluid threatens the airway.",
+        "text": "Call 911 and check for normal breathing. For suspected neck, back, hip or pelvic injury, avoid unnecessary movement and follow the dispatcher if the airway is threatened.",
         "claims": [
           "M22",
-          "M11"
+          "M03"
         ]
       },
       {
@@ -14769,11 +14770,10 @@
         ]
       },
       {
-        "text": "Insulate the patient from cold ground, stay beside them continuously, and recheck normal breathing every few minutes until EMS arrives.",
+        "text": "Stay with the person and continuously watch their breathing. Gasping is abnormal. If breathing stops or becomes abnormal, roll them onto their back and start dispatcher-guided CPR.",
         "claims": [
           "M22",
-          "E05",
-          "M20"
+          "M03"
         ]
       }
     ],
@@ -14784,7 +14784,7 @@
     "applies": "Unresponsive person breathing normally with NO suspected head, neck, or spinal trauma.",
     "equipment": "Insulating ground pad or folded jacket beneath the patient and watch to monitor breathing.",
     "failure": {
-      "text": "Leaving an unresponsive breathing person flat on their back where the tongue or vomit can silently obstruct the airway.",
+      "text": "Leaving the person unmonitored in a side position can delay recognition of respiratory arrest.",
       "claims": [
         "M22"
       ]
@@ -15190,20 +15190,21 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Call 911 immediately and expose the junctional wound completely so pressure lands straight on the bleeding vessel rather than surrounding tissue.",
+        "text": "Call 911, ensure scene safety and find the source of life-threatening bleeding when this can be done safely.",
         "claims": [
           "M01",
           "T02"
         ]
       },
       {
-        "text": "Apply firm, continuous, uninterrupted direct pressure straight into the bleeding source; responders trained in Stop the Bleed may pack clean or hemostatic gauze tightly into deep groin/armpit cavities (NEVER pack the neck, chest, or abdomen) and hold continuous pressure.",
+        "text": "Apply firm, continuous direct pressure. Follow current bleeding-control training or dispatcher instructions for wound packing and only when the wound location is appropriate. Do not improvise packing a body cavity.",
         "claims": [
-          "M01"
+          "M01",
+          "M02"
         ]
       },
       {
-        "text": "Keep the patient warm and insulated against shock while maintaining steady downward pressure without releasing to check until EMS assumes control.",
+        "text": "Keep effective pressure in place while waiting for emergency care and keep the person warm.",
         "claims": [
           "M01",
           "M05"
@@ -15728,25 +15729,25 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "For electrical injury, NEVER touch the person until the power source is confirmed shut off by utility/breaker controls (stay well back from downed power lines and call 911); remember electrical burns cause severe hidden internal tissue and heart-rhythm damage even with tiny skin marks.",
+        "text": "Stay back from energized equipment, floodwater or downed lines. Call 911 and approach only after qualified personnel or the dispatcher confirm the area is safe.",
         "claims": [
           "M07",
-          "T01",
-          "D04"
+          "T02"
         ]
       },
       {
-        "text": "For dry chemical powders on skin, brush loose dry powder off with gloved hands or cloth BEFORE flushing continuously with copious cool running water for at least 20 minutes while removing contaminated clothing.",
+        "text": "For chemical skin exposure, keep yourself clear of contamination, start decontamination as directed by the product label and Poison Control, and remove contaminated clothing if safe. For many liquid splashes, start rinsing promptly with running water. Identify dry or water-reactive material to dispatch rather than improvising its treatment.",
         "claims": [
-          "M07",
-          "M15"
+          "M15",
+          "M16"
         ]
       },
       {
-        "text": "Call 911 for ALL electrical burns, chemical eye splashes, large/painful chemical burns, or breathing irritation, and save the exact chemical label for Poison Control/EMS.",
+        "text": "Call 911 for serious electrical injury, breathing difficulty or collapse. Contact Poison Control promptly for substance-specific skin or eye instructions. Read the label from a safe location.",
         "claims": [
-          "M07",
+          "M15",
           "M16",
+          "M18",
           "T02"
         ]
       }
@@ -16034,25 +16035,25 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Instruct an alert patient immediately to stay completely still and look straight ahead—do NOT twist, nod, sit up, or let bystanders pull them to their feet after a high-mechanism impact.",
+        "text": "Ask the person to remain still and avoid unnecessary movement. Activate 911 and describe the impact, symptoms and any continuing scene threat.",
         "claims": [
-          "M11",
-          "T01"
-        ]
-      },
-      {
-        "text": "Gently stabilize the head in the neutral position found using hands or snug rolled clothing beside the ears (never force a crooked neck straight or apply traction) while activating 911/SAR.",
-        "claims": [
+          "M22",
           "M11",
           "T02"
         ]
       },
       {
-        "text": "Check whether the patient can feel and wiggle fingers and toes without moving their spine, keep them protected from wind/cold, and leave definitive spinal packaging to trained EMS crews.",
+        "text": "Let the patient remain in the position found unless airway care or immediate scene danger requires movement. Do not force the head into alignment or improvise a rigid collar.",
         "claims": [
+          "M22"
+        ]
+      },
+      {
+        "text": "Monitor breathing and alertness, avoid heat loss and follow the dispatcher on any movement or assessment.",
+        "claims": [
+          "M22",
           "M11",
-          "M09",
-          "E05"
+          "T03"
         ]
       }
     ],
@@ -16061,7 +16062,7 @@
     "technical_review": "AI editorial check; qualified reviewer pending",
     "objective": "Minimize secondary spinal-cord injury by keeping an injured person's head, neck, and back still until EMS arrives.",
     "applies": "Falls from height, diving into shallow water, falling tree limbs, sled/snowmobile/bike crashes, or any neck/back pain or tingling after trauma.",
-    "equipment": "Rolled jackets/packs for gentle side-of-head cushioning, ground insulation where reachable without shifting, and emergency comms.",
+    "equipment": "A reliable emergency communication device and insulation that can be placed without moving the patient.",
     "failure": {
       "text": "Pulling a fallen climber upright to \"check if they can walk\" when they complain of midline neck pain and numb fingers.",
       "claims": [
@@ -16082,8 +16083,8 @@
         "T01"
       ]
     },
-    "diagram": "High fall / neck pain / tingling | Hold head & neck still as found | Wait for trained EMS packaging",
-    "visual": "Correct versus incorrect spinal care contrasting neutral in-place stabilization and EMS activation against pulling the patient upright or twisting the neck. Conceptual, not to scale.",
+    "diagram": "Guard scene and call 911 | Avoid unnecessary movement | Airway or immediate danger may change the plan",
+    "visual": "Decision diagram showing when airway care or an immediate scene hazard calls for reassessing movement with dispatch.",
     "reviewer": "Spine trauma and wilderness EMS"
   },
   {
@@ -16208,25 +16209,26 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Activate 911/SAR immediately—open fractures carry high risk of severe bleeding, deep bone infection, and permanent limb loss requiring urgent hospital surgery and IV antibiotics.",
+        "text": "Call 911 for a suspected open fracture. Report the injury, severe bleeding and any change in alertness or limb color.",
         "claims": [
           "M09",
+          "M01",
           "T02"
         ]
       },
       {
-        "text": "Control active external bleeding with gentle clean gauze pressure around the wound edges without pressing directly on exposed bone fragments, and NEVER push protruding bone back beneath the skin.",
+        "text": "Use emergency bleeding-control guidance for life-threatening blood loss. Keep pressure off protruding bone itself and do not push bone back into the wound.",
         "claims": [
-          "M09",
-          "M01"
+          "M01",
+          "M02",
+          "M09"
         ]
       },
       {
-        "text": "Cover exposed bone and tissue gently with clean sterile dressing, pad and immobilize the limb in the position found, insulate the patient against shock, and keep strictly NPO.",
+        "text": "Protect the wound with a clean dressing. Follow dispatch on moving or supporting the limb, and monitor breathing, alertness and circulation while waiting for help.",
         "claims": [
           "M09",
-          "M05",
-          "M06"
+          "M22"
         ]
       }
     ],
@@ -16454,23 +16456,22 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "For chemical splashes, start flushing immediately with copious gentle streams of clean potable water or sterile saline for at least 15 to 20 continuous minutes, tilting the head so rinse water drains OUTWARD away from the unaffected eye.",
-        "claims": [
-          "M18",
-          "W29"
-        ]
-      },
-      {
-        "text": "Remove contact lenses gently if they do not flush out on their own (never force a stuck lens), instruct the person NOT to rub the eye, and keep eyelids gently held open during chemical irrigation.",
+        "text": "For a chemical splash, begin rinsing immediately with plenty of room-temperature running water. Continue for 15–20 minutes at minimum as directed by Poison Control. Do not delay while looking for sterile saline.",
         "claims": [
           "M18"
         ]
       },
       {
-        "text": "Seek urgent medical/ophthalmology evaluation for ALL chemical eye splashes, persistent grit feeling after gentle flushing, blurred vision, or severe light sensitivity.",
+        "text": "Remove contact lenses if you can do so easily without delaying rinsing. Encourage blinking. Do not rub the eye or try to remove an embedded object.",
         "claims": [
-          "M18",
-          "T02"
+          "M18"
+        ]
+      },
+      {
+        "text": "Contact Poison Control during or after irrigation for substance-specific next steps. Severe pain, impaired vision or a major exposure needs emergency evaluation.",
+        "claims": [
+          "M15",
+          "M18"
         ]
       }
     ],
@@ -16494,10 +16495,9 @@
       ]
     },
     "stop": {
-      "text": "Any chemical splash, vision loss, severe pain, or object stuck on the eyeball surface halts travel and requires immediate clinical eye care.",
+      "text": "If an object is embedded or penetration is suspected, avoid pressure and seek emergency care. This is a different branch from chemical irrigation.",
       "claims": [
-        "M18",
-        "T02"
+        "M18"
       ]
     },
     "diagram": "Tilt injured eye downward/outward | Flush clean water 15–20 min gentle | Zero rubbing; urgent eye evaluation",
@@ -16709,10 +16709,11 @@
         ]
       },
       {
-        "text": "Apply gentle insulated external warmth ONLY to the trunk (armpits, chest, groin—never direct scalding heat or hot immersion of arms/legs), withhold oral fluids if confused or drowsy, and monitor breathing carefully for a full minute before deciding on CPR per dispatcher guidance.",
+        "text": "Keep insulation in place and use protected trunk warming within your training. Withhold oral fluids if alertness is impaired. If the person does not respond or breathe normally, activate 911 and follow dispatcher advice without inserting a fixed lay waiting period.",
         "claims": [
           "M23",
-          "M03"
+          "M03",
+          "T03"
         ]
       }
     ],
@@ -16743,7 +16744,7 @@
         "M03"
       ]
     },
-    "diagram": "Confusion/no shiver -> severe emergency | Keep horizontal & handle ultra-gently | Wrap dry, warm trunk only & call 911",
+    "diagram": "Call for urgent help | Handle gently and insulate | Follow dispatcher for abnormal breathing",
     "visual": "Conceptual core-thermal zone diagram showing horizontal full-body insulation wrap, gentle trunk-only heat packs, and strict extremity/jostling exclusions. Conceptual, not to scale.",
     "reviewer": "Wilderness medicine and cold-injury EMS"
   },
@@ -16755,11 +16756,11 @@
     "category": "Adapted historical material",
     "action": [
       {
-        "text": "Call 911 immediately after any cold-water immersion, move the survivor gently out of wind into shelter, and keep them lying horizontal rather than letting them walk vigorously right after exit.",
+        "text": "Call 911 after significant cold immersion, breathing trouble or altered alertness. Once the person is safely out of the water, shelter them from wind, handle them gently and follow the dispatcher on position and movement.",
         "claims": [
-          "X02",
           "M23",
-          "T02"
+          "M26",
+          "T03"
         ]
       },
       {
@@ -16817,19 +16818,17 @@
     "category": "Adapted historical material",
     "action": [
       {
-        "text": "Activate 911 immediately for ANY submersion involving loss of consciousness, cessation of breathing, persistent coughing, foamy sputum, chest discomfort, or blue lips; if unresponsive and not breathing normally, start trained/dispatcher CPR immediately.",
+        "text": "Call 911 for unresponsiveness, abnormal breathing, persistent cough or breathing difficulty after submersion. Once on safe ground, follow the dispatcher. CPR for drowning includes rescue breaths and chest compressions when the rescuer can provide them.",
         "claims": [
-          "M03",
-          "X02",
-          "T02"
+          "M26",
+          "M03"
         ]
       },
       {
-        "text": "Even when a submerged person exits coughing and alert, remove wet layers, keep them resting warmly, and arrange prompt clinical medical evaluation—aspirated water can irritate lung linings and cause worsening breathing distress over subsequent hours.",
+        "text": "Keep a breathing patient warm and monitor closely. Ask dispatch about evaluation if coughing or breathing symptoms occurred, and report any deterioration immediately.",
         "claims": [
-          "X02",
-          "M23",
-          "M20"
+          "M26",
+          "T02"
         ]
       },
       {
@@ -16867,7 +16866,7 @@
         "M03"
       ]
     },
-    "diagram": "Any submersion -> assess breath & 911 | Never press belly to \"drain water\" | Monitor hours; clinical lung evaluation",
+    "diagram": "Safe recovery from water | Call 911 for red flags | Drowning CPR includes breaths when able",
     "visual": "Correct versus incorrect submersion care contrasting warm rest, dispatcher CPR if non-breathing, and clinical lung review against harmful lung-draining maneuvers. Conceptual, not to scale.",
     "reviewer": "Cold-water rescue and emergency medicine"
   },
@@ -16953,7 +16952,7 @@
         ]
       },
       {
-        "text": "If safe definitive shelter and rapid transport with ZERO refreezing risk exist, follow qualified clinical/WMS controlled warm-water rewarming protocols (clean circulating water ~98–102°F), cushion gently between digits with dry sterile gauze without popping blisters, and transport promptly.",
+        "text": "When refreezing remains possible, protect the frozen area and prioritize evacuation. Ask qualified medical support before controlled water rewarming. Use the WMS protocol only when its water temperature, protection and no-refreezing conditions can be met.",
         "claims": [
           "M24",
           "T04"
@@ -16974,7 +16973,7 @@
       ]
     },
     "verify": {
-      "text": "Confirm zero refreezing risk before any thaw, zero dry-flame heat exposure, and clean padded digit separation for evacuation.",
+      "text": "Confirm the evacuation plan avoids refreezing and that the tissue is protected from friction, pressure and direct heat.",
       "claims": [
         "M24",
         "T04"
@@ -16987,7 +16986,7 @@
         "T04"
       ]
     },
-    "diagram": "Refreeze risk -> protect frozen & exit | Never use stoves/flames on numb skin | Zero refreeze -> controlled warm thaw + MD",
+    "diagram": "Can tissue refreeze? | Protect and evacuate | Qualified advice before water rewarming",
     "visual": "Decision tree evaluating refreeze risk during evacuation to separate protected-frozen transport from controlled warm-water rewarming and hospital care. Conceptual, not to scale.",
     "reviewer": "Wilderness medicine and frostbite specialist"
   },
@@ -17188,17 +17187,17 @@
         ]
       },
       {
-        "text": "Begin aggressive external cooling IMMEDIATELY while waiting for EMS: immerse the trunk/limbs in cold water if safely available (keeping head and airway strictly supported above water), OR douse continuously with cold water and cold wet towels rotated over neck, armpits, groin, and torso while fanning vigorously.",
+        "text": "Start active cooling while EMS is on the way. Use cold-water immersion for an exertional case only when the airway can be continuously protected and adequate help is available. Otherwise cool the skin with water and airflow. Follow dispatch for the setting and patient.",
         "claims": [
-          "T05",
-          "T09"
+          "T09",
+          "M27"
         ]
       },
       {
-        "text": "Do NOT force fluids by mouth into a confused, drowsy, or vomiting patient; follow 911 dispatcher directions continuously and obtain mandatory hospital clinical evaluation even if alertness briefly improves.",
+        "text": "Give nothing by mouth to a confused, drowsy or vomiting patient. Continue dispatcher-guided cooling and emergency evaluation even if alertness improves.",
         "claims": [
           "T09",
-          "M05"
+          "M27"
         ]
       }
     ],
@@ -17230,7 +17229,7 @@
         "T09"
       ]
     },
-    "diagram": "Confusion/slurred speech/collapse + heat | Call 911 & cool aggressively NOW | Zero forced oral fluids; hospital mandatory",
+    "diagram": "Call 911 and cool promptly | Protect airway during cooling | Continue to medical care",
     "visual": "Four-step heat-stroke emergency plate showing immediate 911 call, continuous cold dousing/immersion with airway protection, NPO rule, and EMS handoff. Conceptual, not to scale.",
     "reviewer": "Emergency medicine and heat-illness specialist"
   },
@@ -17412,23 +17411,22 @@
   {
     "id": "Z10-P54",
     "zone": "Z10",
-    "title": "Assess lightning-strike casualties safely using reverse triage and CPR",
+    "title": "Recognize ongoing lightning hazards and coordinate emergency care",
     "origin": "NWS Lightning Tips and American Red Cross; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Check immediately whether active lightning still threatens the exact spot—if feasible, move casualties quickly to safer enclosed shelter or lower-risk ground, noting that lightning victims do NOT retain an electrical charge and are completely safe to touch immediately.",
+        "text": "Check ongoing lightning, terrain and electrical hazards before approaching. A lightning victim does not retain an electrical charge, but the site may still be dangerous.",
         "claims": [
-          "E07",
-          "T01",
-          "M03"
+          "M28",
+          "T01"
         ]
       },
       {
-        "text": "Apply lightning \"reverse triage\" when multiple people are hit: check unresponsive, non-breathing victims FIRST (because lightning frequently causes immediate survivable respiratory/cardiac arrest) while conscious crying/groaning victims are breathing.",
+        "text": "With multiple casualties, tell 911 which people are unresponsive and not breathing normally. Begin resuscitation when safe and follow dispatch on priorities.",
         "claims": [
-          "M03",
-          "T02"
+          "M28",
+          "M03"
         ]
       },
       {
@@ -17461,14 +17459,14 @@
       ]
     },
     "stop": {
-      "text": "Ongoing close lightning requires moving victims to safer ground rapidly while maintaining continuous CPR and EMS activation.",
+      "text": "If ongoing lightning makes care unsafe, tell dispatch and follow its direction on movement and resuscitation.",
       "claims": [
-        "E07",
-        "M03"
+        "M28",
+        "T01"
       ]
     },
-    "diagram": "Victims hold zero residual charge | Reverse triage: non-breathing FIRST | Call 911, CPR/AED & full clinical exam",
-    "visual": "Four-step lightning-casualty plate showing scene check, safe immediate contact, reverse-triage CPR priority, and multi-system clinical evaluation. Conceptual, not to scale.",
+    "diagram": "Check continuing strike risk | Tell 911 casualty count and breathing | Start safe dispatcher-guided care",
+    "visual": "Rescue sequence separating the scene hazard from the electrical state of the patient.",
     "reviewer": "Emergency medicine, lightning safety, and EMS"
   },
   {
@@ -17479,24 +17477,21 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Recognize anaphylaxis immediately when exposure triggers ANY airway/breathing sign (swollen lips/tongue/throat, hoarseness, wheezing, trouble breathing), dizziness/fainting, widespread hives/flushing, or severe cramps/vomiting.",
+        "text": "Suspect anaphylaxis when airway symptoms, breathing difficulty, faintness, or symptoms across more than one body system develop after a likely allergen. A severe reaction can occur without hives.",
         "claims": [
-          "M08",
-          "T02"
+          "M08"
         ]
       },
       {
-        "text": "Call 911 immediately and assist the patient in administering their OWN prescribed epinephrine auto-injector into the outer mid-thigh strictly per the device label (can go through light clothing); log exact injection time.",
+        "text": "Call 911 and assist promptly with the patient’s prescribed epinephrine auto-injector as directed by its instructions and their action plan. Record when it was used.",
         "claims": [
-          "M08",
-          "M20"
+          "M08"
         ]
       },
       {
-        "text": "Do NOT delay epinephrine waiting for oral antihistamines to work, never use someone else's prescription without direct clinician/dispatcher authorization, and keep the patient lying flat (or seated upright if breathing is easier—never suddenly standing).",
+        "text": "Do not wait for antihistamines. Avoid having the patient stand or walk. Follow dispatcher directions about positioning and monitor breathing.",
         "claims": [
-          "M08",
-          "M05"
+          "M08"
         ]
       }
     ],
@@ -17520,13 +17515,12 @@
       ]
     },
     "stop": {
-      "text": "If severe symptoms fail to improve or worsen after 5 to 15 minutes and the patient carries a second prescribed dose, follow the device/dispatcher directions and expedite EMS transport.",
+      "text": "If symptoms persist or return, tell 911 immediately. Follow the action plan, product directions and dispatcher advice about a second device.",
       "claims": [
-        "M08",
-        "T02"
+        "M08"
       ]
     },
-    "diagram": "Hives + throat/breath/dizzy/vomit | Call 911 & assist OWN prescribed epi | Log time; never rely on antihistamines",
+    "diagram": "Recognize a serious allergic reaction | Call 911 and help use prescribed device | Monitor for persistent or returning symptoms",
     "visual": "Three-tier anaphylaxis escalation ladder contrasting mild localized itching from systemic anaphylaxis own-epinephrine assistance and urgent hospital care. Conceptual, not to scale.",
     "reviewer": "Allergy/immunology and EMS"
   },
@@ -17826,10 +17820,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Move calmly out of striking range immediately—do NOT chase, kill, or try to capture the snake (which causes second bites); keep the bitten person calm, resting still, and call 911/EMS promptly for hospital antivenom evaluation.",
+        "text": "Move out of striking range, call 911 and keep the bitten person at rest. A photograph is optional only from a safe distance and without delaying care. Never try to catch or handle the snake.",
         "claims": [
           "M13",
-          "T01",
           "T02"
         ]
       },
@@ -17954,10 +17947,10 @@
         ]
       },
       {
-        "text": "Save the exact chemical bottle, medication label, or intact plant/mushroom fragment (handled safely in a bag) plus approximate amount and time of exposure so toxicologists and clinicians can identify the exact agent.",
+        "text": "Call U.S. Poison Control at 1-800-222-1222 for case-specific advice if the person is stable. Read the label or use a photo already taken safely. Do not gather or transport an unknown substance if that risks exposure.",
         "claims": [
-          "M16",
-          "M20"
+          "M15",
+          "M16"
         ]
       },
       {
@@ -18192,24 +18185,23 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Stay calm, note the EXACT start time on a watch, clear hard rocks, fire pits, water edges, or sharp gear away from the person, and place a soft folded jacket beneath their head.",
+        "text": "Time the seizure and move hazards away if safe. Protect the head with something soft.",
         "claims": [
-          "T01",
-          "M20"
+          "M29",
+          "T01"
         ]
       },
       {
-        "text": "NEVER hold the person down, restrain jerking limbs, or put fingers, spoons, wallets, or sticks into their mouth (people cannot swallow their tongues, and forcing objects breaks teeth and blocks airways).",
+        "text": "Do not hold the person down or place anything in their mouth.",
         "claims": [
-          "M04",
-          "M20"
+          "M29"
         ]
       },
       {
-        "text": "Once shaking stops, check normal breathing and gently roll the person onto their side in the recovery position to keep the airway clear while monitoring them until fully awake; call 911 immediately if a seizure lasts over 5 minutes, repeats, occurs in water, involves injury/pregnancy/diabetes, or is a first-ever seizure.",
+        "text": "Check breathing and use a safe side position when appropriate. Call 911 if it lasts longer than five minutes, repeats without recovery, happens in water, or causes injury, breathing or waking difficulty. Follow CDC or dispatcher directions for pregnancy, diabetes or a first seizure.",
         "claims": [
-          "M22",
-          "T02"
+          "M29",
+          "M22"
         ]
       }
     ],
@@ -18234,9 +18226,9 @@
       ]
     },
     "stop": {
-      "text": "Seizure exceeding 5 minutes, back-to-back seizures, breathing failure after shaking stops, or head/water injury demands immediate 911 response.",
+      "text": "If the person is unresponsive and not breathing normally, activate 911 and start dispatcher-guided CPR.",
       "claims": [
-        "T02",
+        "M29",
         "M03"
       ]
     },
@@ -18259,18 +18251,16 @@
         ]
       },
       {
-        "text": "ONLY if the person is fully awake, able to sit up, and swallowing safely without coughing, help them take their own fast-acting sugar (such as labeled glucose tablets, fruit juice, or regular sugary drink) and recheck symptoms after 15 minutes; follow with a balanced snack once alert.",
+        "text": "If the person is fully awake and can swallow safely, assist with their own rapid glucose plan. Follow the plan and check whether symptoms resolve.",
         "claims": [
-          "M20",
-          "ED"
+          "M30"
         ]
       },
       {
-        "text": "If the person is severely confused, drowsy, seizing, unable to swallow safely, or unresponsive, NEVER put food, liquid, or gel into their mouth (aspiration hazard)—call 911 immediately and place in recovery position if breathing normally (trained companions with the patient's own prescribed glucagon follow its exact label).",
+        "text": "For impaired alertness, seizure or inability to swallow, give nothing by mouth. Call 911 promptly and follow the patient’s emergency plan and dispatcher.",
         "claims": [
-          "M22",
-          "T02",
-          "M05"
+          "M30",
+          "M22"
         ]
       }
     ],
@@ -18288,20 +18278,19 @@
       ]
     },
     "verify": {
-      "text": "Confirm swallowing safety before ANY oral sugar, recheck clarity at 15 minutes, and keep zero oral intake if drowsy or altered.",
+      "text": "Confirm the patient is alert and swallowing safely before giving anything by mouth. Monitor for deterioration.",
       "claims": [
-        "M20",
-        "M22"
+        "M30"
       ]
     },
     "stop": {
-      "text": "Failure to improve within 15 minutes, declining alertness, inability to swallow, or unresponsiveness requires immediate 911 emergency care.",
+      "text": "Declining alertness, inability to swallow or unresponsiveness requires emergency help immediately.",
       "claims": [
-        "T02",
-        "M22"
+        "M30",
+        "T02"
       ]
     },
-    "diagram": "Awake & swallows -> own glucose + 15 m | Confused/drowsy -> ZERO oral intake | Unresponsive/no relief -> 911 & airway",
+    "diagram": "Awake and swallowing: own action plan | Impaired alertness: nothing by mouth | Call 911 for severe signs",
     "visual": "Branch decision tree splitting alert safe-swallowing fast sugar from altered/unresponsive zero-oral-intake 911 emergency care. Conceptual, not to scale.",
     "reviewer": "Endocrinology, wilderness medicine, and EMS"
   },
@@ -18633,10 +18622,10 @@
         ]
       },
       {
-        "text": "Recognize mask limits: bandanas, wet rags, and loose surgical masks do NOT filter fine wildfire smoke particles—only a properly fitted NIOSH-approved N95/P100 particulate respirator filters PM2.5, and NO particulate mask protects against carbon monoxide or low oxygen near active flames.",
+        "text": "A well-fitting particulate respirator can reduce smoke particles. It cannot protect against carbon monoxide, toxic gases or oxygen deficiency. Follow local health alerts and evacuate when directed.",
         "claims": [
           "D06",
-          "C19"
+          "D08"
         ]
       },
       {
@@ -26160,41 +26149,40 @@
   {
     "id": "Z12-P45",
     "zone": "Z12",
-    "title": "Assess cold fast snowmelt stream crossings without risking foot entrapment",
+    "title": "Recognize when a snowmelt stream requires a detour",
     "origin": "NWS flood safety and NPS mountain safety; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Time glacial and snowmelt stream crossings for EARLY MORNING—afternoon sun melts high snowpack rapidly, turning a calm ankle-deep morning creek into a roaring waist-deep torrent by 4 p.m.",
+        "text": "Assess from a stable bank. Heat, rain and upstream releases can alter snowmelt flow. Do not infer a safe hour or wading depth.",
         "claims": [
           "X10",
           "W25",
-          "E04"
+          "T16"
         ]
       },
       {
-        "text": "Scout carefully from the bank BEFORE stepping in: reject any crossing with fast waist-deep flow, rolling rocks audible underneath, murky silty water hiding holes, slippery logs, waterfalls/strainers (downed trees) immediately downstream or water above knee depth in swift current.",
+        "text": "Reject floodwater, hidden footing, strong current, ice-cold water, drop-offs or downstream obstructions. Find a maintained open bridge or another official route.",
         "claims": [
           "N10",
           "T07",
-          "X10"
+          "T16"
         ]
       },
       {
-        "text": "On a verified shallow, manageable crossing ONLY: keep sturdy shoes ON (protecting feet from slick rock cuts), UNBUCKLE pack hip-belt and sternum straps (so a heavy pack cannot pin you underwater if you slip) and face slightly upstream using poles or linked group support.",
+        "text": "If there is no verified safe route, turn back or wait outside the flood zone. Seek local guidance instead of improvised group wading.",
         "claims": [
           "N10",
-          "E11",
-          "ED"
+          "T16"
         ]
       }
     ],
     "batch": "12-p11-z12-environments",
     "publication": "HOLD",
     "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Evaluate swift mountain streams safely and recognize when high water requires turning back or waiting for morning lows.",
+    "objective": "Decide from the bank when to turn back or use an official crossing.",
     "applies": "Unbridged mountain creeks and spring/summer glacial or snowmelt crossings.",
-    "equipment": "Sturdy footwear worn across (never barefoot), trekking poles for third-point balance and unbuckled pack hip belt/sternum strap.",
+    "equipment": "Current route information, alternate route, and time and insulation to wait safely outside the flood zone.",
     "failure": {
       "text": "Stepping into a rushing thigh-deep icy snowmelt stream at 3 p.m. with a heavy backpack buckled tightly around the waist and a logjam thirty feet downstream.",
       "claims": [
@@ -26204,22 +26192,23 @@
       ]
     },
     "verify": {
-      "text": "Confirm clear shallow footing, zero downstream log strainers/drops, shoes on and pack straps unbuckled before stepping off the bank.",
+      "text": "Confirm the alternate route avoids the water and its downstream hazards.",
       "claims": [
         "N10",
+        "T16",
         "ED"
       ]
     },
     "stop": {
-      "text": "Fast murky floodwater, water above knee depth in swift current, downstream log strainers or cold-water shock risk stops crossing—camp safely on the near bank until morning lows or turn back.",
+      "text": "Any flooding or uncertainty about footing, current or a safe exit stops the crossing.",
       "claims": [
         "N10",
         "T07",
-        "X02"
+        "T16"
       ]
     },
-    "diagram": "Cross early before afternoon melt | Reject deep swift water & strainers | Shoes on; unbuckle pack straps",
-    "visual": "Decision tree gating mountain stream crossings on morning snowmelt lows, depth/current limits, downstream strainer hazards and unbuckled pack safety. Conceptual, not to scale.",
+    "diagram": "Assess from stable ground | Reject floodwater and unknown footing | Use maintained crossing or turn back",
+    "visual": "Decision schematic for rejecting uncertain crossings. It establishes no cutoff for safe wading.",
     "reviewer": "Swiftwater safety, mountain safety and search and rescue"
   },
   {
@@ -27246,7 +27235,7 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "WEAR your buckled, properly fitted USCG-approved PFD continuously from dock launch to landing—sudden capsizes in cold water trigger 1-minute cold shock before anyone can dig stowed jackets out from under seats or buckle straps with numb fingers.",
+        "text": "Wear a correctly fitted, buckled USCG-approved life jacket from launch to landing. Cold shock can begin immediately, so a stowed device cannot provide support at capsize.",
         "claims": [
           "X04",
           "X02"
@@ -27270,7 +27259,7 @@
     "batch": "12-p11-z12-environments",
     "publication": "HOLD",
     "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Eliminate sudden cold-shock drowning by wearing a properly buckled life jacket whenever underway in small craft.",
+    "objective": "Reduce drowning risk by wearing a correctly fitted life jacket throughout small-craft travel.",
     "applies": "Canoes, kayaks, rowboats, motorboats and paddleboards on lakes, rivers and coastal/maritime waters.",
     "equipment": "Properly sized U.S. Coast Guard-approved Personal Flotation Device (PFD) matched to user weight and activity, plus attached pea-less whistle.",
     "failure": {
@@ -28507,7 +28496,7 @@
       ]
     },
     "stop": {
-      "text": "Any indoor CO alarm sound, headache/dizziness, or exhaust odor indoors requires shutting down and evacuating everyone to fresh air immediately plus calling 911.",
+      "text": "If a CO alarm sounds or poisoning is suspected, get everyone to fresh outdoor air immediately and call 911 from outside. Do not delay to switch off the generator or investigate.",
       "claims": [
         "C07",
         "C06"
@@ -28525,13 +28514,13 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Connect household appliances safely in ONLY one of two ways: plug individual appliances directly into the generator via intact heavy-duty outdoor-rated grounded cords, OR connect through a properly permitted transfer switch installed by a licensed electrician.",
+        "text": "Use appliance connections permitted by the specific generator manual and rated outdoor cords. Any connection to building wiring requires code-compliant transfer equipment installed by a licensed electrician.",
         "claims": [
           "U02"
         ]
       },
       {
-        "text": "NEVER plug a portable generator into a home wall outlet, laundry dryer outlet, or range receptacle using a double-male cord (\"backfeeding\" or \"suicide cord\")—backfeeding energizes exterior utility lines to deadly thousands of volts, killing utility linemen and bypassing breaker fire protection.",
+        "text": "Never connect a portable generator to a wall, dryer or range outlet. Backfeeding can energize utility lines and endanger utility workers and neighbors.",
         "claims": [
           "U02"
         ]
@@ -28563,9 +28552,10 @@
       ]
     },
     "stop": {
-      "text": "Any DIY panel tie-in, warm cord, tripped GFCI, or exposed live male prongs requires immediate shutdown and licensed electrical review.",
+      "text": "Do not touch exposed live parts or enter a hazardous area to stop equipment. Move away and contact emergency services or a licensed electrician as appropriate.",
       "claims": [
-        "U02"
+        "U02",
+        "U15"
       ]
     },
     "diagram": "Direct outdoor cord OR licensed transfer | NEVER backfeed wall or dryer outlets | Conceptual guide ≠ wiring certification",
@@ -28580,10 +28570,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Operate generators on a dry, level non-combustible outdoor surface shielded from direct rain or falling snow ONLY under a purpose-built open-sided canopy that preserves complete open-air ventilation on all sides—NEVER move a unit into a porch or garage to stay dry.",
+        "text": "Keep a portable generator outdoors at the prescribed clearances, with exhaust pointed away from buildings. Use only equipment and weather protection the manufacturer permits in those conditions. Leave it off if it cannot stay dry without enclosing it.",
         "claims": [
           "U15",
-          "C06"
+          "U02"
         ]
       },
       {
@@ -28622,10 +28612,10 @@
       ]
     },
     "stop": {
-      "text": "Wet energized outlets, leaking fuel lines, sparking cords, or indoor exhaust drift require immediate safe shutdown.",
+      "text": "Keep away from wet or sparking equipment and leaking fuel. If exhaust enters a building or a CO alarm sounds, evacuate and call 911 before any equipment action.",
       "claims": [
         "U15",
-        "U02"
+        "C07"
       ]
     },
     "diagram": "Open-sided dry canopy (never garage) | Keep GFCI cords clear of puddles | Shut OFF & cool fully before refueling",
@@ -28706,14 +28696,13 @@
         ]
       },
       {
-        "text": "Charge and store lithium batteries on hard, flat non-combustible surfaces well away from beds, couches, curtains, and primary room exit doors, and keep packs within manufacturer temperature limits (charging frozen lithium batteries below 32°F permanently damages cells and raises fire risk).",
+        "text": "Follow the exact battery and charger temperature limits. Charge away from bedding and exits on a stable surface. Keep damaged or flood-exposed batteries out of service.",
         "claims": [
-          "U09",
-          "U04"
+          "U09"
         ]
       },
       {
-        "text": "Stop using any battery pack IMMEDIATELY if it swells, hisses, smells sweet/chemical, overheats, leaks, or was dropped hard or submerged in floodwater; isolate safely outdoors away from structures if safe to move and follow local hazardous-waste disposal rules.",
+        "text": "If a pack becomes unusually hot, hisses, vents, smokes or swells, move people away. Do not carry an actively failing pack through the home or attempt to disconnect it if that requires approaching it.",
         "claims": [
           "U09",
           "U04"
@@ -28747,7 +28736,7 @@
         "U04"
       ]
     },
-    "diagram": "UL-listed packs + matched charger only | Hard surface clear of beds & exits | Swollen, hot or hissing -> stop & call 911",
+    "diagram": "Compatible charger on safe surface | Recognize overheating or venting | Move people away and call for help",
     "visual": "Failure-mode diagram tracing frozen charging or physical damage through swelling/hissing warning cues to immediate isolation and 911 evacuation. Conceptual, not to scale.",
     "reviewer": "Fire service and battery safety specialist"
   },
@@ -28802,7 +28791,7 @@
       ]
     },
     "stop": {
-      "text": "Rotten-egg sulfur odor, hot bubbling battery case, sizzling terminals, or acid leak requires disconnecting safely if clear of sparks, ventilating, and evacuating.",
+      "text": "If a battery case is hot, hissing, leaking or giving off an unusual odor, leave the area without operating nearby switches or disconnecting terminals. Seek emergency or qualified help from a safe location.",
       "claims": [
         "U09",
         "U11"
@@ -29409,13 +29398,13 @@
       ]
     },
     "stop": {
-      "text": "Sooty yellow flames, chemical odor, headache/drowsiness, or CO alarm requires turning the heater OFF immediately, exiting to fresh air, and calling 911 if symptomatic.",
+      "text": "If a CO alarm sounds or poisoning is suspected, get everyone outside immediately and call 911. Do not stop to turn off the heater or wait for symptoms.",
       "claims": [
         "C07",
         "U03"
       ]
     },
-    "diagram": "Verify local code & exact indoor rating | Exact fuel only; fresh air + 3 ft clear | NEVER sleep with unvented fuel heat on",
+    "diagram": "Confirm legal indoor-rated model | Follow its fuel and ventilation limits | Evacuate on suspected CO",
     "visual": "Decision tree checking legal local code, exact indoor-rated model/ODS, exact fuel/ventilation, and awake-only operation before permitting use. Conceptual, not to scale.",
     "reviewer": "Fire safety, licensed HVAC, and carbon monoxide specialist"
   },
@@ -29610,7 +29599,7 @@
         ]
       },
       {
-        "text": "Leave the building IMMEDIATELY with all occupants and pets, leaving doors open behind you—do NOT flip any light switches, unplug appliances, light matches, start cars in the driveway, or use landline/cell phones INSIDE the building (tiny electrical sparks ignite gas mixtures).",
+        "text": "Leave immediately with everyone who can exit safely. Do not operate lights, appliances, vehicles, garage controls or phones in the suspected leak area. Call 911 and the gas utility from a safe location.",
         "claims": [
           "U11"
         ]
@@ -29665,7 +29654,7 @@
         ]
       },
       {
-        "text": "If you smell leaking gas, hear hissing, or see structural/flood damage to gas piping and you can safely reach an exterior valve outside the building without entering gas fumes, follow your local gas utility's exact shutoff instructions (or evacuate first and let utility/fire crews shut it off).",
+        "text": "If you smell leaking gas, hear hissing or suspect damaged gas piping, leave immediately. Call 911 and the gas utility from a safe location. Leave valve manipulation and restoration to authorized responders.",
         "claims": [
           "U11"
         ]
@@ -29690,10 +29679,9 @@
       ]
     },
     "verify": {
-      "text": "Confirm household knows NEVER to restore shut-off gas service independently and keeps utility emergency numbers on paper.",
+      "text": "Keep the utility emergency number available. Follow its instructions from a safe location and wait for clearance before returning.",
       "claims": [
-        "U11",
-        "U14"
+        "U11"
       ]
     },
     "stop": {
@@ -29892,17 +29880,15 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Keep the affected faucet OPEN slightly while warming so melting water and steam can relieve pressure safely as ice loosens, and confirm someone stands ready at the main water shutoff in case the frozen pipe already cracked beneath the ice plug.",
+        "text": "If an accessible pipe is frozen without signs of rupture, open the affected faucet before applying gentle heat. Know how to shut off the water if a leak develops.",
         "claims": [
-          "U10",
-          "U08"
+          "U10"
         ]
       },
       {
-        "text": "Apply gentle indirect heat ONLY to accessible exposed pipe sections using a handheld hair dryer, warm soaked towels, or UL-listed electric heat tape installed strictly per label—working steadily from the open faucet back toward the frozen section.",
+        "text": "Use warm towels or another method specifically advised by a plumber for the accessible pipe and site. Keep electrical devices away from wet surfaces. Never use a flame, torch or unapproved heater.",
         "claims": [
-          "U10",
-          "U03"
+          "U10"
         ]
       },
       {
@@ -30198,17 +30184,17 @@
         ]
       },
       {
-        "text": "Before draining a household water heater for emergency water, FIRST turn off its electricity at the breaker (or shut off gas supply), close the cold-water inlet valve, open a hot tap upstairs to break vacuum, and draw from the bottom drain valve—flushing initial rusty sediment first and treating/boiling if any microbiological doubt exists.",
+        "text": "Use tank water only if the supply was safe and the utility and heater manufacturer allow recovery. Have the safe shutdown, cooling and draining procedure ready in advance. Do not use a hot, damaged, pressurized or gas-leaking appliance.",
         "claims": [
           "U08",
-          "W02"
+          "U11"
         ]
       },
       {
-        "text": "NEVER drink water from hydronic home heating radiators/boilers, waterbeds, swimming pools/spas (use strictly for non-potable flushing), or toilet tanks containing blue/chemical bowl cleaners or corroded parts.",
+        "text": "Default to stored or officially supplied potable water when appliance instructions, system condition or advisory status are uncertain.",
         "claims": [
           "U08",
-          "W01"
+          "D12"
         ]
       }
     ],
@@ -30239,7 +30225,7 @@
         "U08"
       ]
     },
-    "diagram": "Kill heater power/gas & inlet FIRST | Flush sediment; draw clean tank reserve | NEVER drink boilers, pools or chem tanks",
+    "diagram": "Verify prior potable supply and no advisory | Follow exact appliance instructions | Prefer stored potable water",
     "visual": "Correct versus incorrect indoor reserve sourcing contrasting power-isolated water-heater drainage against forbidden hydronic boilers, pools, and chemical toilet tanks. Conceptual, not to scale.",
     "reviewer": "Plumbing safety and drinking-water public health"
   },
@@ -30251,19 +30237,17 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Read the EXACT advisory tier issued by your local water utility or health department: **Boil Water** targets microbial risk (bring clear water to a rolling boil 1 minute; 3 minutes above 6,500 ft for drinking, brushing teeth, food washing, and infant formula).",
+        "text": "Read the active utility order. For a Boil Water advisory, use bottled water or follow the order’s exact boiling directions. Check the local instructions for infant feeding and every other use.",
         "claims": [
-          "W07",
-          "W02",
-          "W29"
+          "D12",
+          "W07"
         ]
       },
       {
-        "text": "Under a **Do Not Drink** advisory (chemical/algal/nitrate contamination), do NOT boil tap water—boiling does not remove chemicals and can concentrate or vaporize volatile toxins; use ONLY bottled or officially supplied safe water for ingestion and food prep.",
+        "text": "For a Do Not Drink advisory, use an approved alternate supply for ingestion and food preparation. Boiling does not remove hazardous chemicals. Use tap water for other tasks only if the advisory allows it.",
         "claims": [
-          "W07",
-          "W01",
-          "D12"
+          "D12",
+          "W01"
         ]
       },
       {
@@ -30553,19 +30537,17 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Remember that private well pumps stop instantly when electricity fails—once the small pressurized bladder tank empties (often just 5 to 15 gallons), EVERY household faucet and toilet stops flowing until power returns.",
+        "text": "A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation.",
         "claims": [
-          "U06",
-          "U08",
-          "U01"
+          "U05",
+          "U06"
         ]
       },
       {
-        "text": "Switch OFF the dedicated well-pump breaker during flickering brownouts or prolonged outages until stable utility power or a properly licensed, adequately sized 240V transfer-switch generator circuit is ready (submersible pumps draw high startup surges that burn out under low voltage).",
+        "text": "Use stored potable water during a prolonged outage. Leave selection of a backup circuit and inspection after unstable power to licensed electrical and well professionals.",
         "claims": [
-          "U06",
           "U02",
-          "U01"
+          "U06"
         ]
       },
       {
@@ -30861,8 +30843,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Verify exact independent certification labels (NSF/ANSI or WQA) rather than marketing words: NSF 42 covers aesthetic chlorine/taste ONLY (NOT microbes or lead); NSF 53/58 require verifying the SPECIFIC named contaminant claim (such as cyst reduction, lead, or arsenic) on that exact cartridge.",
+        "text": "Check the individual model’s listed reduction claim. NSF/ANSI 42 concerns aesthetic effects. NSF/ANSI 53 and 58 cover different systems and claims, and a standard number alone does not establish lead or cyst reduction.",
         "claims": [
+          "W19",
           "W20",
           "W21"
         ]
@@ -30876,10 +30859,11 @@
         ]
       },
       {
-        "text": "Replace cartridges strictly on schedule (or immediately after any Boil Water / flood-contamination exposure) and protect wet cartridges from freezing, which cracks media silently.",
+        "text": "Follow the product manual and utility instructions for replacement, flushing or reinstatement after contamination or freeze exposure. Sawyer’s wet hollow-fiber advice applies to its specified products.",
         "claims": [
           "W21",
-          "W28"
+          "W28",
+          "D12"
         ]
       }
     ],
@@ -30904,14 +30888,14 @@
       ]
     },
     "stop": {
-      "text": "Unknown certification, expired/clogged cartridges, freeze exposure, or active chemical/Boil Water advisories require switching to validated boiling or safe bottled water.",
+      "text": "For chemical or Do Not Use advisories, use an approved alternate supply. Boiling is an option only for a microbial advisory and only as the utility directs.",
       "claims": [
-        "W20",
-        "W28",
-        "W07"
+        "W01",
+        "W07",
+        "D12"
       ]
     },
-    "diagram": "NSF 42 = taste ONLY (not germs/lead) | Check exact NSF 53/58 named claim | Pitchers NEVER clear Boil Water notices",
+    "diagram": "Identify specific contaminant and model claim | Follow utility and product instructions | Use approved safe supply for chemical advice",
     "visual": "Comparative filter matrix contrasting aesthetic NSF 42 carbon pitchers, specific-claim NSF 53/58 systems, and validated emergency boiling/bottled water. Conceptual, not to scale.",
     "reviewer": "Drinking-water treatment specialist"
   },
@@ -31154,24 +31138,23 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Mix household chlorine bleach STRICTLY with plain cool water per exact label directions—NEVER mix bleach with ammonia, window cleaners, urine/toilet cleaners, vinegar, lemon juice, or acidic rust/drain cleaners.",
+        "text": "Use one cleaning product at a time and follow its label. Never mix bleach with other cleaners or disinfectants.",
         "claims": [
-          "U13",
+          "U19"
+        ]
+      },
+      {
+        "text": "If mixing has already released irritating fumes, move away to fresh air. For trouble breathing or collapse call 911 from safety. Contact Poison Control for exposure-specific advice.",
+        "claims": [
+          "U19",
           "M15"
         ]
       },
       {
-        "text": "Recognize the exact chemical hazard: bleach + ammonia creates toxic chloramine gas, and bleach + acids (vinegar/toilet cleaner) creates lethal chlorine gas—both rapidly burn eyes, throats, and lungs even in open bathrooms.",
+        "text": "If indoor fumes are present, leave the area. Do not return to ventilate or clean until you have emergency or Poison Control guidance.",
         "claims": [
-          "U13",
+          "U19",
           "M15"
-        ]
-      },
-      {
-        "text": "Ventilate rooms well when cleaning, wear gloves, keep all chemical bottles in original labeled containers high out of children's reach, and NEVER reuse empty drink bottles to store diluted bleach.",
-        "claims": [
-          "U13",
-          "M16"
         ]
       }
     ],
@@ -31275,25 +31258,24 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Distinguish light greywater (clean dish-rinse or hand/bath water free of raw meat juices, bleach/harsh solvents, or fecal matter) from contaminated blackwater (toilet/diaper/raw-meat/sewage water)—ONLY light greywater is appropriate for emergency gravity-toilet bowl flushing.",
-        "claims": [
-          "U13",
-          "U07"
-        ]
-      },
-      {
-        "text": "Pour flush water briskly straight into the toilet BOWL (roughly 1 to 2 gallons triggers a standard gravity siphon flush) ONLY when you have verified the municipal sewer or gravity septic line is functioning and NOT flooded or pump-blocked.",
+        "text": "Keep any non-potable water apart from drinking-water and food-preparation equipment. Do not use sewage-contaminated water or assume household wastewater is safe to reuse.",
         "claims": [
           "U07",
           "U13"
         ]
       },
       {
-        "text": "NEVER store greywater for more than 24 hours (bacteria multiply rapidly and turn foul), NEVER use greywater on edible garden leaves, and NEVER let greywater touch drinking-water jugs or kitchen food counters.",
+        "text": "Check local utility or health instructions before using any alternate flushing water. Do not add water to a failed, flooded or backing-up sewer or septic system.",
         "claims": [
-          "U13",
-          "P03",
-          "W06"
+          "U07",
+          "U13"
+        ]
+      },
+      {
+        "text": "Choose a locally approved sanitation alternative if wastewater service is uncertain. Avoid improvised connections between non-potable equipment and drinking water.",
+        "claims": [
+          "U07",
+          "U13"
         ]
       }
     ],
@@ -31336,10 +31318,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "NEVER wade into standing basement water until electricity to the basement (and entire flooded panel if submerged) is confirmed shut off by the utility or dry main switch, and check for gas odors before entering.",
+        "text": "Do not enter a flooded basement or touch switches in or near standing water. Call the utility or a licensed electrician to confirm isolation from a safe location. Leave immediately if you suspect a gas leak.",
         "claims": [
-          "D05",
-          "U01",
+          "U20",
           "U11"
         ]
       },
@@ -31381,10 +31362,10 @@
       ]
     },
     "stop": {
-      "text": "Submerged electrical panel, gas odor, chest-deep water, structural wall cracking, or widespread black sewage contamination requires professional utility and remediation crews.",
+      "text": "Re-enter only after applicable electrical, gas and structural clearance. Use professional cleanup for sewage or chemical contamination when safe control cannot be established.",
       "claims": [
-        "D05",
-        "U11"
+        "U20",
+        "D05"
       ]
     },
     "diagram": "Confirm power & gas OFF before entry | Treat floodwater as sewage; wear PPE | NEVER run fuel dewatering pumps indoors",
@@ -31741,10 +31722,10 @@
       ]
     },
     "stop": {
-      "text": "Strong gasoline/propane odor in a shed or garage requires ventilating immediately without touching electric switches, keeping flames away, and removing leaking cylinders outdoors.",
+      "text": "For a strong fuel odor, active leak or hissing cylinder, leave the area. Avoid switches, engines and flames. Call the fire service or supplier from a safe location. Do not move a leaking cylinder yourself.",
       "claims": [
-        "U04",
-        "U11"
+        "U11",
+        "U04"
       ]
     },
     "diagram": "ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Color-coded approved cans; rotate 6–12 mo",
@@ -33917,28 +33898,27 @@
   {
     "id": "Z14-P28",
     "zone": "Z14",
-    "title": "Store potatoes in total darkness at 45–50°F to prevent toxic green solanine",
+    "title": "Keep stored potatoes dark and discard green or bitter potatoes",
     "origin": "UMN Extension Harvesting and Storing Vegetables; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Store cured potatoes in **100% TOTAL DARKNESS** inside breathable paper bags, burlap sacks, or covered slatted boxes—even dim basement daylight or electric bulbs trigger chlorophyll greening accompanied by toxic **solanine** (glycoalkaloids) beneath the peel.",
+        "text": "Store sound potatoes in a cool, dark place with airflow using crop-specific Extension guidance. Light exposure can cause greening, which flags possible glycoalkaloid risk.",
         "claims": [
           "P05",
-          "M15"
+          "P21"
         ]
       },
       {
-        "text": "Hold storage temperatures near 45–50°F (avoiding refrigerator temperatures below 40°F, which convert potato starch into sugar, turning cooked potatoes unpleasantly sweet and dark-browning when fried) with moderate-high humidity and good airflow.",
+        "text": "Discard green, bitter or heavily sprouted potatoes. Color is a warning cue rather than a measurement of toxin concentration. Do not taste a suspect potato to test it.",
         "claims": [
-          "P05"
+          "P21"
         ]
       },
       {
-        "text": "Inspect stored potatoes regularly—trim away small shallow sprouts and light green surface spots generously, and DISCARD heavily green, bitter-tasting, shriveled, or heavily sprouted potatoes completely (cooking does NOT destroy solanine!).",
+        "text": "Check stored potatoes periodically and remove deteriorated ones. Discard green, bitter or strongly sprouted tubers without tasting them.",
         "claims": [
-          "P05",
-          "M15"
+          "P21"
         ]
       }
     ],
@@ -33956,19 +33936,19 @@
       ]
     },
     "verify": {
-      "text": "Confirm total darkness, breathable opaque bags (zero sealed sweaty plastic), 45–50°F target temp, and regular sprout/greening checks.",
+      "text": "Confirm darkness, suitable airflow and periodic inspection for deterioration.",
       "claims": [
-        "P05"
+        "P05",
+        "P21"
       ]
     },
     "stop": {
-      "text": "Heavily greened skins, bitter taste, or soft wet rot require discarding affected potatoes immediately rather than eating them.",
+      "text": "Discard green, bitter, rotten or strongly sprouted potatoes. Do not assess safety by tasting.",
       "claims": [
-        "P05",
-        "M15"
+        "P21"
       ]
     },
-    "diagram": "100% total darkness + breathable bags | Hold 45–50°F (avoid below 40°F starch-sugar) | Discard heavily green/bitter solanine spuds",
+    "diagram": "Store sound potatoes dark | Check for greening or strong sprouting | Discard suspect tubers",
     "visual": "Correct versus incorrect potato storage contrasting dark breathable sacks at 45–50°F against sunlit clear plastic bags generating toxic green solanine. Conceptual, not to scale.",
     "reviewer": "Post-harvest horticulture and food toxicology"
   },
@@ -34442,9 +34422,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Insert a clean food thermometer into the thickest portion of the food (away from bone, fat, or pan bottom) to confirm USDA safe minimum internal temperatures: **165°F** for all poultry and reheated leftovers/casseroles, **160°F** for ground beef/pork/lamb and egg dishes, and **145°F** (plus 3-minute rest) for whole cuts of beef, pork, veal, lamb, and fish (145°F).",
+        "text": "Use a food thermometer and the USDA chart. The minimum is 165°F for poultry and reheated leftovers or casseroles, 160°F for ground beef, pork, veal or lamb and egg dishes, and 145°F plus a three-minute rest for whole cuts of beef, pork, veal or lamb. Fish is a separate 145°F entry.",
         "claims": [
-          "F02"
+          "F03"
         ]
       },
       {
@@ -34675,16 +34655,16 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "For **refrigerated** foods held above 40°F for OVER 2 hours: DISCARD meat, poultry, fish, eggs, soft cheeses, milk, cut melons/tomatoes/leafy greens, cooked pasta/rice/leftovers, and opened mayo/creamy dressings; items like hard cheeses, uncut whole produce, butter, peanut butter, jams, and vinegar condiments are generally listed as keepable per the official chart.",
+        "text": "Use the per-food refrigerated discard chart after an outage. An unopened refrigerator gives about four hours of cold holding. Discard vulnerable foods at the applicable time and temperature limit or when the cold history is unknown.",
         "claims": [
           "F04",
           "P17"
         ]
       },
       {
-        "text": "For **frozen** foods: you may safely refreeze or cook foods that STILL contain visible ice crystals OR measure **40°F or below** on a food/appliance thermometer (expecting minor texture/quality softening); discard thawed meat/poultry/seafood/egg/dairy dishes held above 40°F over 2 hours.",
+        "text": "For frozen items, check the separate FDA/USDA freezer chart. Ice crystals or a measured 40°F or below are relevant, but some categories have specific discard rules.",
         "claims": [
-          "F05",
+          "F04",
           "P17"
         ]
       },
@@ -34717,7 +34697,7 @@
       ]
     },
     "stop": {
-      "text": "When temperature history is unknown or exceeds 40°F for >2 hours on high-risk perishables, discard cleanly (\"When in doubt, throw it out\").",
+      "text": "If you cannot establish which chart row applies or whether temperature control held, discard the suspect food. Do not taste it.",
       "claims": [
         "F04",
         "P17"
@@ -34976,24 +34956,24 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Classify every food strictly by the **pH 4.6** botulism boundary: **Low-acid foods (pH > 4.6)** include ALL meats, poultry, seafood, stocks, soups, beans, corn, carrots, potatoes, green beans, squash, and vegetable mixes—these MUST be processed strictly in a **PRESSURE CANNER** reaching 240°F+ to destroy heat-resistant C. botulinum spores.",
+        "text": "Use only tested USDA/NCHFP recipes. Low-acid products such as plain vegetables, meat and poultry require a validated pressure-canning recipe with the specified equipment and conditions.",
         "claims": [
-          "P07",
-          "F06"
+          "P06",
+          "P07"
         ]
       },
       {
-        "text": "**High-acid foods (pH ≤ 4.6)** include most fruits, tested fruit jams/jellies, tested fermented sauerkraut, tested vinegar pickles, and properly acidified tomatoes—these may be processed in a boiling-water canner (212°F at sea level) strictly per a tested recipe.",
+        "text": "Use boiling-water canning for high-acid or properly acidified products only when the exact tested recipe calls for it. A measured pH alone does not create a validated process.",
         "claims": [
-          "P08",
-          "F06"
+          "P06",
+          "P08"
         ]
       },
       {
-        "text": "Recognize that boiling water at 212°F NEVER kills C. botulinum spores no matter how many hours you boil a jar—in an oxygen-free sealed low-acid jar at room temperature, surviving spores germinate and produce the most potent biological toxin known.",
+        "text": "An ordinary boiling-water bath does not provide a validated process for low-acid products. If no tested recipe exists, choose safe refrigeration or a tested alternate preservation method.",
         "claims": [
-          "P07",
-          "P10"
+          "P06",
+          "P07"
         ]
       }
     ],
@@ -35032,28 +35012,28 @@
   {
     "id": "Z14-P47",
     "zone": "Z14",
-    "title": "Acidify home-canned tomatoes strictly with bottled lemon juice or citric acid",
+    "title": "Acidify home-canned tomatoes using the exact tested recipe",
     "origin": "NCHFP Boiling Water and Pressure Canning; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Acidify EVERY jar of home-canned tomatoes—whether processed in a boiling-water canner OR a pressure canner—using USDA's exact standardized measure (typically 1 tablespoon bottled lemon juice or ¼ teaspoon citric acid per pint; 2 tablespoons bottled lemon juice or ½ teaspoon citric acid per quart, per the exact tested recipe).",
+        "text": "For whole, crushed or juiced tomatoes, use a tested recipe and its prescribed acid and jar size. NCHFP lists specific bottled lemon juice, citric acid and 5% vinegar options for its applicable procedures. They are not interchangeable by volume.",
         "claims": [
           "P08",
+          "P22"
+        ]
+      },
+      {
+        "text": "Keep the recipe’s acid step even if it offers a pressure-canning option. Do not generalize these directions to salsa, mixed products or another jar size.",
+        "claims": [
+          "P22",
           "P06"
         ]
       },
       {
-        "text": "Use **BOTTLED lemon juice** (standardized acidity) or dry citric acid—NEVER substitute fresh-squeezed lemons or limes whose natural acidity varies unpredictably by cultivar and ripeness, and never skip acid because a tomato variety \"tastes tart.\"",
+        "text": "Use sound fruit and reject fruit from dead or frost-killed vines for canning. Follow all preparation and processing conditions in the same tested recipe.",
         "claims": [
-          "P08"
-        ]
-      },
-      {
-        "text": "Select ONLY firm, sound, vine-ripened tomatoes—NEVER can tomatoes from dead, frost-killed vines (which drop sharply in acidity) or heavily bruised/decayed fruit.",
-        "claims": [
-          "P08",
-          "P04"
+          "P22"
         ]
       }
     ],
@@ -35070,17 +35050,15 @@
       ]
     },
     "verify": {
-      "text": "Confirm firm healthy pre-frost tomatoes, standardized bottled lemon juice/citric acid added directly per jar, and tested USDA processing schedule followed.",
+      "text": "Confirm the fruit, jar size, acid and complete processing schedule match one tested recipe.",
       "claims": [
-        "P08",
-        "P06"
+        "P22"
       ]
     },
     "stop": {
-      "text": "Overripe soft tomatoes, frost-killed vine tomatoes, or missing standardized acid require freezing instead of home canning.",
+      "text": "If the tomato source, acid option or processing schedule fails the tested conditions, do not can that batch.",
       "claims": [
-        "P08",
-        "P12"
+        "P22"
       ]
     },
     "diagram": "Modern tomatoes sit near pH 4.6 danger line | Add exact BOTTLED lemon juice / citric acid | Never can tomatoes from frost-killed vines",
@@ -35382,23 +35360,21 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Use an atmospheric-steam canner STRICTLY for **high-acid tested boiling-water recipes (pH ≤ 4.6)**—an atmospheric steam canner is NOT pressurized and NEVER replaces a pressure canner for meats, vegetables, or low-acid foods.",
+        "text": "Use atmospheric steam canning only for an applicable high-acid or acidified tested recipe and compatible equipment. It cannot replace pressure canning for low-acid foods.",
         "claims": [
-          "P08",
-          "P07"
+          "P25"
         ]
       },
       {
-        "text": "Enforce the mandatory **45-minute maximum processing time cap** (INCLUDING all altitude time adjustments!)—steam canners hold shallow base water that can boil dry beyond 45 minutes, silently dropping chamber temperature below safe pasteurization levels.",
+        "text": "Follow the tested steam-canning procedure. The total processing time, including elevation adjustment, must be 45 minutes or less.",
         "claims": [
-          "P08"
+          "P25"
         ]
       },
       {
-        "text": "Vent until pure steam flows steadily and the dome gauge confirms full boiling temperature for your elevation before starting the timer, keep heat steady without boiling dry, and never open the dome early.",
+        "text": "Vent and monitor steam temperature according to the validated instructions and exact equipment. Maintain these conditions without running dry.",
         "claims": [
-          "P08",
-          "P14"
+          "P25"
         ]
       }
     ],
@@ -35416,16 +35392,15 @@
       ]
     },
     "verify": {
-      "text": "Confirm high-acid recipe ONLY, total altitude-adjusted time ≤45 minutes, full pure steam verified, and base water never boils dry.",
+      "text": "Confirm the tested recipe, compatible equipment and altitude-adjusted time within the 45-minute limit.",
       "claims": [
-        "P08",
-        "P14"
+        "P25"
       ]
     },
     "stop": {
-      "text": "Any recipe exceeding 45 total minutes (with altitude) or any low-acid food requires switching to a deep boiling-water or pressure canner respectively.",
+      "text": "If the recipe, elevation-adjusted time or equipment fails the validated conditions, select the correct tested procedure instead.",
       "claims": [
-        "P08",
+        "P25",
         "P07"
       ]
     },
@@ -35441,19 +35416,19 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Inspect the rubber lid gasket, safety overpressure plug, and open vent pipe (look cleanly through the pipe toward light!) before every use, add the manufacturer-specified 2 to 3 inches of hot water over the bottom rack, lock the lid, and leave the vent weight OFF.",
+        "text": "Inspect the gasket, vent and safety components per the model manual. Use the tested recipe and instructions for the rack, water depth and loading. Leave the vent open for the venting step.",
         "claims": [
           "P07"
         ]
       },
       {
-        "text": "Heat on high until a **STRONG, CONTINUOUS FUNNEL OF STEAM** flows from the open vent pipe, then time a **FULL 10 MINUTES OF STEADY VENTING** BEFORE placing the counterweight/petcock on—skipping the 10-minute vent traps cool air pockets inside the pot so the gauge reads target PSI while actual jar temperatures stay fatally low!",
+        "text": "Time ten minutes of continuous steam from the open vent. Then close the petcock or place the regulator as the manual specifies.",
         "claims": [
           "P07"
         ]
       },
       {
-        "text": "Once pressurized cleanly to exact altitude-adjusted PSI (e.g., 11 PSI dial / 10 PSI weighted at ≤1,000 ft, stepped up above 1,000 ft per USDA tables), start the exact recipe timer and hold steady pressure without wild burner swings (which cause jar liquid siphoning).",
+        "text": "Use the tested recipe’s pressure for the actual site elevation and gauge type. Start the process time only at target pressure and maintain it throughout.",
         "claims": [
           "P07",
           "P14"
@@ -35463,8 +35438,8 @@
     "batch": "15-p14-z14-preservation",
     "publication": "HOLD",
     "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Purge cold insulating air pockets completely from the pressure canner so internal temperature truly reaches 240°F+ across all jars.",
-    "applies": "All low-acid home canning (meats, poultry, stocks, beans, vegetables, tested soups) in a validated stovetop dial- or weighted-gauge pressure canner.",
+    "objective": "Identify the open-vent stage, then start timing only at the tested target pressure for the recipe, gauge and elevation.",
+    "applies": "A tested pressure-canning recipe and compatible model. The same operating setting does not apply to every product or site.",
     "equipment": "Validated stovetop pressure canner (≥4-quart-jar capacity), intact lid gasket/overpressure plug, bottom rack, and USDA altitude-PSI chart.",
     "failure": {
       "text": "Closing the pressure-canner vent weight after two minutes of wispy steam, leaving cold air trapped inside so green beans stay below 240°F.",
@@ -35485,8 +35460,8 @@
         "P07"
       ]
     },
-    "diagram": "Clear vent pipe -> 10 MIN FULL STEAM VENT | Apply weight -> reach altitude-adjusted PSI | Hold steady PSI full time; avoid swings",
-    "visual": "System boundary pressure-canner cutaway illustrating 10-minute air-purge steam funnel, locked lid/gasket, dial/weighted gauge, and 240°F+ jar zone. Conceptual, not to scale.",
+    "diagram": "Ten minutes of continuous steam venting | Recipe-specific gauge and elevation values | Maintain the target for the specified time",
+    "visual": "Conceptual cross-section of steam escaping through the open lid vent before the canner pressurizes. The tested recipe and manufacturer instructions control water depth, pressure and loading.",
     "reviewer": "Food preservation process authority and Extension"
   },
   {
@@ -35570,7 +35545,7 @@
         ]
       },
       {
-        "text": "Do NOT try to guess \"just add 10 extra minutes\"—cumulative heat transfer to the geometric center of sealed jars is non-linear and only restarting the full validated cycle guarantees safety.",
+        "text": "Do not add an arbitrary number of minutes. If pressure falls below the recipe target, restore it and restart the full time following the tested method. For process deviations or uncertainty about the batch, consult Extension before using it.",
         "claims": [
           "P07",
           "P06"
@@ -35622,11 +35597,10 @@
         ]
       },
       {
-        "text": "Apply the exact USDA altitude adjustment for your equipment: for **boiling-water canning**, add extra processing minutes per the recipe's elevation bracket (1,001–3,000 ft, 3,001–6,000 ft, etc.); for **pressure canning**, INCREASE target pressure (e.g., dial gauge moves from 11 PSI to 12 PSI at 2,001–4,000 ft; weighted gauge steps straight from 10 PSI to **15 PSI** above 1,000 ft!).",
+        "text": "Use the elevation column of the exact tested recipe for the specified equipment. Water-bath times and pressure-canner settings are different controls. Do not transfer a pressure value between a dial and weighted gauge.",
         "claims": [
-          "P14",
           "P07",
-          "F07"
+          "P14"
         ]
       },
       {
@@ -35734,9 +35708,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "After 12 to 24 hours of undisturbed cooling, remove ALL metal screw bands cleanly and test every flat lid: a properly sealed lid curves slightly **CONCAVE (downward)** at the center, does NOT flex or pop up/down when pressed gently, and holds firmly when lifted carefully by the lid rim edges just an inch above the towel.",
+        "text": "After 12–24 hours of undisturbed cooling, remove bands and check for a firm seal by an NCHFP method. A seal check cannot verify a recipe or processing schedule.",
         "claims": [
-          "P09"
+          "P09",
+          "P10"
         ]
       },
       {
@@ -35747,7 +35722,7 @@
         ]
       },
       {
-        "text": "If ANY jar fails to seal within 24 hours of processing, immediately choose one of three safe NCHFP options: **refrigerate and eat promptly**, **freeze** in freezer-safe containers, OR **reprocess the ENTIRE full time** using a clean inspected jar rim and a brand-new flat lid within 24 hours.",
+        "text": "For a freshly unsealed jar, reprocess only if the original method and the corrective procedure meet Extension conditions. Consult the exact instructions for refrigeration, freezing or reprocessing.",
         "claims": [
           "P09",
           "P10"
@@ -35775,8 +35750,9 @@
       ]
     },
     "stop": {
-      "text": "Unsealed jars discovered MORE than 24 hours after processing must be treated as spoiled and discarded safely without tasting.",
+      "text": "An unsealed jar from a correctly processed batch has a narrow reprocessing window under the tested instructions. If the original process was wrong, unknown, or shows spoilage, do not treat a later seal as clearance.",
       "claims": [
+        "P09",
         "P10"
       ]
     },
@@ -35852,14 +35828,14 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Inspect EVERY jar BEFORE opening: confirm the lid is still tightly **CONCAVE** and pulls a crisp inward vacuum hiss (NEVER an outward spurt or fizz!) when opened, with zero dried food streaks down the glass exterior and zero rust holes.",
+        "text": "Check the intact container and processing record before opening. Keep a suspect jar closed and isolated. A concave lid or vacuum sound cannot verify safety.",
         "claims": [
           "P10",
-          "P09"
+          "P06"
         ]
       },
       {
-        "text": "Inspect jar contents carefully through the glass before and right after opening for rising gas bubbles, unexpected cloudiness/sediment, mold fuzz under the lid, mushy slimy texture, or sour/putrid off-odor.",
+        "text": "Look for unusual leakage, bulging, broken seal or visible changes without opening a suspect jar or sniffing its contents. Follow official isolation and disposal instructions.",
         "claims": [
           "P10"
         ]
@@ -35885,7 +35861,7 @@
       ]
     },
     "verify": {
-      "text": "Confirm intact concave seal, normal clear appearance/odor, zero mold/spurting, and confirmed tested USDA process lineage before serving.",
+      "text": "Confirm the tested process record and container condition. Never use smell, taste or the sound of a lid as safety clearance.",
       "claims": [
         "P10",
         "P06"
@@ -35897,34 +35873,34 @@
         "P10"
       ]
     },
-    "diagram": "Check concave seal & clean jar exterior | Look for spurting, gas bubbles, cloud or mold | Suspect jar -> ZERO tasting; isolate NOW",
-    "visual": "Failure-mode jar-inspection guide mapping external seal/rust cues, opening-spurt cues, and internal bubble/mold flags to strict zero-taste isolation. Conceptual, not to scale.",
+    "diagram": "Check the sealed container and recipe record | Isolate defects or uncertain process | Do not open or taste for diagnosis",
+    "visual": "Failure-mode diagram showing external container defects and uncertain processing as reasons to keep a suspect jar closed and seek disposal guidance.",
     "reviewer": "Food microbiology and public health"
   },
   {
     "id": "Z14-P62",
     "zone": "Z14",
-    "title": "Detoxify and dispose of suspect botulism jars safely per NCHFP rules",
+    "title": "Isolate suspect canned food and follow official disposal guidance",
     "origin": "NCHFP Handling Spoiled Canned Food; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "NEVER taste a suspect jar, dump it down a sink disposal, or toss it into compost or yards where pets or wildlife can ingest fatal botulinum toxin.",
+        "text": "Keep suspect jars away from people and animals. Never taste the contents or open a sealed suspect container to inspect it.",
         "claims": [
           "P10"
         ]
       },
       {
-        "text": "If a suspect low-acid jar is STILL SEALED/UNOPENED, carefully double-bag it padded in cardboard inside locked household landfill trash out of reach of children and animals, then wash hands thoroughly.",
+        "text": "Get the current NCHFP or public-health disposal directions. Identify whether the container is sealed, open or leaking and whether anyone ate the food. Keep children and pets out of the area.",
         "claims": [
           "P10"
         ]
       },
       {
-        "text": "If LEAKING or ALREADY OPENED, wear gloves and follow NCHFP detoxification: submerge jar, lid, and contents under 1+ inch of water in a large covered pot, boil vigorously 30 FULL MINUTES, cool, then bag/trash cleanly; wipe spills with 1:5 bleach-water for 30 minutes (no ammonia/acid).",
+        "text": "For a suspected exposure, call Poison Control or public health promptly. Trouble swallowing or breathing, double vision or progressive weakness after eating suspect food requires emergency medical care. Keep the container isolated and follow health authorities’ instructions.",
         "claims": [
-          "P10",
-          "U13"
+          "M15",
+          "P23"
         ]
       }
     ],
@@ -35941,21 +35917,20 @@
       ]
     },
     "verify": {
-      "text": "Confirm zero tasting, zero sink/compost dumping, and exact NCHFP unopened-trash OR 30-minute boil detoxification applied.",
+      "text": "Confirm no tasting, no access by pets or children, and receipt of official handling or disposal directions.",
       "claims": [
         "P10"
       ]
     },
     "stop": {
-      "text": "Anyone who tasted suspect low-acid food requires calling 911 IMMEDIATELY for hospital antitoxin (save jar safely for public-health testing).",
+      "text": "For a leaking container, contaminated surface or symptomatic exposure, avoid handling and seek public-health or emergency guidance.",
       "claims": [
         "P10",
-        "M15",
-        "T02"
+        "P23"
       ]
     },
-    "diagram": "ZERO tasting; never sink or compost dump | Sealed suspect -> double-bag locked trash | Opened/leaking -> 30 m submerged boil detox",
-    "visual": "Branch decision tree separating unopened double-bag trash disposal from opened/leaking 30-minute submerged boil detoxification and 911 emergency exposure care. Conceptual, not to scale.",
+    "diagram": "Isolate suspect jar and prevent exposure | Use official disposal instructions | Call for help if exposure is suspected",
+    "visual": "Decision schematic for isolating suspect food, reporting symptoms and using official disposal instructions.",
     "reviewer": "Food microbiology, toxicology, and public health"
   },
   {
@@ -36248,24 +36223,21 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Trim away ALL visible fat completely before slicing lean meat into uniform thin strips (≤¼ inch thick)—fat does NOT dry and turns rancid quickly in storage.",
+        "text": "Use one tested jerky protocol. For the USDA FSIS method, heat meat to 160°F (71°C) and poultry to 165°F (74°C) before dehydrating, and confirm the temperature in several pieces with a food thermometer.",
         "claims": [
-          "P11",
-          "P18"
+          "P24"
         ]
       },
       {
-        "text": "Follow NCHFP's mandatory **pathogen-kill heating step** because standard 130–140°F dehydrator air is too cool to destroy E. coli and Salmonella reliably: EITHER heat meat strips in boiling marinade/brine BEFORE drying to an internal temperature of **160°F for red meat / 165°F for poultry** verified by thermometer, OR heat finished oven-baked/dehydrated strips in a 275°F oven for 10 minutes to reach 160°F/165°F internal temperature per Extension guidelines.",
+        "text": "Use controlled drying equipment at the temperature and conditions specified in that same procedure. Texture alone cannot demonstrate adequate initial heating.",
         "claims": [
-          "P11",
-          "F02"
+          "P24"
         ]
       },
       {
-        "text": "Dry pre-heated strips rapidly at 130–140°F+ until leathery (cracks when bent without snapping completely), blot any surface oil cleanly with paper towels, and store refrigerated or frozen for best safety/shelf life rather than assuming indefinite warm-room storage.",
+        "text": "Follow the same tested procedure for endpoint, packaging and storage. Avoid claiming room-temperature safety if an equipment or process condition cannot be verified.",
         "claims": [
-          "P11",
-          "P18"
+          "P24"
         ]
       }
     ],
@@ -36290,9 +36262,9 @@
       ]
     },
     "stop": {
-      "text": "Unheated raw-dried meat jerky, tacky damp centers, or oily rancid odor must be discarded cleanly.",
+      "text": "If you cannot verify the initial heating or the specified drying conditions, do not use the batch as shelf-stable food.",
       "claims": [
-        "P11"
+        "P24"
       ]
     },
     "diagram": "Trim ALL fat; uniform ≤¼-in strips | Heat to 160°F meat / 165°F poultry kill step | Dry 130–140°F+; store cool/frozen",
@@ -36474,9 +36446,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Check active ferments regularly during the multi-week cycle: healthy lacto-fermentation smells crisply sour/tangy with clear or slightly cloudy bubbling brine and firm crisp vegetables completely beneath the liquid line.",
+        "text": "Use the spoilage and storage criteria from the exact tested ferment. If mold, abnormal odor or texture, or process deviation raises doubt, stop and seek Extension advice. Never taste to check safety.",
         "claims": [
-          "P13"
+          "P13",
+          "P10"
         ]
       },
       {
@@ -36588,9 +36561,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "For formula-fed infants, stock **ready-to-feed liquid infant formula** (requires zero mixing water during water outages or Boil Water advisories!) alongside clean disposable nipples/bottles—if powdered formula is used during a water advisory, mix strictly with bottled or properly boiled-and-cooled safe water per CDC rules.",
+        "text": "Prefer ready-to-feed formula during outages, especially for infants under two months, born prematurely or with weakened immune systems. If only powder is available, follow current CDC and local instructions for the infant and water advisory. Powder is not sterile.",
         "claims": [
-          "P15",
+          "P26",
           "W29"
         ]
       },
@@ -37738,10 +37711,10 @@
         ]
       },
       {
-        "text": "Call 911 with your highway/milepost/GPS location, tie a bright cloth to the antenna or top of a rolled-up window, turn on the interior dome light at night when running briefly, and huddle occupants together under winter blankets/layers.",
+        "text": "When safely stranded outside, NWS describes running the engine for about ten minutes each hour if the tailpipe is clear and a window is open slightly. Check conditions first. Do not run with blocked exhaust or suspected CO.",
         "claims": [
-          "E14",
-          "T06"
+          "D19",
+          "C07"
         ]
       },
       {
@@ -37773,9 +37746,9 @@
       ]
     },
     "stop": {
-      "text": "Any exhaust odor, headache, drowsiness, or rapidly drifting snow sealing the undercarriage requires shutting off the engine immediately and relying on dry layered insulation.",
+      "text": "If the exhaust cannot be kept clear, do not run the engine. If CO is suspected, turn it off only if this does not delay reaching fresh air and contacting 911. Tell dispatch about any unsafe conditions outside the vehicle.",
       "claims": [
-        "E14",
+        "D19",
         "C07"
       ]
     },
@@ -37986,7 +37959,7 @@
         ]
       },
       {
-        "text": "If caught inside a vehicle with a tornado visibly approaching and NO sturdy building reachable: either drive smoothly at right angles away from the tornado path if traffic/roads allow, OR pull safely off the road, stay buckled inside the vehicle with head below window level covered by coats/arms, or lie flat in a low ditch ONLY if well lower than the road and free of flash-flood water (protecting head/neck).",
+        "text": "If the nearest sturdy shelter is unreachable, follow local warnings and use last-resort protection. NWS guidance distinguishes a belted vehicle with head below windows from a lower spot on foot only when it is safely reachable and free of flood danger. Do not try to judge the tornado’s course and race it.",
         "claims": [
           "D03",
           "E17"
@@ -38389,11 +38362,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Respect proven floodwater force thresholds: just **6 inches** of fast-moving water can knock a healthy adult off their feet, **12 inches** of rushing water floats and sweeps away most passenger cars, and **18 to 24 inches** carries away heavy SUVs and pickup trucks effortlessly.",
+        "text": "NWS depth examples illustrate how little moving water can knock people down or sweep away cars. They are warnings, not decision thresholds. Flooded roads can conceal damaged pavement or dangerous current.",
         "claims": [
           "D05",
-          "T07",
-          "N10"
+          "T16"
         ]
       },
       {
@@ -38432,10 +38404,10 @@
       ]
     },
     "stop": {
-      "text": "ANY water covering a roadway where pavement markings and roadbed stability cannot be verified is an automatic turnaround stop.",
+      "text": "Turn around at any flooded roadway or barricade. Use an official open route or wait on safe high ground.",
       "claims": [
         "D05",
-        "N10"
+        "T16"
       ]
     },
     "diagram": "6 in water knocks adult down | 12 in floats cars; 18–24 in sweeps trucks | NEVER bypass barricades -> Turn Around!",
@@ -38502,28 +38474,29 @@
   {
     "id": "Z15-P26",
     "zone": "Z15",
-    "title": "Escape a stalled or flooded vehicle safely without wading into swift current",
+    "title": "Avoid flooded roads and call for rescue if trapped in a vehicle",
     "origin": "NWS Flood Safety and Ready.gov Floods; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "If a vehicle stalls in rising water on a flooded road, act BEFORE water pressure pins car doors shut: **unbuckle, lower windows early** while battery power still operates, abandon the car ONLY if safe shallow non-rushing ground is immediately reachable—otherwise climb straight onto the **ROOF of the vehicle** and call 911 immediately rather than trying to wade through fast deep current.",
+        "text": "If floodwater is rising around a vehicle, call 911 as soon as you can without delaying immediate escape from a sinking vehicle. Give the location, occupants and water conditions.",
         "claims": [
           "D05",
-          "N10"
+          "T02"
         ]
       },
       {
-        "text": "If water rapidly rises inside a submerged vehicle and doors will not open against outside water pressure, exit through an open or broken **SIDE window** (never kick a laminated windshield—it will not shatter out cleanly; strike the corner of tempered side glass if a rescue tool is carried).",
+        "text": "If safe high ground is immediately accessible without entering moving water, move to it. Otherwise tell dispatch what exits and hazards you can see and follow rescue instructions. A stalled vehicle in fast current is a specialist-rescue situation.",
         "claims": [
           "D05",
-          "ED"
+          "T16"
         ]
       },
       {
-        "text": "Never stay trapped inside a sinking vehicle trying to restart a flooded engine or call a tow truck while water climbs past the floorboards.",
+        "text": "Never enter floodwater to follow another vehicle or save property. Do not depend on window glass type, vehicle stability or a predicted water depth.",
         "claims": [
-          "D05"
+          "D05",
+          "T16"
         ]
       }
     ],
@@ -38540,20 +38513,22 @@
       ]
     },
     "verify": {
-      "text": "Confirm vehicle occupants know never to drive into floodwater first, and if suddenly engulfed, exit windows early to high ground or vehicle roof + 911.",
+      "text": "Confirm the group knows the turnaround rule and how to report a trapped vehicle without entering the water as a bystander.",
       "claims": [
         "D05",
-        "N10"
+        "T16",
+        "ED"
       ]
     },
     "stop": {
-      "text": "Fast-moving chest-deep current around a trapped car prohibits wading—hold on the vehicle roof and summon swift-water 911 rescue.",
+      "text": "Rising or fast-moving water, structural uncertainty or a submerged route requires immediate emergency help.",
       "claims": [
-        "D05"
+        "D05",
+        "T02"
       ]
     },
-    "diagram": "Best cure: NEVER enter flooded roads | Stalled in rising water -> windows open NOW | Climb to high ground or roof + call 911",
-    "visual": "Four-step flooded-vehicle escape plate showing early turnaround prevention, immediate window opening, safe high-ground/roof climb, and 911 swift-water call. Conceptual, not to scale.",
+    "diagram": "Do not enter floodwater | If trapped, give 911 the exact location and conditions | Follow rescue instructions",
+    "visual": "Decision schematic showing prevention, reporting and emergency rescue. No vehicle exit mechanism is prescribed.",
     "reviewer": "Swift-water rescue and driver safety"
   },
   {
@@ -38752,10 +38727,9 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Follow official three-tier **Ready – Set – Go** wildfire posture: **READY** (year-round defensible space, go-bags, two routes mapped), **SET** (fire nearby/Advisory: load go-bags, prescriptions, IDs, and pets into the car parked FACING OUTWARD toward the road with full fuel tank, dress in cotton/wool long sleeves and sturdy boots, monitor alerts nonstop), and **GO** (mandatory/voluntary order: leave IMMEDIATELY!).",
+        "text": "Learn the evacuation terms your locality uses before fire season. Stage documents, medications, pets and an accessible route early. Leave promptly when directed, using official routes.",
         "claims": [
           "D08",
-          "C19",
           "D14"
         ]
       },
@@ -38813,11 +38787,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Drive with headlights ON (low beams in thick smoke), windows rolled tightly UP, and vehicle cabin air set strictly to **RECIRCULATE** (blocking outside smoke and embers from entering cabin vents), moving calmly with traffic flow along **official law-enforcement evacuation routes**.",
+        "text": "Leave early using official open routes. Follow responders’ guidance if smoke cuts visibility. Closed windows and recirculation may reduce particles briefly, but they do not make a vehicle safe in smoke, fire or carbon monoxide.",
         "claims": [
-          "D08",
-          "D14",
-          "D06"
+          "D06",
+          "D08"
         ]
       },
       {
@@ -38988,10 +38961,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Recognize the compound hazard trap: sealing windows tightly against smoke inside a home WITHOUT air conditioning causes indoor heat to climb to life-threatening heat-stroke levels within hours—**acute heat stroke kills much faster than brief moderate smoke exposure**.",
+        "text": "Closed windows may reduce smoke exposure while indoor heat increases. Check both conditions and look for cooled, cleaner-air shelter before a power or cooling failure occurs.",
         "claims": [
-          "D07",
-          "D09"
+          "D06",
+          "D20"
         ]
       },
       {
@@ -39003,10 +38976,10 @@
         ]
       },
       {
-        "text": "If using a window or portable air conditioner during smoke, verify it is set to **RECIRCULATE** indoor air (avoid single-hose portable AC units or evaporative swamp coolers that pull smokey outdoor air directly inside unless paired with HEPA filtration, and watch indoor thermometer continuously).",
+        "text": "Use recirculation when available and compatible with the cooling equipment. If the dwelling cannot stay cool and cleaner than outside, relocate when safe and follow local alerts.",
         "claims": [
           "D07",
-          "D09"
+          "D20"
         ]
       }
     ],
@@ -39031,14 +39004,13 @@
       ]
     },
     "stop": {
-      "text": "Dangerous indoor heat buildup overrides window-sealing rules—relocate immediately to an air-conditioned clean-air space or summon 911 for heat-illness symptoms.",
+      "text": "If confusion, collapse or other signs of heat stroke occur, call 911 and begin dispatcher-guided cooling. Otherwise move early to safely accessible cleaner, cooled shelter.",
       "claims": [
-        "D07",
-        "D09",
+        "D20",
         "T09"
       ]
     },
-    "diagram": "Smoke + no AC + heat wave = lethal trap | Heat stroke kills faster -> prioritize cooling | Relocate early to AC clean-air center",
+    "diagram": "Smoke and indoor heat both matter | Seek cool cleaner air before loss of protection | 911 and active cooling for heat-stroke signs",
     "visual": "Branch decision tree resolving simultaneous Unhealthy AQI smoke and extreme indoor heat between AC+HEPA recirculation and immediate cooling-center relocation. Conceptual, not to scale.",
     "reviewer": "Public health, indoor air quality, and heat-illness specialist"
   },
@@ -39227,22 +39199,22 @@
   {
     "id": "Z15-P38",
     "zone": "Z15",
-    "title": "Manage home cooling during extreme heat waves and recognize electric-fan limits",
+    "title": "Manage home cooling and follow the CDC indoor fan limit",
     "origin": "FEMA Extreme Heat and CDC Heat Health; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Understand the critical CDC/FEMA **electric fan limit**: electric fans move air to evaporate sweat in moderate heat, BUT when indoor air climbs into extreme heat ranges (above roughly **95°F**) with high humidity, blowing superheated air directly onto skin can actually **INCREASE** heat gain rather than cool the body—never rely on fans as your primary heat-wave defense!",
+        "text": "CDC recommends fans only when indoor temperatures are below 90°F (32°C). In hotter rooms, use a cooler location or air conditioning rather than relying on a fan for protection.",
         "claims": [
-          "D09",
-          "E08"
+          "D21"
         ]
       },
       {
-        "text": "During summer outages or non-AC heat waves, move to the coolest lowest shaded floor (such as a dry basement), block direct sunlight on south/west glass with curtains or reflective shades, take cool showers/baths or drape cool damp cloths across neck, wrists, and torso, and eat light no-cook meals.",
+        "text": "Choose the coolest safe location and use cool showers or wet cloths if available. Avoid a basement if flood, gas or utility hazards make it unsafe.",
         "claims": [
-          "D09",
-          "E19"
+          "D21",
+          "D05",
+          "U11"
         ]
       },
       {
@@ -39267,20 +39239,21 @@
       ]
     },
     "verify": {
-      "text": "Confirm real indoor temperature measured, fans NOT relied upon above ~95°F, cool-cloth/basement cooling used, and AC shelter plan active.",
+      "text": "Check indoor heat independently and confirm a reachable cooled alternative. Do not rely on a fan at 90°F or above.",
       "claims": [
-        "D09"
+        "D21",
+        "ED"
       ]
     },
     "stop": {
-      "text": "Indoor air climbing past safe comfort toward 90–95°F without AC requires moving vulnerable occupants immediately to public air-conditioned spaces.",
+      "text": "If you cannot keep vulnerable people cool, move early to a cooled safe location. Call 911 for confusion or collapse in heat.",
       "claims": [
-        "D09",
-        "U17"
+        "D21",
+        "T09"
       ]
     },
-    "diagram": "Fans FAIL to prevent heat stroke >~95°F | Block south/west sun; cool wet cloths/bath | Move vulnerable people to AC cooling center",
-    "visual": "Correct versus incorrect extreme-heat cooling contrasting cool basements, wet cloths, and AC cooling centers against relying on fans in >95°F indoor heat. Conceptual, not to scale.",
+    "diagram": "Monitor indoor heat | CDC fan advice applies below 90°F | Use safer cooled shelter if heat rises",
+    "visual": "Comparison of cooled shelter and the CDC indoor fan limit. The figure is not a clinical threshold.",
     "reviewer": "Heat-illness medicine and public health"
   },
   {
@@ -39418,17 +39391,17 @@
         ]
       },
       {
-        "text": "Start continuous rapid cooling IMMEDIATELY while awaiting the ambulance: immerse trunk/limbs in cold water if safely available (keeping airway supported above water), OR douse continuously with cold water and cold wet sheets/towels over neck, armpits, groin, and chest while fanning aggressively.",
+        "text": "Start cooling while help is on the way. Move to shade or a cooler place when safe and cool the skin with water and airflow. Discuss immersion with dispatch, particularly when airway protection, patient type or available help is uncertain.",
         "claims": [
           "T09",
-          "T05"
+          "M27"
         ]
       },
       {
-        "text": "Keep bystanders clear for airflow, do NOT force drinks into a confused or drowsy person's mouth, and follow live 911 dispatcher guidance until EMS transports the patient to an emergency department.",
+        "text": "Give nothing by mouth to a confused or drowsy person. Monitor breathing and follow 911 instructions until EMS arrives.",
         "claims": [
           "T09",
-          "M05"
+          "M27"
         ]
       }
     ],
@@ -39597,26 +39570,25 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Confirm the EXACT official advisory tier from your water utility or health department before touching tap water: **Boil Water** (microbial risk → clear water rolling boil 1 min; 3 min above 6,500 ft), **Do Not Drink** (chemical/algal risk → NEVER boil; bottled/supplied water ONLY), or **Do Not Use** (severe hazard → zero skin/bath/dish/drinking contact).",
-        "claims": [
-          "D12",
-          "W07",
-          "W02"
-        ]
-      },
-      {
-        "text": "Immediately switch OFF automatic refrigerator icemakers and water dispensers, dump suspect ice, use safe bottled/boiled-and-cooled water for brushing teeth, washing ready-to-eat produce, and mixing infant formula, and rely on disposable plates to stretch drinking reserves.",
-        "claims": [
-          "D12",
-          "W29",
-          "U13"
-        ]
-      },
-      {
-        "text": "Wait for formal laboratory-tested utility clearance before flushing cold taps, replacing exposed inline carbon filters, and restoring normal tap use.",
+        "text": "Read the exact active water advisory. Be clear whether it directs a Boil Water, Do Not Drink or Do Not Use response. Confirm which activities the local order permits.",
         "claims": [
           "D12",
           "W07"
+        ]
+      },
+      {
+        "text": "Follow the active advisory for icemakers, brushing teeth, preparing food and infant feeding. Use an approved alternative supply when required. Boiling is an option only for a microbial advisory and only as directed.",
+        "claims": [
+          "D12",
+          "W01",
+          "W07"
+        ]
+      },
+      {
+        "text": "Wait for the local authority to lift the advisory and follow its flushing, appliance and filter directions.",
+        "claims": [
+          "D12",
+          "W21"
         ]
       }
     ],
@@ -39846,24 +39818,23 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Move EVERY person and pet indoors IMMEDIATELY on a hazmat Shelter-in-Place alert, close and lock ALL exterior doors and windows, and **SHUT OFF ALL HVAC SYSTEMS, FURNACES, AIR CONDITIONERS, BATHROOM/KITCHEN EXHAUST FANS, AND FIREPLACE DAMPERS** so mechanical fans do NOT suck outside chemical vapors indoors.",
+        "text": "When local officials direct chemical shelter-in-place, go indoors and follow their directions for windows, doors and shutting off outside-air systems. Keep an alert channel active.",
         "claims": [
-          "D15",
-          "E24"
+          "D15"
         ]
       },
       {
-        "text": "Move to an interior room (preferably ABOVE ground level, because many heavy industrial gases like chlorine or anhydrous ammonia sink into basements and low spots!), and seal door/window/vent gaps temporarily with plastic sheeting and duct tape **ONLY when local authorities specifically instruct sealing**.",
+        "text": "Use the interior room and temporary sealing measures specified by authorities. Room location depends on the release, building and local instructions. Do not infer a safe floor from the chemical name or odor.",
         "claims": [
-          "D15",
-          "E24"
+          "D15"
         ]
       },
       {
-        "text": "Monitor official emergency broadcasts continuously and **UNSEAL AND VENTILATE PROMPTLY** the moment officials announce the all-clear—short-term sealed rooms build up carbon dioxide over hours and are strictly temporary (typically a few hours, NOT multi-day living!).",
+        "text": "Stay alert for changes. Follow official all-clear instructions on when to leave, ventilate or evacuate. A gas leak or carbon monoxide alarm inside the dwelling calls for getting out and calling 911 from safety.",
         "claims": [
           "D15",
-          "E24"
+          "U11",
+          "C07"
         ]
       }
     ],
@@ -39872,7 +39843,7 @@
     "technical_review": "AI editorial check; qualified reviewer pending",
     "objective": "Keep acute toxic rail, highway, or industrial chemical vapors outside living air during short-duration official Shelter-in-Place orders.",
     "applies": "Train derailments, highway tanker spills, anhydrous-ammonia releases, or chemical plant incidents where officials issue an indoor Shelter-in-Place order.",
-    "equipment": "Interior windowless/minimal-window room, HVAC/fan shutoff access, pre-cut plastic sheeting + duct tape (ONLY when officially directed), and NOAA/local radio.",
+    "equipment": "A reliable local alert channel and the shelter-in-place supplies recommended by local authorities.",
     "failure": {
       "text": "Leaving central air conditioning or bathroom exhaust fans running during a nearby rail-tanker ammonia leak, pulling toxic vapors straight through wall leaks.",
       "claims": [
@@ -39886,14 +39857,15 @@
       ]
     },
     "stop": {
-      "text": "Strong chemical odor, burning eyes/throat inside a sealed room, or an official upgrade to Evacuation requires immediate action per fire/hazmat responders and 911.",
+      "text": "An official evacuation order, fire or internal gas or CO hazard overrides a generic stay-put rule. Use the safest available exit and follow dispatch.",
       "claims": [
         "D15",
-        "M15"
+        "U11",
+        "C07"
       ]
     },
-    "diagram": "Move in NOW; lock ALL doors & windows | Shut OFF HVAC, fans & vents (zero intake) | Above-ground room; unseal fast on all-clear",
-    "visual": "System boundary hazmat cutaway showing locked exterior envelope, HVAC/exhaust fans switched OFF, above-ground interior refuge, and heavy-gas basement avoidance. Conceptual, not to scale.",
+    "diagram": "Follow official shelter or evacuation instructions | Use the directed room and ventilation steps | Follow all-clear or revised order",
+    "visual": "External chemical release decision schematic. Room, duration and ventilation depend on official direction.",
     "reviewer": "Hazardous-materials response and emergency management"
   },
   {
@@ -39904,19 +39876,19 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Match indoor air defense strictly to the hazard: for **wildfire smoke** (multi-day PM2.5 particles), keep windows closed with HVAC on RECIRCULATE and a non-ozone portable **HEPA air cleaner** running (relocating to AC if heat spikes); for an **outdoor chemical/hazmat plume** (short-term gas/vapor), switch **ALL HVAC and exhaust fans OFF** and seal an above-ground room ONLY per official order (HEPA does NOT stop toxic gases!).",
+        "text": "For wildfire particles use cleaner indoor air and filtered recirculation if the building can stay cool. Relocate early if it cannot. For an external chemical release follow specific directions on room and ventilation controls.",
         "claims": [
           "D07",
-          "D06",
-          "D15"
+          "D15",
+          "D20"
         ]
       },
       {
-        "text": "Contrast both with **INDOOR gas leak, carbon monoxide alarm, or advancing flames**, where staying inside is LETHAL—evacuate IMMEDIATELY into clean open outdoor air and move upwind/away.",
+        "text": "HEPA filters remove particles. They do not make a room safe from all chemicals or carbon monoxide. Follow emergency directions rather than substituting one shelter method for another.",
         "claims": [
-          "U11",
-          "C07",
-          "D08"
+          "D07",
+          "D15",
+          "C07"
         ]
       },
       {
@@ -40115,7 +40087,7 @@
     "technical_review": "AI editorial check; qualified reviewer pending",
     "objective": "Ensure no child, older adult, or companion is overlooked during chaotic evacuations or separated without a clear reunification plan.",
     "applies": "Families, multi-generational households, community groups, and workplaces during disasters.",
-    "equipment": "Written household headcount/buddy list, school/daycare emergency cards, and Red Cross Safe & Well / out-of-area relay contact.",
+    "equipment": "Written household headcount and buddy list, school/daycare emergency cards, and the locally designated reunification contact.",
     "failure": {
       "text": "Two parents assuming the other checked the basement bedroom for a sleeping teenager during a hurried midnight gas-leak evacuation.",
       "claims": [
@@ -40150,10 +40122,10 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Check in formally at the shelter registration desk upon arrival AND update your status through official channels (such as Red Cross Safe & Well and your out-of-area family relay) so anxious relatives and SAR teams know you are safe.",
+        "text": "Check in through the shelter’s locally designated process and let your out-of-area contact know where you are if safe. Ask staff about accessibility and reunification support.",
         "claims": [
           "D14",
-          "T11"
+          "T10"
         ]
       },
       {
@@ -40694,12 +40666,13 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Commit in advance to FIVE objective red lines where staying home STOPS immediately: **1)** acute medical red flag, worsening chronic illness, or under 48 hours of critical prescriptions/medical power; **2)** uncontrolled indoor freezing cold or extreme >90–95°F un-cooled heat; **3)** persistent CO alarm, gas leak, structural damage, or sewage/hazmat hazard; **4)** drinking water under 48 hours with zero safe resupply; **5)** official mandatory evacuation order.",
+        "text": "Recognize immediate exit or emergency triggers: serious illness, fire, a suspected internal gas leak, a CO alarm, or an official evacuation order. Contact 911 from safety. For dwindling medication or medical power, use a reserve margin set with the clinician or equipment provider and seek help early.",
         "claims": [
-          "U17",
-          "D18",
           "D14",
-          "T10"
+          "U17",
+          "U11",
+          "C07",
+          "T02"
         ]
       },
       {
