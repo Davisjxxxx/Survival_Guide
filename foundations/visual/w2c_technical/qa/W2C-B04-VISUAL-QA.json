@@ -1,0 +1,95 @@
+{
+  "batch": "W2C-B04",
+  "pages": [
+    "Z15-P18",
+    "Z15-P22",
+    "Z15-P02",
+    "Z15-P23"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z15-P18": [],
+    "Z15-P22": [],
+    "Z15-P02": [],
+    "Z15-P23": []
+  },
+  "axe_incomplete": {
+    "Z15-P18": [],
+    "Z15-P22": [],
+    "Z15-P02": [],
+    "Z15-P23": []
+  },
+  "figure_alt": {
+    "Z15-P18": "Floor plan of a large public building. A large open room such as a cafeteria, gymnasium, auditorium or sales floor and the glass storefront are marked as places to leave. Arrows lead people to the designated shelter location or an interior room on the lowest floor away from windows. A side panel shows that vehicles are not safe, so people stay inside rather than go to the parking lot. Conceptual plan, not to scale.",
+    "Z15-P22": "Left: an outdoor warning siren on a pole sends sound to a person outside; sirens are designed only to alert people who are outdoors. The sound reaching a closed house is not designed to wake people inside. Inside the bedroom, a battery-backed NOAA Weather Radio on the nightstand and a phone with emergency alerts turned on sound the warning beside the sleeper. Conceptual, not to scale.",
+    "Z15-P02": "Map of a block of counties. A watch covers a broad multi-county area where conditions are favorable for dangerous weather. A storm-based warning is a polygon drawn around the storm's threat path, not county lines, and includes a town ahead of the storm, where the hazard is imminent or occurring. A side panel pairs each tier with its household action. Conceptual map, not to scale.",
+    "Z15-P23": "Two schematic water-level curves. Left: a flash flood rises rapidly over low-lying areas, generally within about six hours of the cause, and can strike where it is not raining. Right: a river flood comes as the river overtops its banks after upstream rain or snowmelt; the curve is schematic with no time scale, and river forecasts give the expected crest. A note covers ice jams and dam or levee failures, which can release a sudden flood with little warning. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B04/W2C-B04-letter.pdf": {
+      "inspection": {
+        "sheets": 4,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 4,
+        "bookmarks": 4,
+        "extracted_section_order": true
+      },
+      "sha256": "f95040bc27a6c1df3d4634449433c52626b724bd53dddc541459399e86afbe05"
+    },
+    "visual/w2c_context/W2C-B04/W2C-B04-a4.pdf": {
+      "inspection": {
+        "sheets": 4,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 4,
+        "bookmarks": 4,
+        "extracted_section_order": true
+      },
+      "sha256": "a832cf5e66c128b2946322b8b1b8fc15680fd61eb84dd5d74f8a73b3ec2bb6cc"
+    },
+    "visual/w2c_context/W2C-B04/W2C-B04-compare.jpg": {
+      "sha256": "aa1ad21a047e56f2c1d26f6222e7519ebc54d5d967967e45a1a0d0afc2ce43e1",
+      "size": [
+        1230,
+        1194
+      ]
+    },
+    "visual/w2c_context/W2C-B04/W2C-B04-compare-gray.jpg": {
+      "sha256": "2c8ae41e445b1e9456dbf5b0777253700fd0c8a7198295cd3d5a21b109dc907a",
+      "size": [
+        1230,
+        1194
+      ]
+    },
+    "visual/w2c_context/W2C-B04/W2C-B04-phone.jpg": {
+      "sha256": "572cc3b4926a6c74321c7ac392648229545e5a35953aae66e029b92956a9b4f9",
+      "size": [
+        1482,
+        942
+      ]
+    },
+    "visual/w2c_context/W2C-B04/W2C-B04-desktop.jpg": {
+      "sha256": "e58e05d14adc8429a63eef8fb77ffde3c11c43ae2e4c32799186240efe76235a",
+      "size": [
+        1310,
+        1348
+      ]
+    },
+    "visual/w2c_context/W2C-B04/W2C-B04-print.jpg": {
+      "sha256": "ef616a3a8b53260efa854a3c719f1e1b223f0710cb15e5367060fa56f44c3a25",
+      "size": [
+        1570,
+        1120
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

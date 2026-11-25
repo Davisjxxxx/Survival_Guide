@@ -6448,25 +6448,7 @@
     "callout": "Layer ≥3 independent warning channels + printed local radio/agency sheet"
   },
   "Z15-P02": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · WATCH",
-        "scope": "Conditions favorable",
-        "action": "Stage fuel/gear, charge cells, monitor live"
-      },
-      {
-        "role": "2 · WARNING",
-        "scope": "Imminent/occurring",
-        "action": "Take immediate shelter or high ground NOW"
-      },
-      {
-        "role": "3 · EMERGENCY",
-        "scope": "Extreme rare tier",
-        "action": "Maximum shelter or mandatory instant exit"
-      }
-    ],
-    "trigger": "NEVER wait to see a funnel cloud, flood wall or flames after a Warning"
+    "type": "w2c_artwork"
   },
   "Z15-P04": {
     "type": "seasonal_timeline",
@@ -6681,16 +6663,7 @@
     "reason": "If trapped in a car with no building -> buckle low below windows & cover head"
   },
   "Z15-P18": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Wide-span retail/gym roof & glass (EXIT)",
-      "Interior concrete-block restroom / stairwell",
-      "Crouch low facing wall; cover head & neck"
-    ],
-    "callout": "Skip parking lot dash",
-    "accent": "#dce8df",
-    "hazard": "Stay clear of tall stock racks"
+    "type": "w2c_artwork"
   },
   "Z15-P19": {
     "type": "sequence_plate",
@@ -6754,35 +6727,10 @@
     "cue": "Never use matches/lighters or enter collapsed structures after windstorms"
   },
   "Z15-P22": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "OUTDOOR SIRENS\nMuffled by double-pane glass & AC",
-    "barrier": "INSULATED WALL\nUnreliable indoors",
-    "zone_b": "BEDROOM ALERTS\nBattery NOAA SAME + Phone WEA ON",
-    "hazard": "Keep shoes & flashlight beside the bed on evening Tornado Watch nights"
+    "type": "w2c_artwork"
   },
   "Z15-P23": {
-    "type": "seasonal_timeline",
-    "variant": "storm_lead",
-    "phases": [
-      {
-        "window": "River Flood",
-        "focus": "Days lead -> move IDs/chems & evac early"
-      },
-      {
-        "window": "Flash Watch",
-        "focus": "Heavy rain/ice jam -> map high routes"
-      },
-      {
-        "window": "Flash Warning",
-        "focus": "Minutes -> move to high ground NOW"
-      },
-      {
-        "window": "Dam / Levee",
-        "focus": "Instant evacuation order — zero delay"
-      }
-    ],
-    "threshold": "Never wait to see water rise outside before acting on Flash Flood Warnings"
+    "type": "w2c_artwork"
   },
   "Z15-P24": {
     "type": "cutaway",

@@ -1,13 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Protect yourself during Tornado Warnings in stores, schools, or workplaces</title>
-  <desc id="desc">CUTAWAY VIEW: Exit wide-span floors, gyms &amp; glass doors | Move to interior masonry restrooms/halls | Crouch low; protect head; stay off parking lot — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z15-P18 · CUTAWAY VIEW (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="cutaway-artwork"><path d="M40 142h640" stroke="#7d8a68" stroke-width="6"/><path d="M135 140L360 44l225 96" fill="#d9e4d7" stroke="#285345" stroke-width="5"/><path d="M185 140L360 64l175 76" fill="#f7f4ea" stroke="#5c7c6d" stroke-width="2.5" stroke-dasharray="6 4"/><rect x="242" y="114" width="236" height="22" rx="6" fill="#dce8df" stroke="#285345" stroke-width="2"/><path d="M62 82h66m470 0h66" stroke="#507f92" stroke-width="4" marker-end="url(#arrow)"/><text x="360" y="58" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Wide-span retail/gym roof &amp; glass (EXIT)</text><text x="360" y="96" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Interior concrete-block restroom / stairwell</text><text x="360" y="130" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Crouch low facing wall; cover head &amp; neck</text><text x="605" y="68" font-size="11" font-weight="650" fill="#8b3e1f" text-anchor="middle">Skip parking lot dash</text><rect x="492" y="130" width="204" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="594" y="144" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">Stay clear of tall stock racks</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Exit wide-span floors,</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">gyms &amp; glass doors</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Move to interior masonry</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">restrooms/halls</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Crouch low; protect</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">head; stay off parking</text><text x="498" y="218" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">lot</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Tornado warning shelter inside a store, school or workplace</title>
+<desc id="desc">Floor plan of a large public building. A large open room such as a cafeteria, gymnasium, auditorium or sales floor and the glass storefront are marked as places to leave. Arrows lead people to the designated shelter location or an interior room on the lowest floor away from windows. A side panel shows that vehicles are not safe, so people stay inside rather than go to the parking lot. Conceptual plan, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z15-P18 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z15-p18-artwork">
+<rect x="40" y="70" width="480" height="236" fill="#f6f3ea" stroke="#183a30" stroke-width="3"/>
+<rect x="40" y="70" width="270" height="236" fill="#ece5d2" stroke="#183a30" stroke-width="2"/>
+<path d="M60 306h230" stroke="#7fb4c9" stroke-width="8"/>
+<path d="M64 302v8" stroke="#183a30" stroke-width="1.4"/>
+<path d="M104 302v8" stroke="#183a30" stroke-width="1.4"/>
+<path d="M144 302v8" stroke="#183a30" stroke-width="1.4"/>
+<path d="M184 302v8" stroke="#183a30" stroke-width="1.4"/>
+<path d="M224 302v8" stroke="#183a30" stroke-width="1.4"/>
+<path d="M264 302v8" stroke="#183a30" stroke-width="1.4"/>
+<circle cx="175" cy="150" r="15" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M168.2 143.2L181.8 156.8M181.8 143.2L168.2 156.8" stroke="#8b3825" stroke-width="3"/>
+<circle cx="175" cy="288" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M170.1 283.1L179.9 292.9M179.9 283.1L170.1 292.9" stroke="#8b3825" stroke-width="3"/>
+<text x="64" y="104" class="tiny">large open room: cafeteria,</text>
+<text x="64" y="125" class="tiny">gym, auditorium, sales floor</text>
+<text x="64" y="334" class="tiny">glass storefront and windows</text>
+<rect x="350" y="120" width="140" height="136" fill="#dfeadf" stroke="#205b68" stroke-width="3"/><path d="M350 188h140M420 120v68" stroke="#205b68" stroke-width="2"/>
+<text x="358" y="142" class="tiny">restrooms</text>
+<text x="358" y="214" class="tiny">interior hallway</text>
+<circle cx="470" cy="236" r="12" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M464 236L468.8 241L476.2 231.2" fill="none" stroke="#205b68" stroke-width="3"/>
+<circle cx="372" cy="221.7" r="3.7" fill="#4d6a78"/><path d="M367.6 226.2h8.8l1 13.6h-2.7l-.0 12.2h-2.4l-0.7-10.2l-0.7 10.2h-2.4v-12.2h-2.7z" fill="#4d6a78"/>
+<circle cx="396" cy="225.3" r="3.3" fill="#4d6a78"/><path d="M392.1 229.2h7.8l0.9 12h-2.4l-.0 10.8h-2.1l-0.6-9l-0.6 9h-2.1v-10.8h-2.4z" fill="#4d6a78"/>
+<circle cx="452" cy="221.7" r="3.7" fill="#4d6a78"/><path d="M447.6 226.2h8.8l1 13.6h-2.7l-.0 12.2h-2.4l-0.7-10.2l-0.7 10.2h-2.4v-12.2h-2.7z" fill="#4d6a78"/>
+<path d="M230 170C280 170 300 164 342 160" fill="none" stroke="#205b68" stroke-width="3.4" marker-end="url(#m-flow)"/>
+<path d="M230 230C280 230 300 224 342 220" fill="none" stroke="#205b68" stroke-width="3.4" marker-end="url(#m-flow)"/>
+<text x="336" y="278" class="tiny">designated shelter or</text>
+<text x="336" y="299" class="tiny">lowest interior room</text>
+<rect x="540" y="46" width="336" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="556" y="72" class="head warn">✕ DO NOT GO OUT TO THE CAR</text>
+<path d="M572 250h96l-12-30h-72z" fill="#9aa1a5" stroke="#183a30" stroke-width="2"/><rect x="562" y="250" width="116" height="26" rx="6" fill="#b9c0c4" stroke="#183a30" stroke-width="2"/><circle cx="586" cy="280" r="10" fill="#183a30"/><circle cx="654" cy="280" r="10" fill="#183a30"/>
+<circle cx="620" cy="200" r="15" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M613.2 193.2L626.8 206.8M626.8 193.2L613.2 206.8" stroke="#8b3825" stroke-width="3"/>
+<text x="700" y="216" class="tiny">vehicles are</text>
+<text x="700" y="237" class="tiny">not safe in a</text>
+<text x="700" y="258" class="tiny">tornado</text>
+<text x="560" y="104" class="tiny">follow the building drill to</text>
+<text x="560" y="125" class="tiny">the shelter location; stay</text>
+<text x="560" y="146" class="tiny">away from windows</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Stay in the shelter until staff or officials say the warning has passed.</text>
+</g>
 </svg>

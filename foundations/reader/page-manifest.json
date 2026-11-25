@@ -53923,6 +53923,7 @@
       {
         "text": "Treat a **WATCH** (conditions are favorable for dangerous weather to develop across the area) as your **PREPARE & STAGE** trigger: finish fuel/supply staging, charge batteries, monitor live updates closely, cancel exposed outdoor travel, and verify shelter readiness.",
         "claims": [
+          "D24",
           "T16",
           "D03",
           "D01"
@@ -53931,6 +53932,8 @@
       {
         "text": "Treat a **WARNING** (hazardous weather or flooding is imminent or ALREADY OCCURRING in your warned polygon) as your **ACT IMMEDIATELY** trigger: move straight to lowest interior shelter (tornado), high ground (flash flood), or off roads (blizzard) without waiting to look outside.",
         "claims": [
+          "D24",
+          "D25",
           "T16",
           "D03",
           "D05"
@@ -53973,8 +53976,8 @@
         "D08"
       ]
     },
-    "diagram": "WATCH = conditions favorable -> prepare | WARNING = imminent/occurring -> act NOW | EMERGENCY = extreme threat -> max shelter",
-    "visual": "Three-tier NWS alert escalation ladder differentiating Watch preparation, Warning immediate shelter/evacuation, and rare Emergency life-threat escalations. Conceptual, not to scale.",
+    "diagram": "WATCH = conditions favorable -> prepare | WARNING = imminent/occurring -> act NOW | Warning polygon follows the threat, not county lines",
+    "visual": "County map with a broad watch area and a storm-based warning polygon around the threat path and a town ahead of the storm, with each tier's household action. Conceptual map, not to scale.",
     "reviewer": "Meteorology and emergency management"
   },
   {
@@ -54881,12 +54884,14 @@
       {
         "text": "Move immediately AWAY from wide-span unsupported roofs (big-box retail floors, auditoriums, cafeterias, gymnasiums, and atrium lobbies) and tall glass storefronts—wide-span roofs are the first structural elements to lift and collapse in violent winds.",
         "claims": [
+          "D22",
           "D03"
         ]
       },
       {
         "text": "Follow staff promptly to designated Severe Weather Shelter areas, basement levels, or sturdy interior small-span rooms (interior concrete-block restrooms, windowless interior stairwells, or central reinforced hallways away from heavy overhead stock racks).",
         "claims": [
+          "D22",
           "D03"
         ]
       },
@@ -54912,17 +54917,19 @@
     "verify": {
       "text": "Confirm public-building shelter avoids wide-span roofs, glass doors, and heavy high shelving, prioritizing small interior masonry rooms.",
       "claims": [
+        "D22",
         "D03"
       ]
     },
     "stop": {
       "text": "Never step outside into active wind/hail to move a parked car during a Tornado Warning.",
       "claims": [
+        "D22",
         "D03"
       ]
     },
     "diagram": "Exit wide-span floors, gyms & glass doors | Move to interior masonry restrooms/halls | Crouch low; protect head; stay off parking lot",
-    "visual": "Cutaway public building plan contrasting hazardous wide-span retail/gym roof and glass walls against sturdy interior masonry restroom/corridor shelter. Conceptual, not to scale.",
+    "visual": "Floor plan of a large public building: leave large open rooms and the glass storefront for the designated shelter or an interior room on the lowest floor; vehicles are not safe. Conceptual, not to scale.",
     "reviewer": "Emergency management and structural safety"
   },
   {
@@ -55118,6 +55125,7 @@
       {
         "text": "Understand explicitly that municipal **outdoor warning sirens** are engineered ONLY to alert people who are OUTDOORS—modern double-pane windows, air conditioners, heavy rain, wind roar, and rural distances routinely make sirens completely inaudible inside sleeping bedrooms.",
         "claims": [
+          "D23",
           "D03",
           "T14"
         ]
@@ -55125,6 +55133,7 @@
       {
         "text": "Place a loud battery-backed **NOAA Weather Radio** programmed with your county SAME code inside your bedroom AND verify smartphone **Wireless Emergency Alerts (WEA)** remain turned ON and allowed to sound through nighttime Do-Not-Disturb settings.",
         "claims": [
+          "D23",
           "T15",
           "D01",
           "D03"
@@ -55165,7 +55174,7 @@
       ]
     },
     "diagram": "Outdoor sirens are NOT indoor wake alarms | Bedside NOAA SAME radio + phone WEA ON | Stage shoes & flashlight by bed on Watch nights",
-    "visual": "System boundary diagram contrasting muffled outdoor siren sound stopped by insulated bedroom walls against loud bedside NOAA SAME and WEA alerts. Conceptual, not to scale.",
+    "visual": "An outdoor siren reaching a person outside but not designed to wake people inside, beside a bedside NOAA Weather Radio and phone alerts sounding in the bedroom. Conceptual, not to scale.",
     "reviewer": "Meteorology and emergency communications"
   },
   {
@@ -55178,6 +55187,7 @@
       {
         "text": "Distinguish **river/snowmelt flooding** (builds over hours to days with predictable crest forecasts—allowing early document/vehicle moving, utility prep, and orderly evacuation) from **Flash Flooding** (erupts within minutes from intense rainstorms, clogged urban drains, ice jams, or dam/levee failures with violent wall-of-water surges).",
         "claims": [
+          "D26",
           "D05",
           "T16",
           "E04"
@@ -55186,6 +55196,8 @@
       {
         "text": "Act IMMEDIATELY on a **Flash Flood Warning** or **Flash Flood Emergency**: move straight to verified higher ground on foot or along open high roads BEFORE low streets, underpasses, and creek bridges vanish underwater.",
         "claims": [
+          "D24",
+          "D26",
           "D05",
           "T16"
         ]
@@ -55225,7 +55237,7 @@
       ]
     },
     "diagram": "River flood: days lead -> prep & evac early | Flash flood: minutes -> move high NOW | Dam/levee order -> instant high-ground exit",
-    "visual": "Comparative flood-mechanism timeline contrasting multi-day snowmelt/river crests against sudden minutes-scale flash floods and dam-failure surges. Conceptual, not to scale.",
+    "visual": "Schematic water-level curves: a flash flood rising rapidly within about 6 hours of its cause beside a slower river flood toward a forecast crest, with the ice jam and dam or levee warning. Conceptual, not to scale.",
     "reviewer": "Flood hydrology and emergency management"
   },
   {
