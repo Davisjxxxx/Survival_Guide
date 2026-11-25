@@ -1,0 +1,44 @@
+[
+  {
+    "page_id": "Z09-P14",
+    "batch": "W2C-B01",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z09-P14.svg",
+    "predecessor_sha256": "f20502f585997b652d8e5c592326fefe8b08d392c92331c432c2ae169109e8f4",
+    "revised": "revised/Z09-P14.svg",
+    "revised_sha256": "548738ef2deae509d5f2772227d6b5f8211ecc1f5d221c6c4a430fd402ae168a",
+    "active_reader_sha256": "548738ef2deae509d5f2772227d6b5f8211ecc1f5d221c6c4a430fd402ae168a",
+    "supersedes_a04_candidate_sha256": "f20502f585997b652d8e5c592326fefe8b08d392c92331c432c2ae169109e8f4",
+    "builder": "scripts/build_w2c_knots.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z09-P15",
+    "batch": "W2C-B01",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z09-P15.svg",
+    "predecessor_sha256": "9ef3cd0a52dcae8f6b5af2c6d7d4aa55f4056886b20a41bba4459f4b29a159c1",
+    "revised": "revised/Z09-P15.svg",
+    "revised_sha256": "fd9b1ca578ab145e3f6cc3eefad0616e7742fbebfacfdcfdbcd93e6f61358fe9",
+    "active_reader_sha256": "fd9b1ca578ab145e3f6cc3eefad0616e7742fbebfacfdcfdbcd93e6f61358fe9",
+    "supersedes_a04_candidate_sha256": "9ef3cd0a52dcae8f6b5af2c6d7d4aa55f4056886b20a41bba4459f4b29a159c1",
+    "builder": "scripts/build_w2c_knots.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z11-R05",
+    "batch": "W2C-B01",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z11-R05.svg",
+    "predecessor_sha256": "f3c3853d693c92430eb0da4853fbc2ffae5025f4ece0b0a912f28a44dab71f18",
+    "revised": "revised/Z11-R05.svg",
+    "revised_sha256": "a6b8995c6312a893ca953099bbdd66fdf394a37dcc2495747f012e0f4836a1d4",
+    "active_reader_sha256": "a6b8995c6312a893ca953099bbdd66fdf394a37dcc2495747f012e0f4836a1d4",
+    "supersedes_a04_candidate_sha256": "f3c3853d693c92430eb0da4853fbc2ffae5025f4ece0b0a912f28a44dab71f18",
+    "builder": "scripts/build_w2c_navigation.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  }
+]

@@ -43,7 +43,17 @@ class CompactRoutes(HTMLParser):
             self.links.setdefault(self.id, set()).add(props['href'])
 
 
+def w2c_supersessions():
+    """W2C records that replace an A04 candidate returned for reconstruction."""
+    path = VISUAL / 'w2c_technical/MANIFEST.json'
+    if not path.is_file():
+        return {}
+    return {r['page_id']: r for r in json.loads(path.read_text(encoding='utf-8'))
+            if r.get('supersedes_a04_candidate_sha256')}
+
+
 def check_plates():
+    supersessions = w2c_supersessions()
     records = rows('V01_V02_VISUAL_QUALIFICATION.csv')
     require(Counter(r['series'] for r in records) == {'V01': 9, 'V02': 64}, 'Review plate count drift')
     require(len({row['page_id'] for row in records}) == 73, 'Duplicate or missing review plate')
@@ -55,8 +65,22 @@ def check_plates():
         prior = COMPARISON / 'incoming' / name
         require(preserved.read_bytes() == original(preserved) and digest(preserved) == r['predecessor_sha256'],
                 f'Predecessor custody failure: {name}')
-        require(digest(source) == digest(active) == r['candidate_sha256'] and r['publication'] == 'HOLD',
-                f'Edited figure or publication drift: {name}')
+        superseded = supersessions.get(r['page_id'])
+        if superseded:
+            # A04 custody still applies: the A04 candidate stays byte-identical in place. Only a plate A04
+            # returned for reconstruction may show a different active figure, and only through a W2C record
+            # whose hashes chain the A04 candidate to the W2C predecessor, revision and active reader figure.
+            w2c = VISUAL / 'w2c_technical'
+            require(r['disposition'] == 'RECONSTRUCTION_REQUIRED'
+                    and superseded['supersedes_a04_candidate_sha256'] == r['candidate_sha256']
+                    and digest(source) == r['candidate_sha256']
+                    and digest(w2c / superseded['predecessor']) == superseded['predecessor_sha256'] == r['candidate_sha256']
+                    and digest(w2c / superseded['revised']) == superseded['revised_sha256'] == digest(active)
+                    and r['publication'] == superseded['publication'] == 'HOLD',
+                    f'W2C supersession custody failure: {name}')
+        else:
+            require(digest(source) == digest(active) == r['candidate_sha256'] and r['publication'] == 'HOLD',
+                    f'Edited figure or publication drift: {name}')
         require((prior.read_bytes() if prior.is_file() else source.read_bytes()) == original(source)
                 and digest(prior if prior.is_file() else source) == r['incoming'], f'PR #9 figure custody: {name}')
     returned = {r['page_id'] for r in records if r['disposition'] == 'RECONSTRUCTION_REQUIRED'}
@@ -128,7 +152,8 @@ def main():
     check_plates()
     check_evidence_and_media()
     check_atlas()
-    print('PASS: 73 plate comparisons, 40 photographic assets, focused evidence, and unpromoted atlas custody')
+    print(f'PASS: 73 plate comparisons ({len(w2c_supersessions())} returned plates superseded through W2C custody), '
+          '40 photographic assets, focused evidence, and unpromoted atlas custody')
 
 
 if __name__ == '__main__':

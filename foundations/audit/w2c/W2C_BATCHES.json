@@ -1,0 +1,51 @@
+{
+  "run": "Opus Wave 2C+ production continuation",
+  "branch": "review/opus-wave-2c-production-20261125",
+  "checkpoint": "500f11ea28acead942fc0d89d9420e135f2d5316",
+  "publication": "HOLD",
+  "batches": [
+    {
+      "batch": "W2C-B01",
+      "theme": "Returned A04 reconstructions: cordage topology and compass-to-map relationship",
+      "relationship": "Rope crossing order (over/under) that defines each knot; baseplate, dial, needle and neat line in one ground frame",
+      "plates": [
+        {
+          "page_id": "Z09-P14",
+          "returned_reason": "A04: drawn cord crossing and terminal dot did not establish a dressed bowline; sketch withdrawn.",
+          "physical_relationship": "Loose bowline: overhand loop with the working side on top, end up through the loop, behind the standing part and back down; tail and overhand stopper inside the fixed loop; short-tail failure view.",
+          "source_basis": "K14 FM 3-97.61 (Aug 2002) 4-12 Bowline tying steps and checkpoints, pages 4-13 to 4-14; independent standard-bowline crossing diagram (Wikimedia Commons File:Bowline (standard).svg, CC BY-SA 3.0) used only to cross-check crossing order; card tying sequence.",
+          "construction": "Computed by scripts/build_w2c_knots.py from a depth model rendered by scripts/w2c_rope.py.",
+          "geometry_validation": "qa/KNOT_TOPOLOGY.json: bowline core crossing order equals the reference sequence O1 U2 U3 O4 O5 U6 O2 U7 U5 O6 U1 O7 O3 U4; stopper is an alternating three-crossing overhand (isolated determinant 3); tail end inside the fixed loop (FM checkpoint 2); minimum depth gap 1.8, minimum crossing angle 45 degrees; failure view keeps the same core.",
+          "inspection": "Inspected at 900, 390 and 360 px and in grayscale: five numbered stages sit beside the strands they name, crossings stay distinct without colour, failure panel reads by glyph and text. Page and print context in context/ and proofs/.",
+          "card_changes": "Cites new claim K14 for the tying, backup and inspection steps; corrected the inspection sentence (the collar hugs the standing part and the small loop grips the two strands); caption describes the new plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Rigging safety and field education review of depicted topology and stopper choice; physical tying check; current TC 3-97.61 wording."
+        },
+        {
+          "page_id": "Z09-P15",
+          "returned_reason": "A04: two-colour zigzag weave merged a stopper with a loop; withdrawn pending independently checked topology in two views.",
+          "physical_relationship": "Two separate knots: a figure-eight stopper in a line end bearing on a tarp grommet under pull; a figure-eight loop in doubled cord whose two strands run side by side without crossing.",
+          "source_basis": "K15 FM 3-97.61 (Aug 2002) 4-14 figure-eight knot description and 4-20 Figure-eight loop checkpoints, pages 4-15 and 4-21 to 4-22; card text for the grommet use (editorial).",
+          "construction": "Computed by scripts/build_w2c_knots.py; the loop strands are offsets of the verified figure-eight core.",
+          "geometry_validation": "qa/KNOT_TOPOLOGY.json: stopper and loop core each have four alternating crossings and determinant 5 (the only knot of crossing number at most 4 with determinant 5 is the figure-eight); doubled loop has exactly four strand crossings per core crossing, matching depth order, and no strand-on-strand crossing (FM 4-20 checkpoint 2).",
+          "inspection": "Inspected at 900 px and in grayscale: grommet relationship and pull direction visible, loop strands parallel, labels clear of strands and plate edges.",
+          "card_changes": "Cites new claim K15 for the knot structure steps; caption describes the two views.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Rigging safety and field education review; physical check that the depicted stopper bears on a typical tarp grommet; current TC 3-97.61 wording."
+        },
+        {
+          "page_id": "Z11-R05",
+          "returned_reason": "A04: compass and meridian shown separated; neither the instruments' relationship nor the correction applied was shown.",
+          "physical_relationship": "Plan view in a fixed true-north frame: baseplate edge on the map neat line with the dial set from map north and corrected for an exaggerated east declination; after turning map and compass together the red needle overlays the orienting arrow and map north points to true north; two landmark sight lines through map symbols.",
+          "source_basis": "N14 USGS How To Get Your Map and Compass To Face the Same Direction (orientation steps); N08 and T08 NOAA NCEI Magnetic Declination (east positive; true = magnetic + declination); N03 USGS topographic map FAQ for terrain association.",
+          "construction": "Computed by scripts/build_w2c_navigation.py from one angular model with a reusable compass component.",
+          "geometry_validation": "qa/NAVIGATION_GEOMETRY.json: in both panels the travel arrow is parallel to the neat line, the orienting arrow equals travel plus declination and the needle points to magnetic north; only the oriented panel has the needle in the arrow and map north on true north; north keys draw the same 12 degree angle, labelled as exaggerated. Tolerance 0.15 degree for 0.1 px coordinates.",
+          "inspection": "Inspected at 900 px: compass enlarged so the needle and orienting arrow relationship is legible; maps clipped to their panels; labels clear of map content.",
+          "card_changes": "First action now follows the USGS step order (baseplate on a neat line, dial to map north, declination correction unless an adjustable compass is already set) and cites N14; landmark and rotation actions cite N14; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Navigation and search and rescue review; confirm instrument-specific conventions for adjustable-declination compasses; current local declination values are not depicted."
+        }
+      ]
+    }
+  ]
+}

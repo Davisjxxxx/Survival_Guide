@@ -1357,10 +1357,10 @@
     "callout": "Every knot lowers straight-line strength; pad sharp corners"
   },
   "Z09-P14": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z09-P15": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z09-P16": {
     "type": "comparison",
@@ -1755,7 +1755,7 @@
     "accent": "#5f98ad"
   },
   "Z11-R05": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z11-R06": {
     "type": "mechanism",

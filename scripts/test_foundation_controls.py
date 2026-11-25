@@ -397,7 +397,12 @@ class ControlTests(unittest.TestCase):
         from foundation_diagrams import v02_source_path
         ns = '{http://www.w3.org/2000/svg}'
         specs = json.loads((FOUND / 'evidence/diagram-specs.json').read_text(encoding='utf-8'))
-        v02_ids = sorted(cid for cid, spec in specs.items() if spec.get('type') == 'v02_artwork')
+        # V02 plates later superseded through W2C custody keep their V02 original and revised files.
+        manifest = FOUND / 'visual/w2c_technical/MANIFEST.json'
+        superseded = {r['page_id'] for r in json.loads(manifest.read_text(encoding='utf-8'))
+                      if r.get('supersedes_a04_candidate_sha256')} if manifest.is_file() else set()
+        self.assertTrue(all(specs[cid]['type'] == 'w2c_artwork' for cid in superseded))
+        v02_ids = sorted({cid for cid, spec in specs.items() if spec.get('type') == 'v02_artwork'} | superseded)
         self.assertGreaterEqual(len(v02_ids), 64)
         for cid in v02_ids:
             rev = v02_source_path(cid)
@@ -408,6 +413,32 @@ class ControlTests(unittest.TestCase):
             desc = root.find(ns + 'desc')
             self.assertIsNotNone(desc, f'Missing <desc> in {cid}')
             self.assertTrue(bool(desc.text and desc.text.strip()))
+            self.assertIn('NOT TO SCALE', rev.read_text(encoding='utf-8'))
+            self.assertFalse(list(root.iter(ns + 'image')), f'Unexpected raster image in vector SVG {cid}')
+
+    def test_w2c_plates_preserve_predecessors_and_boundaries(self):
+        import hashlib, json
+        from xml.etree import ElementTree
+        from build_foundations import FOUND
+        from foundation_diagrams import w2c_source_path
+        ns = '{http://www.w3.org/2000/svg}'
+        w2c = FOUND / 'visual/w2c_technical'
+        specs = json.loads((FOUND / 'evidence/diagram-specs.json').read_text(encoding='utf-8'))
+        records = {r['page_id']: r for r in json.loads((w2c / 'MANIFEST.json').read_text(encoding='utf-8'))}
+        active = sorted(cid for cid, spec in specs.items() if spec.get('type') == 'w2c_artwork')
+        self.assertTrue(active)
+        for cid in active:
+            rec = records[cid]
+            self.assertEqual(rec['disposition'], 'PROVISIONAL_EDITORIAL_CANDIDATE')
+            self.assertEqual(rec['publication'], 'HOLD')
+            rev = w2c_source_path(cid)
+            self.assertEqual(hashlib.sha256((w2c / rec['predecessor']).read_bytes()).hexdigest(), rec['predecessor_sha256'])
+            self.assertEqual(hashlib.sha256(rev.read_bytes()).hexdigest(), rec['revised_sha256'])
+            self.assertEqual(hashlib.sha256((FOUND / 'reader/visuals' / f'{cid}.svg').read_bytes()).hexdigest(),
+                             rec['revised_sha256'])
+            root = ElementTree.parse(rev).getroot()
+            desc = root.find(ns + 'desc')
+            self.assertTrue(desc is not None and desc.text and 'not to scale' in desc.text.lower())
             self.assertIn('NOT TO SCALE', rev.read_text(encoding='utf-8'))
             self.assertFalse(list(root.iter(ns + 'image')), f'Unexpected raster image in vector SVG {cid}')
 

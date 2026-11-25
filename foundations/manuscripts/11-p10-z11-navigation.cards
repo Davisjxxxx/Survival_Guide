@@ -44,14 +44,14 @@ Z11-R05 | Orient a paper map to terrain using a baseplate compass | B014 reconst
 objective: Align the printed map with real surrounding landforms so left, right and ahead match the landscape.
 applies: Trailheads, junctions and open viewpoints when matching map symbols to visible features; reconstructs missing B014-P05.
 equipment: Paper topographic map and baseplate compass kept clear of metal and electronics.
-action: Step clear of vehicles, steel signs, knives and phones, set the compass bezel to north (accounting for current local declination) and lay the compass edge parallel to a north-south map meridian. @N08,T08
-action: Rotate the map and compass together flat in your hands until the magnetic needle aligns smoothly inside the orienting arrow—now map features point in the same direction as the real terrain. @N08,N03,ED
-action: Confirm orientation visually against at least two obvious landmarks (lake shore, ridge crest, road bend or valley slope) before trusting the match. @N03,ED
+action: Step clear of vehicles, steel signs, knives and phones, lay the baseplate edge along a north-south neat line, turn the dial until ring north agrees with map north, then correct for current local declination unless an adjustable compass is already set. @N14,N08,T08
+action: Rotate the map and compass together flat in your hands until the magnetic needle aligns smoothly inside the orienting arrow—now map features point in the same direction as the real terrain. @N14,N03,ED
+action: Confirm orientation visually against at least two obvious landmarks (lake shore, ridge crest, road bend or valley slope) before trusting the match. @N14,N03,ED
 failure: Holding the map right-side-up to read labels instead of aligning north to the landscape, causing left-right turn reversals at trail forks. @N08,ED
 verify: Point from your map position toward two visible landmarks and verify both match real-world direction and distance roughly. @N03,N08,ED
 stop: If compass needle orientation contradicts major visible terrain features, step away from metal/iron rock and re-verify your location before moving. @N08,T06
 diagram: Clear metal & align meridian | Rotate map to match needle | Confirm with two landmarks
-visual: Map alignment illustration is withheld while equipment-specific orientation conventions are verified.
+visual: Two-panel plan view with true north fixed: baseplate on a neat line with the declination-corrected dial, then map and compass turned together until the needle overlays the orienting arrow, with two landmark sight lines. Declination angle exaggerated. Conceptual, not to scale.
 reviewer: Navigation and search and rescue
 
 Z11-R06 | Measure and walk a verified practice bearing between landmarks | B014 reconstruction · r01 slot R06 (original B014-P06 missing)

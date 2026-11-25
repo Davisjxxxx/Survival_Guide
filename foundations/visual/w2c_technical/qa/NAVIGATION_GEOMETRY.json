@@ -1,0 +1,27 @@
+{
+ "Z11-R05": {
+  "accepted": true,
+  "declination_drawn": 12.0,
+  "declination_labelled": "exaggerated example; use current local value",
+  "north_key_declination": {
+   "after": 12.002866929072582,
+   "before": 12.002866929072582
+  },
+  "phases": {
+   "after": {
+    "map_north_on_true_north": true,
+    "needle_in_orienting_arrow": true,
+    "needle_on_magnetic_north": true,
+    "orienting_arrow_equals_travel_plus_declination": true,
+    "travel_parallel_to_neat_line": true
+   },
+   "before": {
+    "map_north_on_true_north": false,
+    "needle_in_orienting_arrow": false,
+    "needle_on_magnetic_north": true,
+    "orienting_arrow_equals_travel_plus_declination": true,
+    "travel_parallel_to_neat_line": true
+   }
+  }
+ }
+}
