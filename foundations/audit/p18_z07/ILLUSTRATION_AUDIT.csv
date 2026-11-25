@@ -1,0 +1,31 @@
+page,figure,category,sha256,geometry_sha12,provenance,clipped_labels,overlap_pairs,visual_inspection
+Z07-P01,Z07-P01-FIG01,system_boundary,53e669126d7bbe5fbc672909bce8fff6a2eade919caaa2236a8dd20c6b9be9d7,82e3976fc7e0,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P02,Z07-P02-FIG01,regulation_boundary,02ae7cbc39ee326efb47e60eb1df6c940a0246fa55b0b965f1236fc27d7fdfde,c50ec7bc21ca,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P03,Z07-P03-FIG01,correct_vs_wrong,5ad1bc53c7274f3f941b51784156869b19087fecb2dd2cd12bcc42a8a2b75795,6f97416159ba,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P04,Z07-P04-FIG01,regulation_boundary,ec10fe522786f12ac5c3e55cd74955f8a6128921ac1a5236276236e4c1b97fed,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P05,Z07-P05-FIG01,hazard_exclusion_map,f82e721eff16b73dd36484d691e01ff1e0483aa440215c05c164fa78c1b480bf,38f25b673997,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P06,Z07-P06-FIG01,comparison,9ef29e1322b157aaa11e31bcfa2b01af241a5134ce5339c217661fc248a7c27b,57f7d73fed10,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P07,Z07-P07-FIG01,hazard_exclusion_map,60e2ae8397819321267abe1ab0b1406d5c49e56c133e2595c1529606bd70c8c5,b1f2e88727e9,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P08,Z07-P08-FIG01,sequence_plate,ae7b9159aeb2a1a4767b84eb593b9642a71b117c5c13268a342bcd83a452e3c4,fd6d66cb534c,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P09,Z07-P09-FIG01,comparison,439adcf72afbbb7ba43cf916904fb17936fb30bd390f307860cfe1c569ad3cad,57f7d73fed10,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P10,Z07-P10-FIG01,failure_mode,c6083f3218dcf7078bb283003c73a8979baf4478cb8c169cdb7ce8d1a9e050d9,25fdf6efbbe5,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P11,Z07-P11-FIG01,system_boundary,8b6b2c02eab278d27dc509cc6fa5678c3cd65d493240435220caebfca4467811,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P12,Z07-P12-FIG01,seasonal_timeline,5376c2599ee61a679f14c0db350193670b8bfbb5a5c262f0d0410b54489377c1,ed34a9d97168,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P13,Z07-P13-FIG01,sequence_plate,f99167759ebac6b79e31812b55b7a1a22cd658f2fde0be16dce7d69d4b708aad,fd6d66cb534c,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P14,Z07-P14-FIG01,hazard_exclusion_map,d1b11a9b62bf606173e418d7eeb86c4287d49aa989cc084d300b310d8c863f24,7ae077c218f1,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P15,Z07-P15-FIG01,wildlife_track_plate,689a049b958fcb495fd9d4254723ad4e8cff9adea13002cb2477e37809790a23,d6276816229a,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P16,Z07-P16-FIG01,regulation_boundary,1d8c135a92fad5d91b3cb773e20e3420294ba16a2c2470ffa92f02d0d6f50a21,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P17,Z07-P17-FIG01,escalation_ladder,f7ad37895bb3ba38f1f8647f1635b76bfb6fc7a4a2b601c9e1aaeffef5457919,19d4a2dbb240,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P18,Z07-P18-FIG01,sequence_plate,112c814a6085e4be4c5a27699bdb188c61a5e4d96e22b8083e112776ac2555b9,fd6d66cb534c,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P19,Z07-P19-FIG01,correct_vs_wrong,50608fc13f46dda9a7436358704c83ddea253b4ee49fe5e82a7da578e20973aa,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P20,Z07-P20-FIG01,escalation_ladder,b08d07ee89cd1248ccb596be7810a582f315424d42c04eecafd03fcb65b66663,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P21,Z07-P21-FIG01,hazard_exclusion_map,628c1783ff33996ca566ff7d1917b78f2fabd36c017e73cae1f604e71bdcaefe,38f25b673997,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P22,Z07-P22-FIG01,escalation_ladder,12b020ae00a578a27b7a644051dcbe71b67a1f49729a0b520c4c84191a681397,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P23,Z07-P23-FIG01,hazard_exclusion_map,1d3ee1a56b498aa0df9967547284f20adb2e17a002afc1f6f5d6e988f5bfbd3f,38f25b673997,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P24,Z07-P24-FIG01,specimen_doc_plate,745c80d388041e63b111461cd837f5fd6f8209ae2268d69de4fe65a64431fb25,41fec7212c4d,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z07-P25,Z07-P25-FIG01,wildlife_track_plate,61a7f1e7b4102042ae7aa9caf320b73fd1f48d886c95663005dabf8a776d095f,d6276816229a,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P26,Z07-P26-FIG01,correct_vs_wrong,2773ce4b9287467f184928f274affd3664ee398c55cd82a2e2cf500b2e4c4b80,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P27,Z07-P27-FIG01,regulation_boundary,930fec09f38fb812659a5ee38522914389c2e0ae5413e6955b7fcd9594061d87,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P28,Z07-P28-FIG01,escalation_ladder,a39d53c865241c821426b819fbe0795e243ee7340884b093b6b3963a76cdcade,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P29,Z07-P29-FIG01,correct_vs_wrong,07634ce14ee01c11ae8ce194bd70dd4264df458897b4dfaa668d281078552364,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z07-P30,Z07-P30-FIG01,escalation_ladder,f820ea87b251c366d6000157531530f4b820aae6fc21faa73a65954fd211cafa,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.

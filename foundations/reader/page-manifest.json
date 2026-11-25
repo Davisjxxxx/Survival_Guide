@@ -13644,6 +13644,1825 @@
     "reviewer": "SAR, EMS, and hunter-safety reviewer"
   },
   {
+    "id": "Z07-P01",
+    "zone": "Z07",
+    "title": "Zone Scope: Law, Welfare and Zero Actionable Trap Construction",
+    "origin": "New manuscript (Z07 P18 editorial safety gate)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Maintain a strict safety boundary across Z07: this reference covers ecology, statutory restrictions, animal welfare, bystander/pet avoidance, and authority referral—never actionable trap or snare construction or placement instructions.",
+        "claims": [
+          "L01",
+          "L02",
+          "L11"
+        ]
+      },
+      {
+        "text": "Recognize that improvised triggers, deadfalls, and unselective snares cause severe non-target harm, violate wildlife law, and offer poor emergency return compared with shelter, water, and signaling.",
+        "claims": [
+          "L01",
+          "L02",
+          "T01"
+        ]
+      },
+      {
+        "text": "Escalate any specialized regulatory, nuisance-wildlife, or furbearer-management questions directly to state wildlife agencies and certified trapper-education programs.",
+        "claims": [
+          "L01",
+          "L02"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Frame Z07 strictly around wildlife ecology, legal compliance, animal welfare, hazard recognition, and bystander/pet safety without publishing injurious construction instructions.",
+    "applies": "All readers reviewing trapping-related topics in the encyclopedia.",
+    "equipment": "Current state/federal wildlife regulations and authority contacts.",
+    "diagram": "Focus on law, ecology & hazard cues | Exclude injurious construction specs | Refer legal/welfare questions to agencies",
+    "visual": "Conceptual system boundary separating lawful educational hazard recognition from prohibited actionable trap construction.",
+    "failure": {
+      "text": "Publishing improvised trigger dimensions or snare setups risks severe human, pet, and protected-species injury and unlawful take.",
+      "claims": [
+        "L01",
+        "L02",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "All Z07 content stays strictly bounded to hazard recognition, ecology, law, welfare, and reporting.",
+      "claims": [
+        "L01",
+        "L02",
+        "L11"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and decline any request to improvise, modify, or deploy unapproved injurious capture devices.",
+      "claims": [
+        "L01",
+        "L02",
+        "L11"
+      ]
+    },
+    "reviewer": "Wildlife law, animal welfare, and public-safety reviewer"
+  },
+  {
+    "id": "Z07-P02",
+    "zone": "Z07",
+    "title": "Minnesota Trapping Licenses, Seasons and Statutory Limits",
+    "origin": "New manuscript (Z07 P18 legal requirements)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that regulated trapping in Minnesota requires specific state licenses, species-specific open seasons, statutory trap-size/type rules, mandatory check intervals, and legal land access.",
+        "claims": [
+          "L01"
+        ]
+      },
+      {
+        "text": "Check the current annual Minnesota DNR Hunting & Trapping Regulations (recording exact check date) because furbearer zones, quotas, and gear rules change between seasons.",
+        "claims": [
+          "L01"
+        ]
+      },
+      {
+        "text": "Understand that regulated furbearer harvest occurs primarily in autumn and winter on open public forests, WMAs, and permission-granted private lands—not in state parks or SNAs.",
+        "claims": [
+          "L01",
+          "L07"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Outline the statutory framework governing regulated furbearer trapping in Minnesota so travelers recognize where lawful seasonal sets may exist.",
+    "applies": "Understanding Minnesota DNR regulated trapping rules and seasonal windows.",
+    "equipment": "Current Minnesota DNR Hunting & Trapping Regulations handbook.",
+    "diagram": "Verify current DNR trapping handbook | Note seasonal furbearer windows | Confirm jurisdiction and check date",
+    "visual": "Conceptual regulatory gate summarizing Minnesota DNR statutory licensing, species seasons, check intervals, and land limits.",
+    "failure": {
+      "text": "Assuming trapping is unregulated or occurs only in remote wilderness leaves hikers and dog owners unprepared on multi-use autumn public lands.",
+      "claims": [
+        "L01",
+        "L07"
+      ]
+    },
+    "verify": {
+      "text": "Current season dates, land-use status, and statutory restrictions are verified directly with MN DNR.",
+      "claims": [
+        "L01",
+        "L07"
+      ]
+    },
+    "stop": {
+      "text": "Stop assuming any rule from prior years remains valid; confirm current statutes with MN DNR before entering multi-use seasonal lands.",
+      "claims": [
+        "L01"
+      ]
+    },
+    "reviewer": "Minnesota DNR wildlife law reviewer"
+  },
+  {
+    "id": "Z07-P03",
+    "zone": "Z07",
+    "title": "No Emergency Legal Exemption for Traps or Snares",
+    "origin": "New manuscript (Z07 P18 legal boundary)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Reject the common myth that an outdoor emergency automatically grants a legal exemption to deploy traps, wire snares, or deadfalls.",
+        "claims": [
+          "L01",
+          "L03"
+        ]
+      },
+      {
+        "text": "Prioritize proven survival essentials—shelter, thermal protection, safe drinking water, medical stabilization, and rescue signaling—which address immediate fatality risks far more reliably than improvised food capture.",
+        "claims": [
+          "L01",
+          "T01"
+        ]
+      },
+      {
+        "text": "Recognize that unauthorized wire snares left behind become persistent ghost-entanglement hazards that maim protected wildlife, pets, and people long after an incident ends.",
+        "claims": [
+          "L02",
+          "L13"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Dispel survival folklore claiming an outdoor emergency automatically permits setting improvised traps or snares.",
+    "applies": "Backcountry emergency planning and legal-boundary training.",
+    "equipment": "Emergency shelter, water treatment, and signaling equipment.",
+    "diagram": "Reject emergency trap-exemption myths | Prioritize warmth, water & rescue | Avoid wasting calories on snares",
+    "visual": "Conceptual correct-versus-incorrect comparison contrasting proven emergency stabilization against unlawful, low-yield improvised snaring.",
+    "failure": {
+      "text": "Spending dwindling daylight and calories building illegal improvised traps worsens hypothermia risk while endangering protected species.",
+      "claims": [
+        "L01",
+        "L02",
+        "T01"
+      ]
+    },
+    "verify": {
+      "text": "Emergency planning centers on shelter, hydration, signaling, and full compliance with wildlife protection laws.",
+      "claims": [
+        "L01",
+        "T01"
+      ]
+    },
+    "stop": {
+      "text": "Stop any plan that proposes improvised traps or snares as a backcountry survival shortcut.",
+      "claims": [
+        "L01",
+        "L02",
+        "L11"
+      ]
+    },
+    "reviewer": "Wildlife law and SAR reviewer"
+  },
+  {
+    "id": "Z07-P04",
+    "zone": "Z07",
+    "title": "Endangered Species Act and Canada Lynx Zone Protections",
+    "origin": "New manuscript (Z07 P18 species protection)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that the federal Endangered Species Act strictly prohibits intentional or incidental take—including trapping, injuring, or harassing—of federally listed threatened or endangered species.",
+        "claims": [
+          "L03"
+        ]
+      },
+      {
+        "text": "Recognize that northern Minnesota overlaps Canada lynx habitat and federal gray-wolf protection areas where strict gear, bait, and exclusion rules apply.",
+        "claims": [
+          "L03",
+          "H13"
+        ]
+      },
+      {
+        "text": "Report any accidental sighting or suspected capture of a federally listed animal immediately to Minnesota DNR and the U.S. Fish & Wildlife Service without approaching the animal.",
+        "claims": [
+          "L03",
+          "L06"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain strict federal Endangered Species Act prohibitions and special northern Minnesota lynx-management protections.",
+    "applies": "Northeastern Minnesota boreal forests and federally listed species habitats.",
+    "equipment": "USFWS ESA notices and MN DNR Lynx Management Zone maps.",
+    "diagram": "Know federal ESA take prohibitions | Respect northern lynx zone rules | Report listed-species sightings safely",
+    "visual": "Conceptual federal regulatory gate protecting Canada lynx, gray wolves, and threatened/endangered wildlife from incidental capture.",
+    "failure": {
+      "text": "Ignoring federal ESA protections risks severe federal criminal and civil penalties and irreversible harm to imperiled northern wildlife.",
+      "claims": [
+        "L03"
+      ]
+    },
+    "verify": {
+      "text": "Federal ESA protections and listed-species reporting channels are recognized across all northern Minnesota fieldwork.",
+      "claims": [
+        "L03",
+        "L06"
+      ]
+    },
+    "stop": {
+      "text": "Stop and leave protected lynx or wolf habitat undisturbed; call authorities immediately if an injured or trapped listed animal is discovered.",
+      "claims": [
+        "L03",
+        "L06"
+      ]
+    },
+    "reviewer": "Federal wildlife legal and endangered-species reviewer"
+  },
+  {
+    "id": "Z07-P05",
+    "zone": "Z07",
+    "title": "State Protected Nongame and Rare Species Exclusions",
+    "origin": "New manuscript (Z07 P18 species protection)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that state-listed endangered, threatened, and special-concern species—alongside almost all native nongame mammals, birds, reptiles, and amphibians—are legally protected from capture or harm.",
+        "claims": [
+          "L04",
+          "L05"
+        ]
+      },
+      {
+        "text": "Understand why unselective ground or shoreline devices disproportionately harm non-target animals such as turtles, martens, fishers, spotted skunks, and wading birds.",
+        "claims": [
+          "L02",
+          "L04",
+          "L05"
+        ]
+      },
+      {
+        "text": "Observe wildlife strictly from non-intrusive distances and avoid disturbing burrows, tree cavities, brushpiles, and wetland nesting margins.",
+        "claims": [
+          "L04",
+          "L05",
+          "L13"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Highlight Minnesota state-listed rare species and protected nongame wildlife vulnerable to unselective capture hazards.",
+    "applies": "All Minnesota forests, wetlands, lakeshores, and prairies.",
+    "equipment": "MN DNR Rare Species Guide and Nongame Wildlife reference.",
+    "diagram": "Protect state-listed rare species | Recognize nongame wildlife status | Avoid disturbing dens or burrows",
+    "visual": "Conceptual ecological protection boundary separating protected nongame and rare species from unauthorized capture or disturbance.",
+    "failure": {
+      "text": "Assuming only large charismatic animals are protected overlooks dozens of vulnerable state-listed nongame species.",
+      "claims": [
+        "L04",
+        "L05"
+      ]
+    },
+    "verify": {
+      "text": "Protected nongame status and den/habitat non-disturbance rules are honored across all field travel.",
+      "claims": [
+        "L04",
+        "L05"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching burrows, dens, or nesting areas whenever wildlife alarm or defensive cues appear.",
+      "claims": [
+        "L04",
+        "L05"
+      ]
+    },
+    "reviewer": "Conservation biologist and nongame specialist"
+  },
+  {
+    "id": "Z07-P06",
+    "zone": "Z07",
+    "title": "National Park, State Park and SNA Trapping Prohibitions",
+    "origin": "New manuscript (Z07 P18 environmental restrictions)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Verify exact land-management status before travel: National Park System lands (36 CFR 2.1), Minnesota Scientific and Natural Areas (SNAs), and Minnesota State Parks generally prohibit trapping and wildlife disturbance.",
+        "claims": [
+          "L07",
+          "L08"
+        ]
+      },
+      {
+        "text": "Recognize that State Forests, National Forests, Wildlife Management Areas (WMAs), and county tax-forfeited lands may allow lawful regulated trapping during open autumn and winter seasons.",
+        "claims": [
+          "L01",
+          "L07"
+        ]
+      },
+      {
+        "text": "Check posted trailhead kiosks and agency maps at every boundary crossing because park and forest borders often sit immediately adjacent.",
+        "claims": [
+          "L07",
+          "L08"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish public-land categories where trapping is strictly prohibited from multiple-use lands where regulated seasonal trapping may occur.",
+    "applies": "Navigating overlapping federal, state, county, and municipal land boundaries in Minnesota.",
+    "equipment": "Current land-ownership map (NPS, MN DNR State Parks, SNAs, WMAs, National/State Forests).",
+    "diagram": "Check exact public-land designation | Expect zero trapping in parks/SNAs | Stay alert on open WMAs/forests",
+    "visual": "Conceptual comparison of trapping status across National Parks/SNAs (prohibited), State Parks (generally prohibited), and open WMAs/Forests (regulated seasonal).",
+    "failure": {
+      "text": "Crossing from a state park into an adjacent WMA or state forest with an off-leash dog during autumn furbearer season exposes pets to lawful regulated sets.",
+      "claims": [
+        "L07",
+        "L10"
+      ]
+    },
+    "verify": {
+      "text": "Land-use category and seasonal trapping status are confirmed before entering or unleashing pets on public lands.",
+      "claims": [
+        "L07",
+        "L08",
+        "L10"
+      ]
+    },
+    "stop": {
+      "text": "Stop and leash pets immediately whenever leaving a park boundary onto multi-use forest or WMA land during open trapping seasons.",
+      "claims": [
+        "L07",
+        "L10"
+      ]
+    },
+    "reviewer": "Public-lands manager"
+  },
+  {
+    "id": "Z07-P07",
+    "zone": "Z07",
+    "title": "Furbearer Ecology and Riparian Travel Corridors",
+    "origin": "New manuscript (Z07 P18 wildlife ecology)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that semi-aquatic and terrestrial furbearers—including beaver, muskrat, mink, otter, raccoon, fox, and coyote—concentrate movement along stream banks, culverts, beaver dams, and marsh edges.",
+        "claims": [
+          "L05",
+          "L10",
+          "L12"
+        ]
+      },
+      {
+        "text": "Use this ecological knowledge strictly for hazard awareness: during autumn and winter open seasons on multi-use lands, shoreline pinch points and culvert mouths are the most likely places to encounter lawful sets.",
+        "claims": [
+          "L01",
+          "L10"
+        ]
+      },
+      {
+        "text": "Keep hikers, children, and leashed dogs on established upland trails away from stream-bank overhangs, culvert openings, and scent-marked brush piles.",
+        "claims": [
+          "L10",
+          "L12"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Understand where regional furbearers naturally travel so hikers and pet owners recognize higher-risk shoreline and culvert zones during open seasons.",
+    "applies": "Ecological hazard awareness along streams, beaver ponds, culverts, and forest edges.",
+    "equipment": "Topographic map, seasonal calendar.",
+    "diagram": "Map riparian and culvert pinch points | Recognize seasonal furbearer activity | Route pets wide around shorelines",
+    "visual": "Conceptual overhead habitat map highlighting stream banks, beaver dams, road culverts, and marsh edges where furbearers concentrate.",
+    "failure": {
+      "text": "Letting a dog investigate culvert pipes, beaver channels, or marsh banks on open public land during fall/winter invites sudden severe injury.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "verify": {
+      "text": "Route selection favors clear upland trails and keeps pets strictly away from riparian pinch points during trapping seasons.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "stop": {
+      "text": "Stop allowing pets or children near culvert mouths, flagged shoreline stakes, or strong fishy/meaty odors on multi-use lands.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "reviewer": "Wildlife ecologist and outdoor safety reviewer"
+  },
+  {
+    "id": "Z07-P08",
+    "zone": "Z07",
+    "title": "AFWA Best Management Practices: Animal Welfare and Selectivity",
+    "origin": "New manuscript (Z07 P18 animal welfare)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that AFWA Best Management Practices evaluate regulated capture devices scientifically across five criteria: animal welfare, efficiency, selectivity, user safety, and practicality.",
+        "claims": [
+          "L02"
+        ]
+      },
+      {
+        "text": "Recognize that selectivity—excluding non-target wildlife, protected species, and domestic pets—and rapid minimization of pain or injury are core scientific standards in regulated management.",
+        "claims": [
+          "L02",
+          "L04"
+        ]
+      },
+      {
+        "text": "Use AFWA welfare principles to understand why unregulated, homemade, or modified devices fail ethical and legal scrutiny.",
+        "claims": [
+          "L02",
+          "L11"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain the scientific animal-welfare and selectivity criteria established by the Association of Fish & Wildlife Agencies (AFWA).",
+    "applies": "Understanding modern regulated wildlife-management welfare standards.",
+    "equipment": "AFWA Best Management Practices reference.",
+    "diagram": "Learn 5 scientific AFWA BMP pillars | Prioritize welfare and selectivity | Reject untested improvised gear",
+    "visual": "Conceptual comparison of AFWA scientific welfare, efficiency, selectivity, user-safety, and practicality criteria.",
+    "failure": {
+      "text": "Equating historical folklore contraptions with scientifically evaluated wildlife-management tools ignores severe animal-suffering and non-target hazards.",
+      "claims": [
+        "L02",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "Discussions of trapping principles cite AFWA welfare and selectivity criteria clearly without providing build instructions.",
+      "claims": [
+        "L02",
+        "L11"
+      ]
+    },
+    "stop": {
+      "text": "Stop treating any unvalidated homemade capture device as humane, selective, or lawful.",
+      "claims": [
+        "L02",
+        "L11"
+      ]
+    },
+    "reviewer": "Wildlife welfare scientist"
+  },
+  {
+    "id": "Z07-P09",
+    "zone": "Z07",
+    "title": "Conceptual Classification of Restraining vs Killing Hazard Classes",
+    "origin": "New manuscript (Z07 P18 conceptual classification)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand conceptually that regulated capture equipment falls into two broad hazard categories: restraining devices (box/cage traps, footholds, cable restraints) and killing devices (spring-powered body-gripping frames).",
+        "claims": [
+          "L11"
+        ]
+      },
+      {
+        "text": "Recognize that body-gripping frames carry extreme instantaneous closing force capable of breaking human fingers or killing an unleashed dog within minutes, while restraining devices hold an animal or paw under tension.",
+        "claims": [
+          "L10",
+          "L11"
+        ]
+      },
+      {
+        "text": "Keep this classification strictly focused on bystander hazard recognition and avoidance—never include mechanical dimensions, wire gauges, trigger notches, or placement procedures.",
+        "claims": [
+          "L11"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize broad historical and regulated mechanical hazard categories visually for bystander safety without providing construction details.",
+    "applies": "Hazard-recognition education for hikers, pet owners, and land stewards.",
+    "equipment": "Educational reference only—never touch unknown field hardware.",
+    "diagram": "Distinguish restraining vs killing classes | Recognize stored spring-energy risk | Never touch unfamiliar devices",
+    "visual": "Conceptual educational classification contrasting restraining (cage, foothold, cable) and killing (body-grip) hazard categories strictly for avoidance.",
+    "failure": {
+      "text": "Attempting to poke, test, or spring an unfamiliar metal frame or cable in the woods causes severe crushing hand injuries and illegal equipment tampering.",
+      "claims": [
+        "L09",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "Readers can recognize broad hazard categories conceptually and respond by backing away safely rather than touching hardware.",
+      "claims": [
+        "L09",
+        "L11"
+      ]
+    },
+    "stop": {
+      "text": "Stop and step back immediately upon spotting any metal jaws, square spring frames, staked cables, or wire boxes in the field.",
+      "claims": [
+        "L09",
+        "L10",
+        "L11"
+      ]
+    },
+    "reviewer": "Wildlife-safety and injury-prevention reviewer"
+  },
+  {
+    "id": "Z07-P10",
+    "zone": "Z07",
+    "title": "Why Improvised Traps and Snares Fail Welfare and Safety Tests",
+    "origin": "New manuscript (Z07 P18 animal welfare)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that improvised snares, deadfall rocks, and spring-pole contraptions lack calibrated pan tension, stopping locks, and species selectivity, causing prolonged choking, maiming, or non-target capture.",
+        "claims": [
+          "L02",
+          "L11"
+        ]
+      },
+      {
+        "text": "Understand that deadfalls and tensioned branches also endanger hikers, searchers, children, and the builder themselves through sudden unpredictable trigger collapse.",
+        "claims": [
+          "L10",
+          "L11"
+        ]
+      },
+      {
+        "text": "Exclude improvised construction specs entirely from field guidance and escalate any unresolved ethical or historical questions to wildlife-welfare specialists.",
+        "claims": [
+          "L02",
+          "L11"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Document the ethical, legal, and physical failures of improvised snares, deadfalls, and pit traps.",
+    "applies": "Evaluating traditional survival-manual trap myths through modern science and law.",
+    "equipment": "None—hazard-awareness reference only.",
+    "diagram": "Identify unselective non-target harm | Recognize slow injury and suffering | Reject unvalidated build diagrams",
+    "visual": "Conceptual failure analysis detailing how improvised deadfalls and wire snares cause prolonged suffering, non-target injury, and bystander danger.",
+    "failure": {
+      "text": "Treating outdated survival-book trap sketches as benign crafts encourages cruel, illegal, and physically dangerous devices on public lands.",
+      "claims": [
+        "L01",
+        "L02",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "Ethical, welfare, legal, and bystander-injury failures of improvised devices are clearly stated with zero build instructions.",
+      "claims": [
+        "L02",
+        "L11"
+      ]
+    },
+    "stop": {
+      "text": "Stop and refuse to construct, test, or demonstrate injurious improvised traps or snares in outdoor training.",
+      "claims": [
+        "L01",
+        "L02",
+        "L11"
+      ]
+    },
+    "reviewer": "Animal-welfare scientist and legal reviewer"
+  },
+  {
+    "id": "Z07-P11",
+    "zone": "Z07",
+    "title": "Stored Mechanical Spring-Energy and Crush-Injury Hazards",
+    "origin": "New manuscript (Z07 P18 human hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat any metal frame, coiled spring, hinged bar, or tensioned wire discovered outdoors as actively loaded with high stored mechanical energy.",
+        "claims": [
+          "L09",
+          "L11"
+        ]
+      },
+      {
+        "text": "Never test a suspected trap by poking it with a boot, stick, or hand because sudden high-speed bar closure throws mud/splinters into eyes and crushes fingers or wrists.",
+        "claims": [
+          "L09",
+          "L11"
+        ]
+      },
+      {
+        "text": "Keep children and bystanders well back and contact Minnesota DNR Conservation Officers if a hazardous device sits unlawfully on a public trail or park.",
+        "claims": [
+          "L07",
+          "L09"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize the extreme mechanical pinch and fracture hazards stored in compressed trap springs encountered in the field.",
+    "applies": "Bystander safety when encountering unknown metal hardware along shorelines or woods.",
+    "equipment": "Distance and observation only—do not probe with sticks or hands.",
+    "diagram": "Assume coiled springs are loaded | Keep fingers and faces completely clear | Call authorities for unsafe gear",
+    "visual": "Conceptual hazard boundary illustrating stored torsion-spring energy and strict hands-off clearance around field devices.",
+    "failure": {
+      "text": "Poking a concealed spring frame with a short stick causes instantaneous snap-back trauma to hands or eyes.",
+      "claims": [
+        "L09",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "Bystanders keep hands, boots, and tools strictly away from discovered mechanical hardware and route wide around it.",
+      "claims": [
+        "L09",
+        "L11"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching immediately and call 911 or EMS if a human hand or limb is caught in a high-force spring device.",
+      "claims": [
+        "L09",
+        "L11",
+        "M01"
+      ]
+    },
+    "reviewer": "Injury-prevention and emergency-response reviewer"
+  },
+  {
+    "id": "Z07-P12",
+    "zone": "Z07",
+    "title": "Statutory Check Intervals and Abandoned Ghost-Gear Harm",
+    "origin": "New manuscript (Z07 P18 welfare and conservation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that state laws mandate strict trap-checking intervals and identification tagging specifically to limit animal distress and enforce legal accountability.",
+        "claims": [
+          "L01",
+          "L02"
+        ]
+      },
+      {
+        "text": "Recognize that abandoned wire loops, rusted unmarked traps, and discarded monofilament nets become persistent ghost gear that entangles and kills wildlife across seasons.",
+        "claims": [
+          "L09",
+          "L13"
+        ]
+      },
+      {
+        "text": "Report suspected abandoned, rusted, untagged, or out-of-season trapping hardware with exact GPS coordinates to MN DNR Conservation Officers rather than removing or tampering with active gear.",
+        "claims": [
+          "L09",
+          "L13"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain why statutory check rules exist and why abandoned traps, wires, or nets inflict prolonged suffering indefinitely.",
+    "applies": "Understanding legal accountability and recognizing abandoned ghost gear.",
+    "equipment": "GPS/phone camera for distant reporting only.",
+    "diagram": "Understand mandatory check laws | Spot rusted abandoned wire hazards | Report derelict gear to DNR",
+    "visual": "Conceptual timeline comparing lawful monitored seasonal activity against multi-year wildlife harm from abandoned wire and cordage.",
+    "failure": {
+      "text": "Removing someone else lawful gear can violate state trap-interference statutes, while ignoring derelict out-of-season wire allows ongoing animal deaths.",
+      "claims": [
+        "L09",
+        "L13"
+      ]
+    },
+    "verify": {
+      "text": "Suspected abandoned or out-of-season hardware is documented safely by GPS/photo without tampering and reported to DNR.",
+      "claims": [
+        "L09",
+        "L13"
+      ]
+    },
+    "stop": {
+      "text": "Stop touching unknown rusted traps or wire; report location and photos directly to conservation enforcement.",
+      "claims": [
+        "L09",
+        "L13"
+      ]
+    },
+    "reviewer": "Conservation enforcement and welfare reviewer"
+  },
+  {
+    "id": "Z07-P13",
+    "zone": "Z07",
+    "title": "Recognizing Open-Season Multi-Use Trapping Lands Before Hiking",
+    "origin": "New manuscript (Z07 P18 encounter avoidance)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Check whether your planned trail passes through State Forests, National Forests, WMAs, or county lands where lawful trapping occurs during autumn and winter seasons.",
+        "claims": [
+          "L01",
+          "L07",
+          "L10"
+        ]
+      },
+      {
+        "text": "Use dedicated fenced off-leash dog parks or verified park areas where trapping is prohibited when exercising dogs off-leash during open furbearer seasons.",
+        "claims": [
+          "L07",
+          "L10"
+        ]
+      },
+      {
+        "text": "Read trailhead bulletin boards and posted land-boundary signs every visit because temporary wildlife-management closures and seasonal rules change.",
+        "claims": [
+          "L01",
+          "L07"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Plan autumn and winter hikes and dog walks by checking whether public trails cross open furbearer trapping zones.",
+    "applies": "Pre-trip planning on Minnesota public lands from October through March.",
+    "equipment": "MN DNR Recreation Compass/public-land map, current trapping season dates.",
+    "diagram": "Check public-land map before departure | Note autumn/winter furbearer dates | Choose closed parks for off-leash zones",
+    "visual": "Conceptual pre-trip checklist matching land designation and season date to appropriate trail and pet-safety choices.",
+    "failure": {
+      "text": "Assuming all public green space is a trapping-free city park leads to unexpected encounters on WMAs and State Forests.",
+      "claims": [
+        "L07",
+        "L10"
+      ]
+    },
+    "verify": {
+      "text": "Land type, current seasonal dates, and pet-control plan are verified before leaving the trailhead.",
+      "claims": [
+        "L01",
+        "L07",
+        "L10"
+      ]
+    },
+    "stop": {
+      "text": "Stop unleashing pets if land ownership or current furbearer season status has not been confirmed.",
+      "claims": [
+        "L07",
+        "L10"
+      ]
+    },
+    "reviewer": "Public-lands recreation and safety reviewer"
+  },
+  {
+    "id": "Z07-P14",
+    "zone": "Z07",
+    "title": "Short-Leash Dog Control and Trail-Edge Exclusion in Season",
+    "origin": "New manuscript (Z07 P18 pet safety)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Keep dogs on a short, non-retractable leash (six feet or less) whenever walking open multi-use public lands during autumn and winter furbearer seasons.",
+        "claims": [
+          "L10"
+        ]
+      },
+      {
+        "text": "Prevent dogs from darting into roadside culverts, beaver-dam edges, hollow logs, or brushy bait piles where scent-baited sets are most commonly placed.",
+        "claims": [
+          "L10",
+          "L12"
+        ]
+      },
+      {
+        "text": "Save the nearest 24-hour emergency veterinary clinic number offline before traveling in rural areas during open hunting and trapping seasons.",
+        "claims": [
+          "L10"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect companion dogs from severe or fatal trap encounters through short-leash discipline and wide trail-edge awareness.",
+    "applies": "Walking dogs on open multi-use forests, WMAs, and rural corridors during trapping seasons.",
+    "equipment": "Non-retractable 6-foot leash, well-fitted collar/harness, local emergency vet phone number.",
+    "diagram": "Keep dogs on short fixed leash | Stay centered on cleared trails | Keep dogs away from bait odors",
+    "visual": "Conceptual spatial corridor map showing safe on-leash trail center flanked by high-risk off-trail brush and shoreline buffers.",
+    "failure": {
+      "text": "Using a long retractable leash or letting a scent-driven dog roam into brush off-trail allows instant entry into a lethal body-gripping or cable device.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "verify": {
+      "text": "Dog stays on a short fixed leash on clear trail tread, away from shoreline/culvert odors, with emergency vet contact saved.",
+      "claims": [
+        "L10"
+      ]
+    },
+    "stop": {
+      "text": "Stop and immediately pull dogs back onto clear ground whenever strong carcass, fish, or musk lure odors are noticed.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "reviewer": "Veterinary and outdoor pet-safety reviewer"
+  },
+  {
+    "id": "Z07-P15",
+    "zone": "Z07",
+    "title": "Recognizing Shoreline, Culvert, Bait-Pile and Cubby Hazard Cues",
+    "origin": "New manuscript (Z07 P18 hazard recognition)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Scan multi-use trail margins, stream banks, and culvert openings for visual cues such as colored flagging tape, neat stick-or-box cubbies, wired stakes, freshly turned dirt patches, or narrow fenced-off trail funnels.",
+        "claims": [
+          "L10",
+          "L12"
+        ]
+      },
+      {
+        "text": "Treat sudden strong odors of skunk essence, fish oil, anise, or decaying meat along a bank or ditch as an immediate cue to keep children and leashed pets far away.",
+        "claims": [
+          "L10",
+          "L12"
+        ]
+      },
+      {
+        "text": "Give suspected set locations a wide silent detour without approaching closer to inspect or photograph close-up.",
+        "claims": [
+          "L09",
+          "L10",
+          "L12"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Spot subtle visual and olfactory field cues indicating active regulated sets or hazardous wildlife attractants so you can steer clear early.",
+    "applies": "Walking multi-use shorelines, ditches, marshes, and woodland trails in autumn and winter.",
+    "equipment": "Visual awareness and short pet leash.",
+    "diagram": "Watch for flagged stakes and cubbies | Detect strong fish or musk lure | Route wide without touching",
+    "visual": "Conceptual four-cue visual recognition grid highlighting colored survey flags, stick cubbies, disturbed dirt mounds, and strong scent cues.",
+    "failure": {
+      "text": "Walking up to a neat wooden box or flagged stake in a culvert to see what is inside exposes people and pets to concealed spring jaws.",
+      "claims": [
+        "L09",
+        "L10",
+        "L12"
+      ]
+    },
+    "verify": {
+      "text": "Hazard cues trigger immediate wide rerouting while keeping hands, boots, and pets well clear.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "stop": {
+      "text": "Stop advancing into any narrow brush funnel, culvert mouth, or strong-smelling bait patch on multi-use land.",
+      "claims": [
+        "L10",
+        "L12"
+      ]
+    },
+    "reviewer": "Outdoor safety and wildlife-education reviewer"
+  },
+  {
+    "id": "Z07-P16",
+    "zone": "Z07",
+    "title": "Preventing Unintended Capture of Raptors and Protected Birds",
+    "origin": "New manuscript (Z07 P18 unintended capture)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that eagles, hawks, owls, and corvids locate food primarily by sight from above; exposed meat baits near capture devices create severe unintended capture risks.",
+        "claims": [
+          "L14",
+          "H14"
+        ]
+      },
+      {
+        "text": "Recognize that injuring or capturing protected raptors violates the federal Migratory Bird Treaty Act and Bald and Golden Eagle Protection Act as well as Minnesota exposed-bait statutes.",
+        "claims": [
+          "L01",
+          "L14",
+          "H14"
+        ]
+      },
+      {
+        "text": "Never attempt barehanded handling of a trapped or injured hawk, owl, or eagle—talons cause deep puncture trauma—and call MN DNR or a licensed raptor rehabilitator immediately.",
+        "claims": [
+          "L06",
+          "L14"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain why exposed meat baits create severe federal and state legal hazards for eagles, hawks, owls, and scavenging birds.",
+    "applies": "Conservation and legal awareness in woodland, wetland, and prairie bird habitats.",
+    "equipment": "USFWS MBTA and MN DNR reporting contacts.",
+    "diagram": "Understand avian sight-bait danger | Know federal eagle and MBTA law | Report exposed-bait bird injuries",
+    "visual": "Conceptual regulatory and ecological boundary showing why visible carrion baits endanger protected soaring raptors under federal law.",
+    "failure": {
+      "text": "Leaving exposed carcass scraps near equipment or grabbing an injured raptor barehanded causes federal violations and severe talon lacerations.",
+      "claims": [
+        "L06",
+        "L14"
+      ]
+    },
+    "verify": {
+      "text": "Avian non-target protections and safe agency/rehab referral procedures are clearly recognized.",
+      "claims": [
+        "L06",
+        "L14"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching any grounded or entangled raptor; keep bystanders and pets back and call wildlife authorities.",
+      "claims": [
+        "L06",
+        "L14"
+      ]
+    },
+    "reviewer": "Ornithologist and wildlife-law reviewer"
+  },
+  {
+    "id": "Z07-P17",
+    "zone": "Z07",
+    "title": "Child and Group Safety Around Flagged Markers or Suspicious Gear",
+    "origin": "New manuscript (Z07 P18 human hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Brief children and youth groups before every hike on a simple universal rule: never touch unknown metal hardware, wooden boxes, wire loops, cables, or colorful flagged stakes in the woods or along ditches.",
+        "claims": [
+          "L09",
+          "L10"
+        ]
+      },
+      {
+        "text": "Keep youth groups together on designated, maintained trails and parks rather than cutting cross-country through brushy WMA ditches or culverts during autumn and winter.",
+        "claims": [
+          "L07",
+          "L10"
+        ]
+      },
+      {
+        "text": "Teach group members to freeze, step back to the leader, and point from a distance whenever they see unfamiliar gear or a distressed animal.",
+        "claims": [
+          "L06",
+          "L09",
+          "L10"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent curious children and youth groups from touching unfamiliar stakes, wires, boxes, or markers in outdoor areas.",
+    "applies": "Family hikes, youth outdoor education, and group travel on public lands.",
+    "equipment": "Pre-hike group briefing, clear visual boundaries.",
+    "diagram": "Brief youth on hands-off hardware rule | Keep groups on marked main trails | Report unsafe trailside hazards",
+    "visual": "Conceptual three-tier group safety protocol keeping children on established trails and enforcing a strict look-don-t-touch rule.",
+    "failure": {
+      "text": "Curious children pulling on a colorful marker wire or reaching into a wooden cubby risk catastrophic hand crush injuries.",
+      "claims": [
+        "L09",
+        "L10",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "Group briefing is delivered before departure and leaders maintain visual supervision on clear trails.",
+      "claims": [
+        "L10"
+      ]
+    },
+    "stop": {
+      "text": "Stop the group immediately if unfamiliar metal gear, wires, or an injured animal appear near the path; regroup safely away.",
+      "claims": [
+        "L06",
+        "L09",
+        "L10"
+      ]
+    },
+    "reviewer": "Youth outdoor-safety educator"
+  },
+  {
+    "id": "Z07-P18",
+    "zone": "Z07",
+    "title": "Veterinary Emergency Planning and Restraining-Stress Risks for Pets",
+    "origin": "New manuscript (Z07 P18 pet safety)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat short-leash prevention on open multi-use lands as the primary lifesaving measure because high-force devices act faster than unprepared owners can respond.",
+        "claims": [
+          "L10"
+        ]
+      },
+      {
+        "text": "Recognize that even gentle dogs in sudden pain or panic frequently bite owners during stressful incidents; protect hands/face, stay calm, and call for immediate assistance if an incident occurs.",
+        "claims": [
+          "L10",
+          "M06"
+        ]
+      },
+      {
+        "text": "Seek immediate veterinary evaluation for any pet that suffers even a brief restraining or cable encounter because internal bruising, tendon damage, swelling, or airway injury can worsen after release.",
+        "claims": [
+          "L10"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prepare pet owners for immediate safety priorities and veterinary follow-up rather than improvising risky field mechanics.",
+    "applies": "Emergency readiness for dog owners traveling near rural multi-use lands.",
+    "equipment": "Saved 24-hour emergency vet numbers, sturdy leash/muzzle awareness, basic pet first-aid kit.",
+    "diagram": "Prioritize prevention via short leash | Protect handlers from panic bites | Seek prompt veterinary evaluation",
+    "visual": "Conceptual emergency readiness sequence emphasizing short-leash prevention, bite protection for panicked pets, and urgent vet transport.",
+    "failure": {
+      "text": "Assuming a limping dog is fine after a brief mechanical pinch overlooks hidden crush trauma, ischemia, or soft-tissue infection.",
+      "claims": [
+        "L10"
+      ]
+    },
+    "verify": {
+      "text": "Emergency vet contact info is stored offline before rural outings, and short-leash prevention stays enforced.",
+      "claims": [
+        "L10"
+      ]
+    },
+    "stop": {
+      "text": "Stop and seek emergency veterinary care immediately after any pet encounter with a mechanical capture device, wire, or distressed wildlife.",
+      "claims": [
+        "L10"
+      ]
+    },
+    "reviewer": "Veterinarian and pet-safety reviewer"
+  },
+  {
+    "id": "Z07-P19",
+    "zone": "Z07",
+    "title": "Non-Tampering Laws and Safe Distance Around Lawful Equipment",
+    "origin": "New manuscript (Z07 P18 legal and safety)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that Minnesota law prohibits intentionally tampering with, springing, damaging, or stealing lawfully placed traps or snares.",
+        "claims": [
+          "L01",
+          "L09"
+        ]
+      },
+      {
+        "text": "Avoid approaching or touching suspected equipment both to comply with statute and to prevent severe crush injuries from stored spring energy.",
+        "claims": [
+          "L09",
+          "L11"
+        ]
+      },
+      {
+        "text": "Continue safely along the trail, keep companions and leashed pets clear, and contact MN DNR only if you suspect the set is unlawful, unmarked, or placed in a closed park.",
+        "claims": [
+          "L07",
+          "L09"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent both personal injury and criminal trap-interference violations when encountering lawfully placed seasonal gear.",
+    "applies": "Encountering tagged seasonal equipment on open public lands where trapping is lawful.",
+    "equipment": "None—observe from distance and move on.",
+    "diagram": "Respect non-interference statutes | Keep hands and boots completely clear | Detour smoothly on main trail",
+    "visual": "Conceptual correct-versus-incorrect comparison contrasting lawful hands-off detouring against illegal tampering or springing.",
+    "failure": {
+      "text": "Springing a lawful trap with a stick risks broken fingers, eye trauma from flying debris, and misdemeanor wildlife-interference charges.",
+      "claims": [
+        "L09",
+        "L11"
+      ]
+    },
+    "verify": {
+      "text": "Suspected lawful gear is left untouched while the party moves safely out of the immediate corridor.",
+      "claims": [
+        "L09"
+      ]
+    },
+    "stop": {
+      "text": "Stop and step back immediately rather than inspecting tags up close; report concerns from a safe distance.",
+      "claims": [
+        "L09",
+        "L11"
+      ]
+    },
+    "reviewer": "Conservation enforcement reviewer"
+  },
+  {
+    "id": "Z07-P20",
+    "zone": "Z07",
+    "title": "Reporting Illegal, Unmarked or Out-of-Season Gear via TIP",
+    "origin": "New manuscript (Z07 P18 authority referral)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Do not touch, dismantle, or relocate suspected illegal traps or snares; leave the scene intact for Conservation Officers while marking a safe mental/GPS landmark so others avoid it.",
+        "claims": [
+          "L09"
+        ]
+      },
+      {
+        "text": "Record exact GPS coordinates, trail junction distance, date, time, and a distant non-contact photograph showing the surrounding landmark.",
+        "claims": [
+          "L09",
+          "H15"
+        ]
+      },
+      {
+        "text": "Report immediately to the 24-hour Minnesota DNR Turn In Poachers (TIP) line (1-800-652-9093) or park ranger staff if located inside a state or national park.",
+        "claims": [
+          "L07",
+          "L08",
+          "L09"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Report suspected unlawful, park-located, or out-of-season trapping hardware safely to Minnesota DNR enforcement.",
+    "applies": "Discovering suspected illegal traps, snares, or wildlife violations.",
+    "equipment": "GPS/phone camera from safe distance, MN DNR TIP 1-800-652-9093.",
+    "diagram": "Keep safe distance without touching | Log exact GPS and distant photo | Call MN DNR TIP promptly",
+    "visual": "Conceptual three-tier reporting ladder escalating suspected unlawful gear to Minnesota DNR TIP without disturbing evidence.",
+    "failure": {
+      "text": "Moving or dismantling an illegal set destroys legal evidence and exposes good Samaritans to spring-bar injury or confrontation.",
+      "claims": [
+        "L09",
+        "H15"
+      ]
+    },
+    "verify": {
+      "text": "Exact GPS coordinates, non-contact photo, and prompt TIP/ranger notification are completed safely.",
+      "claims": [
+        "L09",
+        "H15"
+      ]
+    },
+    "stop": {
+      "text": "Stop and leave the immediate area if an unknown individual approaches aggressively; call 911 for any personal threat.",
+      "claims": [
+        "L09",
+        "H15"
+      ]
+    },
+    "reviewer": "Conservation enforcement reviewer"
+  },
+  {
+    "id": "Z07-P21",
+    "zone": "Z07",
+    "title": "Safe Response to an Accidentally Trapped Wild Animal",
+    "origin": "New manuscript (Z07 P18 authority referral)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Stop immediately, leash pets tightly, and back away quietly because human proximity spikes panic, exhaustion, and self-injury in a restrained wild animal.",
+        "claims": [
+          "L06"
+        ]
+      },
+      {
+        "text": "Never attempt barehanded release of any wild mammal or bird—even small raccoons, foxes, badgers, beavers, owls, or hawks inflict severe bites, talon wounds, and potential rabies exposure.",
+        "claims": [
+          "L06",
+          "L14",
+          "M17"
+        ]
+      },
+      {
+        "text": "Record exact GPS coordinates, species description if safely visible from afar, and visible injury status, then call Minnesota DNR Conservation Officers or a DNR-licensed wildlife rehabilitator.",
+        "claims": [
+          "L06"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Protect both human rescuers and distressed wildlife by contacting Conservation Officers or licensed rehabilitators instead of attempting barehanded release.",
+    "applies": "Discovering a live trapped, entangled, or injured wild animal in the field.",
+    "equipment": "Phone/GPS for authority call; keep pets and group far back.",
+    "diagram": "Keep quiet wide perimeter | Never attempt barehanded release | Call MN DNR or licensed rehabber",
+    "visual": "Conceptual spatial exclusion map keeping observers quiet and distant while calling MN DNR Conservation Officers or licensed wildlife rehabilitators.",
+    "failure": {
+      "text": "Rushing in to pry open hardware on a panicked wild carnivore or raptor causes severe lacerations, rabies post-exposure treatment, and worse animal injury.",
+      "claims": [
+        "L06",
+        "M17"
+      ]
+    },
+    "verify": {
+      "text": "Wide quiet perimeter is maintained, zero barehanded contact occurs, and wildlife authorities receive exact GPS coordinates.",
+      "claims": [
+        "L06"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching immediately; seek urgent medical care and report to public health if any wild mammal bite or saliva-scratch exposure occurs.",
+      "claims": [
+        "L06",
+        "M17"
+      ]
+    },
+    "reviewer": "Wildlife rehabilitator and public-health veterinarian"
+  },
+  {
+    "id": "Z07-P22",
+    "zone": "Z07",
+    "title": "Rabies, Bite and Claw Trauma Risks with Distressed Wildlife",
+    "origin": "New manuscript (Z07 P18 medical safety)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that skunks, bats, raccoons, foxes, and other wild mammals can transmit fatal rabies through bites or saliva entering scratches and mucous membranes.",
+        "claims": [
+          "L06",
+          "M17"
+        ]
+      },
+      {
+        "text": "Maintain complete hands-off distance from any injured, restrained, sluggish, or unusually tame wild animal rather than trying to comfort or transport it yourself.",
+        "claims": [
+          "L06",
+          "H11"
+        ]
+      },
+      {
+        "text": "If any bite, scratch, or saliva exposure occurs, wash the wound thoroughly with soap and running water immediately and seek urgent medical evaluation for rabies post-exposure prophylaxis and tetanus.",
+        "claims": [
+          "L06",
+          "M06",
+          "M17"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Highlight high-consequence zoonotic and trauma hazards whenever handling or approaching cornered, sick, or entangled mammals.",
+    "applies": "Any field encounter with injured, entangled, or abnormally behaving wild mammals.",
+    "equipment": "Soap and water if accidental exposure occurs; emergency medical and public-health contact.",
+    "diagram": "Treat mammal bites as rabies risk | Keep complete hands-off distance | Wash immediately & call clinician if bit",
+    "visual": "Conceptual clinical escalation ladder connecting mammal exposure prevention to immediate wound washing and urgent rabies risk evaluation.",
+    "failure": {
+      "text": "Attempting to wrap a distressed skunk, fox, or bat in a jacket risks unnoticed scratches and fatal rabies if untreated.",
+      "claims": [
+        "L06",
+        "M17"
+      ]
+    },
+    "verify": {
+      "text": "Zero direct handling occurs, and any accidental exposure triggers immediate thorough washing and medical evaluation.",
+      "claims": [
+        "L06",
+        "M17"
+      ]
+    },
+    "stop": {
+      "text": "Stop all contact and seek same-day clinical care after any wild-mammal bite, bat contact, or saliva-to-broken-skin exposure.",
+      "claims": [
+        "L06",
+        "M17"
+      ]
+    },
+    "reviewer": "Public-health veterinarian and EMS clinician"
+  },
+  {
+    "id": "Z07-P23",
+    "zone": "Z07",
+    "title": "Carrion, Bait Sites and Secondary Predator Encounter Avoidance",
+    "origin": "New manuscript (Z07 P18 encounter avoidance)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat concentrated ravens, crows, magpies, fresh bone/hide piles, or strong rotting odor as an immediate alert that a large carcass or wildlife attractant lies nearby.",
+        "claims": [
+          "L12",
+          "H12"
+        ]
+      },
+      {
+        "text": "Understand that bears and wolves frequently defend fresh carcasses fiercely—and legal or illegal capture hardware can also surround bait sites on multi-use lands.",
+        "claims": [
+          "L12",
+          "H12",
+          "H13"
+        ]
+      },
+      {
+        "text": "Keep children and leashed pets tight, make calm voice noise, and detour widely upwind around any suspected carcass or bait pile.",
+        "claims": [
+          "L12",
+          "H12"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize carcass dumps and scent-bait stations as multi-hazard zones attracting bears, wolves, and scavengers.",
+    "applies": "Backcountry and rural trail travel where carrion or scent attractants are encountered.",
+    "equipment": "Bear-safety awareness, short pet leash, alternate route plan.",
+    "diagram": "Spot scavenger birds and carrion odor | Expect bears or wolves nearby | Reroute wide and keep group close",
+    "visual": "Conceptual hazard zone isolating carrion/bait piles from trail travel due to secondary bear, wolf, and hardware risks.",
+    "failure": {
+      "text": "Walking off-trail to inspect a smelly carcass pile surprises feeding bears or walks dogs into surrounding hazards.",
+      "claims": [
+        "L12",
+        "H12"
+      ]
+    },
+    "verify": {
+      "text": "Party detours wide around carrion odor and circling scavengers without investigating the pile.",
+      "claims": [
+        "L12",
+        "H12"
+      ]
+    },
+    "stop": {
+      "text": "Stop advancing immediately and retreat calmly if fresh bear/wolf tracks, growling, or agitated wildlife appear near carrion.",
+      "claims": [
+        "L12",
+        "H12",
+        "H13"
+      ]
+    },
+    "reviewer": "Wildlife conflict specialist"
+  },
+  {
+    "id": "Z07-P24",
+    "zone": "Z07",
+    "title": "Non-Contact GPS and Landmark Documentation of Hazards",
+    "origin": "New manuscript (Z07 P18 incident reporting)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Record decimal-degree WGS84 GPS coordinates (or clear quadrangle/trail-junction distance) from a safe standing point without stepping into the hazard zone.",
+        "claims": [
+          "L09",
+          "N02"
+        ]
+      },
+      {
+        "text": "Note simple permanent landmarks—trail name, mileage post, stream crossing, or distinct bend—alongside date, time, and a distant wide photo so responders find the exact spot quickly.",
+        "claims": [
+          "L09"
+        ]
+      },
+      {
+        "text": "Share exact hazard coordinates strictly with Minnesota DNR, park rangers, or local authorities rather than posting vague warnings online without official notification.",
+        "claims": [
+          "L09",
+          "H15"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Capture accurate, actionable field coordinates and visual context so rangers or Conservation Officers can locate hazards rapidly.",
+    "applies": "Reporting illegal sets, injured wildlife, or hazardous derelict gear.",
+    "equipment": "Offline GPS/phone coordinates, notebook, camera zoom.",
+    "diagram": "Log WGS84 coordinates safely | Note nearest trailhead and distance | Share exact notes with authorities",
+    "visual": "Conceptual four-step non-contact documentation protocol producing clean GPS, landmark, time, and agency-handoff records.",
+    "failure": {
+      "text": "Reporting \"somewhere down by the creek\" without coordinates or landmarks prevents Conservation Officers from finding injured wildlife or illegal gear.",
+      "claims": [
+        "L09"
+      ]
+    },
+    "verify": {
+      "text": "Saved record contains WGS84 coordinates, trail distance, date/time, distant context photo, and confirmed agency contact.",
+      "claims": [
+        "L09"
+      ]
+    },
+    "stop": {
+      "text": "Stop moving closer just to get a sharper photo; distant context plus GPS is safer and fully actionable.",
+      "claims": [
+        "L09"
+      ]
+    },
+    "reviewer": "SAR and conservation enforcement reviewer"
+  },
+  {
+    "id": "Z07-P25",
+    "zone": "Z07",
+    "title": "Protecting Dens, Beaver Lodges, Wetlands and Sensitive Habitats",
+    "origin": "New manuscript (Z07 P18 environmental restrictions)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Never climb on, poke into, or damage beaver lodges, muskrat houses, or woodland mammal dens—doing so harms overwintering wildlife and violates Minnesota wildlife protection statutes.",
+        "claims": [
+          "L01",
+          "L05",
+          "L13"
+        ]
+      },
+      {
+        "text": "Avoid digging pits, cutting live shoreline saplings, or disturbing fragile bog/fen edges where wetland restoration takes decades.",
+        "claims": [
+          "L13",
+          "R10"
+        ]
+      },
+      {
+        "text": "Observe aquatic mammals quietly from stable upland viewpoints so normal foraging and winter food-cache survival remain undisturbed.",
+        "claims": [
+          "L05",
+          "L13"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Respect legal and ecological protections surrounding active wildlife dens, beaver lodges, muskrat houses, and wetland buffers.",
+    "applies": "Travel and outdoor education near wetlands, streams, and woodland dens.",
+    "equipment": "Land-status map, binoculars.",
+    "diagram": "Stay off beaver lodges and dens | Protect wetland banks from digging | Obey statutory den-setback rules",
+    "visual": "Conceptual wetland transect protecting beaver lodges, bank dens, and sensitive nesting shorelines from disturbance.",
+    "failure": {
+      "text": "Walking onto snow-covered beaver lodges risks breaking into freezing water tunnels and destroying essential winter animal shelter.",
+      "claims": [
+        "L05",
+        "L13",
+        "X03"
+      ]
+    },
+    "verify": {
+      "text": "All dens, lodges, and wetland margins remain completely untouched and observed only from firm upland viewpoints.",
+      "claims": [
+        "L05",
+        "L13"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching whenever thin ice over beaver runs, active bank dens, or protected SNA boundaries are encountered.",
+      "claims": [
+        "L13",
+        "X03"
+      ]
+    },
+    "reviewer": "Wetland ecologist and wildlife manager"
+  },
+  {
+    "id": "Z07-P26",
+    "zone": "Z07",
+    "title": "Preventing Ghost-Entanglement from Wire, Cordage and Line",
+    "origin": "New manuscript (Z07 P18 conservation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Pack out 100% of camp cordage, guy lines, wire ties, monofilament fishing line, and food-packaging loops so zero entanglement hazards remain in wildlife habitat.",
+        "claims": [
+          "L13",
+          "H07"
+        ]
+      },
+      {
+        "text": "Never leave low-hanging guy lines, mesh netting, or loose loops unattended in woods where deer antlers, owls, bats, and small mammals become fatally snared.",
+        "claims": [
+          "L13"
+        ]
+      },
+      {
+        "text": "Leave clearly active or staked metal traps untouched for DNR reporting, while packing out loose discarded monofilament and litter safely into dedicated recycling or trash bins.",
+        "claims": [
+          "L09",
+          "L13",
+          "H07"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Eliminate persistent wildlife-entanglement hazards caused by discarded snare wire, fishing line, netting, and camp cordage.",
+    "applies": "All camping, fishing, trail maintenance, and outdoor stewardship.",
+    "equipment": "Dedicated trash pouch, small snips for safe cleanup of clearly discarded litter only.",
+    "diagram": "Pack out every scrap of wire/line | Never leave unattended camp loops | Recycle fishing line in bins",
+    "visual": "Conceptual comparison contrasting zero-trace camp/line cleanup against multi-year ghost-entanglement harm to birds and mammals.",
+    "failure": {
+      "text": "Leaving tangled fishing line along a lakeshore or forgotten cordage loops in brush kills loons, eagles, turtles, and mammals silently for years.",
+      "claims": [
+        "L13",
+        "H07"
+      ]
+    },
+    "verify": {
+      "text": "Camp and shoreline checks confirm zero left-behind cordage, wire, monofilament, or plastic rings.",
+      "claims": [
+        "L13",
+        "H07"
+      ]
+    },
+    "stop": {
+      "text": "Stop pulling on buried or staked wire if it may be attached to active hardware; report suspicious staked wire to DNR instead.",
+      "claims": [
+        "L09",
+        "L13"
+      ]
+    },
+    "reviewer": "Conservation ecologist"
+  },
+  {
+    "id": "Z07-P27",
+    "zone": "Z07",
+    "title": "Private-Land Permission, Trespass and Neighbor Communication",
+    "origin": "New manuscript (Z07 P18 legal and safety)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Obtain clear prior permission from private landowners before hiking, skiing, or walking pets across rural fields, woods, or creek corridors.",
+        "claims": [
+          "L01",
+          "H02"
+        ]
+      },
+      {
+        "text": "Ask landowners directly whether hunting, livestock protection, or lawful seasonal trapping is active on the parcel before bringing children or dogs onto the land.",
+        "claims": [
+          "L01",
+          "L10"
+        ]
+      },
+      {
+        "text": "Honor all posted boundaries, agricultural-land trespass laws, and closed gates without cutting across private corners to reach public lakes or forests.",
+        "claims": [
+          "L01",
+          "H02"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent land-access conflicts and accidental encounters through clear landowner permission and neighbor safety communication.",
+    "applies": "Rural property stewardship, private trail access, and shared rural boundaries.",
+    "equipment": "Written landowner permission, parcel boundary map.",
+    "diagram": "Secure explicit landowner permission | Ask about seasonal land uses | Honor posted signs and fences",
+    "visual": "Conceptual regulatory and communication boundary reinforcing private-land trespass law and seasonal activity disclosure.",
+    "failure": {
+      "text": "Assuming an unfenced rural woodlot is open public land causes trespass violations and unexpected encounters with active seasonal land uses.",
+      "claims": [
+        "L01",
+        "H02",
+        "L10"
+      ]
+    },
+    "verify": {
+      "text": "Landowner permission and seasonal activity checks are confirmed prior to private-parcel entry.",
+      "claims": [
+        "L01",
+        "H02"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately at unverified fences, private driveways, or posted signs until explicit permission is obtained.",
+      "claims": [
+        "L01",
+        "H02"
+      ]
+    },
+    "reviewer": "Rural land-use legal reviewer"
+  },
+  {
+    "id": "Z07-P28",
+    "zone": "Z07",
+    "title": "Municipal Ordinances and Suburban Wildlife-Control Referral",
+    "origin": "New manuscript (Z07 P18 authority referral)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Address residential wildlife conflicts first through non-lethal exclusion—securing trash lids, sealing attic/crawlspace gaps after confirming no trapped young remain inside, and removing outdoor pet food.",
+        "claims": [
+          "L05",
+          "L06"
+        ]
+      },
+      {
+        "text": "Check municipal ordinances before ever considering residential capture because many cities strictly prohibit traps, wildlife relocation, or release on public parks.",
+        "claims": [
+          "L01",
+          "L05"
+        ]
+      },
+      {
+        "text": "Refer persistent nuisance or injured suburban wildlife to local animal control or state-licensed wildlife-control operators rather than improvising capture devices or relocating disease vectors like raccoons and skunks.",
+        "claims": [
+          "L01",
+          "L05",
+          "L06"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Route residential and suburban nuisance-wildlife issues to municipal animal control and licensed professionals rather than improvised capture.",
+    "applies": "Encountering raccoons, skunks, squirrels, bats, or woodchucks around homes or outbuildings.",
+    "equipment": "Local municipal animal-control contact, MN DNR licensed nuisance-wildlife list.",
+    "diagram": "Exclude wildlife via home repair first | Check municipal trapping bans | Hire licensed wildlife control only",
+    "visual": "Conceptual escalation ladder moving from non-lethal home exclusion/sealing to municipal animal control and licensed wildlife professionals.",
+    "failure": {
+      "text": "Improvising backyard traps or illegally relocating raccoons spreads rabies/distemper, separates dependent young, and violates local ordinances.",
+      "claims": [
+        "L01",
+        "L05",
+        "L06"
+      ]
+    },
+    "verify": {
+      "text": "Home exclusion steps come first, municipal rules are checked, and licensed professionals handle unresolved wildlife conflicts.",
+      "claims": [
+        "L01",
+        "L05",
+        "L06"
+      ]
+    },
+    "stop": {
+      "text": "Stop attempting home capture of bats, skunks, raccoons, or aggressive mammals; call municipal animal control or licensed specialists.",
+      "claims": [
+        "L06",
+        "M17"
+      ]
+    },
+    "reviewer": "Municipal wildlife-control and public-health reviewer"
+  },
+  {
+    "id": "Z07-P29",
+    "zone": "Z07",
+    "title": "Conservation Stewardship: Observation Over Capture Ethics",
+    "origin": "New manuscript (Z07 P18 ethical considerations)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Adopt observation-over-capture as the default backcountry ethic: watching tracks, vocalizations, and habitat interactions yields rich ecological skill with zero animal distress.",
+        "claims": [
+          "L02",
+          "L05",
+          "L13"
+        ]
+      },
+      {
+        "text": "Keep wild animals wild by securing all camp food, avoiding wildlife chases or baiting, and leaving nesting, denning, and migration corridors intact.",
+        "claims": [
+          "L05",
+          "L12",
+          "L13"
+        ]
+      },
+      {
+        "text": "Recognize that lawful sustainable wildlife management relies on public-agency science, strict seasons, and ethical stewardship—never ad-hoc backcountry capture.",
+        "claims": [
+          "L01",
+          "L02",
+          "L05"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reinforce non-extractive wildlife stewardship and ecological respect across recreational backcountry travel.",
+    "applies": "All recreational camping, hiking, and wilderness education.",
+    "equipment": "Binoculars, field notebook, Leave No Trace practices.",
+    "diagram": "Observe wildlife without interference | Keep habitats intact and clean | Model ethical outdoor stewardship",
+    "visual": "Conceptual stewardship comparison aligning modern wildlife conservation ethics with practical low-impact backcountry behavior.",
+    "failure": {
+      "text": "Treating wildlife as props or casual survival-craft targets undermines conservation ethics, degrades habitats, and risks disease or legal charges.",
+      "claims": [
+        "L01",
+        "L05",
+        "L13"
+      ]
+    },
+    "verify": {
+      "text": "Backcountry activities leave zero habitat disturbance, zero food conditioning, and zero capture attempts.",
+      "claims": [
+        "L05",
+        "L13"
+      ]
+    },
+    "stop": {
+      "text": "Stop any educational exercise that stresses wild animals, alters active habitats, or blurs legal harvest boundaries.",
+      "claims": [
+        "L01",
+        "L05",
+        "L13"
+      ]
+    },
+    "reviewer": "Conservation ecologist and ethics reviewer"
+  },
+  {
+    "id": "Z07-P30",
+    "zone": "Z07",
+    "title": "Escalating Unresolved Legal, Welfare and Safety Questions",
+    "origin": "New manuscript (Z07 P18 governance and escalation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Keep any unresolved question regarding jurisdiction, tribal treaty boundaries, species protection, device legality, or animal welfare strictly on HOLD until answered by the governing authority.",
+        "claims": [
+          "L01",
+          "L02",
+          "L03"
+        ]
+      },
+      {
+        "text": "Escalate state statutory and enforcement questions to Minnesota DNR Enforcement, federal listed-species questions to USFWS, and animal-welfare/rehabilitation questions to licensed wildlife veterinarians or AFWA-aligned specialists.",
+        "claims": [
+          "L01",
+          "L02",
+          "L03",
+          "L06"
+        ]
+      },
+      {
+        "text": "Preserve full publication HOLD on Z07 until qualified legal, wildlife-management, and animal-welfare reviewers formally review every page.",
+        "claims": [
+          "L01",
+          "L02"
+        ]
+      }
+    ],
+    "batch": "19-p18-z07-traps",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Maintain explicit fail-closed escalation paths for every legal, animal-welfare, and public-safety boundary in Z07.",
+    "applies": "Editorial review, instructor planning, and field users facing ambiguous trapping-related scenarios.",
+    "equipment": "Official MN DNR, USFWS, tribal, and municipal authority contacts.",
+    "diagram": "Identify uncertain legal/welfare issue | Keep operational action on HOLD | Consult governing agency or specialist",
+    "visual": "Conceptual three-tier governance escalation routing unresolved Z07 questions to MN DNR/USFWS law, welfare scientists, and qualified reviewers.",
+    "failure": {
+      "text": "Guessing at ambiguous trapping statutes or welfare exemptions exposes users and wildlife to preventable legal and physical harm.",
+      "claims": [
+        "L01",
+        "L02",
+        "L03"
+      ]
+    },
+    "verify": {
+      "text": "All unresolved Z07 legal, welfare, and safety dependencies remain explicitly logged and referred to qualified authorities.",
+      "claims": [
+        "L01",
+        "L02",
+        "L03"
+      ]
+    },
+    "stop": {
+      "text": "Stop and withhold operational action whenever legal authority, species status, or safety rules remain uncertain.",
+      "claims": [
+        "L01",
+        "L02",
+        "L03"
+      ]
+    },
+    "reviewer": "Wildlife law, conservation enforcement, and animal-welfare reviewer"
+  },
+  {
     "id": "Z08-P01",
     "zone": "Z08",
     "title": "Minnesota Bedrock Provinces and Regional Geology",

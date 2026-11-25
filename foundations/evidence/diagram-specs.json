@@ -9504,5 +9504,459 @@
       }
     ],
     "cue": "Emergency rescue always overrides hunting or fishing plans"
+  },
+  "Z07-P01": {
+    "type": "system_boundary",
+    "variant": "z07_scope",
+    "zone_a": "Hazard ID, ecology, law & reporting",
+    "zone_b": "Actionable trap/snare construction",
+    "barrier": "Strict editorial prohibition",
+    "hazard": "STOP: Never publish or improvise injurious sets"
+  },
+  "Z07-P02": {
+    "type": "regulation_boundary",
+    "variant": "mn_trap",
+    "authority": "Minnesota DNR Trapping Statutes",
+    "checks": [
+      "Verify current year furbearer season & zones",
+      "Confirm license, check-interval & tagging law",
+      "Check whether land is open WMA vs closed park"
+    ],
+    "prohibition": "STOP: Unauthorized trapping or tampering violates state law"
+  },
+  "Z07-P03": {
+    "type": "correct_vs_wrong",
+    "variant": "no_exempt",
+    "correct_title": "Evidence-Based Emergency Plan",
+    "correct_items": [
+      "Prioritize shelter, water & rescue",
+      "Respect wildlife law at all times"
+    ],
+    "wrong_title": "Hazardous Folklore Myths",
+    "wrong_items": [
+      "Assume emergency exempts snaring",
+      "Leave wire loops in wildlife habitat"
+    ],
+    "reason": "Improvised snares are illegal, inhumane, and waste survival energy"
+  },
+  "Z07-P04": {
+    "type": "regulation_boundary",
+    "variant": "esa_lynx",
+    "authority": "USFWS Endangered Species Act",
+    "checks": [
+      "Strict federal ban on incidental or direct take",
+      "Special northern MN Canada lynx zone rules",
+      "Immediate agency notice if listed animal injured"
+    ],
+    "prohibition": "STOP: Zero disturbance or capture of federally listed species"
+  },
+  "Z07-P05": {
+    "type": "hazard_exclusion_map",
+    "variant": "rare_species",
+    "zones": [
+      "Dens, burrows & wetland nests: zero disturbance",
+      "Protected nongame habitat corridor",
+      "Trail-bound quiet observation zone"
+    ],
+    "buffer": "Most native wildlife is legally protected",
+    "report": "Report rare-species threats to MN DNR"
+  },
+  "Z07-P06": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "NPS & MN SNAs",
+        "note": "Strict federal/state preserves",
+        "limit": "Trapping strictly prohibited"
+      },
+      {
+        "name": "MN State Parks",
+        "note": "Protected recreation parks",
+        "limit": "Public trapping prohibited"
+      },
+      {
+        "name": "WMAs & Forests",
+        "note": "Multi-use public lands",
+        "limit": "Lawful seasonal sets possible"
+      }
+    ]
+  },
+  "Z07-P07": {
+    "type": "hazard_exclusion_map",
+    "variant": "trapping_corridor",
+    "zones": [
+      "Culverts & stream banks: high set probability",
+      "Brush edges & scent piles: keep pets out",
+      "Maintained upland trail: short-leash travel"
+    ],
+    "buffer": "Stay on upland trails in fall/winter",
+    "report": "Do not disturb flagged shoreline markers"
+  },
+  "Z07-P08": {
+    "type": "sequence_plate",
+    "variant": "afwa_bmp",
+    "steps": [
+      {
+        "label": "1. Welfare",
+        "detail": "Minimize trauma & distress"
+      },
+      {
+        "label": "2. Selectivity",
+        "detail": "Exclude non-target & pets"
+      },
+      {
+        "label": "3. User safety",
+        "detail": "Control stored-energy risk"
+      },
+      {
+        "label": "4. Lawful check",
+        "detail": "Follow strict agency rules"
+      }
+    ],
+    "cue": "Improvised traps fail every scientific welfare and selectivity test"
+  },
+  "Z07-P09": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cage / Box traps",
+        "note": "Enclosed live-restraining mesh",
+        "limit": "Bite/rabies hazard; never open"
+      },
+      {
+        "name": "Foothold / Cable",
+        "note": "Staked ground restraining gear",
+        "limit": "Spring pinch & distress hazard"
+      },
+      {
+        "name": "Body-grip frame",
+        "note": "High-force square spring bars",
+        "limit": "Extreme crush & lethal pet risk"
+      }
+    ]
+  },
+  "Z07-P10": {
+    "type": "failure_mode",
+    "cause": "Unselective improvised triggers lack calibration & locks",
+    "cue": "Non-target maiming, slow suffering, unpredictable collapse",
+    "correction": "Prohibit construction; rely on lawful non-capture plans"
+  },
+  "Z07-P11": {
+    "type": "system_boundary",
+    "variant": "spring_energy",
+    "zone_a": "Loaded spring bars & tensioned wire",
+    "zone_b": "Hands-off safe bystander corridor",
+    "barrier": "Zero probing with hands, boots, or sticks",
+    "hazard": "STOP: Stored spring energy crushes fingers instantaneously"
+  },
+  "Z07-P12": {
+    "type": "seasonal_timeline",
+    "variant": "ghost_gear",
+    "phases": [
+      {
+        "window": "Open season",
+        "focus": "Lawful tagged & checked"
+      },
+      {
+        "window": "Season close",
+        "focus": "All gear must be removed"
+      },
+      {
+        "window": "Abandoned",
+        "focus": "Ghost-entanglement risk"
+      },
+      {
+        "window": "Report",
+        "focus": "GPS photo to MN DNR TIP"
+      }
+    ],
+    "threshold": "STOP: Never tamper with active gear; report derelict sets to DNR"
+  },
+  "Z07-P13": {
+    "type": "sequence_plate",
+    "variant": "trail_check",
+    "steps": [
+      {
+        "label": "1. Check map",
+        "detail": "Park/SNA vs WMA/Forest"
+      },
+      {
+        "label": "2. Check dates",
+        "detail": "Oct-Mar furbearer windows"
+      },
+      {
+        "label": "3. Plan pets",
+        "detail": "Short leash on open land"
+      },
+      {
+        "label": "4. Read signs",
+        "detail": "Check trailhead notices"
+      }
+    ],
+    "cue": "Verify land type and season dates before walking dogs afield"
+  },
+  "Z07-P14": {
+    "type": "hazard_exclusion_map",
+    "variant": "pet_leash",
+    "zones": [
+      "Off-trail brush & culverts: high risk",
+      "Shoreline scent piles: strict exclusion",
+      "Clear trail center: <= 6 ft fixed leash"
+    ],
+    "buffer": "Prevention by leashing beats emergency release",
+    "report": "Carry 24-hr rural emergency vet contact"
+  },
+  "Z07-P15": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Flagged stakes or marked saplings",
+      "Stick/box cubby or narrow funnel",
+      "Freshly raked dirt or wired anchor",
+      "Strong fish, musk, or carrion odor"
+    ],
+    "scale": "Recognize early from safe trail",
+    "limit": "Route wide; never inspect close-up"
+  },
+  "Z07-P16": {
+    "type": "regulation_boundary",
+    "variant": "raptor_law",
+    "authority": "MBTA · Eagle Protection Act · MN DNR",
+    "checks": [
+      "Exposed sight baits endanger soaring raptors",
+      "Strict state & federal exposed-bait rules apply",
+      "Talons cause deep injury: call rehab/DNR only"
+    ],
+    "prohibition": "STOP: Never touch or approach an entangled eagle, hawk, or owl"
+  },
+  "Z07-P17": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Pre-hike brief",
+        "scope": "All youth & adults",
+        "action": "Hands-off unknown gear/flags"
+      },
+      {
+        "role": "Spot hazard",
+        "scope": "Group halts",
+        "action": "Freeze, step back & tell leader"
+      },
+      {
+        "role": "Route / Report",
+        "scope": "Safe distance",
+        "action": "Detour wide; report if unsafe"
+      }
+    ],
+    "trigger": "STOP: Never let children pull flags, wires, or inspect boxes"
+  },
+  "Z07-P18": {
+    "type": "sequence_plate",
+    "variant": "pet_vet",
+    "steps": [
+      {
+        "label": "1. Prevent",
+        "detail": "<= 6 ft leash on open lands"
+      },
+      {
+        "label": "2. Stay safe",
+        "detail": "Guard against panic bites"
+      },
+      {
+        "label": "3. Stabilize",
+        "detail": "Keep pet calm & warm"
+      },
+      {
+        "label": "4. Vet care",
+        "detail": "Check crush/airway injury"
+      }
+    ],
+    "cue": "Hidden crush or airway swelling requires urgent vet assessment"
+  },
+  "Z07-P19": {
+    "type": "correct_vs_wrong",
+    "variant": "non_tamper",
+    "correct_title": "Safe Lawful Response",
+    "correct_items": [
+      "Stay back & detour smoothly",
+      "Report suspected violations to DNR"
+    ],
+    "wrong_title": "Unsafe & Illegal Actions",
+    "wrong_items": [
+      "Spring or move found traps",
+      "Touch cables or boxes up close"
+    ],
+    "reason": "Tampering risks severe crush injury and statutory penalties"
+  },
+  "Z07-P20": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Keep clear",
+        "scope": "Safe distance",
+        "action": "Zero touch or dismantling"
+      },
+      {
+        "role": "Document",
+        "scope": "GPS & landmark",
+        "action": "Log time, trail & wide photo"
+      },
+      {
+        "role": "Notify DNR",
+        "scope": "TIP / Park Ranger",
+        "action": "Call 1-800-652-9093 promptly"
+      }
+    ],
+    "trigger": "STOP: Leave physical evidence intact for Conservation Officers"
+  },
+  "Z07-P21": {
+    "type": "hazard_exclusion_map",
+    "variant": "trapped_animal",
+    "zones": [
+      "Restrained animal: severe bite/talon zone",
+      "Quiet visual setback: reduce animal stress",
+      "Safe call station: GPS to DNR/rehab"
+    ],
+    "buffer": "Zero barehanded release attempts",
+    "report": "Call MN DNR or licensed wildlife rehabber"
+  },
+  "Z07-P22": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Avoid",
+        "scope": "Hands-off distance",
+        "action": "Never handle distressed mammals"
+      },
+      {
+        "role": "If exposed",
+        "scope": "Immediate first aid",
+        "action": "Wash thoroughly with soap & water"
+      },
+      {
+        "role": "Clinician",
+        "scope": "Urgent medical eval",
+        "action": "Assess rabies PEP & wound care"
+      }
+    ],
+    "trigger": "STOP: Rabies is fatal once symptomatic; evaluate bites promptly"
+  },
+  "Z07-P23": {
+    "type": "hazard_exclusion_map",
+    "variant": "carrion",
+    "zones": [
+      "Carcass / bait pile: predator & gear zone",
+      "Wide upwind bypass corridor",
+      "Safe calm group regroup point"
+    ],
+    "buffer": "Never inspect smelly carcass piles",
+    "report": "Report suspicious unlawful baiting to DNR"
+  },
+  "Z07-P24": {
+    "type": "specimen_doc_plate",
+    "variant": "hazard_gps",
+    "views": [
+      "WGS84 GPS from safe spot",
+      "Trail junction & distance",
+      "Distant wide context photo",
+      "Direct call to DNR / Ranger"
+    ],
+    "voucher": "Zero entry into hazard zone",
+    "hold": "Deliver exact report to authorities first"
+  },
+  "Z07-P25": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Active beaver lodge: zero climbing",
+      "Thin ice over underwater runs",
+      "Woodland dens & hollow trees",
+      "Firm upland viewing setback"
+    ],
+    "scale": "Protect winter shelter & thin ice",
+    "limit": "Damaging lodges/dens is illegal & unsafe"
+  },
+  "Z07-P26": {
+    "type": "correct_vs_wrong",
+    "variant": "ghost_line",
+    "correct_title": "Zero-Entanglement Ethics",
+    "correct_items": [
+      "Pack out all cord, wire & line",
+      "Use shore monofilament bins"
+    ],
+    "wrong_title": "Persistent Ghost Hazards",
+    "wrong_items": [
+      "Drop tangled fishing line ashore",
+      "Leave cord loops hanging in brush"
+    ],
+    "reason": "Abandoned wire and fishing line entangle birds and mammals indefinitely"
+  },
+  "Z07-P27": {
+    "type": "regulation_boundary",
+    "variant": "private_land",
+    "authority": "MN Trespass Law · Private Landowners",
+    "checks": [
+      "Obtain explicit permission before entering parcels",
+      "Ask owner about active hunting/trapping seasons",
+      "Respect all posted signs, crops & closed gates"
+    ],
+    "prohibition": "STOP: Unfenced rural land is NOT automatically public access"
+  },
+  "Z07-P28": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Exclude",
+        "scope": "Non-lethal prevention",
+        "action": "Secure trash & seal home gaps"
+      },
+      {
+        "role": "Check law",
+        "scope": "City & DNR rules",
+        "action": "Verify local bans on relocation"
+      },
+      {
+        "role": "Refer",
+        "scope": "Licensed control",
+        "action": "Call animal control or licensed pro"
+      }
+    ],
+    "trigger": "STOP: Never relocate skunks/raccoons or improvise backyard traps"
+  },
+  "Z07-P29": {
+    "type": "correct_vs_wrong",
+    "variant": "ethics",
+    "correct_title": "Ethical Wildlife Stewardship",
+    "correct_items": [
+      "Track & observe from afar",
+      "Leave zero food or wire behind"
+    ],
+    "wrong_title": "Harmful Field Habits",
+    "wrong_items": [
+      "Bait or crowd animals for close-ups",
+      "Practice capture craft on wildlife"
+    ],
+    "reason": "Healthy wildlife populations depend on low-impact respect and law"
+  },
+  "Z07-P30": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Field user",
+        "scope": "Uncertain rule/set",
+        "action": "Hold action & keep safe distance"
+      },
+      {
+        "role": "Agency",
+        "scope": "MN DNR / USFWS / City",
+        "action": "Confirm statute & report hazard"
+      },
+      {
+        "role": "SME review",
+        "scope": "Law & welfare board",
+        "action": "Formal Z07 sign-off before release"
+      }
+    ],
+    "trigger": "HOLD: Z07 requires qualified wildlife, legal & welfare sign-off"
   }
 }
