@@ -24,7 +24,8 @@ QUAL = FOUND / 'audit/a04/V01_V02_VISUAL_QUALIFICATION.csv'
 DISPOSITIONS = {'PROVISIONAL_EDITORIAL_CANDIDATE', 'HELD_SPECIALIST_INPUT', 'HELD_SOURCE_GAP',
                 'HELD_AUTHENTIC_EVIDENCE', 'REJECTED_RETAIN_PREDECESSOR'}
 BUILDERS = {'build_w2c_knots.py': ('Z09-P14', 'Z09-P15'), 'build_w2c_navigation.py': ('Z11-R05',),
-            'w2c_plates_b02.py': ('Z13-P44', 'Z13-P37', 'Z13-P48', 'Z13-P41', 'Z13-P53')}
+            'w2c_plates_b02.py': ('Z13-P44', 'Z13-P37', 'Z13-P48', 'Z13-P41', 'Z13-P53'),
+            'w2c_plates_b03.py': ('Z13-P20', 'Z13-P56', 'Z15-P43', 'Z13-P60', 'Z13-P57')}
 REGISTER_FIELDS = ['page_id', 'asset_id', 'priority', 'origin', 'review_family', 'w2c_status', 'batch',
                    'predecessor_sha256', 'revised_sha256', 'physical_relationship', 'source_basis',
                    'geometry_validation', 'inspection', 'card_changes', 'remaining_dependencies',

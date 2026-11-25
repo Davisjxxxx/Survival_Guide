@@ -19,7 +19,7 @@ A04 records, the V01/V02 plates, the 40 photographs, the realistic pilot and the
 1. Source support is established before drawing. Card claims are read at their cited section; missing or misattributed support is recorded in `W2C_EVIDENCE_DECISIONS.csv`.
 2. The drawing shows the physical relationship itself. Computed plates are generated from a model and checked numerically: `scripts/build_w2c_knots.py` (rope crossing order, knot determinant, tail position) and `scripts/build_w2c_navigation.py` (dial, needle, neat-line and declination angles).
 3. `scripts/verify_w2c_visual.py <batch> --axe <axe.min.js>` opens every page offline at 390 and 1280 px, runs axe-core, captures the page context, and prints tagged Letter and A4 proofs checked with the established proof inspection.
-4. A person-equivalent visual inspection of the captures and print sheets is recorded in the ledger. Automated checks alone never qualify a plate.
+4. An AI visual inspection of the captures and print sheets is recorded in the ledger. It is not a qualified human review, and automated checks alone never qualify a plate.
 
 The three plates A04 returned for reconstruction keep their A04 candidates in place under `visual/v02_technical/revised/`. `scripts/check_a04.py` accepts a different active figure for those rows only when a W2C record chains the A04 candidate hash to the W2C predecessor, revision and active reader figure.
 

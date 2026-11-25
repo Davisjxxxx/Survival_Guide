@@ -1,13 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Never heat a home with kitchen ovens, charcoal grills, or camp stoves</title>
-  <desc id="desc">SYSTEM SEPARATION &amp; BOUNDARY: NEVER use ovens, grills or camp stoves | Charcoal emits massive odorless CO | Relocate to warming center instead — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P20 · SYSTEM SEPARATION &amp; BOUNDARY (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="system-boundary-shelter_seal-artwork"><rect x="34" y="46" width="210" height="84" rx="8" fill="#dce8df" stroke="#184438" stroke-width="3"/><rect x="276" y="46" width="168" height="84" rx="6" fill="#eef1e6" stroke="#4f6c5d" stroke-width="2.5"/><rect x="476" y="46" width="210" height="84" rx="8" fill="#f7e6dc" stroke="#8f381c" stroke-width="3"/><rect x="42" y="58" width="194" height="58" rx="5" fill="#fffdf7" fill-opacity="0.88" stroke="#184438"/><text x="139" y="82" font-size="11.2" font-weight="700" fill="#183c31" text-anchor="middle">SAFE WARMTH Dry</text><text x="139" y="96" font-size="11.2" font-weight="700" fill="#183c31" text-anchor="middle">layers, blankets &amp;</text><text x="139" y="110" font-size="11.2" font-weight="700" fill="#183c31" text-anchor="middle">warming center</text><rect x="264" y="60" width="192" height="54" rx="5" fill="#fffdf7" fill-opacity="0.92" stroke="#7c6928"/><text x="360" y="82" font-size="11.2" font-weight="700" fill="#3d3312" text-anchor="middle">ZERO INDOOR FLAME CO</text><text x="360" y="96" font-size="11.2" font-weight="700" fill="#3d3312" text-anchor="middle">alarms active</text><rect x="484" y="58" width="194" height="58" rx="5" fill="#fffdf7" fill-opacity="0.88" stroke="#8f381c"/><text x="581" y="82" font-size="11.2" font-weight="700" fill="#642e1e" text-anchor="middle">FORBIDDEN HEATERS</text><text x="581" y="96" font-size="11.2" font-weight="700" fill="#642e1e" text-anchor="middle">Ovens, charcoal</text><text x="581" y="110" font-size="11.2" font-weight="700" fill="#642e1e" text-anchor="middle">grills, camp stoves</text><rect x="34" y="138" width="652" height="19" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360" y="151" font-size="10.8" font-weight="650" fill="#642e1e" text-anchor="middle">NEVER heat a home with ovens, charcoal grills or camp stoves — fatal CO</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">NEVER use ovens, grills</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">or camp stoves</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Charcoal emits massive</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">odorless CO</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Relocate to warming</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">center instead</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Carbon monoxide from improvised indoor heat</title>
+<desc id="desc">Left: a closed room heated with an open gas oven, a charcoal grill and a camp stove. Carbon monoxide spreads through the room and reaches a person asleep on a couch; it is colourless and odourless and a cracked window does not clear it. Right: when home heat fails, people stay in warm layers in one interior room and go early to a warming centre or another place with power. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P20 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p20-artwork">
+<rect x="24" y="46" width="470" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">✕ IMPROVISED INDOOR HEAT</text>
+<rect x="512" y="46" width="364" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="528" y="72" class="head ok">✓ WHEN HOME HEAT FAILS</text>
+<rect x="40" y="84" width="438" height="238" fill="#f5f2e8" stroke="#183a30" stroke-width="2.4"/><rect x="40" y="314" width="438" height="8" fill="#cbbf9f"/>
+<rect x="52" y="92" width="414" height="190" rx="18" fill="#8a8f86" fill-opacity="0.32" stroke="#6b706a" stroke-width="1.6" stroke-dasharray="6 5"/>
+<rect x="420" y="112" width="40" height="70" fill="#d8ecf4" stroke="#183a30" stroke-width="2"/><rect x="420" y="138" width="40" height="6" fill="#f5f2e8"/><path d="M420 138h40M420 144h40" stroke="#183a30" stroke-width="1.6"/>
+<rect x="60" y="216" width="76" height="96" rx="4" fill="#d9dcdc" stroke="#183a30" stroke-width="2.2"/><path d="M64 262l-26 30h76l-14-30z" fill="#bfc4c4" stroke="#183a30" stroke-width="2"/><rect x="72" y="226" width="52" height="30" fill="#3b3b3b"/>
+<path d="M98 252c-7.7 0 -8.8 -7.7 -4.4 -13.2c1.1 3.3 3.3 4.4 3.3 1.1c0 -4.4 3.3 -6.6 5.5 -8.8c-1.1 5.5 4.4 7.7 3.3 14.3c-0.6 4.4 -4.4 6.6 -7.7 6.6z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M98 250.9c-2.8 0 -3.3 -3.3 -1.1 -5.5c0.6 1.7 2.2 2.2 2.8 0c0.6 2.8 0 5.5 -1.7 5.5z" fill="#f6c453"/>
+<path d="M168 262h56l-8 22h-40z" fill="#3e3e3e" stroke="#183a30" stroke-width="2"/><path d="M180 284l-8 28M212 284l8 28" stroke="#183a30" stroke-width="2.4"/>
+<circle cx="180" cy="260" r="4" fill="#e0703a"/>
+<circle cx="191" cy="260" r="4" fill="#e0703a"/>
+<circle cx="202" cy="260" r="4" fill="#e0703a"/>
+<circle cx="213" cy="260" r="4" fill="#e0703a"/>
+<rect x="252" y="290" width="52" height="22" rx="3" fill="#5f8f6a" stroke="#183a30" stroke-width="2"/>
+<path d="M278 290c-7 0 -8 -7 -4 -12c1 3 3 4 3 1c0 -4 3 -6 5 -8c-1 5 4 7 3 13c-0.5 4 -4 6 -7 6z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M278 289c-2.5 0 -3 -3 -1 -5c0.5 1.5 2 2 2.5 0c0.5 2.5 0 5 -1.5 5z" fill="#f6c453"/>
+<circle cx="98" cy="206" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M93 201.1L103 210.9M103 201.1L93 210.9" stroke="#8b3825" stroke-width="3"/>
+<circle cx="196" cy="246" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M191.1 241.1L200.9 250.9M200.9 241.1L191.1 250.9" stroke="#8b3825" stroke-width="3"/>
+<circle cx="278" cy="268" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M273.1 263.1L282.9 272.9M282.9 263.1L273.1 272.9" stroke="#8b3825" stroke-width="3"/>
+<rect x="336" y="272" width="118" height="30" rx="8" fill="#9aa69c" stroke="#183a30" stroke-width="2"/>
+<circle cx="352" cy="261.9" r="10.1" fill="#5a6f78"/><rect x="364.1" y="252.8" width="71.8" height="18.2" rx="9.1" fill="#5a6f78"/>
+<rect x="288" y="95" width="24" height="18" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="300" y="108" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<path d="M110 200C130 130 230 80 280 90" fill="none" stroke="#6b7f8c" stroke-width="2.6" stroke-dasharray="5 4" marker-end="url(#m-air)"/>
+<path d="M200 236C220 166 320 116 370 126" fill="none" stroke="#6b7f8c" stroke-width="2.6" stroke-dasharray="5 4" marker-end="url(#m-air)"/>
+<path d="M280 252C300 182 400 132 450 142" fill="none" stroke="#6b7f8c" stroke-width="2.6" stroke-dasharray="5 4" marker-end="url(#m-air)"/>
+<text x="70" y="116" class="tiny">carbon monoxide: no colour,</text>
+<text x="70" y="137" class="tiny">no smell; fills a closed room</text>
+<text x="290" y="196" class="tiny">a cracked window</text>
+<text x="290" y="217" class="tiny">does not clear it</text>
+<path class="lead" d="M410 192L420 144"/>
+<rect x="532" y="120" width="150" height="180" fill="#f5f2e8" stroke="#183a30" stroke-width="2.4"/><rect x="532" y="292" width="150" height="8" fill="#cbbf9f"/>
+<circle cx="580" cy="215.5" r="9.5" fill="#7a5a43"/><path d="M568.8 226.6h22.4l2.6 34.4h-6.9l-.0 31h-6l-1.7-25.8l-1.7 25.8h-6v-31h-6.9z" fill="#7a5a43"/>
+<circle cx="624" cy="229.7" r="7.7" fill="#8b6a52"/><path d="M614.9 238.8h18.2l2.1 28h-5.6l-.0 25.2h-4.9l-1.4-21l-1.4 21h-4.9v-25.2h-5.6z" fill="#8b6a52"/>
+<text x="530" y="104" class="tiny">warm layers in one</text>
+<text x="530" y="125" class="tiny">interior room</text>
+<rect x="744" y="176" width="112" height="86" rx="4" fill="#e6efe9" stroke="#183a30" stroke-width="2.4"/><path d="M736 178l64-40 64 40" fill="none" stroke="#183a30" stroke-width="2.4"/><rect x="786" y="222" width="28" height="40" fill="#cfe0e6" stroke="#183a30" stroke-width="1.6"/>
+<path d="M690 236H738" fill="none" stroke="#205b68" stroke-width="4" marker-end="url(#m-flow)"/>
+<text x="718" y="284" class="tiny">go early to a</text>
+<text x="718" y="305" class="tiny">warming centre or</text>
+<text x="718" y="326" class="tiny">a place with power</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Headache, dizziness, nausea or a CO alarm: get everyone outside now, then call 911.</text>
+</g>
 </svg>

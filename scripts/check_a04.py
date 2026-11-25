@@ -43,6 +43,12 @@ class CompactRoutes(HTMLParser):
             self.links.setdefault(self.id, set()).add(props['href'])
 
 
+def w2c_records():
+    """All W2C records by page, used to recognise A04-era snapshots of later revised figures."""
+    path = VISUAL / 'w2c_technical/MANIFEST.json'
+    return {r['page_id']: r for r in json.loads(path.read_text(encoding='utf-8'))} if path.is_file() else {}
+
+
 def w2c_supersessions():
     """W2C records that replace an A04 candidate returned for reconstruction."""
     path = VISUAL / 'w2c_technical/MANIFEST.json'
@@ -138,9 +144,15 @@ def check_atlas():
     routes = json.loads((folder / 'ROUTES.json').read_text())
     records = {r['page_id']: {f'sources/{id}.html' for id in r['upstream'].split()} for r in routes}
     require(len(routes) == 8 and parser.links == records, 'Compact atlas comparison routing mismatch')
+    records = w2c_records()
     for image in (folder / 'sources/visuals').glob('*.svg'):
-        require(image.read_bytes() == (FOUND / 'reader/visuals' / image.name).read_bytes(),
-                f'Bundled source figure differs from the active reader: {image.name}')
+        # The comparison is a frozen A04 snapshot. A bundled figure must match the active reader, or, for a page
+        # later revised in W2C, the recorded W2C predecessor (the figure as it stood at the A04 checkpoint).
+        record = records.get(image.stem)
+        current = image.read_bytes() == (FOUND / 'reader/visuals' / image.name).read_bytes()
+        snapshot = bool(record) and digest(image) == record['predecessor_sha256'] == digest(
+            VISUAL / 'w2c_technical' / record['predecessor'])
+        require(current or snapshot, f'Bundled source figure differs from the active reader: {image.name}')
     entries = {f.relative_to(folder).as_posix() for f in folder.rglob('*') if f.is_file()}
     for key in entries:
         if key.endswith('.html'):

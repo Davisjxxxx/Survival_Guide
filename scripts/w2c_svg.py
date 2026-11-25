@@ -34,10 +34,11 @@ def fmt(v):
 
 
 class Plate:
-    def __init__(self, page_id, title, desc):
+    def __init__(self, page_id, title, desc, scale_note='NOT TO SCALE'):
         self.page_id = page_id
         self.title = title
         self.desc = desc
+        self.scale_note = scale_note
         self.items = []
 
     def add(self, *markup):
@@ -95,7 +96,7 @@ class Plate:
             f'<defs>{defs}</defs>',
             STYLE,
             f'<rect x="1" y="1" width="898" height="393" rx="12" fill="{BG}" stroke="#789481" stroke-width="2"/>',
-            f'<text x="24" y="32" class="small">{self.page_id} · TECHNICAL REVIEW · NOT TO SCALE</text>',
+            f'<text x="24" y="32" class="small">{self.page_id} · TECHNICAL REVIEW · {self.scale_note}</text>',
             f'<g id="{self.page_id.lower()}-artwork">',
         ]
         return '\n'.join(head + self.items + ['</g>', '</svg>']) + '\n'
@@ -158,3 +159,40 @@ def jug(x, y, h=54, label='SAFE', fill='#dcecf3'):
             f'V{fmt(y + h)}Z" fill="{fill}" stroke="{INK}" stroke-width="2.2"/>'
             + (f'<text x="{fmt(x + w / 2)}" y="{fmt(y + h * .72)}" class="tiny" text-anchor="middle" font-size="11">{escape(label)}</text>'
                if label else ''))
+
+
+def person(x, y, h=70, pose='stand', fill='#5a6f78'):
+    """Simple figure. stand: feet at (x, y); lie: lying on its side with head at x, body to the right."""
+    r = h * 0.11
+    if pose == 'lie':
+        return (f'<circle cx="{fmt(x)}" cy="{fmt(y - r)}" r="{fmt(r)}" fill="{fill}"/>'
+                f'<rect x="{fmt(x + r * 1.2)}" y="{fmt(y - r * 1.9)}" width="{fmt(h * 0.78)}" height="{fmt(r * 1.8)}" '
+                f'rx="{fmt(r * 0.9)}" fill="{fill}"/>')
+    return (f'<circle cx="{fmt(x)}" cy="{fmt(y - h + r)}" r="{fmt(r)}" fill="{fill}"/>'
+            f'<path d="M{fmt(x - h * .13)} {fmt(y - h * .76)}h{fmt(h * .26)}l{fmt(h * .03)} {fmt(h * .4)}h-{fmt(h * .08)}'
+            f'l-.0 {fmt(h * .36)}h-{fmt(h * .07)}l-{fmt(h * .02)}-{fmt(h * .3)}l-{fmt(h * .02)} {fmt(h * .3)}h-{fmt(h * .07)}'
+            f'v-{fmt(h * .36)}h-{fmt(h * .08)}z" fill="{fill}"/>')
+
+
+def flame(x, y, s=1.0):
+    """Flame with its base at (x, y)."""
+    return (f'<path d="M{fmt(x)} {fmt(y)}c{fmt(-14 * s)} 0 {fmt(-16 * s)} {fmt(-14 * s)} {fmt(-8 * s)} {fmt(-24 * s)}'
+            f'c{fmt(2 * s)} {fmt(6 * s)} {fmt(6 * s)} {fmt(8 * s)} {fmt(6 * s)} {fmt(2 * s)}c0 {fmt(-8 * s)} {fmt(6 * s)} {fmt(-12 * s)} '
+            f'{fmt(10 * s)} {fmt(-16 * s)}c{fmt(-2 * s)} {fmt(10 * s)} {fmt(8 * s)} {fmt(14 * s)} {fmt(6 * s)} {fmt(26 * s)}'
+            f'c{fmt(-1 * s)} {fmt(8 * s)} {fmt(-8 * s)} {fmt(12 * s)} {fmt(-14 * s)} {fmt(12 * s)}z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/>'
+            f'<path d="M{fmt(x)} {fmt(y - 2 * s)}c{fmt(-5 * s)} 0 {fmt(-6 * s)} {fmt(-6 * s)} {fmt(-2 * s)} {fmt(-10 * s)}'
+            f'c{fmt(1 * s)} {fmt(3 * s)} {fmt(4 * s)} {fmt(4 * s)} {fmt(5 * s)} {fmt(0)}c{fmt(1 * s)} {fmt(5 * s)} 0 {fmt(10 * s)} {fmt(-3 * s)} {fmt(10 * s)}z" fill="#f6c453"/>')
+
+
+def alarm(x, y, kind='smoke', r=12):
+    if kind == 'co':
+        return (f'<rect x="{fmt(x - r)}" y="{fmt(y - r * .75)}" width="{fmt(2 * r)}" height="{fmt(1.5 * r)}" rx="3" '
+                f'fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="{fmt(x)}" y="{fmt(y + 4)}" class="tiny" '
+                f'text-anchor="middle" font-size="11">CO</text>')
+    return (f'<circle cx="{fmt(x)}" cy="{fmt(y)}" r="{fmt(r)}" fill="#ffffff" stroke="#183a30" stroke-width="2"/>'
+            f'<circle cx="{fmt(x)}" cy="{fmt(y)}" r="{fmt(r * .4)}" fill="none" stroke="#183a30" stroke-width="1.4"/>')
+
+
+def gas(x, y, w, h, fill='#8a8f86', opacity=.32):
+    return (f'<rect x="{fmt(x)}" y="{fmt(y)}" width="{fmt(w)}" height="{fmt(h)}" rx="18" fill="{fill}" '
+            f'fill-opacity="{opacity}" stroke="#6b706a" stroke-width="1.6" stroke-dasharray="6 5"/>')

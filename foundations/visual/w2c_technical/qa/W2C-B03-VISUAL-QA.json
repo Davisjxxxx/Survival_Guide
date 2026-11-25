@@ -1,0 +1,99 @@
+{
+  "batch": "W2C-B03",
+  "pages": [
+    "Z13-P20",
+    "Z13-P56",
+    "Z15-P43",
+    "Z13-P60",
+    "Z13-P57"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z13-P20": [],
+    "Z13-P56": [],
+    "Z15-P43": [],
+    "Z13-P60": [],
+    "Z13-P57": []
+  },
+  "axe_incomplete": {
+    "Z13-P20": [],
+    "Z13-P56": [],
+    "Z15-P43": [],
+    "Z13-P60": [],
+    "Z13-P57": []
+  },
+  "figure_alt": {
+    "Z13-P20": "Left: a closed room heated with an open gas oven, a charcoal grill and a camp stove. Carbon monoxide spreads through the room and reaches a person asleep on a couch; it is colourless and odourless and a cracked window does not clear it. Right: when home heat fails, people stay in warm layers in one interior room and go early to a warming centre or another place with power. Conceptual, not to scale.",
+    "Z13-P56": "Cutaway of a three-level home. A smoke alarm and a carbon monoxide alarm are on every level, including the basement, and a carbon monoxide alarm sits in the hallway outside the bedrooms. No carbon monoxide alarm is placed in the kitchen or directly above the furnace. A side panel notes that the test button checks circuitry rather than sensor accuracy, smoke alarms are replaced every ten years or as the maker directs, and carbon monoxide alarms at the replacement age the maker gives. Conceptual, not to scale.",
+    "Z15-P43": "Plan view drawn to an indicated scale. A generator runs outside with its exhaust pointed away, at least 20 feet from the nearest window and door and from the attached garage. Inside, LED lanterns replace flame, the refrigerator and freezer stay closed, electronics are unplugged against surges, and a carbon monoxide alarm is on the level. A side panel gives the cold-holding times, the rule that generators, camp stoves and charcoal grills stay outdoors, and the exit triggers. Clearances are drawn to the indicated scale; symbols are not to scale.",
+    "Z13-P60": "Left: gasoline cans stored in a basement. Their vapour is heavier than air, collects low and travels across the floor to the pilot flame of a water heater or furnace, where it can ignite. Right: sealed, approved fuel containers and a propane cylinder stored upright outdoors in a ventilated shed away from living quarters and ignition sources. Conceptual, not to scale.",
+    "Z13-P57": "Left: a small fire confined to one pan or wastebasket. The user has alerted others, the fire department has been called, the user stands with a clear escape route behind them and sprays at the base of the fire. Below, the four PASS steps: pull the pin, aim low at the base, squeeze slowly and evenly, sweep side to side. Right: smoke filling the room, fire spreading beyond one object, or no clear escape route means leaving and calling 911. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B03/W2C-B03-letter.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "1a56f789c7446bedc51765a81417006aee7468fb5274450b16f96fbfb46a428b"
+    },
+    "visual/w2c_context/W2C-B03/W2C-B03-a4.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "dc1641059f15419698bc35fccf56c8e10e55376d255a8ee7dcd218458fc4a379"
+    },
+    "visual/w2c_context/W2C-B03/W2C-B03-compare.jpg": {
+      "sha256": "3290e6e052a90056e1bd943daf9fb51177f3f73e292a3b2e2b891ad0b56d3b4c",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B03/W2C-B03-compare-gray.jpg": {
+      "sha256": "ec80032ead662572b8f598bddc79b8711df7328e1c17141b3a6e30ef2cc34972",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B03/W2C-B03-phone.jpg": {
+      "sha256": "5a24cb48021ff9e342c551099e81b79259c69ba87b25add23406ce9d609df52f",
+      "size": [
+        1482,
+        1924
+      ]
+    },
+    "visual/w2c_context/W2C-B03/W2C-B03-desktop.jpg": {
+      "sha256": "ab6048374e192c323c85910c1f835471c6fd902a5256cf76e823f96cd68181cf",
+      "size": [
+        1310,
+        2065
+      ]
+    },
+    "visual/w2c_context/W2C-B03/W2C-B03-print.jpg": {
+      "sha256": "5f7edc6a8096d035670c03a9d53f00be6268e81b834881fee4dd9cdb5816f1e9",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

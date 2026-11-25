@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Fuel vapour inside a home versus outdoor storage</title>
+<desc id="desc">Left: gasoline cans stored in a basement. Their vapour is heavier than air, collects low and travels across the floor to the pilot flame of a water heater or furnace, where it can ignite. Right: sealed, approved fuel containers and a propane cylinder stored upright outdoors in a ventilated shed away from living quarters and ignition sources. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P60 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p60-artwork">
+<rect x="24" y="46" width="430" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">✕ FUEL STORED INDOORS</text>
+<rect x="472" y="46" width="404" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="488" y="72" class="head ok">✓ OUTDOORS, VENTILATED, AWAY</text>
+<rect x="40" y="90" width="398" height="232" fill="#ece7d9" stroke="#183a30" stroke-width="2.4"/><rect x="40" y="314" width="398" height="8" fill="#b8ad92"/>
+<path d="M66 314v-46l8-10h24v56z" fill="#c44a35" stroke="#183a30" stroke-width="2"/><rect x="86" y="250" width="8" height="10" fill="#183a30"/>
+<path d="M112 314v-46l8-10h24v56z" fill="#c44a35" stroke="#183a30" stroke-width="2"/><rect x="132" y="250" width="8" height="10" fill="#183a30"/>
+<path d="M70 312C140 300 220 312 300 304C330 300 350 306 366 300" fill="none" stroke="#8a8f86" stroke-width="16" stroke-opacity=".35" stroke-linecap="round"/>
+<path d="M150 302C220 296 300 304 352 298" fill="none" stroke="#6b7f8c" stroke-width="2.8" stroke-dasharray="6 5" marker-end="url(#m-air)"/>
+<rect x="352" y="196" width="56" height="118" rx="10" fill="#c8ccc9" stroke="#183a30" stroke-width="2.2"/><rect x="364" y="286" width="32" height="18" fill="#3b3b3b"/>
+<path d="M380 302c-6.3 0 -7.2 -6.3 -3.6 -10.8c0.9 2.7 2.7 3.6 2.7 0.9c0 -3.6 2.7 -5.4 4.5 -7.2c-0.9 4.5 3.6 6.3 2.7 11.7c-0.5 3.6 -3.6 5.4 -6.3 5.4z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M380 301.1c-2.2 0 -2.7 -2.7 -0.9 -4.5c0.5 1.4 1.8 1.8 2.2 0c0.5 2.2 0 4.5 -1.4 4.5z" fill="#f6c453"/>
+<text x="56" y="118" class="tiny">gasoline vapour is heavier</text>
+<text x="56" y="139" class="tiny">than air and stays low</text>
+<text x="214" y="256" class="tiny">travels to pilot</text>
+<text x="214" y="277" class="tiny">lights and sparks</text>
+<path class="lead" d="M270 262L300 296"/>
+<text x="240" y="214" class="tiny">water heater</text>
+<text x="240" y="235" class="tiny">or furnace</text>
+<path class="lead" d="M330 214L352 226"/>
+<path d="M488 196V120l40-28 40 28v76" fill="#e9e2cf" stroke="#183a30" stroke-width="2.4"/>
+<text x="500" y="216" class="tiny">home</text>
+<rect x="724" y="150" width="140" height="150" fill="#d7d0bd" stroke="#183a30" stroke-width="2.4"/><path d="M716 152l78-38 78 38" fill="none" stroke="#183a30" stroke-width="2.4"/>
+<path d="M736 160h4M736 166h4" stroke="#183a30" stroke-width="2"/>
+<path d="M744 160h4M744 166h4" stroke="#183a30" stroke-width="2"/>
+<path d="M752 160h4M752 166h4" stroke="#183a30" stroke-width="2"/>
+<path d="M760 160h4M760 166h4" stroke="#183a30" stroke-width="2"/>
+<path d="M744 298v-46l8-10h24v56z" fill="#c44a35" stroke="#183a30" stroke-width="2"/><rect x="806" y="232" width="30" height="66" rx="13" fill="#e7e7e2" stroke="#183a30" stroke-width="2"/><rect x="814" y="222" width="14" height="12" fill="#9aa1a5" stroke="#183a30" stroke-width="1.6"/>
+<path d="M580 236H714" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<text x="582" y="196" class="tiny">away from living</text>
+<text x="582" y="217" class="tiny">quarters and sparks</text>
+<text x="734" y="190" class="tiny">vented; sealed,</text>
+<text x="734" y="211" class="tiny">approved cans</text>
+<text x="724" y="324" class="tiny">cylinder upright</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Strong fuel odour or a hissing cylinder: leave, avoid switches and flames, call from outside.</text>
+</g>
+</svg>

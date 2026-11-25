@@ -46151,6 +46151,7 @@
       {
         "text": "NEVER turn on a gas or electric kitchen oven or stovetop burners to heat a living space—gas ovens generate silent lethal carbon monoxide and burn hazards, while open oven doors cause severe fire and child-scald injuries.",
         "claims": [
+          "C22",
           "U03",
           "C16",
           "C05"
@@ -46159,6 +46160,7 @@
       {
         "text": "NEVER bring charcoal grills, hibachis, camp stoves, propane turkey fryers, or patio heaters indoors, into attached garages, or onto enclosed porches—glowing charcoal produces massive lethal carbon monoxide even without visible smoke.",
         "claims": [
+          "C22",
           "C16",
           "C05"
         ]
@@ -46166,6 +46168,7 @@
       {
         "text": "When home heating fails and indoor insulation cannot maintain safe temperatures, relocate early to a public warming center, hotel, or powered friend/relative rather than improvising indoor combustion.",
         "claims": [
+          "U25",
           "U17",
           "U10"
         ]
@@ -46200,7 +46203,7 @@
       ]
     },
     "diagram": "NEVER use ovens, grills or camp stoves | Charcoal emits massive odorless CO | Relocate to warming center instead",
-    "visual": "System boundary diagram marking strict red-zone prohibition of ovens, grills, and camp stoves indoors versus safe non-combustion layering and warming centers. Conceptual, not to scale.",
+    "visual": "Room section showing carbon monoxide from an open oven, a charcoal grill and a camp stove reaching a sleeper despite a cracked window, beside warm layers in one interior room and early relocation to a warming centre. Conceptual, not to scale.",
     "reviewer": "Fire service and carbon monoxide safety"
   },
   {
@@ -48306,6 +48309,7 @@
       {
         "text": "Install working smoke alarms inside every bedroom, outside each sleeping area, and on every floor (including basements), AND working carbon monoxide alarms on every level and outside all sleeping areas strictly per manufacturer placement instructions.",
         "claims": [
+          "C22",
           "C09",
           "U12",
           "U04"
@@ -48353,8 +48357,8 @@
         "U12"
       ]
     },
-    "diagram": "Smoke + CO alarms on every floor/sleep | Test monthly; check printed expiry date | Replace expired sensors (5–10 yr limits)",
-    "visual": "Cutaway multi-level home showing required smoke and CO alarm placements (basement, main floor, outside bedrooms) and sensor expiration rules. Conceptual, not to scale.",
+    "diagram": "Smoke and CO alarms on every level | CO outside sleeping areas, not in kitchens | Replace at maker’s age; smoke at 10 yr",
+    "visual": "Three-level cutaway with smoke and CO alarms on every level and a CO alarm outside the bedrooms, none in the kitchen or above the furnace, and the replacement rules. Conceptual, not to scale.",
     "reviewer": "Fire prevention and carbon monoxide safety"
   },
   {
@@ -48367,18 +48371,21 @@
       {
         "text": "Keep a UL-listed Class ABC extinguisher mounted near the kitchen exit and heating/utility zones (checking monthly that the gauge needle sits cleanly in the green zone and the pin/nozzle are intact)—NEVER throw water onto a burning kitchen grease pan or energized electrical fire (water explodes burning grease upward!).",
         "claims": [
+          "U23",
           "U04"
         ]
       },
       {
         "text": "Evacuate everyone FIRST and call 911; consider using an extinguisher ONLY if the fire is tiny and confined (wastebasket size), your back is squarely toward an unobstructed exit door, smoke is NOT filling the room, and you know PASS (Pull pin, Aim at base, Squeeze handle, Sweep side to side).",
         "claims": [
+          "U23",
           "U04"
         ]
       },
       {
         "text": "If the fire does NOT go out immediately with one extinguisher, grows past waist height, or emits thick dark smoke, DROP the extinguisher, close doors behind you if safe to slow spread, get outside, and stay outside.",
         "claims": [
+          "U23",
           "U04"
         ]
       }
@@ -48398,17 +48405,19 @@
     "verify": {
       "text": "Confirm ABC gauge sits in green, unobstructed exit behind user before any attempt, and household practices two-way escape routes.",
       "claims": [
+        "U23",
         "U04"
       ]
     },
     "stop": {
       "text": "Smoke banking down from the ceiling, spreading flames, blocked exit, or empty extinguisher mandates instant evacuation and 911 from outside.",
       "claims": [
+        "U23",
         "U04"
       ]
     },
-    "diagram": "Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | NEVER throw water on grease or live wires",
-    "visual": "Decision tree screening exit-at-back, room smoke, tiny fire size, and ABC gauge before PASS attempt versus immediate escape. Conceptual, not to scale.",
+    "diagram": "Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | Smoke, spread or no way out: leave",
+    "visual": "Room elevation of a user with a clear exit behind them spraying the base of a fire confined to one pan, the four PASS steps, and the smoke, spread and escape conditions that mean leaving. Conceptual, not to scale.",
     "reviewer": "Fire service and residential fire safety"
   },
   {
@@ -48543,6 +48552,7 @@
       {
         "text": "Store gasoline, kerosene, and ALL pressurized propane cylinders (both 20-lb tanks and 1-lb green cylinders) STRICTLY OUTSIDE living spaces—NEVER inside basements, bedrooms, closets, or near water-heater/furnace pilot flames (heavier-than-air fuel vapors creep along floors and explode upon reaching ignition sparks).",
         "claims": [
+          "U24",
           "U04",
           "U03",
           "C15"
@@ -48551,6 +48561,7 @@
       {
         "text": "Use ONLY approved, tightly sealed, properly color-coded safety fuel containers within local residential fire-code volume limits, kept upright in a cool shaded ventilated outdoor shed or exterior storage cabinet out of children's reach.",
         "claims": [
+          "U24",
           "U04",
           "C15"
         ]
@@ -48589,8 +48600,8 @@
         "U04"
       ]
     },
-    "diagram": "ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Color-coded approved cans; rotate 6–12 mo",
-    "visual": "System boundary diagram separating ventilated exterior fuel storage sheds from indoor living spaces and basement pilot-flame ignition zones. Conceptual, not to scale.",
+    "diagram": "ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Sealed approved cans in a vented shed",
+    "visual": "Basement section with gasoline vapour creeping across the floor to a water-heater pilot flame, beside sealed approved cans and an upright cylinder in a ventilated outdoor shed away from the home. Conceptual, not to scale.",
     "reviewer": "Fire prevention and hazardous-materials safety"
   },
   {
@@ -56371,6 +56382,7 @@
       {
         "text": "Establish a calm daily blackout rhythm right away: switch to low-mode LED lighting (zero candles), log power-off times and guard refrigerator/freezer doors, unplug surge-sensitive electronics/heaters, and conserve smartphone power strictly for brief SMS check-ins and 911.",
         "claims": [
+          "U25",
           "U01",
           "U04",
           "F04",
@@ -56380,6 +56392,7 @@
       {
         "text": "Enforce ZERO indoor combustion compromises across every day of the outage—keep portable generators ≥20 feet outdoors with exhaust away from structures, cook strictly outdoors on grills/camp stoves (or eat no-cook pantry meals), and never heat homes with gas ovens or charcoal.",
         "claims": [
+          "U25",
           "C06",
           "C16",
           "U02"
@@ -56422,7 +56435,7 @@
       ]
     },
     "diagram": "LED low-mode, shut cold doors & unplug surges | Zero indoor gens/stoves/ovens EVERY day | Track daily temp & reserves; move early",
-    "visual": "Four-phase multi-day blackout timeline tracking Hour 1 stabilization, Day 1–2 cold-chain triage, Day 3+ battery/temp rationing, and safe relocation/restoration. Conceptual, not to scale.",
+    "visual": "Scaled plan of a home in an outage: generator outside at least 20 ft from windows, doors and the attached garage with exhaust pointed away, LED lanterns, closed refrigerator and freezer, unplugged electronics and a CO alarm, with cold-holding times and exit triggers. Conceptual plan.",
     "reviewer": "Emergency management and electrical/CO safety"
   },
   {

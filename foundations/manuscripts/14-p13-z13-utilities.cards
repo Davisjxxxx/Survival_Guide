@@ -254,14 +254,14 @@ Z13-P20 | Never heat a home with kitchen ovens, charcoal grills, or camp stoves 
 objective: Enforce an absolute life-safety barrier against deadly improvised indoor combustion during winter power or furnace failures.
 applies: Homes, apartments, mobile homes, and cabins experiencing furnace or electrical outages.
 equipment: Working CO/smoke alarms, non-combustion insulation layers, and warming-center evacuation plan.
-action: NEVER turn on a gas or electric kitchen oven or stovetop burners to heat a living space—gas ovens generate silent lethal carbon monoxide and burn hazards, while open oven doors cause severe fire and child-scald injuries. @U03,C16,C05
-action: NEVER bring charcoal grills, hibachis, camp stoves, propane turkey fryers, or patio heaters indoors, into attached garages, or onto enclosed porches—glowing charcoal produces massive lethal carbon monoxide even without visible smoke. @C16,C05
-action: When home heating fails and indoor insulation cannot maintain safe temperatures, relocate early to a public warming center, hotel, or powered friend/relative rather than improvising indoor combustion. @U17,U10
+action: NEVER turn on a gas or electric kitchen oven or stovetop burners to heat a living space—gas ovens generate silent lethal carbon monoxide and burn hazards, while open oven doors cause severe fire and child-scald injuries. @C22,U03,C16,C05
+action: NEVER bring charcoal grills, hibachis, camp stoves, propane turkey fryers, or patio heaters indoors, into attached garages, or onto enclosed porches—glowing charcoal produces massive lethal carbon monoxide even without visible smoke. @C22,C16,C05
+action: When home heating fails and indoor insulation cannot maintain safe temperatures, relocate early to a public warming center, hotel, or powered friend/relative rather than improvising indoor combustion. @U25,U17,U10
 failure: Bringing a glowing charcoal kettle grill into a living room during an ice storm to warm children, killing occupants silently while they sleep. @C16,C05
 verify: Confirm zero ovens, ranges, grills, or camp stoves are used for space heating and household evacuation warming options are ready. @U03,C16,U17
 stop: Any headache, dizziness, nausea, or CO alarm activation near an indoor fuel source demands instant outdoor evacuation and 911 activation. @C07,C16
 diagram: NEVER use ovens, grills or camp stoves | Charcoal emits massive odorless CO | Relocate to warming center instead
-visual: System boundary diagram marking strict red-zone prohibition of ovens, grills, and camp stoves indoors versus safe non-combustion layering and warming centers. Conceptual, not to scale.
+visual: Room section showing carbon monoxide from an open oven, a charcoal grill and a camp stove reaching a sleeper despite a cracked window, beside warm layers in one interior room and early relocation to a warming centre. Conceptual, not to scale.
 reviewer: Fire service and carbon monoxide safety
 
 Z13-P21 | Respect manufacturer limits and local codes for indoor-rated fuel heaters | CPSC Portable Heaters and NFPA Heating Safety; new manuscript
@@ -758,28 +758,28 @@ Z13-P56 | Test smoke and carbon monoxide alarms monthly and replace expired sens
 objective: Maintain reliable early life-safety warning across every sleeping area and floor before winter heating or outage stressors begin.
 applies: Every house, apartment, duplex, and cabin year-round.
 equipment: UL-listed smoke and CO alarms (interconnected or battery-backed), fresh backup batteries, and manufacture-date inspection calendar.
-action: Install working smoke alarms inside every bedroom, outside each sleeping area, and on every floor (including basements), AND working carbon monoxide alarms on every level and outside all sleeping areas strictly per manufacturer placement instructions. @C09,U12,U04
+action: Install working smoke alarms inside every bedroom, outside each sleeping area, and on every floor (including basements), AND working carbon monoxide alarms on every level and outside all sleeping areas strictly per manufacturer placement instructions. @C22,C09,U12,U04
 action: Press the TEST button on every smoke and CO alarm monthly, replace removable backup batteries at least annually (or use sealed 10-year lithium-battery units), and vacuum dust gently from sensor vents. @U12,U04
 action: Check the manufacture/expiration date printed on the back of EVERY unit—CO sensors typically expire after 5 to 7 years (up to 10 on newer sealed units) and smoke alarms expire after 10 years, losing sensing accuracy even if the test beep still chirps. @U12,C09
 failure: Assuming a 14-year-old yellowed CO alarm still detects lethal gas just because its test button makes noise. @U12,C09
 verify: Confirm alarms present on every floor and outside bedrooms, monthly test logged, and every unit is within its manufacturer lifespan. @U12,U04
 stop: Any steady CO alarm (exit to fresh air + 911 immediately), smoke alarm with fire, or end-of-life chirp requires immediate safety action or same-day unit replacement. @C07,U12
-diagram: Smoke + CO alarms on every floor/sleep | Test monthly; check printed expiry date | Replace expired sensors (5–10 yr limits)
-visual: Cutaway multi-level home showing required smoke and CO alarm placements (basement, main floor, outside bedrooms) and sensor expiration rules. Conceptual, not to scale.
+diagram: Smoke and CO alarms on every level | CO outside sleeping areas, not in kitchens | Replace at maker’s age; smoke at 10 yr
+visual: Three-level cutaway with smoke and CO alarms on every level and a CO alarm outside the bedrooms, none in the kitchen or above the furnace, and the replacement rules. Conceptual, not to scale.
 reviewer: Fire prevention and carbon monoxide safety
 
 Z13-P57 | Match ABC fire extinguishers to incipient fires and evacuate without delay | FEMA Ready.gov Home Fires; new manuscript
 objective: Use portable residential extinguishers safely ONLY on tiny contained fires while prioritizing immediate human escape above property.
 applies: Kitchens, garages, wood-stove areas, and generator fuel-storage perimeters.
 equipment: UL-listed multi-purpose Class ABC dry-chemical fire extinguisher (checked pressure gauge in green) and clear two-exit room escape routes.
-action: Keep a UL-listed Class ABC extinguisher mounted near the kitchen exit and heating/utility zones (checking monthly that the gauge needle sits cleanly in the green zone and the pin/nozzle are intact)—NEVER throw water onto a burning kitchen grease pan or energized electrical fire (water explodes burning grease upward!). @U04
-action: Evacuate everyone FIRST and call 911; consider using an extinguisher ONLY if the fire is tiny and confined (wastebasket size), your back is squarely toward an unobstructed exit door, smoke is NOT filling the room, and you know PASS (Pull pin, Aim at base, Squeeze handle, Sweep side to side). @U04
-action: If the fire does NOT go out immediately with one extinguisher, grows past waist height, or emits thick dark smoke, DROP the extinguisher, close doors behind you if safe to slow spread, get outside, and stay outside. @U04
+action: Keep a UL-listed Class ABC extinguisher mounted near the kitchen exit and heating/utility zones (checking monthly that the gauge needle sits cleanly in the green zone and the pin/nozzle are intact)—NEVER throw water onto a burning kitchen grease pan or energized electrical fire (water explodes burning grease upward!). @U23,U04
+action: Evacuate everyone FIRST and call 911; consider using an extinguisher ONLY if the fire is tiny and confined (wastebasket size), your back is squarely toward an unobstructed exit door, smoke is NOT filling the room, and you know PASS (Pull pin, Aim at base, Squeeze handle, Sweep side to side). @U23,U04
+action: If the fire does NOT go out immediately with one extinguisher, grows past waist height, or emits thick dark smoke, DROP the extinguisher, close doors behind you if safe to slow spread, get outside, and stay outside. @U23,U04
 failure: Throwing a pitcher of tap water onto a flaming skillet of cooking oil, or staying inside a smoke-filled hallway trying to fight a spreading room fire. @U04
-verify: Confirm ABC gauge sits in green, unobstructed exit behind user before any attempt, and household practices two-way escape routes. @U04
-stop: Smoke banking down from the ceiling, spreading flames, blocked exit, or empty extinguisher mandates instant evacuation and 911 from outside. @U04
-diagram: Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | NEVER throw water on grease or live wires
-visual: Decision tree screening exit-at-back, room smoke, tiny fire size, and ABC gauge before PASS attempt versus immediate escape. Conceptual, not to scale.
+verify: Confirm ABC gauge sits in green, unobstructed exit behind user before any attempt, and household practices two-way escape routes. @U23,U04
+stop: Smoke banking down from the ceiling, spreading flames, blocked exit, or empty extinguisher mandates instant evacuation and 911 from outside. @U23,U04
+diagram: Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | Smoke, spread or no way out: leave
+visual: Room elevation of a user with a clear exit behind them spraying the base of a fire confined to one pan, the four PASS steps, and the smoke, spread and escape conditions that mean leaving. Conceptual, not to scale.
 reviewer: Fire service and residential fire safety
 
 Z13-P58 | Operate layered home outage communications independent of grid Wi-Fi | NOAA Weather Radio and FEMA Ready.gov Alerts; new manuscript
@@ -814,14 +814,14 @@ Z13-P60 | Store gasoline, propane cylinders, and kerosene strictly outside livin
 objective: Prevent catastrophic vapor explosions and toxic fumes by keeping backup generator and heater fuels isolated outside homes and basements.
 applies: Households storing spare gasoline, 20-lb BBQ propane cylinders, 1-lb camp cylinders, or 1-K kerosene for emergencies.
 equipment: UL/OSHA-listed color-coded safety fuel cans (red=gasoline, blue=kerosene, yellow=diesel), ventilated locked outdoor shed/cabinet, and fire-code volume limits.
-action: Store gasoline, kerosene, and ALL pressurized propane cylinders (both 20-lb tanks and 1-lb green cylinders) STRICTLY OUTSIDE living spaces—NEVER inside basements, bedrooms, closets, or near water-heater/furnace pilot flames (heavier-than-air fuel vapors creep along floors and explode upon reaching ignition sparks). @U04,U03,C15
-action: Use ONLY approved, tightly sealed, properly color-coded safety fuel containers within local residential fire-code volume limits, kept upright in a cool shaded ventilated outdoor shed or exterior storage cabinet out of children's reach. @U04,C15
+action: Store gasoline, kerosene, and ALL pressurized propane cylinders (both 20-lb tanks and 1-lb green cylinders) STRICTLY OUTSIDE living spaces—NEVER inside basements, bedrooms, closets, or near water-heater/furnace pilot flames (heavier-than-air fuel vapors creep along floors and explode upon reaching ignition sparks). @U24,U04,U03,C15
+action: Use ONLY approved, tightly sealed, properly color-coded safety fuel containers within local residential fire-code volume limits, kept upright in a cool shaded ventilated outdoor shed or exterior storage cabinet out of children's reach. @U24,U04,C15
 action: Date fuel cans clearly, add fuel stabilizer per label if storing gasoline seasonally, rotate old fuel into vehicles every 6 to 12 months, and discard rusted, dented, or leaking propane cylinders safely via certified exchange/hazmat facilities. @U04,T12
 failure: Storing three five-gallon plastic cans of gasoline and two spare 20-lb propane tanks in a basement mechanical room next to a gas furnace. @U04,U03
 verify: Confirm zero fuel cans or propane cylinders inside living spaces/basements, upright outdoor ventilated storage, and color-coded dated cans. @U04
 stop: For a strong fuel odor, active leak or hissing cylinder, leave the area. Avoid switches, engines and flames. Call the fire service or supplier from a safe location. Do not move a leaking cylinder yourself. @U11,U04
-diagram: ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Color-coded approved cans; rotate 6–12 mo
-visual: System boundary diagram separating ventilated exterior fuel storage sheds from indoor living spaces and basement pilot-flame ignition zones. Conceptual, not to scale.
+diagram: ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Sealed approved cans in a vented shed
+visual: Basement section with gasoline vapour creeping across the floor to a water-heater pilot flame, beside sealed approved cans and an upright cylinder in a ventilated outdoor shed away from the home. Conceptual, not to scale.
 reviewer: Fire prevention and hazardous-materials safety
 
 Z13-P61 | Complete an autumn pre-winter residential utility readiness checklist | FEMA Winter Weather and NFPA Heating Safety; new manuscript

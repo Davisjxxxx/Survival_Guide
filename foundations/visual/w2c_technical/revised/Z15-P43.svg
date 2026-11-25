@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Outage household layout with no indoor combustion</title>
+<desc id="desc">Plan view drawn to an indicated scale. A generator runs outside with its exhaust pointed away, at least 20 feet from the nearest window and door and from the attached garage. Inside, LED lanterns replace flame, the refrigerator and freezer stay closed, electronics are unplugged against surges, and a carbon monoxide alarm is on the level. A side panel gives the cold-holding times, the rule that generators, camp stoves and charcoal grills stay outdoors, and the exit triggers. Clearances are drawn to the indicated scale; symbols are not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z15-P43 · TECHNICAL REVIEW · CLEARANCES TO SCALE · SYMBOLS NOT TO SCALE</text>
+<g id="z15-p43-artwork">
+<rect id="house" x="40" y="74" width="216.0" height="180.0" fill="#f6f3ea" stroke="#183a30" stroke-width="2.6"/>
+<rect id="garage" x="40" y="254.0" width="108.0" height="48.0" fill="#ebe6d7" stroke="#183a30" stroke-width="2.2"/>
+<text x="48" y="284" class="tiny">attached garage</text>
+<rect id="window" x="252.0" y="104" width="8" height="40" fill="#cfe0e6" stroke="#183a30" stroke-width="1.6"/>
+<rect id="generator" x="376.0" y="105" width="34" height="38" rx="4" fill="#d6a542" stroke="#183a30" stroke-width="2"/>
+<path d="M412.0 124H448.0" fill="none" stroke="#6b7f8c" stroke-width="3" marker-end="url(#m-air)"/>
+<path id="clearance" d="M256.0 164H376.0" stroke="#183a30" stroke-width="1.8"/><path d="M256.0 156v16M376.0 156v16" stroke="#183a30" stroke-width="1.8"/>
+<text x="268" y="190" class="tiny">at least 20 ft from</text>
+<text x="268" y="211" class="tiny">windows, doors and</text>
+<text x="268" y="232" class="tiny">attached garage</text>
+<text x="364" y="92" class="tiny">generator,</text>
+<text x="364" y="113" class="tiny">exhaust away</text>
+<text x="196" y="96" class="tiny">window</text>
+<rect x="54" y="88" width="38" height="62" fill="#e9eef0" stroke="#183a30" stroke-width="2"/><path d="M54 112h38" stroke="#183a30" stroke-width="1.6"/>
+<text x="100" y="108" class="tiny">fridge and</text>
+<text x="100" y="129" class="tiny">freezer closed</text>
+<path d="M62 174h16v24h-16zM90 174h16v24h-16z" fill="#f6e7a8" stroke="#183a30" stroke-width="1.8"/>
+<text x="114" y="192" class="tiny">LED lanterns</text>
+<rect x="215" y="173.8" width="22" height="16.5" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="226" y="186" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<text x="190" y="214" class="tiny">CO alarm</text>
+<rect x="62" y="222" width="30" height="11" rx="2" fill="#c9cdd0" stroke="#183a30" stroke-width="1.4"/><path d="M92 227h12" stroke="#183a30" stroke-width="1.6" stroke-dasharray="3 3"/>
+<text x="114" y="234" class="tiny">unplugged</text>
+<g id="scale-bar"><rect x="286.0" y="300" width="60.0" height="7" fill="#183a30"/><rect x="346.0" y="300" width="60.0" height="7" fill="#ffffff" stroke="#183a30" stroke-width="1.4"/></g>
+<text x="286" y="326" class="tiny">0 to 20 ft at plan scale</text>
+<rect x="560" y="46" width="316" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="576" y="72" class="head">KEEP COLD, KEEP CLEAR AIR</text>
+<text x="578" y="98" class="tiny">closed refrigerator: about 4 h</text>
+<text x="578" y="119" class="tiny">full closed freezer: about 48 h</text>
+<circle cx="588" cy="158" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M583 153.1L593 162.9M593 153.1L583 162.9" stroke="#8b3825" stroke-width="3"/>
+<text x="606" y="162" class="tiny">no gas stove or oven for heat</text>
+<circle cx="588" cy="194" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M583 189.1L593 198.9M593 189.1L583 198.9" stroke="#8b3825" stroke-width="3"/>
+<text x="606" y="198" class="tiny">generators, camp stoves and</text>
+<text x="606" y="219" class="tiny">charcoal grills stay outdoors,</text>
+<text x="606" y="240" class="tiny">20 ft from windows</text>
+<text x="578" y="290" class="tiny">leave for a place with power if</text>
+<text x="578" y="311" class="tiny">heat or cold becomes extreme</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">CO alarm, unsafe indoor cold or heat, or medical power running out: relocate or call 911.</text>
+</g>
+</svg>

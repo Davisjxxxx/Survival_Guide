@@ -576,14 +576,14 @@ Z15-P43 | Manage multi-day electrical outages safely without indoor combustion o
 objective: Sustain safe lighting, food triage, temperature control, and battery conservation across 3-to-14-day regional blackouts.
 applies: Multi-day residential power loss across winter or summer disaster scenarios.
 equipment: LED lanterns, UL battery power banks, outdoor-only ≥20 ft generator (if owned), CO/smoke alarms, and appliance thermometers.
-action: Establish a calm daily blackout rhythm right away: switch to low-mode LED lighting (zero candles), log power-off times and guard refrigerator/freezer doors, unplug surge-sensitive electronics/heaters, and conserve smartphone power strictly for brief SMS check-ins and 911. @U01,U04,F04,U16
-action: Enforce ZERO indoor combustion compromises across every day of the outage—keep portable generators ≥20 feet outdoors with exhaust away from structures, cook strictly outdoors on grills/camp stoves (or eat no-cook pantry meals), and never heat homes with gas ovens or charcoal. @C06,C16,U02
+action: Establish a calm daily blackout rhythm right away: switch to low-mode LED lighting (zero candles), log power-off times and guard refrigerator/freezer doors, unplug surge-sensitive electronics/heaters, and conserve smartphone power strictly for brief SMS check-ins and 911. @U25,U01,U04,F04,U16
+action: Enforce ZERO indoor combustion compromises across every day of the outage—keep portable generators ≥20 feet outdoors with exhaust away from structures, cook strictly outdoors on grills/camp stoves (or eat no-cook pantry meals), and never heat homes with gas ovens or charcoal. @U25,C06,C16,U02
 action: Track household health, indoor room temperature, water supply, and fuel/battery burn rate daily so you relocate cleanly to powered shelter or community hubs BEFORE reserves hit zero. @U17,D18
 failure: Staying disciplined on day one of a blackout, then pulling a generator into the garage on day four out of fatigue and rain frustration. @C06,C16
 verify: Confirm zero indoor combustion, active battery CO/smoke alarms, logged fridge/freezer temps, and daily reserve tracking. @C06,U12,F04
 stop: Any indoor CO alarm, unsafe cold/heat indoors, or exhausted medical power ends home sheltering immediately in favor of relocation or 911. @C07,U17
 diagram: LED low-mode, shut cold doors & unplug surges | Zero indoor gens/stoves/ovens EVERY day | Track daily temp & reserves; move early
-visual: Four-phase multi-day blackout timeline tracking Hour 1 stabilization, Day 1–2 cold-chain triage, Day 3+ battery/temp rationing, and safe relocation/restoration. Conceptual, not to scale.
+visual: Scaled plan of a home in an outage: generator outside at least 20 ft from windows, doors and the attached garage with exhaust pointed away, LED lanterns, closed refrigerator and freezer, unplugged electronics and a CO alarm, with cold-holding times and exit triggers. Conceptual plan.
 reviewer: Emergency management and electrical/CO safety
 
 Z15-P44 | Navigate municipal water-system interruptions and multi-tier advisories | CDC Drinking Water Advisories; new manuscript

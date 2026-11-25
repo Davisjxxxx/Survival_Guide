@@ -4566,12 +4566,7 @@
     "reason": "Space heaters & heating gear are a leading driver of winter house fires"
   },
   "Z13-P20": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "SAFE WARMTH\nDry layers, blankets & warming center",
-    "barrier": "ZERO INDOOR FLAME\nCO alarms active",
-    "zone_b": "FORBIDDEN HEATERS\nOvens, charcoal grills, camp stoves",
-    "hazard": "NEVER heat a home with ovens, charcoal grills or camp stoves — fatal CO"
+    "type": "w2c_artwork"
   },
   "Z13-P21": {
     "type": "decision_tree",
@@ -5038,25 +5033,10 @@
     "trigger": "Replace flood-submerged gas water-heater/furnace controls via licensed trades"
   },
   "Z13-P56": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Upper floor: smoke + CO outside bedrooms",
-      "Main floor: smoke + CO near living/kitchen",
-      "Basement: smoke + CO near furnace/stairs"
-    ],
-    "callout": "Check expiry dates",
-    "accent": "#e5d4a1",
-    "hazard": "CO expires ~5–10 yr"
+    "type": "w2c_artwork"
   },
   "Z13-P57": {
-    "type": "decision_tree",
-    "gates": [
-      "Everyone exiting + 911?",
-      "Tiny fire + back to exit?",
-      "ABC PASS: Pull Aim Squeeze Sweep"
-    ],
-    "abort": "EVACUATE NOW: Thick smoke, grease + water hazard, blocked exit or growing flame"
+    "type": "w2c_artwork"
   },
   "Z13-P58": {
     "type": "escalation_ladder",
@@ -5103,12 +5083,7 @@
     "cue": "Community daytime check-ins prevent silent winter/heat-wave isolation deaths"
   },
   "Z13-P60": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "EXTERIOR VENTED SHED\nUpright UL cans & LP cylinders",
-    "barrier": "OUTDOOR SEPARATION\nCool shade; locked",
-    "zone_b": "BASEMENT / LIVING\nPilot flames, sparks & sleepers",
-    "hazard": "Heavy fuel vapors creep along basement floors and explode at pilot flames"
+    "type": "w2c_artwork"
   },
   "Z13-P61": {
     "type": "seasonal_timeline",
@@ -7118,27 +7093,7 @@
     "callout": "Restore hospitals & mains before rural taps"
   },
   "Z15-P43": {
-    "type": "seasonal_timeline",
-    "variant": "outage_30d",
-    "phases": [
-      {
-        "window": "Hour 1",
-        "focus": "LEDs (no candles), shut cold doors, unplug"
-      },
-      {
-        "window": "Days 1–2",
-        "focus": "Cold-food triage; outdoor-only ≥20 ft gen"
-      },
-      {
-        "window": "Days 3–7",
-        "focus": "Daily temp/reserve log; zero indoor fuel"
-      },
-      {
-        "window": "Exit Gate",
-        "focus": "Relocate early if cold/heat/meds hit floor"
-      }
-    ],
-    "threshold": "Fatigue on Day 4 NEVER excuses pulling a generator into a garage or porch"
+    "type": "w2c_artwork"
   },
   "Z15-P44": {
     "type": "escalation_ladder",
