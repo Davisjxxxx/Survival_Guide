@@ -1,0 +1,14 @@
+<svg class="v01-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Cleavage planes and curved fracture</title><desc id="desc">Two subject-specific mineral fragment examples showing repeated flat surfaces and non-planar curved breakage, conceptual only.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+<path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker></defs>
+<style>.v01-svg text{font-family:system-ui,sans-serif;font-size:24px;font-weight:650;fill:#183a30}
+.v01-svg .heading{font-size:21px;letter-spacing:1px;font-weight:750}.v01-svg .guard{font-size:23px;fill:#6d301f}
+.v01-svg .leader{fill:none;stroke:#365c50;stroke-width:3}.v01-svg .flow{fill:none;stroke:#205b68;stroke-width:5;marker-end:url(#arrow)}
+.v01-svg .dashed{fill:none;stroke:#365c50;stroke-width:3;stroke-dasharray:12 9}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="37">Z08-P16 · V01 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v01-artwork"><path d="M150 128L265 81L388 122L273 166Z" fill="#f5dcaa" stroke="#735c33" stroke-width="4"/><path d="M150 128L273 166V249L150 209Z" fill="#d0ac70" stroke="#735c33" stroke-width="4"/><path d="M273 166L388 122V202L273 249Z" fill="#e6c781" stroke="#735c33" stroke-width="4"/><path class="leader" d="M166 163L273 198L372 159 M165 182L273 217L367 180"/><path d="M532 251Q600 91 778 105Q825 169 765 254Q659 311 532 251Z" fill="#cbd9e3" stroke="#36546c" stroke-width="5"/><path d="M574 247Q633 132 770 128M609 265Q655 169 787 156M662 273Q689 199 788 187" fill="none" stroke="#62899f" stroke-width="6"/><text x="43" y="310">Parallel cleavage surfaces</text><text x="524" y="310">Curved fracture surface</text></g>
+<rect x="23" y="342" width="854" height="38" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Observe an existing surface. Avoid making dust or fresh sharp fragments.</text>
+</svg>

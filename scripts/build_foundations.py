@@ -4,6 +4,7 @@ import csv
 from datetime import date
 from hashlib import sha256
 from html import escape
+from xml.etree import ElementTree
 import json
 from pathlib import Path
 import re
@@ -372,10 +373,25 @@ def inline_emphasis(value):
     return re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', escape(value))
 
 
-def statement(item):
+ATLAS_PAGE_REFERENCE = re.compile(r'\bZ(?:0[1-9]|1[0-5])-[PR]\d{2,3}\b')
+
+
+def validate_atlas_targets(cards):
+    for card in cards.values():
+        if card['zone'] != 'Z16':
+            continue
+        refs = set(ATLAS_PAGE_REFERENCE.findall(' '.join(row['text'] for row in card['action'])))
+        require(refs and refs <= cards.keys(), f'Missing or invalid upstream atlas targets on {card["id"]}')
+
+
+def statement(item, link_atlas=False):
     refs = ', '.join(item['claims'])
+    content = inline_emphasis(item['text'])
+    if link_atlas:
+        content = ATLAS_PAGE_REFERENCE.sub(
+            lambda match: f'<a class="atlas-link" href="{match[0]}.html">{match[0]}</a>', content)
     return (
-        f'<span data-claims="{escape(refs)}">{inline_emphasis(item["text"])}'
+        f'<span data-claims="{escape(refs)}">{content}'
         f'<sup><a href="#evidence" aria-label="Evidence {escape(refs)}">[{escape(refs)}]</a></sup></span>'
     )
 
@@ -400,7 +416,7 @@ def navigation(previous, next_, zone, active):
     return '<nav class="folio" aria-label="Page navigation">' + ''.join(links) + '</nav>'
 
 
-def write_card(card, previous, next_, claims, sources, output, active):
+def write_card(card, previous, next_, claims, sources, output, active, pilot=False):
     card_id = card['id']
     items = [*card['action'], card['verify'], card['stop']]
     if 'failure' in card:
@@ -420,7 +436,7 @@ def write_card(card, previous, next_, claims, sources, output, active):
             f'<strong>Specialist reviewer</strong>: {escape(claim["reviewer"])}<br>'
             f'<a href="{escape(source["url"])}">Primary source</a> · checked {escape(source["checked"])}</dd>'
         )
-    actions = ''.join(f'<li>{statement(row)}</li>' for row in card['action'])
+    actions = ''.join(f"<li>{statement(row, link_atlas=card['zone'] == 'Z16')}</li>" for row in card['action'])
     stages = ''.join(f'<li>{escape(stage)}</li>' for stage in card['diagram'].split(' | '))
     origin = escape(card['origin'])
     lineage = f'<p>Lineage · {origin}</p>' if card['id'][4] == 'R' else ''
@@ -437,6 +453,14 @@ def write_card(card, previous, next_, claims, sources, output, active):
             'USGS Ely, Minnesota, 1965, original scale 1:24,000, map ID 504440 (Public Domain). '
             'No current route, trail condition or present-day magnetic declination may be inferred; specialist teaching approval pending.</figcaption></figure>'
         )
+    figure_open = '<figure class="v01-pilot">' if pilot else '<figure>'
+    figure_alt = card['diagram']
+    if pilot:
+        from foundation_diagrams import v01_source_path
+        svg = ElementTree.parse(v01_source_path(card_id)).getroot()
+        description = svg.find('{http://www.w3.org/2000/svg}desc')
+        require(description is not None and bool(description.text), f'Missing V01 figure description for {card_id}')
+        figure_alt = description.text
     body = (
         navigation(previous, next_, card['zone'], active)
         + f'<main id="content"><article class="card">'
@@ -445,7 +469,7 @@ def write_card(card, previous, next_, claims, sources, output, active):
         f'<p class="objective">{escape(card["objective"])}</p>{lineage}'
         f'<p><strong>When it applies</strong> · {escape(card["applies"])}</p>'
         f'<p><strong>Equipment</strong> · {escape(card["equipment"])}</p>'
-        f'<figure><img src="visuals/{card_id}.svg" alt="{escape(card["diagram"])}">'
+        f'{figure_open}<img src="visuals/{card_id}.svg" alt="{escape(figure_alt)}">'
         f'<figcaption>{escape(card["visual"])}<ul class="diagram-labels" aria-hidden="true">{stages}</ul></figcaption></figure>'
         f'<h2>Actions</h2><ol class="actions">{actions}</ol>'
         f'{failure_html}'
@@ -627,10 +651,11 @@ def write_directory(cards, xwalk_rows, output):
         '<p class="cover-sub">Links the active draft zones, retained reconstructions, '
         'and frozen Track B historical proofs without altering any frozen edition files.</p></div></header>'
         '<main id="content">'
-        '<h2>Master 16-zone status</h2>'
+        '<h2 id="zone-status">Master 16-zone status</h2>'
+        '<div class="dir-table-scroll" role="region" aria-labelledby="zone-status" tabindex="0">'
         '<table class="dir-table"><thead><tr><th>Zone</th><th>Domain</th><th>Planned</th><th>Drafts</th>'
         '<th>Priority</th><th>Status</th><th>Reader access</th></tr></thead>'
-        f'<tbody>{"".join(zone_rows)}</tbody></table>'
+        f'<tbody>{"".join(zone_rows)}</tbody></table></div>'
         '<div class="lookup"><label for="lookup">Search across all active pages, reconstructions, and frozen proofs</label>'
         '<input type="search" id="lookup"><p id="matches" role="status"></p></div>'
         '<div class="catalog">'
@@ -650,6 +675,7 @@ def main():
     reset_specs_cache()
     sources, claims = load_evidence()
     cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), claims)
+    validate_atlas_targets(cards)
     xwalk_rows = crosswalk()
     specs = load_specs()
 
@@ -669,12 +695,17 @@ def main():
     for i, (card_id, card) in enumerate(cards.items()):
         if re.match(r'^(0[6-9]|[1-9]\d)-', card['batch']):
             require(card_id in specs, f'Missing technical diagram specification for {card_id}')
-        write_card(card, keys[i - 1] if i else None, keys[i + 1] if i + 1 < len(keys) else None, claims, sources, output, active)
+        spec = specs.get(card_id)
+        pilot = bool(spec and spec['type'] == 'v01_artwork')
+        write_card(card, keys[i - 1] if i else None, keys[i + 1] if i + 1 < len(keys) else None,
+                   claims, sources, output, active, pilot=pilot)
         filename = f'visuals/{card_id}.svg'
         data = render_diagram(card).encode('utf-8')
         (output / filename).write_bytes(data)
-        spec = specs.get(card_id)
-        if card_id in CROSS_SECTIONS:
+        if pilot:
+            diag_type = 'v01_artwork'
+            spec_src = f'foundations/visual/VISUAL_PILOT_REVIEW_PACKAGE/revised/{card_id}.svg'
+        elif card_id in CROSS_SECTIONS:
             diag_type = 'cross_section_hand'
             spec_src = 'scripts/foundation_diagrams.py#CROSS_SECTIONS'
         elif spec:

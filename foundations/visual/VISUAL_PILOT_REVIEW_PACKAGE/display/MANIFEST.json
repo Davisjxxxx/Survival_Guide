@@ -1,0 +1,32 @@
+[
+  {
+    "file": "MIN-989518-1420206.jpg",
+    "original_sha256": "79a8331a2e5526278b5ec5e7c260cf48b5767bd133f02775e8d24d8a4bf184df",
+    "proxy_sha256": "6d4841fe6bff1dd64ca146eea187b62861d33bf9bfa123cd69b65e08185f5867"
+  },
+  {
+    "file": "MIN-991627-1422858.jpg",
+    "original_sha256": "bc79c84c991b014bb782451f1c2487f3a1b2a936c15122361179c15d8521e36a",
+    "proxy_sha256": "a8d82541d5057d183c5d3aa9a5565524e9a4971309cf504640d4aa66a2bef56c"
+  },
+  {
+    "file": "MIN-991717-1422958.jpg",
+    "original_sha256": "7d3d7642ec1b1c91ce946ca1cbda52f1490c8110a010b50aefbc74a2cdb3ee2e",
+    "proxy_sha256": "1e3af9c8fac6d49ba82f2a3f63e958c41c2d47d6deccd1587967f8483f4795bb"
+  },
+  {
+    "file": "MIN-977290-1402874_lg.jpg",
+    "original_sha256": "fa25e54ccddd74cd89ef365b40e909c0362de0d623d44fc0b7d121923e3a9814",
+    "proxy_sha256": "1af6cfd681df79746c0267da370ec7008a641dc87f20376cf796e1672fc5cb58"
+  },
+  {
+    "file": "MIN-957094-1298980_1554839954.jpg",
+    "original_sha256": "1453489d1bc4f8e79a7ca7d14d3850058af272d28725c72b2cecb3232d2504bc",
+    "proxy_sha256": "2fc48cfe6e15b9462d3b413a6f2e00f0d1ed114ed588e05747fad763ca62ddf5"
+  },
+  {
+    "file": "MIN-957094-957094_2_lg.jpg",
+    "original_sha256": "9d6f88d83b6347be08d983cc4ad34cc7f82137d67a94bde7c88b6cdf62c14861",
+    "proxy_sha256": "8d43744b030911618aa1ae3846d783c081458311a7b36c67df5e60cb4653727d"
+  }
+]

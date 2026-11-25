@@ -1,5 +1,7 @@
 # Consolidated Astra Technical-Review Escalation Register
 
+A03 recorded ASTRA-013 through ASTRA-017 in the [findings](audit/a03/TECHNICAL_FINDINGS.csv). The [A03 specialist register](audit/a03/SPECIALIST_REVIEW_REGISTER.csv) preserves all 25 holds. The original escalation requests follow.
+
 A02 recorded ASTRA-009 through ASTRA-012 dispositions in the [technical findings](audit/a02/TECHNICAL_FINDINGS.csv). The [specialist register](audit/a02/SPECIALIST_REVIEW_REGISTER.csv) preserves all 21 publication holds. The original escalation requests follow.
 
 The register below preserves the original escalations. A01 recorded dispositions for ASTRA-001 through ASTRA-008 in the [technical findings](audit/TECHNICAL_FINDINGS.csv) and [cross-zone comparison](audit/CROSS_ZONE_CONTRADICTIONS.csv). Every qualified reviewer disposition remains [pending on HOLD](audit/SPECIALIST_REVIEW_REGISTER.csv).

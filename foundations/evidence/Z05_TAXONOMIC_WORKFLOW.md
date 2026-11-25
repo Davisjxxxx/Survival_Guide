@@ -1,5 +1,7 @@
 # Z05 Taxonomic and Diagnostic Identification Workflow (P19-A)
 
+A03 adds an [independent name and voucher screen](../audit/a03/TAXONOMIC_VERIFICATION_REGISTER.csv) and expands the [multi-view acquisition register](../visual/DIAGNOSTIC_PHOTOGRAPHY_ACQUISITION_REGISTER.csv). Voucher and media leads remain under qualified review. Every taxon remains on WITHHELD_HOLD.
+
 **Status:** Editorial Draft Pipeline Qualified · **Consumption Status:** `WITHHELD_HOLD` across all 135 Z05 pages · **Qualified Human Approvals:** `0`
 
 ## 1. Separation of Recognition and Consumption

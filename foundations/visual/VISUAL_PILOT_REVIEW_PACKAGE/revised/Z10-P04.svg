@@ -1,0 +1,14 @@
+<svg class="v01-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Visible limb wound and joint avoidance</title><desc id="desc">Outline of a simulated arm showing torso side, exclusion of an elbow joint and an illustrative location toward the torso from a visible training wound.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+<path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker></defs>
+<style>.v01-svg text{font-family:system-ui,sans-serif;font-size:24px;font-weight:650;fill:#183a30}
+.v01-svg .heading{font-size:21px;letter-spacing:1px;font-weight:750}.v01-svg .guard{font-size:23px;fill:#6d301f}
+.v01-svg .leader{fill:none;stroke:#365c50;stroke-width:3}.v01-svg .flow{fill:none;stroke:#205b68;stroke-width:5;marker-end:url(#arrow)}
+.v01-svg .dashed{fill:none;stroke:#365c50;stroke-width:3;stroke-dasharray:12 9}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="37">Z10-P04 · V01 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v01-artwork"><path d="M112 152Q151 122 222 151L406 178Q438 165 472 174L696 188Q741 192 777 213L742 245L477 241Q445 243 414 232L243 223Q167 230 112 204Z" fill="#e4c7a5" stroke="#684b35" stroke-width="4"/><ellipse cx="424" cy="206" rx="40" ry="36" fill="#edce8a" opacity=".9" stroke="#70532b" stroke-width="3" stroke-dasharray="9 6"/><path d="M578 179l-7 62" stroke="#285448" stroke-width="17"/><path d="M648 196l22 19m-13-28l-7 38" stroke="#972f22" stroke-width="7"/><text x="40" y="106">Toward torso</text><path class="flow" d="M256 123H135"/><text x="329" y="292">Keep off the joint</text><path class="leader" d="M425 244v21"/><text x="527" y="95">Commercial device</text><path class="leader" d="M577 112v64"/><text x="619" y="310">Visible wound</text><path class="leader" d="M667 227v56"/></g>
+<rect x="23" y="342" width="854" height="38" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">A simulated training limb. Follow the device directions and EMS guidance.</text>
+</svg>

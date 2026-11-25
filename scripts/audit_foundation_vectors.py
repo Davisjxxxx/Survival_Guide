@@ -97,7 +97,7 @@ def main():
         ImageOps.grayscale(sheet).save(args.audit/'VECTOR_GRAYSCALE.jpg',quality=88)
         browser.close()
     with (args.audit/'ILLUSTRATION_AUDIT.csv').open('w',newline='') as file:
-        writer=csv.DictWriter(file,fieldnames=list(rows[0]))
+        writer=csv.DictWriter(file,fieldnames=list(rows[0]),lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
     clipped = sum(bool(row['clipped_labels']) for row in rows)

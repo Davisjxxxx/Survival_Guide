@@ -2,17 +2,23 @@
 import argparse
 from hashlib import sha256
 import json
+from html import escape, unescape
+from html.parser import HTMLParser
+from posixpath import dirname, join, normpath
+import re
 from pathlib import Path
 import subprocess
 import sys
 import tempfile
+from urllib.parse import urlsplit
 from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 
-from build_foundations import FOUND, ROOT, require
+from build_foundations import FOUND, ROOT, ZONES, doc, require
 
 BASE = '890c66ac1d51465d3a4315e50fb2dbe1e0f78f6f'
 BUNDLE = FOUND / 'proofs/foundations-offline.zip'
 PACKAGES_DIR = FOUND / 'proofs/packages'
+PILOT_DIR = FOUND / 'visual/VISUAL_PILOT_REVIEW_PACKAGE'
 MAX_GITHUB_SAFE_BYTES = 45 * 1024 * 1024  # Strictly under GitHub's 50 MB warning and 100 MB hard limit
 
 
@@ -67,7 +73,9 @@ def verify_retained_pdfs():
 
 
 def package_members(include_consolidated_pdfs=False):
-    files = [p for path in ('reader', 'manuscripts', 'evidence', 'audit') for p in (FOUND / path).rglob('*') if p.is_file()]
+    files = [p for path in ('reader', 'manuscripts', 'evidence', 'audit', 'visual') for p in (FOUND / path).rglob('*') if p.is_file()]
+    if not include_consolidated_pdfs:
+        files = [p for p in files if not p.is_relative_to(PILOT_DIR)]
     files.extend([FOUND / 'README.md', FOUND / 'SPRINT_RESULT.md'])
     for extra in ('ZONE_COMPLETION_MATRIX.csv', 'ASTRA_ESCALATION_REGISTER.md'):
         path = FOUND / extra
@@ -83,7 +91,14 @@ def package_members(include_consolidated_pdfs=False):
     receipt = FOUND / 'proofs/tagged-print-qa.json'
     if receipt.is_file():
         files.append(receipt)
-    return {path.relative_to(FOUND).as_posix(): path.read_bytes() for path in sorted(set(files))}
+    entries = {path.relative_to(FOUND).as_posix(): path.read_bytes() for path in sorted(set(files))}
+    if PILOT_DIR.is_dir() and not include_consolidated_pdfs:
+        pilot_notice = ('<!doctype html><html lang="en"><meta charset="utf-8"><title>V01 companion archive</title>'
+                        '<main><h1>V01 companion archive</h1><p>Extract the separate v01-pilot.zip package '
+                        'and open its index.html for the full gallery, archival media and proofs.</p></main></html>')
+        key = (PILOT_DIR / 'index.html').relative_to(FOUND).as_posix()
+        entries[key] = pilot_notice.encode('utf-8')
+    return entries
 
 
 def package_payload(include_consolidated_pdfs=False):
@@ -94,12 +109,44 @@ def package_payload(include_consolidated_pdfs=False):
     return entries
 
 
+def local_target(page, href):
+    target = urlsplit(unescape(href))
+    if target.scheme or target.netloc or not target.path:
+        return None
+    return normpath(join(dirname(page), target.path))
+
+
+def scope_zone_links(page, html, available):
+    """Keep links within the extracted zone and label references to other packages."""
+    def replace(match):
+        href, label = match.groups()
+        destination = local_target(page, href)
+        if destination and destination not in available:
+            return f'<span class="external-zone-ref">{label} (full edition)</span>'
+        return match[0]
+
+    return re.sub(r'<a\b[^>]*\bhref="([^"]+)"[^>]*>(.*?)</a>', replace, html, flags=re.S)
+
+
+class LocalAssetCheck(HTMLParser):
+    def __init__(self, page, available):
+        super().__init__()
+        self.page = page
+        self.available = available
+
+    def handle_starttag(self, tag, attrs):
+        for name, value in attrs:
+            if name in {'href', 'src'} and value:
+                destination = local_target(self.page, value)
+                require(not destination or destination in self.available,
+                        f'Broken packaged reference on {self.page}: {value}')
+
+
 def zone_package_payload(zone, cards_manifest):
     zone_ids = {c['id'] for c in cards_manifest if c['zone'] == zone}
     files = []
     reader = FOUND / 'reader'
-    for base_asset in ('library.css', 'edition.css', 'search.js', 'index.html', 'directory.html',
-                       'page-manifest.json', 'asset-manifest.json'):
+    for base_asset in ('library.css', 'edition.css', 'search.js', 'page-manifest.json', 'asset-manifest.json'):
         p = reader / base_asset
         if p.is_file():
             files.append(p)
@@ -121,11 +168,27 @@ def zone_package_payload(zone, cards_manifest):
         p = FOUND / 'proofs' / pdf_name
         if p.is_file():
             files.append(p)
-    for doc in ('ZONE_COMPLETION_MATRIX.csv', 'SPRINT_RESULT.md'):
-        p = FOUND / doc
+    for filename in ('ZONE_COMPLETION_MATRIX.csv', 'SPRINT_RESULT.md'):
+        p = FOUND / filename
         if p.is_file():
             files.append(p)
     entries = {path.relative_to(FOUND).as_posix(): path.read_bytes() for path in sorted(set(files))}
+    label = f'{zone} · {ZONES[zone]}'
+    landing = doc(label, '<main id="content"><h1>' + escape(label) + '</h1>'
+                  + f'<p><a href="zones/{zone}/index.html">Open this zone reader</a></p>'
+                  + '<p>This archive contains one zone. Use the complete offline edition for other zones and the historical library.</p></main>')
+    entries['reader/index.html'] = landing.encode('utf-8')
+    entries['reader/directory.html'] = landing.encode('utf-8')
+    for manifest, key in [('page-manifest.json', 'id'), ('asset-manifest.json', 'page')]:
+        path = 'reader/' + manifest
+        records = json.loads(entries[path])
+        entries[path] = (json.dumps([r for r in records if r[key] in zone_ids], ensure_ascii=False, indent=2)
+                         + '\n').encode('utf-8')
+    for page in entries:
+        if page.endswith('.html'):
+            html = scope_zone_links(page, entries[page].decode('utf-8'), entries)
+            LocalAssetCheck(page, entries).feed(html)
+            entries[page] = html.encode('utf-8')
     entries['PACKAGE-SHA256.txt'] = ''.join(
         f'{hash_bytes(data)}  {name}\n' for name, data in entries.items()
     ).encode('utf-8')
@@ -183,6 +246,22 @@ def write_or_verify_zone_packages(write=False):
         'bytes': BUNDLE.stat().st_size,
         'sha256': hash_bytes(BUNDLE.read_bytes()),
     }
+    if PILOT_DIR.is_dir():
+        pilot = PACKAGES_DIR / 'v01-pilot.zip'
+        entries = {p.relative_to(PILOT_DIR).as_posix(): p.read_bytes()
+                   for p in sorted(PILOT_DIR.rglob('*')) if p.is_file()}
+        entries['PACKAGE-SHA256.txt'] = ''.join(
+            f'{hash_bytes(data)}  {name}\n' for name, data in entries.items()
+        ).encode('utf-8')
+        if write:
+            write_deterministic_zip(pilot, entries)
+        verify_zip_entries(pilot, entries)
+        manifest['packages/v01-pilot.zip'] = {
+            'scope': 'Original and revised V01 plates, review proofs and authentic voucher study media',
+            'members': len(entries) - 1,
+            'bytes': pilot.stat().st_size,
+            'sha256': hash_bytes(pilot.read_bytes()),
+        }
     m_json = PACKAGES_DIR / 'PACKAGE-MANIFEST.json'
     m_sha = PACKAGES_DIR / 'PACKAGE-MANIFEST-SHA256.txt'
     m_bytes = (json.dumps(manifest, indent=2, sort_keys=True) + '\n').encode('utf-8')
@@ -223,7 +302,7 @@ def main():
         print(f'Assembled complete bundle {args.assemble_complete} ({args.assemble_complete.stat().st_size} bytes, '
               f'SHA-256 {hash_bytes(args.assemble_complete.read_bytes())})')
     print(f'PASS: frozen paths, reproducible reader, photo provenance, valid PDFs, {len(entries)-1} core offline members, '
-          f'{len(manifest)-1} zone packages (all <= 45 MB)')
+          f'{sum("zone" in item for item in manifest.values())} zone packages (all <= 45 MB)')
     print(f'{BUNDLE.name} ({BUNDLE.stat().st_size} bytes) SHA-256 {hash_bytes(BUNDLE.read_bytes())}')
 
 

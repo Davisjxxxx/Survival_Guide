@@ -351,5 +351,45 @@ class ControlTests(unittest.TestCase):
             self.assertIn('PENDING', r['expert_review'])
 
 
+    def test_a03_atlas_requires_real_page_targets(self):
+        from build_foundations import validate_atlas_targets
+        atlas = {'Z16-P01': {'id': 'Z16-P01', 'zone': 'Z16',
+                             'action': [{'text': 'Open Z10-P50 for the full conditions.'}]}}
+        with self.assertRaisesRegex(ValueError, 'invalid upstream atlas targets'):
+            validate_atlas_targets(atlas)
+        atlas['Z10-P50'] = {'id': 'Z10-P50', 'zone': 'Z10'}
+        validate_atlas_targets(atlas)
+
+    def test_a03_atlas_links_exact_source_pages_only(self):
+        from build_foundations import statement
+        rendered = statement({'text': 'Z10-P50 and Z10 are different references.', 'claims': ['T09']},
+                             link_atlas=True)
+        self.assertIn('href="Z10-P50.html"', rendered)
+        self.assertNotIn('href="Z10.html"', rendered)
+
+    def test_a03_zone_package_reference_rewrite(self):
+        from check_foundations import LocalAssetCheck, scope_zone_links
+        page = 'reader/Z16-P01.html'
+        available = {page, 'reader/index.html'}
+        original = '<a href="index.html">Index</a><a class="atlas-link" href="Z01-P01.html">Z01-P01</a>'
+        scoped = scope_zone_links(page, original, available)
+        self.assertIn('href="index.html"', scoped)
+        self.assertIn('Z01-P01 (full edition)', scoped)
+        self.assertNotIn('href="Z01-P01.html"', scoped)
+        LocalAssetCheck(page, available).feed(scoped)
+        with self.assertRaisesRegex(ValueError, 'Broken packaged reference'):
+            LocalAssetCheck(page, available).feed('<img src="missing.svg">')
+
+    def test_a03_v01_sources_preserve_illustration_boundary(self):
+        from xml.etree import ElementTree
+        from foundation_diagrams import v01_source_path
+        ns = '{http://www.w3.org/2000/svg}'
+        pilot = v01_source_path('Z14-P54')
+        root = ElementTree.parse(pilot).getroot()
+        self.assertIsNotNone(root.find(ns + 'desc'))
+        self.assertIn('NOT TO SCALE', pilot.read_text())
+        self.assertFalse(list(root.iter(ns + 'image')))
+
+
 if __name__ == '__main__':
     unittest.main()

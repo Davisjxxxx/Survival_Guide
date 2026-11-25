@@ -1920,7 +1920,7 @@
     "accent": "#7c6c4e"
   },
   "Z09-P44": {
-    "type": "force_redirect"
+    "type": "v01_artwork"
   },
   "Z09-P45": {
     "type": "decision_tree",
@@ -2119,14 +2119,7 @@
     ]
   },
   "Z11-P14": {
-    "type": "mechanism",
-    "nodes": [
-      "True North (Geographic Pole)",
-      "Grid North vs Magnetic North",
-      "Current-Year Declination Angle"
-    ],
-    "callout": "Verify East/West conversion sign on a known trailhead landmark",
-    "accent": "#4d7c8f"
+    "type": "v01_artwork"
   },
   "Z11-P15": {
     "type": "failure_mode",
@@ -3544,19 +3537,7 @@
     "stop": "Uncontrolled limb bleed -> tourniquet + 911"
   },
   "Z10-P04": {
-    "type": "correct_vs_wrong",
-    "variant": "medical",
-    "correct_title": "VISIBLE LIMB WOUND",
-    "correct_items": [
-      "2–3 in toward torso, clear of joint",
-      "Tighten until bleeding stops; log time"
-    ],
-    "wrong_title": "UNSAFE IMPROVISED / MISPLACED",
-    "wrong_items": [
-      "Thin cord/shoelace or over knee/elbow joint fails occlusion",
-      "Loosening in field or hiding strap under blankets"
-    ],
-    "reason": "Use the commercial device per training and leave in place for medical staff"
+    "type": "v01_artwork"
   },
   "Z10-P05": {
     "type": "anatomy_zone",
@@ -4816,12 +4797,7 @@
     "reason": "Flickering dim power or hot outlets signal open-neutral faults — shut off & call pro"
   },
   "Z13-P06": {
-    "type": "system_boundary",
-    "variant": "panel_gen",
-    "zone_a": "OCCUPIED HOME\nCO alarms active on every floor",
-    "barrier": "≥20 FT OPEN AIR\nExhaust pointed away",
-    "zone_b": "OUTDOOR GENERATOR\nNEVER garage, porch or shed",
-    "hazard": "CO alarm or suspected poisoning: exit and call 911 before equipment actions"
+    "type": "v01_artwork"
   },
   "Z13-P07": {
     "type": "correct_vs_wrong",
@@ -6568,7 +6544,7 @@
     "abort": "STOP: >45 min total or ANY low-acid food -> Use deep water-bath or pressure canner"
   },
   "Z14-P54": {
-    "type": "canner_vent"
+    "type": "v01_artwork"
   },
   "Z14-P55": {
     "type": "comparison",
@@ -7765,12 +7741,7 @@
     "reason": "Half-tank discipline gives instant 150–250+ mile evacuation range anytime"
   },
   "Z15-P48": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "EXTERNAL RELEASE\nFollow current official instructions",
-    "barrier": "ROOM AND VENTILATION\nUse measures directed for the incident",
-    "zone_b": "MONITOR ALERTS\nFollow evacuation or all-clear",
-    "hazard": "Internal fire, gas or CO requires moving to safety and calling 911."
+    "type": "v01_artwork"
   },
   "Z15-P49": {
     "type": "comparison",
@@ -8130,15 +8101,11 @@
     "prohibition": "STOP: Zero collecting in National Parks, MN State Parks & SNAs"
   },
   "Z08-P06": {
-    "type": "geological_strata",
-    "variant": "dust_hazard",
-    "strata": [
-      "Fractured quartz/chert -> silica dust",
-      "Fibrous veins -> possible asbestos",
-      "Upwind exclusion & wet/PPE control"
-    ],
-    "note": "Observe intact; avoid dry grinding",
-    "hazard": "STOP: Leave fibrous mineral veins intact"
+    "type": "branch",
+    "question": "Could examination create dust or disturb fibers?",
+    "yes": "Stop and leave it intact.",
+    "no": "Observe from a safe distance.",
+    "stop": "Air that looks clear does not rule out respirable silica."
   },
   "Z08-P07": {
     "type": "geological_strata",
@@ -8265,15 +8232,7 @@
     "hazard": "High crystalline silica dust hazard"
   },
   "Z08-P16": {
-    "type": "geological_strata",
-    "variant": "fracture",
-    "strata": [
-      "Planar cleavage: repeating flat steps",
-      "Conchoidal: smooth curved ripples",
-      "Uneven/hackly: jagged rough break"
-    ],
-    "note": "Tilt natural edge in daylight",
-    "hazard": "Do not hammer protected stone"
+    "type": "v01_artwork"
   },
   "Z08-P17": {
     "type": "mineral_test_plate",
@@ -8335,9 +8294,9 @@
   },
   "Z08-P22": {
     "type": "failure_mode",
-    "cause": "Pore water in river/porous stone flashes to steam",
-    "cue": "Hissing, popping, or widening hairline cracks",
-    "correction": "Keep all unverified stone out of fires"
+    "cause": "Heat stress, existing flaws or trapped moisture",
+    "cue": "Cracking, popping or moving material",
+    "correction": "Keep unknown stone out of direct fire"
   },
   "Z08-P23": {
     "type": "correct_vs_wrong",
@@ -8691,23 +8650,23 @@
     "variant": "thermal_crack",
     "steps": [
       {
-        "label": "1. Rapid heat",
-        "detail": "Minerals expand unevenly"
+        "label": "Unknown history",
+        "detail": "Prior temperatures may be unknown"
       },
       {
-        "label": "2. Micro-cracks",
-        "detail": "Internal stress fractures"
+        "label": "Possible flaws",
+        "detail": "Internal damage can be hidden"
       },
       {
-        "label": "3. Moisture entry",
-        "detail": "Rain fills new fissures"
+        "label": "Visible damage",
+        "detail": "Cracks warrant avoidance"
       },
       {
-        "label": "4. Reheat spall",
-        "detail": "Sharp violent fracture"
+        "label": "Site rules",
+        "detail": "Keep people clear and follow rules"
       }
     ],
-    "cue": "Even dry stone degrades after repeated heat cycles"
+    "cue": "Surface appearance does not establish suitability for heat service"
   },
   "Z08-P51": {
     "type": "hazard_exclusion_map",
@@ -8791,36 +8750,22 @@
     "report": "Verify site status before every visit"
   },
   "Z08-P58": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "Eliminate",
-        "scope": "Observe intact stone",
-        "action": "Avoid dry breaking/grinding"
-      },
-      {
-        "role": "Wet control",
-        "scope": "Authorized workshop",
-        "action": "Continuous water & airflow"
-      },
-      {
-        "role": "Fitted PPE",
-        "scope": "Verified hazard zone",
-        "action": "ANSI eyes + NIOSH N95/P100"
-      }
-    ],
-    "trigger": "STOP: Visible silica dust or missing PPE halts stone work"
+    "type": "branch",
+    "question": "Can examination proceed without creating dust?",
+    "yes": "Observe existing surfaces without disturbing material.",
+    "no": "Stop and use a qualified exposure assessment.",
+    "stop": "Invisible particles can be hazardous. Wind does not establish control."
   },
   "Z08-P59": {
     "type": "hazard_exclusion_map",
     "variant": "asbestos",
     "zones": [
-      "Fibrous vein / mine waste: zero disturbance",
-      "Upwind clear observation stance",
-      "Outdoor wet wash of dusty boots"
+      "Do not disturb suspected fibrous material",
+      "Leave the area without spreading dust",
+      "Ask environmental health about exposures"
     ],
-    "buffer": "Sight cannot clear fibrous minerals",
-    "report": "Consult state geologic/health agency"
+    "buffer": "Sight cannot identify asbestos",
+    "report": "Skip home sampling or gear cleanup"
   },
   "Z08-P60": {
     "type": "sequence_plate",
@@ -8828,22 +8773,22 @@
     "steps": [
       {
         "label": "1. Segregate",
-        "detail": "Keep stones off food gear"
+        "detail": "Keep specimens off food gear"
       },
       {
         "label": "2. Wash hands",
-        "detail": "Soap & water before eating"
+        "detail": "Soap and water before eating"
       },
       {
-        "label": "3. Rinse boots",
-        "detail": "Clean mud away from wells"
+        "label": "3. Isolate gear",
+        "detail": "Keep suspect gear out of living spaces"
       },
       {
-        "label": "4. Store safely",
-        "detail": "Labeled box out of reach"
+        "label": "4. Ask authority",
+        "detail": "Get site-specific cleanup advice"
       }
     ],
-    "cue": "Prevent hand-to-mouth transfer of silica, lead, and ores"
+    "cue": "Mine and industrial residues may need specialist handling"
   },
   "Z06-P01": {
     "type": "correct_vs_wrong",
@@ -9068,10 +9013,10 @@
   "Z06-P17": {
     "type": "system_boundary",
     "variant": "pfas_fish",
-    "zone_a": "PFAS/PCB-advised or urban runoff waters",
-    "zone_b": "MDH-screened lawful meal waters",
-    "barrier": "Exact waterbody MDH check + date",
-    "hazard": "STOP: Cooking and trimming cannot remove PFAS or mercury"
+    "zone_a": "Waterbody, species and size",
+    "zone_b": "Population and meal advice",
+    "barrier": "Check the current MDH advisory",
+    "hazard": "Cooking or cleaning cannot override the advisory"
   },
   "Z06-P18": {
     "type": "wildlife_track_plate",
@@ -9089,19 +9034,19 @@
     "type": "comparison",
     "options": [
       {
-        "name": "Sensitive group",
-        "note": "Pregnant, nursing & kids < 15",
-        "limit": "Strict MDH caps; skip big fish"
+        "name": "Location",
+        "note": "Use the exact waterbody",
+        "limit": "Check the current table"
       },
       {
-        "name": "General adult",
-        "note": "Non-pregnant adults & 15+",
-        "limit": "Still bound by lake & size limits"
+        "name": "Fish details",
+        "note": "Verify species and size",
+        "limit": "Keep both qualifiers"
       },
       {
-        "name": "Do Not Eat water",
-        "note": "High PFAS/PCB/mercury alert",
-        "limit": "Zero consumption for ALL people"
+        "name": "Population",
+        "note": "Check age and pregnancy criteria",
+        "limit": "Follow the matching advice"
       }
     ]
   },
@@ -9363,25 +9308,25 @@
   "Z06-P39": {
     "type": "system_boundary",
     "variant": "cwd_prion",
-    "zone_a": "Brain, spine, lymph nodes & CWD-pos meat",
-    "zone_b": "Tested negative clean boned venison",
-    "barrier": "No bone-sawing + lab test before eating",
-    "hazard": "STOP: Normal cooking NEVER destroys CWD prions"
+    "zone_a": "Keep untested lots separate",
+    "zone_b": "Follow laboratory and DNR guidance",
+    "barrier": "Do not eat a CWD-positive animal",
+    "hazard": "A negative test cannot clear unrelated food hazards"
   },
   "Z06-P40": {
     "type": "correct_vs_wrong",
     "variant": "trichinella",
-    "correct_title": "Verified Parasite Destruction",
+    "correct_title": "CDC wild-game guidance",
     "correct_items": [
-      "Cook bear/omnivores >= 165 F",
-      "Verify thickest spot by thermometer"
+      "Verify at least 165°F (74°C)",
+      "Measure with a food thermometer"
     ],
-    "wrong_title": "Unreliable Folk Methods",
+    "wrong_title": "Unreliable controls",
     "wrong_items": [
-      "Freeze wild bear to kill larvae",
-      "Judge safety by smoke/cure/color"
+      "Freezing alone",
+      "Curing, drying or smoking alone"
     ],
-    "reason": "Arctic/wild Trichinella species survive home freezing and curing"
+    "reason": "A cooked appearance cannot establish a safe internal temperature"
   },
   "Z06-P41": {
     "type": "system_boundary",
@@ -9565,19 +9510,19 @@
     "type": "comparison",
     "options": [
       {
-        "name": "NPS & MN SNAs",
-        "note": "Strict federal/state preserves",
-        "limit": "Trapping strictly prohibited"
+        "name": "National Park System",
+        "note": "Consult 36 CFR 2.2 and the unit",
+        "limit": "Check exact wildlife rule"
       },
       {
-        "name": "MN State Parks",
-        "note": "Protected recreation parks",
-        "limit": "Public trapping prohibited"
+        "name": "Minnesota SNA",
+        "note": "Rules can vary by named unit",
+        "limit": "Use current site rules"
       },
       {
-        "name": "WMAs & Forests",
-        "note": "Multi-use public lands",
-        "limit": "Lawful seasonal sets possible"
+        "name": "Other public land",
+        "note": "Identify the controlling agency",
+        "limit": "Check activity and date"
       }
     ]
   },
@@ -9707,16 +9652,11 @@
     "report": "Carry 24-hr rural emergency vet contact"
   },
   "Z07-P15": {
-    "type": "wildlife_track_plate",
-    "variant": "habitat_layers",
-    "features": [
-      "Flagged stakes or marked saplings",
-      "Stick/box cubby or narrow funnel",
-      "Freshly raked dirt or wired anchor",
-      "Strong fish, musk, or carrion odor"
-    ],
-    "scale": "Recognize early from safe trail",
-    "limit": "Route wide; never inspect close-up"
+    "type": "branch",
+    "question": "Does a possible hazard block a safe route?",
+    "yes": "Turn back. Keep others clear.",
+    "no": "Stay on the designated route.",
+    "stop": "Report the location from safety. Do not touch or manipulate it."
   },
   "Z07-P16": {
     "type": "regulation_boundary",
@@ -9813,12 +9753,12 @@
     "type": "hazard_exclusion_map",
     "variant": "trapped_animal",
     "zones": [
-      "Restrained animal: severe bite/talon zone",
-      "Quiet visual setback: reduce animal stress",
-      "Safe call station: GPS to DNR/rehab"
+      "Keep away from the animal and any device",
+      "Hold people and pets at a safe distance",
+      "Give the location from a safe place"
     ],
-    "buffer": "Zero barehanded release attempts",
-    "report": "Call MN DNR or licensed wildlife rehabber"
+    "buffer": "Do not attempt release",
+    "report": "Call the land manager or authorized responder"
   },
   "Z07-P22": {
     "type": "escalation_ladder",
@@ -10046,19 +9986,16 @@
     "hold": "HOLD: Gyromitra carries lethal gyromitrin"
   },
   "Z05-P116": {
-    "type": "lookalike_diagnostic",
-    "variant": "fungus_pair",
-    "target_name": "Lethal Amanita Features",
-    "target_traits": [
-      "Free white gills + white spores",
-      "Skirt ring & hidden basal volva"
+    "type": "specimen_doc_plate",
+    "variant": "a03_provisional_fungus",
+    "views": [
+      "Whole intact specimen",
+      "Underside and attachment",
+      "Base and growth stage",
+      "Accession and region"
     ],
-    "toxic_name": "Fatal Misidentification Traps",
-    "toxic_traits": [
-      "Egg button mimics small puffball",
-      "Delayed 6-24 hr onset -> liver fail"
-    ],
-    "exclusion": "EMERGENCY: Cooking NEVER destroys amatoxins · Call 1-800-222-1222"
+    "voucher": "A cf. determination remains provisional.",
+    "hold": "WITHHELD_HOLD · expert review pending"
   },
   "Z05-P02": {
     "type": "correct_vs_wrong",
@@ -10160,11 +10097,11 @@
     "variant": "forage_law",
     "authority": "MN DNR · NPS 36 CFR 2.1 · Rare Flora",
     "checks": [
-      "Zero foraging/picking of any kind in MN SNAs",
-      "Zero root digging or plant damage in State Parks",
-      "Strict protection for listed rare plants & ginseng"
+      "SNAs: confirm whether site rules allow collection",
+      "State parks and state trails: check separate rules",
+      "NPS units: check specific authorization"
     ],
-    "prohibition": "STOP: Always verify current park/forest rules before picking"
+    "prohibition": "Uncertain land status or species protection: leave it in place"
   },
   "Z05-P11": {
     "type": "hazard_exclusion_map",
@@ -10216,22 +10153,22 @@
     "type": "escalation_ladder",
     "tiers": [
       {
-        "role": "Risk screen",
-        "scope": "Kids, pregnancy, meds",
-        "action": "Zero unsupervised wild trials"
+        "role": "Avoid exposure",
+        "scope": "Known or uncertain identity",
+        "action": "Keep consumption on HOLD"
       },
       {
-        "role": "Mild reaction",
-        "scope": "Rash or GI upset",
-        "action": "Call Poison Help 1-800-222-1222"
+        "role": "Suspected ingestion",
+        "scope": "No emergency signs",
+        "action": "Call Poison Help promptly"
       },
       {
-        "role": "Anaphylaxis",
-        "scope": "Airway/wheeze/faint",
-        "action": "Call 911 & own epinephrine"
+        "role": "Emergency signs",
+        "scope": "Collapse or breathing trouble",
+        "action": "Call 911 immediately"
       }
     ],
-    "trigger": "HOLD: Individual medical safety is never cleared by taxonomy alone"
+    "trigger": "Also call 911 for seizure or inability to wake"
   },
   "Z05-P15": {
     "type": "specimen_doc_plate",
@@ -10266,19 +10203,16 @@
     "hold": "HOLD: Reject sprayed turf; consumption withheld"
   },
   "Z05-P18": {
-    "type": "lookalike_diagnostic",
-    "variant": "plant_pair",
-    "target_name": "Urtica dioica (Nettle)",
-    "target_traits": [
-      "Opposite toothed leaves; sting hairs",
-      "Drooping green flower tassels"
+    "type": "specimen_doc_plate",
+    "variant": "nettles_a03",
+    "views": [
+      "Source name and rank",
+      "Local voucher number",
+      "Leaf, stem and flower",
+      "Region and growth stage"
     ],
-    "toxic_name": "Ageratina (White Snakeroot)",
-    "toxic_traits": [
-      "No stinging hairs; smooth stem",
-      "Bright white flat flower clusters"
-    ],
-    "exclusion": "HOLD: Wear gloves for stinging hairs; reject white snakeroot"
+    "voucher": "Verify current determination with a regional key.",
+    "hold": "WITHHELD_HOLD · no single-trait test"
   },
   "Z05-P20": {
     "type": "botanical_morphology",
@@ -11541,16 +11475,16 @@
     "hold": "STOP: #1 North American mushroom poisoning"
   },
   "Z05-P122": {
-    "type": "botanical_morphology",
-    "variant": "umbel_root",
-    "features": [
-      "Veins end in leaf-tooth NOTCHES",
-      "Smooth hollow purple-streaked stem",
-      "Flat-topped white compound umbels",
-      "Chambered root: LETHAL cicutoxin"
+    "type": "specimen_doc_plate",
+    "variant": "hemlock_a03",
+    "views": [
+      "Habit and habitat",
+      "Leaves from safe distance",
+      "Umbels if present",
+      "Curator-verified voucher"
     ],
-    "scale": "Hands-off zoom observation only",
-    "hold": "EMERGENCY: Most toxic North American plant · Call 911"
+    "voucher": "Do not touch, cut or dig a suspect plant.",
+    "hold": "WITHHELD_HOLD · no field clearance"
   },
   "Z05-P123": {
     "type": "lookalike_diagnostic",
@@ -11692,1486 +11626,1696 @@
     "exclusion": "EMERGENCY: Zero onion scent on spring strap leaves -> STOP"
   },
   "Z05-P133": {
-    "type": "seasonal_timeline",
-    "variant": "mush_onset",
-    "phases": [
-      {
-        "window": "0.5-3 hrs",
-        "focus": "GI / muscarinic / neuro"
-      },
-      {
-        "window": "6-24 hrs",
-        "focus": "RED ALERT: Amatoxin GI"
-      },
-      {
-        "window": "Day 2 lull",
-        "focus": "FALSE recovery (liver injury)"
-      },
-      {
-        "window": "2-14+ days",
-        "focus": "Liver or renal failure"
-      }
-    ],
-    "threshold": "EMERGENCY: Never wait for symptoms · Call 1-800-222-1222 at once"
+    "type": "branch",
+    "question": "Collapse, seizure, trouble breathing, or unable to wake?",
+    "yes": "Call 911 immediately.",
+    "no": "Call Poison Help promptly.",
+    "stop": "Do not wait for symptoms or try home remedies."
   },
   "Z05-P134": {
     "type": "sequence_plate",
     "variant": "poison_sample",
     "steps": [
       {
-        "label": "1. Call help",
-        "detail": "1-800-222-1222 or 911 first"
+        "label": "1. Call promptly",
+        "detail": "Poison Help or 911 for emergency signs"
       },
       {
-        "label": "2. Save pieces",
-        "detail": "Raw/cooked scraps & trim"
+        "label": "2. Explain",
+        "detail": "Say what is already safely available"
       },
       {
-        "label": "3. Paper bag",
-        "detail": "Dry paper; NEVER plastic"
+        "label": "3. Avoid exposure",
+        "detail": "Do not collect suspect material"
       },
       {
-        "label": "4. Bring to ER",
-        "detail": "With time & site photos"
+        "label": "4. Follow advice",
+        "detail": "Follow Poison Control or responders"
       }
     ],
-    "cue": "Never delay 911 care to search for extra field samples"
+    "cue": "Keep anyone else from being exposed to obtain a specimen"
   },
   "Z05-P135": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "Immediate 911",
-        "scope": "Breathing/seizure/faint",
-        "action": "Call 911; clear mouth if awake"
-      },
-      {
-        "role": "Poison Help",
-        "scope": "Any suspect exposure",
-        "action": "Call 1-800-222-1222 at once"
-      },
-      {
-        "role": "ER Toxicology",
-        "scope": "Paper-bag specimen",
-        "action": "Follow hospital & SME plan"
-      }
-    ],
-    "trigger": "STOP: Never induce vomiting or wait for delayed symptoms"
+    "type": "branch",
+    "question": "Collapse, seizure, trouble breathing, or unable to wake?",
+    "yes": "Call 911 immediately.",
+    "no": "Call Poison Help promptly.",
+    "stop": "Do not wait for symptoms or try home remedies."
   },
   "Z16-P01": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "Z01-P01..P06",
-        "scope": "Scene scan & trip abort",
-        "action": "Unsafe terrain -> hold"
+        "zones": "Z01-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z10-P01..P02",
-        "scope": "Primary survey & 911",
-        "action": "Red flags -> call 911"
+        "zones": "Z01-P03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z11-P43..P55",
-        "scope": "Lost STOP & signaling",
-        "action": "Lost -> stay put"
+        "zones": "Z10-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "Atlas preserves every upstream Z01/Z10/Z11 stop threshold"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P02": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "Z10-P03..P05",
-        "scope": "Direct pressure &",
-        "action": "Never loosen placed TQ"
+        "zones": "Z10-P03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z09-P02..P29",
-        "scope": "Blade/saw bleed",
-        "action": "Unstable cut -> stop"
+        "zones": "Z10-P04",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z06-P31..P48",
-        "scope": "Field trauma & clear",
-        "action": "Unload arms -> call 911"
+        "zones": "Z10-P17",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "Civilian visible-wound TQ: 2-3 in above wound, off joint; call 911"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P03": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "Z10-P08..P12",
-        "scope": "Adult/peds CPR & choking",
-        "action": "No 60-sec check delay"
+        "zones": "Z10-P08",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z12-P16..P64",
-        "scope": "Drowning & cold",
-        "action": "Reach-Throw-Dont-Go"
+        "zones": "Z10-P09",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z06-P20..P36",
-        "scope": "Boating PFD & cold water",
-        "action": "Wear buckled PFD afloat"
+        "zones": "Z10-P44",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "Preserve dispatcher guidance and drowning/pediatric breath rules"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P04": {
-    "type": "system_boundary",
-    "variant": "z16_b4",
-    "zone_a": "Tent/snow ventilation & CO",
-    "zone_b": "Home CO alarm & vents",
-    "barrier": "No charcoal/stoves inside",
-    "hazard": "CO alarm = evacuate to fresh air FIRST; never delay to shut gear"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z13-P06",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z03-P40",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z13-P20",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P05": {
-    "type": "sequence_plate",
-    "variant": "z16_q5",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z02-P03..P18"
+        "zones": "Z10-P42",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Ground pad & wind"
+        "zones": "Z10-P46",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Hypothermia &"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "Wet insulation -> stop"
+        "zones": "Z10-P43",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Never rub frostbite with snow or thaw if refreezing can occur"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P06": {
-    "type": "sequence_plate",
-    "variant": "z16_q6",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z10-P46..P48"
+        "zones": "Z10-P50",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Heat stroke rapid"
+        "zones": "Z12-P30",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Desert & exertion heat"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "Altered -> 911 + cool"
+        "zones": "Z15-P38",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Cool immediately + call 911; CDC advises fans only below 90 F"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P07": {
-    "type": "sequence_plate",
-    "variant": "z16_q7",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z04-P14,P32"
+        "zones": "Z04-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "HABs, chemicals &"
+        "zones": "Z04-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Boil altitude &"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "Clarity != potability"
+        "zones": "Z04-P39",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "1 min boil (<6,500 ft) / 3 min (>=6,500 ft); boiling fails HABs/chemicals"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P08": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "Z05-P116..P135",
-        "scope": "Amanita/Hemlock/Poison",
-        "action": "Call 1-800-222-1222 now"
+        "zones": "Z05-P135",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z10-P60..P64",
-        "scope": "Ingestion & anaphylaxis",
-        "action": "No uninstructed vomiting"
+        "zones": "Z05-P133",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z14-P61..P62",
-        "scope": "Botulism cues & detox",
-        "action": "Neuro signs -> 911 now"
+        "zones": "Z05-P134",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "Never wait for symptoms; save fungi in dry paper; call 1-800-222-1222"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P09": {
-    "type": "sequence_plate",
-    "variant": "z16_q9",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z15-P16..P18"
+        "zones": "Z15-P16",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Tornado safe room"
+        "zones": "Z15-P24",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Flood & washout"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "NEVER use overpass"
+        "zones": "Z15-P20",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Local NWS orders supersede general summaries; exit open terrain early"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P10": {
-    "type": "system_boundary",
-    "variant": "z16_b10",
-    "zone_a": "Smoke + extreme indoor heat",
-    "zone_b": "Outage + subzero cold",
-    "barrier": "Zero wading near power",
-    "hazard": "No static ranking overrides local emergency orders during compound"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z15-P34",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z13-P18",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z13-P54",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P11": {
-    "type": "sequence_plate",
-    "variant": "z16_q11",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z01-P18,Z15-P55"
+        "zones": "Z01-P18",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Mobility & medical"
+        "zones": "Z15-P54",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Infant formula & peds"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "Relocate before"
+        "zones": "Z13-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Plan accessible evacuation & backup power early with local registries"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P12": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "Z01,Z10,Z13,Z15",
-        "scope": "Life threat / CO / gas",
-        "action": "Call 911 from safe air"
+        "zones": "Z01-P07",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z05,Z10,Z13",
-        "scope": "Plant/fungi/chem poison",
-        "action": "1-800-222-1222 at once"
+        "zones": "Z10-P63",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z06,Z07,Z11",
-        "scope": "Wildlife TIP & SAR/PLB",
-        "action": "1-800-652-9093; no"
+        "zones": "Z13-P25",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "Keep local county, utility & vet contacts written offline before travel"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P13": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s13",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z15-P13..P15",
-        "focus": "Blizzard & stranded car"
+        "zones": "Z15-P13",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z02-P41,Z12-P07",
-        "focus": "Snow shelter & wind"
+        "zones": "Z15-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z13-P24..P31",
-        "focus": "PVC vents & pipe freeze"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "Clear exhaust; stay put"
+        "zones": "Z02-P41",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Calendar aids never override live NWS blizzard/cold warnings"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P14": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s14",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z12-P13..P20",
-        "focus": "Clear/white/candled ice"
+        "zones": "Z12-P13",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z06-P01..P02",
-        "focus": "Ice angling & B013"
+        "zones": "Z12-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z07-P25,Z12-P16",
-        "focus": "Beaver runs & shore"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "No ice is 100% safe"
+        "zones": "Z06-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Tracks never prove safe ice; DNR thresholds apply only to new clear ice"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P15": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s15",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z15-P24,Z08-P32",
-        "focus": "Snowmelt floods & bluffs"
+        "zones": "Z15-P24",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z06-P20,Z12-P64",
-        "focus": "Warm air + freezing"
+        "zones": "Z08-P32",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z05-P08,P83,P98",
-        "focus": "Spring shoots &"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "Zero flooded road"
+        "zones": "Z05-P98",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Spring warmth masks freezing water, thawing bluffs & lethal shoots"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P16": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s16",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z04-P14,Z06-P15",
-        "focus": "HABs & MDH fish"
+        "zones": "Z04-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z12-P56,Z15-P16",
-        "focus": "Rip currents & derechos"
+        "zones": "Z12-P56",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z10-P58,Z05-P13",
-        "focus": "Deer ticks & wild"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "Reject algal scum water"
+        "zones": "Z10-P58",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Check daily NWS forecasts, surf flags, AQI & waterbody notices"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P17": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s17",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z06-P33,Z07-P14",
-        "focus": "Blaze gear & pet short"
+        "zones": "Z06-P33",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z06-P36..P40",
-        "focus": "Cold boat, CWD & bear"
+        "zones": "Z06-P36",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z05-P116..P119",
-        "focus": "Peak Amanita/Galerina"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "<= 6 ft leash on open"
+        "zones": "Z06-P39",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Autumn overlaps firearms, trapping seasons, cold water & lethal fungi"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P18": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s18",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z14-P04,Z08-P27",
-        "focus": "Frost dates & soil lead"
+        "zones": "Z14-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z14-P27..P33",
-        "focus": "4-zone root-cellar"
+        "zones": "Z14-P04",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z14-P45..P62",
-        "focus": "USDA/NCHFP tested"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "Test urban/old-home soil"
+        "zones": "Z14-P25",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Never modify tested USDA/NCHFP canning recipes or altitude times"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P19": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s19",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z13-P06..P07",
-        "focus": "Generator >= 20 ft &"
+        "zones": "Z13-P61",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z13-P20..P26",
-        "focus": "CO alarms, chimneys &"
+        "zones": "Z13-P62",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z13-P38..P45",
-        "focus": "Wells, pipes & flood"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "Zero wall-outlet"
+        "zones": "Z13-P07",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Conceptual utility guides are never DIY code installation manuals"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P20": {
-    "type": "seasonal_timeline",
-    "variant": "z16_s20",
-    "phases": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "window": "Z05-P08,P105",
-        "focus": "Spring shoots & egg"
+        "zones": "Z05-P08",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z06-P25..P26",
-        "focus": "Snow-melt track"
+        "zones": "Z05-P15",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "window": "Z08-P14,P59",
-        "focus": "Lichen rinds & rock"
-      },
-      {
-        "window": "Upstream stop",
-        "focus": "Missing traits -> STOP"
+        "zones": "Z05-P95",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "threshold": "Stop field identification whenever season hides key diagnostic traits"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P21": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h21",
-    "zones": [
-      "Z04-P34..P42: Freeze-damaged -> trash",
-      "Z04-P14,Z12-P65: Never boil HAB/chem",
-      "Z13-P40..P43: Lab test before drinking"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z04-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z04-P34",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z04-P39",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Boil, filter & chlorine limits",
-    "report": "Visual clarity never proves potability"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P22": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h22",
-    "zones": [
-      "Z03-P01,P37,P42: Red Flag -> zero open fire",
-      "Z15-P29..P31: GO order -> leave now",
-      "Z15-P33,P37: Hot room -> clean-air site"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z03-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z15-P30",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z15-P33",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Burn bans & no-fire fallback",
-    "report": "Follow local fire orders; never run ozone"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P23": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h23",
-    "zones": [
-      "Z12-P40..P42: Whumpfing/cracks -> avoid",
-      "Z10-P49,Z12-P35: Descend immediately + EMS",
-      "Z08-P09,P32,P48: Keep clear of fresh talus"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z12-P40",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z10-P53",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z12-P41",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Avalanche red flags & forecast",
-    "report": "No slope angle guarantees avalanche"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P24": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h24",
-    "zones": [
-      "Z12-P47,Z08-P31: Flexing mat -> turn back",
-      "Z03-P01,Z08-P31: Mineral soil only",
-      "Z05-P122,Z07-P25: Zero marsh foraging/ice"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z12-P47",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P31",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P122",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Quaking bog & peat substrate",
-    "report": "Stay on firm upland ground; zero open"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P25": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h25",
-    "zones": [
-      "Z12-P56..P60: Swim parallel; stay dry",
-      "Z12-P61,Z15-P27: Quake/alert -> high ground",
-      "Z06-P20,Z12-P64: Buckled PFD; no seawater"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z12-P56",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z12-P57",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z12-P60",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Rip currents & wet ledges",
-    "report": "Local coastal/Great Lakes alerts and"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P26": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h26",
-    "zones": [
-      "Z13-P26: Zero sparks -> exit & 911",
-      "Z13-P54: Never mix; 1-800-222-1222",
-      "Z15-P48..P49: HVAC off; follow official order"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z13-P25",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z13-P51",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z15-P48",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Indoor gas/propane leak",
-    "report": "Official incident-specific orders always"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P27": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h27",
-    "zones": [
-      "Z06-P44..P46: Never run; leash dogs",
-      "Z07-P21..P22: Hands off -> call DNR",
-      "Z10-P57..P59: No cutting/sucking bites"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z06-P44",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z06-P45",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z06-P41",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Bears, wolves & moose",
-    "report": "Zero barehanded wildlife release"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P28": {
-    "type": "hazard_exclusion_map",
-    "variant": "z16_h28",
-    "zones": [
-      "Z08-P06,P58: No dry grinding; PPE/wet",
-      "Z08-P21,P59: Leave intact; wash hands",
-      "Z08-P27,Z14-P04: Lab test; no wild pots"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z08-P58",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P59",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P60",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
     ],
-    "buffer": "Crystalline silica dust",
-    "report": "Visual cleanliness never proves rock"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P29": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z01-P05..P11",
-        "note": "Trip plan & core kit check",
-        "limit": "Missing core -> postpone"
+        "zones": "Z01-P05",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z02,Z03,Z04",
-        "note": "Shelter, ignition & water",
-        "limit": "Test gear pre-trip"
+        "zones": "Z01-P13",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z10-P75,Z11",
-        "note": "Med kit, map & whistle",
-        "limit": "Never rely on phone only"
+        "zones": "Z10-P75",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P30": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z04-P01,P27,P32",
-        "note": "Raw vs clean & pre-settle",
-        "limit": "Zero cross-contamination"
+        "zones": "Z04-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z04-P37..P40",
-        "note": "Filter freeze & virus",
-        "limit": "Froze wet -> discard"
+        "zones": "Z04-P34",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z04-P34,P36",
-        "note": "Boil & chemical kinetics",
-        "limit": "Cold water needs longer"
+        "zones": "Z04-P37",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P31": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z02-P03,P15",
-        "note": "Ground R-value & dry loft",
-        "limit": "Wet loft fails fast"
+        "zones": "Z02-P03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z02-P05,P11",
-        "note": "Drainage & hazard trees",
-        "limit": "Zero camp under snags"
+        "zones": "Z02-P24",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z02-P24,P44,P49",
-        "note": "Ventilation, CO & collapse",
-        "limit": "Zero stoves inside"
+        "zones": "Z02-P05",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P32": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z03-P25..P29",
-        "note": "Cold fuel, windscreen &",
-        "limit": "Never wrap upright can"
+        "zones": "Z03-P28",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z03-P37,P42",
-        "note": "Burn bans & no-fire plan",
-        "limit": "Ban -> zero open flame"
+        "zones": "Z03-P29",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z03-P40,Z13-P20",
-        "note": "Outdoor-only combustion",
-        "limit": "Zero vestibule/tent use"
+        "zones": "Z03-P25",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P33": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z08-P40,Z09-P48",
-        "note": "Handle grain & eye wedge",
-        "limit": "Cracked/loose -> retire"
+        "zones": "Z09-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z09-P25..P26",
-        "note": "Saw bind & spring poles",
-        "limit": "Tensioned logs -> walk"
+        "zones": "Z09-P25",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z08-P44,Z09-P44",
-        "note": "Cordage & pulley vectors",
-        "limit": "Zero unrated life loads"
+        "zones": "Z09-P26",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P34": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z11-P12..P14",
-        "note": "Datum & current",
-        "limit": "Match WGS84/NAD27"
+        "zones": "Z11-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z08-P20,Z11-P29",
-        "note": "Iron-rock needle",
-        "limit": "Cross-check terrain"
+        "zones": "Z11-P29",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z11-P56..P57",
-        "note": "PLB registration & radio",
-        "limit": "Register 406 MHz pre-trip"
+        "zones": "Z11-P56",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P35": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z13-P06..P07",
-        "note": "Generator & transfer",
-        "limit": "NEVER backfeed outlets"
+        "zones": "Z13-P06",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z13-P11..P13",
-        "note": "Lithium & lead-acid banks",
-        "limit": "Swollen/wet pack -> stop"
+        "zones": "Z13-P07",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z13-P20,Z15-P02",
-        "note": "CO alarms & NOAA SAME",
-        "limit": "Zero indoor candles/CO"
+        "zones": "Z13-P09",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P36": {
-    "type": "comparison",
-    "options": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "name": "Z14-P52..P56",
-        "note": "Pressure canner & 10-min",
-        "limit": "Test dial gauge yearly"
+        "zones": "Z14-P37",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z14-P48,P25",
-        "note": "Water/steam canner acid",
-        "limit": "Low-acid = pressure ONLY"
+        "zones": "Z14-P54",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "name": "Z14-P68,Z06-P40",
-        "note": "Jerky/bear/fish probe",
-        "limit": "Verify by thermometer"
+        "zones": "Z14-P55",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
-    ]
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P37": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_2",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z08-P01,P07,P20",
-        "topic": "Shield, rift & iron anomalies",
-        "stop": "Cross-check compass"
+        "zones": "Z08-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P09,Z04-P03",
-        "topic": "Karst bluffs & springs",
-        "stop": "Treat clear karst water"
+        "zones": "Z08-P08",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P10,P32",
-        "topic": "Glacial drift & bank slump",
-        "stop": "Stay off undercut rims"
+        "zones": "Z08-P09",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Regional geologic maps orient travel; they never certify site safety"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P38": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_3",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z08-P02,P16,P17",
-        "topic": "Hardness, cleavage & streak",
-        "stop": "Never taste/burn ore"
+        "zones": "Z08-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P03,P15,P58",
-        "topic": "Chert/quartz & silica dust",
-        "stop": "No dry grinding; PPE"
+        "zones": "Z08-P03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P22,P50",
-        "topic": "Wet-rock thermal spalling",
-        "stop": "Keep wet stone out of fire"
+        "zones": "Z08-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Observe minerals intact; separate hardness from toughness & safety"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P39": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_4",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z08-P33..P40",
-        "topic": "Grain, rot & handle checks",
-        "stop": "Diagonal runout -> retire"
+        "zones": "Z08-P33",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P41..P45",
-        "topic": "B007/B008 wood & resin roles",
-        "stop": "No live bark stripping"
+        "zones": "Z08-P40",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z03-P12,Z05-P44",
-        "topic": "Training limits & tree ID",
-        "stop": "Warmth > friction craft"
+        "zones": "Z08-P46",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Never strip live bark; visual grain checks never certify load capacity"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P40": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_0",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z08-P25,P29,Z02",
-        "topic": "Sand vs clay site drainage",
-        "stop": "Avoid flat wet clay"
+        "zones": "Z08-P25",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P27,Z14-P04",
-        "topic": "Urban lead & tailings check",
-        "stop": "Lab test garden soil"
+        "zones": "Z08-P26",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P28,P53",
-        "topic": "Wild clay cookware limits",
-        "stop": "Use tested metal pots"
+        "zones": "Z08-P27",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Texture checks never verify firing integrity or chemical soil purity"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P41": {
-    "type": "system_boundary",
-    "variant": "z16_b41",
-    "zone_a": "NPS 36 CFR 2.1 & MN SNAs",
-    "zone_b": "WMAs, tribal & private land",
-    "barrier": "Zero rocks, roots, traps",
-    "hazard": "Check current agency rules & parcel maps; zero emergency exemption"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z08-P55",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P56",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P57",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P42": {
-    "type": "system_boundary",
-    "variant": "z16_b42",
-    "zone_a": "Debris/snow shelter loads",
-    "zone_b": "Cordage & pulley rigging",
-    "barrier": "Sight != load or food safe",
-    "hazard": "Visual recognition never certifies engineering loads or chemical safety"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z08-P52",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P53",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P54",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P43": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_3",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z09-P11..P21",
-        "topic": "Utility knots & slick backup",
-        "stop": "Dress & back up slick cord"
+        "zones": "Z09-P11",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z09-P42..P45",
-        "topic": "Pulley vector & non-cert",
-        "stop": "Redirect doubles anchor"
+        "zones": "Z09-P12",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08-P44,Z02",
-        "topic": "Natural cord & tarp lines",
-        "stop": "Zero human/climbing loads"
+        "zones": "Z09-P44",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Conceptual knot & pulley plates are not life-safety rigging approvals"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P44": {
-    "type": "sequence_plate",
-    "variant": "z16_q44",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z11-P11..P28"
+        "zones": "Z11-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Contours, bearings &"
+        "zones": "Z11-P27",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Lost STOP & SAR"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "2 missed cues -> STOP"
+        "zones": "Z01-P03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Original B014 P01-P10 remains open behind Z11-R01..R10 reconstructions"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P45": {
-    "type": "sequence_plate",
-    "variant": "z16_q45",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z10-P01,P20..P35"
+        "zones": "Z10-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Scope, wounds, burns"
+        "zones": "Z10-P06",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Seizures & low blood"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "No dosing; check CSM"
+        "zones": "Z10-P20",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Lay reference only; follow 911 dispatcher & personal clinician action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P46": {
-    "type": "sequence_plate",
-    "variant": "z16_q46",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z14-P38..P41"
+        "zones": "Z14-P37",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "Outage fridge/freezer"
+        "zones": "Z14-P38",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Bear >=165 F & fish"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": ">40 F for 2 hr ->"
+        "zones": "Z14-P40",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "When in doubt, throw it out—never taste suspect outage or game food"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P47": {
-    "type": "sequence_plate",
-    "variant": "z16_q47",
-    "steps": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "label": "1. Locate",
-        "detail": "Z14-P45..P51"
+        "zones": "Z14-P45",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "2. Apply",
-        "detail": "High-acid & tomato"
+        "zones": "Z14-P46",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "label": "3. Verify",
-        "detail": "Low-acid pressure &"
-      },
-      {
-        "label": "4. Stop rule",
-        "detail": "Acidify ALL canned"
+        "zones": "Z14-P47",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "cue": "Exact tested USDA/NCHFP recipes only; no substitutions or shortcuts"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P48": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_3",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z06-P03..P12",
-        "topic": "DNR license, slots & fish ID",
-        "stop": "Unsure ID -> release now"
+        "zones": "Z06-P04",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z06-P15..P19",
-        "topic": "MDH mercury/PFAS/PCB",
-        "stop": "Trim fails mercury/PFAS"
+        "zones": "Z06-P06",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z06-P14,P20",
-        "topic": "AIS law & cold-water PFD",
-        "stop": "Clean-Drain-Dry; PFD on"
+        "zones": "Z06-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Record jurisdiction, waterbody & check date; zero emergency exemption"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P49": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_4",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z06-P31..P33",
-        "topic": "4 firearm rules & blaze",
-        "stop": "Unload at all obstacles"
+        "zones": "Z06-P31",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z06-P34..P35",
-        "topic": "Archery & treestand harness",
-        "stop": "Clip ground-to-ground"
+        "zones": "Z06-P34",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z06-P37..P43",
-        "topic": "Gloves, CWD, Trich & Tular",
-        "stop": "Test CWD; reject sick"
+        "zones": "Z06-P35",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Written summaries never replace formal DNR hunter-safety certification"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P50": {
-    "type": "system_boundary",
-    "variant": "z16_b50",
-    "zone_a": "Law, ESA & AFWA welfare",
-    "zone_b": "Non-tamper & TIP/rehab call",
-    "barrier": "<= 6 ft leash; skip culverts",
-    "hazard": "Zero actionable injurious trap construction; escalate unresolved"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z07-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z07-P08",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z07-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P51": {
-    "type": "system_boundary",
-    "variant": "z16_b51",
-    "zone_a": "Binomials, vouchers & nodes",
-    "zone_b": "Zero folklore & B011 leads",
-    "barrier": "No SNAs or roadsides",
-    "hazard": "HOLD: Botanical recognition and consumption remain strictly separate"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z05-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P52": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_2",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05-P05,P122..123",
-        "topic": "Water & poison hemlock",
-        "stop": "Reject ALL wild umbels"
+        "zones": "Z05-P04",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P18,P24..P31",
-        "topic": "Spurge, dogbane, snakeroot",
-        "stop": "Milky/smooth -> STOP"
+        "zones": "Z05-P05",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P19,P131",
-        "topic": "Sprayed turf & wild parsnip",
-        "stop": "Block UV; WITHHELD_HOLD"
+        "zones": "Z05-P92",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "HOLD: Zero herbaceous wild plants cleared for consumption"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P53": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_3",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05-P39..P42,P129",
-        "topic": "Pine/spruce/fir vs yew",
-        "stop": "Taxus = lethal cardiac"
+        "zones": "Z05-P39",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P41,P47,P49",
-        "topic": "Cedar, willow & Prunus",
-        "stop": "Thujone/salicin/cyanide"
+        "zones": "Z05-P42",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P48,P55,P130",
-        "topic": "Sumac & winter poison ivy",
-        "stop": "NEVER burn fuzzy vines"
+        "zones": "Z05-P49",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "HOLD: Zero wild conifer teas, barks, or shoots cleared for eating"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P54": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_4",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05-P64,P127",
-        "topic": "Wild grape vs moonseed",
-        "stop": "Crescent seed = LETHAL"
+        "zones": "Z05-P06",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P58,P60,P126",
-        "topic": "Rubus/Amelanchier vs buck",
-        "stop": "Sub-opp spine = toxic"
+        "zones": "Z05-P64",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P71,P124..129",
-        "topic": "Mayapple/bane/yew/poke",
-        "stop": "Color NEVER proves safe"
+        "zones": "Z05-P126",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "HOLD: Never sample unknown wild berries; call 1-800-222-1222"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P55": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_0",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05-P73,P81",
-        "topic": "Acorns/pines vs buckeye",
-        "stop": "Aesculus = poisonous"
+        "zones": "Z05-P73",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P76,P79",
-        "topic": "Butternut & wild rice law",
-        "stop": "Protect trees; tribal law"
+        "zones": "Z05-P79",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P75,P82",
-        "topic": "Moldy nuts & anaphylaxis",
-        "stop": "Heat fails aflatoxin"
+        "zones": "Z05-P82",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "HOLD: Raw acorns, buckeyes & moldy nuts are unsafe; respect tribal law"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P56": {
-    "type": "system_boundary",
-    "variant": "z16_b56",
-    "zone_a": "Iris, arums, camas & lily",
-    "zone_b": "Public/prairie/water law",
-    "barrier": "Reject ALL wild Apiaceae",
-    "hazard": "STOP: Underground wild-food ID carries highest fatal error & legal risk"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z05-P07",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P85",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P92",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P57": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_2",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05-P95..P97",
-        "topic": "Base/volva, spores & paper",
-        "stop": "Never seal in plastic"
+        "zones": "Z05-P95",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P98,P105",
-        "topic": "Morel & puffball cutaways",
-        "stop": "Slice 100% top-to-bottom"
+        "zones": "Z05-P96",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05-P99..P115",
-        "topic": "Host tree & SME HOLD gate",
-        "stop": "HOLD: No photo clears eat"
+        "zones": "Z05-P97",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Fungi use a separate mycological schema; zero mushrooms cleared to eat"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P58": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "Z05-P116..P117",
-        "scope": "Amanita & Galerina",
-        "action": "Cooking FAILS; 6-24h GI"
+        "zones": "Z05-P116",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z05-P118..P121",
-        "scope": "Gyromitra, Cort, Omphal",
-        "action": "Silent 2-14d renal risk"
+        "zones": "Z05-P117",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "Z05-P133..P135",
-        "scope": "CDC MMWR & paper-bag ER",
-        "action": "Call 1-800-222-1222 now"
+        "zones": "Z05-P118",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "EMERGENCY: Never wait for symptoms; cooking never destroys amatoxins"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P59": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_4",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z14,Z05,Z13",
-        "topic": "Acidification, Amatoxin, Backfeed",
-        "stop": "Refer to full zone card"
+        "zones": "Z10-P55",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z12,Z05,Z08",
-        "topic": "Candled ice, Cicutoxin, Cleavage",
-        "stop": "Definitions != approval"
+        "zones": "Z08-P59",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z10,Z06,Z04",
-        "topic": "CSM, CWD prion, Cyanotoxin",
-        "stop": "Preserve clinical bounds"
+        "zones": "Z04-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P60": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_0",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z11,Z05",
-        "topic": "Datum, Declination, Decurrent",
-        "stop": "Check current local values"
+        "zones": "Z11-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z08,Z09,Z10",
-        "topic": "Erratic, Exclusion, Exposure",
-        "stop": "Never assume local bedrock"
+        "zones": "Z04-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z03,Z10",
-        "topic": "Fascicle, Fatwood, Frostbite",
-        "stop": "Never rub frostbite w/ snow"
+        "zones": "Z14-P45",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P61": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_1",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z07,Z05,Z04,Z10",
-        "topic": "Ghost gear, Gyromitrin, HAB, HAPE",
-        "stop": "HAPE -> descend + EMS"
+        "zones": "Z12-P40",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z12,Z13,Z08",
-        "topic": "HELP, Interlock, Karst",
-        "stop": "Licensed switch only"
+        "zones": "Z15-P48",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z09,Z05,Z06",
-        "topic": "Lashing, Lenticel, Lookalike",
-        "stop": "Zero unrated load claims"
+        "zones": "Z14-P50",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P62": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_2",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05,Z08,Z07",
-        "topic": "Manoomin, Mohs, Mycotoxin, Nongame",
-        "stop": "Respect tribal/ESA law"
+        "zones": "Z06-P16",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z06",
-        "topic": "Ocrea, Orellanine, PFAS, Phenology",
-        "stop": "Check MDH waterbodies"
+        "zones": "Z08-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z11,Z14",
-        "topic": "Photodermatitis, PLB, Canner",
-        "stop": "Low-acid = pressure only"
+        "zones": "Z13-P46",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P63": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_3",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z12,Z11,Z08",
-        "topic": "Quaking bog, Resection, Rip, Runout",
-        "stop": "Swim parallel; retire bad grain"
+        "zones": "Z08-P15",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z15,Z08,Z12",
-        "topic": "SAME, Silica, Sneaker, Spalling",
-        "stop": "Wet/PPE dust; stay dry rock"
+        "zones": "Z11-P27",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z09,Z04",
-        "topic": "Spore print, Spring pole, Supernatant",
-        "stop": "Decant != potable"
+        "zones": "Z12-P56",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P64": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_4",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z05,Z06",
-        "topic": "Taxine, Thermocline, Trich, Tular",
-        "stop": "Taxus lethal; cook bear 165 F"
+        "zones": "Z08-P22",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z08",
-        "topic": "Umbel, Urushiol, Volva, Voucher",
-        "stop": "Excavate base; reject umbels"
+        "zones": "Z12-P57",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z14,Z02,Z06",
-        "topic": "Water-bath, Widowmaker, Zone-Fire",
-        "stop": "WITHHELD_HOLD stays active"
+        "zones": "Z05-P05",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Glossary clarifies terminology only—defer to full zone cards for action"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P65": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_0",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z10,Z07",
-        "topic": "ACS, AED, AVPU, CSM, PEP",
-        "stop": "Follow 911 dispatcher"
+        "zones": "Z10-P08",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z04,Z06,Z13,Z15",
-        "topic": "AQI, CO, HAB, HEPA, NSF, PFAS",
-        "stop": "Zero ozone air cleaners"
+        "zones": "Z10-P53",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z08,Z14",
-        "topic": "MMWR, NAMA, NCHFP, PPE",
-        "stop": "Tested recipes & PPE only"
+        "zones": "Z10-P65",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Acronym reference only—verify exact thresholds in upstream cards"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P66": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_1",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z11,Z12,Z13,Z15",
-        "topic": "NWS, FEMA, USCG, EPA",
-        "stop": "Live alerts govern action"
+        "zones": "Z06-P04",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z05,Z06,Z07,Z08",
-        "topic": "MN DNR, MDH, MGS, USFWS, NPS",
-        "stop": "Recheck annual statutes"
+        "zones": "Z06-P15",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z04,Z05,Z10,Z14",
-        "topic": "CDC, Bell, NCHFP, Poison",
-        "stop": "1-800-222-1222 24/7"
+        "zones": "Z08-P55",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "253 live-verified primary sources tracked in foundations/evidence/sources.tsv"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P67": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_2",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z06,Z14,Z15",
-        "topic": "40 F, 90 F, 145/160/165 F",
-        "stop": "Verify w/ probe therm"
+        "zones": "Z04-P02",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z03,Z04,Z13,Z14",
-        "topic": ">=20 ft, 1k ft, 6.5k ft",
-        "stop": "Apply exact alt rules"
+        "zones": "Z14-P39",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z02,Z08,Z09",
-        "topic": "Zero invented load numbers",
-        "stop": "Never extrapolate ratings"
+        "zones": "Z14-P57",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Never extrapolate unverified numbers beyond cited primary conditions"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P68": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_3",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Z01..Z08",
-        "topic": "Core, Flora, Harvest, Geo (450)",
-        "stop": "Z05 WITHHELD_HOLD"
+        "zones": "Z01-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z09..Z15",
-        "topic": "Tools, Med, Nav, Home (491)",
-        "stop": "13 labeled recons open"
+        "zones": "Z05-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "Z16 + Reader",
-        "topic": "Atlas (75) -> 1,016 total",
-        "stop": "Publication: HOLD"
+        "zones": "Z08-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "All 16 canonical zones & 1,016 pages match frozen master matrix 1:1"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P69": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_4",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "A - C Index",
-        "topic": "AIS, Amanita, Bleed, Boil, Botul",
-        "stop": "Open full cited card"
+        "zones": "Z01-P18",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "C - E Index",
-        "topic": "CO, CWD, Clay, Compass, CPR",
-        "stop": "Preserve all stop rules"
+        "zones": "Z05-P116",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "E - G Index",
-        "topic": "Firearms, Fish, Flood, Galerina",
-        "stop": "Zero standalone shortcuts"
+        "zones": "Z06-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Offline lookup index—always consult the full cited upstream page"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P70": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_0",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "H - L Index",
-        "topic": "HAB, HAPE, Heat, Hemlock, Ice",
-        "stop": "Open full cited card"
+        "zones": "Z04-P14",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "M - O Index",
-        "topic": "Maps, Moonseed, Morels, Outage",
-        "stop": "Preserve all stop rules"
+        "zones": "Z05-P122",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "P Index",
-        "topic": "Parks, Peat, PLB, Poison, Pulley",
-        "stop": "Zero standalone shortcuts"
+        "zones": "Z07-P06",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Offline lookup index—always consult the full cited upstream page"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P71": {
     "type": "atlas_crossref_plate",
-    "variant": "atlas_matrix_1",
+    "variant": "v01_source_index",
     "rows": [
       {
-        "zones": "Q - S Index",
-        "topic": "Quaking bog, Rabies, Rip, Silica",
-        "stop": "Open full cited card"
+        "zones": "Z05-P135",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "T - V Index",
-        "topic": "Ticks, TIP, Tornado, Trich, Vouch",
-        "stop": "Preserve all stop rules"
+        "zones": "Z06-P47",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "zones": "W - Z Index",
-        "topic": "Water, Wildfire, Wolves, Yew",
-        "stop": "Zero standalone shortcuts"
+        "zones": "Z07-P22",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "preserve": "Offline lookup index—always consult the full cited upstream page"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P72": {
-    "type": "system_boundary",
-    "variant": "z16_b72",
-    "zone_a": "Frozen proofs & B011 leads",
-    "zone_b": "Z11-R01..10, Z13/14/15-R",
-    "barrier": "B014 P01-P10 stays open",
-    "hazard": "Strictly additive custody vs 890c66a; open recovery items stay explicit"
-  },
-  "Z16-P73": {
-    "type": "system_boundary",
-    "variant": "z16_b73",
-    "zone_a": "Documentary context JPEGs",
-    "zone_b": "A02 backlog + P16..P20 SVGs",
-    "barrier": "0 diagnostic photos yet",
-    "hazard": "Zero fabricated diagnostic photos; documentary vs diagnostic stay"
-  },
-  "Z16-P74": {
-    "type": "escalation_ladder",
-    "tiers": [
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
       {
-        "role": "A01/A02 Open",
-        "scope": "116 unresolved claim",
-        "action": "Zero unverified closures"
+        "zones": "Z11-R01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "H01..H25 Holds",
-        "scope": "25 pending specialist",
-        "action": "0 qualified approvals"
+        "zones": "Z11-R10",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       },
       {
-        "role": "ASTRA-001..017",
-        "scope": "Consolidated A03 queue",
-        "action": "Publication stays HOLD"
+        "zones": "Z13-R03",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
       }
     ],
-    "trigger": "Automated validation never substitutes for qualified human specialist"
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
+  },
+  "Z16-P73": {
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z05-P15",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P115",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P04",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
+  },
+  "Z16-P74": {
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z01-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z08-P54",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
   },
   "Z16-P75": {
-    "type": "system_boundary",
-    "variant": "z16_b75",
-    "zone_a": "packages/zone-Z01..Z16.zip",
-    "zone_b": "PDF/UA, screen-reader, SME",
-    "barrier": "Verify SHA-256 & CRC",
-    "hazard": "1,016 draft pages complete · 0 human approvals · Publication: HOLD"
+    "type": "atlas_crossref_plate",
+    "variant": "v01_source_index",
+    "rows": [
+      {
+        "zones": "Z01-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z05-P01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      },
+      {
+        "zones": "Z11-R01",
+        "topic": "Read the chapter conditions",
+        "stop": "Use the source stop rule"
+      }
+    ],
+    "preserve": "Selected source cards. Full references and conditions are in the index text."
+  },
+  "Z01-P05": {
+    "type": "v01_artwork"
+  },
+  "Z02-P05": {
+    "type": "v01_artwork"
   }
 }

@@ -32,6 +32,7 @@
 .foundation dt { font-weight: 700; margin-top: .9rem; }
 .foundation dd { margin: .15rem 0 .55rem; }
 .foundation .dir-table { margin: 1rem 0 1.5rem; font-size: .92rem; }
+.foundation .dir-table-scroll { max-width: 100%; overflow-x: auto; }
 .foundation .dir-table th { background: #184438; color: #fffdf7; }
 .foundation .diagram-labels { display: none; }
 @media screen and (max-width: 500px) {
@@ -54,4 +55,10 @@
   .foundation details { display: none; }
   .foundation .card-footer { font-size: 8.5pt; margin-top: .55rem; padding-top: .35rem; }
   .foundation .edition { margin-bottom: .4em; }
+}
+
+.foundation figure.v01-pilot { padding: .35rem; }
+.foundation a.atlas-link { text-decoration: underline; text-underline-offset: .14em; }
+@media print {
+  .foundation figure.v01-pilot img { height: 205px; }
 }

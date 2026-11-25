@@ -1,0 +1,11 @@
+case,zones,interaction,preserved_condition,claim_ids,holds,status
+A03-X01,Z03 Z13 Z15 Z16,CO alarm vs equipment action,Exit first. Use the combustion and external shelter guidance only in its stated setting.,C07 U02 D15,H04 H21 H25,HOLD
+A03-X02,Z10 Z12 Z16,General lay resuscitation vs pediatric/drowning and rescue reach limits,Report cause and age; follow dispatch and keep the non-entry rescue line.,M03 M25 M26 X18,H10 H11 H18 H25,HOLD
+A03-X03,Z04 Z13 Z16,Boiling vs chemical contamination,Follow utility guidance; approved alternate supply for hazardous chemical contamination.,W01 W02 D12,H02 H03 H25,HOLD
+A03-X04,Z05 Z10 Z14 Z16,Possible wild-food poisoning vs food storage and treatment,Use prompt poison advice; call emergency services for severe signs. Never wait for a symptom schedule.,B06 B09 M15 P23,H18 H24 H25,HOLD
+A03-X05,Z05 Z06 Z07 Z08 Z16,State/private/federal activity authorization,"Check exact site and activity, date, agency and named exception. No automatic emergency exemption.",B22 B23 R08 L07 L08 H01,H22 H23 H24 H25,HOLD
+A03-X06,Z03 Z08 Z14,Unknown heated material vs food-contact service,"Recognition does not establish load, heat or food-contact suitability. Use documented rated equipment.",R13 R17 R21 P07,H17 H22,HOLD
+A03-X07,Z06 Z14 Z16,Generic cooking table vs wild game and CWD,"Keep tested criteria, thermometer, processing restrictions and separate prion controls.",H09 H10 F03,H17 H23 H25,HOLD
+A03-X08,Z08 Z11 Z16,Mineral magnetic interference vs navigation certainty,Regional descriptions do not establish a bearing correction at a specific point.,R20 N01 N09,H08 H22 H25,HOLD
+A03-X09,Z05 Z16,Voucher/photo reference vs taxonomy and edibility decision,Require matched characters and expert determination. All consumption stays withheld.,B02 B20 B24 B25,H15 H24 H25,HOLD
+A03-X10,Z02 Z12 Z15 Z16,Flood escape vs low shelter or a snowmelt route,Choose warning-specific refuge. Use observed conditions and exact routes. Avoid floodwater.,D03 D05 T16 W25,H12 H13 H21 H25,HOLD
