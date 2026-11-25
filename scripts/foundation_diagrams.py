@@ -496,26 +496,26 @@ def _render_correct_vs_wrong(spec):
     parts.append('<rect x="28" y="38" width="322" height="24" rx="6" fill="#184438"/>')
     parts.append('<path d="M40 50l5 5 10-10" fill="none" stroke="#fffdf7" stroke-width="2.5" stroke-linecap="round"/>')
     parts.append(_lbl(spec['correct_title'], 198, 54, 11.5, '#fffdf7'))
-    # Variant-specific physical cue on left panel
+    # Variant-specific physical cue on left panel (compact x=38..102)
     if variant == 'electrical':
-        parts.append('<rect x="40" y="70" width="44" height="28" rx="4" fill="#c7d8ce" stroke="#184438" stroke-width="2"/>')
-        parts.append('<path d="M84 84h20m-4-6l6 6-6 6" fill="none" stroke="#184438" stroke-width="2"/>')
-        parts.append('<rect x="108" y="70" width="22" height="28" rx="3" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+        parts.append('<rect x="38" y="74" width="32" height="24" rx="4" fill="#c7d8ce" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M70 86h12" stroke="#184438" stroke-width="2" marker-end="url(#arrow)"/>')
+        parts.append('<rect x="84" y="74" width="18" height="24" rx="3" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
     elif variant == 'thermal':
-        parts.append('<path d="M42 98V74l22-10 22 10v24Z" fill="#cde0d4" stroke="#184438" stroke-width="2"/>')
-        parts.append('<path d="M92 84h26" stroke="#2f6b7d" stroke-width="2.5" marker-end="url(#arrow)"/>')
+        parts.append('<path d="M40 100V78l18-9 18 9v22Z" fill="#cde0d4" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M80 86h20" stroke="#2f6b7d" stroke-width="2.5" marker-end="url(#arrow)"/>')
     elif variant == 'canning':
-        parts.append('<rect x="46" y="72" width="34" height="36" rx="4" fill="#d3e3ea" stroke="#184438" stroke-width="2"/>')
-        parts.append('<path d="M44 72h38M54 67h18" stroke="#184438" stroke-width="3"/>')
-        parts.append('<circle cx="96" cy="84" r="10" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+        parts.append('<rect x="44" y="74" width="28" height="32" rx="4" fill="#d3e3ea" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M42 74h32M50 69h16" stroke="#184438" stroke-width="3"/>')
+        parts.append('<circle cx="88" cy="86" r="9" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
     elif variant == 'medical':
-        parts.append('<circle cx="64" cy="86" r="16" fill="#fffdf7" stroke="#184438" stroke-width="2.2"/>')
-        parts.append('<path d="M64 76v20M54 86h20" stroke="#184438" stroke-width="3"/>')
+        parts.append('<circle cx="66" cy="88" r="16" fill="#fffdf7" stroke="#184438" stroke-width="2.2"/>')
+        parts.append('<path d="M66 78v20M56 88h20" stroke="#184438" stroke-width="3"/>')
     else:
-        parts.append('<polygon points="44,104 68,68 92,104" fill="#cde0d4" stroke="#184438" stroke-width="2.2"/>')
-        parts.append('<path d="M98 92h22" stroke="#184438" stroke-width="2.5" marker-end="url(#arrow)"/>')
-    parts.append(text(wrap(spec['correct_items'][0], 28), 138, 82, 13.5, 11, 650, '#183c31', 'start'))
-    parts.append(text(wrap(spec['correct_items'][1], 28), 138, 114, 13.5, 11, 650, '#183c31', 'start'))
+        parts.append('<polygon points="40,104 62,70 84,104" fill="#cde0d4" stroke="#184438" stroke-width="2.2"/>')
+        parts.append('<path d="M84 92h18" stroke="#184438" stroke-width="2.5" marker-end="url(#arrow)"/>')
+    parts.append(text(wrap(spec['correct_items'][0], 35)[:2], 112, 79, 13.5, 10.8, 650, '#183c31', 'start'))
+    parts.append(text(wrap(spec['correct_items'][1], 35)[:2], 112, 111, 13.5, 10.8, 650, '#183c31', 'start'))
 
     # Right panel: INCORRECT (dashed double-contrast border, X badge, terracotta header)
     parts.append('<rect x="370" y="38" width="322" height="100" rx="8" fill="#f8ebe3" stroke="#8f381c" stroke-width="2.8" stroke-dasharray="7 4"/>')
@@ -523,22 +523,22 @@ def _render_correct_vs_wrong(spec):
     parts.append('<path d="M382 44l10 10m0-10l-10 10" fill="none" stroke="#fffdf7" stroke-width="2.5" stroke-linecap="round"/>')
     parts.append(_lbl(spec['wrong_title'], 540, 54, 11.5, '#fffdf7'))
     if variant == 'electrical':
-        parts.append('<rect x="382" y="70" width="44" height="28" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
-        parts.append('<path d="M426 84l14-8-6 14 14-6" fill="none" stroke="#8f381c" stroke-width="2.5"/>')
+        parts.append('<rect x="380" y="74" width="32" height="24" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
+        parts.append('<path d="M414 86l12-7-5 12 12-5" fill="none" stroke="#8f381c" stroke-width="2.5"/>')
     elif variant == 'thermal':
-        parts.append('<rect x="384" y="70" width="44" height="32" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
-        parts.append('<path d="M394 94q12-16 24 0" fill="none" stroke="#8f381c" stroke-width="2.5"/>')
+        parts.append('<rect x="384" y="74" width="36" height="28" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
+        parts.append('<path d="M392 94q10-14 20 0" fill="none" stroke="#8f381c" stroke-width="2.5"/>')
     elif variant == 'canning':
-        parts.append('<rect x="388" y="72" width="34" height="36" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2" stroke-dasharray="4 3"/>')
-        parts.append('<path d="M386 72l38 36M424 72l-38 36" stroke="#8f381c" stroke-width="2"/>')
+        parts.append('<rect x="386" y="74" width="30" height="32" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2" stroke-dasharray="4 3"/>')
+        parts.append('<path d="M384 74l34 32M418 74l-34 32" stroke="#8f381c" stroke-width="2"/>')
     elif variant == 'medical':
-        parts.append('<polygon points="406,68 426,104 386,104" fill="#ecd2c5" stroke="#8f381c" stroke-width="2.2"/>')
-        parts.append(_lbl('!', 406, 98, 16, '#8f381c'))
+        parts.append('<polygon points="406,70 424,104 388,104" fill="#ecd2c5" stroke="#8f381c" stroke-width="2.2"/>')
+        parts.append(_lbl('!', 406, 98, 15, '#8f381c'))
     else:
-        parts.append('<path d="M384 96q16-14 32 0t32 0" fill="none" stroke="#8f381c" stroke-width="3"/>')
-        parts.append('<circle cx="416" cy="80" r="10" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
-    parts.append(text(wrap(spec['wrong_items'][0], 29), 462, 82, 13.5, 11, 650, '#5a2310', 'start'))
-    parts.append(text(wrap(spec['wrong_items'][1], 29), 462, 114, 13.5, 11, 650, '#5a2310', 'start'))
+        parts.append('<path d="M380 96q13-12 26 0t26 0" fill="none" stroke="#8f381c" stroke-width="2.8"/>')
+        parts.append('<circle cx="406" cy="80" r="9" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
+    parts.append(text(wrap(spec['wrong_items'][0], 35)[:2], 446, 79, 13.5, 10.8, 650, '#5a2310', 'start'))
+    parts.append(text(wrap(spec['wrong_items'][1], 35)[:2], 446, 111, 13.5, 10.8, 650, '#5a2310', 'start'))
 
     # Bottom causal reason bar
     parts.append('<rect x="28" y="141" width="664" height="17" rx="4" fill="#f5f1e2" stroke="#7c6928"/>')
@@ -628,15 +628,15 @@ def _render_escalation_ladder(spec):
     parts = ['<g id="escalation-ladder-artwork">']
     for i, tier in enumerate(tiers):
         x = 30 + i * 224
-        y = 74 - i * 16
-        h = 60 + i * 16
+        y = 58 - i * 9
+        h = 76 + i * 9
         parts.append(f'<rect x="{x}" y="{y}" width="206" height="{h}" rx="7" fill="{fills[i]}" stroke="{strokes[i]}" stroke-width="2.6"/>')
         parts.append(f'<rect x="{x}" y="{y}" width="206" height="22" rx="5" fill="{strokes[i]}"/>')
         parts.append(_lbl(tier['role'], x + 103, y + 15, 11, '#fffdf7'))
-        parts.append(_lbl(tier['scope'], x + 103, y + 38, 10.8, text_fills[i]))
-        parts.append(text(wrap(tier['action'], 24), x + 103, y + 54, 13.5, 10.8, 650, text_fills[i], 'middle'))
+        parts.append(_lbl(tier['scope'], x + 103, y + 36, 10.6, text_fills[i]))
+        parts.append(text(wrap(tier['action'], 27)[:2], x + 103, y + 52, 13, 10.5, 650, text_fills[i], 'middle'))
         if i < 2:
-            parts.append(f'<path d="M{x+208} {y+24}l12-10" stroke="{strokes[i+1]}" stroke-width="3" marker-end="url(#arrow)"/>')
+            parts.append(f'<path d="M{x+208} {y+28}l12-8" stroke="{strokes[i+1]}" stroke-width="3" marker-end="url(#arrow)"/>')
     parts.append('<rect x="30" y="139" width="660" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
     parts.append(_lbl(spec['trigger'], 360, 152, 10.8, '#642e1e'))
     parts.append('</g>')

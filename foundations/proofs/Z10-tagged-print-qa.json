@@ -1,0 +1,22 @@
+{
+  "Z10-letter.pdf": {
+    "sheets": 80,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 80,
+    "bookmarks": 80,
+    "extracted_section_order": true,
+    "sha256": "bc322211136b358d37eb8751271e587ec156d13ca1af5ed7dea400623d1b6826"
+  },
+  "Z10-a4.pdf": {
+    "sheets": 80,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 80,
+    "bookmarks": 80,
+    "extracted_section_order": true,
+    "sha256": "4988fb44166ef275f99183ce091c75aaac630d095003773e759471c131983ea3"
+  }
+}
