@@ -23,6 +23,10 @@ A04 records, the V01/V02 plates, the 40 photographs, the realistic pilot and the
 
 The three plates A04 returned for reconstruction keep their A04 candidates in place under `visual/v02_technical/revised/`. `scripts/check_a04.py` accepts a different active figure for those rows only when a W2C record chains the A04 candidate hash to the W2C predecessor, revision and active reader figure.
 
+## Proof and package refresh policy
+
+Every batch commit rebuilds the reader, refreshes the offline ZIP packages and carries tagged Letter and A4 proofs of the changed pages in `visual/w2c_context/<batch>/`, so `scripts/check_foundations.py` passes at every commit. The 37 consolidated tagged PDFs in `foundations/proofs/` are regenerated at milestones (every few batches and at the end of the run) because each regeneration rewrites about 110 MB of PDF; between milestones they show the figures as of the last milestone, and their receipt still matches their bytes. Milestones are named in commit messages.
+
 ## Commands
 
 ```sh

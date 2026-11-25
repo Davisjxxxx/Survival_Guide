@@ -97,8 +97,9 @@ def check_receipts(provisional):
 
 def main():
     run('w2c_register.py', '--check')
-    run('build_w2c_knots.py', '--check')
-    run('build_w2c_navigation.py', '--check')
+    from w2c_register import BUILDERS
+    for builder in BUILDERS:
+        run(builder, '--check')
     frozen = check_frozen_trees()
     records, provisional = check_records()
     batches = check_receipts(provisional)

@@ -1,13 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Respect sanitary greywater boundaries during extended home water rationing</title>
-  <desc id="desc">DECISION TREE: Verify sewer/gravity line open first | Light greywater -&gt; pour briskly in bowl | Never store &gt;24 h or use on edible crops — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P53 · DECISION TREE (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="decision-tree-artwork"><polygon points="125,44 215,82 125,120 35,82" fill="#e6eee6" stroke="#184438" stroke-width="2.8"/><text x="125" y="79" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">Sewer/gravity</text><text x="125" y="93" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">line open?</text><path d="M215 82h60" stroke="#285345" stroke-width="3" marker-end="url(#arrow)"/><text x="244" y="75" font-size="10" font-weight="650" fill="#184438" text-anchor="middle">YES</text><polygon points="365,44 455,82 365,120 275,82" fill="#e6eee6" stroke="#184438" stroke-width="2.8"/><text x="365" y="79" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">Light</text><text x="365" y="93" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">greywater &lt;24</text><text x="365" y="107" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">h?</text><path d="M455 82h55" stroke="#285345" stroke-width="3" marker-end="url(#arrow)"/><text x="482" y="75" font-size="10" font-weight="650" fill="#184438" text-anchor="middle">YES</text><rect x="516" y="54" width="166" height="56" rx="8" fill="#d3e6d6" stroke="#184438" stroke-width="3"/><text x="599" y="79" font-size="11.5" font-weight="700" fill="#183c31" text-anchor="middle">Pour 1–2 gal</text><text x="599" y="93" font-size="11.5" font-weight="700" fill="#183c31" text-anchor="middle">briskly in bowl</text><path d="M125 120v14h240v-14" fill="none" stroke="#a05332" stroke-width="2.5"/><text x="142" y="131" font-size="9.5" font-weight="650" fill="#8b3e1f" text-anchor="middle">NO</text><text x="382" y="131" font-size="9.5" font-weight="650" fill="#8b3e1f" text-anchor="middle">NO</text><rect x="115" y="132" width="490" height="22" rx="5" fill="#faeee5" stroke="#a05332" stroke-width="2"/><text x="360" y="147" font-size="11" font-weight="650" fill="#7a2f15" text-anchor="middle">STOP: Flooded/pump septic, raw-meat/fecal water or slow drain -&gt; bucket toilet</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Verify sewer/gravity</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">line open first</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Light greywater -&gt; pour</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">briskly in bowl</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Never store &gt;24 h or use</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">on edible crops</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Non-potable water for flushing, only into a working drain</title>
+<desc id="desc">Bathroom cross-section. A bucket marked non-potable is poured into the toilet bowl, and the flush goes down the drain only because the sewer or septic line is working. Drinking water and food preparation containers sit apart on their own shelf and never share containers with non-potable water. A stop panel shows the warning signs that end all flushing: gurgling, slow drains, sewage odour or backup, with a lined bucket toilet as the alternative. Conceptual drawing, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P53 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p53-artwork">
+<rect x="30" y="268" width="560" height="10" fill="#bdb6a3"/>
+<rect x="30" y="278" width="560" height="54" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/>
+<rect x="44" y="150" width="120" height="8" fill="#8d7d5c"/>
+<path d="M56 148V109.1Q56 102.6 66 100.5V94H76.8V100.5Q89.5 102.6 89.5 109.1V148Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/>
+<path d="M104 148V109.1Q104 102.6 114 100.5V94H124.8V100.5Q137.5 102.6 137.5 109.1V148Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/>
+<path d="M186 70V262" stroke="#8b3825" stroke-width="2.4" stroke-dasharray="8 6"/>
+<text x="40" y="182" class="tiny">drinking and</text>
+<text x="40" y="203" class="tiny">food water</text>
+<text x="40" y="224" class="tiny">kept apart</text>
+<path d="M330 150h70v70h-70z" fill="#f7f8f4" stroke="#183a30" stroke-width="2.4"/><path d="M300 222h112q0 34-30 44h-52q-30-10-30-44z" fill="#f7f8f4" stroke="#183a30" stroke-width="2.4"/><path d="M320 232h82q-4 18-24 24h-34q-20-6-24-24z" fill="#9cc3cf"/>
+<path d="M356 268L356 296L580 312" fill="none" stroke="#6a624f" stroke-width="12" stroke-linejoin="round"/><path d="M356 268L356 296L580 312" fill="none" stroke="#b8b09a" stroke-width="9" stroke-linejoin="round"/>
+<path d="M396 300L520 309" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<text x="376" y="330" class="tiny">to working sewer or septic</text>
+<g transform="rotate(-38 244 150)"><path d="M216.6 158L275.4 158L272.9 188L219.1 188Z" fill="#c9c6a5"/><path d="M214 128L278 128L272.9 188L219.1 188Z" fill="none" stroke="#183a30" stroke-width="2.6" stroke-linejoin="round"/><line x1="210" y1="128" x2="282" y2="128" stroke="#183a30" stroke-width="3.4"/></g>
+<rect x="196" y="222" width="104" height="22" rx="3" fill="#8b3825"/><text x="248" y="238" class="tiny inv" text-anchor="middle" font-size="13">NON-POTABLE</text>
+<path class="lead" d="M236 222L232 200"/>
+<path d="M286 150Q312 172 332 222" fill="none" stroke="#205b68" stroke-width="3.2" marker-end="url(#m-flow)"/>
+<text x="430" y="150" class="tiny">pour into the bowl</text>
+<text x="430" y="171" class="tiny">only if the drain</text>
+<text x="430" y="192" class="tiny">is working</text>
+<path class="lead" d="M426 160L402 226"/>
+<rect x="604" y="46" width="272" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="620" y="72" class="head warn">✕ STOP ALL FLUSHING</text>
+<text x="624" y="104" class="small">gurgling pipes</text>
+<text x="624" y="127" class="small">slow drains</text>
+<text x="624" y="150" class="small">sewage smell</text>
+<text x="624" y="173" class="small">backup from a drain</text>
+<rect x="640" y="214" width="62" height="62" rx="6" fill="#e9e6da" stroke="#183a30" stroke-width="2.2"/><path d="M636 212h70" stroke="#183a30" stroke-width="5"/><path d="M646 222q25 30 50 0" fill="none" stroke="#6b7f8c" stroke-width="2"/>
+<text x="716" y="236" class="tiny">use a lined</text>
+<text x="716" y="257" class="tiny">bucket toilet</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Never add water to a failed, flooded or backing-up sewer or septic system.</text>
+</g>
 </svg>

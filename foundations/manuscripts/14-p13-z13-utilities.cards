@@ -499,7 +499,7 @@ failure: Carefully boiling drinking water on the stove while serving guests ice 
 verify: Confirm icemaker switched OFF, old ice discarded, CPAP/humidifiers isolated on safe water, and fridge filter scheduled for replacement post-advisory. @D12,W29
 stop: Do not reconnect icemakers or drink filtered fridge water until utility clearance AND post-advisory pipe flushing are complete. @D12,W07
 diagram: Switch icemaker OFF & dump all ice | Use only safe/distilled water in CPAP/mist | Standard fridge carbon filters ≠ sterile
-visual: Exploded four-appliance isolation diagram covering refrigerator icemaker, inline carbon filter, humidifier/CPAP tank, and dishwasher sanitize cycle limits. Conceptual, not to scale.
+visual: Refrigerator cutaway tracing advisory tap water through the filter to the icemaker and dispenser, with humidifier and CPAP reservoirs filled only from safe water. Conceptual, not to scale.
 reviewer: Drinking-water public health and appliance safety
 
 Z13-P38 | Flush household plumbing properly after municipal water advisories clear | CDC Drinking Water Advisories; new manuscript
@@ -548,14 +548,14 @@ Z13-P41 | Plan for private well electrical pump outages and depressurization ris
 objective: Anticipate immediate residential water loss when grid power drops on a private well and protect submersible pumps from surge/dry damage.
 applies: Homes relying on electrically powered submersible or jet well pumps during power blackouts.
 equipment: Dedicated stored drinking water, tagged well-pump breaker, licensed transfer-switch plan if generator-backed, and spare water plan for livestock/flushing.
-action: A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation. @U05,U06
+action: A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation. @U22,U05,U06
 action: Use stored potable water during a prolonged outage. Leave selection of a backup circuit and inspection after unstable power to licensed electrical and well professionals. @U02,U06
 action: Never open well caps or attempt DIY electrical splicing on submersible well wiring—240-volt wet wellheads pose lethal electrocution and aquifer-contamination hazards requiring licensed well and electrical contractors. @U06,U02
 failure: Relying on a private well with zero stored bottled water, then burning out a deep submersible pump motor on a flickering brownout. @U06,U08
 verify: Confirm stored drinking water covers outage days independently of the well, well breaker is tagged, and pump stays off during brownouts. @U06,U08,U14
 stop: Loss of well pressure paired with muddy water, air sputtering, or electrical breaker tripping requires shutting off the well breaker and calling a licensed well contractor. @U06
-diagram: Grid loss = instant well-pump shutdown | Bladder tank holds only ~5–15 gal reserve | Kill breaker in brownouts; store water first
-visual: Failure-mode diagram tracing grid loss and brownout surges through submersible pump damage to stored-water independence and tagged breaker control. Conceptual, not to scale.
+diagram: Grid loss = well pump cannot run | Pressure tank gives only a small reserve | Store water first; licensed pros for wiring
+visual: Outage cross-section: no power to the well pump, the pressure tank pushing out its small stored reserve to a sputtering tap, and a plan of stored water, a labelled breaker and licensed contractors. Conceptual, not to scale.
 reviewer: Licensed well contractor and master electrician
 
 Z13-P42 | Reject flood-submerged private well water until licensed inspection and testing | CDC Private Wells After Flood and MN Dept. of Health; new manuscript
@@ -590,14 +590,14 @@ Z13-P44 | Prevent residential hose backflow and plumbing cross-connections | US 
 objective: Stop lawn chemicals, buckets of soapy water, or cistern water from siphoning backward into home drinking-water pipes during pressure drops.
 applies: Homes using outdoor garden hoses, utility sinks, pesticide sprayers, or auxiliary backup water systems.
 equipment: Hose-bibb vacuum breakers (anti-siphon valves), physical air gaps, and licensed plumber guidance for auxiliary piping.
-action: Install inexpensive threaded hose-bibb vacuum breakers on every exterior faucet and NEVER leave a garden hose end submerged inside a bucket of detergent, animal trough, puddle, or chemical sprayer—a sudden municipal main break or well shutoff creates negative vacuum suction ("backsiphonage") that pulls dirty liquid straight into house pipes. @U08,U05
-action: Maintain a physical **air gap** (clear vertical air space above the rim) whenever filling buckets, rain barrels, or emergency tanks from a tap. @U08,W06
-action: NEVER connect a rainwater cistern, sump pump, or auxiliary untreated pump directly into household potable plumbing—physical isolation and licensed backflow assemblies are mandatory under plumbing codes. @U08,U06,W03
+action: Install inexpensive threaded hose-bibb vacuum breakers on every exterior faucet and NEVER leave a garden hose end submerged inside a bucket of detergent, animal trough, puddle, or chemical sprayer—a sudden municipal main break or well shutoff creates negative vacuum suction ("backsiphonage") that pulls dirty liquid straight into house pipes. @U21,U08,U05
+action: Maintain a physical **air gap** (clear vertical air space above the rim) whenever filling buckets, rain barrels, or emergency tanks from a tap. @U21,U08,W06
+action: NEVER connect a rainwater cistern, sump pump, or auxiliary untreated pump directly into household potable plumbing—physical isolation and licensed backflow assemblies are mandatory under plumbing codes. @U21,U08,U06,W03
 failure: Leaving a garden hose running inside a soapy wash bucket when a neighborhood water main breaks, siphoning detergent back into the kitchen drinking line. @U08
-verify: Confirm anti-siphon vacuum breakers installed on exterior spigots, zero submerged hose ends, and complete physical isolation from non-potable tanks. @U08,U05
+verify: Confirm anti-siphon vacuum breakers installed on exterior spigots, zero submerged hose ends, and complete physical isolation from non-potable tanks. @U21,U08,U05
 stop: Suspected chemical or sewage backsiphonage into home pipes requires immediate Do Not Drink isolation, flushing guidance, and licensed plumbing/health review. @W01,U08
 diagram: Vacuum breakers on all outdoor spigots | Never submerge hose end in buckets/troughs | Zero cross-connection to cisterns/sumps
-visual: Correct versus incorrect hose/plumbing isolation contrasting physical air gaps and anti-siphon vacuum breakers against backsiphonage during pressure drops. Conceptual, not to scale.
+visual: Two panels: a submerged hose end back-siphoned into house pipes when supply pressure drops, and the barriers that stop it: a hose-bibb vacuum breaker, an air gap above the rim and no hard connection to rain barrels, sumps or untreated pumps. Conceptual, not to scale.
 reviewer: Licensed plumber and drinking-water safety
 
 Z13-P45 | Keep household rainwater catchment strictly isolated from potable taps | CDC Collecting Rainwater and EPA Private Wells; new manuscript
@@ -653,7 +653,7 @@ failure: Calling a vacuum truck to pump a septic tank empty while the yard is st
 verify: Confirm zero traffic over wet drainfields, minimal indoor water draining during floods, and licensed inspection after ground dries. @U07
 stop: Sewage surfacing in the yard or backing into basement tubs requires halting plumbing use, isolating contaminated areas, and using temporary containment or relocating. @U07,U13
 diagram: Saturated drainfield cannot absorb flow | NEVER pump tank while ground is flooded | Wait for dry ground + licensed inspection
-visual: Failure-mode diagram showing buoyant tank float-out when pumped in saturated flood soil versus water conservation and post-recession licensed inspection. Conceptual, not to scale.
+visual: Two ground sections: an emptied tank lifting from its seat in saturated soil with broken inlet and outlet joints, beside a full, unopened tank with plugged basement drains, reduced water use and equipment kept off the wet drainfield. Conceptual, not to scale.
 reviewer: Onsite wastewater engineering and public health
 
 Z13-P49 | Set up hygienic two-bucket emergency sanitation when sewer service fails | CDC Emergency Sanitation; new manuscript
@@ -722,8 +722,8 @@ action: Choose a locally approved sanitation alternative if wastewater service i
 failure: Storing soapy laundry water in an unlabeled drinking jug for a week or pouring bucket water down a toilet connected to an unpowered septic lift pump. @U07,U13
 verify: Confirm sewer/gravity drain is open before flushing, greywater bucket is labeled NON-POTABLE, and water is used within 24 hours. @U07,U13
 stop: Slow draining, gurgling pipes, or foul odor from floor drains halts ALL toilet flushing immediately in favor of bucket containment. @U07,U13
-diagram: Verify sewer/gravity line open first | Light greywater -> pour briskly in bowl | Never store >24 h or use on edible crops
-visual: Decision tree screening sewer/septic function, light greywater purity, and 24-hour freshness before allowing emergency bowl flushing. Conceptual, not to scale.
+diagram: Verify sewer/gravity line open first | Labelled non-potable water into the bowl | Stop at gurgling, slow drains or odor
+visual: Bathroom section: a labelled non-potable bucket poured into the bowl only when the drain works, drinking water kept apart, and the warning signs that stop all flushing. Conceptual, not to scale.
 reviewer: Environmental health and onsite wastewater safety
 
 Z13-P54 | Isolate basement sewage backups and floodwater hazards before any cleanup | FEMA Ready.gov Floods and EPA Septic; new manuscript

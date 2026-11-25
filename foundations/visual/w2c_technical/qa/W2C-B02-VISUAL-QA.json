@@ -1,0 +1,99 @@
+{
+  "batch": "W2C-B02",
+  "pages": [
+    "Z13-P44",
+    "Z13-P37",
+    "Z13-P48",
+    "Z13-P41",
+    "Z13-P53"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z13-P44": [],
+    "Z13-P37": [],
+    "Z13-P48": [],
+    "Z13-P41": [],
+    "Z13-P53": []
+  },
+  "axe_incomplete": {
+    "Z13-P44": [],
+    "Z13-P37": [],
+    "Z13-P48": [],
+    "Z13-P41": [],
+    "Z13-P53": []
+  },
+  "figure_alt": {
+    "Z13-P44": "Left: an outdoor faucet feeds a garden hose whose end sits under soapy or chemical liquid in a bucket. A main break or shutoff drops supply pressure, so the liquid is pulled back up the hose and into the house pipes. Right: a hose-bibb vacuum breaker on the faucet vents to air when pressure drops, the hose end is held above the bucket rim to keep an air gap, and a rain barrel or sump has no hard connection to house plumbing. Conceptual drawing, not to scale.",
+    "Z13-P37": "Left: a refrigerator cutaway. Advisory tap water enters from the house supply line, passes through the filter cartridge and feeds both the icemaker and the door dispenser. The icemaker is switched off, ice made from advisory water is discarded, and the filter is marked as not making advisory water safe. Right: a humidifier or CPAP water chamber is filled from a jug of safe water, not from the advisory tap. Conceptual drawing, not to scale.",
+    "Z13-P48": "Two ground cross-sections with floodwater over saturated soil. Left: a septic tank pumped empty while the soil is saturated; groundwater presses up on its base, the tank lifts from its original seat and the inlet and outlet pipes break at the joints. Right: the tank is left full and unopened, basement drains are plugged, indoor water use is cut sharply, and equipment stays off the wet drainfield until the water recedes and a professional inspects the system. Conceptual drawing, not to scale.",
+    "Z13-P41": "Cross-section of a house and private well with the power out. The breaker for the submersible pump has no power, so the pump in the well cannot run or refill the basement pressure tank. The tank pushes out only its small stored reserve, then the kitchen tap sputters and stops; common tanks deliver about 5 to 16 gallons between pump starts. A side panel shows the plan: stored drinking water, a labelled pump breaker, and well cap and pump wiring left to licensed contractors. Conceptual drawing, not to scale.",
+    "Z13-P53": "Bathroom cross-section. A bucket marked non-potable is poured into the toilet bowl, and the flush goes down the drain only because the sewer or septic line is working. Drinking water and food preparation containers sit apart on their own shelf and never share containers with non-potable water. A stop panel shows the warning signs that end all flushing: gurgling, slow drains, sewage odour or backup, with a lined bucket toilet as the alternative. Conceptual drawing, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B02/W2C-B02-letter.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "ea9279e71f5d4edd1ba201f885d3126ca398aaae78781c29fcb9386f8ddd63f9"
+    },
+    "visual/w2c_context/W2C-B02/W2C-B02-a4.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "1001253629f3fc88a81edcc78c0835e1ba29bb2b5e3ae041622c062f54f01725"
+    },
+    "visual/w2c_context/W2C-B02/W2C-B02-compare.jpg": {
+      "sha256": "0ad65b26420bb56a77a318e70333adae1429963584dfe87954dc727fd170fd49",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B02/W2C-B02-compare-gray.jpg": {
+      "sha256": "fdf0aefa9550654c522ad5522b4f5f1f6425d49656b1de0731835b75bfb7ab4e",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B02/W2C-B02-phone.jpg": {
+      "sha256": "6faf34c6633173105c21fa707d1034e3d38096fd955d84a1c895b4d065cba59d",
+      "size": [
+        1482,
+        1900
+      ]
+    },
+    "visual/w2c_context/W2C-B02/W2C-B02-desktop.jpg": {
+      "sha256": "8579e96e45d933d767a1725759d9fd6eba46fa657e548944695dd9e7daaaa87c",
+      "size": [
+        1310,
+        2065
+      ]
+    },
+    "visual/w2c_context/W2C-B02/W2C-B02-print.jpg": {
+      "sha256": "c58b8885af4c75d87983819cafc308529e572c4a48678fe3326f77b5b8604c5f",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

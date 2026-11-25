@@ -4802,14 +4802,7 @@
     "trigger": "Follow exact local utility notice wording until formal lab clearance issues"
   },
   "Z13-P37": {
-    "type": "exploded",
-    "components": [
-      "Icemaker OFF (dump ice)",
-      "CPAP/humidifier safe H2O",
-      "Fridge carbon filter",
-      "Dishwasher sanitize"
-    ],
-    "callout": "Freezing does NOT kill germs & basic fridge filters do NOT clear Boil Water notices"
+    "type": "w2c_artwork"
   },
   "Z13-P38": {
     "type": "sequence_plate",
@@ -4851,10 +4844,7 @@
     "hazard": "A snowplow-cracked well casing opens a direct path for surface bacteria"
   },
   "Z13-P41": {
-    "type": "failure_mode",
-    "cause": "Power outage or flickering brownout",
-    "cue": "Bladder tank empties in ~5–15 gal; pump surges",
-    "correction": "Kill well breaker in brownout; store water"
+    "type": "w2c_artwork"
   },
   "Z13-P42": {
     "type": "sequence_plate",
@@ -4903,19 +4893,7 @@
     "threshold": "Boiling high-nitrate water evaporates water and concentrates toxic nitrates"
   },
   "Z13-P44": {
-    "type": "correct_vs_wrong",
-    "variant": "canning",
-    "correct_title": "AIR GAP & VACUUM BREAKER",
-    "correct_items": [
-      "Anti-siphon valve on every outdoor spigot",
-      "Clear vertical air gap above bucket rims"
-    ],
-    "wrong_title": "SUBMERGED BACKSIPHONAGE",
-    "wrong_items": [
-      "Hose end left underwater in soap/trough",
-      "Pressure drop sucks toxins into home pipes"
-    ],
-    "reason": "Never cross-connect rain cisterns or sumps into household potable plumbing"
+    "type": "w2c_artwork"
   },
   "Z13-P45": {
     "type": "system_boundary",
@@ -4954,10 +4932,7 @@
     "hazard": "High indoor water use on a dead septic lift pump backs raw sewage into basements"
   },
   "Z13-P48": {
-    "type": "failure_mode",
-    "cause": "Pumping septic tank while yard is flooded",
-    "cue": "Hollow empty tank floats up in wet earth",
-    "correction": "Conserve water; wait for dry ground + pro"
+    "type": "w2c_artwork"
   },
   "Z13-P49": {
     "type": "exploded",
@@ -5016,13 +4991,7 @@
     "hazard": "NEVER burn plastics or household garbage in fireplaces or indoor stoves"
   },
   "Z13-P53": {
-    "type": "decision_tree",
-    "gates": [
-      "Sewer/gravity line open?",
-      "Light greywater <24 h?",
-      "Pour 1–2 gal briskly in bowl"
-    ],
-    "abort": "STOP: Flooded/pump septic, raw-meat/fecal water or slow drain -> bucket toilet"
+    "type": "w2c_artwork"
   },
   "Z13-P54": {
     "type": "sequence_plate",

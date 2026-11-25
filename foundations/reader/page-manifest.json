@@ -47203,7 +47203,7 @@
       ]
     },
     "diagram": "Switch icemaker OFF & dump all ice | Use only safe/distilled water in CPAP/mist | Standard fridge carbon filters ≠ sterile",
-    "visual": "Exploded four-appliance isolation diagram covering refrigerator icemaker, inline carbon filter, humidifier/CPAP tank, and dishwasher sanitize cycle limits. Conceptual, not to scale.",
+    "visual": "Refrigerator cutaway tracing advisory tap water through the filter to the icemaker and dispenser, with humidifier and CPAP reservoirs filled only from safe water. Conceptual, not to scale.",
     "reviewer": "Drinking-water public health and appliance safety"
   },
   {
@@ -47395,6 +47395,7 @@
       {
         "text": "A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation.",
         "claims": [
+          "U22",
           "U05",
           "U06"
         ]
@@ -47441,8 +47442,8 @@
         "U06"
       ]
     },
-    "diagram": "Grid loss = instant well-pump shutdown | Bladder tank holds only ~5–15 gal reserve | Kill breaker in brownouts; store water first",
-    "visual": "Failure-mode diagram tracing grid loss and brownout surges through submersible pump damage to stored-water independence and tagged breaker control. Conceptual, not to scale.",
+    "diagram": "Grid loss = well pump cannot run | Pressure tank gives only a small reserve | Store water first; licensed pros for wiring",
+    "visual": "Outage cross-section: no power to the well pump, the pressure tank pushing out its small stored reserve to a sputtering tap, and a plan of stored water, a labelled breaker and licensed contractors. Conceptual, not to scale.",
     "reviewer": "Licensed well contractor and master electrician"
   },
   {
@@ -47579,6 +47580,7 @@
       {
         "text": "Install inexpensive threaded hose-bibb vacuum breakers on every exterior faucet and NEVER leave a garden hose end submerged inside a bucket of detergent, animal trough, puddle, or chemical sprayer—a sudden municipal main break or well shutoff creates negative vacuum suction (\"backsiphonage\") that pulls dirty liquid straight into house pipes.",
         "claims": [
+          "U21",
           "U08",
           "U05"
         ]
@@ -47586,6 +47588,7 @@
       {
         "text": "Maintain a physical **air gap** (clear vertical air space above the rim) whenever filling buckets, rain barrels, or emergency tanks from a tap.",
         "claims": [
+          "U21",
           "U08",
           "W06"
         ]
@@ -47593,6 +47596,7 @@
       {
         "text": "NEVER connect a rainwater cistern, sump pump, or auxiliary untreated pump directly into household potable plumbing—physical isolation and licensed backflow assemblies are mandatory under plumbing codes.",
         "claims": [
+          "U21",
           "U08",
           "U06",
           "W03"
@@ -47614,6 +47618,7 @@
     "verify": {
       "text": "Confirm anti-siphon vacuum breakers installed on exterior spigots, zero submerged hose ends, and complete physical isolation from non-potable tanks.",
       "claims": [
+        "U21",
         "U08",
         "U05"
       ]
@@ -47626,7 +47631,7 @@
       ]
     },
     "diagram": "Vacuum breakers on all outdoor spigots | Never submerge hose end in buckets/troughs | Zero cross-connection to cisterns/sumps",
-    "visual": "Correct versus incorrect hose/plumbing isolation contrasting physical air gaps and anti-siphon vacuum breakers against backsiphonage during pressure drops. Conceptual, not to scale.",
+    "visual": "Two panels: a submerged hose end back-siphoned into house pipes when supply pressure drops, and the barriers that stop it: a hose-bibb vacuum breaker, an air gap above the rim and no hard connection to rain barrels, sumps or untreated pumps. Conceptual, not to scale.",
     "reviewer": "Licensed plumber and drinking-water safety"
   },
   {
@@ -47864,7 +47869,7 @@
       ]
     },
     "diagram": "Saturated drainfield cannot absorb flow | NEVER pump tank while ground is flooded | Wait for dry ground + licensed inspection",
-    "visual": "Failure-mode diagram showing buoyant tank float-out when pumped in saturated flood soil versus water conservation and post-recession licensed inspection. Conceptual, not to scale.",
+    "visual": "Two ground sections: an emptied tank lifting from its seat in saturated soil with broken inlet and outlet joints, beside a full, unopened tank with plugged basement drains, reduced water use and equipment kept off the wet drainfield. Conceptual, not to scale.",
     "reviewer": "Onsite wastewater engineering and public health"
   },
   {
@@ -48162,8 +48167,8 @@
         "U13"
       ]
     },
-    "diagram": "Verify sewer/gravity line open first | Light greywater -> pour briskly in bowl | Never store >24 h or use on edible crops",
-    "visual": "Decision tree screening sewer/septic function, light greywater purity, and 24-hour freshness before allowing emergency bowl flushing. Conceptual, not to scale.",
+    "diagram": "Verify sewer/gravity line open first | Labelled non-potable water into the bowl | Stop at gurgling, slow drains or odor",
+    "visual": "Bathroom section: a labelled non-potable bucket poured into the bowl only when the drain works, drinking water kept apart, and the warning signs that stop all flushing. Conceptual, not to scale.",
     "reviewer": "Environmental health and onsite wastewater safety"
   },
   {

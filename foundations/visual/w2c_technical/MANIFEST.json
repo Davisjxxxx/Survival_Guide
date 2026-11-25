@@ -40,5 +40,70 @@
     "builder": "scripts/build_w2c_navigation.py",
     "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
     "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P37",
+    "batch": "W2C-B02",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P37.svg",
+    "predecessor_sha256": "af2be071bb26e64bcd1f4cccae50c21411318228fab2933214a7f23d954f8b37",
+    "revised": "revised/Z13-P37.svg",
+    "revised_sha256": "bdc4c011f1195293a3db77c268fd425e1943be4d02c9663f6311a4c3fdb16898",
+    "active_reader_sha256": "bdc4c011f1195293a3db77c268fd425e1943be4d02c9663f6311a4c3fdb16898",
+    "builder": "scripts/w2c_plates_b02.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P41",
+    "batch": "W2C-B02",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P41.svg",
+    "predecessor_sha256": "c388c1f1a1c4980a7b57e628e1e8d28fbf5c336cbb7621854c708094a163e394",
+    "revised": "revised/Z13-P41.svg",
+    "revised_sha256": "b054ef850a2ea3bc77958196f6fc1939a51491f7f0a0ac817915e6ab8faa79ac",
+    "active_reader_sha256": "b054ef850a2ea3bc77958196f6fc1939a51491f7f0a0ac817915e6ab8faa79ac",
+    "builder": "scripts/w2c_plates_b02.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P44",
+    "batch": "W2C-B02",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P44.svg",
+    "predecessor_sha256": "8c528dca0920c78401ec31fb215e540d1b2e0990d05e46e23c4f963c48a604b5",
+    "revised": "revised/Z13-P44.svg",
+    "revised_sha256": "cce2fed760c6d258e7267e05d4189117a1247f0164e257eb021270056eea7144",
+    "active_reader_sha256": "cce2fed760c6d258e7267e05d4189117a1247f0164e257eb021270056eea7144",
+    "builder": "scripts/w2c_plates_b02.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P48",
+    "batch": "W2C-B02",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P48.svg",
+    "predecessor_sha256": "d422d269dd0ec5ba6389a2bae83176952a9b5347cf8f3ffda867db928e49cb7f",
+    "revised": "revised/Z13-P48.svg",
+    "revised_sha256": "3b68edccda07e6c48b76935647ddfe64d92043be1c835868f14f5487b648b56d",
+    "active_reader_sha256": "3b68edccda07e6c48b76935647ddfe64d92043be1c835868f14f5487b648b56d",
+    "builder": "scripts/w2c_plates_b02.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P53",
+    "batch": "W2C-B02",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P53.svg",
+    "predecessor_sha256": "e57f1c6e38211b7b5c48670d8bf36a45b9eec2a27e70ee0d47c3e3f2e13e87d3",
+    "revised": "revised/Z13-P53.svg",
+    "revised_sha256": "3f263d19691fd2922d713e3b15851bbfd4dc698fc4e1cae8bf42c202e4a418f2",
+    "active_reader_sha256": "3f263d19691fd2922d713e3b15851bbfd4dc698fc4e1cae8bf42c202e4a418f2",
+    "builder": "scripts/w2c_plates_b02.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
   }
 ]
