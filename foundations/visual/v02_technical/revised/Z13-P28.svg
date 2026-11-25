@@ -1,0 +1,29 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Main residential water shutoff valve alignment</title><desc id="desc">Exploded valve comparison showing a quarter-turn ball valve open (parallel to pipe) versus shut (perpendicular 90 degrees across pipe), plus gate-valve clockwise shut.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z13-P28 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Ball valve OPEN vs CLOSED -->
+    <rect x="65" y="146" width="320" height="32" fill="#8ec2d4" stroke="#205b68" stroke-width="3"/>
+    <rect x="175" y="138" width="90" height="48" rx="8" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
+    <rect x="195" y="114" width="108" height="18" rx="6" fill="#183a30"/>
+    <text x="72" y="96">OPEN: handle parallel to pipe</text>
+    <!-- Closed -->
+    <rect x="65" y="256" width="320" height="32" fill="#8ec2d4" stroke="#205b68" stroke-width="3"/>
+    <rect x="175" y="248" width="90" height="48" rx="8" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
+    <rect x="210" y="206" width="18" height="106" rx="6" fill="#972f22"/>
+    <text class="warn" x="72" y="232">SHUT: quarter-turn 90° across</text>
+    <!-- Right: Round gate valve + tag -->
+    <circle cx="655" cy="182" r="56" fill="none" stroke="#972f22" stroke-width="10"/>
+    <line x1="655" y1="126" x2="655" y2="238" stroke="#972f22" stroke-width="6"/>
+    <line x1="599" y1="182" x2="711" y2="182" stroke="#972f22" stroke-width="6"/>
+    <path class="rflow" d="M622 104A68 68 0 0 1 710 120"/>
+    <text x="515" y="88">Wheel gate valve: turn CLOCKWISE</text>
+    <text class="sm" x="515" y="274">Tag main valve brightly before storms;</text>
+    <text class="sm" x="515" y="298">do not force corroded stuck stems</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Locate and label main water shutoff before emergencies; call licensed plumber if valve leaks or binds.</text>
+</svg>

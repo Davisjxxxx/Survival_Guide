@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Understand ferrocerium rod scraping mechanics and spark direction</title>
-  <desc id="desc">MECHANISM DIAGRAM: Brace rod tip beside tinder | Square striker shaves metal | Hot sparks land in fine tinder — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z03-P24 · MECHANISM DIAGRAM (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="mechanism-artwork"><rect x="38" y="54" width="168" height="68" rx="10" fill="#d3e3dc" stroke="#285345" stroke-width="3"/><text x="122" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Braced Ferro Rod</text><text x="122" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Tip</text><path d="M208 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><ellipse cx="360" cy="88" rx="88" ry="42" fill="#c87137" fill-opacity="0.28" stroke="#c87137" stroke-width="3.5"/><text x="360" y="84" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Sharp 90° Spine</text><text x="360" y="99" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Scraper</text><path d="M450 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><rect x="514" y="54" width="168" height="68" rx="10" fill="#e5ebd8" stroke="#285345" stroke-width="3"/><text x="598" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Hot Pyrophoric</text><text x="598" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Spark Shower</text><path d="M360 130v14" stroke="#a05332" stroke-width="3"/><rect x="215" y="136" width="290" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360" y="150" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">Never strike with knife edge; aim sparks into fine dry tinder</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Brace rod tip beside</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">tinder</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Square striker shaves</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">metal</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Hot sparks land in fine</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">tinder</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Ferrocerium rod pull-back scraping geometry</title><desc id="desc">Mechanical angle diagram showing a stationary striker edge pressed at ~45 degrees while pulling the ferrocerium rod backward so sparks shower into tinder without scattering it.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z03-P24 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Tinder nest on bare ground -->
+    <ellipse cx="640" cy="272" rx="115" ry="30" fill="#dfc48e" stroke="#7a5e32" stroke-width="3.5"/>
+    <text class="sm" x="572" y="278">Prepared fine tinder</text>
+    <!-- Ferro rod angled toward tinder -->
+    <line x1="255" y1="142" x2="545" y2="248" stroke="#364247" stroke-width="18" stroke-linecap="round"/>
+    <rect x="195" y="116" width="70" height="34" rx="8" fill="#bc785b" stroke="#6d301f" stroke-width="3" transform="rotate(20 230 133)"/>
+    <!-- Striker held steady at ~45 deg -->
+    <polygon points="440,115 472,115 456,214 434,206" fill="#9fb0b5" stroke="#183a30" stroke-width="3"/>
+    <!-- Pull-back arrow on rod -->
+    <path class="gflow" d="M350 132l-95-34"/>
+    <text x="82" y="88">1. Pull rod BACK steadily</text>
+    <text class="sm" x="488" y="138">2. Hold striker steady (~45°)</text>
+    <!-- Spark shower -->
+    <path class="rflow" d="M465 218l115 36"/><path class="rflow" d="M475 206l125 26"/>
+    <circle cx="585" cy="242" r="4" fill="#d97236"/><circle cx="605" cy="252" r="5" fill="#d97236"/><circle cx="622" cy="236" r="4" fill="#d97236"/>
+    <text class="sm" x="62" y="294">Pulling rod keeps nest undisturbed</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Keep fingers clear of sharp scraper edges; practice only on cleared mineral soil.</text>
 </svg>

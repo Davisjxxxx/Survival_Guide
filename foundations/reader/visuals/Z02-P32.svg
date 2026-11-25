@@ -1,13 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Compare A-frame, lean-to and low-storm tarp pitch configurations</title>
-  <desc id="desc">COMPARATIVE CONFIGURATION: A-frame: rain &amp; airflow | Lean-to: directional wind/shade | Low pitch: gusts &amp; spray — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P32 · COMPARATIVE CONFIGURATION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="comparison-artwork"><rect x="30" y="44" width="208" height="104" rx="8" fill="#dce8df" stroke="#315245" stroke-width="2.5"/><rect x="30" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="134.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">A-Frame Pitch</text><text x="40" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Overhead rain shed +</text><text x="40" y="98" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">open end ventilation</text><rect x="38" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="134.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Lower edges for blow-in</text><rect x="256" y="44" width="208" height="104" rx="8" fill="#e5e9d5" stroke="#315245" stroke-width="2.5"/><rect x="256" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="360.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">Lean-To Pitch</text><text x="266" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Directional shade or</text><text x="266" y="98" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">mild wind barrier</text><rect x="264" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Exposed if wind shifts</text><rect x="482" y="44" width="208" height="104" rx="8" fill="#e4e8ee" stroke="#315245" stroke-width="2.5"/><rect x="482" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="586.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">Low Storm Pitch</text><text x="492" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Low windward wedge</text><text x="492" y="98" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">reduces gust lift</text><rect x="490" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="586.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Not for lightning/tornado</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">A-frame: rain &amp; airflow</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Lean-to: directional</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">wind/shade</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Low pitch: gusts &amp; spray</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">A-frame, lean-to and low-storm tarp pitch geometries</title><desc id="desc">Three side-by-side tarp pitch profiles comparing ventilation, wind shedding and storm-edge anchoring.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z02-P32 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- 1. A-Frame -->
+    <line x1="40" y1="262" x2="290" y2="262" stroke="#5d653e" stroke-width="4"/>
+    <polygon points="70,262 165,134 260,262" fill="#d7e2da" stroke="#183a30" stroke-width="4"/>
+    <circle cx="165" cy="134" r="6" fill="#6d301f"/>
+    <text x="82" y="92">1. A-frame pitch</text>
+    <text class="sm" x="62" y="294">Balanced rain shed</text><text class="sm" x="68" y="316">Open ends ventilate</text>
+    <!-- 2. Lean-to -->
+    <line x1="325" y1="262" x2="575" y2="262" stroke="#5d653e" stroke-width="4"/>
+    <polyline points="355,262 525,134 525,262" fill="none" stroke="#183a30" stroke-width="4"/>
+    <polygon points="355,262 525,134 545,262" fill="#d7e2da" opacity=".7"/>
+    <path class="flow" d="M322 178l60-20"/>
+    <text x="368" y="92">2. Lean-to pitch</text>
+    <text class="sm" x="348" y="294">Back to wind; open front</text><text class="sm" x="352" y="316">Vulnerable to wind shift</text>
+    <!-- 3. Low Storm Pitch -->
+    <line x1="610" y1="262" x2="860" y2="262" stroke="#5d653e" stroke-width="4"/>
+    <polygon points="628,262 735,196 842,262" fill="#c9dcd2" stroke="#183a30" stroke-width="4"/>
+    <path class="flow" d="M608 175Q735 152 862 175"/>
+    <text x="642" y="92">3. Low-storm pitch</text>
+    <text class="sm" x="630" y="294">Lowest wind profile</text><text class="sm" x="625" y="316">Pin edges tight to ground</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Lower pitch height early before gusts build; keep guylines taut and exits unobstructed.</text>
 </svg>

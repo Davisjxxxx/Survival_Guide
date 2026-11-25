@@ -125,44 +125,10 @@
     "callout": "Wind concentrates cyanobacteria; heat does NOT destroy toxins"
   },
   "Z04-P15": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Turbidity",
-        "note": "Visible silt/clay; removed by settling & cloth",
-        "limit": "Clarity ≠ potability"
-      },
-      {
-        "name": "Microbes",
-        "note": "Invisible bacteria, viruses, cysts; boil/filter+disinfect",
-        "limit": "Zero visual warning"
-      },
-      {
-        "name": "Chemicals",
-        "note": "Fuel, metals, nitrates, HAB toxins; reject source",
-        "limit": "Boiling can concentrate"
-      }
-    ]
+    "type": "v02_artwork"
   },
   "Z04-P16": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Moving Stream",
-        "note": "Lower algae & organics; still carries cysts/bacteria",
-        "limit": "Always treat raw water"
-      },
-      {
-        "name": "Clear Lake / Pond",
-        "note": "Moderate silt; check downwind shore for blooms",
-        "limit": "Screen HABs & runoff"
-      },
-      {
-        "name": "Stagnant Pool",
-        "note": "High organics, silt & bloom hazard",
-        "limit": "Reject if scum or odor"
-      }
-    ]
+    "type": "v02_artwork"
   },
   "Z04-P17": {
     "type": "cutaway",
@@ -258,14 +224,7 @@
     "callout": "Prefer clean food-contact sheet over foliage"
   },
   "Z04-P25": {
-    "type": "mechanism",
-    "nodes": [
-      "Stand Downstream on Firm Bank",
-      "Mid-Depth Gentle Skim Scoop",
-      "Lower-Silt Raw Batch"
-    ],
-    "callout": "Avoid stirring bottom mud that clogs filters",
-    "accent": "#4c869c"
+    "type": "v02_artwork"
   },
   "Z04-P26": {
     "type": "cross_section",
@@ -278,14 +237,7 @@
     "callout": "All melted snow still requires microbial treatment"
   },
   "Z04-P27": {
-    "type": "mechanism",
-    "nodes": [
-      "Starter Water + Covered Pot Outdoors",
-      "Gradual Snow Addition (No Scorch)",
-      "Separate Rolling Boil / Treatment"
-    ],
-    "callout": "Never run fuel stove inside tent or vehicle",
-    "accent": "#c87b42"
+    "type": "v02_artwork"
   },
   "Z04-P28": {
     "type": "comparison",
@@ -344,23 +296,10 @@
     "accent": "#689cb0"
   },
   "Z04-P33": {
-    "type": "cross_section",
-    "layers": [
-      "Coarse leaves, sand & silt (trapped)",
-      "Clean cloth / coffee filter weave",
-      "Strained raw water (microbes pass)",
-      "Mandatory boil / filter / disinfect stage"
-    ],
-    "callout": "Pre-filter protects gear; never yields potable water"
+    "type": "v02_artwork"
   },
   "Z04-P34": {
-    "type": "mechanism",
-    "nodes": [
-      "Identify exact model",
-      "Check its organism claim",
-      "Add matched barriers"
-    ],
-    "callout": "A pore number is not a complete performance claim"
+    "type": "v02_artwork"
   },
   "Z04-P35": {
     "type": "comparison",
@@ -383,14 +322,7 @@
     ]
   },
   "Z04-P36": {
-    "type": "exploded",
-    "components": [
-      "Raw Intake / Bag",
-      "Cartridge Seal",
-      "Clean Outlet Spout",
-      "Potable Bottle Rim"
-    ],
-    "callout": "Strict raw-to-clean segregation prevents drip recontamination"
+    "type": "v02_artwork"
   },
   "Z04-P37": {
     "type": "failure_mode",
@@ -427,24 +359,7 @@
     "callout": "Do not invent cold-water dose or contact time"
   },
   "Z04-P41": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Pathogens",
-        "note": "Bacteria, viruses, cysts inactivated by boiling",
-        "limit": "Verify altitude boil time"
-      },
-      {
-        "name": "Cyanotoxins (HAB)",
-        "note": "Heat-stable; boiling concentrates toxins",
-        "limit": "STOP: Reject source"
-      },
-      {
-        "name": "Fuel / Metals / Nitrates",
-        "note": "Unaffected by boil, bleach or standard filter",
-        "limit": "STOP: Alternate supply"
-      }
-    ]
+    "type": "v02_artwork"
   },
   "Z04-P42": {
     "type": "mechanism",
@@ -658,14 +573,7 @@
     "callout": "Freeze-thaw and rain dislodge rock and shallow roots"
   },
   "Z02-P18": {
-    "type": "mechanism",
-    "nodes": [
-      "Prevailing Wind & Frontal Shift",
-      "Low Narrow Windward Profile",
-      "Calmer Leeward Doorway"
-    ],
-    "callout": "Avoid facing open doors into wind — prevents parachute uplift",
-    "accent": "#4b7f93"
+    "type": "v02_artwork"
   },
   "Z02-P19": {
     "type": "environment",
@@ -717,14 +625,7 @@
     "callout": "Upstream storms raise rivers even under clear local skies"
   },
   "Z02-P23": {
-    "type": "mechanism",
-    "nodes": [
-      "Conduction / Convection / Evap",
-      "Matched Pad + Shell + Dry Loft",
-      "Reduced Core Heat Loss"
-    ],
-    "callout": "Every pathway needs its own barrier; one layer fails alone",
-    "accent": "#588296"
+    "type": "v02_artwork"
   },
   "Z02-P24": {
     "type": "cutaway",
@@ -739,26 +640,10 @@
     "hazard": "Never dry tent with stove"
   },
   "Z02-P25": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Rainfly sheds outside",
-      "Groundsheet tucked INSIDE",
-      "Insulating pad above floor"
-    ],
-    "callout": "No protruding tarp lip",
-    "accent": "#d3ab58",
-    "hazard": "Avoid water funneling"
+    "type": "v02_artwork"
   },
   "Z02-P26": {
-    "type": "cross_section",
-    "layers": [
-      "Dry sleeping bag & sleeper",
-      "Insulated inflatable pad (comfort + warmth)",
-      "Closed-cell foam pad (puncture + backup barrier)",
-      "Frozen soil or compacted snow"
-    ],
-    "callout": "Stack pads to protect against punctures and cold conduction"
+    "type": "v02_artwork"
   },
   "Z02-P27": {
     "type": "cross_section",
@@ -831,24 +716,7 @@
     ]
   },
   "Z02-P32": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "A-Frame Pitch",
-        "note": "Overhead rain shed + open end ventilation",
-        "limit": "Lower edges for blow-in"
-      },
-      {
-        "name": "Lean-To Pitch",
-        "note": "Directional shade or mild wind barrier",
-        "limit": "Exposed if wind shifts"
-      },
-      {
-        "name": "Low Storm Pitch",
-        "note": "Low windward wedge reduces gust lift",
-        "limit": "Not for lightning/tornado"
-      }
-    ]
+    "type": "v02_artwork"
   },
   "Z02-P33": {
     "type": "mechanism",
@@ -870,24 +738,7 @@
     "callout": "Pre-trip daylight pitch verifies every load-bearing part"
   },
   "Z02-P35": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Firm site",
-        "note": "Use model instructions",
-        "limit": "No capacity from appearance"
-      },
-      {
-        "name": "Changing ground",
-        "note": "Recheck movement",
-        "limit": "Hand check is not a load test"
-      },
-      {
-        "name": "Anchor creeps",
-        "note": "Unsafe to rely on",
-        "limit": "Move to suitable refuge"
-      }
-    ]
+    "type": "v02_artwork"
   },
   "Z02-P36": {
     "type": "exploded",
@@ -1009,28 +860,10 @@
     "correction": "Bag dry insulation immediately & move to higher ground"
   },
   "Z02-P49": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Drifting leeward snowbank",
-      "Check vents & door track",
-      "Inside clearing tool"
-    ],
-    "callout": "Prevent silent drift seal",
-    "accent": "#79a4b6",
-    "hazard": "Keep air & exit open"
+    "type": "v02_artwork"
   },
   "Z02-P50": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Outdoor stove zone ONLY",
-      "Hard zero-CO barrier line",
-      "Battery light + dry layers"
-    ],
-    "callout": "Cracked vents ≠ safe CO",
-    "accent": "#d3ab58",
-    "hazard": "NO stoves in vestibules"
+    "type": "v02_artwork"
   },
   "Z02-P51": {
     "type": "failure_mode",
@@ -1076,14 +909,7 @@
     "abort": "ROUTE BLOCKED: Take safest high/clear refuge & call 911 immediately"
   },
   "Z03-P13": {
-    "type": "mechanism",
-    "nodes": [
-      "Ignition Heat + Dry Fuel",
-      "Open Oxygen Airflow",
-      "Small Controlled Flame"
-    ],
-    "callout": "Remove any leg to extinguish; keep size modest & attended",
-    "accent": "#c87137"
+    "type": "v02_artwork"
   },
   "Z03-P14": {
     "type": "cutaway",
@@ -1098,14 +924,7 @@
     "hazard": "Confirm legal burn status"
   },
   "Z03-P15": {
-    "type": "cross_section",
-    "layers": [
-      "Rain/snow-wetted outer bark (damp)",
-      "Sound dry interior deadwood core (use)",
-      "Spongy punky ground rot (reject)",
-      "Wet forest soil or snow surface"
-    ],
-    "callout": "Test dry interior snap; keep off wet snow"
+    "type": "v02_artwork"
   },
   "Z03-P16": {
     "type": "environment",
@@ -1128,16 +947,7 @@
     "callout": "Carve safely away from body; stop if hands grow numb"
   },
   "Z03-P18": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Graduated dry kindling",
-      "Rising convective flame",
-      "Open bottom oxygen intake"
-    ],
-    "callout": "Keep all ends inside ring",
-    "accent": "#c97438",
-    "hazard": "Avoid smothering airflow"
+    "type": "v02_artwork"
   },
   "Z03-P19": {
     "type": "environment",
@@ -1192,14 +1002,7 @@
     "callout": "Stage dry tinder first; protect striker strip from wet hands"
   },
   "Z03-P24": {
-    "type": "mechanism",
-    "nodes": [
-      "Braced Ferro Rod Tip",
-      "Sharp 90° Spine Scraper",
-      "Hot Pyrophoric Spark Shower"
-    ],
-    "callout": "Never strike with knife edge; aim sparks into fine dry tinder",
-    "accent": "#c87137"
+    "type": "v02_artwork"
   },
   "Z03-P25": {
     "type": "comparison",
@@ -1232,14 +1035,7 @@
     "callout": "Cool & seal char tins completely so embers cannot reignite"
   },
   "Z03-P27": {
-    "type": "exploded",
-    "components": [
-      "Top Bearing Block",
-      "Rotating Wood Spindle",
-      "V-Notched Hearth Board",
-      "Hot Dust Pile Catch"
-    ],
-    "callout": "Conceptual cold mechanism — NOT a winter survival guarantee"
+    "type": "v02_artwork"
   },
   "Z03-P28": {
     "type": "comparison",
@@ -1262,20 +1058,10 @@
     ]
   },
   "Z03-P29": {
-    "type": "exploded",
-    "components": [
-      "Cooled Stove Body",
-      "Approved Fuel Bottle",
-      "Cleared Outdoor Ground",
-      "Spill-Free Light Spot"
-    ],
-    "callout": "Cool completely, refuel away from flames & move off spills"
+    "type": "v02_artwork"
   },
   "Z03-P30": {
-    "type": "failure_mode",
-    "cause": "Restricted airflow or reflected heat",
-    "correction": "Stop and move clear if needed",
-    "cue": "Fuel system warms or flame changes"
+    "type": "v02_artwork"
   },
   "Z03-P31": {
     "type": "decision_tree",
@@ -1351,16 +1137,7 @@
     "abort": "ESCAPED / WILDFIRE: Leave gear, evacuate open route & call 911"
   },
   "Z03-P40": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Charcoal/stoves OUTDOORS",
-      "Hard zero-CO barrier line",
-      "CO alarms + fresh air exit"
-    ],
-    "callout": "Generators ≥ 20 ft outdoors",
-    "accent": "#c87137",
-    "hazard": "ZERO indoor/garage fuel use"
+    "type": "v02_artwork"
   },
   "Z03-P41": {
     "type": "failure_mode",
@@ -1468,14 +1245,7 @@
     "callout": "Maintain arm+tool clear circle before unsheathing sharp tools"
   },
   "Z09-P04": {
-    "type": "cross_section",
-    "layers": [
-      "Outer bark (strip/check wetness)",
-      "Straight sound deadwood grain (use)",
-      "Dense tight knot (deflects edge)",
-      "Spongy decayed heart rot (reject)"
-    ],
-    "callout": "Read grain before cutting; B007 notes are not wood strength certs"
+    "type": "v02_artwork"
   },
   "Z09-P05": {
     "type": "comparison",
@@ -1518,14 +1288,7 @@
     ]
   },
   "Z09-P07": {
-    "type": "cross_section",
-    "layers": [
-      "Narrow acute slicing bevel (cord/shavings)",
-      "Stout convex chopping bevel (wood impact)",
-      "Abrasive rock/metal contact (rolls/chips)",
-      "Subfreezing lateral stress (brittle snap)"
-    ],
-    "callout": "Use clean wood backing — never cut against rock or metal"
+    "type": "v02_artwork"
   },
   "Z09-P08": {
     "type": "failure_mode",
@@ -1594,24 +1357,10 @@
     "callout": "Every knot lowers straight-line strength; pad sharp corners"
   },
   "Z09-P14": {
-    "type": "exploded",
-    "components": [
-      "Standing Part Loop",
-      "Locking Collar Wrap",
-      "Parallel Loop Entry",
-      "Tail Stopper Knot"
-    ],
-    "callout": "Always back up bowline tails on slick synthetic utility cordage"
+    "type": "v02_artwork"
   },
   "Z09-P15": {
-    "type": "exploded",
-    "components": [
-      "Wide Figure-8 Stopper",
-      "Parallel Dressed Bight",
-      "No Crossed Strands",
-      "Ample Loose Tail"
-    ],
-    "callout": "Easy visual inspection; utility use only (not life-safety anchor)"
+    "type": "v02_artwork"
   },
   "Z09-P16": {
     "type": "comparison",
@@ -1727,10 +1476,7 @@
     "cue": "Kerf closes or wood moves"
   },
   "Z09-P26": {
-    "type": "failure_mode",
-    "cause": "Pinned bent sapling or hung-up tree stores spring energy",
-    "cue": "Arched trunk under blowdown or wedged overhead dead limb",
-    "correction": "Do NOT cut; detour wide & gather flat loose deadwood"
+    "type": "v02_artwork"
   },
   "Z09-P27": {
     "type": "failure_mode",
@@ -1739,16 +1485,7 @@
     "cue": "Blade binds or twists"
   },
   "Z09-P28": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Contact-split seated bit",
-      "Broad low chopping block",
-      "Legs & free hand clear"
-    ],
-    "callout": "Over-swing buries in block",
-    "accent": "#9e7c54",
-    "hazard": "No mid-air stick chopping"
+    "type": "v02_artwork"
   },
   "Z09-P29": {
     "type": "failure_mode",
@@ -1900,14 +1637,7 @@
     "abort": "HIGH CONSEQUENCE: Exit early before weather stresses temporary fix"
   },
   "Z09-P42": {
-    "type": "mechanism",
-    "nodes": [
-      "Long Sound Hardwood Effort Arm",
-      "Broad Stable Low Fulcrum",
-      "Controlled Log Roll (Clear Path)"
-    ],
-    "callout": "Never straddle handle or put limbs beneath unchocked load",
-    "accent": "#8c6d48"
+    "type": "v02_artwork"
   },
   "Z09-P43": {
     "type": "mechanism",
@@ -2025,14 +1755,7 @@
     "accent": "#5f98ad"
   },
   "Z11-R05": {
-    "type": "mechanism",
-    "nodes": [
-      "Clear Metal + Map Meridian",
-      "Rotate Map Until Needle Aligns",
-      "Confirm With Two Landmarks"
-    ],
-    "callout": "Reconstructed B014-P05 — step away from vehicles & iron rock",
-    "accent": "#3f7566"
+    "type": "v02_artwork"
   },
   "Z11-R06": {
     "type": "mechanism",
@@ -2287,34 +2010,13 @@
     "correction": "Step clear of metal/iron; verify with visible landforms & handrails"
   },
   "Z11-P30": {
-    "type": "mechanism",
-    "nodes": [
-      "Sight Visible Landmark (Level)",
-      "Convert & Plot Bearing on Map",
-      "Check ±180° Reciprocal Back-Bearing"
-    ],
-    "callout": "Reciprocal sighting catches sideways drift and local anomalies",
-    "accent": "#4d7c8f"
+    "type": "v02_artwork"
   },
   "Z11-P31": {
-    "type": "mechanism",
-    "nodes": [
-      "Sight Distinct Tree Ahead",
-      "Walk Watching Footing Cleanly",
-      "Re-Sight Next Short Target"
-    ],
-    "callout": "Never hike staring down at bouncing needle; leapfrog in woods",
-    "accent": "#3f7566"
+    "type": "v02_artwork"
   },
   "Z11-P32": {
-    "type": "mechanism",
-    "nodes": [
-      "Turn 90° & Count Offset Paces",
-      "Pass Obstacle on Main Bearing",
-      "Turn Back 90° & Match Paces"
-    ],
-    "callout": "Use only for compact dry-land barriers; map-reroute large lakes",
-    "accent": "#5b899e"
+    "type": "v02_artwork"
   },
   "Z11-P33": {
     "type": "comparison",
@@ -2347,14 +2049,7 @@
     "accent": "#4d7c8f"
   },
   "Z11-P35": {
-    "type": "mechanism",
-    "nodes": [
-      "2-3 Wide-Angled Landmarks (60-120°)",
-      "Plot Declination-Adjusted Lines",
-      "Small Triangle + Contour Check"
-    ],
-    "callout": "Field fixes are approximate zones — reject if relief disagrees",
-    "accent": "#3f7566"
+    "type": "v02_artwork"
   },
   "Z11-P36": {
     "type": "failure_mode",
@@ -2363,14 +2058,7 @@
     "correction": "Trust permanent hills & valleys; verify before taking new forks"
   },
   "Z11-P37": {
-    "type": "cross_section",
-    "layers": [
-      "High wispy cirrus (earliest 12-24 hr warm-front cue)",
-      "Milky cirrostratus & gray lowering altostratus",
-      "Low steady rain nimbostratus deck",
-      "Fast dark cold-front squall line & sharp wind shift"
-    ],
-    "callout": "Visual sky cues supplement — never replace — official NWS alerts"
+    "type": "v02_artwork"
   },
   "Z11-P38": {
     "type": "environment",
@@ -2599,14 +2287,7 @@
     "callout": "Never cross thin ice or cliffs solely to chase one bar of signal"
   },
   "Z11-P59": {
-    "type": "mechanism",
-    "nodes": [
-      "Matched Channel & FCC License",
-      "Open Line-of-Sight Terrain",
-      "Scheduled Check-In Window"
-    ],
-    "callout": "Hills/valleys block handheld VHF/UHF — pair with 911/PLB",
-    "accent": "#4d7c8f"
+    "type": "v02_artwork"
   },
   "Z11-P60": {
     "type": "mechanism",
@@ -2619,14 +2300,7 @@
     "accent": "#3f7566"
   },
   "Z11-P61": {
-    "type": "exploded",
-    "components": [
-      "High-Contrast Ground X",
-      "Weighted Wind Anchors",
-      "Snow Shadow Letters",
-      "Daylight Mirror Sweep"
-    ],
-    "callout": "Stow all loose fabric tightly before any rescue helicopter nears"
+    "type": "v02_artwork"
   },
   "Z11-P62": {
     "type": "comparison",
@@ -2854,14 +2528,7 @@
     ]
   },
   "Z12-P14": {
-    "type": "cross_section",
-    "layers": [
-      "Clear dense new ice (still check thickness)",
-      "Opaque white air-filled snow-ice (~1/2 strength)",
-      "Dark wet gray vertically candled spring ice",
-      "Underlying flowing/cold water hazard"
-    ],
-    "callout": "Inspect strictly from solid shore — appearance ≠ safety"
+    "type": "v02_artwork"
   },
   "Z12-P15": {
     "type": "environment",
@@ -2874,14 +2541,7 @@
     "callout": "Moving water, springs and dark rocks thin ice continuously below"
   },
   "Z12-P16": {
-    "type": "cross_section",
-    "layers": [
-      "Windblown snow blanket (insulates & hides holes)",
-      "Depressed flooded slush layer under snow weight",
-      "Thin weakened ice shell over cold water",
-      "Concealed open spring/angler pocket"
-    ],
-    "callout": "Snow slows freezing and disguises lethal holes as flat ground"
+    "type": "v02_artwork"
   },
   "Z12-P17": {
     "type": "failure_mode",
@@ -2914,11 +2574,7 @@
     "callout": "1–10–1 is a mnemonic, not a rescue deadline"
   },
   "Z12-P21": {
-    "type": "branch",
-    "question": "Can you get out safely?",
-    "yes": "Face approach route, kick and pull",
-    "no": "Protect airway and signal",
-    "stop": "No guaranteed ice edge or time"
+    "type": "v02_artwork"
   },
   "Z12-P22": {
     "type": "branch",
@@ -3368,14 +3024,7 @@
     ]
   },
   "Z12-P66": {
-    "type": "mechanism",
-    "nodes": [
-      "Buckled USCG PFD Keeps Airway Up",
-      "Solo HELP or Group HUDDLE Circle",
-      "Reduced Core Heat Loss While Waiting"
-    ],
-    "callout": "Minimize thrashing; prioritize clear breathing in breaking waves",
-    "accent": "#3f7a8f"
+    "type": "v02_artwork"
   },
   "Z12-P67": {
     "type": "comparison",
@@ -3765,10 +3414,7 @@
     "reason": "Escalate to urgent care for head trauma, clear fluid, >20 min bleed or dizziness"
   },
   "Z10-P19": {
-    "type": "failure_mode",
-    "cause": "Blunt torso/pelvis blow or GI bleed",
-    "cue": "Rigid belly, blood vomit/cough, pallor",
-    "correction": "Keep flat, warm, NPO & urgent 911"
+    "type": "v02_artwork"
   },
   "Z10-P20": {
     "type": "sequence_plate",
@@ -3897,10 +3543,7 @@
     "cue": "Body-fluid splash to eyes or broken skin -> flush potable water & seek MD"
   },
   "Z10-P28": {
-    "type": "failure_mode",
-    "cause": "Unchecked boot friction & damp socks",
-    "cue": "Warm stinging hot spot on heel/toe",
-    "correction": "Stop early, dry foot & pad; keep roof intact"
+    "type": "v02_artwork"
   },
   "Z10-P29": {
     "type": "seasonal_timeline",
@@ -3947,11 +3590,7 @@
     "trigger": "Never let a head-injured vomiting or drowsy person sleep it off unmonitored"
   },
   "Z10-P31": {
-    "type": "branch",
-    "question": "Does airway care or immediate danger require movement?",
-    "yes": "Follow dispatcher and move only as needed",
-    "no": "Avoid unnecessary movement; monitor breathing",
-    "stop": "New abnormal breathing: contact 911 and follow instructions"
+    "type": "v02_artwork"
   },
   "Z10-P32": {
     "type": "anatomy_zone",
@@ -4071,16 +3710,7 @@
     "cue": "Chemical splash only. Embedded object: avoid pressure and seek emergency care."
   },
   "Z10-P39": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Rigid dome shield (cup bottom)",
-      "Air gap — zero eyelid contact",
-      "Rest strictly on brow & cheek bone"
-    ],
-    "callout": "Tape to bone only",
-    "accent": "#d4e5ec",
-    "hazard": "Never pull embedded eye object"
+    "type": "v02_artwork"
   },
   "Z10-P40": {
     "type": "escalation_ladder",
@@ -4138,12 +3768,7 @@
     "stop": "Unresponsive with abnormal breathing: tell 911 immediately"
   },
   "Z10-P43": {
-    "type": "system_boundary",
-    "variant": "cold_chain",
-    "zone_a": "COLD WATER EXIT\nWet skin, wind chill & blood shift",
-    "barrier": "HORIZONTAL WRAP\nCut wet clothes; dry core pad",
-    "zone_b": "DELAYED COLLAPSE RISK\nAfterdrop & lung irritation",
-    "hazard": "Keep survivor horizontal & call 911 even if adrenaline makes them feel fine"
+    "type": "v02_artwork"
   },
   "Z10-P44": {
     "type": "correct_vs_wrong",
@@ -4161,25 +3786,7 @@
     "reason": "Bring patient safely out first. Follow dispatcher instructions."
   },
   "Z10-P45": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · FROSTNIP",
-        "scope": "Soft & tingly",
-        "action": "Exit wind; gentle warm skin-to-skin"
-      },
-      {
-        "role": "2 · FROSTBITE",
-        "scope": "Waxy, numb, firm",
-        "action": "Abort trip; remove rings; zero snow rub"
-      },
-      {
-        "role": "3 · CLINICAL CARE",
-        "scope": "Depth unknown",
-        "action": "Prevent trauma/refreeze; hospital eval"
-      }
-    ],
-    "trigger": "Never rub pale waxy skin with snow or warm numb digits near open flames"
+    "type": "v02_artwork"
   },
   "Z10-P46": {
     "type": "branch",
@@ -4470,12 +4077,7 @@
     "abort": "CALL 911 OR EVACUATE NOW: Unresponsive, seizing or no signal -> zero vomiting"
   },
   "Z10-P64": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "URUSHIOL OIL TRANSFER\nPlants, boots, clothes & pet fur",
-    "barrier": "COOL SOAP WASH\nScrub skin & nails fast",
-    "zone_b": "BURNING VINE SMOKE\nSevere airway lung injury",
-    "hazard": "NEVER burn poison ivy/oak/sumac — smoke inhalation is a 911 airway threat"
+    "type": "v02_artwork"
   },
   "Z10-P65": {
     "type": "sequence_plate",
@@ -4636,16 +4238,7 @@
     "callout": "Carry ONLY gear matched to actual training — inspect & restock every season"
   },
   "Z10-P76": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Outer pack (extreme freeze / car heat)",
-      "Insulated inner layer / shaded pouch",
-      "Original pharmacy-labeled Rx + backup"
-    ],
-    "callout": "Buffer temperature",
-    "accent": "#d4e5ec",
-    "hazard": "Replace frozen/damaged meds"
+    "type": "v02_artwork"
   },
   "Z10-P77": {
     "type": "correct_vs_wrong",
@@ -4955,16 +4548,7 @@
     "trigger": "Keep 3 ft dry clear access in front of breaker panels at all times"
   },
   "Z13-P18": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Outer rooms closed off as cold buffer",
-      "1 small interior room + window blankets",
-      "Indoor tent + dry pads (ZERO fuel heat)"
-    ],
-    "callout": "Track room temp",
-    "accent": "#d4e5ec",
-    "hazard": "Relocate before freeze"
+    "type": "v02_artwork"
   },
   "Z13-P19": {
     "type": "correct_vs_wrong",
@@ -4999,16 +4583,7 @@
     "abort": "CO alarm or illness: leave now and call 911 from outside"
   },
   "Z13-P22": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Annually swept chimney flue (no creosote)",
-      "Dry seasoned split wood (zero trash)",
-      "3-ft clearance & hearth pad + CO/smoke"
-    ],
-    "callout": "Swept flue only",
-    "accent": "#e5c8a3",
-    "hazard": "Roaring flue -> exit & 911"
+    "type": "v02_artwork"
   },
   "Z13-P23": {
     "type": "correct_vs_wrong",
@@ -5082,26 +4657,10 @@
     "trigger": "NEVER turn a shut-off main gas or propane valve back on yourself"
   },
   "Z13-P27": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Outdoor hose disconnected pre-freeze",
-      "Insulated rim-joist & garage pipes",
-      "Open sink cabinet doors let room warmth in"
-    ],
-    "callout": "Guard cold walls",
-    "accent": "#d4e5ec",
-    "hazard": "Trickle drop = freezing pipe"
+    "type": "v02_artwork"
   },
   "Z13-P28": {
-    "type": "exploded",
-    "components": [
-      "Tagged main valve",
-      "Well pump breaker",
-      "Water-heater power",
-      "Lowest relief tap"
-    ],
-    "callout": "Ball valve closes 90°; gate valve turns clockwise gently — never force seized stems"
+    "type": "v02_artwork"
   },
   "Z13-P29": {
     "type": "sequence_plate",
@@ -5837,14 +5396,7 @@
     "reason": "Exclude meat, grease & blighted vines from backyard compost piles"
   },
   "Z14-P06": {
-    "type": "cross_section",
-    "layers": [
-      "≥12 in clean tested topsoil + compost",
-      "Permeable geotextile lead barrier",
-      "Untreated cedar/stone frame (no creosote)",
-      "Mulched paths block dusty soil splash"
-    ],
-    "callout": "Keep beds ≤4 ft wide for zero compaction"
+    "type": "v02_artwork"
   },
   "Z14-P07": {
     "type": "comparison",
@@ -6449,11 +6001,7 @@
     "hazard": "Altering ingredients, thickeners or jar sizes breaks validated botulism lethality"
   },
   "Z14-P46": {
-    "type": "branch",
-    "question": "Is the food naturally high-acid (pH ≤4.6) or USDA-acidified?",
-    "yes": "Process per exact tested boiling-water or steam-canning recipe",
-    "no": "LOW-ACID (pH >4.6: meat/veg/soup) -> PRESSURE CANNER ONLY (240°F+)",
-    "stop": "Boiling water (212°F) NEVER kills Clostridium botulinum spores — no exceptions"
+    "type": "v02_artwork"
   },
   "Z14-P47": {
     "type": "correct_vs_wrong",
@@ -6486,14 +6034,7 @@
     "reason": "Dry heat shatters glass & unvalidated cookers fail botulism thermal lethality"
   },
   "Z14-P49": {
-    "type": "exploded",
-    "components": [
-      "Tempered Mason jar",
-      "Nick-free smooth rim",
-      "BRAND-NEW flat lid",
-      "Clean unbent ring"
-    ],
-    "callout": "Never reuse flat lids or commercial sauce jars — fingertip-check every glass lip"
+    "type": "v02_artwork"
   },
   "Z14-P50": {
     "type": "cutaway",
@@ -6632,16 +6173,7 @@
     "reason": "Unsealed jars ≤24 h -> refrigerate, freeze or reprocess full time with new lid"
   },
   "Z14-P60": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Ring-free unstacked jars (or rigid board)",
-      "Cool 50–70°F dark dry pantry shelves",
-      "Rotate FIFO (~1 yr peak quality/seal)"
-    ],
-    "callout": "Avoid warm pipes & freeze",
-    "accent": "#e5d4a1",
-    "hazard": "Never invent 25-yr shelf life"
+    "type": "v02_artwork"
   },
   "Z14-P61": {
     "type": "failure_mode",
@@ -7140,16 +6672,7 @@
     "abort": "ABORT EARLY: Exit at nearest safe town — NEVER drive past Road Closed gates"
   },
   "Z15-P13": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Clear ENTIRE tailpipe & underbody snow",
-      "Crack downwind window; stay awake",
-      "Bright cloth on antenna; stay WITH car"
-    ],
-    "callout": "Run heat max ~10 min/hr",
-    "accent": "#d4e5ec",
-    "hazard": "NEVER sleep with engine idling"
+    "type": "v02_artwork"
   },
   "Z15-P14": {
     "type": "sequence_plate",
@@ -7196,16 +6719,7 @@
     "trigger": "Leave during safe daylight BEFORE roads close or indoor air freezes"
   },
   "Z15-P16": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Upper floors & wide garage (UNSAFE)",
-      "Smallest lowest interior room (no windows)",
-      "Basement / FEMA safe room + sturdy cover"
-    ],
-    "callout": "Shoes, helmets & whistle inside",
-    "accent": "#dce8df",
-    "hazard": "Never stop to crack windows"
+    "type": "v02_artwork"
   },
   "Z15-P17": {
     "type": "correct_vs_wrong",
@@ -7339,16 +6853,7 @@
     "hazard": "NEVER bypass road barricades"
   },
   "Z15-P25": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Closed windowless attic (FATAL TRAP!)",
-      "Highest OPEN floor / last-resort roof",
-      "Flooded basement & live wires (EXIT UP)"
-    ],
-    "callout": "Call 911 & wave bright cloth",
-    "accent": "#639db2",
-    "hazard": "Never swim swift flood current"
+    "type": "v02_artwork"
   },
   "Z15-P26": {
     "type": "sequence_plate",
@@ -7397,14 +6902,7 @@
     "cue": "Lifting basement fuels/chemicals prevents toxic floodwater soup inside home"
   },
   "Z15-P28": {
-    "type": "cross_section",
-    "layers": [
-      "Calm murky street surface (looks shallow)",
-      "Raw sewage, fuel oil & agricultural chemicals",
-      "Sharp submerged glass, nails & downed wires",
-      "Open storm-culvert underwater suction trap"
-    ],
-    "callout": "Zero wading or kids playing — wash splashes with soap & safe water"
+    "type": "v02_artwork"
   },
   "Z15-P29": {
     "type": "escalation_ladder",
@@ -8274,12 +7772,7 @@
     "hazard": "Inspect adjacent veins for fibers"
   },
   "Z08-P20": {
-    "type": "system_boundary",
-    "variant": "magnetic",
-    "zone_a": "Magnetite iron-formation outcrop",
-    "zone_b": "Verified terrain & map bearing",
-    "barrier": "Reciprocal bearing cross-check",
-    "hazard": "STOP: Never enter mine pits or trust deflected needles"
+    "type": "v02_artwork"
   },
   "Z08-P21": {
     "type": "hazard_exclusion_map",

@@ -1,0 +1,27 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Shielding eye trauma with a rigid non-pressurized cup</title><desc id="desc">Cross-section of an injured eye protected by a rigid domed shield taped to surrounding orbital bones so ZERO pressure touches the globe or impaled object.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z10-P39 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Orbital bone cross-section -->
+    <path d="M140 278Q210 218 265 256Q335 288 405 256Q460 218 530 278V312H140Z" fill="#e4c7a5" stroke="#684b35" stroke-width="3.5"/>
+    <!-- Eyeball -->
+    <circle cx="335" cy="236" r="44" fill="#ffffff" stroke="#183a30" stroke-width="3.5"/>
+    <circle cx="335" cy="198" r="14" fill="#205b68"/>
+    <!-- Rigid protective cup taped ONLY to bony rim -->
+    <path d="M225 248L255 128H415L445 248" fill="none" stroke="#183a30" stroke-width="6"/>
+    <rect x="195" y="238" width="52" height="14" rx="3" fill="#d7e2da" stroke="#183a30" stroke-width="2.5"/>
+    <rect x="423" y="238" width="52" height="14" rx="3" fill="#d7e2da" stroke="#183a30" stroke-width="2.5"/>
+    <!-- Callouts -->
+    <text x="242" y="106">Rigid shield (NO pressure on globe)</text>
+    <text x="530" y="142">• Rest shield on orbital BONE only</text>
+    <text class="warn" x="530" y="180">• NEVER pull out impaled objects</text>
+    <text class="warn" x="530" y="218">• NEVER press or rub injured eye</text>
+    <text x="530" y="256">• Cover both eyes if safe to walk/rest</text>
+    <text class="sm" x="530" y="294">Evacuate urgently for eye care</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Flush chemical splashes continuously with water; use rigid shielding for mechanical eye wounds.</text>
+</svg>

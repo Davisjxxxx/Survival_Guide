@@ -1,0 +1,28 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Zero indoor charcoal, camp stove or unvented heater boundary</title><desc id="desc">House cross-section illustrating invisible odorless carbon monoxide rising from charcoal grills, camp stoves or unvented heaters into bedrooms even with cracked windows.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z03-P40 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- House cutaway -->
+    <polygon points="85,152 295,68 505,152" fill="#c9b489" stroke="#5c4b2b" stroke-width="3.5"/>
+    <rect x="105" y="152" width="380" height="162" fill="#f7e4d8" stroke="#972f22" stroke-width="4"/>
+    <line x1="105" y1="230" x2="485" y2="230" stroke="#972f22" stroke-width="3"/>
+    <!-- Forbidden appliances on lower floor -->
+    <rect x="145" y="268" width="60" height="42" fill="#5e6b65" stroke="#183a30" stroke-width="3"/>
+    <rect x="260" y="274" width="52" height="36" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
+    <path class="rflow" d="M175 262V172"/><path class="rflow" d="M286 266V172"/>
+    <text class="warn" x="150" y="198">CO spreads to every room</text>
+    <text class="sm" x="132" y="256">Grill / camp stove / unvented heater</text>
+    <!-- Right safe rule box -->
+    <rect x="520" y="96" width="348" height="218" rx="12" fill="#e3f0ea" stroke="#183a30" stroke-width="3.5"/>
+    <text x="536" y="134">Zero-delay CO alarm rule:</text>
+    <text class="warn" x="536" y="176">1. Exit to fresh air FIRST</text>
+    <text x="536" y="214">2. Call 911 from outside</text>
+    <text x="536" y="252">3. Never delay to shut gear</text>
+    <text class="sm" x="536" y="290">Cracked windows NEVER make it safe</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Keep charcoal, camp stoves and portable generators strictly outside; exit immediately on CO alarm.</text>
+</svg>

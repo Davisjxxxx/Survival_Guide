@@ -1,0 +1,28 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Magnetite iron formation compass needle deflection</title><desc id="desc">Plan-view field diagram showing a compass needle deflected erratically near magnetite-rich Lake Superior iron bedrock compared with distant terrain back-checks.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z08-P20 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Outcrop -->
+    <path d="M55 215Q175 135 335 165Q425 188 455 292H55Z" fill="#7c6358" stroke="#42312b" stroke-width="4"/>
+    <text x="78" y="248" style="fill:#fff">Magnetite / gabbro outcrop</text>
+    <text class="sm" x="78" y="276" style="fill:#f7e4d8">Local magnetic anomaly</text>
+    <!-- Deflected compass on rock -->
+    <circle cx="305" cy="142" r="46" fill="#eef4f2" stroke="#972f22" stroke-width="4"/>
+    <polygon points="305,142 338,124 312,150" fill="#972f22"/>
+    <polygon points="305,142 272,160 298,134" fill="#364247"/>
+    <text class="warn" x="128" y="84">Needle pulled off north!</text>
+    <!-- True north verified away from rock -->
+    <circle cx="675" cy="182" r="52" fill="#eef4f2" stroke="#183a30" stroke-width="4"/>
+    <polygon points="675,134 685,182 665,182" fill="#972f22"/>
+    <polygon points="675,230 685,182 665,182" fill="#364247"/>
+    <text x="666" y="122">N</text>
+    <text x="530" y="84">Verify bearings away from iron</text>
+    <text class="sm" x="528" y="268">Cross-check against map terrain</text>
+    <text class="sm" x="528" y="292">&amp; visible distant landmarks</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Northern Minnesota iron formations and vehicles deflect needles; verify bearings with terrain.</text>
+</svg>

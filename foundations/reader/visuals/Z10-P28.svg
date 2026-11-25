@@ -1,13 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Prevent and protect friction blisters and foot-skin breakdown</title>
-  <desc id="desc">FAILURE-MODE ANALYSIS: Stop at first hot spot; dry &amp; pad | Keep intact blisters unbroken &amp; clean | Watch infection &amp; diabetic foot flags — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z10-P28 · FAILURE-MODE ANALYSIS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="failure-mode-artwork"><rect x="34" y="52" width="192" height="84" rx="8" fill="#f7e5dc" stroke="#a05332" stroke-width="3"/><rect x="34" y="52" width="192" height="22" rx="6" fill="#a05332"/><text x="130" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">FAILURE CAUSE</text><text x="130" y="92" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">Unchecked boot</text><text x="130" y="107" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">friction &amp; damp</text><text x="130" y="122" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">socks</text><path d="M228 94h34" stroke="#a05332" stroke-width="3.5" marker-end="url(#arrow)"/><rect x="266" y="52" width="192" height="84" rx="8" fill="#f6f1d9" stroke="#8a7228" stroke-width="3"/><rect x="266" y="52" width="192" height="22" rx="6" fill="#8a7228"/><text x="362" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">RECOGNIZE CUE</text><text x="362" y="92" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">Warm stinging hot</text><text x="362" y="107" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">spot on heel/toe</text><path d="M460 94h34" stroke="#285345" stroke-width="3.5" marker-end="url(#arrow)"/><rect x="498" y="52" width="192" height="84" rx="8" fill="#dceadf" stroke="#184438" stroke-width="3"/><rect x="498" y="52" width="192" height="22" rx="6" fill="#184438"/><text x="594" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">CORRECT / ABORT</text><text x="594" y="92" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">Stop early, dry foot</text><text x="594" y="107" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">&amp; pad; keep roof</text><text x="594" y="122" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">intact</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Stop at first hot spot;</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">dry &amp; pad</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Keep intact blisters</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">unbroken &amp; clean</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Watch infection &amp;</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">diabetic foot flags</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Friction blister hot-spot donut padding cross-section</title><desc id="desc">Foot-skin cross-section showing shear-separated fluid pocket protected by a ring-shaped pressure-offloading pad leaving the intact blister roof unpopped.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z10-P28 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Skin layers cross-section -->
+    <rect x="65" y="232" width="770" height="72" fill="#e4c7a5" stroke="#684b35" stroke-width="3.5"/>
+    <path d="M65 232H340Q445 148 550 232H835" fill="#d9a684" stroke="#684b35" stroke-width="3.5"/>
+    <path d="M352 232Q445 168 538 232Z" fill="#b7dfec" stroke="#205b68" stroke-width="2.5"/>
+    <!-- Donut offloading pad on left and right of dome -->
+    <rect x="262" y="182" width="84" height="48" rx="8" fill="#d7e2da" stroke="#183a30" stroke-width="3.5"/>
+    <rect x="544" y="182" width="84" height="48" rx="8" fill="#d7e2da" stroke="#183a30" stroke-width="3.5"/>
+    <!-- Boot friction arrow diverted over donut -->
+    <path class="flow" d="M210 156h470"/>
+    <text x="275" y="138">Boot pressure bridged OVER tender dome</text>
+    <text x="378" y="222">Intact roof</text>
+    <text class="sm" x="72" y="102">Treat warm red "hot spots" EARLY before fluid pocket forms</text>
+    <text class="warn" x="646" y="198">Keep roof intact;</text><text class="warn" x="646" y="226">blocks infection</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Stop early for hot spots; seek medical care for pus, red streaks or diabetic foot wounds.</text>
 </svg>

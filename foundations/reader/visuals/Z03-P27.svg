@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Trace friction-ember dust formation and notch geometry in wood drills</title>
-  <desc id="desc">EXPLODED COMPONENTS: Downward pressure + spin | V-notch collects hot dust | Compact pile sustains ember — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z03-P27 · EXPLODED COMPONENTS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="exploded-artwork"><path d="M55 96h610" stroke="#7c8f83" stroke-width="2" stroke-dasharray="7 5"/><rect x="50" y="58" width="129" height="74" rx="8" fill="#d5e2d8" stroke="#285345" stroke-width="2.5"/><rect x="60" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="165" cy="72" r="5" fill="#285345"/><text x="114.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Top Bearing</text><text x="114.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Block</text><path d="M182 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="205" y="58" width="129" height="74" rx="8" fill="#e8dfbe" stroke="#285345" stroke-width="2.5"/><rect x="215" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="320" cy="72" r="5" fill="#285345"/><text x="269.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Rotating Wood</text><text x="269.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Spindle</text><path d="M337 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="360" y="58" width="129" height="74" rx="8" fill="#cde0e8" stroke="#285345" stroke-width="2.5"/><rect x="370" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="475" cy="72" r="5" fill="#285345"/><text x="424.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">V-Notched Hearth</text><text x="424.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Board</text><path d="M492 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="515" y="58" width="129" height="74" rx="8" fill="#dfd4c7" stroke="#285345" stroke-width="2.5"/><rect x="525" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="630" cy="72" r="5" fill="#285345"/><text x="579.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Hot Dust Pile</text><text x="579.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Catch</text><text x="360" y="149" font-size="11" font-weight="650" fill="#4c5f55" text-anchor="middle">Conceptual cold mechanism — NOT a winter survival guarantee</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Downward pressure + spin</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">V-notch collects hot</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">dust</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Compact pile sustains</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">ember</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Friction-drill notch and ember-dust geometry (exploded)</title><desc id="desc">Exploded conceptual diagram showing handhold bearing block, vertical spindle, hearth board V-notch, and catch pan beneath the dust channel.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z03-P27 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Bearing block top -->
+    <rect x="195" y="72" width="110" height="32" rx="10" fill="#8b6f3d" stroke="#5c4b2b" stroke-width="3"/>
+    <text x="335" y="94">1. Top bearing block (low friction)</text>
+    <!-- Spindle -->
+    <rect x="236" y="114" width="28" height="118" rx="6" fill="#d9c698" stroke="#6d5630" stroke-width="3"/>
+    <path class="flow" d="M180 172h42"/><path class="flow" d="M320 172h-42"/>
+    <text x="335" y="176">2. Dry spindle (downward pressure + spin)</text>
+    <!-- Hearth board with V-notch -->
+    <path d="M150 244h215v26H272l-22-18l-22 18H150z" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
+    <text x="385" y="262">3. Hearth board &amp; 1/8 V-notch</text>
+    <!-- Dust pan & ember pile -->
+    <polygon points="228,288 272,288 250,270" fill="#3a2a24"/>
+    <circle cx="250" cy="282" r="6" fill="#d97236"/>
+    <rect x="192" y="290" width="116" height="12" rx="4" fill="#a8b8a4" stroke="#365c50" stroke-width="2.5"/>
+    <text x="385" y="304">4. Dry catch pan collects dark char dust</text>
+    <text class="sm" x="45" y="178">Bow cord</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Conceptual ignition study only; never rely on unpracticed friction fire in real cold emergencies.</text>
 </svg>

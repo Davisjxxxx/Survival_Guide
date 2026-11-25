@@ -1,0 +1,28 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Ground-to-air signal markers and mirror aiming geometry</title><desc id="desc">Split technical diagram showing high-contrast ground signal spacing in an open clearing and a two-finger V-sight mirror flash aimed toward a search aircraft.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z11-P61 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Open clearing ground X/V marker -->
+    <rect x="45" y="88" width="375" height="222" rx="10" fill="#d9e3cf" stroke="#365c50" stroke-width="3"/>
+    <path d="M135 142l125 118M260 142L135 260" stroke="#972f22" stroke-width="18" stroke-linecap="round"/>
+    <text x="68" y="122">High-contrast clearing marker</text>
+    <text class="sm" x="68" y="294">Large bright tarp/logs away from canopy</text>
+    <!-- Right: Signal mirror V-sight -->
+    <rect x="460" y="88" width="395" height="222" rx="10" fill="#e6f0f3" stroke="#205b68" stroke-width="3"/>
+    <!-- Sun beam -> Mirror -> Target -->
+    <circle cx="525" cy="138" r="22" fill="#edce8a" stroke="#b37a20" stroke-width="3"/>
+    <rect x="520" y="232" width="44" height="54" rx="4" fill="#eef4f2" stroke="#183a30" stroke-width="3.5"/>
+    <path class="rflow" d="M532 164l8 64"/>
+    <path class="flow" d="M566 248L782 146"/>
+    <!-- V fingers sight -->
+    <path d="M652 220l14-42m16 42l12-42" stroke="#6d4c2f" stroke-width="6" stroke-linecap="round"/>
+    <polygon points="790,132 835,126 815,152" fill="#364247"/>
+    <text x="568" y="124">Aim flash through V-fingers</text>
+    <text class="sm" x="485" y="300">Flash horizon briefly; avoid blinding pilots</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Keep ground signals anchored flat before helicopters arrive so rotor wash cannot loft debris.</text>
+</svg>

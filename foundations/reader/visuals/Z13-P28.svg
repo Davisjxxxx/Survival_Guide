@@ -1,13 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Operate the main residential water shutoff valve to limit burst-pipe flooding</title>
-  <desc id="desc">EXPLODED COMPONENTS: Tag main valve + well breaker early | Ball = 90° turn; Gate = clockwise gently | Burst pipe -&gt; shut valve &amp; water-heater power — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P28 · EXPLODED COMPONENTS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="exploded-artwork"><path d="M55 96h610" stroke="#7c8f83" stroke-width="2" stroke-dasharray="7 5"/><rect x="50" y="58" width="129" height="74" rx="8" fill="#d5e2d8" stroke="#285345" stroke-width="2.5"/><rect x="60" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="165" cy="72" r="5" fill="#285345"/><text x="114.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Tagged main</text><text x="114.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">valve</text><path d="M182 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="205" y="58" width="129" height="74" rx="8" fill="#e8dfbe" stroke="#285345" stroke-width="2.5"/><rect x="215" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="320" cy="72" r="5" fill="#285345"/><text x="269.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Well pump</text><text x="269.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">breaker</text><path d="M337 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="360" y="58" width="129" height="74" rx="8" fill="#cde0e8" stroke="#285345" stroke-width="2.5"/><rect x="370" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="475" cy="72" r="5" fill="#285345"/><text x="424.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Water-heater</text><text x="424.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">power</text><path d="M492 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="515" y="58" width="129" height="74" rx="8" fill="#dfd4c7" stroke="#285345" stroke-width="2.5"/><rect x="525" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="630" cy="72" r="5" fill="#285345"/><text x="579.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Lowest relief</text><text x="579.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">tap</text><text x="360" y="149" font-size="11" font-weight="650" fill="#4c5f55" text-anchor="middle">Ball valve closes 90°; gate valve turns clockwise gently — never force seized stems</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Tag main valve + well</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">breaker early</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Ball = 90° turn; Gate =</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">clockwise gently</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Burst pipe -&gt; shut valve</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">&amp; water-heater power</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Main residential water shutoff valve alignment</title><desc id="desc">Exploded valve comparison showing a quarter-turn ball valve open (parallel to pipe) versus shut (perpendicular 90 degrees across pipe), plus gate-valve clockwise shut.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z13-P28 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Ball valve OPEN vs CLOSED -->
+    <rect x="65" y="146" width="320" height="32" fill="#8ec2d4" stroke="#205b68" stroke-width="3"/>
+    <rect x="175" y="138" width="90" height="48" rx="8" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
+    <rect x="195" y="114" width="108" height="18" rx="6" fill="#183a30"/>
+    <text x="72" y="96">OPEN: handle parallel to pipe</text>
+    <!-- Closed -->
+    <rect x="65" y="256" width="320" height="32" fill="#8ec2d4" stroke="#205b68" stroke-width="3"/>
+    <rect x="175" y="248" width="90" height="48" rx="8" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
+    <rect x="210" y="206" width="18" height="106" rx="6" fill="#972f22"/>
+    <text class="warn" x="72" y="232">SHUT: quarter-turn 90° across</text>
+    <!-- Right: Round gate valve + tag -->
+    <circle cx="655" cy="182" r="56" fill="none" stroke="#972f22" stroke-width="10"/>
+    <line x1="655" y1="126" x2="655" y2="238" stroke="#972f22" stroke-width="6"/>
+    <line x1="599" y1="182" x2="711" y2="182" stroke="#972f22" stroke-width="6"/>
+    <path class="rflow" d="M622 104A68 68 0 0 1 710 120"/>
+    <text x="515" y="88">Wheel gate valve: turn CLOCKWISE</text>
+    <text class="sm" x="515" y="274">Tag main valve brightly before storms;</text>
+    <text class="sm" x="515" y="298">do not force corroded stuck stems</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Locate and label main water shutoff before emergencies; call licensed plumber if valve leaks or binds.</text>
 </svg>

@@ -1,0 +1,28 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Forward azimuth and 180-degree reciprocal back-bearing</title><desc id="desc">Geometric diagram illustrating a 060-degree forward bearing from Point A to Landmark B paired with its exact 240-degree reciprocal back-bearing (+180 degrees).</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z11-P30 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- North reference lines -->
+    <line x1="185" y1="74" x2="185" y2="296" stroke="#365c50" stroke-width="2" stroke-dasharray="8 6"/>
+    <line x1="655" y1="74" x2="655" y2="296" stroke="#365c50" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="176" y="66">N</text><text x="646" y="66">N</text>
+    <!-- Bearing line A -> B -->
+    <line x1="185" y1="248" x2="655" y2="146" stroke="#205b68" stroke-width="4"/>
+    <circle cx="185" cy="248" r="10" fill="#183a30"/>
+    <circle cx="655" cy="146" r="10" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
+    <!-- Arcs -->
+    <path d="M185 198A50 50 0 0 1 232 238" fill="none" stroke="#205b68" stroke-width="3.5"/>
+    <path d="M655 96A50 50 0 1 1 607 156" fill="none" stroke="#972f22" stroke-width="3.5"/>
+    <path class="flow" d="M320 218l115-25"/><path class="rflow" d="M510 177l-115 25"/>
+    <text x="68" y="280">Start Point A</text>
+    <text x="242" y="182">Forward: 060°</text>
+    <text x="685" y="152">Landmark B</text>
+    <text class="warn" x="678" y="216">Back-bearing: 240°</text>
+    <text class="sm" x="565" y="282">Rule: add 180° (if &lt;180°) or subtract 180°</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Check reciprocal back-bearings on return routes so a 180-degree reversal error is caught early.</text>
+</svg>

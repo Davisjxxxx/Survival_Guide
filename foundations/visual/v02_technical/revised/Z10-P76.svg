@@ -1,0 +1,25 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Protecting personal prescription medications from temperature extremes</title><desc id="desc">Cutaway of an insulated inner-layer medication pouch separating temperature-sensitive epinephrine or insulin from freezing exterior pockets and hot vehicle dashboards.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z10-P76 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Protected inside core layer -->
+    <rect x="55" y="92" width="365" height="218" rx="12" fill="#e3f0ea" stroke="#183a30" stroke-width="3.5"/>
+    <rect x="135" y="156" width="205" height="92" rx="14" fill="#d7e2da" stroke="#205b68" stroke-width="3.5"/>
+    <rect x="168" y="184" width="138" height="36" rx="10" fill="#ffffff" stroke="#183a30" stroke-width="3"/>
+    <text x="194" y="209">Rx / EpiPen</text>
+    <text x="76" y="128">SAFE: inner insulated carry</text>
+    <text class="sm" x="76" y="286">Close to body warmth; waterproof bag</text>
+    <!-- Right: Damaged extremes -->
+    <rect x="475" y="92" width="370" height="98" rx="10" fill="#dce8ec" stroke="#972f22" stroke-width="3"/>
+    <text class="warn" x="496" y="128">EXTREME COLD (&lt;32°F outer pack)</text>
+    <text class="sm" x="496" y="160">Freezing ruins insulin &amp; auto-injectors</text>
+    <rect x="475" y="212" width="370" height="98" rx="10" fill="#f7e4d8" stroke="#972f22" stroke-width="3"/>
+    <text class="warn" x="496" y="248">EXTREME HEAT (hot car / direct sun)</text>
+    <text class="sm" x="496" y="280">Degrades potency; carry labeled backup</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Keep original labeled prescriptions protected and accessible; verify manufacturer temperature limits.</text>
+</svg>

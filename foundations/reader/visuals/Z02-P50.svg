@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Keep fuel stoves, lanterns and heaters completely outside tents and vestibules</title>
-  <desc id="desc">CUTAWAY VIEW: Fuel appliance outdoors only | Zero stove/heater in vestibule | Battery light + dry layers inside — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P50 · CUTAWAY VIEW (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="cutaway-artwork"><path d="M40 142h640" stroke="#7d8a68" stroke-width="6"/><path d="M135 140L360 44l225 96" fill="#d9e4d7" stroke="#285345" stroke-width="5"/><path d="M185 140L360 64l175 76" fill="#f7f4ea" stroke="#5c7c6d" stroke-width="2.5" stroke-dasharray="6 4"/><rect x="242" y="114" width="236" height="22" rx="6" fill="#d3ab58" stroke="#285345" stroke-width="2"/><path d="M62 82h66m470 0h66" stroke="#507f92" stroke-width="4" marker-end="url(#arrow)"/><text x="360" y="58" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Outdoor stove zone ONLY</text><text x="360" y="96" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Hard zero-CO barrier line</text><text x="360" y="130" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Battery light + dry layers</text><text x="605" y="68" font-size="11" font-weight="650" fill="#8b3e1f" text-anchor="middle">Cracked vents ≠ safe CO</text><rect x="492" y="130" width="204" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="594" y="144" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">NO stoves in vestibules</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Fuel appliance outdoors</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">only</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Zero stove/heater in</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">vestibule</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Battery light + dry</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">layers inside</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Zero stoves or heaters inside tents and vestibules</title><desc id="desc">Cutaway contrasting lethal CO plume and fire hazard from a stove inside a tent vestibule against safe open-air cooking well outside.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z02-P50 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Tent with forbidden stove -->
+    <polygon points="65,288 230,115 395,288" fill="#f7e4d8" stroke="#972f22" stroke-width="4"/>
+    <line x1="285" y1="173" x2="285" y2="288" stroke="#972f22" stroke-width="3" stroke-dasharray="8 5"/>
+    <rect x="305" y="264" width="38" height="22" fill="#5e6b65" stroke="#183a30" stroke-width="2.5"/>
+    <path d="M312 262q12-18 24 0" fill="#d97236"/>
+    <path class="rflow" d="M324 245Q275 190 190 212"/>
+    <text class="warn" x="88" y="90">FORBIDDEN: tent / vestibule</text>
+    <text class="warn" x="122" y="212">Lethal CO</text><text class="warn" x="115" y="244">&amp; fire trap</text>
+    <!-- Right: Safe open air -->
+    <line x1="485" y1="288" x2="855" y2="288" stroke="#5d653e" stroke-width="4"/>
+    <rect x="645" y="262" width="46" height="24" fill="#5e6b65" stroke="#183a30" stroke-width="3"/>
+    <rect x="640" y="230" width="56" height="30" rx="4" fill="#d7e2da" stroke="#183a30" stroke-width="3"/>
+    <path class="flow" d="M668 220V116"/>
+    <text x="515" y="90">SAFE: fully outdoors, open sky</text>
+    <text class="sm" x="530" y="160">Exhaust disperses freely</text>
+    <text class="sm" x="530" y="316">Keep clear of tent walls &amp; dry brush</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Cracking a tent zipper does NOT prevent fatal carbon monoxide buildup; cook strictly outdoors.</text>
 </svg>

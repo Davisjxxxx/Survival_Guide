@@ -1,0 +1,30 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Why boiling concentrates algal and chemical toxins</title><desc id="desc">Cutaway boiling pot showing clean water vapor escaping upward while non-volatile cyanotoxins, heavy metals and nitrates become MORE concentrated in remaining liquid.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z04-P41 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Pot cutaway -->
+    <rect x="115" y="156" width="280" height="145" rx="12" fill="#eef4f2" stroke="#183a30" stroke-width="4"/>
+    <rect x="120" y="218" width="270" height="78" fill="#c7d69b" stroke="#4f6038" stroke-width="2.5"/>
+    <!-- Concentrated toxins -->
+    <circle cx="165" cy="252" r="8" fill="#972f22"/><circle cx="205" cy="272" r="8" fill="#972f22"/>
+    <circle cx="255" cy="248" r="8" fill="#972f22"/><circle cx="305" cy="270" r="8" fill="#972f22"/>
+    <circle cx="348" cy="250" r="8" fill="#972f22"/><circle cx="235" cy="278" r="7" fill="#972f22"/>
+    <!-- Steam leaving -->
+    <path class="flow" d="M190 198V96"/><path class="flow" d="M255 198V86"/><path class="flow" d="M320 198V96"/>
+    <text x="152" y="76">Pure steam escapes</text>
+    <!-- Fire below -->
+    <path d="M195 318q20-26 40-5q20-24 40 0q20-22 40 5z" fill="#d97236" stroke="#972f22" stroke-width="2.5"/>
+    <!-- Right explanation panel -->
+    <rect x="445" y="88" width="415" height="215" rx="12" fill="#f7e4d8" stroke="#972f22" stroke-width="3"/>
+    <text class="warn" x="470" y="126">Boiling &amp; bleach DO NOT remove:</text>
+    <text x="470" y="164">• Cyanobacterial HAB toxins</text>
+    <text x="470" y="198">• Heavy metals (lead, arsenic)</text>
+    <text x="470" y="232">• Nitrates, fuels &amp; mine runoff</text>
+    <text class="warn" x="470" y="276">Evaporation CONCENTRATES toxins!</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Never boil or chlorinate algal-scum, fuel-sheen or mine-runoff water; use alternate supply.</text>
+</svg>

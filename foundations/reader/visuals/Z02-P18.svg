@@ -1,13 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Orient shelter entrances relative to prevailing wind and storm shifts</title>
-  <desc id="desc">MECHANISM DIAGRAM: Wind hits narrow low profile | Door faces calmer leeward side | Watch for frontal wind shift — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P18 · MECHANISM DIAGRAM (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="mechanism-artwork"><rect x="38" y="54" width="168" height="68" rx="10" fill="#d3e3dc" stroke="#285345" stroke-width="3"/><text x="122" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Prevailing Wind &amp;</text><text x="122" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Frontal Shift</text><path d="M208 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><ellipse cx="360" cy="88" rx="88" ry="42" fill="#4b7f93" fill-opacity="0.28" stroke="#4b7f93" stroke-width="3.5"/><text x="360" y="84" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Low Narrow</text><text x="360" y="99" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Windward Profile</text><path d="M450 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><rect x="514" y="54" width="168" height="68" rx="10" fill="#e5ebd8" stroke="#285345" stroke-width="3"/><text x="598" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Calmer Leeward</text><text x="598" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Doorway</text><path d="M360 130v14" stroke="#a05332" stroke-width="3"/><rect x="215" y="136" width="290" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360" y="150" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">Avoid facing open doors into wind — prevents parachute uplift</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Wind hits narrow low</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">profile</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Door faces calmer</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">leeward side</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Watch for frontal wind</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">shift</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Shelter wind orientation and leeward entrance profile</title><desc id="desc">Side elevation showing prevailing wind deflected smoothly over a low pitched back wall while keeping the downwind entrance sheltered from spindrift and gusts.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z02-P18 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Ground -->
+    <line x1="40" y1="292" x2="860" y2="292" stroke="#5d653e" stroke-width="5"/>
+    <!-- Natural windbreak tree/berm -->
+    <path d="M165 292Q210 218 265 292Z" fill="#c8be96" stroke="#5d653e" stroke-width="3"/>
+    <text class="sm" x="155" y="320">Low terrain berm</text>
+    <!-- Shelter wedge back to wind -->
+    <polygon points="360,292 590,152 635,292" fill="#d7e2da" stroke="#183a30" stroke-width="4"/>
+    <polygon points="590,152 635,292 565,292" fill="#bc785b" opacity=".35"/>
+    <!-- Wind streamlines -->
+    <path class="flow" d="M55 150Q280 142 545 102Q695 85 835 125"/>
+    <path class="flow" d="M55 205Q255 198 465 148Q640 120 835 162"/>
+    <text x="55" y="112">Prevailing storm wind</text>
+    <!-- Callouts -->
+    <text x="342" y="128">Low windward back</text>
+    <path class="leader" d="M440 136l22 72"/>
+    <text x="652" y="232">Sheltered leeward</text>
+    <text x="652" y="258">door (cross-wind)</text>
+    <path class="leader" d="M645 242h-32"/>
+    <text class="sm" x="652" y="294">Watch eddy snow drift</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Pitch low back wall into expected storm wind; inspect overhead dead limbs before anchoring.</text>
 </svg>

@@ -1,0 +1,24 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Wood grain, knots and decay structural cross-section</title><desc id="desc">Longitudinal wood cutaway contrasting straight split-friendly grain against a tight branch knot causing tool deflection and dark soft fungal decay.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z09-P04 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Log longitudinal beam -->
+    <rect x="55" y="130" width="790" height="142" rx="14" fill="#e8d6ad" stroke="#6d4c2f" stroke-width="4"/>
+    <!-- Straight grain left -->
+    <path d="M68 164h235M68 198h235M68 232h235" stroke="#9e7b47" stroke-width="3" fill="none"/>
+    <text x="72" y="102">1. Straight deadwood grain</text><text class="sm" x="72" y="302">Splits predictably</text>
+    <!-- Knot middle -->
+    <ellipse cx="452" cy="198" rx="46" ry="30" fill="#7a5230" stroke="#472d18" stroke-width="3.5"/>
+    <path d="M310 164Q452 136 588 164M310 232Q452 260 588 232" stroke="#8b6540" stroke-width="3" fill="none"/>
+    <text class="warn" x="366" y="102">2. Dense knot whorl</text><text class="warn" x="362" y="302">Deflects &amp; chips blades</text>
+    <!-- Decay right -->
+    <rect x="612" y="134" width="228" height="134" rx="10" fill="#8b7a62" stroke="#5c4b2b" stroke-width="3" stroke-dasharray="8 5"/>
+    <circle cx="675" cy="182" r="14" fill="#5c4b2b"/><circle cx="748" cy="218" r="18" fill="#5c4b2b"/>
+    <text class="warn" x="635" y="102">3. Spongy rot core</text><text class="warn" x="622" y="302">Snaps under load; reject</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Inspect deadfall for knots, splits and fungal rot before cutting or bearing any load.</text>
+</svg>

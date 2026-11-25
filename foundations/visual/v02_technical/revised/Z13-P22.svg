@@ -1,0 +1,27 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Wood stove flue clearance and creosote chimney-fire cutaway</title><desc id="desc">Cross-section of a wood-burning stove and insulated chimney pipe highlighting wall clearances, spark-arrested hearth pad, and shiny creosote glaze inside the flue.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z13-P22 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Wall and floor hearth -->
+    <rect x="75" y="86" width="32" height="224" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
+    <rect x="75" y="286" width="390" height="24" fill="#9aa8a4" stroke="#364247" stroke-width="3"/>
+    <!-- Stove body -->
+    <rect x="210" y="196" width="140" height="90" rx="8" fill="#4f5c57" stroke="#183a30" stroke-width="4"/>
+    <rect x="255" y="72" width="50" height="124" fill="#687570" stroke="#183a30" stroke-width="3.5"/>
+    <!-- Creosote lining inside flue -->
+    <line x1="263" y1="76" x2="263" y2="192" stroke="#972f22" stroke-width="6" stroke-dasharray="9 4"/>
+    <line x1="297" y1="76" x2="297" y2="192" stroke="#972f22" stroke-width="6" stroke-dasharray="9 4"/>
+    <!-- Clearance arrows -->
+    <path class="flow" d="M115 242h88"/>
+    <text class="sm" x="115" y="226">Clearance</text>
+    <!-- Callouts right -->
+    <path class="leader" d="M312 126h138"/><text class="warn" x="458" y="124">Glazed creosote ignites flue!</text><text class="sm" x="458" y="150">Inspect &amp; sweep annually; dry wood only</text>
+    <path class="leader" d="M358 222h92"/><text x="458" y="218">Clear combustibles &gt;= 36 in</text><text class="sm" x="458" y="244">(or listed shielded manufacturer distance)</text>
+    <text class="sm" x="458" y="294">Ashes -> metal lid can outdoors</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Follow listed appliance clearances and professional chimney sweeps; never burn trash or damp wood.</text>
+</svg>

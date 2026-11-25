@@ -390,6 +390,57 @@ class ControlTests(unittest.TestCase):
         self.assertIn('NOT TO SCALE', pilot.read_text())
         self.assertFalse(list(root.iter(ns + 'image')))
 
+    def test_v02_reconstructed_svgs_preserve_originals_and_boundaries(self):
+        import json
+        from xml.etree import ElementTree
+        from build_foundations import FOUND
+        from foundation_diagrams import v02_source_path
+        ns = '{http://www.w3.org/2000/svg}'
+        specs = json.loads((FOUND / 'evidence/diagram-specs.json').read_text(encoding='utf-8'))
+        v02_ids = sorted(cid for cid, spec in specs.items() if spec.get('type') == 'v02_artwork')
+        self.assertGreaterEqual(len(v02_ids), 64)
+        for cid in v02_ids:
+            rev = v02_source_path(cid)
+            orig = FOUND / 'visual/v02_technical/original' / f'{cid}.svg'
+            self.assertTrue(rev.is_file(), f'Missing V02 revised SVG: {cid}')
+            self.assertTrue(orig.is_file(), f'Missing preserved V02 original SVG: {cid}')
+            root = ElementTree.parse(rev).getroot()
+            desc = root.find(ns + 'desc')
+            self.assertIsNotNone(desc, f'Missing <desc> in {cid}')
+            self.assertTrue(bool(desc.text and desc.text.strip()))
+            self.assertIn('NOT TO SCALE', rev.read_text(encoding='utf-8'))
+            self.assertFalse(list(root.iter(ns + 'image')), f'Unexpected raster image in vector SVG {cid}')
+
+    def test_v03_authentic_photo_provenance_and_hold(self):
+        import hashlib, json
+        from build_foundations import FOUND
+        v03 = FOUND / 'visual/v03_authentic_photos'
+        records = json.loads((v03 / 'MANIFEST.json').read_text(encoding='utf-8'))
+        self.assertGreaterEqual(len(records), 30)
+        for rec in records:
+            orig = (v03 / rec['original_file']).read_bytes()
+            disp = (v03 / rec['delivery_derivative']).read_bytes()
+            self.assertTrue(orig.startswith(b'\xff\xd8'), f'Invalid JPEG: {rec["original_file"]}')
+            self.assertEqual(hashlib.sha256(orig).hexdigest(), rec['original_sha256'])
+            self.assertEqual(hashlib.sha256(disp).hexdigest(), rec['derivative_sha256'])
+            self.assertEqual(rec['expert_validation_status'], 'PENDING')
+            self.assertEqual(rec['diagnostic_qualification'], 'WITHHELD')
+
+    def test_v02_v03_governance_registers_and_atlas_preservation(self):
+        import csv
+        from build_foundations import FOUND
+        visual = FOUND / 'visual'
+        with (visual / 'V02_BACKLOG_RECONCILIATION.csv').open(encoding='utf-8') as f:
+            self.assertEqual(len(list(csv.DictReader(f))), 854)
+        with (visual / 'V03_TAXONOMIC_DIAGNOSTIC_EVIDENCE.csv').open(encoding='utf-8') as f:
+            trows = list(csv.DictReader(f))
+            self.assertEqual(len(trows), 113)
+            self.assertTrue(all(r['consumption_status'] == 'WITHHELD_HOLD' for r in trows))
+        with (visual / 'V02_V03_EVIDENCE_RESOLUTION_REGISTER.csv').open(encoding='utf-8') as f:
+            self.assertEqual(len(list(csv.DictReader(f))), 172)
+        for idx in range(1, 76):
+            self.assertTrue((FOUND / 'reader/visuals' / f'Z16-P{idx:02d}.svg').is_file())
+
 
 if __name__ == '__main__':
     unittest.main()

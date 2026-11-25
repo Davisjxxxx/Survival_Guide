@@ -1,13 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Follow a compass bearing in forest using short visible leapfrog targets</title>
-  <desc id="desc">MECHANISM DIAGRAM: Sight distinct tree ahead | Walk watching footing | Re-sight next short target — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z11-P31 · MECHANISM DIAGRAM (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="mechanism-artwork"><rect x="38" y="54" width="168" height="68" rx="10" fill="#d3e3dc" stroke="#285345" stroke-width="3"/><text x="122" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Sight Distinct</text><text x="122" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Tree Ahead</text><path d="M208 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><ellipse cx="360" cy="88" rx="88" ry="42" fill="#3f7566" fill-opacity="0.28" stroke="#3f7566" stroke-width="3.5"/><text x="360" y="84" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Walk Watching</text><text x="360" y="99" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Footing Cleanly</text><path d="M450 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><rect x="514" y="54" width="168" height="68" rx="10" fill="#e5ebd8" stroke="#285345" stroke-width="3"/><text x="598" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Re-Sight Next</text><text x="598" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Short Target</text><path d="M360 130v14" stroke="#a05332" stroke-width="3"/><rect x="215" y="136" width="290" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360" y="150" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">Never hike staring down at bouncing needle; leapfrog in woods</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Sight distinct tree</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">ahead</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Walk watching footing</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Re-sight next short</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">target</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Following a forest bearing via visible leapfrog targets</title><desc id="desc">Overhead forest corridor diagram showing short sighted hops from tree to boulder along a magnetic bearing line rather than staring down at the compass.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z11-P31 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Desired bearing dashed axis -->
+    <line x1="78" y1="210" x2="825" y2="210" stroke="#205b68" stroke-width="3" stroke-dasharray="10 7"/>
+    <!-- Start -->
+    <circle cx="105" cy="210" r="14" fill="#183a30"/>
+    <text x="64" y="258">Start</text>
+    <!-- Target 1 tree -->
+    <circle cx="345" cy="210" r="24" fill="#8eb5a7" stroke="#183a30" stroke-width="3.5"/>
+    <text x="275" y="142">1. Sight distinct tree</text><path class="leader" d="M345 152v32"/>
+    <!-- Target 2 boulder -->
+    <polygon points="552,226 575,186 616,192 626,226" fill="#9aa8a4" stroke="#364247" stroke-width="3.5"/>
+    <text x="524" y="142">2. Walk to boulder</text><path class="leader" d="M585 152v32"/>
+    <!-- Target 3 ridge -->
+    <polygon points="755,232 795,168 835,232" fill="#c9b489" stroke="#5c4b2b" stroke-width="3.5"/>
+    <text x="728" y="142">3. Re-sight</text>
+    <!-- Hop arrows -->
+    <path class="flow" d="M126 210h188"/><path class="flow" d="M376 210h168"/><path class="flow" d="M635 210h112"/>
+    <text class="sm" x="155" y="286">Short visible hops prevent slow brush-dodging drift off bearing</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Stop walking while reading the compass; re-verify line of sight after passing thick brush.</text>
 </svg>
