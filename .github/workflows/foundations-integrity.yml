@@ -5,11 +5,13 @@ on:
       - review/foundational-production-20261124
       - review/astra-a01-technical-audit-20261124
       - review/neon-p12-p15-20261124
+      - review/astra-a02-technical-audit-20261125
   pull_request:
     branches:
       - review/s02-s03-historical-recovery-20261124
       - review/foundational-production-20261124
       - review/astra-a01-technical-audit-20261124
+      - review/neon-p12-p15-20261124
 permissions:
   contents: read
 jobs:
@@ -24,3 +26,5 @@ jobs:
           python-version: "3.13"
       - run: python scripts/test_foundation_controls.py
       - run: python scripts/check_foundations.py
+      - if: github.ref_name == 'review/astra-a02-technical-audit-20261125' || github.head_ref == 'review/astra-a02-technical-audit-20261125'
+        run: python scripts/check_a02_audit.py

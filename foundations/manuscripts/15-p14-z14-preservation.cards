@@ -362,17 +362,17 @@ diagram: Apples & pears emit ethylene gas | Gas turns carrots bitter & sprouts s
 visual: System separation boundary isolating ethylene-emitting apples/pears and strong-odor onions from sensitive carrots, potatoes, cabbage, and squash. Conceptual, not to scale.
 reviewer: Post-harvest horticulture specialist
 
-Z14-P28 | Store potatoes in total darkness at 45–50°F to prevent toxic green solanine | UMN Extension Harvesting and Storing Vegetables; new manuscript
+Z14-P28 | Keep stored potatoes dark and discard green or bitter potatoes | UMN Extension Harvesting and Storing Vegetables; new manuscript
 objective: Maintain firm, tasty winter potatoes while preventing light-induced glycoalkaloid (solanine) toxicity and cold-induced sweetening.
 applies: Home-grown and bulk-purchased potatoes stored for weeks to months.
 equipment: Breathable opaque containers (burlap sacks, slatted dark wooden crates, paper bags), dark cool room (45–50°F), and thermometer.
-action: Store cured potatoes in **100% TOTAL DARKNESS** inside breathable paper bags, burlap sacks, or covered slatted boxes—even dim basement daylight or electric bulbs trigger chlorophyll greening accompanied by toxic **solanine** (glycoalkaloids) beneath the peel. @P05,M15
-action: Hold storage temperatures near 45–50°F (avoiding refrigerator temperatures below 40°F, which convert potato starch into sugar, turning cooked potatoes unpleasantly sweet and dark-browning when fried) with moderate-high humidity and good airflow. @P05
-action: Inspect stored potatoes regularly—trim away small shallow sprouts and light green surface spots generously, and DISCARD heavily green, bitter-tasting, shriveled, or heavily sprouted potatoes completely (cooking does NOT destroy solanine!). @P05,M15
+action: Store sound potatoes in a cool, dark place with airflow using crop-specific Extension guidance. Light exposure can cause greening, which flags possible glycoalkaloid risk. @P05,P21
+action: Discard green, bitter or heavily sprouted potatoes. Color is a warning cue rather than a measurement of toxin concentration. Do not taste a suspect potato to test it. @P21
+action: Check stored potatoes periodically and remove deteriorated ones. Discard green, bitter or strongly sprouted tubers without tasting them. @P21
 failure: Storing a bulk sack of potatoes in clear plastic bags beside a sunny basement window, turning half the tubers bright green and toxic. @P05,M15
-verify: Confirm total darkness, breathable opaque bags (zero sealed sweaty plastic), 45–50°F target temp, and regular sprout/greening checks. @P05
-stop: Heavily greened skins, bitter taste, or soft wet rot require discarding affected potatoes immediately rather than eating them. @P05,M15
-diagram: 100% total darkness + breathable bags | Hold 45–50°F (avoid below 40°F starch-sugar) | Discard heavily green/bitter solanine spuds
+verify: Confirm darkness, suitable airflow and periodic inspection for deterioration. @P05,P21
+stop: Discard green, bitter, rotten or strongly sprouted potatoes. Do not assess safety by tasting. @P21
+diagram: Store sound potatoes dark | Check for greening or strong sprouting | Discard suspect tubers
 visual: Correct versus incorrect potato storage contrasting dark breathable sacks at 45–50°F against sunlit clear plastic bags generating toxic green solanine. Conceptual, not to scale.
 reviewer: Post-harvest horticulture and food toxicology
 
@@ -492,7 +492,7 @@ Z14-P37 | Verify safe minimum internal cooking temperatures with a calibrated th
 objective: Destroy harmful foodborne pathogens reliably without relying on unreliable color, texture, or juice guesses.
 applies: Home cooking, emergency meal preparation, and pre-heating meats prior to drying or storage.
 equipment: Calibrated instant-read digital or dial food thermometer and USDA safe-temperature chart.
-action: Insert a clean food thermometer into the thickest portion of the food (away from bone, fat, or pan bottom) to confirm USDA safe minimum internal temperatures: **165°F** for all poultry and reheated leftovers/casseroles, **160°F** for ground beef/pork/lamb and egg dishes, and **145°F** (plus 3-minute rest) for whole cuts of beef, pork, veal, lamb, and fish (145°F). @F02
+action: Use a food thermometer and the USDA chart. The minimum is 165°F for poultry and reheated leftovers or casseroles, 160°F for ground beef, pork, veal or lamb and egg dishes, and 145°F plus a three-minute rest for whole cuts of beef, pork, veal or lamb. Fish is a separate 145°F entry. @F03
 action: Never judge safety by brown color or "clear juices"—ground beef can turn brown well below 160°F while E. coli survives inside, and smoked or cured poultry can stay pink even above 165°F. @F02
 action: Check thermometer accuracy periodically in an ice-water slush bath (32°F) and clean the probe with hot soapy water between raw and cooked checks. @F02,F01
 failure: Serving hamburgers that look brown outside during a busy outage grill session while the center sits at 138°F. @F02
@@ -548,12 +548,12 @@ Z14-P41 | Apply official per-item keep, refreeze, or discard charts after outage
 objective: Save safe food categories accurately while discarding high-risk spoiled perishables cleanly when power returns.
 applies: Evaluating refrigerated and frozen household food stocks after power restoration or appliance breakdown.
 equipment: Printed offline copy of the official FoodSafety.gov Power Outage Chart and appliance thermometers.
-action: For **refrigerated** foods held above 40°F for OVER 2 hours: DISCARD meat, poultry, fish, eggs, soft cheeses, milk, cut melons/tomatoes/leafy greens, cooked pasta/rice/leftovers, and opened mayo/creamy dressings; items like hard cheeses, uncut whole produce, butter, peanut butter, jams, and vinegar condiments are generally listed as keepable per the official chart. @F04,P17
-action: For **frozen** foods: you may safely refreeze or cook foods that STILL contain visible ice crystals OR measure **40°F or below** on a food/appliance thermometer (expecting minor texture/quality softening); discard thawed meat/poultry/seafood/egg/dairy dishes held above 40°F over 2 hours. @F05,P17
+action: Use the per-food refrigerated discard chart after an outage. An unopened refrigerator gives about four hours of cold holding. Discard vulnerable foods at the applicable time and temperature limit or when the cold history is unknown. @F04,P17
+action: For frozen items, check the separate FDA/USDA freezer chart. Ice crystals or a measured 40°F or below are relevant, but some categories have specific discard rules. @F04,P17
 action: Log every keep/discard decision objectively using thermometer readings and printed chart rows—NEVER rely on appearance or smell alone. @F04,F05
 failure: Refreezing completely thawed 52°F chicken breasts and soft cream cheese after a 3-day summer blackout because they "still smell okay." @F04,F05
 verify: Confirm printed FoodSafety.gov chart applied per food category alongside measured temperature and ice-crystal checks. @F04,F05
-stop: When temperature history is unknown or exceeds 40°F for >2 hours on high-risk perishables, discard cleanly ("When in doubt, throw it out"). @F04,P17
+stop: If you cannot establish which chart row applies or whether temperature control held, discard the suspect food. Do not taste it. @F04,P17
 diagram: Fridge >40°F >2 h -> dump meat/dairy/cuts | Frozen: ice crystals or ≤40°F -> refreeze | Use official chart; never guess by smell
 visual: Decision tree applying refrigerator >40°F/>2 hr rules and freezer ice-crystal/≤40°F checks to separate keep, refreeze, and mandatory discard items. Conceptual, not to scale.
 reviewer: Food safety and public health
@@ -618,9 +618,9 @@ Z14-P46 | Separate low-acid foods (pressure canner ONLY) from high-acid foods | 
 objective: Enforce the fundamental pH 4.6 microbiological gate that stops deadly Clostridium botulinum toxin production in sealed jars.
 applies: Choosing the mandatory thermal processing equipment before canning any home-preserved food.
 equipment: USDA/NCHFP food-acidity classification tables, tested pressure canner, and boiling-water canner.
-action: Classify every food strictly by the **pH 4.6** botulism boundary: **Low-acid foods (pH > 4.6)** include ALL meats, poultry, seafood, stocks, soups, beans, corn, carrots, potatoes, green beans, squash, and vegetable mixes—these MUST be processed strictly in a **PRESSURE CANNER** reaching 240°F+ to destroy heat-resistant C. botulinum spores. @P07,F06
-action: **High-acid foods (pH ≤ 4.6)** include most fruits, tested fruit jams/jellies, tested fermented sauerkraut, tested vinegar pickles, and properly acidified tomatoes—these may be processed in a boiling-water canner (212°F at sea level) strictly per a tested recipe. @P08,F06
-action: Recognize that boiling water at 212°F NEVER kills C. botulinum spores no matter how many hours you boil a jar—in an oxygen-free sealed low-acid jar at room temperature, surviving spores germinate and produce the most potent biological toxin known. @P07,P10
+action: Use only tested USDA/NCHFP recipes. Low-acid products such as plain vegetables, meat and poultry require a validated pressure-canning recipe with the specified equipment and conditions. @P06,P07
+action: Use boiling-water canning for high-acid or properly acidified products only when the exact tested recipe calls for it. A measured pH alone does not create a validated process. @P06,P08
+action: An ordinary boiling-water bath does not provide a validated process for low-acid products. If no tested recipe exists, choose safe refrigeration or a tested alternate preservation method. @P06,P07
 failure: Boiling green beans or venison in a giant water-bath pot for four hours under the myth that "grandma's long boil kills everything." @P07,F06
 verify: Confirm food acidity class matches tested recipe equipment (low-acid = pressure canner ONLY; borderline tomatoes = tested acidification). @P07,P08,F06
 stop: Lack of a tested pressure canner prohibits home canning ANY low-acid meat, vegetable, or soup—freeze or dry per tested methods instead. @P07,P12
@@ -628,16 +628,16 @@ diagram: pH > 4.6 (meat/veg/beans) -> PRESSURE ONLY | pH ≤ 4.6 (fruits/pickles
 visual: Branch decision tree splitting at the pH 4.6 line between mandatory 240°F+ pressure canning (low-acid) and tested boiling-water/acidified protocols (high-acid). Conceptual, not to scale.
 reviewer: Food microbiology and preservation process authority
 
-Z14-P47 | Acidify home-canned tomatoes strictly with bottled lemon juice or citric acid | NCHFP Boiling Water and Pressure Canning; new manuscript
+Z14-P47 | Acidify home-canned tomatoes using the exact tested recipe | NCHFP Boiling Water and Pressure Canning; new manuscript
 objective: Eliminate silent pH-drift botulism risk in modern tomato varieties by adding standardized acid to EVERY jar.
 applies: Home canning of whole, crushed, juiced, stewed, or sauced tomatoes and tested tomato salsas.
 equipment: Commercially standardized bottled lemon juice (5% acidity) OR food-grade citric acid (or 5% vinegar where recipe specifies), exact measuring spoon, and USDA tomato recipe.
-action: Acidify EVERY jar of home-canned tomatoes—whether processed in a boiling-water canner OR a pressure canner—using USDA's exact standardized measure (typically 1 tablespoon bottled lemon juice or ¼ teaspoon citric acid per pint; 2 tablespoons bottled lemon juice or ½ teaspoon citric acid per quart, per the exact tested recipe). @P08,P06
-action: Use **BOTTLED lemon juice** (standardized acidity) or dry citric acid—NEVER substitute fresh-squeezed lemons or limes whose natural acidity varies unpredictably by cultivar and ripeness, and never skip acid because a tomato variety "tastes tart." @P08
-action: Select ONLY firm, sound, vine-ripened tomatoes—NEVER can tomatoes from dead, frost-killed vines (which drop sharply in acidity) or heavily bruised/decayed fruit. @P08,P04
+action: For whole, crushed or juiced tomatoes, use a tested recipe and its prescribed acid and jar size. NCHFP lists specific bottled lemon juice, citric acid and 5% vinegar options for its applicable procedures. They are not interchangeable by volume. @P08,P22
+action: Keep the recipe’s acid step even if it offers a pressure-canning option. Do not generalize these directions to salsa, mixed products or another jar size. @P22,P06
+action: Use sound fruit and reject fruit from dead or frost-killed vines for canning. Follow all preparation and processing conditions in the same tested recipe. @P22
 failure: Canning garden heirloom tomatoes picked off frost-killed October vines with fresh-squeezed lemon juice and zero measured bottled acid. @P08
-verify: Confirm firm healthy pre-frost tomatoes, standardized bottled lemon juice/citric acid added directly per jar, and tested USDA processing schedule followed. @P08,P06
-stop: Overripe soft tomatoes, frost-killed vine tomatoes, or missing standardized acid require freezing instead of home canning. @P08,P12
+verify: Confirm the fruit, jar size, acid and complete processing schedule match one tested recipe. @P22
+stop: If the tomato source, acid option or processing schedule fails the tested conditions, do not can that batch. @P22
 diagram: Modern tomatoes sit near pH 4.6 danger line | Add exact BOTTLED lemon juice / citric acid | Never can tomatoes from frost-killed vines
 visual: Correct versus incorrect tomato acidification contrasting exact bottled lemon juice/citric acid on firm pre-frost tomatoes against fresh-squeezed juice or frost-killed vines. Conceptual, not to scale.
 reviewer: Food preservation process authority and Extension
@@ -716,28 +716,28 @@ Z14-P53 | Respect strict limits of validated atmospheric-steam canners | NCHFP /
 objective: Use modern atmospheric-steam canners safely ONLY for tested high-acid short-duration recipes without running dry or misapplying to low-acid foods.
 applies: Tested high-acid foods (pH ≤ 4.6) processed in an atmospheric-steam canner equipped with an accurate dome temperature indicator.
 equipment: Atmospheric-steam canner with validated dome temperature sensor, tested high-acid recipe, and local elevation table.
-action: Use an atmospheric-steam canner STRICTLY for **high-acid tested boiling-water recipes (pH ≤ 4.6)**—an atmospheric steam canner is NOT pressurized and NEVER replaces a pressure canner for meats, vegetables, or low-acid foods. @P08,P07
-action: Enforce the mandatory **45-minute maximum processing time cap** (INCLUDING all altitude time adjustments!)—steam canners hold shallow base water that can boil dry beyond 45 minutes, silently dropping chamber temperature below safe pasteurization levels. @P08
-action: Vent until pure steam flows steadily and the dome gauge confirms full boiling temperature for your elevation before starting the timer, keep heat steady without boiling dry, and never open the dome early. @P08,P14
+action: Use atmospheric steam canning only for an applicable high-acid or acidified tested recipe and compatible equipment. It cannot replace pressure canning for low-acid foods. @P25
+action: Follow the tested steam-canning procedure. The total processing time, including elevation adjustment, must be 45 minutes or less. @P25
+action: Vent and monitor steam temperature according to the validated instructions and exact equipment. Maintain these conditions without running dry. @P25
 failure: Attempting to process low-acid green beans in an unpressurized steam canner, or running a 55-minute high-altitude tomato batch until the shallow base boils dry. @P08,P07
-verify: Confirm high-acid recipe ONLY, total altitude-adjusted time ≤45 minutes, full pure steam verified, and base water never boils dry. @P08,P14
-stop: Any recipe exceeding 45 total minutes (with altitude) or any low-acid food requires switching to a deep boiling-water or pressure canner respectively. @P08,P07
+verify: Confirm the tested recipe, compatible equipment and altitude-adjusted time within the 45-minute limit. @P25
+stop: If the recipe, elevation-adjusted time or equipment fails the validated conditions, select the correct tested procedure instead. @P25,P07
 diagram: High-acid tested recipes ONLY (pH ≤4.6) | Hard cap: ≤45 min TOTAL incl. altitude | Never let shallow base pan boil dry
 visual: Decision tree screening pH ≤4.6, ≤45-minute total altitude-adjusted duration, and steady full steam before permitting atmospheric-steam canning. Conceptual, not to scale.
 reviewer: University Extension food preservation specialist
 
 Z14-P54 | Operate a pressure canner cleanly: 10-minute steam vent and target PSI | NCHFP Using Pressure Canners; new manuscript
-objective: Purge cold insulating air pockets completely from the pressure canner so internal temperature truly reaches 240°F+ across all jars.
-applies: All low-acid home canning (meats, poultry, stocks, beans, vegetables, tested soups) in a validated stovetop dial- or weighted-gauge pressure canner.
+objective: Identify the open-vent stage, then start timing only at the tested target pressure for the recipe, gauge and elevation.
+applies: A tested pressure-canning recipe and compatible model. The same operating setting does not apply to every product or site.
 equipment: Validated stovetop pressure canner (≥4-quart-jar capacity), intact lid gasket/overpressure plug, bottom rack, and USDA altitude-PSI chart.
-action: Inspect the rubber lid gasket, safety overpressure plug, and open vent pipe (look cleanly through the pipe toward light!) before every use, add the manufacturer-specified 2 to 3 inches of hot water over the bottom rack, lock the lid, and leave the vent weight OFF. @P07
-action: Heat on high until a **STRONG, CONTINUOUS FUNNEL OF STEAM** flows from the open vent pipe, then time a **FULL 10 MINUTES OF STEADY VENTING** BEFORE placing the counterweight/petcock on—skipping the 10-minute vent traps cool air pockets inside the pot so the gauge reads target PSI while actual jar temperatures stay fatally low! @P07
-action: Once pressurized cleanly to exact altitude-adjusted PSI (e.g., 11 PSI dial / 10 PSI weighted at ≤1,000 ft, stepped up above 1,000 ft per USDA tables), start the exact recipe timer and hold steady pressure without wild burner swings (which cause jar liquid siphoning). @P07,P14
+action: Inspect the gasket, vent and safety components per the model manual. Use the tested recipe and instructions for the rack, water depth and loading. Leave the vent open for the venting step. @P07
+action: Time ten minutes of continuous steam from the open vent. Then close the petcock or place the regulator as the manual specifies. @P07
+action: Use the tested recipe’s pressure for the actual site elevation and gauge type. Start the process time only at target pressure and maintain it throughout. @P07,P14
 failure: Closing the pressure-canner vent weight after two minutes of wispy steam, leaving cold air trapped inside so green beans stay below 240°F. @P07
 verify: Confirm clean open vent pipe, full 10-minute timed strong steam vent, exact altitude PSI held steadily, and zero premature timer start. @P07,P14
 stop: Clogged vent pipe, brittle/leaking gasket, or broken safety plug halts canning immediately until manufacturer replacement parts are installed. @P07
-diagram: Clear vent pipe -> 10 MIN FULL STEAM VENT | Apply weight -> reach altitude-adjusted PSI | Hold steady PSI full time; avoid swings
-visual: System boundary pressure-canner cutaway illustrating 10-minute air-purge steam funnel, locked lid/gasket, dial/weighted gauge, and 240°F+ jar zone. Conceptual, not to scale.
+diagram: Ten minutes of continuous steam venting | Recipe-specific gauge and elevation values | Maintain the target for the specified time
+visual: Conceptual cross-section of steam escaping through the open lid vent before the canner pressurizes. The tested recipe and manufacturer instructions control water depth, pressure and loading.
 reviewer: Food preservation process authority and Extension
 
 Z14-P55 | Test dial-gauge pressure canners annually and know weighted-gauge steps | NCHFP and UMN Extension Pressure Canning; new manuscript
@@ -760,7 +760,7 @@ applies: Any boiling-water or pressure-canning batch experiencing a stove-burner
 equipment: Watch/timer, stove controls, and exact tested recipe processing time.
 action: If pressure inside a pressure canner drops BELOW the exact target altitude-adjusted PSI at ANY moment during the processing period (even for a single minute), bring the canner cleanly back up to full target pressure and **RESTART THE ENTIRE PROCESSING TIME FROM ZERO**. @P07,P06
 action: Apply the exact same zero-restart rule to boiling-water canning if the vigorous rolling boil stops or water falls below jar tops (top up with boiling water, restore a full boil, and restart from minute zero). @P08,P06
-action: Do NOT try to guess "just add 10 extra minutes"—cumulative heat transfer to the geometric center of sealed jars is non-linear and only restarting the full validated cycle guarantees safety. @P07,P06
+action: Do not add an arbitrary number of minutes. If pressure falls below the recipe target, restore it and restart the full time following the tested method. For process deviations or uncertainty about the batch, consult Extension before using it. @P07,P06
 failure: Watching a pressure-canner dial dip from 11 PSI to 9 PSI for four minutes during a 75-minute meat cycle and merely adding four minutes at the end. @P07
 verify: Confirm unbroken target PSI (or rolling boil) for 100% of the timer, OR full restart from zero recorded if any dip occurred. @P07,P08
 stop: Power or gas outage halting a low-acid pressure run permanently requires cooling safely and refrigerating/freezing or fully reprocessing with new lids within 24 hours per NCHFP rules. @P07,P09
@@ -773,7 +773,7 @@ objective: Compensate accurately for lower water boiling temperatures above 1,00
 applies: Every boiling-water, atmospheric-steam, and pressure-canning batch nationwide and across elevated Upper Midwest counties.
 equipment: Verified local elevation (USGS topo/map or county Extension), USDA altitude tables for dial vs weighted gauges, and written batch sheet.
 action: Look up your EXACT home elevation BEFORE starting—water boils at lower temperatures as elevation rises, so sea-level processing times and pressures UNDER-PROCESS food above **1,000 feet** (note: much of northern, central, and southwestern Minnesota sits between 1,001 and 2,000+ feet!). @P14,F07
-action: Apply the exact USDA altitude adjustment for your equipment: for **boiling-water canning**, add extra processing minutes per the recipe's elevation bracket (1,001–3,000 ft, 3,001–6,000 ft, etc.); for **pressure canning**, INCREASE target pressure (e.g., dial gauge moves from 11 PSI to 12 PSI at 2,001–4,000 ft; weighted gauge steps straight from 10 PSI to **15 PSI** above 1,000 ft!). @P14,P07,F07
+action: Use the elevation column of the exact tested recipe for the specified equipment. Water-bath times and pressure-canner settings are different controls. Do not transfer a pressure value between a dial and weighted gauge. @P07,P14
 action: Never apply a dial-gauge PSI table to a weighted-gauge canner or vice versa—verify the exact column in the current USDA/NCHFP guide every time. @P14,P07
 failure: Canning in Duluth, Bemidji, or southwestern Minnesota (elevation >1,100–1,600 ft) using sea-level weighted-gauge 10 PSI instead of the mandatory 15 PSI step. @P14,F07
 verify: Confirm exact local elevation checked, correct equipment column (boiling-water minutes vs dial PSI vs weighted PSI) selected, and adjustment written down. @P14,F07
@@ -800,12 +800,12 @@ Z14-P59 | Test vacuum seals after cooling, remove screw bands, and handle unseal
 objective: Catch unsealed jars within the safe 24-hour window and prevent hidden rust and false resealing during long-term pantry storage.
 applies: Every home-canned batch after the mandatory 12-to-24-hour cooling period.
 equipment: Clean damp cloth, permanent marker, and refrigerator/freezer or fresh lids for 24-hour reprocessing.
-action: After 12 to 24 hours of undisturbed cooling, remove ALL metal screw bands cleanly and test every flat lid: a properly sealed lid curves slightly **CONCAVE (downward)** at the center, does NOT flex or pop up/down when pressed gently, and holds firmly when lifted carefully by the lid rim edges just an inch above the towel. @P09
+action: After 12–24 hours of undisturbed cooling, remove bands and check for a firm seal by an NCHFP method. A seal check cannot verify a recipe or processing schedule. @P09,P10
 action: Store sealed jars **WITHOUT screw bands** (leaving rings on traps moisture that rusts rims and can hide a popped spoiled lid by artificially holding it flat!), wash jar exteriors gently with warm soapy water, dry thoroughly, and label with food name and exact date. @P09,P10
-action: If ANY jar fails to seal within 24 hours of processing, immediately choose one of three safe NCHFP options: **refrigerate and eat promptly**, **freeze** in freezer-safe containers, OR **reprocess the ENTIRE full time** using a clean inspected jar rim and a brand-new flat lid within 24 hours. @P09,P10
+action: For a freshly unsealed jar, reprocess only if the original method and the corrective procedure meet Extension conditions. Consult the exact instructions for refrigeration, freezing or reprocessing. @P09,P10
 failure: Leaving metal screw bands screwed tight onto stored jars so a spoiled jar pops and reseals invisibly underneath the band. @P09,P10
 verify: Confirm rings removed after 12–24 h, concave firm seals verified, jars wiped/labeled cleanly, and any unsealed jars handled within 24 hours. @P09,P10
-stop: Unsealed jars discovered MORE than 24 hours after processing must be treated as spoiled and discarded safely without tasting. @P10
+stop: An unsealed jar from a correctly processed batch has a narrow reprocessing window under the tested instructions. If the original process was wrong, unknown, or shows spoilage, do not treat a later seal as clearance. @P09,P10
 diagram: Cool 12–24 h -> remove ALL screw bands | Firm concave lid = sealed; store ring-free | Unsealed ≤24 h -> fridge, freeze or re-run
 visual: Correct versus incorrect seal-checking and storage contrasting ring-free concave vacuum lids against rust-trapping bands hiding popped seals. Conceptual, not to scale.
 reviewer: Food preservation specialist
@@ -828,28 +828,28 @@ Z14-P61 | Inspect every home-canned jar before opening for spoilage warning sign
 objective: Catch compromised seals and microbial spoilage BEFORE a lid is pried open or a single drop touches kitchen counters.
 applies: Every home-canned jar (and commercial can) taken from pantry shelves prior to meal preparation.
 equipment: Bright kitchen light, seal-check habit, and NCHFP disposal protocol awareness.
-action: Inspect EVERY jar BEFORE opening: confirm the lid is still tightly **CONCAVE** and pulls a crisp inward vacuum hiss (NEVER an outward spurt or fizz!) when opened, with zero dried food streaks down the glass exterior and zero rust holes. @P10,P09
-action: Inspect jar contents carefully through the glass before and right after opening for rising gas bubbles, unexpected cloudiness/sediment, mold fuzz under the lid, mushy slimy texture, or sour/putrid off-odor. @P10
+action: Check the intact container and processing record before opening. Keep a suspect jar closed and isolated. A concave lid or vacuum sound cannot verify safety. @P10,P06
+action: Look for unusual leakage, bulging, broken seal or visible changes without opening a suspect jar or sniffing its contents. Follow official isolation and disposal instructions. @P10
 action: Remember the critical limitation: **Clostridium botulinum toxin can be present in an improperly processed low-acid jar WITH ZERO visible signs and ZERO off-odor**—therefore ALWAYS verify both jar condition AND that the batch followed an intact tested USDA/NCHFP protocol. @P10,P06
 failure: Scraping a tiny spot of white mold off the top of a home-canned jar of salsa or green beans and eating the rest beneath it. @P10
-verify: Confirm intact concave seal, normal clear appearance/odor, zero mold/spurting, and confirmed tested USDA process lineage before serving. @P10,P06
+verify: Confirm the tested process record and container condition. Never use smell, taste or the sound of a lid as safety clearance. @P10,P06
 stop: ANY unsealed lid, bulging/spurting jar, rising bubbles, mold, odd odor, or uncertain low-acid canning history triggers immediate NO-TASTE disposal. @P10
-diagram: Check concave seal & clean jar exterior | Look for spurting, gas bubbles, cloud or mold | Suspect jar -> ZERO tasting; isolate NOW
-visual: Failure-mode jar-inspection guide mapping external seal/rust cues, opening-spurt cues, and internal bubble/mold flags to strict zero-taste isolation. Conceptual, not to scale.
+diagram: Check the sealed container and recipe record | Isolate defects or uncertain process | Do not open or taste for diagnosis
+visual: Failure-mode diagram showing external container defects and uncertain processing as reasons to keep a suspect jar closed and seek disposal guidance.
 reviewer: Food microbiology and public health
 
-Z14-P62 | Detoxify and dispose of suspect botulism jars safely per NCHFP rules | NCHFP Handling Spoiled Canned Food; new manuscript
+Z14-P62 | Isolate suspect canned food and follow official disposal guidance | NCHFP Handling Spoiled Canned Food; new manuscript
 objective: Protect people, pets, and wildlife from fatal botulinum toxin when discarding suspect low-acid jars.
 applies: Unsealed, bulging, spurting, foaming, or improperly processed low-acid home-canned jars.
 equipment: Heavy gloves, double trash bags (unopened) OR large dedicated boiling pot (opened/leaking), and plain bleach-water wipe.
-action: NEVER taste a suspect jar, dump it down a sink disposal, or toss it into compost or yards where pets or wildlife can ingest fatal botulinum toxin. @P10
-action: If a suspect low-acid jar is STILL SEALED/UNOPENED, carefully double-bag it padded in cardboard inside locked household landfill trash out of reach of children and animals, then wash hands thoroughly. @P10
-action: If LEAKING or ALREADY OPENED, wear gloves and follow NCHFP detoxification: submerge jar, lid, and contents under 1+ inch of water in a large covered pot, boil vigorously 30 FULL MINUTES, cool, then bag/trash cleanly; wipe spills with 1:5 bleach-water for 30 minutes (no ammonia/acid). @P10,U13
+action: Keep suspect jars away from people and animals. Never taste the contents or open a sealed suspect container to inspect it. @P10
+action: Get the current NCHFP or public-health disposal directions. Identify whether the container is sealed, open or leaking and whether anyone ate the food. Keep children and pets out of the area. @P10
+action: For a suspected exposure, call Poison Control or public health promptly. Trouble swallowing or breathing, double vision or progressive weakness after eating suspect food requires emergency medical care. Keep the container isolated and follow health authorities’ instructions. @M15,P23
 failure: Dumping an unsealed jar of home-canned green beans onto a backyard compost pile where a pet dog licks it. @P10
-verify: Confirm zero tasting, zero sink/compost dumping, and exact NCHFP unopened-trash OR 30-minute boil detoxification applied. @P10
-stop: Anyone who tasted suspect low-acid food requires calling 911 IMMEDIATELY for hospital antitoxin (save jar safely for public-health testing). @P10,M15,T02
-diagram: ZERO tasting; never sink or compost dump | Sealed suspect -> double-bag locked trash | Opened/leaking -> 30 m submerged boil detox
-visual: Branch decision tree separating unopened double-bag trash disposal from opened/leaking 30-minute submerged boil detoxification and 911 emergency exposure care. Conceptual, not to scale.
+verify: Confirm no tasting, no access by pets or children, and receipt of official handling or disposal directions. @P10
+stop: For a leaking container, contaminated surface or symptomatic exposure, avoid handling and seek public-health or emergency guidance. @P10,P23
+diagram: Isolate suspect jar and prevent exposure | Use official disposal instructions | Call for help if exposure is suspected
+visual: Decision schematic for isolating suspect food, reporting symptoms and using official disposal instructions.
 reviewer: Food microbiology, toxicology, and public health
 
 Z14-P63 | Blanch vegetables to exact tested times and chill rapidly before freezing | NCHFP Freezing Foods Safely; new manuscript
@@ -926,12 +926,12 @@ Z14-P68 | Pre-heat meat to safe internal temperatures before drying homemade jer
 objective: Eliminate dangerous E. coli O157:H7 and Salmonella survival in homemade beef, venison, or poultry jerky.
 applies: Making dried meat or poultry jerky in home electric dehydrators or ovens.
 equipment: Calibrated food thermometer, lean trimmed meat strips (uniform ≤¼ inch), marinade/heating pot or oven, and electric dehydrator holding 130–140°F+.
-action: Trim away ALL visible fat completely before slicing lean meat into uniform thin strips (≤¼ inch thick)—fat does NOT dry and turns rancid quickly in storage. @P11,P18
-action: Follow NCHFP's mandatory **pathogen-kill heating step** because standard 130–140°F dehydrator air is too cool to destroy E. coli and Salmonella reliably: EITHER heat meat strips in boiling marinade/brine BEFORE drying to an internal temperature of **160°F for red meat / 165°F for poultry** verified by thermometer, OR heat finished oven-baked/dehydrated strips in a 275°F oven for 10 minutes to reach 160°F/165°F internal temperature per Extension guidelines. @P11,F02
-action: Dry pre-heated strips rapidly at 130–140°F+ until leathery (cracks when bent without snapping completely), blot any surface oil cleanly with paper towels, and store refrigerated or frozen for best safety/shelf life rather than assuming indefinite warm-room storage. @P11,P18
+action: Use one tested jerky protocol. For the USDA FSIS method, heat meat to 160°F (71°C) and poultry to 165°F (74°C) before dehydrating, and confirm the temperature in several pieces with a food thermometer. @P24
+action: Use controlled drying equipment at the temperature and conditions specified in that same procedure. Texture alone cannot demonstrate adequate initial heating. @P24
+action: Follow the same tested procedure for endpoint, packaging and storage. Avoid claiming room-temperature safety if an equipment or process condition cannot be verified. @P24
 failure: Placing raw marinated venison strips straight into a 135°F countertop dehydrator with zero 160°F heat-kill step, causing severe E. coli illness. @P11,F02
 verify: Confirm fat trimmed clean, calibrated thermometer verified 160°F (red meat) or 165°F (poultry) kill step, and finished jerky stored cool/dry or frozen. @P11,F02
-stop: Unheated raw-dried meat jerky, tacky damp centers, or oily rancid odor must be discarded cleanly. @P11
+stop: If you cannot verify the initial heating or the specified drying conditions, do not use the batch as shelf-stable food. @P24
 diagram: Trim ALL fat; uniform ≤¼-in strips | Heat to 160°F meat / 165°F poultry kill step | Dry 130–140°F+; store cool/frozen
 visual: Sequence plate detailing fat trimming, mandatory 160°F/165°F thermometer pathogen-kill step, rapid dehydrator drying, and cool/frozen storage. Conceptual, not to scale.
 reviewer: Food microbiology and meat-safety Extension specialist
@@ -982,7 +982,7 @@ Z14-P72 | Identify spoilage, off-odors, and mold in home ferments and discard cl
 objective: Distinguish healthy tangy lacto-fermentation from spoiled slimy, dark, or mold-contaminated batches before tasting.
 applies: Monitoring active lacto-fermented sauerkraut, kimchi, and brined cucumber pickles.
 equipment: Clean skimming utensils, visual/odor inspection routine, and tested cold-storage or canning completion plan.
-action: Check active ferments regularly during the multi-week cycle: healthy lacto-fermentation smells crisply sour/tangy with clear or slightly cloudy bubbling brine and firm crisp vegetables completely beneath the liquid line. @P13
+action: Use the spoilage and storage criteria from the exact tested ferment. If mold, abnormal odor or texture, or process deviation raises doubt, stop and seek Extension advice. Never taste to check safety. @P13,P10
 action: Recognize clear spoilage failure cues: **fuzzy colored mold** (black, blue, green, pink, or heavy fuzzy white mats growing on exposed vegetables or brine), **slimy ropy brine**, mushy soft hollow pickles, darkened brown/pink discoloration, or putrid/rotten/cheesy odors. @P13,P10
 action: Discard ANY moldy, slimy, mushy, or foul-smelling ferment completely—mycotoxins and off-pathogens penetrate liquid brine far deeper than visible surface mold; once a healthy ferment finishes cleanly, move it promptly to cold refrigerator storage (≤40°F) OR process per a tested NCHFP boiling-water recipe. @P13,P10
 failure: Scooping green fuzzy mold off the top of a warm sauerkraut crock and eating the soft pink cabbage underneath. @P13,P10
@@ -1010,7 +1010,7 @@ Z14-P74 | Plan specialized emergency food stocks for infants, allergies, medical
 objective: Prevent dangerous nutritional gaps or allergic reactions among vulnerable household members during multi-week supply disruptions.
 applies: Households with infants, toddlers, food allergies, celiac/diabetes/renal diets, older adults, or companion animals/service animals.
 equipment: Dedicated labeled dietary bins, ready-to-feed infant formula (or powdered formula + extra safe potable water), and separate sealed pet food/water reserves.
-action: For formula-fed infants, stock **ready-to-feed liquid infant formula** (requires zero mixing water during water outages or Boil Water advisories!) alongside clean disposable nipples/bottles—if powdered formula is used during a water advisory, mix strictly with bottled or properly boiled-and-cooled safe water per CDC rules. @P15,W29
+action: Prefer ready-to-feed formula during outages, especially for infants under two months, born prematurely or with weakened immune systems. If only powder is available, follow current CDC and local instructions for the infant and water advisory. Powder is not sterile. @P26,W29
 action: Segregate dedicated allergen-free (nut-free, gluten-free, dairy-free) or clinical-diet emergency foods (low-sodium, diabetic-friendly snacks, dysphagia soft foods) clearly in separate labeled bins—community disaster shelters often cannot guarantee safe specialized allergen meals. @P15,T10
 action: Store at least 7 to 14+ days of dry/canned pet and service-animal food (plus manual can opener and extra pet drinking water) inside rigid chew-proof bins rotated on the exact same FIFO schedule. @P15,D17
 failure: Discovering during a 5-day blizzard that the emergency pantry consists entirely of peanut butter and wheat pasta while a child has celiac disease and nut allergy. @P15,T10

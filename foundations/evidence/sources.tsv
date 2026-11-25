@@ -97,7 +97,7 @@ CDC-ALT	CDC	Travel to High Altitudes	https://wwwnc.cdc.gov/travel/page/travel-to
 NOAA-TIDES	NOAA NOS	Tides and Water Levels Education Tutorial	https://oceanservice.noaa.gov/education/tutorial_tides/tides01_intro.html	current web edition	2026-11-24
 EPA-WETLAND	US EPA	What is a Wetland	https://www.epa.gov/wetlands/what-wetland	current web edition	2026-11-24
 NPS-DESERT	NPS	Death Valley Safety (Desert Travel and Heat)	https://www.nps.gov/deva/planyourvisit/safety.htm	current web edition	2026-11-24
-NPS-MTN	NPS	Rocky Mountain Safety (High-Elevation and Mountain Travel)	https://www.nps.gov/romo/planyourvisit/hiking-safety.htm	current web edition	2026-11-24
+NPS-MTN	NPS	All About Weather: Rocky Mountain National Park	https://home.nps.gov/romo/planyourvisit/all-about-weather.htm	2026 web edition	2026-11-25
 NPS-WETLAND	NPS	Wetlands Subject Guide	https://www.nps.gov/subjects/wetlands/index.htm	current web edition	2026-11-24
 MN-ICE-THICK	Minnesota DNR	General Ice Thickness Guidelines	https://www.dnr.state.mn.us/safety/ice/thickness.html	current web edition	2026-11-24
 MN-COLDW	Minnesota DNR	Cold Water Safety	https://www.dnr.state.mn.us/safety/boatwater/cold-water.html	current web edition	2026-11-24
@@ -159,4 +159,35 @@ READY-CHEM	FEMA / Ready.gov	Hazardous Materials Incidents	https://www.ready.gov/
 READY-PETS	FEMA / Ready.gov	Prepare Your Pets for Disasters	https://www.ready.gov/pets	current web edition	2026-11-24
 READY-FIN	FEMA / Ready.gov	Financial Preparedness and Vital Records	https://www.ready.gov/financial-preparedness	current web edition	2026-11-24
 READY-STAY	FEMA / Ready.gov	Be Informed and Multi-Hazard Preparedness	https://www.ready.gov/be-informed	current web edition	2026-11-24
-MN-HSEM	Minnesota HSEM	Weather Awareness and Preparedness	https://dps.mn.gov/divisions/hsem/weather-awareness-preparedness/Pages/default.aspx	current web edition	2026-11-24
+NOAA-MN-CLIMATE	NOAA NCEI	2025 State Climate Summaries: Minnesota	https://statesummaries.ncics.org/chapter/mn/	2026 update	2026-11-25
+ARC-TOURN	American Red Cross	How to Apply a Tourniquet	https://www.redcross.org/take-a-class/resources/articles/how-to-apply-a-tourniquet	Current web edition	2026-11-25
+AHA-FA24	AHA and American Red Cross	2024 Guidelines for First Aid	https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines	2024	2026-11-25
+AHA-BLS25	American Heart Association	2025 Adult Basic Life Support	https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support	2025	2026-11-25
+AHA-PEDS25	American Heart Association	2025 Pediatric Basic Life Support	https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support	2025	2026-11-25
+AHA-DROWN	AHA and AAP	Focused Update on Resuscitation Following Drowning	https://www.ahajournals.org/doi/10.1161/CIR.0000000000001274	2024	2026-11-25
+POISON-FA	National Capital Poison Center	First Aid for Poisonings	https://www.poison.org/first-aid-for-poisonings	Current web edition	2026-11-25
+NIOSH-SNAKE	CDC NIOSH	Venomous Snakes at Work	https://www.cdc.gov/niosh/outdoor-workers/about/venomous-snakes.html	2024	2026-11-25
+CDC-TICK-RM	CDC	What to Do After a Tick Bite	https://www.cdc.gov/ticks/after-a-tick-bite/	2026	2026-11-25
+CDC-LIGHTNING	CDC	Safety Guidelines: Lightning	https://www.cdc.gov/lightning/safety/index.html	2026	2026-11-25
+USFA-BATT	U.S. Fire Administration	Battery Fire Safety	https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/	Current web edition	2026-11-25
+PHMSA-LEAK	U.S. DOT PHMSA	Pipeline Leak Recognition and What to Do	https://www.phmsa.dot.gov/safety-awareness/pipeline/pipeline-leak-recognition-and-what-do	Current web edition	2026-11-25
+EPA-SEPTIC-F	U.S. EPA	Septic Systems: What to Do after the Flood	https://www.epa.gov/ground-water-and-drinking-water/septic-systems-what-do-after-flood	Current web edition	2026-11-25
+CDC-BLEACH	CDC	Cleaning and Disinfecting with Bleach	https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html	2024	2026-11-25
+CDC-RETURN	CDC	Safety Guidelines: Returning Home After a Natural Disaster	https://www.cdc.gov/natural-disasters/safety/returning-home-after-natural-disaster.html	2026	2026-11-25
+BFR-POTATO	German Federal Institute for Risk Assessment	Glycoalkaloids in potatoes: consumer and storage guidance	https://www.bfr.bund.de/en/service/frequently-asked-questions/topic/frequently-asked-questions-about-solanine-glycoalkaloids-in-potatoes/	2018	2026-11-25
+NCHFP-TOM	USDA / NCHFP	Canning Tomatoes Introduction	https://nchfp.uga.edu/how/can/how-do-i-can-tomatoes/canning-tomatoes-introduction/	USDA 2015 revision	2026-11-25
+USDA-JERKY	USDA FSIS	How can I make meat or poultry jerky at home?	https://ask.fsis.usda.gov/article/How-do-I-dry-jerky	2025-02-04	2026-11-25
+CDC-BOT-SX	CDC	Symptoms of Botulism	https://www.cdc.gov/botulism/signs-symptoms/	2024	2026-11-25
+CDC-CHEM-S	CDC	What to Do to Shelter in Place for a Chemical Emergency	https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html	2026-06-17	2026-11-25
+EPA-SMOKE	U.S. EPA	Reduce Your Smoke Exposure	https://www.epa.gov/wildfires/reduce-your-smoke-exposure	2026	2026-11-25
+CDC-FANS	CDC	About Heat and Your Health	https://www.cdc.gov/disasters/extremeheat/	2025-07-25	2026-11-25
+NWS-WINTER-CAR	National Weather Service	Winter Weather Safety: Stranded Motorists	https://www.weather.gov/arx/wintersafety	Current web edition	2026-11-25
+NWS-TORN-VEH	National Weather Service	Tornado Safety: During a Tornado	https://www.weather.gov/safety/tornado-during	Current web edition	2026-11-25
+NCHFP-CANNERS	USDA / NCHFP	How to Use Boiling Water and Pressure Canners	https://nchfp.uga.edu/how/can/general-canning-information/recommended-canners	Current web edition	2026-11-25
+CDC-SEIZURE	CDC	First Aid for Seizures	https://www.cdc.gov/epilepsy/first-aid-for-seizures/	2024	2026-11-25
+CDC-GLUCOSE	CDC	Treatment of Low Blood Sugar	https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html	2024	2026-11-25
+CDC-TBI	CDC	Symptoms of Mild TBI and Concussion	https://www.cdc.gov/traumatic-brain-injury/signs-symptoms/	2025	2026-11-25
+CDC-IYCF	CDC	Prepare and Store Powdered Infant Formula in an Emergency	https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/powdered-infant-formula.html	2024	2026-11-25
+NCHFP-STEAM	USDA / NCHFP	National Center Burning Issue: Using Atmospheric Steam Canners	https://nchfp.uga.edu/resources/entry/national-center-burning-issue-using-atmospheric-steam-canners	Current web edition	2026-11-25
+EPA-HAB-FAQ	U.S. EPA	Harmful Algal Blooms and Cyanotoxins FAQ	https://www.epa.gov/sites/default/files/2016-11/documents/harmful_algal_blooms_and_cyanotoxins_frequently_asked_questions.pdf	2016	2026-11-25
+NWS-FIRE-CRIT	NWS Chicago	Definitions of a Fire Weather Watch and a Red Flag Warning	https://www.weather.gov/lot/firewx_definition	Current web edition	2026-11-25

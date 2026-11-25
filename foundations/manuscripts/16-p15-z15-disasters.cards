@@ -157,11 +157,11 @@ objective: Survive being snowbound in a vehicle without wandering to death in wh
 applies: Vehicles stuck in ditches, highway closures, or rural snowdrifts during blizzards and extreme cold.
 equipment: Vehicle winter kit, shovel, bright signal cloth, phone/911, and strict tailpipe inspection routine.
 action: **STAY WITH YOUR VEHICLE** if stranded in a winter storm unless a clearly visible, open, heated building is literally yards away—wandering on foot into blowing snow disorients travelers within seconds and causes fatal hypothermia. @E14,D10
-action: Call 911 with your highway/milepost/GPS location, tie a bright cloth to the antenna or top of a rolled-up window, turn on the interior dome light at night when running briefly, and huddle occupants together under winter blankets/layers. @E14,T06
+action: When safely stranded outside, NWS describes running the engine for about ten minutes each hour if the tailpipe is clear and a window is open slightly. Check conditions first. Do not run with blocked exhaust or suspected CO. @D19,C07
 action: Before running the engine for brief 10-minute-per-hour warming cycles, step out ONLY if safe to **PHYSICALLY CLEAR SNOW FROM THE ENTIRE TAILPIPE AND UNDERBODY**, crack a downwind window slightly for fresh air, and NEVER let everyone sleep while the engine idles (snowdrifts plug tailpipes silently and fill cabins with lethal CO!). @E14,C05,C07
 failure: Leaving a stranded car's engine running continuously all night while occupants sleep as drifting snow seals the exhaust pipe beneath the bumper. @E14,C05
 verify: Confirm 911 notified, tailpipe confirmed 100% snow-free before any brief engine cycle, downwind window cracked, and bright marker visible. @E14
-stop: Any exhaust odor, headache, drowsiness, or rapidly drifting snow sealing the undercarriage requires shutting off the engine immediately and relying on dry layered insulation. @E14,C07
+stop: If the exhaust cannot be kept clear, do not run the engine. If CO is suspected, turn it off only if this does not delay reaching fresh air and contacting 911. Tell dispatch about any unsafe conditions outside the vehicle. @D19,C07
 diagram: STAY with vehicle (never walk in whiteout) | Clear ENTIRE tailpipe before 10-m heat run | Crack downwind window; NEVER sleep idling
 visual: Cutaway stranded winter vehicle showing snow-cleared tailpipe, slightly cracked downwind window, bright antenna marker, and layered occupants. Conceptual, not to scale.
 reviewer: Winter emergency response and carbon monoxide safety
@@ -214,7 +214,7 @@ applies: Manufactured/mobile homes, RVs, campgrounds, and motorists encountering
 equipment: Pre-identified nearby sturdy community storm shelter, vehicle keys ready on Watch days, and NOAA/WEA alerts.
 action: Understand that **mobile homes, manufactured homes, RVs, tents, and campers are NEVER safe during a tornado**—even anchored units roll and disintegrate rapidly; identify a sturdy nearby community shelter or friend's basement BEFORE storm season and move there early on Tornado Watch/approaching-storm alerts. @D03,E17
 action: **NEVER shelter under a highway overpass or bridge**—overpasses create violent wind-tunnel acceleration, offer zero protection from horizontal flying debris, and block highway lanes so trailing vehicles crash or get trapped. @D03,E17
-action: If caught inside a vehicle with a tornado visibly approaching and NO sturdy building reachable: either drive smoothly at right angles away from the tornado path if traffic/roads allow, OR pull safely off the road, stay buckled inside the vehicle with head below window level covered by coats/arms, or lie flat in a low ditch ONLY if well lower than the road and free of flash-flood water (protecting head/neck). @D03,E17
+action: If the nearest sturdy shelter is unreachable, follow local warnings and use last-resort protection. NWS guidance distinguishes a belted vehicle with head below windows from a lower spot on foot only when it is safely reachable and free of flood danger. Do not try to judge the tornado’s course and race it. @D03,E17
 failure: Parking under an interstate overpass during a Tornado Warning, creating a deadly traffic jam inside a high-speed debris wind tunnel. @D03,E17
 verify: Confirm mobile-home/camper residents have a pre-arranged sturdy shelter plan and every driver rejects highway overpasses categorically. @D03,E17
 stop: Do not attempt to outrun a rain-wrapped tornado across congested city streets or flooded rural roads—pull into the nearest sturdy interior building early. @D03,D05
@@ -310,12 +310,12 @@ Z15-P24 | Obey Turn Around Don't Drown: 6-inch walking and 12-inch vehicle flood
 objective: Prevent the #1 cause of U.S. flood deaths by keeping people and vehicles completely out of moving or standing floodwater.
 applies: Flooded city underpasses, country roads, low-water bridges, trails, and submerged parking lots day or night.
 equipment: Alternate high-ground route plan and absolute refusal to bypass road barricades.
-action: Respect proven floodwater force thresholds: just **6 inches** of fast-moving water can knock a healthy adult off their feet, **12 inches** of rushing water floats and sweeps away most passenger cars, and **18 to 24 inches** carries away heavy SUVs and pickup trucks effortlessly. @D05,T07,N10
+action: NWS depth examples illustrate how little moving water can knock people down or sweep away cars. They are warnings, not decision thresholds. Flooded roads can conceal damaged pavement or dangerous current. @D05,T16
 action: NEVER drive around "Road Closed" barricades or into flooded underpasses/roads—especially at night when murky water hides completely washed-out pavement, open storm manholes, and deep sinkholes beneath an apparently shallow surface. @D05,N10
 action: Turn around immediately to an open high-ground detour, OR wait safely on high dry ground until waters recede and highway crews verify bridge/roadbed integrity. @D05,N10
 failure: Driving an SUV past a flashing barricade across a flooded creek road at night because "it looks only a few inches deep," dropping into a washed-out culvert. @D05,N10
 verify: Confirm zero walking or driving into floodwater, zero barricade bypassing, and extra night caution near low crossings. @D05,N10
-stop: ANY water covering a roadway where pavement markings and roadbed stability cannot be verified is an automatic turnaround stop. @D05,N10
+stop: Turn around at any flooded roadway or barricade. Use an official open route or wait on safe high ground. @D05,T16
 diagram: 6 in water knocks adult down | 12 in floats cars; 18–24 in sweeps trucks | NEVER bypass barricades -> Turn Around!
 visual: Cutaway floodwater-depth scale illustrating 6-inch knockdown, 12-inch sedan float, 18–24-inch truck sweep, and concealed washed-out roadbed below murky water. Conceptual, not to scale.
 reviewer: Flood safety and transportation emergency management
@@ -334,18 +334,18 @@ diagram: Routes cut -> move to highest OPEN floor | NEVER trap yourself in close
 visual: Cutaway flooded house contrasting dangerous basement and trapped closed-attic zones against open upper-floor/last-resort roof rescue refuge. Conceptual, not to scale.
 reviewer: Swift-water rescue and emergency management
 
-Z15-P26 | Escape a stalled or flooded vehicle safely without wading into swift current | NWS Flood Safety and Ready.gov Floods; new manuscript
+Z15-P26 | Avoid flooded roads and call for rescue if trapped in a vehicle | NWS Flood Safety and Ready.gov Floods; new manuscript
 objective: Prevent drowning if flash floodwater unexpectedly rises around a car on a low road or underpass.
 applies: Motorists whose vehicle stalls or begins floating in unexpectedly rising road floodwater.
 equipment: Seatbelt release, window-escape awareness (roll windows down EARLY while electrical power still works), and 911 access.
-action: If a vehicle stalls in rising water on a flooded road, act BEFORE water pressure pins car doors shut: **unbuckle, lower windows early** while battery power still operates, abandon the car ONLY if safe shallow non-rushing ground is immediately reachable—otherwise climb straight onto the **ROOF of the vehicle** and call 911 immediately rather than trying to wade through fast deep current. @D05,N10
-action: If water rapidly rises inside a submerged vehicle and doors will not open against outside water pressure, exit through an open or broken **SIDE window** (never kick a laminated windshield—it will not shatter out cleanly; strike the corner of tempered side glass if a rescue tool is carried). @D05,ED
-action: Never stay trapped inside a sinking vehicle trying to restart a flooded engine or call a tow truck while water climbs past the floorboards. @D05
+action: If floodwater is rising around a vehicle, call 911 as soon as you can without delaying immediate escape from a sinking vehicle. Give the location, occupants and water conditions. @D05,T02
+action: If safe high ground is immediately accessible without entering moving water, move to it. Otherwise tell dispatch what exits and hazards you can see and follow rescue instructions. A stalled vehicle in fast current is a specialist-rescue situation. @D05,T16
+action: Never enter floodwater to follow another vehicle or save property. Do not depend on window glass type, vehicle stability or a predicted water depth. @D05,T16
 failure: Sitting inside a stalled sedan in a flooded underpass calling roadside assistance until rising water pins the doors shut and shorts power windows. @D05
-verify: Confirm vehicle occupants know never to drive into floodwater first, and if suddenly engulfed, exit windows early to high ground or vehicle roof + 911. @D05,N10
-stop: Fast-moving chest-deep current around a trapped car prohibits wading—hold on the vehicle roof and summon swift-water 911 rescue. @D05
-diagram: Best cure: NEVER enter flooded roads | Stalled in rising water -> windows open NOW | Climb to high ground or roof + call 911
-visual: Four-step flooded-vehicle escape plate showing early turnaround prevention, immediate window opening, safe high-ground/roof climb, and 911 swift-water call. Conceptual, not to scale.
+verify: Confirm the group knows the turnaround rule and how to report a trapped vehicle without entering the water as a bystander. @D05,T16,ED
+stop: Rising or fast-moving water, structural uncertainty or a submerged route requires immediate emergency help. @D05,T02
+diagram: Do not enter floodwater | If trapped, give 911 the exact location and conditions | Follow rescue instructions
+visual: Decision schematic showing prevention, reporting and emergency rescue. No vehicle exit mechanism is prescribed.
 reviewer: Swift-water rescue and driver safety
 
 Z15-P27 | Prepare low-lying homes proactively before spring snowmelt flood crests | FEMA Ready.gov Floods and MN HSEM; new manuscript
@@ -394,7 +394,7 @@ Z15-P30 | Execute Ready-Set-Go wildfire evacuation tiers before smoke traps road
 objective: Leave wildland-urban interface areas decisively while roads stay clear and visible instead of gambling on last-minute escapes.
 applies: Forested communities, cabins, rural acreage, and suburban edges facing Red Flag Warnings or active wildfires.
 equipment: Multi-channel local evacuation alerts, outward-parked fueled vehicle, pre-packed go-bags, and two mapped exit corridors.
-action: Follow official three-tier **Ready – Set – Go** wildfire posture: **READY** (year-round defensible space, go-bags, two routes mapped), **SET** (fire nearby/Advisory: load go-bags, prescriptions, IDs, and pets into the car parked FACING OUTWARD toward the road with full fuel tank, dress in cotton/wool long sleeves and sturdy boots, monitor alerts nonstop), and **GO** (mandatory/voluntary order: leave IMMEDIATELY!). @D08,C19,D14
+action: Learn the evacuation terms your locality uses before fire season. Stage documents, medications, pets and an accessible route early. Leave promptly when directed, using official routes. @D08,D14
 action: Remember that wind shifts and spotting embers jump highways and change fire direction in minutes—if you feel unsafe or see thick advancing smoke/ash even BEFORE a formal Go order arrives, leave early on your own initiative. @D08,C18
 action: Never stay behind trying to defend a house with a garden hose when mandatory evacuation orders issue—wildland fire storms overwhelm municipal water pressure and trap stay-behind residents behind burning trees. @D08,C19
 failure: Waiting on the porch during a Level 2 "Set" advisory to see flames before loading the car, only to find smoke and fire trucks blocking the sole forest road. @D08,D14
@@ -408,7 +408,7 @@ Z15-P31 | Drive safely through wildfire evacuation corridors and avoid trap road
 objective: Reach clear safe shelter during wildfire evacuations without stalling in zero-visibility smoke or following GPS onto burning side roads.
 applies: Motorists evacuating active wildfire zones or encountering sudden highway smoke plumes.
 equipment: Vehicle headlights, HVAC set to RECIRCULATE, wet cotton cloths/N95 backup, paper road map, and live law-enforcement/DOT directions.
-action: Drive with headlights ON (low beams in thick smoke), windows rolled tightly UP, and vehicle cabin air set strictly to **RECIRCULATE** (blocking outside smoke and embers from entering cabin vents), moving calmly with traffic flow along **official law-enforcement evacuation routes**. @D08,D14,D06
+action: Leave early using official open routes. Follow responders’ guidance if smoke cuts visibility. Closed windows and recirculation may reduce particles briefly, but they do not make a vehicle safe in smoke, fire or carbon monoxide. @D06,D08
 action: Do NOT follow smartphone GPS "shortcut" detours onto narrow gravel forest roads or dead-end side streets—apps routinely route evacuees straight into active fire flanks or locked logging gates; obey live deputies, fire crews, and official DOT closures. @D14,D08
 action: Once clear of the fire perimeter, check in with your out-of-area relay contact and official evacuation shelter registry, and NEVER attempt to drive back inside fire lines until authorities formally lift closures. @D14,D08
 failure: Turning off a slow official evacuation highway onto a GPS-suggested forest shortcut that dead-ends behind burning timber. @D14,D08
@@ -450,13 +450,13 @@ Z15-P34 | Resolve compound smoke-plus-extreme-heat emergencies safely | US EPA C
 objective: Prevent fatal indoor heat stroke when a wildfire smoke plume overlaps an extreme summer heat wave in homes lacking air conditioning.
 applies: Un-air-conditioned homes or power-outage residences facing simultaneous High AQI smoke AND Excessive Heat Warnings.
 equipment: Indoor thermometer, live AirNow AQI + NWS Heat alerts, portable AC/HEPA awareness, and public air-conditioned clean-air shelter list.
-action: Recognize the compound hazard trap: sealing windows tightly against smoke inside a home WITHOUT air conditioning causes indoor heat to climb to life-threatening heat-stroke levels within hours—**acute heat stroke kills much faster than brief moderate smoke exposure**. @D07,D09
+action: Closed windows may reduce smoke exposure while indoor heat increases. Check both conditions and look for cooled, cleaner-air shelter before a power or cooling failure occurs. @D06,D20
 action: If your home lacks air conditioning (or power fails) during simultaneous smoke and extreme heat, relocate proactively to a public air-conditioned clean-air cooling center, library, mall, or cooled relative's home—taking vulnerable elders, infants, and asthmatics early. @D07,D09,D14
-action: If using a window or portable air conditioner during smoke, verify it is set to **RECIRCULATE** indoor air (avoid single-hose portable AC units or evaporative swamp coolers that pull smokey outdoor air directly inside unless paired with HEPA filtration, and watch indoor thermometer continuously). @D07,D09
+action: Use recirculation when available and compatible with the cooling equipment. If the dwelling cannot stay cool and cleaner than outside, relocate when safe and follow local alerts. @D07,D20
 failure: Keeping every window sealed tight in a 98°F third-floor un-air-conditioned apartment to block smoke haze while an elderly resident develops fatal heat stroke. @D07,D09
 verify: Confirm indoor temperature monitored alongside AQI, AC recirculate mode verified, and air-conditioned shelter relocation triggered early if indoor heat spikes. @D07,D09
-stop: Dangerous indoor heat buildup overrides window-sealing rules—relocate immediately to an air-conditioned clean-air space or summon 911 for heat-illness symptoms. @D07,D09,T09
-diagram: Smoke + no AC + heat wave = lethal trap | Heat stroke kills faster -> prioritize cooling | Relocate early to AC clean-air center
+stop: If confusion, collapse or other signs of heat stroke occur, call 911 and begin dispatcher-guided cooling. Otherwise move early to safely accessible cleaner, cooled shelter. @D20,T09
+diagram: Smoke and indoor heat both matter | Seek cool cleaner air before loss of protection | 911 and active cooling for heat-stroke signs
 visual: Branch decision tree resolving simultaneous Unhealthy AQI smoke and extreme indoor heat between AC+HEPA recirculation and immediate cooling-center relocation. Conceptual, not to scale.
 reviewer: Public health, indoor air quality, and heat-illness specialist
 
@@ -502,18 +502,18 @@ diagram: Warm humid nights block body heat recovery | Draw sun shades; shift tas
 visual: Multi-day heat-wave timeline illustrating cumulative daytime Heat Index plus warm-night thermal buildup and twice-daily neighbor checks. Conceptual, not to scale.
 reviewer: Public health and heat-illness medicine
 
-Z15-P38 | Manage home cooling during extreme heat waves and recognize electric-fan limits | FEMA Extreme Heat and CDC Heat Health; new manuscript
+Z15-P38 | Manage home cooling and follow the CDC indoor fan limit | FEMA Extreme Heat and CDC Heat Health; new manuscript
 objective: Prevent false reliance on electric box fans at extreme indoor temperatures and use safe low-energy cooling strategies during grid brownouts.
 applies: Un-air-conditioned homes, apartments, and summer power outages during Excessive Heat Warnings.
 equipment: Indoor thermometer, cool damp cloths/cool showers, blackout window shades, and verified AC cooling-center locations.
-action: Understand the critical CDC/FEMA **electric fan limit**: electric fans move air to evaporate sweat in moderate heat, BUT when indoor air climbs into extreme heat ranges (above roughly **95°F**) with high humidity, blowing superheated air directly onto skin can actually **INCREASE** heat gain rather than cool the body—never rely on fans as your primary heat-wave defense! @D09,E08
-action: During summer outages or non-AC heat waves, move to the coolest lowest shaded floor (such as a dry basement), block direct sunlight on south/west glass with curtains or reflective shades, take cool showers/baths or drape cool damp cloths across neck, wrists, and torso, and eat light no-cook meals. @D09,E19
+action: CDC recommends fans only when indoor temperatures are below 90°F (32°C). In hotter rooms, use a cooler location or air conditioning rather than relying on a fan for protection. @D21
+action: Choose the coolest safe location and use cool showers or wet cloths if available. Avoid a basement if flood, gas or utility hazards make it unsafe. @D21,D05,U11
 action: Preserve grid stability safely when utilities issue conservation appeals only within safe indoor temperatures—never turn AC off for frail, elderly, or heat-vulnerable household members during Excessive Heat Warnings. @D09,T10
 failure: Leaving a frail older adult in a 98°F closed apartment with a single oscillating floor fan believing the moving air prevents heat stroke. @D09,E08
-verify: Confirm real indoor temperature measured, fans NOT relied upon above ~95°F, cool-cloth/basement cooling used, and AC shelter plan active. @D09
-stop: Indoor air climbing past safe comfort toward 90–95°F without AC requires moving vulnerable occupants immediately to public air-conditioned spaces. @D09,U17
-diagram: Fans FAIL to prevent heat stroke >~95°F | Block south/west sun; cool wet cloths/bath | Move vulnerable people to AC cooling center
-visual: Correct versus incorrect extreme-heat cooling contrasting cool basements, wet cloths, and AC cooling centers against relying on fans in >95°F indoor heat. Conceptual, not to scale.
+verify: Check indoor heat independently and confirm a reachable cooled alternative. Do not rely on a fan at 90°F or above. @D21,ED
+stop: If you cannot keep vulnerable people cool, move early to a cooled safe location. Call 911 for confusion or collapse in heat. @D21,T09
+diagram: Monitor indoor heat | CDC fan advice applies below 90°F | Use safer cooled shelter if heat rises
+visual: Comparison of cooled shelter and the CDC indoor fan limit. The figure is not a clinical threshold.
 reviewer: Heat-illness medicine and public health
 
 Z15-P39 | Prevent fatal parked-vehicle heat deaths with zero-exception look-before-locking rules | FEMA Extreme Heat and NPS Desert Safety; new manuscript
@@ -549,8 +549,8 @@ objective: Save lives during urban, workplace, or event heat-stroke collapses by
 applies: Outdoor work crews, summer festivals, neighborhoods, or hot un-air-conditioned homes during heat waves.
 equipment: Cold water hoses/tubs/ice-water soaked sheets, shade/AC room, fan, and 911 phone access.
 action: Treat ANY sudden confusion, slurred speech, stumbling, agitation, seizure, fainting, or hot skin during a heat wave as **LIFE-THREATENING HEAT STROKE**—call **911 IMMEDIATELY** and move the person into shade or air conditioning without delay. @T09,T05,D09
-action: Start continuous rapid cooling IMMEDIATELY while awaiting the ambulance: immerse trunk/limbs in cold water if safely available (keeping airway supported above water), OR douse continuously with cold water and cold wet sheets/towels over neck, armpits, groin, and chest while fanning aggressively. @T09,T05
-action: Keep bystanders clear for airflow, do NOT force drinks into a confused or drowsy person's mouth, and follow live 911 dispatcher guidance until EMS transports the patient to an emergency department. @T09,M05
+action: Start cooling while help is on the way. Move to shade or a cooler place when safe and cool the skin with water and airflow. Discuss immersion with dispatch, particularly when airway protection, patient type or available help is uncertain. @T09,M27
+action: Give nothing by mouth to a confused or drowsy person. Monitor breathing and follow 911 instructions until EMS arrives. @T09,M27
 failure: Seating a slurring, stumbling heat-stroke victim on a sunny curb handing them a warm bottle of water while waiting 15 minutes for an ambulance without cooling. @T09,T05
 verify: Confirm 911 dispatched, continuous cold-water dousing/immersion active, airway protected, and zero forced oral fluids given. @T09,M05
 stop: Heat stroke ALWAYS demands continuous rapid cooling and mandatory emergency hospital transport—never pause evaluation even if alertness flickers back. @T09,T05
@@ -590,9 +590,9 @@ Z15-P44 | Navigate municipal water-system interruptions and multi-tier advisorie
 objective: Protect household health cleanly during water-main breaks, depressurization, chemical releases, or treatment-plant outages.
 applies: Municipal tap-water loss or official Boil Water, Do Not Drink, or Do Not Use orders during disasters.
 equipment: Stored sealed potable water, official local utility alerts, clean boiling pot/timer, and offline appliance-isolation checklist.
-action: Confirm the EXACT official advisory tier from your water utility or health department before touching tap water: **Boil Water** (microbial risk → clear water rolling boil 1 min; 3 min above 6,500 ft), **Do Not Drink** (chemical/algal risk → NEVER boil; bottled/supplied water ONLY), or **Do Not Use** (severe hazard → zero skin/bath/dish/drinking contact). @D12,W07,W02
-action: Immediately switch OFF automatic refrigerator icemakers and water dispensers, dump suspect ice, use safe bottled/boiled-and-cooled water for brushing teeth, washing ready-to-eat produce, and mixing infant formula, and rely on disposable plates to stretch drinking reserves. @D12,W29,U13
-action: Wait for formal laboratory-tested utility clearance before flushing cold taps, replacing exposed inline carbon filters, and restoring normal tap use. @D12,W07
+action: Read the exact active water advisory. Be clear whether it directs a Boil Water, Do Not Drink or Do Not Use response. Confirm which activities the local order permits. @D12,W07
+action: Follow the active advisory for icemakers, brushing teeth, preparing food and infant feeding. Use an approved alternative supply when required. Boiling is an option only for a microbial advisory and only as directed. @D12,W01,W07
+action: Wait for the local authority to lift the advisory and follow its flushing, appliance and filter directions. @D12,W21
 failure: Boiling tap water after an industrial rail chemical spill triggers a Do Not Drink notice, releasing toxic vapors inside the kitchen. @D12,W01
 verify: Confirm active utility advisory tier verified, icemaker shut off, potable safe water used for teeth/produce/formula, and official clearance awaited. @D12,W07,W29
 stop: Never guess that tap water is safe just because water pressure returned and flows clear—wait strictly for official utility lab clearance. @D12,W07
@@ -645,23 +645,23 @@ reviewer: Emergency management and fire prevention
 Z15-P48 | Shelter-in-place properly for chemical or hazardous-materials airborne plumes | FEMA Ready.gov Hazardous Materials Incidents; new manuscript
 objective: Keep acute toxic rail, highway, or industrial chemical vapors outside living air during short-duration official Shelter-in-Place orders.
 applies: Train derailments, highway tanker spills, anhydrous-ammonia releases, or chemical plant incidents where officials issue an indoor Shelter-in-Place order.
-equipment: Interior windowless/minimal-window room, HVAC/fan shutoff access, pre-cut plastic sheeting + duct tape (ONLY when officially directed), and NOAA/local radio.
-action: Move EVERY person and pet indoors IMMEDIATELY on a hazmat Shelter-in-Place alert, close and lock ALL exterior doors and windows, and **SHUT OFF ALL HVAC SYSTEMS, FURNACES, AIR CONDITIONERS, BATHROOM/KITCHEN EXHAUST FANS, AND FIREPLACE DAMPERS** so mechanical fans do NOT suck outside chemical vapors indoors. @D15,E24
-action: Move to an interior room (preferably ABOVE ground level, because many heavy industrial gases like chlorine or anhydrous ammonia sink into basements and low spots!), and seal door/window/vent gaps temporarily with plastic sheeting and duct tape **ONLY when local authorities specifically instruct sealing**. @D15,E24
-action: Monitor official emergency broadcasts continuously and **UNSEAL AND VENTILATE PROMPTLY** the moment officials announce the all-clear—short-term sealed rooms build up carbon dioxide over hours and are strictly temporary (typically a few hours, NOT multi-day living!). @D15,E24
+equipment: A reliable local alert channel and the shelter-in-place supplies recommended by local authorities.
+action: When local officials direct chemical shelter-in-place, go indoors and follow their directions for windows, doors and shutting off outside-air systems. Keep an alert channel active. @D15
+action: Use the interior room and temporary sealing measures specified by authorities. Room location depends on the release, building and local instructions. Do not infer a safe floor from the chemical name or odor. @D15
+action: Stay alert for changes. Follow official all-clear instructions on when to leave, ventilate or evacuate. A gas leak or carbon monoxide alarm inside the dwelling calls for getting out and calling 911 from safety. @D15,U11,C07
 failure: Leaving central air conditioning or bathroom exhaust fans running during a nearby rail-tanker ammonia leak, pulling toxic vapors straight through wall leaks. @D15
 verify: Confirm all exterior doors/windows locked, all HVAC/exhaust fans switched OFF, occupants gathered in an above-ground interior room, and live official radio monitored. @D15
-stop: Strong chemical odor, burning eyes/throat inside a sealed room, or an official upgrade to Evacuation requires immediate action per fire/hazmat responders and 911. @D15,M15
-diagram: Move in NOW; lock ALL doors & windows | Shut OFF HVAC, fans & vents (zero intake) | Above-ground room; unseal fast on all-clear
-visual: System boundary hazmat cutaway showing locked exterior envelope, HVAC/exhaust fans switched OFF, above-ground interior refuge, and heavy-gas basement avoidance. Conceptual, not to scale.
+stop: An official evacuation order, fire or internal gas or CO hazard overrides a generic stay-put rule. Use the safest available exit and follow dispatch. @D15,U11,C07
+diagram: Follow official shelter or evacuation instructions | Use the directed room and ventilation steps | Follow all-clear or revised order
+visual: External chemical release decision schematic. Room, duration and ventilation depend on official direction.
 reviewer: Hazardous-materials response and emergency management
 
 Z15-P49 | Separate wildfire HEPA clean rooms, hazmat room sealing, and evacuation orders | US EPA Clean Room and FEMA Hazmat; new manuscript
 objective: Prevent fatal confusion between three very different airborne emergencies (smoke filtration, short-term chemical sealing, and immediate exit).
 applies: Multi-hazard residential decision-making when smoke, chemical plumes, or indoor gas leaks occur.
 equipment: Official agency alert channel, portable HEPA purifier (smoke only), and pre-planned evacuation routes.
-action: Match indoor air defense strictly to the hazard: for **wildfire smoke** (multi-day PM2.5 particles), keep windows closed with HVAC on RECIRCULATE and a non-ozone portable **HEPA air cleaner** running (relocating to AC if heat spikes); for an **outdoor chemical/hazmat plume** (short-term gas/vapor), switch **ALL HVAC and exhaust fans OFF** and seal an above-ground room ONLY per official order (HEPA does NOT stop toxic gases!). @D07,D06,D15
-action: Contrast both with **INDOOR gas leak, carbon monoxide alarm, or advancing flames**, where staying inside is LETHAL—evacuate IMMEDIATELY into clean open outdoor air and move upwind/away. @U11,C07,D08
+action: For wildfire particles use cleaner indoor air and filtered recirculation if the building can stay cool. Relocate early if it cannot. For an external chemical release follow specific directions on room and ventilation controls. @D07,D15,D20
+action: HEPA filters remove particles. They do not make a room safe from all chemicals or carbon monoxide. Follow emergency directions rather than substituting one shelter method for another. @D07,D15,C07
 action: Always follow live local fire, hazmat, and emergency-management directives first—never apply a wildfire smoke guide to a chemical tanker spill or an indoor CO alarm. @D15,D07,C07
 failure: Running a portable HEPA fan expecting it to filter chlorine gas during a rail spill, OR sealing windows tight during an indoor natural-gas leak. @D15,U11
 verify: Confirm household distinguishes particulate smoke (HEPA), short-term outdoor chemical gas (HVAC OFF + above-ground seal), and indoor CO/gas/fire (EXIT NOW). @D07,D15,C07
@@ -701,7 +701,7 @@ reviewer: Transportation emergency management
 Z15-P52 | Maintain group accountability, buddy roles, and school/workplace reunification | FEMA Make a Plan and Evacuation; new manuscript
 objective: Ensure no child, older adult, or companion is overlooked during chaotic evacuations or separated without a clear reunification plan.
 applies: Families, multi-generational households, community groups, and workplaces during disasters.
-equipment: Written household headcount/buddy list, school/daycare emergency cards, and Red Cross Safe & Well / out-of-area relay contact.
+equipment: Written household headcount and buddy list, school/daycare emergency cards, and the locally designated reunification contact.
 action: Assign a specific adult **BUDDY** to every young child, older adult, mobility-limited member, and pet carrier BEFORE an evacuation begins—loud alarms and smoke cause people to assume "someone else grabbed them." @T11,D17
 action: Run a verbal headcount at THREE fixed checkpoints: 1) before leaving the building, 2) inside the vehicle or at the neighborhood rally point, and 3) upon arriving at the shelter or out-of-town rally point—immediately texting status to your out-of-area relay contact. @T11,D14
 action: Know exact school and daycare emergency reunification rules (official photo ID required, pre-listed backup authorized adults, designated off-site reunification center)—never rush an active emergency perimeter without following official reunification instructions. @T11,D14
@@ -716,7 +716,7 @@ Z15-P53 | Register safely at public emergency shelters and know ADA service-anim
 objective: Transition smoothly into municipal or Red Cross shelters while respecting shelter safety rules, medical needs, and legal animal distinctions.
 applies: Evacuees using community warming/cooling centers or overnight disaster shelters.
 equipment: Go-bags, photo IDs (helpful, though shelters do not turn away disaster victims lacking ID), prescriptions, personal hygiene items, and comfort items.
-action: Check in formally at the shelter registration desk upon arrival AND update your status through official channels (such as Red Cross Safe & Well and your out-of-area family relay) so anxious relatives and SAR teams know you are safe. @D14,T11
+action: Check in through the shelter’s locally designated process and let your out-of-area contact know where you are if safe. Ask staff about accessibility and reunification support. @D14,T10
 action: Bring personal medications, hearing/mobility aids, infant formula/diapers, pillow/blanket, phone chargers, and earplugs—remember general public shelters prohibit weapons, alcohol, illegal drugs, and personal cooking flames indoors. @D14,T10
 action: Understand the exact legal distinction for animals: **ADA-defined trained service animals** are legally admitted inside general public emergency shelters with their handler, whereas **companion pets** typically require designated pet-friendly shelters or co-located animal-shelter bays—verify county pet-shelter sites BEFORE storms hit! @D17
 failure: Refusing mandatory flood evacuation because of assuming no county pet-friendly shelter exists, or arriving without critical prescription medications. @D17,D14
@@ -842,7 +842,7 @@ Z15-P62 | Recognize firm thresholds when 30-day home resilience must yield to ai
 objective: Eliminate dangerous "bunker mentality" by defining objective medical, utility, and environmental red lines that trigger orderly evacuation or 911.
 applies: Extended multi-week disruptions across winter, summer, flood, or infrastructure crises.
 equipment: Pre-agreed written household red-line card signed/reviewed before disasters.
-action: Commit in advance to FIVE objective red lines where staying home STOPS immediately: **1)** acute medical red flag, worsening chronic illness, or under 48 hours of critical prescriptions/medical power; **2)** uncontrolled indoor freezing cold or extreme >90–95°F un-cooled heat; **3)** persistent CO alarm, gas leak, structural damage, or sewage/hazmat hazard; **4)** drinking water under 48 hours with zero safe resupply; **5)** official mandatory evacuation order. @U17,D18,D14,T10
+action: Recognize immediate exit or emergency triggers: serious illness, fire, a suspected internal gas leak, a CO alarm, or an official evacuation order. Contact 911 from safety. For dwindling medication or medical power, use a reserve margin set with the clinician or equipment provider and seek help early. @D14,U17,U11,C07,T02
 action: Treat evacuating to a powered hotel, relative's town, or county shelter as a **SUCCESSFUL EXECUTION OF THE PLAN**—never as a failure of self-reliance. @U17,D18
 action: Leave while roads, daylight, fuel, and physical energy remain comfortably intact rather than waiting for all five red lines to converge simultaneously. @U17,D14
 failure: Stubbornly staying in a freezing dark house until prescriptions run out, pipes burst, and roads glaze over solid. @U17,D18

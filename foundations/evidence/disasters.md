@@ -1,4 +1,6 @@
-# Disaster scenarios evidence pack (`disasters`, D01–D18)
+# Disaster scenarios evidence pack (`disasters`, D01–D21)
+
+The A02 [claim audit](../audit/a02/CLAIM_SUPPORT_AUDIT.csv) links exact sections, conditions, exclusions and specialist dependencies. The [technical findings](../audit/a02/TECHNICAL_FINDINGS.csv) record the changes made after P12–P15.
 
 Grounds Zone `Z15` (Disaster Scenarios — 65 pages, preserving labeled reconstruction starter `Z15-R03`) in authoritative emergency-management and hazard guidance from FEMA/Ready.gov, NWS, US EPA/AirNow, CDC, and Minnesota Homeland Security and Emergency Management (HSEM).
 

@@ -1,4 +1,6 @@
-# Home utilities evidence pack (`utilities`, U01–U18)
+# Home utilities evidence pack (`utilities`, U01–U20)
+
+The A02 [claim audit](../audit/a02/CLAIM_SUPPORT_AUDIT.csv) links exact sections, conditions, exclusions and specialist dependencies. The [technical findings](../audit/a02/TECHNICAL_FINDINGS.csv) record the changes made after P12–P15.
 
 Grounds Zone `Z13` (Home Survival and Utilities — 70 pages, preserving labeled reconstruction starter `Z13-R03`) in authoritative primary guidance from FEMA/Ready.gov, CPSC, NFPA, US EPA (Private Wells & Septic), CDC, and Minnesota Department of Health.
 

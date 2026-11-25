@@ -6,12 +6,14 @@ The consolidated tagged encyclopedia proofs ([668-sheet Letter](proofs/encyclope
 
 Original Track B text, duplicate historical proofs (`B008-original.pdf`/`B008.pdf`, `B009-original.pdf`/`B009.pdf`), and illustration sources remain completely untouched in their frozen paths (`../reader/`, `../project/`, `../production/`).
 
+The [A02 report](audit/a02/ASTRA_A02_EXECUTIVE_REPORT.md) records the review results and links to the [final Neon handoff](audit/a02/NEON_FINAL_PRODUCTION_HANDOFF.md).
+
 ## Authoring, evidence, and illustrations
 
 - `manuscripts/01-pilot.cards` through `16-p15-z15-disasters.cards` store all **668 completed zone draft cards** across 11 zones (`Z01` 22, `Z02` 55, `Z03` 45, `Z04` 55, `Z09` 53, `Z10` 80, `Z11` 68, `Z12` 75, `Z13` 70, `Z14` 80, `Z15` 65), including **13 explicitly labeled reconstruction drafts** (`Z11-R01`..`Z11-R10`, `Z13-R03`, `Z14-R01`, `Z15-R03`) preserving the unrecovered `B014 P01–P10` and historical primer recovery requirements.
-- [Primary sources](evidence/sources.tsv) (**161 verified agency/specialist references**, including 48 newly live-verified HTTP 200 sources added in P12–P15) and [claim evidence](evidence/claims.tsv) (**230 10-column claim rows** across 12 packs: `water`, `fire`, `exposure`, `food`, `triage`, `tools`, `navigation`, `environments`, `medicine`, `utilities`, `preservation`, `disasters`) bind **3,932 of 3,955 operational assertions (99.4%)** to primary evidence (230/230 distinct claims cited). All 59 unresolved A01 baseline claims remain preserved open in [CLAIM_COVERAGE_AUDIT.csv](audit/CLAIM_COVERAGE_AUDIT.csv).
-- [Diagram specifications](evidence/diagram-specs.json) retains all **615 bespoke generation specifications** across 16 technical illustration families (adding 6 purpose-built families in P12–P15: `correct_vs_wrong`, `sequence_plate`, `system_boundary`, `escalation_ladder`, `anatomy_zone`, `seasonal_timeline`), increasing distinct SVG artwork geometry groups from 16 to **31** across **668 editable local-only SVGs** with **0 clipped labels and 0 text overlaps** verified in Chromium ([p12_p15/ILLUSTRATION_AUDIT.csv](audit/p12_p15/ILLUSTRATION_AUDIT.csv)).
-- [Photo requirements](evidence/photo-requirements.tsv) registers **35 open authentic diagnostic photography requirements** (`23` A01 baseline + `12` added across Z10, Z13, Z14, Z15). Documentary context photographs (`PHOTO-NPS-01`, `PHOTO-USGS-01`, `diagnostic_photo: false`) and the public-domain USGS 1965 Ely quadrangle excerpt (`reader/maps/ely-1965.jpg`, symbols-only disclaimer) retain their original provenance classifications. Zero staged or generated imagery is classified as diagnostic evidence.
+- [Primary source register](evidence/sources.tsv) contains 192 registered sources. [Claim evidence](evidence/claims.tsv) contains 247 rows across 12 packs. 3,933 of 3,955 operational statements carry source references. See [A02 claim support](audit/a02/CLAIM_SUPPORT_AUDIT.csv) and the [unresolved evidence register](audit/a02/UNRESOLVED_EVIDENCE_REGISTER.csv) for substantive review status.
+- [Diagram specifications](evidence/diagram-specs.json) and the [A02 visual classification](audit/a02/VISUAL_QUALITY_CLASSIFICATION.csv) cover 668 editable local-only vectors with 32 measured geometry groups. The A02 label layout check found zero clipping or overlap.
+- [Photo requirements](evidence/photo-requirements.tsv) tracks 35 open diagnostic needs. Four photos in the [provenance manifest](evidence/photos/manifest.json) provide documentary context; A02 added the CDC and NOAA files. The historical USGS map retains its symbols-only designation.
 - [Page manifest](reader/page-manifest.json) classifies every page as `Adapted historical material` (141), `New manuscript` (514), or `Reconstruction draft` (13), while enforcing a fixed `publication: HOLD` gate and **0 qualified human approvals** across **21 pending specialist holds** (`H01`–`H21`).
 
 ## Reproducible build and verification
@@ -21,9 +23,9 @@ From the repository root, using [review-requirements.txt](../production/review-r
 ```sh
 python scripts/test_foundation_controls.py
 python scripts/build_foundations.py
-uv run --with-requirements production/review-requirements.txt python scripts/audit_foundation_vectors.py foundations foundations/audit/p12_p15 --fail-layout
+uv run --with-requirements production/review-requirements.txt python scripts/audit_foundation_vectors.py foundations /absolute/path/to/new-receipts --fail-layout
 uv run --with-requirements production/review-requirements.txt python scripts/print_foundations_tagged.py
-uv run --with-requirements production/review-requirements.txt python scripts/verify_foundations.py --browser-only --zone Z15 --name Z15 --axe /path/to/axe.min.js
+uv run --with-requirements production/review-requirements.txt python scripts/verify_foundations.py --browser-only --name A02 --axe /absolute/path/to/axe.min.js
 python scripts/check_foundations.py --write-package
 ```
 

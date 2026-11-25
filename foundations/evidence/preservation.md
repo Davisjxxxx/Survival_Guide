@@ -1,4 +1,6 @@
-# Food production and preservation evidence pack (`preservation`, P01–P20)
+# Food production and preservation evidence pack (`preservation`, P01–P26)
+
+The A02 [claim audit](../audit/a02/CLAIM_SUPPORT_AUDIT.csv) links exact sections, conditions, exclusions and specialist dependencies. The [technical findings](../audit/a02/TECHNICAL_FINDINGS.csv) record the changes made after P12–P15.
 
 Grounds Zone `Z14` (Food Production and Preservation — 80 pages, preserving labeled reconstruction starter `Z14-R01`) in authoritative primary sources from USDA (Complete Guide to Home Canning), National Center for Home Food Preservation (UGA), University of Minnesota Extension, and USDA/FDA/CDC FoodSafety.gov.
 

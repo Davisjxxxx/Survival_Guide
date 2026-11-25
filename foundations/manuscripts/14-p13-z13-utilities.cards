@@ -63,7 +63,7 @@ action: NEVER operate a generator inside a basement, attached or detached garage
 action: Verify working battery-backed carbon monoxide alarms on every level and outside all sleeping areas BEFORE starting any outdoor generator, and recheck wind direction so exhaust never drifts back toward vents or neighbors' windows. @C09,C06,U12
 failure: Running a generator just outside an open attached-garage door during a snowstorm so wind sweeps odorless CO directly into upstairs bedrooms. @C06,C16
 verify: Confirm generator sits in open air ≥20 feet away, exhaust points away from all openings, and indoor CO alarms test active. @C06,C09
-stop: Any indoor CO alarm sound, headache/dizziness, or exhaust odor indoors requires shutting down and evacuating everyone to fresh air immediately plus calling 911. @C07,C06
+stop: If a CO alarm sounds or poisoning is suspected, get everyone to fresh outdoor air immediately and call 911 from outside. Do not delay to switch off the generator or investigate. @C07,C06
 diagram: Open outdoor air ≥20 ft from home | Exhaust aimed away from doors/vents | NEVER inside garages, porches or sheds
 visual: System separation boundary contrasting an open outdoor ≥20 ft generator zone against lethal CO infiltration from garages, carports, and window vents. Conceptual, not to scale.
 reviewer: Carbon monoxide safety, fire service, and licensed electrician
@@ -72,12 +72,12 @@ Z13-P07 | Isolate generator circuits properly and never backfeed a wall outlet |
 objective: Prevent utility-worker electrocution and residential electrical fires by enforcing strict electrical isolation between generators and house wiring.
 applies: Connecting portable generators to essential residential appliances or home electrical panels.
 equipment: Heavy-duty outdoor-rated grounded cords (plugging appliances directly) OR a code-compliant transfer switch installed by a licensed electrician.
-action: Connect household appliances safely in ONLY one of two ways: plug individual appliances directly into the generator via intact heavy-duty outdoor-rated grounded cords, OR connect through a properly permitted transfer switch installed by a licensed electrician. @U02
-action: NEVER plug a portable generator into a home wall outlet, laundry dryer outlet, or range receptacle using a double-male cord ("backfeeding" or "suicide cord")—backfeeding energizes exterior utility lines to deadly thousands of volts, killing utility linemen and bypassing breaker fire protection. @U02
+action: Use appliance connections permitted by the specific generator manual and rated outdoor cords. Any connection to building wiring requires code-compliant transfer equipment installed by a licensed electrician. @U02
+action: Never connect a portable generator to a wall, dryer or range outlet. Backfeeding can energize utility lines and endanger utility workers and neighbors. @U02
 action: Treat conceptual generator diagrams in this encyclopedia strictly as safety-boundary references—NEVER as wiring installation instructions; all panel transfer switches and interlocks require licensed electricians and local electrical permits. @U02,ED
 failure: Fabricating a double-male cord to backfeed a dryer outlet during a blackout, electrocuting a line worker repairing a pole down the street. @U02
 verify: Confirm appliances run either on direct outdoor cords within rated watts or through a licensed, inspected transfer switch. @U02
-stop: Any DIY panel tie-in, warm cord, tripped GFCI, or exposed live male prongs requires immediate shutdown and licensed electrical review. @U02
+stop: Do not touch exposed live parts or enter a hazardous area to stop equipment. Move away and contact emergency services or a licensed electrician as appropriate. @U02,U15
 diagram: Direct outdoor cord OR licensed transfer | NEVER backfeed wall or dryer outlets | Conceptual guide ≠ wiring certification
 visual: Correct versus incorrect electrical connection contrasting isolated licensed transfer switch / direct cords against deadly wall-outlet backfeeding into grid lines. Conceptual, not to scale.
 reviewer: Licensed master electrician and utility line safety
@@ -86,12 +86,12 @@ Z13-P08 | Protect outdoor generators from wet weather and refuel only when cool 
 objective: Prevent electrocution in rain/snow and flash fuel-vapor fires during multi-day storm generator runs.
 applies: Running and refueling portable generators outdoors during rain, sleet, snowstorms, or night outages.
 equipment: Approved open-sided generator weather canopy/tent, dry level surface, approved safety fuel can, and fire extinguisher.
-action: Operate generators on a dry, level non-combustible outdoor surface shielded from direct rain or falling snow ONLY under a purpose-built open-sided canopy that preserves complete open-air ventilation on all sides—NEVER move a unit into a porch or garage to stay dry. @U15,C06
+action: Keep a portable generator outdoors at the prescribed clearances, with exhaust pointed away from buildings. Use only equipment and weather protection the manufacturer permits in those conditions. Leave it off if it cannot stay dry without enclosing it. @U15,U02
 action: Keep hands dry, maintain active GFCI protection on outdoor cords, keep cords out of standing puddles/snowmelt, and inspect cords for cuts before plugging in. @U15,U02
 action: Turn the generator completely OFF and allow the engine and muffler to COOL completely before opening the fuel cap or refueling—gasoline spilled onto a hot exhaust ignites explosively in seconds. @U15,C15
 failure: Pouring gasoline from a jerrycan into a hot running generator in the dark to avoid interrupting the refrigerator, igniting a flash vapor fire. @U15,C15
 verify: Confirm dry level open-air placement, intact GFCI cords clear of puddles, and engine completely shut off and cooled prior to fueling. @U15,C15
-stop: Wet energized outlets, leaking fuel lines, sparking cords, or indoor exhaust drift require immediate safe shutdown. @U15,U02
+stop: Keep away from wet or sparking equipment and leaking fuel. If exhaust enters a building or a CO alarm sounds, evacuate and call 911 before any equipment action. @U15,C07
 diagram: Open-sided dry canopy (never garage) | Keep GFCI cords clear of puddles | Shut OFF & cool fully before refueling
 visual: Four-step safe storm generator operation plate covering dry open-air canopy setup, GFCI cord routing, shutdown cooldown, and outdoor fuel safety. Conceptual, not to scale.
 reviewer: Electrical safety and fire prevention
@@ -115,12 +115,12 @@ objective: Prevent runaway lithium-ion battery fires during household charging, 
 applies: Power banks, portable power stations, e-bike/tool packs, and backup batteries stored inside homes.
 equipment: UL/NRTL-listed batteries and matched manufacturer chargers, hard non-combustible charging surface, and working smoke alarms.
 action: Buy and use ONLY independently safety-listed (UL/ETL/NRTL) battery packs and their exact manufacturer-specified chargers—damaged, off-brand, or mismatched chargers cause internal short circuits and violent thermal runaway fires. @U09,U04
-action: Charge and store lithium batteries on hard, flat non-combustible surfaces well away from beds, couches, curtains, and primary room exit doors, and keep packs within manufacturer temperature limits (charging frozen lithium batteries below 32°F permanently damages cells and raises fire risk). @U09,U04
-action: Stop using any battery pack IMMEDIATELY if it swells, hisses, smells sweet/chemical, overheats, leaks, or was dropped hard or submerged in floodwater; isolate safely outdoors away from structures if safe to move and follow local hazardous-waste disposal rules. @U09,U04
+action: Follow the exact battery and charger temperature limits. Charge away from bedding and exits on a stable surface. Keep damaged or flood-exposed batteries out of service. @U09
+action: If a pack becomes unusually hot, hisses, vents, smokes or swells, move people away. Do not carry an actively failing pack through the home or attempt to disconnect it if that requires approaching it. @U09,U04
 failure: Charging a swollen off-brand power bank on a bedroom pillow next to the only doorway overnight. @U09,U04
 verify: Confirm UL/NRTL listing, matched charger, hard non-combustible surface clear of exits, and zero swelling or overheating. @U09,U04
 stop: Smoke, hissing, popping, or burning odor from a lithium battery requires immediate household evacuation and calling 911—lithium fires release toxic gases and reignite rapidly. @U09,U04
-diagram: UL-listed packs + matched charger only | Hard surface clear of beds & exits | Swollen, hot or hissing -> stop & call 911
+diagram: Compatible charger on safe surface | Recognize overheating or venting | Move people away and call for help
 visual: Failure-mode diagram tracing frozen charging or physical damage through swelling/hissing warning cues to immediate isolation and 911 evacuation. Conceptual, not to scale.
 reviewer: Fire service and battery safety specialist
 
@@ -133,7 +133,7 @@ action: Keep metal tools, jewelry, and loose wires off battery terminals (a drop
 action: Never lift cracked or leaking battery cases without acid-resistant protection; treat conceptual battery-bank schematics strictly as hazard-awareness guides rather than DIY electrical wiring designs. @U09,U02,M07
 failure: Charging two flooded marine batteries on a basement shelf three feet from a gas water-heater pilot flame. @U09,U04
 verify: Confirm adequate ventilation away from ignition sources, covered terminals, zero loose metal overhead, and intact dry casings. @U09,U04
-stop: Rotten-egg sulfur odor, hot bubbling battery case, sizzling terminals, or acid leak requires disconnecting safely if clear of sparks, ventilating, and evacuating. @U09,U11
+stop: If a battery case is hot, hissing, leaking or giving off an unusual odor, leave the area without operating nearby switches or disconnecting terminals. Seek emergency or qualified help from a safe location. @U09,U11
 diagram: Charging lead-acid vents hydrogen gas | Keep far from flames, sparks & bedrooms | Cover terminals; licensed fusing required
 visual: System boundary diagram separating ventilated fuse-protected battery enclosures from ignition sources (pilot flames/switches) and living rooms. Conceptual, not to scale.
 reviewer: Licensed electrician and fire safety
@@ -273,8 +273,8 @@ action: Operate a strictly indoor-rated heater ONLY per its exact manufacturer m
 action: NEVER sleep with an unvented fuel-burning heater running, ALWAYS refuel outdoors after full cooldown, and keep working battery CO alarms active in the room and hallway. @U03,U12,C15
 failure: Running an outdoor construction propane heater inside a closed basement or accidentally filling a kerosene heater with gasoline. @U03,C05
 verify: Confirm legal code compliance, exact indoor-rated model manual followed, fresh-air vent open, CO alarms active, and unit shut off before sleep. @U03,U12
-stop: Sooty yellow flames, chemical odor, headache/drowsiness, or CO alarm requires turning the heater OFF immediately, exiting to fresh air, and calling 911 if symptomatic. @C07,U03
-diagram: Verify local code & exact indoor rating | Exact fuel only; fresh air + 3 ft clear | NEVER sleep with unvented fuel heat on
+stop: If a CO alarm sounds or poisoning is suspected, get everyone outside immediately and call 911. Do not stop to turn off the heater or wait for symptoms. @C07,U03
+diagram: Confirm legal indoor-rated model | Follow its fuel and ventilation limits | Evacuate on suspected CO
 visual: Decision tree checking legal local code, exact indoor-rated model/ODS, exact fuel/ventilation, and awake-only operation before permitting use. Conceptual, not to scale.
 reviewer: Fire safety, licensed HVAC, and carbon monoxide specialist
 
@@ -325,7 +325,7 @@ objective: Prevent catastrophic residential gas explosions through zero-spark im
 applies: Any home, basement, or yard heated by piped natural gas or exterior propane (LP) tanks.
 equipment: Outdoor meeting point and utility emergency phone number accessible from outside the home.
 action: Recognize gas-leak warning signs immediately: distinctive rotten-egg/sulfur odor (mercaptan), hissing or whistling sound near pipes/appliances, blowing dirt/bubbling water outside, or dead vegetation over a buried gas line. @U11
-action: Leave the building IMMEDIATELY with all occupants and pets, leaving doors open behind you—do NOT flip any light switches, unplug appliances, light matches, start cars in the driveway, or use landline/cell phones INSIDE the building (tiny electrical sparks ignite gas mixtures). @U11
+action: Leave immediately with everyone who can exit safely. Do not operate lights, appliances, vehicles, garage controls or phones in the suspected leak area. Call 911 and the gas utility from a safe location. @U11
 action: Walk well away from the structure (upwind if outdoors) and call 911 AND your gas/propane utility emergency line from a safe distance; NEVER re-enter until fire/utility responders clear the building with gas meters. @U11
 failure: Flipping on a basement light switch to look for the source of a rotten-egg smell near the furnace, triggering an explosion. @U11
 verify: Confirm zero switches/phones touched indoors, all occupants accounted for well outside, and 911 + gas utility notified. @U11
@@ -339,10 +339,10 @@ objective: Clarify when gas valves should be left alone versus closed externally
 applies: Post-storm, earthquake, flood, or appliance-leak utility decisions in gas-heated homes.
 equipment: Appropriate wrench stored outside ONLY if local utility instructs homeowner emergency shutoff, plus utility emergency phone list.
 action: Do NOT shut off your main home gas meter casually "just in case" during a routine electrical outage—unnecessary shutoffs leave homes unheated for days waiting for utility technicians to pressure-test lines and relight every pilot safely. @U11,U14
-action: If you smell leaking gas, hear hissing, or see structural/flood damage to gas piping and you can safely reach an exterior valve outside the building without entering gas fumes, follow your local gas utility's exact shutoff instructions (or evacuate first and let utility/fire crews shut it off). @U11
+action: If you smell leaking gas, hear hissing or suspect damaged gas piping, leave immediately. Call 911 and the gas utility from a safe location. Leave valve manipulation and restoration to authorized responders. @U11
 action: Once a main natural-gas or propane tank valve has been turned off, NEVER turn it back on yourself—only the gas utility or a licensed gas technician may inspect appliances, purge air safely, and restore service. @U11
 failure: Turning the main gas meter back on yourself after a flood without pressure-testing, filling a basement with unburned gas from an extinguished pilot. @U11
-verify: Confirm household knows NEVER to restore shut-off gas service independently and keeps utility emergency numbers on paper. @U11,U14
+verify: Keep the utility emergency number available. Follow its instructions from a safe location and wait for clearance before returning. @U11
 stop: Any doubt about gas piping integrity, flood-submerged gas appliances, or odor requires evacuating and waiting strictly for utility/licensed technicians. @U11
 diagram: Skip unnecessary routine gas shutoffs | Evacuate first if leak or hissing | ONLY utility/licensed pro restores gas
 visual: Escalation ladder separating routine outage leave-alone status from exterior emergency safety and mandatory utility-only restoration. Conceptual, not to scale.
@@ -394,8 +394,8 @@ Z13-P30 | Thaw frozen pipes safely without open flames or concealed wall fires |
 objective: Restore flow in accessible frozen pipes safely while preventing structural fires and scalding bursts.
 applies: Suspected frozen accessible interior water pipes once heat is restored.
 equipment: Hair dryer, warm wet towels, space heater at safe 3-foot clearance (never unattended), dry bucket, and main shutoff access.
-action: Keep the affected faucet OPEN slightly while warming so melting water and steam can relieve pressure safely as ice loosens, and confirm someone stands ready at the main water shutoff in case the frozen pipe already cracked beneath the ice plug. @U10,U08
-action: Apply gentle indirect heat ONLY to accessible exposed pipe sections using a handheld hair dryer, warm soaked towels, or UL-listed electric heat tape installed strictly per label—working steadily from the open faucet back toward the frozen section. @U10,U03
+action: If an accessible pipe is frozen without signs of rupture, open the affected faucet before applying gentle heat. Know how to shut off the water if a leak develops. @U10
+action: Use warm towels or another method specifically advised by a plumber for the accessible pipe and site. Keep electrical devices away from wet surfaces. Never use a flame, torch or unapproved heater. @U10
 action: NEVER use a propane blowtorch, kerosene/propane heater, charcoal stove, or open flame to thaw pipes—open flames ignite concealed wood framing and insulation silently inside wall cavities. @U10,U03,U04
 failure: Aiming a handheld propane torch into a basement joist bay to thaw a frozen copper pipe, igniting hidden dust and dry framing inside the wall. @U10,U04
 verify: Confirm faucet is open, main shutoff is ready, gentle non-flame heat is used, and zero water drips appear as ice melts. @U10,U08
@@ -465,12 +465,12 @@ objective: Distinguish legitimate emergency indoor potable reserves (properly is
 applies: Sudden municipal main break or supply cut when stored bottled water runs short.
 equipment: Water-heater electric breaker/gas shutoff access, short clean food-grade hose/bucket, and written tank manual.
 action: Recognize legitimate emergency indoor potable sources ONLY when municipal/well supply was confirmed safe before shutoff: melted ice cubes, liquid packed in canned fruits/vegetables, and clean residential water-heater tank water. @U08,W06
-action: Before draining a household water heater for emergency water, FIRST turn off its electricity at the breaker (or shut off gas supply), close the cold-water inlet valve, open a hot tap upstairs to break vacuum, and draw from the bottom drain valve—flushing initial rusty sediment first and treating/boiling if any microbiological doubt exists. @U08,W02
-action: NEVER drink water from hydronic home heating radiators/boilers, waterbeds, swimming pools/spas (use strictly for non-potable flushing), or toilet tanks containing blue/chemical bowl cleaners or corroded parts. @U08,W01
+action: Use tank water only if the supply was safe and the utility and heater manufacturer allow recovery. Have the safe shutdown, cooling and draining procedure ready in advance. Do not use a hot, damaged, pressurized or gas-leaking appliance. @U08,U11
+action: Default to stored or officially supplied potable water when appliance instructions, system condition or advisory status are uncertain. @U08,D12
 failure: Draining a hot electric water heater with the breaker still ON (burning out heating elements) or drinking chemically treated toilet-tank water. @U08,W01
 verify: Confirm supply was safe pre-outage, water-heater power/gas is OFF before draining, sediment flushed clear, and zero radiator/chemical-tank water used. @U08
 stop: Any active Do Not Drink/Do Not Use chemical water advisory, rusty oily odor, or flood contamination disqualifies water-heater reserves completely. @W07,W01,U08
-diagram: Kill heater power/gas & inlet FIRST | Flush sediment; draw clean tank reserve | NEVER drink boilers, pools or chem tanks
+diagram: Verify prior potable supply and no advisory | Follow exact appliance instructions | Prefer stored potable water
 visual: Correct versus incorrect indoor reserve sourcing contrasting power-isolated water-heater drainage against forbidden hydronic boilers, pools, and chemical toilet tanks. Conceptual, not to scale.
 reviewer: Plumbing safety and drinking-water public health
 
@@ -478,8 +478,8 @@ Z13-P36 | Comply accurately with Boil Water, Do Not Drink, and Do Not Use notice
 objective: Match household water use strictly to the exact public-water advisory tier so boiling is never misapplied to chemical contamination.
 applies: Municipal water main breaks, treatment failures, pressure drops, or watershed chemical releases affecting tap water.
 equipment: Local utility alert channel, stored bottled water, clean boiling pot, and timer.
-action: Read the EXACT advisory tier issued by your local water utility or health department: **Boil Water** targets microbial risk (bring clear water to a rolling boil 1 minute; 3 minutes above 6,500 ft for drinking, brushing teeth, food washing, and infant formula). @W07,W02,W29
-action: Under a **Do Not Drink** advisory (chemical/algal/nitrate contamination), do NOT boil tap water—boiling does not remove chemicals and can concentrate or vaporize volatile toxins; use ONLY bottled or officially supplied safe water for ingestion and food prep. @W07,W01,D12
+action: Read the active utility order. For a Boil Water advisory, use bottled water or follow the order’s exact boiling directions. Check the local instructions for infant feeding and every other use. @D12,W07
+action: For a Do Not Drink advisory, use an approved alternate supply for ingestion and food preparation. Boiling does not remove hazardous chemicals. Use tap water for other tasks only if the advisory allows it. @D12,W01
 action: Under a **Do Not Use** advisory (severe chemical/biological/radiological hazard), do NOT use tap water for drinking, cooking, bathing, dishwashing, or laundry until authorities lift the order. @W07,D12
 failure: Boiling municipal tap water during a chemical-spill Do Not Drink advisory, volatilizing organic solvents into kitchen air. @W07,W01
 verify: Confirm exact advisory wording from local utility/health authority, shut off automatic ice/water dispensers, and use matched water controls. @W07,D12
@@ -548,8 +548,8 @@ Z13-P41 | Plan for private well electrical pump outages and depressurization ris
 objective: Anticipate immediate residential water loss when grid power drops on a private well and protect submersible pumps from surge/dry damage.
 applies: Homes relying on electrically powered submersible or jet well pumps during power blackouts.
 equipment: Dedicated stored drinking water, tagged well-pump breaker, licensed transfer-switch plan if generator-backed, and spare water plan for livestock/flushing.
-action: Remember that private well pumps stop instantly when electricity fails—once the small pressurized bladder tank empties (often just 5 to 15 gallons), EVERY household faucet and toilet stops flowing until power returns. @U06,U08,U01
-action: Switch OFF the dedicated well-pump breaker during flickering brownouts or prolonged outages until stable utility power or a properly licensed, adequately sized 240V transfer-switch generator circuit is ready (submersible pumps draw high startup surges that burn out under low voltage). @U06,U02,U01
+action: A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation. @U05,U06
+action: Use stored potable water during a prolonged outage. Leave selection of a backup circuit and inspection after unstable power to licensed electrical and well professionals. @U02,U06
 action: Never open well caps or attempt DIY electrical splicing on submersible well wiring—240-volt wet wellheads pose lethal electrocution and aquifer-contamination hazards requiring licensed well and electrical contractors. @U06,U02
 failure: Relying on a private well with zero stored bottled water, then burning out a deep submersible pump motor on a flickering brownout. @U06,U08
 verify: Confirm stored drinking water covers outage days independently of the well, well breaker is tagged, and pump stays off during brownouts. @U06,U08,U14
@@ -618,13 +618,13 @@ Z13-P46 | Match household water filters to certified NSF claims and maintenance 
 objective: Prevent false reliance on basic taste-and-odor pitchers during biological or chemical emergencies by matching certified filter classes to exact contaminants.
 applies: Homes using pitcher filters, faucet mounts, under-sink carbon/RO units, or gravity countertop filters.
 equipment: Manufacturer certification sheet (NSF/ANSI 42, 53, 55, 58, or P231), cartridge replacement calendar, and boiling/bottled backup.
-action: Verify exact independent certification labels (NSF/ANSI or WQA) rather than marketing words: NSF 42 covers aesthetic chlorine/taste ONLY (NOT microbes or lead); NSF 53/58 require verifying the SPECIFIC named contaminant claim (such as cyst reduction, lead, or arsenic) on that exact cartridge. @W20,W21
+action: Check the individual model’s listed reduction claim. NSF/ANSI 42 concerns aesthetic effects. NSF/ANSI 53 and 58 cover different systems and claims, and a standard number alone does not establish lead or cyst reduction. @W19,W20,W21
 action: Remember that standard home carbon pitchers and refrigerator filters do NOT make Boil Water advisory tap water, floodwater, or bacteria-contaminated private well water safe to drink. @W20,W21,W07
-action: Replace cartridges strictly on schedule (or immediately after any Boil Water / flood-contamination exposure) and protect wet cartridges from freezing, which cracks media silently. @W21,W28
+action: Follow the product manual and utility instructions for replacement, flushing or reinstatement after contamination or freeze exposure. Sawyer’s wet hollow-fiber advice applies to its specified products. @W21,W28,D12
 failure: Filtering Boil Water advisory tap water through a basic taste-only charcoal pitcher and assuming all bacteria and viruses are removed. @W20,W21
 verify: Confirm exact NSF/ANSI certification and specific listed contaminants match household risks, with scheduled cartridge swap dates logged. @W20,W21
-stop: Unknown certification, expired/clogged cartridges, freeze exposure, or active chemical/Boil Water advisories require switching to validated boiling or safe bottled water. @W20,W28,W07
-diagram: NSF 42 = taste ONLY (not germs/lead) | Check exact NSF 53/58 named claim | Pitchers NEVER clear Boil Water notices
+stop: For chemical or Do Not Use advisories, use an approved alternate supply. Boiling is an option only for a microbial advisory and only as the utility directs. @W01,W07,D12
+diagram: Identify specific contaminant and model claim | Follow utility and product instructions | Use approved safe supply for chemical advice
 visual: Comparative filter matrix contrasting aesthetic NSF 42 carbon pitchers, specific-claim NSF 53/58 systems, and validated emergency boiling/bottled water. Conceptual, not to scale.
 reviewer: Drinking-water treatment specialist
 
@@ -688,9 +688,9 @@ Z13-P51 | Prevent deadly toxic gases by never mixing household cleaning chemical
 objective: Stop accidental chlorine and chloramine gas poisoning during home water sanitization, flood cleanup, and outage disinfection.
 applies: Mixing bleach solutions for emergency water containers, bathrooms, mold cleanup, or flooded basements.
 equipment: Plain unscented liquid sodium hypochlorite bleach (check exact label %), clean measuring spoons, cold tap water ONLY, and good ventilation.
-action: Mix household chlorine bleach STRICTLY with plain cool water per exact label directions—NEVER mix bleach with ammonia, window cleaners, urine/toilet cleaners, vinegar, lemon juice, or acidic rust/drain cleaners. @U13,M15
-action: Recognize the exact chemical hazard: bleach + ammonia creates toxic chloramine gas, and bleach + acids (vinegar/toilet cleaner) creates lethal chlorine gas—both rapidly burn eyes, throats, and lungs even in open bathrooms. @U13,M15
-action: Ventilate rooms well when cleaning, wear gloves, keep all chemical bottles in original labeled containers high out of children's reach, and NEVER reuse empty drink bottles to store diluted bleach. @U13,M16
+action: Use one cleaning product at a time and follow its label. Never mix bleach with other cleaners or disinfectants. @U19
+action: If mixing has already released irritating fumes, move away to fresh air. For trouble breathing or collapse call 911 from safety. Contact Poison Control for exposure-specific advice. @U19,M15
+action: If indoor fumes are present, leave the area. Do not return to ventilate or clean until you have emergency or Poison Control guidance. @U19,M15
 failure: Pouring bleach into an ammonia-cleaned emergency toilet bucket or mixing vinegar and bleach to scrub flood mold in a closed basement. @U13,M15
 verify: Confirm bleach mixes ONLY with plain water, original labels stay intact, and acidic/ammonia cleaners are stored physically separate. @U13,M15
 stop: Sharp choking odor, burning eyes, coughing, or chest tightness while cleaning requires dropping the bucket, evacuating immediately to outdoor fresh air, and calling 911/Poison Control. @M15,M16,U13
@@ -716,9 +716,9 @@ Z13-P53 | Respect sanitary greywater boundaries during extended home water ratio
 objective: Reuse clean rinse water responsibly for toilet flushing without spreading skin, food, or soil pathogens inside the home.
 applies: Multi-day outages where non-potable water is rationed for flushing functioning municipal/gravity toilets.
 equipment: Clearly marked greywater bucket (strictly separate from drinking jugs), toilet-bowl pour routine, and local health rules.
-action: Distinguish light greywater (clean dish-rinse or hand/bath water free of raw meat juices, bleach/harsh solvents, or fecal matter) from contaminated blackwater (toilet/diaper/raw-meat/sewage water)—ONLY light greywater is appropriate for emergency gravity-toilet bowl flushing. @U13,U07
-action: Pour flush water briskly straight into the toilet BOWL (roughly 1 to 2 gallons triggers a standard gravity siphon flush) ONLY when you have verified the municipal sewer or gravity septic line is functioning and NOT flooded or pump-blocked. @U07,U13
-action: NEVER store greywater for more than 24 hours (bacteria multiply rapidly and turn foul), NEVER use greywater on edible garden leaves, and NEVER let greywater touch drinking-water jugs or kitchen food counters. @U13,P03,W06
+action: Keep any non-potable water apart from drinking-water and food-preparation equipment. Do not use sewage-contaminated water or assume household wastewater is safe to reuse. @U07,U13
+action: Check local utility or health instructions before using any alternate flushing water. Do not add water to a failed, flooded or backing-up sewer or septic system. @U07,U13
+action: Choose a locally approved sanitation alternative if wastewater service is uncertain. Avoid improvised connections between non-potable equipment and drinking water. @U07,U13
 failure: Storing soapy laundry water in an unlabeled drinking jug for a week or pouring bucket water down a toilet connected to an unpowered septic lift pump. @U07,U13
 verify: Confirm sewer/gravity drain is open before flushing, greywater bucket is labeled NON-POTABLE, and water is used within 24 hours. @U07,U13
 stop: Slow draining, gurgling pipes, or foul odor from floor drains halts ALL toilet flushing immediately in favor of bucket containment. @U07,U13
@@ -730,12 +730,12 @@ Z13-P54 | Isolate basement sewage backups and floodwater hazards before any clea
 objective: Prevent electrocution, gas explosions, infectious illness, and toxic mold exposure when water or sewage enters a basement.
 applies: Storm flooding, sump-pump failure during blackouts, or municipal/septic sewer backups into lower home levels.
 equipment: Utility shutoff confirmation, heavy rubber boots/gloves, NIOSH N95 respirator, eye protection, and professional remediation/insurance documentation.
-action: NEVER wade into standing basement water until electricity to the basement (and entire flooded panel if submerged) is confirmed shut off by the utility or dry main switch, and check for gas odors before entering. @D05,U01,U11
+action: Do not enter a flooded basement or touch switches in or near standing water. Call the utility or a licensed electrician to confirm isolation from a safe location. Leave immediately if you suspect a gas leak. @U20,U11
 action: Treat ALL floodwater and basement backup water as potentially contaminated with raw sewage, fuel oil, and sharp hidden debris—keep children and pets completely out, wear waterproof boots, heavy gloves, eye protection, and N95 masks during any safe shallow inspection, and document damage with photos before discarding ruined porous items. @D05,U13
 action: Begin controlled drying within 24 to 48 hours once safe power/ventilation returns, discarding soaked carpet padding, drywall, and porous furnishings that cannot be cleaned and dried thoroughly—never run a fuel-powered dewatering pump inside an enclosed basement (lethal CO). @C16,D05,U13
 failure: Running a gasoline trash pump down in a flooded basement with a basement window cracked, overcoming occupants with odorless carbon monoxide. @C16,C07
 verify: Confirm power/gas cleared first, PPE worn, zero indoor fuel pumps used, and contaminated porous items isolated for disposal. @D05,C16,U13
-stop: Submerged electrical panel, gas odor, chest-deep water, structural wall cracking, or widespread black sewage contamination requires professional utility and remediation crews. @D05,U11
+stop: Re-enter only after applicable electrical, gas and structural clearance. Use professional cleanup for sewage or chemical contamination when safe control cannot be established. @U20,D05
 diagram: Confirm power & gas OFF before entry | Treat floodwater as sewage; wear PPE | NEVER run fuel dewatering pumps indoors
 visual: Four-step basement flood-response plate covering electrical/gas clearance, sewage PPE boundary, photo documentation/porous removal, and outdoor-only pump rules. Conceptual, not to scale.
 reviewer: Environmental health, electrical safety, and disaster restoration
@@ -819,7 +819,7 @@ action: Use ONLY approved, tightly sealed, properly color-coded safety fuel cont
 action: Date fuel cans clearly, add fuel stabilizer per label if storing gasoline seasonally, rotate old fuel into vehicles every 6 to 12 months, and discard rusted, dented, or leaking propane cylinders safely via certified exchange/hazmat facilities. @U04,T12
 failure: Storing three five-gallon plastic cans of gasoline and two spare 20-lb propane tanks in a basement mechanical room next to a gas furnace. @U04,U03
 verify: Confirm zero fuel cans or propane cylinders inside living spaces/basements, upright outdoor ventilated storage, and color-coded dated cans. @U04
-stop: Strong gasoline/propane odor in a shed or garage requires ventilating immediately without touching electric switches, keeping flames away, and removing leaking cylinders outdoors. @U04,U11
+stop: For a strong fuel odor, active leak or hissing cylinder, leave the area. Avoid switches, engines and flames. Call the fire service or supplier from a safe location. Do not move a leaking cylinder yourself. @U11,U04
 diagram: ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Color-coded approved cans; rotate 6–12 mo
 visual: System boundary diagram separating ventilated exterior fuel storage sheds from indoor living spaces and basement pilot-flame ignition zones. Conceptual, not to scale.
 reviewer: Fire prevention and hazardous-materials safety

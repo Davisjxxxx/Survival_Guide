@@ -206,6 +206,34 @@ class ControlTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'unsafe tornado overpass'):
             self.load(overpass)
 
+    def test_co_alarm_must_not_delay_evacuation_for_equipment(self):
+        text = self.sample.replace('Z01-P01', 'Z13-P01')
+        start = text.index('stop: ')
+        finish = text.index('\n', start)
+        unsafe = 'stop: A CO alarm requires shutting off the generator and evacuating everyone. @C07'
+        with self.assertRaisesRegex(ValueError, 'CO evacuation delayed'):
+            self.load(text[:start] + unsafe + text[finish:])
+
+    def test_conflicting_tourniquet_placement_is_rejected(self):
+        text = self.sample.replace('Z01-P01', 'Z10-P01')
+        original = next(line for line in text.splitlines() if line.startswith('action: '))
+        mixed = 'action: Place the tourniquet high and tight 2 to 3 inches above the wound. @M02'
+        with self.assertRaisesRegex(ValueError, 'mixed tourniquet placement'):
+            self.load(text.replace(original, mixed))
+
+    def test_fixed_lay_cpr_delay_is_rejected(self):
+        text = self.sample.replace('Z01-P01', 'Z10-P01')
+        original = next(line for line in text.splitlines() if line.startswith('action: '))
+        delay = 'action: Monitor breathing for a full minute before deciding on CPR. @M03'
+        with self.assertRaisesRegex(ValueError, 'fixed lay breathing-check delay'):
+            self.load(text.replace(original, delay))
+
+    def test_expanded_batch_operational_editorial_only_action_is_rejected(self):
+        text = self.sample.replace(' @T01', ' @ED', 1)
+        text += '\nfailure: Exposure remains possible on an unverified route. @E01'
+        with self.assertRaisesRegex(ValueError, 'needs a direct claim'):
+            self.load(text, filename='17-test.cards')
+
     def test_new_p12_p15_diagram_contracts_validate_strictly(self):
         validate_spec('Z10-P01', {
             'type': 'escalation_ladder',

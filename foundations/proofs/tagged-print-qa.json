@@ -7,7 +7,7 @@
     "figure_alt_entries": 177,
     "bookmarks": 177,
     "extracted_section_order": true,
-    "sha256": "3cf6d7b9187fbcc2f25f15d907db22ca236662dd4e97b9d02568da04e6e532cc"
+    "sha256": "72a2ccd3dfc577cc4053af3454cd35775b90f6c7af5dd35ea5db94c8cde313f5"
   },
   "foundations-a4.pdf": {
     "sheets": 177,
@@ -17,7 +17,7 @@
     "figure_alt_entries": 177,
     "bookmarks": 177,
     "extracted_section_order": true,
-    "sha256": "2055e52d70a1008e053dfbd7ecc5d5fbd601b3fb5f08f666e6867760913a9513"
+    "sha256": "21ccf6be218a07ebfb5f49d22068d5c4452749d36b4c45af6dd20bb27c58a522"
   },
   "encyclopedia-letter.pdf": {
     "sheets": 668,
@@ -27,7 +27,7 @@
     "figure_alt_entries": 668,
     "bookmarks": 668,
     "extracted_section_order": true,
-    "sha256": "0fd9312470fa8c5d150e6d4de2eeb2fe13596c842ba8e88d4600edacfde2851a"
+    "sha256": "18230a91780f819b3328eb433771df186d6514dc7b04e22bcf8fb78d302a61d9"
   },
   "encyclopedia-a4.pdf": {
     "sheets": 668,
@@ -37,7 +37,7 @@
     "figure_alt_entries": 668,
     "bookmarks": 668,
     "extracted_section_order": true,
-    "sha256": "08bc12bdaadc856f1fd1810db62fd17f5b4d686343720c19324bd96c05ebf526"
+    "sha256": "c61c7e96154859b2c30905b0dfa8e40119ba52baee490350b1c961831532d222"
   },
   "Z01-letter.pdf": {
     "sheets": 22,
@@ -47,7 +47,7 @@
     "figure_alt_entries": 22,
     "bookmarks": 22,
     "extracted_section_order": true,
-    "sha256": "e649500cc6d3416a7975146996d1256b6815c056c8914e82a49df291dd97a007"
+    "sha256": "4ad0003beab241ee2194ed801058a2ab84fd494eb9836b5de9f9c46578d5becb"
   },
   "Z01-a4.pdf": {
     "sheets": 22,
@@ -57,7 +57,7 @@
     "figure_alt_entries": 22,
     "bookmarks": 22,
     "extracted_section_order": true,
-    "sha256": "e19a7854c0ec175308c37c035eee03c91ee1e02bce2277d67e4e7df45ee7d8dc"
+    "sha256": "cb8ea2669d9036cf7f16db1852ed25a26ac1adc4cf8a92e6c9b4971899ea51ae"
   },
   "Z02-letter.pdf": {
     "sheets": 55,
@@ -67,7 +67,7 @@
     "figure_alt_entries": 55,
     "bookmarks": 55,
     "extracted_section_order": true,
-    "sha256": "daa5b357022d8516b469b8e77ca86de82ad8eb19e10734b0e843d3eae805bba8"
+    "sha256": "27ecf832d2f219dc23d3d27033fee734fec779d1ec88afa664f4a8d61e4b3f50"
   },
   "Z02-a4.pdf": {
     "sheets": 55,
@@ -77,7 +77,7 @@
     "figure_alt_entries": 55,
     "bookmarks": 55,
     "extracted_section_order": true,
-    "sha256": "d1e7baea8cdec0befe9e82b4fa5a08e139d5503b789f269694c65406ec2cd216"
+    "sha256": "e09c3dcf2c51a0e72e94861c5d2848b1bbfc20924a7dd36ea141a538fed206d2"
   },
   "Z03-letter.pdf": {
     "sheets": 45,
@@ -87,7 +87,7 @@
     "figure_alt_entries": 45,
     "bookmarks": 45,
     "extracted_section_order": true,
-    "sha256": "17a18effdf4448f31a2b1fb9f272ee030a01e6b4bde8b61c95205712dae48a8e"
+    "sha256": "da2d9a02e8d5b0d6266135ae68f7e500807e739952bc8a95e5e75ae50079d145"
   },
   "Z03-a4.pdf": {
     "sheets": 45,
@@ -97,7 +97,7 @@
     "figure_alt_entries": 45,
     "bookmarks": 45,
     "extracted_section_order": true,
-    "sha256": "5b730ec1f5faa8503951acdfd96f1e56e8d03d0806bdd504934144c67397bd07"
+    "sha256": "b37dbe75e22663d91e5b90d2d487e5cf68021c0e26d6c077c8d95a69a6a01aff"
   },
   "Z04-letter.pdf": {
     "sheets": 55,
@@ -107,7 +107,7 @@
     "figure_alt_entries": 55,
     "bookmarks": 55,
     "extracted_section_order": true,
-    "sha256": "d5e0c896f7696da0a4e05d485b515b124e8e5b726f62575895bb667a36c26bd6"
+    "sha256": "8b0fcbe95b66b92afb3bb3c3142609388b5cafc3368707454b3da755ee8ee51a"
   },
   "Z04-a4.pdf": {
     "sheets": 55,
@@ -117,7 +117,7 @@
     "figure_alt_entries": 55,
     "bookmarks": 55,
     "extracted_section_order": true,
-    "sha256": "46c12d14acad487e79f0a824398f029d9b3659e86e8ed9347fcc19a1facfa7e2"
+    "sha256": "801aabb2e6ac1b92481ee26a90f8ff4b1f3c89127ce54b513b15286b0214893e"
   },
   "Z09-letter.pdf": {
     "sheets": 53,
@@ -127,7 +127,7 @@
     "figure_alt_entries": 53,
     "bookmarks": 53,
     "extracted_section_order": true,
-    "sha256": "29479aa3598f125ffbf6648678733677704184763924167f487600e5fad44668"
+    "sha256": "adcefc227c40c567367e2ee63b91ea068f2ad4c5dab213d15f7271355d95effd"
   },
   "Z09-a4.pdf": {
     "sheets": 53,
@@ -137,7 +137,7 @@
     "figure_alt_entries": 53,
     "bookmarks": 53,
     "extracted_section_order": true,
-    "sha256": "3b929b1cc6ff71a55c995ddd54b4e9963688a855876adf5a7c70a7aa799e26aa"
+    "sha256": "1a57f229ef494c7572b354ea687672593ed0c1b8f02d439a7e6b289ce0b4286b"
   },
   "Z10-letter.pdf": {
     "sheets": 80,
@@ -147,7 +147,7 @@
     "figure_alt_entries": 80,
     "bookmarks": 80,
     "extracted_section_order": true,
-    "sha256": "f6a96771074e38e8bb8d131bd056a50de356fd6aefce694286db32e967e2fb2d"
+    "sha256": "e675a8f182465ecc5bac82fd4e07be54bab03b27c44eacb04922a679c690d47b"
   },
   "Z10-a4.pdf": {
     "sheets": 80,
@@ -157,7 +157,7 @@
     "figure_alt_entries": 80,
     "bookmarks": 80,
     "extracted_section_order": true,
-    "sha256": "7161a4145ef6050d9250ef3b791c36332faeb2e2759adca3108e31b058157884"
+    "sha256": "3db2df715cd7749bb73c6f0d276acf574f99fa5d1e267131130e84b07fbfc2bb"
   },
   "Z11-letter.pdf": {
     "sheets": 68,
@@ -167,7 +167,7 @@
     "figure_alt_entries": 68,
     "bookmarks": 68,
     "extracted_section_order": true,
-    "sha256": "1056a95c29098ebb777472f616065e3bdf93f5895df00d6dd46f6344ad6ab158"
+    "sha256": "b70e29f0bac38711c5708dc3ae3934e10bd60c956659bfcdf1ecb5298480a164"
   },
   "Z11-a4.pdf": {
     "sheets": 68,
@@ -177,7 +177,7 @@
     "figure_alt_entries": 68,
     "bookmarks": 68,
     "extracted_section_order": true,
-    "sha256": "8ecf3ebed920e24b6fc7e059a02d7183b1d8b6e78f0eef0fb3d1004461cb76e5"
+    "sha256": "c6b1b8a50e71f1dd0dc25ad6db87bb2bb7658b60f8230b8687526f1260692a7b"
   },
   "Z12-letter.pdf": {
     "sheets": 75,
@@ -187,7 +187,7 @@
     "figure_alt_entries": 75,
     "bookmarks": 75,
     "extracted_section_order": true,
-    "sha256": "10a84be092ee4135423e49b11e3420fcffd7a8744e7e54c0916e00f02e9e6274"
+    "sha256": "1dfab20c34fc5b4cfefb1323f4e779371f6083ca94ebc2896167c88479f9246a"
   },
   "Z12-a4.pdf": {
     "sheets": 75,
@@ -197,7 +197,7 @@
     "figure_alt_entries": 75,
     "bookmarks": 75,
     "extracted_section_order": true,
-    "sha256": "0387db63bf5b6372f1bd5edc06b43315ac716a81bc1101406dd8876dbd70a045"
+    "sha256": "2f6bcba528fd0e0762335c936c5839e73462dea8d6edaa4bf008482cc90595c0"
   },
   "Z13-letter.pdf": {
     "sheets": 70,
@@ -207,7 +207,7 @@
     "figure_alt_entries": 70,
     "bookmarks": 70,
     "extracted_section_order": true,
-    "sha256": "7463d11eb35dd2625f65bac033fe5cf1a1d55ab51d90e8c8544858ea8bafbe93"
+    "sha256": "95e291054ce53841a4da6c93ef32470e1955b18a4bc9bb617599d5b7db2b22f8"
   },
   "Z13-a4.pdf": {
     "sheets": 70,
@@ -217,7 +217,7 @@
     "figure_alt_entries": 70,
     "bookmarks": 70,
     "extracted_section_order": true,
-    "sha256": "13458984e2fc11077dc3526133370d63f26fa07aa3f5c4ac44459d338fb9fb0f"
+    "sha256": "3080fa59aa096b76332aafdeb4f71406f0c150b52a1603d134e7d01adcd0f952"
   },
   "Z14-letter.pdf": {
     "sheets": 80,
@@ -227,7 +227,7 @@
     "figure_alt_entries": 80,
     "bookmarks": 80,
     "extracted_section_order": true,
-    "sha256": "2dc45d0c991364ecbc4e0a2a04fabe363bbfc702cbf5e7569bddc2b9570d4aa3"
+    "sha256": "a8305702d61dbcaa1d16d1acb944881d72ab3296ce94e615b7b06d2177c5f9e3"
   },
   "Z14-a4.pdf": {
     "sheets": 80,
@@ -237,7 +237,7 @@
     "figure_alt_entries": 80,
     "bookmarks": 80,
     "extracted_section_order": true,
-    "sha256": "4c1796247f148637e1b18f27f90af452b821bf20affeb419dffe13e8a9affef4"
+    "sha256": "c2317252d479ae6d8cd640e30b8a2077499468e7a4d7681417a62e08fccd43e1"
   },
   "Z15-letter.pdf": {
     "sheets": 65,
@@ -247,7 +247,7 @@
     "figure_alt_entries": 65,
     "bookmarks": 65,
     "extracted_section_order": true,
-    "sha256": "b50f2e94ac7411116de7d1aeb92f0dd0ab3c3da1c85fb82209973e608577f559"
+    "sha256": "4d79691aa8bc7a4ad8114c9dd71d33c8ff51a86f531277aae8a2d93e2eb1d579"
   },
   "Z15-a4.pdf": {
     "sheets": 65,
@@ -257,7 +257,7 @@
     "figure_alt_entries": 65,
     "bookmarks": 65,
     "extracted_section_order": true,
-    "sha256": "b6923c8048ad22c2ff4d4e3115de848e79a61ea0ac3cc5ea92442ede56c84a3b"
+    "sha256": "152f72b058741e21ae617221d1e227fd8da566ee5455e2fba57d063c7703a2a7"
   },
   "reconstructions.pdf": {
     "sheets": 13,
@@ -267,6 +267,6 @@
     "figure_alt_entries": 13,
     "bookmarks": 13,
     "extracted_section_order": true,
-    "sha256": "e0a4b98f0766ebd088db597029c60499f8c29d7582b0fb22ad354d1d9bcf3700"
+    "sha256": "3576caa6e7862066186a91905da5bcc4f084fb17cebdce49c8c9213396fa0bbe"
   }
 }

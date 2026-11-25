@@ -1,5 +1,7 @@
 # Survival Field Encyclopedia — Neon Production P12–P15 Result
 
+This is the P12–P15 predecessor production receipt. The [A02 audit](audit/a02/ASTRA_A02_EXECUTIVE_REPORT.md) records subsequent corrections, evidence limits and open review work.
+
 Isolated continuation branch `review/neon-p12-p15-20261124` branched directly from the verified Astra A01 technical audit checkpoint (`3603271d36c779461f783dce900288573913eef8` on `review/astra-a01-technical-audit-20261124`, Draft PR #4). All predecessor branches (`main`, `review/b013-b014-field-drafts-20261122`, `review/s02-s03-historical-recovery-20261124`, `review/foundational-production-20261124`, `review/astra-a01-technical-audit-20261124`) and frozen Track B files remain completely untouched.
 
 ## Phase 0 — Canonical 16-zone scope correction & regression guards

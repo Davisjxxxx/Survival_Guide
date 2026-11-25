@@ -19,7 +19,7 @@ action: Save the route, emergency numbers and trip information before leaving co
 action: Check how your equipment works before the trip and agree on an overdue trigger with a contact. A signal device helps nearby responders but cannot promise that someone knows your location. @E01,T06,ED
 action: If no message can get through, avoid uncertain travel just to find signal. Prepare to be located using known landmarks, shelter and available signals. @T06,E05,ED
 verify: Demonstrate one location report and one backup signal while the phone is disconnected. @ED
-stop: Do not assume help has been dispatched if you cannot confirm that a message was received. @ED
+stop: Do not assume responders were notified without confirmation. Use the next safe communication option in your trip plan. @T06,ED
 diagram: Save information offline | Give a contact the plan | Practice a backup signal
 visual: The location record, overdue contact and signal serve different purposes.
 reviewer: Search and rescue and communication equipment
