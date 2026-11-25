@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Maintain spinal motion restriction after high-force falls or impacts</title>
-  <desc id="desc">CONDITIONAL DECISION: Guard scene and call 911 | Avoid unnecessary movement | Airway or immediate danger may change the plan — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z10-P31 · CONDITIONAL DECISION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="conditional-artwork"><rect x="40" y="42" width="640" height="25" rx="5" fill="#dce8df" stroke="#285345"/><text x="360" y="59" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Does airway care or immediate danger require movement?</text><rect x="40" y="82" width="305" height="46" rx="6" fill="#f9faef" stroke="#688476"/><text x="66" y="104" font-size="10" font-weight="650" fill="#183c31" text-anchor="middle">YES</text><text x="93" y="101" font-size="11" font-weight="650" fill="#183c31" text-anchor="start">Follow dispatcher and move</text><text x="93" y="114" font-size="11" font-weight="650" fill="#183c31" text-anchor="start">only as needed</text><rect x="375" y="82" width="305" height="46" rx="6" fill="#f9faef" stroke="#688476"/><text x="401" y="104" font-size="10" font-weight="650" fill="#183c31" text-anchor="middle">NO</text><text x="428" y="101" font-size="11" font-weight="650" fill="#183c31" text-anchor="start">Avoid unnecessary movement;</text><text x="428" y="114" font-size="11" font-weight="650" fill="#183c31" text-anchor="start">monitor breathing</text><text x="360" y="149" font-size="11" font-weight="650" fill="#672d18" text-anchor="middle">New abnormal breathing: contact 911 and follow instructions</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Guard scene and call 911</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Avoid unnecessary</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">movement</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Airway or immediate</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">danger may change the</text><text x="498" y="218" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">plan</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Spinal motion restriction after high-force trauma</title><desc id="desc">Side anatomical orientation diagram showing manual inline head-and-neck stabilization on a flat surface keeping head, neck and torso aligned without twisting.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z10-P31 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Flat ground pad -->
+    <rect x="65" y="274" width="770" height="24" rx="6" fill="#d7e2da" stroke="#183a30" stroke-width="3"/>
+    <!-- Supine casualty aligned -->
+    <circle cx="195" cy="236" r="32" fill="#e4c7a5" stroke="#684b35" stroke-width="3.5"/>
+    <rect x="235" y="218" width="295" height="52" rx="18" fill="#bc785b" stroke="#6d301f" stroke-width="3.5"/>
+    <rect x="530" y="232" width="245" height="36" rx="14" fill="#7d9890" stroke="#183a30" stroke-width="3.5"/>
+    <!-- Neutral alignment axis -->
+    <line x1="125" y1="240" x2="790" y2="240" stroke="#205b68" stroke-width="3.5" stroke-dasharray="10 6"/>
+    <!-- Hands cradling head -->
+    <path d="M168 186Q195 162 222 186" fill="none" stroke="#183a30" stroke-width="8" stroke-linecap="round"/>
+    <text x="72" y="102">1. Hold head gently in neutral inline alignment</text>
+    <path class="leader" d="M195 114v56"/>
+    <text x="72" y="142">2. Coach casualty to stay still; protect airway</text>
+    <text class="warn" x="520" y="128">NEVER twist or sit up</text>
+    <text class="sm" x="520" y="158">unless immediate danger (fire/water)</text>
+    <text class="sm" x="520" y="186">forces emergency move</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Activate 911/SAR immediately after falls, diving impacts or numbness/weakness; protect warmth.</text>
 </svg>

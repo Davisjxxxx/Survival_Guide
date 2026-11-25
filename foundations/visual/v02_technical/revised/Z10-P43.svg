@@ -1,0 +1,26 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Cold-water immersion survivor gentle horizontal handling</title><desc id="desc">Rescue handling schematic showing horizontal extraction, wet-layer wind block, ground insulation and avoiding sudden vertical standing or rough movement.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z10-P43 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Horizontal extraction pad -->
+    <rect x="65" y="256" width="465" height="34" rx="8" fill="#d7e2da" stroke="#183a30" stroke-width="3.5"/>
+    <rect x="105" y="214" width="385" height="40" rx="18" fill="#bc785b" stroke="#6d301f" stroke-width="3.5"/>
+    <circle cx="142" cy="234" r="19" fill="#e4c7a5" stroke="#684b35" stroke-width="3"/>
+    <path d="M90 210Q295 164 505 210" fill="none" stroke="#205b68" stroke-width="6"/>
+    <text x="82" y="108">1. Keep HORIZONTAL during lift &amp; wrap</text>
+    <text x="82" y="142">2. Wind shell + dry loft + ground pad</text>
+    <text class="sm" x="150" y="182">Vapor &amp; wind barrier over torso/head</text>
+    <!-- Right contraindication box -->
+    <rect x="558" y="84" width="302" height="224" rx="12" fill="#f7e4d8" stroke="#972f22" stroke-width="3"/>
+    <text class="warn" x="578" y="122">Guard against collapse:</text>
+    <text x="578" y="160">• Handle VERY gently</text>
+    <text x="578" y="196">• Do not force standing</text>
+    <text x="578" y="232">• No rubbing limbs/alcohol</text>
+    <text class="warn" x="578" y="274">Activate 911/EMS early</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Severe cold-water survivors risk post-rescue cardiac collapse; insulate horizontally and summon EMS.</text>
+</svg>

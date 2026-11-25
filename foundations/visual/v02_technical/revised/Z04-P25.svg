@@ -1,0 +1,29 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Shallow stream collection without stirring bottom silt</title><desc id="desc">Cutaway of a shallow creek showing a scoop tilted upstream at mid-depth above a cobble-and-silt bed, avoiding disturbed bottom mud.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z04-P25 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <path d="M35 190h830v125H35z" fill="#e0d0a6" stroke="#5d653e" stroke-width="3"/>
+    <path d="M35 130h830v115H35z" fill="#a2cfe0" stroke="#205b68" stroke-width="3"/>
+    <path d="M35 235Q190 225 360 242Q540 250 865 235V315H35Z" fill="#8b7450" stroke="#5c4b2b" stroke-width="3"/>
+    <!-- Flow arrows -->
+    <path class="flow" d="M65 170h130"/><path class="flow" d="M65 205h110"/>
+    <text x="58" y="108">Current flow</text>
+    <!-- Clean scoop mid-depth -->
+    <path d="M325 152l85 10l-8 46l-78-10z" fill="#eef4f2" stroke="#183a30" stroke-width="4"/>
+    <path d="M410 162l60-52" stroke="#183a30" stroke-width="7" stroke-linecap="round"/>
+    <text x="275" y="86">Scoop upstream mid-depth</text>
+    <path class="leader" d="M365 96v50"/>
+    <!-- Bad bottom disturbance -->
+    <circle cx="670" cy="238" r="28" fill="#8b6f3d" opacity=".6" stroke="#972f22" stroke-width="3" stroke-dasharray="6 5"/>
+    <path d="M645 195l52 40m-52 0l52-40" stroke="#972f22" stroke-width="5"/>
+    <text class="warn" x="565" y="108">Avoid scraping silt bed</text>
+    <path class="rflow" d="M670 120v68"/>
+    <text class="sm" x="62" y="294">Undisturbed silt stays settled</text>
+    <text class="warn" x="550" y="294">Cloudy plume clogs filters</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Keep intakes clear of bottom mud; pre-filter turbidity before chemical or UV treatment.</text>
+</svg>

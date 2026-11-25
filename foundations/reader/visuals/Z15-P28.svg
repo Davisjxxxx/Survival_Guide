@@ -1,13 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Avoid hidden biological, chemical, and electrical hazards in floodwater</title>
-  <desc id="desc">MATERIAL CROSS-SECTION: Floodwater = sewage + fuel + sharp debris | Hidden storm drains &amp; live wires kill | Zero wading/play; wash splashes w/ soap — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z15-P28 · MATERIAL CROSS-SECTION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="cross-section-artwork"><rect x="70" y="42" width="450" height="26" fill="#c5d8de" stroke="#315245" stroke-width="1.8"/><text x="295" y="59" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Calm murky street surface (looks shallow)</text><rect x="70" y="68" width="450" height="26" fill="#e5d4a1" stroke="#315245" stroke-width="1.8"/><text x="295" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Raw sewage, fuel oil &amp; agricultural chemicals</text><rect x="70" y="94" width="450" height="26" fill="#cadbc6" stroke="#315245" stroke-width="1.8"/><text x="295" y="111" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Sharp submerged glass, nails &amp; downed wires</text><rect x="70" y="120" width="450" height="26" fill="#b7a98d" stroke="#315245" stroke-width="1.8"/><text x="295" y="137" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Open storm-culvert underwater suction trap</text><path d="M555 48v88" stroke="#a05332" stroke-width="3.5" marker-end="url(#arrow)"/><path d="M585 138V52" stroke="#366c7d" stroke-width="3.5" marker-end="url(#arrow)"/><text x="605" y="80" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">Zero wading or</text><text x="605" y="95" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">kids playing —</text><text x="605" y="110" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">wash splashes</text><text x="605" y="125" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">with soap &amp; safe</text><text x="605" y="140" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">water</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Floodwater = sewage +</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">fuel + sharp debris</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Hidden storm drains &amp;</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">live wires kill</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Zero wading/play; wash</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">splashes w/ soap</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Hidden biological, chemical and electrical floodwater hazards</title><desc id="desc">Cutaway of flooded basement and street water highlighting submerged energized electrical panels, sewage/fuel contamination, and sharp debris beneath opaque water.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z15-P28 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Flooded room cutaway -->
+    <rect x="65" y="96" width="420" height="214" fill="#eef4f2" stroke="#183a30" stroke-width="3.5"/>
+    <rect x="68" y="198" width="414" height="109" fill="#89a8b2" stroke="#205b68" stroke-width="3"/>
+    <!-- Electrical panel half submerged -->
+    <rect x="92" y="138" width="76" height="92" fill="#5e6b65" stroke="#972f22" stroke-width="4"/>
+    <polygon points="130,152 118,182 132,182 124,212 146,176 132,176" fill="#edce8a" stroke="#972f22" stroke-width="2"/>
+    <!-- Debris / sewage icons under murky water -->
+    <polygon points="245,274 282,254 295,286" fill="#6d301f"/>
+    <ellipse cx="385" cy="214" rx="54" ry="12" fill="#6b5a3c" opacity=".8"/>
+    <text class="warn" x="182" y="166">Energized panel / outlets</text>
+    <text class="sm" x="188" y="248">Hidden debris, fuel &amp; sewage</text>
+    <!-- Right exclusion checklist -->
+    <rect x="515" y="96" width="345" height="214" rx="12" fill="#f7e4d8" stroke="#972f22" stroke-width="3.5"/>
+    <text class="warn" x="536" y="132">ZERO wading into floodwater:</text>
+    <text x="536" y="170">• Lethal hidden shock hazard</text>
+    <text x="536" y="206">• Raw sewage &amp; chemical spills</text>
+    <text x="536" y="242">• Open manholes &amp; broken glass</text>
+    <text class="warn" x="536" y="284">Utility / electrician clears power</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Never wade into a flooded basement to touch breakers or appliances; wait for utility/electrician clearance.</text>
 </svg>

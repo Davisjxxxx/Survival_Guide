@@ -1,13 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Cross-check two visible landmark bearings for an approximate position fix</title>
-  <desc id="desc">MECHANISM DIAGRAM: 2-3 wide-angled landmarks | Project bearings back on map | Confirm triangle matches terrain — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z11-P35 · MECHANISM DIAGRAM (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="mechanism-artwork"><rect x="38" y="54" width="168" height="68" rx="10" fill="#d3e3dc" stroke="#285345" stroke-width="3"/><text x="122" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">2-3 Wide-Angled</text><text x="122" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Landmarks</text><text x="122" y="114" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">(60-120°)</text><path d="M208 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><ellipse cx="360" cy="88" rx="88" ry="42" fill="#3f7566" fill-opacity="0.28" stroke="#3f7566" stroke-width="3.5"/><text x="360" y="84" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Plot Declination-</text><text x="360" y="99" font-size="12" font-weight="700" fill="#183c31" text-anchor="middle">Adjusted Lines</text><path d="M450 88h56" stroke="#285345" stroke-width="4" marker-end="url(#arrow)"/><rect x="514" y="54" width="168" height="68" rx="10" fill="#e5ebd8" stroke="#285345" stroke-width="3"/><text x="598" y="84" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Small Triangle +</text><text x="598" y="99" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Contour Check</text><path d="M360 130v14" stroke="#a05332" stroke-width="3"/><rect x="215" y="136" width="290" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360" y="150" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">Field fixes are approximate zones — reject if relief disagrees</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">2-3 wide-angled</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">landmarks</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Project bearings back on</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">map</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Confirm triangle matches</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">terrain</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Two-landmark bearing resection position check</title><desc id="desc">Topographic map resection diagram showing back-bearings from two distinct visible peaks crossing to form an approximate position zone on the map.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z11-P35 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Map canvas -->
+    <rect x="65" y="72" width="470" height="248" rx="10" fill="#ece6d1" stroke="#5d653e" stroke-width="3"/>
+    <!-- Peak 1 & Peak 2 -->
+    <polygon points="145,126 170,86 195,126" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
+    <text x="206" y="114">Peak A</text>
+    <polygon points="435,134 460,94 485,134" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
+    <text x="355" y="114">Tower B</text>
+    <!-- Resection lines -->
+    <line x1="170" y1="112" x2="365" y2="296" stroke="#205b68" stroke-width="3.5"/>
+    <line x1="460" y1="120" x2="245" y2="296" stroke="#205b68" stroke-width="3.5"/>
+    <!-- Position uncertainty circle -->
+    <circle cx="312" cy="242" r="24" fill="#edce8a" fill-opacity=".8" stroke="#972f22" stroke-width="3.5" stroke-dasharray="6 4"/>
+    <text class="warn" x="348" y="250">Approx. zone</text>
+    <!-- Right instructions -->
+    <text x="562" y="108">1. Pick 2 clear landmarks</text>
+    <text class="sm" x="562" y="136">~60°–120° apart (avoid narrow X)</text>
+    <text x="562" y="182">2. Plot corrected back-bearings</text>
+    <text class="sm" x="562" y="210">from each landmark on map</text>
+    <text x="562" y="256">3. Treat intersection as a ZONE</text>
+    <text class="sm" x="562" y="284">Confirm with contour elevation</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">A crossing is an estimate, not a pinpoint; verify against nearby ridges, water or trails.</text>
 </svg>

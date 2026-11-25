@@ -1,13 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Understand wood grain, knots and decay before shaping deadfall</title>
-  <desc id="desc">MATERIAL CROSS-SECTION: Straight dry sound grain | Dense knot deflects edge | Spongy rot snaps under load — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z09-P04 · MATERIAL CROSS-SECTION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="cross-section-artwork"><rect x="70" y="42" width="450" height="26" fill="#c5d8de" stroke="#315245" stroke-width="1.8"/><text x="295" y="59" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Outer bark (strip/check wetness)</text><rect x="70" y="68" width="450" height="26" fill="#e5d4a1" stroke="#315245" stroke-width="1.8"/><text x="295" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Straight sound deadwood grain (use)</text><rect x="70" y="94" width="450" height="26" fill="#cadbc6" stroke="#315245" stroke-width="1.8"/><text x="295" y="111" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Dense tight knot (deflects edge)</text><rect x="70" y="120" width="450" height="26" fill="#b7a98d" stroke="#315245" stroke-width="1.8"/><text x="295" y="137" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Spongy decayed heart rot (reject)</text><path d="M555 48v88" stroke="#a05332" stroke-width="3.5" marker-end="url(#arrow)"/><path d="M585 138V52" stroke="#366c7d" stroke-width="3.5" marker-end="url(#arrow)"/><text x="605" y="80" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">Read grain</text><text x="605" y="95" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">before cutting;</text><text x="605" y="110" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">B007 notes are</text><text x="605" y="125" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">not wood</text><text x="605" y="140" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="start">strength certs</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Straight dry sound grain</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Dense knot deflects edge</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Spongy rot snaps under</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">load</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Wood grain, knots and decay structural cross-section</title><desc id="desc">Longitudinal wood cutaway contrasting straight split-friendly grain against a tight branch knot causing tool deflection and dark soft fungal decay.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z09-P04 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Log longitudinal beam -->
+    <rect x="55" y="130" width="790" height="142" rx="14" fill="#e8d6ad" stroke="#6d4c2f" stroke-width="4"/>
+    <!-- Straight grain left -->
+    <path d="M68 164h235M68 198h235M68 232h235" stroke="#9e7b47" stroke-width="3" fill="none"/>
+    <text x="72" y="102">1. Straight deadwood grain</text><text class="sm" x="72" y="302">Splits predictably</text>
+    <!-- Knot middle -->
+    <ellipse cx="452" cy="198" rx="46" ry="30" fill="#7a5230" stroke="#472d18" stroke-width="3.5"/>
+    <path d="M310 164Q452 136 588 164M310 232Q452 260 588 232" stroke="#8b6540" stroke-width="3" fill="none"/>
+    <text class="warn" x="366" y="102">2. Dense knot whorl</text><text class="warn" x="362" y="302">Deflects &amp; chips blades</text>
+    <!-- Decay right -->
+    <rect x="612" y="134" width="228" height="134" rx="10" fill="#8b7a62" stroke="#5c4b2b" stroke-width="3" stroke-dasharray="8 5"/>
+    <circle cx="675" cy="182" r="14" fill="#5c4b2b"/><circle cx="748" cy="218" r="18" fill="#5c4b2b"/>
+    <text class="warn" x="635" y="102">3. Spongy rot core</text><text class="warn" x="622" y="302">Snaps under load; reject</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Inspect deadfall for knots, splits and fungal rot before cutting or bearing any load.</text>
 </svg>

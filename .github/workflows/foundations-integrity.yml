@@ -8,6 +8,7 @@ on:
       - review/astra-a02-technical-audit-20261125
       - review/neon-p16-p20-20261125
       - review/astra-a03-v01-20261125
+      - review/neon-v02-v03-visual-20261125
   pull_request:
     branches:
       - review/s02-s03-historical-recovery-20261124
@@ -16,6 +17,7 @@ on:
       - review/neon-p12-p15-20261124
       - review/astra-a02-technical-audit-20261125
       - review/neon-p16-p20-20261125
+      - review/astra-a03-v01-20261125
 permissions:
   contents: read
 jobs:

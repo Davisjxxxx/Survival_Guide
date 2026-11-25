@@ -456,10 +456,11 @@ def write_card(card, previous, next_, claims, sources, output, active, pilot=Fal
     figure_open = '<figure class="v01-pilot">' if pilot else '<figure>'
     figure_alt = card['diagram']
     if pilot:
-        from foundation_diagrams import v01_source_path
-        svg = ElementTree.parse(v01_source_path(card_id)).getroot()
+        from foundation_diagrams import v01_source_path, v02_source_path
+        src_path = v02_source_path(card_id) if pilot == 'v02_artwork' else v01_source_path(card_id)
+        svg = ElementTree.parse(src_path).getroot()
         description = svg.find('{http://www.w3.org/2000/svg}desc')
-        require(description is not None and bool(description.text), f'Missing V01 figure description for {card_id}')
+        require(description is not None and bool(description.text), f'Missing custom figure description for {card_id}')
         figure_alt = description.text
     body = (
         navigation(previous, next_, card['zone'], active)
@@ -696,15 +697,18 @@ def main():
         if re.match(r'^(0[6-9]|[1-9]\d)-', card['batch']):
             require(card_id in specs, f'Missing technical diagram specification for {card_id}')
         spec = specs.get(card_id)
-        pilot = bool(spec and spec['type'] == 'v01_artwork')
+        pilot = spec['type'] if (spec and spec['type'] in ('v01_artwork', 'v02_artwork')) else False
         write_card(card, keys[i - 1] if i else None, keys[i + 1] if i + 1 < len(keys) else None,
                    claims, sources, output, active, pilot=pilot)
         filename = f'visuals/{card_id}.svg'
         data = render_diagram(card).encode('utf-8')
         (output / filename).write_bytes(data)
-        if pilot:
+        if pilot == 'v01_artwork':
             diag_type = 'v01_artwork'
             spec_src = f'foundations/visual/VISUAL_PILOT_REVIEW_PACKAGE/revised/{card_id}.svg'
+        elif pilot == 'v02_artwork':
+            diag_type = 'v02_artwork'
+            spec_src = f'foundations/visual/v02_technical/revised/{card_id}.svg'
         elif card_id in CROSS_SECTIONS:
             diag_type = 'cross_section_hand'
             spec_src = 'scripts/foundation_diagrams.py#CROSS_SECTIONS'

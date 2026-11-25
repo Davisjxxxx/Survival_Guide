@@ -1,0 +1,29 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Lowest interior windowless tornado shelter versus exterior risk</title><desc id="desc">House cross-section highlighting basement or lowest interior windowless room putting maximum walls between occupants and wind-borne debris, while marking windows and upper rooms unsafe.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z15-P16 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- House cross-section -->
+    <polygon points="85,152 295,68 505,152" fill="#c9b489" stroke="#5c4b2b" stroke-width="3.5"/>
+    <rect x="105" y="152" width="380" height="156" fill="#eef4f2" stroke="#183a30" stroke-width="3.5"/>
+    <line x1="105" y1="226" x2="485" y2="226" stroke="#183a30" stroke-width="3"/>
+    <!-- Unsafe windows -->
+    <rect x="105" y="172" width="12" height="36" fill="#972f22"/><rect x="473" y="172" width="12" height="36" fill="#972f22"/>
+    <rect x="105" y="244" width="12" height="36" fill="#972f22"/><rect x="473" y="244" width="12" height="36" fill="#972f22"/>
+    <!-- Safe central lowest interior room -->
+    <rect x="218" y="232" width="154" height="72" fill="#b7d6c4" stroke="#183a30" stroke-width="4.5"/>
+    <text x="242" y="264">SAFE ROOM</text><text class="sm" x="234" y="290">Low, interior</text>
+    <!-- Flying wind debris outside -->
+    <path class="rflow" d="M35 190h62"/><path class="rflow" d="M526 190h-36"/>
+    <!-- Right rules -->
+    <text x="546" y="114">1. Basement / safe room first</text>
+    <text x="546" y="154">2. Lowest interior bathroom/closet</text>
+    <text x="546" y="194">3. Helmet + heavy blanket + shoes</text>
+    <text class="warn" x="546" y="238">NEVER shelter in mobile homes</text>
+    <text class="warn" x="546" y="270">or under highway overpasses!</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Act immediately on NWS Tornado Warnings; put as many interior walls as possible between you and windows.</text>
+</svg>

@@ -1,13 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Match stakes and anchors to soil, sand, mud and compacted snow limits</title>
-  <desc id="desc">COMPARATIVE CONFIGURATION: Firm soil: angled V/Y stake | Sand/snow: wide deadman | Wet mud: recheck for creep — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P35 · COMPARATIVE CONFIGURATION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="comparison-artwork"><rect x="30" y="44" width="208" height="104" rx="8" fill="#dce8df" stroke="#315245" stroke-width="2.5"/><rect x="30" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="134.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">Firm site</text><text x="40" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Use model instructions</text><rect x="38" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="134.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">No capacity from appearance</text><rect x="256" y="44" width="208" height="104" rx="8" fill="#e5e9d5" stroke="#315245" stroke-width="2.5"/><rect x="256" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="360.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">Changing ground</text><text x="266" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Recheck movement</text><rect x="264" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Hand check is not a load test</text><rect x="482" y="44" width="208" height="104" rx="8" fill="#e4e8ee" stroke="#315245" stroke-width="2.5"/><rect x="482" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="586.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">Anchor creeps</text><text x="492" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Unsafe to rely on</text><rect x="490" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="586.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Move to suitable refuge</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Firm soil: angled V/Y</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">stake</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Sand/snow: wide deadman</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Wet mud: recheck for</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">creep</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Tent stakes and deadman anchors by substrate</title><desc id="desc">Cross-section comparing an angled stake in firm soil versus a buried horizontal deadman anchor in loose sand or compacted snow.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z02-P35 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Firm soil angled stake -->
+    <rect x="45" y="182" width="380" height="132" fill="#d9c698" stroke="#5d653e" stroke-width="3"/>
+    <line x1="150" y1="126" x2="295" y2="195" stroke="#183a30" stroke-width="4"/>
+    <line x1="305" y1="168" x2="270" y2="278" stroke="#6d301f" stroke-width="9" stroke-linecap="round"/>
+    <path class="flow" d="M230 164l-42-20"/>
+    <text x="62" y="88">Firm soil: angled stake</text>
+    <text class="sm" x="62" y="114">Lean top away from guyline pull</text>
+    <text class="sm" x="62" y="298">Test pull gently; recheck in rain</text>
+    <!-- Right: Sand/Snow deadman -->
+    <rect x="475" y="182" width="380" height="132" fill="#dce8ec" stroke="#205b68" stroke-width="3"/>
+    <line x1="515" y1="126" x2="665" y2="236" stroke="#183a30" stroke-width="4"/>
+    <rect x="615" y="232" width="120" height="24" rx="10" fill="#8b6f3d" stroke="#5c4b2b" stroke-width="3.5"/>
+    <text x="492" y="88">Sand or snow: buried deadman</text>
+    <text class="sm" x="492" y="114">Trench horizontal stick/bag deep</text>
+    <text class="sm" x="492" y="298">Vertical stakes pull straight out</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Anchor strength varies with wet soil and snow; relocate if stakes creep.</text>
 </svg>

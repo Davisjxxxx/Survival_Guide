@@ -1,0 +1,25 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Flash flood submerged washout and high-ground escape</title><desc id="desc">Roadway cutaway showing murky floodwater concealing a collapsed roadbed and 12 inches of flowing water floating a vehicle, paired with Turn Around Don't Drown retreat to high ground.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z15-P25 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- High ground left -->
+    <path d="M45 148H225L335 248H680L785 208H855V312H45Z" fill="#d9c698" stroke="#5d653e" stroke-width="3.5"/>
+    <!-- Hidden washed-out culvert gap under road -->
+    <path d="M425 248Q500 308 585 248Z" fill="#4f6c78"/>
+    <!-- Floodwater over road -->
+    <rect x="275" y="206" width="525" height="44" fill="#639db2" fill-opacity=".85" stroke="#205b68" stroke-width="3"/>
+    <!-- Floating car warning -->
+    <rect x="445" y="168" width="122" height="44" rx="8" fill="#bc785b" stroke="#972f22" stroke-width="3.5" transform="rotate(-10 506 190)"/>
+    <!-- Safe retreat arrow -->
+    <path class="gflow" d="M265 186L155 128"/>
+    <text x="58" y="102">Move EARLY to high ground</text>
+    <text class="warn" x="378" y="118">12 in moving water floats cars!</text>
+    <text class="warn" x="392" y="294">Hidden road washout below</text>
+    <path class="rflow" d="M505 276v-20"/>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Turn Around Don't Drown: NEVER drive or walk into flooded roads or around barricades.</text>
+</svg>

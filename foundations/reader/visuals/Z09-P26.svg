@@ -1,13 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Recognize spring poles and hung-up deadfall before making a cut</title>
-  <desc id="desc">FAILURE-MODE ANALYSIS: Bent sapling stores energy | Cut releases violent whip-snap | Leave pinned windthrow untouched — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z09-P26 · FAILURE-MODE ANALYSIS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="failure-mode-artwork"><rect x="34" y="52" width="192" height="84" rx="8" fill="#f7e5dc" stroke="#a05332" stroke-width="3"/><rect x="34" y="52" width="192" height="22" rx="6" fill="#a05332"/><text x="130" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">FAILURE CAUSE</text><text x="130" y="92" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">Pinned bent sapling</text><text x="130" y="107" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">or hung-up tree</text><text x="130" y="122" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">stores spring energy</text><path d="M228 94h34" stroke="#a05332" stroke-width="3.5" marker-end="url(#arrow)"/><rect x="266" y="52" width="192" height="84" rx="8" fill="#f6f1d9" stroke="#8a7228" stroke-width="3"/><rect x="266" y="52" width="192" height="22" rx="6" fill="#8a7228"/><text x="362" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">RECOGNIZE CUE</text><text x="362" y="92" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">Arched trunk under</text><text x="362" y="107" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">blowdown or wedged</text><text x="362" y="122" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">overhead dead limb</text><path d="M460 94h34" stroke="#285345" stroke-width="3.5" marker-end="url(#arrow)"/><rect x="498" y="52" width="192" height="84" rx="8" fill="#dceadf" stroke="#184438" stroke-width="3"/><rect x="498" y="52" width="192" height="22" rx="6" fill="#184438"/><text x="594" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">CORRECT / ABORT</text><text x="594" y="92" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">Do NOT cut; detour</text><text x="594" y="107" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">wide &amp; gather flat</text><text x="594" y="122" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">loose deadwood</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Bent sapling stores</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">energy</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Cut releases violent</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">whip-snap</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Leave pinned windthrow</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">untouched</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Spring pole and hung-up deadfall recoil cutaway</title><desc id="desc">Mechanical cutaway of a bent sapling pinned beneath a fallen trunk showing extreme tension on the outer arc, compression inside, and the lethal snap-back sweep zone.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z09-P26 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Ground -->
+    <line x1="40" y1="296" x2="860" y2="296" stroke="#5d653e" stroke-width="4"/>
+    <!-- Bent spring pole -->
+    <path d="M120 296Q165 110 475 186L665 246" fill="none" stroke="#6d4c2f" stroke-width="16" stroke-linecap="round"/>
+    <!-- Fallen heavy log pinning tip -->
+    <ellipse cx="640" cy="252" rx="68" ry="44" fill="#8b6f3d" stroke="#472d18" stroke-width="4"/>
+    <!-- Snap-back lethal zone -->
+    <path d="M120 296L475 186L285 68Z" fill="#f7e4d8" opacity=".75" stroke="#972f22" stroke-width="3" stroke-dasharray="10 6"/>
+    <path class="rflow" d="M365 162Q310 105 235 88"/>
+    <text class="warn" x="265" y="84">LETHAL SNAP-BACK ARC</text>
+    <text class="sm" x="155" y="152">Outer tension arc</text>
+    <text class="sm" x="200" y="232">Inner compression</text>
+    <text x="572" y="176">Pinning deadfall log</text>
+    <path class="leader" d="M640 186v22"/>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Untrained users MUST walk away from loaded spring poles; never cut bent tension wood.</text>
 </svg>

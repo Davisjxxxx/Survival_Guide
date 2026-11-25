@@ -1,13 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Consolidate household heat into one safe insulated interior room</title>
-  <desc id="desc">CUTAWAY VIEW: Close off house into 1 small warm room | Seal drafts, layer dry &amp; use indoor tent | Zero indoor fuel heat; leave before freeze — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P18 · CUTAWAY VIEW (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="cutaway-artwork"><path d="M40 142h640" stroke="#7d8a68" stroke-width="6"/><path d="M135 140L360 44l225 96" fill="#d9e4d7" stroke="#285345" stroke-width="5"/><path d="M185 140L360 64l175 76" fill="#f7f4ea" stroke="#5c7c6d" stroke-width="2.5" stroke-dasharray="6 4"/><rect x="242" y="114" width="236" height="22" rx="6" fill="#d4e5ec" stroke="#285345" stroke-width="2"/><path d="M62 82h66m470 0h66" stroke="#507f92" stroke-width="4" marker-end="url(#arrow)"/><text x="360" y="58" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Outer rooms closed off as cold buffer</text><text x="360" y="96" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">1 small interior room + window blankets</text><text x="360" y="130" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Indoor tent + dry pads (ZERO fuel heat)</text><text x="605" y="68" font-size="11" font-weight="650" fill="#8b3e1f" text-anchor="middle">Track room temp</text><rect x="492" y="130" width="204" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="594" y="144" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">Relocate before freeze</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Close off house into 1</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">small warm room</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Seal drafts, layer dry &amp;</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">use indoor tent</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Zero indoor fuel heat;</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">leave before freeze</text></g>
-  </g>
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Single-room cold-outage thermal consolidation cutaway</title><desc id="desc">Home floor-plan cutaway showing occupants consolidated in one insulated interior room with closed doors, rolled door drafts, window blankets and battery CO alarm.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z13-P18 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Outer cold house walls -->
+    <rect x="60" y="84" width="510" height="230" fill="#dce8ec" stroke="#205b68" stroke-width="4"/>
+    <text class="sm" x="78" y="114">Cold unused perimeter rooms (doors shut)</text>
+    <!-- Warm consolidated inner room -->
+    <rect x="155" y="138" width="320" height="148" fill="#f5eedc" stroke="#183a30" stroke-width="4"/>
+    <text x="172" y="168">Insulated interior refuge</text>
+    <rect x="200" y="204" width="110" height="58" rx="8" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
+    <text class="sm" x="212" y="238" style="fill:#fff">Dry layers</text>
+    <circle cx="436" cy="230" r="22" fill="#d7e2da" stroke="#183a30" stroke-width="3"/>
+    <text class="sm" x="421" y="236">CO</text>
+    <!-- Right checklist -->
+    <text x="598" y="118">• Hang blankets over windows</text>
+    <text x="598" y="156">• Block under-door air drafts</text>
+    <text x="598" y="194">• Keep battery CO alarm inside</text>
+    <text class="warn" x="598" y="236">• ZERO camp stoves / ovens</text>
+    <text class="sm" x="598" y="274">Move early to warming center</text>
+    <text class="sm" x="598" y="298">if indoor cold turns unsafe</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Never heat rooms with ovens, grills or unvented heaters; relocate to a public warming center early.</text>
 </svg>
