@@ -1,0 +1,99 @@
+{
+  "batch": "W2C-B05",
+  "pages": [
+    "Z14-P55",
+    "Z14-P56",
+    "Z14-P57",
+    "Z14-P53",
+    "Z14-P48"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z14-P55": [],
+    "Z14-P56": [],
+    "Z14-P57": [],
+    "Z14-P53": [],
+    "Z14-P48": []
+  },
+  "axe_incomplete": {
+    "Z14-P55": [],
+    "Z14-P56": [],
+    "Z14-P57": [],
+    "Z14-P53": [],
+    "Z14-P48": []
+  },
+  "figure_alt": {
+    "Z14-P55": "Left: a dial gauge with a 0 to 20 pound scale. An untested gauge reads 11 pounds while the true canner pressure is 9 pounds; a gauge that reads high causes under-processing. Dial gauges are checked for accuracy each year before use, adjusted when off by up to 2 pounds and replaced when off by more. Right: a weighted gauge on the vent pipe rocks or jiggles as the maker describes and needs no accuracy check; above 1,000 feet the tested table calls for the next heavier weight. Conceptual, not to scale.",
+    "Z14-P56": "Pressure-versus-time trace for a pressure canner. Pressure rises to the target, holds, then dips below the target for a short time before it is restored. Below the trace, adding the lost minutes at the end is crossed out; the full process time restarts from the moment target pressure returns. A note applies the same rule to a boiling-water canner when the boil stops. Conceptual, not to scale.",
+    "Z14-P57": "Left: the same pot of water boiling at sea level and at a higher elevation; water boils at a lower temperature as altitude increases, and lower boiling temperatures are less effective at killing bacteria, so sea-level settings can under-process at 1,000 feet or more. Right: the tested recipe has separate tables for boiling-water, dial-gauge and weighted-gauge canners; at higher elevation the boiling-water time increases, the dial-gauge pressure increases, and the weighted gauge moves to the next heavier weight. Values are never moved between tables. Conceptual, not to scale.",
+    "Z14-P53": "Cross-section of an atmospheric steam canner: a shallow base holds water under a rack of jars, steam fills the dome and air is vented out before timing begins. Limits: acid or properly acidified foods with pH 4.6 or below, a total process of 45 minutes or less including altitude adjustment, and no opening to add water during processing. It is not a pressure canner and is not used for low-acid foods. Conceptual, not to scale.",
+    "Z14-P48": "Left: jars processed in a conventional oven, open-kettle filling with jars turned upside down, a microwave oven, a dishwasher and a paraffin wax seal are each crossed out; USDA does not recommend them because they do not prevent all risks of spoilage. Right: a boiling-water canner with water over the jar tops and a pressure canner holding at least four quart jars, used with a tested recipe. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B05/W2C-B05-letter.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "a842cef407d76684d785b7886d275ab9a32204587a4d366db64d32b396b9a41a"
+    },
+    "visual/w2c_context/W2C-B05/W2C-B05-a4.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "0ab69a157374d61d8f37475de4708f941f3b674457d5ef7f58448264710a4cdd"
+    },
+    "visual/w2c_context/W2C-B05/W2C-B05-compare.jpg": {
+      "sha256": "8006950b50308f16f8a94f7433b6c2f4bdee009780a2df8e885c543d17d0b563",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B05/W2C-B05-compare-gray.jpg": {
+      "sha256": "1768735c38a8e31b5728b62bb9396f35cff0d4d9bf96e8adfd7d7bd9bb8fcb8a",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B05/W2C-B05-phone.jpg": {
+      "sha256": "86e4fd71088fbb520a96b9ef6f2ca10161caaa05c89eab0c69f0e62b8d126cd9",
+      "size": [
+        1482,
+        1912
+      ]
+    },
+    "visual/w2c_context/W2C-B05/W2C-B05-desktop.jpg": {
+      "sha256": "34da3a2d4f48b10873b93cf977f4618d3aa69a29abfedc518bcbac8c8a7a787c",
+      "size": [
+        1310,
+        2011
+      ]
+    },
+    "visual/w2c_context/W2C-B05/W2C-B05-print.jpg": {
+      "sha256": "d357b6e042b8c43eba7efcdc708e4a28e76c7c7e1402ddec50d5ba0830b36b5c",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

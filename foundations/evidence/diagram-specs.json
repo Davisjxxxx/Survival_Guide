@@ -5963,19 +5963,7 @@
     "reason": "Follow the tested acid step even if there is a pressure-canner option"
   },
   "Z14-P48": {
-    "type": "correct_vs_wrong",
-    "variant": "canning",
-    "correct_title": "VALIDATED USDA CANNERS",
-    "correct_items": [
-      "Stovetop boiling-water (high-acid only)",
-      "Full ≥4-quart stovetop pressure canner"
-    ],
-    "wrong_title": "UNSAFE SHORTCUT METHODS",
-    "wrong_items": [
-      "Oven, open-kettle, wax, dishwasher, micro",
-      "Unvalidated electric pressure multicookers"
-    ],
-    "reason": "Dry heat shatters glass & unvalidated cookers fail botulism thermal lethality"
+    "type": "w2c_artwork"
   },
   "Z14-P49": {
     "type": "v02_artwork"
@@ -6020,63 +6008,19 @@
     "hazard": "Tilt lid away to prevent scalds"
   },
   "Z14-P53": {
-    "type": "decision_tree",
-    "gates": [
-      "High-acid pH ≤4.6 tested?",
-      "Total time ≤45 m incl. altitude?",
-      "Full steam dome -> run timer"
-    ],
-    "abort": "STOP: >45 min total or ANY low-acid food -> Use deep water-bath or pressure canner"
+    "type": "w2c_artwork"
   },
   "Z14-P54": {
     "type": "v01_artwork"
   },
   "Z14-P55": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Dial Gauge",
-        "note": "Test yearly via county Extension office",
-        "limit": "Replace if off >2 PSI"
-      },
-      {
-        "name": "Weighted Gauge",
-        "note": "Gravity weights (5/10/15 PSI); no drift",
-        "limit": "Jumps 10->15 PSI >1000 ft"
-      },
-      {
-        "name": "Manual Rock Rate",
-        "note": "Follow exact brand jiggle/rock pattern",
-        "limit": "Don’t roar pot dry"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z14-P56": {
-    "type": "failure_mode",
-    "cause": "Burner dip drops PSI or stops rolling boil",
-    "cue": "Dial falls below target even 1 minute",
-    "correction": "Restore full PSI/boil & RESTART timer at 0"
+    "type": "w2c_artwork"
   },
   "Z14-P57": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · ≤1,000 FT",
-        "scope": "Sea-level base",
-        "action": "Base minutes | 11 PSI dial | 10 PSI weight"
-      },
-      {
-        "role": "2 · 1,001–2,000 FT",
-        "scope": "Many MN counties",
-        "action": "Add WB min | 11 PSI dial | 15 PSI weight!"
-      },
-      {
-        "role": "3 · >2,000 FT",
-        "scope": "Highlands/west",
-        "action": "Step WB min & dial PSI per USDA tables"
-      }
-    ],
-    "trigger": "Verify exact local elevation BEFORE lighting burner — never mix dial/weight tables"
+    "type": "w2c_artwork"
   },
   "Z14-P58": {
     "type": "sequence_plate",

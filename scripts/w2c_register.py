@@ -26,7 +26,8 @@ DISPOSITIONS = {'PROVISIONAL_EDITORIAL_CANDIDATE', 'HELD_SPECIALIST_INPUT', 'HEL
 BUILDERS = {'build_w2c_knots.py': ('Z09-P14', 'Z09-P15'), 'build_w2c_navigation.py': ('Z11-R05',),
             'w2c_plates_b02.py': ('Z13-P44', 'Z13-P37', 'Z13-P48', 'Z13-P41', 'Z13-P53'),
             'w2c_plates_b03.py': ('Z13-P20', 'Z13-P56', 'Z15-P43', 'Z13-P60', 'Z13-P57'),
-            'w2c_plates_b04.py': ('Z15-P18', 'Z15-P22', 'Z15-P02', 'Z15-P23')}
+            'w2c_plates_b04.py': ('Z15-P18', 'Z15-P22', 'Z15-P02', 'Z15-P23'),
+            'w2c_plates_b05.py': ('Z14-P55', 'Z14-P56', 'Z14-P57', 'Z14-P53', 'Z14-P48')}
 REGISTER_FIELDS = ['page_id', 'asset_id', 'priority', 'origin', 'review_family', 'w2c_status', 'batch',
                    'predecessor_sha256', 'revised_sha256', 'physical_relationship', 'source_basis',
                    'geometry_validation', 'inspection', 'card_changes', 'remaining_dependencies',

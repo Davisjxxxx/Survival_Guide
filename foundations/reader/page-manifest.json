@@ -51949,6 +51949,7 @@
       {
         "text": "STRICTLY REJECT **oven canning** (dry air conducts heat poorly compared to steam/water and regular Mason jars shatter violently in dry ovens), **open-kettle/inversion canning** (pouring hot food into jars and flipping upside down fails to destroy molds/yeasts/spores and produces weak false seals), **dishwasher canning**, and **microwave canning**.",
         "claims": [
+          "P34",
           "P20",
           "P07"
         ]
@@ -51956,6 +51957,7 @@
       {
         "text": "Do NOT use consumer electric pressure multicookers (e.g., Instant Pot models not independently validated to USDA thermal-process standards) or small stovetop pressure saucepans for low-acid home canning—USDA/NCHFP requires a full-sized pressure canner holding at least four quart jars because small pots heat up and cool down too quickly to achieve the validated cumulative heat lethality.",
         "claims": [
+          "P34",
           "P20",
           "P07"
         ]
@@ -51963,6 +51965,7 @@
       {
         "text": "Do NOT seal jars with melted paraffin wax (allows mold growth and mycotoxins)—use standard two-piece vacuum metal canning lids with tested thermal processing exclusively.",
         "claims": [
+          "P34",
           "P20",
           "P09"
         ]
@@ -51995,7 +51998,7 @@
       ]
     },
     "diagram": "REJECT oven, open-kettle, wax & dishwasher | Unvalidated electric cookers lack heat profile | Use ONLY validated USDA/NCHFP canners",
-    "visual": "Correct versus incorrect canning equipment contrasting validated stovetop boiling-water and ≥4-quart pressure canners against forbidden oven, open-kettle, and unvalidated multicookers. Conceptual, not to scale.",
+    "visual": "Oven, open-kettle, microwave, dishwasher and paraffin-seal methods crossed out because they do not prevent all risks of spoilage, beside a boiling-water canner and a pressure canner holding four quart jars. Conceptual, not to scale.",
     "reviewer": "Food preservation process authority"
   },
   {
@@ -52279,7 +52282,7 @@
       ]
     },
     "diagram": "High-acid tested recipes ONLY (pH ≤4.6) | Hard cap: ≤45 min TOTAL incl. altitude | Never let shallow base pan boil dry",
-    "visual": "Decision tree screening pH ≤4.6, ≤45-minute total altitude-adjusted duration, and steady full steam before permitting atmospheric-steam canning. Conceptual, not to scale.",
+    "visual": "Atmospheric steam canner section with air vented before timing and the tested limits: pH 4.6 or below, 45 minutes or less including altitude, no added water, no low-acid foods. Conceptual, not to scale.",
     "reviewer": "University Extension food preservation specialist"
   },
   {
@@ -52348,14 +52351,17 @@
       {
         "text": "Have EVERY **dial-gauge** pressure canner tested for accuracy BEFORE each canning season (at least once a year, and immediately if dropped or bumped) through your local university Extension office or manufacturer—a dial gauge reading just 2 PSI high can under-process low-acid food into botulism territory.",
         "claims": [
+          "P33",
           "P07",
           "P14",
           "F07"
         ]
       },
       {
-        "text": "Replace any dial gauge off by MORE than 2 PSI (or adjust exact target pressure strictly per Extension test calibration when off by 1–2 PSI); remember that **weighted gauges** (which jiggle/rock at fixed 5, 10, or 15 PSI increments) rely on gravity and do not drift out of calibration, though they step straight from 10 PSI to **15 PSI** above 1,000 feet elevation!",
+        "text": "Replace any dial gauge off by MORE than 2 PSI (or adjust exact target pressure strictly per Extension test calibration when off by 1–2 PSI); remember that **weighted gauges** (which jiggle/rock at fixed 5, 10, or 15 PSI increments) rely on gravity and need no accuracy check, and above 1,000 feet they move to the next heavier weight the tested table gives for that food (for example 5 to 10 PSI, or 10 to **15 PSI**).",
         "claims": [
+          "P33",
+          "P35",
           "P07",
           "P14"
         ]
@@ -52381,8 +52387,10 @@
       ]
     },
     "verify": {
-      "text": "Confirm current-year Extension dial-gauge test receipt (or weighted-gauge 10/15 PSI altitude step verified) before pressure canning.",
+      "text": "Confirm current-year Extension dial-gauge test receipt (or the weighted-gauge altitude weight verified in the tested table) before pressure canning.",
       "claims": [
+        "P33",
+        "P35",
         "P07",
         "P14"
       ]
@@ -52393,8 +52401,8 @@
         "P07"
       ]
     },
-    "diagram": "Dial gauge: test yearly via Extension (>2 PSI = replace) | Weighted gauge: no drift, jumps 10->15 PSI >1,000 ft | Follow brand manual rock/jiggle rate",
-    "visual": "Comparative pressure-regulator chart contrasting dial-gauge annual Extension calibration against weighted-gauge gravity increments and >1,000 ft PSI jump. Conceptual, not to scale.",
+    "diagram": "Dial gauge: test yearly via Extension (>2 PSI = replace) | Weighted gauge: next heavier weight >1,000 ft per table | Follow brand manual rock/jiggle rate",
+    "visual": "A dial gauge reading 11 lb against a true 9 lb, with the yearly test and the 2 lb adjust-or-replace rule, beside a weighted gauge that rocks as the maker describes and takes the next heavier weight above 1,000 ft. Conceptual, not to scale.",
     "reviewer": "University Extension food preservation specialist"
   },
   {
@@ -52407,6 +52415,7 @@
       {
         "text": "If pressure inside a pressure canner drops BELOW the exact target altitude-adjusted PSI at ANY moment during the processing period (even for a single minute), bring the canner cleanly back up to full target pressure and **RESTART THE ENTIRE PROCESSING TIME FROM ZERO**.",
         "claims": [
+          "P33",
           "P07",
           "P06"
         ]
@@ -52414,6 +52423,7 @@
       {
         "text": "Apply the exact same zero-restart rule to boiling-water canning if the vigorous rolling boil stops or water falls below jar tops (top up with boiling water, restore a full boil, and restart from minute zero).",
         "claims": [
+          "P35",
           "P08",
           "P06"
         ]
@@ -52453,7 +52463,7 @@
       ]
     },
     "diagram": "PSI dips below target even 1 minute | Restore full target PSI / full boil | RESTART entire timer from MINUTE ZERO",
-    "visual": "Failure-mode thermal-cycle diagram showing a mid-run PSI dip breaking validated heat lethality and requiring complete zero-minute timer restart. Conceptual, not to scale.",
+    "visual": "Pressure trace with a dip below target: adding the lost minutes is crossed out and the full process time restarts when pressure returns; the boiling-water rule is the same. Conceptual, not to scale.",
     "reviewer": "Food preservation process authority"
   },
   {
@@ -52466,6 +52476,7 @@
       {
         "text": "Look up your EXACT home elevation BEFORE starting—water boils at lower temperatures as elevation rises, so sea-level processing times and pressures UNDER-PROCESS food above **1,000 feet** (note: much of northern, central, and southwestern Minnesota sits between 1,001 and 2,000+ feet!).",
         "claims": [
+          "P35",
           "P14",
           "F07"
         ]
@@ -52473,6 +52484,7 @@
       {
         "text": "Use the elevation column of the exact tested recipe for the specified equipment. Water-bath times and pressure-canner settings are different controls. Do not transfer a pressure value between a dial and weighted gauge.",
         "claims": [
+          "P35",
           "P07",
           "P14"
         ]
@@ -52512,8 +52524,8 @@
         "F07"
       ]
     },
-    "diagram": "Check EXACT home elevation (>1,000 ft!) | Water bath: add min; Pressure: raise PSI | Weighted gauge jumps 10 -> 15 PSI >1,000 ft",
-    "visual": "Elevation-compensation ladder comparing sea-level baselines against >1,000 ft Minnesota/highland steps for water-bath minutes, dial PSI, and weighted PSI. Conceptual, not to scale.",
+    "diagram": "Check EXACT home elevation (>1,000 ft!) | Water bath: add min; Pressure: raise PSI | Weighted gauge: next heavier weight >1,000 ft",
+    "visual": "The same pot boiling at a lower temperature at elevation, and the separate boiling-water, dial-gauge and weighted-gauge tables whose settings rise with altitude. Conceptual, not to scale.",
     "reviewer": "University Extension food preservation specialist"
   },
   {

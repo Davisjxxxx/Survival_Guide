@@ -646,14 +646,14 @@ Z14-P48 | Reject oven, open-kettle, dishwasher, microwave, and unvalidated multi
 objective: Eliminate popular online and heirloom canning shortcuts that fail to sterilize jars and cause botulism or exploding glass.
 applies: Method and equipment selection for all home food preservation.
 equipment: Validated stovetop boiling-water canner, validated atmospheric steam canner (high-acid only), or validated stovetop dial/weighted-gauge pressure canner (≥4-quart-jar capacity).
-action: STRICTLY REJECT **oven canning** (dry air conducts heat poorly compared to steam/water and regular Mason jars shatter violently in dry ovens), **open-kettle/inversion canning** (pouring hot food into jars and flipping upside down fails to destroy molds/yeasts/spores and produces weak false seals), **dishwasher canning**, and **microwave canning**. @P20,P07
-action: Do NOT use consumer electric pressure multicookers (e.g., Instant Pot models not independently validated to USDA thermal-process standards) or small stovetop pressure saucepans for low-acid home canning—USDA/NCHFP requires a full-sized pressure canner holding at least four quart jars because small pots heat up and cool down too quickly to achieve the validated cumulative heat lethality. @P20,P07
-action: Do NOT seal jars with melted paraffin wax (allows mold growth and mycotoxins)—use standard two-piece vacuum metal canning lids with tested thermal processing exclusively. @P20,P09
+action: STRICTLY REJECT **oven canning** (dry air conducts heat poorly compared to steam/water and regular Mason jars shatter violently in dry ovens), **open-kettle/inversion canning** (pouring hot food into jars and flipping upside down fails to destroy molds/yeasts/spores and produces weak false seals), **dishwasher canning**, and **microwave canning**. @P34,P20,P07
+action: Do NOT use consumer electric pressure multicookers (e.g., Instant Pot models not independently validated to USDA thermal-process standards) or small stovetop pressure saucepans for low-acid home canning—USDA/NCHFP requires a full-sized pressure canner holding at least four quart jars because small pots heat up and cool down too quickly to achieve the validated cumulative heat lethality. @P34,P20,P07
+action: Do NOT seal jars with melted paraffin wax (allows mold growth and mycotoxins)—use standard two-piece vacuum metal canning lids with tested thermal processing exclusively. @P34,P20,P09
 failure: Using an unvalidated countertop electric multicooker or flipping hot jam jars upside down on the counter instead of proper thermal processing. @P20,P07
 verify: Confirm equipment is a validated stovetop boiling-water canner or full-size ≥4-quart-capacity pressure canner matching the tested recipe. @P20,P07
 stop: Any recipe calling for oven, open-kettle, wax-seal, or unvalidated multicooker canning must be rejected immediately. @P20
 diagram: REJECT oven, open-kettle, wax & dishwasher | Unvalidated electric cookers lack heat profile | Use ONLY validated USDA/NCHFP canners
-visual: Correct versus incorrect canning equipment contrasting validated stovetop boiling-water and ≥4-quart pressure canners against forbidden oven, open-kettle, and unvalidated multicookers. Conceptual, not to scale.
+visual: Oven, open-kettle, microwave, dishwasher and paraffin-seal methods crossed out because they do not prevent all risks of spoilage, beside a boiling-water canner and a pressure canner holding four quart jars. Conceptual, not to scale.
 reviewer: Food preservation process authority
 
 Z14-P49 | Inspect Mason canning jars, sealing rims, and single-use two-piece lids | NCHFP Canning Equipment and Lids; new manuscript
@@ -723,7 +723,7 @@ failure: Attempting to process low-acid green beans in an unpressurized steam ca
 verify: Confirm the tested recipe, compatible equipment and altitude-adjusted time within the 45-minute limit. @P25
 stop: If the recipe, elevation-adjusted time or equipment fails the validated conditions, select the correct tested procedure instead. @P25,P07
 diagram: High-acid tested recipes ONLY (pH ≤4.6) | Hard cap: ≤45 min TOTAL incl. altitude | Never let shallow base pan boil dry
-visual: Decision tree screening pH ≤4.6, ≤45-minute total altitude-adjusted duration, and steady full steam before permitting atmospheric-steam canning. Conceptual, not to scale.
+visual: Atmospheric steam canner section with air vented before timing and the tested limits: pH 4.6 or below, 45 minutes or less including altitude, no added water, no low-acid foods. Conceptual, not to scale.
 reviewer: University Extension food preservation specialist
 
 Z14-P54 | Operate a pressure canner cleanly: 10-minute steam vent and target PSI | NCHFP Using Pressure Canners; new manuscript
@@ -744,42 +744,42 @@ Z14-P55 | Test dial-gauge pressure canners annually and know weighted-gauge step
 objective: Prevent silent under-processing caused by drifted spring dial gauges or misread weighted-gauge pressure increments.
 applies: Homeowners operating dial-gauge or weighted-gauge stovetop pressure canners.
 equipment: County university Extension dial-gauge tester service (annual check) and exact canner manufacturer manual.
-action: Have EVERY **dial-gauge** pressure canner tested for accuracy BEFORE each canning season (at least once a year, and immediately if dropped or bumped) through your local university Extension office or manufacturer—a dial gauge reading just 2 PSI high can under-process low-acid food into botulism territory. @P07,P14,F07
-action: Replace any dial gauge off by MORE than 2 PSI (or adjust exact target pressure strictly per Extension test calibration when off by 1–2 PSI); remember that **weighted gauges** (which jiggle/rock at fixed 5, 10, or 15 PSI increments) rely on gravity and do not drift out of calibration, though they step straight from 10 PSI to **15 PSI** above 1,000 feet elevation! @P07,P14
+action: Have EVERY **dial-gauge** pressure canner tested for accuracy BEFORE each canning season (at least once a year, and immediately if dropped or bumped) through your local university Extension office or manufacturer—a dial gauge reading just 2 PSI high can under-process low-acid food into botulism territory. @P33,P07,P14,F07
+action: Replace any dial gauge off by MORE than 2 PSI (or adjust exact target pressure strictly per Extension test calibration when off by 1–2 PSI); remember that **weighted gauges** (which jiggle/rock at fixed 5, 10, or 15 PSI increments) rely on gravity and need no accuracy check, and above 1,000 feet they move to the next heavier weight the tested table gives for that food (for example 5 to 10 PSI, or 10 to **15 PSI**). @P33,P35,P07,P14
 action: Follow the exact jiggle/rock frequency in your weighted-gauge manual (e.g., continuous gentle rock vs 1–4 jiggles per minute depending on brand) rather than letting the weight roar violently and boil the canner dry. @P07
 failure: Using a 15-year-old untested dial gauge reading 11 PSI when true chamber pressure is only 8 PSI, under-sterilizing jars of venison and beans. @P07,P14
-verify: Confirm current-year Extension dial-gauge test receipt (or weighted-gauge 10/15 PSI altitude step verified) before pressure canning. @P07,P14
+verify: Confirm current-year Extension dial-gauge test receipt (or the weighted-gauge altitude weight verified in the tested table) before pressure canning. @P33,P35,P07,P14
 stop: Any dial gauge off by >2 PSI, sticking needle, cracked glass face, or bent weighted stem must be replaced before processing low-acid jars. @P07
-diagram: Dial gauge: test yearly via Extension (>2 PSI = replace) | Weighted gauge: no drift, jumps 10->15 PSI >1,000 ft | Follow brand manual rock/jiggle rate
-visual: Comparative pressure-regulator chart contrasting dial-gauge annual Extension calibration against weighted-gauge gravity increments and >1,000 ft PSI jump. Conceptual, not to scale.
+diagram: Dial gauge: test yearly via Extension (>2 PSI = replace) | Weighted gauge: next heavier weight >1,000 ft per table | Follow brand manual rock/jiggle rate
+visual: A dial gauge reading 11 lb against a true 9 lb, with the yearly test and the 2 lb adjust-or-replace rule, beside a weighted gauge that rocks as the maker describes and takes the next heavier weight above 1,000 ft. Conceptual, not to scale.
 reviewer: University Extension food preservation specialist
 
 Z14-P56 | Restart the entire canning timer from zero if pressure or boil drops mid-cycle | NCHFP Using Pressure and Boiling Water Canners; new manuscript
 objective: Guarantee full validated thermal lethality by never "adding a few extra minutes" after a pressure or boil interruption.
 applies: Any boiling-water or pressure-canning batch experiencing a stove-burner flameout, power blink, or pressure dip below target PSI.
 equipment: Watch/timer, stove controls, and exact tested recipe processing time.
-action: If pressure inside a pressure canner drops BELOW the exact target altitude-adjusted PSI at ANY moment during the processing period (even for a single minute), bring the canner cleanly back up to full target pressure and **RESTART THE ENTIRE PROCESSING TIME FROM ZERO**. @P07,P06
-action: Apply the exact same zero-restart rule to boiling-water canning if the vigorous rolling boil stops or water falls below jar tops (top up with boiling water, restore a full boil, and restart from minute zero). @P08,P06
+action: If pressure inside a pressure canner drops BELOW the exact target altitude-adjusted PSI at ANY moment during the processing period (even for a single minute), bring the canner cleanly back up to full target pressure and **RESTART THE ENTIRE PROCESSING TIME FROM ZERO**. @P33,P07,P06
+action: Apply the exact same zero-restart rule to boiling-water canning if the vigorous rolling boil stops or water falls below jar tops (top up with boiling water, restore a full boil, and restart from minute zero). @P35,P08,P06
 action: Do not add an arbitrary number of minutes. If pressure falls below the recipe target, restore it and restart the full time following the tested method. For process deviations or uncertainty about the batch, consult Extension before using it. @P07,P06
 failure: Watching a pressure-canner dial dip from 11 PSI to 9 PSI for four minutes during a 75-minute meat cycle and merely adding four minutes at the end. @P07
 verify: Confirm unbroken target PSI (or rolling boil) for 100% of the timer, OR full restart from zero recorded if any dip occurred. @P07,P08
 stop: Power or gas outage halting a low-acid pressure run permanently requires cooling safely and refrigerating/freezing or fully reprocessing with new lids within 24 hours per NCHFP rules. @P07,P09
 diagram: PSI dips below target even 1 minute | Restore full target PSI / full boil | RESTART entire timer from MINUTE ZERO
-visual: Failure-mode thermal-cycle diagram showing a mid-run PSI dip breaking validated heat lethality and requiring complete zero-minute timer restart. Conceptual, not to scale.
+visual: Pressure trace with a dip below target: adding the lost minutes is crossed out and the full process time restarts when pressure returns; the boiling-water rule is the same. Conceptual, not to scale.
 reviewer: Food preservation process authority
 
 Z14-P57 | Apply exact local elevation altitude adjustments before canning | UMN Extension and NCHFP Altitude Tables; new manuscript
 objective: Compensate accurately for lower water boiling temperatures above 1,000 feet elevation—including broad portions of northern and southwestern Minnesota.
 applies: Every boiling-water, atmospheric-steam, and pressure-canning batch nationwide and across elevated Upper Midwest counties.
 equipment: Verified local elevation (USGS topo/map or county Extension), USDA altitude tables for dial vs weighted gauges, and written batch sheet.
-action: Look up your EXACT home elevation BEFORE starting—water boils at lower temperatures as elevation rises, so sea-level processing times and pressures UNDER-PROCESS food above **1,000 feet** (note: much of northern, central, and southwestern Minnesota sits between 1,001 and 2,000+ feet!). @P14,F07
-action: Use the elevation column of the exact tested recipe for the specified equipment. Water-bath times and pressure-canner settings are different controls. Do not transfer a pressure value between a dial and weighted gauge. @P07,P14
+action: Look up your EXACT home elevation BEFORE starting—water boils at lower temperatures as elevation rises, so sea-level processing times and pressures UNDER-PROCESS food above **1,000 feet** (note: much of northern, central, and southwestern Minnesota sits between 1,001 and 2,000+ feet!). @P35,P14,F07
+action: Use the elevation column of the exact tested recipe for the specified equipment. Water-bath times and pressure-canner settings are different controls. Do not transfer a pressure value between a dial and weighted gauge. @P35,P07,P14
 action: Never apply a dial-gauge PSI table to a weighted-gauge canner or vice versa—verify the exact column in the current USDA/NCHFP guide every time. @P14,P07
 failure: Canning in Duluth, Bemidji, or southwestern Minnesota (elevation >1,100–1,600 ft) using sea-level weighted-gauge 10 PSI instead of the mandatory 15 PSI step. @P14,F07
 verify: Confirm exact local elevation checked, correct equipment column (boiling-water minutes vs dial PSI vs weighted PSI) selected, and adjustment written down. @P14,F07
 stop: Unknown elevation or missing altitude-adjustment table requires looking up exact elevation and official USDA tables BEFORE lighting the burner. @P14,F07
-diagram: Check EXACT home elevation (>1,000 ft!) | Water bath: add min; Pressure: raise PSI | Weighted gauge jumps 10 -> 15 PSI >1,000 ft
-visual: Elevation-compensation ladder comparing sea-level baselines against >1,000 ft Minnesota/highland steps for water-bath minutes, dial PSI, and weighted PSI. Conceptual, not to scale.
+diagram: Check EXACT home elevation (>1,000 ft!) | Water bath: add min; Pressure: raise PSI | Weighted gauge: next heavier weight >1,000 ft
+visual: The same pot boiling at a lower temperature at elevation, and the separate boiling-water, dial-gauge and weighted-gauge tables whose settings rise with altitude. Conceptual, not to scale.
 reviewer: University Extension food preservation specialist
 
 Z14-P58 | Depressurize pressure canners naturally and cool jars undisturbed 12 to 24 hours | NCHFP Pressure Canning Cooling; new manuscript
