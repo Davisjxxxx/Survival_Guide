@@ -110,6 +110,12 @@ KIND_LABELS = {
     'environment': 'ENVIRONMENTAL RELATIONSHIP',
     'decision_tree': 'DECISION TREE',
     'failure_mode': 'FAILURE-MODE ANALYSIS',
+    'correct_vs_wrong': 'CORRECT VS INCORRECT CONFIGURATION',
+    'sequence_plate': 'SEQUENTIAL INSTRUCTIONAL PLATE',
+    'system_boundary': 'SYSTEM SEPARATION & BOUNDARY',
+    'escalation_ladder': 'CARE / ESCALATION LADDER',
+    'anatomy_zone': 'CONCEPTUAL ORIENTATION & ZONE GUIDE',
+    'seasonal_timeline': 'TIME / SEASONAL PROGRESSION',
 }
 
 _SPECS_CACHE = None
@@ -126,9 +132,27 @@ SPEC_KEYS = {
     'failure_mode': {'cause','cue','correction'},
     'branch': {'question','yes','no','stop'},
     'force_redirect': set(),
+    'correct_vs_wrong': {'correct_title','correct_items','wrong_title','wrong_items','reason','variant'},
+    'sequence_plate': {'steps','cue','variant'},
+    'system_boundary': {'zone_a','zone_b','barrier','hazard','variant'},
+    'escalation_ladder': {'tiers','trigger'},
+    'anatomy_zone': {'regions','priority','stop','variant'},
+    'seasonal_timeline': {'phases','threshold','variant'},
 }
-SPEC_OPTIONAL = {'cutaway': {'hazard'}, 'mechanism': {'accent'}}
-SPEC_LIST_LENGTHS = {'layers':3,'components':4,'nodes':3,'options':3,'zones':3,'gates':3}
+SPEC_OPTIONAL = {
+    'cutaway': {'hazard'},
+    'mechanism': {'accent'},
+    'correct_vs_wrong': {'reuse_note'},
+    'sequence_plate': {'reuse_note'},
+    'system_boundary': {'reuse_note'},
+    'escalation_ladder': {'reuse_note'},
+    'anatomy_zone': {'reuse_note'},
+    'seasonal_timeline': {'reuse_note'},
+}
+SPEC_LIST_LENGTHS = {
+    'layers':3,'components':4,'nodes':3,'options':3,'zones':3,'gates':3,
+    'correct_items':2,'wrong_items':2,'steps':4,'tiers':3,'regions':3,'phases':4,
+}
 
 
 def validate_spec(page, spec):
@@ -149,6 +173,24 @@ def validate_spec(page, spec):
                         not isinstance(part,str) or not part.strip() for part in option.values()
                     ):
                         raise ValueError(f'Invalid comparison option on {page}')
+            elif key == 'steps':
+                for step in value:
+                    if not isinstance(step,dict) or set(step) != {'label','detail'} or any(
+                        not isinstance(part,str) or not part.strip() for part in step.values()
+                    ):
+                        raise ValueError(f'Invalid sequence step on {page}')
+            elif key == 'tiers':
+                for tier in value:
+                    if not isinstance(tier,dict) or set(tier) != {'role','scope','action'} or any(
+                        not isinstance(part,str) or not part.strip() for part in tier.values()
+                    ):
+                        raise ValueError(f'Invalid escalation tier on {page}')
+            elif key == 'phases':
+                for phase in value:
+                    if not isinstance(phase,dict) or set(phase) != {'window','focus'} or any(
+                        not isinstance(part,str) or not part.strip() for part in phase.values()
+                    ):
+                        raise ValueError(f'Invalid timeline phase on {page}')
             elif any(not isinstance(label,str) or not label.strip() for label in value):
                 raise ValueError(f'Invalid figure label on {page}: {key}')
 
@@ -445,6 +487,225 @@ def _render_branch(spec):
     return ''.join(parts) + '</g>'
 
 
+def _render_correct_vs_wrong(spec):
+    """Side-by-side correct vs incorrect configuration with distinct physical/hazard geometry & grayscale patterns."""
+    variant = spec['variant']
+    parts = [f'<g id="correct-vs-wrong-{variant}-artwork">']
+    # Left panel: CORRECT (solid border, checkmark badge, crisp dark teal header)
+    parts.append('<rect x="28" y="38" width="322" height="100" rx="8" fill="#e1ece3" stroke="#184438" stroke-width="2.8"/>')
+    parts.append('<rect x="28" y="38" width="322" height="24" rx="6" fill="#184438"/>')
+    parts.append('<path d="M40 50l5 5 10-10" fill="none" stroke="#fffdf7" stroke-width="2.5" stroke-linecap="round"/>')
+    parts.append(_lbl(spec['correct_title'], 198, 54, 11.5, '#fffdf7'))
+    # Variant-specific physical cue on left panel (compact x=38..102)
+    if variant == 'electrical':
+        parts.append('<rect x="38" y="74" width="32" height="24" rx="4" fill="#c7d8ce" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M70 86h12" stroke="#184438" stroke-width="2" marker-end="url(#arrow)"/>')
+        parts.append('<rect x="84" y="74" width="18" height="24" rx="3" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+    elif variant == 'thermal':
+        parts.append('<path d="M40 100V78l18-9 18 9v22Z" fill="#cde0d4" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M80 86h20" stroke="#2f6b7d" stroke-width="2.5" marker-end="url(#arrow)"/>')
+    elif variant == 'canning':
+        parts.append('<rect x="44" y="74" width="28" height="32" rx="4" fill="#d3e3ea" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M42 74h32M50 69h16" stroke="#184438" stroke-width="3"/>')
+        parts.append('<circle cx="88" cy="86" r="9" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+    elif variant == 'medical':
+        parts.append('<circle cx="66" cy="88" r="16" fill="#fffdf7" stroke="#184438" stroke-width="2.2"/>')
+        parts.append('<path d="M66 78v20M56 88h20" stroke="#184438" stroke-width="3"/>')
+    else:
+        parts.append('<polygon points="40,104 62,70 84,104" fill="#cde0d4" stroke="#184438" stroke-width="2.2"/>')
+        parts.append('<path d="M84 92h18" stroke="#184438" stroke-width="2.5" marker-end="url(#arrow)"/>')
+    parts.append(text(wrap(spec['correct_items'][0], 35)[:2], 112, 79, 13.5, 10.8, 650, '#183c31', 'start'))
+    parts.append(text(wrap(spec['correct_items'][1], 35)[:2], 112, 111, 13.5, 10.8, 650, '#183c31', 'start'))
+
+    # Right panel: INCORRECT (dashed double-contrast border, X badge, terracotta header)
+    parts.append('<rect x="370" y="38" width="322" height="100" rx="8" fill="#f8ebe3" stroke="#8f381c" stroke-width="2.8" stroke-dasharray="7 4"/>')
+    parts.append('<rect x="370" y="38" width="322" height="24" rx="6" fill="#8f381c"/>')
+    parts.append('<path d="M382 44l10 10m0-10l-10 10" fill="none" stroke="#fffdf7" stroke-width="2.5" stroke-linecap="round"/>')
+    parts.append(_lbl(spec['wrong_title'], 540, 54, 11.5, '#fffdf7'))
+    if variant == 'electrical':
+        parts.append('<rect x="380" y="74" width="32" height="24" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
+        parts.append('<path d="M414 86l12-7-5 12 12-5" fill="none" stroke="#8f381c" stroke-width="2.5"/>')
+    elif variant == 'thermal':
+        parts.append('<rect x="384" y="74" width="36" height="28" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
+        parts.append('<path d="M392 94q10-14 20 0" fill="none" stroke="#8f381c" stroke-width="2.5"/>')
+    elif variant == 'canning':
+        parts.append('<rect x="386" y="74" width="30" height="32" rx="4" fill="#ecd2c5" stroke="#8f381c" stroke-width="2" stroke-dasharray="4 3"/>')
+        parts.append('<path d="M384 74l34 32M418 74l-34 32" stroke="#8f381c" stroke-width="2"/>')
+    elif variant == 'medical':
+        parts.append('<polygon points="406,70 424,104 388,104" fill="#ecd2c5" stroke="#8f381c" stroke-width="2.2"/>')
+        parts.append(_lbl('!', 406, 98, 15, '#8f381c'))
+    else:
+        parts.append('<path d="M380 96q13-12 26 0t26 0" fill="none" stroke="#8f381c" stroke-width="2.8"/>')
+        parts.append('<circle cx="406" cy="80" r="9" fill="#ecd2c5" stroke="#8f381c" stroke-width="2"/>')
+    parts.append(text(wrap(spec['wrong_items'][0], 35)[:2], 446, 79, 13.5, 10.8, 650, '#5a2310', 'start'))
+    parts.append(text(wrap(spec['wrong_items'][1], 35)[:2], 446, 111, 13.5, 10.8, 650, '#5a2310', 'start'))
+
+    # Bottom causal reason bar
+    parts.append('<rect x="28" y="141" width="664" height="17" rx="4" fill="#f5f1e2" stroke="#7c6928"/>')
+    parts.append(_lbl(spec['reason'], 360, 153, 10.5, '#3d3312'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_sequence_plate(spec):
+    """Four-step sequential instructional plate with numbered badges and directional progression."""
+    variant = spec['variant']
+    steps = spec['steps']
+    fills = ['#dce8df', '#e3ece5', '#eef2e4', '#d5e4da']
+    parts = [f'<g id="sequence-plate-{variant}-artwork">']
+    for i, st in enumerate(steps):
+        x = 26 + i * 170
+        w = 152
+        parts.append(f'<rect x="{x}" y="44" width="{w}" height="90" rx="8" fill="{fills[i]}" stroke="#285345" stroke-width="2.3"/>')
+        parts.append(f'<circle cx="{x+18}" cy="58" r="11" fill="#184438"/>')
+        parts.append(_lbl(str(i + 1), x + 18, 62, 11.5, '#fffdf7'))
+        parts.append(text(wrap(st['label'], 15), x + 35, 58, 13, 11, 700, '#183c31', 'start'))
+        parts.append(f'<path d="M{x+10} 78h{w-20}" stroke="#9bb1a3" stroke-width="1.5"/>')
+        parts.append(text(wrap(st['detail'], 20), x + w / 2, 95, 13.5, 10.8, 600, '#183c31', 'middle'))
+        if i < 3:
+            parts.append(f'<path d="M{x+w+2} 89h12" stroke="#184438" stroke-width="3" marker-end="url(#arrow)"/>')
+    parts.append('<rect x="26" y="139" width="668" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['cue'], 360, 152, 10.8, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_system_boundary(spec):
+    """Physical system isolation/boundary cutaway with domain-specific architectural geometry."""
+    variant = spec['variant']
+    parts = [f'<g id="system-boundary-{variant}-artwork">']
+    if variant == 'panel_gen':
+        # House panel left, transfer-switch isolation gap center, outdoor generator right
+        parts.append('<rect x="34" y="46" width="196" height="84" rx="7" fill="#dce8df" stroke="#184438" stroke-width="2.8"/>')
+        parts.append('<rect x="50" y="64" width="28" height="46" rx="3" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M234 88h92" stroke="#184438" stroke-width="3" stroke-dasharray="6 4"/>')
+        parts.append('<rect x="330" y="54" width="60" height="68" rx="6" fill="#f5f1e2" stroke="#7c6928" stroke-width="2.5"/>')
+        parts.append('<path d="M394 88h92" stroke="#8f381c" stroke-width="3" stroke-dasharray="6 4"/>')
+        parts.append('<rect x="490" y="46" width="196" height="84" rx="7" fill="#f7e6dc" stroke="#8f381c" stroke-width="2.8"/>')
+    elif variant == 'well_septic':
+        # Ground slope with upland cased well left, separation barrier center, flood/septic zone right
+        parts.append('<path d="M30 84L260 88L460 112L690 116V134H30Z" fill="#c9d5b8" stroke="#4f6549" stroke-width="2.2"/>')
+        parts.append('<rect x="92" y="46" width="22" height="82" fill="#d3e3ea" stroke="#184438" stroke-width="2.5"/>')
+        parts.append('<path d="M360 44v90" stroke="#8f381c" stroke-width="3.5" stroke-dasharray="7 5"/>')
+        parts.append('<rect x="492" y="92" width="170" height="32" rx="5" fill="#d9c6b0" stroke="#8f381c" stroke-width="2.2"/>')
+    elif variant == 'canning_pressure':
+        # Pressure vessel cutaway with lid lock, dial/weighted gauge, jar rack & headspace
+        parts.append('<rect x="44" y="50" width="206" height="82" rx="8" fill="#dbe6ea" stroke="#184438" stroke-width="3"/>')
+        parts.append('<path d="M40 50h214" stroke="#184438" stroke-width="6"/>')
+        parts.append('<circle cx="147" cy="44" r="9" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+        parts.append('<rect x="280" y="54" width="160" height="74" rx="6" fill="#f5f1e2" stroke="#7c6928" stroke-width="2.5"/>')
+        parts.append('<rect x="470" y="50" width="206" height="82" rx="8" fill="#faeee5" stroke="#8f381c" stroke-width="2.8"/>')
+    elif variant == 'cold_chain':
+        # Cold insulated zone left, thermal boundary door seal center, danger zone right
+        parts.append('<rect x="34" y="46" width="210" height="84" rx="8" fill="#d4e5ec" stroke="#245368" stroke-width="3"/>')
+        parts.append('<rect x="276" y="46" width="168" height="84" rx="6" fill="#f5f1e2" stroke="#7c6928" stroke-width="2.5"/>')
+        parts.append('<rect x="476" y="46" width="210" height="84" rx="8" fill="#f7e6dc" stroke="#8f381c" stroke-width="3"/>')
+    else:
+        # Interior shelter safe zone vs exterior hazard wall
+        parts.append('<rect x="34" y="46" width="210" height="84" rx="8" fill="#dce8df" stroke="#184438" stroke-width="3"/>')
+        parts.append('<rect x="276" y="46" width="168" height="84" rx="6" fill="#eef1e6" stroke="#4f6c5d" stroke-width="2.5"/>')
+        parts.append('<rect x="476" y="46" width="210" height="84" rx="8" fill="#f7e6dc" stroke="#8f381c" stroke-width="3"/>')
+
+    # Crisp legible zone callout pills placed cleanly with zero overlap
+    parts.append('<rect x="42" y="58" width="194" height="58" rx="5" fill="#fffdf7" fill-opacity="0.88" stroke="#184438"/>')
+    parts.append(text(wrap(spec['zone_a'], 22), 139, 82, 14, 11.2, 700, '#183c31', 'middle'))
+    parts.append('<rect x="264" y="60" width="192" height="54" rx="5" fill="#fffdf7" fill-opacity="0.92" stroke="#7c6928"/>')
+    parts.append(text(wrap(spec['barrier'], 22), 360, 82, 14, 11.2, 700, '#3d3312', 'middle'))
+    parts.append('<rect x="484" y="58" width="194" height="58" rx="5" fill="#fffdf7" fill-opacity="0.88" stroke="#8f381c"/>')
+    parts.append(text(wrap(spec['zone_b'], 22), 581, 82, 14, 11.2, 700, '#642e1e', 'middle'))
+    parts.append('<rect x="34" y="138" width="652" height="19" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['hazard'], 360, 151, 10.8, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_escalation_ladder(spec):
+    """Three-tier stepped scope-of-practice or emergency warning escalation ladder."""
+    tiers = spec['tiers']
+    fills = ['#e1ece3', '#f4efd8', '#f6e1d7']
+    strokes = ['#184438', '#7c6928', '#8f381c']
+    text_fills = ['#183c31', '#3d3312', '#642e1e']
+    parts = ['<g id="escalation-ladder-artwork">']
+    for i, tier in enumerate(tiers):
+        x = 30 + i * 224
+        y = 58 - i * 9
+        h = 76 + i * 9
+        parts.append(f'<rect x="{x}" y="{y}" width="206" height="{h}" rx="7" fill="{fills[i]}" stroke="{strokes[i]}" stroke-width="2.6"/>')
+        parts.append(f'<rect x="{x}" y="{y}" width="206" height="22" rx="5" fill="{strokes[i]}"/>')
+        parts.append(_lbl(tier['role'], x + 103, y + 15, 11, '#fffdf7'))
+        parts.append(_lbl(tier['scope'], x + 103, y + 36, 10.6, text_fills[i]))
+        parts.append(text(wrap(tier['action'], 27)[:2], x + 103, y + 52, 13, 10.5, 650, text_fills[i], 'middle'))
+        if i < 2:
+            parts.append(f'<path d="M{x+208} {y+28}l12-8" stroke="{strokes[i+1]}" stroke-width="3" marker-end="url(#arrow)"/>')
+    parts.append('<rect x="30" y="139" width="660" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['trigger'], 360, 152, 10.8, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_anatomy_zone(spec):
+    """Conceptual orientation and care-zone schematic (explicitly non-diagnostic)."""
+    variant = spec['variant']
+    regions = spec['regions']
+    parts = [f'<g id="anatomy-zone-{variant}-artwork">']
+    # Left conceptual silhouette/zone schematic box
+    parts.append('<rect x="28" y="42" width="176" height="94" rx="8" fill="#e6eee8" stroke="#285345" stroke-width="2.4"/>')
+    if variant == 'airway_bleed':
+        parts.append('<circle cx="116" cy="60" r="11" fill="#fffdf7" stroke="#184438" stroke-width="2.2"/>')
+        parts.append('<rect x="96" y="75" width="40" height="36" rx="8" fill="#cde0d4" stroke="#184438" stroke-width="2.2"/>')
+        parts.append('<path d="M96 84L72 104M136 84l24 20M106 111v20M126 111v20" stroke="#184438" stroke-width="3" stroke-linecap="round"/>')
+        parts.append('<circle cx="136" cy="92" r="5" fill="#8f381c"/>')
+    elif variant == 'thermal_core':
+        parts.append('<ellipse cx="116" cy="89" rx="44" ry="34" fill="#d4e5ec" stroke="#245368" stroke-width="2.2" stroke-dasharray="5 3"/>')
+        parts.append('<ellipse cx="116" cy="89" rx="22" ry="18" fill="#e9c89f" stroke="#8f381c" stroke-width="2.5"/>')
+        parts.append(_lbl('CORE', 116, 93, 10.5, '#642e1e'))
+    elif variant == 'limb_splint':
+        parts.append('<path d="M52 89h128" stroke="#184438" stroke-width="10" stroke-linecap="round"/>')
+        parts.append('<rect x="64" y="74" width="104" height="30" rx="5" fill="none" stroke="#8f381c" stroke-width="2.5" stroke-dasharray="6 3"/>')
+        parts.append('<circle cx="80" cy="89" r="6" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+        parts.append('<circle cx="152" cy="89" r="6" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+    else:
+        parts.append('<circle cx="116" cy="89" r="32" fill="#f7e6dc" stroke="#8f381c" stroke-width="2.4"/>')
+        parts.append('<circle cx="116" cy="89" r="14" fill="#fffdf7" stroke="#184438" stroke-width="2"/>')
+        parts.append('<path d="M116 57v64M84 89h64" stroke="#73877b" stroke-width="1.5" stroke-dasharray="4 3"/>')
+
+    # Right three structured priority/orientation zones
+    for i, reg in enumerate(regions):
+        y = 42 + i * 32
+        parts.append(f'<rect x="218" y="{y}" width="474" height="27" rx="5" fill="#f9faef" stroke="#4f6c5d" stroke-width="1.8"/>')
+        parts.append(f'<rect x="218" y="{y}" width="26" height="27" rx="4" fill="#184438"/>')
+        parts.append(_lbl(str(i + 1), 231, y + 18, 11, '#fffdf7'))
+        parts.append(_lbl(reg, 254, y + 18, 11.2, '#183c31', 'start'))
+    parts.append('<rect x="28" y="139" width="324" height="18" rx="4" fill="#dceadf" stroke="#184438"/>')
+    parts.append(_lbl(spec['priority'], 190, 152, 10.5, '#183c31'))
+    parts.append('<rect x="364" y="139" width="328" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['stop'], 528, 152, 10.5, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
+def _render_seasonal_timeline(spec):
+    """Physically meaningful time, temperature, or seasonal progression bar."""
+    variant = spec['variant']
+    phases = spec['phases']
+    fills = ['#d5e5dc', '#e4ebd4', '#f4ebd2', '#f5dfd5']
+    parts = [f'<g id="seasonal-timeline-{variant}-artwork">']
+    # Horizontal timeline spine
+    parts.append('<path d="M36 62h644" stroke="#184438" stroke-width="4" marker-end="url(#arrow)"/>')
+    for i, ph in enumerate(phases):
+        x = 28 + i * 168
+        w = 156
+        cx = x + w / 2
+        parts.append(f'<circle cx="{cx}" cy="62" r="8" fill="#184438" stroke="#fffdf7" stroke-width="2"/>')
+        parts.append(_lbl(ph['window'], cx, 48, 11, '#183c31'))
+        parts.append(f'<rect x="{x}" y="76" width="{w}" height="58" rx="6" fill="{fills[i]}" stroke="#315245" stroke-width="2"/>')
+        parts.append(text(wrap(ph['focus'], 20), cx, 98, 14, 11, 650, '#183c31', 'middle'))
+    parts.append('<rect x="28" y="139" width="664" height="18" rx="4" fill="#faeee5" stroke="#a05332"/>')
+    parts.append(_lbl(spec['threshold'], 360, 152, 10.8, '#642e1e'))
+    parts.append('</g>')
+    return ''.join(parts)
+
+
 RENDERERS = {
     'cutaway': _render_cutaway,
     'force_redirect': _render_force_redirect,
@@ -456,6 +717,12 @@ RENDERERS = {
     'environment': _render_environment,
     'decision_tree': _render_decision_tree,
     'failure_mode': _render_failure_mode,
+    'correct_vs_wrong': _render_correct_vs_wrong,
+    'sequence_plate': _render_sequence_plate,
+    'system_boundary': _render_system_boundary,
+    'escalation_ladder': _render_escalation_ladder,
+    'anatomy_zone': _render_anatomy_zone,
+    'seasonal_timeline': _render_seasonal_timeline,
 }
 
 

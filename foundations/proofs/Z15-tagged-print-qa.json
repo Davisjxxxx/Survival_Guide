@@ -1,0 +1,22 @@
+{
+  "Z15-letter.pdf": {
+    "sheets": 65,
+    "format": "Letter",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 65,
+    "bookmarks": 65,
+    "extracted_section_order": true,
+    "sha256": "8846b62f4dc8ed83cd682bf3a8d702dad5042fb9f67cb42db5363027bf199a19"
+  },
+  "Z15-a4.pdf": {
+    "sheets": 65,
+    "format": "A4",
+    "structure": true,
+    "language": "en",
+    "figure_alt_entries": 65,
+    "bookmarks": 65,
+    "extracted_section_order": true,
+    "sha256": "e5f5f2baab096467d0d715298fb08ed4cd88aa244cb413743de6abfec2df4071"
+  }
+}

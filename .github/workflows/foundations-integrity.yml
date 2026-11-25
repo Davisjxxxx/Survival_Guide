@@ -1,9 +1,15 @@
 name: Foundational production integrity
 on:
   push:
-    branches: [review/foundational-production-20261124, review/astra-a01-technical-audit-20261124]
+    branches:
+      - review/foundational-production-20261124
+      - review/astra-a01-technical-audit-20261124
+      - review/neon-p12-p15-20261124
   pull_request:
-    branches: [review/s02-s03-historical-recovery-20261124, review/foundational-production-20261124]
+    branches:
+      - review/s02-s03-historical-recovery-20261124
+      - review/foundational-production-20261124
+      - review/astra-a01-technical-audit-20261124
 permissions:
   contents: read
 jobs:

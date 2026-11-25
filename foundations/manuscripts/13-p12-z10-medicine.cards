@@ -1,0 +1,1119 @@
+Z10-P01 | Separate layperson care, dispatcher guidance, and clinical interventions | American Red Cross and NIH MedlinePlus; new manuscript
+objective: Establish clear scope-of-practice boundaries before touching an injured or ill person in remote terrain.
+applies: Any outdoor or backcountry injury, acute illness, or sudden collapse where professional EMS is delayed.
+equipment: Written emergency contacts, communication device if reachable, clean gloves if carried, and basic first-aid kit matched to training.
+action: Pause and verify scene safety (falling rock, traffic, water, lightning, wildlife, or unstable ice) before entering to help; a second casualty doubles rescue complexity. @T01,M01
+action: Activate 911 or emergency dispatch early whenever life-threatening signs appear—distinguishing immediate lay stabilization (pressure, airway positioning, warmth) from dispatcher-guided actions and hospital clinical interventions. @T02,M03,M20
+action: Act strictly within your actual training and carried supplies; never attempt invasive procedures, prescribe medication dosages, or diagnose internal conditions in the field. @M20,ED
+failure: Rushing into an active rockfall or ice-edge hazard without checking the scene, or attempting improvised medical procedures outside lay training. @T01,M20
+verify: Confirm scene hazards are controlled, emergency activation is underway or planned, and every caregiver knows their exact lay boundary. @T01,T02,ED
+stop: Stop any intervention that exceeds lay training or puts rescuers in unmitigated danger; prioritize scene safety and rapid EMS handoff. @T01,M20
+diagram: Scene safe & lay stabilization | 911 dispatcher-guided steps | EMS & clinical definitive care
+visual: Three-tier care escalation ladder separating layperson immediate care, dispatcher-guided actions, and qualified clinical interventions. Conceptual, not to scale.
+reviewer: Wilderness medicine and EMS
+
+Z10-P02 | Run a rapid primary survey for breathing and life-threatening bleeding | American Red Cross and ACS Stop the Bleed; new manuscript
+objective: Identify immediately fatal conditions in seconds before examining minor scrapes or sprains.
+applies: First sixty seconds with any injured, fallen, or suddenly collapsed companion.
+equipment: Disposable nitrile gloves if available, watch or phone clock, and clean dressing cloth.
+action: Check responsiveness by tapping and shouting clearly; if the person does not respond, call 911 immediately and send someone for an AED if near a facility. @T01,T02,M03
+action: Look for normal rhythmic breathing for no more than ten seconds—occasional gasping (agonal breaths) is NOT normal breathing and requires immediate emergency CPR activation per dispatcher or training. @M03
+action: Scan head to toe visually for pooling blood, spurting bleeding, or soaked heavy winter clothing that can conceal severe hemorrhage. @M01
+failure: Spending five minutes bandaging a scraped forearm while missing an unresponsive breathing problem or hidden thigh bleed under dark snow pants. @M01,M03
+verify: Confirm responsiveness, normal breathing, and absence of uncontrolled heavy bleeding before moving to secondary checks. @T01,M01,M03
+stop: Unresponsiveness, abnormal breathing, or life-threatening bleeding triggers immediate 911 activation and continuous life-threat control ahead of everything else. @T02,M01,M03
+diagram: Check scene & response | Verify normal breathing | Scan & control heavy bleeding
+visual: Four-step sequential primary survey plate mapping scene check, responsiveness, breathing check, and hemorrhage scan. Conceptual, not to scale.
+reviewer: EMS and trauma care
+
+Z10-P03 | Stop severe external bleeding with firm continuous direct pressure | ACS STOP THE BLEED and NIH MedlinePlus; new manuscript
+objective: Control life-threatening external hemorrhage rapidly using direct pressure before blood loss triggers shock.
+applies: Heavy continuous bleeding, spurting blood, or blood soaking through clothing anywhere on the body.
+equipment: Clean sterile gauze or folded clean cloth, nitrile gloves if carried, and pressure bandage.
+action: Expose the bleeding site completely by cutting or opening clothing so you press directly on the actual bleeding source rather than thick outer layers. @M01
+action: Apply firm, continuous two-handed direct pressure straight onto the bleeding wound using clean gauze or cloth; do NOT lift the dressing repeatedly to peek. @M01
+action: If blood soaks through the first pad, place additional clean gauze directly on top and press harder while keeping 911/EMS activation in progress; trained responders may pack deep junctional wounds per Stop the Bleed protocols. @M01,T02
+failure: Applying gentle tentative pressure over bulky jackets or lifting soaked gauze every thirty seconds, which breaks fragile forming clots. @M01
+verify: Confirm bleeding slows or stops under steady pressure while a companion coordinates emergency extraction and monitors responsiveness. @M01,T02,ED
+stop: Bleeding that fails to stop under firm direct pressure on an arm or leg requires immediate commercial tourniquet escalation (if trained/equipped) and urgent EMS transport. @M01,M02
+diagram: Expose exact wound site | Firm continuous direct pressure | Stack gauze; escalate if needed
+visual: Conceptual anatomical orientation schematic highlighting direct pressure over bleeding zones versus junctional/extremity escalation boundaries. Conceptual, not to scale.
+reviewer: Trauma EMS and wilderness medicine
+
+Z10-P04 | Apply commercial tourniquet limits and EMS time documentation | ACS STOP THE BLEED; new manuscript
+objective: Distinguish validated commercial extremity tourniquets from unsafe improvised straps when direct pressure fails.
+applies: Life-threatening arm or leg bleeding uncontrolled by firm direct pressure when a commercial windlass tourniquet and training are available.
+equipment: Commercial windlass tourniquet (e.g., CAT/SOFTT), permanent marker or written log, and watch.
+action: Place a commercial tourniquet high and tight on the injured arm or leg—at least 2 to 3 inches above the wound and NEVER directly over a knee or elbow joint—and tighten the windlass until bright bleeding stops completely. @M02
+action: Lock the windlass securely, write the exact application time on the tourniquet strap and patient log, and leave the tourniquet uncovered and clearly visible for arriving EMS crews. @M02,M20
+action: Never loosen or remove a tourniquet placed for life-threatening bleeding in the field; hospital surgical teams manage definitive removal. @M02
+failure: Relying on shoelaces, thin paracord, or loose belts that pinch skin without occluding arterial flow, or hiding the tourniquet under a blanket without recording application time. @M02
+verify: Confirm bleeding has ceased completely, application time is written clearly, and urgent EMS evacuation is activated. @M02,T02
+stop: If bleeding persists after tightening one properly placed commercial tourniquet, apply a second commercial tourniquet directly above the first if available and expedite EMS rescue. @M02,T02
+diagram: Commercial high/tight above joint | Lock windlass & log exact time | Leave visible for EMS; never loosen
+visual: Correct versus incorrect configuration contrasting proper commercial tourniquet placement and time logging against hazardous thin improvised straps or joint placement. Conceptual, not to scale.
+reviewer: Trauma EMS and wilderness medicine
+
+Z10-P05 | Recognize circulatory shock and insulate patients while withholding oral fluids | NIH MedlinePlus and American Red Cross; new manuscript
+objective: Spot early signs of circulatory shock and stabilize body heat and position while awaiting clinical rescue.
+applies: Any patient with major bleeding, trauma, severe burns, allergic reaction, severe vomiting/diarrhea, or unexplained weakness.
+equipment: Insulating ground pad, dry blankets or sleeping bag, wind shelter, and written monitoring log.
+action: Watch for shock warning signs—pale cool clammy skin, rapid shallow breathing, rapid weak pulse, restlessness, dizziness, nausea, or worsening confusion—remembering shock can develop even without visible external blood. @M05
+action: Call 911 immediately, control any external bleeding, lay the person flat on an insulating ground pad (unless breathing distress or spinal concern dictates otherwise), and wrap them against wind and ground cold. @M05,E05,T02
+action: Do NOT give food, water, or alcohol by mouth to a patient in suspected shock—nausea, declining consciousness, or future surgical anesthesia creates severe aspiration risk. @M05
+failure: Leaving a pale, shivering trauma patient sitting upright on cold bare ground or encouraging them to drink sugary fluids while awaiting EMS. @M05,E05
+verify: Confirm the patient is insulated underneath and overhead, external bleeding is checked, breathing is monitored, and zero oral fluids are given. @M05,M20,ED
+stop: Any worsening confusion, fading responsiveness, or abnormal breathing requires immediate re-escalation with 911/dispatch and readiness for airway support. @M05,M03,M22
+diagram: Spot pale clammy skin & confusion | Control bleed & insulate from ground | Keep NPO; expedite EMS transport
+visual: Conceptual core-thermal zone diagram highlighting ground insulation and core warmth preservation while keeping suspected shock patients NPO. Conceptual, not to scale.
+reviewer: Emergency and wilderness medicine
+
+Z10-P06 | Track patient trends over time with written logs for EMS handoff | NIH MedlinePlus and NPS Emergency Plan; new manuscript
+objective: Record objective timed observations so delayed rescuers can detect silent clinical deterioration immediately.
+applies: Any injured or ill patient waiting more than fifteen minutes for evacuation or clinical evaluation.
+equipment: Waterproof notepad or index card, pencil (works in freezing wet weather), and watch.
+action: Write down the exact injury/onset time, mechanism of harm, allergies, current medications, and baseline mental status (alert, confused, responds to voice, or unresponsive) right after initial stabilization. @M20,T06
+action: Re-check and log breathing effort, skin color/warmth, bleeding dressing saturation, pain changes, and mental clarity at steady intervals—roughly every 15 minutes for unstable patients or every 30 to 60 minutes if stable. @M20,M05
+action: Hand the written time-stamped sheet directly to EMS or SAR clinicians on arrival rather than relying on memory under stress. @M20,T06
+failure: Relying on verbal memory across a two-hour carryout and forgetting when a tourniquet was applied or when confusion first started. @M20,M02
+verify: Confirm times, baseline symptoms, interventions, and trend direction (improving, steady, or worsening) are legible on paper. @M20,ED
+stop: Downward trend in responsiveness, rising breathing effort, spreading swelling, or new neurological signs requires immediate emergency escalation regardless of earlier stability. @T02,M20,M11
+diagram: Log baseline time & mechanism | Recheck trends on fixed intervals | Transfer written sheet to EMS
+visual: Time-progression monitoring timeline mapping baseline assessment, 15-minute unstable rechecks, trend comparison, and EMS handoff. Conceptual, not to scale.
+reviewer: Wilderness EMS and clinical documentation
+
+Z10-P07 | Deliver clear medical location and status reports to 911 or SAR dispatch | NPS Emergency Plan and American Red Cross; new manuscript
+objective: Transmit concise, actionable patient and terrain facts so dispatchers launch the right ground or air resources immediately.
+applies: Any outdoor or remote medical emergency where phone, radio, or satellite contact can be established.
+equipment: Written patient log, map/GPS coordinate format with datum, and communication device.
+action: State your exact location first (coordinates with format and datum, trailhead, or prominent landmark) so dispatch can still locate you if the signal drops mid-call. @T02,T06,N11
+action: Report the number of patients, age/sex if known, mechanism of injury, current responsiveness, breathing status, severe bleeding, and immediate weather or terrain hazards. @T02,M20
+action: Stay on the line until the dispatcher hangs up, follow all telephone care prompts, and confirm whether your party must stay put or move to a named access point. @T02,T06
+failure: Spending two minutes telling the story of the hike before giving coordinates, then losing cell signal with no location transmitted. @T02,T06
+verify: Confirm dispatch read back your coordinates/landmark, patient red flags, and next check-in time or channel. @T06,N11,ED
+stop: If cellular or radio contact fails completely at the scene, keep one caregiver with the patient and send a paired runner with the written report only if terrain is safe. @T06,E11,M20
+diagram: Give exact location & datum first | Report red flags & terrain hazards | Stay on line; log dispatch plan
+visual: Four-step emergency medical communication sequence prioritizing location-first transmission and dispatcher read-back. Conceptual, not to scale.
+reviewer: SAR communications and EMS dispatch
+
+Z10-P08 | Activate 911, AED, and dispatcher-guided CPR for cardiac arrest | American Red Cross CPR Steps; new manuscript
+objective: Recognize sudden unresponsiveness without normal breathing and start immediate emergency resuscitation within lay training.
+applies: Any person who is unresponsive and not breathing normally (including occasional agonal gasps).
+equipment: Phone/radio for 911 activation and an Automated External Defibrillator (AED) if reachable.
+action: Confirm the scene is safe, tap and shout firmly, and check for normal breathing for no more than ten seconds; treat absent or gasping breaths as cardiac arrest. @M03,T01
+action: Call 911 immediately on speakerphone, send a bystander for an AED if near a trailhead or building, and begin firm center-of-chest compressions per certified CPR training or live 911 dispatcher coaching. @M03,T02
+action: Power on an arriving AED immediately and follow its voice prompts while minimizing pauses in chest compressions until EMS takes over or clear signs of life return. @M03
+failure: Delaying 911 or compressions because occasional agonal gasping is mistaken for normal breathing. @M03
+verify: Confirm 911 is active, compressions follow dispatcher or certified-course rhythm, and responders rotate every two minutes when teammates are present to prevent fatigue. @M03,ED
+stop: Stop compressions only if the scene becomes unsafe, clear normal breathing/movement resumes, an AED instructs hands-off analysis, or EMS assumes care. @M03,T01
+diagram: Unresponsive + no normal breath | Call 911 & fetch AED immediately | Follow trained or dispatcher CPR
+visual: Three-tier cardiac-arrest escalation ladder separating immediate lay recognition/compressions, dispatcher coaching, and EMS/AED handoff. Conceptual, not to scale.
+reviewer: Resuscitation and EMS
+
+Z10-P09 | Respond to severe choking while avoiding blind finger sweeps | NIH MedlinePlus Choking; new manuscript
+objective: Separate effective coughing from silent severe airway obstruction and escalate promptly within lay boundaries.
+applies: Conscious or collapsing person who suddenly cannot breathe, speak, or cough forcefully while eating or handling small objects.
+equipment: Voice communication and phone access for immediate 911 activation.
+action: If the person can cough forcefully or speak, stay beside them and encourage continued coughing without slapping their back or interfering with their own airway clearing. @M04
+action: If the person is silent, clutches their throat, cannot cough or speak, or turns bluish, call 911 immediately and apply trained back blows/abdominal thrusts (or live dispatcher-guided steps). @M04,T02
+action: If a choking person becomes unresponsive, lower them safely to firm ground, confirm 911 is activated, and begin dispatcher-guided or trained CPR—never perform blind finger sweeps into the throat. @M04,M03
+failure: Performing a blind finger sweep in the mouth, which can push a lodged piece of food deeper and seal the airway completely. @M04
+verify: Confirm normal speech and easy breathing return after any obstruction clears, and arrange medical evaluation after abdominal thrusts or persistent coughing. @M04,ED
+stop: Any worsening cyanosis, silence, or collapse requires immediate 911 escalation and uninterrupted dispatcher-guided emergency care. @M04,T02
+diagram: Forceful cough -> encourage only | Silent obstruction -> 911 + aid | Unresponsive -> CPR; zero blind sweeps
+visual: Correct versus incorrect choking response contrasting encouraged coughing and trained/dispatcher steps against hazardous blind finger sweeps. Conceptual, not to scale.
+reviewer: EMS and emergency medicine
+
+Z10-P10 | Position a breathing unresponsive patient in a stable recovery posture | American Red Cross First Aid Steps; new manuscript
+objective: Protect the open airway of an unresponsive person who is breathing normally while awaiting professional rescue.
+applies: Unresponsive person breathing normally with NO suspected head, neck, or spinal trauma.
+equipment: Insulating ground pad or folded jacket beneath the patient and watch to monitor breathing.
+action: Verify normal rhythmic breathing and absence of high-force fall or neck/back trauma before rolling the patient; if spinal injury is suspected, leave them in place unless vomiting or fluid threatens the airway. @M22,M11
+action: Roll the person gently onto their side with the top knee bent forward for stability and the head angled slightly downward so saliva or vomit drains out of the mouth rather than blocking the airway. @M22
+action: Insulate the patient from cold ground, stay beside them continuously, and recheck normal breathing every few minutes until EMS arrives. @M22,E05,M20
+failure: Leaving an unresponsive breathing person flat on their back where the tongue or vomit can silently obstruct the airway. @M22
+verify: Confirm the chest rises smoothly, the mouth angles slightly downward to drain, and ground insulation is beneath the torso. @M22,E05
+stop: If breathing stops or becomes abnormal gasping, roll the person promptly onto their back and initiate 911 dispatcher-guided CPR immediately. @M22,M03
+diagram: Confirm normal breath & no spine risk | Roll gently onto side; drain airway | Insulate & monitor breathing continuously
+visual: Conceptual orientation diagram showing side-lying recovery posture for airway drainage and continuous breathing check. Conceptual, not to scale.
+reviewer: EMS and airway safety
+
+Z10-P11 | Recognize acute breathing distress and escalate early | NIH MedlinePlus and American Red Cross; new manuscript
+objective: Identify life-threatening respiratory distress early and position the patient safely without attempting unprescribed medication.
+applies: Sudden shortness of breath, wheezing, chest tightness, blue lips, or inability to speak full sentences during outdoor activity.
+equipment: Patient's own prescribed inhaler if carried, shelter from smoke/cold wind, and emergency communication.
+action: Halt all physical exertion immediately, move away from smoke, cold gusts, or allergens, and let an alert patient rest in their most comfortable upright leaning-forward posture. @T01,M08,D06
+action: Ask if the patient carries their own prescribed rescue inhaler or epinephrine auto-injector; assist only with their own labeled device per its instructions—never share another person's prescription medication. @M08,M20
+action: Call 911 immediately for inability to speak full sentences, bluish lips/nails, noisy stridor, chest pain, severe wheezing, or failure to improve rapidly after resting. @T02,M08,X09
+failure: Forcing an asthmatic or short-of-breath hiker to "walk it off" uphill or sharing someone else's unprescribed inhaler. @M08,M20
+verify: Confirm breathing rate, speech length (full sentences vs single words), skin/lip color, and time of any own-prescription use are logged. @M20,ED
+stop: Worsening fatigue, confusion, silent chest, or declining responsiveness requires immediate 911 escalation and readiness for CPR. @T02,M03,M08
+diagram: Stop exertion & upright posture | Assist own prescribed inhaler only | Escalate 911 for severe red flags
+visual: Three-tier breathing-distress escalation ladder separating rest/posture, own-device assistance, and urgent EMS activation. Conceptual, not to scale.
+reviewer: Emergency medicine and pulmonology
+
+Z10-P12 | Spot chest pain and stroke warning signs for immediate EMS activation | American Red Cross and NIH MedlinePlus; new manuscript
+objective: Treat sudden cardiac or stroke warning signs as time-critical emergencies rather than hiking fatigue.
+applies: Adults experiencing unexplained chest pressure, jaw/arm pain, shortness of breath, sudden facial droop, arm weakness, or slurred speech.
+equipment: Communication device, insulating ground pad, shade/shelter, and written symptom-onset time log.
+action: Stop all activity immediately, seat or lay the person comfortably at rest in shelter, and log the exact minute symptoms started (critical for hospital stroke treatment windows). @T02,M20
+action: Check stroke signs rapidly—Face drooping on one side, Arm weakness or drift, Speech slurred or strange—and treat chest pressure, sweating, nausea, or sudden unexplained collapse as urgent cardiac/medical emergencies. @T02,M05
+action: Call 911 immediately and follow dispatcher instructions; do NOT let the patient drive, walk out strenuously, or take unprescribed medications unless a 911 dispatcher or clinician specifically directs it. @T02,M20
+failure: Assuming chest tightness or slurred speech is just dehydration and having the person hike back to the trailhead. @T02,M05
+verify: Confirm exact symptom-onset time is written down, exertion has stopped, and emergency transport is inbound. @T02,M20
+stop: Any loss of consciousness or abnormal breathing transitions immediately to 911 dispatcher-guided CPR and AED retrieval. @M03,T02
+diagram: Spot chest pain or FAST stroke signs | Stop exertion & log exact onset time | Call 911; follow dispatcher guidance
+visual: Four-step acute cardiac and stroke response plate covering recognition, exact onset logging, rest/shelter, and 911 activation. Conceptual, not to scale.
+reviewer: Emergency medicine and EMS
+
+Z10-P13 | Decide between walk-out, assisted exit, and staying put for SAR extraction | NPS Emergency Plan and NIH MedlinePlus; new manuscript
+objective: Match evacuation strategy to patient stability, terrain difficulty, daylight, and party capacity without creating new casualties.
+applies: Any backcountry injury or illness where the party must choose whether to self-evacuate or summon organized rescue.
+equipment: Map, trip plan, daylight/weather forecast, communication device, and written patient trend log.
+action: Consider walking out ONLY when the patient is fully alert, stable across repeated checks, able to bear weight safely without worsening the injury, and daylight/weather allow a conservative exit. @T06,M10,M20
+action: Stay put, shelter, insulate, and call organized SAR whenever the patient has severe bleeding, shock, altered mental status, head/spine/pelvis/femur injury, heat stroke, severe hypothermia, or cannot walk safely. @T02,T06,M05
+action: Weigh nightfall, steep slippery terrain, and rescuer exhaustion honestly—two exhausted companions trying to drag an injured hiker down steep trails frequently trigger secondary falls. @E11,T06,M20
+failure: Attempting an improvised late-afternoon carryout over wet roots with an unstable patient instead of establishing warm shelter and calling SAR early. @T06,E11
+verify: Confirm all party members agree on the evacuation threshold, shelter capacity, water/warmth reserves, and who maintains communication. @T06,E11,ED
+stop: Any deterioration in patient stability, darkness, storm onset, or rescuer fatigue halts movement immediately in favor of warm shelter and SAR activation. @T06,E05,M20
+diagram: Stable & walks safely -> controlled exit | Red flags / unstable -> stay & call SAR | Stop movement if party tires or darkens
+visual: Decision tree evaluating patient red flags, walking stability, and terrain/daylight limits to select self-exit versus organized SAR. Conceptual, not to scale.
+reviewer: Search and rescue and wilderness medicine
+
+Z10-P14 | Recognize improvised litter hazards and when not to move a patient | NPS Emergency Plan and NIH MedlinePlus; new manuscript
+objective: Prevent catastrophic secondary spinal, bleeding, or drop injuries caused by premature improvised carries.
+applies: Non-ambulatory injured persons in backcountry terrain before trained SAR litter teams arrive.
+equipment: Insulating pads, shelter tarp/tent, dry layers, and communication device.
+action: Do NOT move a non-ambulatory patient with suspected neck, spine, pelvis, femur, or internal injury unless immediate life-threatening scene danger (rising floodwater, fire, rockfall, or airway threat) forces a short urgent move. @M11,M09,T01
+action: Recognize that improvised pole-and-jacket litters require six to eight fresh rotating carriers on uneven trails and often collapse, drop the patient, or exhaust small parties within a few hundred yards. @T06,M20,ED
+action: Prioritize building warm windproof ground-insulated shelter around the patient in place while activating professional SAR litter teams equipped with rigid stretchers and rigging. @E05,T06,M05
+failure: Loading a suspected spinal-injury patient onto a sagging improvised jacket stretcher with three tired hikers on a rocky descent. @M11,T06
+verify: Confirm scene is stable, patient is insulated in place, and SAR dispatch knows the patient is non-ambulatory and requires a litter team. @T06,M11,M20
+stop: If a life-threatening hazard forces moving an injured person, keep the body aligned as one unit over the shortest distance to safety, then halt and stabilize. @T01,M11
+diagram: No imminent danger -> shelter in place | Improvised carries risk drops/spine harm | Request trained SAR litter team
+visual: Correct versus incorrect non-ambulatory management contrasting in-place thermal shelter and SAR litter activation against fragile under-staffed improvised carries. Conceptual, not to scale.
+reviewer: Search and rescue and trauma EMS
+
+Z10-P15 | Coordinate air-ambulance medical rescue under strict crew exclusion rules | NPS Visitor Protection Aviation Program; new manuscript
+objective: Keep patients, bystanders, and loose gear completely clear of rotor-wash hazards while flight crews control every air-rescue step.
+applies: Remote medical emergencies where dispatch notifies the party that a rescue helicopter is inbound.
+equipment: Secure packs/tarps, eye protection if carried, high-contrast clothing kept weighed down, and active comms with dispatch.
+action: Clear or weigh down all loose tarps, sleeping pads, hats, and plastic bags well before the aircraft approaches—rotor wash hurls loose gear into tail rotors and faces at high speed. @N13,T01
+action: Shield the patient's eyes and airway from blowing dust, gravel, or snow, stay seated/crouched well clear of the landing area, and keep all bystanders completely back until the flight crew explicitly signals you. @N13,T01
+action: Never approach a helicopter from behind (tail rotor), uphill side, or on your own initiative; follow explicit hand signals or radio instructions from the crew or dispatch exclusively. @N13
+failure: Running excitedly toward a landing rescue helicopter with an unsecured tarp fluttering beside the patient. @N13,T01
+verify: Confirm all loose equipment is secured inside closed packs, bystanders are accounted for well clear, and one person relays dispatch prompts. @N13,ED
+stop: Any unsecured debris, shifting bystanders, or unclear crew signal requires holding completely still in place until crew personnel walk to you. @N13
+diagram: Secure all loose gear early | Shield patient & hold well clear | Wait for explicit flight-crew direction
+visual: System separation schematic showing helicopter rotor-wash exclusion perimeter, secured gear zone, and crew-controlled approach gate. Conceptual, not to scale.
+reviewer: SAR aviation and wilderness EMS
+
+Z10-P16 | Sustain overnight remote patient stabilization during delayed rescue | NWS Winter Shelter and NIH MedlinePlus; new manuscript
+objective: Protect an immobilized patient from hypothermia, pressure sores, and dehydration when extraction takes many hours.
+applies: Any immobilized or ill backcountry patient awaiting next-day or weather-delayed SAR evacuation.
+equipment: Thick ground insulation, dry sleeping bags, windproof shelter, headlamp, warm/safe fluids (if alert and allowed), and monitoring log.
+action: Place maximum ground insulation beneath an immobile patient first—an injured person generates minimal body heat and loses warmth rapidly into cold soil or snow even in mild seasons. @E05,M05,M23
+action: Protect the patient's shelter from wind and rain, maintain scheduled mental-status and breathing checks through the night, and keep caregivers fed, hydrated, and rotating rest shifts so no one collapses from exhaustion. @E05,M20,E11
+action: Offer small sips of safe potable water ONLY if the patient is fully alert, swallowing normally, and has no suspected shock, abdominal injury, or imminent surgery red flags. @M05,M17,W09
+failure: Giving all sleeping pads to caregivers while the injured patient lies on a thin raincoat overnight and slips into hypothermia before dawn. @E05,M23
+verify: Confirm ground insulation, dry outer barrier, scheduled caregiver watch shifts, and ongoing timed patient notes are active. @E05,M20,ED
+stop: Rapid deterioration in warmth, alertness, or breathing overnight triggers immediate re-contact with dispatch/beacon activation if not already deployed. @T02,N05,M20
+diagram: Max insulation under immobile patient | Rotate caregiver watch & log trends | Offer safe sips only if alert & no shock
+visual: Overnight stabilization timeline mapping dusk insulation setup, scheduled watch rotations, hydration/airway checks, and dawn SAR handoff. Conceptual, not to scale.
+reviewer: Wilderness medicine and search and rescue
+
+Z10-P17 | Control junctional bleeding where a tourniquet cannot be placed | ACS STOP THE BLEED; new manuscript
+objective: Recognize life-threatening groin, armpit, or neck bleeding and maintain continuous targeted pressure until EMS arrives.
+applies: Severe bleeding in junctional zones (neck, shoulder/armpit, groin/hip) where extremity tourniquets cannot physically encircle the limb.
+equipment: Clean sterile gauze (or hemostatic gauze if carried and trained), gloves, and continuous two-handed direct pressure.
+action: Call 911 immediately and expose the junctional wound completely so pressure lands straight on the bleeding vessel rather than surrounding tissue. @M01,T02
+action: Apply firm, continuous, uninterrupted direct pressure straight into the bleeding source; responders trained in Stop the Bleed may pack clean or hemostatic gauze tightly into deep groin/armpit cavities (NEVER pack the neck, chest, or abdomen) and hold continuous pressure. @M01
+action: Keep the patient warm and insulated against shock while maintaining steady downward pressure without releasing to check until EMS assumes control. @M01,M05
+failure: Trying to wrap an extremity tourniquet loosely around a hip or neck, or packing gauze into a chest or abdominal stab wound. @M01,M02
+verify: Confirm steady uninterrupted pressure directly on the bleeding point, zero packing of neck/chest/abdomen, and active EMS response. @M01,T02
+stop: Never release effective pressure prematurely; if caregiver hands fatigue, swap hands smoothly with a second responder while keeping constant downward force. @M01
+diagram: Tourniquet cannot fit groin/armpit/neck | Hold firm uninterrupted direct pressure | Pack deep groin/armpit only if trained
+visual: Conceptual anatomical orientation schematic distinguishing extremity tourniquet zones from junctional direct-pressure/packing boundaries and non-packable torso cavities. Conceptual, not to scale.
+reviewer: Trauma EMS and wilderness medicine
+
+Z10-P18 | Manage routine nosebleeds while spotting head-trauma or severe hemorrhage flags | NIH MedlinePlus Bleeding; new manuscript
+objective: Stop uncomplicated nosebleeds cleanly while recognizing when nasal bleeding signals serious trauma or uncontrolled blood loss.
+applies: Spontaneous dry-air/altitude nosebleeds versus post-impact facial or head-injury bleeding.
+equipment: Clean tissues or gauze, watch, and cool compress if available.
+action: Have an alert person sit upright leaning slightly forward (NOT backward) so blood drains forward instead of down the throat, which triggers coughing, vomiting, and airway irritation. @M19
+action: Pinch the soft lower portion of the nose firmly below the bony bridge continuously for 10 full minutes without peeking, breathing calmly through the mouth. @M19
+action: Escalate immediately to emergency care if bleeding follows a significant head/face impact, includes clear watery fluid mixed with blood, continues beyond 20 minutes of firm pinching, or causes dizziness/weakness. @M19,M11,T02
+failure: Tilting the patient's head backward and pinching only the hard upper bony bridge while blood runs down their throat. @M19
+verify: Confirm upright forward lean, steady 10-minute lower-soft-nose pinch, and absence of head-injury or dizziness red flags. @M19,M11
+stop: Heavy persistent bleeding, blood-thinning medication with uncontrolled flow, breathing difficulty, or dizziness requires urgent clinical evaluation. @M19,T02
+diagram: Sit upright & lean slightly forward | Pinch soft lower nose 10 min steady | Escalate for trauma, >20 min or dizziness
+visual: Correct versus incorrect nosebleed positioning contrasting upright forward-leaning soft-nose pinch against hazardous head-back posture. Conceptual, not to scale.
+reviewer: Emergency medicine and ENT safety
+
+Z10-P19 | Spot suspected internal bleeding and prioritize urgent EMS evacuation | NIH MedlinePlus Bleeding and Shock; new manuscript
+objective: Recognize hidden internal hemorrhage after blunt trauma or illness where no external wound is visible.
+applies: High-force falls, bicycle/ATV/snowmobile crashes, struck-by-log blows, or sudden severe abdominal pain/collapse.
+equipment: Ground insulation, blankets, written monitoring log, and emergency communications.
+action: Suspect internal bleeding after hard torso/pelvis/thigh impacts or when a person shows rigid tender abdomen, expanding bruising, coughing or vomiting blood, dark tarry/bloody stool, or worsening dizziness/pallor. @M19,M05
+action: Activate 911 immediately—internal hemorrhage cannot be stopped by field dressings and requires rapid hospital surgical stabilization. @M19,M05,T02
+action: Keep the patient completely still, horizontal and insulated from cold ground, withhold all food and fluids (NPO), and monitor alertness and breathing continuously. @M05,E05,M20
+failure: Dismissing a hard handlebar blow to the belly as "just getting the wind knocked out" and letting the person hike on as shock develops silently. @M19,M05
+verify: Confirm mechanism of injury, abdominal/bruising signs, vital trends, and urgent evacuation request are documented clearly. @M19,M20
+stop: Any signs of progressive shock (pale clammy skin, fast weak pulse, confusion) mandate highest-priority emergency extraction. @M05,T02
+diagram: Blunt torso blow or blood vomit/cough | Keep still, insulated & strictly NPO | Expedite urgent hospital surgical care
+visual: Failure-mode diagram tracing silent blunt-trauma internal hemorrhage through shock cues to immediate NPO stabilization and EMS transport. Conceptual, not to scale.
+reviewer: Trauma surgery and EMS
+
+Z10-P20 | Clean minor cuts and abrasions with potable water and protect against dirt | NIH MedlinePlus Wounds and CDC Safe Water; new manuscript
+objective: Reduce field wound infection risk using clean potable-water irrigation and protective dressings without damaging healthy tissue.
+applies: Superficial minor cuts, scrapes, and abrasions after bleeding is controlled.
+equipment: Confirmed potable drinking water (or sterile saline), clean syringe/bag for gentle flushing, mild soap for surrounding intact skin, and sterile non-stick dressings.
+action: Wash your own hands (or wear clean gloves) first, then rinse the minor wound thoroughly under steady clean potable water to flush out dirt, grit, and surface debris. @M06,W29,F01
+action: Wash surrounding intact skin gently with mild soap and safe water, avoiding pouring harsh alcohol, hydrogen peroxide, or full-strength iodine directly inside open tissue where they irritate healing cells. @M06,ED
+action: Pat surrounding skin dry with clean gauze, cover the wound completely with a clean sterile dressing, and re-check daily for moisture, dirt breakthrough, or infection signs. @M06
+failure: Rinsing an open scrape in untreated creek water or sealing muddy grit inside a wound with tight tape. @M06,W29
+verify: Confirm only confirmed potable/boiled-and-cooled water touched the wound, visible grit is flushed out, and the dressing stays clean and dry. @M06,W29
+stop: Deep gaping cuts, heavy dirt that will not flush clean, hand/face/joint wounds, or unknown tetanus status require prompt clinical care. @M06
+diagram: Clean hands & flush with potable water | Avoid harsh chemicals inside open wound | Cover clean; inspect daily for infection
+visual: Four-step minor wound-care plate showing hand hygiene, potable-water irrigation, surrounding skin cleaning, and sterile covering. Conceptual, not to scale.
+reviewer: Wilderness medicine and wound care
+
+Z10-P21 | Stabilize impaled objects in place and escalate deep puncture wounds | NIH MedlinePlus Wounds; new manuscript
+objective: Prevent catastrophic bleeding and deep tissue damage by never pulling out impaled objects and recognizing hidden puncture infection risks.
+applies: Branches, glass, metal, arrows, or fishhooks deeply embedded in tissue, plus deep nail/thorn/splinter punctures.
+equipment: Bulky clean gauze pads, roller bandage/tape, and emergency communication.
+action: If an object is impaled deeply in the body, do NOT pull it out—the object may be plugging a severed blood vessel, and removing it can trigger fatal internal or external hemorrhage. @M06,M01
+action: Control bleeding around the base with gentle pressure on either side without pressing on the object itself, build bulky donut-style padding around it to prevent movement, and activate 911/EMS. @M06,M01,T02
+action: Treat all deep puncture wounds (even small ones that barely bleed, such as stepping on a rusty nail or deep stick puncture) as high-infection and tetanus hazards requiring clinical cleaning and evaluation. @M06
+failure: Pulling a wooden branch out of a thigh or chest in the backcountry and triggering massive uncontrollable arterial bleeding. @M06,M01
+verify: Confirm impaled object is padded immobile without shifting, surrounding bleeding is monitored, and clinical evacuation is underway. @M06,T02
+stop: Any impaled object in the head, neck, eye, chest, or abdomen is an immediate life-threatening emergency requiring urgent EMS extraction. @M06,M18,T02
+diagram: Never pull deeply impaled objects | Build bulky stabilizing pad around base | Expedite EMS; clinically review punctures
+visual: Correct versus incorrect impaled-object care contrasting bulky base-padding stabilization against hazardous field removal. Conceptual, not to scale.
+reviewer: Trauma EMS and emergency medicine
+
+Z10-P22 | Understand why lay responders do not suture or glue dirty backcountry wounds | NIH MedlinePlus Wounds; new manuscript
+objective: Prevent trapped deep bacterial infections by leaving wound closure to clinical settings and using clean covered dressings in the field.
+applies: Gaping lacerations, bite wounds, or contaminated cuts occurring hours away from a clinic.
+equipment: Potable irrigation water, sterile gauze dressings, and rolled bandage.
+action: Irrigate accessible superficial lacerations thoroughly with clean potable water, approximate edges only lightly with clean dressings if needed for bleeding control, and arrange clinical evaluation within standard medical windows. @M06,W29
+action: Never stitch wounds with improvised sewing needles, staple skin, or seal dirty, jagged, puncture, or animal-bite wounds shut with household superglue—trapping bacteria inside an airtight wound causes severe deep abscess and sepsis. @M06,M12
+action: Keep the wound moist-clean under sterile gauze protected from dirt, elevate an injured limb if comfortable, and monitor closely for infection during exit. @M06
+failure: Sealing a muddy trail laceration or dog bite shut with cyanoacrylate glue in camp, trapping anaerobic bacteria deep beneath the skin. @M06,M12
+verify: Confirm wound was irrigated with potable water, covered cleanly without improvised closure, and scheduled for prompt clinical review. @M06,ED
+stop: Gaping wounds, exposed fat/tendon/bone, heavy contamination, facial cuts, or bite wounds require timely professional medical closure and tetanus/antibiotic review. @M06,M12
+diagram: Irrigate cleanly with potable water | Never suture or superglue dirty wounds | Cover sterile & evacuate for clinical care
+visual: System boundary diagram contrasting open sterile-dressed field protection against sealed-in bacterial contamination from improvised closure. Conceptual, not to scale.
+reviewer: Emergency medicine and wound care
+
+Z10-P23 | Recognize worsening wound infection and sepsis warning signs | NIH MedlinePlus Wounds; new manuscript
+objective: Catch localized skin infection early and trigger urgent evacuation before systemic bloodstream infection develops.
+applies: Any cut, blister, burn, splinter, or bite monitored over hours to days in remote settings.
+equipment: Clean pen to trace redness borders, watch/log, clean dry dressings, and emergency comms.
+action: Inspect every healing field wound at least once daily for spreading redness, increasing warmth, worsening throbbing pain, swelling, foul odor, or yellow/green pus drainage. @M06,M20
+action: Outline the outer edge of any skin redness lightly with a pen and note the time so you can see objectively whether redness is expanding outward over subsequent hours. @M06,M20,ED
+action: Treat red streaks traveling up a limb, fever, chills, shaking, rapid breathing, or new confusion as urgent systemic infection emergencies requiring immediate evacuation and clinical antibiotics. @M06,T02,M05
+failure: Waiting three days on a multi-day trip while redness climbs past the ankle and fever begins, assuming basic ointment will cure a deep infection. @M06
+verify: Confirm wound appearance, pen-border progress, and presence or absence of fever/chills are logged daily. @M06,M20
+stop: Expanding redness past marked lines, pus, joint stiffness, red streaks, fever, or confusion mandate immediate exit to medical care. @M06,T02
+diagram: Mark redness border & log time | Watch pus, heat, pain & red streaks | Fever or streaks -> urgent clinical exit
+visual: Time-progression infection timeline distinguishing normal clean healing from localized worsening, red streaking, and urgent systemic emergency. Conceptual, not to scale.
+reviewer: Infectious disease and wilderness medicine
+
+Z10-P24 | Cool minor thermal burns with cool water and protect intact blisters | NIH MedlinePlus Burns; new manuscript
+objective: Halt thermal tissue injury safely on small superficial burns while preventing secondary infection and cold injury.
+applies: Small, superficial flame, hot-pot, or steam scald burns without deep charring or high-risk body zones.
+equipment: Cool (not icy) clean potable water, clean non-stick sterile gauze, and dry insulating layers for the rest of the body.
+action: Stop the burning process immediately, remove watches, rings, belts, and loose non-stuck clothing near the burn before swelling starts, and cool the minor burn under cool running potable water for 10 to 20 minutes. @M07,W29
+action: Never apply ice, snow, butter, cooking oil, toothpaste, or unapproved ointments to a fresh burn—ice deepens tissue damage and greasy substances trap heat and bacteria. @M07
+action: Cover the cooled burn loosely with clean non-stick sterile gauze, keep intact burn blisters unbroken as a natural sterile barrier, and keep the patient warm overall to prevent hypothermia. @M07,E05
+failure: Packing snow directly onto a camp-stove scald or popping intact blisters with a pocketknife in dirty camp conditions. @M07
+verify: Confirm rings/tight gear are removed, cooling used cool (not icy) water, blisters remain intact, and dressing is loose and clean. @M07,ED
+stop: Any worsening blistering, deep pale/charred skin, high-risk zone involvement, or uncontrolled pain escalates immediately to clinical burn care. @M07,T02
+diagram: Remove rings & cool with cool water | Never apply ice, grease or pop blisters | Cover loosely clean; monitor warmth
+visual: Correct versus incorrect minor burn care contrasting cool potable water and loose non-stick dressings against ice, grease, and blister popping. Conceptual, not to scale.
+reviewer: Burn care and wilderness medicine
+
+Z10-P25 | Escalate major, deep, airway, or high-risk-zone burns to emergency care | NIH MedlinePlus Burns; new manuscript
+objective: Identify burn patterns that threaten airways, circulation, function, or life and initiate immediate 911 evacuation.
+applies: Large burns, deep white/leathery/charred burns, smoke/flame inhalation, or burns involving critical anatomical zones.
+equipment: Clean dry sterile sheets/dressings, ground insulation, blankets, and emergency communication.
+action: Call 911 immediately for ANY burn that is large (larger than the patient's palm on high-risk zones or extensive body area), deep (waxy white, brown, charred, or painless), or involves the face, eyes, hands, feet, groin, major joints, or completely encircles a limb/chest. @M07,T02
+action: Treat singed nose hairs, soot around the mouth/nose, hoarse voice, coughing, or breathing difficulty after fire/smoke exposure as a potential airway-swelling emergency requiring immediate EMS. @M07,T02
+action: Do NOT pull clothing stuck to burned skin and do NOT immerse massive body burns in cold water (which triggers rapid hypothermia); cover loosely with clean dry dressings, insulate against shock, and keep NPO. @M07,M05
+failure: Dousing a large torso burn repeatedly in cold lake water until the patient develops severe hypothermia, or ignoring hoarse voice after a stove flare-up. @M07,M05
+verify: Confirm airway sounds/voice are monitored continuously, stuck clothing is left undisturbed, body heat is preserved, and 911/EMS is dispatched. @M07,M05,T02
+stop: Any hoarseness, breathing labor, circumferential tightness, or shock signs require maximum-priority medical evacuation. @M07,M05,T02
+diagram: Face/hand/foot/joint/deep/large burn | Watch airway soot & hoarseness | Dry loose cover, warmth & urgent 911
+visual: Conceptual anatomical orientation guide highlighting automatic clinical-escalation burn zones (airway, face, hands, feet, joints, circumferential). Conceptual, not to scale.
+reviewer: Burn surgery and EMS
+
+Z10-P26 | Handle chemical and electrical burns with scene isolation before care | NIH MedlinePlus Burns and Poison Control; new manuscript
+objective: Protect rescuers from live electrical current or hazardous chemicals while initiating safe flushing and clinical escalation.
+applies: Fuel/battery/caustic chemical skin splashes or contact with energized wiring, generators, or lightning.
+equipment: Dry non-conductive isolation awareness, clean running water, protective gloves, and Poison Control / 911 contact.
+action: For electrical injury, NEVER touch the person until the power source is confirmed shut off by utility/breaker controls (stay well back from downed power lines and call 911); remember electrical burns cause severe hidden internal tissue and heart-rhythm damage even with tiny skin marks. @M07,T01,D04
+action: For dry chemical powders on skin, brush loose dry powder off with gloved hands or cloth BEFORE flushing continuously with copious cool running water for at least 20 minutes while removing contaminated clothing. @M07,M15
+action: Call 911 for ALL electrical burns, chemical eye splashes, large/painful chemical burns, or breathing irritation, and save the exact chemical label for Poison Control/EMS. @M07,M16,T02
+failure: Grabbing a person still touching an energized generator cord, or pouring a tiny cup of water onto dry caustic lime powder so it activates and spreads across skin. @M07,T01
+verify: Confirm power or chemical source is isolated, rescuers avoided contamination, and exact chemical identity or voltage context is logged for EMS. @M07,M16,T01
+stop: Any electrical contact, loss of consciousness, chest pain, or chemical eye/airway exposure requires immediate emergency medical evaluation. @M07,M18,T02
+diagram: Isolate power or brush dry chemical | Flush liquid chemical 20+ min clean | All electrical & eye exposures -> 911
+visual: System boundary diagram separating live electrical/chemical hazard zone from safe gloved brush-and-flush decontamination and 911 transfer. Conceptual, not to scale.
+reviewer: Burn care, occupational safety, and toxicology
+
+Z10-P27 | Practice field caregiver hygiene and body-fluid barrier precautions | CDC Safe Water and USDA/CDC Hand Hygiene; new manuscript
+objective: Prevent cross-contamination between wounds, fecal-oral germs, and bloodborne exposures during remote patient care.
+applies: Every first-aid interaction, multi-day group camp care, and remote illness management.
+equipment: Disposable nitrile gloves, soap and confirmed potable water, alcohol-based hand rub (≥60% alcohol), and sealed waste bag.
+action: Put on clean disposable nitrile gloves (or clean plastic-bag barriers if gloves are absent) before touching blood, open wounds, vomit, or body fluids, and wash hands thoroughly before and after patient care. @F01,W29,M20
+action: Remove soiled gloves carefully from the inside out without snapping droplets onto skin or eyes, seal blood- or waste-soaked items in double leak-proof bags for proper pack-out/disposal, and wash hands immediately afterward. @F01,M20,ED
+action: Keep wound-care water, patient utensils, and latrine/waste zones strictly separate from group drinking water and food preparation areas. @F01,W06,W29
+failure: Handling bloody dressings bare-handed and immediately preparing group food without washing hands with soap and safe water. @F01,W29
+verify: Confirm caregivers washed hands with soap/potable water (or hand rub when not visibly soiled) and sealed bio-waste separately from food/gear. @F01,W29
+stop: If blood or body fluids splash into a caregiver's eyes, mouth, or broken skin, flush immediately with clean potable water and seek prompt clinical post-exposure evaluation. @M18,M06,ED
+diagram: Barrier gloves before body fluids | Peel inside-out & double-bag waste | Wash hands with soap & safe water
+visual: Four-step caregiver hygiene plate covering barrier donning, clean-to-dirty separation, inside-out glove removal, and potable handwashing. Conceptual, not to scale.
+reviewer: Infection prevention and wilderness EMS
+
+Z10-P28 | Prevent and protect friction blisters and foot-skin breakdown | NIH MedlinePlus Wounds; new manuscript
+objective: Catch footwear friction hot spots before skin tears and recognize high-risk foot infections that halt backcountry travel.
+applies: Multi-day hiking, wet-trail portaging, snowshoeing, or heavy-pack travel.
+equipment: Dry spare wool/synthetic socks, breathable blister tape/moleskin, clean gauze, and potable water.
+action: Stop immediately at the very first warm stinging "hot spot" on a heel or toe—air and dry the foot, change into dry socks, remove grit from boots, and place smooth friction-reducing tape or donut padding around the spot. @M21,E10
+action: Keep intact fluid-filled blisters unbroken whenever possible because intact roof skin is the body's best sterile dressing; if a blister tears open on its own, rinse gently with clean potable water, leave loose skin flat if clean, and cover with sterile non-stick dressing. @M21,M06,W29
+action: Treat ANY foot wound, blister, or skin crack in a person with diabetes, neuropathy, or poor circulation as a high-risk medical issue requiring strict protection and early clinical inspection. @M21
+failure: Ignoring a burning heel hot spot for five miles until raw torn skin fills with trail mud and becomes infected. @M21,M06
+verify: Confirm feet are inspected dry at every camp stop and no spreading redness, pus, or worsening limp is developing. @M21,M06
+stop: Spreading redness, warmth, pus, inability to walk normally, or any foot breakdown in a diabetic traveler requires halting the trip and seeking clinical evaluation. @M21,M06
+diagram: Stop at first hot spot; dry & pad | Keep intact blisters unbroken & clean | Watch infection & diabetic foot flags
+visual: Failure-mode diagram tracing ignored footwear friction through torn contaminated blister to early hot-spot padding and infection exit thresholds. Conceptual, not to scale.
+reviewer: Wilderness medicine and podiatry
+
+Z10-P29 | Identify concussion symptoms and enforce strict stop-activity observation | NIH MedlinePlus Head Injuries; new manuscript
+objective: Recognize mild traumatic brain injury after falls or head strikes and prevent dangerous second impacts.
+applies: Any bump, blow, fall, or jarring impact to the head or body followed by subtle mental or physical changes.
+equipment: Written symptom-monitoring sheet, shade/shelter, and buddy watch.
+action: Stop physical travel, climbing, paddling, or hazardous tasks immediately after any head impact causing brief dazing, headache, dizziness, nausea, balance wobble, confusion, memory gaps, or sensitivity to light/noise—even without loss of consciousness. @M11
+action: Keep a responsible companion observing the person continuously for worsening symptoms over the next several hours, logging mental clarity, speech, and headache trends on paper. @M11,M20
+action: Never allow a person with suspected concussion to return to risky terrain, drive a vehicle, or travel alone; arrange supervised exit and medical clearance. @M11
+failure: Letting a hiker who "only saw stars for a second" after slipping on wet rock continue scrambling an exposed ridge alone. @M11
+verify: Confirm hazardous activity stopped immediately, a buddy is watching continuously, and baseline orientation questions are recorded with times. @M11,M20
+stop: Any worsening headache, vomiting, drowsiness, confusion, or balance decline transitions immediately to urgent 911 head-trauma evacuation. @M11,T02
+diagram: Any head impact + dazed/headache | Stop risky travel; continuous buddy watch | Escalate 911 if any symptom worsens
+visual: Time-progression concussion observation timeline separating immediate stop-activity, hourly red-flag rechecks, supervised exit, and 911 escalation triggers. Conceptual, not to scale.
+reviewer: Neurotrauma and wilderness medicine
+
+Z10-P30 | Escalate severe head-trauma red flags as urgent neurosurgical emergencies | NIH MedlinePlus Head Injuries; new manuscript
+objective: Detect rising intracranial danger early so evacuation is launched before fatal neurological decline occurs.
+applies: High-force falls, falling tree limbs, vehicle/watercraft strikes, or any head injury showing red-flag progression.
+equipment: Spinal-stabilization awareness, ground insulation, written trend log, and emergency communications.
+action: Activate 911/SAR immediately for ANY severe head-injury red flag: loss of consciousness (even brief), repeated vomiting, worsening severe headache, confusion/agitation, slurred speech, weakness/numbness, seizure, unequal pupils, or clear fluid/blood draining from ears or nose. @M11,T02
+action: Keep the person lying still with head and neck gently supported in line, control external scalp bleeding with gentle pressure (never pressing hard into a depressed or soft skull area), and keep them warm and strictly NPO. @M11,M01,M05
+action: Monitor airway and breathing continuously; if vomiting occurs, carefully log-roll the entire body as one aligned unit onto the side to clear the mouth while protecting the neck. @M11,M22
+failure: Letting a head-injured companion "sleep it off" in a tent after vomiting twice and becoming hard to wake. @M11
+verify: Confirm exact time of impact, responsiveness level, and any red-flag progression are transmitted clearly to EMS/SAR. @M11,M20,T02
+stop: Any loss of consciousness, declining alertness, vomiting, or uneven pupils requires immediate highest-priority emergency extraction. @M11,T02
+diagram: LOC, vomiting, confusion, ear/nose fluid | Hold head/neck still; gentle scalp press | Urgent 911/SAR; never "sleep it off"
+visual: Three-tier head-injury escalation ladder distinguishing observed mild concussion from red-flag EMS activation and airway-protected log-roll. Conceptual, not to scale.
+reviewer: Neurotrauma and EMS
+
+Z10-P31 | Maintain spinal motion restriction after high-force falls or impacts | NIH MedlinePlus Head Injuries and Fractures; new manuscript
+objective: Minimize secondary spinal-cord injury by keeping an injured person's head, neck, and back still until EMS arrives.
+applies: Falls from height, diving into shallow water, falling tree limbs, sled/snowmobile/bike crashes, or any neck/back pain or tingling after trauma.
+equipment: Rolled jackets/packs for gentle side-of-head cushioning, ground insulation where reachable without shifting, and emergency comms.
+action: Instruct an alert patient immediately to stay completely still and look straight ahead—do NOT twist, nod, sit up, or let bystanders pull them to their feet after a high-mechanism impact. @M11,T01
+action: Gently stabilize the head in the neutral position found using hands or snug rolled clothing beside the ears (never force a crooked neck straight or apply traction) while activating 911/SAR. @M11,T02
+action: Check whether the patient can feel and wiggle fingers and toes without moving their spine, keep them protected from wind/cold, and leave definitive spinal packaging to trained EMS crews. @M11,M09,E05
+failure: Pulling a fallen climber upright to "check if they can walk" when they complain of midline neck pain and numb fingers. @M11
+verify: Confirm the head and spine remained unmoved, sensation/movement in extremities was noted, and EMS knows spinal precautions are active. @M11,M20
+stop: Move a suspected spinal-injury patient ONLY if immediate life-threatening scene danger or airway obstruction makes staying put fatal. @M11,T01
+diagram: High fall / neck pain / tingling | Hold head & neck still as found | Wait for trained EMS packaging
+visual: Correct versus incorrect spinal care contrasting neutral in-place stabilization and EMS activation against pulling the patient upright or twisting the neck. Conceptual, not to scale.
+reviewer: Spine trauma and wilderness EMS
+
+Z10-P32 | Immobilize suspected limb fractures in the position found | NIH MedlinePlus Fractures; new manuscript
+objective: Reduce pain, tissue damage, and internal bleeding by splinting suspected broken arms or legs safely without lay straightening.
+applies: Suspected forearm, wrist, lower-leg, or collarbone fractures with swelling, localized bone tenderness, or inability to use the limb.
+equipment: Soft padding (jackets, foam pad), rigid or semi-rigid supports (commercial SAM splint, folded pad), and wide cloth ties/bandages.
+action: Expose the injured area gently to check for open wounds or deformity, remove rings/watches early before swelling tightens, and support the limb steadily in the exact position found—do NOT attempt to snap or force visibly deformed bones straight. @M09
+action: Pad all bony prominences and natural hollows generously, secure a splint wide enough to immobilize the joint ABOVE and the joint BELOW the suspected fracture (or bones above/below an injured joint), and tie snug—never tight enough to choke circulation. @M09
+action: Check warmth, color, sensation, and gentle toe/finger movement beyond the splint immediately after tying, and arrange clinical X-ray evaluation. @M09
+failure: Tying narrow paracord directly over the fracture site without padding or attempting to yank an angulated forearm straight in camp. @M09
+verify: Confirm padding cushions all gaps, ties sit above/below the break (not over it), and circulation/sensation beyond the splint remain intact. @M09,ED
+stop: Cold pale/blue fingers or toes, numbness, open bone, or severe uncontrollable pain requires loosening tight ties immediately and activating urgent EMS. @M09,T02
+diagram: Support limb as found; remove rings | Pad well & immobilize above/below | Verify circulation & evacuate for X-ray
+visual: Conceptual limb-splint schematic illustrating padded support spanning joints above and below the fracture with distal CSM check points. Conceptual, not to scale.
+reviewer: Orthopedics and wilderness medicine
+
+Z10-P33 | Monitor distal circulation, sensation, and movement (CSM) after splinting | NIH MedlinePlus Fractures; new manuscript
+objective: Detect dangerous swelling or tight bandages early before restricted blood flow causes permanent limb damage.
+applies: Every splinted, wrapped, or swollen extremity injury monitored during backcountry waiting or exit.
+equipment: Watch and written patient log.
+action: Before applying any splint or wrap—and again immediately after securing it—compare the injured hand or foot against the uninjured side for skin warmth/pink color (Circulation), light-touch feeling (Sensation), and gentle finger/toe wiggle (Movement). @M09,M20
+action: Leave fingertips or toes visibly exposed at the end of every splint or wrap so you can recheck CSM every 15 to 30 minutes as swelling progresses. @M09,M20
+action: If fingers or toes turn cold, pale, bluish, numb, tingling, or intensely throbbing under a wrap, loosen the ties immediately and recheck within minutes. @M09
+failure: Wrapping a swollen ankle tightly inside an opaque boot and never checking cold numb toes over a three-hour hike out. @M09
+verify: Confirm baseline and repeated timed CSM checks (warm/pink, normal touch, intact wiggle) are recorded on the patient log. @M09,M20
+stop: Persistent loss of warmth, color, or sensation even after loosening wraps is a limb-threatening emergency requiring urgent EMS transport. @M09,T02
+diagram: Check CSM before & after splinting | Keep fingers/toes exposed to view | Cold/numb/pale -> loosen & urgent EMS
+visual: Four-step neurovascular check plate mapping baseline CSM, exposed-digit splinting, 15–30 min rechecks, and urgent loosen/escalate trigger. Conceptual, not to scale.
+reviewer: Orthopedics and trauma EMS
+
+Z10-P34 | Protect open fractures from contamination and expedite urgent EMS | NIH MedlinePlus Fractures and Wounds; new manuscript
+objective: Manage life- and limb-threatening open (compound) fractures safely without pushing bone ends back inside the wound.
+applies: Any suspected fracture where bone breaks through the skin or an open wound communicates directly with a fracture site.
+equipment: Clean sterile moist/dry gauze dressings, gloves, padding, and emergency communications.
+action: Activate 911/SAR immediately—open fractures carry high risk of severe bleeding, deep bone infection, and permanent limb loss requiring urgent hospital surgery and IV antibiotics. @M09,T02
+action: Control active external bleeding with gentle clean gauze pressure around the wound edges without pressing directly on exposed bone fragments, and NEVER push protruding bone back beneath the skin. @M09,M01
+action: Cover exposed bone and tissue gently with clean sterile dressing, pad and immobilize the limb in the position found, insulate the patient against shock, and keep strictly NPO. @M09,M05,M06
+failure: Attempting to rinse deeply or push an exposed tibia back under the skin in camp, driving dirt deep into the bone marrow. @M09,M06
+verify: Confirm bleeding is controlled gently around edges, sterile cover protects exposed tissue, distal CSM is checked, and EMS is inbound. @M09,M01,T02
+stop: Heavy bleeding uncontrolled by gentle pressure, cold pale extremity, or shock signs trigger immediate maximum-priority trauma escalation. @M09,M02,M05
+diagram: Exposed bone -> call 911 immediately | Never push bone back; cover sterile | Immobilize as found & treat for shock
+visual: Correct versus incorrect open-fracture care contrasting sterile cover and gentle edge pressure against pushing bone inward or rough alignment. Conceptual, not to scale.
+reviewer: Orthopedic trauma and EMS
+
+Z10-P35 | Treat suspected pelvis or femur fractures as life-threatening shock emergencies | NIH MedlinePlus Fractures and Shock; new manuscript
+objective: Recognize massive internal bleeding risk in hip, pelvis, or thigh-bone trauma and enforce strict immobility and EMS activation.
+applies: High-force falls, crush injuries, or impacts causing severe hip, groin, pelvic, or mid-thigh pain and inability to move or bear weight.
+equipment: Ground insulation, blankets, soft side padding, and emergency communications.
+action: Activate 911/SAR immediately for suspected pelvic or femur fracture—both can bleed rapidly into deep internal compartments and trigger fatal hemorrhagic shock without visible external blood. @M09,M05,T02
+action: Keep the person completely flat and still where found, do NOT rock or squeeze the pelvis repeatedly to "test stability," and place soft padding gently beside the legs and hips for comfort without rolling the patient. @M09,M05
+action: Insulate heavily against cold ground, keep strictly NPO, monitor mental status and breathing continuously, and await trained EMS/SAR extraction teams. @M05,E05,M20
+failure: Trying to help a hiker with severe hip/pelvis pain stand up and hop to a vehicle, disrupting a fragile internal pelvic clot. @M09,M05
+verify: Confirm the patient remained flat and still, zero pelvic-rocking tests were performed, warmth is maintained, and SAR knows urgent trauma carry is needed. @M09,M05,T02
+stop: Any worsening pallor, restlessness, confusion, or rapid breathing signals active internal shock demanding immediate dispatch update. @M05,T02
+diagram: High-force hip/pelvis/thigh pain | Zero standing or pelvic-rock tests | Keep flat, warm, NPO & urgent 911
+visual: Escalation ladder distinguishing stable minor extremity injuries from non-ambulatory pelvis/femur internal-hemorrhage emergencies. Conceptual, not to scale.
+reviewer: Orthopedic trauma and EMS
+
+Z10-P36 | Evaluate sprains and strains conservatively without ruling out hidden fractures | NIH MedlinePlus Sprains and Strains; new manuscript
+objective: Support joint sprains safely while recognizing when inability to bear weight requires clinical X-ray rather than field assumptions.
+applies: Twisted ankles, knees, or wrists without visible deformity, open wounds, or loss of circulation.
+equipment: Elastic wrap or supportive tape, cool compress/water, padded brace/pole if walking out, and dry socks.
+action: Halt travel promptly, inspect the joint for deformity, severe bone-edge tenderness, or numbness, and protect the joint with rest, gentle comfortable compression wrap (never tight), and elevation when resting. @M10,M09
+action: Remember that severe sprains and hairline/undisplaced fractures feel identical in the field—only a clinical X-ray can rule out a fracture; never force a traveler to walk on a joint that buckles or cannot bear weight. @M10,M09
+action: Check distal warmth, color, and toe/finger sensation repeatedly after wrapping, and plan an assisted exit or SAR call if the terrain or pain prevents safe weight-bearing. @M10,M09,T06
+failure: Assuming a massively swollen ankle is "just a sprain" and marching five downhill miles on an undisplaced fibula fracture. @M10,M09
+verify: Confirm CSM remains intact below any wrap, bony-edge tenderness was noted, and exit mode matches actual safe mobility. @M10,M09
+stop: Visible deformity, bone-point pain, numbness, cold toes, or inability to take four controlled weight-bearing steps requires immobilization and non-weight-bearing evacuation. @M10,M09
+diagram: Rest, protect & comfortable support | Field exam cannot rule out fracture | Cannot bear weight -> immobilize & exit
+visual: Decision tree evaluating deformity, bone tenderness, CSM, and safe weight-bearing to distinguish controlled exit from non-weight-bearing rescue. Conceptual, not to scale.
+reviewer: Sports and wilderness medicine
+
+Z10-P37 | Support suspected joint dislocations in comfort without lay reduction attempts | NIH MedlinePlus Fractures and Sprains; new manuscript
+objective: Protect nerves and blood vessels around a dislocated shoulder, knee, or finger by immobilizing in the position of comfort for clinical care.
+applies: Visible joint step-off, locked joint range, or sudden severe joint pain after a fall or wrenching force.
+equipment: Soft sling/swathe or padded splint cushions, watch, and emergency communications.
+action: Immobilize a suspected dislocated shoulder, elbow, kneecap, hip, or finger gently in the position of greatest comfort using padded slings or pillows—do NOT yank or attempt lay joint reduction in the field. @M09,M10
+action: Check distal circulation, sensation, and movement (CSM) immediately and repeatedly; knee and hip dislocations carry especially high artery-injury risk requiring urgent EMS transport. @M09,T02
+action: Keep the patient warm, withhold food/water if surgical sedation may be needed at the hospital, and arrange prompt clinical orthopedic evaluation. @M09,M05
+failure: Having untrained bystanders tug forcefully on a dislocated arm or knee, trapping an artery or fracturing the joint rim. @M09
+verify: Confirm the joint is cushioned comfortably as found, distal CSM is logged, and clinical evacuation is underway. @M09,M20
+stop: Any pale, cold, pulseless, or numb extremity beyond a dislocated joint is a limb-threatening emergency requiring immediate 911 activation. @M09,T02
+diagram: Locked/deformed joint -> pad as found | Never yank or reduce in lay care | Check distal CSM & urgent clinical care
+visual: Correct versus incorrect dislocation care contrasting cushioned sling/pad stabilization and CSM monitoring against risky untrained pulling. Conceptual, not to scale.
+reviewer: Orthopedics and wilderness medicine
+
+Z10-P38 | Flush chemical splashes and loose surface grit gently from eyes | NIH MedlinePlus Eye Injuries; new manuscript
+objective: Dilute corrosive splashes or flush loose dust safely without scratching the cornea or delaying urgent eye care.
+applies: Soap, stove fuel, sanitizer, insect-repellent splashes, or loose windblown dust/ash in the eye (no embedded sharp object).
+equipment: Clean potable water or sterile saline eyewash, clean cup/squeeze bottle, and emergency contacts.
+action: For chemical splashes, start flushing immediately with copious gentle streams of clean potable water or sterile saline for at least 15 to 20 continuous minutes, tilting the head so rinse water drains OUTWARD away from the unaffected eye. @M18,W29
+action: Remove contact lenses gently if they do not flush out on their own (never force a stuck lens), instruct the person NOT to rub the eye, and keep eyelids gently held open during chemical irrigation. @M18
+action: Seek urgent medical/ophthalmology evaluation for ALL chemical eye splashes, persistent grit feeling after gentle flushing, blurred vision, or severe light sensitivity. @M18,T02
+failure: Rubbing a gritty eye vigorously (scratching the cornea) or flushing a chemical splash across the nose bridge into the healthy eye. @M18
+verify: Confirm outward drainage away from the clean eye, full 15–20 minute flush for chemicals, and zero rubbing. @M18,ED
+stop: Any chemical splash, vision loss, severe pain, or object stuck on the eyeball surface halts travel and requires immediate clinical eye care. @M18,T02
+diagram: Tilt injured eye downward/outward | Flush clean water 15–20 min gentle | Zero rubbing; urgent eye evaluation
+visual: Four-step eye irrigation plate showing outward tilt away from the clean eye, continuous potable flushing, zero rubbing, and clinical referral. Conceptual, not to scale.
+reviewer: Ophthalmology and emergency medicine
+
+Z10-P39 | Shield blunt or penetrating eye trauma without applying pressure | NIH MedlinePlus Eye Injuries; new manuscript
+objective: Prevent catastrophic vision loss from eyeball pressure or removal of embedded objects after sharp or blunt eye strikes.
+applies: Branch pokes, flying metal/wood chips, fishing hooks, or hard blunt blows to the eye socket with pain, blood, or vision change.
+equipment: Rigid makeshift eye shield (clean paper cup bottom or commercial eye shield), tape, and emergency communications.
+action: Never press on an injured eyeball, never flush a suspected ruptured/penetrated globe, and NEVER pull out any embedded splinter, thorn, glass, or fishhook from the eye. @M18
+action: Tape a rigid dome shield (such as the clean bottom of a paper cup or commercial shield) gently over the bony brow and cheekbone so NOTHING touches the eyelids or protruding object, and ask the patient to keep both eyes calm and still to reduce synchronized eye movement. @M18
+action: Keep the patient sitting slightly upright if comfortable, keep NPO for potential surgery, and evacuate immediately to emergency ophthalmology care. @M18,M05,T02
+failure: Packing tight gauze pressure directly over a branch-punctured eye or trying to pull a barbed fishhook out in the field. @M18
+verify: Confirm rigid shield rests only on surrounding bone with zero eyelid contact, embedded objects remain untouched, and urgent EMS/transport is active. @M18,T02
+stop: Any penetrating object, visible blood inside the colored iris, double vision, or vision loss is an immediate sight-saving emergency. @M18,T02
+diagram: Never press or pull embedded objects | Tape rigid dome onto surrounding bone | Keep eyes calm; urgent ophthalmology
+visual: Cutaway eye-shield boundary showing rigid cup resting strictly on brow and cheekbone with zero contact on the injured globe. Conceptual, not to scale.
+reviewer: Ophthalmology and trauma EMS
+
+Z10-P40 | Spot chest and acute abdominal emergencies requiring immediate evacuation | NIH MedlinePlus Wounds and Shock; new manuscript
+objective: Recognize life-threatening chest wall, breathing, and abdominal warning signs that cannot be managed in backcountry settings.
+applies: Fall onto ribs, chest puncture, sudden severe abdominal pain, rigid belly, or persistent vomiting with fever.
+equipment: Clean dressings, ground insulation, monitoring log, and emergency communication.
+action: Call 911 immediately for chest injury causing shortness of breath, coughing blood, uneven chest movement, or an open sucking chest wound (leave an open chest wound uncovered/vented unless trained specifically in vented chest-seal care; never seal tightly with improvised airtight plastic that traps air pressure). @M01,M05,T02
+action: Treat severe localized or worsening abdominal pain, a hard board-like abdomen, persistent vomiting, high fever, blood in vomit/stool, or pregnancy abdominal pain/bleeding as urgent surgical/medical emergencies requiring evacuation. @M19,M05,T02
+action: Position the patient comfortably (often slightly upright for chest pain or knees gently bent for abdominal pain), insulate from cold ground, and withhold food, water, and painkillers that mask deterioration. @M05,E05,M20
+failure: Sealing an open chest wound tightly on all four sides with duct tape without venting, or giving heavy pain pills for worsening lower-right abdominal pain and waiting overnight. @M05,M20
+verify: Confirm breathing effort, abdominal rigidity/pain trend, and NPO status are logged clearly for incoming EMS. @M05,M20
+stop: Rapidly worsening shortness of breath, bluish lips, rigid abdomen, or shock signs require maximum-priority emergency extraction. @M05,T02
+diagram: Rib/chest labor or rigid painful belly | Comfort posture, warmth & strictly NPO | Urgent 911; zero airtight tape seals
+visual: Three-tier torso-emergency escalation ladder distinguishing minor bruised ribs from breathing distress, open chest wounds, and acute surgical abdomen. Conceptual, not to scale.
+reviewer: Trauma surgery and wilderness medicine
+
+Z10-P41 | Recognize mild hypothermia and halt heat loss before judgment fails | B012-P07 hypothermia signs and CDC Preventing Hypothermia; adapted historical material
+objective: Catch early shivering and mild clumsiness while the patient can still cooperate with dry shelter and active rewarming.
+applies: Cool, wet, windy, or winter conditions—remembering hypothermia occurs well above freezing when wet and chilled.
+equipment: Dry insulating layers, windproof shell, sleeping pad, sleeping bag, wind shelter, and warm sweet liquids (ONLY if fully alert).
+action: Watch for early mild hypothermia cues—vigorous shivering, cold hands losing fine dexterity ("umbles": grumbles, fumbles, mumbles, stumbles), and withdrawn mood—and stop travel IMMEDIATELY before confusion deepens. @E06,T03
+action: Move out of wind and wet exposure into shelter, insulate underneath with a thick pad, replace wet garments with dry wool/synthetic layers and hat, and wrap in a dry sleeping bag. @E05,E10,M23
+action: If the person is completely alert, oriented, and swallowing normally, offer warm (not scalding) sweet drinks and quick calories—never alcohol or tobacco—and keep monitoring until shivering stops and warmth stabilizes. @E06,M23
+failure: Pushing a shivering, fumbling hiker another two miles toward the car in cold rain instead of stopping immediately to shelter and dry them. @E06,E10
+verify: Confirm wind/wet exposure is stopped, dry layers and ground pad are in place, and mental clarity is improving across timed checks. @E06,M20
+stop: Slurred speech, confusion, drowsiness, or shivering that stops while the person remains cold indicates moderate-to-severe hypothermia requiring immediate 911 evacuation. @T03,M23
+diagram: Spot shivering & early "umbles" | Stop travel; dry layers & ground pad | Warm sweet sips only if fully alert
+visual: Four-step mild hypothermia intervention plate mapping early recognition, shelter/dry swap, ground insulation, and alert oral rewarming. Conceptual, not to scale.
+reviewer: Wilderness medicine and cold-weather operations
+
+Z10-P42 | Handle moderate-to-severe hypothermia gently and protect core warmth | B012-P08 severe hypothermia and CDC Preventing Hypothermia; adapted historical material
+objective: Stabilize a confused, drowsy, or non-shivering hypothermic patient without triggering fatal cardiac arrest during movement.
+applies: Cold-exposed patient exhibiting confusion, slurred speech, stumbling, drowsiness, unresponsiveness, or stopped shivering while still cold.
+equipment: Thick ground insulation, dry vapor-barrier/sleeping-bag wrap, gentle warm packs wrapped in cloth (trunk only), and emergency comms.
+action: Activate 911/SAR immediately and treat the patient as critically fragile—keep them HORIZONTAL and handle them extremely gently (no vigorous rubbing, rough standing, or sudden jostling, which can trigger lethal heart arrhythmias in a cold heart). @T03,M23,T02
+action: Protect from all further heat loss by cutting away wet clothing gently if inside shelter, placing thick insulation underneath and all around the body (hypothermia wrap), and covering the head and neck. @M23,E05
+action: Apply gentle insulated external warmth ONLY to the trunk (armpits, chest, groin—never direct scalding heat or hot immersion of arms/legs), withhold oral fluids if confused or drowsy, and monitor breathing carefully for a full minute before deciding on CPR per dispatcher guidance. @M23,M03
+failure: Forcing a confused, non-shivering hypothermic victim to stand up and walk, or dunking their limbs in hot water. @T03,M23
+verify: Confirm patient stays horizontal, wrapped against ground/wind loss, zero oral fluids given while altered, and urgent EMS transport is active. @M23,T02
+stop: Unresponsiveness with absent normal breathing triggers immediate dispatcher-guided CPR and continuous evacuation until hospital rewarming. @M23,M03
+diagram: Confusion/no shiver -> severe emergency | Keep horizontal & handle ultra-gently | Wrap dry, warm trunk only & call 911
+visual: Conceptual core-thermal zone diagram showing horizontal full-body insulation wrap, gentle trunk-only heat packs, and strict extremity/jostling exclusions. Conceptual, not to scale.
+reviewer: Wilderness medicine and cold-injury EMS
+
+Z10-P43 | Stabilize cold-water immersion survivors and guard against post-rescue collapse | B013-P08 post-immersion care and MN DNR Cold Water Safety; adapted historical material
+objective: Protect a person pulled from icy or cold water from silent post-exit cooling, shock, and sudden collapse.
+applies: Anyone pulled from cold lakes, rivers, ice breakthroughs, or swamped watercraft—even if initially talking.
+equipment: Windproof shelter or heated building/vehicle, thick ground pad, dry blankets/layers, and 911 dispatch contact.
+action: Call 911 immediately after any cold-water immersion, move the survivor gently out of wind into shelter, and keep them lying horizontal rather than letting them walk vigorously right after exit. @X02,M23,T02
+action: Remove soaked clothing gently (cutting it off if movement causes strain), pat skin dry without vigorous rubbing, insulate heavily underneath and around the torso and head, and monitor breathing and mental clarity continuously. @M23,E10
+action: Watch closely for delayed deterioration ("circum-rescue collapse" or continued core cooling) and potential water aspiration even if the person initially insists they feel fine. @X02,M23,M05
+failure: Letting someone who fell through lake ice walk a mile back to a cabin in wet clothes because they initially feel adrenaline-warm. @X02,M23
+verify: Confirm survivor is horizontal, dry-wrapped out of wind, monitored continuously, and medically evaluated by EMS. @M23,T02
+stop: Any shivering cessation, confusion, coughing/breathing labor, or faintness escalates immediately to emergency resuscitation readiness and urgent transport. @M23,M03
+diagram: Pull to shelter & keep horizontal | Cut off wet clothes; wrap core dry | Call 911; watch delayed collapse
+visual: System boundary diagram tracing post-immersion wet-wind cooling versus dry horizontal hypothermia wrap and continuous EMS monitoring. Conceptual, not to scale.
+reviewer: Cold-water rescue and wilderness medicine
+
+Z10-P44 | Monitor submersion survivors for delayed breathing deterioration | B013-P18 submersion care and American Red Cross; adapted historical material
+objective: Recognize that water aspiration during near-drowning requires medical evaluation even after the person resumes coughing and talking.
+applies: Anyone submerged, dunked under ice or surf, or who inhaled water during a cold-water incident.
+equipment: Dry insulating shelter, watch, written monitoring log, and 911 communications.
+action: Activate 911 immediately for ANY submersion involving loss of consciousness, cessation of breathing, persistent coughing, foamy sputum, chest discomfort, or blue lips; if unresponsive and not breathing normally, start trained/dispatcher CPR immediately. @M03,X02,T02
+action: Even when a submerged person exits coughing and alert, remove wet layers, keep them resting warmly, and arrange prompt clinical medical evaluation—aspirated water can irritate lung linings and cause worsening breathing distress over subsequent hours. @X02,M23,M20
+action: Do NOT attempt abdominal thrusts or turn a person upside down to "drain water from lungs"—that delays ventilation and triggers vomiting and aspiration. @M03,M04
+failure: Sending a child or paddler home to nap after a brief near-drowning episode without medical assessment while persistent coughing worsens. @X02,M20
+verify: Confirm breathing rate, cough severity, mental clarity, and medical evaluation plan are documented and communicated. @M20,T02
+stop: Any worsening cough, fast labored breathing, chest pain, extreme fatigue, or confusion after submersion requires immediate 911 transport. @T02,M03
+diagram: Any submersion -> assess breath & 911 | Never press belly to "drain water" | Monitor hours; clinical lung evaluation
+visual: Correct versus incorrect submersion care contrasting warm rest, dispatcher CPR if non-breathing, and clinical lung review against harmful lung-draining maneuvers. Conceptual, not to scale.
+reviewer: Cold-water rescue and emergency medicine
+
+Z10-P45 | Distinguish early frostnip from superficial and deep frostbite | B012-P24 frostbite signs and WMS 2024 Frostbite Guideline; adapted historical material
+objective: Catch reversible cold-skin warning cues early and recognize true freezing injury before tissue loss deepens.
+applies: Sub-freezing air, wind chill, metal/fuel contact, or wet winter gloves/boots affecting fingers, toes, ears, nose, or cheeks.
+equipment: Windproof shelter, dry mittens/socks, buddy face-check routine, and warm trunk-contact awareness.
+action: Watch buddies' cheeks, nose, and ears frequently—early frostnip shows pale/red cold skin with stinging or tingling that remains soft and pliable and responds promptly to shelter and gentle skin-to-skin warmth (such as tucking bare fingers into your own armpit). @T04,E15
+action: Recognize true frostbite cues: waxy white, grayish, or mottled skin, numbness ("wooden" loss of feeling), and firm or hard-frozen underlying tissue—remembering field inspection cannot reliably determine final tissue depth. @T04,M24
+action: Stop exposed travel immediately upon finding numb or waxy skin, shield from wind, remove rings/watches/tight boots before swelling begins, and never rub frozen skin with snow or bare hands. @M24,T04
+failure: Ignoring numb toes inside damp boots for hours or rubbing white waxy cheeks with snow, which mechanically shreds frozen skin cells. @M24,T04
+verify: Confirm buddy face/hand checks occurred, jewelry/tight items are removed, and wind exposure has stopped. @M24,E15
+stop: Numb waxy or hard-frozen skin requires immediate trip abort, protection from trauma/refreezing, and clinical frostbite evaluation. @M24,T04
+diagram: Frostnip: soft, tingly -> warm gently | Frostbite: waxy, numb, firm -> abort | Never rub with snow or dry flame
+visual: Three-tier cold-injury escalation ladder contrasting reversible frostnip from superficial/deep frostbite protection and hospital care. Conceptual, not to scale.
+reviewer: Wilderness medicine and frostbite specialist
+
+Z10-P46 | Protect frostbitten tissue and obey the strict non-refreezing rule | B012-P25 frostbite field limits and WMS 2024 Frostbite Guideline; adapted historical material
+objective: Prevent catastrophic tissue loss by avoiding thaw-refreeze cycles and dry-heat burns during backcountry evacuation.
+applies: Suspected frozen digits, feet, or facial tissue outside immediate hospital care.
+equipment: Dry bulky sterile gauze, clean padding between digits, loose warm dry insulation, and evacuation plan.
+action: Keep frozen tissue protected from crushing, friction, and impact—do NOT actively thaw frostbitten feet or hands in the field if ANY chance of refreezing exists before reaching definitive clinical care, because a thaw-refreeze cycle causes devastating tissue necrosis. @T04,M24
+action: Never hold numb frostbitten tissue near campfires, stoves, car heaters, or exhaust pipes—loss of sensation allows severe deep thermal burns without pain warning. @M24,T04
+action: If safe definitive shelter and rapid transport with ZERO refreezing risk exist, follow qualified clinical/WMS controlled warm-water rewarming protocols (clean circulating water ~98–102°F), cushion gently between digits with dry sterile gauze without popping blisters, and transport promptly. @M24,T04
+failure: Thawing frozen toes over a camp stove, then putting cold wet boots back on to hike out so the thawed tissue refreezes solid. @M24,T04
+verify: Confirm zero refreezing risk before any thaw, zero dry-flame heat exposure, and clean padded digit separation for evacuation. @M24,T04
+stop: Frozen extremities require immediate evacuation to clinical care; walking on thawed, swollen, blistered feet risks massive tissue destruction. @M24,T04
+diagram: Refreeze risk -> protect frozen & exit | Never use stoves/flames on numb skin | Zero refreeze -> controlled warm thaw + MD
+visual: Decision tree evaluating refreeze risk during evacuation to separate protected-frozen transport from controlled warm-water rewarming and hospital care. Conceptual, not to scale.
+reviewer: Wilderness medicine and frostbite specialist
+
+Z10-P47 | Prevent and recognize non-freezing cold injury (trench foot) | CDC Preventing Hypothermia and NPS Wetlands Safety; new manuscript
+objective: Catch prolonged wet-cold foot injury occurring well above freezing before nerve and skin damage disables walking.
+applies: Multi-day travel or standing in cold rain, slush, wetlands, or damp boots at temperatures between roughly 32°F and 60°F.
+equipment: Multiple pairs of dry wool/synthetic socks, breathable camp footwear, dry towel, and sheltered warm sleeping setup.
+action: Recognize that immersion/trench foot develops from prolonged wet cold WITHOUT freezing—feet turn cold, pale, wrinkled, numb, or tingling, then swell, throb, redden, and blister painfully upon warming. @X13,E10,M21
+action: Prevent injury by changing into dry socks at least daily, airing and drying feet completely at camp, warming boots/insoles away from direct flame, and never sleeping in damp footwear. @E10,X13
+action: If trench foot signs appear, remove wet boots/socks immediately, dry feet gently without rubbing or soaking in hot water, keep feet clean, warm, dry, and elevated in shelter, and arrange non-weight-bearing evacuation for clinical care. @X13,M21,M24
+failure: Wearing waterlogged boots for three straight cold autumn days without airing or changing socks until feet swell too large to fit back inside footwear. @X13,E10
+verify: Confirm daily dry-foot inspection, spare dry socks packed waterproof, and absence of numbness, mottling, or painful swelling. @E10,X13
+stop: Persistent numbness, swelling, purple/pale mottling, or painful blistering halts hiking and requires medical evaluation. @X13,M21
+diagram: Wet cold above 32°F harms nerves | Air, dry & swap socks every camp | Numb/swollen feet -> elevate, dry & exit
+visual: Time-progression immersion-foot timeline showing wet-cold exposure buildup, daily dry-sock reset, early numbness cues, and stop-travel clinical exit. Conceptual, not to scale.
+reviewer: Wilderness medicine and podiatry
+
+Z10-P48 | Prevent snow blindness (UV photokeratitis) and protect irritated eyes | NIH MedlinePlus Eye Injuries and NPS Mountain Safety; new manuscript
+objective: Shield corneas from intense snow and water UV glare and manage painful delayed snow blindness safely.
+applies: Bright snowfields, frozen lakes, glaciers, high elevations, and overcast bright snow glare.
+equipment: Wrap-around UV400 sunglasses or glacier goggles, spare sunglasses or improvised narrow-slit glare shield, and cool clean damp cloth.
+action: Wear wrap-around UV-blocking sunglasses or goggles continuously on snow, ice, and open water—even on hazy overcast days, because snow reflects intense ultraviolet radiation upward into unprotected eyes. @X10,M18
+action: Recognize delayed snow-blindness symptoms appearing 4 to 12 hours after exposure: severe gritty burning pain, tearing, swollen lids, headache, and extreme light sensitivity that can leave a traveler temporarily unable to open their eyes. @M18,X10
+action: Move into dim shelter, remove contact lenses gently, rest with eyes closed under a cool clean damp cloth, do NOT rub the eyes, and arrange guided exit and clinical eye evaluation if severe pain or vision loss persists. @M18
+failure: Hiking across a bright white lake on a cloudy March afternoon without sunglasses because the sun is behind thin clouds. @X10,M18
+verify: Confirm UV eyewear is worn before stepping onto snow/ice/water and spare eye protection is accessible. @X10,ED
+stop: Severe light pain, tearing, or impaired vision halts solo or hazardous travel immediately until guided out to safe shelter and medical review. @M18
+diagram: Snow/ice reflects UV even in clouds | Wear wrap-around UV400 eye cover | Gritty pain 4–12 h later -> shade, rest & MD
+visual: Environmental UV-reflection schematic showing direct plus snow-reflected UV rays reaching unprotected eyes versus wrap-around UV400 shielding. Conceptual, not to scale.
+reviewer: Ophthalmology and mountain medicine
+
+Z10-P49 | Cool and hydrate alert heat-exhaustion patients before heat stroke develops | CDC Heat Health and NIOSH Heat-Related Illnesses; new manuscript
+objective: Halt heat-exhaustion progression rapidly with shade, active cooling, and measured oral hydration while watching for neurological red flags.
+applies: Heavy exertion or high heat/humidity producing heavy sweating, weakness, dizziness, headache, nausea, muscle cramps, or cool clammy skin.
+equipment: Shade tarp or air-conditioned vehicle/building, cool wet cloths, fan/airflow, and safe cool drinking water or labeled electrolyte drink.
+action: Stop all exertion immediately at the first heat-exhaustion signs, move the person into shade or air conditioning, loosen heavy clothing/packs, and lay them down slightly elevated feet if dizzy. @E08,T05,M17
+action: Cool actively by applying cool wet cloths or misting cool water over skin while fanning air across the body, and offer small steady sips of cool safe water or labeled oral rehydration solution ONLY while fully alert and not vomiting. @E08,M17
+action: Monitor mental clarity continuously—never leave a heat-exhausted person unattended to "rest in a hot tent," because heat exhaustion can deteriorate silently into fatal heat stroke. @T05,T09,E19
+failure: Leaving a nauseated, dizzy hiker alone inside a sun-baked tent where trapped heat pushes core temperature into heat stroke. @E19,T09
+verify: Confirm active cooling is working, nausea/dizziness improve within 30 minutes, and mental status remains completely sharp. @T05,M20
+stop: Any confusion, slurred speech, vomiting, fainting, worsening symptoms, or failure to improve within 30–60 minutes escalates immediately to 911 heat-stroke emergency cooling. @T05,T09
+diagram: Sweat, dizzy, weak, nauseated | Move to shade, wet-fan cool & sip water | Confusion or no relief -> 911 heat stroke
+visual: Escalation ladder distinguishing early heat cramps and heat exhaustion (cool/hydrate/monitor) from life-threatening heat stroke (911 + rapid cooling). Conceptual, not to scale.
+reviewer: Wilderness medicine and heat-illness specialist
+
+Z10-P50 | Activate 911 and begin rapid cooling immediately for suspected heat stroke | CDC NIOSH Heat Illnesses; new manuscript
+objective: Save brain and organ function during life-threatening heat stroke by cooling immediately alongside urgent 911 dispatch.
+applies: Any heat-exposed or heavily exerting person showing confusion, slurred speech, agitation, stumbling, seizures, hot skin, or collapse.
+equipment: Cold water immersion tub/stream edge (with airway protected), ice/cold-water soaked towels continuously swapped, shade, and 911 comms.
+action: Call 911 IMMEDIATELY for suspected heat stroke (altered mental status, slurred speech, collapse, or very high body heat)—remember exertional heat stroke can occur even with heavy sweating and in moderate temperatures during hard effort. @T05,T09
+action: Begin aggressive external cooling IMMEDIATELY while waiting for EMS: immerse the trunk/limbs in cold water if safely available (keeping head and airway strictly supported above water), OR douse continuously with cold water and cold wet towels rotated over neck, armpits, groin, and torso while fanning vigorously. @T05,T09
+action: Do NOT force fluids by mouth into a confused, drowsy, or vomiting patient; follow 911 dispatcher directions continuously and obtain mandatory hospital clinical evaluation even if alertness briefly improves. @T09,M05
+failure: Delaying cooling until an ambulance arrives or stopping evaluation because the patient briefly wakes up after a few minutes in the shade. @T05,T09
+verify: Confirm 911 is activated, continuous active cooling is underway, airway is protected, and zero oral fluids are forced into an altered patient. @T05,T09,M20
+stop: Heat stroke is ALWAYS a 911 hospital emergency—never resume travel or skip definitive clinical organ evaluation. @T05,T09
+diagram: Confusion/slurred speech/collapse + heat | Call 911 & cool aggressively NOW | Zero forced oral fluids; hospital mandatory
+visual: Four-step heat-stroke emergency plate showing immediate 911 call, continuous cold dousing/immersion with airway protection, NPO rule, and EMS handoff. Conceptual, not to scale.
+reviewer: Emergency medicine and heat-illness specialist
+
+Z10-P51 | Manage severe sunburn, solar blistering, and compound heat dehydration | NIH MedlinePlus Burns and CDC Heat Health; new manuscript
+objective: Protect sun-damaged skin from infection and recognize systemic sunburn illness requiring medical care.
+applies: Extended high-UV outdoor exposure on water, alpine snow, or open trails leading to painful red or blistering sunburn.
+equipment: Shade cover, cool damp cloths, safe drinking water, loose breathable clothing, and clean sterile dressings for broken blisters.
+action: Move out of direct sun immediately, apply cool damp clean cloths gently to tender skin, wear loose soft sun-blocking fabric over the area, and rehydrate steadily with safe potable water. @M07,E08,M17
+action: Leave intact sunburn blisters unbroken and avoid petroleum jelly, butter, or topical benzocaine/home remedies that trap heat or trigger allergic skin reactions. @M07
+action: Escalate to prompt clinical evaluation for widespread blistering, severe facial swelling, fever, chills, nausea, confusion, or signs of blister infection (pus, spreading red streaks). @M07,M06,T09
+failure: Continuing full-sun paddling with raw blistering shoulders until fever, dehydration, and secondary skin infection develop. @M07,M17
+verify: Confirm UV exposure is blocked, hydration is maintained, intact blisters are protected, and systemic fever/chills are absent. @M07,M17
+stop: Extensive blistering, fever/chills, dizziness, or signs of heat exhaustion/stroke require stopping travel and seeking clinical care. @M07,T09
+diagram: Move to shade & cool damp cloth | Hydrate steadily; keep blisters intact | Fever, wide blisters or chills -> MD
+visual: Failure-mode diagram connecting unprotected water/snow UV glare through painful blistering and dehydration to shade, cool compresses, and clinical triggers. Conceptual, not to scale.
+reviewer: Dermatology and wilderness medicine
+
+Z10-P52 | Halt ascent immediately at early Acute Mountain Sickness (AMS) cues | CDC Travel to High Altitudes; new manuscript
+objective: Prevent mild altitude headache from progressing into fatal high-altitude lung or brain swelling.
+applies: Mountain travel above roughly 8,000 feet (2,500 meters), regardless of athletic fitness.
+equipment: Elevation map, written symptom tracker, shelter/warmth, safe hydration, and pre-planned lower-elevation descent route.
+action: Suspect Acute Mountain Sickness (AMS) whenever a recently ascended traveler develops headache plus nausea, loss of appetite, unusual fatigue, dizziness, or poor sleep—remembering fitness does NOT protect against altitude illness. @X09
+action: Stop ascending IMMEDIATELY—never climb higher to sleep with AMS symptoms; rest at the current elevation, stay hydrated and warm, avoid alcohol/sedatives, and monitor closely with a companion. @X09
+action: Descend promptly to a lower elevation if symptoms fail to improve after rest or worsen in any way, rather than pushing over a high pass. @X09
+failure: Calling a throbbing high-altitude headache and vomiting "normal trail fatigue" and hiking 2,000 feet higher to camp. @X09
+verify: Confirm ascent halted immediately, buddy monitoring is continuous, and a safe lower-elevation descent path is identified. @X09,M20
+stop: Any worsening headache, repeated vomiting, shortness of breath at rest, or stumbling balance transitions immediately to emergency HAPE/HACE descent. @X09
+diagram: >8,000 ft + headache/nausea/fatigue | Halt ascent immediately; never climb higher | Worsening cues -> descend & evacuate
+visual: Three-tier altitude-illness escalation ladder separating early AMS halt-ascent from progressive worsening descent and HAPE/HACE life-threat evacuation. Conceptual, not to scale.
+reviewer: Mountain medicine and high-altitude safety
+
+Z10-P53 | Execute assisted descent and rescue for life-threatening HAPE and HACE | CDC Travel to High Altitudes; new manuscript
+objective: Recognize fatal high-altitude pulmonary or cerebral edema and organize immediate assisted descent and emergency care.
+applies: Mountain travel at high elevation when a person develops resting breathlessness, persistent cough, staggering balance, or confusion.
+equipment: Emergency comms/SAR activation, warm layers, headlamps, and group support for safe assisted descent.
+action: Recognize HAPE (shortness of breath while resting, dry or pink frothy cough, chest tightness, extreme fatigue, bluish lips) and HACE (ataxia/staggering walk as if intoxicated, confusion, slurred speech, severe lethargy)—both are rapidly fatal without descent and medical care. @X09,T02
+action: Activate emergency rescue immediately AND organize assisted descent to substantially lower elevation as soon as terrain, weather, and party safety permit—NEVER let an impaired HAPE/HACE patient descend alone or wait until morning if safe assisted descent is feasible. @X09,T06
+action: Keep the patient warm, minimize their physical exertion (carry their pack, support balance closely, or await SAR evacuation if steep/night terrain makes moving unsafe), and leave prescription altitude medications strictly to clinicians or the patient's own prescribed regimen. @X09,M20
+failure: Leaving a confused, staggering hiker alone in a high-camp tent overnight hoping symptoms will clear by sunrise. @X09
+verify: Confirm emergency rescue is notified, patient is never left alone, exertion is minimized, and safe assisted descent or SAR extraction is underway. @X09,T02
+stop: Any ataxia, confusion, resting breathlessness, or pink frothy cough is an absolute life-threatening emergency demanding descent and clinical care. @X09,T02
+diagram: Resting breathlessness or staggering | Never leave alone; minimize exertion | Assisted safe descent + urgent 911/SAR
+visual: Decision tree pairing HAPE/HACE red flags with terrain/weather safety gates to execute assisted descent or urgent SAR extraction. Conceptual, not to scale.
+reviewer: Mountain medicine and search and rescue
+
+Z10-P54 | Assess lightning-strike casualties safely using reverse triage and CPR | NWS Lightning Tips and American Red Cross; new manuscript
+objective: Provide safe immediate resuscitation after a lightning strike without exposing rescuers to ongoing storm danger.
+applies: Outdoor group struck by direct lightning or ground current during a thunderstorm.
+equipment: Phone/radio for 911, AED if near a building, and ground insulation once scene is clear.
+action: Check immediately whether active lightning still threatens the exact spot—if feasible, move casualties quickly to safer enclosed shelter or lower-risk ground, noting that lightning victims do NOT retain an electrical charge and are completely safe to touch immediately. @E07,T01,M03
+action: Apply lightning "reverse triage" when multiple people are hit: check unresponsive, non-breathing victims FIRST (because lightning frequently causes immediate survivable respiratory/cardiac arrest) while conscious crying/groaning victims are breathing. @M03,T02
+action: Activate 911 immediately, start trained/dispatcher-guided CPR and AED use on anyone not breathing normally, and arrange clinical evaluation for ALL struck persons (checking burns, hearing/eye injury, and spinal precautions). @M03,M07,M11
+failure: Avoiding touching a struck teammate out of fear of leftover electricity, or tending a conscious bruised hiker first while a non-breathing victim goes without CPR. @M03,T01
+verify: Confirm scene safety, immediate 911/CPR for non-breathing victims first, and medical referral for every affected party member. @M03,T02
+stop: Ongoing close lightning requires moving victims to safer ground rapidly while maintaining continuous CPR and EMS activation. @E07,M03
+diagram: Victims hold zero residual charge | Reverse triage: non-breathing FIRST | Call 911, CPR/AED & full clinical exam
+visual: Four-step lightning-casualty plate showing scene check, safe immediate contact, reverse-triage CPR priority, and multi-system clinical evaluation. Conceptual, not to scale.
+reviewer: Emergency medicine, lightning safety, and EMS
+
+Z10-P55 | Recognize anaphylaxis and assist with a patient's prescribed epinephrine | NIH MedlinePlus Anaphylaxis; new manuscript
+objective: Spot rapidly fatal multi-system allergic reactions and support timely use of the patient's own prescribed auto-injector plus 911 activation.
+applies: Sudden severe allergic reaction to stings, foods, medications, or latex causing hives plus breathing, throat, stomach, or blood-pressure signs.
+equipment: Patient's own prescribed unexpired epinephrine auto-injector (if carried), watch, and 911 communication.
+action: Recognize anaphylaxis immediately when exposure triggers ANY airway/breathing sign (swollen lips/tongue/throat, hoarseness, wheezing, trouble breathing), dizziness/fainting, widespread hives/flushing, or severe cramps/vomiting. @M08,T02
+action: Call 911 immediately and assist the patient in administering their OWN prescribed epinephrine auto-injector into the outer mid-thigh strictly per the device label (can go through light clothing); log exact injection time. @M08,M20
+action: Do NOT delay epinephrine waiting for oral antihistamines to work, never use someone else's prescription without direct clinician/dispatcher authorization, and keep the patient lying flat (or seated upright if breathing is easier—never suddenly standing). @M08,M05
+failure: Giving an over-the-counter antihistamine and waiting thirty minutes while throat swelling progresses to complete airway closure. @M08
+verify: Confirm 911 is dispatched, exact auto-injector time is recorded, and breathing/alertness are tracked continuously. @M08,M20
+stop: If severe symptoms fail to improve or worsen after 5 to 15 minutes and the patient carries a second prescribed dose, follow the device/dispatcher directions and expedite EMS transport. @M08,T02
+diagram: Hives + throat/breath/dizzy/vomit | Call 911 & assist OWN prescribed epi | Log time; never rely on antihistamines
+visual: Three-tier anaphylaxis escalation ladder contrasting mild localized itching from systemic anaphylaxis own-epinephrine assistance and urgent hospital care. Conceptual, not to scale.
+reviewer: Allergy/immunology and EMS
+
+Z10-P56 | Guard against rebound (biphasic) anaphylaxis after initial improvement | NIH MedlinePlus Anaphylaxis; new manuscript
+objective: Ensure every person treated for anaphylaxis reaches hospital observation even when symptoms seem to vanish completely.
+applies: Any patient who experienced systemic allergic symptoms or used a prescribed epinephrine auto-injector outdoors.
+equipment: Written timeline log, remaining prescribed spare auto-injector if carried, shelter, and evacuation transport.
+action: Understand that anaphylaxis can rebound hours later ("biphasic reaction") with renewed airway swelling and shock even after initial epinephrine completely resolves hives and wheezing. @M08
+action: Cancel the remainder of the outing immediately and transport or evacuate the patient to an emergency department for clinical observation and follow-up care—never resume remote backcountry travel after an anaphylactic event. @M08,T02
+action: Keep the patient resting calmly with continuous buddy monitoring during exit, keeping their spare prescribed auto-injector immediately accessible rather than buried in a pack. @M08,M20
+failure: Continuing deeper into the wilderness after a bee-sting auto-injector clears throat tightness, then experiencing a fatal rebound six hours later without backup doses. @M08
+verify: Confirm exact trigger, dose time, symptom resolution timeline, and direct evacuation route to a hospital are active. @M08,M20
+stop: Any returning throat tightness, hives, wheezing, or lightheadedness during evacuation triggers immediate 911 update and follow-up per prescribed device/dispatcher guidance. @M08,T02
+diagram: Initial relief does NOT end risk | Biphasic rebound can strike hours later | Abort trip; mandatory hospital observation
+visual: Time-progression biphasic anaphylaxis timeline mapping initial reaction, auto-injector relief, delayed rebound window, and mandatory hospital observation. Conceptual, not to scale.
+reviewer: Allergy/immunology and emergency medicine
+
+Z10-P57 | Manage routine bee and wasp stings while screening for systemic reactions | NIH MedlinePlus Anaphylaxis and First Aid; new manuscript
+objective: Relieve localized insect stings cleanly and distinguish normal local swelling from life-threatening allergic or multiple-sting emergencies.
+applies: Honeybee, yellowjacket, hornet, or wasp stings outdoors.
+equipment: Flat stiff card edge, soap and safe water, cool compress, and watch.
+action: Move promptly away from the nest or swarm zone to prevent multiple stings; if a honeybee stinger remains in skin, scrape it off promptly sideways with a flat edge (card/fingernail) or pull gently without squeezing a visible venom sac. @M08,M06
+action: Wash the sting area gently with soap and safe water, remove rings near finger stings early before swelling builds, and apply a cool clean damp cloth for comfort. @M06,M07
+action: Watch closely for at least 30 to 60 minutes for systemic anaphylaxis signs (hives away from the sting, lip/tongue swelling, wheezing, dizziness, vomiting), stings inside the mouth/throat, or heavy multiple-sting swarms—all require immediate 911 activation. @M08,T02
+failure: Dismissing spreading hives on the chest and hoarse voice after a hand sting as a "normal strong reaction." @M08
+verify: Confirm stinger removed, rings off, local site cleaned, and zero distant hives or breathing symptoms over monitoring window. @M08,M06
+stop: Any throat/mouth sting, breathing change, dizziness, widespread hives, or dozens of stings escalates immediately to 911. @M08,T02
+diagram: Leave nest & scrape stinger promptly | Wash clean, remove rings & cool cloth | Distant hives/breath/mouth sting -> 911
+visual: Decision tree separating localized sting cleaning/cooling from mouth/throat, multi-sting, and systemic anaphylaxis 911 activation. Conceptual, not to scale.
+reviewer: Allergy/immunology and wilderness medicine
+
+Z10-P58 | Perform daily tick checks, vertical fine-tipped removal, and rash watch | NIH MedlinePlus Tick Bites; new manuscript
+objective: Remove attached ticks intact early to reduce Upper Midwest tick-borne illness risk and recognize delayed clinical warning signs.
+applies: Any travel in wooded, brushy, tall-grass, or deer-habitat areas (including Minnesota spring through autumn).
+equipment: Fine-tipped tweezers, soap and safe water or alcohol swab, small magnifying lens if carried, and calendar/symptom log.
+action: Conduct thorough head-to-toe tick checks at the end of every outdoor day (checking scalp, behind ears, armpits, waistband, groin, and behind knees) and shower promptly after returning home. @M14
+action: Grasp an attached tick as close to the skin surface as possible with fine-tipped tweezers and pull straight upward with steady, even pressure—NEVER twist, crush the body, burn with matches, or smother with petroleum jelly/nail polish. @M14
+action: Wash the bite site and hands thoroughly with soap and safe water, note the date and location on your body, and seek medical evaluation promptly if a rash (expanding bull's-eye or other rash), fever, chills, body aches, or joint swelling appears within 30 days. @M14,M06
+failure: Covering an attached deer tick with petroleum jelly or touching it with a hot match tip, which irritates the tick and increases pathogen transfer. @M14
+verify: Confirm tick pulled straight upward cleanly, site washed, and bite date logged for 30-day symptom watch. @M14,ED
+stop: Any expanding rash, unexplained fever, severe headache, facial droop, or joint pain within weeks of tick exposure requires prompt clinical evaluation. @M14
+diagram: Daily full-body check in brush zones | Fine tweezers close to skin; pull straight | Wash clean & watch rash/fever 30 days
+visual: Correct versus incorrect tick removal contrasting fine-tipped straight-up skin-level pull against burning, smothering, or twisting. Conceptual, not to scale.
+reviewer: Infectious disease and regional public health
+
+Z10-P59 | Clean mammal bites thoroughly and arrange prompt infection and rabies review | NIH MedlinePlus Animal Bites; new manuscript
+objective: Prevent severe bite-wound infection, tetanus, and fatal rabies through immediate washing and mandatory clinical consultation.
+applies: Any wild or domestic mammal bite or deep scratch breaking skin (dog, raccoon, skunk, fox, squirrel, coyote, stray cat).
+equipment: Soap, copious clean running potable water, clean sterile dressing, and public-health/medical contact.
+action: Move safely away from the animal (do NOT try to trap or touch a wild or aggressive animal), then wash the bite immediately and thoroughly with soap and copious running potable water for several minutes to flush saliva and bacteria out. @M12,W29,T01
+action: Control active bleeding with clean direct pressure, cover loosely with a sterile dressing without sealing dirty puncture wounds shut with glue, and document animal species, behavior, and location (or owner vaccination contact if domestic). @M12,M01,M06
+action: Obtain prompt medical evaluation for EVERY skin-breaking mammal bite—clinicians assess infection risk (especially deep cat/hand bites), tetanus currency, and urgent rabies post-exposure prophylaxis (PEP). @M12
+failure: Washing a raccoon scratch lightly with a wet wipe and skipping medical follow-up because the scratch looks small. @M12
+verify: Confirm prolonged soap-and-potable-water wash completed, bleeding controlled, animal details noted, and clinical evaluation scheduled promptly. @M12,M20
+stop: Deep bleeding bites, bites to face/hands/joints, or contact with wild rabies-vector species require immediate same-day emergency medical care. @M12,T02
+diagram: Scene safe; never capture wild animal | Wash deeply with soap & running water | Same-day clinical infection & rabies review
+visual: Four-step mammal-bite care plate mapping scene safety, thorough soap-and-water flush, clean loose cover, and clinical tetanus/rabies evaluation. Conceptual, not to scale.
+reviewer: Infectious disease and emergency medicine
+
+Z10-P60 | Treat indoor bat encounters as potential rabies exposures requiring public-health review | NIH MedlinePlus Animal Bites; new manuscript
+objective: Recognize that bat teeth can leave invisible painless bites during sleep and trigger timely public-health rabies assessment.
+applies: Finding a bat inside a cabin, tent, or bedroom with a sleeping person, young child, intoxicated person, or anyone unable to confirm zero contact.
+equipment: Local public-health/clinic phone contact and thick leather gloves ONLY if safe containment is directed by health authorities.
+action: Understand that rabies is nearly always fatal once symptoms begin, yet completely preventable with timely clinical post-exposure treatment—and tiny bat bites often leave NO visible mark or wake a sleeping person. @M12
+action: If a bat is found in a room with a sleeping person, unattended child, or anyone who cannot reliably rule out contact—or if any direct skin contact occurs—wash any contact site with soap and water and contact your local health department or doctor promptly. @M12
+action: Never handle a bat with bare hands; if public health advises safe capture for testing, avoid crushing the head and do not risk being bitten—if the bat flies away or cannot be tested, clinical rabies risk assessment still applies immediately. @M12,T01
+failure: Shooing a bat out of a cabin bedroom where children were sleeping and assuming "nobody saw a bite, so no doctor is needed." @M12
+verify: Confirm zero bare-hand contact occurred and medical/public-health consultation is initiated promptly for any uncertain sleeping-room exposure. @M12
+stop: Any confirmed bat bite/scratch or uncertain exposure during sleep requires prompt clinical consultation—never wait for symptoms. @M12
+diagram: Bat bites can be invisible & painless | Never touch bats with bare hands | Uncertain sleep exposure -> public health MD
+visual: Decision tree evaluating confirmed contact, sleeping-room exposure, and bare-hand avoidance to trigger prompt public-health rabies review. Conceptual, not to scale.
+reviewer: Infectious disease and public health
+
+Z10-P61 | Manage suspected venomous snakebites calmly while rejecting harmful folklore | NIH MedlinePlus Bites and First Aid; new manuscript
+objective: Slow systemic venom spread through calm immobilization and rapid hospital transport while preventing tissue destruction from obsolete folklore.
+applies: Suspected venomous snakebite (e.g., rattlesnake, copperhead, cottonmouth) during outdoor travel.
+equipment: Watch, pen to mark swelling border/time, splint/sling for calm rest, and emergency communications.
+action: Move calmly out of striking range immediately—do NOT chase, kill, or try to capture the snake (which causes second bites); keep the bitten person calm, resting still, and call 911/EMS promptly for hospital antivenom evaluation. @M13,T01,T02
+action: Remove rings, watches, bracelets, and tight clothing near the bitten limb immediately before rapid swelling begins, keep the limb comfortably supported at roughly heart level (or per dispatcher/toxicology guidance), and mark the leading edge of swelling with time. @M13,M20
+action: NEVER cut the bite wound, suck venom by mouth or suction kit, apply ice/cold packs, wrap a tourniquet or tight constricting band, or apply electric shocks—all worsen tissue loss and delay hospital antivenom. @M13
+failure: Cutting X-marks over fang punctures and tying a tight belt above the ankle while hiking rapidly back to the trailhead. @M13
+verify: Confirm rings/tight items removed, patient resting calm and still, swelling edge marked with time, and urgent hospital transport active. @M13,M20
+stop: Every suspected venomous snakebite requires emergency hospital evaluation and observation—even if initial pain seems mild ("dry bites" still need clinical monitoring). @M13,T02
+diagram: Calm & still; remove rings early | NEVER cut, suck, ice or tourniquet | Urgent 911 transport for hospital care
+visual: Correct versus incorrect snakebite care contrasting calm rest, ring removal, and EMS antivenom transport against cutting, sucking, ice, and tourniquets. Conceptual, not to scale.
+reviewer: Medical toxicology and wilderness medicine
+
+Z10-P62 | Evaluate spider bites and scorpion stings with Poison Control guidance | NIH MedlinePlus Spider Bites and Poison Control; new manuscript
+objective: Separate minor arthropod bites from systemic neurotoxic or necrotic envenomations requiring Poison Control or EMS care.
+applies: Suspected black widow, brown recluse, or scorpion stings/bites causing escalating pain, cramps, or systemic illness.
+equipment: Soap and safe water, cool compress, Poison Control (1-800-222-1222 in U.S.) or 911 access, and safe photo if already dead.
+action: Wash the bite site gently with soap and safe water, apply a clean cool damp cloth (not bare ice) for local discomfort, elevate the limb if comfortable, and keep the person resting calmly. @M13,M06
+action: Call 911 immediately for breathing difficulty, throat/facial swelling, severe chest/abdominal muscle cramping, uncontrollable pain, confusion, or young children/older adults showing systemic symptoms. @M13,M08,T02
+action: For evolving local pain, muscle spasms, blistering/darkening ulcers, or uncertain species exposure, contact Poison Control (1-800-222-1222) or seek clinical evaluation without applying improvised poultices or cutting the skin. @M13,M16
+failure: Ignoring severe abdominal rigidity and sweating after a widow spider bite or attempting home incision of a blistered bite wound. @M13,M16
+verify: Confirm site washed cleanly, symptom progression timed, and Poison Control or EMS contacted for any systemic or worsening local signs. @M13,M16
+stop: Severe muscle cramps, trouble breathing, spreading blistering/ulceration, or pediatric systemic symptoms mandate urgent hospital care. @M13,T02
+diagram: Clean site & cool damp cloth | Call Poison Control for evolving bites | Cramps, breath labor or child -> 911
+visual: Three-tier arthropod-bite escalation ladder separating clean local care from Poison Control consultation and urgent 911 systemic emergency. Conceptual, not to scale.
+reviewer: Medical toxicology and emergency medicine
+
+Z10-P63 | Separate 911 emergencies from Poison Control calls after toxic ingestions | NIH MedlinePlus Poisoning and Poison Control; new manuscript
+objective: Deliver exact substance details to toxicology specialists rapidly while preventing dangerous improvised vomiting or home antidotes.
+applies: Accidental swallowing, inhalation, or skin exposure to unknown wild plants, mushrooms, camp fuel, water chemicals, or household toxins.
+equipment: Container/label or safely bagged plant/mushroom specimen (no bare-hand contamination), watch, and phone access.
+action: Call 911 IMMEDIATELY if the person is unresponsive, drowsy, seizing, struggling to breathe, or having chest pain; if the person is awake and alert with no immediate life threat, call U.S. Poison Control (1-800-222-1222) immediately for specialist guidance. @M15,M16,T02
+action: Save the exact chemical bottle, medication label, or intact plant/mushroom fragment (handled safely in a bag) plus approximate amount and time of exposure so toxicologists and clinicians can identify the exact agent. @M16,M20
+action: NEVER induce vomiting, give syrup of ipecac, force milk/saltwater, or administer improvised camp charcoal unless explicitly directed by Poison Control or an emergency clinician—vomiting caustics or fuels burns airways and lungs severely. @M15,M16
+failure: Forcing a child who sipped stove fuel to vomit, driving hydrocarbons directly into the lungs and causing severe chemical pneumonia. @M15
+verify: Confirm exact substance/container saved, exposure time noted, zero unguided vomiting induced, and 911 or Poison Control engaged. @M15,M16
+stop: In remote areas without phone access, evacuate immediately to clinical care after any unknown toxic plant, mushroom, fuel, or chemical ingestion. @M15,M16,T06
+diagram: Unresponsive/seizing/breath -> 911 | Awake/alert -> Poison Control + label | Never induce vomiting or DIY charcoal
+visual: Decision tree separating immediate 911 life-threat activation from Poison Control specialist consultation and remote evacuation with saved specimen/label. Conceptual, not to scale.
+reviewer: Medical toxicology and poison control
+
+Z10-P64 | Wash urushiol oils promptly and avoid deadly poison-ivy smoke inhalation | NIH MedlinePlus Wounds and Poisoning; new manuscript
+objective: Limit contact dermatitis from poison ivy, oak, or sumac through fast cold-water washing and prevent severe lung injury from burning vines.
+applies: Wooded, shoreline, and trailside brush in Upper Midwest and North American habitats.
+equipment: Cool safe water, mild soap, clean spare clothing, and sealed bag for contaminated garments/boots.
+action: If exposed to suspected poison ivy, oak, or sumac, rinse skin thoroughly as soon as possible with COOL running water and mild soap (avoiding hot water initially, and scrubbing gently under fingernails) to wash away sticky urushiol oil before it binds. @M06,M15
+action: Isolate and wash contaminated clothing, shoelaces, tools, and pet fur carefully—urushiol oil remains active on fabric and gear for months and spreads easily to faces and eyes, whereas rash blister fluid itself does NOT spread the rash. @M06,ED
+action: NEVER burn poison ivy, oak, or sumac brush in campfires or yard piles—inhaling urushiol smoke causes severe, life-threatening airway and lung swelling requiring immediate 911 emergency care. @M15,T02
+failure: Tossing dead hairy poison-ivy vines onto a campfire and inhaling toxic smoke, or wiping unwashed oily hands across the eyes. @M15,M18
+verify: Confirm exposed skin, fingernails, and tools were washed thoroughly with cool soap/water and zero vines enter any fire. @M06,M15
+stop: Any facial/eye swelling, widespread blistering, breathing difficulty after smoke exposure, or signs of secondary skin infection require prompt clinical care. @M15,M06,T02
+diagram: Wash skin/nails fast with cool soap | Isolate oily clothes, boots & pet fur | NEVER burn vines; smoke -> urgent 911
+visual: System boundary diagram separating urushiol oil transfer surfaces (plants, boots, pets, smoke) from clean skin wash and airway-emergency escalation. Conceptual, not to scale.
+reviewer: Dermatology, toxicology, and wilderness medicine
+
+Z10-P65 | Manage dehydration, diarrhea, and vomiting with small-sip oral rehydration | NIH MedlinePlus Dehydration and CDC Safe Water; new manuscript
+objective: Maintain safe hydration during gastrointestinal illness or heat loss and catch severe dehydration red flags before collapse.
+applies: Traveler's diarrhea, vomiting, heat exertion, or inadequate drinking-water intake during backcountry or outage events.
+equipment: Confirmed potable drinking water, labeled commercial oral rehydration salts (ORS) if carried, clean cup, and strict hand hygiene.
+action: For alert patients able to swallow, offer frequent tiny sips (a spoonful or small sip every few minutes) of confirmed potable water or commercial labeled oral rehydration solution—gulping large volumes rapidly often triggers renewed vomiting. @M17,W29
+action: Enforce strict caregiver and patient handwashing with soap and safe water plus isolated waste containment to stop fecal-oral gastrointestinal illness from disabling the entire group. @F01,W29,U13
+action: Evacuate promptly for medical care if vomiting prevents keeping fluids down over hours, stools contain blood or black tar, high fever develops, urine stops or turns very dark, or dizziness/confusion appear. @M17,M05,T02
+failure: Drinking large cold gulps rapidly while nauseated (worsening vomiting) or ignoring zero urination and confusion in a child or older adult. @M17
+verify: Confirm fluids are confirmed potable, sips stay down steadily, urine output/color is tracked, and hand hygiene isolates the group. @M17,F01,W29
+stop: Inability to hold fluids down, bloody diarrhea, sunken eyes, fainting, or altered mental status require urgent clinical IV rehydration. @M17,T02
+diagram: Alert -> tiny steady sips of safe water/ORS | Strict soap hygiene isolates group | Cannot keep fluids / bloody / dizzy -> MD
+visual: Four-step dehydration management plate showing potable water verification, small-sip pacing, group sanitation isolation, and clinical evacuation red flags. Conceptual, not to scale.
+reviewer: Wilderness medicine and internal medicine
+
+Z10-P66 | Support companions with known asthma, diabetes, or heart conditions outdoors | NIH MedlinePlus First Aid and FEMA Access Needs; new manuscript
+objective: Plan ahead for known chronic medical needs so companions can assist with a person's own prescribed emergency tools safely.
+applies: Trips and households including individuals with asthma, severe allergies, diabetes, seizure disorders, or cardiac history.
+equipment: Written personal emergency action plan, patient's own labeled prescribed rescue devices, and accessible backup supplies.
+action: Before departure, ask willing companions privately to share critical emergency needs (asthma inhaler location, epinephrine location, diabetes fast-acting glucose, seizure plan, or cardiac medications) and keep a written summary accessible. @T10,T11,M20
+action: During a flare-up, stop exertion immediately, provide calm shelter, and assist ONLY with the person's OWN prescribed labeled rescue device or documented personal action plan—never adjust prescription dosages or share another person's medication. @M08,M20
+action: Activate 911/EMS early whenever a chronic condition fails to respond promptly to the person's own rescue plan, requires repeated rescue doses, or causes breathing distress, chest pain, or altered alertness. @T02,M08,M20
+failure: Discovering mid-trip that a companion's rescue inhaler or epinephrine is buried at the bottom of a locked car at the trailhead. @T10,M20
+verify: Confirm personal rescue devices are carried on the person (protected from freezing/heat) and trip leaders know where they are stored. @T10,M20
+stop: Unrelieved breathing distress, chest pain, persistent confusion, or exhausted rescue supplies require immediate trip abort and 911 activation. @T02,M08
+diagram: Share personal action plan pre-trip | Keep own rescue gear on-body & protected | No fast relief -> abort & call 911
+visual: System boundary diagram separating pre-trip personal medical readiness and own-device support from clinical prescribing and EMS emergency care. Conceptual, not to scale.
+reviewer: Wilderness medicine and accessible emergency management
+
+Z10-P67 | Protect a person during a seizure without restraining limbs or entering the mouth | American Red Cross and NIH MedlinePlus First Aid; new manuscript
+objective: Prevent head and airway injury during a convulsive seizure while knowing exact timing and 911 activation triggers.
+applies: Witnessed generalized tonic-clonic seizure outdoors or during an emergency.
+equipment: Soft jacket/pad for head cushioning, watch to time seizure duration, and 911 access.
+action: Stay calm, note the EXACT start time on a watch, clear hard rocks, fire pits, water edges, or sharp gear away from the person, and place a soft folded jacket beneath their head. @T01,M20
+action: NEVER hold the person down, restrain jerking limbs, or put fingers, spoons, wallets, or sticks into their mouth (people cannot swallow their tongues, and forcing objects breaks teeth and blocks airways). @M04,M20
+action: Once shaking stops, check normal breathing and gently roll the person onto their side in the recovery position to keep the airway clear while monitoring them until fully awake; call 911 immediately if a seizure lasts over 5 minutes, repeats, occurs in water, involves injury/pregnancy/diabetes, or is a first-ever seizure. @M22,T02
+failure: Trying to pry open a seizing person's jaw with a stick or failing to time the seizure duration for arriving EMS. @M04,M20
+verify: Confirm exact seizure duration recorded, surroundings cleared, post-seizure side-lying airway check performed, and 911 rules applied. @M22,M20
+stop: Seizure exceeding 5 minutes, back-to-back seizures, breathing failure after shaking stops, or head/water injury demands immediate 911 response. @T02,M03
+diagram: Time start; pad head & clear hazards | Never restrain or put items in mouth | Side recovery after; >5 min/first -> 911
+visual: Correct versus incorrect seizure care contrasting head padding, timing, and post-seizure recovery posture against restraint and mouth objects. Conceptual, not to scale.
+reviewer: Neurology, EMS, and emergency medicine
+
+Z10-P68 | Distinguish alert low blood sugar from unresponsive diabetic emergencies | NIH MedlinePlus First Aid and American Red Cross; new manuscript
+objective: Support safe fast-acting sugar only when a diabetic patient is fully able to swallow, and call 911 immediately if altered or unresponsive.
+applies: Known person with diabetes developing sudden shakiness, sweating, pale skin, irritability, confusion, or collapse during physical exertion or delayed meals.
+equipment: Patient's own glucose tablets/gel/juice, personal diabetes action plan, and 911 communication.
+action: Watch for rapid low-blood-sugar (hypoglycemia) onset during heavy outdoor exertion or skipped meals—sweating, trembling, sudden weakness, irritability, or dizziness—and stop activity immediately. @M20,T01
+action: ONLY if the person is fully awake, able to sit up, and swallowing safely without coughing, help them take their own fast-acting sugar (such as labeled glucose tablets, fruit juice, or regular sugary drink) and recheck symptoms after 15 minutes; follow with a balanced snack once alert. @M20,ED
+action: If the person is severely confused, drowsy, seizing, unable to swallow safely, or unresponsive, NEVER put food, liquid, or gel into their mouth (aspiration hazard)—call 911 immediately and place in recovery position if breathing normally (trained companions with the patient's own prescribed glucagon follow its exact label). @M22,T02,M05
+failure: Pouring fruit juice into the mouth of a drowsy, slurring diabetic hiker who cannot protect their airway. @M22,M05
+verify: Confirm swallowing safety before ANY oral sugar, recheck clarity at 15 minutes, and keep zero oral intake if drowsy or altered. @M20,M22
+stop: Failure to improve within 15 minutes, declining alertness, inability to swallow, or unresponsiveness requires immediate 911 emergency care. @T02,M22
+diagram: Awake & swallows -> own glucose + 15 m | Confused/drowsy -> ZERO oral intake | Unresponsive/no relief -> 911 & airway
+visual: Branch decision tree splitting alert safe-swallowing fast sugar from altered/unresponsive zero-oral-intake 911 emergency care. Conceptual, not to scale.
+reviewer: Endocrinology, wilderness medicine, and EMS
+
+Z10-P69 | Protect children and older adults against rapid exposure and shock decline | CDC Cold/Heat Health and NIH MedlinePlus Dehydration; new manuscript
+objective: Adjust prevention, pacing, and evacuation thresholds early for vulnerable age groups with smaller physiological reserves.
+applies: Families, youth groups, and older companions exposed to cold, heat, dehydration, altitude, or trauma.
+equipment: Extra insulating layers, shade, frequent hydration/snack reminders, written medical/allergy cards, and conservative turnaround times.
+action: Recognize that infants and young children lose body heat much faster (high surface-area-to-mass ratio), dehydrate rapidly during vomiting/diarrhea, and deteriorate abruptly from shock or heat illness after looking "fine" minutes earlier. @E06,E08,M17
+action: Monitor older adults closely for blunted thirst/cold sensation, balance/fall hazards, blood-thinner bleeding risks (minor head bumps can cause serious delayed bleeding), and heat-wave medication sensitivity. @M11,M19,D09
+action: Lower your stop-and-evacuate threshold dramatically for children and older adults—turn back early, insulate proactively before shivering starts, and contact EMS/clinicians promptly rather than watching and waiting overnight. @T02,E11,M20
+failure: Expecting a small child or frail older adult to maintain adult pacing in cold rain or high heat until sudden lethargy or collapse occurs. @E06,E08,E11
+verify: Confirm extra warmth/water checks are scheduled frequently and any head bump on blood thinners or pediatric lethargy triggers prompt medical review. @M11,M17,M20
+stop: Unusual quietness/lethargy in a child, minimal wet diapers/urine, or ANY head injury in an older adult taking anticoagulants mandates prompt clinical evaluation. @M11,M17,T02
+diagram: Kids/elders lose heat & fluids faster | Lower turn-back & shelter thresholds | Early clinical review; blood thinners flag
+visual: Comparative configuration contrasting pediatric rapid heat/fluid loss, older-adult medication/fall flags, and conservative group turnaround gates. Conceptual, not to scale.
+reviewer: Pediatrics, geriatrics, and wilderness medicine
+
+Z10-P70 | Stabilize acute panic and psychological shock during delayed rescue | NPS Emergency Plan and American Red Cross; new manuscript
+objective: Calm acute distress and prevent panic-driven wandering or hyperventilation while preserving group decision quality.
+applies: Lost parties, storm-trapped groups, trauma witnesses, or injured companions awaiting delayed rescue.
+equipment: Calm clear voice, shelter/warmth, simple structured tasks, and buddy pairing.
+action: Check for physical causes of agitation FIRST (low oxygen, head injury, shock, low blood sugar, hypothermia, or heat stroke)—never label sudden confusion or combativeness "just panic" before ruling out medical red flags. @M05,M11,T03
+action: Once physical life threats are addressed, speak calmly in short concrete sentences, shelter the person from wind/noise, guide slow steady breathing (in slowly through the nose, long calm exhale), and give simple grounding tasks (holding a pad, checking a watch). @T06,E11,ED
+action: Keep distressed companions paired with a calm buddy at all times so fear never drives impulsive solo flight into dark, cold, or hazardous terrain. @T06,E11
+failure: Calling a hypothermic or head-injured hiker's agitation "hysteria" and missing life-threatening physiological decline, or letting a panicked person bolt down trail alone. @T03,M11,T06
+verify: Confirm medical causes of confusion were screened first, calm breathing/shelter is active, and continuous buddy supervision prevents wandering. @T03,T06,E11
+stop: Persistent confusion, inability to stay safely with the group, or self-harm risk requires priority assisted evacuation and clinical/crisis support. @T02,T06
+diagram: Screen physical red flags FIRST | Shelter, slow breath & clear short cues | Buddy-pair always; block impulsive flight
+visual: Decision tree screening physiological hypoxia/shock/cold/head-injury causes first before applying calm grounding and buddy-pairing support. Conceptual, not to scale.
+reviewer: Behavioral emergency response and wilderness medicine
+
+Z10-P71 | Handle knocked-out teeth and facial dental emergencies conservatively | NIH MedlinePlus Wounds and First Aid; new manuscript
+objective: Preserve a knocked-out permanent tooth cleanly for rapid dental re-implantation while spotting dangerous facial infection swelling.
+applies: Falls, paddle strikes, or biting hard food causing tooth avulsion, broken teeth, or sudden severe toothache with jaw/cheek swelling.
+equipment: Clean gauze, small clean container with milk/saline (or patient's own saliva if alert), and urgent dental/clinical contact.
+action: For a knocked-out permanent adult tooth, pick it up ONLY by the white biting crown—NEVER touch or scrub the delicate root—rinse briefly with clean water/saline ONLY if dirty, and store submerged in cold milk or sterile saline (do NOT store dry or scrub) while heading immediately to a dentist/ED. @M06,M20
+action: Control gum socket bleeding by having an alert patient bite firmly on clean folded damp gauze, and save any broken tooth fragments cleanly without gluing anything back in the mouth. @M01,M06
+action: Treat toothache accompanied by expanding cheek/jaw/neck swelling, fever, difficulty swallowing, or eye-area swelling as an urgent spreading deep-infection emergency requiring immediate clinical care (never wait days in camp). @M06,T02
+failure: Scrubbing the root of a knocked-out permanent tooth with soap and wrapping it dry in tissue paper, or ignoring jaw swelling and fever that threaten the airway. @M06,T02
+verify: Confirm tooth handled by crown only in moist milk/saline, bleeding controlled with gauze, and any facial swelling/fever triggers urgent exit. @M06,T02
+stop: Spreading facial/neck swelling, fever, trouble swallowing/breathing, or severe uncontrolled oral bleeding requires immediate 911/emergency department care. @M06,T02
+diagram: Hold tooth by CROWN only; never scrub | Store moist in milk/saline; urgent dentist | Facial swelling/fever/swallow -> urgent ED
+visual: Correct versus incorrect avulsed-tooth care contrasting crown-only handling in milk/saline against root scrubbing or dry tissue wrapping. Conceptual, not to scale.
+reviewer: Emergency dentistry and wilderness medicine
+
+Z10-P72 | Respect lay limits for ear pain, ear/nose foreign objects, and barotrauma | NIH MedlinePlus First Aid and Wounds; new manuscript
+objective: Avoid rupturing eardrums or pushing foreign objects deeper while recognizing inner-ear and sinus red flags.
+applies: Insects or seeds in ears/noses, elevation-descent ear pressure, or severe ear pain/drainage outdoors.
+equipment: Calm light inspection only (no deep probing) and clinical referral plan.
+action: NEVER insert tweezers, sticks, cotton swabs, or improvised probes deep into an ear canal or nostril to dig out a foreign object—blind probing commonly ruptures eardrums or pushes objects deeper into the airway. @M04,M06
+action: For painful elevation-change ear pressure (barotrauma), slow descent/ascent, yawn, or swallow gently—never force hard blowing if severe sharp pain occurs; do NOT put random liquids or oils into an ear that has fluid, blood, or suspected eardrum rupture. @M11,M06
+action: Seek prompt clinical evaluation for any embedded ear/nose object, blood or clear fluid draining from an ear after head trauma (immediate 911 red flag), severe worsening ear pain with fever, or sudden hearing loss/vertigo. @M11,M06,T02
+failure: Digging at a pebble or tick inside a child's ear canal with pocketknife tweezers, tearing the eardrum. @M06
+verify: Confirm zero deep probing occurred, no unapproved drops entered a draining ear, and head-trauma ear drainage triggers immediate 911. @M11,M06
+stop: Clear/bloody ear drainage after head injury, severe vertigo, facial weakness, or high fever with ear swelling requires urgent emergency care. @M11,T02
+diagram: Zero deep probes into ear or nose | Never pour drops in draining/injured ear | Head-trauma drainage -> immediate 911
+visual: System boundary diagram contrasting safe external observation and clinical removal against hazardous deep probing and unapproved ear drops. Conceptual, not to scale.
+reviewer: ENT safety and emergency medicine
+
+Z10-P73 | Act immediately on carbon monoxide poisoning cues with fresh air and 911 | CPSC Carbon Monoxide Fact Sheet and CDC CO Basics; new manuscript
+objective: Recognize silent multi-person CO symptoms indoors, in vehicles, or in tents and evacuate to clean outdoor air immediately.
+applies: Any fuel-burning heater, stove, generator, fireplace, or idling vehicle near people in cabins, campers, shelters, or snow-drifted cars.
+equipment: Immediate outdoor exit route, working CO alarm (prevention/alert only), and 911 access from outside.
+action: Suspect carbon monoxide immediately when one or more people in an enclosed or sheltered space develop sudden headache, dizziness, nausea, vomiting, confusion, weakness, or unexplained drowsiness—especially when multiple companions feel "flu-like" at the same time. @C07,C16
+action: Move EVERY person immediately into clean open outdoor air without stopping to pack gear, keep bystanders out of the contaminated space, and call 911 from outside—remember CO is colorless, odorless, and requires clinical high-flow oxygen evaluation. @C07,C05,T02
+action: Never re-enter a shelter, cabin, or vehicle to retrieve items or silence an alarm before fire/EMS crews meter the air and clear the space; initiate dispatcher-guided CPR outdoors if anyone is unresponsive and not breathing normally. @C07,M03
+failure: Attributing shared tent or cabin headaches and nausea to "bad camp dinner" and going back to sleep while a heater continues running. @C07,C16
+verify: Confirm all occupants are accounted for in fresh outdoor air, 911 is dispatched, and zero people re-enter until cleared by responders. @C07,T02
+stop: Any CO alarm, shared headache/nausea near fuel appliances, or collapse near an engine/heater mandates instant outdoor evacuation and 911 care. @C07,C09,T02
+diagram: Headache/dizzy/nausea near fuel heat | Exit everyone to fresh air NOW | Call 911 outside; never re-enter
+visual: Four-step carbon-monoxide emergency plate showing silent symptom recognition, instant evacuation of all occupants, 911 call from fresh air, and responder air clearance. Conceptual, not to scale.
+reviewer: Carbon monoxide safety and emergency medicine
+
+Z10-P74 | Mitigate wildfire smoke and irritant-gas airway exposure outdoors | US EPA AirNow Wildfires and Ready.gov Wildfires; new manuscript
+objective: Protect lungs from fine PM2.5 smoke particulates and recognize severe airway distress requiring rapid relocation and clinical care.
+applies: Wildland fire smoke plumes, heavy camp smoke inversions, or regional Unhealthy AQI events affecting travelers or households.
+equipment: Live AirNow AQI alerts when reachable, properly fitted NIOSH N95/P100 particulate respirator (if essential), and indoor HEPA clean-room access.
+action: Move away from dense wildfire smoke plumes promptly, reduce heavy aerobic exertion (which pulls deep PM2.5 particles into lungs), and relocate into an enclosed clean-air indoor room or outside the smoke corridor whenever possible. @D06,D07,C19
+action: Recognize mask limits: bandanas, wet rags, and loose surgical masks do NOT filter fine wildfire smoke particles—only a properly fitted NIOSH-approved N95/P100 particulate respirator filters PM2.5, and NO particulate mask protects against carbon monoxide or low oxygen near active flames. @D06,C19
+action: Monitor individuals with asthma, heart disease, pregnancy, children, and older adults closely; assist only with their own prescribed inhalers and call 911 for wheezing, chest pain, persistent coughing, or shortness of breath. @D06,M08,T02
+failure: Running hard trails in Very Unhealthy wildfire smoke wearing a damp bandana under the false belief it blocks fine smoke and gases. @D06,C19
+verify: Confirm exertion dropped, clean indoor air or route relocation is prioritized, and vulnerable travelers have own inhalers ready. @D06,D07
+stop: Active advancing flames, thick eye/throat-burning smoke, chest pain, or worsening wheezing requires immediate evacuation and clinical evaluation. @C19,D06,T02
+diagram: Reduce exertion & move to clean air | Fitted N95 filters PM2.5 (NOT CO/O2) | Wheezing or chest pain -> urgent 911
+visual: Comparative configuration contrasting bandana/surgical mask (no PM2.5 seal), fitted NIOSH N95 (PM2.5 only; no CO/O2), and clean indoor HEPA air/evacuation. Conceptual, not to scale.
+reviewer: Pulmonology, air quality, and wilderness medicine
+
+Z10-P75 | Assemble and inspect a training-matched wilderness first-aid kit | NIH MedlinePlus First Aid and NPS Ten Essentials; new manuscript
+objective: Carry practical, unexpired, waterproofed first-aid supplies matched strictly to actual caregiver training and route hazards.
+applies: Pre-trip kit assembly and seasonal re-inspection for day hikes, backcountry trips, and household go-bags.
+equipment: Waterproof labeled pouch, sterile gauze/dressings, tape, nitrile gloves, trauma shears, fine tweezers, blister tape, emergency blanket, written log card/pencil, and personal prescribed items.
+action: Pack supplies you actually know how to use cleanly under stress—prioritizing scene barriers (nitrile gloves), hemorrhage control (sterile gauze, pressure bandage, plus commercial tourniquet if trained), wound cleaning/dressings, blister padding, tweezers, and a waterproof patient log card. @M20,E02,T12
+action: Omit surgical scalpels, suture kits, unprescribed prescription drugs, or invasive tools you are NOT clinically licensed and trained to use—untrained gear adds weight and tempts dangerous improvisation. @M20
+action: Inspect the entire kit before every season and after every outing to replace used items, verify intact sterile wrappers, discard expired personal medications per instructions, and protect contents in dry waterproof bags. @M20,T12
+failure: Carrying a dusty five-year-old kit with dried-out tape, cracked gloves, and complex gadgets no one in the party knows how to operate. @M20,T12
+verify: Confirm every item is unexpired, dry-packed, familiar to the carrier, and matched to group size and trip length. @M20,E02
+stop: Do not launch remote multi-day travel with an uninspected kit or missing essential personal rescue medications. @M20,T10
+diagram: Match gear strictly to real training | Waterproof barriers, gauze, tweezers, log | Inspect & restock before every trip
+visual: Exploded four-module wilderness first-aid kit layout grouping barriers/bleeding, wound/blister care, environmental warmth, and patient log/personal rescue items. Conceptual, not to scale.
+reviewer: Wilderness EMS and field education
+
+Z10-P76 | Protect personal prescription medications from cold, heat, and loss | FEMA Access Needs and NIH MedlinePlus First Aid; new manuscript
+objective: Keep life-sustaining personal prescriptions (epinephrine, insulin, inhalers, heart/seizure meds) potent and accessible in harsh environments.
+applies: Any traveler or household member relying on daily or emergency prescription medications outdoors or during outages.
+equipment: Original labeled prescription containers, insulated inner-pocket pouch (for cold/heat), written medication/dose/allergy card, and spare supply.
+action: Carry essential personal medications in their original pharmacy-labeled containers (plus an extra multi-day reserve split across a companion's pack if appropriate) so EMS clinicians can verify exact drug names and strengths instantly. @T10,M20
+action: Protect temperature-sensitive prescriptions—epinephrine auto-injectors, insulin, and pressurized asthma inhalers lose potency or malfunction if frozen in winter packs or baked inside parked summer cars; carry them in insulated inner layers close to body warmth in winter or shaded cool pouches in heat. @T10,E02,X07
+action: Keep a waterproof written list of all medications, dosages, prescribing clinics, and allergies inside your wallet and first-aid kit so rescuers have accurate records even if you become unresponsive. @T10,T11,M20
+failure: Stashing an epinephrine auto-injector or insulin pen in an outer backpack pocket at minus 10°F where the liquid freezes solid before an emergency strikes. @T10,E02
+verify: Confirm original pharmacy labels, spare backup days, temperature-buffer storage, and written medication/allergy list are packed. @T10,M20
+stop: Frozen, cloudy/discolored (check drug label), damaged, or expired emergency medications must be replaced before relying on them in remote areas. @T10,M20
+diagram: Original pharmacy labels + spare days | Buffer insulin/epi/inhalers from cold/heat | Carry waterproof med & allergy card
+visual: Environmental temperature-buffer cutaway showing outer pack extreme freeze/heat versus insulated inner-layer storage for sensitive prescriptions. Conceptual, not to scale.
+reviewer: Pharmacy safety, wilderness medicine, and accessible preparedness
+
+Z10-P77 | Understand improvised field-aid boundaries when commercial supplies run short | NIH MedlinePlus First Aid and ACS Stop the Bleed; new manuscript
+objective: Know which basic mechanical supports can be improvised safely (clean cloth pressure, padded splints) and which cannot (tourniquets, sterile sutures).
+applies: Remote emergencies where commercial first-aid dressings or splints are exhausted or absent.
+equipment: Cleanest available dry cloth (bandana, T-shirt), foam sleeping pads, pack stays/clothing for padding, and potable water.
+action: Recognize safe lay improvisations when commercial supplies run out: clean folded cloth for direct bleeding pressure, rolled jackets and foam pads for cushioned limb splinting, and dry insulated sleeping bags/tarps for hypothermia wraps. @M01,M09,E05
+action: Recognize hard non-improvisable boundaries: thin shoelaces/cord fail as tourniquets, dirty cloth or untreated water contaminates open wounds, household glues/needles cause deep infection, and improvised pole litters collapse under heavy loads. @M02,M06,M20
+action: Treat ANY improvised stabilization as a temporary bridge strictly meant to keep the patient stable until professional EMS/SAR supplies and clinicians take over. @M20,T06
+failure: Relying on improvised wilderness tricks when carrying basic commercial gauze, nitrile gloves, and a commercial tourniquet (with training) weighs ounces. @M02,M20
+verify: Confirm cleanest dry cloth used for pressure, generous padding under improvised splints, and zero unsafe improvised closure or thin-cord tourniquets. @M01,M02,M09
+stop: Whenever improvised stabilization fails to control bleeding, maintain warmth, or protect circulation, escalate urgency with 911/SAR immediately. @M01,T02
+diagram: Safe: clean pressure, pad splint, wrap | Unsafe: thin-cord TQ, glue, dirty water | Temporary bridge to EMS only
+visual: Correct versus incorrect field improvisation contrasting clean cloth pressure and foam-pad splinting against thin-cord tourniquets and unsterile closure. Conceptual, not to scale.
+reviewer: Wilderness medicine and trauma EMS
+
+Z10-P78 | Respect remote-setting clinical boundaries: diagnosis, dosing, and invasive care | NIH MedlinePlus First Aid and American Red Cross; new manuscript
+objective: Maintain disciplined humility about what lay wilderness care can and cannot determine without diagnostics, labs, or clinical licensure.
+applies: Every backcountry medical decision across injury, illness, exposure, and evacuation planning.
+equipment: Written patient log, communication plan, and pre-agreed conservative evacuation rules.
+action: Recognize that lay field exams cannot diagnose internal bleeding, hairline fractures, concussions vs brain bleeds, appendicitis, or cardiac events—use functional red flags (alertness, breathing, bleeding, mobility, trend direction) to drive evacuation decisions instead of guessing diagnoses. @M20,M10,M11
+action: Do NOT prescribe or calculate medication dosages for companions, administer another person's prescription drugs, or perform invasive field procedures (cutting wounds, lancing deep abscesses, field suturing, or airway incisions). @M20,M08,M13
+action: Remember that wilderness first-aid reference cards support memory AFTER hands-on certified training—they NEVER substitute for formal CPR, Stop the Bleed, WFA/WFR courses, or live 911/clinical medical direction. @M03,M01,M20
+failure: Acting as an amateur physician in camp—guessing a "harmless stomach virus" and withholding evacuation until an appendix ruptures or shock sets in. @M20,M05
+verify: Confirm decisions rest on objective functional trends and red flags rather than speculative field diagnoses. @M20,ED
+stop: Uncertainty paired with worsening pain, fever, abnormal breathing, or declining alertness ALWAYS resolves in favor of evacuation and clinical evaluation. @T02,M20
+diagram: Track functional trends, not guesses | Zero lay dosing or invasive surgery | Uncertainty + worsening -> evacuate
+visual: Three-tier scope-of-practice boundary ladder reinforcing functional red-flag triage, live dispatcher support, and definitive hospital diagnostics. Conceptual, not to scale.
+reviewer: Wilderness medicine, EMS, and medical ethics
+
+Z10-P79 | Conduct pre-trip medical screening, group disclosures, and evacuation planning | NPS Hike Smart and FEMA Make a Plan; new manuscript
+objective: Prevent avoidable medical emergencies by aligning route demands with real group health capacity and confirmed rescue plans before departure.
+applies: Trip planning for families, youth/club outings, and multi-day remote expeditions.
+equipment: Written trip plan left with emergency contact, nearest hospital/clinic list, local SAR/EMS phone numbers, and group medical readiness review.
+action: Match trip distance, elevation, weather exposure, and bailout frequency honestly to the least experienced or most medically vulnerable party member—not the strongest athlete. @E11,T10
+action: Map the nearest emergency departments, urgent-care clinics, trailhead bailouts, and local county 911/sheriff dispatch numbers along the route before losing signal, and leave a complete written trip plan with an overdue check-in deadline. @E01,T06,T11
+action: Verify current hands-on first-aid/CPR certifications within the group and review who carries emergency comms, the group kit, and any voluntarily shared personal emergency action plans. @M20,T10,E11
+failure: Taking an unacclimatized group with undisclosed asthma and heart history onto a steep remote loop without knowing the nearest bailout road or hospital. @E11,T10
+verify: Confirm written trip plan is lodged with a reliable contact, bailout routes are mapped, and group kits/medications are checked before leaving trailhead. @E01,T11,M20
+stop: Acute pre-trip illness (fever, chest pain, severe injury), missing critical personal medications, or severe weather warnings require postponing or scaling back before launch. @E01,T10
+diagram: Match route to real group capacity | Map bailouts, clinics & overdue plan | Postpone if acute illness or missing meds
+visual: Four-step pre-trip medical readiness plate covering group capacity check, bailout/hospital mapping, kit/medication audit, and overdue contact handoff. Conceptual, not to scale.
+reviewer: Outdoor leadership, SAR, and wilderness medicine
+
+Z10-P80 | Maintain Z10 clinical review gates, training currency, and publication HOLD | Astra A01 Specialist Register and NIH MedlinePlus; new manuscript
+objective: Keep all Z10 draft medical pages explicitly bounded as unapproved editorial drafts pending qualified clinical review and hands-on training.
+applies: Governance, editorial review, and specialist sign-off across all 80 pages of Zone Z10 (Wilderness Medicine).
+equipment: Astra A01 specialist review register (H11), primary clinical evidence pack (medicine.md), and certified hands-on training records.
+action: Treat every Z10 page as an editorial review draft on `publication: HOLD` with ZERO qualified human clinical approvals until wilderness-medicine physicians, trauma/EMS directors, toxicologists, and infectious-disease reviewers sign off formally. @M20,T01,ED
+action: Preserve strict traceability between every consequential medical assertion and its primary authoritative source (ACS Stop the Bleed, ARC, NIH MedlinePlus, CDC, WMS, Poison Control), updating protocols whenever clinical guidelines revise. @M01,M03,M24
+action: Direct every reader toward accredited hands-on CPR/AED, Stop the Bleed, and Wilderness First Aid/First Responder training—printed text alone never confers clinical competency. @M01,M03,M20
+failure: Distributing unreviewed AI-assisted medical drafts as "field-validated clinical instructions" without qualified physician and EMS sign-off. @M20,ED
+verify: Confirm `publication: HOLD` banner, specialist hold H11 visibility, and zero unauthorized dosages or invasive procedures across all 80 Z10 cards. @M20,ED
+stop: Do NOT authorize public distribution or field clinical reliance until qualified human clinical sign-off is formally recorded in the custody ledger. @M20,ED
+diagram: Editorial draft ≠ clinical approval | Qualified MD/EMS/tox review required | Maintain Z10 Publication HOLD
+visual: Governance escalation ladder linking draft evidence traceability and hands-on training disclaimers to mandatory qualified clinical approval gates. Conceptual, not to scale.
+reviewer: Wilderness medicine physician, EMS medical director, and editorial governance

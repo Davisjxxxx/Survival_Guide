@@ -1,0 +1,965 @@
+Z13-P01 | Map residential utility shutoffs and household outage roles before storms hit | FEMA Ready.gov Make a Plan and Power Outages; new manuscript
+objective: Ensure every adult in the home can locate main shutoffs, emergency contacts, and outage checklists in the dark without guesswork.
+applies: Single-family homes, duplexes, rentals, and cabins preparing for electrical, gas, or water interruptions.
+equipment: Printed household utility map, waterproof tag labels on valves/panels, flashlight, and offline utility phone list.
+action: Walk the home in daylight with all capable household members to locate and clearly tag the main electrical breaker, main water shutoff valve, exterior gas meter location (shut off ONLY per utility/emergency guidance), and sump/well breaker switches. @U14,U08,U11
+action: Write down electric, gas, water, propane, and local emergency numbers on paper kept near flashlights—remembering Wi-Fi routers and online billing portals fail during blackouts. @U14,U16
+action: Assign explicit outage roles (checking CO/smoke alarms, monitoring fridge/freezer times, checking vulnerable neighbors, and tracking battery charge) before severe weather arrives. @U14,U12,T11
+failure: Searching a dark freezing basement for the main water shutoff while a burst pipe floods the floor. @U14,U08
+verify: Confirm shutoff locations are tagged, paper utility phone numbers sit with working flashlights, and every adult knows the plan. @U14,ED
+stop: Never attempt to disassemble electrical panels or turn gas service back on yourself; escalate damaged or leaking utilities directly to licensed utilities. @U11,U02
+diagram: Tag main water, power & gas zones | Keep paper utility phone list & lights | Escalate damaged utilities to pros
+visual: Exploded four-part residential utility map highlighting main water shutoff, electrical panel, exterior gas meter, and paper outage binder. Conceptual, not to scale.
+reviewer: Residential emergency management and utility safety
+
+Z13-P02 | Plan redundant backup power for electrically dependent medical devices | FEMA Ready.gov Power Outages and People with Disabilities; new manuscript
+objective: Protect household members using oxygen concentrators, CPAP, ventilators, dialysis, or refrigerated medications during multi-day blackouts.
+applies: Any household where an occupant depends on grid electricity for life-sustaining medical equipment or temperature-controlled drugs.
+equipment: Written personal medical power plan, UL-listed backup batteries matched to device wattage, insulated medication cooler, and utility priority-registry paperwork.
+action: Contact your electric utility BEFORE storm season to enroll voluntarily in any available medical-priority restoration registry—while remembering registries do NOT guarantee uninterrupted power or instant repair during widespread ice storms. @T10,U01,U14
+action: Calculate exact device wattage and runtime needs with the medical equipment supplier to stage UL-listed battery backups, spare oxygen cylinders, or pre-arranged hospital/shelter relocation before storms arrive. @T10,U01,U09
+action: Pre-identify an accessible facility with verified backup generation (hospital, relative's home, or designated medical shelter) and leave BEFORE battery reserves drop into critical margins. @T10,U17
+failure: Assuming a utility medical-priority sticker prevents outage disconnection during a regional freezing-rain blackout and waiting until batteries die. @T10,U14
+verify: Confirm medical device runtime calculations, backup batteries tested charged, and pre-agreed relocation trigger logged on paper. @T10,U01,U17
+stop: Reaching the pre-set battery reserve floor without confirmed imminent grid restoration triggers immediate relocation to powered medical support or 911 assistance. @T10,U17
+diagram: Register priority (never a guarantee) | Verify device watts & UL battery hours | Relocate early before reserves run low
+visual: Three-tier medical-power escalation ladder separating home UL battery runtime from early relocation and urgent 911 medical-power support. Conceptual, not to scale.
+reviewer: Accessible emergency management and clinical home-care safety
+
+Z13-P04 | Execute safe first-hour stabilization when residential power fails | FEMA Ready.gov Power Outages; new manuscript
+objective: Prevent house fires, carbon monoxide exposure, food warming, and electrical surge damage during the chaotic first hour of a blackout.
+applies: Sudden residential electrical outage caused by storms, grid faults, or equipment failures.
+equipment: Battery LED flashlights/headlamps, NOAA Weather Radio, appliance thermometers, and paper outage log.
+action: Switch immediately to battery LED flashlights or lanterns—never candles—check whether neighbors also lost power, and report the outage to your utility via phone or outage line. @U01,U04,U16
+action: Record the exact power-loss clock time on paper, keep refrigerator and freezer doors closed to preserve cold air, and verify battery-backed CO and smoke alarms are operating. @F04,U12,U01
+action: Turn off or unplug sensitive electronics and high-draw heating/cooling appliances (leaving one single interior lamp switched on as a restoration indicator) to prevent overload or voltage-spike damage when power returns. @U01
+failure: Lighting open-flame candles near curtains while opening the refrigerator repeatedly to see what is inside. @U04,F04
+verify: Confirm outage time is logged, candles are absent, fridge/freezer doors remain closed, and sensitive loads are unplugged. @U01,F04,U04
+stop: Smell of burning wiring, sizzling electrical panels, gas odors, or downed lines outside requires immediate evacuation and calling 911/utility from outside. @U11,U04,D04
+diagram: Use LED lights (zero candles) | Log outage time; keep cold doors shut | Unplug surge-sensitive loads; leave 1 lamp
+visual: Four-step first-hour blackout stabilization plate mapping LED lighting, utility reporting/time logging, cold-door closure, and surge unplugging. Conceptual, not to scale.
+reviewer: Residential emergency management and electrical safety
+
+Z13-P05 | Protect appliances and wiring from power-restoration voltage surges | FEMA Ready.gov Power Outages; new manuscript
+objective: Prevent compressor burnout, electronics failure, and fire hazards when utility circuits re-energize unevenly.
+applies: Residential blackouts, flickering brownouts, or storm-damaged distribution lines awaiting utility repair.
+equipment: Listed surge protectors, access to wall plugs/breakers, and one indicator lamp.
+action: Unplug computers, medical chargers, televisions, refrigerators/freezers (if unstable flickering brownouts persist), and space heaters that could turn on unattended when power suddenly returns. @U01,U03
+action: Leave one low-wattage interior LED lamp switched on so you notice immediately when utility service returns, then wait several minutes for voltage to stabilize before reconnecting appliances one at a time. @U01
+action: Treat dim glowing lights, rhythmic flickering, humming motors, or hot outlets during partial restoration as hazardous brownout/open-neutral electrical faults—shut off affected breakers or main switch if safe and report to your utility/electrician immediately. @U01,U02
+failure: Leaving a portable electric space heater switched ON during an outage so it ignites nearby blankets when power restores overnight. @U01,U03
+verify: Confirm unattended heat appliances are unplugged, one indicator lamp is set, and loads reconnect gradually only after stable restoration. @U01,ED
+stop: Burning electrical odor, sparking outlets, or persistent half-voltage flickering requires switching off power if safe, exiting, and calling the utility or fire service. @U01,U04
+diagram: Unplug unattended heat & electronics | Keep 1 LED lamp as power-return cue | Wait for steady power; reconnect in steps
+visual: Correct versus incorrect surge-protection workflow contrasting unplugged heaters and staggered restoration against unattended appliances and brownout operation. Conceptual, not to scale.
+reviewer: Licensed electrician and fire safety
+
+Z13-P06 | Position portable generators strictly outdoors at least 20 feet from buildings | CPSC Generator Safety and NFPA; new manuscript
+objective: Prevent fatal residential carbon monoxide poisoning from portable fuel-driven generators during outages.
+applies: Any gasoline, propane, or dual-fuel portable generator operated near homes, cabins, or outbuildings.
+equipment: Heavy-duty outdoor-rated grounded extension cords, CO alarms on every floor inside, and tape measure/open yard clearance.
+action: Place a portable generator STRICTLY outdoors in completely open air at least 20 feet away from any home, door, window, crawlspace, or air intake, with the exhaust pipe pointed directly AWAY from occupied structures. @C06,U02
+action: NEVER operate a generator inside a basement, attached or detached garage, screened porch, carport, breezeway, or shed—even with garage doors wide open and fans running, lethal CO builds silently inside the house within minutes. @C06,C16,U15
+action: Verify working battery-backed carbon monoxide alarms on every level and outside all sleeping areas BEFORE starting any outdoor generator, and recheck wind direction so exhaust never drifts back toward vents or neighbors' windows. @C09,C06,U12
+failure: Running a generator just outside an open attached-garage door during a snowstorm so wind sweeps odorless CO directly into upstairs bedrooms. @C06,C16
+verify: Confirm generator sits in open air ≥20 feet away, exhaust points away from all openings, and indoor CO alarms test active. @C06,C09
+stop: Any indoor CO alarm sound, headache/dizziness, or exhaust odor indoors requires shutting down and evacuating everyone to fresh air immediately plus calling 911. @C07,C06
+diagram: Open outdoor air ≥20 ft from home | Exhaust aimed away from doors/vents | NEVER inside garages, porches or sheds
+visual: System separation boundary contrasting an open outdoor ≥20 ft generator zone against lethal CO infiltration from garages, carports, and window vents. Conceptual, not to scale.
+reviewer: Carbon monoxide safety, fire service, and licensed electrician
+
+Z13-P07 | Isolate generator circuits properly and never backfeed a wall outlet | FEMA Ready.gov Power Outages and CPSC; new manuscript
+objective: Prevent utility-worker electrocution and residential electrical fires by enforcing strict electrical isolation between generators and house wiring.
+applies: Connecting portable generators to essential residential appliances or home electrical panels.
+equipment: Heavy-duty outdoor-rated grounded cords (plugging appliances directly) OR a code-compliant transfer switch installed by a licensed electrician.
+action: Connect household appliances safely in ONLY one of two ways: plug individual appliances directly into the generator via intact heavy-duty outdoor-rated grounded cords, OR connect through a properly permitted transfer switch installed by a licensed electrician. @U02
+action: NEVER plug a portable generator into a home wall outlet, laundry dryer outlet, or range receptacle using a double-male cord ("backfeeding" or "suicide cord")—backfeeding energizes exterior utility lines to deadly thousands of volts, killing utility linemen and bypassing breaker fire protection. @U02
+action: Treat conceptual generator diagrams in this encyclopedia strictly as safety-boundary references—NEVER as wiring installation instructions; all panel transfer switches and interlocks require licensed electricians and local electrical permits. @U02,ED
+failure: Fabricating a double-male cord to backfeed a dryer outlet during a blackout, electrocuting a line worker repairing a pole down the street. @U02
+verify: Confirm appliances run either on direct outdoor cords within rated watts or through a licensed, inspected transfer switch. @U02
+stop: Any DIY panel tie-in, warm cord, tripped GFCI, or exposed live male prongs requires immediate shutdown and licensed electrical review. @U02
+diagram: Direct outdoor cord OR licensed transfer | NEVER backfeed wall or dryer outlets | Conceptual guide ≠ wiring certification
+visual: Correct versus incorrect electrical connection contrasting isolated licensed transfer switch / direct cords against deadly wall-outlet backfeeding into grid lines. Conceptual, not to scale.
+reviewer: Licensed master electrician and utility line safety
+
+Z13-P08 | Protect outdoor generators from wet weather and refuel only when cool | CPSC Generator Safety and FEMA Ready.gov; new manuscript
+objective: Prevent electrocution in rain/snow and flash fuel-vapor fires during multi-day storm generator runs.
+applies: Running and refueling portable generators outdoors during rain, sleet, snowstorms, or night outages.
+equipment: Approved open-sided generator weather canopy/tent, dry level surface, approved safety fuel can, and fire extinguisher.
+action: Operate generators on a dry, level non-combustible outdoor surface shielded from direct rain or falling snow ONLY under a purpose-built open-sided canopy that preserves complete open-air ventilation on all sides—NEVER move a unit into a porch or garage to stay dry. @U15,C06
+action: Keep hands dry, maintain active GFCI protection on outdoor cords, keep cords out of standing puddles/snowmelt, and inspect cords for cuts before plugging in. @U15,U02
+action: Turn the generator completely OFF and allow the engine and muffler to COOL completely before opening the fuel cap or refueling—gasoline spilled onto a hot exhaust ignites explosively in seconds. @U15,C15
+failure: Pouring gasoline from a jerrycan into a hot running generator in the dark to avoid interrupting the refrigerator, igniting a flash vapor fire. @U15,C15
+verify: Confirm dry level open-air placement, intact GFCI cords clear of puddles, and engine completely shut off and cooled prior to fueling. @U15,C15
+stop: Wet energized outlets, leaking fuel lines, sparking cords, or indoor exhaust drift require immediate safe shutdown. @U15,U02
+diagram: Open-sided dry canopy (never garage) | Keep GFCI cords clear of puddles | Shut OFF & cool fully before refueling
+visual: Four-step safe storm generator operation plate covering dry open-air canopy setup, GFCI cord routing, shutdown cooldown, and outdoor fuel safety. Conceptual, not to scale.
+reviewer: Electrical safety and fire prevention
+
+Z13-P09 | Size portable battery power stations realistically for household loads | FEMA Ready.gov Power Outages; new manuscript
+objective: Match portable indoor-safe battery stations to realistic low-draw essentials rather than overloading inverters with heating loads.
+applies: Apartments, homes, and cabins using rechargeable lithium portable power stations or UPS battery backups indoors.
+equipment: UL/NRTL-listed portable battery station, appliance wattage labels, and written load budget.
+action: Check both continuous wattage AND startup surge wattage on every device label before plugging in—portable battery stations work cleanly indoors with zero exhaust for phones, LED lights, NOAA radios, CPAP machines, Wi-Fi routers, and intermittent modern refrigerators. @U09,U01
+action: Recognize that electric resistance heat loads (space heaters, hair dryers, toasters, electric kettles, hardwired furnace blowers) draw 1,000 to 1,800+ watts and drain even large battery stations in under an hour—do NOT count on small battery banks for home heating. @U09
+action: Estimate realistic runtime conservatively (accounting for inverter efficiency losses and cold-room temperature derating) and prioritize medical devices, lights, and communications first. @U09,T10
+failure: Plugging a 1,500-watt electric space heater into a 1,000-Wh battery station during a blizzard and exhausting all medical/phone power in 35 minutes. @U09,T10
+verify: Confirm listed battery wattage exceeds appliance startup surge and priority medical/comms hours are budgeted separately from convenience loads. @U09,ED
+stop: Tripped overload protection, hot power cords, or battery depletion toward medical reserve limits requires unplugging non-essential loads immediately. @U09,T10
+diagram: Great for LEDs, comms, CPAP & fridge | Electric heat drains batteries in minutes | Budget medical & comms watts first
+visual: Comparative load configuration contrasting low-watt essential battery loads (comms/CPAP/LEDs) against high-draw electric heat loads and cold derating limits. Conceptual, not to scale.
+reviewer: Electrical safety and battery systems
+
+Z13-P10 | Store and charge lithium-ion battery packs safely to prevent thermal fires | FEMA Ready.gov Power Outages and Home Fires; new manuscript
+objective: Prevent runaway lithium-ion battery fires during household charging, storage, and winter outages.
+applies: Power banks, portable power stations, e-bike/tool packs, and backup batteries stored inside homes.
+equipment: UL/NRTL-listed batteries and matched manufacturer chargers, hard non-combustible charging surface, and working smoke alarms.
+action: Buy and use ONLY independently safety-listed (UL/ETL/NRTL) battery packs and their exact manufacturer-specified chargers—damaged, off-brand, or mismatched chargers cause internal short circuits and violent thermal runaway fires. @U09,U04
+action: Charge and store lithium batteries on hard, flat non-combustible surfaces well away from beds, couches, curtains, and primary room exit doors, and keep packs within manufacturer temperature limits (charging frozen lithium batteries below 32°F permanently damages cells and raises fire risk). @U09,U04
+action: Stop using any battery pack IMMEDIATELY if it swells, hisses, smells sweet/chemical, overheats, leaks, or was dropped hard or submerged in floodwater; isolate safely outdoors away from structures if safe to move and follow local hazardous-waste disposal rules. @U09,U04
+failure: Charging a swollen off-brand power bank on a bedroom pillow next to the only doorway overnight. @U09,U04
+verify: Confirm UL/NRTL listing, matched charger, hard non-combustible surface clear of exits, and zero swelling or overheating. @U09,U04
+stop: Smoke, hissing, popping, or burning odor from a lithium battery requires immediate household evacuation and calling 911—lithium fires release toxic gases and reignite rapidly. @U09,U04
+diagram: UL-listed packs + matched charger only | Hard surface clear of beds & exits | Swollen, hot or hissing -> stop & call 911
+visual: Failure-mode diagram tracing frozen charging or physical damage through swelling/hissing warning cues to immediate isolation and 911 evacuation. Conceptual, not to scale.
+reviewer: Fire service and battery safety specialist
+
+Z13-P11 | Isolate vented lead-acid backup batteries from sparks and living spaces | NFPA Heating/Fire Safety and Ready.gov Power Outages; new manuscript
+objective: Prevent explosive hydrogen-gas accumulation and acid burns if deep-cycle lead-acid batteries are used for backup power.
+applies: Rural homes, basements, or cabins storing flooded or AGM 12-volt deep-cycle batteries and inverters.
+equipment: Battery box with exterior venting where required, fuse/breaker near positive terminal, eye/hand protection, and non-sparking workspace awareness.
+action: Recognize that charging flooded lead-acid batteries releases explosive hydrogen gas—never charge unsealed lead-acid batteries inside sealed closets, bedrooms, or near furnace pilot lights, water-heater flames, or spark-producing switches. @U09,U04
+action: Keep metal tools, jewelry, and loose wires off battery terminals (a dropped wrench across posts melts steel and triggers acid explosions), and verify properly sized overcurrent fuse protection near the battery per licensed electrical guidance. @U09,U02
+action: Never lift cracked or leaking battery cases without acid-resistant protection; treat conceptual battery-bank schematics strictly as hazard-awareness guides rather than DIY electrical wiring designs. @U09,U02,M07
+failure: Charging two flooded marine batteries on a basement shelf three feet from a gas water-heater pilot flame. @U09,U04
+verify: Confirm adequate ventilation away from ignition sources, covered terminals, zero loose metal overhead, and intact dry casings. @U09,U04
+stop: Rotten-egg sulfur odor, hot bubbling battery case, sizzling terminals, or acid leak requires disconnecting safely if clear of sparks, ventilating, and evacuating. @U09,U11
+diagram: Charging lead-acid vents hydrogen gas | Keep far from flames, sparks & bedrooms | Cover terminals; licensed fusing required
+visual: System boundary diagram separating ventilated fuse-protected battery enclosures from ignition sources (pilot flames/switches) and living rooms. Conceptual, not to scale.
+reviewer: Licensed electrician and fire safety
+
+Z13-P12 | Set realistic expectations for portable solar recharging in Upper Midwest winters | FEMA Ready.gov Power Outages and Winter Weather; new manuscript
+objective: Prevent relying solely on small foldable solar panels during short cloudy Minnesota winter days when output drops sharply.
+applies: Households pairing foldable solar panels with portable battery power stations across seasons.
+equipment: Manufacturer-compatible solar panels, charge cables, battery station, and clear south-facing snow-free mounting spot.
+action: Match panel open-circuit voltage (Voc) and connector limits strictly to your power station manual—exceeding input voltage destroys internal charge controllers permanently. @U09
+action: Plan honestly for seasonal sun limits: in northern Minnesota December–February, low sun angle, short 8-to-9-hour daylight, cloud cover, and snow accumulation often cut portable solar output to a tiny fraction of summer nameplate wattage. @U09,U10
+action: Keep the battery power station itself indoors at safe room temperature while routing only the low-voltage solar cord outdoors to clear, south-facing, snow-brushed panels, and always maintain grid-precharged or fuel-alternative backups for winter storms. @U09,U10
+failure: Expecting a 100-watt foldable panel during an overcast January snowstorm to run a household refrigerator and medical equipment continuously. @U09,U10
+verify: Confirm panel voltage compatibility, battery stored warm indoors, and non-solar backup planned for multi-day winter overcast periods. @U09,U10
+stop: Damaged solar cables, melted connectors, or battery temperatures below manufacturer charging thresholds require disconnecting immediately. @U09
+diagram: Match Voc limits to battery manual | Winter clouds & short days slash watts | Keep battery warm indoors; plan backup
+visual: Seasonal solar-yield timeline contrasting high summer charging windows against short low-angle Upper Midwest winter clouds and battery cold-charge limits. Conceptual, not to scale.
+reviewer: Renewable electrical systems and cold-weather preparedness
+
+Z13-P13 | Replace candles with safe battery LED lighting during residential outages | FEMA Ready.gov Home Fires and Power Outages; new manuscript
+objective: Eliminate preventable outage candle house fires while keeping rooms, stairs, and bathrooms safely lit for days.
+applies: Every home, apartment, or cabin preparing emergency illumination for nighttime blackouts.
+equipment: Battery LED lanterns, headlamps, flashlights, spare alkaline/lithium primary batteries, and reflective tape on stairs/shutoffs.
+action: Use LED flashlights, hands-free headlamps, and battery-powered LED lanterns exclusively during outages—open-flame candles are a leading cause of fatal outage house fires, especially around children, pets, drapes, and fatigued occupants. @U04,U01
+action: Stage one working flashlight with fresh batteries in every occupied bedroom, near the main breaker/water shutoff, and in the kitchen so no one walks down dark stairs searching for light. @U04,U14
+action: Run LED lanterns on low-output modes to multiply battery life tenfold across multi-day blackouts, and store spare batteries cool and dry with annual expiration checks. @U01,T12
+failure: Placing burning jar candles on carpeted hallways and bedside tables overnight during a winter blackout. @U04
+verify: Confirm zero open-flame candles in outage kits, working LEDs staged on each floor, and fresh spare batteries inspected. @U04,T12
+stop: If a candle or open flame is ever knocked over or catches fabric, evacuate immediately and call 911 if fire exceeds safe extinguisher scope. @U04
+diagram: Battery LED lanterns & headlamps only | Stage lights in bedrooms & by shutoffs | Low mode extends days; zero open candles
+visual: Correct versus incorrect outage lighting contrasting cool-running LED lanterns/headlamps on every floor against open-flame candle fire ignition hazards. Conceptual, not to scale.
+reviewer: Fire prevention and residential safety
+
+Z13-P14 | Observe strict outdoor-air boundaries when using vehicles to charge phones | CPSC Carbon Monoxide and NWS Winter Storm; new manuscript
+objective: Prevent fatal garage or snow-trapped carbon monoxide poisoning when using an automobile as a temporary device charger or warming shelter.
+applies: Outages where households charge phones/power banks or warm up briefly using a parked vehicle.
+equipment: 12V car USB charger, clear snow shovel for exhaust pipe, and open outdoor driveway well away from house doors/windows.
+action: Move the vehicle completely OUT of any attached or detached garage into completely open outdoor air before starting the engine—NEVER idle a car inside a garage even with the overhead door wide open, as lethal CO floods adjoining rooms rapidly. @C16,C07,E14
+action: During snowstorms, physically inspect and clear snowdrifts away from the ENTIRE tailpipe and underbody BEFORE starting the engine, and keep a downwind window slightly cracked while remaining awake. @E14,E25,C05
+action: Recognize that vehicle 12V outlets and small plug-in inverters are intended strictly for phones, radios, and low-watt battery banks—not household appliances—and avoid running down the starter battery with the engine off. @U01,U09
+failure: Starting a car inside an attached garage with the main door open to charge cell phones while CO silently fills the upstairs kitchen. @C16,C07
+verify: Confirm vehicle sits fully outdoors away from building intakes, tailpipe is 100% snow-free, and occupants stay alert. @E14,C16
+stop: Exhaust odor, headache, drowsiness, or drifting snow closing around the vehicle requires shutting off the engine and moving into clean air immediately. @C07,E14
+diagram: Pull vehicle fully outdoors — NEVER garage | Shovel snow clear of tailpipe first | Charge small comms only; stay awake
+visual: System boundary diagram contrasting an open-air driveway with cleared exhaust against lethal attached-garage CO backflow into living spaces. Conceptual, not to scale.
+reviewer: Carbon monoxide safety and winter emergency management
+
+Z13-P15 | Maintain home communications and cordless-phone backups during blackouts | FEMA Ready.gov Emergency Alerts and Power Outages; new manuscript
+objective: Keep 911 dialing, local warnings, and family coordination working when home Wi-Fi, VoIP, and cordless phone bases go dead.
+applies: Residential blackouts disrupting internet modems, cable phones, and regional cell towers.
+equipment: Battery/crank NOAA Weather Radio, AM/FM radio, charged cell phone + power bank, corded analog phone (if true copper line exists), and printed contact card.
+action: Remember that Wi-Fi routers, VoIP modems, and AC-powered cordless home telephone bases die IMMEDIATELY when house electricity fails—keep cell phones in low-power mode and use short SMS text messages rather than voice calls when towers congest. @U16,T11,D13
+action: Power a battery or hand-crank NOAA Weather Radio and local AM/FM radio to receive continuous NWS warnings, utility restoration briefings, and county shelter announcements independent of cellular and internet infrastructure. @U16,T15
+action: Keep a printed paper card with local sheriff/dispatch non-emergency numbers, utility hotlines, medical contacts, and an out-of-area family relay contact taped inside the outage kit. @U16,T11
+failure: Relying on a cordless landline handset and cloud-only phone numbers during an ice-storm blackout when both home power and cell data collapse. @U16,T11
+verify: Confirm NOAA/AM-FM radio receives local stations cleanly with fresh batteries, phones stay charged, and paper contact cards are current. @U16,T15
+stop: Inability to receive severe-weather alerts or reach 911 for a medically fragile occupant triggers early relocation to an area with verified service. @U16,U17
+diagram: Cordless/Wi-Fi dies instantly in outage | Use battery NOAA/AM-FM & SMS texts | Keep paper phone & out-of-area relay list
+visual: Exploded four-module home outage communications kit showing NOAA/AM-FM radio, SMS low-power phone + bank, paper contact card, and out-of-area relay. Conceptual, not to scale.
+reviewer: Emergency communications specialist
+
+Z13-P16 | Size outdoor extension cords safely and spot overheating failure cues | CPSC Generator Safety and Ready.gov Power Outages; new manuscript
+objective: Prevent electrical fires, voltage drops, and shock hazards when running heavy appliances off portable generators or power stations.
+applies: Temporary power cord runs from outdoor generators or indoor battery stations to refrigerators, freezers, or lights.
+equipment: Heavy-duty UL-listed 12-gauge or 10-gauge outdoor-rated three-prong grounded cords (marked W or W-A), intact grounding pins, and GFCI protection.
+action: Match cord wire gauge and outdoor wet rating strictly to total connected wattage and cord length (using thick 12-AWG or 10-AWG outdoor-rated grounded cords for refrigerators/freezers—never thin 16-AWG indoor lamp cords) and NEVER daisy-chain multiple light cords or strip plugs together. @U02,U15
+action: Route cords smoothly without pinching them inside closed windows/doors, coiling tightly under heavy load (which traps heat), running under rugs, or letting plug junctions rest in snowmelt or puddles. @U15,U04
+action: Inspect plugs, insulation, and grounding prongs before use—feel cords periodically during operation; ANY warm/soft jacket, scorched prong, or tingling shock sensation demands immediate unplugging and retirement. @U02,U04
+failure: Running a full-size refrigerator and chest freezer off a coiled 16-gauge indoor extension cord pinched under a snow-wet door. @U02,U15
+verify: Confirm heavy outdoor-rated grounded cord, uncoiled full run, dry elevated junctions, and cool-to-touch jacket under load. @U02,U15
+stop: Warm cord, burnt plastic odor, cut insulation, missing ground prong, or tripped GFCI requires shutting down and replacing the cord immediately. @U02,U15
+diagram: Heavy 10–12 AWG outdoor grounded cord | Uncoil fully; never pinch or daisy-chain | Warm jacket or cut sheath -> unplug NOW
+visual: Failure-mode diagram connecting thin/coiled/pinched cords through heat buildup and insulation melt cues to immediate shutdown and proper heavy-gauge routing. Conceptual, not to scale.
+reviewer: Licensed electrician and fire safety
+
+Z13-P17 | Recognize electrical panel danger signs and licensed-electrician stop boundaries | FEMA Home Fires and Ready.gov Power Outages; new manuscript
+objective: Distinguish safe routine breaker resets from dangerous electrical-panel faults that require immediate utility or licensed-electrician intervention.
+applies: Residential breaker panels experiencing repeated trips, storm lightning strikes, or basement water intrusion.
+equipment: Dry non-conductive footwear, flashlight, clear access around panel, and licensed electrician contact.
+action: Keep at least 3 feet of dry, unobstructed clearance in front of the main electrical panel at all times, and NEVER touch a breaker box while standing on wet concrete, in basement floodwater, or with wet hands. @U01,U04,D05
+action: If a single branch breaker trips once after overloading an outlet, unplug excess loads and reset it cleanly ONCE—if a breaker trips again immediately, smells burnt, feels hot, buzzes, crackles, or sparks, LEAVE IT OFF and call a licensed electrician. @U01,U04
+action: Treat ANY floodwater that reached basement outlets, furnaces, or the main electrical panel as a severe electrocution hazard requiring the electric utility or licensed electrician to shut off and inspect before anyone enters. @D05,U01
+failure: Repeatedly forcing a humming, hot circuit breaker back ON or wading into ankle-deep flooded basement water to flip the main switch. @U04,D05
+verify: Confirm panel area stays dry and clear, breaker labels are legible, and any repeating trip or water contact escalates to licensed pros. @U14,U04
+stop: Buzzing/crackling panels, burnt-fish/plastic odor, smoke, hot breakers, or standing water near wiring mandate immediate evacuation and calling 911/utility. @U04,D05
+diagram: Keep 3 ft dry clear panel access | Repeated trip -> leave OFF, call pro | Flooded/hot/buzzing panel -> exit & 911
+visual: Escalation ladder distinguishing a single normal overload reset from repeated-trip licensed-electrician lockout and wet/arcing 911 evacuation. Conceptual, not to scale.
+reviewer: Licensed master electrician and fire service
+
+Z13-P18 | Consolidate household heat into one safe insulated interior room | FEMA Ready.gov Winter Weather and NWS Cold Safety; new manuscript
+objective: Preserve survivable indoor warmth safely during multi-day winter blackouts without resorting to hazardous indoor combustion.
+applies: Sub-zero Upper Midwest or winter residential heating failures while awaiting restoration or safe daylight evacuation.
+equipment: Interior small room (ideally south-facing/minimal windows), blankets/quilts, sleeping bags, insulated pads/mattresses, dry wool layers, and indoor thermometer.
+action: Close off unused rooms early while the house still holds residual heat, moving all household members and pets into one small, well-insulated interior room with minimal exterior glass; hang thick blankets over windows and roll towels tightly along door bottoms to cut drafts. @U10,E05
+action: Pitch a small fabric tent or blanket canopy over mattresses/sleeping pads inside the room to trap body heat safely WITHOUT any fuel-burning heat inside, dressing everyone in dry layered wool/synthetic clothing, hats, and warm socks. @U10,E05,E10
+action: Track actual indoor room temperature continuously with a thermometer and monitor infants, older adults, and medically vulnerable occupants closely—abandoning to a heated warming center BEFORE indoor temperatures plunge toward freezing or hypothermia risk. @U10,U17,T03
+failure: Spreading family members across cold drafty bedrooms overnight or lighting a camp stove inside an indoor tent to "take the chill off." @U10,C05
+verify: Confirm unused rooms shut off, draft barriers hung, zero combustion devices inside, and thermometer watched against pre-set evacuation temperature. @U10,U17,C16
+stop: Indoor room dropping toward unsafe cold levels (especially with infants/elders) or any signs of shivering/confusion triggers prompt relocation to heated shelter. @U10,U17,T03
+diagram: Close off house into 1 small warm room | Seal drafts, layer dry & use indoor tent | Zero indoor fuel heat; leave before freeze
+visual: Cutaway residential thermal-zone layout showing sealed outer unheated buffer rooms protecting one central insulated sleeping room with zero combustion. Conceptual, not to scale.
+reviewer: Cold-weather emergency management and residential safety
+
+Z13-P19 | Enforce the 3-foot clearance rule for space heaters and fireplaces | NFPA Heating Fire Safety; new manuscript
+objective: Prevent residential heating fires—the second leading cause of U.S. home fires—by keeping combustibles physically isolated from heat sources.
+applies: Electric space heaters, properly installed fireplaces, wood stoves, and utility-approved supplemental heaters.
+equipment: UL/NRTL-listed heater with automatic tip-over and overheat shutoff, rigid 3-foot clearance boundary, and working smoke/CO alarms.
+action: Maintain at least a full 3-foot kid-free and pet-free clearance zone around EVERY space heater, wood stove, fireplace, or baseboard heater—keeping bedding, curtains, rugs, firewood stacks, cardboard, and drying laundry completely outside that perimeter. @U03,U04
+action: Plug portable electric space heaters DIRECTLY into a solid wall receptacle (NEVER into extension cords or power strips, which melt and ignite), place them on flat hard floors, and turn them completely OFF whenever leaving the room or going to sleep. @U03,U04
+action: Inspect heater cords for fraying or hot plugs before every winter season and verify working smoke alarms on every floor. @U03,U04,U12
+failure: Plugging a 1,500-watt electric space heater into a thin extension cord next to a sofa throw blanket overnight. @U03,U04
+verify: Confirm 3-foot clear radius around all sides, direct wall plug only, tip-over shutoff present, and heaters turned off before sleep. @U03
+stop: Hot wall outlet, tripped breaker, tip-over damage, or scorching smell requires unplugging immediately and inspecting before any reuse. @U03,U04
+diagram: Keep 3 ft clear of ALL combustibles | Plug electric heaters direct to wall only | Switch OFF when leaving room or sleeping
+visual: Correct versus incorrect space-heater setup contrasting a 3-foot clear floor perimeter and direct wall plug against blankets, extension cords, and overnight unattended use. Conceptual, not to scale.
+reviewer: Fire prevention and residential HVAC safety
+
+Z13-P20 | Never heat a home with kitchen ovens, charcoal grills, or camp stoves | CPSC Carbon Monoxide and NFPA Heating Safety; new manuscript
+objective: Enforce an absolute life-safety barrier against deadly improvised indoor combustion during winter power or furnace failures.
+applies: Homes, apartments, mobile homes, and cabins experiencing furnace or electrical outages.
+equipment: Working CO/smoke alarms, non-combustion insulation layers, and warming-center evacuation plan.
+action: NEVER turn on a gas or electric kitchen oven or stovetop burners to heat a living space—gas ovens generate silent lethal carbon monoxide and burn hazards, while open oven doors cause severe fire and child-scald injuries. @U03,C16,C05
+action: NEVER bring charcoal grills, hibachis, camp stoves, propane turkey fryers, or patio heaters indoors, into attached garages, or onto enclosed porches—glowing charcoal produces massive lethal carbon monoxide even without visible smoke. @C16,C05
+action: When home heating fails and indoor insulation cannot maintain safe temperatures, relocate early to a public warming center, hotel, or powered friend/relative rather than improvising indoor combustion. @U17,U10
+failure: Bringing a glowing charcoal kettle grill into a living room during an ice storm to warm children, killing occupants silently while they sleep. @C16,C05
+verify: Confirm zero ovens, ranges, grills, or camp stoves are used for space heating and household evacuation warming options are ready. @U03,C16,U17
+stop: Any headache, dizziness, nausea, or CO alarm activation near an indoor fuel source demands instant outdoor evacuation and 911 activation. @C07,C16
+diagram: NEVER use ovens, grills or camp stoves | Charcoal emits massive odorless CO | Relocate to warming center instead
+visual: System boundary diagram marking strict red-zone prohibition of ovens, grills, and camp stoves indoors versus safe non-combustion layering and warming centers. Conceptual, not to scale.
+reviewer: Fire service and carbon monoxide safety
+
+Z13-P21 | Respect manufacturer limits and local codes for indoor-rated fuel heaters | CPSC Portable Heaters and NFPA Heating Safety; new manuscript
+objective: Prevent indoor CO, oxygen depletion, and fuel-vapor fires if a household owns a manufacturer-certified indoor-safe supplemental heater.
+applies: Jurisdictions where portable indoor-rated catalytic propane or kerosene heaters are legally permitted (check local/apartment codes first—many ban them outright).
+equipment: Manufacturer manual for the exact heater model, factory oxygen-depletion sensor (ODS), UL/CSA listing, working CO alarms, and proper fuel grade.
+action: Verify FIRST that local fire codes and rental/condo rules legally allow unvented fuel heaters—never assume an outdoor garage/construction torpedo heater or camp heater is indoor-rated. @U03,C05
+action: Operate a strictly indoor-rated heater ONLY per its exact manufacturer manual: maintain required open fresh-air ventilation (cracked window per manual), keep 3-foot combustible clearance, use ONLY the exact specified fuel (e.g., 1-K clear kerosene; NEVER gasoline), and never bypass safety tip-over or ODS sensors. @U03,C05
+action: NEVER sleep with an unvented fuel-burning heater running, ALWAYS refuel outdoors after full cooldown, and keep working battery CO alarms active in the room and hallway. @U03,U12,C15
+failure: Running an outdoor construction propane heater inside a closed basement or accidentally filling a kerosene heater with gasoline. @U03,C05
+verify: Confirm legal code compliance, exact indoor-rated model manual followed, fresh-air vent open, CO alarms active, and unit shut off before sleep. @U03,U12
+stop: Sooty yellow flames, chemical odor, headache/drowsiness, or CO alarm requires turning the heater OFF immediately, exiting to fresh air, and calling 911 if symptomatic. @C07,U03
+diagram: Verify local code & exact indoor rating | Exact fuel only; fresh air + 3 ft clear | NEVER sleep with unvented fuel heat on
+visual: Decision tree checking legal local code, exact indoor-rated model/ODS, exact fuel/ventilation, and awake-only operation before permitting use. Conceptual, not to scale.
+reviewer: Fire safety, licensed HVAC, and carbon monoxide specialist
+
+Z13-P22 | Maintain wood stoves and chimneys safely to prevent creosote flue fires | NFPA Heating Fire Safety; new manuscript
+objective: Operate properly installed residential wood heat cleanly while preventing explosive chimney fires and indoor smoke backdrafts.
+applies: Homes and cabins with code-installed, inspected wood-burning stoves or masonry fireplaces.
+equipment: Annual certified chimney-sweep inspection record, dry seasoned hardwood, stove-pipe thermometer, hearth pad clearance, and smoke/CO alarms.
+action: Have every wood stove, flue pipe, and chimney inspected and cleaned annually by a qualified chimney professional BEFORE winter heating season to remove flammable creosote buildup and animal nests. @U18,U03
+action: Burn ONLY dry, seasoned split firewood in brisk hot fires—never burn green wet wood, cardboard, glossy paper, painted/pressure-treated lumber, or household trash (which coats flues with creosote and releases toxic fumes). @U18
+action: Maintain manufacturer floor-pad and 3-foot wall/combustible clearances, keep stove doors latched or fireplace screens tightly closed, and treat conceptual wood-heat schematics strictly as safety reminders—NOT DIY flue installation guides. @U18,U03
+failure: Burning damp unseasoned pine and wrapping paper in an uncleaned chimney until thick black creosote ignites into a roaring flue fire. @U18
+verify: Confirm annual sweep completed, wood is dry seasoned, 3-foot clearances hold, and smoke/CO alarms test active. @U18,U12
+stop: Loud roaring/rumbling sound in the flue, glowing red stovepipe, dense indoor smoke, or exterior chimney sparks require evacuating everyone immediately and calling 911. @U18,U04
+diagram: Annual certified chimney sweep first | Burn dry seasoned wood only (no trash) | Roaring flue / smoke -> evacuate & 911
+visual: Cutaway wood-stove and flue boundary highlighting seasoned-wood firebox, inspected clean flue, hearth clearance, and creosote-fire warning cues. Conceptual, not to scale.
+reviewer: Certified chimney sweep, fire service, and HVAC safety
+
+Z13-P23 | Dispose of wood-stove ashes strictly in lidded outdoor metal cans | NFPA Heating Fire Safety; new manuscript
+objective: Prevent delayed deck, porch, and garage house fires triggered by hidden live coals inside seemingly cool ash.
+applies: Every household using a wood stove, fireplace, or outdoor fire pit during winter heating or outages.
+equipment: Dedicated heavy-gauge metal ash bucket with tight-fitting metal lid, metal shovel, and bare non-combustible outdoor ground pad well away from buildings.
+action: Scoop cooled ashes strictly with a metal shovel into a dedicated lidded METAL container—NEVER into cardboard boxes, paper bags, plastic buckets, or household vacuums (hidden embers ignite days later). @U18,U04
+action: Carry the tightly lidded metal ash can immediately OUTDOORS onto bare dirt, snow, gravel, or concrete at least 10+ feet away from wood decks, porches, siding, fences, and garages—never leave an ash bucket sitting on a wooden porch "just for tonight." @U18,U04
+action: Douse ashes thoroughly with water until saturated and stone-cold (stirring and feeling carefully after days of cooling) before final lawful disposal. @U18,C04
+failure: Leaving a metal pail of "cold" wood-stove ash on a wooden back deck overnight where insulated coals heat the metal bottom and ignite the decking. @U18,U04
+verify: Confirm metal-only lidded container sits outdoors on bare non-combustible ground well clear of decks and structures. @U18
+stop: Any visible glow, smoke wisp, or warm metal can requires moving strictly outdoors onto bare non-combustible ground and soaking thoroughly with water. @U18,C04
+diagram: Metal shovel + lidded metal can ONLY | Set outdoors on bare dirt/concrete clear | Hidden embers stay hot for DAYS
+visual: Correct versus incorrect ash disposal contrasting lidded metal can outdoors on bare stone/dirt against cardboard/plastic bins or wooden porch placement. Conceptual, not to scale.
+reviewer: Fire prevention specialist
+
+Z13-P24 | Keep exterior furnace, dryer, and water-heater vents clear of snowdrifts | CPSC Carbon Monoxide and FEMA Winter Weather; new manuscript
+objective: Prevent deadly indoor CO backup and furnace lockouts caused by drifting snow burying low exterior PVC intake/exhaust pipes.
+applies: Modern high-efficiency condensing furnaces, tankless water heaters, direct-vent fireplaces, and clothes dryers in snow-belt climates like Minnesota.
+equipment: Plastic snow shovel or broom (avoid striking brittle cold PVC), warm outerwear, and indoor CO alarms.
+action: Locate ALL exterior sidewall exhaust and combustion-air intake pipes around your home foundation in autumn—high-efficiency white PVC vents often exit just 1 to 3 feet above grade and disappear rapidly beneath Upper Midwest snowdrifts. @U12,E25
+action: After every heavy snowfall, blizzard, or high-wind drifting event, walk the exterior perimeter and clear snow and hanging icicles away from every furnace, water-heater, and dryer vent gently without cracking cold plastic pipes. @U12,E25
+action: Remember that blocked intake/exhaust pipes can force lethal carbon monoxide indoors or trigger repeated furnace safety shutoffs right during the coldest night of the storm. @U12,C07
+failure: Assuming a modern basement gas furnace is "sealed and automatic" while a waist-deep snowdrift plugs its exterior sidewall exhaust pipe. @U12,E25
+verify: Confirm every sidewall exhaust and intake pipe has clear airflow and zero icicle blockages after snowstorms, and indoor CO alarms are active. @U12,C09
+stop: Repeated furnace lockouts, odd exhaust odors indoors, or ANY CO alarm requires exiting immediately to fresh air and calling 911/qualified HVAC service. @U12,C07
+diagram: Map all low sidewall PVC vents early | Clear snowdrifts & icicles every storm | Blocked vents cause CO backup & lockout
+visual: Cutaway exterior foundation wall showing snowdrift burying low sidewall PVC furnace intake/exhaust pipes and cleared airflow path. Conceptual, not to scale.
+reviewer: Licensed HVAC technician and carbon monoxide safety
+
+Z13-P25 | Evacuate immediately on suspected natural gas or propane leaks | FEMA Ready.gov Hazardous Materials; new manuscript
+objective: Prevent catastrophic residential gas explosions through zero-spark immediate evacuation and utility dispatch from outside.
+applies: Any home, basement, or yard heated by piped natural gas or exterior propane (LP) tanks.
+equipment: Outdoor meeting point and utility emergency phone number accessible from outside the home.
+action: Recognize gas-leak warning signs immediately: distinctive rotten-egg/sulfur odor (mercaptan), hissing or whistling sound near pipes/appliances, blowing dirt/bubbling water outside, or dead vegetation over a buried gas line. @U11
+action: Leave the building IMMEDIATELY with all occupants and pets, leaving doors open behind you—do NOT flip any light switches, unplug appliances, light matches, start cars in the driveway, or use landline/cell phones INSIDE the building (tiny electrical sparks ignite gas mixtures). @U11
+action: Walk well away from the structure (upwind if outdoors) and call 911 AND your gas/propane utility emergency line from a safe distance; NEVER re-enter until fire/utility responders clear the building with gas meters. @U11
+failure: Flipping on a basement light switch to look for the source of a rotten-egg smell near the furnace, triggering an explosion. @U11
+verify: Confirm zero switches/phones touched indoors, all occupants accounted for well outside, and 911 + gas utility notified. @U11
+stop: Any persistent sulfur odor, pipe hissing, or dizziness near gas appliances mandates instant zero-spark evacuation. @U11
+diagram: Rotten-egg odor or pipe hiss -> EXIT | Zero switches, flames or phones inside | Call 911 & utility from well outside
+visual: Four-step gas-leak evacuation plate mapping odor/hiss detection, zero-spark immediate exit, distant 911/utility call, and responder meter clearance. Conceptual, not to scale.
+reviewer: Gas utility safety and fire service
+
+Z13-P26 | Respect natural-gas and propane shutoff boundaries and utility restoration rules | FEMA Ready.gov and NFPA Heating Safety; new manuscript
+objective: Clarify when gas valves should be left alone versus closed externally and why homeowners NEVER turn gas service back on themselves.
+applies: Post-storm, earthquake, flood, or appliance-leak utility decisions in gas-heated homes.
+equipment: Appropriate wrench stored outside ONLY if local utility instructs homeowner emergency shutoff, plus utility emergency phone list.
+action: Do NOT shut off your main home gas meter casually "just in case" during a routine electrical outage—unnecessary shutoffs leave homes unheated for days waiting for utility technicians to pressure-test lines and relight every pilot safely. @U11,U14
+action: If you smell leaking gas, hear hissing, or see structural/flood damage to gas piping and you can safely reach an exterior valve outside the building without entering gas fumes, follow your local gas utility's exact shutoff instructions (or evacuate first and let utility/fire crews shut it off). @U11
+action: Once a main natural-gas or propane tank valve has been turned off, NEVER turn it back on yourself—only the gas utility or a licensed gas technician may inspect appliances, purge air safely, and restore service. @U11
+failure: Turning the main gas meter back on yourself after a flood without pressure-testing, filling a basement with unburned gas from an extinguished pilot. @U11
+verify: Confirm household knows NEVER to restore shut-off gas service independently and keeps utility emergency numbers on paper. @U11,U14
+stop: Any doubt about gas piping integrity, flood-submerged gas appliances, or odor requires evacuating and waiting strictly for utility/licensed technicians. @U11
+diagram: Skip unnecessary routine gas shutoffs | Evacuate first if leak or hissing | ONLY utility/licensed pro restores gas
+visual: Escalation ladder separating routine outage leave-alone status from exterior emergency safety and mandatory utility-only restoration. Conceptual, not to scale.
+reviewer: Licensed gas utility technician and fire service
+
+Z13-P27 | Prevent frozen residential plumbing pipes during sub-zero cold snaps | FEMA Ready.gov Winter Weather; new manuscript
+objective: Protect vulnerable exterior-wall, crawlspace, and garage water lines from freezing and bursting during severe Minnesota cold spells.
+applies: Homes during sub-zero temperatures (especially wind chills/air below 20°F) or partial heating loss.
+equipment: Foam pipe sleeves, cabinet access, disconnected exterior garden hoses, and indoor thermometer.
+action: Disconnect, drain, and store all outdoor garden hoses BEFORE the first autumn freeze and shut off interior frost-free sillcock isolation valves if installed; insulate exposed pipes in unheated garages, crawlspaces, attics, and rim joists. @U10
+action: During severe sub-zero cold snaps while heat is running, open kitchen and bathroom sink cabinet doors along exterior walls so warm room air reaches pipes, keep garage doors closed tightly, and keep thermostats steady day and night. @U10
+action: Where local utility guidance recommends it during extreme cold on vulnerable exterior-wall lines, allow a thin slow trickle of cold/warm water from the farthest faucet—stopping immediately if drainage freezes or septic/water rationing is active. @U10,U07
+failure: Leaving a garden hose screwed onto an exterior faucet through November so trapped ice splits the copper pipe inside the basement wall. @U10
+verify: Confirm outdoor hoses removed pre-winter, exterior-wall cabinets open during sub-zero nights, and main water shutoff location known. @U10,U08
+stop: Sudden drop in faucet flow to a trickle on a freezing morning signals a frozen pipe—locate the main shutoff immediately before a burst thaws and floods the house. @U10,U08
+diagram: Disconnect hoses & sleeve cold pipes | Open exterior-wall sink cabinets in cold | Flow drops to trickle -> prep shutoff NOW
+visual: Cutaway exterior house wall showing vulnerable rim-joist/sink plumbing, open cabinet warm-air flow, and disconnected outdoor hose bib. Conceptual, not to scale.
+reviewer: Licensed plumber and cold-weather residential safety
+
+Z13-P28 | Operate the main residential water shutoff valve to limit burst-pipe flooding | FEMA Ready.gov Water and Winter Weather; new manuscript
+objective: Stop pressurized indoor water flooding within seconds if a pipe splits during a freeze-thaw event or plumbing failure.
+applies: Every house, townhome, or cabin with municipal water or a pressurized private well tank.
+equipment: Tagged main shutoff valve (ball valve or gate valve), adjustable wrench or curb-key if applicable, and flashlight.
+action: Identify the exact main water shutoff valve (typically where the supply line enters the basement/crawlspace on the street or well side, plus the well pump breaker for private wells) and tag it with a bright waterproof label. @U08,U14,U06
+action: Know your valve type gently: a quarter-turn lever ball valve closes perpendicular (90°) to the pipe, while a round wheel gate valve closes clockwise ("righty-tighty")—never force a seized old gate valve with excessive cheater-bar leverage that snaps the stem. @U08,ED
+action: If a pipe bursts, shut off the main water valve immediately (and switch off the well pump breaker on private wells), turn off power to any electric water heater so dry elements do not burn out, and open the lowest faucet to relieve residual pressure. @U08,U10
+failure: Watching hundreds of gallons of pressurized water cascade through ceiling drywall into light fixtures while hunting for an untagged shutoff valve. @U08,U14
+verify: Confirm valve location is cleared of stored boxes, tagged brightly, and every adult knows whether it turns 90° or clockwise. @U08,U14
+stop: Water flooding near electrical outlets, breakers, or appliances requires shutting off electricity safely from a dry zone (or exiting and calling the utility/fire department) before wading in. @U08,D05
+diagram: Tag main valve + well breaker early | Ball = 90° turn; Gate = clockwise gently | Burst pipe -> shut valve & water-heater power
+visual: Exploded residential water-entry diagram illustrating municipal main shutoff vs well-pump breaker, water-heater power kill, and lowest-tap pressure relief. Conceptual, not to scale.
+reviewer: Licensed plumber and electrical safety
+
+Z13-P29 | Follow controlled water-line draining limits during prolonged winter heating loss | FEMA Ready.gov Winter Weather; new manuscript
+objective: Reduce catastrophic pipe-burst damage when abandoning an unheated sub-zero home while avoiding boiler, water-heater, or gas-appliance damage.
+applies: Prolonged winter power/furnace outages where indoor temperatures approach freezing and occupants must relocate.
+equipment: Main water shutoff access, water-heater/boiler manufacturer manuals, buckets, and licensed plumber contact.
+action: If indoor heat cannot be maintained and indoor air drops toward freezing before evacuation, shut off the main water supply (and private well pump breaker), turn off electricity or gas pilot/supply to the water heater per its manual, and open all faucets from the highest floor down to the lowest basement tap to drain gravity lines. @U10,U08
+action: Flush toilets once to empty tanks (leaving bowl water traps per local winterization advice—never pour toxic automotive antifreeze into household plumbing; only food-grade RV/potable plumbing antifreeze is rated for drain traps if used). @U10,U08
+action: Do NOT attempt improvised draining of pressurized hydronic hot-water heating boilers, radiant floor loops, or steam systems without exact manufacturer or licensed HVAC/plumber procedures—improper draining cracks cast-iron sections and damages pumps. @U10,U11
+failure: Abandoning an unheated Minnesota house for three days at minus 15°F without shutting off the main water supply, or pouring toxic ethylene-glycol car antifreeze into kitchen sinks. @U10,U08
+verify: Confirm main supply shut off, water-heater power/heat secured per manual, faucets opened top-to-bottom, and complex boilers escalated to HVAC pros. @U10,U08
+stop: Already-frozen main valves, leaking gas water heaters, or pressurized hydronic boilers require licensed plumbing/HVAC intervention rather than forceful DIY wrenching. @U10,U11
+diagram: Shut main water & heater power first | Open taps top-to-bottom; zero car antifreeze | Hydronic boilers -> licensed HVAC pro
+visual: Four-step emergency home drain-down plate showing main shutoff, heater power-off, top-down gravity draining, and licensed-trade boiler boundary. Conceptual, not to scale.
+reviewer: Licensed plumber and HVAC specialist
+
+Z13-P30 | Thaw frozen pipes safely without open flames or concealed wall fires | FEMA Ready.gov Winter Weather and NFPA; new manuscript
+objective: Restore flow in accessible frozen pipes safely while preventing structural fires and scalding bursts.
+applies: Suspected frozen accessible interior water pipes once heat is restored.
+equipment: Hair dryer, warm wet towels, space heater at safe 3-foot clearance (never unattended), dry bucket, and main shutoff access.
+action: Keep the affected faucet OPEN slightly while warming so melting water and steam can relieve pressure safely as ice loosens, and confirm someone stands ready at the main water shutoff in case the frozen pipe already cracked beneath the ice plug. @U10,U08
+action: Apply gentle indirect heat ONLY to accessible exposed pipe sections using a handheld hair dryer, warm soaked towels, or UL-listed electric heat tape installed strictly per label—working steadily from the open faucet back toward the frozen section. @U10,U03
+action: NEVER use a propane blowtorch, kerosene/propane heater, charcoal stove, or open flame to thaw pipes—open flames ignite concealed wood framing and insulation silently inside wall cavities. @U10,U03,U04
+failure: Aiming a handheld propane torch into a basement joist bay to thaw a frozen copper pipe, igniting hidden dust and dry framing inside the wall. @U10,U04
+verify: Confirm faucet is open, main shutoff is ready, gentle non-flame heat is used, and zero water drips appear as ice melts. @U10,U08
+stop: Pipes frozen inside closed walls, visible split/bulged copper/PEX, or dripping water as ice thaws require shutting off the main water valve immediately and calling a licensed plumber. @U10,U08
+diagram: Open faucet & guard main shutoff | Hair dryer or warm towels ONLY | NEVER blowtorch or open flame near walls
+visual: Correct versus incorrect pipe thawing contrasting open-faucet hair-dryer/warm-towel thawing against propane torches that ignite concealed framing. Conceptual, not to scale.
+reviewer: Fire service and licensed plumber
+
+Z13-P31 | Spot ice dams, heavy snow roof-load cues, and safe exterior clearing limits | FEMA Ready.gov Winter Weather; new manuscript
+objective: Recognize dangerous structural snow-load and falling-ice hazards on northern roofs without risking fatal falls or electrocution.
+applies: Heavy multi-storm Upper Midwest winters producing deep roof snowpack, rain-on-snow weight, and eaves ice dams.
+equipment: Long-handled roof snow rake used strictly from solid ground (never ladders/icy roofs) and structural/contractor contact.
+action: Watch for dangerous roof-overload warning signs after deep snow or rain-on-snow storms: doors or windows suddenly sticking/jamming, new drywall cracks, creaking/popping ceiling rafters, or visibly sagging roof ridges—evacuate the building immediately if structural distress appears. @U10,U17
+action: Clear lower roof eaves from SOLID GROUND ONLY using a long-handled fiberglass/aluminum roof rake while staying completely clear of overhead electrical service drop wires and falling snow avalanches—NEVER climb onto an icy sloped roof or chop ice dams with axes/picks (which punctures shingles and causes fatal falls). @U10,K08
+action: Treat chronic ice dams (caused by warm attic air melting snow that refreezes at cold eaves) with long-term attic air-sealing and insulation upgrades via qualified contractors rather than dangerous DIY roof climbing. @U10
+failure: Climbing an extension ladder onto an ice-glazed roof with a metal shovel near an energized overhead electrical service drop. @U10,D04
+verify: Confirm any roof-rake work stays strictly on solid ground well clear of overhead power wires and falling snow paths. @U10
+stop: Sticking doors, cracking plaster, loud structural popping, or visible roof sag mandates immediate building evacuation and professional structural inspection. @U10,U17
+diagram: Stick doors/cracks/sag -> evacuate NOW | Rake lower eaves from GROUND ONLY | Stay clear of power drops & icy roofs
+visual: Cutaway winter roof profile showing attic heat loss forming eave ice dams, safe ground-level raking zone, and overhead power-drop exclusion. Conceptual, not to scale.
+reviewer: Structural safety and cold-weather residential trades
+
+Z13-P32 | Reduce indoor heat loss and manage condensation during cold-weather outages | FEMA Ready.gov Winter Weather and NWS Cold Safety; new manuscript
+objective: Retain residential thermal mass safely while preventing unhealthy indoor moisture, mold, and frozen window locks.
+applies: Multi-day cold-weather outages where mechanical HVAC fans and dehumidifiers are offline.
+equipment: Heavy drapes/blankets, rolled draft-stopper towels, indoor thermometer/hygrometer if owned, and dry cloths.
+action: Maximize passive solar gain by opening south-facing window shades during bright winter midday sun, then closing heavy blinds, curtains, or pinned blankets tightly before sunset to cut radiant glass heat loss. @U10
+action: Block cold infiltration around exterior door sweeps, pet doors, attic hatches, and unused fireplace dampers (ONLY once the fireplace is verified completely cold and unused). @U10,U18
+action: Monitor indoor condensation buildup when several occupants share one small closed room—wipe wet window sills dry daily and air briefly during warmest midday hours if moisture pools heavily, while maintaining zero indoor combustion. @U10,C16
+failure: Closing a fireplace damper while live embers remain in the firebox, filling the living room with lethal carbon monoxide. @U18,C07
+verify: Confirm passive south-sun/night-curtain cycle active, fireplace 100% cold before closing damper, and condensation managed cleanly. @U10,U18
+stop: Dropping interior temperatures approaching freezing or persistent damp chill affecting vulnerable occupants triggers relocation to heated shelter. @U10,U17
+diagram: Open south curtains in midday sun | Seal drafts & close drapes at dusk | Damper shut ONLY when firebox stone-cold
+visual: Cross-section of passive residential window/door heat retention contrasting midday solar gain, night curtain insulation, and strict cold-firebox damper rule. Conceptual, not to scale.
+reviewer: Building science and cold-weather emergency management
+
+Z13-P33 | Size household emergency drinking-water reserves beyond the 3-day floor | CDC Emergency Water Supply and FEMA Ready.gov Water; new manuscript
+objective: Plan realistic household drinking, cooking, and hygiene water quantities for both short disruptions and extended multi-week outages.
+applies: Homes, apartments, and rural residences building baseline and extended emergency water reserves.
+equipment: Sealed commercial water cases or sanitized food-grade storage containers, permanent marker, and cool dark storage area.
+action: Treat CDC/FEMA's **1 gallon per person per day for at least 3 days** as a MINIMUM short-term floor—building toward a 2-week reserve where storage space allows, and scaling higher for summer heat, pregnant/nursing individuals, illness, infant formula, and pets. @W14,U08
+action: Account separately for drinking/cooking potable water versus non-potable utility water (toilet flushing, cleaning) so contaminated utility jugs can NEVER be confused with drinking supplies. @W06,U08,W29
+action: Store water containers off bare concrete floors (on clean wood boards/shelves) in a cool, dark, frost-free space away from gasoline, pesticides, and paint solvents whose vapors can permeate thin plastic jugs. @W06,U08
+failure: Storing three one-gallon jugs next to a lawnmower gas can for a family of five and calling household water preparedness complete. @W14,W06
+verify: Confirm total stored gallons meet household headcount + pets for target days, labels separate potable/utility, and storage is cool and chemical-free. @W14,W06,U08
+stop: Any leaking, cracked, chemical-odor, or sunlight-algae-fouled storage container must be discarded or treated strictly as non-potable. @W06,W01
+diagram: ≥1 gal/person/day x 3 d minimum floor | Scale up for 2 wk, heat, kids & pets | Store cool, dark & far from fuel/chemicals
+visual: Comparative water-reserve configuration contrasting 3-day baseline floor, 14-day extended household stock, and chemical-free cool dark storage separation. Conceptual, not to scale.
+reviewer: Drinking-water public health and household preparedness
+
+Z13-P34 | Select, sanitize, label, and rotate food-grade household water containers | CDC Emergency Water Supply; new manuscript
+objective: Prevent bacterial regrowth and plastic-leaching contamination inside reusable home water storage jugs and drums.
+applies: Households filling reusable water jugs, Jerrycans, or 55-gallon food-grade drums from safe municipal or tested well taps.
+equipment: Unbroken food-grade HDPE/BPA-free water containers, dish soap, unscented household chlorine bleach (per CDC label), and permanent date marker.
+action: Use ONLY factory-sealed commercial bottled water OR dedicated, clean, tight-closing food-grade containers (such as HDPE #2 water jugs)—NEVER reuse milk jugs (protein residue degrades and breaks seals), glass jars (shatter risk), or ANY container that ever held fuel, bleach, detergent, or chemicals. @W06,W13
+action: Before filling reusable containers with safe water, wash with dish soap and warm water, rinse cleanly, sanitize interior walls per CDC's labeled dilute-bleach rinse protocol (at least 30 seconds contact), and rinse cleanly with safe water before filling and sealing tight. @W13
+action: Mark every self-filled container clearly with **DRINKING WATER** and the fill date, and rotate self-filled tap water every 6 months (and commercial water per manufacturer date). @W14,W13
+failure: Filling reused plastic milk jugs with tap water and storing them unlabeled in a sunny garage for three years. @W06,W14
+verify: Confirm food-grade container integrity, completed wash-sanitize-rinse steps, clear fill-date label, and 6-month calendar rotation reminder. @W13,W14
+stop: Discard cracked, yellowed, foul-smelling, or previously chemical-contact containers immediately—washing cannot remove absorbed toxins. @W06,W13
+diagram: Dedicated food-grade HDPE jugs only | Wash, sanitize 30 s per CDC & rinse | Label date clearly; rotate every 6 mo
+visual: Four-step home water-container sanitization plate covering food-grade selection, soap wash, CDC 30-second sanitize/rinse, and dated 6-month rotation. Conceptual, not to scale.
+reviewer: Drinking-water safety and public health
+
+Z13-P35 | Access safe indoor water reserves while avoiding forbidden boiler and toilet tanks | FEMA Ready.gov Water and CDC Emergency Water; new manuscript
+objective: Distinguish legitimate emergency indoor potable reserves (properly isolated water-heater tank) from chemically or mechanically unsafe household water.
+applies: Sudden municipal main break or supply cut when stored bottled water runs short.
+equipment: Water-heater electric breaker/gas shutoff access, short clean food-grade hose/bucket, and written tank manual.
+action: Recognize legitimate emergency indoor potable sources ONLY when municipal/well supply was confirmed safe before shutoff: melted ice cubes, liquid packed in canned fruits/vegetables, and clean residential water-heater tank water. @U08,W06
+action: Before draining a household water heater for emergency water, FIRST turn off its electricity at the breaker (or shut off gas supply), close the cold-water inlet valve, open a hot tap upstairs to break vacuum, and draw from the bottom drain valve—flushing initial rusty sediment first and treating/boiling if any microbiological doubt exists. @U08,W02
+action: NEVER drink water from hydronic home heating radiators/boilers, waterbeds, swimming pools/spas (use strictly for non-potable flushing), or toilet tanks containing blue/chemical bowl cleaners or corroded parts. @U08,W01
+failure: Draining a hot electric water heater with the breaker still ON (burning out heating elements) or drinking chemically treated toilet-tank water. @U08,W01
+verify: Confirm supply was safe pre-outage, water-heater power/gas is OFF before draining, sediment flushed clear, and zero radiator/chemical-tank water used. @U08
+stop: Any active Do Not Drink/Do Not Use chemical water advisory, rusty oily odor, or flood contamination disqualifies water-heater reserves completely. @W07,W01,U08
+diagram: Kill heater power/gas & inlet FIRST | Flush sediment; draw clean tank reserve | NEVER drink boilers, pools or chem tanks
+visual: Correct versus incorrect indoor reserve sourcing contrasting power-isolated water-heater drainage against forbidden hydronic boilers, pools, and chemical toilet tanks. Conceptual, not to scale.
+reviewer: Plumbing safety and drinking-water public health
+
+Z13-P36 | Comply accurately with Boil Water, Do Not Drink, and Do Not Use notices | CDC Drinking Water Advisories; new manuscript
+objective: Match household water use strictly to the exact public-water advisory tier so boiling is never misapplied to chemical contamination.
+applies: Municipal water main breaks, treatment failures, pressure drops, or watershed chemical releases affecting tap water.
+equipment: Local utility alert channel, stored bottled water, clean boiling pot, and timer.
+action: Read the EXACT advisory tier issued by your local water utility or health department: **Boil Water** targets microbial risk (bring clear water to a rolling boil 1 minute; 3 minutes above 6,500 ft for drinking, brushing teeth, food washing, and infant formula). @W07,W02,W29
+action: Under a **Do Not Drink** advisory (chemical/algal/nitrate contamination), do NOT boil tap water—boiling does not remove chemicals and can concentrate or vaporize volatile toxins; use ONLY bottled or officially supplied safe water for ingestion and food prep. @W07,W01,D12
+action: Under a **Do Not Use** advisory (severe chemical/biological/radiological hazard), do NOT use tap water for drinking, cooking, bathing, dishwashing, or laundry until authorities lift the order. @W07,D12
+failure: Boiling municipal tap water during a chemical-spill Do Not Drink advisory, volatilizing organic solvents into kitchen air. @W07,W01
+verify: Confirm exact advisory wording from local utility/health authority, shut off automatic ice/water dispensers, and use matched water controls. @W07,D12
+stop: Never guess when an advisory ends—maintain full precautions until the water utility announces formal laboratory-tested clearance. @W07,D12
+diagram: Boil Water = microbes (1 min / 3 min >6500 ft) | Do Not Drink = chemicals (NEVER boil) | Do Not Use = zero contact until cleared
+visual: Three-tier municipal water-advisory escalation ladder contrasting Boil Water, Do Not Drink, and Do Not Use compliance rules. Conceptual, not to scale.
+reviewer: Drinking-water utility and public health
+
+Z13-P37 | Isolate icemakers, humidifiers, and point-of-use filters during water advisories | CDC Drinking Water Advisories; new manuscript
+objective: Prevent contaminated advisory water from silently seeding refrigerator ice bins, appliance filters, and misting air into bedrooms.
+applies: Any household experiencing a municipal Boil Water, Do Not Drink, or Do Not Use notice or private well pressure loss.
+equipment: Refrigerator icemaker shutoff arm/switch, humidifier tank access, and replacement filter cartridges.
+action: Turn OFF automatic refrigerator icemakers and water dispensers immediately when an advisory begins, and discard all ice made during or potentially just before the water-system incident—freezing does NOT kill waterborne pathogens. @W07,D12,P12
+action: Empty, clean, and leave room humidifiers, CPAP reservoirs, and neti pots filled ONLY with confirmed distilled or properly boiled-and-cooled safe water (never raw advisory tap water). @W07,W29
+action: Recognize that standard refrigerator carbon pitch/inline filters do NOT sterilize Boil Water pathogens and may trap microbes inside filter media—follow manufacturer/utility replacement and flushing rules once the advisory lifts. @W21,D12
+failure: Carefully boiling drinking water on the stove while serving guests ice cubes automatically made from unboiled advisory tap water. @D12,W07
+verify: Confirm icemaker switched OFF, old ice discarded, CPAP/humidifiers isolated on safe water, and fridge filter scheduled for replacement post-advisory. @D12,W29
+stop: Do not reconnect icemakers or drink filtered fridge water until utility clearance AND post-advisory pipe flushing are complete. @D12,W07
+diagram: Switch icemaker OFF & dump all ice | Use only safe/distilled water in CPAP/mist | Standard fridge carbon filters ≠ sterile
+visual: Exploded four-appliance isolation diagram covering refrigerator icemaker, inline carbon filter, humidifier/CPAP tank, and dishwasher sanitize cycle limits. Conceptual, not to scale.
+reviewer: Drinking-water public health and appliance safety
+
+Z13-P38 | Flush household plumbing properly after municipal water advisories clear | CDC Drinking Water Advisories; new manuscript
+objective: Clear stagnant, turbid, or hyper-chlorinated water from interior home pipes safely once authorities lift an outage or advisory.
+applies: Homes returning to normal municipal tap water after main repairs, depressurization, or lifted Boil Water notices.
+equipment: Utility clearance notice, access to cold-water taps, faucet aerator tool if clogged, and replacement appliance filters.
+action: Wait for official public confirmation from your water utility that laboratory tests passed and the advisory is officially lifted before beginning home flushing. @D12,W07
+action: Follow your utility's exact flushing sequence—typically running ALL cold-water faucets (removing aerator screens if sediment clogs them) for several minutes until water runs clear and cool, flushing toilets, cycling water softeners/hot-water tanks if directed, and discarding the first several batches of new ice. @D12
+action: Replace contaminated refrigerator or point-of-use filter cartridges per manufacturer and health-department directions rather than reusing cartridges exposed to Boil Water or chemical-advisory water. @D12,W21
+failure: Drinking the first cloudy rusty glass straight from a stagnant bathroom tap the minute municipal pressure returns. @D12
+verify: Confirm official utility clearance received, cold taps flushed clear, clogged aerators rinsed, and first ice batches discarded. @D12,ED
+stop: Persistent cloudiness, chemical/fuel odor, or metallic discoloration after flushing requires stopping consumption and contacting the water utility immediately. @D12,W01
+diagram: Confirm official utility clearance first | Run all cold taps until cool & clear | Replace exposed filters; dump first ice
+visual: Four-step post-advisory restoration plate mapping utility clearance check, cold-tap flushing, filter replacement, and fresh ice-bin reset. Conceptual, not to scale.
+reviewer: Drinking-water utility and plumbing safety
+
+Z13-P39 | Understand private well ownership responsibilities outside municipal oversight | US EPA Private Drinking Water Wells; new manuscript
+objective: Clarify why rural and acreage homeowners bear full legal and testing responsibility for domestic groundwater safety.
+applies: Residences supplied by private drilled, driven-point, or dug wells across rural Minnesota and the Upper Midwest.
+equipment: Well construction record (depth, casing, aquifer), certified water-testing lab contacts, and licensed well-contractor contact.
+action: Recognize that federal Safe Drinking Water Act rules and municipal water utilities do NOT test, monitor, or regulate private household wells—homeowners are personally responsible for inspection, testing, and treatment. @U05
+action: Keep your state well-construction log (in Minnesota, MDH Unique Well Number record) with your household utility binder so licensed contractors and emergency responders know well depth, casing seal, and pump type immediately. @U05,U06,U14
+action: Never equate cold, crystal-clear, sweet-tasting well water with biological or chemical safety—nitrates, arsenic, lead, agricultural chemicals, and coliform bacteria are completely invisible and tasteless. @U05,W22,W23
+failure: Living on a rural private well for twenty years without a single lab test because the water looks sparkling clear and tastes cold. @U05,W23
+verify: Confirm well-construction record is filed in the home binder and scheduled annual certified-lab testing is active. @U05,U14
+stop: Sudden taste, odor, turbidity change, nearby septic failure, or floodwater contact requires switching immediately to safe bottled water and testing. @U05,W18
+diagram: Municipal rules do NOT test private wells | Clear cold water can hide nitrates/arsenic | File well log & test annually via lab
+visual: System boundary diagram contrasting municipally monitored public utilities against homeowner-managed private well testing and licensed contractor maintenance. Conceptual, not to scale.
+reviewer: Hydrogeology and environmental health
+
+Z13-P40 | Protect private wellheads from snowmelt, runoff, fuel, and septic drainage | US EPA Private Wells and MN Dept. of Health Wells; new manuscript
+objective: Prevent surface water, fertilizers, animal waste, and spilled fuel from entering groundwater aquifers through damaged well caps or casings.
+applies: Rural homes, farms, and cabins with private drinking wells across all seasons.
+equipment: Visual inspection log, intact vermin-proof sanitary well cap, positive ground grading, and licensed well contractor contact.
+action: Inspect the exterior well casing each spring and autumn: confirm the casing rises cleanly above ground grade (avoiding submerged pit installations), the sanitary well cap is tightly bolted and vermin-proof with intact conduit seals, and surrounding soil slopes AWAY from the wellhead. @U05,U06
+action: Keep gasoline, heating oil, pesticides, road salt, animal manure, septic drainfields, and livestock pens far downslope and well outside state-mandated setback distances from the wellhead. @U05,U06
+action: Mark the well casing visibly with a tall flexible fiberglass stake before Minnesota snowfall so snowplows and mowers NEVER shear the casing—an impact crack opens a direct highway for surface bacteria into drinking water. @U06,ED
+failure: Backing a snowplow into a snow-buried well casing and leaving a cracked cap exposed to spring snowmelt runoff. @U06,U05
+verify: Confirm unbroken sanitary cap, soil sloping away from casing, tall winter plow marker installed, and chemical/fuel storage far away. @U05,U06
+stop: Cracked casing, loose cap, standing snowmelt pooling against the pipe, or chemical spill nearby requires switching to bottled water and calling a licensed well contractor. @U06,W18
+diagram: Intact sealed cap well above grade | Slope soil away; mark tall for plows | Keep fuel, salt & septic far downslope
+visual: System separation cutaway showing elevated cased wellhead sloping away from snowmelt/fuel/septic zones with strict setback boundary. Conceptual, not to scale.
+reviewer: Licensed well contractor and Minnesota environmental health
+
+Z13-P41 | Plan for private well electrical pump outages and depressurization risks | US EPA Private Wells and MN Dept. of Health; new manuscript
+objective: Anticipate immediate residential water loss when grid power drops on a private well and protect submersible pumps from surge/dry damage.
+applies: Homes relying on electrically powered submersible or jet well pumps during power blackouts.
+equipment: Dedicated stored drinking water, tagged well-pump breaker, licensed transfer-switch plan if generator-backed, and spare water plan for livestock/flushing.
+action: Remember that private well pumps stop instantly when electricity fails—once the small pressurized bladder tank empties (often just 5 to 15 gallons), EVERY household faucet and toilet stops flowing until power returns. @U06,U08,U01
+action: Switch OFF the dedicated well-pump breaker during flickering brownouts or prolonged outages until stable utility power or a properly licensed, adequately sized 240V transfer-switch generator circuit is ready (submersible pumps draw high startup surges that burn out under low voltage). @U06,U02,U01
+action: Never open well caps or attempt DIY electrical splicing on submersible well wiring—240-volt wet wellheads pose lethal electrocution and aquifer-contamination hazards requiring licensed well and electrical contractors. @U06,U02
+failure: Relying on a private well with zero stored bottled water, then burning out a deep submersible pump motor on a flickering brownout. @U06,U08
+verify: Confirm stored drinking water covers outage days independently of the well, well breaker is tagged, and pump stays off during brownouts. @U06,U08,U14
+stop: Loss of well pressure paired with muddy water, air sputtering, or electrical breaker tripping requires shutting off the well breaker and calling a licensed well contractor. @U06
+diagram: Grid loss = instant well-pump shutdown | Bladder tank holds only ~5–15 gal reserve | Kill breaker in brownouts; store water first
+visual: Failure-mode diagram tracing grid loss and brownout surges through submersible pump damage to stored-water independence and tagged breaker control. Conceptual, not to scale.
+reviewer: Licensed well contractor and master electrician
+
+Z13-P42 | Reject flood-submerged private well water until licensed inspection and testing | CDC Private Wells After Flood and MN Dept. of Health; new manuscript
+objective: Prevent severe waterborne disease, chemical exposure, and electrocution after floodwater reaches or surrounds a private drinking well.
+applies: Any private well surrounded by, submerged under, or near flooded basements, creeks, or agricultural floodwater.
+equipment: Bottled or verified safe alternative drinking water, licensed well contractor contact, and certified testing laboratory.
+action: Assume ANY private well inundated or surrounded by floodwater is contaminated with sewage, bacteria, silt, and potentially agricultural/fuel chemicals—do NOT drink, cook with, or brush teeth with it, and do NOT turn the electrical pump back on until an electrician/well pro inspects submerged wiring. @W18,U05,U06
+action: Hire a state-licensed well contractor (in Minnesota, an MDH-licensed well contractor) to inspect the well casing, pump electrical system, and sediment fouling, flush the system, and perform proper shock chlorination if mechanically sound. @W18,U06
+action: Do NOT resume drinking the well water until certified laboratory testing confirms absence of coliform/E. coli bacteria AND any locally relevant chemical contaminants after all disinfectant chlorine has cleared. @W18,U05,U06
+failure: Trying to pour household bleach down a submerged muddy well yourself while the electrical conduit is still wet, then drinking it without a lab test. @W18,U06
+verify: Confirm bottled/verified safe water is in use, well pump stays off until electrical check, and licensed contractor + lab clearance precede reuse. @W18,U06
+stop: Flooded wellheads, fuel sheens nearby, or failed post-flood coliform lab tests prohibit drinking well water until full licensed remediation passes lab checks. @W18,U06
+diagram: Flooded well -> assume contaminated | Licensed electrical/well inspection first | Certified lab PASS required before drinking
+visual: Four-step post-flood well recovery plate mapping immediate bottled-water switch, electrical lockout, licensed contractor shock/flush, and certified lab pass. Conceptual, not to scale.
+reviewer: Licensed well contractor and drinking-water public health
+
+Z13-P43 | Schedule annual certified-lab testing for private drinking wells | US EPA Private Wells and MN Dept. of Health; new manuscript
+objective: Detect invisible microbial and naturally occurring or agricultural chemical contaminants in private groundwater before illness occurs.
+applies: All households drinking from private wells, especially families with infants, pregnant members, or agricultural/mineral geology.
+equipment: Sterile sample bottles from a state-certified water testing laboratory and annual maintenance calendar.
+action: Test private well water EVERY YEAR through a state-accredited/certified laboratory for total coliform bacteria, nitrates, total dissolved solids, and pH—and test additionally for arsenic (common naturally in Minnesota glacial aquifers), lead/copper (especially in older plumbing), and local agricultural/industrial contaminants per county health advice. @U05,W23,U06
+action: Retest immediately after ANY flooding, new well/pump work, household gastrointestinal illness, nearby chemical spill, or pregnant woman/infant moving into the home (high nitrates cause dangerous methemoglobinemia/"blue baby" risk and are NOT removed by boiling—boiling concentrates nitrates!). @U05,W22,W23
+action: Follow exact certified-lab bottle sampling and cold-shipping time limits so sample results remain valid. @U05
+failure: Boiling high-nitrate rural well water to mix infant formula, which actually evaporates water and concentrates toxic nitrates even higher. @W22,W23,U05
+verify: Confirm annual certified-lab report is filed in the home binder and any exceedances are matched to certified treatment or safe alternate water. @U05,W21
+stop: Any positive E. coli/coliform test or chemical exceedance (nitrate/arsenic/lead) triggers immediate safe-water substitution and health-department/contractor action. @U05,W22
+diagram: Test yearly via state-certified lab | Screen coliform, nitrate, arsenic & lead | NEVER boil high-nitrate water (concentrates!)
+visual: Seasonal private-well testing timeline pairing annual certified-lab screening with post-flood/infant triggers and boiling-nitrate contraindication. Conceptual, not to scale.
+reviewer: Hydrogeology, drinking-water toxicology, and public health
+
+Z13-P44 | Prevent residential hose backflow and plumbing cross-connections | US EPA Private Wells and CDC Water; new manuscript
+objective: Stop lawn chemicals, buckets of soapy water, or cistern water from siphoning backward into home drinking-water pipes during pressure drops.
+applies: Homes using outdoor garden hoses, utility sinks, pesticide sprayers, or auxiliary backup water systems.
+equipment: Hose-bibb vacuum breakers (anti-siphon valves), physical air gaps, and licensed plumber guidance for auxiliary piping.
+action: Install inexpensive threaded hose-bibb vacuum breakers on every exterior faucet and NEVER leave a garden hose end submerged inside a bucket of detergent, animal trough, puddle, or chemical sprayer—a sudden municipal main break or well shutoff creates negative vacuum suction ("backsiphonage") that pulls dirty liquid straight into house pipes. @U08,U05
+action: Maintain a physical **air gap** (clear vertical air space above the rim) whenever filling buckets, rain barrels, or emergency tanks from a tap. @U08,W06
+action: NEVER connect a rainwater cistern, sump pump, or auxiliary untreated pump directly into household potable plumbing—physical isolation and licensed backflow assemblies are mandatory under plumbing codes. @U08,U06,W03
+failure: Leaving a garden hose running inside a soapy wash bucket when a neighborhood water main breaks, siphoning detergent back into the kitchen drinking line. @U08
+verify: Confirm anti-siphon vacuum breakers installed on exterior spigots, zero submerged hose ends, and complete physical isolation from non-potable tanks. @U08,U05
+stop: Suspected chemical or sewage backsiphonage into home pipes requires immediate Do Not Drink isolation, flushing guidance, and licensed plumbing/health review. @W01,U08
+diagram: Vacuum breakers on all outdoor spigots | Never submerge hose end in buckets/troughs | Zero cross-connection to cisterns/sumps
+visual: Correct versus incorrect hose/plumbing isolation contrasting physical air gaps and anti-siphon vacuum breakers against backsiphonage during pressure drops. Conceptual, not to scale.
+reviewer: Licensed plumber and drinking-water safety
+
+Z13-P45 | Keep household rainwater catchment strictly isolated from potable taps | CDC Collecting Rainwater and EPA Private Wells; new manuscript
+objective: Use roof rain barrels safely for gardening or non-potable flushing while preventing roof-runoff microbes and shingle chemicals from entering drinking supplies.
+applies: Homes and homesteads collecting roof rainwater in barrels or cisterns.
+equipment: Mosquito-screened opaque rain barrels, clearly stenciled NON-POTABLE labels, and complete physical separation from house plumbing.
+action: Treat residential roof rainwater collected from asphalt shingles, metal flashing, gutters, and bird-visited roofs strictly as **NON-POTABLE** water suitable for ornamental watering or emergency toilet flushing—NOT drinking without validated multi-barrier treatment and contaminant screening. @W03,W30
+action: Cover rain barrels tightly with fine mosquito mesh and solid child-safe lids (preventing drowning hazards and mosquito breeding), label barrels boldly **NON-POTABLE**, and disconnect/drain barrels before Upper Midwest autumn freezes split plastic tanks. @W03,W30,U10
+action: Never splice a rain-barrel pump into household drinking pipes; any dedicated potable rainwater system requires engineered roof materials, first-flush filtration, disinfection, lab testing, and local health-code approval. @W03,U08
+failure: Drinking untreated rainwater straight from a green sunlit gutter barrel containing bird droppings and asphalt shingle grit. @W03,W30
+verify: Confirm barrels have mosquito mesh, child-safe lids, bold NON-POTABLE labels, zero pipe cross-connections, and winter draindown. @W03,W30
+stop: Chemical roof treatments (moss killers), wildfire ash on roofs, or stagnant foul odor prohibit even vegetable-leaf splash watering. @W03,W01,P03
+diagram: Roof runoff = birds, dust & shingle grit | Label barrels NON-POTABLE; screen tightly | Zero splice into potable home pipes
+visual: System boundary diagram isolating roof-gutter non-potable rain barrels (flushing/ornamental only) from screened potable household water supplies. Conceptual, not to scale.
+reviewer: Environmental health and plumbing code specialist
+
+Z13-P46 | Match household water filters to certified NSF claims and maintenance schedules | CDC Choosing Home Water Filters; new manuscript
+objective: Prevent false reliance on basic taste-and-odor pitchers during biological or chemical emergencies by matching certified filter classes to exact contaminants.
+applies: Homes using pitcher filters, faucet mounts, under-sink carbon/RO units, or gravity countertop filters.
+equipment: Manufacturer certification sheet (NSF/ANSI 42, 53, 55, 58, or P231), cartridge replacement calendar, and boiling/bottled backup.
+action: Verify exact independent certification labels (NSF/ANSI or WQA) rather than marketing words: NSF 42 covers aesthetic chlorine/taste ONLY (NOT microbes or lead); NSF 53/58 require verifying the SPECIFIC named contaminant claim (such as cyst reduction, lead, or arsenic) on that exact cartridge. @W20,W21
+action: Remember that standard home carbon pitchers and refrigerator filters do NOT make Boil Water advisory tap water, floodwater, or bacteria-contaminated private well water safe to drink. @W20,W21,W07
+action: Replace cartridges strictly on schedule (or immediately after any Boil Water / flood-contamination exposure) and protect wet cartridges from freezing, which cracks media silently. @W21,W28
+failure: Filtering Boil Water advisory tap water through a basic taste-only charcoal pitcher and assuming all bacteria and viruses are removed. @W20,W21
+verify: Confirm exact NSF/ANSI certification and specific listed contaminants match household risks, with scheduled cartridge swap dates logged. @W20,W21
+stop: Unknown certification, expired/clogged cartridges, freeze exposure, or active chemical/Boil Water advisories require switching to validated boiling or safe bottled water. @W20,W28,W07
+diagram: NSF 42 = taste ONLY (not germs/lead) | Check exact NSF 53/58 named claim | Pitchers NEVER clear Boil Water notices
+visual: Comparative filter matrix contrasting aesthetic NSF 42 carbon pitchers, specific-claim NSF 53/58 systems, and validated emergency boiling/bottled water. Conceptual, not to scale.
+reviewer: Drinking-water treatment specialist
+
+Z13-P47 | Protect residential septic systems during electrical outages | US EPA Septic Systems; new manuscript
+objective: Prevent raw sewage basement backups and drainfield failure when septic lift pumps or aerobic units lose grid power.
+applies: Rural and suburban homes served by onsite septic tanks, mound systems, or grinder/effluent lift pumps.
+equipment: Septic system diagram (gravity vs pump-assisted), water-conservation routine, and licensed septic pumper/installer contact.
+action: Know BEFORE an outage whether your septic system is pure gravity-flow OR uses an electrical lift pump, mound pump, or aerobic treatment unit—pump-assisted tanks have limited emergency reserve volume and back raw sewage directly into basements if normal water use continues without power. @U07,U14
+action: Cut household water volume drastically during any power outage: pause laundry, dishwashers, and long showers, capture sink rinse water in a bucket to toss outdoors safely away from wells, and minimize toilet flushes until power returns. @U07
+action: Never drive vehicles, park heavy trailers, or pile plowed snowbanks over the septic tank lid or drainfield (compacted snow drives frost deep into Upper Midwest drainfields and crushes buried pipes). @U07,U10
+failure: Running three loads of laundry and taking long showers during a power outage on a mound septic system with a dead lift pump until sewage overflows the basement floor drain. @U07
+verify: Confirm household knows gravity vs pump septic type, pauses high-water appliances during blackouts, and keeps vehicles/plows off the drainfield. @U07,U14
+stop: Gurgling drains, slow basement floor drains, sewage odors, or septic alarm buzzers require stopping ALL indoor water draining immediately and calling a licensed septic pro. @U07
+diagram: Know gravity vs pump-assisted septic | Cut showers/laundry/flushes in blackout | Never park or plow snow over drainfield
+visual: System boundary diagram contrasting limited-reserve pump septic tanks against basement backup risk when high indoor water use continues unpowered. Conceptual, not to scale.
+reviewer: Onsite wastewater engineering and environmental health
+
+Z13-P48 | Avoid premature tank pumping and drainfield damage after septic flooding | US EPA Septic Systems; new manuscript
+objective: Prevent costly structural tank float-out and groundwater contamination when heavy rain or river floods saturate a septic yard.
+applies: Homes with septic tanks and soil drainfields during spring snowmelt floods or heavy storm inundation.
+equipment: Water-conservation plan, emergency bucket toilet backup if drains back up, and licensed septic inspector contact.
+action: Stop or severely reduce indoor water use while floodwaters stand over the septic drainfield—saturated soil cannot absorb effluent, forcing wastewater back into home plumbing or onto the yard. @U07
+action: NEVER pump out a septic tank while surrounding ground is still flooded or waterlogged—an emptied underground tank acts like a hollow boat and can buoyantly pop straight up out of wet earth, snapping inlet/outlet pipes permanently. @U07
+action: Wait until floodwaters recede and ground dries before having a licensed septic professional inspect electrical pumps, remove flood silt/debris from the tank, and clear the system for normal use. @U07
+failure: Calling a vacuum truck to pump a septic tank empty while the yard is still saturated with spring floodwater, floating the concrete tank two feet upward. @U07
+verify: Confirm zero traffic over wet drainfields, minimal indoor water draining during floods, and licensed inspection after ground dries. @U07
+stop: Sewage surfacing in the yard or backing into basement tubs requires halting plumbing use, isolating contaminated areas, and using temporary containment or relocating. @U07,U13
+diagram: Saturated drainfield cannot absorb flow | NEVER pump tank while ground is flooded | Wait for dry ground + licensed inspection
+visual: Failure-mode diagram showing buoyant tank float-out when pumped in saturated flood soil versus water conservation and post-recession licensed inspection. Conceptual, not to scale.
+reviewer: Onsite wastewater engineering and public health
+
+Z13-P49 | Set up hygienic two-bucket emergency sanitation when sewer service fails | CDC Emergency Sanitation; new manuscript
+objective: Contain human waste safely without odor, flies, or fecal-oral disease transmission during multi-day water or sewer outages.
+applies: Households unable to flush toilets due to frozen sewer lines, flooded septic systems, or municipal sewer/water interruption.
+equipment: Two sturdy 5-gallon buckets with tight snap lids, heavy-duty 3-mil contractor trash bags, snap-on toilet seat lid, dry sawdust/peat/cat litter, and handwashing station.
+action: Separate liquids (urine) and solids into TWO distinct lined buckets whenever practical—separating urine sharply reduces odor, weight, and bag rupture; line the solid-waste bucket double-bagged with heavy contractor bags and sprinkle dry sawdust, peat moss, or kitty litter after each use to absorb moisture. @U13
+action: Snap tight lids closed immediately after every use, keep emergency waste buckets strictly OUTSIDE food preparation zones in a cool ventilated utility area, and wash hands thoroughly with soap and safe water (or ≥60% alcohol rub) immediately afterward. @U13,F01
+action: NEVER pour untreated human waste into storm drains, creeks, lakes, or vegetable gardens; tie double-bagged waste securely in a lidded outdoor metal/plastic bin and follow exact county public-health disposal instructions once services resume. @U13,W01
+failure: Dumping unlined bucket waste near a backyard wellhead or vegetable garden, contaminating both groundwater and household produce. @U13,U05
+verify: Confirm double heavy-duty liners, tight lids, dedicated soap handwashing right beside the station, and zero contact with water/garden zones. @U13,F01
+stop: Overflowing uncontained waste, leaking bags, or household diarrheal illness during prolonged sewer loss triggers relocation to functioning sanitary facilities. @U13,U17
+diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Wash hands; follow local health disposal
+visual: Exploded four-part emergency sanitation station showing double-lined solid bucket with cover medium, separate liquid container, tight lid, and dedicated handwash basin. Conceptual, not to scale.
+reviewer: Environmental health and sanitation specialist
+
+Z13-P50 | Maintain water-conserving hand hygiene and dish sanitation during service cuts | CDC Safe Water and USDA Food Safety; new manuscript
+objective: Break fecal-oral illness chains inside the home using minimal stored potable water during multi-day utility disruptions.
+applies: Homes operating on limited stored water reserves during municipal breaks, well outages, or storms.
+equipment: Spigot water jug or small pour pitcher, liquid soap, basin, ≥60% alcohol hand sanitizer, disposable paper plates/utensils, and clean towels.
+action: Build a simple gravity handwashing station (a small spigot jug or assisted pitcher pouring a thin stream over hands into a catch basin) so thorough 20-second soap-and-safe-water handwashing uses just ounces instead of gallons—especially before cooking and after toilet/waste tasks. @U13,F01,W29
+action: Use ≥60% alcohol-based hand sanitizer to conserve water when hands are NOT visibly soiled with dirt, grease, or fecal matter (visible grime still requires soap and safe water). @U13
+action: Switch to disposable paper plates, bowls, and utensils during strict water rationing to save potable water for drinking and hygiene; wash essential cooking pots with confirmed safe water and air-dry completely. @U13,W29
+failure: Skipping handwashing after using an emergency bucket toilet to "save drinking water," triggering a household norovirus outbreak during a blackout. @U13,F01
+verify: Confirm dedicated handwashing station stocked with soap and safe water, sanitizer for clean-looking hands, and catch basin emptied away from wells/food. @U13,W29
+stop: Shared vomiting or diarrhea inside a water-rationed home escalates hygiene isolation and potential relocation to full-service care. @U13,M17
+diagram: Thin-stream spigot jug + soap (20 s) | Alcohol rub ≥60% when not visibly soiled | Disposable plates save potable water
+visual: Four-step low-water household hygiene station mapping spigot pour, 20-second soap scrub, catch-basin disposal, and clean air-drying. Conceptual, not to scale.
+reviewer: Public health and environmental sanitation
+
+Z13-P51 | Prevent deadly toxic gases by never mixing household cleaning chemicals | CDC Emergency Sanitation and Poison Control; new manuscript
+objective: Stop accidental chlorine and chloramine gas poisoning during home water sanitization, flood cleanup, and outage disinfection.
+applies: Mixing bleach solutions for emergency water containers, bathrooms, mold cleanup, or flooded basements.
+equipment: Plain unscented liquid sodium hypochlorite bleach (check exact label %), clean measuring spoons, cold tap water ONLY, and good ventilation.
+action: Mix household chlorine bleach STRICTLY with plain cool water per exact label directions—NEVER mix bleach with ammonia, window cleaners, urine/toilet cleaners, vinegar, lemon juice, or acidic rust/drain cleaners. @U13,M15
+action: Recognize the exact chemical hazard: bleach + ammonia creates toxic chloramine gas, and bleach + acids (vinegar/toilet cleaner) creates lethal chlorine gas—both rapidly burn eyes, throats, and lungs even in open bathrooms. @U13,M15
+action: Ventilate rooms well when cleaning, wear gloves, keep all chemical bottles in original labeled containers high out of children's reach, and NEVER reuse empty drink bottles to store diluted bleach. @U13,M16
+failure: Pouring bleach into an ammonia-cleaned emergency toilet bucket or mixing vinegar and bleach to scrub flood mold in a closed basement. @U13,M15
+verify: Confirm bleach mixes ONLY with plain water, original labels stay intact, and acidic/ammonia cleaners are stored physically separate. @U13,M15
+stop: Sharp choking odor, burning eyes, coughing, or chest tightness while cleaning requires dropping the bucket, evacuating immediately to outdoor fresh air, and calling 911/Poison Control. @M15,M16,U13
+diagram: Dilute bleach ONLY with plain water | NEVER mix bleach + ammonia or vinegar | Choking gas -> exit to fresh air & 911
+visual: Correct versus incorrect cleaning chemistry contrasting plain-water bleach dilution against deadly chloramine (ammonia) and chlorine (acid/vinegar) gas releases. Conceptual, not to scale.
+reviewer: Toxicology, poison control, and environmental health
+
+Z13-P52 | Contain household trash and spoiling food safely during prolonged service halts | FEMA Ready.gov and USDA Food Safety; new manuscript
+objective: Prevent rodents, bears/wildlife, flies, and pathogen buildup when municipal garbage pickup stops for weeks after storms.
+applies: Multi-week winter storms, flood cleanups, or prolonged regional infrastructure disruptions.
+equipment: Heavy contractor trash bags, tightly lidded metal/rigid outdoor bins, wildlife-resistant locks where relevant, and separate dry-recyclable staging.
+action: Separate wet organic food scraps (especially spoiled outage meat/dairy) immediately from dry paper/plastic trash—double-bag wet putrescible waste tightly inside rigid animal-proof lidded bins stored outdoors away from living spaces and wellheads. @U13,E27
+action: Flatten and keep clean dry cardboard, rinsed cans, and plastics dry indoors or in sheds so scarce rigid outdoor bins stay reserved for odor-prone waste; NEVER burn household plastics, treated wood, or garbage in indoor fireplaces or backyard barrels (toxic dioxins and fire risk). @U18,U13
+action: Wash hands after every trash-handling task and follow county/municipal emergency debris drop-off schedules once roads open. @U13,F01
+failure: Piling bags of thawed outage meat on an open back porch, attracting raccoons, rodents, or bears directly to household entrances. @U13,E27
+verify: Confirm wet waste double-bagged in rigid latched outdoor bins, zero trash burned indoors, and handwashing performed after handling. @U13,U18
+stop: Rodent/wildlife intrusion, maggot/sewage contamination, or toxic chemical debris requires immediate containment and county waste-authority guidance. @U13,E27
+diagram: Separate wet food waste from dry trash | Double-bag in rigid latched outdoor bins | NEVER burn plastics or trash indoors
+visual: System boundary diagram separating clean dry-trash staging from double-bagged rigid outdoor wet-waste bins and forbidden indoor garbage burning. Conceptual, not to scale.
+reviewer: Environmental health and solid-waste safety
+
+Z13-P53 | Respect sanitary greywater boundaries during extended home water rationing | CDC Water and EPA Septic; new manuscript
+objective: Reuse clean rinse water responsibly for toilet flushing without spreading skin, food, or soil pathogens inside the home.
+applies: Multi-day outages where non-potable water is rationed for flushing functioning municipal/gravity toilets.
+equipment: Clearly marked greywater bucket (strictly separate from drinking jugs), toilet-bowl pour routine, and local health rules.
+action: Distinguish light greywater (clean dish-rinse or hand/bath water free of raw meat juices, bleach/harsh solvents, or fecal matter) from contaminated blackwater (toilet/diaper/raw-meat/sewage water)—ONLY light greywater is appropriate for emergency gravity-toilet bowl flushing. @U13,U07
+action: Pour flush water briskly straight into the toilet BOWL (roughly 1 to 2 gallons triggers a standard gravity siphon flush) ONLY when you have verified the municipal sewer or gravity septic line is functioning and NOT flooded or pump-blocked. @U07,U13
+action: NEVER store greywater for more than 24 hours (bacteria multiply rapidly and turn foul), NEVER use greywater on edible garden leaves, and NEVER let greywater touch drinking-water jugs or kitchen food counters. @U13,P03,W06
+failure: Storing soapy laundry water in an unlabeled drinking jug for a week or pouring bucket water down a toilet connected to an unpowered septic lift pump. @U07,U13
+verify: Confirm sewer/gravity drain is open before flushing, greywater bucket is labeled NON-POTABLE, and water is used within 24 hours. @U07,U13
+stop: Slow draining, gurgling pipes, or foul odor from floor drains halts ALL toilet flushing immediately in favor of bucket containment. @U07,U13
+diagram: Verify sewer/gravity line open first | Light greywater -> pour briskly in bowl | Never store >24 h or use on edible crops
+visual: Decision tree screening sewer/septic function, light greywater purity, and 24-hour freshness before allowing emergency bowl flushing. Conceptual, not to scale.
+reviewer: Environmental health and onsite wastewater safety
+
+Z13-P54 | Isolate basement sewage backups and floodwater hazards before any cleanup | FEMA Ready.gov Floods and EPA Septic; new manuscript
+objective: Prevent electrocution, gas explosions, infectious illness, and toxic mold exposure when water or sewage enters a basement.
+applies: Storm flooding, sump-pump failure during blackouts, or municipal/septic sewer backups into lower home levels.
+equipment: Utility shutoff confirmation, heavy rubber boots/gloves, NIOSH N95 respirator, eye protection, and professional remediation/insurance documentation.
+action: NEVER wade into standing basement water until electricity to the basement (and entire flooded panel if submerged) is confirmed shut off by the utility or dry main switch, and check for gas odors before entering. @D05,U01,U11
+action: Treat ALL floodwater and basement backup water as potentially contaminated with raw sewage, fuel oil, and sharp hidden debris—keep children and pets completely out, wear waterproof boots, heavy gloves, eye protection, and N95 masks during any safe shallow inspection, and document damage with photos before discarding ruined porous items. @D05,U13
+action: Begin controlled drying within 24 to 48 hours once safe power/ventilation returns, discarding soaked carpet padding, drywall, and porous furnishings that cannot be cleaned and dried thoroughly—never run a fuel-powered dewatering pump inside an enclosed basement (lethal CO). @C16,D05,U13
+failure: Running a gasoline trash pump down in a flooded basement with a basement window cracked, overcoming occupants with odorless carbon monoxide. @C16,C07
+verify: Confirm power/gas cleared first, PPE worn, zero indoor fuel pumps used, and contaminated porous items isolated for disposal. @D05,C16,U13
+stop: Submerged electrical panel, gas odor, chest-deep water, structural wall cracking, or widespread black sewage contamination requires professional utility and remediation crews. @D05,U11
+diagram: Confirm power & gas OFF before entry | Treat floodwater as sewage; wear PPE | NEVER run fuel dewatering pumps indoors
+visual: Four-step basement flood-response plate covering electrical/gas clearance, sewage PPE boundary, photo documentation/porous removal, and outdoor-only pump rules. Conceptual, not to scale.
+reviewer: Environmental health, electrical safety, and disaster restoration
+
+Z13-P55 | Follow utility clearance and licensed-plumbing gates after sewer or water failures | US EPA Septic and CDC Water Advisories; new manuscript
+objective: Ensure contaminated home supply and waste lines are professionally verified before returning families to normal household plumbing.
+applies: Post-flood, post-freeze-burst, or post-sewer-backup recovery across municipal and rural residences.
+equipment: Utility clearance notices, licensed plumber/septic/well contacts, and written restoration checklist.
+action: Keep municipal/septic/well restoration sequenced logically: confirm structural/electrical/gas clearance FIRST, verify wastewater/septic drain clearance SECOND (so flushed water has a safe exit), and verify potable supply testing/flushing THIRD. @D05,U07,D12
+action: Escalate cracked supply risers, compromised backflow valves, submerged water heaters/furnaces (flooded gas valves corrode silently), and broken sewer lines to licensed plumbers and HVAC technicians rather than temporary tape patches. @U08,U11,U07
+action: Sanitize hard non-porous surfaces that contacted flood/sewage water strictly with labeled dilute bleach-and-water solutions (never mixed with ammonia/acids) after removing mud and debris. @U13,M15
+failure: Turning main water back on to test a thawed basement before discovering a split upstairs pipe and a flooded sewer trap. @U08,U07
+verify: Confirm electrical/gas safe, drains clear, licensed repairs inspected, and potable lab/utility clearance received. @D12,U07,U11
+stop: Unresolved leaks, corroded submerged gas controls, or failed water quality tests keep normal plumbing out of service until licensed trades sign off. @U11,W18
+diagram: 1: Power/gas -> 2: Drains -> 3: Potable | Replace flooded gas controls via pros | Never rely on tape for burst pressure pipes
+visual: Three-tier residential plumbing recovery ladder ordering electrical/gas clearance, wastewater drain verification, and certified potable restoration. Conceptual, not to scale.
+reviewer: Licensed plumber, HVAC trades, and environmental health
+
+Z13-P56 | Test smoke and carbon monoxide alarms monthly and replace expired sensors | CPSC CO Alarms and FEMA Home Fires; new manuscript
+objective: Maintain reliable early life-safety warning across every sleeping area and floor before winter heating or outage stressors begin.
+applies: Every house, apartment, duplex, and cabin year-round.
+equipment: UL-listed smoke and CO alarms (interconnected or battery-backed), fresh backup batteries, and manufacture-date inspection calendar.
+action: Install working smoke alarms inside every bedroom, outside each sleeping area, and on every floor (including basements), AND working carbon monoxide alarms on every level and outside all sleeping areas strictly per manufacturer placement instructions. @C09,U12,U04
+action: Press the TEST button on every smoke and CO alarm monthly, replace removable backup batteries at least annually (or use sealed 10-year lithium-battery units), and vacuum dust gently from sensor vents. @U12,U04
+action: Check the manufacture/expiration date printed on the back of EVERY unit—CO sensors typically expire after 5 to 7 years (up to 10 on newer sealed units) and smoke alarms expire after 10 years, losing sensing accuracy even if the test beep still chirps. @U12,C09
+failure: Assuming a 14-year-old yellowed CO alarm still detects lethal gas just because its test button makes noise. @U12,C09
+verify: Confirm alarms present on every floor and outside bedrooms, monthly test logged, and every unit is within its manufacturer lifespan. @U12,U04
+stop: Any steady CO alarm (exit to fresh air + 911 immediately), smoke alarm with fire, or end-of-life chirp requires immediate safety action or same-day unit replacement. @C07,U12
+diagram: Smoke + CO alarms on every floor/sleep | Test monthly; check printed expiry date | Replace expired sensors (5–10 yr limits)
+visual: Cutaway multi-level home showing required smoke and CO alarm placements (basement, main floor, outside bedrooms) and sensor expiration rules. Conceptual, not to scale.
+reviewer: Fire prevention and carbon monoxide safety
+
+Z13-P57 | Match ABC fire extinguishers to incipient fires and evacuate without delay | FEMA Ready.gov Home Fires; new manuscript
+objective: Use portable residential extinguishers safely ONLY on tiny contained fires while prioritizing immediate human escape above property.
+applies: Kitchens, garages, wood-stove areas, and generator fuel-storage perimeters.
+equipment: UL-listed multi-purpose Class ABC dry-chemical fire extinguisher (checked pressure gauge in green) and clear two-exit room escape routes.
+action: Keep a UL-listed Class ABC extinguisher mounted near the kitchen exit and heating/utility zones (checking monthly that the gauge needle sits cleanly in the green zone and the pin/nozzle are intact)—NEVER throw water onto a burning kitchen grease pan or energized electrical fire (water explodes burning grease upward!). @U04
+action: Evacuate everyone FIRST and call 911; consider using an extinguisher ONLY if the fire is tiny and confined (wastebasket size), your back is squarely toward an unobstructed exit door, smoke is NOT filling the room, and you know PASS (Pull pin, Aim at base, Squeeze handle, Sweep side to side). @U04
+action: If the fire does NOT go out immediately with one extinguisher, grows past waist height, or emits thick dark smoke, DROP the extinguisher, close doors behind you if safe to slow spread, get outside, and stay outside. @U04
+failure: Throwing a pitcher of tap water onto a flaming skillet of cooking oil, or staying inside a smoke-filled hallway trying to fight a spreading room fire. @U04
+verify: Confirm ABC gauge sits in green, unobstructed exit behind user before any attempt, and household practices two-way escape routes. @U04
+stop: Smoke banking down from the ceiling, spreading flames, blocked exit, or empty extinguisher mandates instant evacuation and 911 from outside. @U04
+diagram: Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | NEVER throw water on grease or live wires
+visual: Decision tree screening exit-at-back, room smoke, tiny fire size, and ABC gauge before PASS attempt versus immediate escape. Conceptual, not to scale.
+reviewer: Fire service and residential fire safety
+
+Z13-P58 | Operate layered home outage communications independent of grid Wi-Fi | NOAA Weather Radio and FEMA Ready.gov Alerts; new manuscript
+objective: Receive official weather warnings, evacuation orders, and utility updates reliably when home broadband and local cell towers fail.
+applies: Multi-day regional blackouts, ice storms, tornadoes, and rural utility disruptions.
+equipment: Battery/hand-crank NOAA Weather Radio with SAME county coding, battery AM/FM radio, power banks, and written local station/contact sheet.
+action: Program a battery-backed NOAA Weather Radio with your exact county SAME code so it wakes the household automatically for severe weather or civil warnings while conserving batteries in standby mode. @T15,U16
+action: Keep a simple battery AM/FM radio tuned to local emergency-alert broadcast stations (which commonly maintain multi-day studio/transmitter backup generators) alongside printed frequency cards. @U16,T14
+action: Preserve smartphone battery aggressively (airplane mode between scheduled check-ins, dimmed screen, text SMS instead of streaming video) so phones stay alive for true 911 emergencies and brief family text check-ins. @U16,D13
+failure: Draining every family smartphone to 0% scrolling social media during the first four hours of a three-day winter blackout. @U16,D13
+verify: Confirm NOAA SAME county code tested, AM/FM station list printed, spare batteries fresh, and phone power-saving discipline agreed. @T15,U16
+stop: Total communications isolation combined with approaching severe weather or vulnerable household health triggers proactive relocation while roads remain open. @U16,U17
+diagram: Program NOAA SAME county alert code | Keep battery AM/FM + printed frequencies | Conserve phone for 911 & brief SMS texts
+visual: Three-tier home communications resilience ladder linking NOAA/AM-FM broadcast reception, low-power SMS check-ins, and physical neighbor/rally fallbacks. Conceptual, not to scale.
+reviewer: Emergency communications specialist
+
+Z13-P59 | Coordinate neighborhood check-in networks for vulnerable and rural homes | FEMA Make a Plan and People with Disabilities; new manuscript
+objective: Catch silent heating loss, medical power depletion, or snowbound isolation among older or disabled neighbors before tragedies occur.
+applies: Urban blocks, apartment hallways, small towns, and rural country roads during severe weather or prolonged outages.
+equipment: Printed neighbor contact list, agreed window-signal or door-knock check-in routine, and local non-emergency wellness-check number.
+action: Exchange phone numbers and simple knock-on-door check-in plans with at least two nearby neighbors BEFORE storm season—especially identifying older adults, individuals living alone, mobility-impaired neighbors, or families with infants/medical devices. @T10,U14,D18
+action: During extended sub-zero freezes, extreme heat waves, or multi-day blackouts, perform brief safe daytime wellness checks (confirming indoor warmth/cooling, working CO alarms, water, medications, and charged comms) without forcing entry or risking icy travel hazards. @U14,D09,D18
+action: If a vulnerable neighbor does not answer scheduled check-ins during extreme weather and their safety is uncertain, call local non-emergency dispatch or 911 to request an official welfare check. @U14,T02
+failure: Assuming a quiet elderly neighbor down the hall or road is "fine" during a 48-hour sub-zero outage while their furnace and phone are dead. @T10,U14
+verify: Confirm printed neighbor list includes at least two nearby households and clear daytime check-in intervals during active blackouts. @U14,D18
+stop: Unanswered check-in paired with severe cold/heat, CO alarm sounds, or visible distress triggers immediate 911 welfare-check activation. @U14,C07
+diagram: Map nearby older & vulnerable neighbors | Schedule daytime outage wellness knocks | No answer in extreme weather -> call 911
+visual: Four-step neighborhood mutual-aid plate mapping pre-storm contact exchange, outage daytime knocks, resource sharing, and 911 welfare-check escalation. Conceptual, not to scale.
+reviewer: Community emergency management and accessibility specialist
+
+Z13-P60 | Store gasoline, propane cylinders, and kerosene strictly outside living quarters | FEMA Home Fires and NFPA Heating Safety; new manuscript
+objective: Prevent catastrophic vapor explosions and toxic fumes by keeping backup generator and heater fuels isolated outside homes and basements.
+applies: Households storing spare gasoline, 20-lb BBQ propane cylinders, 1-lb camp cylinders, or 1-K kerosene for emergencies.
+equipment: UL/OSHA-listed color-coded safety fuel cans (red=gasoline, blue=kerosene, yellow=diesel), ventilated locked outdoor shed/cabinet, and fire-code volume limits.
+action: Store gasoline, kerosene, and ALL pressurized propane cylinders (both 20-lb tanks and 1-lb green cylinders) STRICTLY OUTSIDE living spaces—NEVER inside basements, bedrooms, closets, or near water-heater/furnace pilot flames (heavier-than-air fuel vapors creep along floors and explode upon reaching ignition sparks). @U04,U03,C15
+action: Use ONLY approved, tightly sealed, properly color-coded safety fuel containers within local residential fire-code volume limits, kept upright in a cool shaded ventilated outdoor shed or exterior storage cabinet out of children's reach. @U04,C15
+action: Date fuel cans clearly, add fuel stabilizer per label if storing gasoline seasonally, rotate old fuel into vehicles every 6 to 12 months, and discard rusted, dented, or leaking propane cylinders safely via certified exchange/hazmat facilities. @U04,T12
+failure: Storing three five-gallon plastic cans of gasoline and two spare 20-lb propane tanks in a basement mechanical room next to a gas furnace. @U04,U03
+verify: Confirm zero fuel cans or propane cylinders inside living spaces/basements, upright outdoor ventilated storage, and color-coded dated cans. @U04
+stop: Strong gasoline/propane odor in a shed or garage requires ventilating immediately without touching electric switches, keeping flames away, and removing leaking cylinders outdoors. @U04,U11
+diagram: ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Color-coded approved cans; rotate 6–12 mo
+visual: System boundary diagram separating ventilated exterior fuel storage sheds from indoor living spaces and basement pilot-flame ignition zones. Conceptual, not to scale.
+reviewer: Fire prevention and hazardous-materials safety
+
+Z13-P61 | Complete an autumn pre-winter residential utility readiness checklist | FEMA Winter Weather and NFPA Heating Safety; new manuscript
+objective: Catch worn furnace vents, dead alarm batteries, seized shutoffs, and unserviced generators in mild October weather instead of a January blizzard.
+applies: Upper Midwest and winter-climate homes each autumn before hard freezes arrive.
+equipment: Annual maintenance checklist, chimney/HVAC service contacts, fresh alarm batteries, and cold-weather supplies.
+action: Schedule qualified HVAC furnace servicing and certified wood-stove/chimney sweeping in early autumn, change furnace air filters, and clear brush/leaves away from exterior PVC intake/exhaust vents and snow-plow markers around wellheads. @U03,U18,U12,U06
+action: Disconnect and drain all exterior garden hoses, insulate vulnerable crawlspace/garage water lines, test all smoke and CO alarms (replacing expired units), and test-run any outdoor portable generator safely for 15–20 minutes outdoors under light load with fresh stabilized fuel. @U10,U12,C06
+action: Refresh stored emergency water (6-month rotation), restock LED flashlight/radio batteries, verify snow shovels and salt/sand are accessible, and confirm printed utility/emergency numbers are current. @W14,U14,U16
+failure: Discovering during a minus 20°F blizzard blackout that the portable generator carburetor is gummed solid from two-year-old stale gasoline. @U10,T12
+verify: Confirm heating serviced, hoses drained, alarms tested, generator test-run outdoors, and water/batteries refreshed before first hard freeze. @U10,U12,W14
+stop: Cracked heat exchangers, damaged chimney liners, leaking fuel lines, or electrical panel faults found in autumn must be repaired by licensed trades before winter use. @U03,U18,U02
+diagram: Service furnace/chimney & mark vents | Drain hoses, test alarms & outdoor gen run | Rotate water & batteries pre-freeze
+visual: Seasonal autumn-to-winter residential utility timeline ordering HVAC/chimney service, hose/pipe prep, alarm/generator tests, and blizzard readiness. Conceptual, not to scale.
+reviewer: Cold-weather emergency management and residential trades
+
+Z13-P62 | Complete a spring and summer residential utility resilience check | FEMA Ready.gov Floods, Heat, and EPA Private Wells; new manuscript
+objective: Prepare sump pumps, cooling backups, surge protection, and private wells before spring snowmelt floods and summer derecho storms.
+applies: Homes transitioning out of winter into snowmelt, severe-thunderstorm, and extreme-heat seasons.
+equipment: Spring checklist, certified well test kit, sump-pump test water bucket, and cooling/HEPA filter supplies.
+action: Test basement sump pumps (and battery/water-powered backup sump systems if installed) by pouring a bucket of clean water into the pit to verify float switch activation and clear exterior discharge routing well away from foundations and wellheads. @D05,U06
+action: Inspect exterior well casings for winter plow/frost damage and submit annual certified-lab drinking-water samples each spring after snowmelt; verify gutters and downspouts drain storm runoff clear of basement walls. @U05,U06,D05
+action: Service cooling units/window screens, inspect portable HEPA clean-room filters ahead of wildfire-smoke season, test NOAA Weather Radio SAME alerts for tornado season, and verify UL-listed surge protection and battery banks are charged. @D07,U16,U09
+failure: Discovering a stuck basement sump-pump float switch for the first time during a 4-inch summer flash-flood downpour. @D05
+verify: Confirm sump pump tested cleanly, wellhead inspected and sampled, NOAA radio active, and summer clean-room/cooling supplies ready. @U05,U16,D07
+stop: Failing sump pumps, cracked well casings, or damaged overhead tree limbs overhanging power service drops require prompt qualified repair before storm peak. @U06,D04
+diagram: Test sump pump & discharge routing | Inspect wellhead & run annual lab test | Prep NOAA alerts, HEPA filter & cooling
+visual: Seasonal spring-to-summer utility timeline covering snowmelt sump/well checks, derecho/tornado NOAA prep, and smoke/heat clean-room readiness. Conceptual, not to scale.
+reviewer: Residential emergency management and environmental health
+
+Z13-P63 | Recognize dangerous residential utility failure cues requiring immediate shutoff or exit | FEMA Power Outages, Home Fires, and Hazmat; new manuscript
+objective: Train every household member to spot urgent electrical, gas, water, and combustion anomalies before fires, explosions, or electrocution occur.
+applies: Everyday residential living, severe storms, and utility restoration periods.
+equipment: Printed emergency utility numbers, flashlight, and outdoor family meeting point.
+action: Evacuate immediately and call 911/utility from outside for ANY gas-leak cue (rotten-egg odor, hissing pipes), electrical-fire cue (burning plastic/fish odor, hot/buzzing breaker panel, sparking outlets, flickering partial voltage), or carbon monoxide alarm. @U11,U04,C07
+action: Treat sagging or downed overhead power lines in the yard or street as energized and LETHAL—stay at least 35+ feet back (never touch fences, puddles, or tree limbs touching a wire) and call 911 and the electric utility immediately. @D04,T01
+action: Treat sudden water-pressure loss paired with hissing inside walls, bulging wet ceilings, or gurgling basement sewer drains as immediate shutoff/containment triggers to prevent electrical contact and structural collapse. @U08,U07
+failure: Ignoring a faint fishy burnt-plastic smell near a bedroom outlet or walking under a downed storm power line to check a fence. @U04,D04
+verify: Confirm household members can name the four instant-evacuation utility cues (gas odor, CO alarm, burning/arcing electrical, downed lines). @U11,C07,U04
+stop: Any active sparking, gas smell, CO alarm, downed power line, or water reaching live outlets overrides property checks—get people out immediately. @U11,C07,D04
+diagram: Gas smell / CO / burning wiring -> EXIT | Stay far back from ALL downed power lines | Wall hiss or floor backup -> shut water/drain
+visual: Failure-mode matrix mapping residential gas, electrical, CO, and water-failure cues to immediate evacuation or shutoff triggers. Conceptual, not to scale.
+reviewer: Fire service, electrical safety, and utility operations
+
+Z13-P64 | Recognize indoor habitability loss and structural abandonment cues | FEMA Ready.gov Evacuation and Winter Weather; new manuscript
+objective: Establish clear physical red lines when staying in a damaged or unpowered home becomes more dangerous than leaving.
+applies: Prolonged winter freezes, summer heat domes, flood-damaged homes, or storm-impacted structures.
+equipment: Indoor thermometer, CO/smoke alarms, flashlight, and pre-packed household go-bags.
+action: Recognize non-negotiable structural and air-quality abandonment cues: persistent or repeated CO alarm activations, unresolved gas/fuel odors, indoor smoke or severe unmitigated wildfire haze, raw sewage flooding living zones, or structural storm/snow-load damage (cracked load walls, sagging roofs, jammed doors). @U17,C07,U11,U10
+action: Track indoor temperature objectively with a thermometer during multi-day outages—relocating BEFORE indoor winter air plunges into hypothermia/pipe-freeze territory (especially with infants, older adults, or chronic illness) or before indoor summer heat traps dangerous heat-stroke temperatures without cooling. @U17,U10,D09
+action: Never remain inside a flood-damaged or storm-struck building solely to guard belongings when utilities, sanitation, and safe shelter temperatures have failed. @U17,D05
+failure: Toughing out a 38°F unheated house with an elderly parent and failing medical batteries until roads freeze solid and ambulances cannot reach the driveway. @U17,T10
+verify: Confirm objective indoor temperature, air-quality, sanitation, and medical-battery red lines are agreed by the whole household in advance. @U17,T10
+stop: Crossing ANY habitability red line triggers orderly departure to pre-planned shelter while daylight and roads still allow safe travel. @U17
+diagram: CO, gas, sewage, sag roof -> leave NOW | Track indoor temp vs pre-set cold/heat line | Leave BEFORE roads close or batteries die
+visual: Three-tier home habitability ladder separating manageable short outage from early daylight relocation trigger and immediate life-threat evacuation. Conceptual, not to scale.
+reviewer: Emergency management and building safety
+
+Z13-P65 | Execute planned household relocation to warming centers, cooling centers, or relatives | FEMA Ready.gov Evacuation and Make a Plan; new manuscript
+objective: Move families, pets, and essential supplies safely to powered shelter before hazardous weather traps occupants at home.
+applies: Extended outages where indoor temperatures, water/sanitation, or medical power needs cross pre-agreed abandonment thresholds.
+equipment: Pre-packed go-bags, prescriptions, vital documents, pet carriers/supplies, fueled vehicle (kept above half-tank), and county shelter contacts.
+action: Identify at least TWO pre-arranged relocation destinations BEFORE storm season (a powered friend/relative outside your immediate utility feeder plus official county/municipal warming or cooling centers announced via local radio/211). @U17,D14,T13
+action: Leave EARLY during safe daylight and passable road conditions rather than waiting until midnight blizzards or flood crests isolate your neighborhood; verify county road closures (e.g., Minnesota 511) before driving. @U17,D14,D10
+action: Before stepping out during a sub-zero departure, execute quick home protection (shut main water valve if freezing is imminent, switch off stove/heaters, grab medications/IDs/pets, and text your out-of-area contact your destination). @U17,U10,D14
+failure: Waiting until 11 p.m. in a whiteout when indoor temperature hits 42°F and getting stranded in a ditch halfway to a closed shelter. @U17,D10
+verify: Confirm shelter destination is open (verify pet/accessibility accommodation), go-bags and meds packed, home shutoffs secured, and contact notified. @U17,D14,D17
+stop: Impassable blizzard whiteouts or active flash floods prohibit driving—hold safely inside until authorities clear roads, or call 911 if an immediate life threat develops indoors. @D10,D05,U17
+diagram: Confirm open shelter & clear roads early | Grab meds, go-bags, IDs & pets in daylight | Secure main water/heaters & text relay
+visual: Four-step residential relocation plate mapping early threshold decision, shelter/road verification, quick home shutoff/pack, and safe arrival check-in. Conceptual, not to scale.
+reviewer: Emergency management and transportation safety
+
+Z13-P66 | Adapt outage preparedness for apartments, condos, and rental units | FEMA Ready.gov Power Outages and Home Fires; new manuscript
+objective: Address unique multi-family building constraints including strict combustion bans, elevator traps, stairwell lighting, and booster-pump water loss.
+applies: Tenants and residents in multi-story apartments, condominiums, senior living facilities, and rental properties.
+equipment: Indoor-safe UL battery station, LED headlamps/flashlights, stored drinking water, stair-descent readiness, and landlord/building emergency numbers.
+action: Strictly NEVER run portable generators, charcoal grills, or camp stoves on apartment balconies, hallways, garages, or inside rental units—exhaust seeps directly into neighboring apartments and ventilation shafts, killing neighbors silently. @C06,C16,U02
+action: Plan for multi-story building dependencies: elevators fail immediately (never use elevators during storms/fires—know both enclosed stairwell exits), municipal upper-floor water booster pumps can fail during outages, and hallways rely on short-duration emergency lights. @U01,U04,D11
+action: Coordinate proactively with building management on mobility/stair-evacuation plans if anyone uses wheelchairs or medical power, and keep landlord maintenance and local tenant-heating emergency numbers written on paper. @T10,U14
+failure: Running a small camping generator on a third-floor apartment balcony with the sliding door shut while CO pours through adjacent wall vents. @C06,C16
+verify: Confirm zero fuel appliances on balconies/indoors, both stairwell exits walked, indoor battery power sized for comms/lights, and water stored in closets. @C06,U09,U08
+stop: Building fire/CO alarms, stairwell smoke, or freezing upper-floor rooms without heat require immediate evacuation via stairs and calling 911/management. @U04,C07,U17
+diagram: NEVER run generators/grills on balconies | Know 2 stairwell exits; elevators/pumps fail | Use UL indoor batteries & stored water
+visual: Cutaway multi-story apartment diagram highlighting balcony CO drift into neighboring units, failed elevator/booster pump, and safe stairwell + battery backups. Conceptual, not to scale.
+reviewer: Fire prevention, multi-family building safety, and accessibility
+
+Z13-P67 | Manage rural and small-acreage utility dependencies in Upper Midwest winters | MN Dept. of Health Wells and FEMA Winter Weather; new manuscript
+objective: Account for longer rural restoration times, private wells, bulk propane tanks, long snow-blocked driveways, and outbuilding freeze risks.
+applies: Rural homes, hobby farms, lake cabins, and acreage properties across Minnesota and the Upper Midwest.
+equipment: Larger water/fuel reserves, propane-level gauge monitoring, cleared driveway/culvert plan, well/septic logs, and snow-plow/contractor contacts.
+action: Recognize that rural distribution feeders often restore LAST after widespread ice storms and wind events—plan extended drinking-water, sanitation, food, and warming contingencies well beyond urban 72-hour baselines. @D11,U08,U10
+action: Monitor exterior bulk propane (LP) tank levels before peak winter (ordering refills typically around 20%–30% so tanks never run dry and require mandatory leak-checks before relighting), keep tank regulators and driveways plowed clear for delivery trucks and fire/EMS access, and protect private wells/septic fields from plow compaction. @U11,U06,U07
+action: Plan livestock/pet water and frost-free hydrant contingencies safely without stretching undersized extension cords hundreds of feet through snow to stock-tank heaters. @U02,D17
+failure: Letting a rural propane tank run empty during a sub-zero week with an unplowed quarter-mile driveway blocking both delivery trucks and ambulances. @U11,U10
+verify: Confirm bulk propane level above refill threshold, driveway/regulator kept plow-clear, extended water stored independently of electric well, and licensed trade contacts printed. @U11,U06,U08
+stop: Exhausted heating fuel, unplowed medical access, or failed well/septic systems during deep cold trigger early relocation to town before storms peak. @U17,U10
+diagram: Rural lines restore last — plan 7–14+ d | Refill bulk LP early; plow truck/EMS path | Isolate well/septic & stock-tank wiring
+visual: Environmental acreage map illustrating long plowed EMS/LP driveway, exterior LP tank regulator clearance, upland wellhead, and downslope septic drainfield. Conceptual, not to scale.
+reviewer: Rural emergency management, propane safety, and agricultural Extension
+
+Z13-P68 | Follow safe phased restoration when grid electricity and utilities return | FEMA Ready.gov Power Outages and Food Safety; new manuscript
+objective: Prevent circuit overloads, unnoticed appliance fires, and spoiled-food consumption as residential services come back online.
+applies: Households returning to grid power, gas, or water after a multi-hour or multi-day interruption.
+equipment: Indicator lamp, appliance thermometers, fridge/freezer food-safety chart, and utility restoration notices.
+action: When the indicator lamp stays steadily lit (not flickering or dim) for 10 to 15 minutes, reconnect essential appliances ONE AT A TIME—starting with heating/cooling controls and refrigeration before high-draw laundry, ovens, or EV chargers—to prevent simultaneous startup surge trips. @U01
+action: Inspect the house immediately upon power return: verify no stove burners, irons, or space heaters were left switched ON, verify refrigerators/freezers resume normal cooling, and check appliance thermometers against official USDA/FoodSafety.gov keep/discard charts before eating chilled food. @U01,F04,F05
+action: Confirm sump pumps, septic lift pumps, and water softeners cycle normally without tripping breakers, and verify CO/smoke alarms return to normal green/standby status. @U07,U12,U01
+failure: Flipping every breaker and heavy appliance on simultaneously during unstable brownout restoration, tripping panels and eating warmed food without checking temperatures. @U01,F04
+verify: Confirm voltage steady, zero unintended heat appliances running, chilled food checked by thermometer, and pumps/alarms operating cleanly. @U01,F04,U12
+stop: Flickering partial power, burning odors, tripping breakers, or failed heating/refrigeration restart require switching affected circuits OFF and calling utility or licensed trades. @U01,U04
+diagram: Wait 10–15 m steady lamp after return | Reconnect essential loads one at a time | Check fridge temps, pumps & alarms
+visual: Four-step post-outage restoration plate showing steady-voltage wait, staggered load restart, thermometer food-safety check, and pump/alarm verification. Conceptual, not to scale.
+reviewer: Electrical safety and residential emergency management
+
+Z13-P69 | Escalate regulated electrical, gas, HVAC, well, and septic work to licensed trades | Astra A01 Specialist Register and NFPA/EPA Guidance; new manuscript
+objective: Maintain a clear legal and life-safety boundary between safe homeowner outage actions and regulated installations requiring permits and licensed trades.
+applies: Every residential electrical, combustion-heating, fuel-piping, domestic well, and onsite wastewater decision in Z13.
+equipment: Printed list of local licensed electrician, HVAC/gas technician, licensed well contractor, plumber, and municipal code-enforcement contacts.
+action: Restrict homeowner outage actions strictly to non-invasive operation and inspection: operating tagged main shutoffs, testing alarms, plugging UL-listed cords/battery stations within ratings, clearing snow from exterior vents, and switching off damaged circuits. @U14,U02,U12
+action: Escalate ALL regulated work to properly licensed, permitted trades: electrical transfer switches/interlocks/panel repairs, gas piping/appliance restoration/relighting, wood-stove/chimney flue installation or sweep repairs, submersible well electrical/disinfection work, and flooded septic inspections. @U02,U11,U18,U06,U07
+action: Remember that local Minnesota and municipal building/fire codes vary by city, county, and rental lease—always verify permits and manufacturer manuals rather than improvising home systems from diagrams. @U03,U06,ED
+failure: Installing an unpermitted home generator panel tie-in or modifying gas furnace vents using internet tutorials during an outage. @U02,U11
+verify: Confirm licensed contractor contacts sit in the household binder and zero DIY wiring, gas-line, or well-disinfection work is attempted. @U14,U02,U06
+stop: Any code-regulated utility failure or safety-critical repair halts DIY work immediately in favor of safe shutoff/evacuation and licensed professionals. @U02,U11
+diagram: Homeowner: shutoffs, alarms, safe cords | Licensed trades: panels, gas, flues, wells | Conceptual diagrams ≠ installation specs
+visual: Three-tier residential trade boundary ladder separating homeowner outage prep from licensed-trade permitted work and utility/911 emergency response. Conceptual, not to scale.
+reviewer: Licensed master electrician, HVAC/gas trades, and residential code specialist
+
+Z13-P70 | Maintain Z13 regional limits, non-installation disclaimers, and publication HOLD | Astra A01 Specialist Register and Home Utilities Pack; new manuscript
+objective: Preserve explicit governance boundaries, Upper Midwest applicability limits, and primer-reconstruction lineage across all 70 pages of Zone Z13.
+applies: Governance, editorial review, and specialist sign-off across all 70 pages of Zone Z13 (Home Survival and Utilities, including retained `Z13-R03`).
+equipment: Astra A01 specialist review register (H04 and P13 additions), utilities evidence pack (`utilities.md`), and frozen historical records.
+action: Preserve `Z13-R03` explicitly as a labeled `Reconstruction draft` tied to the unrecovered Home Resilience primer while keeping all 69 newly authored Z13 cards bound to current FEMA, CPSC, NFPA, EPA, CDC, and Minnesota Department of Health primary sources. @U01,C09,ED
+action: Treat every Z13 electrical, heating, water-heater, well, and septic diagram strictly as a conceptual safety boundary—NEVER as an engineered installation drawing, wiring schematic, or substitute for local building codes and manufacturer manuals. @U02,U03,U06
+action: Maintain `publication: HOLD` and zero qualified human trade approvals across all 70 Z13 pages until licensed electricians, fire/HVAC/gas specialists, licensed well/septic engineers, and public-health reviewers complete formal sign-off. @U02,U11,U05
+failure: Publishing unreviewed residential utility drafts or presenting conceptual transfer-switch/plumbing schematics as DIY installation blueprints. @U02,ED
+verify: Confirm `Z13-R03` reconstruction label preserved, zero generator backfeeding or indoor combustion permitted, and `publication: HOLD` intact on all 70 cards. @U02,C16,ED
+stop: Do NOT lift `publication: HOLD` or merge into `main` until Astra technical audit and licensed-trade specialist reviews are recorded in the custody ledger. @U02,ED
+diagram: Conceptual safety guide ≠ install spec | Preserve Z13-R03 reconstruction lineage | Maintain Z13 Publication HOLD
+visual: Governance escalation ladder linking Upper Midwest residential draft boundaries and Z13-R03 traceability to mandatory licensed-trade approval gates. Conceptual, not to scale.
+reviewer: Licensed electrical/HVAC/well trades, fire safety, and editorial governance
