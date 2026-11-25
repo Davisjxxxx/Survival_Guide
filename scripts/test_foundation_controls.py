@@ -457,6 +457,25 @@ class ControlTests(unittest.TestCase):
             self.assertEqual(rec['expert_validation_status'], 'PENDING')
             self.assertEqual(rec['diagnostic_qualification'], 'WITHHELD')
 
+    def test_w2c_photographs_keep_provider_bytes_and_holds(self):
+        import hashlib, json
+        from build_foundations import FOUND
+        d = FOUND / 'visual/w2c_authentic_photos'
+        records = json.loads((d / 'MANIFEST.json').read_text(encoding='utf-8'))
+        self.assertTrue(records)
+        for rec in records:
+            orig = (d / rec['original_file']).read_bytes()
+            disp = (d / rec['delivery_derivative']).read_bytes()
+            self.assertTrue(orig.startswith(b'\xff\xd8'))
+            self.assertEqual(hashlib.sha256(orig).hexdigest(), rec['original_sha256'])
+            self.assertEqual(hashlib.sha256(disp).hexdigest(), rec['derivative_sha256'])
+            self.assertNotEqual(rec['original_sha256'], rec['derivative_sha256'])
+            self.assertEqual(rec['expert_validation_status'], 'PENDING')
+            self.assertEqual(rec['diagnostic_qualification'], 'WITHHELD')
+            self.assertEqual(rec['consumption_status'], 'WITHHELD_HOLD')
+            self.assertTrue(rec['original_download_url'].startswith('https://'))
+            self.assertIn(rec['license_and_attribution'].split()[0], {'CC0', 'CC'})
+
     def test_v02_v03_governance_registers_and_atlas_preservation(self):
         import csv
         from build_foundations import FOUND

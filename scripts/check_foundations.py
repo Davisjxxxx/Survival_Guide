@@ -26,6 +26,7 @@ VISUAL_COMPANION_DIRS = (
     ('v02-atlas-comparison.zip', FOUND / 'visual/v02_atlas_comparison', 'Z16 atlas before-and-after optimization comparison package pending owner acceptance'),
     ('a04-review.zip', FOUND / 'visual/a04_comparison', 'A04 actual reader comparison captures, incoming plate custody, and linked atlas owner comparison'),
     ('w2c-technical.zip', FOUND / 'visual/w2c_technical', 'Wave 2C technical plates: preserved predecessors, revised editable SVGs, geometry and topology receipts and visual QA receipts'),
+    ('w2c-authentic-photos.zip', FOUND / 'visual/w2c_authentic_photos', 'Wave 2C open-licence provider originals, EXIF-corrected display copies, acquisition records and rights register'),
     ('w2c-context.zip', FOUND / 'visual/w2c_context', 'Wave 2C actual reader captures at 390 and 1280 px, predecessor comparisons in colour and grayscale, and tagged Letter/A4 batch proofs'),
 )
 MAX_GITHUB_SAFE_BYTES = 45 * 1024 * 1024  # Strictly under GitHub's 50 MB warning and 100 MB hard limit

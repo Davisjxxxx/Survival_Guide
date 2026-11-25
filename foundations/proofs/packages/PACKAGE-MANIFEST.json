@@ -1,9 +1,9 @@
 {
   "foundations-offline.zip": {
-    "bytes": 39663151,
+    "bytes": 39663742,
     "members": 2306,
     "scope": "Core offline HTML reader, SVGs, manuscripts, evidence, audit registers & reconstructions (consolidated PDFs kept separately in proofs/ for GitHub scalability)",
-    "sha256": "a9c3759b6cc0a43c6a3e301c9a9f5d3151eb877e3ccaa649e98b4f0fcf005d52"
+    "sha256": "45bca1fbf108c7cf02b8d5ee8d36a280ca170a005b87ede630afb03f15c5654f"
   },
   "packages/a04-review.zip": {
     "bytes": 11407279,
@@ -41,6 +41,12 @@
     "scope": "Controlled realistic instructional illustration briefs, generated non-diagnostic illustrations and proofs",
     "sha256": "4926be7ff2b96adf989db7eac247e7e1baf4a435b6c2bb5bbd5fb57b0ef59112"
   },
+  "packages/w2c-authentic-photos.zip": {
+    "bytes": 17654301,
+    "members": 21,
+    "scope": "Wave 2C open-licence provider originals, EXIF-corrected display copies, acquisition records and rights register",
+    "sha256": "b99bfc0270804995444241e8bcc82817825291e6748ca158690d7cc951e03916"
+  },
   "packages/w2c-context.zip": {
     "bytes": 4436717,
     "members": 21,
@@ -48,10 +54,10 @@
     "sha256": "dc976b5ac1d378f105d55ece5787a810faffed76083e9408073a1af51ab82b65"
   },
   "packages/w2c-technical.zip": {
-    "bytes": 62396,
-    "members": 32,
+    "bytes": 62708,
+    "members": 33,
     "scope": "Wave 2C technical plates: preserved predecessors, revised editable SVGs, geometry and topology receipts and visual QA receipts",
-    "sha256": "771a3eac7a6dd35923de7b8ec7f851a5b2bfcfae346ad3c33615b7f108937821"
+    "sha256": "bf3af9c7cfd3fb0cd15aeac5ae2f88a6d900002e000ad5cb5e1aea26b49c8d2e"
   },
   "packages/zone-Z01.zip": {
     "bytes": 816362,

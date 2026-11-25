@@ -100,6 +100,7 @@ def main():
     from w2c_register import BUILDERS
     for builder in BUILDERS:
         run(builder, '--check')
+    run('w2c_photos.py', '--check')
     frozen = check_frozen_trees()
     records, provisional = check_records()
     batches = check_receipts(provisional)
