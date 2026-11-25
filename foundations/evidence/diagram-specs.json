@@ -8844,5 +8844,665 @@
       }
     ],
     "cue": "Prevent hand-to-mouth transfer of silica, lead, and ores"
+  },
+  "Z06-P01": {
+    "type": "correct_vs_wrong",
+    "variant": "b013_p15",
+    "correct_title": "Safe Lawful Priority",
+    "correct_items": [
+      "Warmth, shelter & signaling first",
+      "Verify license, rules & shore footing"
+    ],
+    "wrong_title": "Fatal Angling Shortcuts",
+    "wrong_items": [
+      "Cross unverified ice for fish",
+      "Follow old tracks as safety proof"
+    ],
+    "reason": "No fish harvest justifies cold-water immersion risk"
+  },
+  "Z06-P02": {
+    "type": "failure_mode",
+    "cause": "Chipping, stomping, or fire-melting weakens lake ice",
+    "cue": "Radiating cracks, wet slush, unmeasured thin cover",
+    "correction": "Stay ashore; never improvise ice holes"
+  },
+  "Z06-P03": {
+    "type": "regulation_boundary",
+    "variant": "legal_gate",
+    "authority": "MN DNR · USFWS · Tribal Authority",
+    "checks": [
+      "Record jurisdiction, waters/zone & exact check date",
+      "Confirm valid license, stamp, season & species limit",
+      "Verify lawful land access & private permission"
+    ],
+    "prohibition": "STOP: Emergencies never create automatic legal harvest exemptions"
+  },
+  "Z06-P04": {
+    "type": "regulation_boundary",
+    "variant": "fishing",
+    "authority": "Minnesota DNR Fishing Regulations",
+    "checks": [
+      "Verify valid license & trout/salmon stamps",
+      "Look up lake- or stream-specific special rules",
+      "Confirm current season date & possession limits"
+    ],
+    "prohibition": "STOP: Release immediately if species or slot limit is uncertain"
+  },
+  "Z06-P05": {
+    "type": "regulation_boundary",
+    "variant": "hunting",
+    "authority": "Minnesota DNR Hunting Regulations",
+    "checks": [
+      "Confirm license, tags, permit area & certification",
+      "Verify exact daily legal shooting start/end times",
+      "Check municipal, refuge & park boundary closures"
+    ],
+    "prohibition": "STOP: Never shoot outside legal hours or across uncertain lines"
+  },
+  "Z06-P06": {
+    "type": "hazard_exclusion_map",
+    "variant": "jurisdiction",
+    "zones": [
+      "Private posted / agricultural land: permission needed",
+      "Tribal / border waters: distinct authority rules",
+      "Verified public WMA/forest: current DNR rules"
+    ],
+    "buffer": "Confirm parcel & authority before entry",
+    "report": "Verify official county/DNR/tribal maps"
+  },
+  "Z06-P07": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Shoreline & shallow littoral flat",
+      "Submerged weedline & rock drop-off",
+      "Summer thermocline oxygen boundary",
+      "Deep cold basin (barotrauma risk)"
+    ],
+    "scale": "Conceptual lake depth transect",
+    "limit": "Protect thermal refuges during heat"
+  },
+  "Z06-P08": {
+    "type": "wildlife_track_plate",
+    "variant": "fish_anatomy",
+    "features": [
+      "Spiny dorsal fin: rear blotch vs spots",
+      "Lower caudal tail tip: white vs plain",
+      "Cheek scales & large canine teeth",
+      "Rigid ruler length-slot verification"
+    ],
+    "scale": "Measure pinched tail on flat board",
+    "limit": "Uncertain species -> release at once"
+  },
+  "Z06-P09": {
+    "type": "lookalike_diagnostic",
+    "variant": "fish_pair",
+    "target_name": "Northern Pike",
+    "target_traits": [
+      "Light bean spots on dark flank",
+      "Fully scaled cheek; <= 5 chin pores"
+    ],
+    "toxic_name": "Protected Muskellunge",
+    "toxic_traits": [
+      "Dark bars/spots on light flank",
+      "Upper cheek scaled; 6-9 chin pores"
+    ],
+    "exclusion": "HOLD: Verify jaw pores & regional zone slots; release if unsure"
+  },
+  "Z06-P10": {
+    "type": "wildlife_track_plate",
+    "variant": "fish_anatomy",
+    "features": [
+      "Jaw hinge past eye (largemouth)",
+      "Jaw ends below eye (smallmouth)",
+      "Dorsal spine count on crappies",
+      "Check lake Quality Sunfish limits"
+    ],
+    "scale": "Verify lake-specific reduced limits",
+    "limit": "Keep air exposure minimal on release"
+  },
+  "Z06-P11": {
+    "type": "regulation_boundary",
+    "variant": "trout",
+    "authority": "MN DNR Designated Trout Waters",
+    "checks": [
+      "Confirm trout stamp & designated stream map",
+      "Verify artificial-only & hook/bait restrictions",
+      "Identify brook, brown, rainbow & lake trout"
+    ],
+    "prohibition": "STOP: Cease catch-and-release during summer thermal stress"
+  },
+  "Z06-P12": {
+    "type": "lookalike_diagnostic",
+    "variant": "river_fish",
+    "target_name": "Channel / Flathead Catfish",
+    "target_traits": [
+      "Smooth scaleless skin & barbels",
+      "Sharp locked dorsal/pectoral spines"
+    ],
+    "toxic_name": "Protected Sturgeon / Paddlefish",
+    "toxic_traits": [
+      "Bony armor scutes or long paddle",
+      "Strictly closed or special-tag only"
+    ],
+    "exclusion": "HOLD: Release protected river species immediately in water"
+  },
+  "Z06-P13": {
+    "type": "sequence_plate",
+    "variant": "fish_release",
+    "steps": [
+      {
+        "label": "1. Wet gear",
+        "detail": "Rubber net & wet hands"
+      },
+      {
+        "label": "2. Support body",
+        "detail": "Horizontal hold; no gill grip"
+      },
+      {
+        "label": "3. Unhook fast",
+        "detail": "Cut line on deep gut hooks"
+      },
+      {
+        "label": "4. Revive",
+        "detail": "Release upright in water"
+      }
+    ],
+    "cue": "Minimize air exposure, especially in freezing or hot air"
+  },
+  "Z06-P14": {
+    "type": "sequence_plate",
+    "variant": "ais_law",
+    "steps": [
+      {
+        "label": "1. Clean",
+        "detail": "Remove plants, mud & mussels"
+      },
+      {
+        "label": "2. Drain",
+        "detail": "Empty bilge & pull plugs"
+      },
+      {
+        "label": "3. Trash bait",
+        "detail": "Never dump bait in water"
+      },
+      {
+        "label": "4. Dry",
+        "detail": "Dry gear before next lake"
+      }
+    ],
+    "cue": "Mandatory under Minnesota AIS statute at every water access"
+  },
+  "Z06-P15": {
+    "type": "regulation_boundary",
+    "variant": "mdh_fish",
+    "authority": "MN Dept. of Health Fish Guidelines",
+    "checks": [
+      "Look up exact lake/river reach & current date",
+      "Match fish species, length & contaminant type",
+      "Apply stricter limit for pregnancy & kids < 15"
+    ],
+    "prohibition": "STOP: Water clarity never proves fish are free of mercury/PFAS"
+  },
+  "Z06-P16": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Lower risk",
+        "scope": "Small panfish",
+        "action": "Sunfish/perch per MDH limits"
+      },
+      {
+        "role": "Moderate",
+        "scope": "Medium predators",
+        "action": "Strict size & monthly limits"
+      },
+      {
+        "role": "Highest load",
+        "scope": "Large old predators",
+        "action": "Avoid or follow lake caps"
+      }
+    ],
+    "trigger": "Mercury binds in muscle: trimming or cooking never removes it"
+  },
+  "Z06-P17": {
+    "type": "system_boundary",
+    "variant": "pfas_fish",
+    "zone_a": "PFAS/PCB-advised or urban runoff waters",
+    "zone_b": "MDH-screened lawful meal waters",
+    "barrier": "Exact waterbody MDH check + date",
+    "hazard": "STOP: Cooking and trimming cannot remove PFAS or mercury"
+  },
+  "Z06-P18": {
+    "type": "wildlife_track_plate",
+    "variant": "fish_anatomy",
+    "features": [
+      "Remove outer skin cleanly",
+      "Trim belly flap fat strip",
+      "Cut dorsal & dark lateral fat",
+      "Cook on rack; discard drippings"
+    ],
+    "scale": "Reduces fat-soluble PCBs only",
+    "limit": "Does NOT remove mercury or PFAS"
+  },
+  "Z06-P19": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Sensitive group",
+        "note": "Pregnant, nursing & kids < 15",
+        "limit": "Strictest MDH meal caps; skip big predators"
+      },
+      {
+        "name": "General adult",
+        "note": "Non-pregnant adults & 15+",
+        "limit": "Still bound by lake & size limits"
+      },
+      {
+        "name": "Do Not Eat water",
+        "note": "High PFAS/PCB/mercury alert",
+        "limit": "Zero consumption for ALL people"
+      }
+    ]
+  },
+  "Z06-P20": {
+    "type": "hazard_exclusion_map",
+    "variant": "angling_water",
+    "zones": [
+      "Fast drop-off / cold open water: PFD mandatory",
+      "Slick wave-washed bank: stay back",
+      "Stable shore refuge: weather exit"
+    ],
+    "buffer": "Cold water disables un-vested swimmers fast",
+    "report": "Exit water at first thunder or whitecaps"
+  },
+  "Z06-P21": {
+    "type": "seasonal_timeline",
+    "variant": "deer_cycle",
+    "phases": [
+      {
+        "window": "Spring",
+        "focus": "Fawning; leave fawns alone"
+      },
+      {
+        "window": "Summer",
+        "focus": "Edge forage & thick cover"
+      },
+      {
+        "window": "Autumn",
+        "focus": "Rut travel & rubs/scrapes"
+      },
+      {
+        "window": "Winter",
+        "focus": "Conifer yards; zero chase"
+      }
+    ],
+    "threshold": "Do not approach solitary fawns or push winter-stressed deer"
+  },
+  "Z06-P22": {
+    "type": "wildlife_track_plate",
+    "variant": "tracks",
+    "features": [
+      "Hind prints land ahead of fronts",
+      "Staggered fronts = rabbit/hare",
+      "Paired fronts = tree squirrel",
+      "Clean 45-deg incisor twig cut"
+    ],
+    "scale": "Measure stride & hind-foot length",
+    "limit": "Wear gloves; reject sick rabbits (tularemia)"
+  },
+  "Z06-P23": {
+    "type": "lookalike_diagnostic",
+    "variant": "bird_pair",
+    "target_name": "Regulated Upland Game",
+    "target_traits": [
+      "Positive ID (e.g. ruffed grouse)",
+      "Open DNR season & safe backstop"
+    ],
+    "toxic_name": "Protected Raptors & Nongame",
+    "toxic_traits": [
+      "Hawks, owls, songbirds & nests",
+      "Strict federal MBTA penalties"
+    ],
+    "exclusion": "STOP: Unidentified bird silhouette -> never shoot or disturb"
+  },
+  "Z06-P24": {
+    "type": "regulation_boundary",
+    "variant": "waterfowl",
+    "authority": "USFWS MBTA · MN DNR Waterfowl",
+    "checks": [
+      "Carry signed federal Duck Stamp + state stamps",
+      "Verify 100% USFWS-approved non-toxic shot",
+      "Confirm species & sex bag limits in clear light"
+    ],
+    "prohibition": "STOP: Lead shot and unidentified silhouettes are prohibited"
+  },
+  "Z06-P25": {
+    "type": "wildlife_track_plate",
+    "variant": "tracks",
+    "features": [
+      "Count toes (4 vs 5 vs cloven 2)",
+      "Check claw marks & heel lobes",
+      "Place cm/inch ruler in frame",
+      "Account for snow-melt expansion"
+    ],
+    "scale": "Record print length, width & stride",
+    "limit": "Never follow fresh large-predator tracks"
+  },
+  "Z06-P26": {
+    "type": "wildlife_track_plate",
+    "variant": "gait",
+    "features": [
+      "Diagonal walker: deer, fox, bobcat",
+      "Bounder: mink, weasel, fisher",
+      "Hopper: rabbit (staggered), squirrel",
+      "Waddler: wide track (bear, beaver)"
+    ],
+    "scale": "Measure 3-5 m stride & straddle",
+    "limit": "Deep snow alters normal gait patterns"
+  },
+  "Z06-P27": {
+    "type": "system_boundary",
+    "variant": "scat_hygiene",
+    "zone_a": "Wild scat & raccoon latrine dust",
+    "zone_b": "No-contact visual scale observation",
+    "barrier": "Zero bare-hand touch or dry breaking",
+    "hazard": "STOP: Raccoon/canid scat holds dangerous parasite eggs"
+  },
+  "Z06-P28": {
+    "type": "regulation_boundary",
+    "variant": "nongame",
+    "authority": "MN DNR Nongame · USFWS ESA/MBTA",
+    "checks": [
+      "Most native birds, bats & reptiles are protected",
+      "Keep wide buffer from nests, dens & rookeries",
+      "Never relocate turtles, fawns, or fledglings"
+    ],
+    "prohibition": "STOP: Zero capture or disturbance of protected nongame wildlife"
+  },
+  "Z06-P29": {
+    "type": "specimen_doc_plate",
+    "variant": "wildlife_sign",
+    "views": [
+      "Wide habitat & landform",
+      "Multi-meter trail/gait",
+      "Close-up print + cm bar",
+      "Date, GPS & DNR report"
+    ],
+    "voucher": "Zoom only; zero baiting or chase",
+    "hold": "Keep rare nest/den locations private"
+  },
+  "Z06-P30": {
+    "type": "decision_tree",
+    "gates": [
+      "License, season & ID?",
+      "Clean retrieval viable?",
+      "Cooling & zero waste?"
+    ],
+    "abort": "ABORT: Any NO -> pass on harvest & pack out all litter"
+  },
+  "Z06-P31": {
+    "type": "sequence_plate",
+    "variant": "firearm_4",
+    "steps": [
+      {
+        "label": "1. Loaded",
+        "detail": "Treat every gun as loaded"
+      },
+      {
+        "label": "2. Muzzle",
+        "detail": "Safe direction always"
+      },
+      {
+        "label": "3. Trigger",
+        "detail": "Finger off until shooting"
+      },
+      {
+        "label": "4. Backstop",
+        "detail": "Verify target & beyond"
+      }
+    ],
+    "cue": "Formal DNR certification required; mechanical safeties can fail"
+  },
+  "Z06-P32": {
+    "type": "correct_vs_wrong",
+    "variant": "transport",
+    "correct_title": "Safe Field Handling",
+    "correct_items": [
+      "Unload & open action at obstacles",
+      "Verify empty chamber & clear bore"
+    ],
+    "wrong_title": "High-Fatality Errors",
+    "wrong_items": [
+      "Climb stands or fences loaded",
+      "Fire after muzzle touches snow/mud"
+    ],
+    "reason": "Unloading at obstacles prevents discharges and barrel bursts"
+  },
+  "Z06-P33": {
+    "type": "hazard_exclusion_map",
+    "variant": "zone_fire",
+    "zones": [
+      "No-shoot: partners, roads & buildings",
+      "45-deg forward clear backstop zone",
+      "Blaze-orange visible hiker/hunter line"
+    ],
+    "buffer": "Verify target & beyond every time",
+    "report": "Lose sight of partner -> halt & call out"
+  },
+  "Z06-P34": {
+    "type": "failure_mode",
+    "cause": "Cracked carbon shaft or unhooded razor broadhead",
+    "cue": "Crackling flex sound, frayed string, exposed blades",
+    "correction": "Discard damaged shafts; keep broadheads hooded"
+  },
+  "Z06-P35": {
+    "type": "sequence_plate",
+    "variant": "treestand",
+    "steps": [
+      {
+        "label": "1. Inspect",
+        "detail": "Check tree, straps & ice"
+      },
+      {
+        "label": "2. Harness",
+        "detail": "Full-body + relief strap"
+      },
+      {
+        "label": "3. Lifeline",
+        "detail": "Clip in ground-to-ground"
+      },
+      {
+        "label": "4. Haul line",
+        "detail": "Hoist unloaded gear last"
+      }
+    ],
+    "cue": "Most treestand fatalities occur while climbing or stepping in"
+  },
+  "Z06-P36": {
+    "type": "failure_mode",
+    "cause": "Overloaded low-freeboard skiff + shifting weight in chop",
+    "cue": "Bow taking spray, rolling instability, cold wind rise",
+    "correction": "Stay below capacity plate; wear PFD; abort in wind"
+  },
+  "Z06-P37": {
+    "type": "sequence_plate",
+    "variant": "field_dress",
+    "steps": [
+      {
+        "label": "1. Glove up",
+        "detail": "Cover cuts; wear nitrile"
+      },
+      {
+        "label": "2. Keep clean",
+        "detail": "Avoid gut & spinal fluids"
+      },
+      {
+        "label": "3. Trim soil",
+        "detail": "Cut away dirty/hair spots"
+      },
+      {
+        "label": "4. Sanitize",
+        "detail": "Wash blades & hands clean"
+      }
+    ],
+    "cue": "Inspect carcass health first; discard visibly sick animals"
+  },
+  "Z06-P38": {
+    "type": "wildlife_track_plate",
+    "variant": "field_hygiene",
+    "features": [
+      "Prop open cavity; shade & airflow",
+      "Breathable clean cloth game bags",
+      "Pack sealed ice if > 40 F outside",
+      "Never seal warm meat in plastic"
+    ],
+    "scale": "Target <= 40 F cold-chain quickly",
+    "limit": "Sour odor or slime -> discard meat"
+  },
+  "Z06-P39": {
+    "type": "system_boundary",
+    "variant": "cwd_prion",
+    "zone_a": "Brain, spine, lymph nodes & CWD-pos meat",
+    "zone_b": "Tested negative clean boned venison",
+    "barrier": "No bone-sawing + lab test before eating",
+    "hazard": "STOP: Normal cooking NEVER destroys CWD prions"
+  },
+  "Z06-P40": {
+    "type": "correct_vs_wrong",
+    "variant": "trichinella",
+    "correct_title": "Verified Parasite Destruction",
+    "correct_items": [
+      "Cook bear/omnivores >= 165 F",
+      "Verify thickest spot by thermometer"
+    ],
+    "wrong_title": "Unreliable Folk Methods",
+    "wrong_items": [
+      "Freeze wild bear to kill larvae",
+      "Judge safety by smoke/cure/color"
+    ],
+    "reason": "Arctic/wild Trichinella species survive home freezing and curing"
+  },
+  "Z06-P41": {
+    "type": "system_boundary",
+    "variant": "tularemia",
+    "zone_a": "Sick/dead rabbits, bare skin & raw blood",
+    "zone_b": "Gloved clean handling & full cooking",
+    "barrier": "Impervious gloves + organ check + cook",
+    "hazard": "STOP: Fever or skin ulcer after exposure -> prompt medical care"
+  },
+  "Z06-P42": {
+    "type": "sequence_plate",
+    "variant": "fish_hygiene",
+    "steps": [
+      {
+        "label": "1. Ice fast",
+        "detail": "Chill <= 40 F immediately"
+      },
+      {
+        "label": "2. Clean safely",
+        "detail": "Away from camp & water"
+      },
+      {
+        "label": "3. Dispose offal",
+        "detail": "Lawful & bear-safe site"
+      },
+      {
+        "label": "4. Cook 145 F",
+        "detail": "Never eat raw freshwater fish"
+      }
+    ],
+    "cue": "Verify MDH waterbody advisory before keeping fish for food"
+  },
+  "Z06-P43": {
+    "type": "decision_tree",
+    "gates": [
+      "Lawful alert harvest?",
+      "Organs & smell normal?",
+      "Cooled & CWD clear?"
+    ],
+    "abort": "ABORT: Any NO -> discard safely & report unusual die-offs"
+  },
+  "Z06-P44": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Prevent",
+        "scope": "Clean camp & shore",
+        "action": "Lock food, bait & fish waste"
+      },
+      {
+        "role": "Encounter",
+        "scope": "Bear sighted",
+        "action": "Stand tall, talk firmly, back slow"
+      },
+      {
+        "role": "Report / Deter",
+        "scope": "Bold or charging bear",
+        "action": "Use spray if carried; call DNR"
+      }
+    ],
+    "trigger": "STOP: Never run from a bear, feed wildlife, or approach cubs"
+  },
+  "Z06-P45": {
+    "type": "hazard_exclusion_map",
+    "variant": "wolf_zone",
+    "zones": [
+      "Fresh kill / den site: retreat calmly",
+      "Active trail: keep dogs on short leash",
+      "Camp: zero food or carcass attractants"
+    ],
+    "buffer": "Gray wolves are legally protected",
+    "report": "Report bold wolves to MN DNR immediately"
+  },
+  "Z06-P46": {
+    "type": "failure_mode",
+    "cause": "Crowding moose, rutting bucks, or off-leash dog provocation",
+    "cue": "Pinned ears, raised neck hackles, stomping, staring",
+    "correction": "Retreat fast behind solid trees; keep dogs leashed"
+  },
+  "Z06-P47": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Observe safely",
+        "scope": "Distant vantage only",
+        "action": "Zero confrontation or pursuit"
+      },
+      {
+        "role": "Log facts",
+        "scope": "Objective details",
+        "action": "GPS, time, plates & actions"
+      },
+      {
+        "role": "Report",
+        "scope": "MN DNR TIP / 911",
+        "action": "Call 1-800-652-9093 (911 danger)"
+      }
+    ],
+    "trigger": "STOP: Never confront armed suspects or disturb physical evidence"
+  },
+  "Z06-P48": {
+    "type": "sequence_plate",
+    "variant": "hunt_plan",
+    "steps": [
+      {
+        "label": "1. Trip plan",
+        "detail": "Lake/unit & overdue time"
+      },
+      {
+        "label": "2. Pack safety",
+        "detail": "PFD, blaze, bleed & light"
+      },
+      {
+        "label": "3. Clear gear",
+        "detail": "Unload arms if injury hits"
+      },
+      {
+        "label": "4. Call 911",
+        "detail": "Exact access & GPS coords"
+      }
+    ],
+    "cue": "Emergency rescue always overrides hunting or fishing plans"
   }
 }
