@@ -58818,7 +58818,7 @@
     "objective": "Separate life-threat 911 activation, Poison Help 1-800-222-1222, utility leak lines, and MN DNR wildlife, TIP reporting across all zones.",
     "applies": "Quick offline lookup of the right authority channel during any emergency or field incident.",
     "equipment": "Full offline reader (Z01, Z05, Z06, Z07, Z10, Z11, Z13, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z01, Z05, Z06, Z07,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z01, Z05, Z06, Z07 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z01, Z05, Z06, Z07, Z10, Z11, Z13, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Calling a non-emergency wildlife or utility line during an airway or CO emergency—or lacking offline emergency numbers when cell towers fail—delays lifesaving response.",
@@ -58882,7 +58882,7 @@
     "objective": "Cross-index winter wind-chill, stranded-motorist, snow-shelter, and furnace-vent hazards across Z02, Z10, Z12, Z13, and Z15.",
     "applies": "November through March subzero cold snaps and blizzards in Minnesota and the Upper Midwest.",
     "equipment": "Full offline reader (Z02, Z10, Z12, Z13, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z02, Z10, Z12, Z13,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z02, Z10, Z12, Z13 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z02, Z10, Z12, Z13, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Leaving a stranded vehicle in whiteout visibility or idling with a snow-blocked exhaust pipe causes rapid fatal hypothermia or CO poisoning.",
@@ -59078,7 +59078,7 @@
     "objective": "Cross-index peak summer Upper Midwest hazards across water, shoreline, dermatology, ticks, heat, and severe convective storms.",
     "applies": "June through August summer recreation, fieldwork, and household emergencies.",
     "equipment": "Full offline reader (Z04, Z05, Z06, Z10, Z12, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z05, Z06, Z10,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z05, Z06, Z10 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z05, Z06, Z10, Z12, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Brushing bare legs through roadside wild parsnip, fighting a rip current head-on, or ignoring embedded ticks leads to severe burns, drowning, or tickborne illness.",
@@ -59610,7 +59610,7 @@
     "objective": "Cross-reference floating sphagnum bog entrapment, subterranean peat fires, wetland toxic flora, and aquatic wildlife protection across five zones.",
     "applies": "Northern Minnesota bogs, fens, cedar swamps, and marsh shorelines.",
     "equipment": "Full offline reader (Z03, Z05, Z07, Z08, Z12), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z03, Z05, Z07, Z08,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z03, Z05, Z07, Z08 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z03, Z05, Z07, Z08, Z12 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Stepping off upland soil onto a quaking mat, building a campfire on peat, or sampling marsh shoots, umbels causes entrapment, ground fire, or fatal poisoning.",
@@ -59940,7 +59940,7 @@
     "objective": "Cross-index essential navigation, thermal insulation, rain shelter, water treatment, light, signaling, and first-aid gear across Z01–Z04, Z10, and Z11.",
     "applies": "Pre-trip packing and equipment readiness checks for day and overnight outings.",
     "equipment": "Full offline reader (Z01, Z02, Z03, Z04, Z10, Z11), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z01, Z02, Z03, Z04,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z01, Z02, Z03, Z04 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z01, Z02, Z03, Z04, Z10, Z11 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Assuming a smartphone replaces paper maps, whistles, dry thermal layers, and physical water vessels leaves parties stranded when cold drains batteries.",
@@ -61926,7 +61926,7 @@
     "objective": "Standardize definitions from Acidification through CWD so terminology stays consistent across all sixteen zones without adding standalone procedures.",
     "applies": "Cross-zone terminology lookup for readers and technical reviewers.",
     "equipment": "Full offline reader (Z04, Z05, Z06, Z08, Z10, Z14), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z05, Z06, Z08,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z05, Z06, Z08 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z05, Z06, Z08, Z10, Z14 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Inconsistent definitions across chapters blur safety boundaries such as acidification, candled ice, or cleavage versus fracture.",
@@ -61990,7 +61990,7 @@
     "objective": "Standardize definitions from Datum through Frostbite across navigation, botany, mycology, geology, and wilderness medicine.",
     "applies": "Cross-zone terminology lookup for D–F technical terms.",
     "equipment": "Full offline reader (Z03, Z05, Z08, Z10, Z11, Z12), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z03, Z05, Z08, Z10,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z03, Z05, Z08, Z10 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z03, Z05, Z08, Z10, Z11, Z12 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Confusing WGS84 with NAD27 or erratic cobbles with local bedrock introduces navigation and geological errors.",
@@ -62058,7 +62058,7 @@
     "objective": "Standardize definitions from Galerina through Lashing across mycology, geology, mountain medicine, water, and rigging.",
     "applies": "Cross-zone terminology lookup for G–L technical terms.",
     "equipment": "Full offline reader (Z04, Z05, Z07, Z08, Z09, Z10, Z12), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z05, Z07, Z08,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z05, Z07, Z08 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z05, Z07, Z08, Z09, Z10, Z12 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Blurring HABs with ordinary turbidity or karsts with filtered groundwater hides serious contamination risks.",
@@ -62124,7 +62124,7 @@
     "objective": "Standardize definitions from Manoomin through Pyrolysis across botany, geology, preservation, and public health.",
     "applies": "Cross-zone terminology lookup for M–P technical terms.",
     "equipment": "Full offline reader (Z03, Z05, Z06, Z08, Z10, Z14), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z03, Z05, Z06, Z08,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z03, Z05, Z06, Z08 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z03, Z05, Z06, Z08, Z10, Z14 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Confusing scratch hardness with impact toughness or overlooking delayed orellanine renal failure distorts field risk.",
@@ -62192,7 +62192,7 @@
     "objective": "Standardize definitions from Quaking Bog through Spore Print across wetlands, navigation, geology, fire, and mycology.",
     "applies": "Cross-zone terminology lookup for Q–S technical terms.",
     "equipment": "Full offline reader (Z04, Z05, Z08, Z09, Z11, Z12, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z05, Z08, Z09,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z05, Z08, Z09 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z05, Z08, Z09, Z11, Z12, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Confusing supernatant settling with disinfection or missing diagonal handle runout introduces acute field injury.",
@@ -62261,7 +62261,7 @@
     "objective": "Standardize definitions from Taxine through Zone of Fire across toxicology, botany, mycology, geology, and hunting safety.",
     "applies": "Cross-zone terminology lookup for T–Z technical terms.",
     "equipment": "Full offline reader (Z05, Z06, Z07, Z08, Z10, Z11, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z05, Z06, Z07, Z08,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z05, Z06, Z07, Z08 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z05, Z06, Z07, Z08, Z10, Z11, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Overlooking a concealed soil volva or misreading umbel terminology risks fatal mushroom or hemlock poisoning.",
@@ -62333,7 +62333,7 @@
     "objective": "Decode medical, environmental-health, and food-safety acronyms used across the encyclopedia so critical distinctions are never misread offline.",
     "applies": "Quick acronym lookup across medical, water, air-quality, and food-preservation cards.",
     "equipment": "Full offline reader (Z04, Z05, Z10, Z13, Z14, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z05, Z10, Z13,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z05, Z10, Z13 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z05, Z10, Z13, Z14, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Misreading an acronym such as CO vs CO2, HAPE vs heat cramps, or NSF pore standards causes serious operational mistakes.",
@@ -62402,7 +62402,7 @@
     "objective": "Map each encyclopedia domain to its authoritative federal, state, university, or scientific agency so users know where to verify live updates.",
     "applies": "Checking current regulations, advisories, forecasts, and taxonomic records prior to fieldwork.",
     "equipment": "Full offline reader (Z04, Z05, Z06, Z07, Z08, Z11, Z13, Z14, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z05, Z06, Z07,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z05, Z06, Z07 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z05, Z06, Z07, Z08, Z11, Z13, Z14, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Relying on undated blog posts or outdated print tables instead of the governing agency misses annual hunting, fishing rule changes and active health advisories.",
@@ -62472,7 +62472,7 @@
     "objective": "Provide exact verified temperature and elevation reference points used across the encyclopedia while blocking unsafe unit extrapolation.",
     "applies": "Offline verification of Fahrenheit, Celsius thresholds and elevation cutoffs cited across Z04–Z15.",
     "equipment": "Full offline reader (Z04, Z06, Z08, Z10, Z12, Z14, Z15), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z04, Z06, Z08, Z10,  cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z04, Z06, Z08, Z10 cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z04, Z06, Z08, Z10, Z12, Z14, Z15 with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Confusing Celsius with Fahrenheit (e.g., 40 C vs 40 F) or omitting elevation thresholds causes botulism, food spoilage, or incomplete boiling.",
@@ -62529,7 +62529,7 @@
     "objective": "Map all 16 canonical zones (1,016 pages), standalone zone readers, consolidated directory, and tagged Letter, A4 proofs for offline navigation.",
     "applies": "Orienting readers, auditors, and print reviewers across the complete offline edition.",
     "equipment": "Full offline reader (Z01–Z15 (All 16 Zones)), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z01–Z15 (All 16 Zone cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z01–Z15 (All 16 Zones) cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z01–Z15 (All 16 Zones) with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Searching only one zone misses critical cross-zone safety bounds such as CO clearance (Z02, Z03, Z13) or water, well limits (Z04, Z13).",
@@ -62760,7 +62760,7 @@
     "objective": "Preserve complete transparent lineage linking all frozen Track B historical artifacts, adapted manuscripts, explicit reconstructions, and unresolved historical gaps.",
     "applies": "Auditors and readers tracing historical continuity without altering frozen recovery checkpoints.",
     "equipment": "Full offline reader (Z01–Z15 (Track B B003–B014)), primary zone cards, and local emergency and agency references.",
-    "diagram": "Locate Z01–Z15 (Track B B00 cards | Preserve exact stop & limits | Defer to full zone card",
+    "diagram": "Locate Z01–Z15 (Track B cards | Preserve exact stop & limits | Defer to full zone card",
     "visual": "Cross-zone atlas schematic linking Z01–Z15 (Track B B003–B014) with preserved upstream conditions and stop thresholds.",
     "failure": {
       "text": "Conflating newly authored reconstructions with recovered historical originals corrupts archival custody and hides open source gaps.",

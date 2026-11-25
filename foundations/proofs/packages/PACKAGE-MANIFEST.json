@@ -1,85 +1,120 @@
 {
   "foundations-offline.zip": {
-    "bytes": 30177484,
-    "members": 1535,
+    "bytes": 36626881,
+    "members": 2263,
     "scope": "Core offline HTML reader, SVGs, manuscripts, evidence, audit registers & reconstructions (consolidated PDFs kept separately in proofs/ for GitHub scalability)",
-    "sha256": "924734425923967b76b72776bbfff71ba852d72376fb8eee239033482f5928b9"
+    "sha256": "d68741bf76611f26aecaa22c5613f237ce5711247def7e656d8becc7b8649537"
   },
   "packages/zone-Z01.zip": {
-    "bytes": 1794692,
+    "bytes": 2271707,
     "members": 59,
     "pages": 22,
-    "sha256": "8dcffc247748ea72e3a127a27ff6440c63cfb62dfa56f5383eaa00ce8861452d",
+    "sha256": "5ddca3c27a17176fbfdca0820383ad8df416f0ddab8213c2b11d869ec0c55fa8",
     "zone": "Z01"
   },
   "packages/zone-Z02.zip": {
-    "bytes": 2852624,
+    "bytes": 3329642,
     "members": 125,
     "pages": 55,
-    "sha256": "ae27c9340d389e17340964bbe07109aac26a0b8de52df247736590c1448f7bb2",
+    "sha256": "de09a55e1e8bccb406dd3196311e450d54d53a4d2b5e51dcc4ccbb48ab71d1b1",
     "zone": "Z02"
   },
   "packages/zone-Z03.zip": {
-    "bytes": 2543009,
+    "bytes": 3020021,
     "members": 105,
     "pages": 45,
-    "sha256": "4c0b34119ff17b60609b7cb822a875820173c00342d37a9085a25953b27f1c4a",
+    "sha256": "6a81b5b6ba67da4e0d54440286dc6531dc62d33848ffad8bc015ff8c270a8bb7",
     "zone": "Z03"
   },
   "packages/zone-Z04.zip": {
-    "bytes": 2875644,
+    "bytes": 3352668,
     "members": 125,
     "pages": 55,
-    "sha256": "79bf58ee9500465d970e6b281c485efcd6a39d2b1bb9ce2d6700a0a9d89f9a69",
+    "sha256": "ca1a37efc206405c49151a282a576356a4a8eead5d9e7a243844b272297f179c",
     "zone": "Z04"
   },
+  "packages/zone-Z05.zip": {
+    "bytes": 6964748,
+    "members": 285,
+    "pages": 135,
+    "sha256": "6223931b709eb3aa54cea70e53aa8bfc9e27ea4e1bd502b9ebe247c54952f145",
+    "zone": "Z05"
+  },
+  "packages/zone-Z06.zip": {
+    "bytes": 3343557,
+    "members": 111,
+    "pages": 48,
+    "sha256": "7d13481f3a74ccbc6cd105eb4d3263ccf4b13cd0b77d5ed2602445379e083982",
+    "zone": "Z06"
+  },
+  "packages/zone-Z07.zip": {
+    "bytes": 2731657,
+    "members": 75,
+    "pages": 30,
+    "sha256": "e303b11a538dfd99056a2cb82834e3da79f314fa6174aeed61e8fd6de6a987ff",
+    "zone": "Z07"
+  },
+  "packages/zone-Z08.zip": {
+    "bytes": 3746904,
+    "members": 135,
+    "pages": 60,
+    "sha256": "3ca8518130e1f967e90f02ffa9edd6e97a9a868de4dd3bab4b98045812968f2d",
+    "zone": "Z08"
+  },
   "packages/zone-Z09.zip": {
-    "bytes": 2931070,
+    "bytes": 3408090,
     "members": 121,
     "pages": 53,
-    "sha256": "b0de5159d1df3c6b9bd7dad1f23987ab84ebae2b3edd182464f8f070e9f02a71",
+    "sha256": "36e8d499723e416c4bdddeac13c30683963f83ed8cffe1082c340e69fd5d0077",
     "zone": "Z09"
   },
   "packages/zone-Z10.zip": {
-    "bytes": 4056857,
+    "bytes": 4533869,
     "members": 175,
     "pages": 80,
-    "sha256": "cde1ac75cc3d1253c0726ed2644b2b7df4a2cc1c8ee5183cbaf40239945b27ff",
+    "sha256": "db0ea8abaab1401342d8fd8c44d70bf4264fa6c01bb1debf0a0f573fc7769f2c",
     "zone": "Z10"
   },
   "packages/zone-Z11.zip": {
-    "bytes": 3628914,
+    "bytes": 4105924,
     "members": 152,
     "pages": 68,
-    "sha256": "7ea0688a26eba555d4b8e07f4c60dd9531d7d1c6bf4ff365de5005d565c16d3a",
+    "sha256": "8d15ee52c97d27e063ab2c8e5f10acc2387a1fe7ebbfdd77e785a563cf5208e0",
     "zone": "Z11"
   },
   "packages/zone-Z12.zip": {
-    "bytes": 3669925,
+    "bytes": 4146925,
     "members": 165,
     "pages": 75,
-    "sha256": "26ac33c12aa9977d5696630ca99d380aa8720276a52ce68b041ebd205f411bfc",
+    "sha256": "31ba7105755789a6a2e6e19cf99ce1d45269573f76b3a279d3308da653a2381f",
     "zone": "Z12"
   },
   "packages/zone-Z13.zip": {
-    "bytes": 3757429,
+    "bytes": 4234442,
     "members": 155,
     "pages": 70,
-    "sha256": "922b4e21740661797b2e07b5dc25d0a542b287fe803b6a1d39421cc99d8002c5",
+    "sha256": "1e9269dbfabc38defbd1b9920b34873850808523695d4f1e06e2ad3cf895b190",
     "zone": "Z13"
   },
   "packages/zone-Z14.zip": {
-    "bytes": 4098433,
+    "bytes": 4575448,
     "members": 175,
     "pages": 80,
-    "sha256": "3de6b18c3dc778e85a87680ddb5226c556466ce240dc2ff712b42e379ad101cb",
+    "sha256": "e4d7a51a2878bc38b3713c0c314625d245307f2fb7026c2530b059794db66cd7",
     "zone": "Z14"
   },
   "packages/zone-Z15.zip": {
-    "bytes": 3623181,
+    "bytes": 4100206,
     "members": 145,
     "pages": 65,
-    "sha256": "9e4eec8e545ef42f5bc2643c956f33017d557ebeb52c881264fc76880d04f578",
+    "sha256": "e4d1b5ea8a6a58b87d8e860b1c4934bb5b527c7fce4f6aee3e4c99d6441e4f26",
     "zone": "Z15"
+  },
+  "packages/zone-Z16.zip": {
+    "bytes": 4409229,
+    "members": 165,
+    "pages": 75,
+    "sha256": "8c8f1b0aa29cd3ea8cbc2b9d23712c9f479f1f09538e8978926f8aa92f1c6985",
+    "zone": "Z16"
   }
 }

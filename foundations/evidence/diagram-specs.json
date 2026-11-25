@@ -9091,7 +9091,7 @@
       {
         "name": "Sensitive group",
         "note": "Pregnant, nursing & kids < 15",
-        "limit": "Strictest MDH meal caps; skip big predators"
+        "limit": "Strict MDH caps; skip big fish"
       },
       {
         "name": "General adult",
@@ -11763,7 +11763,7 @@
     "tiers": [
       {
         "role": "Z01-P01..P06",
-        "scope": "Scene scan & trip abor",
+        "scope": "Scene scan & trip abort",
         "action": "Unsafe terrain -> hold"
       },
       {
@@ -11784,17 +11784,17 @@
     "tiers": [
       {
         "role": "Z10-P03..P05",
-        "scope": "Direct pressure & tour",
+        "scope": "Direct pressure &",
         "action": "Never loosen placed TQ"
       },
       {
         "role": "Z09-P02..P29",
-        "scope": "Blade/saw bleed preven",
+        "scope": "Blade/saw bleed",
         "action": "Unstable cut -> stop"
       },
       {
         "role": "Z06-P31..P48",
-        "scope": "Field trauma & clear a",
+        "scope": "Field trauma & clear",
         "action": "Unload arms -> call 911"
       }
     ],
@@ -11805,17 +11805,17 @@
     "tiers": [
       {
         "role": "Z10-P08..P12",
-        "scope": "Adult/peds CPR & choki",
+        "scope": "Adult/peds CPR & choking",
         "action": "No 60-sec check delay"
       },
       {
         "role": "Z12-P16..P64",
-        "scope": "Drowning & cold immers",
+        "scope": "Drowning & cold",
         "action": "Reach-Throw-Dont-Go"
       },
       {
         "role": "Z06-P20..P36",
-        "scope": "Boating PFD & cold wat",
+        "scope": "Boating PFD & cold water",
         "action": "Wear buckled PFD afloat"
       }
     ],
@@ -11839,15 +11839,15 @@
       },
       {
         "label": "2. Apply",
-        "detail": "Ground pad & wind ba"
+        "detail": "Ground pad & wind"
       },
       {
         "label": "3. Verify",
-        "detail": "Hypothermia & frostb"
+        "detail": "Hypothermia &"
       },
       {
         "label": "4. Stop rule",
-        "detail": "Wet insulation -> st"
+        "detail": "Wet insulation -> stop"
       }
     ],
     "cue": "Never rub frostbite with snow or thaw if refreezing can occur"
@@ -11862,15 +11862,15 @@
       },
       {
         "label": "2. Apply",
-        "detail": "Heat stroke rapid co"
+        "detail": "Heat stroke rapid"
       },
       {
         "label": "3. Verify",
-        "detail": "Desert & exertion he"
+        "detail": "Desert & exertion heat"
       },
       {
         "label": "4. Stop rule",
-        "detail": "Altered -> 911 + coo"
+        "detail": "Altered -> 911 + cool"
       }
     ],
     "cue": "Cool immediately + call 911; CDC advises fans only below 90 F"
@@ -11885,15 +11885,15 @@
       },
       {
         "label": "2. Apply",
-        "detail": "HABs, chemicals & se"
+        "detail": "HABs, chemicals &"
       },
       {
         "label": "3. Verify",
-        "detail": "Boil altitude & filt"
+        "detail": "Boil altitude &"
       },
       {
         "label": "4. Stop rule",
-        "detail": "Clarity != potabilit"
+        "detail": "Clarity != potability"
       }
     ],
     "cue": "1 min boil (<6,500 ft) / 3 min (>=6,500 ft); boiling fails HABs/chemicals"
@@ -11908,7 +11908,7 @@
       },
       {
         "role": "Z10-P60..P64",
-        "scope": "Ingestion & anaphylaxi",
+        "scope": "Ingestion & anaphylaxis",
         "action": "No uninstructed vomiting"
       },
       {
@@ -11929,11 +11929,11 @@
       },
       {
         "label": "2. Apply",
-        "detail": "Tornado safe room ru"
+        "detail": "Tornado safe room"
       },
       {
         "label": "3. Verify",
-        "detail": "Flood & washout haza"
+        "detail": "Flood & washout"
       },
       {
         "label": "4. Stop rule",
@@ -11948,7 +11948,7 @@
     "zone_a": "Smoke + extreme indoor heat",
     "zone_b": "Outage + subzero cold",
     "barrier": "Zero wading near power",
-    "hazard": "No static ranking overrides local emergency orders during compound event"
+    "hazard": "No static ranking overrides local emergency orders during compound"
   },
   "Z16-P11": {
     "type": "sequence_plate",
@@ -11960,15 +11960,15 @@
       },
       {
         "label": "2. Apply",
-        "detail": "Mobility & medical p"
+        "detail": "Mobility & medical"
       },
       {
         "label": "3. Verify",
-        "detail": "Infant formula & ped"
+        "detail": "Infant formula & peds"
       },
       {
         "label": "4. Stop rule",
-        "detail": "Relocate before batt"
+        "detail": "Relocate before"
       }
     ],
     "cue": "Plan accessible evacuation & backup power early with local registries"
@@ -11983,13 +11983,13 @@
       },
       {
         "role": "Z05,Z10,Z13",
-        "scope": "Plant/fungi/chem poiso",
+        "scope": "Plant/fungi/chem poison",
         "action": "1-800-222-1222 at once"
       },
       {
         "role": "Z06,Z07,Z11",
         "scope": "Wildlife TIP & SAR/PLB",
-        "action": "1-800-652-9093; no confron"
+        "action": "1-800-652-9093; no"
       }
     ],
     "trigger": "Keep local county, utility & vet contacts written offline before travel"
@@ -12000,19 +12000,19 @@
     "phases": [
       {
         "window": "Z15-P13..P15",
-        "focus": "Blizzard & stranded ca"
+        "focus": "Blizzard & stranded car"
       },
       {
-        "window": "Z02-P41,Z12-P0",
-        "focus": "Snow shelter & wind ch"
+        "window": "Z02-P41,Z12-P07",
+        "focus": "Snow shelter & wind"
       },
       {
         "window": "Z13-P24..P31",
-        "focus": "PVC vents & pipe freez"
+        "focus": "PVC vents & pipe freeze"
       },
       {
         "window": "Upstream stop",
-        "focus": "Clear exhaust; stay pu"
+        "focus": "Clear exhaust; stay put"
       }
     ],
     "threshold": "Calendar aids never override live NWS blizzard/cold warnings"
@@ -12023,15 +12023,15 @@
     "phases": [
       {
         "window": "Z12-P13..P20",
-        "focus": "Clear/white/candled ic"
+        "focus": "Clear/white/candled ice"
       },
       {
         "window": "Z06-P01..P02",
-        "focus": "Ice angling & B013 lim"
+        "focus": "Ice angling & B013"
       },
       {
-        "window": "Z07-P25,Z12-P1",
-        "focus": "Beaver runs & shore re"
+        "window": "Z07-P25,Z12-P16",
+        "focus": "Beaver runs & shore"
       },
       {
         "window": "Upstream stop",
@@ -12045,20 +12045,20 @@
     "variant": "z16_s15",
     "phases": [
       {
-        "window": "Z15-P24,Z08-P3",
-        "focus": "Snowmelt floods & bluf"
+        "window": "Z15-P24,Z08-P32",
+        "focus": "Snowmelt floods & bluffs"
       },
       {
-        "window": "Z06-P20,Z12-P6",
-        "focus": "Warm air + freezing wa"
+        "window": "Z06-P20,Z12-P64",
+        "focus": "Warm air + freezing"
       },
       {
-        "window": "Z05-P08,P83,P9",
-        "focus": "Spring shoots & Gyromi"
+        "window": "Z05-P08,P83,P98",
+        "focus": "Spring shoots &"
       },
       {
         "window": "Upstream stop",
-        "focus": "Zero flooded road cros"
+        "focus": "Zero flooded road"
       }
     ],
     "threshold": "Spring warmth masks freezing water, thawing bluffs & lethal shoots"
@@ -12068,20 +12068,20 @@
     "variant": "z16_s16",
     "phases": [
       {
-        "window": "Z04-P14,Z06-P1",
-        "focus": "HABs & MDH fish adviso"
+        "window": "Z04-P14,Z06-P15",
+        "focus": "HABs & MDH fish"
       },
       {
-        "window": "Z12-P56,Z15-P1",
-        "focus": "Rip currents & derecho"
+        "window": "Z12-P56,Z15-P16",
+        "focus": "Rip currents & derechos"
       },
       {
-        "window": "Z10-P58,Z05-P1",
-        "focus": "Deer ticks & wild pars"
+        "window": "Z10-P58,Z05-P13",
+        "focus": "Deer ticks & wild"
       },
       {
         "window": "Upstream stop",
-        "focus": "Reject algal scum wate"
+        "focus": "Reject algal scum water"
       }
     ],
     "threshold": "Check daily NWS forecasts, surf flags, AQI & waterbody notices"
@@ -12091,20 +12091,20 @@
     "variant": "z16_s17",
     "phases": [
       {
-        "window": "Z06-P33,Z07-P1",
+        "window": "Z06-P33,Z07-P14",
         "focus": "Blaze gear & pet short"
       },
       {
         "window": "Z06-P36..P40",
-        "focus": "Cold boat, CWD & bear "
+        "focus": "Cold boat, CWD & bear"
       },
       {
         "window": "Z05-P116..P119",
-        "focus": "Peak Amanita/Galerina "
+        "focus": "Peak Amanita/Galerina"
       },
       {
         "window": "Upstream stop",
-        "focus": "<= 6 ft leash on open "
+        "focus": "<= 6 ft leash on open"
       }
     ],
     "threshold": "Autumn overlaps firearms, trapping seasons, cold water & lethal fungi"
@@ -12114,20 +12114,20 @@
     "variant": "z16_s18",
     "phases": [
       {
-        "window": "Z14-P04,Z08-P2",
-        "focus": "Frost dates & soil lea"
+        "window": "Z14-P04,Z08-P27",
+        "focus": "Frost dates & soil lead"
       },
       {
         "window": "Z14-P27..P33",
-        "focus": "4-zone root-cellar sto"
+        "focus": "4-zone root-cellar"
       },
       {
         "window": "Z14-P45..P62",
-        "focus": "USDA/NCHFP tested cann"
+        "focus": "USDA/NCHFP tested"
       },
       {
         "window": "Upstream stop",
-        "focus": "Test urban/old-home so"
+        "focus": "Test urban/old-home soil"
       }
     ],
     "threshold": "Never modify tested USDA/NCHFP canning recipes or altitude times"
@@ -12138,19 +12138,19 @@
     "phases": [
       {
         "window": "Z13-P06..P07",
-        "focus": "Generator >= 20 ft & t"
+        "focus": "Generator >= 20 ft &"
       },
       {
         "window": "Z13-P20..P26",
-        "focus": "CO alarms, chimneys & "
+        "focus": "CO alarms, chimneys &"
       },
       {
         "window": "Z13-P38..P45",
-        "focus": "Wells, pipes & flood p"
+        "focus": "Wells, pipes & flood"
       },
       {
         "window": "Upstream stop",
-        "focus": "Zero wall-outlet backf"
+        "focus": "Zero wall-outlet"
       }
     ],
     "threshold": "Conceptual utility guides are never DIY code installation manuals"
@@ -12161,15 +12161,15 @@
     "phases": [
       {
         "window": "Z05-P08,P105",
-        "focus": "Spring shoots & egg bu"
+        "focus": "Spring shoots & egg"
       },
       {
         "window": "Z06-P25..P26",
-        "focus": "Snow-melt track distor"
+        "focus": "Snow-melt track"
       },
       {
         "window": "Z08-P14,P59",
-        "focus": "Lichen rinds & rock ve"
+        "focus": "Lichen rinds & rock"
       },
       {
         "window": "Upstream stop",
@@ -12187,7 +12187,7 @@
       "Z13-P40..P43: Lab test before drinking"
     ],
     "buffer": "Boil, filter & chlorine limits",
-    "report": "Visual clarity never proves potability; ch"
+    "report": "Visual clarity never proves potability"
   },
   "Z16-P22": {
     "type": "hazard_exclusion_map",
@@ -12198,7 +12198,7 @@
       "Z15-P33,P37: Hot room -> clean-air site"
     ],
     "buffer": "Burn bans & no-fire fallback",
-    "report": "Follow local fire orders; never run ozone "
+    "report": "Follow local fire orders; never run ozone"
   },
   "Z16-P23": {
     "type": "hazard_exclusion_map",
@@ -12209,7 +12209,7 @@
       "Z08-P09,P32,P48: Keep clear of fresh talus"
     ],
     "buffer": "Avalanche red flags & forecast",
-    "report": "No slope angle guarantees avalanche safety"
+    "report": "No slope angle guarantees avalanche"
   },
   "Z16-P24": {
     "type": "hazard_exclusion_map",
@@ -12220,7 +12220,7 @@
       "Z05-P122,Z07-P25: Zero marsh foraging/ice"
     ],
     "buffer": "Quaking bog & peat substrate",
-    "report": "Stay on firm upland ground; zero open fire"
+    "report": "Stay on firm upland ground; zero open"
   },
   "Z16-P25": {
     "type": "hazard_exclusion_map",
@@ -12231,7 +12231,7 @@
       "Z06-P20,Z12-P64: Buckled PFD; no seawater"
     ],
     "buffer": "Rip currents & wet ledges",
-    "report": "Local coastal/Great Lakes alerts and teste"
+    "report": "Local coastal/Great Lakes alerts and"
   },
   "Z16-P26": {
     "type": "hazard_exclusion_map",
@@ -12242,7 +12242,7 @@
       "Z15-P48..P49: HVAC off; follow official order"
     ],
     "buffer": "Indoor gas/propane leak",
-    "report": "Official incident-specific orders always g"
+    "report": "Official incident-specific orders always"
   },
   "Z16-P27": {
     "type": "hazard_exclusion_map",
@@ -12253,7 +12253,7 @@
       "Z10-P57..P59: No cutting/sucking bites"
     ],
     "buffer": "Bears, wolves & moose",
-    "report": "Zero barehanded wildlife release; evaluate"
+    "report": "Zero barehanded wildlife release"
   },
   "Z16-P28": {
     "type": "hazard_exclusion_map",
@@ -12264,7 +12264,7 @@
       "Z08-P27,Z14-P04: Lab test; no wild pots"
     ],
     "buffer": "Crystalline silica dust",
-    "report": "Visual cleanliness never proves rock, clay"
+    "report": "Visual cleanliness never proves rock"
   },
   "Z16-P29": {
     "type": "comparison",
@@ -12296,7 +12296,7 @@
       },
       {
         "name": "Z04-P37..P40",
-        "note": "Filter freeze & virus limi",
+        "note": "Filter freeze & virus",
         "limit": "Froze wet -> discard"
       },
       {
@@ -12331,7 +12331,7 @@
     "options": [
       {
         "name": "Z03-P25..P29",
-        "note": "Cold fuel, windscreen & fi",
+        "note": "Cold fuel, windscreen &",
         "limit": "Never wrap upright can"
       },
       {
@@ -12371,12 +12371,12 @@
     "options": [
       {
         "name": "Z11-P12..P14",
-        "note": "Datum & current declinatio",
+        "note": "Datum & current",
         "limit": "Match WGS84/NAD27"
       },
       {
         "name": "Z08-P20,Z11-P29",
-        "note": "Iron-rock needle deflectio",
+        "note": "Iron-rock needle",
         "limit": "Cross-check terrain"
       },
       {
@@ -12391,7 +12391,7 @@
     "options": [
       {
         "name": "Z13-P06..P07",
-        "note": "Generator & transfer switc",
+        "note": "Generator & transfer",
         "limit": "NEVER backfeed outlets"
       },
       {
@@ -12411,17 +12411,17 @@
     "options": [
       {
         "name": "Z14-P52..P56",
-        "note": "Pressure canner & 10-min v",
+        "note": "Pressure canner & 10-min",
         "limit": "Test dial gauge yearly"
       },
       {
         "name": "Z14-P48,P25",
-        "note": "Water/steam canner acid ga",
+        "note": "Water/steam canner acid",
         "limit": "Low-acid = pressure ONLY"
       },
       {
         "name": "Z14-P68,Z06-P40",
-        "note": "Jerky/bear/fish probe temp",
+        "note": "Jerky/bear/fish probe",
         "limit": "Verify by thermometer"
       }
     ]
@@ -12566,11 +12566,11 @@
       },
       {
         "label": "3. Verify",
-        "detail": "Lost STOP & SAR sign"
+        "detail": "Lost STOP & SAR"
       },
       {
         "label": "4. Stop rule",
-        "detail": "2 missed cues -> STO"
+        "detail": "2 missed cues -> STOP"
       }
     ],
     "cue": "Original B014 P01-P10 remains open behind Z11-R01..R10 reconstructions"
@@ -12596,7 +12596,7 @@
         "detail": "No dosing; check CSM"
       }
     ],
-    "cue": "Lay reference only; follow 911 dispatcher & personal clinician action plan"
+    "cue": "Lay reference only; follow 911 dispatcher & personal clinician action"
   },
   "Z16-P46": {
     "type": "sequence_plate",
@@ -12608,15 +12608,15 @@
       },
       {
         "label": "2. Apply",
-        "detail": "Outage fridge/freeze"
+        "detail": "Outage fridge/freezer"
       },
       {
         "label": "3. Verify",
-        "detail": "Bear >=165 F & fish "
+        "detail": "Bear >=165 F & fish"
       },
       {
         "label": "4. Stop rule",
-        "detail": ">40 F for 2 hr -> di"
+        "detail": ">40 F for 2 hr ->"
       }
     ],
     "cue": "When in doubt, throw it out—never taste suspect outage or game food"
@@ -12631,15 +12631,15 @@
       },
       {
         "label": "2. Apply",
-        "detail": "High-acid & tomato a"
+        "detail": "High-acid & tomato"
       },
       {
         "label": "3. Verify",
-        "detail": "Low-acid pressure & "
+        "detail": "Low-acid pressure &"
       },
       {
         "label": "4. Stop rule",
-        "detail": "Acidify ALL canned t"
+        "detail": "Acidify ALL canned"
       }
     ],
     "cue": "Exact tested USDA/NCHFP recipes only; no substitutions or shortcuts"
@@ -12694,7 +12694,7 @@
     "zone_a": "Law, ESA & AFWA welfare",
     "zone_b": "Non-tamper & TIP/rehab call",
     "barrier": "<= 6 ft leash; skip culverts",
-    "hazard": "Zero actionable injurious trap construction; escalate unresolved law/wel"
+    "hazard": "Zero actionable injurious trap construction; escalate unresolved"
   },
   "Z16-P51": {
     "type": "system_boundary",
@@ -12827,17 +12827,17 @@
     "tiers": [
       {
         "role": "Z05-P116..P117",
-        "scope": "Amanita & Galerina (am",
+        "scope": "Amanita & Galerina",
         "action": "Cooking FAILS; 6-24h GI"
       },
       {
         "role": "Z05-P118..P121",
-        "scope": "Gyromitra, Cort, Ompha",
+        "scope": "Gyromitra, Cort, Omphal",
         "action": "Silent 2-14d renal risk"
       },
       {
         "role": "Z05-P133..P135",
-        "scope": "CDC MMWR & paper-bag E",
+        "scope": "CDC MMWR & paper-bag ER",
         "action": "Call 1-800-222-1222 now"
       }
     ],
@@ -13143,19 +13143,19 @@
     "zone_a": "Documentary context JPEGs",
     "zone_b": "A02 backlog + P16..P20 SVGs",
     "barrier": "0 diagnostic photos yet",
-    "hazard": "Zero fabricated diagnostic photos; documentary vs diagnostic stay separa"
+    "hazard": "Zero fabricated diagnostic photos; documentary vs diagnostic stay"
   },
   "Z16-P74": {
     "type": "escalation_ladder",
     "tiers": [
       {
         "role": "A01/A02 Open",
-        "scope": "116 unresolved claim i",
+        "scope": "116 unresolved claim",
         "action": "Zero unverified closures"
       },
       {
         "role": "H01..H25 Holds",
-        "scope": "25 pending specialist ",
+        "scope": "25 pending specialist",
         "action": "0 qualified approvals"
       },
       {
@@ -13164,7 +13164,7 @@
         "action": "Publication stays HOLD"
       }
     ],
-    "trigger": "Automated validation never substitutes for qualified human specialist revi"
+    "trigger": "Automated validation never substitutes for qualified human specialist"
   },
   "Z16-P75": {
     "type": "system_boundary",
