@@ -9958,5 +9958,1804 @@
       }
     ],
     "trigger": "HOLD: Z07 requires qualified wildlife, legal & welfare sign-off"
+  },
+  "Z05-P01": {
+    "type": "specimen_doc_plate",
+    "variant": "botanical_voucher",
+    "views": [
+      "Whole habit & habitat",
+      "Diagnostic leaf/cap view",
+      "Underside, root or base",
+      "cm ruler, GPS & voucher"
+    ],
+    "voucher": "Bell Museum / MyCoPortal key",
+    "hold": "HOLD: Recognition != Consumption"
+  },
+  "Z05-P19": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Basal hairless toothed rosette",
+      "Single hollow leafless stalk",
+      "Milky sap; solitary head",
+      "Exclude branching hairy stems"
+    ],
+    "scale": "Metric ruler + whole plant view",
+    "hold": "HOLD: Consumption withheld; no sprayed turf"
+  },
+  "Z05-P42": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Pinus strobus (White Pine)",
+    "target_traits": [
+      "Soft needles in bundles of 5",
+      "Long woody drooping pine cones"
+    ],
+    "toxic_name": "Taxus spp. (Lethal Yew)",
+    "toxic_traits": [
+      "Flat single dark needles on twig",
+      "Red fleshy cup around toxic seed"
+    ],
+    "exclusion": "HOLD: All yew parts carry lethal cardiac toxins; never consume"
+  },
+  "Z05-P60": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Clustered aggregate drupelets",
+      "Prickly/bristly biennial canes",
+      "3-5 toothed compound leaflets",
+      "Exclude smooth single dark fruit"
+    ],
+    "scale": "Close-up fruit + cane + leaf",
+    "hold": "HOLD: Verify land law; consumption withheld"
+  },
+  "Z05-P76": {
+    "type": "regulation_boundary",
+    "variant": "butternut",
+    "authority": "MN DNR Rare Species · Forest Health",
+    "checks": [
+      "Recognize oblong sticky husk & velvety scar",
+      "Minnesota Species of Special Concern (canker)",
+      "Zero seed or branch harvesting from native trees"
+    ],
+    "prohibition": "STOP: Protect declining native butternut trees completely"
+  },
+  "Z05-P95": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Cap cuticle, shape & margin",
+      "Underside: gills/pores & attachment",
+      "Stipe texture & annulus ring",
+      "Intact base: check soil volva cup"
+    ],
+    "scale": "cm bar + black/white spore card",
+    "hold": "HOLD: Fungal ID never clears consumption"
+  },
+  "Z05-P98": {
+    "type": "fungal_anatomy",
+    "variant": "morel_cutaway",
+    "features": [
+      "True: deep honeycomb pits",
+      "True: 100% hollow tip-to-base",
+      "False: wrinkled brain lobes",
+      "False: chambered/cotton interior"
+    ],
+    "scale": "Lengthwise cutaway + cm scale",
+    "hold": "HOLD: Gyromitra carries lethal gyromitrin"
+  },
+  "Z05-P116": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Lethal Amanita Features",
+    "target_traits": [
+      "Free white gills + white spores",
+      "Skirt ring & hidden basal volva"
+    ],
+    "toxic_name": "Fatal Misidentification Traps",
+    "toxic_traits": [
+      "Egg button mimics small puffball",
+      "Delayed 6-24 hr onset -> liver fail"
+    ],
+    "exclusion": "EMERGENCY: Cooking NEVER destroys amatoxins · Call 1-800-222-1222"
+  },
+  "Z05-P02": {
+    "type": "correct_vs_wrong",
+    "variant": "nomenclature",
+    "correct_title": "Controlled Taxonomy",
+    "correct_items": [
+      "Accepted binomial + author + date",
+      "Separate Plantae & Fungi schemas"
+    ],
+    "wrong_title": "Ambiguous Common Names",
+    "wrong_items": [
+      "Rely on folk names (hemlock/berry)",
+      "Mix obsolete & current species names"
+    ],
+    "reason": "Common names overlap lethal and unrelated species"
+  },
+  "Z05-P03": {
+    "type": "specimen_doc_plate",
+    "variant": "voucher_link",
+    "views": [
+      "Check MN Atlas county map",
+      "Match dichotomous key",
+      "Log habitat & phenology",
+      "Queue curator verification"
+    ],
+    "voucher": "Atlas presence != field ID",
+    "hold": "HOLD: Never trust image-search apps"
+  },
+  "Z05-P04": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Opposite vs alternate stem nodes",
+      "Locate axillary bud (simple/comp)",
+      "Smooth, toothed, or lobed margin",
+      "Observe clear vs milky/colored sap"
+    ],
+    "scale": "10x hand lens + cm ruler",
+    "hold": "HOLD: Never taste sap to identify a plant"
+  },
+  "Z05-P05": {
+    "type": "botanical_morphology",
+    "variant": "umbel_root",
+    "features": [
+      "Flat-topped compound umbel rays",
+      "Sheathing stem bases (Apiaceae)",
+      "Chambered roots (Cicuta hazard)",
+      "Yellow umbels -> photodermatitis"
+    ],
+    "scale": "Hands-off observation + zoom",
+    "hold": "STOP: Reject all unverified wild umbels"
+  },
+  "Z05-P06": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Aggregate drupelets vs smooth skin",
+      "Check seed count & crescent shape",
+      "Inspect persistent calyx & leaf node",
+      "Color NEVER predicts toxicity"
+    ],
+    "scale": "Cross-section + mm scale (gloved)",
+    "hold": "HOLD: Never taste unknown wild fruit"
+  },
+  "Z05-P07": {
+    "type": "system_boundary",
+    "variant": "roots_hold",
+    "zone_a": "Lethal lookalike roots & protected flora",
+    "zone_b": "Non-destructive botanical study",
+    "barrier": "Zero public digging + full plant ID",
+    "hazard": "STOP: Never dig unknown roots or bulbs"
+  },
+  "Z05-P08": {
+    "type": "botanical_morphology",
+    "variant": "phenology",
+    "features": [
+      "Spring shoots: highest lookalike risk",
+      "Summer bloom: best floral key traits",
+      "Autumn fruit: check parent foliage",
+      "Winter stems: dormant toxin persists"
+    ],
+    "scale": "Log exact month & life stage",
+    "hold": "HOLD: Missing stage traits -> STOP ID"
+  },
+  "Z05-P09": {
+    "type": "wildlife_track_plate",
+    "variant": "habitat_layers",
+    "features": [
+      "Boreal bog: toxic heaths & sumac",
+      "Hardwood forest: fungi & nut trees",
+      "Woodland edge: buckthorn & brambles",
+      "Disturbed road/field: spray hazard"
+    ],
+    "scale": "Habitat guides search, never proves ID",
+    "limit": "Zero harvest in rare native communities"
+  },
+  "Z05-P10": {
+    "type": "regulation_boundary",
+    "variant": "forage_law",
+    "authority": "MN DNR · NPS 36 CFR 2.1 · Rare Flora",
+    "checks": [
+      "Zero foraging/picking of any kind in MN SNAs",
+      "Zero root digging or plant damage in State Parks",
+      "Strict protection for listed rare plants & ginseng"
+    ],
+    "prohibition": "STOP: Always verify current park/forest rules before picking"
+  },
+  "Z05-P11": {
+    "type": "hazard_exclusion_map",
+    "variant": "site_contam",
+    "zones": [
+      "Roads, rails & sprayed lawns: reject all",
+      "Industrial/flooded soil: heavy metals",
+      "Verified clean site: still HOLD for ID"
+    ],
+    "buffer": "Clean taxonomy never overrides dirty soil",
+    "report": "Check municipal spray & soil history"
+  },
+  "Z05-P12": {
+    "type": "correct_vs_wrong",
+    "variant": "folklore_ban",
+    "correct_title": "Scientific Safety Standard",
+    "correct_items": [
+      "Multi-trait key + voucher + SME",
+      "Call 1-800-222-1222 on exposure"
+    ],
+    "wrong_title": "Lethal Folklore Myths",
+    "wrong_items": [
+      "Skin/lip rub or small taste test",
+      "Boiling or animal-browsing proves safe"
+    ],
+    "reason": "Heat-stable amatoxins and hemlocks defeat every folk test"
+  },
+  "Z05-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Oxalates / Tannins",
+        "note": "Mouth burn & GI/kidney stress",
+        "limit": "Part/stage dependent; HOLD"
+      },
+      {
+        "name": "Cyanogenic / Saponin",
+        "note": "Pits, wilted leaves, raw stems",
+        "limit": "Never chew pits or raw stems"
+      },
+      {
+        "name": "Alkaloids / Glycosides",
+        "note": "Hemlock, yew, nightshade",
+        "limit": "Rapid seizures/cardiac arrest"
+      }
+    ]
+  },
+  "Z05-P14": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Risk screen",
+        "scope": "Kids, pregnancy, meds",
+        "action": "Zero unsupervised wild trials"
+      },
+      {
+        "role": "Mild reaction",
+        "scope": "Rash or GI upset",
+        "action": "Call Poison Help 1-800-222-1222"
+      },
+      {
+        "role": "Anaphylaxis",
+        "scope": "Airway/wheeze/faint",
+        "action": "Call 911 & own epinephrine"
+      }
+    ],
+    "trigger": "HOLD: Individual medical safety is never cleared by taxonomy alone"
+  },
+  "Z05-P15": {
+    "type": "specimen_doc_plate",
+    "variant": "photo_proto",
+    "views": [
+      "Wide habitat & host",
+      "Whole plant/cluster",
+      "Macro leaf/flower/cap",
+      "Underside, base + cm"
+    ],
+    "voucher": "Single-angle photos fail ID",
+    "hold": "HOLD: Expert validation required"
+  },
+  "Z05-P16": {
+    "type": "system_boundary",
+    "variant": "b011_z05",
+    "zone_a": "Frozen B011 unverified leads",
+    "zone_b": "Z05 taxonomic & photo register",
+    "barrier": "Zero fabricated plates; HOLD active",
+    "hazard": "STOP: Expert review required before release"
+  },
+  "Z05-P17": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "5-7 parallel arched leaf veins",
+      "Stringy fibrous leaf petioles",
+      "Basal rosette; tall thin spike",
+      "Exclude lily-of-the-valley bells"
+    ],
+    "scale": "Leaf underside veins + cm ruler",
+    "hold": "HOLD: Reject sprayed turf; consumption withheld"
+  },
+  "Z05-P18": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Urtica dioica (Nettle)",
+    "target_traits": [
+      "Opposite toothed leaves; sting hairs",
+      "Drooping green flower tassels"
+    ],
+    "toxic_name": "Ageratina (White Snakeroot)",
+    "toxic_traits": [
+      "No stinging hairs; smooth stem",
+      "Bright white flat flower clusters"
+    ],
+    "exclusion": "HOLD: Wear gloves for stinging hairs; reject white snakeroot"
+  },
+  "Z05-P20": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "3 oval leaflets + pale V-mark",
+      "Dense globe pink/white heads",
+      "Clasping stem stipules",
+      "Exclude moldy or pinnate stems"
+    ],
+    "scale": "Leaf chevron + head macro",
+    "hold": "HOLD: Mold/spray risk; consumption withheld"
+  },
+  "Z05-P21": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Viola sororia (Violet)",
+    "target_traits": [
+      "Scalloped heart-shaped leaves",
+      "Asymmetric 5-petal spurred bloom"
+    ],
+    "toxic_name": "Caltha / Ranunculus",
+    "toxic_traits": [
+      "Glossy bright yellow radial bloom",
+      "Protoanemonin blistering sap"
+    ],
+    "exclusion": "HOLD: Verify spurred violet bloom; reject glossy yellow lookalikes"
+  },
+  "Z05-P22": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "3 deeply notched heart leaflets",
+      "5-petal small yellow flowers",
+      "Clear watery sap (not milky)",
+      "Oxalic acid renal-limit note"
+    ],
+    "scale": "Close-up leaflet crease + pod",
+    "hold": "HOLD: Soluble oxalates; consumption withheld"
+  },
+  "Z05-P23": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Papery ocrea sheath at node",
+      "Wavy curled or arrow leaves",
+      "Rusty 3-winged seed clusters",
+      "Exclude smooth non-ocrea stems"
+    ],
+    "scale": "Node sheath + leaf margin macro",
+    "hold": "HOLD: High oxalate levels; consumption withheld"
+  },
+  "Z05-P24": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Chenopodium album",
+    "target_traits": [
+      "White mealy powder on leaf backs",
+      "Tiny petal-less green flower clusters"
+    ],
+    "toxic_name": "Solanum (Nightshade)",
+    "toxic_traits": [
+      "Smooth unpowdered dark leaves",
+      "White star blooms & toxic berries"
+    ],
+    "exclusion": "HOLD: Nitrate/oxalate & nightshade risk; consumption withheld"
+  },
+  "Z05-P25": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Prominent pale underside veins",
+      "Rough hairy reddish lower stem",
+      "Dense bristly green seed spikes",
+      "Exclude smooth purple pokeweed"
+    ],
+    "scale": "Stem hair + spike close-up",
+    "hold": "HOLD: Nitrate/oxalate risk; consumption withheld"
+  },
+  "Z05-P26": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Portulaca oleracea",
+    "target_traits": [
+      "Thick fleshy paddle leaves",
+      "Clear watery sap; smooth stem"
+    ],
+    "toxic_name": "Euphorbia maculata (Spurge)",
+    "toxic_traits": [
+      "Thin flat leaves w/ dark spot",
+      "Toxic milky latex sap when cut"
+    ],
+    "exclusion": "HOLD: Milky sap = immediate STOP; wash sap off skin/eyes"
+  },
+  "Z05-P27": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "4-petal white cross-shaped bloom",
+      "Scalloped kidney -> triangle leaf",
+      "Distinct garlic scent when bruised",
+      "Verify park has zero herbicide spray"
+    ],
+    "scale": "Flower cross + seed silique",
+    "hold": "HOLD: Often herbicide-sprayed; consumption withheld"
+  },
+  "Z05-P28": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Stellaria media (Chickweed)",
+    "target_traits": [
+      "Single hair line on round stem",
+      "5 deeply split white star petals"
+    ],
+    "toxic_name": "Scarlet Pimpernel / Spurge",
+    "toxic_traits": [
+      "Square hairless stem or milky sap",
+      "Orange/blue bloom or flat pods"
+    ],
+    "exclusion": "HOLD: Confirm single stem hair line w/ 10x lens; HOLD"
+  },
+  "Z05-P29": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Arctium minus (Burdock)",
+    "target_traits": [
+      "Woolly-gray leaf undersides",
+      "Hooked round purple-tipped burs"
+    ],
+    "toxic_name": "Rhubarb / Foxglove Leaf",
+    "toxic_traits": [
+      "Smooth toxic oxalate leaf blades",
+      "Or toxic cardiac bell flowers"
+    ],
+    "exclusion": "HOLD: Never dig public roots; reject smooth toxic rosettes"
+  },
+  "Z05-P30": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Square-notched sky-blue rays",
+      "Stiff branching stems + milky sap",
+      "Basal dandelion-like rosette",
+      "Exclude roadside spray corridors"
+    ],
+    "scale": "Flower head + basal leaf view",
+    "hold": "HOLD: Roadside contamination high; withheld"
+  },
+  "Z05-P31": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Asclepias syriaca",
+    "target_traits": [
+      "Single stout unbranched stem",
+      "Velvety leaves & warty pods"
+    ],
+    "toxic_name": "Apocynum (Dogbane)",
+    "toxic_traits": [
+      "Branching reddish smooth stems",
+      "Slender paired smooth pods"
+    ],
+    "exclusion": "HOLD: Both carry cardiac glycosides; never sample raw shoots"
+  },
+  "Z05-P32": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Alternate 3-veined lance leaves",
+      "Arching plumes of tiny yellow heads",
+      "Sticky insect pollen (not ragweed)",
+      "Exclude Packera/Senecio ragworts"
+    ],
+    "scale": "Leaf venation + flower plume",
+    "hold": "HOLD: Asteraceae allergy & lookalike HOLD"
+  },
+  "Z05-P33": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Square 4-angled stem cross-section",
+      "Opposite toothed aromatic leaves",
+      "Tubular 2-lipped lavender head",
+      "Verify non-SNA lawful prairie"
+    ],
+    "scale": "Stem square feel + flower tube",
+    "hold": "HOLD: Protect native prairies; withheld"
+  },
+  "Z05-P34": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Mentha canadensis (Mint)",
+    "target_traits": [
+      "Square stem; opposite simple leaves",
+      "Crisp mint scent; axillary blooms"
+    ],
+    "toxic_name": "Cicuta (Water Hemlock)",
+    "toxic_traits": [
+      "Round hollow stem; compound leaves",
+      "White umbels; lethal neurotoxin"
+    ],
+    "exclusion": "HOLD: Inspect wetland banks carefully for co-occurring Cicuta"
+  },
+  "Z05-P35": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "3 coarsely toothed leaflets",
+      "5-petal white flowers (not yellow)",
+      "Trailing runners; pitted red fruit",
+      "Exclude yellow-bloom Potentilla"
+    ],
+    "scale": "Flower color + 3-leaflet node",
+    "hold": "HOLD: Verify land rules; withheld"
+  },
+  "Z05-P36": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Translucent watery jointed stem",
+      "Leaves bead silvery when wet",
+      "Hanging orange spotted hood bloom",
+      "Co-occurs with poison ivy & Cicuta"
+    ],
+    "scale": "Whole stem + hanging flower view",
+    "hold": "HOLD: Oxalate content; not validated medical cure"
+  },
+  "Z05-P37": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Hemerocallis (Daylily)",
+    "target_traits": [
+      "Leafless tall flower scape",
+      "Basal arching ribbon leaves"
+    ],
+    "toxic_name": "True Lilium / Iris",
+    "toxic_traits": [
+      "Leaves attached up flower stem",
+      "Or flat iris fan & toxic rhizome"
+    ],
+    "exclusion": "HOLD: GI reactions & cat lethality; roadside spray risk"
+  },
+  "Z05-P38": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Umbel / Hollow",
+        "scope": "Apiaceae check",
+        "action": "Reject all wild carrot-family"
+      },
+      {
+        "role": "Milky / Glossy",
+        "scope": "Spurge/Dogbane/Solanum",
+        "action": "Stop on latex or star blooms"
+      },
+      {
+        "role": "Clean site",
+        "scope": "Herbicide & SNA check",
+        "action": "Reject roadsides & preserves"
+      }
+    ],
+    "trigger": "HOLD: Herbaceous recognition never clears consumption"
+  },
+  "Z05-P39": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Stiff 4-sided needles roll in fingers",
+      "Attached on tiny woody stem pegs",
+      "Hanging dry papery-scale cones",
+      "Exclude flat-needled lethal Taxus"
+    ],
+    "scale": "Needle cross-section + twig peg",
+    "hold": "HOLD: Confirm woody pegs; consumption withheld"
+  },
+  "Z05-P40": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Abies balsamea (Fir)",
+    "target_traits": [
+      "Blunt flat needles; 2 white bands",
+      "Round twig scars; resin bark blisters"
+    ],
+    "toxic_name": "Taxus canadensis (Yew)",
+    "toxic_traits": [
+      "Pointed flat needles; yellow-green",
+      "Green twigs; lethal cardiac taxines"
+    ],
+    "exclusion": "HOLD: Both grow together in boreal shade; never confuse yew"
+  },
+  "Z05-P41": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Flat fan sprays of tiny scale leaves",
+      "Shredding gray-red fibrous bark",
+      "Tiny upright woody seed cones",
+      "Contains neurotoxic thujone"
+    ],
+    "scale": "Flat scale spray + tiny cone",
+    "hold": "STOP: Thujone toxicity; do not brew cedar tea"
+  },
+  "Z05-P43": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Strictly opposite twigs & buds",
+      "Palmate 5-lobed simple leaves",
+      "Paired winged samara seeds",
+      "Zero tapping on public park trees"
+    ],
+    "scale": "Opposite twig + samara pair",
+    "hold": "HOLD: Public-land tapping banned; withheld"
+  },
+  "Z05-P44": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Horizontal dark bark lenticels",
+      "Alternate doubly-toothed leaves",
+      "Bronze curly twigs (yellow birch)",
+      "Exclude toxic cyanogenic Prunus"
+    ],
+    "scale": "Twig lenticels + leaf margin",
+    "hold": "HOLD: Never peel live trees; withheld"
+  },
+  "Z05-P45": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Asymmetric lopsided heart base",
+      "Alternate coarsely toothed leaf",
+      "Round nutlets on wing-like bract",
+      "Reddish plump winter buds"
+    ],
+    "scale": "Asymmetric base + bract macro",
+    "hold": "HOLD: Preserve B007 wood hold; withheld"
+  },
+  "Z05-P46": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Distinctly flattened leafstalks",
+      "Rounded (aspen) or triangular leaf",
+      "Pale scarred vs deep furrowed bark",
+      "Salicylate allergy caution in bark"
+    ],
+    "scale": "Flat petiole close-up + bark",
+    "hold": "HOLD: No live cutting; consumption withheld"
+  },
+  "Z05-P47": {
+    "type": "system_boundary",
+    "variant": "salix_caution",
+    "zone_a": "Wild Salix bark (unmeasured salicin)",
+    "zone_b": "Clinical medical care & dosing",
+    "barrier": "No wild bark dosing; allergy/bleed risk",
+    "hazard": "STOP: Salicylate hazard for kids, asthma & blood thinners"
+  },
+  "Z05-P48": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Rhus typhina (Red Sumac)",
+    "target_traits": [
+      "Dry upland; 11-31 toothed leaflets",
+      "Upright dense fuzzy crimson cone"
+    ],
+    "toxic_name": "Toxicodendron vernix",
+    "toxic_traits": [
+      "Wet bogs; 7-13 smooth leaflets",
+      "Drooping waxy white-gray berries"
+    ],
+    "exclusion": "HOLD: Severe urushiol hazard in poison sumac; Anacardiaceae allergy"
+  },
+  "Z05-P49": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Prunus (Wild Cherry)",
+    "target_traits": [
+      "Alternate leaves + petiole glands",
+      "Single pit (CYANOGENIC — toxic!)"
+    ],
+    "toxic_name": "Rhamnus (Buckthorn)",
+    "toxic_traits": [
+      "Sub-opposite leaves + twig spine",
+      "3-4 seeds; severe GI purging"
+    ],
+    "exclusion": "HOLD: Never chew cherry pits or wilted leaves; exclude buckthorn"
+  },
+  "Z05-P50": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Sticky fragrant pointed resin buds",
+      "Oval leaves pale rusty underneath",
+      "Round (non-flat) leaf petioles",
+      "Contact-allergy resin caution"
+    ],
+    "scale": "Resinous winter bud + leaf back",
+    "hold": "HOLD: Allergen caution; no live cutting"
+  },
+  "Z05-P51": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Persistent woody miniature cones",
+      "Distinctly stalked winter buds",
+      "Doubly-toothed deeply veined leaf",
+      "Exclude smooth-leaf buckthorn"
+    ],
+    "scale": "Mini-cones + stalked winter bud",
+    "hold": "HOLD: Habitat/ecology ID reference only"
+  },
+  "Z05-P52": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Fine vertical shredding bark strips",
+      "Papery hop-like fruit bladders",
+      "Birch-like alternate toothed leaf",
+      "Dense heavy wood; no live cut"
+    ],
+    "scale": "Bark texture + hop fruit cluster",
+    "hold": "HOLD: Ecology & material reference only"
+  },
+  "Z05-P53": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Unequal asymmetric leaf base",
+      "Doubly-toothed rough upper face",
+      "Flat round papery winged seeds",
+      "Zero live inner-bark stripping"
+    ],
+    "scale": "Leaf base + samara close-up",
+    "hold": "HOLD: Protect declining native elms"
+  },
+  "Z05-P54": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Strictly opposite bright-red twigs",
+      "Smooth-edged arcuate-vein leaves",
+      "Bitter white berries (non-food)",
+      "Exclude poison sumac & baneberry"
+    ],
+    "scale": "Opposite red twig + leaf venation",
+    "hold": "HOLD: Non-food shrub ID reference only"
+  },
+  "Z05-P55": {
+    "type": "sequence_plate",
+    "variant": "winter_twig",
+    "steps": [
+      {
+        "label": "1. Branching",
+        "detail": "Opposite vs alternate nodes"
+      },
+      {
+        "label": "2. Bud scales",
+        "detail": "Single cap vs overlapping"
+      },
+      {
+        "label": "3. Leaf scar",
+        "detail": "Shape & bundle-scar dots"
+      },
+      {
+        "label": "4. Vine check",
+        "detail": "Never touch/burn fuzzy vines"
+      }
+    ],
+    "cue": "Dormant winter poison ivy retains active urushiol oil"
+  },
+  "Z05-P56": {
+    "type": "regulation_boundary",
+    "variant": "tree_limits",
+    "authority": "MN DNR Forestry · NPS · Botanist",
+    "checks": [
+      "Zero live bark stripping or twig cutting in parks",
+      "Exclude Taxus, Prunus wilted leaves & Toxicodendron",
+      "Keep all tree teas & barks on WITHHELD_HOLD"
+    ],
+    "prohibition": "STOP: Never injure living trees or brew unverified foliage"
+  },
+  "Z05-P57": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Low woody acid-soil shrub",
+      "Dusty blue berry + 5-point crown",
+      "Many tiny soft seeds inside",
+      "Exclude toxic bog heaths & SNAs"
+    ],
+    "scale": "Crown star close-up + leaf margin",
+    "hold": "HOLD: Verify land rules; consumption withheld"
+  },
+  "Z05-P58": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Amelanchier (Serviceberry)",
+    "target_traits": [
+      "Alternate spineless toothed leaves",
+      "Crowned mini-apple pome; 4-10 seeds"
+    ],
+    "toxic_name": "Rhamnus (Buckthorn)",
+    "toxic_traits": [
+      "Sub-opposite leaves + twig spine",
+      "Smooth uncrowned dark purging berry"
+    ],
+    "exclusion": "HOLD: Confirm spineless twigs & crown; consumption withheld"
+  },
+  "Z05-P59": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Sambucus canadensis",
+    "target_traits": [
+      "Woody opposite compound shrub",
+      "Flat cymes; stems/raw fruit TOXIC"
+    ],
+    "toxic_name": "S. racemosa / Cicuta",
+    "toxic_traits": [
+      "Red berries (S. racemosa)",
+      "Or non-woody lethal water hemlock"
+    ],
+    "exclusion": "HOLD: Raw stems/seeds/unripe berries are toxic; never confuse Cicuta"
+  },
+  "Z05-P61": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Alternate maple-like lobed leaves",
+      "Nodal spines on gooseberry stems",
+      "Berry keeps dried tip flower tube",
+      "Exclude non-lobed dark berries"
+    ],
+    "scale": "Lobed leaf + apical calyx view",
+    "hold": "HOLD: Verify land law; consumption withheld"
+  },
+  "Z05-P62": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Strictly opposite leaf nodes",
+      "Single flattened disc-shaped pit",
+      "Winged petiole or 3-lobed leaf",
+      "Exclude multi-seeded baneberry"
+    ],
+    "scale": "Flat disc stone + opposite twig",
+    "hold": "HOLD: Confirm single flat stone; withheld"
+  },
+  "Z05-P63": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Alternate sharply serrated leaves",
+      "2-3 cm yellow-red dusty plum",
+      "Single large flat pit (TOXIC!)",
+      "Exclude small black buckthorn"
+    ],
+    "scale": "Fruit diameter + flat pit view",
+    "hold": "HOLD: Cyanogenic pit warning; withheld"
+  },
+  "Z05-P64": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Vitis riparia (Wild Grape)",
+    "target_traits": [
+      "Forked tendrils + toothed leaves",
+      "2-4 smooth pear-shaped seeds"
+    ],
+    "toxic_name": "Menispermum (Moonseed)",
+    "toxic_traits": [
+      "ZERO tendrils; smooth leaf edges",
+      "Single flat CRESCENT ridged seed"
+    ],
+    "exclusion": "STOP: Check tendrils AND cut fruit for crescent seed; HOLD"
+  },
+  "Z05-P65": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Rosa spp. (Rose Hip)",
+    "target_traits": [
+      "Pinnate serrated leaves + stipules",
+      "Red urn hip w/ bristly inner hairs"
+    ],
+    "toxic_name": "Solanum dulcamara",
+    "toxic_traits": [
+      "Lobed purple-bloom climbing vine",
+      "Smooth red toxic solanine berry"
+    ],
+    "exclusion": "HOLD: Inner hip hairs irritate GI; exclude nightshade vines"
+  },
+  "Z05-P66": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Tree w/ variable mitten/lobed leaf",
+      "Elongated soft clustered fruit",
+      "Unripe green fruit & sap TOXIC",
+      "Verify non-protected native tree"
+    ],
+    "scale": "Variable leaves + fruit close-up",
+    "hold": "HOLD: Unripe fruit toxic; consumption withheld"
+  },
+  "Z05-P67": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Long 3-7 cm smooth sharp thorns",
+      "Alternate toothed deciduous leaves",
+      "Closed red mini-apple + hard pits",
+      "Exclude open red cup of Taxus"
+    ],
+    "scale": "Thorn + closed pome cross-section",
+    "hold": "HOLD: Puncture & seed cyanogenic caution"
+  },
+  "Z05-P68": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Spineless alternate toothed leaves",
+      "Tiny dark glands on upper midrib",
+      "Shiny black crowned mini-pomes",
+      "Exclude smooth-leaf buckthorn"
+    ],
+    "scale": "10x lens upper midrib glands",
+    "hold": "HOLD: Bog SNA rules; consumption withheld"
+  },
+  "Z05-P69": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Low leathery evergreen leaves",
+      "Distinct wintergreen leaf scent",
+      "Bright red 5-pointed crowned berry",
+      "Methyl salicylate medical caution"
+    ],
+    "scale": "Whole low plant + red berry",
+    "hold": "HOLD: Salicylate hazard; consumption withheld"
+  },
+  "Z05-P70": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Cornus canadensis",
+    "target_traits": [
+      "Low whorl of 4-6 smooth leaves",
+      "Tight cluster of bright red fruit"
+    ],
+    "toxic_name": "Actaea rubra (Baneberry)",
+    "toxic_traits": [
+      "Tall compound toothed leaves",
+      "Glossy toxic cardiogenic berries"
+    ],
+    "exclusion": "HOLD: Boreal red berries require full-plant check; withheld"
+  },
+  "Z05-P71": {
+    "type": "system_boundary",
+    "variant": "mayapple_tox",
+    "zone_a": "Podophyllum roots, leaves, seeds & green fruit",
+    "zone_b": "Non-contact woodland botany study",
+    "barrier": "Podophyllotoxin severe cellular poison",
+    "hazard": "STOP: Never sample any part of mayapple; call 1-800-222-1222"
+  },
+  "Z05-P72": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Dark / Black",
+        "scope": "Moonseed, Buckthorn, Poke",
+        "action": "Check tendrils, spines & seeds"
+      },
+      {
+        "role": "Red",
+        "scope": "Yew, Baneberry, Nightshade",
+        "action": "Check flat needles & open cup"
+      },
+      {
+        "role": "White",
+        "scope": "Poison Sumac, Doll-eyes",
+        "action": "Reject all wild white berries"
+      }
+    ],
+    "trigger": "STOP: Berry color never predicts edibility; call 1-800-222-1222"
+  },
+  "Z05-P73": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Quercus spp. (Acorn)",
+    "target_traits": [
+      "Alternate lobed leaves; scaly cup",
+      "RAW tannins irritate GI/kidneys"
+    ],
+    "toxic_name": "Aesculus (Buckeye)",
+    "toxic_traits": [
+      "Opposite palmate compound leaf",
+      "Glossy eye-spot nut; lethal toxins"
+    ],
+    "exclusion": "HOLD: Never eat raw acorns or buckeyes; leaching on HOLD"
+  },
+  "Z05-P74": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Multi-stemmed alternate toothed shrub",
+      "Ruffled leafy or bristly beak husk",
+      "Hard round nut inside papery bract",
+      "Tree-nut anaphylaxis & husk hairs"
+    ],
+    "scale": "Husk + leaf margin + nut scale",
+    "hold": "HOLD: Tree-nut allergen; consumption withheld"
+  },
+  "Z05-P75": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "15-23 alternate pinnate leaflets",
+      "Chambered pith in cut twig",
+      "Un-split green aromatic husk",
+      "Severe nut allergy & moldy-hull risk"
+    ],
+    "scale": "Husk + corrugated shell scale",
+    "hold": "HOLD: Tree-nut allergen; moldy hulls toxic"
+  },
+  "Z05-P77": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Alternate 5-9 pinnate leaflets",
+      "4-valved husk splits on seams",
+      "Peeling bark (shagbark) vs yellow bud",
+      "Exclude opposite-leaf buckeyes"
+    ],
+    "scale": "4-part husk + bark/bud close-up",
+    "hold": "HOLD: Tree-nut allergen; consumption withheld"
+  },
+  "Z05-P78": {
+    "type": "specimen_doc_plate",
+    "variant": "range_check",
+    "views": [
+      "Verify Bell Atlas MN range",
+      "Compare bark & winter buds",
+      "Check planted vs wild site",
+      "Reject out-of-range guesses"
+    ],
+    "voucher": "Range check stops false IDs",
+    "hold": "HOLD: Verify regional occurrence first"
+  },
+  "Z05-P79": {
+    "type": "regulation_boundary",
+    "variant": "wild_rice",
+    "authority": "Sovereign Tribal Authorities · MN DNR",
+    "checks": [
+      "Verify tribal reservation & ceded-territory rules",
+      "Confirm MN DNR wild-rice license & open dates",
+      "Obey strict non-motorized flail & boat statutes"
+    ],
+    "prohibition": "STOP: Unauthorized wild-rice harvest violates state & tribal law"
+  },
+  "Z05-P80": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Tall rough-sandpapery stems",
+      "Large yellow ray + brown/yellow disk",
+      "Flat seed head w/ striped achenes",
+      "Exclude sprayed edges & SNAs"
+    ],
+    "scale": "Flower head + stem roughness",
+    "hold": "HOLD: Native prairie protection; withheld"
+  },
+  "Z05-P81": {
+    "type": "lookalike_diagnostic",
+    "variant": "tree_pair",
+    "target_name": "Woody Pine Cone Seed",
+    "target_traits": [
+      "Tiny winged seed in woody cone",
+      "Bundled conifer needles on tree"
+    ],
+    "toxic_name": "Aesculus (Buckeye)",
+    "toxic_traits": [
+      "Large glossy nut w/ pale eye",
+      "Opposite palmate leaves; TOXIC"
+    ],
+    "exclusion": "STOP: Buckeyes & horsechestnuts are poisonous; call 1-800-222-1222"
+  },
+  "Z05-P82": {
+    "type": "failure_mode",
+    "cause": "Damp fallen nuts grow heat-stable mold mycotoxins",
+    "cue": "Cracked shells, musty smell, dark/fuzzy meat, insect holes",
+    "correction": "Discard suspect nuts; enforce nut-allergy & HOLD gates"
+  },
+  "Z05-P83": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Typha latifolia (Cattail)",
+    "target_traits": [
+      "Spongy D-shaped thick leaves",
+      "Cylindrical brown flower spike"
+    ],
+    "toxic_name": "Iris versicolor (Blue Flag)",
+    "toxic_traits": [
+      "Flat sword leaves in tight fan",
+      "Toxic rhizomes; no brown spike"
+    ],
+    "exclusion": "HOLD: Non-flowering shoots high risk; never dig wetland roots"
+  },
+  "Z05-P84": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Sagittaria latifolia",
+    "target_traits": [
+      "3-petal white whorled flowers",
+      "Pointed arrow leaves; smooth stalk"
+    ],
+    "toxic_name": "Calla / Peltandra (Arums)",
+    "toxic_traits": [
+      "Hooded spathe & club spadix",
+      "Severe calcium-oxalate crystals"
+    ],
+    "exclusion": "HOLD: Verify 3-petal bloom; never dig public wetlands"
+  },
+  "Z05-P85": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Allium spp. (Wild Leek/Onion)",
+    "target_traits": [
+      "Strong onion scent on leaf & bulb",
+      "Slow-growing; no public digging"
+    ],
+    "toxic_name": "Convallaria / Death Camas",
+    "toxic_traits": [
+      "ZERO onion or garlic odor",
+      "Lethal cardiac/alkaloid toxins"
+    ],
+    "exclusion": "STOP: Zero onion odor = lethal lookalike risk; protect native ramps"
+  },
+  "Z05-P86": {
+    "type": "botanical_morphology",
+    "variant": "umbel_root",
+    "features": [
+      "Tall rough sunflower stem intact",
+      "Winged-petiole sandpapery leaves",
+      "Knobby tuber only on verified stem",
+      "Zero public-land root digging"
+    ],
+    "scale": "Intact stem + flower + tuber note",
+    "hold": "HOLD: Never dig dormant unverified roots"
+  },
+  "Z05-P87": {
+    "type": "botanical_morphology",
+    "variant": "leaf_stem",
+    "features": [
+      "Twining vine; 5-7 smooth leaflets",
+      "Dense brownish-maroon pea blooms",
+      "Beaded chains of tubers (raw toxic)",
+      "Exclude 3-leaflet poison ivy"
+    ],
+    "scale": "Compound 5-7 leaf + pea bloom",
+    "hold": "HOLD: Raw tubers unsafe; no public digging"
+  },
+  "Z05-P88": {
+    "type": "regulation_boundary",
+    "variant": "prairie_turnip",
+    "authority": "MN DNR Native Prairie & SNA Protection",
+    "checks": [
+      "Native MN tallgrass prairie is critically rare",
+      "Zero digging of prairie roots on public lands",
+      "Exclude toxic multi-leaflet Lupinus/Astragalus"
+    ],
+    "prohibition": "STOP: Observe native prairie flora without disturbing soil"
+  },
+  "Z05-P89": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Smilax (Greenbrier)",
+    "target_traits": [
+      "Paired tendrils at petiole base",
+      "Strong parallel curving leaf veins"
+    ],
+    "toxic_name": "Menispermum (Moonseed)",
+    "toxic_traits": [
+      "Zero tendrils; net-veined leaves",
+      "Lethal crescent-seeded dark fruit"
+    ],
+    "exclusion": "HOLD: Confirm paired tendrils & parallel veins; withheld"
+  },
+  "Z05-P90": {
+    "type": "regulation_boundary",
+    "variant": "aquatic_plants",
+    "authority": "MN DNR Aquatic Plant Management Law",
+    "checks": [
+      "Public-water aquatic vegetation is regulated",
+      "Lake mud concentrates runoff metals/pathogens",
+      "Lily rhizomes contain nupharine alkaloids"
+    ],
+    "prohibition": "STOP: Do not uproot aquatic plants or sample raw rhizomes"
+  },
+  "Z05-P91": {
+    "type": "botanical_morphology",
+    "variant": "phenology",
+    "features": [
+      "Single pair narrow opposite leaves",
+      "5-petal white pink-veined blooms",
+      "Brief Apr-May woodland window",
+      "Exclude ferny toxic Dicentra"
+    ],
+    "scale": "Opposite leaf pair + flower veins",
+    "hold": "HOLD: Protect spring ephemerals; no digging"
+  },
+  "Z05-P92": {
+    "type": "lookalike_diagnostic",
+    "variant": "root_pair",
+    "target_name": "Daucus carota (Wild Carrot)",
+    "target_traits": [
+      "Bristly hairy green stem + lacy bracts",
+      "Extreme fatal lookalike overlap!"
+    ],
+    "toxic_name": "Conium & Cicuta (Hemlocks)",
+    "toxic_traits": [
+      "Smooth spotted or chambered stem",
+      "RAPID SEIZURES, PARALYSIS, DEATH"
+    ],
+    "exclusion": "STOP: Unconditional no-forage rule on ALL wild Apiaceae umbels"
+  },
+  "Z05-P93": {
+    "type": "regulation_boundary",
+    "variant": "root_law",
+    "authority": "MN DNR · NPS 36 CFR 2.1 · Rare Species",
+    "checks": [
+      "Root digging prohibited in State/National Parks & SNAs",
+      "Wild ginseng & native orchids strictly protected",
+      "Dormant roots lack diagnostic foliage & hold metals"
+    ],
+    "prohibition": "STOP: Never dig wild roots, bulbs, or corms on public lands"
+  },
+  "Z05-P94": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Wetland root",
+        "scope": "Cicuta & Iris",
+        "action": "Reject all marsh umbels & fans"
+      },
+      {
+        "role": "Bulb check",
+        "scope": "Camas & Lily-valley",
+        "action": "Zero onion smell -> STOP"
+      },
+      {
+        "role": "Woodland root",
+        "scope": "Mayapple & Dicentra",
+        "action": "Never dig public/unknown roots"
+      }
+    ],
+    "trigger": "STOP: Underground ID errors are fatal; call 1-800-222-1222"
+  },
+  "Z05-P96": {
+    "type": "fungal_anatomy",
+    "variant": "spore_substrate",
+    "features": [
+      "Split black & white spore card",
+      "Check white, rusty, green, black",
+      "Log soil vs hardwood vs conifer",
+      "Spore color alone != safety"
+    ],
+    "scale": "2-12 hr draft-free deposit",
+    "hold": "HOLD: Lethal Amanita also drops white spores"
+  },
+  "Z05-P97": {
+    "type": "failure_mode",
+    "cause": "Sealed plastic, decay, raw toxins & soil heavy metals",
+    "cue": "Slimy caps, foul odor, urban/roadside soil, raw sampling",
+    "correction": "Use paper bags for vouchers; keep consumption WITHHELD"
+  },
+  "Z05-P99": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Overlapping orange-yellow brackets",
+      "Tiny pore underside (ZERO gills)",
+      "Confirm hardwood (oak) host only",
+      "Exclude conifer-host & gilled orange"
+    ],
+    "scale": "Pore underside + host tree ID",
+    "hold": "HOLD: Conifer hosts & GI reactions; withheld"
+  },
+  "Z05-P100": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Dense gray-brown frond rosette",
+      "Tiny white pores (zero gills)",
+      "Mature oak base substrate",
+      "Check no rapid black bruising"
+    ],
+    "scale": "Frond underside + oak trunk view",
+    "hold": "HOLD: Confirm pore surface; withheld"
+  },
+  "Z05-P101": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Cantharellus (Chanterelle)",
+    "target_traits": [
+      "On SOIL; blunt forked false ridges",
+      "Solid WHITE interior flesh on cut"
+    ],
+    "toxic_name": "Omphalotus (Jack-o-Lantern)",
+    "toxic_traits": [
+      "Clustered on WOOD; sharp true gills",
+      "ORANGE flesh; severe GI toxin"
+    ],
+    "exclusion": "HOLD: Always slice flesh & verify soil substrate; withheld"
+  },
+  "Z05-P102": {
+    "type": "fungal_anatomy",
+    "variant": "morel_cutaway",
+    "features": [
+      "Thin dark hollow trumpet funnel",
+      "Smooth/wrinkled outer face (no gills)",
+      "Grows in mossy oak forest soil",
+      "Exclude orange scaly vase fungi"
+    ],
+    "scale": "Cutaway funnel + outer surface",
+    "hold": "HOLD: Verify zero gills; consumption withheld"
+  },
+  "Z05-P103": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Pleurotus (Oyster)",
+    "target_traits": [
+      "Fleshy caps on HARDWOOD logs",
+      "Decurrent smooth-edged white gills"
+    ],
+    "toxic_name": "Pleurocybella (Angel Wing)",
+    "toxic_traits": [
+      "Fragile pure-white on CONIFERS",
+      "Linked to fatal encephalopathy"
+    ],
+    "exclusion": "HOLD: Confirm hardwood host & white/lilac spore print; withheld"
+  },
+  "Z05-P104": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Soft white hanging icicle spines",
+      "No gills, pores, or upward forks",
+      "Hardwood trunk or log substrate",
+      "Exclude soil corals & yellow decay"
+    ],
+    "scale": "Hanging spine macro + host log",
+    "hold": "HOLD: Verify hardwood host; withheld"
+  },
+  "Z05-P105": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Puffball Cutaway",
+    "target_traits": [
+      "100% uniform pure-white interior",
+      "Zero embryonic cap/stem outline"
+    ],
+    "toxic_name": "Amanita Egg / Earthball",
+    "toxic_traits": [
+      "Hidden mushroom outline inside egg",
+      "Or dark purple-black earthball core"
+    ],
+    "exclusion": "STOP: Never skip vertical slice; ANY outline or dark core = REJECT"
+  },
+  "Z05-P106": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Tall cylindrical shaggy-scaled cap",
+      "Free gills turn rapidly to black ink",
+      "No basal volva; hollow stem",
+      "Exclude smooth gray Coprinopsis"
+    ],
+    "scale": "Height profile + gill margin",
+    "hold": "HOLD: Coprine-alcohol lookalike & spray risk"
+  },
+  "Z05-P107": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Tan cap w/ dark brown scales",
+      "Large angular cream pores (no gills)",
+      "Stout dark velvety off-center base",
+      "Fresh cucumber-rind odor note"
+    ],
+    "scale": "Angular pore close-up + cm bar",
+    "hold": "HOLD: Verify pore surface; withheld"
+  },
+  "Z05-P108": {
+    "type": "system_boundary",
+    "variant": "chaga_oxalate",
+    "zone_a": "High-oxalate chaga & live birch injury",
+    "zone_b": "Non-destructive boreal mycology study",
+    "barrier": "Zero live-tree hacking; oxalate renal risk",
+    "hazard": "STOP: High oxalate nephropathy risk & park harvest bans"
+  },
+  "Z05-P109": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Spongy vertical pore layer (no gills)",
+      "Check pore color: reject red/orange",
+      "Slice stem: watch rapid blue stain",
+      "Inspect stem net vs dark scabers"
+    ],
+    "scale": "Pore face + sliced stem check",
+    "hold": "HOLD: Reject red-pored & blue-staining boletes"
+  },
+  "Z05-P110": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Armillaria (Honey)",
+    "target_traits": [
+      "Dense clusters; tiny dark cap scales",
+      "Strictly WHITE spore print (verify!)"
+    ],
+    "toxic_name": "Galerina marginata (LETHAL)",
+    "toxic_traits": [
+      "Smooth brown cap on rotting wood",
+      "RUSTY-BROWN spores; AMATOXINS!"
+    ],
+    "exclusion": "STOP: Check spore print on EVERY cap; Galerina is fatal"
+  },
+  "Z05-P111": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Cap & stem on mossy forest floor",
+      "Fragile pale downward underside teeth",
+      "White spore print (no gills/pores)",
+      "Exclude dark scaly brown-spored teeth"
+    ],
+    "scale": "Underside teeth macro + cm bar",
+    "hold": "HOLD: Confirm white spore print; withheld"
+  },
+  "Z05-P112": {
+    "type": "fungal_anatomy",
+    "variant": "polypore_tooth",
+    "features": [
+      "Flattened cream ruffled ribbons",
+      "Central base near oak/conifer",
+      "Smooth fertile faces (no pores)",
+      "Exclude cylindrical toxic corals"
+    ],
+    "scale": "Ribbon cross-section + habitat",
+    "hold": "HOLD: Confirm flat ribbons; withheld"
+  },
+  "Z05-P113": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Flammulina velutipes",
+    "target_traits": [
+      "Sticky orange cap; NO stem ring",
+      "Black-velvet lower stem; WHITE spore"
+    ],
+    "toxic_name": "Galerina marginata (LETHAL)",
+    "toxic_traits": [
+      "Faint ring; non-velvet pale stem",
+      "RUSTY-BROWN spores; AMATOXINS!"
+    ],
+    "exclusion": "STOP: Never skip spore print; Galerina causes fatal liver failure"
+  },
+  "Z05-P114": {
+    "type": "correct_vs_wrong",
+    "variant": "fungi_myths",
+    "correct_title": "Mycological Rigor",
+    "correct_items": [
+      "Slice puffballs & morels lengthwise",
+      "Verify spores, base & host tree"
+    ],
+    "wrong_title": "Dangerous Fungal Shortcuts",
+    "wrong_items": [
+      "Assume no gills equals safe",
+      "Skip base excavation or spore print"
+    ],
+    "reason": "Gyromitra, Amanita eggs, and red boletes break simple rules"
+  },
+  "Z05-P115": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Field record",
+        "scope": "Multi-view + base",
+        "action": "Log cap, gills, volva & spore print"
+      },
+      {
+        "role": "Voucher check",
+        "scope": "MyCoPortal / Bell",
+        "action": "Match key & toxic lookalikes"
+      },
+      {
+        "role": "Mycologist",
+        "scope": "Independent SME",
+        "action": "Formal review; HOLD stays active"
+      }
+    ],
+    "trigger": "HOLD: Zero wild mushrooms cleared for eating by draft cards"
+  },
+  "Z05-P117": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Small brown cap on rotting wood",
+      "Attached tan-to-rusty gills",
+      "Faint fragile stem ring",
+      "RUSTY-BROWN spore print (LETHAL)"
+    ],
+    "scale": "Spore print on white paper",
+    "hold": "EMERGENCY: Contains fatal amatoxins; 1-800-222-1222"
+  },
+  "Z05-P118": {
+    "type": "fungal_anatomy",
+    "variant": "morel_cutaway",
+    "features": [
+      "Wrinkled brain-like lobed cap",
+      "Chambered/cotton-filled interior",
+      "Toxic gyromitrin & cooking fumes",
+      "Causes seizures & liver failure"
+    ],
+    "scale": "Lengthwise cutaway comparison",
+    "hold": "STOP: Toxic gyromitrin; call 1-800-222-1222"
+  },
+  "Z05-P119": {
+    "type": "fungal_anatomy",
+    "variant": "agaric_volva",
+    "features": [
+      "Tawny-orange cap in conifer moss",
+      "Cobweb veil (cortina) on young cap",
+      "Rusty-brown spore print",
+      "Silent kidney failure 2-14+ days"
+    ],
+    "scale": "Cobweb veil + rusty spore check",
+    "hold": "EMERGENCY: Orellanine delayed renal failure"
+  },
+  "Z05-P120": {
+    "type": "lookalike_diagnostic",
+    "variant": "fungus_pair",
+    "target_name": "Omphalotus (TOXIC)",
+    "target_traits": [
+      "Clustered on wood; sharp true gills",
+      "ORANGE interior flesh; illudin toxin"
+    ],
+    "toxic_name": "Often Mistaken For",
+    "toxic_traits": [
+      "Cantharellus (soil; white flesh)",
+      "Laetiporus (pores, zero gills)"
+    ],
+    "exclusion": "STOP: Violent GI poisoning; slice cap & check substrate"
+  },
+  "Z05-P121": {
+    "type": "fungal_anatomy",
+    "variant": "spore_substrate",
+    "features": [
+      "Large scaly white umbrella on lawn",
+      "Free gills turn dingy gray-green",
+      "OLIVE-GREEN spore print (key!)",
+      "Causes severe rapid GI poisoning"
+    ],
+    "scale": "Mandatory spore print on white",
+    "hold": "STOP: #1 North American mushroom poisoning"
+  },
+  "Z05-P122": {
+    "type": "botanical_morphology",
+    "variant": "umbel_root",
+    "features": [
+      "Veins end in leaf-tooth NOTCHES",
+      "Smooth hollow purple-streaked stem",
+      "Flat-topped white compound umbels",
+      "Chambered root: LETHAL cicutoxin"
+    ],
+    "scale": "Hands-off zoom observation only",
+    "hold": "EMERGENCY: Most toxic North American plant · Call 911"
+  },
+  "Z05-P123": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Conium maculatum (LETHAL)",
+    "target_traits": [
+      "Smooth HAIRLESS purple-blotched stem",
+      "Ferny leaves; flat white umbels"
+    ],
+    "toxic_name": "Fatal Paralysis Hazard",
+    "toxic_traits": [
+      "Mimics wild carrot/parsley roots",
+      "Coniine causes respiratory arrest"
+    ],
+    "exclusion": "EMERGENCY: Reject ALL wild white umbels; call 911 if eaten"
+  },
+  "Z05-P124": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Swept-back 5-petal star flowers",
+      "Bright yellow fused anther cone",
+      "Glossy oval red or black berries",
+      "Solanine glycoalkaloid hazard"
+    ],
+    "scale": "Star flower + glossy berry view",
+    "hold": "STOP: Attractive toxic berries; 1-800-222-1222"
+  },
+  "Z05-P125": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Ageratina (White Snakeroot)",
+    "target_traits": [
+      "Opposite 3-veined smooth leaves",
+      "Bright white heads; tremetol toxin"
+    ],
+    "toxic_name": "Phytolacca (Pokeweed)",
+    "toxic_traits": [
+      "Stout smooth magenta-purple stem",
+      "Hanging ink-purple toxic berries"
+    ],
+    "exclusion": "STOP: Both are toxic; never treat pokeweed as safe folk greens"
+  },
+  "Z05-P126": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Sub-opposite glossy curved-vein leaf",
+      "Short terminal spine between buds",
+      "Orange inner bark; late green leaf",
+      "3-4 seeded purging black berries"
+    ],
+    "scale": "Terminal twig spine + 4-seed cut",
+    "hold": "STOP: Common MN invasive toxic berry"
+  },
+  "Z05-P127": {
+    "type": "lookalike_diagnostic",
+    "variant": "berry_pair",
+    "target_name": "Menispermum (LETHAL)",
+    "target_traits": [
+      "ZERO tendrils; smooth leaf edges",
+      "Single flat CRESCENT ridged pit"
+    ],
+    "toxic_name": "Confused With Wild Grape",
+    "toxic_traits": [
+      "Vitis has forked tendrils & teeth",
+      "Vitis has 2-4 smooth pear seeds"
+    ],
+    "exclusion": "EMERGENCY: Crescent seed = LETHAL moonseed · Call 1-800-222-1222"
+  },
+  "Z05-P128": {
+    "type": "botanical_morphology",
+    "variant": "berry_shrub",
+    "features": [
+      "Large jagged compound foliage",
+      "Porcelain-white black-dot berries",
+      "Or glossy red berries on thin stalks",
+      "Cardiogenic & oral-blister toxin"
+    ],
+    "scale": "Whole stem + berry stalk view",
+    "hold": "EMERGENCY: Cardiogenic berries · Call 1-800-222-1222"
+  },
+  "Z05-P129": {
+    "type": "botanical_morphology",
+    "variant": "tree_nut",
+    "features": [
+      "Flat pointed single dark needles",
+      "Green twigs; no white bands below",
+      "Open red cup around TOXIC seed",
+      "Taxine causes fatal arrhythmia"
+    ],
+    "scale": "Flat needle rank + open red aril",
+    "hold": "EMERGENCY: Lethal cardiac taxines · Call 911"
+  },
+  "Z05-P130": {
+    "type": "system_boundary",
+    "variant": "urushiol",
+    "zone_a": "Leaves, roots, fuzzy winter vines & smoke",
+    "zone_b": "Cool soap wash & separate laundry",
+    "barrier": "Zero bare touch; NEVER burn vines",
+    "hazard": "STOP: Inhaled poison-ivy smoke causes airway emergency -> 911"
+  },
+  "Z05-P131": {
+    "type": "sequence_plate",
+    "variant": "parsnip_burn",
+    "steps": [
+      {
+        "label": "1. Recognize",
+        "detail": "Flat yellow umbel + grooved stem"
+      },
+      {
+        "label": "2. Avoid sap",
+        "detail": "Wear long pants & gloves"
+      },
+      {
+        "label": "3. Wash fast",
+        "detail": "Soap & cool water immediately"
+      },
+      {
+        "label": "4. Block sun",
+        "detail": "Shield skin from UV 48+ hrs"
+      }
+    ],
+    "cue": "Furocoumarin sap + sunlight causes blistering chemical burns"
+  },
+  "Z05-P132": {
+    "type": "lookalike_diagnostic",
+    "variant": "plant_pair",
+    "target_name": "Convallaria (LETHAL)",
+    "target_traits": [
+      "Smooth parallel leaves; NO onion smell",
+      "White bells -> red berries; cardiac"
+    ],
+    "toxic_name": "Veratrum (LETHAL)",
+    "toxic_traits": [
+      "Pleated ribbed broad spring leaves",
+      "Severe bradycardia & shock toxins"
+    ],
+    "exclusion": "EMERGENCY: Zero onion scent on spring strap leaves -> STOP"
+  },
+  "Z05-P133": {
+    "type": "seasonal_timeline",
+    "variant": "mush_onset",
+    "phases": [
+      {
+        "window": "0.5-3 hrs",
+        "focus": "GI / muscarinic / neuro"
+      },
+      {
+        "window": "6-24 hrs",
+        "focus": "RED ALERT: Amatoxin GI"
+      },
+      {
+        "window": "Day 2 lull",
+        "focus": "FALSE recovery (liver injury)"
+      },
+      {
+        "window": "2-14+ days",
+        "focus": "Liver or renal failure"
+      }
+    ],
+    "threshold": "EMERGENCY: Never wait for symptoms · Call 1-800-222-1222 at once"
+  },
+  "Z05-P134": {
+    "type": "sequence_plate",
+    "variant": "poison_sample",
+    "steps": [
+      {
+        "label": "1. Call help",
+        "detail": "1-800-222-1222 or 911 first"
+      },
+      {
+        "label": "2. Save pieces",
+        "detail": "Raw/cooked scraps & trim"
+      },
+      {
+        "label": "3. Paper bag",
+        "detail": "Dry paper; NEVER plastic"
+      },
+      {
+        "label": "4. Bring to ER",
+        "detail": "With time & site photos"
+      }
+    ],
+    "cue": "Never delay 911 care to search for extra field samples"
+  },
+  "Z05-P135": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Immediate 911",
+        "scope": "Breathing/seizure/faint",
+        "action": "Call 911; clear mouth if awake"
+      },
+      {
+        "role": "Poison Help",
+        "scope": "Any suspect exposure",
+        "action": "Call 1-800-222-1222 at once"
+      },
+      {
+        "role": "ER Toxicology",
+        "scope": "Paper-bag specimen",
+        "action": "Follow hospital & SME plan"
+      }
+    ],
+    "trigger": "STOP: Never induce vomiting or wait for delayed symptoms"
   }
 }

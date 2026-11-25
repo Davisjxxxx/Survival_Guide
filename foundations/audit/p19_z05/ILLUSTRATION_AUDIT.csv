@@ -1,0 +1,136 @@
+page,figure,category,sha256,geometry_sha12,provenance,clipped_labels,overlap_pairs,visual_inspection
+Z05-P01,Z05-P01-FIG01,specimen_doc_plate,c2dc3664c8d12fa5f0b29d07ec2def7133e395334c8c53cf95a90fd301ac1e6f,41fec7212c4d,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P02,Z05-P02-FIG01,correct_vs_wrong,d480e542289531ea7a16e5a487f505b7a0113445f508d1b54c98ab3cbd6e868b,6f97416159ba,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P03,Z05-P03-FIG01,specimen_doc_plate,cb5ef02b1770827c2a312e8bcc9ddcac11bdadea93ace3d1aab77adf64f7f9d9,41fec7212c4d,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P04,Z05-P04-FIG01,botanical_morphology,a99699334862ad86af43d61b608969f3f8c52dccf3d20b640d402a32bb93421a,de4d7305e455,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P05,Z05-P05-FIG01,botanical_morphology,116d697ed78491bee8dba7d9d22e276d47a1394ae56285c9dec19c55a9aab900,5e78bf1dd24b,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P06,Z05-P06-FIG01,botanical_morphology,ed5c4554818576d5c3973e491f7f3d66921c38048ea6f22b77f56ce2f78897c1,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P07,Z05-P07-FIG01,system_boundary,8031cb4892b42b1207fb6a52467836eebb66ed8adcc87b3c77593dc253732c20,82e3976fc7e0,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P08,Z05-P08-FIG01,botanical_morphology,39a1141e4440454f3694a048a6fe5159caaf7955db3e23a05bdb850c374a2f32,d1e9af5bc2a3,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P09,Z05-P09-FIG01,wildlife_track_plate,a489d46eee4ee960668e0bd7974519c9df08b05f3fcc9ffaa6bb11636270bf97,d6276816229a,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P10,Z05-P10-FIG01,regulation_boundary,58f780b00f7814d46eb7027b24976c4aaa3f9e1fcb1013bde47d4cc078017b0a,c50ec7bc21ca,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P11,Z05-P11-FIG01,hazard_exclusion_map,4b02ca0b575c64cc6a29ac9d179ece6b17fb0283c27db402c38b08383a14e203,38f25b673997,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P12,Z05-P12-FIG01,correct_vs_wrong,5e237a6278276be422da01dfe667dcb8ba85397012733e37c6957ce94bf7e858,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P13,Z05-P13-FIG01,comparison,9832bb99d14c5760ba2e95ef6479c1ed83a5a0bdeda595c7ea677ce27140653c,57f7d73fed10,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P14,Z05-P14-FIG01,escalation_ladder,9a3a8c73db1df6230c34450e356fd76462fa4ce256f00013b0e10f1614a7a293,19d4a2dbb240,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P15,Z05-P15-FIG01,specimen_doc_plate,4b43a49f970a8a292352974e798ffdd2a6a416ad9d9ff446f52be35f38fc0217,41fec7212c4d,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P16,Z05-P16-FIG01,system_boundary,541550f56408be49fd2a599ba0abf499419e90ecba358b31c723827b333e9939,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P17,Z05-P17-FIG01,botanical_morphology,9933d967df73b0f03d63e3d78fb85f18b0315aeba20bf2d4afe26f73a281f8de,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P18,Z05-P18-FIG01,lookalike_diagnostic,01544aac2574c6646ca7a738406207000cd4bd3de33083af665f242c7c27dcf7,a9b888f4ab36,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P19,Z05-P19-FIG01,botanical_morphology,d4c965dccfbe1dfb7edaae5b93da333ebefde9d22a56be9132cfce3139a025ff,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P20,Z05-P20-FIG01,botanical_morphology,0092886c9229e8fb3b0db51e5d4fe40e27b25c6a6115c99e79046ea03d2700be,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P21,Z05-P21-FIG01,lookalike_diagnostic,cad82e357734025bbcbf18a6e4edd1562a16be19e6bb3345e19b8723f026aa82,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P22,Z05-P22-FIG01,botanical_morphology,fe02a7b8a8dd07b8ba96832d94437a4728b7435f0494cb23cc65633adbf3e490,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P23,Z05-P23-FIG01,botanical_morphology,dac45086f2d0a4e9c76e23afdce17931a735d2713725bb25628c7d1bda9c098a,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P24,Z05-P24-FIG01,lookalike_diagnostic,2a899dbf508c4c978c328ce24ee4a4e816e23c1c7798910a6b0f9941ef7e2dd4,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P25,Z05-P25-FIG01,botanical_morphology,c42ba8bcb2bba96e0fc9d8292c65e506927db3dfe66e1310aa41294f9f1f04c8,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P26,Z05-P26-FIG01,lookalike_diagnostic,9cb21a4c2afa7b03eba35101747a6ce6694ad41a2f6087909333374eb126c419,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P27,Z05-P27-FIG01,botanical_morphology,40b6ca558bdc382c7d2729dfd0b3d7cfc4e86b59c009ba3fd8db514ca30ff9c8,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P28,Z05-P28-FIG01,lookalike_diagnostic,ede123d3242b2a8015b690adcd4d15af03b8065d2b7d4aa3be051783aea55e09,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P29,Z05-P29-FIG01,lookalike_diagnostic,9d62156f87644f67273e95ef5d6378487827587346ca8ce11b60158e38e772bd,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P30,Z05-P30-FIG01,botanical_morphology,996b0243f8ac9952933a00f50ef0fffc7cbbf4431547c15a9744ba91da03ab44,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P31,Z05-P31-FIG01,lookalike_diagnostic,86d3a2f02edd6821f252e28548d9aacc4959ffd68f907e8dfab407cb498b671d,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P32,Z05-P32-FIG01,botanical_morphology,1617c0cca089029ef0acdf88969a2d48b902324d52f5ed9996bb84e87855d63d,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P33,Z05-P33-FIG01,botanical_morphology,90af45d0ea86bf25d0760512af6de91f9c49f0a5d44c9fa42e46dd80e167bc79,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P34,Z05-P34-FIG01,lookalike_diagnostic,64c59bfcfa2932c5e45f00c65988da1e35a4803dbd2d16f68831003a4da63806,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P35,Z05-P35-FIG01,botanical_morphology,b3bd88b293d3dffd50bf66846c50ea41669af20e0651d4dc9b04a9d5fb3bf173,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P36,Z05-P36-FIG01,botanical_morphology,5acb565e6ffe426e6e0b934edf61a023d1b523aef513faef348c105c9efdc6f4,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P37,Z05-P37-FIG01,lookalike_diagnostic,de8f4fce2141d9f88fb2841cdf444bffb194bbca3c322310aab8fffb4e35b199,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P38,Z05-P38-FIG01,escalation_ladder,a26c24d96bcfcbdd1f03df861a631470ccfad4eb4197739b319e31e120e0d608,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P39,Z05-P39-FIG01,botanical_morphology,5ddc3c6032ae0f6398f01e136873787a9db45df757e804fdc00d63bc35e82d59,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P40,Z05-P40-FIG01,lookalike_diagnostic,2c64e902121bcb183c4d7984d2652df26247547e0393b81b890cd75fc9f3d36f,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P41,Z05-P41-FIG01,botanical_morphology,357194aa3a7479dcf24233d724cdc7dccdacefa1878a32b1693b5261855fb67b,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P42,Z05-P42-FIG01,lookalike_diagnostic,9466e3b8921854a5bab077f942d5e6a669bd33a617c01407ff346837843f82c5,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P43,Z05-P43-FIG01,botanical_morphology,be8a6e9d4d431f54552643c3975a3359db6c11290ab92ef9feb32d023a0266e9,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P44,Z05-P44-FIG01,botanical_morphology,65eabdda79ff81c325cda33ac7b55610fb858ac523b974a9de571662d709498b,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P45,Z05-P45-FIG01,botanical_morphology,ef3c55a5a8eeef037780719d16b2101400c0603905e4d8a0634ffec576d80219,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P46,Z05-P46-FIG01,botanical_morphology,e0286ac091fb6df8ab6bd11bd48dac744145f9274a93c70934a5761c28e32cd6,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P47,Z05-P47-FIG01,system_boundary,19f5627d6f1625dc86a208c6532f39e4bc4d7fae6aa99b946fd09398c956e683,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P48,Z05-P48-FIG01,lookalike_diagnostic,8fc42ce7f77aacbf88994fca31f8ec7158e8b91e80654d560b631eba2c3eb19e,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P49,Z05-P49-FIG01,lookalike_diagnostic,6fd21c8a96d0bf78f11b8e0f51d0717ed992529a90a4541f64a8e92d4e3b9271,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P50,Z05-P50-FIG01,botanical_morphology,197d2a99508bef86914a8ea624ea9e57b99313722b515e0a50553acc2254b5e0,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P51,Z05-P51-FIG01,botanical_morphology,59227325774adc951591bcfa4f81702dbca8d3010e738d10cb9abe6f15e69c57,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P52,Z05-P52-FIG01,botanical_morphology,9106fda6dfc7a906dedbb486d33fe620bdf3826f35d3bbd97cc6d9eaf3062d69,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P53,Z05-P53-FIG01,botanical_morphology,bfae6bc1f46488213e0b6dd4655e4351b9a2be0aa10784a40a03a4d00a78d529,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P54,Z05-P54-FIG01,botanical_morphology,cf07017d3b25794c17f32dc11204580a41d813f377a6b258e3d560f2a5d2fe29,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P55,Z05-P55-FIG01,sequence_plate,c0a7069097ad9363c44daa1be2594acc571b6355f20e7ff61d35015adea59e2a,fd6d66cb534c,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P56,Z05-P56-FIG01,regulation_boundary,c6ed493445b3e4ecb653d08a4cff3060a9338c2da515ac1fdde7084091857093,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P57,Z05-P57-FIG01,botanical_morphology,ed2a5998a6f05e3787864e5d84f12f7d4861b4d7786fe284dda56abd6faa017b,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P58,Z05-P58-FIG01,lookalike_diagnostic,3faeab49bc331fc2acd0c9790bbeda812fa965a0d880e3a8f2ed48dbae0264b7,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P59,Z05-P59-FIG01,lookalike_diagnostic,475b0cfc08eec7ca01043a2d342f305eb9d37f72e442d59eb6691c0d830d4012,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P60,Z05-P60-FIG01,botanical_morphology,5139ed4f2a083d4de7be27626417edc5bdb2090e66f067e1d33ddea5214ec0d3,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P61,Z05-P61-FIG01,botanical_morphology,e8f2952cd9c8d74b6a30360732ec559014e9b5c48fb6ed1239304e704d9b36db,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P62,Z05-P62-FIG01,botanical_morphology,e341e3ef10d11cfcac995e36655e5d65156a0d714b8ab04853149e32d942ac1e,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P63,Z05-P63-FIG01,botanical_morphology,cfc2e6472d0b5be8d61ec5c344b88141d5b91549ce972e19970381c44fdd7519,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P64,Z05-P64-FIG01,lookalike_diagnostic,50cac929277bdc365dd28f84467b8ba789bc6c46b7bc0249c84190a9bf1126e4,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P65,Z05-P65-FIG01,lookalike_diagnostic,fc334388371b65ca239cad91f721049a9fa8714741f11bb1e0527c4d5340a5f8,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P66,Z05-P66-FIG01,botanical_morphology,bf064029ce559d2ea15e997e4266fd6adab22a8a151e293bd8124fb3f97f96ea,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P67,Z05-P67-FIG01,botanical_morphology,d8207f2350ebd6892ee946378c572544020c78cbcd08b6985fbd926a4bb91e8c,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P68,Z05-P68-FIG01,botanical_morphology,829eb962d040adea965ca25b3a5fd743274674514a49033d1fd3fd6fb6b2ab5c,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P69,Z05-P69-FIG01,botanical_morphology,32786e47533b6a2a7cca285793699410934b282fda8c36c1921c599f8c2cb4c2,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P70,Z05-P70-FIG01,lookalike_diagnostic,98129d1d97eafc2b42c0bed0d6a58b94c6f45fe2a11d6523153d7e8deb9a262e,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P71,Z05-P71-FIG01,system_boundary,6f762a64384a3142c98465ebd134e084ec9e06eb6f885473762fdc74a9d7e370,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P72,Z05-P72-FIG01,escalation_ladder,f22d5a0cfd3ee878d88b87ca7c3da128eaa27a3317c49c8b7bbea9a21e4bccd1,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P73,Z05-P73-FIG01,lookalike_diagnostic,611a80854e85bbdca0b585c31a26a1d323a4e68de69490ef2900e30176837c16,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P74,Z05-P74-FIG01,botanical_morphology,32b7505bed6ac881e7679a7afd3bfb199b93428ed05f4de1d040aa7cada31d9d,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P75,Z05-P75-FIG01,botanical_morphology,346004ebc08b913dcacb1b042f51ff4acae37a147b35f36b18f9ba4391ad86dc,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P76,Z05-P76-FIG01,regulation_boundary,e41f2869062f7daa9612f6c88ff93b2aadd4dfc92b1a4108367eb0fc58212bca,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P77,Z05-P77-FIG01,botanical_morphology,7ecba0c2bb88c9e27c788a15695d88495529ec4646f4ec0936d560b4700bf111,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P78,Z05-P78-FIG01,specimen_doc_plate,234cd542f912dce896c6a8bc0e6a8f93d513df63a92f9e892b6f252ec47667b7,41fec7212c4d,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P79,Z05-P79-FIG01,regulation_boundary,a9284624f9010222bfd61bd49333381e3af12c44b5c0df0a615af0cc422149ed,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P80,Z05-P80-FIG01,botanical_morphology,4fdac3c609e0f39e3e3fb8bb38367bebb4cee5c152541d2765e4491b9701d1bf,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P81,Z05-P81-FIG01,lookalike_diagnostic,0d3f7f5a708a93a0b5b038102123925867fea447f61c0e2ad2f0b3e7123bd220,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P82,Z05-P82-FIG01,failure_mode,8c1ee74bd99561d7f8847a251deaf8ed248c8bfd1d657f0cf0c4a61180e93059,25fdf6efbbe5,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P83,Z05-P83-FIG01,lookalike_diagnostic,059bf0eb9781e0063fc2b278aef6dee5d10e2c3022fc7bc62eafe66835d4dc5d,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P84,Z05-P84-FIG01,lookalike_diagnostic,4f3679ace6be883235e4101fa1e3e91e2783c452f1cd8aa9203033aa03d12003,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P85,Z05-P85-FIG01,lookalike_diagnostic,7d7a3c71b6387c8b825483cdcc5c5610087ff88852ebbbdccd62a090acb9c831,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P86,Z05-P86-FIG01,botanical_morphology,08f9ee6e49f74609e073296971651a653e50bbd344b37eda17c82652225a84ea,5e78bf1dd24b,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P87,Z05-P87-FIG01,botanical_morphology,ed32a9c6d9d2f868c65925e36714dc5da98351094c605e12ad845024dc61ce99,de4d7305e455,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P88,Z05-P88-FIG01,regulation_boundary,7bc342936766f3ea954485fe8729556d271e9fb4330f33489014d53b1c802411,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P89,Z05-P89-FIG01,lookalike_diagnostic,10892632c7f8c34f200bbd7b40384d2a6d18890617c061355b39b3ef00b7b425,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P90,Z05-P90-FIG01,regulation_boundary,9834069820d30d991a6c9db5634a8bca77f747dbb799f962dcd9ec5183779059,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P91,Z05-P91-FIG01,botanical_morphology,c20204f62a968b89ef5cac3da2a0a2b547d618afd84cf1fa940c4e875c7d0de3,d1e9af5bc2a3,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P92,Z05-P92-FIG01,lookalike_diagnostic,a6e6fbb3db337ddd99f1c4a45dc10c17a9db02e30596d7ed9a8f54f7fdf81d3e,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P93,Z05-P93-FIG01,regulation_boundary,ba43ebbb3a5f838d3a5528e935e277a8c2255a0a7bd964d6db2fc543bba00645,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P94,Z05-P94-FIG01,escalation_ladder,12ae65248a5c613cc6c537ffdef7228d186b4037640473b6446b2236b94795cb,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P95,Z05-P95-FIG01,fungal_anatomy,c1e343b303fc481b860e2f22b7a213ea544334bbbda0a6b9e7c91d2a8a43c417,7372e754fbc8,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P96,Z05-P96-FIG01,fungal_anatomy,286bf26e259e7f9af4b146db412a2c5a232e3322bbc58dcd09763de248a165d2,eeb8b40697e4,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P97,Z05-P97-FIG01,failure_mode,97fe1f171ec184718cac5ed1ca996e6e398926db5fb784b40fa8b3ebd787c441,25fdf6efbbe5,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P98,Z05-P98-FIG01,fungal_anatomy,863bfc31b9abe2566363fe88c2973b6f60e029ca7090a05cf63ae3fcb68045fd,e1d9dab51968,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P99,Z05-P99-FIG01,fungal_anatomy,edf6079ddd213f7074131fb1aacec3278a0c455bc8f8e090442b307ffad1e16f,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P100,Z05-P100-FIG01,fungal_anatomy,61e7005ca4c9d84a6d6a5b28963714725971f263c921f47bb51893b2db294379,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P101,Z05-P101-FIG01,lookalike_diagnostic,b48ed0d65a8ea5cbf1734b020a1e176d38b38a40eb37cd9ad3fa230bdac06e7e,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P102,Z05-P102-FIG01,fungal_anatomy,1a167a990ac89bf2492cf61a1f7d904a8f45929799c69ed5e6b27996b31a28be,e1d9dab51968,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P103,Z05-P103-FIG01,lookalike_diagnostic,6a2171e525f0335ac8a2ec0a572141c90a138f6415b6825bb40680223e2e69b0,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P104,Z05-P104-FIG01,fungal_anatomy,c1cd1dc8bd8874870dc8992af3d0883173d748ccc179e59d3021adbc27301d85,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P105,Z05-P105-FIG01,lookalike_diagnostic,6212e668de7a3bacfd3312cdecc92362212a9ad34ce0dae8bed7cffe52df4042,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P106,Z05-P106-FIG01,fungal_anatomy,b266746186b58c85ef76bafa3d3ddcc96e4a8ff93267b81dbb08cf777d8ba7ae,7372e754fbc8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P107,Z05-P107-FIG01,fungal_anatomy,4563b0cfcd5b931af433d899df4b771e7a71ced08b3c848fb5a5cb8f5b07f4f1,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P108,Z05-P108-FIG01,system_boundary,5caca32eb0d310d09f34a29410239f8baac025d6503117383e1b47723ee6c7d5,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P109,Z05-P109-FIG01,fungal_anatomy,f6a2c2df81920f153e3d2d1b8b0389751c31c3602446b7aec6fae4e44dfe1862,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P110,Z05-P110-FIG01,lookalike_diagnostic,902eb0de6fcb846b95ebe1a73f7dad8099d74965dbaa4d8504e1abd342c537cc,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P111,Z05-P111-FIG01,fungal_anatomy,f32db88dd2cd2f8bd8ccffa1b64804fc6ec384c5d3ef5168e7c3b4a4e1b7c238,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P112,Z05-P112-FIG01,fungal_anatomy,8e887cac73ae188d9086832bfeb2b4c296b18484d053faed6b068432b4efc9a1,671835bf1428,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P113,Z05-P113-FIG01,lookalike_diagnostic,263707be573fd97f4f9bdf427b266a49112299c474c4ad6cceda981bbd418baa,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P114,Z05-P114-FIG01,correct_vs_wrong,018cd0f90641bc4387bd898535f54b1ef8c88e8735752d91a5ebcd1867ef64fe,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P115,Z05-P115-FIG01,escalation_ladder,7cf831e831688e562f578faa94e277e5ace2f72dfb39212b1be7ebfa2158c49f,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P116,Z05-P116-FIG01,lookalike_diagnostic,37b0359e08c4c44bb10b71f006ba9c916ee138a75cf0c93864abea20e476b4e3,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P117,Z05-P117-FIG01,fungal_anatomy,27c2a8252747432d06c166ee0982554ebddc3c247682a0a9aeeefdbf3d5fe178,7372e754fbc8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P118,Z05-P118-FIG01,fungal_anatomy,f3d7cd6828aa388cf2d99c3fa3c212448818ab9360f6d55fa284bac184e0359a,e1d9dab51968,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P119,Z05-P119-FIG01,fungal_anatomy,37492295040eac21b7f8390628e02514b303c112e3030ea238715d2f74719460,7372e754fbc8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P120,Z05-P120-FIG01,lookalike_diagnostic,10469c14042de93fa630ca4634e023f3fff507f980cb3f294c9781b979083e26,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P121,Z05-P121-FIG01,fungal_anatomy,875c0a88eae0d93388686e85065ac0099e081336236158685229faaeec9b6061,eeb8b40697e4,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P122,Z05-P122-FIG01,botanical_morphology,fed36da3a71e03d40f57c607d143be4fde6ff813148126acdbdbc8dc05cbfbfa,5e78bf1dd24b,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P123,Z05-P123-FIG01,lookalike_diagnostic,8a0e26acb399deaaff1465de0994c141fa3c9e255674c6781e6e3c0a94cc0342,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P124,Z05-P124-FIG01,botanical_morphology,2dea60c7f8d0f767c0f4f519988f2f9535903a347bb990dbf24f10d48fb4a9a0,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P125,Z05-P125-FIG01,lookalike_diagnostic,864ce85431d147211ba26ef16380752755e7fe371bee35608f479443044fc676,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P126,Z05-P126-FIG01,botanical_morphology,87642328e38bf69941a46432f33f91d463af2b6717d1476bd0a26bc3cbc92a25,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P127,Z05-P127-FIG01,lookalike_diagnostic,a72b06610ed73c35fae48861c2a355cb53e4389989fe7732a559fa90be7ca645,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P128,Z05-P128-FIG01,botanical_morphology,98588871c5a4878637fbcee8e455e43aaca134c43411a6e60c3bbf5215ad4776,1871fff74f38,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P129,Z05-P129-FIG01,botanical_morphology,2c574dc60fd755c9b5701406dacd60b0164738745da2c376578e7e5c6fc04349,cc3f4479b0c8,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P130,Z05-P130-FIG01,system_boundary,ed8198190f9f9c9e23f22d2f8e4a56007d5ccc65355b1e9d3d7be2a8e7542e11,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P131,Z05-P131-FIG01,sequence_plate,e56a4c2b89a519fa0883ee925118f61476b936cc0186a22fd57cc4d601a6b809,fd6d66cb534c,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P132,Z05-P132-FIG01,lookalike_diagnostic,e027a5b350be28e18a43bf5f16b2525b6558a83899c26525bf941250ab0c2485,a9b888f4ab36,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P133,Z05-P133-FIG01,seasonal_timeline,36559eb325b81ba41f761bfff8f94d78b4cf0230e5a74afa278d860a47a3aa1c,ed34a9d97168,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z05-P134,Z05-P134-FIG01,sequence_plate,bab595ede6723136c058f2b9e6083e580cf4e57ae345bbc313538ef47b8bcdf8,fd6d66cb534c,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z05-P135,Z05-P135-FIG01,escalation_ladder,e124f95a735641b3dfe53a4f9c392321867ef10e17dc42eea7f7e2d7cadf0221,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
