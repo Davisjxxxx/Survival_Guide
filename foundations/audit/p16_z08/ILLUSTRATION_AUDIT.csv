@@ -1,0 +1,61 @@
+page,figure,category,sha256,geometry_sha12,provenance,clipped_labels,overlap_pairs,visual_inspection
+Z08-P01,Z08-P01-FIG01,geological_strata,29399a43ec222911abb1261e9f2410831ea422a611f9d6ffe3ede680afa375f2,fb70dd11c262,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P02,Z08-P02-FIG01,mineral_test_plate,1dea770c7a6c08b1c6375c447582b17cb1751b0765b15f729ba907c7bf9a0564,be3ae4933520,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P03,Z08-P03-FIG01,geological_strata,d931dea684ccd66dbfcae362ec7841598e4a9de639d9902fa711a698ebb863a3,b6bd65d93d3a,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P04,Z08-P04-FIG01,specimen_doc_plate,408500ed5da476e74ce9b1a14bcadc3c6b6b4e33a769fd80e89725661c4910f8,41fec7212c4d,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P05,Z08-P05-FIG01,regulation_boundary,7bd311550e1fe045f3b3a3891be07b6693f4ae6949da8941a1ace9c9d1ad397d,c50ec7bc21ca,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P06,Z08-P06-FIG01,geological_strata,67933c0487ee86a8e9560c7d7623484e5d60fa72ca83e518cd4221dbe6322512,f57755ee224c,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P07,Z08-P07-FIG01,geological_strata,9b93212bfb53a4754f491152beae9faf3b97b68f85db1d6c6dc094918dc5ffa1,fb70dd11c262,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P08,Z08-P08-FIG01,mineral_test_plate,8aafe0e0fec4aded47b757b9898910cd92d92cbdd7262def61d2a0d4711e47fb,be3ae4933520,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P09,Z08-P09-FIG01,geological_strata,3c96c8cdaa76daa892aa88158e248edd658b23da0285593d00ce95fe90026f10,fb70dd11c262,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P10,Z08-P10-FIG01,comparison,ec8433a84785e2163a2198d7d628bcb1490934157a68394331e7ba7a3c86b63f,57f7d73fed10,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P11,Z08-P11-FIG01,mineral_test_plate,da30e50205b286379f075033bee68e2d36c60f96909c66435d78bf52257cc24a,be3ae4933520,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P12,Z08-P12-FIG01,geological_strata,6c9a377234c9e6b9d3b1599704d422900a2d974e525b60dfd7cd6f51fc0dda35,fb70dd11c262,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P13,Z08-P13-FIG01,comparison,64285cdabe0056e3e10045f2210331caab6d3c0dce77ece5a891805a66443c0a,57f7d73fed10,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P14,Z08-P14-FIG01,correct_vs_wrong,09f69f309b9a05c3329c000c1e3fb1081c95db313607e3304a4d232704bb27c1,6f97416159ba,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P15,Z08-P15-FIG01,mineral_test_plate,4c05dd1873df6f9136677142eb9904fe83436b25985c16612cb109ada3d9b4df,be3ae4933520,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P16,Z08-P16-FIG01,geological_strata,1abecd694d8a1170dedf743bbf7ecc76c2527106f13a7aaa20f4c3e75c25ab0f,b6bd65d93d3a,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P17,Z08-P17-FIG01,mineral_test_plate,25b7fbc13f6b6164927f2fc4bfed77b9090f821edaba9aae6b403ae217133f2d,be3ae4933520,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P18,Z08-P18-FIG01,correct_vs_wrong,8370ae659b58a1c721952efeb15247af005b999412eb82178a5dce380ce9f8cd,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P19,Z08-P19-FIG01,mineral_test_plate,fe06dccf0495aab34c1c9c576ec38d3a7c0459c5dbd0d6e3666e9bf7e53eb919,be3ae4933520,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P20,Z08-P20-FIG01,system_boundary,2ab8732cc00f600a2b48fb0fef809e88d9935f3cf3d16a0b1a2fff27a35d5e6d,82e3976fc7e0,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P21,Z08-P21-FIG01,hazard_exclusion_map,5275522de3a5dc07dee2a80ed760e752907666d56cc1e444eb0757593bf414cd,38f25b673997,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P22,Z08-P22-FIG01,failure_mode,1db61827afed8bea19147acf15abc812cbcfe42d8d7f767506ffdc22dbb17c8c,25fdf6efbbe5,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P23,Z08-P23-FIG01,correct_vs_wrong,a11d84920c8e344c4dff693b92b5c02aaddac2df83688bc0d97e0ba3170086aa,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P24,Z08-P24-FIG01,comparison,537166b4f1a8f5b5bb575102843104f2f488a32183e76ca699263bfe1f367950,57f7d73fed10,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P25,Z08-P25-FIG01,geological_strata,05704fc67b51a9fd51c4c801c0c14d5f089c25d90e599c772b6717556ae068d4,f24c83df4eaf,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P26,Z08-P26-FIG01,sequence_plate,820fbb17cabfa303a150d9fbe690459b2c9149e161b82300fbfd0ce2e3c2a7c1,fd6d66cb534c,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P27,Z08-P27-FIG01,hazard_exclusion_map,5f383d6569de38ad834347e87093db38281c6a1937ecc93f5d2b384e39fe4c36,38f25b673997,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P28,Z08-P28-FIG01,failure_mode,200491b8f9cb02e6d3666584a2236c6bf88066b64d32e8c2c111896b100c8939,25fdf6efbbe5,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P29,Z08-P29-FIG01,geological_strata,1378e0217496517b15de245f93ad2401092cd3df7adcd9a0d8a7a1faa9be5dc6,f24c83df4eaf,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P30,Z08-P30-FIG01,system_boundary,cc6d837fe74ad90f8879843786b20ffd40555df73d9bf064f3b03a979580040e,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P31,Z08-P31-FIG01,geological_strata,4208a2677f382d7dd1a8fb4fd53261a9a81c4b8a026963826f3b19a25481fe3a,f24c83df4eaf,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P32,Z08-P32-FIG01,failure_mode,ffb98df7a428ae8b11ea4da75fdeab0805680b63e11bb5794a131942c94285ac,25fdf6efbbe5,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P33,Z08-P33-FIG01,geological_strata,847d85f2b8bea365df46e4c02652506bdf3c6e3a30e043fd54e0af1e8faad594,200b5e2a7ee1,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P34,Z08-P34-FIG01,comparison,9506ed30749165189d1e69a9ed6f0be2be9b0b9e5674876865bcdd4d625e5da6,57f7d73fed10,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P35,Z08-P35-FIG01,failure_mode,c7de2dbca1c78da5011e1ddcdf36d4b2eb0db8f5edf6d699e9d1a0c6ecf1c487,25fdf6efbbe5,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P36,Z08-P36-FIG01,correct_vs_wrong,f8640ee0e60eb546398a15cb611c5c2a06776c28a65b4dc4e990a2b5c7481602,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P37,Z08-P37-FIG01,system_boundary,83ccd6fe75ffb9e8b25e7ce75d591924ba2614bfed0230255efc30a05d31cf1a,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P38,Z08-P38-FIG01,seasonal_timeline,fb403b44e38e642bcbadbf6abf0f444b379f1c5b5ddb9a6216db3719b80e7bda,ed34a9d97168,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P39,Z08-P39-FIG01,failure_mode,d6bdbf3f77711873ad719ca63dd2ed6c118c0915832473717601a9e43282a566,25fdf6efbbe5,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P40,Z08-P40-FIG01,correct_vs_wrong,f05f0c1b63ef7bb2ffbe1688135030751a8a34cd9da1dad8088706ebc1812d67,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P41,Z08-P41-FIG01,specimen_doc_plate,3246d58ba0565b78dd49ac4f38d796c1084a80534a319eaa8a704ff22d639f38,41fec7212c4d,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P42,Z08-P42-FIG01,correct_vs_wrong,62f465ada82cd15154db61f08268ab2590ed1c3be0431293694b5efb9dae9817,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P43,Z08-P43-FIG01,lookalike_diagnostic,f63f75345e6d4d93db69cf04c5030bd66572c953e3efe0e4e7143653d1f6cbd4,a9b888f4ab36,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P44,Z08-P44-FIG01,system_boundary,0a4a2c174e4af7015be910aed98baa90949eb3c52ebcedd6612f9183b6beeecc,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P45,Z08-P45-FIG01,correct_vs_wrong,687c93ad7531be88ea97dcc53932b703b08057b1647ab46b8c2f657d63bf4ee4,6f97416159ba,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P46,Z08-P46-FIG01,specimen_doc_plate,d1734f575eff62a1bf019ae88cb8e5b9f7b279f14f2e6b8e96a9750584f31a86,41fec7212c4d,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P47,Z08-P47-FIG01,decision_tree,69335d2c7a81c9a58688afe59127d0110e1b6fdf2a2468170d48bf934bc66760,51d4775b0f03,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P48,Z08-P48-FIG01,seasonal_timeline,ee09f3b15542a5b7401301f615aaa5d060690175e05e9b22385c7e4348f27690,ed34a9d97168,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P49,Z08-P49-FIG01,mineral_test_plate,07fb50a5be28967f03c1baba2283f99736da1bff91b47538320883490b161037,be3ae4933520,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P50,Z08-P50-FIG01,sequence_plate,ec387e31da6304e48c5002c6e467a4dfbeb6150515db6017dc53927d77e82a32,fd6d66cb534c,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P51,Z08-P51-FIG01,hazard_exclusion_map,9360790de9565fd6a8d3b4f6573995acf94a367ff84da993ed22fcc2db9fc230,38f25b673997,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P52,Z08-P52-FIG01,system_boundary,0ce95ddf088182fb9b03307ce847d6fd8b9edb621d01b3b4c516bc11f3c57655,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P53,Z08-P53-FIG01,system_boundary,3ffc479c57c2e47ab2b28c4c5452d1513da5291796753bb28c14af8619816a41,82e3976fc7e0,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P54,Z08-P54-FIG01,escalation_ladder,f343ca5bdcbaa59a5078b4f0b012af5e7a6decdc65a3098e8c2da12a575a8c28,19d4a2dbb240,Original conceptual SVG,,0,Representative render retained. Subject review pending.
+Z08-P55,Z08-P55-FIG01,regulation_boundary,e1c5b1369b1e87f2b37d98e7bf15ced2379d0ac3cafce08025a3cbc033141bd1,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P56,Z08-P56-FIG01,regulation_boundary,dc42464e5b6f3e729eab078767ba2c54e8e4eb928a1ba3251fc793186e4e7c9a,c50ec7bc21ca,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P57,Z08-P57-FIG01,hazard_exclusion_map,03cbb45b43cde7d936203407ae3d75ccabcdac672655792f97629c69ee0ea600,38f25b673997,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P58,Z08-P58-FIG01,escalation_ladder,b2c66e5d6d02a6adedb149b7416e18a0f1a83d59d382bb831d5050db45cc2b21,19d4a2dbb240,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P59,Z08-P59-FIG01,hazard_exclusion_map,16d25583498479feb53f2e1c56d11f9e5b0cb541a7906d75dbee8f4a92f91983,38f25b673997,Original conceptual SVG,,0,Bounds checked. Subject review pending.
+Z08-P60,Z08-P60-FIG01,sequence_plate,2148e3278ae82880fec5f7628d43233d1288e8673d27d66c1e3a740cecadce71,fd6d66cb534c,Original conceptual SVG,,0,Bounds checked. Subject review pending.

@@ -836,8 +836,8 @@ def _render_mineral_test_plate(spec):
     parts.append('<rect x="28" y="38" width="164" height="96" rx="6" fill="#eef3ee" stroke="#285345" stroke-width="2.2"/>')
     parts.append('<path d="M46 56h128M46 76h128M46 96h128M46 116h128" stroke="#6f8c7a" stroke-width="2"/>')
     for idx, tag in enumerate(('1-2 Soft', '3-5 Mid', '6-7 Quartz', '8-10 Hard')):
-        parts.append(f'<rect x="40" y="{44 + idx * 20}" width="{32 + idx * 30}" height="10" rx="2" fill="#315245" opacity="{0.45 + idx * 0.16:.2f}"/>')
-        parts.append(_lbl(tag, 184, 53 + idx * 20, 9.6, '#183c31', 'end'))
+        parts.append(f'<rect x="36" y="{44 + idx * 20}" width="{22 + idx * 18}" height="10" rx="2" fill="#315245" opacity="{0.45 + idx * 0.16:.2f}"/>')
+        parts.append(_lbl(tag, 186, 53 + idx * 20, 9.4, '#183c31', 'end'))
     # Right 2x2 non-destructive observation grid
     for i, item in enumerate(tests):
         col, row = i % 2, i // 2

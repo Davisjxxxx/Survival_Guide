@@ -8071,5 +8071,778 @@
       }
     ],
     "trigger": "Publication remains HOLD — zero qualified human disaster approvals granted"
+  },
+  "Z08-P01": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Glacial till & erratic cobbles",
+      "Paleozoic limestone & sandstone",
+      "Precambrian shield & rift rock"
+    ],
+    "note": "Map regional bedrock & drift",
+    "hazard": "Maps never certify local rock safety"
+  },
+  "Z08-P02": {
+    "type": "mineral_test_plate",
+    "variant": "mohs",
+    "tests": [
+      "Daylight luster & grain check",
+      "Ordered hardness scratch steps",
+      "Unglazed porcelain streak test",
+      "Cleavage vs fracture inspection"
+    ],
+    "scale": "Non-destructive field screen only",
+    "hazard": "Never taste, burn, or break fibrous ore"
+  },
+  "Z08-P03": {
+    "type": "geological_strata",
+    "variant": "fracture",
+    "strata": [
+      "Conchoidal curved silica ripples",
+      "Hardness scratches steel (> 6.5)",
+      "Compare vs flat planar cleavage"
+    ],
+    "note": "Visual ID != thermal/load rating",
+    "hazard": "Silica dust & flying flake hazard"
+  },
+  "Z08-P04": {
+    "type": "specimen_doc_plate",
+    "variant": "mineral_voucher",
+    "views": [
+      "Wide outcrop or landform",
+      "Natural weathered surface",
+      "Clean fresh face + cm bar",
+      "GPS, date & land status"
+    ],
+    "voucher": "Provisional until curator check",
+    "hold": "HOLD: Photos do not prove composition"
+  },
+  "Z08-P05": {
+    "type": "regulation_boundary",
+    "variant": "collecting",
+    "authority": "NPS 36 CFR 2.1 · MN DNR · Landowner",
+    "checks": [
+      "Verify exact park, SNA, forest, or private boundary",
+      "Confirm collecting statute & current date before touching",
+      "Stay out of active quarries & highway right-of-way"
+    ],
+    "prohibition": "STOP: Zero collecting in National Parks, MN State Parks & SNAs"
+  },
+  "Z08-P06": {
+    "type": "geological_strata",
+    "variant": "dust_hazard",
+    "strata": [
+      "Fractured quartz/chert -> silica dust",
+      "Fibrous veins -> possible asbestos",
+      "Upwind exclusion & wet/PPE control"
+    ],
+    "note": "Observe intact; avoid dry grinding",
+    "hazard": "STOP: Leave fibrous mineral veins intact"
+  },
+  "Z08-P07": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Thin glacial soil & mossy cap",
+      "Jointed granite & gneiss slopes",
+      "Magnetic mafic & iron-rich zones"
+    ],
+    "note": "Check wet lichen & compass drift",
+    "hazard": "Protected Shield parks prohibit take"
+  },
+  "Z08-P08": {
+    "type": "mineral_test_plate",
+    "variant": "rift",
+    "tests": [
+      "Dark dense basalt matrix check",
+      "Vesicle fill hardness vs steel",
+      "Banded translucent waxy luster",
+      "Verify non-park lawful shoreline"
+    ],
+    "scale": "Compare dry vs wet cobble luster",
+    "hazard": "State parks & wet wave ledges off-limits"
+  },
+  "Z08-P09": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Fractured dolostone caprock",
+      "Weak shale undercut notch",
+      "Talus apron & karst sinkholes"
+    ],
+    "note": "Observe bluffs from safe distance",
+    "hazard": "Freeze-thaw rockfall & rapid runoff"
+  },
+  "Z08-P10": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Glacial till",
+        "note": "Unsorted clay, silt & boulders",
+        "limit": "Poor drainage; mixed provenance"
+      },
+      {
+        "name": "Meltwater outwash",
+        "note": "Sorted sand & rounded gravel",
+        "limit": "Loose banks collapse rapidly"
+      },
+      {
+        "name": "Lake-plain silt",
+        "note": "Flat fine clay & silt beds",
+        "limit": "Shrinks/swells; holds ponding"
+      }
+    ]
+  },
+  "Z08-P11": {
+    "type": "mineral_test_plate",
+    "variant": "igneous",
+    "tests": [
+      "Interlocking random crystal check",
+      "Coarse (granite/gabbro) vs fine",
+      "Quartz glassy grains vs dark mafic",
+      "Check hairline cracks & moisture"
+    ],
+    "scale": "Hand lens + mm grain gauge",
+    "hazard": "River/damp cobbles spall in heat"
+  },
+  "Z08-P12": {
+    "type": "geological_strata",
+    "variant": "strata",
+    "strata": [
+      "Conglomerate: cemented pebbles",
+      "Sandstone: gritty quartz grains",
+      "Shale: thin brittle clay sheets"
+    ],
+    "note": "High porosity & weak bedding",
+    "hazard": "Crumbling ledges & quartz dust"
+  },
+  "Z08-P13": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Gneiss / Schist",
+        "note": "Aligned bands or shiny mica",
+        "limit": "Splits on foliation; watch fibers"
+      },
+      {
+        "name": "Slate",
+        "note": "Very fine flat platy sheets",
+        "limit": "Brittle edges; slippery when wet"
+      },
+      {
+        "name": "Quartzite",
+        "note": "Fused glassy quartz grains",
+        "limit": "Hard; fractures create silica dust"
+      }
+    ]
+  },
+  "Z08-P14": {
+    "type": "correct_vs_wrong",
+    "variant": "materials",
+    "correct_title": "Bounded Field Screening",
+    "correct_items": [
+      "Log rind, texture & uncertainty",
+      "Use existing natural clean faces"
+    ],
+    "wrong_title": "Unsafe Identification Errors",
+    "wrong_items": [
+      "Guess composition from surface color",
+      "Hammer protected outcrops for core"
+    ],
+    "reason": "Visual field cues never prove chemical or structural safety"
+  },
+  "Z08-P15": {
+    "type": "mineral_test_plate",
+    "variant": "quartz",
+    "tests": [
+      "Scratches steel (Mohs ~7)",
+      "Curved fracture; zero cleavage",
+      "Glassy crystal vs waxy chert",
+      "Verify lawful non-park site"
+    ],
+    "scale": "10x hand lens + cm scale bar",
+    "hazard": "High crystalline silica dust hazard"
+  },
+  "Z08-P16": {
+    "type": "geological_strata",
+    "variant": "fracture",
+    "strata": [
+      "Planar cleavage: repeating flat steps",
+      "Conchoidal: smooth curved ripples",
+      "Uneven/hackly: jagged rough break"
+    ],
+    "note": "Tilt natural edge in daylight",
+    "hazard": "Do not hammer protected stone"
+  },
+  "Z08-P17": {
+    "type": "mineral_test_plate",
+    "variant": "streak",
+    "tests": [
+      "Metallic vs glassy/waxy luster",
+      "Check hardness < 6.5 before streak",
+      "Read powder color on white tile",
+      "Wash hands after ore contact"
+    ],
+    "scale": "Unglazed white porcelain tile",
+    "hazard": "Skip crumbly metallic or toxic crusts"
+  },
+  "Z08-P18": {
+    "type": "correct_vs_wrong",
+    "variant": "carbonate",
+    "correct_title": "Safe Carbonate Screening",
+    "correct_items": [
+      "Use copper/steel hardness steps",
+      "Keep limestone away from high heat"
+    ],
+    "wrong_title": "Hazardous Shortcuts",
+    "wrong_items": [
+      "Assume white vein equals quartz",
+      "Heat damp limestone in fire ring"
+    ],
+    "reason": "Carbonates are soft, porous, and spall or calcine in fire"
+  },
+  "Z08-P19": {
+    "type": "mineral_test_plate",
+    "variant": "silicates",
+    "tests": [
+      "Feldspar: 2 flat planes near 90 deg",
+      "Feldspar hardness ~6 (near steel)",
+      "Mica: shiny thin peeling sheets",
+      "Quartz: glassy, no flat cleavage"
+    ],
+    "scale": "Hand lens + daylight angle tilt",
+    "hazard": "Inspect adjacent veins for fibers"
+  },
+  "Z08-P20": {
+    "type": "system_boundary",
+    "variant": "magnetic",
+    "zone_a": "Magnetite iron-formation outcrop",
+    "zone_b": "Verified terrain & map bearing",
+    "barrier": "Reciprocal bearing cross-check",
+    "hazard": "STOP: Never enter mine pits or trust deflected needles"
+  },
+  "Z08-P21": {
+    "type": "hazard_exclusion_map",
+    "variant": "ore",
+    "zones": [
+      "Metallic ore / tailings: zero contact or heat",
+      "Hand-wash & gear-clean perimeter",
+      "Safe photo-only observation station"
+    ],
+    "buffer": "Observe intact; wash hands thoroughly",
+    "report": "Suspected ingestion -> Poison Help 1-800-222-1222"
+  },
+  "Z08-P22": {
+    "type": "failure_mode",
+    "cause": "Pore water in river/porous stone flashes to steam",
+    "cue": "Hissing, popping, or widening hairline cracks",
+    "correction": "Keep all unverified stone out of fires"
+  },
+  "Z08-P23": {
+    "type": "correct_vs_wrong",
+    "variant": "abrasion",
+    "correct_title": "Controlled Tool Maintenance",
+    "correct_items": [
+      "Carry maintained manufactured hone",
+      "Observe sandstone intact without dust"
+    ],
+    "wrong_title": "Uncontrolled Stone Grinding",
+    "wrong_items": [
+      "Dry-grind unknown sandstone blocks",
+      "Assume gritty stone equals safe hone"
+    ],
+    "reason": "Quartz dust harms lungs and irregular grit damages edges"
+  },
+  "Z08-P24": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Chert / Quartz",
+        "note": "High scratch hardness (~7)",
+        "limit": "Brittle under bending/impact"
+      },
+      {
+        "name": "Calcite / Shale",
+        "note": "Low hardness; planar splits",
+        "limit": "Crushes & cleaves easily"
+      },
+      {
+        "name": "Tempered steel",
+        "note": "Engineered toughness balance",
+        "limit": "Requires inspection & care"
+      }
+    ]
+  },
+  "Z08-P25": {
+    "type": "geological_strata",
+    "variant": "clay_soil",
+    "strata": [
+      "O/A horizon: dark organic topsoil",
+      "B horizon: dense plastic lake clay",
+      "C horizon: sand/gravel drift base"
+    ],
+    "note": "Check land law & runoff history",
+    "hazard": "Fine clay binds lead & heavy metals"
+  },
+  "Z08-P26": {
+    "type": "sequence_plate",
+    "variant": "clay_test",
+    "steps": [
+      {
+        "label": "1. Screen site",
+        "detail": "Confirm lawful & clean area"
+      },
+      {
+        "label": "2. Moisten",
+        "detail": "Wet small gloved pinch"
+      },
+      {
+        "label": "3. Ribbon check",
+        "detail": "Cohesive clay vs gritty sand"
+      },
+      {
+        "label": "4. Log limit",
+        "detail": "Shrinkage & no food safety"
+      }
+    ],
+    "cue": "Texture check never proves chemical purity or firing strength"
+  },
+  "Z08-P27": {
+    "type": "hazard_exclusion_map",
+    "variant": "soil",
+    "zones": [
+      "Roadway, old paint & tailings: reject soil",
+      "Downslope runoff wash: suspect metals",
+      "Verified clean site: non-food study only"
+    ],
+    "buffer": "Sight/smell never detect soil lead",
+    "report": "Use lab soil testing before food use"
+  },
+  "Z08-P28": {
+    "type": "failure_mode",
+    "cause": "Uneven clay shrinkage, steam pockets & unknown metals",
+    "cue": "Cracking, spalling, or porous seepage under heat",
+    "correction": "Use tested metal vessels; keep wild clay non-food"
+  },
+  "Z08-P29": {
+    "type": "geological_strata",
+    "variant": "clay_soil",
+    "strata": [
+      "Coarse sand: drains fast, weak stake grip",
+      "Loam mix: moderate drainage & hold",
+      "Dense clay: ponds water, slick mud"
+    ],
+    "note": "Check drainage before storm arrives",
+    "hazard": "Wet clay flats pool cold runoff"
+  },
+  "Z08-P30": {
+    "type": "system_boundary",
+    "variant": "ash_carbon",
+    "zone_a": "Caustic wet wood ash & crude char",
+    "zone_b": "Validated NSF carbon & water care",
+    "barrier": "Keep ash out of eyes, skin & water",
+    "hazard": "STOP: Treated-wood ash holds toxic metals"
+  },
+  "Z08-P31": {
+    "type": "geological_strata",
+    "variant": "clay_soil",
+    "strata": [
+      "Live sphagnum & dry surface moss",
+      "Waterlogged deep fibrous peat",
+      "Hidden bog water or soft muck"
+    ],
+    "note": "Zero fire on peat or organic duff",
+    "hazard": "Subterranean fire & sudden sink risk"
+  },
+  "Z08-P32": {
+    "type": "failure_mode",
+    "cause": "Freeze-thaw, saturation & undercut erosion",
+    "cue": "Rim tension cracks, leaning trees, fresh talus",
+    "correction": "Maintain wide setback on stable upland ground"
+  },
+  "Z08-P33": {
+    "type": "geological_strata",
+    "variant": "wood_grain",
+    "strata": [
+      "Bark & thin inner cambium/bast",
+      "Sapwood & heartwood growth rings",
+      "Straight grain vs weak diagonal runout"
+    ],
+    "note": "Dead downed lawful wood only",
+    "hazard": "Visual check != structural load rating"
+  },
+  "Z08-P34": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dense hardwood",
+        "note": "Oak, maple, hickory: slow coals",
+        "limit": "Hard to split; slow to season"
+      },
+      {
+        "name": "Soft low-resin",
+        "note": "Basswood, aspen: light & even",
+        "limit": "Burns fast; decays rapidly wet"
+      },
+      {
+        "name": "Resinous conifer",
+        "note": "Pine, spruce: quick flame",
+        "limit": "Pops sparks; sticky pitch buildup"
+      }
+    ]
+  },
+  "Z08-P35": {
+    "type": "failure_mode",
+    "cause": "Ground moisture, fungi & beetles weaken wood core",
+    "cue": "Shelf conks, spongy crumble, loose bark, overhead snags",
+    "correction": "Clear snag zone; reject punky decayed wood"
+  },
+  "Z08-P36": {
+    "type": "correct_vs_wrong",
+    "variant": "bark",
+    "correct_title": "Lawful Fiber Study",
+    "correct_items": [
+      "Use fallen dead windfall where lawful",
+      "Keep bast cordage non-load-rated"
+    ],
+    "wrong_title": "Damaging & Illegal Harvest",
+    "wrong_items": [
+      "Peel bark from live standing trees",
+      "Assign weight ratings to plant cord"
+    ],
+    "reason": "Girdling kills trees and natural fiber strength is unrated"
+  },
+  "Z08-P37": {
+    "type": "system_boundary",
+    "variant": "plant_fiber",
+    "zone_a": "Verified lawful non-toxic dry stem",
+    "zone_b": "Toxic sap/umbel & protected flora",
+    "barrier": "ID + gloves + land permission gate",
+    "hazard": "STOP: Never touch unknown sap or protected wetlands"
+  },
+  "Z08-P38": {
+    "type": "seasonal_timeline",
+    "variant": "fiber_decay",
+    "phases": [
+      {
+        "window": "Fresh dry",
+        "focus": "Pliable sound strand"
+      },
+      {
+        "window": "Wet/damp",
+        "focus": "Swelling & rot risk"
+      },
+      {
+        "window": "UV/abrasion",
+        "focus": "Fuzzing & brittle dry"
+      },
+      {
+        "window": "Retire",
+        "focus": "Discard frayed cord"
+      }
+    ],
+    "threshold": "STOP: Natural cordage is never rated for human/overhead loads"
+  },
+  "Z08-P39": {
+    "type": "failure_mode",
+    "cause": "Uneven drying shrinkage across growth rings",
+    "cue": "Radial end-grain splits, warped shaft, loose head",
+    "correction": "Use dry seasoned wood; retire cracked handles"
+  },
+  "Z08-P40": {
+    "type": "correct_vs_wrong",
+    "variant": "wood_grain",
+    "correct_title": "Sound Grain Alignment",
+    "correct_items": [
+      "Continuous lengthwise fibers",
+      "No dead knots in bend zone"
+    ],
+    "wrong_title": "Snap-Prone Wood Defects",
+    "wrong_items": [
+      "Diagonal grain exiting shaft side",
+      "Beetle holes or radial splits"
+    ],
+    "reason": "Cross-grain and knots snap without warning under bend"
+  },
+  "Z08-P41": {
+    "type": "specimen_doc_plate",
+    "variant": "wood_b007",
+    "views": [
+      "Whole tree & habitat",
+      "Leaf & twig close-up",
+      "Bark & winter bud view",
+      "Dry dead wood end-grain"
+    ],
+    "voucher": "B007 lineage; multi-view ID needed",
+    "hold": "HOLD: No live cutting; not emergency backup"
+  },
+  "Z08-P42": {
+    "type": "correct_vs_wrong",
+    "variant": "cedar_cotton",
+    "correct_title": "Dry Sound Deadfall",
+    "correct_items": [
+      "Shaved face dry & crisp",
+      "Zero sticky pitch glaze"
+    ],
+    "wrong_title": "Reject Wood Conditions",
+    "wrong_items": [
+      "Damp ground-contact logs",
+      "Live tree bark stripping"
+    ],
+    "reason": "Wet or resinous wood glazes; live stripping harms trees"
+  },
+  "Z08-P43": {
+    "type": "lookalike_diagnostic",
+    "variant": "stalk_pair",
+    "target_name": "Dry Mullein Stalk",
+    "target_traits": [
+      "Dense woolly seed spike",
+      "Solid pithy unbranched stalk"
+    ],
+    "toxic_name": "Dry Hemlock / Parsnip",
+    "toxic_traits": [
+      "Branching flat umbel rays",
+      "Hollow chambered toxic stem"
+    ],
+    "exclusion": "HOLD: Verify dried stalk ID; never handle unknown umbels"
+  },
+  "Z08-P44": {
+    "type": "system_boundary",
+    "variant": "b007a_cord",
+    "zone_a": "Educational lawful bast fiber",
+    "zone_b": "Rated commercial cordage tasks",
+    "barrier": "Zero load rating on wild fiber",
+    "hazard": "STOP: Never load improvised twine overhead or for life safety"
+  },
+  "Z08-P45": {
+    "type": "correct_vs_wrong",
+    "variant": "b008_resin",
+    "correct_title": "Role-Separated Wood Use",
+    "correct_items": [
+      "Dead fallen wood where lawful",
+      "Outdoor mineral-soil fire only"
+    ],
+    "wrong_title": "Hazardous Mix-Ups",
+    "wrong_items": [
+      "Use pitchy pine on friction hearth",
+      "Burn resinous wood in shelter"
+    ],
+    "reason": "Pitch glazes friction boards and creates hazardous indoor smoke"
+  },
+  "Z08-P46": {
+    "type": "specimen_doc_plate",
+    "variant": "b011_lead",
+    "views": [
+      "Match accepted binomial",
+      "Link regional voucher ID",
+      "Acquire rights-cleared views",
+      "Complete SME sign-off"
+    ],
+    "voucher": "B011 leads remain unverified",
+    "hold": "HOLD: Zero fabricated species plates"
+  },
+  "Z08-P47": {
+    "type": "decision_tree",
+    "gates": [
+      "Gate 1: Lawful site & permission?",
+      "Gate 2: Zero silica/fiber/toxin risk?",
+      "Gate 3: Non-critical task & sound?"
+    ],
+    "abort": "ABORT: Any NO or doubt -> leave intact & use tested gear"
+  },
+  "Z08-P48": {
+    "type": "seasonal_timeline",
+    "variant": "frost_wedge",
+    "phases": [
+      {
+        "window": "Rain/melt",
+        "focus": "Water fills rock joints"
+      },
+      {
+        "window": "Hard freeze",
+        "focus": "Ice expands & widens crack"
+      },
+      {
+        "window": "Spring thaw",
+        "focus": "Ice bond releases slab"
+      },
+      {
+        "window": "Rockfall",
+        "focus": "Sudden bluff detachment"
+      }
+    ],
+    "threshold": "STOP: Stay clear of thawing bluffs and fresh talus"
+  },
+  "Z08-P49": {
+    "type": "mineral_test_plate",
+    "variant": "degradation",
+    "tests": [
+      "Fungal rot: soft & musty smell",
+      "Insects: pinholes & fine frass",
+      "UV sun: chalky brittle fibers",
+      "Corrosion: rust swell at eyes"
+    ],
+    "scale": "Inspect in daylight before use",
+    "hazard": "Retire degraded gear before failure"
+  },
+  "Z08-P50": {
+    "type": "sequence_plate",
+    "variant": "thermal_crack",
+    "steps": [
+      {
+        "label": "1. Rapid heat",
+        "detail": "Minerals expand unevenly"
+      },
+      {
+        "label": "2. Micro-cracks",
+        "detail": "Internal stress fractures"
+      },
+      {
+        "label": "3. Moisture entry",
+        "detail": "Rain fills new fissures"
+      },
+      {
+        "label": "4. Reheat spall",
+        "detail": "Sharp violent fracture"
+      }
+    ],
+    "cue": "Even dry stone degrades after repeated heat cycles"
+  },
+  "Z08-P51": {
+    "type": "hazard_exclusion_map",
+    "variant": "flakes",
+    "zones": [
+      "Active edge: razor-cut & chip zone",
+      "Bystander eye-safety setback",
+      "First-aid & clean-up perimeter"
+    ],
+    "buffer": "ANSI eye protection + leather gloves",
+    "report": "Deep laceration -> direct pressure & EMS"
+  },
+  "Z08-P52": {
+    "type": "system_boundary",
+    "variant": "struct_cert",
+    "zone_a": "Visual field material recognition",
+    "zone_b": "Engineered structural load rating",
+    "barrier": "No load rating from sight alone",
+    "hazard": "STOP: Use rated hardware for life-safety loads"
+  },
+  "Z08-P53": {
+    "type": "system_boundary",
+    "variant": "food_contact",
+    "zone_a": "Unverified stone, wild clay & scrap",
+    "zone_b": "Food-grade tested cookware & vessels",
+    "barrier": "Visual cleanliness != chemical safety",
+    "hazard": "STOP: Never heat galvanized, painted, or ore rock"
+  },
+  "Z08-P54": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Field observer",
+        "scope": "Non-contact photo + scale",
+        "action": "Leave intact & log locality"
+      },
+      {
+        "role": "Regional survey",
+        "scope": "MGS / DNR / museum review",
+        "action": "Confirm formation & ID"
+      },
+      {
+        "role": "Lab / hygienist",
+        "scope": "Assay & safety clearance",
+        "action": "Test dust, fibers, metals"
+      }
+    ],
+    "trigger": "HOLD: Uncertain specimens are never cleared for field use"
+  },
+  "Z08-P55": {
+    "type": "regulation_boundary",
+    "variant": "nps_cfr",
+    "authority": "36 CFR 2.1 · National Park Service",
+    "checks": [
+      "Confirm exact NPS unit & riverway boundaries",
+      "Check park Superintendent Compendium rules",
+      "Limit fieldwork strictly to non-contact photos"
+    ],
+    "prohibition": "STOP: Collecting rocks, fossils, soil, or wood is prohibited"
+  },
+  "Z08-P56": {
+    "type": "regulation_boundary",
+    "variant": "mn_parks",
+    "authority": "Minnesota DNR · State Parks & SNAs",
+    "checks": [
+      "Check DNR land-type map before entering site",
+      "Zero collecting of rocks, soil, or plants in parks",
+      "Obey strict SNA zero-disturbance & no-fire rules"
+    ],
+    "prohibition": "STOP: Leave all rocks, minerals & wood undisturbed"
+  },
+  "Z08-P57": {
+    "type": "hazard_exclusion_map",
+    "variant": "quarry",
+    "zones": [
+      "Active quarry highwall & pit: zero entry",
+      "Highway shoulder: traffic strike zone",
+      "Permitted low-slope site: lawful study"
+    ],
+    "buffer": "Explicit landowner permission required",
+    "report": "Verify site status before every visit"
+  },
+  "Z08-P58": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "Eliminate",
+        "scope": "Observe intact stone",
+        "action": "Avoid dry breaking/grinding"
+      },
+      {
+        "role": "Wet control",
+        "scope": "Authorized workshop",
+        "action": "Continuous water & airflow"
+      },
+      {
+        "role": "Fitted PPE",
+        "scope": "Verified hazard zone",
+        "action": "ANSI eyes + NIOSH N95/P100"
+      }
+    ],
+    "trigger": "STOP: Visible silica dust or missing PPE halts stone work"
+  },
+  "Z08-P59": {
+    "type": "hazard_exclusion_map",
+    "variant": "asbestos",
+    "zones": [
+      "Fibrous vein / mine waste: zero disturbance",
+      "Upwind clear observation stance",
+      "Outdoor wet wash of dusty boots"
+    ],
+    "buffer": "Sight cannot clear fibrous minerals",
+    "report": "Consult state geologic/health agency"
+  },
+  "Z08-P60": {
+    "type": "sequence_plate",
+    "variant": "decon",
+    "steps": [
+      {
+        "label": "1. Segregate",
+        "detail": "Keep stones off food gear"
+      },
+      {
+        "label": "2. Wash hands",
+        "detail": "Soap & water before eating"
+      },
+      {
+        "label": "3. Rinse boots",
+        "detail": "Clean mud away from wells"
+      },
+      {
+        "label": "4. Store safely",
+        "detail": "Labeled box out of reach"
+      }
+    ],
+    "cue": "Prevent hand-to-mouth transfer of silica, lead, and ores"
   }
 }

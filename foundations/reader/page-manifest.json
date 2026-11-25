@@ -10852,6 +10852,3617 @@
     "reviewer": "Wilderness medicine, public health and search and rescue"
   },
   {
+    "id": "Z08-P01",
+    "zone": "Z08",
+    "title": "Minnesota Bedrock Provinces and Regional Geology",
+    "origin": "New manuscript (Z08 P16 regional geology)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Consult Minnesota Geological Survey bedrock and surficial maps to identify the regional geologic province before inspecting local outcrops.",
+        "claims": [
+          "R01"
+        ]
+      },
+      {
+        "text": "Distinguish intact bedrock exposures from loose glacial cobbles because Pleistocene drift mixes rock types from distant northern source terrains.",
+        "claims": [
+          "R02"
+        ]
+      },
+      {
+        "text": "Record GPS coordinates, landform context, and outcrop orientation rather than inferring subsurface rock continuity from surface float.",
+        "claims": [
+          "R01",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Orient field material observations using Minnesota bedrock provinces and glacial cover before interpreting loose surface stone.",
+    "applies": "Upper Midwest fieldwork across Canadian Shield, Midcontinent Rift, Paleozoic bluff, and glacial-drift landscapes.",
+    "equipment": "Regional geologic map, hand lens, notebook, metric scale ruler.",
+    "diagram": "Map province and glacial cover | Separate bedrock from loose drift | Record locality without certifying composition",
+    "visual": "Conceptual regional stratigraphic profile comparing surficial glacial till over sedimentary and crystalline bedrock.",
+    "failure": {
+      "text": "Assuming a loose cobble represents local bedrock leads to false geological mapping and wrong material expectations.",
+      "claims": [
+        "R02"
+      ]
+    },
+    "verify": {
+      "text": "Regional map unit, landform setting, and bedrock-versus-float status are written in field notes before recording any observation.",
+      "claims": [
+        "R01",
+        "R19"
+      ]
+    },
+    "stop": {
+      "text": "Stop rock sampling on unstable bluffs, active quarries, or restricted public lands, and never infer engineering suitability from regional maps alone.",
+      "claims": [
+        "R08",
+        "R16"
+      ]
+    },
+    "reviewer": "Geologist and regional survey reviewer"
+  },
+  {
+    "id": "Z08-P02",
+    "zone": "Z08",
+    "title": "Non-Destructive Mineral Property Screening",
+    "origin": "New manuscript (Z08 P16 mineral properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Examine fresh surfaces under daylight with a hand lens for luster, grain interlocking, and planar cleavage versus curved fracture before scratching.",
+        "claims": [
+          "R03",
+          "R04"
+        ]
+      },
+      {
+        "text": "Test relative hardness in ordered steps from fingernail to copper to steel rather than relying on surface color, which varies widely within one mineral.",
+        "claims": [
+          "R04"
+        ]
+      },
+      {
+        "text": "Perform a gentle streak check on unglazed porcelain only on solid non-fibrous samples, and wash hands thoroughly afterward.",
+        "claims": [
+          "R04",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Narrow candidate mineral groups through repeatable non-destructive surface observations without tasting, burning, or pulverizing specimens.",
+    "applies": "Field screening of hand specimens in daylight with minimal tools.",
+    "equipment": "10x hand lens, steel nail, copper coin, unglazed porcelain streak plate, metric ruler, eye protection.",
+    "diagram": "Screen luster and crystal habit | Check scratch hardness and streak | Separate observation from chemical safety",
+    "visual": "Conceptual Mohs hardness reference bar paired with four non-destructive mineral observation checks.",
+    "failure": {
+      "text": "Relying on color alone or striking unknown specimens blindly misclassifies quartz, calcite, and hazardous sulfide ores while creating sharp fragments.",
+      "claims": [
+        "R04",
+        "R06",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Hardness bracket, luster, streak color, and cleavage or fracture pattern agree across at least two clean surfaces.",
+      "claims": [
+        "R04"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and leave the specimen undisturbed if fibrous veins, bright metallic crusts, or dusty crumbly masses appear.",
+      "claims": [
+        "R07",
+        "R14"
+      ]
+    },
+    "reviewer": "Mineralogist and industrial hygienist"
+  },
+  {
+    "id": "Z08-P03",
+    "zone": "Z08",
+    "title": "Chert, Flint, Quartz and Conchoidal Fracture",
+    "origin": "New manuscript (Z08 P16 siliceous stone)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify cryptocrystalline silica candidates by hardness scratching steel and smooth curved conchoidal fracture surfaces lacking flat cleavage planes.",
+        "claims": [
+          "R04",
+          "R05"
+        ]
+      },
+      {
+        "text": "Separate visual recognition of chert or quartz from claims of thermal shock resistance, chemical purity, or tool-edge durability.",
+        "claims": [
+          "R05",
+          "R13"
+        ]
+      },
+      {
+        "text": "Prohibit dry grinding, crushing, or unguarded striking of quartz-rich stone because airborne crystalline silica dust damages lungs and flying flakes injure eyes.",
+        "claims": [
+          "R06"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize cryptocrystalline silica rocks by conchoidal fracture and hardness while enforcing strict dust, eye, and non-certification limits.",
+    "applies": "Field recognition of chert nodules, jasper, Lake Superior agate, and vein quartz in Upper Midwest deposits.",
+    "equipment": "Hand lens, steel scratch tool, metric scale, ANSI Z87.1 eye protection if authorized training occurs.",
+    "diagram": "Check hardness against steel | Observe curved conchoidal ripples | Enforce dust and eye boundaries",
+    "visual": "Conceptual comparison of curved conchoidal silica fracture ripples against planar mineral cleavage with metric scale bar.",
+    "failure": {
+      "text": "Mistaking fine-grained basalt, glass, or water-saturated chert for uniform silica leads to shattering, sharp-edge cuts, and silica dust inhalation.",
+      "claims": [
+        "R05",
+        "R06",
+        "R13"
+      ]
+    },
+    "verify": {
+      "text": "Specimen exhibits glass-like curved fracture and scratches steel without crumbling, and no unauthorized striking or dry dust generation occurs.",
+      "claims": [
+        "R05",
+        "R06"
+      ]
+    },
+    "stop": {
+      "text": "Stop handling fractured silica if eye or respiratory protection is unavailable, if stone is wet near fire, or if land rules prohibit collection.",
+      "claims": [
+        "R06",
+        "R08",
+        "R13"
+      ]
+    },
+    "reviewer": "Geologist, materials specialist, and industrial hygienist"
+  },
+  {
+    "id": "Z08-P04",
+    "zone": "Z08",
+    "title": "Documenting Geological Specimens with Scale and Provenance",
+    "origin": "New manuscript (Z08 P16 specimen documentation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Photograph the host outcrop or gravel deposit wide before taking perpendicular close-ups of both weathered rind and natural unweathered surfaces.",
+        "claims": [
+          "R03",
+          "R19"
+        ]
+      },
+      {
+        "text": "Place a readable metric scale bar in the focal plane on every close-up view and record exact date, county, landform, and GPS coordinates.",
+        "claims": [
+          "R19"
+        ]
+      },
+      {
+        "text": "Label every field record as provisional pending curator or laboratory verification rather than treating field photographs as definitive petrography.",
+        "claims": [
+          "R03",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Capture auditable multi-view specimen records with scale, locality, and fresh-versus-weathered faces so curators can evaluate field finds.",
+    "applies": "Field photography and note-taking for geological reference or museum verification.",
+    "equipment": "Camera, metric scale card, notebook, GPS or quadrangle map.",
+    "diagram": "Frame outcrop context first | Photograph fresh and weathered faces | Log locality and curator review hold",
+    "visual": "Conceptual four-view geological voucher workflow showing outcrop context, close-up grain, scale bar, and review hold.",
+    "failure": {
+      "text": "Close-up rock images without scale, locality, or outcrop context prevent geologists from distinguishing fine-grained igneous, metamorphic, and chert specimens.",
+      "claims": [
+        "R03",
+        "R19"
+      ]
+    },
+    "verify": {
+      "text": "Four matched views, readable metric scale, exact locality notes, and legal land-status verification are saved together.",
+      "claims": [
+        "R08",
+        "R19"
+      ]
+    },
+    "stop": {
+      "text": "Stop photographing from unstable cliff ledges, active roadcuts, or protected preserves where entry or specimen disturbance is prohibited.",
+      "claims": [
+        "R08",
+        "R10",
+        "R16"
+      ]
+    },
+    "reviewer": "Curatorial geologist"
+  },
+  {
+    "id": "Z08-P05",
+    "zone": "Z08",
+    "title": "Public-Land Rock and Mineral Collecting Restrictions",
+    "origin": "New manuscript (Z08 P16 collection law)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Confirm exact land jurisdiction before picking up specimens because National Parks under 36 CFR 2.1, Minnesota State Parks, and SNAs prohibit removing rocks, soil, or fossils.",
+        "claims": [
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "text": "Obtain explicit landowner permission before collecting on private property and stay clear of active quarries, steep roadcuts, and highway traffic zones.",
+        "claims": [
+          "R11"
+        ]
+      },
+      {
+        "text": "Record the governing agency, rule source, and check date whenever limited public-land rock collecting is permitted under local guidelines.",
+        "claims": [
+          "R08",
+          "R11"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Verify land ownership and collecting statutes before removing any rock, mineral, soil, or fossil specimen from a site.",
+    "applies": "Federal parks, Minnesota State Parks, Scientific and Natural Areas, public forests, and private land.",
+    "equipment": "Land-ownership map, posted boundary notices, current agency rules.",
+    "diagram": "Confirm governing land authority | Check statutory collecting exclusions | Leave protected features untouched",
+    "visual": "Conceptual regulatory verification gate contrasting prohibited federal/state preserves with permission-gated public or private sites.",
+    "failure": {
+      "text": "Assuming shoreline cobbles or roadside gravel are free to take results in unlawful resource removal, trespass, or severe traffic and quarry hazards.",
+      "claims": [
+        "R08",
+        "R09",
+        "R11"
+      ]
+    },
+    "verify": {
+      "text": "Jurisdiction, collecting permission, and physical site safety are documented before any specimen leaves the ground.",
+      "claims": [
+        "R08",
+        "R11"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and leave every stone in place when land boundaries are uncertain or signs indicate a park, monument, SNA, or tribal preserve.",
+      "claims": [
+        "R08",
+        "R09",
+        "R10"
+      ]
+    },
+    "reviewer": "Public-lands resource manager and legal reviewer"
+  },
+  {
+    "id": "Z08-P06",
+    "zone": "Z08",
+    "title": "Respirable Crystalline Silica and Fibrous Mineral Stop Rules",
+    "origin": "New manuscript (Z08 P16 dust and toxicity)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Avoid dry grinding, crushing, sanding, or hammering quartz, chert, sandstone, or granite because fracturing silica generates hazardous respirable crystalline silica dust.",
+        "claims": [
+          "R06"
+        ]
+      },
+      {
+        "text": "Leave fibrous, silky, splintery, or matted mineral veins completely undisturbed because field sight cannot separate harmless fibers from regulated asbestos.",
+        "claims": [
+          "R07"
+        ]
+      },
+      {
+        "text": "Treat outdoor wind as unreliable dust control, keep bystanders upwind and clear, and wash hands and clothing after dusty geological fieldwork.",
+        "claims": [
+          "R06",
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent irreversible lung injury from crystalline silica dust and naturally occurring asbestiform mineral fibers during material observation or instruction.",
+    "applies": "Any encounter with quartz-bearing stone, sandstone, iron-formation rock, or fibrous mineral veins.",
+    "equipment": "Eye protection, NIOSH-approved respirator where authorized dust work exists, wash water.",
+    "diagram": "Recognize silica and fibrous veins | Avoid dry breaking or grinding | Isolate dust and wash hands",
+    "visual": "Conceptual airborne dust plume and PPE exclusion boundary separating intact rock observation from hazardous dry abrasion.",
+    "failure": {
+      "text": "Working stone dry without respiratory protection or disturbing fibrous iron-formation veins exposes lungs to cumulative fibrotic and carcinogenic hazards.",
+      "claims": [
+        "R06",
+        "R07"
+      ]
+    },
+    "verify": {
+      "text": "No dry stone abrasion occurs in field exercises and all fibrous mineral outcrops remain untouched and noted as hazard exclusions.",
+      "claims": [
+        "R06",
+        "R07"
+      ]
+    },
+    "stop": {
+      "text": "Stop all mechanical stone work immediately whenever visible dust rises, fibrous mineral textures appear, or certified eye and dust protection is absent.",
+      "claims": [
+        "R06",
+        "R07"
+      ]
+    },
+    "reviewer": "Industrial hygienist and mineralogist"
+  },
+  {
+    "id": "Z08-P07",
+    "zone": "Z08",
+    "title": "Precambrian Canadian Shield Outcrops in Northern Minnesota",
+    "origin": "New manuscript (Z08 P16 regional formations)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Expect dense crystalline granite, gneiss, greenstone, and gabbro on northern Shield outcrops shaped by glacial scouring and steep joint planes.",
+        "claims": [
+          "R01",
+          "R02"
+        ]
+      },
+      {
+        "text": "Inspect smooth glaciated granite slopes for wet lichen, ice films, and exfoliation slabs that fail underfoot even on gentle grades.",
+        "claims": [
+          "R01",
+          "R16"
+        ]
+      },
+      {
+        "text": "Check magnetic compass needles against terrain features near dark mafic or iron-rich Shield bedrock because magnetite deflects bearings locally.",
+        "claims": [
+          "R20"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize ancient igneous and metamorphic Shield bedrock and its weathering, jointing, and magnetic field implications.",
+    "applies": "Boundary Waters, Arrowhead, and northern Minnesota exposed bedrock terrain.",
+    "equipment": "Regional geologic map, hand lens, baseplate compass.",
+    "diagram": "Note crystalline interlocking texture | Inspect fracture joints and lichen | Cross-check local compass bearings",
+    "visual": "Conceptual shield bedrock profile showing crystalline rock, glacial striations, and local magnetic-iron caution.",
+    "failure": {
+      "text": "Assuming dark Shield stone is uniform non-magnetic rock or that lichen-covered slabs offer reliable footing causes navigation drift and falls.",
+      "claims": [
+        "R16",
+        "R20"
+      ]
+    },
+    "verify": {
+      "text": "Outcrop lithology notes separate crystalline Shield rock from loose drift and record any observed magnetic compass anomaly.",
+      "claims": [
+        "R01",
+        "R20"
+      ]
+    },
+    "stop": {
+      "text": "Stop scrambling on wet lichen slabs or collecting from Boundary Waters, Voyageurs, or protected Shield preserves.",
+      "claims": [
+        "R08",
+        "R09",
+        "R16"
+      ]
+    },
+    "reviewer": "Precambrian geologist"
+  },
+  {
+    "id": "Z08-P08",
+    "zone": "Z08",
+    "title": "Midcontinent Rift Basalts, Gabbro and Lake Superior Agates",
+    "origin": "New manuscript (Z08 P16 regional formations)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Observe North Shore basalt flows for dark fine-grained texture and rounded gas cavities sometimes lined with chalcedony, calcite, or banded agate.",
+        "claims": [
+          "R01",
+          "R05"
+        ]
+      },
+      {
+        "text": "Distinguish translucent banded Lake Superior agate by hardness scratching steel and curved waxy luster rather than wet pebble sheen.",
+        "claims": [
+          "R04",
+          "R05"
+        ]
+      },
+      {
+        "text": "Check North Shore land status before picking up any beach cobble because state parks, SNAs, and private lakeshore prohibit collecting.",
+        "claims": [
+          "R09",
+          "R10",
+          "R11"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish dark volcanic basalt flows, gas-bubble amygdules, and banded quartz agates while respecting North Shore park laws.",
+    "applies": "Lake Superior North Shore, Duluth Complex, and glacial gravel derived from rift volcanics.",
+    "equipment": "Hand lens, metric ruler, land-boundary map.",
+    "diagram": "Spot dark fine-grained volcanic flows | Distinguish quartz-filled vesicles | Obey North Shore park bans",
+    "visual": "Conceptual volcanic rift sequence comparing dense basalt flows, mineral-filled vesicles, and beach cobble legal limits.",
+    "failure": {
+      "text": "Collecting pebbles on state park beaches or climbing wet wave-washed basalt ledges causes legal violations and fatal cold-water falls.",
+      "claims": [
+        "R09",
+        "R11",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "North Shore observations stay on lawful stable ground and distinguish quartz amygdules from softer calcite fillings.",
+      "claims": [
+        "R04",
+        "R05",
+        "R11"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately on wet basalt ledges, during heavy Lake Superior swells, or inside any state park or SNA shoreline boundary.",
+      "claims": [
+        "R09",
+        "R10",
+        "R16"
+      ]
+    },
+    "reviewer": "Volcanologist and North Shore park reviewer"
+  },
+  {
+    "id": "Z08-P09",
+    "zone": "Z08",
+    "title": "Paleozoic Limestone, Dolostone and Karst Bluff Hazards",
+    "origin": "New manuscript (Z08 P16 regional formations)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize Paleozoic limestone and dolostone by horizontal bedding, fossil fragments, and softer hardness easily scratched by a steel nail.",
+        "claims": [
+          "R01",
+          "R04",
+          "R16"
+        ]
+      },
+      {
+        "text": "Treat solution cavities, vertical joints, and overhanging carbonate ledges as active collapse hazards prone to sudden freeze-thaw rockfall.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      },
+      {
+        "text": "Recognize that karst fissures channel contaminated surface runoff rapidly underground, making spring water visually clear yet microbially unsafe.",
+        "claims": [
+          "R16",
+          "W03"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify layered carbonate bluffs and sinkhole karst terrain in southeastern Minnesota and respect sudden rockfall and drainage hazards.",
+    "applies": "Driftless Area, Mississippi River bluffs, and Paleozoic carbonate valleys.",
+    "equipment": "Geologic map, binoculars for safe remote bluff inspection, notebook.",
+    "diagram": "Identify horizontal carbonate beds | Spot karst fractures and overhangs | Keep clear of bluff bases",
+    "visual": "Conceptual Paleozoic sedimentary bluff cross-section highlighting bedding planes, karst voids, and rockfall runout zone.",
+    "failure": {
+      "text": "Camping beneath overhanging limestone bluffs or drinking untreated karst spring water exposes parties to rockfall and rapid pathogen transport.",
+      "claims": [
+        "R16",
+        "W03"
+      ]
+    },
+    "verify": {
+      "text": "Camp and observation stations sit well clear of talus slopes and undercut ledges, and karst springs receive full microbial water treatment.",
+      "claims": [
+        "R16",
+        "W03"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching bluff bases, sea caves, or sinkhole rims during spring thaw, heavy rain, or visible fresh talus debris.",
+      "claims": [
+        "R13",
+        "R16"
+      ]
+    },
+    "reviewer": "Karst hydrologist and engineering geologist"
+  },
+  {
+    "id": "Z08-P10",
+    "zone": "Z08",
+    "title": "Glacial Till, Outwash Plains and Erratic Cobble Provenance",
+    "origin": "New manuscript (Z08 P16 glacial geology)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Distinguish unsorted clay-to-boulder glacial till from sorted stratified sand and gravel outwash deposited by meltwater streams.",
+        "claims": [
+          "R02"
+        ]
+      },
+      {
+        "text": "Expect Canadian Shield granite, iron-formation cobbles, and chert nodules far south of their source bedrock due to ice-sheet transport.",
+        "claims": [
+          "R02",
+          "R05"
+        ]
+      },
+      {
+        "text": "Keep clear of steep gravel-pit walls and undercut stream banks because unconsolidated glacial drift slumps rapidly without warning.",
+        "claims": [
+          "R02",
+          "R11",
+          "R16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Interpret mixed glacial sediments so cobble composition, drainage behavior, and excavation instability are not misread.",
+    "applies": "Moraines, eskers, outwash gravel plains, and glacial lake basins across the Upper Midwest.",
+    "equipment": "Surficial geology map, hand lens, metric scale.",
+    "diagram": "Note unsorted till vs sorted sand | Recognize transported erratics | Avoid undercut gravel banks",
+    "visual": "Conceptual contrast between unsorted clay-boulder glacial till and layered well-drained glacial outwash sands.",
+    "failure": {
+      "text": "Digging into steep glacial sand banks or assuming sorted cobbles reflect uniform local bedrock causes bank collapse and misidentification.",
+      "claims": [
+        "R02",
+        "R11",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Field notes distinguish sorted outwash from unsorted till and maintain safe setback from vertical drift faces.",
+      "claims": [
+        "R02",
+        "R16"
+      ]
+    },
+    "stop": {
+      "text": "Stop approaching overhanging gravel cuts, active borrow pits, or slumping riverbanks.",
+      "claims": [
+        "R11",
+        "R16"
+      ]
+    },
+    "reviewer": "Quaternary geologist"
+  },
+  {
+    "id": "Z08-P11",
+    "zone": "Z08",
+    "title": "Igneous Rock Class Screening: Granite, Basalt and Gabbro",
+    "origin": "New manuscript (Z08 P16 rock classes)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify igneous candidates by randomly oriented interlocking crystals lacking sedimentary bedding planes or parallel metamorphic banding.",
+        "claims": [
+          "R03"
+        ]
+      },
+      {
+        "text": "Separate light-colored quartz-feldspar granite from dark iron-magnesium gabbro and fine-grained basalt using crystal size and quartz visibility.",
+        "claims": [
+          "R03",
+          "R04"
+        ]
+      },
+      {
+        "text": "Avoid assuming dense igneous cobbles are safe for fire rings or heated boiling stones because hairline fractures trap internal moisture.",
+        "claims": [
+          "R13"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Differentiate coarse- and fine-grained igneous rocks by interlocking crystal texture without implying structural or thermal ratings.",
+    "applies": "Outcrops, cobble bars, and glacial erratic screening.",
+    "equipment": "10x hand lens, metric ruler, notebook.",
+    "diagram": "Check interlocking crystal grains | Compare coarse vs fine cooling texture | Reject unverified thermal use",
+    "visual": "Conceptual mineral-grain comparison of coarse interlocking granite/gabbro against dark fine-grained basalt.",
+    "failure": {
+      "text": "Confusing dense dark basalt with chert or heating river-soaked granite cobbles risks violent thermal spalling and eye injuries.",
+      "claims": [
+        "R05",
+        "R13"
+      ]
+    },
+    "verify": {
+      "text": "Crystal interlocking, grain-size bracket, and moisture-spalling cautions are logged without certifying structural or fire safety.",
+      "claims": [
+        "R03",
+        "R13"
+      ]
+    },
+    "stop": {
+      "text": "Stop heating or striking unidentified igneous cobbles, especially any stone gathered near lakes, rivers, or damp soil.",
+      "claims": [
+        "R06",
+        "R13"
+      ]
+    },
+    "reviewer": "Igneous petrologist"
+  },
+  {
+    "id": "Z08-P12",
+    "zone": "Z08",
+    "title": "Sedimentary Rock Class Screening: Sandstone, Shale and Conglomerate",
+    "origin": "New manuscript (Z08 P16 rock classes)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize clastic sedimentary rocks by visible cemented sand grains, rounded pebbles, or flat thin clay-silt laminations along bedding planes.",
+        "claims": [
+          "R03",
+          "R16"
+        ]
+      },
+      {
+        "text": "Check cementation gently without dry grinding; poorly cemented sandstone crumbles readily and releases respirable quartz dust.",
+        "claims": [
+          "R06",
+          "R16"
+        ]
+      },
+      {
+        "text": "Exclude porous sandstone and layered shale from fire enclosures and load-bearing supports because trapped water and bedding planes split under heat or load.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify clastic sedimentary rocks by grain rounding, bedding, and cementation while noting permeability and crumbling hazards.",
+    "applies": "River valleys, roadcut observation from safe shoulders, and bluff trails.",
+    "equipment": "10x hand lens, steel nail, metric scale.",
+    "diagram": "Inspect cemented grains and bedding | Check friable crumbling weakness | Avoid porous stone near fire",
+    "visual": "Conceptual cutaway of porous cemented sandstone grains, fissile shale layers, and rounded pebble conglomerate.",
+    "failure": {
+      "text": "Building hearth walls from damp sandstone or trusting fissile shale ledges underfoot leads to sudden spalling, dust inhalation, and slips.",
+      "claims": [
+        "R06",
+        "R13",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Grain size, bedding orientation, and crumbling or porosity cautions are recorded without dry abrasion.",
+      "claims": [
+        "R03",
+        "R06",
+        "R16"
+      ]
+    },
+    "stop": {
+      "text": "Stop hammering friable sandstone or climbing layered shale banks where loose slabs detach easily.",
+      "claims": [
+        "R06",
+        "R16"
+      ]
+    },
+    "reviewer": "Sedimentary geologist"
+  },
+  {
+    "id": "Z08-P13",
+    "zone": "Z08",
+    "title": "Metamorphic Rock Class Screening: Quartzite, Slate and Gneiss",
+    "origin": "New manuscript (Z08 P16 rock classes)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify foliated metamorphic rocks such as slate, schist, and gneiss by aligned platy micas, wavy mineral bands, or flat splitting planes.",
+        "claims": [
+          "R03",
+          "R04"
+        ]
+      },
+      {
+        "text": "Separate recrystallized quartzite from sandstone by observing fractures cutting directly through fused quartz grains rather than around loose sand.",
+        "claims": [
+          "R03",
+          "R05"
+        ]
+      },
+      {
+        "text": "Inspect metamorphic veins carefully for silky or splintery fibrous mineral bands and leave any suspect fibrous rock strictly untouched.",
+        "claims": [
+          "R07"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish foliated and non-foliated metamorphic rocks by banding, sheen, and recrystallized quartz grains.",
+    "applies": "Northern Shield terrain, southwestern Minnesota Sioux Quartzite, and glacial cobbles.",
+    "equipment": "10x hand lens, steel scratch tool, metric scale.",
+    "diagram": "Look for aligned mineral banding | Distinguish fused quartzite fracture | Check fibrous mineral cautions",
+    "visual": "Conceptual visual comparison of banded gneiss, platy slate, and tightly fused non-foliated quartzite.",
+    "failure": {
+      "text": "Mistaking flaky mica schist for durable stone or disturbing asbestiform metamorphic veins causes tool breakage and respiratory fiber risk.",
+      "claims": [
+        "R03",
+        "R07"
+      ]
+    },
+    "verify": {
+      "text": "Foliation presence, grain fusion, and fibrous-vein absence are documented before any close handling.",
+      "claims": [
+        "R03",
+        "R07"
+      ]
+    },
+    "stop": {
+      "text": "Stop handling any metamorphic sample showing silky fibers, crumbling metallic veins, or dust generation.",
+      "claims": [
+        "R06",
+        "R07",
+        "R14"
+      ]
+    },
+    "reviewer": "Metamorphic petrologist"
+  },
+  {
+    "id": "Z08-P14",
+    "zone": "Z08",
+    "title": "Weathered Rinds, Patinas and Limits of Field Identification",
+    "origin": "New manuscript (Z08 P16 identification limits)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that oxidation rinds, moss, lichen, and stream algae routinely mask true rock color, grain texture, and mineral cleavage.",
+        "claims": [
+          "R03",
+          "R04"
+        ]
+      },
+      {
+        "text": "Treat fine-grained dark rocks—including basalt, dark chert, diabase, and argillite—as provisional field calls unless natural unweathered fractures confirm diagnostic traits.",
+        "claims": [
+          "R03",
+          "R05",
+          "R19"
+        ]
+      },
+      {
+        "text": "Document uncertain specimens as unidentified rather than guessing composition, chemical safety, or tool suitability.",
+        "claims": [
+          "R04",
+          "R14",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent false rock identification caused by rust staining, lichen cover, desert/river varnish, and fine-grained dark textures.",
+    "applies": "All field geology screening where laboratory petrography and chemical assay are unavailable.",
+    "equipment": "10x hand lens, water drop for dust-free observation, notebook.",
+    "diagram": "Separate surface rind from interior | Recognize fine-grained overlap | Record uncertainty honestly",
+    "visual": "Conceptual side-by-side showing weathered orange iron rind hiding a dark fine-grained rock core.",
+    "failure": {
+      "text": "Smashing protected outcrops to see fresh rock or assuming rusty surface patina proves iron ore damages resources and misleads identification.",
+      "claims": [
+        "R03",
+        "R08",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Field records explicitly note weathered-surface limits and flag fine-grained matches as provisional pending curator review.",
+      "claims": [
+        "R03",
+        "R19"
+      ]
+    },
+    "stop": {
+      "text": "Stop field identification and withhold material use whenever diagnostic grain or fracture cues remain obscured.",
+      "claims": [
+        "R03",
+        "R14",
+        "R19"
+      ]
+    },
+    "reviewer": "Field geologist and curator"
+  },
+  {
+    "id": "Z08-P15",
+    "zone": "Z08",
+    "title": "Quartz Family Varieties: Milky, Vein, Jasper and Chalcedony",
+    "origin": "New manuscript (Z08 P16 chert and quartz)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Verify that all quartz varieties share Mohs hardness near 7—scratching steel—and break with curved conchoidal fracture rather than flat cleavage.",
+        "claims": [
+          "R04",
+          "R05"
+        ]
+      },
+      {
+        "text": "Distinguish glassy transparent-to-milky macrocrystalline quartz from waxy translucent chalcedony and opaque iron-tinted red or yellow jasper.",
+        "claims": [
+          "R04",
+          "R05"
+        ]
+      },
+      {
+        "text": "Keep quartz-family screening non-destructive in the field to avoid sharp glassy splinters and respirable crystalline silica dust.",
+        "claims": [
+          "R06"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Differentiate crystalline quartz from microcrystalline jasper, chert, and chalcedony using luster, fracture, and translucency.",
+    "applies": "Upper Midwest gravel deposits, glacial drift, and bedrock quartz veins.",
+    "equipment": "10x hand lens, steel nail, metric scale.",
+    "diagram": "Confirm hardness above steel | Compare glassy vs waxy luster | Maintain dust and safety bounds",
+    "visual": "Conceptual mineral plate comparing hexagonal glassy quartz crystals with waxy microcrystalline chalcedony and opaque jasper.",
+    "failure": {
+      "text": "Confusing softer pale calcite or feldspar for vein quartz—or dry-chipping jasper without eye and lung protection—causes misidentification and injury.",
+      "claims": [
+        "R04",
+        "R06"
+      ]
+    },
+    "verify": {
+      "text": "Hardness scratches steel, flat cleavage is absent, and luster/translucency match the recorded quartz subgroup.",
+      "claims": [
+        "R04",
+        "R05"
+      ]
+    },
+    "stop": {
+      "text": "Stop striking or abrading quartz varieties whenever eye protection, dust controls, or lawful collecting permission is missing.",
+      "claims": [
+        "R06",
+        "R08"
+      ]
+    },
+    "reviewer": "Mineralogist"
+  },
+  {
+    "id": "Z08-P16",
+    "zone": "Z08",
+    "title": "Cleavage Planes vs Conchoidal and Hackly Fracture",
+    "origin": "New manuscript (Z08 P16 mineral properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Rotate a clean natural face in sunlight to catch flat, parallel, mirror-like reflections indicating true atomic cleavage planes.",
+        "claims": [
+          "R04"
+        ]
+      },
+      {
+        "text": "Count cleavage directions and rough angles—such as one basal sheet in mica, two near-90-degree planes in feldspar, or rhombs in calcite—before consulting a key.",
+        "claims": [
+          "R04"
+        ]
+      },
+      {
+        "text": "Confirm curved shell-like ripples without repeating flat steps as conchoidal fracture typical of quartz, chert, and natural glass.",
+        "claims": [
+          "R04",
+          "R05"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Use breakage geometry to separate minerals that split along atomic crystal planes from hard siliceous rocks that fracture conchoidally.",
+    "applies": "Field mineral diagnostics on naturally broken edges.",
+    "equipment": "10x hand lens, bright daylight, notebook.",
+    "diagram": "Tilt specimen in daylight | Spot flat step-like cleavage | Contrast with curved shell ripples",
+    "visual": "Conceptual geometry plate contrasting 90-degree feldspar cleavage steps, mica sheets, and curved chert fracture.",
+    "failure": {
+      "text": "Mistaking a single flat crystal face or flat fracture for true repeating cleavage misidentifies quartz as feldspar or calcite.",
+      "claims": [
+        "R04"
+      ]
+    },
+    "verify": {
+      "text": "Lighting tilt check confirms whether parallel stepped reflections repeat across the mineral body.",
+      "claims": [
+        "R04"
+      ]
+    },
+    "stop": {
+      "text": "Stop breaking specimens to create fresh cleavage faces on protected lands or without eye and dust controls.",
+      "claims": [
+        "R06",
+        "R08"
+      ]
+    },
+    "reviewer": "Mineralogist"
+  },
+  {
+    "id": "Z08-P17",
+    "zone": "Z08",
+    "title": "Mineral Streak, Luster and Color Variability Traps",
+    "origin": "New manuscript (Z08 P16 mineral properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Classify luster first as metallic (opaque bright metal shine) versus non-metallic (glassy, waxy, pearly, dull, or earthy) under natural daylight.",
+        "claims": [
+          "R04"
+        ]
+      },
+      {
+        "text": "Note that streak color on unglazed porcelain is far more consistent than specimen color—for example, dark metallic or earthy hematite leaves a reddish-brown streak.",
+        "claims": [
+          "R04",
+          "R14"
+        ]
+      },
+      {
+        "text": "Avoid streaking minerals harder than porcelain (~6.5), which simply scratch the tile white, and never crush dusty metallic or sulfide ores.",
+        "claims": [
+          "R04",
+          "R06",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Use powdered streak and light-reflection luster instead of unreliable bulk surface color when screening opaque and translucent minerals.",
+    "applies": "Distinguishing iron oxides, sulfides, quartz, and dark silicates.",
+    "equipment": "Unglazed porcelain tile, daylight, hand lens, wash water.",
+    "diagram": "Classify metallic vs non-metallic luster | Test streak only on solid stone | Wash hands after mineral contact",
+    "visual": "Conceptual mineral observation plate showing metallic vs vitreous/earthy luster and reddish-brown hematite streak check.",
+    "failure": {
+      "text": "Trusting bulk color mistakes red jasper for iron ore or fool-gold pyrite for benign quartz, while crushing unknown sulfides risks heavy-metal dust exposure.",
+      "claims": [
+        "R04",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Luster class, hardness relative to porcelain, and uncontaminated streak color are recorded with handwashing afterward.",
+      "claims": [
+        "R04",
+        "R14"
+      ]
+    },
+    "stop": {
+      "text": "Stop streak testing on soft crumbly metallic minerals, bright yellow/green crusts, or any suspected lead, arsenic, or fibrous specimen.",
+      "claims": [
+        "R07",
+        "R14"
+      ]
+    },
+    "reviewer": "Mineralogist and geochemist"
+  },
+  {
+    "id": "Z08-P18",
+    "zone": "Z08",
+    "title": "Calcite, Dolomite and Soft Carbonate Material Limits",
+    "origin": "New manuscript (Z08 P16 mineral properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Separate soft calcite (Mohs 3, scratched by copper coin) and dolostone (Mohs 3.5–4, scratched by steel) from hard quartz veins that scratch steel.",
+        "claims": [
+          "R04",
+          "R16"
+        ]
+      },
+      {
+        "text": "Inspect crystal veins for slanted three-direction rhombohedral cleavage flashes without carrying hazardous strong laboratory acids into the field.",
+        "claims": [
+          "R04"
+        ]
+      },
+      {
+        "text": "Exclude carbonate stone from high-heat fire linings or heated cookware contact because intense heat calcines lime and causes cracking and caustic dust.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize soft carbonate minerals and rocks by rhombohedral cleavage and low hardness while avoiding field acid misuse and thermal failure.",
+    "applies": "Southeastern Minnesota limestone beds, glacial pebbles, and mineralized veins.",
+    "equipment": "Copper coin, steel nail, hand lens.",
+    "diagram": "Check low hardness below steel | Spot rhombohedral cleavage flashes | Exclude carbonates from high heat",
+    "visual": "Conceptual mineral comparison contrasting Mohs 3 calcite cleavage with Mohs 7 quartz hardness.",
+    "failure": {
+      "text": "Confusing white calcite veins with quartz leads to rapid tool failure, while overheating damp limestone creates exploding chips and caustic quicklime ash.",
+      "claims": [
+        "R04",
+        "R13",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Hardness check against steel and copper cleanly separates soft carbonate minerals from hard silica.",
+      "claims": [
+        "R04"
+      ]
+    },
+    "stop": {
+      "text": "Stop heating carbonate stones or using unverified acid tests without protective eye gear and controlled laboratory protocols.",
+      "claims": [
+        "R04",
+        "R13"
+      ]
+    },
+    "reviewer": "Mineralogist"
+  },
+  {
+    "id": "Z08-P19",
+    "zone": "Z08",
+    "title": "Feldspar and Mica Identification in Northern Crystalline Rock",
+    "origin": "New manuscript (Z08 P16 mineral properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Identify potassium and plagioclase feldspars by opaque pink, white, or gray blocky crystals with two flat cleavage planes meeting near 90 degrees and hardness around 6.",
+        "claims": [
+          "R03",
+          "R04"
+        ]
+      },
+      {
+        "text": "Recognize muscovite and biotite micas by shiny, thin, flexible sheets that peel along one perfect basal cleavage plane and scratch easily with a fingernail or copper.",
+        "claims": [
+          "R04"
+        ]
+      },
+      {
+        "text": "Avoid mistaking shiny golden-weathered biotite flakes in stream sand for metallic ore or selecting mica-rich schist for durable stone work.",
+        "claims": [
+          "R03",
+          "R04",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize common rock-forming feldspars and micas so they are not mistaken for chert, precious metals, or durable carving stone.",
+    "applies": "Granite, pegmatite, gneiss, and schist across Minnesota Shield and glacial cobbles.",
+    "equipment": "10x hand lens, steel nail.",
+    "diagram": "Spot blocky 90-degree feldspar faces | Identify elastic thin mica sheets | Note brittle cleavage failure",
+    "visual": "Conceptual cutaway highlighting blocky pink/white feldspar cleavage alongside flexible book-like muscovite and biotite mica flakes.",
+    "failure": {
+      "text": "Assuming weathered golden mica is gold or striking cleaved feldspar expecting conchoidal chert edges results in crumbling blocky failure.",
+      "claims": [
+        "R04",
+        "R05"
+      ]
+    },
+    "verify": {
+      "text": "Blocky cleavage reflections and thin elastic sheet behavior separate feldspar and mica from glassy quartz.",
+      "claims": [
+        "R04"
+      ]
+    },
+    "stop": {
+      "text": "Stop flaking mica-bearing metamorphic rock if fibrous amphibole minerals appear alongside mica sheets.",
+      "claims": [
+        "R07"
+      ]
+    },
+    "reviewer": "Mineralogist"
+  },
+  {
+    "id": "Z08-P20",
+    "zone": "Z08",
+    "title": "Iron Formations, Hematite, Magnetite and Compass Deflection",
+    "origin": "New manuscript (Z08 P16 regional minerals)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize banded iron formations and iron oxides by noticeably high density, metallic-to-earthy dark gray or brick-red bands, and reddish-brown hematite streak.",
+        "claims": [
+          "R01",
+          "R04",
+          "R20"
+        ]
+      },
+      {
+        "text": "Test for local magnetic anomalies by taking reciprocal compass sightings across short distances whenever traveling over iron-formation bedrock or mafic gabbro.",
+        "claims": [
+          "R20",
+          "N03"
+        ]
+      },
+      {
+        "text": "Keep clear of abandoned mine pits, tailings basins, and unstable rust-stained waste rock piles, which pose steep-drop and heavy-metal runoff hazards.",
+        "claims": [
+          "R11",
+          "R12",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize northern Minnesota iron-bearing formations and account for local magnetic compass interference during land navigation.",
+    "applies": "Mesabi, Vermilion, and Cuyuna Iron Range regions and iron-rich glacial cobbles.",
+    "equipment": "Hand lens, baseplate compass, regional geologic map.",
+    "diagram": "Spot dense metallic or banded iron | Check local compass needle swing | Cross-reference terrain bearings",
+    "visual": "Conceptual geological profile linking banded iron-formation bedrock with local magnetic compass needle deflection.",
+    "failure": {
+      "text": "Trusting a single magnetic bearing over magnetite bedrock steers travelers off course, while entering old mine tailings risks collapse and contaminant exposure.",
+      "claims": [
+        "R12",
+        "R14",
+        "R20"
+      ]
+    },
+    "verify": {
+      "text": "Navigation cross-checks terrain features against compass readings and routes around mine pits and tailings.",
+      "claims": [
+        "R14",
+        "R20"
+      ]
+    },
+    "stop": {
+      "text": "Stop navigating solely by magnetic needle whenever needle behavior shifts between nearby standing points, and stay outside fenced or flooded mine pits.",
+      "claims": [
+        "R11",
+        "R20"
+      ]
+    },
+    "reviewer": "Geophysicist and navigation specialist"
+  },
+  {
+    "id": "Z08-P21",
+    "zone": "Z08",
+    "title": "Sulfide Ores, Heavy-Metal Crusts and Mineral Toxicity",
+    "origin": "New manuscript (Z08 P16 toxicity hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat brassy, silvery-gray heavy metallic crystals (such as galena, arsenopyrite, or pyrite) and bright yellow, green, or blue oxidized crusts as potentially toxic heavy-metal minerals.",
+        "claims": [
+          "R14"
+        ]
+      },
+      {
+        "text": "Never lick, taste, heat in a fire, or grind unidentified metallic minerals because lead, arsenic, mercury, and sulfur fumes cause acute or cumulative poisoning.",
+        "claims": [
+          "R14"
+        ]
+      },
+      {
+        "text": "Keep unidentified ores completely out of water vessels, cooking setups, and children reach, and wash hands thoroughly with soap after rock handling.",
+        "claims": [
+          "R12",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Avoid skin absorption, dust inhalation, and hand-to-mouth ingestion from unidentified metallic ores, sulfides, and mine tailings.",
+    "applies": "Mineralized veins, brassy metallic rocks, colorful green/blue/yellow mineral crusts, and historic mining districts.",
+    "equipment": "Notebook, camera, wash water and soap.",
+    "diagram": "Flag metallic or brightly crusted rock | Never taste, burn, or powder ore | Wash hands after any contact",
+    "visual": "Conceptual hazard boundary separating non-contact photographic observation from toxic sulfide/heavy-metal mineral contact.",
+    "failure": {
+      "text": "Heating sulfide-bearing rock in a campfire or handling lead-rich galena before eating introduces toxic fumes or heavy metals.",
+      "claims": [
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Unidentified metallic or oxidized specimens are photographed in place without breaking, heating, or hand-to-mouth contact.",
+      "claims": [
+        "R14",
+        "R19"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and leave metallic veins, smelter slag, and brightly colored mineral crusts untouched; call Poison Control if accidental ingestion occurs.",
+      "claims": [
+        "R14",
+        "B09"
+      ]
+    },
+    "reviewer": "Geochemist and medical toxicologist"
+  },
+  {
+    "id": "Z08-P22",
+    "zone": "Z08",
+    "title": "Thermal Shock and Wet-Rock Spalling Hazards",
+    "origin": "New manuscript (Z08 P16 degradation and failure)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Reject all river, lake-shore, wetland, layered sedimentary, and vesicular volcanic stones from any fire ring or heat source because trapped pore water flashes to steam.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      },
+      {
+        "text": "Recognize that dry-looking exterior rock surfaces frequently hide damp interior micro-fractures capable of hurling sharp fragments at eye level.",
+        "claims": [
+          "R13"
+        ]
+      },
+      {
+        "text": "Use a cleared mineral-soil fire pad where lawful or an approved camp stove rather than relying on stacked wild stones to contain fire or heat water.",
+        "claims": [
+          "R13",
+          "C01"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent explosive rock shattering caused by trapped internal moisture and rapid temperature gradients near campfires or heated stones.",
+    "applies": "Campfire surrounds, improvised hearths, and any environment with river, shoreline, or porous stones.",
+    "equipment": "Dry mineral-soil clearing, approved camp stove or lawful hearth.",
+    "diagram": "Reject shoreline and porous rock | Expect hidden internal moisture | Keep unverified stone out of fires",
+    "visual": "Conceptual cutaway showing trapped steam pressure inside porous river stone expanding violently under heat.",
+    "failure": {
+      "text": "Lining a fire with creek cobbles or dropping unverified hot rocks into vessels causes explosive spalling, severe eye trauma, and scalds.",
+      "claims": [
+        "R13"
+      ]
+    },
+    "verify": {
+      "text": "No creek, shoreline, shale, or porous rock is placed near flames or coals, and lawful fire boundaries rely on mineral soil clearance.",
+      "claims": [
+        "R13",
+        "C01"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and step back if any heated stone pops, hisses, or cracks; extinguish safely and abandon stone heating.",
+      "claims": [
+        "R13"
+      ]
+    },
+    "reviewer": "Geologist and fire safety reviewer"
+  },
+  {
+    "id": "Z08-P23",
+    "zone": "Z08",
+    "title": "Sandstone and Siliceous Stone Abrasion Limits",
+    "origin": "New manuscript (Z08 P16 material properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that natural sandstone varies widely in quartz grain size and cement durability, often crumbling unevenly or gouging steel edges.",
+        "claims": [
+          "R05",
+          "R16"
+        ]
+      },
+      {
+        "text": "Avoid dry rubbing or shaping quartz-rich stones because airborne silica dust harms lungs even during small manual abrasion tasks.",
+        "claims": [
+          "R06"
+        ]
+      },
+      {
+        "text": "Rely on a maintained manufactured sharpener for routine tool maintenance rather than improvising unverified wild stone hones.",
+        "claims": [
+          "R06",
+          "K08"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Understand grain-hardness and dust boundaries when assessing natural gritty stone versus manufactured sharpening tools.",
+    "applies": "Comparing natural sandstone/quartzite surfaces with maintained manufactured sharpeners.",
+    "equipment": "Manufactured sharpening stone, hand lens, water for wet dust suppression if authorized.",
+    "diagram": "Compare binder strength and grit | Prevent dry quartz dust generation | Prefer maintained manufactured hones",
+    "visual": "Conceptual comparison between uniform manufactured sharpening stones and irregular friable natural sandstone.",
+    "failure": {
+      "text": "Dry-grinding sandstone or trusting friable grit rounds tool bevels and creates breathing-zone crystalline silica dust.",
+      "claims": [
+        "R06",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Routine edge care uses maintained manufactured tools; natural sandstone is observed without dry abrasion.",
+      "claims": [
+        "R06",
+        "K08"
+      ]
+    },
+    "stop": {
+      "text": "Stop abrading any stone if powdery silica dust appears, cracks form, or lawful land-collection rules prohibit use.",
+      "claims": [
+        "R06",
+        "R08"
+      ]
+    },
+    "reviewer": "Materials specialist and industrial hygienist"
+  },
+  {
+    "id": "Z08-P24",
+    "zone": "Z08",
+    "title": "Mineral Hardness vs Toughness and Edge-Failure Mechanics",
+    "origin": "New manuscript (Z08 P16 material selection)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Distinguish hardness (resistance to scratching) from toughness (resistance to shattering under impact or bending); quartz is hard yet brittle.",
+        "claims": [
+          "R04",
+          "R05"
+        ]
+      },
+      {
+        "text": "Recognize that hidden micro-cracks, inclusions, and cleavage planes cause sudden catastrophic brittle failure under leverage or prying.",
+        "claims": [
+          "R04",
+          "R05",
+          "R16"
+        ]
+      },
+      {
+        "text": "Separate conceptual material-property comparisons from engineering ratings or permission to improvise load-bearing stone components.",
+        "claims": [
+          "R05",
+          "R16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish scratch hardness from impact toughness so brittle high-hardness minerals are not expected to survive bending or shock loads.",
+    "applies": "Evaluating rocks, minerals, and manufactured steel tools conceptually.",
+    "equipment": "Reference chart, hand lens.",
+    "diagram": "Separate hardness from toughness | Expect brittle fracture under shock | Never imply load certification",
+    "visual": "Conceptual comparison showing high-hardness brittle quartz cracking under bending versus tough fibrous wood or tempered steel.",
+    "failure": {
+      "text": "Assuming high scratch hardness equals shock resistance leads to sudden shattering and sharp splinter injuries.",
+      "claims": [
+        "R04",
+        "R05",
+        "R06"
+      ]
+    },
+    "verify": {
+      "text": "Material comparisons explicitly distinguish scratch hardness, impact toughness, and absence of load certification.",
+      "claims": [
+        "R04",
+        "R05"
+      ]
+    },
+    "stop": {
+      "text": "Stop applying prying, hammering, or structural loads to any brittle mineral or unverified natural stone.",
+      "claims": [
+        "R05",
+        "R06"
+      ]
+    },
+    "reviewer": "Materials engineer and geologist"
+  },
+  {
+    "id": "Z08-P25",
+    "zone": "Z08",
+    "title": "Glacial Lake and Alluvial Clay Deposits in the Upper Midwest",
+    "origin": "New manuscript (Z08 P16 clay and soil)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Expect fine-grained clay deposits primarily in former glacial lake basins and slow-water river floodplains rather than coarse upland sand ridges.",
+        "claims": [
+          "R02",
+          "R17"
+        ]
+      },
+      {
+        "text": "Check land ownership and collecting bans before digging any soil or clay because parks, SNAs, and public shorelines prohibit excavation.",
+        "claims": [
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "text": "Screen site history for roadways, old farm dumps, mining tailings, and industrial runoff before touching fine sediments that bind heavy metals.",
+        "claims": [
+          "R12"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize regional clay-bearing glacial lake plains and stream-cut clay horizons while respecting land, bank-safety, and contamination limits.",
+    "applies": "Glacial Lake Agassiz, Lake Duluth, and river floodplain soils across Minnesota.",
+    "equipment": "Surficial geologic map, trowel only on lawful private/authorized sites, gloves.",
+    "diagram": "Locate fine-grained lake-plain horizons | Distinguish clay from fine silt | Verify land and soil cleanliness",
+    "visual": "Conceptual soil horizon profile contrasting organic topsoil, clay-rich subsoil, and permeable glacial sand.",
+    "failure": {
+      "text": "Digging clay from protected stream banks or urban/industrial floodplains causes erosion violations and lead or chemical exposure.",
+      "claims": [
+        "R09",
+        "R12"
+      ]
+    },
+    "verify": {
+      "text": "Land permission, bank stability, and contamination screening precede any soil texture observation.",
+      "claims": [
+        "R08",
+        "R12",
+        "R17"
+      ]
+    },
+    "stop": {
+      "text": "Stop digging immediately near unstable riverbanks, protected parks, roadways, or historically painted or industrial sites.",
+      "claims": [
+        "R09",
+        "R12",
+        "R16"
+      ]
+    },
+    "reviewer": "Quaternary geologist and soil scientist"
+  },
+  {
+    "id": "Z08-P26",
+    "zone": "Z08",
+    "title": "Clay Plasticity, Ribbon Screening and Drying Shrinkage",
+    "origin": "New manuscript (Z08 P16 clay and soil)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Moisten a small soil sample with gloves on an authorized site to distinguish gritty non-cohesive sand, smooth powdery silt, and sticky cohesive clay that forms a short ribbon.",
+        "claims": [
+          "R17"
+        ]
+      },
+      {
+        "text": "Recognize that clay-rich soils expand when saturated and shrink and crack heavily as they dry, driving drainage ponding and structural instability.",
+        "claims": [
+          "R17"
+        ]
+      },
+      {
+        "text": "Treat field ribbon tests strictly as physical texture estimates, never as proof of firing quality or chemical safety for food contact.",
+        "claims": [
+          "R12",
+          "R17"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Distinguish cohesive clay from gritty silt and sand using non-food texture screening while noting drying-shrinkage cracking.",
+    "applies": "Soil texture assessment for drainage, site selection, and conceptual material education.",
+    "equipment": "Small authorized soil sample, clean water drop, disposable gloves, wash water.",
+    "diagram": "Moisten a small soil pinch | Check ribbon cohesion vs grit | Note drying shrinkage and cracking",
+    "visual": "Conceptual four-step soil texture screen comparing sandy crumble, silky silt, cohesive clay ribbon, and dry shrinkage cracks.",
+    "failure": {
+      "text": "Confusing fine glacial silt for plastic clay or drying raw clay rapidly produces crumbling cracks and poor drainage assumptions.",
+      "claims": [
+        "R12",
+        "R17"
+      ]
+    },
+    "verify": {
+      "text": "Texture class (sand, silt, or clay-dominant) is recorded alongside drainage behavior and contamination cautions.",
+      "claims": [
+        "R12",
+        "R17"
+      ]
+    },
+    "stop": {
+      "text": "Stop handling suspect soils without gloves, near industrial runoff, or where public-land excavation is prohibited.",
+      "claims": [
+        "R09",
+        "R12"
+      ]
+    },
+    "reviewer": "Soil scientist"
+  },
+  {
+    "id": "Z08-P27",
+    "zone": "Z08",
+    "title": "Soil Contamination, Lead and Tailings Exclusion Screening",
+    "origin": "New manuscript (Z08 P16 contamination hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that soils near pre-1978 painted structures, busy roads, railways, smelters, and mine tailings frequently contain elevated lead or arsenic.",
+        "claims": [
+          "R12",
+          "R14"
+        ]
+      },
+      {
+        "text": "Accept that sight, smell, and texture cannot detect dissolved metals, petroleum residues, pesticides, or industrial contaminants in clay or soil.",
+        "claims": [
+          "R12"
+        ]
+      },
+      {
+        "text": "Keep unverified wild soil and clay strictly out of cookware, water vessels, food pits, and bare-hand contact; wash hands after soil fieldwork.",
+        "claims": [
+          "R12",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Exclude contaminated urban, roadside, and mining-impacted soils and clays from handling, shelter daubing, and food-related uses.",
+    "applies": "Sites near pre-1978 structures, highways, railways, orchards, landfills, or northern mine tailings.",
+    "equipment": "Site history notes, gloves, soap and clean water.",
+    "diagram": "Map nearby historical pollutant sources | Reject suspect soil and clay | Wash hands and tools thoroughly",
+    "visual": "Conceptual spatial exclusion map isolating roadway runoff, old painted structures, and mine tailings from clean-soil zones.",
+    "failure": {
+      "text": "Assuming rural or riverbank clay is chemically pure exposes users to lead, arsenic, or upstream agricultural and industrial runoff.",
+      "claims": [
+        "R12",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Historical pollutant screening excludes suspect corridors and keeps wild soil separate from food and drinking water.",
+      "claims": [
+        "R12"
+      ]
+    },
+    "stop": {
+      "text": "Stop soil handling immediately if oily sheen, chemical odor, slag, paint chips, or tailings proximity appear.",
+      "claims": [
+        "R12",
+        "R14"
+      ]
+    },
+    "reviewer": "Environmental health and soil toxicologist"
+  },
+  {
+    "id": "Z08-P28",
+    "zone": "Z08",
+    "title": "Wild Clay Cookware, Firing Limits and Thermal Failure",
+    "origin": "New manuscript (Z08 P16 clay limits)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that unverified wild clay contains variable silt, organic bits, and trapped moisture that crack or burst during rapid open-fire heating.",
+        "claims": [
+          "R13",
+          "R17"
+        ]
+      },
+      {
+        "text": "Reject wild clay vessels for drinking water or food preparation because unknown clay can leach heavy metals and porous walls harbor bacteria.",
+        "claims": [
+          "R12",
+          "R17"
+        ]
+      },
+      {
+        "text": "Rely on tested, food-grade metal vessels for boiling water and cooking rather than depending on unverified improvised pottery.",
+        "claims": [
+          "R12",
+          "R17",
+          "W11"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain why unverified wild clay vessels fail under open-fire thermal shock and cannot replace tested metal cookware or chemical-safe containers.",
+    "applies": "Evaluating improvised pottery claims versus safe field water-boiling and food containers.",
+    "equipment": "Tested stainless-steel or anodized metal vessel for real boiling.",
+    "diagram": "Note shrinkage and steam-burst failure | Separate texture from chemical safety | Use tested metal cookware",
+    "visual": "Conceptual failure analysis showing steam pockets and unverified mineral impurities cracking raw wild clay over heat.",
+    "failure": {
+      "text": "Attempting to boil emergency water in untested field clay wastes scarce fuel and risks scalding bursts or heavy-metal leaching.",
+      "claims": [
+        "R12",
+        "R13",
+        "R17"
+      ]
+    },
+    "verify": {
+      "text": "Wild clay is treated strictly as a geological/educational subject while water boiling uses verified heat-safe vessels.",
+      "claims": [
+        "R12",
+        "W11"
+      ]
+    },
+    "stop": {
+      "text": "Stop heating raw or field-dried clay vessels near people and never store drinking water or acidic foods in untested wild clay.",
+      "claims": [
+        "R12",
+        "R13",
+        "R17"
+      ]
+    },
+    "reviewer": "Materials specialist and environmental health reviewer"
+  },
+  {
+    "id": "Z08-P29",
+    "zone": "Z08",
+    "title": "Sand, Silt and Loam Drainage Behavior for Site Assessment",
+    "origin": "New manuscript (Z08 P16 soil properties)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize coarse sandy and gravelly outwash by fast water infiltration but poor stake-holding friction when dry or saturated.",
+        "claims": [
+          "R02",
+          "R17"
+        ]
+      },
+      {
+        "text": "Recognize dense clay and silt lake-plain soils by slow drainage, slick mud, surface ponding after rain, and severe freeze-thaw heaving.",
+        "claims": [
+          "R02",
+          "R17"
+        ]
+      },
+      {
+        "text": "Pair soil texture observations with terrain slope and flood history rather than relying on dry fair-weather soil firmness.",
+        "claims": [
+          "R02",
+          "R17",
+          "E01"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Apply basic soil texture recognition to predict rainwater ponding, frost heave, and stake-holding limits without implying structural ratings.",
+    "applies": "Campsite drainage review, tarp anchoring, and muddy-ground hazard avoidance.",
+    "equipment": "Visual surface check, existing trail cuts.",
+    "diagram": "Compare sandy drainage vs clay ponding | Watch frost-heave and mud slump | Choose elevated firm ground",
+    "visual": "Conceptual soil cross-section comparing rapid drainage through coarse sand against surface ponding over dense clay.",
+    "failure": {
+      "text": "Pitching shelter on flat clay flats or loose wet sand causes overnight pooling or pulled shelter anchors during storms.",
+      "claims": [
+        "R17",
+        "E01"
+      ]
+    },
+    "verify": {
+      "text": "Site review checks both elevated drainage slope and soil-holding reliability before setting camp.",
+      "claims": [
+        "R17",
+        "E01"
+      ]
+    },
+    "stop": {
+      "text": "Stop camping on saturated clay basins, undercut sandy banks, or soft mud margins prone to rapid flooding.",
+      "claims": [
+        "R16",
+        "R17"
+      ]
+    },
+    "reviewer": "Soil scientist and shelter reviewer"
+  },
+  {
+    "id": "Z08-P30",
+    "zone": "Z08",
+    "title": "Wood Ash, Charcoal and Mineral Grits: Non-Food Safety Boundaries",
+    "origin": "New manuscript (Z08 P16 material hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that wood ash combined with water forms alkaline potassium-hydroxide lye capable of irritating skin and severely injuring eyes.",
+        "claims": [
+          "R14",
+          "C09"
+        ]
+      },
+      {
+        "text": "Separate crude campfire charcoal from engineered NSF-certified activated carbon; homemade charcoal cannot reliably remove chemical toxins or pathogens from water.",
+        "claims": [
+          "R12",
+          "W17"
+        ]
+      },
+      {
+        "text": "Avoid mixing unknown burned trash or treated-wood ash with soil or water because treated lumber leaves copper, chromium, or arsenic residues.",
+        "claims": [
+          "R12",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize the caustic alkali properties of wet wood ash and the non-sterilizing limits of crude campfire charcoal.",
+    "applies": "Managing campfire ash residues, hand hygiene, and water-clarification misconceptions.",
+    "equipment": "Gloves, metal ash container if lawful, clean rinse water.",
+    "diagram": "Treat wet ash as caustic alkali | Reject raw ash as water treatment | Cool and dispose lawfully",
+    "visual": "Conceptual system boundary separating caustic wood ash and crude charcoal from tested NSF activated carbon filters.",
+    "failure": {
+      "text": "Scrubbing skin aggressively with wet ash or assuming campfire charcoal purifies polluted water causes alkali burns and waterborne illness.",
+      "claims": [
+        "R12",
+        "R14",
+        "W17"
+      ]
+    },
+    "verify": {
+      "text": "Wet ash is kept away from eyes and skin, treated-wood ash is avoided, and water treatment relies on validated methods.",
+      "claims": [
+        "R14",
+        "W17"
+      ]
+    },
+    "stop": {
+      "text": "Stop contact immediately and flush with copious clean water if wet ash enters eyes; seek medical care for persistent burning.",
+      "claims": [
+        "R14",
+        "M18"
+      ]
+    },
+    "reviewer": "Environmental health and water specialist"
+  },
+  {
+    "id": "Z08-P31",
+    "zone": "Z08",
+    "title": "Peat, Organic Muck and Unstable Wetland Substrates",
+    "origin": "New manuscript (Z08 P16 soil and substrates)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize dark fibrous peat and soft muck by springy underfoot bounce, standing tannin water, and sphagnum moss cover lacking firm mineral grit.",
+        "claims": [
+          "R02",
+          "R18"
+        ]
+      },
+      {
+        "text": "Never build fires on peat, thick leaf duff, or organic wetland soil because deep root fires smolder invisibly underground for weeks and reignite wildfires.",
+        "claims": [
+          "R18",
+          "C01"
+        ]
+      },
+      {
+        "text": "Keep camp structures, anchors, and foot travel on solid upland mineral ground rather than testing floating peat edges.",
+        "claims": [
+          "R18",
+          "X12"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify deep organic peat and bog muck substrates to prevent entrapment, ground-fire smoldering, and shelter collapse.",
+    "applies": "Northern Minnesota bogs, fens, cedar swamps, and wetland margins.",
+    "equipment": "Topographic map, walking probe from firm upland edge.",
+    "diagram": "Spot spongy dark organic peat | Prohibit fires on organic duff | Stay on firm upland mineral soil",
+    "visual": "Conceptual wetland cutaway contrasting firm upland mineral soil against waterlogged peat mats and smoldering duff risk.",
+    "failure": {
+      "text": "Building a fire on dry-looking bog peat or stepping onto quaking muck causes subterranean wildfire ignition and cold-water entrapment.",
+      "claims": [
+        "R18",
+        "C01",
+        "X12"
+      ]
+    },
+    "verify": {
+      "text": "Mineral soil verification precedes any lawful fire site, and wetland margins are observed from firm upland ground.",
+      "claims": [
+        "R18",
+        "C01"
+      ]
+    },
+    "stop": {
+      "text": "Stop advancing immediately when ground flexes underfoot or dark organic peat replaces firm mineral soil.",
+      "claims": [
+        "R18",
+        "X12"
+      ]
+    },
+    "reviewer": "Wetland ecologist and wildland fire reviewer"
+  },
+  {
+    "id": "Z08-P32",
+    "zone": "Z08",
+    "title": "Karst Sinkholes, Undercut Riverbanks and Slope Failure Cues",
+    "origin": "New manuscript (Z08 P16 geological hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Watch for top-of-bank tension cracks, freshly tilted trees, seeping mud faces, and angular fresh rock debris at cliff bases signaling active slope failure.",
+        "claims": [
+          "R16"
+        ]
+      },
+      {
+        "text": "Stay well back from overhanging soil banks and karst sinkhole rims because root mats often bridge hollow cavities that collapse underfoot.",
+        "claims": [
+          "R16"
+        ]
+      },
+      {
+        "text": "Increase setback distances after heavy rainstorms, rapid snowmelt, and freeze-thaw cycles when pore water destabilizes bluffs and drift walls.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize unstable earth and rock slopes across bluffs, river cuts, and karst terrain before entering hazardous fall or slump zones.",
+    "applies": "Southeastern Minnesota karst valleys, North Shore cliffs, and thawing spring stream banks.",
+    "equipment": "Route map, visual slope scan from stable ground.",
+    "diagram": "Scan for tension cracks and talus | Respect undercut banks and karst | Route wide on stable terrain",
+    "visual": "Conceptual slope-failure diagram highlighting top-edge tension cracks, leaning trees, and active basal talus.",
+    "failure": {
+      "text": "Standing on grassy undercut rims for a view or camping beside fresh talus exposes groups to fatal bank collapse and rockfall.",
+      "claims": [
+        "R13",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Travel and camp zones maintain clear setback from cracked rims, undercut banks, and active talus aprons.",
+      "claims": [
+        "R16"
+      ]
+    },
+    "stop": {
+      "text": "Stop and reroute onto solid upland terrain whenever fresh cracks, slumping mud, or falling pebbles are noticed.",
+      "claims": [
+        "R16"
+      ]
+    },
+    "reviewer": "Engineering geologist"
+  },
+  {
+    "id": "Z08-P33",
+    "zone": "Z08",
+    "title": "Wood Density, Grain Direction and Moisture Content Screening",
+    "origin": "New manuscript (Z08 P16 wood materials)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inspect naturally broken or end-grain surfaces of dead downed wood to assess growth-ring spacing, grain straightness, and freedom from rot.",
+        "claims": [
+          "R15"
+        ]
+      },
+      {
+        "text": "Distinguish dry sound wood from damp or punky wood by weight, clean dry shavings, and resistance to crumbling under gentle fingernail pressure.",
+        "claims": [
+          "R15"
+        ]
+      },
+      {
+        "text": "Separate visual grain screening from structural certification; never trust wild branches for overhead climbing, hoisting, or unverified load-bearing spans.",
+        "claims": [
+          "R15",
+          "K06"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Evaluate dead downed wood properties—density, straight grain, and moisture—without certifying structural capacity or cutting live trees.",
+    "applies": "Upper Midwest forest material assessment for camp tasks and educational wood study.",
+    "equipment": "Visual inspection, fingernail press screen, lawful dead-downed wood only.",
+    "diagram": "Check straight lengthwise grain | Screen internal moisture and rot | Never assign structural load ratings",
+    "visual": "Conceptual cross-section of tree growth rings, radial drying checks, and straight-versus-runout wood grain.",
+    "failure": {
+      "text": "Selecting heavy green wood, rain-soaked branches, or cross-grained limbs causes sudden snapping and poor combustion or tool failure.",
+      "claims": [
+        "R15"
+      ]
+    },
+    "verify": {
+      "text": "Selected dead downed wood is dry, sound, straight-grained, lawfully gathered, and restricted to non-load-rated tasks.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "stop": {
+      "text": "Stop cutting live trees or using cracked, hollow, insect-riddled, or punky wood for any load or tool task.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "reviewer": "Forestry and wood-science specialist"
+  },
+  {
+    "id": "Z08-P34",
+    "zone": "Z08",
+    "title": "Hardwoods vs Softwoods: Resin, Splitting and Combustion Traits",
+    "origin": "New manuscript (Z08 P16 wood materials)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Distinguish dense hardwoods (oak, hickory, hard maple) from softer low-resin hardwoods (basswood, aspen) and resinous conifers (pine, spruce, balsam fir).",
+        "claims": [
+          "R15",
+          "B16"
+        ]
+      },
+      {
+        "text": "Expect resinous softwoods to ignite faster but throw popping embers and build sticky creosote/soot faster than seasoned dry hardwoods.",
+        "claims": [
+          "R15",
+          "C02"
+        ]
+      },
+      {
+        "text": "Check local firewood transport and state-park gathering rules to prevent spreading invasive forest pests such as emerald ash borer.",
+        "claims": [
+          "R09",
+          "R15"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Contrast dense ring-porous hardwoods with resinous conifers to match lawful fuel or craft expectations accurately.",
+    "applies": "Upper Midwest mixed boreal-hardwood forests (oak, maple, birch, pine, spruce, cedar).",
+    "equipment": "Tree guide, dead downed material only.",
+    "diagram": "Compare dense hardwood vs softwood | Note conifer pitch and spark pop | Obey local firewood and harvest laws",
+    "visual": "Conceptual comparison contrasting dense slow-burning hardwoods, softer low-resin basswood/aspen, and resinous popping conifers.",
+    "failure": {
+      "text": "Assuming all dead wood burns or works identically leads to resin-glazed friction boards, showered sparks on tarps, or illegal firewood movement.",
+      "claims": [
+        "R09",
+        "R15",
+        "C02"
+      ]
+    },
+    "verify": {
+      "text": "Wood category, resin behavior, spark clearance, and local gathering rules are confirmed before lawful use.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "stop": {
+      "text": "Stop gathering firewood inside prohibited preserves or transporting uncertified wood across invasive-pest quarantine lines.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "reviewer": "Forester and fire safety reviewer"
+  },
+  {
+    "id": "Z08-P35",
+    "zone": "Z08",
+    "title": "Standing Dead vs Ground-Contact Wood Decay Screening",
+    "origin": "New manuscript (Z08 P16 wood degradation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Scan overhead canopies for leaning dead trees and hung-up widowmaker limbs before inspecting any downed wood below.",
+        "claims": [
+          "R15",
+          "E05"
+        ]
+      },
+      {
+        "text": "Recognize advanced fungal decay by bracket conks, black zone lines, soft spongy texture, hollow sound, or wood crumbling into fibrous powder.",
+        "claims": [
+          "R15"
+        ]
+      },
+      {
+        "text": "Verify internal dryness rather than assuming standing dead branches are dry, because wind-driven rain and snowmelt wick deep into cracked wood.",
+        "claims": [
+          "R15"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Assess hidden fungal rot, insect galleries, and moisture gradients in dead wood while staying clear of hazardous overhead snags.",
+    "applies": "Evaluating fallen branches and deadfall while avoiding widowmaker snags.",
+    "equipment": "Visual overhead canopy scan before approaching deadfall.",
+    "diagram": "Scan overhead snags first | Check bark slip and fungal conks | Reject spongy punky heartwood",
+    "visual": "Conceptual wood failure profile showing fungal shelf conks, hollowed core decay, and overhead snag fall danger.",
+    "failure": {
+      "text": "Pulling on standing dead snags or relying on punky ground-contact logs causes fatal overhead limb falls and collapsed supports.",
+      "claims": [
+        "R15",
+        "E05"
+      ]
+    },
+    "verify": {
+      "text": "Overhead hazard scan is clear and inspected deadfall shows solid uncrumbled dry fibers.",
+      "claims": [
+        "R15",
+        "E05"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and move clear of leaning snags, hung branches, and wind-swaying dead trees.",
+      "claims": [
+        "R15",
+        "E05"
+      ]
+    },
+    "reviewer": "Certified arborist and forestry specialist"
+  },
+  {
+    "id": "Z08-P36",
+    "zone": "Z08",
+    "title": "Bark Layers, Inner Bast Fibers and Conservation Ethics",
+    "origin": "New manuscript (Z08 P16 natural fibers)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that stripping bark around a living tree severs the cambium and phloem, killing the tree and violating public-land conservation law.",
+        "claims": [
+          "R09",
+          "R15",
+          "R18"
+        ]
+      },
+      {
+        "text": "Limit any educational study of outer papery bark or fibrous inner bast strictly to naturally fallen dead branches or lawfully permitted private windfall.",
+        "claims": [
+          "R09",
+          "R15",
+          "R18"
+        ]
+      },
+      {
+        "text": "Inspect fallen bark fibers for mold, brittleness, and short staple length, noting that natural cordage strength is highly variable and never life-safety rated.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Understand bark anatomy and natural bast fibers without girdling live trees or violating public-land plant protections.",
+    "applies": "Educational study of birch outer bark and basswood/cedar/nettle inner bast fibers.",
+    "equipment": "Downed fallen branches only on lawful sites; never strip live trees.",
+    "diagram": "Separate outer bark from inner bast | Prohibit stripping live tree trunks | Respect protected native communities",
+    "visual": "Conceptual bark cross-section labeling outer corky bark, fibrous inner phloem/bast, vital cambium, and sapwood.",
+    "failure": {
+      "text": "Peeling live birch or cedar trees causes permanent ecological damage and legal penalties, while brittle rotted bast snaps under tension.",
+      "claims": [
+        "R09",
+        "R15",
+        "R18"
+      ]
+    },
+    "verify": {
+      "text": "Zero live bark is cut or peeled, and any studied fiber is verified lawful downed material with non-load-rated limits.",
+      "claims": [
+        "R09",
+        "R18"
+      ]
+    },
+    "stop": {
+      "text": "Stop collecting bark or plant fibers in parks, SNAs, or anywhere landowner permission is absent.",
+      "claims": [
+        "R08",
+        "R09",
+        "R10",
+        "R18"
+      ]
+    },
+    "reviewer": "Botanist and forestry reviewer"
+  },
+  {
+    "id": "Z08-P37",
+    "zone": "Z08",
+    "title": "Herbaceous Stem, Rush and Sedge Fiber Selection Limits",
+    "origin": "New manuscript (Z08 P16 natural fibers)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Verify positive non-toxic plant identity before handling wild stems because poison ivy vines, stinging nettle hairs, wild parsnip sap, and hemlocks cause severe burns or poisoning.",
+        "claims": [
+          "R18",
+          "B12",
+          "B14"
+        ]
+      },
+      {
+        "text": "Avoid harvesting wetland sedges, rushes, or prairie natives on public lands, SNAs, or protected shorelines where vegetation removal is illegal.",
+        "claims": [
+          "R09",
+          "R10",
+          "R18"
+        ]
+      },
+      {
+        "text": "Recognize that dry brittle stems crack unless conditioned properly, and never use improvised plant twine for climbing, hoisting, or life-safety anchors.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Screen common Upper Midwest fibrous plant stems while avoiding toxic lookalikes, dermal irritants, and protected habitats.",
+    "applies": "Educational fiber recognition in upland meadows and lawful private land.",
+    "equipment": "Gloves, plant identification guide, land-permission check.",
+    "diagram": "Confirm non-toxic plant identity first | Separate upland stems from wetland rarities | Test dry tensile snap safely",
+    "visual": "Conceptual plant-stem cutaway comparing outer fibrous bast sheath against brittle pithy core and toxicity check.",
+    "failure": {
+      "text": "Grabbing wild parsnip or poison ivy stems barehanded causes blistering dermatitis, while weak grass twine snaps under sudden load.",
+      "claims": [
+        "R18",
+        "B12",
+        "B14"
+      ]
+    },
+    "verify": {
+      "text": "Plant identity is confirmed non-toxic, land permission is verified, and fibers are restricted to light non-safety demonstration.",
+      "claims": [
+        "R18",
+        "B12"
+      ]
+    },
+    "stop": {
+      "text": "Stop handling any unidentified stem, milky sap plant, hollow-stemmed umbel, or protected native plant community.",
+      "claims": [
+        "R10",
+        "R18",
+        "B11"
+      ]
+    },
+    "reviewer": "Botanist and materials specialist"
+  },
+  {
+    "id": "Z08-P38",
+    "zone": "Z08",
+    "title": "Retting, Moisture Cycling and Natural Fiber Degradation",
+    "origin": "New manuscript (Z08 P16 material degradation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that wet storage accelerates microbial rot in natural bast and cotton fibers, cutting strength drastically before visible breakage.",
+        "claims": [
+          "R18"
+        ]
+      },
+      {
+        "text": "Inspect both natural fibers and synthetic cords for UV sun-bleaching, stiff chalky texture, fuzzing abrasion, and knot-pinch flattening.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      },
+      {
+        "text": "Dry wet cordage thoroughly in shade with airflow and retire any frayed, mildewed, or sun-brittle cord before use.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize how moisture, rot bacteria, sunlight UV, and abrasion degrade plant fibers and manufactured cordage over time.",
+    "applies": "Inspecting stored natural fibers and field cordage before light utility tasks.",
+    "equipment": "Visual and gentle hand-tension check.",
+    "diagram": "Track damp rot and mildew odor | Inspect UV bleaching and fuzzing | Retire frayed or brittle cordage",
+    "visual": "Conceptual timeline illustrating fiber degradation from fresh dry strand through damp mildew weakening to brittle failure.",
+    "failure": {
+      "text": "Packing damp natural twine in sealed bags breeds rot rapidly and causes unexpected snaps during camp utility tasks.",
+      "claims": [
+        "R18"
+      ]
+    },
+    "verify": {
+      "text": "Cordage is dry, flexible, unfrayed, and restricted strictly within non-life-safety limits.",
+      "claims": [
+        "R18",
+        "K04"
+      ]
+    },
+    "stop": {
+      "text": "Stop using any cordage that smells musty, sheds powdery dust, snaps under light hand pull, or shows melted/cut strands.",
+      "claims": [
+        "R18",
+        "K04"
+      ]
+    },
+    "reviewer": "Materials and cordage specialist"
+  },
+  {
+    "id": "Z08-P39",
+    "zone": "Z08",
+    "title": "Green-Wood Shrinkage, Checking and Seasoning Failures",
+    "origin": "New manuscript (Z08 P16 wood degradation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that green wood shrinks substantially across the grain as it dries, causing V-shaped radial checks, warping, and loosened friction joints.",
+        "claims": [
+          "R15"
+        ]
+      },
+      {
+        "text": "Avoid relying on freshly fallen damp wood for tight tool-eye wedges or handles because drying shrinks the wood away from the steel head.",
+        "claims": [
+          "R15",
+          "K09"
+        ]
+      },
+      {
+        "text": "Inspect dry seasoned wood for deep splits extending across handle necks or tool eyes before any use.",
+        "claims": [
+          "R15",
+          "K09"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Understand how tangential and radial drying shrinkage causes cracks, warped joints, and loose tool handles.",
+    "applies": "Evaluating green versus seasoned dead wood in camp craft and tool maintenance.",
+    "equipment": "Visual end-grain inspection.",
+    "diagram": "Observe radial end-grain checks | Expect loosening as green wood dries | Use seasoned sound wood for handles",
+    "visual": "Conceptual wood cross-section showing V-shaped radial drying checks radiating from pith as moisture leaves cell walls.",
+    "failure": {
+      "text": "Fitting a damp green handle into an axe or hammer eye causes rapid loosening and dangerous head detachment once dry.",
+      "claims": [
+        "R15",
+        "K09"
+      ]
+    },
+    "verify": {
+      "text": "Wood parts are seasoned dry and free of deep radial checks across high-stress zones.",
+      "claims": [
+        "R15",
+        "K09"
+      ]
+    },
+    "stop": {
+      "text": "Stop using any wooden handle showing widening cracks, loose eye fit, or insect tunnels.",
+      "claims": [
+        "R15",
+        "K09"
+      ]
+    },
+    "reviewer": "Woodworking and forestry tool specialist"
+  },
+  {
+    "id": "Z08-P40",
+    "zone": "Z08",
+    "title": "Knots, Grain Runout and Timber Failure Recognition",
+    "origin": "New manuscript (Z08 P16 wood failure)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Trace wood grain lines along the entire length of a shaft or pole; grain exiting the side diagonally (runout) snaps suddenly under bending.",
+        "claims": [
+          "R15",
+          "K09"
+        ]
+      },
+      {
+        "text": "Check for loose dark dead knots, spiral twist, beetle exit holes, and longitudinal splits that concentrate bending stress.",
+        "claims": [
+          "R15"
+        ]
+      },
+      {
+        "text": "Never extrapolate a clear visual grain check into an engineered load rating for shelter ridges or elevated supports.",
+        "claims": [
+          "R15",
+          "E07"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify weak grain runout, dead knots, and insect damage in poles and handles before applying bending force.",
+    "applies": "Inspecting walking staves, tarp poles, and wooden tool handles.",
+    "equipment": "Visual side-by-side grain check in good light.",
+    "diagram": "Trace continuous grain along shaft | Flag diagonal runout and dead knots | Reject split or bored poles",
+    "visual": "Conceptual comparison of straight continuous grain running full length versus hazardous diagonal grain runout and knot pockets.",
+    "failure": {
+      "text": "Trusting a knotted or cross-grained pole for a shelter ridge or axe handle causes sudden splintering failure under load.",
+      "claims": [
+        "R15",
+        "K09"
+      ]
+    },
+    "verify": {
+      "text": "Inspected wooden poles and handles show continuous lengthwise grain with zero deep knots or splits at load points.",
+      "claims": [
+        "R15",
+        "K09"
+      ]
+    },
+    "stop": {
+      "text": "Stop using any wooden pole or handle with diagonal grain runout, cracking sounds, or loosened dead knots.",
+      "claims": [
+        "R15",
+        "K09"
+      ]
+    },
+    "reviewer": "Forestry tool and woodworking specialist"
+  },
+  {
+    "id": "Z08-P41",
+    "zone": "Z08",
+    "title": "American Basswood and Quaking Aspen Material Screening",
+    "origin": "Adapted historical material (B007 wood selection)",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Reference regional tree traits—heart-shaped toothed leaves and bracted fruits for Tilia americana, white scarred bark and flat-stalked leaves for Populus tremuloides—using multiple traits rather than one cue.",
+        "claims": [
+          "R15",
+          "B16"
+        ]
+      },
+      {
+        "text": "Inspect only dead downed lawful wood by shaving a small face to confirm dry, sound, low-resin fibers that indent lightly with a fingernail without crumbling.",
+        "claims": [
+          "R15",
+          "C04"
+        ]
+      },
+      {
+        "text": "Keep friction-wood selection strictly framed as conditional educational screening; never depend on friction ignition in cold, wet, or hypothermic emergencies.",
+        "claims": [
+          "R15",
+          "C16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Screen dead dry American basswood and quaking aspen as regional low-resin soft hardwood candidates while keeping species and live-tree holds intact.",
+    "applies": "Upper Midwest educational friction-material study on lawful dead downed wood.",
+    "equipment": "Regional tree guide, dead downed wood only; cold inspection.",
+    "diagram": "Check species traits conservatively | Verify dry non-punky wood core | Preserve photography & field holds",
+    "visual": "Conceptual wood-screening profile summarizing B007 basswood/aspen characteristics and moisture-rot rejection cues.",
+    "failure": {
+      "text": "Grabbing damp punky aspen or mistaking dense hard maple for soft basswood wastes calories and fails to produce fine dry wood dust.",
+      "claims": [
+        "R15",
+        "C04"
+      ]
+    },
+    "verify": {
+      "text": "Dead downed status, dryness, sound non-punky firmness, and lawful gathering permission are verified before training.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately if cold, wet, injured, or exhausted—prioritize shelter and warmth over friction material trials, and never cut live trees.",
+      "claims": [
+        "R09",
+        "R15",
+        "C16"
+      ]
+    },
+    "reviewer": "Botanist and firecraft safety instructor"
+  },
+  {
+    "id": "Z08-P42",
+    "zone": "Z08",
+    "title": "Northern White Cedar and Eastern Cottonwood Moisture Limits",
+    "origin": "Adapted historical material (B007 wood selection)",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Distinguish northern white cedar (Thuja occidentalis, flat scale-leaf sprays and shredding fibrous bark) and eastern cottonwood (Populus deltoides, furrowed bark and triangular leaves) using verified multi-trait keys.",
+        "claims": [
+          "R15",
+          "B16"
+        ]
+      },
+      {
+        "text": "Reject resin-soaked cedar knots or ground-soaked floodplain cottonwood because sticky resin glazes surfaces and damp heartwood resists drying.",
+        "claims": [
+          "R15",
+          "C04"
+        ]
+      },
+      {
+        "text": "Respect wetland, shoreline, and park prohibitions; never peel living cedar bark or disturb protected cedar swamp communities.",
+        "claims": [
+          "R09",
+          "R10",
+          "R18"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Assess dead dry northern white cedar and floodplain cottonwood while screening out resin glaze, rot, and wet-ground decay.",
+    "applies": "Upper Midwest wetland-edge and river-valley educational wood study.",
+    "equipment": "Dead downed branches on lawful sites; visual moisture check.",
+    "diagram": "Separate dry wood from resin glaze | Watch wet-ground decay in cedar | Obey shoreline and park rules",
+    "visual": "Conceptual wood comparison highlighting cedar resin-pocket exclusion and floodplain cottonwood bark/moisture screening.",
+    "failure": {
+      "text": "Using pitch-glazed cedar or wet riverside cottonwood causes persistent glazing, wasted effort, and ecological harm if live trees are stripped.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "verify": {
+      "text": "Evaluated sample is lawfully gathered dead wood free of sticky resin streaks and spongy waterlogged decay.",
+      "claims": [
+        "R09",
+        "R15"
+      ]
+    },
+    "stop": {
+      "text": "Stop collecting in cedar swamps, SNAs, or state parks, and abandon damp wood rather than forcing exhausted trials.",
+      "claims": [
+        "R09",
+        "R10",
+        "R15"
+      ]
+    },
+    "reviewer": "Forestry botanist and materials specialist"
+  },
+  {
+    "id": "Z08-P43",
+    "zone": "Z08",
+    "title": "Willow and Dried Mullein Stalk Condition Checks",
+    "origin": "Adapted historical material (B007 wood selection)",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Distinguish dry brown second-year common mullein (Verbascum thapsus) stalks and dead dry willow branches carefully from toxic hollow-stemmed wild parsnip or poison hemlock stalks.",
+        "claims": [
+          "R15",
+          "B11",
+          "B14"
+        ]
+      },
+      {
+        "text": "Test standing dried stalks gently for rain softening, hidden cracks, excessive curvature, and hollow insect boring before relying on them in supervised training.",
+        "claims": [
+          "R15"
+        ]
+      },
+      {
+        "text": "Keep hand-drill material screening strictly within controlled training; wet weather and low dexterity make friction methods unreliable in emergencies.",
+        "claims": [
+          "R15",
+          "C16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Inspect dead willow wood and standing dried common mullein stalks for straightness, moisture damage, and hollow insect rot.",
+    "applies": "Upper Midwest educational hand-drill and craft material screening on lawful sites.",
+    "equipment": "Visual bend and pith check; lawful non-park site.",
+    "diagram": "Verify non-native mullein stalk | Check rain and insect pith damage | Avoid toxic hollow-stem lookalikes",
+    "visual": "Conceptual stalk cross-section comparing solid dry pithy mullein stem against brittle insect-hollowed stems and toxic Apiaceae stalks.",
+    "failure": {
+      "text": "Mistaking a dried wild parsnip or hemlock stalk for mullein risks dermatitis or poisoning, while cracked pithy stalks snap under hand pressure.",
+      "claims": [
+        "R15",
+        "B11",
+        "B14"
+      ]
+    },
+    "verify": {
+      "text": "Positive plant ID separates mullein from umbel lookalikes, and stalks are straight, dry, and intact.",
+      "claims": [
+        "R15",
+        "B14"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately if stem identity is uncertain, umbel seedheads appear, or hands show blister/abrasion strain.",
+      "claims": [
+        "R15",
+        "B11",
+        "B14"
+      ]
+    },
+    "reviewer": "Botanist and firecraft instructor"
+  },
+  {
+    "id": "Z08-P44",
+    "zone": "Z08",
+    "title": "Natural Bast Cordage Preparation and Unrated Load Boundaries",
+    "origin": "Adapted historical material (B007A cordage concepts)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Preserve B007A cordage concepts strictly as non-rated educational material demonstrations using lawfully obtained dead-plant fibers.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      },
+      {
+        "text": "Inspect twisted natural fibers closely for dry brittleness, uneven thickness, and sharp abrasion points where strands shear rapidly under friction.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      },
+      {
+        "text": "Use maintained manufactured cordage for any shelter ridgeline, pack lashing, or critical field tie-down rather than improvised bast twine.",
+        "claims": [
+          "R18",
+          "K04"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Reconcile historical B007A natural cordage material notes with strict conservation laws and zero-load-rating safety boundaries.",
+    "applies": "Supervised educational study of natural fiber cordage limitations.",
+    "equipment": "Lawfully collected dead-plant fiber only; maintained commercial cord for real loads.",
+    "diagram": "Confirm lawful non-toxic fiber | Inspect splice & abrasion wear | Never rate natural cord for loads",
+    "visual": "Conceptual system boundary separating unrated educational natural bast twine from tested commercial cordage.",
+    "failure": {
+      "text": "Trusting hand-twisted plant fibers for heavy loads or overhead tie-downs results in abrupt unannounced parting.",
+      "claims": [
+        "R18",
+        "K04"
+      ]
+    },
+    "verify": {
+      "text": "Natural fiber samples remain strictly educational and non-load-bearing, with commercial cord carried for field tasks.",
+      "claims": [
+        "R18",
+        "K04"
+      ]
+    },
+    "stop": {
+      "text": "Stop any attempt to use improvised plant cordage for human weight, climbing, towing, or heavy overhead suspension.",
+      "claims": [
+        "R18",
+        "K04",
+        "K06"
+      ]
+    },
+    "reviewer": "Cordage and materials specialist"
+  },
+  {
+    "id": "Z08-P45",
+    "zone": "Z08",
+    "title": "Resinous Fatwood vs Non-Resinous Hearth Materials",
+    "origin": "Adapted historical material (B008/B008-original friction materials)",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Recognize resin-saturated dead pine wood (fatwood) by amber translucency, sticky pitch texture, and strong turpentine scent in naturally fallen dead stumps where lawful.",
+        "claims": [
+          "R15",
+          "C03"
+        ]
+      },
+      {
+        "text": "Keep sticky resinous wood strictly separate from friction-fire hearths and spindles, where pitch melts and glazes contact surfaces instead of forming dry coal dust.",
+        "claims": [
+          "R15",
+          "C04"
+        ]
+      },
+      {
+        "text": "Observe outdoor burn bans, state-park gathering prohibitions, and ventilation rules because pitch smoke is dense, sooty, and hazardous in enclosed spaces.",
+        "claims": [
+          "R09",
+          "C05",
+          "C07"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Separate pitch-rich resinous pine fatwood tinder aids from non-resinous dry woods required for friction dust generation.",
+    "applies": "Upper Midwest conifer-hardwood forests during lawful controlled training.",
+    "equipment": "Dead downed fallen pine stumps/branches only where lawful; approved ignition tools.",
+    "diagram": "Identify sticky pitch saturation | Reserve resin for lawful tinder only | Keep pitch off friction boards",
+    "visual": "Conceptual contrast separating resin-saturated pine fatwood shavings from clean dry low-resin wood dust.",
+    "failure": {
+      "text": "Attempting friction ignition with resinous pine glazes the socket immediately, while burning pitchy wood inside shelters creates heavy smoke and CO risk.",
+      "claims": [
+        "R15",
+        "C07"
+      ]
+    },
+    "verify": {
+      "text": "Material roles stay separated—dry low-resin wood for training mechanics, pitchy dead wood strictly outdoors where lawful.",
+      "claims": [
+        "R09",
+        "R15",
+        "C07"
+      ]
+    },
+    "stop": {
+      "text": "Stop cutting into live pines, burning resinous wood indoors, or igniting fires during active burn restrictions.",
+      "claims": [
+        "R09",
+        "C05",
+        "C07"
+      ]
+    },
+    "reviewer": "Fire safety instructor and forester"
+  },
+  {
+    "id": "Z08-P46",
+    "zone": "Z08",
+    "title": "Reconciling B011 Regional Wood and Fiber Research Leads",
+    "origin": "Adapted historical material (B011 atlas wood/fiber leads)",
+    "category": "Adapted historical material",
+    "action": [
+      {
+        "text": "Treat historical B011 wood and fiber species lists as unverified research leads until each taxon is matched to accepted nomenclature and regional herbarium vouchers.",
+        "claims": [
+          "R15",
+          "R19",
+          "B02"
+        ]
+      },
+      {
+        "text": "Require matched multi-view photographs—whole tree, leaf/needle, bark, winter bud, and dead-wood sample—with rights and locality metadata before diagnostic display.",
+        "claims": [
+          "R19",
+          "B02"
+        ]
+      },
+      {
+        "text": "Retain explicit HOLD status on any B011 lead lacking independent forestry, botany, or materials-specialist confirmation.",
+        "claims": [
+          "R15",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Carry forward historical B011 regional tree-wood and fiber leads with explicit voucher, rights, and specialist verification holds.",
+    "applies": "Editorial and field-reference governance linking historical Track B notes to current Z08/Z05 standards.",
+    "equipment": "Regional flora keys, Bell Museum voucher portal, photo provenance register.",
+    "diagram": "Audit historical species leads | Require multi-view specimen proofs | Keep unreviewed claims on HOLD",
+    "visual": "Conceptual specimen documentation pipeline converting historical B011 leads into verified voucher-backed entries.",
+    "failure": {
+      "text": "Publishing historical lead lists as field-verified material guides imports unverified species boundaries and missing photographic provenance.",
+      "claims": [
+        "R19",
+        "B02"
+      ]
+    },
+    "verify": {
+      "text": "Every B011-derived entry carries explicit provenance, open diagnostic photo requirements, and pending specialist review.",
+      "claims": [
+        "R19",
+        "B02"
+      ]
+    },
+    "stop": {
+      "text": "Stop promoting any historical B011 material lead to field approval without verified voucher records and specialist sign-off.",
+      "claims": [
+        "R15",
+        "R19",
+        "B02"
+      ]
+    },
+    "reviewer": "Botanist, forester, and archival editor"
+  },
+  {
+    "id": "Z08-P47",
+    "zone": "Z08",
+    "title": "Matching Observable Material Properties to Task Boundaries",
+    "origin": "New manuscript (Z08 P16 material selection)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Pass every candidate natural material through three sequential gates: legal collecting permission, dust/toxicity/biological hazard exclusion, and observable physical suitability.",
+        "claims": [
+          "R06",
+          "R08",
+          "R14"
+        ]
+      },
+      {
+        "text": "Reject any material that fails a single gate rather than trying to compensate with extra effort or improvised workarounds.",
+        "claims": [
+          "R06",
+          "R08",
+          "R14"
+        ]
+      },
+      {
+        "text": "Keep manufactured, maintained, tested gear as the primary safety layer for shelter, water treatment, fire, and rescue.",
+        "claims": [
+          "R13",
+          "R15",
+          "K01"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Apply a structured non-destructive screening matrix before choosing any natural material for a lawful non-critical task.",
+    "applies": "Field evaluation of stone, soil, wood, and natural fibers.",
+    "equipment": "Hand lens, site-law map, personal protective gear as needed.",
+    "diagram": "Verify legality and hazard exclusions | Screen hardness, moisture & grain | Confirm non-critical scope only",
+    "visual": "Conceptual three-gate decision tree routing natural materials through legality, toxicity/dust screening, and physical limits.",
+    "failure": {
+      "text": "Skipping legal or toxicity gates because a rock or wood piece looks physically convenient causes injury, exposure, or resource violations.",
+      "claims": [
+        "R06",
+        "R08",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "All three screening gates pass before any natural material is handled beyond visual study.",
+      "claims": [
+        "R06",
+        "R08",
+        "R14"
+      ]
+    },
+    "stop": {
+      "text": "Stop using any natural material whenever legality, chemical safety, moisture state, or failure behavior is uncertain.",
+      "claims": [
+        "R06",
+        "R08",
+        "R14"
+      ]
+    },
+    "reviewer": "Materials specialist and safety reviewer"
+  },
+  {
+    "id": "Z08-P48",
+    "zone": "Z08",
+    "title": "Freeze-Thaw Weathering and Rock Joint Progression",
+    "origin": "New manuscript (Z08 P16 material degradation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Understand that water expanding roughly nine percent upon freezing drives progressive frost wedging along rock joints and sedimentary bedding planes.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      },
+      {
+        "text": "Expect peak rockfall and bluff slumping during spring melt and mid-winter thaw-refreeze swings even on calm sunny days.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      },
+      {
+        "text": "Inspect stacked trail cairns, stone fire rings, and bluff ledges for freshly cracked or spalled fragments before approaching.",
+        "claims": [
+          "R13",
+          "R16"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize frost-wedging expansion in Upper Midwest bedrock and boulders that destabilizes cliffs, talus slopes, and stone stacks.",
+    "applies": "Late autumn, winter thaw, and spring runoff across bluffs and rocky shorelines.",
+    "equipment": "Visual inspection from safe setback.",
+    "diagram": "Spot water-filled rock fractures | Anticipate spring thaw rockfall | Keep camp clear of fractured cliffs",
+    "visual": "Conceptual cross-section illustrating water freezing and expanding inside bedrock joints to wedge loose rock slabs.",
+    "failure": {
+      "text": "Assuming cold frozen rock is permanently locked in place exposes travelers to sudden afternoon thaw rockfall.",
+      "claims": [
+        "R13",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Camps and rest stops stay clear of fractured bluff walls and active talus aprons during freeze-thaw seasons.",
+      "claims": [
+        "R16"
+      ]
+    },
+    "stop": {
+      "text": "Stop lingering beneath cliff overhangs or thawing roadcuts whenever meltwater drips from rock joints.",
+      "claims": [
+        "R13",
+        "R16"
+      ]
+    },
+    "reviewer": "Engineering geologist"
+  },
+  {
+    "id": "Z08-P49",
+    "zone": "Z08",
+    "title": "Biological, Chemical and UV Degradation of Natural Materials",
+    "origin": "New manuscript (Z08 P16 material degradation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Inspect natural wood and fibers for fine beetle frass powder, dark fungal staining, soft spongy areas, and sour mildew odors indicating structural loss.",
+        "claims": [
+          "R15",
+          "R18"
+        ]
+      },
+      {
+        "text": "Check metal-to-wood joints and salt-exposed gear for rust pitting and swelling wood that splits handles.",
+        "claims": [
+          "R15",
+          "K09"
+        ]
+      },
+      {
+        "text": "Store serviceable field tools dry, clean, and shaded from direct sunlight, retiring visibly degraded natural or synthetic parts before trips.",
+        "claims": [
+          "R15",
+          "R18",
+          "K08"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Identify early rot, insect boring, chemical corrosion, and sunlight degradation across wood, bark, fiber, and field gear.",
+    "applies": "Inspecting cached camp materials, natural craft items, and field tools.",
+    "equipment": "Visual and gentle flex check in daylight.",
+    "diagram": "Check moisture rot and insect dust | Inspect UV chalking and rust | Retire degraded items early",
+    "visual": "Conceptual comparison of four degradation vectors: fungal rot, beetle boring, UV embrittlement, and galvanic/salt corrosion.",
+    "failure": {
+      "text": "Overlooking tiny beetle holes or sun-bleached cordage causes sudden handle or strap failure mid-task.",
+      "claims": [
+        "R15",
+        "R18"
+      ]
+    },
+    "verify": {
+      "text": "Pre-trip inspection confirms dry, sound, uncracked wood, intact cordage, and rust-free metal fittings.",
+      "claims": [
+        "R15",
+        "R18",
+        "K08"
+      ]
+    },
+    "stop": {
+      "text": "Stop using any tool handle, pole, or cordage exhibiting soft rot, insect frass, deep rust pitting, or brittle snapping.",
+      "claims": [
+        "R15",
+        "R18",
+        "K09"
+      ]
+    },
+    "reviewer": "Materials specialist"
+  },
+  {
+    "id": "Z08-P50",
+    "zone": "Z08",
+    "title": "Thermal Embrittlement and Cracking of Heated Stone",
+    "origin": "New manuscript (Z08 P16 material degradation)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that different minerals inside granite, gneiss, and sedimentary stone expand at different rates when heated, generating internal tensile fractures.",
+        "claims": [
+          "R03",
+          "R13"
+        ]
+      },
+      {
+        "text": "Avoid stacking or stepping on heat-reddened, blackened, or craze-cracked rocks from old fire rings because they crumble sharply under weight or reheating.",
+        "claims": [
+          "R13"
+        ]
+      },
+      {
+        "text": "Follow Leave No Trace and agency fire-ring rules rather than pulling fresh rocks from shorelines or banks to build new stone rings.",
+        "claims": [
+          "R08",
+          "R09",
+          "R13"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Explain how repeated heating cycles fracture even dry-looking rocks into sharp unstable fragments.",
+    "applies": "Fire-ring inspection and camp safety around previously burned stone.",
+    "equipment": "Visual inspection after coals are cold out.",
+    "diagram": "Recognize heat-crazed rock fractures | Avoid reusing cracked hearth stones | Clear mineral soil instead",
+    "visual": "Conceptual cutaway showing differential thermal expansion opening jagged internal micro-cracks across heated stone.",
+    "failure": {
+      "text": "Reheating cracked fire-ring rocks or building new rings from shoreline cobbles causes flying hot splinters and shoreline damage.",
+      "claims": [
+        "R09",
+        "R13"
+      ]
+    },
+    "verify": {
+      "text": "Only authorized existing agency fire grates/rings or approved stoves are used; cracked stones are left undisturbed.",
+      "claims": [
+        "R08",
+        "R13"
+      ]
+    },
+    "stop": {
+      "text": "Stop using cracked or river-sourced hearth stones and switch to an approved camp stove.",
+      "claims": [
+        "R13",
+        "C01"
+      ]
+    },
+    "reviewer": "Geologist and fire safety reviewer"
+  },
+  {
+    "id": "Z08-P51",
+    "zone": "Z08",
+    "title": "Sharp Flake and Edge-Failure Hazards in Siliceous Stone",
+    "origin": "New manuscript (Z08 P16 failure recognition)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat freshly fractured chert, flint, quartz, and obsidian edges as razor-sharp surgical hazards capable of severing tendons on bare hands.",
+        "claims": [
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "text": "Require wrap-around eye protection, bystander setback, and leather gloves during any supervised lawful historical demonstration involving struck stone.",
+        "claims": [
+          "R05",
+          "R06",
+          "C03"
+        ]
+      },
+      {
+        "text": "Never leave sharp stone debitage or shattered glass fragments on trails, beaches, or campsites where barefoot people or pets walk.",
+        "claims": [
+          "R06",
+          "R08"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize razor-sharp flake laceration and eye-projectile risks associated with naturally fractured chert, quartz, and volcanic glass.",
+    "applies": "Observing fractured gravel, chert outcrops, and educational flint-and-steel demonstrations.",
+    "equipment": "ANSI Z87.1 eye protection, heavy leather gloves where handling sharp edges.",
+    "diagram": "Expect razor-sharp glassy edges | Guard eyes and hands around flakes | Keep first-aid bleeding kit nearby",
+    "visual": "Conceptual hazard plate illustrating sharp feathered silica flake edges, flying micro-splinters, and laceration/eye PPE zones.",
+    "failure": {
+      "text": "Handling broken chert barehanded or striking stone without eye protection causes deep lacerations and permanent corneal injury.",
+      "claims": [
+        "R05",
+        "R06"
+      ]
+    },
+    "verify": {
+      "text": "Bystanders remain clear, eye and hand protection are worn during supervised demonstrations, and zero sharp debris is left behind.",
+      "claims": [
+        "R06"
+      ]
+    },
+    "stop": {
+      "text": "Stop striking stone immediately if glasses fog, chips fly toward bystanders, or skin is nicked; control bleeding promptly.",
+      "claims": [
+        "R06",
+        "M01"
+      ]
+    },
+    "reviewer": "Industrial hygienist and outdoor safety instructor"
+  },
+  {
+    "id": "Z08-P52",
+    "zone": "Z08",
+    "title": "Separating Visual Material Recognition from Structural Certification",
+    "origin": "New manuscript (Z08 P16 governance boundary)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Keep visual field identification of rock outcrops, timber poles, and plant fibers strictly distinct from engineering load ratings or safe working loads.",
+        "claims": [
+          "R03",
+          "R15",
+          "R18"
+        ]
+      },
+      {
+        "text": "Never publish or estimate unverified pound, kilogram, or kilonewton capacities for wild wood spans, rock anchors, or hand-twisted cordage.",
+        "claims": [
+          "R15",
+          "R18",
+          "K06"
+        ]
+      },
+      {
+        "text": "Use manufacturer-rated, inspected equipment installed per qualified instructions whenever human safety or heavy loads depend on a support.",
+        "claims": [
+          "R15",
+          "K06"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent field observation of rock, wood, or fiber from being misrepresented as an engineering load capacity or anchor rating.",
+    "applies": "All Z08 material profiles linked to Z02 shelter, Z09 tools, and Z12 environments.",
+    "equipment": "Tested rated commercial hardware when structural loads exist.",
+    "diagram": "Observe material class only | Prohibit invented load numbers | Use tested rated hardware for loads",
+    "visual": "Conceptual boundary plate separating visual geological/wood recognition from laboratory structural engineering certification.",
+    "failure": {
+      "text": "Equating a sound-looking log or rock ledge with a certified anchor leads to catastrophic collapse under dynamic or wet loads.",
+      "claims": [
+        "R15",
+        "R16",
+        "K06"
+      ]
+    },
+    "verify": {
+      "text": "Every material description states observable limits without inventing structural capacity figures.",
+      "claims": [
+        "R15",
+        "R18"
+      ]
+    },
+    "stop": {
+      "text": "Stop any construction or rigging plan that relies on unverified wild stone, timber, or natural fiber for life safety.",
+      "claims": [
+        "R15",
+        "R18",
+        "K06"
+      ]
+    },
+    "reviewer": "Structural engineer and materials specialist"
+  },
+  {
+    "id": "Z08-P53",
+    "zone": "Z08",
+    "title": "Separating Visual Material Recognition from Food-Contact Safety",
+    "origin": "New manuscript (Z08 P16 governance boundary)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Accept that visual cleanliness of wild stone, riverbed clay, driftwood, or salvaged metal cannot rule out lead, arsenic, copper, pesticides, or toxic wood sap.",
+        "claims": [
+          "R12",
+          "R14",
+          "R15"
+        ]
+      },
+      {
+        "text": "Never use unidentified stone slabs as cooking griddles, wild clay as boiling pots, or salvaged painted/galvanized metal for food or drinking water.",
+        "claims": [
+          "R12",
+          "R13",
+          "R14"
+        ]
+      },
+      {
+        "text": "Use dedicated, clean, food-grade containers and utensils, and verify wood species before any incidental utensil contact.",
+        "claims": [
+          "R12",
+          "R15",
+          "W11"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent unverified stones, clays, metals, and woods from being used in cooking, water boiling, or food storage.",
+    "applies": "Evaluating natural materials near drinking water, cooking fires, and food preparation.",
+    "equipment": "Food-grade stainless steel, silicone, or tested NSF/FDA-compliant containers.",
+    "diagram": "Recognize invisible chemical hazards | Exclude wild clay and unknown metal | Use verified food-grade gear",
+    "visual": "Conceptual separation barrier keeping unverified rocks, soils, salvaged scrap, and wild wood out of food and water contact.",
+    "failure": {
+      "text": "Cooking on salvaged galvanized steel, painted scrap, or unverified sulfide stone releases toxic metal fumes and leaches contaminants into food.",
+      "claims": [
+        "R12",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "All water heating and food preparation stays confined to verified food-grade equipment.",
+      "claims": [
+        "R12",
+        "W11"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and discard food or water that contacts unidentified metallic ore, treated lumber, galvanized/painted scrap, or suspect soil.",
+      "claims": [
+        "R12",
+        "R14"
+      ]
+    },
+    "reviewer": "Environmental health specialist and toxicologist"
+  },
+  {
+    "id": "Z08-P54",
+    "zone": "Z08",
+    "title": "Unidentified Material Hold and Escalation Workflow",
+    "origin": "New manuscript (Z08 P16 escalation workflow)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Leave unidentified rocks, fibrous outcrops, metallic crusts, or suspect soils undisturbed in place rather than breaking or pocketing unknown samples.",
+        "claims": [
+          "R07",
+          "R08",
+          "R14"
+        ]
+      },
+      {
+        "text": "Document non-contact wide and close-up photographs with metric scale, GPS, and landform notes for submission to a geological survey or university museum.",
+        "claims": [
+          "R19"
+        ]
+      },
+      {
+        "text": "Maintain explicit HOLD status on any operational use of an unidentified material until a qualified geologist, soil lab, or industrial hygienist verifies safety.",
+        "claims": [
+          "R07",
+          "R12",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Apply a fail-closed hold protocol whenever a rock, mineral, soil, or wood specimen cannot be safely and lawfully identified in the field.",
+    "applies": "All uncertain geological or material encounters.",
+    "equipment": "Camera, metric scale, GPS/notebook, handwashing supplies.",
+    "diagram": "Pause without disturbing specimen | Record scale and locality safely | Escalate to qualified survey/museum",
+    "visual": "Conceptual three-tier escalation ladder routing uncertain specimens from field photo-hold to regional survey or laboratory assay.",
+    "failure": {
+      "text": "Guessing or improvising uses for unknown materials introduces preventable silica, asbestos, heavy-metal, or spalling injuries.",
+      "claims": [
+        "R06",
+        "R07",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Uncertain specimens stay undisturbed with complete photographic locality records and explicit HOLD status.",
+      "claims": [
+        "R19"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and wash hands if unexpected dust, fibers, chemical odor, or skin irritation occurs near an unknown material.",
+      "claims": [
+        "R06",
+        "R07",
+        "R14"
+      ]
+    },
+    "reviewer": "Curatorial geologist and industrial hygienist"
+  },
+  {
+    "id": "Z08-P55",
+    "zone": "Z08",
+    "title": "Federal 36 CFR 2.1 National Park Resource Protection",
+    "origin": "New manuscript (Z08 P16 collection restrictions)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Confirm before fieldwork whether land lies inside a National Park, Monument, Scenic Riverway, or Lakeshore where 36 CFR 2.1 prohibits possessing or removing rocks, minerals, fossils, or plants.",
+        "claims": [
+          "R08"
+        ]
+      },
+      {
+        "text": "Check the park-specific Superintendent Compendium because even downed firewood gathering is tightly restricted or prohibited in many NPS units.",
+        "claims": [
+          "R08"
+        ]
+      },
+      {
+        "text": "Practice observation-only geology inside federal parks using photographs and field sketches without hammering outcrops or moving cairns.",
+        "claims": [
+          "R08",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Comply with strict federal regulations prohibiting removal or disturbance of rocks, minerals, fossils, soil, and wood in National Park System units.",
+    "applies": "Voyageurs National Park, Grand Portage, Pipestone, Mississippi National River, and all NPS units.",
+    "equipment": "Park boundary map, NPS superintendent compendium.",
+    "diagram": "Verify NPS unit boundary lines | Leave all rocks and wood intact | Photograph without disturbing site",
+    "visual": "Conceptual federal regulation gate anchoring 36 CFR 2.1 zero-collection boundaries on National Park System lands.",
+    "failure": {
+      "text": "Pocketing beach agates, fossils, or pipestone fragments inside federal park units violates federal law and damages irreplaceable heritage sites.",
+      "claims": [
+        "R08"
+      ]
+    },
+    "verify": {
+      "text": "Zero natural or cultural specimens are disturbed or removed within NPS boundaries.",
+      "claims": [
+        "R08"
+      ]
+    },
+    "stop": {
+      "text": "Stop collecting immediately if NPS signage, park maps, or federal riverway boundaries appear.",
+      "claims": [
+        "R08"
+      ]
+    },
+    "reviewer": "Federal public-lands resource manager"
+  },
+  {
+    "id": "Z08-P56",
+    "zone": "Z08",
+    "title": "Minnesota State Parks and Scientific and Natural Areas Rules",
+    "origin": "New manuscript (Z08 P16 collection restrictions)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Verify DNR land designations before fieldwork because Minnesota State Parks prohibit removing rocks, minerals, fossils, soil, or live vegetation.",
+        "claims": [
+          "R09"
+        ]
+      },
+      {
+        "text": "Observe even stricter rules in Minnesota Scientific and Natural Areas (SNAs), which forbid all collecting, fires, camping, and habitat disturbance.",
+        "claims": [
+          "R10"
+        ]
+      },
+      {
+        "text": "Keep rockhounding and geological collection strictly outside State Park and SNA boundaries even along popular Lake Superior or river shorelines.",
+        "claims": [
+          "R09",
+          "R10",
+          "R11"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Follow Minnesota DNR rules prohibiting rock, mineral, soil, fossil, and plant collection inside State Parks and SNAs.",
+    "applies": "All Minnesota State Parks, State Recreation Areas, and Scientific and Natural Areas.",
+    "equipment": "Minnesota DNR park/SNA map and boundary signage.",
+    "diagram": "Check State Park vs SNA status | Keep rocks, soil and wood in place | Stay on designated trails in SNAs",
+    "visual": "Conceptual state-land regulatory gate contrasting strict SNA zero-disturbance boundaries with State Park rules.",
+    "failure": {
+      "text": "Assuming Lake Superior beaches inside state parks allow agate picking violates state resource rules and degrades protected shorelines.",
+      "claims": [
+        "R09",
+        "R10"
+      ]
+    },
+    "verify": {
+      "text": "Park and SNA boundaries are confirmed before entry and all geological features remain untouched.",
+      "claims": [
+        "R09",
+        "R10"
+      ]
+    },
+    "stop": {
+      "text": "Stop picking up any stone, driftwood, or soil the moment State Park or SNA boundary signs appear.",
+      "claims": [
+        "R09",
+        "R10"
+      ]
+    },
+    "reviewer": "Minnesota DNR resource manager"
+  },
+  {
+    "id": "Z08-P57",
+    "zone": "Z08",
+    "title": "Private Land Permission, Gravel Pits and Quarry Hazards",
+    "origin": "New manuscript (Z08 P16 collection safety)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Obtain explicit prior permission from private landowners before entering fields, creek beds, or gravel pits, and honor all access conditions.",
+        "claims": [
+          "R11"
+        ]
+      },
+      {
+        "text": "Never enter active or abandoned commercial quarries, mine pits, or steep highway roadcuts where blasting, heavy haul traffic, flooded drop-offs, and rockfall kill trespassers.",
+        "claims": [
+          "R11",
+          "R16"
+        ]
+      },
+      {
+        "text": "Keep clear of high-speed highway shoulders when inspecting roadcut geology; park only in lawful pullouts completely off the traveled lane.",
+        "claims": [
+          "R11"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Manage lawful rock-collecting permission and lethal mechanical/collapse hazards around gravel pits, roadcuts, and private property.",
+    "applies": "Lawful non-park rockhounding in public gravel areas or permission-granted private land.",
+    "equipment": "Written landowner permission, high-visibility vest near lawful roadsides, hard hat/eye protection where authorized.",
+    "diagram": "Secure explicit landowner permission | Exclude active quarries and traffic | Stay clear of vertical pit walls",
+    "visual": "Conceptual spatial exclusion map isolating active quarry highwalls, haul roads, and highway shoulders from lawful safe observation.",
+    "failure": {
+      "text": "Trespassing into active gravel pits or stopping on narrow highway shoulders exposes rockhounds to wall slumps, machinery blind spots, and traffic strikes.",
+      "claims": [
+        "R11",
+        "R16"
+      ]
+    },
+    "verify": {
+      "text": "Written or verified landowner permission, safe parking, and exclusion of active pits and vertical walls are confirmed.",
+      "claims": [
+        "R11"
+      ]
+    },
+    "stop": {
+      "text": "Stop and leave immediately if no-trespassing signs, active machinery, vertical overhangs, or unsafe traffic shoulders are present.",
+      "claims": [
+        "R11",
+        "R16"
+      ]
+    },
+    "reviewer": "Public-lands legal and quarry safety reviewer"
+  },
+  {
+    "id": "Z08-P58",
+    "zone": "Z08",
+    "title": "Crystalline Silica Dust Controls in Authorized Stone Work",
+    "origin": "New manuscript (Z08 P16 dust hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Treat quartz, chert, flint, sandstone, quartzite, and granite as high-silica materials whose fine fractured dust causes irreversible silicosis and lung cancer.",
+        "claims": [
+          "R06"
+        ]
+      },
+      {
+        "text": "Replace dry hammering or dry grinding with wet suppression or non-abrasive observation in authorized workshops, keeping bystanders upwind and outside the dust zone.",
+        "claims": [
+          "R06"
+        ]
+      },
+      {
+        "text": "Wear ANSI Z87.1 eye protection and properly fitted NIOSH particulate respiratory protection whenever authorized instruction risks generating airborne mineral dust.",
+        "claims": [
+          "R06"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Enforce engineering, wet-suppression, and PPE barriers against respirable crystalline silica during any authorized geological or lapidary instruction.",
+    "applies": "Supervised authorized geology labs, rock saws, or historical-craft demonstrations.",
+    "equipment": "Wet-cutting water feed, ANSI Z87.1 eye protection, NIOSH N95/P100 particulate respirator where indicated.",
+    "diagram": "Eliminate dry stone grinding | Apply wet suppression and ventilation | Wear eye and respiratory protection",
+    "visual": "Conceptual engineering control ladder prioritizing elimination and wet dust suppression ahead of respiratory PPE.",
+    "failure": {
+      "text": "Relying on an open backyard breeze or a loose cloth bandana fails to block invisible respirable silica particles.",
+      "claims": [
+        "R06"
+      ]
+    },
+    "verify": {
+      "text": "Zero dry stone grinding occurs, dust is suppressed wet or avoided entirely, and eye/respiratory protection matches the exposure.",
+      "claims": [
+        "R06"
+      ]
+    },
+    "stop": {
+      "text": "Stop any mechanical stone operation immediately if water feed fails, visible dust clouds rise, or fitted PPE is unavailable.",
+      "claims": [
+        "R06"
+      ]
+    },
+    "reviewer": "Certified industrial hygienist"
+  },
+  {
+    "id": "Z08-P59",
+    "zone": "Z08",
+    "title": "Naturally Occurring Asbestos and Elongated Mineral Fibers",
+    "origin": "New manuscript (Z08 P16 toxicity hazards)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Recognize that naturally occurring asbestos and elongated mineral fibers occur in certain metamorphic, ultramafic, and northern iron-formation bedrock units.",
+        "claims": [
+          "R07",
+          "R20"
+        ]
+      },
+      {
+        "text": "Leave any rock showing silky, woolly, needle-like, or matted fibrous veins completely untouched because visual inspection cannot verify whether fibers are regulated asbestos.",
+        "claims": [
+          "R07"
+        ]
+      },
+      {
+        "text": "Avoid kicking up dry dust on unimproved trails or mine waste piles in fibrous-mineral districts, and wash dusty boots and gear outdoors with water.",
+        "claims": [
+          "R07",
+          "R14"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Recognize potential asbestiform mineral habitats and enforce strict non-disturbance rules in iron-formation and ultramafic rock zones.",
+    "applies": "Northern Minnesota iron formations, serpentinite, greenstone belts, and fibrous mineral veins.",
+    "equipment": "Non-contact camera and map only.",
+    "diagram": "Spot fibrous silky or matted veins | Never break, collect, or brush fibers | Leave and report hazardous dust",
+    "visual": "Conceptual hazard zone isolating fibrous mineral outcrops from physical contact, hammering, or dust disturbance.",
+    "failure": {
+      "text": "Collecting pretty fibrous green or white mineral veins or hammering iron-formation waste rock releases persistent carcinogenic fibers into lungs and home clothing.",
+      "claims": [
+        "R07"
+      ]
+    },
+    "verify": {
+      "text": "Suspect fibrous outcrops remain completely undisturbed and documented only from a safe non-contact distance.",
+      "claims": [
+        "R07",
+        "R19"
+      ]
+    },
+    "stop": {
+      "text": "Stop immediately and move upwind if fibrous mineral veins or dusty mine-waste exposures are encountered.",
+      "claims": [
+        "R07"
+      ]
+    },
+    "reviewer": "Industrial hygienist and mineralogist"
+  },
+  {
+    "id": "Z08-P60",
+    "zone": "Z08",
+    "title": "Heavy-Metal Dust Hygiene and Post-Field Decontamination",
+    "origin": "New manuscript (Z08 P16 toxicity hygiene)",
+    "category": "New manuscript",
+    "action": [
+      {
+        "text": "Wash hands and forearms thoroughly with soap and clean water after handling rocks, soil, clay, or wood ash—always before eating, drinking, or touching your face.",
+        "claims": [
+          "R12",
+          "R14"
+        ]
+      },
+      {
+        "text": "Keep field boots, rock hammers, and dusty packs out of living and kitchen areas, rinsing mud outdoors away from drinking-water wells.",
+        "claims": [
+          "R06",
+          "R12",
+          "R14"
+        ]
+      },
+      {
+        "text": "Store any lawfully collected educational geological specimens labeled in sealed containers away from food surfaces and young children.",
+        "claims": [
+          "R14",
+          "R19"
+        ]
+      }
+    ],
+    "batch": "17-p16-z08-materials",
+    "publication": "HOLD",
+    "technical_review": "AI editorial check; qualified reviewer pending",
+    "objective": "Prevent secondary ingestion or household transfer of lead, arsenic, silica, and soil contaminants after geological fieldwork.",
+    "applies": "End-of-day cleanup after soil, clay, gravel, or mineral observation trips.",
+    "equipment": "Soap, clean water, dedicated specimen bags (only where lawful), separate laundry bag.",
+    "diagram": "Wash hands before eating or drinking | Bag dusty boots and gear outside | Keep wild minerals away from kitchens",
+    "visual": "Conceptual four-step decontamination sequence moving from field handwash to outdoor gear rinse and separate home storage.",
+    "failure": {
+      "text": "Eating trail snacks with mineral-dusted hands or washing dusty fieldwork clothes with family linens transfers lead, arsenic, and silica indoors.",
+      "claims": [
+        "R06",
+        "R12",
+        "R14"
+      ]
+    },
+    "verify": {
+      "text": "Hands are washed before food contact, dusty gear stays segregated from kitchens, and labeled specimens remain out of child reach.",
+      "claims": [
+        "R12",
+        "R14"
+      ]
+    },
+    "stop": {
+      "text": "Stop field handling and contact Poison Control (1-800-222-1222) if a child mouths an unidentified mineral or metallic ore.",
+      "claims": [
+        "R14",
+        "B09"
+      ]
+    },
+    "reviewer": "Environmental health specialist and industrial hygienist"
+  },
+  {
     "id": "Z09-P01",
     "zone": "Z09",
     "title": "Match hand tools to task limits and operator skill",
