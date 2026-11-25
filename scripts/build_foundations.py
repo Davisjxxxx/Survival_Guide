@@ -174,6 +174,46 @@ def lint_cards(cards):
                 if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', full):
                     raise ValueError(f'Contradiction: unsafe rip-current swimming instruction in {cid}')
 
+        # Rule 9: Z10 must never prescribe lay medication dosages, invasive field surgery, or rubbing frostbite with snow.
+        if card['zone'] == 'Z10':
+            for clause in clauses:
+                if re.search(r'\b(give|administer|take)\s+\d+\s*(mg|mcg|ml|milligrams?)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|not|prescribed|own|clinician|dispatcher)\b', clause):
+                        raise ValueError(f'Contradiction: unauthorized lay medication dosage in {cid}')
+                if re.search(r'\b(cut|incise|suck)\b[^.]{0,30}\b(snakebite|venom|wound)\b|\bperform (a )?(tracheotomy|cricothyrotomy)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe invasive field medical procedure in {cid}')
+                if re.search(r'\brub\b[^.]{0,30}\bfrostbit(e|ten)\b[^.]{0,35}\bsnow\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe frostbite snow-rubbing advice in {cid}')
+
+        # Rule 10: Z13 must never authorize backfeeding a portable generator into a wall or dryer outlet.
+        if card['zone'] == 'Z13':
+            for clause in clauses:
+                if re.search(r'\b(backfeed|plug)\b[^.]{0,45}\b(generator)\b[^.]{0,45}\b(wall outlet|dryer outlet|home circuit)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|prohibit|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe generator backfeeding authorization in {cid}')
+
+        # Rule 11: Z14 must never authorize oven canning, open-kettle canning, or boiling-water canning of low-acid foods.
+        if card['zone'] == 'Z14':
+            for clause in clauses:
+                if re.search(r'\b(use|try|process with)\b[^.]{0,30}\b(oven canning|open[- ]kettle canning)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|unsafe|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe canning method authorized in {cid}')
+                if re.search(r'\bwater[- ]bath can\b[^.]{0,40}\b(low[- ]acid|meat|poultry|green beans)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|unsafe|not|pressure can)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe water-bath canning of low-acid food in {cid}')
+
+        # Rule 12: Z15 must never advise driving through floodwater or sheltering under highway overpasses during tornadoes.
+        if card['zone'] == 'Z15':
+            for clause in clauses:
+                if re.search(r'\b(drive|cross)\b[^.]{0,30}\b(flooded road|floodwater|barricades?)\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|not|turn around)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe floodwater crossing authorization in {cid}')
+                if re.search(r'\bshelter under (a |an )?(highway )?overpass\b', clause):
+                    if not re.search(r'\b(never|do not|don\'t|avoid|unsafe|not)\b', clause):
+                        raise ValueError(f'Contradiction: unsafe tornado overpass shelter advice in {cid}')
+
 
 def load_cards(paths, claims):
     cards = {}

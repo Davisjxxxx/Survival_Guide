@@ -31,9 +31,13 @@ def main():
     ap.add_argument('edition',type=Path)
     ap.add_argument('audit',type=Path)
     ap.add_argument('--fail-layout', action='store_true', help='Fail when any label clips or overlaps')
+    ap.add_argument('--zones', help='Optional comma-separated zone filter (e.g. Z10,Z13,Z14,Z15)')
     args = ap.parse_args()
+    zone_filter = {z.strip() for z in args.zones.split(',')} if args.zones else None
     reader = args.edition/'reader'
     cards = json.loads((reader/'asset-manifest.json').read_text())
+    if zone_filter:
+        cards = [c for c in cards if c['page'][:3] in zone_filter]
     specs = json.loads((args.edition/'evidence/diagram-specs.json').read_text())
     args.audit.mkdir(parents=True,exist_ok=True)
     rows = []
@@ -98,8 +102,13 @@ def main():
         writer.writerows(rows)
     clipped = sum(bool(row['clipped_labels']) for row in rows)
     overlaps = sum(row['overlap_pairs'] > 0 for row in rows)
-    print(f'{len(rows)} SVGs measured, {len(checked)} rendered samples, {clipped} out of bounds, '
-          f'{overlaps} with intersecting text boxes.')
+    geom_counts = {}
+    for row in rows:
+        g = row['geometry_sha12']
+        if g:
+            geom_counts[g] = geom_counts.get(g, 0) + 1
+    print(f'{len(rows)} SVGs measured, {len(checked)} rendered samples, {len(geom_counts)} distinct geometry groups, '
+          f'{clipped} out of bounds, {overlaps} with intersecting text boxes.')
     if args.fail_layout and (clipped or overlaps):
         raise SystemExit('Figure label layout failed. See ILLUSTRATION_AUDIT.csv.')
 

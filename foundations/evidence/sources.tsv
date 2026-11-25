@@ -112,3 +112,51 @@ NWS-RIP-FAQ	NWS	Rip Current Questions and Answers	https://www.weather.gov/safety
 NPS-AV-LZ	NPS	Visitor Protection Aviation Program	https://www.nps.gov/orgs/aviationprogram/visitor-protection.htm	Current web edition	2026-11-24
 MN-ICE-SELF	Minnesota DNR	What if you fall in?	https://www.dnr.state.mn.us/safety/ice/survival.html	Current web edition	2026-11-24
 MN-ICE-WITNESS	Minnesota DNR	What if someone else falls in?	https://www.dnr.state.mn.us/safety/ice/saving.html	Current web edition	2026-11-24
+STB-BLEED	American College of Surgeons	STOP THE BLEED Training Course	https://www.stopthebleed.org/training/online-course/	current web edition	2026-11-24
+ARC-CPR	American Red Cross	CPR Steps and Emergency Response	https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps	current web edition	2026-11-24
+MEDLINE-FA	NIH / MedlinePlus	First Aid Overview	https://medlineplus.gov/firstaid.html	current web edition	2026-11-24
+MEDLINE-BLEED	NIH / MedlinePlus	Bleeding	https://medlineplus.gov/bleeding.html	current web edition	2026-11-24
+MEDLINE-CHOK	NIH / MedlinePlus	Choking	https://medlineplus.gov/choking.html	current web edition	2026-11-24
+MEDLINE-WOUND	NIH / MedlinePlus	Wounds and Injuries	https://medlineplus.gov/woundsandinjuries.html	current web edition	2026-11-24
+MEDLINE-BURN	NIH / MedlinePlus	Burns	https://medlineplus.gov/burns.html	current web edition	2026-11-24
+MEDLINE-ANAPH	NIH / MedlinePlus	Anaphylaxis	https://medlineplus.gov/anaphylaxis.html	current web edition	2026-11-24
+MEDLINE-FRACT	NIH / MedlinePlus	Fractures	https://medlineplus.gov/fractures.html	current web edition	2026-11-24
+MEDLINE-SPRAIN	NIH / MedlinePlus	Sprains and Strains	https://medlineplus.gov/sprainsandstrains.html	current web edition	2026-11-24
+MEDLINE-HEAD	NIH / MedlinePlus	Head Injuries	https://medlineplus.gov/headinjuries.html	current web edition	2026-11-24
+MEDLINE-BITES	NIH / MedlinePlus	Animal Bites	https://medlineplus.gov/animalbites.html	current web edition	2026-11-24
+MEDLINE-SNAKE	NIH / MedlinePlus	Spider and Arthropod Bites	https://medlineplus.gov/spiderbites.html	current web edition	2026-11-24
+MEDLINE-TICK	NIH / MedlinePlus	Tick Bites	https://medlineplus.gov/tickbites.html	current web edition	2026-11-24
+MEDLINE-POIS	NIH / MedlinePlus	Poisoning	https://medlineplus.gov/poisoning.html	current web edition	2026-11-24
+MEDLINE-SHOCK	NIH / MedlinePlus	Shock	https://medlineplus.gov/shock.html	current web edition	2026-11-24
+MEDLINE-DEHYD	NIH / MedlinePlus	Dehydration	https://medlineplus.gov/dehydration.html	current web edition	2026-11-24
+MEDLINE-EYE	NIH / MedlinePlus	Eye Injuries	https://medlineplus.gov/eyeinjuries.html	current web edition	2026-11-24
+POISON-WEB	National Capital Poison Center	Poison Control Emergency Guidance	https://www.poison.org/	current web edition	2026-11-24
+READY-POWER	FEMA / Ready.gov	Power Outages	https://www.ready.gov/power-outages	current web edition	2026-11-24
+NFPA-HOME	NFPA	Heating Fire Safety	https://www.nfpa.org/education-and-research/home-fire-safety/heating	current web edition	2026-11-24
+EPA-WELL	US EPA	Private Drinking Water Wells	https://www.epa.gov/privatewells	current web edition	2026-11-24
+EPA-SEPTIC	US EPA	Septic Systems (Onsite/Decentralized Systems)	https://www.epa.gov/septic	current web edition	2026-11-24
+MDH-WELL-HOME	Minnesota Dept. of Health	Wells and Borings Safety	https://www.health.state.mn.us/communities/environment/water/wells/index.html	current web edition	2026-11-24
+READY-WATER	FEMA / Ready.gov	Water Storage and Emergency Supply	https://www.ready.gov/water	current web edition	2026-11-24
+READY-HOME-F	FEMA / Ready.gov	Home Fires	https://www.ready.gov/home-fires	current web edition	2026-11-24
+USDA-CAN	USDA / NCHFP	USDA Complete Guide to Home Canning	https://nchfp.uga.edu/resources/category/usda-guide	2015 / current NCHFP edition	2026-11-24
+NCHFP-PRES	NCHFP	Using Pressure Canners	https://nchfp.uga.edu/how/can/general-information/using-pressure-canners/	current web edition	2026-11-24
+NCHFP-WB	NCHFP	Using Boiling Water Canners	https://nchfp.uga.edu/how/can/general-information/using-boiling-water-canners/	current web edition	2026-11-24
+NCHFP-DRY	NCHFP	Drying Foods Safely	https://nchfp.uga.edu/how/dry	current web edition	2026-11-24
+NCHFP-FREEZE	NCHFP	Freezing Foods Safely	https://nchfp.uga.edu/how/freeze	current web edition	2026-11-24
+NCHFP-FERM	NCHFP	Fermenting and Pickling Foods	https://nchfp.uga.edu/how/ferment	current web edition	2026-11-24
+NCHFP-SPOIL	NCHFP	Identifying and Handling Spoiled Canned Food	https://nchfp.uga.edu/how/can/general-information/identifying-and-handling-spoiled-canned-food/	current web edition	2026-11-24
+UMN-GARDEN	University of Minnesota Extension	Planting the Vegetable Garden	https://extension.umn.edu/planting-and-growing-guides/planting-vegetable-garden	current web edition	2026-11-24
+UMN-STORE	University of Minnesota Extension	Harvesting and Storing Home Garden Vegetables	https://extension.umn.edu/planting-and-growing-guides/harvesting-and-storing-home-garden-vegetables	current web edition	2026-11-24
+UMN-PRESERVE	University of Minnesota Extension	Preserving and Preparing Food Safely	https://extension.umn.edu/food-safety/preserving-and-preparing	current web edition	2026-11-24
+READY-FOOD	FEMA / Ready.gov	Emergency Food Supply	https://www.ready.gov/food	current web edition	2026-11-24
+AIRNOW-SMOKE	US EPA / AirNow	Wildfires and Air Quality	https://www.airnow.gov/wildfires/	current web edition	2026-11-24
+EPA-CLEANRM	US EPA	Create a Clean Room to Protect Indoor Air Quality During a Wildfire	https://www.epa.gov/indoor-air-quality-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire	current web edition	2026-11-24
+READY-TORN	FEMA / Ready.gov	Tornadoes	https://www.ready.gov/tornadoes	current web edition	2026-11-24
+READY-THUND	FEMA / Ready.gov	Thunderstorms and Lightning	https://www.ready.gov/thunderstorms-lightning	current web edition	2026-11-24
+READY-FLOOD	FEMA / Ready.gov	Floods	https://www.ready.gov/floods	current web edition	2026-11-24
+READY-DROUGHT	FEMA / Ready.gov	Drought	https://www.ready.gov/drought	current web edition	2026-11-24
+READY-CHEM	FEMA / Ready.gov	Hazardous Materials Incidents	https://www.ready.gov/hazardous-materials-incidents	current web edition	2026-11-24
+READY-PETS	FEMA / Ready.gov	Prepare Your Pets for Disasters	https://www.ready.gov/pets	current web edition	2026-11-24
+READY-FIN	FEMA / Ready.gov	Financial Preparedness and Vital Records	https://www.ready.gov/financial-preparedness	current web edition	2026-11-24
+READY-STAY	FEMA / Ready.gov	Be Informed and Multi-Hazard Preparedness	https://www.ready.gov/be-informed	current web edition	2026-11-24
+MN-HSEM	Minnesota HSEM	Weather Awareness and Preparedness	https://dps.mn.gov/divisions/hsem/weather-awareness-preparedness/Pages/default.aspx	current web edition	2026-11-24

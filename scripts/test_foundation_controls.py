@@ -1,10 +1,16 @@
-"""Regression checks for unpublished page, evidence integrity, and domain contradiction guards."""
+"""Regression checks for unpublished page, evidence integrity, canonical scope, and domain contradiction guards."""
+import csv
+import re
 import tempfile
 import unittest
 from pathlib import Path
 
-from build_foundations import FOUND, valid_card_id, active_zones, inline_emphasis, load_cards, load_evidence
+from build_foundations import ALL_16_ZONES, FOUND, ROOT, valid_card_id, active_zones, inline_emphasis, load_cards, load_evidence
 from foundation_diagrams import validate_spec
+
+
+def _norm_domain(value):
+    return ' '.join(value.lower().replace('&', 'and').split())
 
 
 class ControlTests(unittest.TestCase):
@@ -121,6 +127,102 @@ class ControlTests(unittest.TestCase):
     def test_active_zones_are_discovered_without_promoting_starter_reconstructions(self):
         self.assertEqual(active_zones([{'id':'Z05-P100','zone':'Z05'},
                                        {'id':'Z13-R03','zone':'Z13'}]), ['Z05'])
+
+    def test_canonical_sixteen_zone_scope_matches_master_matrix(self):
+        """Verify every zone ID, canonical domain, and planned page count matches frozen master scope."""
+        frozen_path = ROOT / 'project/planning/ZONE_COMPLETION_MATRIX.csv'
+        with frozen_path.open(encoding='utf-8', newline='') as f:
+            frozen_rows = {r['zone']: (_norm_domain(r['domain']), int(r['draft_pages'])) for r in csv.DictReader(f)}
+        self.assertEqual(len(frozen_rows), 16)
+        self.assertEqual(sum(pages for _, pages in frozen_rows.values()), 1016)
+
+        # Authoritative check against build_foundations.ALL_16_ZONES
+        code_rows = {z: (_norm_domain(d), p) for z, d, p, _ in ALL_16_ZONES}
+        self.assertEqual(code_rows, frozen_rows)
+        self.assertEqual(code_rows['Z05'], ('wild foods and poisonous lookalikes', 135))
+        self.assertEqual(code_rows['Z08'], ('rocks, minerals and materials', 60))
+        self.assertEqual(code_rows['Z10'], ('wilderness medicine', 80))
+
+        # Check foundations/ZONE_COMPLETION_MATRIX.csv matches per-zone canonical scope
+        active_matrix = FOUND / 'ZONE_COMPLETION_MATRIX.csv'
+        with active_matrix.open(encoding='utf-8', newline='') as f:
+            active_rows = {r['zone']: (_norm_domain(r['domain']), int(r['planned_pages'])) for r in csv.DictReader(f)}
+        self.assertEqual(active_rows, frozen_rows)
+
+        # Check NEON_CONTINUATION_HANDOFF.md table rows match canonical zone-domain-allocation triplets
+        handoff = (FOUND / 'audit/NEON_CONTINUATION_HANDOFF.md').read_text(encoding='utf-8')
+        table_rows = re.findall(r'^\|\s*\d+\s*\|\s*(Z\d{2})\s+([^|]+?)\s*\|\s*(\d+)\s*\|', handoff, flags=re.M)
+        self.assertGreaterEqual(len(table_rows), 9)
+        for zid, domain, alloc in table_rows:
+            self.assertIn(zid, frozen_rows)
+            self.assertEqual(_norm_domain(domain), frozen_rows[zid][0], f'Domain mismatch for {zid}')
+            self.assertEqual(int(alloc), frozen_rows[zid][1], f'Allocation mismatch for {zid}')
+
+    def test_z10_medicine_guards_reject_dosage_surgery_and_snow_rubbing(self):
+        med_dose = self.sample.replace('Z01-P01', 'Z10-P01').replace(
+            'Pause on stable ground', 'Give 800 mg of ibuprofen every four hours'
+        )
+        with self.assertRaisesRegex(ValueError, 'unauthorized lay medication dosage'):
+            self.load(med_dose)
+        med_bite = self.sample.replace('Z01-P01', 'Z10-P01').replace(
+            'Pause on stable ground', 'Cut the snakebite wound and suck venom out quickly'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe invasive field medical procedure'):
+            self.load(med_bite)
+        med_frost = self.sample.replace('Z01-P01', 'Z10-P01').replace(
+            'Pause on stable ground', 'Rub frostbitten toes vigorously with snow'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe frostbite snow-rubbing'):
+            self.load(med_frost)
+
+    def test_z13_utilities_guard_rejects_generator_backfeeding(self):
+        util = self.sample.replace('Z01-P01', 'Z13-P01').replace(
+            'Pause on stable ground', 'Plug the portable generator directly into a dryer outlet'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe generator backfeeding'):
+            self.load(util)
+
+    def test_z14_preservation_guard_rejects_oven_and_waterbath_low_acid(self):
+        oven = self.sample.replace('Z01-P01', 'Z14-P02').replace(
+            'Pause on stable ground', 'Use oven canning to seal vegetable jars quickly'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe canning method'):
+            self.load(oven)
+        low_acid = self.sample.replace('Z01-P01', 'Z14-P02').replace(
+            'Pause on stable ground', 'Water-bath can low-acid green beans for two hours'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe water-bath canning'):
+            self.load(low_acid)
+
+    def test_z15_disaster_guard_rejects_flood_crossing_and_overpass_shelter(self):
+        flood = self.sample.replace('Z01-P01', 'Z15-P01').replace(
+            'Pause on stable ground', 'Drive through the flooded road slowly in low gear'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe floodwater crossing'):
+            self.load(flood)
+        overpass = self.sample.replace('Z01-P01', 'Z15-P01').replace(
+            'Pause on stable ground', 'Shelter under a highway overpass if a tornado approaches'
+        )
+        with self.assertRaisesRegex(ValueError, 'unsafe tornado overpass'):
+            self.load(overpass)
+
+    def test_new_p12_p15_diagram_contracts_validate_strictly(self):
+        validate_spec('Z10-P01', {
+            'type': 'escalation_ladder',
+            'tiers': [
+                {'role': 'Lay responder', 'scope': 'Scene & pressure', 'action': 'Stop bleeding'},
+                {'role': '911 Dispatcher', 'scope': 'Guided actions', 'action': 'Follow instructions'},
+                {'role': 'EMS / Clinician', 'scope': 'Definitive care', 'action': 'Transport & treat'},
+            ],
+            'trigger': 'Escalate early for red flags',
+        })
+        with self.assertRaisesRegex(ValueError, 'Invalid sequence step'):
+            validate_spec('Z10-P02', {
+                'type': 'sequence_plate',
+                'steps': [{'label': '1', 'detail': 'a'}, {'label': '2', 'detail': 'b'},
+                          {'label': '3', 'detail': 'c'}, {'wrong': '4'}],
+                'cue': 'Check', 'variant': 'bleeding',
+            })
 
 
 if __name__ == '__main__':

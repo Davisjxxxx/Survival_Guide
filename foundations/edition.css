@@ -47,8 +47,8 @@
   .foundation .card p { margin: .24em 0; }
   .foundation .actions { margin: .25em 0; }
   .foundation .actions li { margin: .22em 0; }
-  .foundation figure { margin: .42em 0; padding: .22em .4em; }
-  .foundation figure img { height: 136px; width: 100%; object-fit: contain; }
+  .foundation figure { margin: .38em 0; padding: .22em .4em; }
+  .foundation figure img { height: 152px; width: 100%; object-fit: contain; }
   .foundation figcaption { font-size: 8.6pt; }
   .foundation .failure, .foundation .stop { padding: .35rem .55rem; }
   .foundation details { display: none; }
