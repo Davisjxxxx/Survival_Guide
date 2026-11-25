@@ -10,7 +10,7 @@
     <line x1="285" y1="173" x2="285" y2="288" stroke="#972f22" stroke-width="3" stroke-dasharray="8 5"/>
     <rect x="305" y="264" width="38" height="22" fill="#5e6b65" stroke="#183a30" stroke-width="2.5"/>
     <path d="M312 262q12-18 24 0" fill="#d97236"/>
-    <path class="rflow" d="M324 245Q275 190 190 212"/>
+    <path class="rflow" d="M324 245Q274 164 190 182"/>
     <text class="warn" x="88" y="90">FORBIDDEN: tent / vestibule</text>
     <text class="warn" x="122" y="212">Lethal CO</text><text class="warn" x="115" y="244">&amp; fire trap</text>
     <!-- Right: Safe open air -->
@@ -18,8 +18,8 @@
     <rect x="645" y="262" width="46" height="24" fill="#5e6b65" stroke="#183a30" stroke-width="3"/>
     <rect x="640" y="230" width="56" height="30" rx="4" fill="#d7e2da" stroke="#183a30" stroke-width="3"/>
     <path class="flow" d="M668 220V116"/>
-    <text x="515" y="90">SAFE: fully outdoors, open sky</text>
-    <text class="sm" x="530" y="160">Exhaust disperses freely</text>
+    <text x="515" y="90">OUTDOORS · clear of shelter</text>
+    <text class="sm" x="483" y="157">Direct exhaust</text><text class="sm" x="483" y="181">away from openings</text>
     <text class="sm" x="530" y="316">Keep clear of tent walls &amp; dry brush</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>

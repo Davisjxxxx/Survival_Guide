@@ -18,8 +18,8 @@
     <text x="434" y="190">• Pale cool clammy skin, fast pulse</text>
     <text x="434" y="224">• Confusion, dizziness or fainting</text>
     <text class="warn" x="434" y="264">Action: Call 911/SAR immediately</text>
-    <text class="sm" x="434" y="294">Keep flat, warm; NO food or drink</text>
+    <text class="sm" x="434" y="294">Keep warm; follow dispatcher</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">External skin may show minimal bruising despite life-threatening internal blood loss; evacuate urgently.</text>
+<text class="guard" x="36" y="369">A serious injury can occur without visible bleeding. Call emergency services.</text>
 </svg>

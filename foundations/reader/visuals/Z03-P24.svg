@@ -16,7 +16,7 @@
     <!-- Pull-back arrow on rod -->
     <path class="gflow" d="M350 132l-95-34"/>
     <text x="82" y="88">1. Pull rod BACK steadily</text>
-    <text class="sm" x="488" y="138">2. Hold striker steady (~45°)</text>
+    <text class="sm" x="488" y="138">2. Hold striker steady</text>
     <!-- Spark shower -->
     <path class="rflow" d="M465 218l115 36"/><path class="rflow" d="M475 206l125 26"/>
     <circle cx="585" cy="242" r="4" fill="#d97236"/><circle cx="605" cy="252" r="5" fill="#d97236"/><circle cx="622" cy="236" r="4" fill="#d97236"/>

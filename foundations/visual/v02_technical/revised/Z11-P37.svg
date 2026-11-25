@@ -12,7 +12,7 @@
     <path class="rflow" d="M272 280Q288 212 288 154"/>
     <text x="58" y="88">Steep cold front</text>
     <text class="sm" x="62" y="232">Dense cold air</text>
-    <text class="warn" x="280" y="266">Fast gusts /</text><text class="warn" x="280" y="290">lightning</text>
+    <text class="warn" x="280" y="266">Possible gusts /</text><text class="warn" x="280" y="290">lightning</text>
     <!-- Right: Warm front gradual ramp -->
     <line x1="470" y1="296" x2="860" y2="296" stroke="#5d653e" stroke-width="4"/>
     <path d="M470 296L860 196V296Z" fill="#c7d8de" stroke="#205b68" stroke-width="3"/>
@@ -20,8 +20,8 @@
     <ellipse cx="620" cy="176" rx="54" ry="20" fill="#d7e2da" stroke="#365c50" stroke-width="2.5"/>
     <ellipse cx="755" cy="116" rx="68" ry="14" fill="#eef4f2" stroke="#365c50" stroke-width="2.5"/>
     <text x="488" y="88">Sloped warm front</text>
-    <text class="sm" x="505" y="132">High cirrus -> thickening clouds</text>
-    <text class="sm" x="585" y="274">Steady rain / snow ahead</text>
+    <text class="sm" x="505" y="113">High cirrus -> thickening clouds</text>
+    <text class="sm" x="585" y="274">Precipitation can occur ahead</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
 <text class="guard" x="36" y="369">Field sky signs supplement—never replace—official NWS Forecasts, Watches and Warnings.</text>

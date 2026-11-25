@@ -11,7 +11,7 @@
     <path class="flow" d="M125 198h175"/><path class="flow" d="M155 228h120"/>
     <ellipse cx="225" cy="256" rx="58" ry="8" fill="#8b7650"/>
     <text x="55" y="84">Flowing stream channel</text>
-    <text class="sm" x="62" y="112">Collect mid-column; treat always</text>
+    <text class="sm" x="62" y="112">Screen upstream risks first</text>
     <text class="sm" x="155" y="294">Gravel bed</text>
     <!-- Right: Stagnant pond -->
     <path d="M475 160h385v145H475z" fill="#dfd2ae" stroke="#5d653e" stroke-width="3"/>

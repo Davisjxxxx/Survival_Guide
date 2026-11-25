@@ -19,11 +19,12 @@ BASE = '890c66ac1d51465d3a4315e50fb2dbe1e0f78f6f'
 BUNDLE = FOUND / 'proofs/foundations-offline.zip'
 PACKAGES_DIR = FOUND / 'proofs/packages'
 PILOT_DIR = FOUND / 'visual/VISUAL_PILOT_REVIEW_PACKAGE'
-V02_COMPANION_DIRS = (
+VISUAL_COMPANION_DIRS = (
     ('v02-technical.zip', FOUND / 'visual/v02_technical', 'Original and reconstructed V02 editable technical SVGs, comparison gallery and proofs'),
     ('v03-realistic.zip', FOUND / 'visual/v03_realistic', 'Controlled realistic instructional illustration briefs, generated non-diagnostic illustrations and proofs'),
     ('v03-authentic-photos.zip', FOUND / 'visual/v03_authentic_photos', 'Authentic V03 acquired photographs, display derivatives and full provenance manifests'),
     ('v02-atlas-comparison.zip', FOUND / 'visual/v02_atlas_comparison', 'Z16 atlas before-and-after optimization comparison package pending owner acceptance'),
+    ('a04-review.zip', FOUND / 'visual/a04_comparison', 'A04 actual reader comparison captures, incoming plate custody, and linked atlas owner comparison'),
 )
 MAX_GITHUB_SAFE_BYTES = 45 * 1024 * 1024  # Strictly under GitHub's 50 MB warning and 100 MB hard limit
 
@@ -81,7 +82,7 @@ def verify_retained_pdfs():
 def package_members(include_consolidated_pdfs=False):
     files = [p for path in ('reader', 'manuscripts', 'evidence', 'audit', 'visual') for p in (FOUND / path).rglob('*') if p.is_file()]
     if not include_consolidated_pdfs:
-        excluded_dirs = (PILOT_DIR,) + tuple(d for _, d, _ in V02_COMPANION_DIRS)
+        excluded_dirs = (PILOT_DIR,) + tuple(d for _, d, _ in VISUAL_COMPANION_DIRS)
         files = [p for p in files if not any(p.is_relative_to(d) for d in excluded_dirs)]
     files.extend([FOUND / 'README.md', FOUND / 'SPRINT_RESULT.md'])
     for extra in ('ZONE_COMPLETION_MATRIX.csv', 'ASTRA_ESCALATION_REGISTER.md'):
@@ -269,7 +270,7 @@ def write_or_verify_zone_packages(write=False):
             'bytes': pilot.stat().st_size,
             'sha256': hash_bytes(pilot.read_bytes()),
         }
-    for zip_name, comp_dir, comp_scope in V02_COMPANION_DIRS:
+    for zip_name, comp_dir, comp_scope in VISUAL_COMPANION_DIRS:
         if comp_dir.is_dir():
             cpath = PACKAGES_DIR / zip_name
             centries = {p.relative_to(comp_dir).as_posix(): p.read_bytes()

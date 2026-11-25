@@ -1,0 +1,22 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Dry interior deadwood versus wet outer bark cross-section</title><desc id="desc">Cross-section of a fallen dry-core branch showing damp bark and wet sapwood rind surrounding dry inner heartwood suitable for shavings.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z03-P15 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Log cross-section -->
+    <circle cx="255" cy="198" r="112" fill="#6d5034" stroke="#3f2d1c" stroke-width="5"/>
+    <circle cx="255" cy="198" r="96" fill="#9eb5a8" stroke="#365c50" stroke-width="3"/>
+    <circle cx="255" cy="198" r="68" fill="#ebd9b2" stroke="#8c6936" stroke-width="3"/>
+    <circle cx="255" cy="198" r="40" fill="#f3e5c7" stroke="#b38d54" stroke-width="2"/>
+    <circle cx="255" cy="198" r="16" fill="#e5cfa0" stroke="#b38d54" stroke-width="2"/>
+    <!-- Leaders to right -->
+    <path class="leader" d="M358 148h88"/><text class="warn" x="456" y="144">1. Rain-soaked outer bark</text><text class="sm" x="456" y="168">Strip away; smokes &amp; steals heat</text>
+    <path class="leader" d="M342 198h104"/><text x="456" y="198">2. Damp outer sapwood rind</text><text class="sm" x="456" y="222">Peel off until wood feels crisp</text>
+    <path class="leader" d="M312 246h134"/><text x="456" y="252">3. Dry inner heartwood core</text><text class="sm" x="456" y="276">Split deadfall for dry curls &amp; kindling</text>
+    <text class="sm" x="70" y="76">Check standing/elevated deadwood; reject punky ground rot</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Never cut live trees; use dry elevated deadwood and verify local firewood/burn rules.</text>
+</svg>

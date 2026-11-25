@@ -1,5 +1,7 @@
 # V03 Controlled Realistic Instructional Illustration Status Receipt
 
+A04 generated and rendered two non-diagnostic examples using built-in OpenAI ImageGen. The [pilot gallery](pilot/index.html) and [generation receipt](pilot/MANIFEST.json) retain both native outputs, editable annotations, and exact prompts. The endpoint does not disclose a model identifier. The original V03 attempt below records the Gemini capacity failure.
+
 - **Date:** 2026-11-25
 - **Total realistic instructional items (`4_REPLACE_REALISTIC_INSTRUCTIONAL`):** **82**
   - **70 non-diagnostic field/environmental/safety scenes:** Complete 11-field production briefs stored in [REALISTIC_ILLUSTRATION_BRIEFS.csv](REALISTIC_ILLUSTRATION_BRIEFS.csv) and [REALISTIC_ILLUSTRATION_BRIEFS.json](REALISTIC_ILLUSTRATION_BRIEFS.json).

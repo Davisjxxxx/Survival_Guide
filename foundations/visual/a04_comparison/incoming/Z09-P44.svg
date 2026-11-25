@@ -1,0 +1,14 @@
+<svg class="v01-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Pulley redirect: compare static resultant forces</title><desc id="desc">Comparison of two ideal fixed pulley diagrams with equal tension in two strands. Parallel downward pulls result in two T downward. Perpendicular pulls result in square root of two T along the bisector.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+<path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker></defs>
+<style>.v01-svg text{font-family:system-ui,sans-serif;font-size:24px;font-weight:650;fill:#183a30}
+.v01-svg .heading{font-size:21px;letter-spacing:1px;font-weight:750}.v01-svg .guard{font-size:23px;fill:#6d301f}
+.v01-svg .leader{fill:none;stroke:#365c50;stroke-width:3}.v01-svg .flow{fill:none;stroke:#205b68;stroke-width:5;marker-end:url(#arrow)}
+.v01-svg .dashed{fill:none;stroke:#365c50;stroke-width:3;stroke-dasharray:12 9}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="37">Z09-P44 · V01 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v01-artwork"><circle cx="220" cy="126" r="41" fill="#c7d6c8" stroke="#244f42" stroke-width="5"/><circle cx="620" cy="126" r="41" fill="#c7d6c8" stroke="#244f42" stroke-width="5"/><path class="flow" d="M180 135v113 M260 135v113"/><path class="flow" d="M220 181v105"/><path class="flow" d="M620 166v91"/><path class="flow" d="M651 126h112"/><path class="flow" d="M651 163l76 77"/><text x="129" y="224">T</text><text x="276" y="224">T</text><text x="229" y="284">2T</text><text x="579" y="252">T</text><text x="777" y="135">T</text><text x="720" y="276">√2 T</text><text x="69" y="319">Parallel strands</text><text x="549" y="319">Right-angle strands</text></g>
+<rect x="23" y="342" width="854" height="38" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Equal tensions in a static idealization. This is not a working-load rating.</text>
+</svg>

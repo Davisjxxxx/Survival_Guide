@@ -14,11 +14,11 @@
     <path d="M250 186Q490 96 765 186L855 186V206H720L565 210L310 186Z" fill="#ffffff" stroke="#7d9890" stroke-width="3.5"/>
     <!-- Open water gap hidden under snow crust -->
     <rect x="572" y="206" width="142" height="22" fill="#f7e4d8" stroke="#972f22" stroke-width="3" stroke-dasharray="6 4"/>
-    <text x="68" y="156">Bare ice freezes thick</text>
-    <text class="warn" x="348" y="106">Deep snow traps heat -> thin ice</text>
+    <text x="68" y="156">Exposed ice can still be thin</text>
+    <text class="warn" x="348" y="106">Snow can hide thin ice</text>
     <text class="warn" x="555" y="262">Hidden thin spot / current</text>
     <path class="rflow" d="M645 244v-24"/>
-    <text class="sm" x="68" y="294">Check frequently with spud/auger; stay clear of inlets, outlets and bridges</text>
+    <text class="sm" x="68" y="294">Observe from verified dry ground. Leave uncertain ice alone.</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
 <text class="guard" x="36" y="369">Deep snow insulates lake ice and hides pressure cracks or springs; stay ashore when uncertain.</text>

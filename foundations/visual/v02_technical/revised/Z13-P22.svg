@@ -19,7 +19,7 @@
     <text class="sm" x="115" y="226">Clearance</text>
     <!-- Callouts right -->
     <path class="leader" d="M312 126h138"/><text class="warn" x="458" y="124">Glazed creosote ignites flue!</text><text class="sm" x="458" y="150">Inspect &amp; sweep annually; dry wood only</text>
-    <path class="leader" d="M358 222h92"/><text x="458" y="218">Clear combustibles &gt;= 36 in</text><text class="sm" x="458" y="244">(or listed shielded manufacturer distance)</text>
+    <path class="leader" d="M358 222h92"/><text x="458" y="218">Use the listed clearances</text><text class="sm" x="458" y="244">Follow appliance and local code</text>
     <text class="sm" x="458" y="294">Ashes -> metal lid can outdoors</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>

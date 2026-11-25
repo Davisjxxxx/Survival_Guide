@@ -19,9 +19,9 @@
     <text x="530" y="142">• Rest shield on orbital BONE only</text>
     <text class="warn" x="530" y="180">• NEVER pull out impaled objects</text>
     <text class="warn" x="530" y="218">• NEVER press or rub injured eye</text>
-    <text x="530" y="256">• Cover both eyes if safe to walk/rest</text>
+    <text x="530" y="256">• Keep the injured eye still</text>
     <text class="sm" x="530" y="294">Evacuate urgently for eye care</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Flush chemical splashes continuously with water; use rigid shielding for mechanical eye wounds.</text>
+<text class="guard" x="36" y="369">This plate is for mechanical eye injury. Chemical exposure needs separate guidance.</text>
 </svg>

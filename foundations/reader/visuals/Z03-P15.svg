@@ -15,8 +15,8 @@
     <path class="leader" d="M358 148h88"/><text class="warn" x="456" y="144">1. Rain-soaked outer bark</text><text class="sm" x="456" y="168">Strip away; smokes &amp; steals heat</text>
     <path class="leader" d="M342 198h104"/><text x="456" y="198">2. Damp outer sapwood rind</text><text class="sm" x="456" y="222">Peel off until wood feels crisp</text>
     <path class="leader" d="M312 246h134"/><text x="456" y="252">3. Dry inner heartwood core</text><text class="sm" x="456" y="276">Split deadfall for dry curls &amp; kindling</text>
-    <text class="sm" x="70" y="76">Check standing/elevated deadwood; reject punky ground rot</text>
+    <text class="sm" x="70" y="76">Check lawful downed wood; reject rot</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Never cut live trees; use dry elevated deadwood and verify local firewood/burn rules.</text>
+<text class="guard" x="36" y="369">Use lawful downed wood. Follow local gathering and burn rules.</text>
 </svg>

@@ -9,6 +9,7 @@ on:
       - review/neon-p16-p20-20261125
       - review/astra-a03-v01-20261125
       - review/neon-v02-v03-visual-20261125
+      - review/astra-a04-visual-qualification-20261125
   pull_request:
     branches:
       - review/s02-s03-historical-recovery-20261124
@@ -18,6 +19,7 @@ on:
       - review/astra-a02-technical-audit-20261125
       - review/neon-p16-p20-20261125
       - review/astra-a03-v01-20261125
+      - review/neon-v02-v03-visual-20261125
 permissions:
   contents: read
 jobs:
@@ -36,3 +38,5 @@ jobs:
         run: python scripts/check_a02_audit.py
       - if: github.ref_name == 'review/astra-a03-v01-20261125' || github.head_ref == 'review/astra-a03-v01-20261125'
         run: python scripts/check_a03_v01.py
+      - if: github.ref_name == 'review/astra-a04-visual-qualification-20261125' || github.head_ref == 'review/astra-a04-visual-qualification-20261125'
+        run: python scripts/check_a04.py

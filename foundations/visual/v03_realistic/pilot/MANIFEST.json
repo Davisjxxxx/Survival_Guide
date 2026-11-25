@@ -1,0 +1,42 @@
+[
+  {
+    "page_id": "Z02-P14",
+    "method": "Built-in OpenAI ImageGen tool",
+    "published_model_id": "Endpoint implementation not disclosed by tool",
+    "recorded": "2026-11-25",
+    "source_file": "Z02-P14-generated.png",
+    "tool_output_filename": "exec-aeed22be-8262-48d9-9112-04ec6a413ff4.png",
+    "sha256": "97b8f318ae680bb9c722d32fa96420803a6c465fecae7a1ba1405ee56e464a19",
+    "prompt_file": "Z02-P14-prompt.txt",
+    "annotation": "Z02-P14-annotations.svg",
+    "annotation_sha256": "d79d95f45f8e6afb34131e4936660a44c19470332323b355efd922fc1204dfa2",
+    "classification": "GENERATED_INSTRUCTIONAL_NON_DIAGNOSTIC",
+    "source_card": "Z02-P14.html",
+    "scope": "Physical pad boundaries and durable surfaces are visible. Obtain site authorization from the manager. The image does not establish campsite legality or weather safety.",
+    "status": "EDITORIAL_PILOT_ONLY_PUBLICATION_HOLD",
+    "reference": {
+      "url": "https://www.nps.gov/articles/000/idkt_lnt_2.htm",
+      "section": "Travel and Camp on Durable Surfaces"
+    }
+  },
+  {
+    "page_id": "Z14-P03",
+    "method": "Built-in OpenAI ImageGen tool",
+    "published_model_id": "Endpoint implementation not disclosed by tool",
+    "recorded": "2026-11-25",
+    "source_file": "Z14-P03-generated.png",
+    "tool_output_filename": "exec-375268df-a3e6-43f1-b83b-8e032563499c.png",
+    "sha256": "f535b13813880529d5c1e64d4a0b11e7a9c9f47f407be2392ae1666d662f7bf1",
+    "prompt_file": "Z14-P03-prompt.txt",
+    "annotation": "Z14-P03-annotations.svg",
+    "annotation_sha256": "84a81f0e44d82f256d18da54076c67dfebc6b041c1ae817d618609df291f9442",
+    "classification": "GENERATED_INSTRUCTIONAL_NON_DIAGNOSTIC",
+    "source_card": "Z14-P03.html",
+    "scope": "A single illustrated moment compares light and grade. It does not establish daily sunlight hours, frost history, drainage performance or soil safety.",
+    "status": "EDITORIAL_PILOT_ONLY_PUBLICATION_HOLD",
+    "reference": {
+      "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/tips-climate-ready-gardening",
+      "section": "Placement, sun requirements and drainage"
+    }
+  }
+]

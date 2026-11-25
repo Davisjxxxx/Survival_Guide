@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Make a dry insulated bed</title>
+  <desc id="desc">Body and dry cover | Insulation below | Cold ground</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
+  </defs>
+  <rect width="720" height="240" rx="12" fill="#edf1e9"/>
+  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
+    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z02-P03 · FIELD SCHEMATIC</text>
+    <path d="M80 120h550v34H80Z" fill="#b2a98b"/><rect x="108" y="102" width="482" height="18" rx="7" fill="#dbad50"/><path d="M122 101q47-33 125-26h286q42 3 45 26Z" fill="#82a798"/><circle cx="147" cy="81" r="17" fill="#527566"/><path d="M174 76l72-18h274l41 21" fill="none" stroke="#285345" stroke-width="8" stroke-linecap="round"/>
+    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Body and dry cover</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Insulation below</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Cold ground</text></g>
+  </g>
+</svg>

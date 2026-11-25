@@ -1,0 +1,31 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Clear solid ice versus white snow-ice and candled spring ice</title><desc id="desc">Three ice-sheet cross-sections comparing new dense clear ice, weaker air-trapped white snow-ice, and failing vertical-column spring candled ice.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z12-P14 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- 1. Clear new ice -->
+    <rect x="55" y="138" width="235" height="82" fill="#9ac9da" stroke="#205b68" stroke-width="3.5"/>
+    <rect x="55" y="220" width="235" height="68" fill="#5d94a8"/>
+    <text x="68" y="92">1. New clear solid ice</text>
+    <text class="sm" x="64" y="120">Strongest structure</text>
+    <text class="sm" x="64" y="310">DNR guide applies ONLY here</text>
+    <!-- 2. White snow-ice -->
+    <rect x="332" y="138" width="235" height="82" fill="#e2eef2" stroke="#5e7880" stroke-width="3.5"/>
+    <circle cx="372" cy="172" r="5" fill="#fff"/><circle cx="425" cy="188" r="6" fill="#fff"/><circle cx="490" cy="166" r="5" fill="#fff"/>
+    <rect x="332" y="220" width="235" height="68" fill="#5d94a8"/>
+    <text x="345" y="92">2. White snow-ice</text>
+    <text class="warn" x="345" y="120">~Half strength of clear ice</text>
+    <text class="sm" x="342" y="310">Refrozen slush &amp; air pockets</text>
+    <!-- 3. Spring candled ice -->
+    <rect x="610" y="138" width="235" height="82" fill="#cfd8dc" stroke="#972f22" stroke-width="3.5"/>
+    <path d="M640 138v82M670 138v82M700 138v82M730 138v82M760 138v82M790 138v82M820 138v82" stroke="#972f22" stroke-width="3"/>
+    <rect x="610" y="220" width="235" height="68" fill="#5d94a8"/>
+    <text class="warn" x="620" y="92">3. Candled spring ice</text>
+    <text class="warn" x="618" y="120">Collapses without warning!</text>
+    <text class="warn" x="618" y="310">Vertical columns; STAY OFF</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">NO ice is ever 100% safe; prior tracks never verify ice thickness or hidden currents.</text>
+</svg>

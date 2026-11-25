@@ -14,13 +14,13 @@
     <rect x="65" y="256" width="320" height="32" fill="#8ec2d4" stroke="#205b68" stroke-width="3"/>
     <rect x="175" y="248" width="90" height="48" rx="8" fill="#c9b489" stroke="#5c4b2b" stroke-width="3"/>
     <rect x="210" y="206" width="18" height="106" rx="6" fill="#972f22"/>
-    <text class="warn" x="72" y="232">SHUT: quarter-turn 90° across</text>
+    <text class="warn" x="72" y="216">SHUT: quarter-turn 90° across</text>
     <!-- Right: Round gate valve + tag -->
     <circle cx="655" cy="182" r="56" fill="none" stroke="#972f22" stroke-width="10"/>
     <line x1="655" y1="126" x2="655" y2="238" stroke="#972f22" stroke-width="6"/>
     <line x1="599" y1="182" x2="711" y2="182" stroke="#972f22" stroke-width="6"/>
-    <path class="rflow" d="M622 104A68 68 0 0 1 710 120"/>
-    <text x="515" y="88">Wheel gate valve: turn CLOCKWISE</text>
+
+    <text x="515" y="88">Wheel valve: verify close direction</text>
     <text class="sm" x="515" y="274">Tag main valve brightly before storms;</text>
     <text class="sm" x="515" y="298">do not force corroded stuck stems</text>
     </g>

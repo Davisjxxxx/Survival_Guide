@@ -1,5 +1,5 @@
 <svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
-<title id="title">Shelter wind orientation and leeward entrance profile</title><desc id="desc">Side elevation showing prevailing wind deflected smoothly over a low pitched back wall while keeping the downwind entrance sheltered from spindrift and gusts.</desc>
+<title id="title">Shelter wind orientation and leeward entrance profile</title><desc id="desc">Wind direction over a low shelter profile. The sheltered side can still collect drifting snow.</desc>
 <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
 <style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
 <rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
@@ -18,12 +18,12 @@
     <path class="flow" d="M55 205Q255 198 465 148Q640 120 835 162"/>
     <text x="55" y="112">Prevailing storm wind</text>
     <!-- Callouts -->
-    <text x="342" y="128">Low windward back</text>
-    <path class="leader" d="M440 136l22 72"/>
-    <text x="652" y="232">Sheltered leeward</text>
-    <text x="652" y="258">door (cross-wind)</text>
+    <text x="342" y="90">Low windward face</text>
+    <path class="leader" d="M430 96l32 112"/>
+    <text x="652" y="232">Protected opening</text>
+    <text x="652" y="258">on lee / crosswind side</text>
     <path class="leader" d="M645 242h-32"/>
-    <text class="sm" x="652" y="294">Watch eddy snow drift</text>
+    <text class="sm" x="652" y="330">Check for lee-side drifts</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
 <text class="guard" x="36" y="369">Pitch low back wall into expected storm wind; inspect overhead dead limbs before anchoring.</text>

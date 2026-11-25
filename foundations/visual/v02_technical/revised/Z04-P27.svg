@@ -21,8 +21,8 @@
     <path d="M590 282h120l-20 30h-80z" fill="#5e6b65" stroke="#183a30" stroke-width="3"/>
     <path d="M615 278q18-26 35-6q18-20 35 6" fill="#d97236" stroke="#972f22" stroke-width="3"/>
     <text class="warn" x="525" y="88">Wrong: dry packed snow</text>
-    <text class="warn" x="572" y="256">Air gap scorches pot</text>
-    <text class="sm" x="562" y="195">Air pocket wastes fuel</text>
+    <text class="warn" x="572" y="256">Pot can overheat</text>
+    <text class="sm" x="562" y="195">Avoid dry heating</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
 <text class="guard" x="36" y="369">Keep liquid water on the pot floor, heat outdoors only, and still boil or treat melted snow.</text>

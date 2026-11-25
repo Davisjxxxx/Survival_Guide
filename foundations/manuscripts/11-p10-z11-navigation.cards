@@ -51,7 +51,7 @@ failure: Holding the map right-side-up to read labels instead of aligning north 
 verify: Point from your map position toward two visible landmarks and verify both match real-world direction and distance roughly. @N03,N08,ED
 stop: If compass needle orientation contradicts major visible terrain features, step away from metal/iron rock and re-verify your location before moving. @N08,T06
 diagram: Clear metal & align meridian | Rotate map to match needle | Confirm with two landmarks
-visual: Mechanism diagram illustrating map-to-compass north alignment and two-landmark visual confirmation on flat terrain. Conceptual, not to scale.
+visual: Map alignment illustration is withheld while equipment-specific orientation conventions are verified.
 reviewer: Navigation and search and rescue
 
 Z11-R06 | Measure and walk a verified practice bearing between landmarks | B014 reconstruction · r01 slot R06 (original B014-P06 missing)
@@ -457,7 +457,7 @@ failure: Misidentifying the wrong mountain peak or lake bay and trusting a bogus
 verify: Confirm that your current elevation contour, ground slope and nearby vegetation match the intersection zone on the map. @N03,ED
 stop: If the plotted triangle is huge or disagrees with surrounding ground relief, reject the fix, re-verify landmark IDs and avoid stepping into uncertain terrain. @N03,T06
 diagram: 2-3 wide-angled landmarks | Project bearings back on map | Confirm triangle matches terrain
-visual: Mechanism diagram showing wide-angle triangulation from three identified peaks forming a small position-uncertainty triangle checked against contours. Conceptual, not to scale.
+visual: Two identified landmarks illustrate why crossed bearings provide a position estimate. Compare the estimate with nearby map features. Conceptual, not to scale.
 reviewer: Cartography and navigation
 
 Z11-P36 | Spot map-to-ground discrepancies caused by outdated sheets or logging | USGS US Topo and MN DNR safety; new manuscript

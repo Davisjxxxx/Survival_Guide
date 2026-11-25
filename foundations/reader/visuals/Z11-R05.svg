@@ -1,29 +1,9 @@
-<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
-<title id="title">Orienting a topographic map with a baseplate compass</title><desc id="desc">Plan view showing a paper topographic map rotated beneath a flat baseplate compass until the magnetic needle aligns inside the declination-adjusted orienting arrow.</desc>
-<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
-<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
-<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
-<text class="heading" x="26" y="34">Z11-R05 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
-<g id="v02-artwork">
-    <!-- Paper topo map sheet -->
-    <rect x="65" y="74" width="445" height="245" rx="8" fill="#ece6d1" stroke="#5d653e" stroke-width="3.5"/>
-    <path d="M90 120Q200 100 300 135Q400 160 485 125" fill="none" stroke="#9e8755" stroke-width="2.5"/>
-    <path d="M90 190Q220 170 330 205Q420 225 485 190" fill="none" stroke="#9e8755" stroke-width="2.5"/>
-    <path d="M120 285Q240 250 380 278" fill="none" stroke="#205b68" stroke-width="4"/>
-    <line x1="155" y1="86" x2="155" y2="306" stroke="#365c50" stroke-width="2" stroke-dasharray="8 6"/>
-    <!-- Baseplate compass aligned with map edge -->
-    <rect x="255" y="108" width="106" height="176" rx="10" fill="#ffffff" fill-opacity=".85" stroke="#183a30" stroke-width="3.5"/>
-    <circle cx="308" cy="196" r="40" fill="#eef4f2" stroke="#183a30" stroke-width="3"/>
-    <polygon points="308,162 316,196 300,196" fill="#972f22"/>
-    <polygon points="308,230 316,196 300,196" fill="#364247"/>
-    <path class="flow" d="M210 265Q175 230 192 182"/>
-    <text x="540" y="106">1. Lay compass along map north line</text>
-    <text x="540" y="148">2. Apply local declination first</text>
-    <text x="540" y="190">3. Rotate MAP + COMPASS together</text>
-    <text class="sm" x="540" y="220">until needle sits inside housing arrow</text>
-    <text x="540" y="268">4. Match visible hills &amp; water</text>
-    <text class="sm" x="540" y="296">to map terrain before moving</text>
-    </g>
-<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Keep compass away from iron rock, phones and vehicles; verify declination year on map.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Compass alignment illustration withheld</title><desc id="desc">A verified diagram must show the map reference, the aligned baseplate and how the instrument handles declination.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker></defs>
+<style>text{font:650 20px system-ui,sans-serif;fill:#183a30}.small{font-size:18px}.warn{fill:#8b3825}.arrow{stroke:#205b68;stroke-width:4;fill:none;marker-end:url(#a)}.reverse{stroke:#8b3825;stroke-width:4;fill:none;marker-end:url(#b)}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z11-R05 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<rect x="43" y="120" width="814" height="181" rx="10" fill="#f5eadb" stroke="#8b3825" stroke-width="2"/><text x="67" y="160">Compass alignment illustration withheld</text><text x="67" y="205" class="small">The plate needs a matching map reference and aligned baseplate.</text><text x="67" y="235" class="small">Verify the instrument’s declination method.</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/><text x="37" y="367" class="small">Use the instrument manual and verify orientation against mapped terrain.</text>
 </svg>

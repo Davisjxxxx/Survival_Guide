@@ -8,17 +8,17 @@
     <!-- 3 cross-section columns -->
     <rect x="55" y="102" width="245" height="202" rx="10" fill="#eef4f2" stroke="#205b68" stroke-width="3"/>
     <rect x="55" y="102" width="245" height="40" rx="8" fill="#cfe6ee"/>
-    <text x="72" y="86">1. Frostnip (surface)</text>
+    <text x="72" y="86">1. Possible frostnip</text>
     <text class="sm" x="72" y="176">Pale/red tingling skin</text><text class="sm" x="72" y="206">Still soft &amp; pliable</text><text class="sm" x="72" y="246">Rewarm early; shelter</text>
     <rect x="328" y="102" width="245" height="202" rx="10" fill="#f5eedc" stroke="#8c5a20" stroke-width="3"/>
     <rect x="328" y="102" width="245" height="92" rx="8" fill="#a2cfe0"/>
-    <text x="342" y="86">2. Superficial frostbite</text>
+    <text x="342" y="86">2. Suspected frostbite</text>
     <text class="sm" x="344" y="226">Waxy pale firm surface</text><text class="sm" x="344" y="256">Clear blisters after thaw</text>
     <rect x="600" y="102" width="245" height="202" rx="10" fill="#f7e4d8" stroke="#972f22" stroke-width="3.5"/>
     <rect x="600" y="102" width="245" height="162" rx="8" fill="#7aa9be"/>
-    <text class="warn" x="615" y="86">3. Deep frostbite</text>
-    <text class="warn" x="616" y="290">Wood-hard, numb, deep!</text>
+    <text class="warn" x="615" y="86">3. More severe signs</text>
+    <text class="warn" x="616" y="290">Hard or numb tissue</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">NEVER rub frostbite with snow or dry heat; NEVER thaw if any risk of refreezing exists.</text>
+<text class="guard" x="36" y="369">Appearance cannot establish injury depth. Protect from refreezing and seek care.</text>
 </svg>

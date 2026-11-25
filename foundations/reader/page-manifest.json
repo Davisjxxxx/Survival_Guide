@@ -6449,11 +6449,10 @@
       ]
     },
     "verify": {
-      "text": "Confirm fuel canister stays cool to touch during operation, pot sits centered on stable supports and surrounding ground is cleared of dry needles.",
+      "text": "Before use, confirm the model permits the setup, the pot is centered on stable supports and the area meets the manufacturer’s clearances. Do not use touch as a fuel-container safety test.",
       "claims": [
-        "C15",
-        "C02",
-        "ED"
+        "C21",
+        "C15"
       ]
     },
     "stop": {
@@ -6465,7 +6464,7 @@
       ]
     },
     "diagram": "Canister stays cool & vented | Matched windscreen clearance | Stable level pot support",
-    "visual": "Exploded stove-accessory layout showing safe open canister ventilation versus prohibited tight foil wrap overheating hazard. Conceptual, not to scale.",
+    "visual": "Stove-accessory comparison showing a prohibited tight wrap and a bare example whose use depends on the model instructions. Conceptual, not to scale.",
     "reviewer": "Portable appliance safety"
   },
   {
@@ -9458,11 +9457,11 @@
         ]
       },
       {
-        "text": "Recognize that standard backcountry mechanical filters do not remove most viruses or dissolved chemicals; pair mechanical filtration with chemical disinfection or boiling when viruses are a concern.",
+        "text": "Ordinary field filters often miss viruses. Follow a verified microbial treatment method for remaining germs. If harmful chemical or toxin contamination is suspected, use another safe source and follow local advice.",
         "claims": [
+          "W01",
           "W04",
-          "W21",
-          "W22"
+          "W21"
         ]
       },
       {
@@ -9503,8 +9502,8 @@
         "W21"
       ]
     },
-    "diagram": "Cysts and bacteria blocked | Viruses pass standard pores | Chemicals pass mechanical media",
-    "visual": "Material cross-section comparing relative scale of protozoa, bacteria, viruses and dissolved molecules against porous filter membranes. Conceptual, not to scale.",
+    "diagram": "Confirm the exact model claim | Address remaining germs | Use another safe source for suspected chemical contamination",
+    "visual": "Two distinct barriers for emergency water decisions. Suspected harmful chemicals or toxins require a safe alternate source and local advice.",
     "reviewer": "Drinking-water microbiology and treatment engineering"
   },
   {
@@ -9886,7 +9885,7 @@
     "category": "New manuscript",
     "action": [
       {
-        "text": "Distinguish living pathogens (bacteria, viruses, parasites—killed by heat or targeted disinfection) from chemical poisons (cyanotoxins, metals, nitrates, solvents—unaffected by boiling).",
+        "text": "Boiling or a validated disinfectant can control some or all relevant germs depending on the method. These approaches cannot make water contaminated with harmful chemicals or toxins safe to drink.",
         "claims": [
           "W01",
           "W15",
@@ -9894,10 +9893,10 @@
         ]
       },
       {
-        "text": "Recognize that boiling water containing dissolved heavy metals, nitrates or cyanotoxins evaporates pure steam and leaves the remaining liquid MORE concentrated in toxin.",
+        "text": "Heating can concentrate some nonvolatile contaminants. Do not infer that the vapor, condensate or remaining liquid is safe.",
         "claims": [
+          "W01",
           "W15",
-          "W16",
           "W22"
         ]
       },
@@ -28588,7 +28587,7 @@
       ]
     },
     "diagram": "Form loop & pass around standing | Dress collar snugly | Tie stopper on generous tail",
-    "visual": "Exploded knot-geometry diagram detailing standing part, locking collar, parallel loop entry and mandatory tail stopper on slick synthetic cord. Conceptual, not to scale.",
+    "visual": "The prior drawn knot is held for reconstruction. Consult a verified utility-knot reference and supervised practice.",
     "reviewer": "Rigging safety and field education"
   },
   {
@@ -28646,7 +28645,7 @@
       ]
     },
     "diagram": "Parallel dressed figure-eight | Wide stopper blocks pull-through | Ample tail; inspect before load",
-    "visual": "Exploded component geometry contrasting a single figure-eight stopper against a dressed parallel figure-eight-on-a-bight loop. Conceptual, not to scale.",
+    "visual": "The prior cord drawing is held for reconstruction. A stopper and a bight loop require separate, verified views.",
     "reviewer": "Rigging safety and field education"
   },
   {
@@ -32177,11 +32176,11 @@
         ]
       },
       {
-        "text": "Keep the patient completely still, horizontal and insulated from cold ground, withhold all food and fluids (NPO), and monitor alertness and breathing continuously.",
+        "text": "Keep the person warm and monitor alertness and breathing. Avoid unnecessary movement, especially after possible spine or pelvis trauma, and follow dispatcher instructions.",
         "claims": [
           "M05",
-          "E05",
-          "M20"
+          "M20",
+          "M22"
         ]
       }
     ],
@@ -33648,7 +33647,7 @@
       ]
     },
     "verify": {
-      "text": "Confirm survivor is horizontal, dry-wrapped out of wind, monitored continuously, and medically evaluated by EMS.",
+      "text": "Confirm the survivor is protected from wind and further cooling, monitored continuously, and assessed by EMS. Follow dispatcher guidance on position and movement.",
       "claims": [
         "M23",
         "T02"
@@ -36200,7 +36199,7 @@
       ]
     },
     "diagram": "Clear metal & align meridian | Rotate map to match needle | Confirm with two landmarks",
-    "visual": "Mechanism diagram illustrating map-to-compass north alignment and two-landmark visual confirmation on flat terrain. Conceptual, not to scale.",
+    "visual": "Map alignment illustration is withheld while equipment-specific orientation conventions are verified.",
     "reviewer": "Navigation and search and rescue"
   },
   {
@@ -38087,7 +38086,7 @@
       ]
     },
     "diagram": "2-3 wide-angled landmarks | Project bearings back on map | Confirm triangle matches terrain",
-    "visual": "Mechanism diagram showing wide-angle triangulation from three identified peaks forming a small position-uncertainty triangle checked against contours. Conceptual, not to scale.",
+    "visual": "Two identified landmarks illustrate why crossed bearings provide a position estimate. Compare the estimate with nearby map features. Conceptual, not to scale.",
     "reviewer": "Cartography and navigation"
   },
   {
@@ -44394,7 +44393,7 @@
       ]
     },
     "diagram": "PFD required for airway | Solo HELP shields torso/groin | Group HUDDLE shares heat & sight",
-    "visual": "Mechanism diagram illustrating solo HELP high-heat-loss shielding and group HUDDLE chest-to-chest circle with mandatory PFD flotation. Conceptual, not to scale.",
+    "visual": "Illustration of body postures is withheld pending qualified review of flotation, fit and airway clearance.",
     "reviewer": "Cold-water rescue and maritime safety"
   },
   {
@@ -46284,7 +46283,7 @@
         ]
       },
       {
-        "text": "Maintain manufacturer floor-pad and 3-foot wall/combustible clearances, keep stove doors latched or fireplace screens tightly closed, and treat conceptual wood-heat schematics strictly as safety reminders—NOT DIY flue installation guides.",
+        "text": "Use the appliance listing, manufacturer instructions and local requirements for floor protection, clearances and operating configuration. Use a qualified professional for installation and inspection.",
         "claims": [
           "U18",
           "U03"
@@ -46304,7 +46303,7 @@
       ]
     },
     "verify": {
-      "text": "Confirm annual sweep completed, wood is dry seasoned, 3-foot clearances hold, and smoke/CO alarms test active.",
+      "text": "Confirm the professional inspection, dry seasoned wood, appliance-specific clearances and working smoke and CO alarms.",
       "claims": [
         "U18",
         "U12"
@@ -49521,9 +49520,10 @@
         ]
       },
       {
-        "text": "On lots with elevated soil lead, lay a durable permeable geotextile barrier over native ground first, fill at least 12 inches deep with clean tested topsoil/compost, and mulch surrounding paths cleanly so bare contaminated dust does not blow or track onto leaves.",
+        "text": "Test the native soil and follow local environmental-health guidance. EPA recommends clean soil above visible fabric and covered paths where applicable. If results exceed 400 ppm, EPA advises shallow-root crops only with at least 16 inches of clean soil above fabric, or containers.",
         "claims": [
-          "P02"
+          "P02",
+          "P32"
         ]
       },
       {
@@ -49537,29 +49537,30 @@
     "batch": "15-p14-z14-preservation",
     "publication": "HOLD",
     "technical_review": "AI editorial check; qualified reviewer pending",
-    "objective": "Create warm, fast-draining, contaminant-isolated growing beds that extend northern spring planting safely.",
+    "objective": "Choose a raised-bed setup using tested soil and site-specific exposure controls.",
     "applies": "Urban lots with suspected legacy lead, compacted heavy clay, or shallow wet yards.",
     "equipment": "Untreated rot-resistant lumber (cedar/white oak) or masonry blocks, landscape fabric/geotextile barrier, and clean tested topsoil/compost blend.",
     "failure": {
-      "text": "Building a vegetable raised bed out of reclaimed creosote railroad ties or filling shallowly over lead-contaminated bare dirt without a barrier.",
+      "text": "Relying on bed depth or fabric alone can miss exposure from contaminated soil, dust, track-in and splash.",
       "claims": [
-        "P02"
+        "P32"
       ]
     },
     "verify": {
-      "text": "Confirm untreated safe frame materials, clean soil source, 3–4 ft reach width, and geotextile barrier where soil lead exists.",
+      "text": "Confirm the soil-test guidance applies to this site, the soil source is clean and paths are covered as directed.",
       "claims": [
-        "P02"
+        "P02",
+        "P32"
       ]
     },
     "stop": {
-      "text": "Any unknown industrial fill dirt or flaking treated timber must be excluded from edible garden beds.",
+      "text": "If soil quality is unknown or the site has suspected contamination, seek local environmental-health guidance before growing food in the ground.",
       "claims": [
-        "P02"
+        "P32"
       ]
     },
-    "diagram": "Untreated lumber/stone (zero creosote) | Geotextile barrier + ≥12 in clean soil | Keep beds ≤4 ft wide; mulch paths",
-    "visual": "Material cross-section of a safe raised garden bed showing clean soil/compost depth, permeable geotextile lead barrier, untreated walls, and mulched paths. Conceptual, not to scale.",
+    "diagram": "Confirm the soil test result | Keep clean soil above the visible barrier | Control dust and soil movement",
+    "visual": "Soil cross-section illustrating clean soil and mulch above a fabric boundary. The correct bed depth and crop depend on the test result and local guidance.",
     "reviewer": "Extension horticulture and environmental health"
   },
   {
@@ -51861,7 +51862,7 @@
       ]
     },
     "diagram": "pH > 4.6 (meat/veg/beans) -> PRESSURE ONLY | pH ≤ 4.6 (fruits/pickles) -> tested water bath | 212°F boiling NEVER kills botulinum spores",
-    "visual": "Branch decision tree splitting at the pH 4.6 line between mandatory 240°F+ pressure canning (low-acid) and tested boiling-water/acidified protocols (high-acid). Conceptual, not to scale.",
+    "visual": "Acidity-class comparison. Use the tested method, equipment and altitude adjustment for the exact food and recipe. Conceptual, not to scale.",
     "reviewer": "Food microbiology and preservation process authority"
   },
   {
@@ -55323,7 +55324,7 @@
       ]
     },
     "diagram": "Routes cut -> move to highest OPEN floor | NEVER trap yourself in closed attics | Call 911 & signal; skip rushing water swims",
-    "visual": "Cutaway flooded house contrasting dangerous basement and trapped closed-attic zones against open upper-floor/last-resort roof rescue refuge. Conceptual, not to scale.",
+    "visual": "Building section with a route to the highest open level, closed attic trap and conditional roof refuge. Use safe dry evacuation while available.",
     "reviewer": "Swift-water rescue and emergency management"
   },
   {
