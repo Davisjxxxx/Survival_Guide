@@ -160,7 +160,7 @@
     "specimen_or_accession_id": "File:2024-02-13 09 26 40 Deer tracks in fresh snow behind a house along Aquetong Lane during a moderate snowstorm in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
     "acquisition_date": "2026-11-25",
     "original_sha256": "7f4142bbc2f9a566293613588f7cedff921bee708feccc5873a14be8a3cc9742",
-    "derivative_sha256": "7da4398e7d179b7c7707aec595b6a509c7e4e7f1f95c081e080afdffc3107c46",
+    "derivative_sha256": "7ee8e05dcc8426168611c266711bd93f734efe200123792f84fa7d6c509ed2b6",
     "pixels": [
       4032,
       3024
@@ -280,8 +280,8 @@
     "delivery_derivative": "display/Z08-P09-limestone-karst-bluff.jpg",
     "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Karst_limestone_bluff_and_talus_by_Todd_Crabtree_%288497631543%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "catalogue_url": "https://commons.wikimedia.org/wiki/File:Karst_limestone_bluff_and_talus_by_Todd_Crabtree_(8497631543).jpg",
-    "institution_and_photographer": "U.S. Fish and Wildlife Service Southeast Region",
-    "license_and_attribution": "Public domain (https://commons.wikimedia.org/wiki/File:Karst_limestone_bluff_and_talus_by_Todd_Crabtree_(8497631543).jpg)",
+    "institution_and_photographer": "Todd Crabtree / U.S. Fish and Wildlife Service Southeast Region",
+    "license_and_attribution": "CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)",
     "specimen_or_accession_id": "File:Karst limestone bluff and talus by Todd Crabtree (8497631543).jpg",
     "acquisition_date": "2026-11-25",
     "original_sha256": "f76f97867f87e8a4d938e16dbab48d8958875b8133757ee58e8a6fc6b31f67cb",

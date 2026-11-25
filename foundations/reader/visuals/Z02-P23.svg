@@ -25,5 +25,5 @@
     <text class="warn" x="55" y="298">CONDUCTION (ground)</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Block ground conduction first with dry insulation, then wind convection and wet-layer evaporation.</text>
+<text class="guard" x="36" y="369">Use dry ground insulation and limit wind and moisture exposure as conditions require.</text>
 </svg>

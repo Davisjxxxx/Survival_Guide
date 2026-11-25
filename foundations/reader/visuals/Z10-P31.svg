@@ -1,5 +1,5 @@
 <svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
-<title id="title">Spinal motion restriction after high-force trauma</title><desc id="desc">Side anatomical orientation diagram showing manual inline head-and-neck stabilization on a flat surface keeping head, neck and torso aligned without twisting.</desc>
+<title id="title">Spinal motion restriction after high-force trauma</title><desc id="desc">Conceptual position-found and breathing-monitoring boundary. Emergency movement may be required for airway care or scene danger.</desc>
 <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
 <style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
 <rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
@@ -15,12 +15,12 @@
     <line x1="125" y1="240" x2="790" y2="240" stroke="#205b68" stroke-width="3.5" stroke-dasharray="10 6"/>
     <!-- Hands cradling head -->
     <path d="M168 186Q195 162 222 186" fill="none" stroke="#183a30" stroke-width="8" stroke-linecap="round"/>
-    <text x="72" y="102">1. Hold head gently in neutral inline alignment</text>
+    <text x="72" y="102">1. Leave the person in the position found</text>
     <path class="leader" d="M195 114v56"/>
-    <text x="72" y="142">2. Coach casualty to stay still; protect airway</text>
-    <text class="warn" x="520" y="128">NEVER twist or sit up</text>
-    <text class="sm" x="520" y="158">unless immediate danger (fire/water)</text>
-    <text class="sm" x="520" y="186">forces emergency move</text>
+    <text x="72" y="142">2. Monitor breathing and follow dispatch</text>
+    <text class="warn" x="520" y="128">Avoid unnecessary movement</text>
+    <text class="sm" x="520" y="158">Airway care or immediate danger</text>
+    <text class="sm" x="520" y="186">can require movement</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
 <text class="guard" x="36" y="369">Activate 911/SAR immediately after falls, diving impacts or numbness/weakness; protect warmth.</text>

@@ -55,17 +55,17 @@ visual: Correct versus incorrect soil-fertility practice contrasting finished pl
 reviewer: Soil science and food-safety Extension
 
 Z14-P06 | Build barrier-lined raised beds for urban lead, clay, or wet soils | UMN Extension Gardening; new manuscript
-objective: Create warm, fast-draining, contaminant-isolated growing beds that extend northern spring planting safely.
+objective: Choose a raised-bed setup using tested soil and site-specific exposure controls.
 applies: Urban lots with suspected legacy lead, compacted heavy clay, or shallow wet yards.
 equipment: Untreated rot-resistant lumber (cedar/white oak) or masonry blocks, landscape fabric/geotextile barrier, and clean tested topsoil/compost blend.
 action: Construct raised beds using untreated rot-resistant wood, stone, or concrete blocks—NEVER use creosote railroad ties, painted salvage boards, or old CCA-treated lumber that can leach toxic preservatives into garden soil. @P02
-action: On lots with elevated soil lead, lay a durable permeable geotextile barrier over native ground first, fill at least 12 inches deep with clean tested topsoil/compost, and mulch surrounding paths cleanly so bare contaminated dust does not blow or track onto leaves. @P02
+action: Test the native soil and follow local environmental-health guidance. EPA recommends clean soil above visible fabric and covered paths where applicable. If results exceed 400 ppm, EPA advises shallow-root crops only with at least 16 inches of clean soil above fabric, or containers. @P02,P32
 action: Keep bed widths at roughly 3 to 4 feet maximum so you can reach the center easily from either side without stepping onto and compacting loose fertile soil. @P01,P02
-failure: Building a vegetable raised bed out of reclaimed creosote railroad ties or filling shallowly over lead-contaminated bare dirt without a barrier. @P02
-verify: Confirm untreated safe frame materials, clean soil source, 3–4 ft reach width, and geotextile barrier where soil lead exists. @P02
-stop: Any unknown industrial fill dirt or flaking treated timber must be excluded from edible garden beds. @P02
-diagram: Untreated lumber/stone (zero creosote) | Geotextile barrier + ≥12 in clean soil | Keep beds ≤4 ft wide; mulch paths
-visual: Material cross-section of a safe raised garden bed showing clean soil/compost depth, permeable geotextile lead barrier, untreated walls, and mulched paths. Conceptual, not to scale.
+failure: Relying on bed depth or fabric alone can miss exposure from contaminated soil, dust, track-in and splash. @P32
+verify: Confirm the soil-test guidance applies to this site, the soil source is clean and paths are covered as directed. @P02,P32
+stop: If soil quality is unknown or the site has suspected contamination, seek local environmental-health guidance before growing food in the ground. @P32
+diagram: Confirm the soil test result | Keep clean soil above the visible barrier | Control dust and soil movement
+visual: Soil cross-section illustrating clean soil and mulch above a fabric boundary. The correct bed depth and crop depend on the test result and local guidance.
 reviewer: Extension horticulture and environmental health
 
 Z14-P07 | Separate cool-season frost-hardy crops from warm-season tender crops | UMN Extension Planting the Vegetable Garden; new manuscript
@@ -625,7 +625,7 @@ failure: Boiling green beans or venison in a giant water-bath pot for four hours
 verify: Confirm food acidity class matches tested recipe equipment (low-acid = pressure canner ONLY; borderline tomatoes = tested acidification). @P07,P08,F06
 stop: Lack of a tested pressure canner prohibits home canning ANY low-acid meat, vegetable, or soup—freeze or dry per tested methods instead. @P07,P12
 diagram: pH > 4.6 (meat/veg/beans) -> PRESSURE ONLY | pH ≤ 4.6 (fruits/pickles) -> tested water bath | 212°F boiling NEVER kills botulinum spores
-visual: Branch decision tree splitting at the pH 4.6 line between mandatory 240°F+ pressure canning (low-acid) and tested boiling-water/acidified protocols (high-acid). Conceptual, not to scale.
+visual: Acidity-class comparison. Use the tested method, equipment and altitude adjustment for the exact food and recipe. Conceptual, not to scale.
 reviewer: Food microbiology and preservation process authority
 
 Z14-P47 | Acidify home-canned tomatoes using the exact tested recipe | NCHFP Boiling Water and Pressure Canning; new manuscript

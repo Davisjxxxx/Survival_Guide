@@ -1,0 +1,21 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Figure-eight loop and bend-radius preservation</title><desc id="desc">Rope-path illustration of a figure-eight loop showing parallel smooth turns that preserve cordage strength compared with a sharp kinking overhand bend.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z09-P15 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Smooth Figure-8 Loop -->
+    <line x1="75" y1="186" x2="210" y2="186" stroke="#183a30" stroke-width="11" stroke-linecap="round"/>
+    <path d="M210 186C245 120 335 120 365 186C395 252 485 252 520 186" fill="none" stroke="#205b68" stroke-width="11" stroke-linecap="round"/>
+    <path d="M210 186C245 252 335 252 365 186C395 120 485 120 520 186" fill="none" stroke="#bc785b" stroke-width="10" stroke-linecap="round"/>
+    <path d="M520 186C580 120 710 120 710 186C710 252 580 252 520 186" fill="none" stroke="#183a30" stroke-width="11" stroke-linecap="round"/>
+    <text x="72" y="114">Standing cord</text>
+    <text x="256" y="96">Parallel figure-8 weave</text>
+    <text class="sm" x="160" y="286">Wider bend radius reduces crush</text>
+    <text x="572" y="96">Termination loop</text>
+    <text class="sm" x="556" y="286">Leave 4–6 in tail &amp; dress flat</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Knots cut rope strength; avoid sharp edges and never use utility cord for life support.</text>
+</svg>

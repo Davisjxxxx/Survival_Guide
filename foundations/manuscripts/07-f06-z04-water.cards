@@ -297,13 +297,13 @@ objective: Match mechanical filter pore ratings accurately against protozoa, bac
 applies: Choosing or using any portable backcountry or emergency point-of-use water filter.
 equipment: Filter specification sheet or label showing absolute pore rating or independent certification (NSF/ANSI 53, 55 or EPA purifier standard).
 action: Identify the exact model and treatment claim. Nominal and absolute pore ratings differ. Product certification or test evidence must cover the organism of concern. @W04,W20,W21
-action: Recognize that standard backcountry mechanical filters do not remove most viruses or dissolved chemicals; pair mechanical filtration with chemical disinfection or boiling when viruses are a concern. @W04,W21,W22
+action: Ordinary field filters often miss viruses. Follow a verified microbial treatment method for remaining germs. If harmful chemical or toxin contamination is suspected, use another safe source and follow local advice. @W01,W04,W21
 action: Confirm whether any activated-carbon stage is strictly for taste/odor or holds independent NSF certification for specific listed chemicals; carbon alone does not disinfect microbes. @W21,W22
 failure: Assuming a 0.2-micron hollow-fiber filter stops viruses or removes agricultural nitrates, fuel or heavy metals. @W04,W21,W22
 verify: State the filter's exact certified target classes and name the second barrier covering any remaining microbial gaps. @W04,W21,ED
 stop: Never rely on an unlabeled, uncertified or improvised sand/charcoal filter for microbial or chemical safety. @W04,W08,W21
-diagram: Cysts and bacteria blocked | Viruses pass standard pores | Chemicals pass mechanical media
-visual: Material cross-section comparing relative scale of protozoa, bacteria, viruses and dissolved molecules against porous filter membranes. Conceptual, not to scale.
+diagram: Confirm the exact model claim | Address remaining germs | Use another safe source for suspected chemical contamination
+visual: Two distinct barriers for emergency water decisions. Suspected harmful chemicals or toxins require a safe alternate source and local advice.
 reviewer: Drinking-water microbiology and treatment engineering
 
 Z04-P35 | Select certified filters for Giardia and Cryptosporidium cysts | CDC Giardia, Cryptosporidium and filter guidance; new manuscript
@@ -394,8 +394,8 @@ Z04-P41 | Recognize why boiling and chlorine fail against algal and chemical tox
 objective: Understand the physical and chemical boundary separating living microbes from heat-stable toxins and dissolved chemicals.
 applies: Any water source impacted by harmful algal blooms, fuel spills, mine drainage, agricultural nitrates, heavy metals or industrial releases.
 equipment: Local advisories, alternate potable water supply and poison-control or public-health contact information.
-action: Distinguish living pathogens (bacteria, viruses, parasites—killed by heat or targeted disinfection) from chemical poisons (cyanotoxins, metals, nitrates, solvents—unaffected by boiling). @W01,W15,W22
-action: Recognize that boiling water containing dissolved heavy metals, nitrates or cyanotoxins evaporates pure steam and leaves the remaining liquid MORE concentrated in toxin. @W15,W16,W22
+action: Boiling or a validated disinfectant can control some or all relevant germs depending on the method. These approaches cannot make water contaminated with harmful chemicals or toxins safe to drink. @W01,W15,W22
+action: Heating can concentrate some nonvolatile contaminants. Do not infer that the vapor, condensate or remaining liquid is safe. @W01,W15,W22
 action: Switch immediately to sealed commercial water, verified municipal stations or an uncontaminated watershed whenever chemical or algal-toxin hazards are present. @W01,W07,W15
 failure: Applying a rolling boil or double chlorine dose to green lake scum or fuel-tainted floodwater in the belief that stronger microbial treatment removes poisons. @W01,W15,W16
 verify: Confirm every group member can name two contaminants that boiling makes worse rather than safer. @W15,W22,ED

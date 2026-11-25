@@ -1,0 +1,42 @@
+[
+  {
+    "page_id": "Z16-P01",
+    "upstream": "Z01-P01 Z01-P03 Z10-P01 Z01-P07",
+    "stop": "Stay on safe ground. If an immediate hazard threatens the spot, move only by a clearly safer route."
+  },
+  {
+    "page_id": "Z16-P04",
+    "upstream": "Z13-P06 Z03-P40 Z13-P20 Z15-P13",
+    "stop": "If a CO alarm sounds or exposure is suspected, get everyone to fresh outdoor air immediately and call 911 from outside. Leave equipment untouched during evacuation."
+  },
+  {
+    "page_id": "Z16-P08",
+    "upstream": "Z05-P135 Z05-P133 Z05-P134 Z10-P63",
+    "stop": "Call U.S. Poison Control at 1-800-222-1222 promptly after a suspected ingestion. Call 911 for collapse, seizure, trouble breathing or inability to wake."
+  },
+  {
+    "page_id": "Z16-P13",
+    "upstream": "Z15-P13 Z15-P14 Z02-P41 Z13-P24",
+    "stop": "If the situation falls outside a linked card’s conditions or its stop rule applies, stop using this index as a decision aid. Follow the full card and current local directions."
+  },
+  {
+    "page_id": "Z16-P21",
+    "upstream": "Z04-P14 Z04-P34 Z04-P39 Z04-P37 Z13-P36",
+    "stop": "If the situation falls outside a linked card’s conditions or its stop rule applies, stop using this index as a decision aid. Follow the full card and current local directions."
+  },
+  {
+    "page_id": "Z16-P29",
+    "upstream": "Z01-P05 Z01-P13 Z10-P75 Z02-P03",
+    "stop": "If the situation falls outside a linked card’s conditions or its stop rule applies, stop using this index as a decision aid. Follow the full card and current local directions."
+  },
+  {
+    "page_id": "Z16-P37",
+    "upstream": "Z08-P01 Z08-P08 Z08-P09 Z08-P10",
+    "stop": "If the situation falls outside a linked card’s conditions or its stop rule applies, stop using this index as a decision aid. Follow the full card and current local directions."
+  },
+  {
+    "page_id": "Z16-P75",
+    "upstream": "Z01-P01 Z05-P01 Z11-R01 Z13-R03 Z14-R01 Z15-R03",
+    "stop": "If the situation falls outside a linked card’s conditions or its stop rule applies, stop using this index as a decision aid. Follow the full card and current local directions."
+  }
+]

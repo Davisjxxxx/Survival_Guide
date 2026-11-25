@@ -10,11 +10,11 @@
     <rect x="155" y="182" width="54" height="36" rx="6" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
     <rect x="235" y="158" width="46" height="60" rx="8" fill="#972f22" stroke="#5c1a12" stroke-width="3"/>
     <text x="90" y="76">Cool stove · cleared mineral soil</text>
-    <text class="sm" x="148" y="248">Depressurize cool</text><text class="sm" x="148" y="272">Wipe any spills</text>
+    <text class="sm" x="148" y="248">Use model manual</text><text class="sm" x="148" y="272">Stop if fuel spills</text>
     <!-- Separation distance -->
     <line x1="335" y1="196" x2="565" y2="196" stroke="#972f22" stroke-width="4" stroke-dasharray="10 6"/>
-    <text class="warn" x="358" y="176">Safe upwind gap</text>
-    <text class="sm" x="352" y="226">Vapors sink &amp; travel</text>
+    <text class="warn" x="358" y="176">Separate from ignition</text>
+    <text class="sm" x="352" y="226">Vapors can spread</text>
     <!-- Right: Ignition / tent exclusion -->
     <rect x="575" y="96" width="275" height="202" rx="12" fill="#f7e4d8" stroke="#972f22" stroke-width="3.5"/>
     <polygon points="620,240 680,158 740,240" fill="#d7e2da" stroke="#183a30" stroke-width="3"/>

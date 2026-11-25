@@ -1,0 +1,28 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Cold-front versus warm-front cloud and weather profile</title><desc id="desc">Atmospheric cross-section comparing a steep approaching cold-front wedge triggering tall cumulonimbus squalls against a sloped warm-front cloud sequence.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z11-P37 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Left: Cold front wedge -->
+    <line x1="40" y1="296" x2="430" y2="296" stroke="#5d653e" stroke-width="4"/>
+    <path d="M40 296L255 296Q230 198 145 148L40 148Z" fill="#a2cfe0" stroke="#205b68" stroke-width="3"/>
+    <path d="M250 282Q270 155 230 98Q310 72 365 112Q395 162 340 218Z" fill="#cfd8dc" stroke="#364247" stroke-width="3"/>
+    <path class="rflow" d="M272 280Q288 212 288 154"/>
+    <text x="58" y="88">Steep cold front</text>
+    <text class="sm" x="62" y="232">Dense cold air</text>
+    <text class="warn" x="280" y="266">Fast gusts /</text><text class="warn" x="280" y="290">lightning</text>
+    <!-- Right: Warm front gradual ramp -->
+    <line x1="470" y1="296" x2="860" y2="296" stroke="#5d653e" stroke-width="4"/>
+    <path d="M470 296L860 196V296Z" fill="#c7d8de" stroke="#205b68" stroke-width="3"/>
+    <path class="flow" d="M510 250L780 145"/>
+    <ellipse cx="620" cy="176" rx="54" ry="20" fill="#d7e2da" stroke="#365c50" stroke-width="2.5"/>
+    <ellipse cx="755" cy="116" rx="68" ry="14" fill="#eef4f2" stroke="#365c50" stroke-width="2.5"/>
+    <text x="488" y="88">Sloped warm front</text>
+    <text class="sm" x="505" y="132">High cirrus -> thickening clouds</text>
+    <text class="sm" x="585" y="274">Steady rain / snow ahead</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Field sky signs supplement—never replace—official NWS Forecasts, Watches and Warnings.</text>
+</svg>

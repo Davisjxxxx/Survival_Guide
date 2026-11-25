@@ -10,7 +10,7 @@
     <polygon points="100,256 230,126 360,256" fill="#d7e2da" stroke="#183a30" stroke-width="4"/>
     <rect x="115" y="260" width="230" height="10" fill="#205b68"/>
     <path class="flow" d="M88 158l-28 96"/><path class="flow" d="M372 158l28 96"/>
-    <text x="68" y="92">Correct: tucked 2–3 in inside</text>
+    <text x="68" y="92">Correct: tucked inside the edge</text>
     <text class="sm" x="95" y="306">Rain drains into soil outside</text>
     <!-- Right: Wrong protruding -->
     <line x1="485" y1="274" x2="855" y2="274" stroke="#5d653e" stroke-width="4"/>

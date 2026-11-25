@@ -1,0 +1,25 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Snow blanket insulating thin ice and hiding open holes</title><desc id="desc">Lake cross-section showing deep snowdrift insulating unfrozen water beneath thin ice while obscuring an open current hole from travelers.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z12-P16 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Water below -->
+    <rect x="45" y="216" width="810" height="92" fill="#639db2" stroke="#205b68" stroke-width="3"/>
+    <!-- Thick clear ice left tapering to thin ice under heavy snow -->
+    <path d="M45 186H310L565 210V226H45Z" fill="#b7dfec" stroke="#205b68" stroke-width="3"/>
+    <path d="M720 206H855V226H720Z" fill="#b7dfec" stroke="#205b68" stroke-width="3"/>
+    <!-- Heavy insulating snow drift bridging hole -->
+    <path d="M250 186Q490 96 765 186L855 186V206H720L565 210L310 186Z" fill="#ffffff" stroke="#7d9890" stroke-width="3.5"/>
+    <!-- Open water gap hidden under snow crust -->
+    <rect x="572" y="206" width="142" height="22" fill="#f7e4d8" stroke="#972f22" stroke-width="3" stroke-dasharray="6 4"/>
+    <text x="68" y="156">Bare ice freezes thick</text>
+    <text class="warn" x="348" y="106">Deep snow traps heat -> thin ice</text>
+    <text class="warn" x="555" y="262">Hidden thin spot / current</text>
+    <path class="rflow" d="M645 244v-24"/>
+    <text class="sm" x="68" y="294">Check frequently with spud/auger; stay clear of inlets, outlets and bridges</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Deep snow insulates lake ice and hides pressure cracks or springs; stay ashore when uncertain.</text>
+</svg>

@@ -284,9 +284,9 @@ applies: Homes and cabins with code-installed, inspected wood-burning stoves or 
 equipment: Annual certified chimney-sweep inspection record, dry seasoned hardwood, stove-pipe thermometer, hearth pad clearance, and smoke/CO alarms.
 action: Have every wood stove, flue pipe, and chimney inspected and cleaned annually by a qualified chimney professional BEFORE winter heating season to remove flammable creosote buildup and animal nests. @U18,U03
 action: Burn ONLY dry, seasoned split firewood in brisk hot fires—never burn green wet wood, cardboard, glossy paper, painted/pressure-treated lumber, or household trash (which coats flues with creosote and releases toxic fumes). @U18
-action: Maintain manufacturer floor-pad and 3-foot wall/combustible clearances, keep stove doors latched or fireplace screens tightly closed, and treat conceptual wood-heat schematics strictly as safety reminders—NOT DIY flue installation guides. @U18,U03
+action: Use the appliance listing, manufacturer instructions and local requirements for floor protection, clearances and operating configuration. Use a qualified professional for installation and inspection. @U18,U03
 failure: Burning damp unseasoned pine and wrapping paper in an uncleaned chimney until thick black creosote ignites into a roaring flue fire. @U18
-verify: Confirm annual sweep completed, wood is dry seasoned, 3-foot clearances hold, and smoke/CO alarms test active. @U18,U12
+verify: Confirm the professional inspection, dry seasoned wood, appliance-specific clearances and working smoke and CO alarms. @U18,U12
 stop: Loud roaring/rumbling sound in the flue, glowing red stovepipe, dense indoor smoke, or exterior chimney sparks require evacuating everyone immediately and calling 911. @U18,U04
 diagram: Annual certified chimney sweep first | Burn dry seasoned wood only (no trash) | Roaring flue / smoke -> evacuate & 911
 visual: Cutaway wood-stove and flue boundary highlighting seasoned-wood firebox, inspected clean flue, hearth clearance, and creosote-fire warning cues. Conceptual, not to scale.

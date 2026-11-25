@@ -1,5 +1,7 @@
 # Survival Field Encyclopedia — Complete 16-Zone Illustrated Review Edition (`1,016` Pages · V02/V03 Visual Reconstruction · `publication: HOLD`)
 
+The [A04 qualification report](audit/a04/ASTRA_A04_EXECUTIVE_REPORT.md) records the focused V02/V03 visual and evidence review. The [Opus handoff](audit/a04/OPUS_WAVE_2C_CONTINUATION.md) gives the next production queue. Publication HOLD.
+
 Extract the [core offline reader ZIP](proofs/foundations-offline.zip) (or any standalone zone/visual package in [proofs/packages/](proofs/packages/PACKAGE-MANIFEST.json)) and open `reader/index.html` (consolidated searchable offline reader across all 1,016 cards), `reader/directory.html` (integrated 16-zone directory linking all 16 zones and the byte-identical embedded frozen Track B archive), or any standalone zone reader (`reader/zones/Z01/index.html`..`reader/zones/Z16/index.html`).
 
 Companion review galleries and modular packages (kept outside core `foundations-offline.zip` so every committed file remains strictly `<= 45 MB`):

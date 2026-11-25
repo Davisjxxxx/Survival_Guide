@@ -65,10 +65,13 @@ def main():
         page = browser.new_page(offline=True,viewport={'width':980,'height':900})
         for i in range(0,len(rows),65):
             batch = rows[i:i+65]
-            html.write_text('<!doctype html><meta charset="utf-8"><style>svg{display:block;width:720px}</style>'
-                            + ''.join(vectors[row['page']] for row in batch))
+            html.write_text('<!doctype html><meta charset="utf-8">')
             page.goto(html.as_uri())
-            measured = page.evaluate("""() => [...document.querySelectorAll('svg')].map(svg=>{
+            measured = page.evaluate("""async (vectors) => Promise.all(vectors.map(markup => new Promise(resolve => {
+                // The reader loads external SVG images, each with its own stylesheet.
+                const frame = document.createElement('iframe');
+                frame.onload = () => {
+                const svg = frame.contentDocument.querySelector('svg');
                 const v=svg.viewBox.baseVal;
                 const labels=[...svg.querySelectorAll('text')].map(el=>({t:el.textContent,b:el.getBBox()}));
                 const clipped=labels.filter(({b})=>b.x<v.x-0.1||b.y<v.y-0.1||b.x+b.width>v.x+v.width+0.1||b.y+b.height>v.y+v.height+0.1);
@@ -77,8 +80,12 @@ def main():
                     if (Math.min(p.x+p.width,q.x+q.width)-Math.max(p.x,q.x)>2 &&
                         Math.min(p.y+p.height,q.y+q.height)-Math.max(p.y,q.y)>2) overlaps++;
                 }));
-                return {clipped:clipped.map(x=>x.t),overlaps};
-            })""")
+                resolve({clipped:clipped.map(x=>x.t),overlaps});
+                frame.remove();
+                };
+                frame.srcdoc = '<!doctype html><style>svg{display:block;width:720px}</style>'+markup;
+                document.body.append(frame);
+            })))""", [vectors[row['page']] for row in batch])
             for row, result in zip(batch,measured,strict=True):
                 row['clipped_labels'] = ' | '.join(result['clipped'])
                 row['overlap_pairs'] = result['overlaps']

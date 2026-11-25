@@ -13,13 +13,13 @@
     <text class="warn" x="68" y="84">WRONG: closed full wrap</text>
     <text class="warn" x="132" y="328">Canister overheats &amp; ruptures</text>
     <!-- Right: Safe open-side shield -->
-    <path d="M540 120v184h15" fill="none" stroke="#183a30" stroke-width="6"/>
+
     <rect x="645" y="232" width="90" height="68" rx="10" fill="#8eb5a7" stroke="#183a30" stroke-width="3.5"/>
     <rect x="625" y="128" width="130" height="72" rx="6" fill="#d7e2da" stroke="#183a30" stroke-width="3"/>
-    <path class="flow" d="M475 200h52"/><path class="flow" d="M748 258h70"/>
-    <text x="530" y="84">SAFE: open air on canister</text>
-    <text class="sm" x="555" y="328">Touch canister check: must stay cool</text>
+
+    <text x="530" y="84">MODEL INSTRUCTIONS CONTROL</text>
+    <text class="sm" x="555" y="328">Some models forbid any windscreen</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Never wrap a windscreen tightly around an upright fuel canister; shut off if canister warms.</text>
+<text class="guard" x="36" y="369">Stop use if excess heating is suspected. Follow the model emergency instructions.</text>
 </svg>

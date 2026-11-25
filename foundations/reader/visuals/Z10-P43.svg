@@ -10,9 +10,9 @@
     <rect x="105" y="214" width="385" height="40" rx="18" fill="#bc785b" stroke="#6d301f" stroke-width="3.5"/>
     <circle cx="142" cy="234" r="19" fill="#e4c7a5" stroke="#684b35" stroke-width="3"/>
     <path d="M90 210Q295 164 505 210" fill="none" stroke="#205b68" stroke-width="6"/>
-    <text x="82" y="108">1. Keep HORIZONTAL during lift &amp; wrap</text>
+    <text x="82" y="108">1. Follow dispatch on movement</text>
     <text x="82" y="142">2. Wind shell + dry loft + ground pad</text>
-    <text class="sm" x="150" y="182">Vapor &amp; wind barrier over torso/head</text>
+    <text class="sm" x="150" y="182">Wind barrier · keep airway clear</text>
     <!-- Right contraindication box -->
     <rect x="558" y="84" width="302" height="224" rx="12" fill="#f7e4d8" stroke="#972f22" stroke-width="3"/>
     <text class="warn" x="578" y="122">Guard against collapse:</text>
@@ -22,5 +22,5 @@
     <text class="warn" x="578" y="274">Activate 911/EMS early</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Severe cold-water survivors risk post-rescue cardiac collapse; insulate horizontally and summon EMS.</text>
+<text class="guard" x="36" y="369">Watch breathing after rescue. Call EMS after significant cold immersion.</text>
 </svg>

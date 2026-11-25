@@ -18,10 +18,10 @@
     <!-- Leaders right -->
     <path class="leader" d="M312 94h128"/><text x="448" y="98">1. Screw band (reusable; fingertip-tight)</text>
     <path class="leader" d="M304 127h136"/><text x="448" y="134">2. Flat lid (SINGLE-USE seal gasket)</text>
-    <path class="leader" d="M344 180h96"/><text class="warn" x="448" y="184">3. Exact recipe headspace (1/4 to 1 in)</text>
+    <path class="leader" d="M344 180h96"/><text class="warn" x="448" y="184">3. Headspace from tested recipe</text>
     <path class="leader" d="M320 250h120"/><text x="448" y="246">4. Smooth chip-free Mason glass rim</text>
     <text class="sm" x="448" y="276">Remove bands after 12–24 hr cool &amp; seal check</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Never reuse flat sealing lids or tighten bands with wrenches; reject chipped rims or commercial mayo jars.</text>
+<text class="guard" x="36" y="369">Use the tested jar and closure. Follow the lid maker and recipe instructions.</text>
 </svg>

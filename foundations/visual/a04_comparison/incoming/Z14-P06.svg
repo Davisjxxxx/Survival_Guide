@@ -1,0 +1,25 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Barrier-lined raised garden bed for urban or lead soils</title><desc id="desc">Vertical soil-profile cross-section showing landscape-fabric barrier isolating contaminated native urban subsoil beneath imported clean compost/topsoil and mulch.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:19px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:16.5px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:18.5px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z14-P06 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Native contaminated subsoil -->
+    <rect x="75" y="258" width="750" height="58" fill="#a89885" stroke="#6d301f" stroke-width="3"/>
+    <text class="warn" x="235" y="294">Native urban subsoil (untested / lead risk)</text>
+    <!-- Landscape fabric barrier -->
+    <line x1="75" y1="252" x2="825" y2="252" stroke="#183a30" stroke-width="8" stroke-dasharray="14 6"/>
+    <!-- Raised bed walls & clean fill -->
+    <rect x="115" y="138" width="24" height="114" fill="#8b6f3d" stroke="#472d18" stroke-width="3"/>
+    <rect x="761" y="138" width="24" height="114" fill="#8b6f3d" stroke="#472d18" stroke-width="3"/>
+    <rect x="139" y="158" width="622" height="92" fill="#c9b489" stroke="#5c4b2b" stroke-width="2.5"/>
+    <rect x="139" y="142" width="622" height="16" fill="#a8b896"/>
+    <text x="265" y="206">Clean tested topsoil + finished compost (12+ in)</text>
+    <text class="sm" x="145" y="122">Untreated lumber walls · clean mulch blocks soil splash</text>
+    <text x="215" y="88">Permeable geotextile barrier stops root mixing</text>
+    <path class="leader" d="M180 96l-40 152"/>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Test older urban soils for lead; never use railroad ties or creosote/CCA-treated lumber for food beds.</text>
+</svg>

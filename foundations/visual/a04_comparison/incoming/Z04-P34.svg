@@ -1,0 +1,33 @@
+<svg class="v02-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Filtration pore size versus organism size cutaway</title><desc id="desc">Logarithmic-concept pore-barrier diagram showing 0.1 micron filter pores blocking protozoa and bacteria while viruses and dissolved chemicals pass through.</desc>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#972f22"/></marker><marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>.v02-svg text{font-family:system-ui,sans-serif;font-size:20px;font-weight:650;fill:#183a30}.v02-svg .sm{font-size:17px;font-weight:600;fill:#2b473e}.v02-svg .warn{font-size:19px;font-weight:700;fill:#8c281b}.v02-svg .heading{font-size:19px;letter-spacing:0.8px;font-weight:750;fill:#183a30}.v02-svg .guard{font-size:15.5px;font-weight:650;fill:#6d301f}.v02-svg .leader{fill:none;stroke:#365c50;stroke-width:2.5}.v02-svg .flow{fill:none;stroke:#205b68;stroke-width:4;marker-end:url(#arr)}.v02-svg .rflow{fill:none;stroke:#972f22;stroke-width:4;marker-end:url(#arr-r)}.v02-svg .gflow{fill:none;stroke:#183a30;stroke-width:3.5;marker-end:url(#arr-g)}.v02-svg .dash{fill:none;stroke:#365c50;stroke-width:2.5;stroke-dasharray:10 7}</style>
+<rect x="1" y="1" width="898" height="393" rx="16" fill="#f4f6ed" stroke="#99ad9b" stroke-width="2"/>
+<text class="heading" x="26" y="34">Z04-P34 · V02 TECHNICAL ILLUSTRATION · NOT TO SCALE</text>
+<g id="v02-artwork">
+    <!-- Filter membrane vertical wall -->
+    <rect x="442" y="75" width="34" height="248" fill="#d7e2da" stroke="#183a30" stroke-width="3.5"/>
+    <line x1="442" y1="118" x2="476" y2="118" stroke="#f4f6ed" stroke-width="10"/>
+    <line x1="442" y1="186" x2="476" y2="186" stroke="#f4f6ed" stroke-width="10"/>
+    <line x1="442" y1="254" x2="476" y2="254" stroke="#f4f6ed" stroke-width="10"/>
+    <text x="382" y="66">0.1–0.2 µm pores</text>
+    <!-- Row 1: Protozoa blocked -->
+    <ellipse cx="348" cy="118" rx="34" ry="20" fill="#bc785b" stroke="#6d301f" stroke-width="3"/>
+    <path d="M394 118h36" stroke="#183a30" stroke-width="4"/><line x1="430" y1="102" x2="430" y2="134" stroke="#972f22" stroke-width="5"/>
+    <text x="45" y="114">Protozoa cysts (1–15 µm)</text><text class="sm" x="45" y="138">Giardia, Cryptosporidium</text>
+    <text x="510" y="124">BLOCKED by intact filter</text>
+    <!-- Row 2: Bacteria blocked -->
+    <rect x="336" y="176" width="38" height="18" rx="9" fill="#d9a15b" stroke="#6d4c1f" stroke-width="3"/>
+    <path d="M388 185h42" stroke="#183a30" stroke-width="4"/><line x1="430" y1="170" x2="430" y2="200" stroke="#972f22" stroke-width="5"/>
+    <text x="45" y="182">Bacteria (0.2–2 µm)</text><text class="sm" x="45" y="206">E. coli, Campylobacter</text>
+    <text x="510" y="192">BLOCKED by 0.1 µm filter</text>
+    <!-- Row 3: Viruses + Chemicals pass -->
+    <circle cx="355" cy="254" r="6" fill="#972f22"/><circle cx="378" cy="254" r="5" fill="#972f22"/>
+    <path class="rflow" d="M392 254h145"/>
+    <circle cx="560" cy="254" r="5" fill="#972f22"/><circle cx="580" cy="248" r="4" fill="#972f22"/>
+    <text class="warn" x="45" y="246">Viruses (0.02–0.1 µm)</text><text class="warn" x="45" y="276">&amp; dissolved chemicals</text>
+    <text class="warn" x="602" y="252">PASS THROUGH!</text><text class="sm" x="602" y="276">Need boil/chemical/purifier</text>
+    </g>
+<rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
+<text class="guard" x="36" y="369">Standard field filters do not remove viruses or dissolved chemicals; freeze damage breaks pores.</text>
+</svg>

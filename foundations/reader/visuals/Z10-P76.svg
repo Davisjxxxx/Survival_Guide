@@ -10,12 +10,12 @@
     <rect x="135" y="156" width="205" height="92" rx="14" fill="#d7e2da" stroke="#205b68" stroke-width="3.5"/>
     <rect x="168" y="184" width="138" height="36" rx="10" fill="#ffffff" stroke="#183a30" stroke-width="3"/>
     <text x="194" y="209">Rx / EpiPen</text>
-    <text x="76" y="128">SAFE: inner insulated carry</text>
-    <text class="sm" x="76" y="286">Close to body warmth; waterproof bag</text>
+    <text x="76" y="128">PROTECTED, LABELLED CARRY</text>
+    <text class="sm" x="76" y="286">Check the product-specific label</text>
     <!-- Right: Damaged extremes -->
     <rect x="475" y="92" width="370" height="98" rx="10" fill="#dce8ec" stroke="#972f22" stroke-width="3"/>
-    <text class="warn" x="496" y="128">EXTREME COLD (&lt;32°F outer pack)</text>
-    <text class="sm" x="496" y="160">Freezing ruins insulin &amp; auto-injectors</text>
+    <text class="warn" x="496" y="128">COLD EXPOSURE</text>
+    <text class="sm" x="496" y="160">Check product storage limits</text>
     <rect x="475" y="212" width="370" height="98" rx="10" fill="#f7e4d8" stroke="#972f22" stroke-width="3"/>
     <text class="warn" x="496" y="248">EXTREME HEAT (hot car / direct sun)</text>
     <text class="sm" x="496" y="280">Degrades potency; carry labeled backup</text>

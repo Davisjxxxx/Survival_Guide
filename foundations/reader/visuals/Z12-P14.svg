@@ -10,13 +10,13 @@
     <rect x="55" y="220" width="235" height="68" fill="#5d94a8"/>
     <text x="68" y="92">1. New clear solid ice</text>
     <text class="sm" x="64" y="120">Strongest structure</text>
-    <text class="sm" x="64" y="310">DNR guide applies ONLY here</text>
+    <text class="sm" x="64" y="310">Appearance cannot clear travel</text>
     <!-- 2. White snow-ice -->
     <rect x="332" y="138" width="235" height="82" fill="#e2eef2" stroke="#5e7880" stroke-width="3.5"/>
     <circle cx="372" cy="172" r="5" fill="#fff"/><circle cx="425" cy="188" r="6" fill="#fff"/><circle cx="490" cy="166" r="5" fill="#fff"/>
     <rect x="332" y="220" width="235" height="68" fill="#5d94a8"/>
     <text x="345" y="92">2. White snow-ice</text>
-    <text class="warn" x="345" y="120">~Half strength of clear ice</text>
+    <text class="warn" x="345" y="120">Often weaker than clear ice</text>
     <text class="sm" x="342" y="310">Refrozen slush &amp; air pockets</text>
     <!-- 3. Spring candled ice -->
     <rect x="610" y="138" width="235" height="82" fill="#cfd8dc" stroke="#972f22" stroke-width="3.5"/>

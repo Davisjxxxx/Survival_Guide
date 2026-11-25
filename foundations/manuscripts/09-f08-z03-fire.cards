@@ -244,10 +244,10 @@ action: Never wrap a tight full-enclosure foil windscreen around a canister-top 
 action: Follow the exact model instructions. Some canister-top stoves explicitly prohibit all windscreens. Do not add or position a barrier that the instructions prohibit or that can redirect heat toward the fuel container. @C15,C21
 action: Match pot diameter to stove arm limits and place the stove on a flat non-flammable surface so boiling pots cannot tip onto operators or dry needles. @C15,C02
 failure: Wrapping heavy aluminum foil snugly around a threaded isobutane canister until the metal becomes too hot to touch. @C15
-verify: Confirm fuel canister stays cool to touch during operation, pot sits centered on stable supports and surrounding ground is cleared of dry needles. @C15,C02,ED
+verify: Before use, confirm the model permits the setup, the pot is centered on stable supports and the area meets the manufacturer’s clearances. Do not use touch as a fuel-container safety test. @C21,C15
 stop: If fuel heating, abnormal flames or unstable supports are suspected, stop use and follow the manufacturer emergency guidance. If you cannot safely shut it down, move away and seek help. @C21,T01,T02
 diagram: Canister stays cool & vented | Matched windscreen clearance | Stable level pot support
-visual: Exploded stove-accessory layout showing safe open canister ventilation versus prohibited tight foil wrap overheating hazard. Conceptual, not to scale.
+visual: Stove-accessory comparison showing a prohibited tight wrap and a bare example whose use depends on the model instructions. Conceptual, not to scale.
 reviewer: Portable appliance safety
 
 Z03-P31 | Interpret Stage 1, Stage 2 and Red Flag fire restrictions accurately | USFS fire restrictions, MN DNR and NWS wildfire; new manuscript

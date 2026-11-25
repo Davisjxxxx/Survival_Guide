@@ -15,8 +15,8 @@
     <line x1="140" y1="154" x2="675" y2="268" stroke="#972f22" stroke-width="3.5" stroke-dasharray="6 6"/>
     <circle cx="675" cy="268" r="9" fill="#972f22"/>
     <text class="warn" x="525" y="218">Terrain shadow blocks</text><text class="warn" x="548" y="244">valley radio!</text>
-    <text class="sm" x="72" y="298">Climb safely to open high ground (away from lightning) to relay</text>
+    <text class="sm" x="72" y="298">Consider a safer open relay position only when terrain and weather permit</text>
     </g>
 <rect x="23" y="344" width="854" height="36" rx="7" fill="#f7e4d8"/>
-<text class="guard" x="36" y="369">Never trust advertized maximum mileage in forested valleys; carry a PLB/satellite SOS if remote.</text>
+<text class="guard" x="36" y="369">Range varies by terrain. Keep independent emergency communications.</text>
 </svg>
