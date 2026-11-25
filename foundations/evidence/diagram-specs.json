@@ -5804,5 +5804,1206 @@
       }
     ],
     "trigger": "Publication remains HOLD — zero qualified human trade approvals granted"
+  },
+  "Z14-P02": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Last Frost",
+        "focus": "County spring frost date (May MN)"
+      },
+      {
+        "window": "Growth Span",
+        "focus": "Match packet maturity days + 2 wk"
+      },
+      {
+        "window": "First Frost",
+        "focus": "Sept/Oct northern killing freeze"
+      },
+      {
+        "window": "Short Staples",
+        "focus": "Potatoes, squash, dry beans, roots"
+      }
+    ],
+    "threshold": "Pick short-season northern cultivars — long warm crops freeze unripe"
+  },
+  "Z14-P03": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "Shaded low frost pocket",
+      "Septic field & walnut setback",
+      "Sunny upland bed ≥6–8 h sun"
+    ],
+    "callout": "Call 811 before digging; avoid standing water"
+  },
+  "Z14-P04": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Sample 6 in",
+        "detail": "Mix spots in clean plastic bucket"
+      },
+      {
+        "label": "Lab test",
+        "detail": "Submit to accredited Extension lab"
+      },
+      {
+        "label": "Lead screen",
+        "detail": "Check pre-1978/urban heavy metals"
+      },
+      {
+        "label": "Amend exact",
+        "detail": "Apply report pH & nutrients only"
+      }
+    ],
+    "cue": "Elevated urban soil lead -> stop in-ground edibles; build lined raised beds"
+  },
+  "Z14-P05": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "FINISHED PLANT COMPOST",
+    "correct_items": [
+      "Dark crumbly earthy compost boosts soil",
+      "Aged livestock manure ≥90–120 d pre-harvest"
+    ],
+    "wrong_title": "RAW MANURE / PET WASTE",
+    "wrong_items": [
+      "Fresh manure near harvest spreads E. coli",
+      "Dog/cat/human waste banned in food beds"
+    ],
+    "reason": "Exclude meat, grease & blighted vines from backyard compost piles"
+  },
+  "Z14-P06": {
+    "type": "cross_section",
+    "layers": [
+      "≥12 in clean tested topsoil + compost",
+      "Permeable geotextile lead barrier",
+      "Untreated cedar/stone frame (no creosote)",
+      "Mulched paths block dusty soil splash"
+    ],
+    "callout": "Keep beds ≤4 ft wide for zero compaction"
+  },
+  "Z14-P07": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cool Crops (40–50°F)",
+        "note": "Peas, spinach, carrots, onions, potatoes",
+        "limit": "Bolt/bitter in heat"
+      },
+      {
+        "name": "Warm Crops (60–70°F)",
+        "note": "Tomatoes, beans, squash, peppers, corn",
+        "limit": "Wait ALL frost past"
+      },
+      {
+        "name": "Soil Check",
+        "note": "Measure 2–4 in deep; avoid soggy mud",
+        "limit": "Cold wet rots seed"
+      }
+    ]
+  },
+  "Z14-P08": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Early Spring",
+        "focus": "Sow peas, spinach, radish & lettuce"
+      },
+      {
+        "window": "Mid-Summer",
+        "focus": "Clear early beds; sow bush beans/beets"
+      },
+      {
+        "window": "Late Summer",
+        "focus": "Count back from fall frost + 14 d"
+      },
+      {
+        "window": "Autumn Cold",
+        "focus": "Harvest frost-sweet kale & roots"
+      }
+    ],
+    "threshold": "Avoid replanting the same botanical family back-to-back in one bed"
+  },
+  "Z14-P09": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Sterile mix",
+        "detail": "Clean pots; zero heavy garden dirt"
+      },
+      {
+        "label": "Close lights",
+        "detail": "Bright overhead lights 14–16 h daily"
+      },
+      {
+        "label": "Harden 7–10 d",
+        "detail": "Gradual outdoor shade, sun & wind"
+      },
+      {
+        "label": "Transplant",
+        "detail": "Set out strictly after killing frost"
+      }
+    ],
+    "cue": "Moving pale indoor starts straight into midday sun scorches leaves fast"
+  },
+  "Z14-P10": {
+    "type": "cross_section",
+    "layers": [
+      "Fine loose stone-free top furrow",
+      "Tiny seed ¼ in deep (mist damp)",
+      "Deep loose root zone (straight carrots)",
+      "Scissor-thin extras to packet spacing"
+    ],
+    "callout": "Crowded root rows yield tiny threads"
+  },
+  "Z14-P11": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "MORNING SOIL-BASE DRIP",
+    "correct_items": [
+      "~1 in/wk deeply at roots builds drought vigor",
+      "Potable water near harvest & leafy crops"
+    ],
+    "wrong_title": "EVENING LEAF / ROOF SPLASH",
+    "wrong_items": [
+      "Wet evening foliage breeds fungal blight",
+      "Roof barrel/flood water contaminates leaves"
+    ],
+    "reason": "Floodwater-inundated vegetable beds prohibit raw harvest — follow Extension"
+  },
+  "Z14-P12": {
+    "type": "cross_section",
+    "layers": [
+      "Rain drops cushioned (zero blight splash)",
+      "2–4 in clean herbicide-free straw/leaves",
+      "1–2 in clear air collar around stem",
+      "Cool moist weed-suppressed soil below"
+    ],
+    "callout": "Wait until spring soil warms before mulching"
+  },
+  "Z14-P13": {
+    "type": "exploded",
+    "components": [
+      "Yr 1: Nightshades (tomato/spud)",
+      "Yr 2: Legumes (beans/peas)",
+      "Yr 3: Brassicas & greens",
+      "Yr 4: Roots & winter squash"
+    ],
+    "callout": "Group by botanical family — rotate 3+ years & remove blighted vines off-site"
+  },
+  "Z14-P14": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Long Staples",
+        "note": "Potatoes, winter squash, dry beans, roots",
+        "limit": "Months cool storage"
+      },
+      {
+        "name": "Preserve Crops",
+        "note": "Tomatoes, green beans, berries, cabbage",
+        "limit": "Match can/freeze cap"
+      },
+      {
+        "name": "Fresh Greens",
+        "note": "Lettuce, spinach, herbs, radishes",
+        "limit": "Short eat-fresh life"
+      }
+    ]
+  },
+  "Z14-P15": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · IDENTIFY + BLOCK",
+        "scope": "Cultural/physical",
+        "action": "ID pest; rotate, hand-pick & row covers"
+      },
+      {
+        "role": "2 · TARGETED AID",
+        "scope": "Least-toxic ID",
+        "action": "Water spray/biologicals; protect bees"
+      },
+      {
+        "role": "3 · LEGAL LABEL",
+        "scope": "Last resort only",
+        "action": "Obey crop, bee bloom ban & PHI wait days"
+      }
+    ],
+    "trigger": "Over 90% of garden insects are harmless or beneficial — never spray open blooms"
+  },
+  "Z14-P16": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Breathable frost cloth on support hoops",
+      "Warm soil heat radiating upward nightly",
+      "Anchored edges; lift promptly in AM sun"
+    ],
+    "callout": "Buffers ~2–6°F light frost",
+    "accent": "#d4e5ec",
+    "hazard": "Bare plastic burns wet leaves"
+  },
+  "Z14-P17": {
+    "type": "failure_mode",
+    "cause": "Closed cold frame/tunnel in bright 40°F sun",
+    "cue": "Interior spikes past 105°F in <45 minutes",
+    "correction": "Prop open early; track max-min thermometer"
+  },
+  "Z14-P18": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Easy Self-Pollinate",
+        "note": "OP peas, beans, lettuce & heirloom tomato",
+        "limit": "Grows true cleanly"
+      },
+      {
+        "name": "Cross-Pollinators",
+        "note": "Squash, corn & brassicas cross easily",
+        "limit": "Never eat bitter squash"
+      },
+      {
+        "name": "F1 Hybrids",
+        "note": "Safe to grow but traits split unpredictably",
+        "limit": "Not true-to-type"
+      }
+    ]
+  },
+  "Z14-P19": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "5–10+ gal pot (match crop)",
+      "Lightweight potting mix",
+      "Generous bottom drain holes"
+    ],
+    "callout": "Water daily in heat; respect balcony weight",
+    "accent": "#cadbc6",
+    "hazard": "Clay dirt drowns pot roots"
+  },
+  "Z14-P20": {
+    "type": "cutaway",
+    "variant": "ground_pit",
+    "layers": [
+      "2–3 ft 1-in wire mesh fence",
+      "Buried 4–6 in / outward L-apron",
+      "Mowed clean border (no brush)"
+    ],
+    "callout": "Exclude burrowers early",
+    "accent": "#cadbc6",
+    "hazard": "Zero toxic baits in food beds"
+  },
+  "Z14-P21": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Pull blights",
+        "detail": "Remove diseased vines out of home compost"
+      },
+      {
+        "label": "Sanitize cuts",
+        "detail": "Clean shears between sick & healthy beds"
+      },
+      {
+        "label": "Clean totes",
+        "detail": "Dedicated food-only harvest baskets"
+      },
+      {
+        "label": "Clear culls",
+        "detail": "Remove volunteer overwintered tubers"
+      }
+    ],
+    "cue": "Tilling blighted vines back into soil guarantees early disease next spring"
+  },
+  "Z14-P22": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Cool morning",
+        "detail": "Harvest early once heavy dew dries"
+      },
+      {
+        "label": "Sharp cut",
+        "detail": "Leave 1–2 in woody stem on winter squash"
+      },
+      {
+        "label": "Zero tossing",
+        "detail": "Set roots gently in ventilated crates"
+      },
+      {
+        "label": "Fast shade",
+        "detail": "Move out of hot sun immediately"
+      }
+    ],
+    "cue": "Avoid brushing wet bean/tomato vines in rain — spreads fungal spores fast"
+  },
+  "Z14-P23": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "TWO-BIN SOUND SORTING",
+    "correct_items": [
+      "Bin ONLY firm, mature, blemish-free items",
+      "Brush dry dirt gently; eat nicked culls 1st"
+    ],
+    "wrong_title": "MIXED WET / NICKED BIN",
+    "wrong_items": [
+      "One bruised spud rots the whole crate",
+      "Washing wet before storage fuels mold"
+    ],
+    "reason": "Wash brushed storage roots thoroughly under potable water right before cooking"
+  },
+  "Z14-P24": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Onions & Garlic",
+        "note": "Warm dry airy 75–80°F for 2–3 weeks",
+        "limit": "Until tight papery neck"
+      },
+      {
+        "name": "Winter Squash",
+        "note": "Warm dry ~80–85°F ~10 d (skip acorn)",
+        "limit": "Hardens rind & stem"
+      },
+      {
+        "name": "Potatoes",
+        "note": "DARK 50–60°F high humidity 10–14 days",
+        "limit": "Sets skin pre-cooling"
+      }
+    ]
+  },
+  "Z14-P25": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Cold-Moist (32–40°F)",
+        "note": "90–95% RH: carrots, beets, cabbage, apples",
+        "limit": "Separate apples gas"
+      },
+      {
+        "name": "Cool-Moist (45–50°F)",
+        "note": "85–90% RH DARK: cured storage potatoes",
+        "limit": "Never <40°F or lit"
+      },
+      {
+        "name": "Dry Zones (32–55°F)",
+        "note": "32–35°F onions/garlic; 50–55°F squash",
+        "limit": "<50°F chills squash"
+      }
+    ]
+  },
+  "Z14-P26": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Baffled vent: open fall nights, shut blizzards",
+      "Crate-level min-max thermo & hygrometer",
+      "Moist roots sealed in bins (dry framing)"
+    ],
+    "callout": "Log weekly highs/lows",
+    "accent": "#d4e5ec",
+    "hazard": "<32°F ruins stored roots"
+  },
+  "Z14-P27": {
+    "type": "system_boundary",
+    "variant": "cold_chain",
+    "zone_a": "ETHYLENE PRODUCERS\nApples, pears & ripening tomatoes",
+    "barrier": "SEPARATE AIRSPACE\nVent or isolate bins",
+    "zone_b": "SENSITIVE VEGETABLES\nCarrots, potatoes, cabbage, squash",
+    "hazard": "Ethylene gas turns carrots bitter, sprouts potatoes & yellows cabbage"
+  },
+  "Z14-P28": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "DARK BREATHABLE 45–50°F",
+    "correct_items": [
+      "100% total darkness in burlap/paper/slats",
+      "Hold 45–50°F (avoids sweetening <40°F)"
+    ],
+    "wrong_title": "SUNLIT GREEN SOLANINE",
+    "wrong_items": [
+      "Light turns peels green with toxic solanine",
+      "Cooking does NOT destroy solanine toxin"
+    ],
+    "reason": "Discard heavily green, bitter or soft potatoes completely"
+  },
+  "Z14-P29": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Tops trimmed ½ in above crown",
+      "Barely damp sand/peat (never wet)",
+      "Hold 32–40°F ventilated bin"
+    ],
+    "callout": "Wrap dense cabbage dry in paper",
+    "accent": "#d4e5ec",
+    "hazard": "Soggy sealed bags cause slime"
+  },
+  "Z14-P30": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Single layer with airflow (no heavy stack)",
+      "Intact 1–2 in stems; 50–55°F dry shelf",
+      "Weekly stem-scar spot inspection"
+    ],
+    "callout": "Acorn early; hubbard late",
+    "accent": "#e5d4a1",
+    "hazard": "Never chill squash <50°F"
+  },
+  "Z14-P31": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Insulated north corner away from furnace",
+      "Humidity kept inside root bins (dry wood)",
+      "Slatted shelves raised off concrete floor"
+    ],
+    "callout": "Check actual corner temp",
+    "accent": "#d4e5ec",
+    "hazard": "Watch floor damp & mice"
+  },
+  "Z14-P32": {
+    "type": "system_boundary",
+    "variant": "shelter_seal",
+    "zone_a": "PROTECTED PANTRY\n>32°F frost-free; rigid chew-proof bins",
+    "barrier": "¼-IN HARDWARE CLOTH\nScreened vents & doors",
+    "zone_b": "WINTER & RODENTS\n<32°F glass pops & mouse urine",
+    "hazard": "Never store glass jars in freezing garages; wet-wipe mouse droppings gloved"
+  },
+  "Z14-P33": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "October",
+        "focus": "Cure, cull & bin sound crops by zone"
+      },
+      {
+        "window": "Nov–Jan",
+        "focus": "Inspect every 7–10 d; pull soft spots"
+      },
+      {
+        "window": "Feb–Mar",
+        "focus": "Monitor dormancy break & early sprouts"
+      },
+      {
+        "window": "Spring",
+        "focus": "Can/freeze/dry sound surplus before rot"
+      }
+    ],
+    "threshold": "One hidden rotting vegetable spreads soft rot across the entire crate"
+  },
+  "Z14-P34": {
+    "type": "environment",
+    "variant": "terrain",
+    "zones": [
+      "10–12 in dry straw mulch",
+      "Advancing MN hard frost & voles",
+      "Dig bulk roots indoors pre-freeze"
+    ],
+    "callout": "Outdoor mulch extends late fall — dig winter stock indoors early"
+  },
+  "Z14-P35": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Clean",
+        "detail": "20 s soap hands, clean boards & knives"
+      },
+      {
+        "label": "Separate",
+        "detail": "Isolate raw meats & dirt from ready food"
+      },
+      {
+        "label": "Cook",
+        "detail": "Verify exact temp with food thermometer"
+      },
+      {
+        "label": "Chill",
+        "detail": "Refrigerate ≤40°F within 2 h (1 h >90°F)"
+      }
+    ],
+    "cue": "Perishables left 40°F–140°F >2 h (>1 h >90°F) cannot be saved by reheating"
+  },
+  "Z14-P36": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "RUNNING POTABLE WATER",
+    "correct_items": [
+      "Rinse produce right before cutting/peeling",
+      "Scrub firm rinds with clean brush; dry clean"
+    ],
+    "wrong_title": "SOAP OR BLEACH SOAKING",
+    "wrong_items": [
+      "Porous skins absorb toxic soap/detergent",
+      "Bleach baths are unsafe for fresh produce"
+    ],
+    "reason": "During Boil Water notices, wash ready-to-eat produce with boiled/bottled water"
+  },
+  "Z14-P37": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "145°F (+3 m rest)",
+        "note": "Whole beef, pork, veal, lamb & fish (145°F)",
+        "limit": "Check thickest center"
+      },
+      {
+        "name": "160°F",
+        "note": "Ground beef/pork/lamb & egg dishes",
+        "limit": "Brown color ≠ safe"
+      },
+      {
+        "name": "165°F",
+        "note": "ALL poultry, stuffing & reheated leftovers",
+        "limit": "Calibrate in 32°F ice"
+      }
+    ]
+  },
+  "Z14-P38": {
+    "type": "seasonal_timeline",
+    "variant": "food_temp",
+    "phases": [
+      {
+        "window": "Cook >140°F",
+        "focus": "Safe hot-holding zone above bacteria"
+      },
+      {
+        "window": "Split Shallow",
+        "focus": "Divide deep pots into 2–3 in pans fast"
+      },
+      {
+        "window": "2 h / 1 h Gate",
+        "focus": "Chill ≤2 h (≤1 h if air >90°F)"
+      },
+      {
+        "window": "Safe ≤40°F",
+        "focus": "Never leave big hot pots out overnight"
+      }
+    ],
+    "threshold": "Reheating overnight room-temp soup does NOT destroy heat-stable toxins"
+  },
+  "Z14-P39": {
+    "type": "system_boundary",
+    "variant": "cold_chain",
+    "zone_a": "SAFE FREEZER\nThermometer ≤0°F (-18°C)",
+    "barrier": "SAFE FRIDGE ≤40°F\nDedicated thermo inside",
+    "zone_b": "DANGER ZONE >40°F\nRapid bacterial growth",
+    "hazard": "Numbered fridge dials (1–7) never show real temp — hang real thermometers"
+  },
+  "Z14-P40": {
+    "type": "seasonal_timeline",
+    "variant": "food_temp",
+    "phases": [
+      {
+        "window": "T+0 Outage",
+        "focus": "Log clock time; keep ALL doors SHUT"
+      },
+      {
+        "window": "~4 Hours",
+        "focus": "Closed fridge limit -> move to ice cooler"
+      },
+      {
+        "window": "~24 Hours",
+        "focus": "Closed half-full freezer cold holding"
+      },
+      {
+        "window": "~48 Hours",
+        "focus": "Closed full freezer; dry ice = gloves/vent"
+      }
+    ],
+    "threshold": "Never stash food in outdoor snowbanks (sun warms & animals raid)"
+  },
+  "Z14-P41": {
+    "type": "decision_tree",
+    "gates": [
+      "Fridge ≤40°F or <2 h?",
+      "Frozen: ice crystals or ≤40°F?",
+      "Keep/refreeze per official chart"
+    ],
+    "abort": "DISCARD CLEANLY: Meat, dairy, eggs, cut produce or leftovers >40°F >2 hr"
+  },
+  "Z14-P42": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "TIME, TEMP & PROCESS LOGS",
+    "correct_items": [
+      "Rely strictly on ≤40°F/2 h & tested guides",
+      "Zero tasting of questionable canned jars"
+    ],
+    "wrong_title": "SMELL OR TASTE TEST",
+    "wrong_items": [
+      "Deadly botulinum & Salmonella have NO odor",
+      "One microscopic fork taste can be fatal"
+    ],
+    "reason": "When time, temperature or tested process history is uncertain -> throw it out"
+  },
+  "Z14-P43": {
+    "type": "system_boundary",
+    "variant": "cold_chain",
+    "zone_a": "READY-TO-EAT ZONE\nUpper shelves, clean produce & cooked plates",
+    "barrier": "SEPARATE BOARDS\nWash hands & knives",
+    "zone_b": "RAW MEAT & DIRT\nLowest fridge tray & muddy crates",
+    "hazard": "Never return cooked food onto the unwashed platter that held raw meat"
+  },
+  "Z14-P44": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Hot soap wash",
+        "detail": "Remove all visible grease & food film"
+      },
+      {
+        "label": "Clean rinse",
+        "detail": "Rinse soap residue completely away"
+      },
+      {
+        "label": "Safe sanitize",
+        "detail": "Labeled plain-water bleach or hot cycle"
+      },
+      {
+        "label": "Air-dry clean",
+        "detail": "Zero mixing bleach with soap/vinegar"
+      }
+    ],
+    "cue": "Sanitizers cannot kill bacteria hidden underneath grease — ALWAYS wash first"
+  },
+  "Z14-P45": {
+    "type": "system_boundary",
+    "variant": "canning_pressure",
+    "zone_a": "TESTED SYSTEM (LOCKED)\nExact recipe, pH, cut, jar, headspace",
+    "barrier": "HEAT PENETRATION\nNo flour/oil/jar tweaks",
+    "zone_b": "UNTESTED DISHES\nPreserve safely by FREEZING",
+    "hazard": "Altering ingredients, thickeners or jar sizes breaks validated botulism lethality"
+  },
+  "Z14-P46": {
+    "type": "branch",
+    "question": "Is the food naturally high-acid (pH ≤4.6) or USDA-acidified?",
+    "yes": "Process per exact tested boiling-water or steam-canning recipe",
+    "no": "LOW-ACID (pH >4.6: meat/veg/soup) -> PRESSURE CANNER ONLY (240°F+)",
+    "stop": "Boiling water (212°F) NEVER kills Clostridium botulinum spores — no exceptions"
+  },
+  "Z14-P47": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "STANDARDIZED BOTTLED ACID",
+    "correct_items": [
+      "Exact bottled lemon juice/citric per jar",
+      "Firm sound vine-ripened pre-frost fruit"
+    ],
+    "wrong_title": "UNRELIABLE ACID GUESSING",
+    "wrong_items": [
+      "Fresh-squeezed lemons vary unpredictably",
+      "Frost-killed vine tomatoes drop in acid"
+    ],
+    "reason": "Acidify EVERY jar of tomatoes whether boiling-water OR pressure canned"
+  },
+  "Z14-P48": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "VALIDATED USDA CANNERS",
+    "correct_items": [
+      "Stovetop boiling-water (high-acid only)",
+      "Full ≥4-quart stovetop pressure canner"
+    ],
+    "wrong_title": "UNSAFE SHORTCUT METHODS",
+    "wrong_items": [
+      "Oven, open-kettle, wax, dishwasher, micro",
+      "Unvalidated electric pressure multicookers"
+    ],
+    "reason": "Dry heat shatters glass & unvalidated cookers fail botulism thermal lethality"
+  },
+  "Z14-P49": {
+    "type": "exploded",
+    "components": [
+      "Tempered Mason jar",
+      "Nick-free smooth rim",
+      "BRAND-NEW flat lid",
+      "Clean unbent ring"
+    ],
+    "callout": "Never reuse flat lids or commercial sauce jars — fingertip-check every glass lip"
+  },
+  "Z14-P50": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Exact headspace (¼ / ½ / 1–1¼ in)",
+      "Plastic debubble + wiped rim",
+      "Fingertip-tight band ONLY"
+    ],
+    "callout": "Tight cranked bands trap air & buckle lids",
+    "accent": "#d3e3ea",
+    "hazard": "Food on rim breaks vacuum seal"
+  },
+  "Z14-P51": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "VALIDATED HEAT CONVECTION",
+    "correct_items": [
+      "Match hot-pack vs raw-pack recipe steps",
+      "Cube winter squash ONLY per USDA guide"
+    ],
+    "wrong_title": "INSULATING THICKENERS",
+    "wrong_items": [
+      "Flour, starch, dairy, pasta, rice, oils",
+      "Home-canned pumpkin/squash puree (UNSAFE)"
+    ],
+    "reason": "Thickeners & purees block center heat transfer — freeze creamy/starchy dishes"
+  },
+  "Z14-P52": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "1–2 in rolling boil OVER lids",
+      "Start timer ONLY at full boil",
+      "Bottom rack; rest 5 min post-boil"
+    ],
+    "callout": "Boil stops -> restart timer from ZERO",
+    "accent": "#a5c6cf",
+    "hazard": "Tilt lid away to prevent scalds"
+  },
+  "Z14-P53": {
+    "type": "decision_tree",
+    "gates": [
+      "High-acid pH ≤4.6 tested?",
+      "Total time ≤45 m incl. altitude?",
+      "Full steam dome -> run timer"
+    ],
+    "abort": "STOP: >45 min total or ANY low-acid food -> Use deep water-bath or pressure canner"
+  },
+  "Z14-P54": {
+    "type": "system_boundary",
+    "variant": "canning_pressure",
+    "zone_a": "10-MIN FULL STEAM VENT\nPurges cold insulating air first",
+    "barrier": "ALTITUDE TARGET PSI\nHold steady 240°F+",
+    "zone_b": "SEALED LOW-ACID JARS\nBotulinum spores destroyed",
+    "hazard": "Skipping the 10-minute vent leaves cool air pockets & under-processed jars"
+  },
+  "Z14-P55": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Dial Gauge",
+        "note": "Test yearly via county Extension office",
+        "limit": "Replace if off >2 PSI"
+      },
+      {
+        "name": "Weighted Gauge",
+        "note": "Gravity weights (5/10/15 PSI); no drift",
+        "limit": "Jumps 10->15 PSI >1000 ft"
+      },
+      {
+        "name": "Manual Rock Rate",
+        "note": "Follow exact brand jiggle/rock pattern",
+        "limit": "Don’t roar pot dry"
+      }
+    ]
+  },
+  "Z14-P56": {
+    "type": "failure_mode",
+    "cause": "Burner dip drops PSI or stops rolling boil",
+    "cue": "Dial falls below target even 1 minute",
+    "correction": "Restore full PSI/boil & RESTART timer at 0"
+  },
+  "Z14-P57": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · ≤1,000 FT",
+        "scope": "Sea-level base",
+        "action": "Base minutes | 11 PSI dial | 10 PSI weight"
+      },
+      {
+        "role": "2 · 1,001–2,000 FT",
+        "scope": "Many MN counties",
+        "action": "Add WB min | 11 PSI dial | 15 PSI weight!"
+      },
+      {
+        "role": "3 · >2,000 FT",
+        "scope": "Highlands/west",
+        "action": "Step WB min & dial PSI per USDA tables"
+      }
+    ],
+    "trigger": "Verify exact local elevation BEFORE lighting burner — never mix dial/weight tables"
+  },
+  "Z14-P58": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Natural zero",
+        "detail": "Heat OFF; let PSI drop to 0 naturally"
+      },
+      {
+        "label": "10-min rest",
+        "detail": "Remove weight; wait 10 m; tilt lid away"
+      },
+      {
+        "label": "Lift upright",
+        "detail": "Set spaced on dry towel out of drafts"
+      },
+      {
+        "label": "12–24 h still",
+        "detail": "Never press lids, tighten rings or invert"
+      }
+    ],
+    "cue": "Never force-cool a pressure canner with cold water or early weight removal"
+  },
+  "Z14-P59": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "RING-FREE CONCAVE SEAL",
+    "correct_items": [
+      "Cool 12–24 h; remove ALL metal bands",
+      "Firm concave lid; wipe & label date"
+    ],
+    "wrong_title": "STORED WITH BANDS ON",
+    "wrong_items": [
+      "Traps rim moisture & rusts flat lids",
+      "Hides popped spoiled seals underneath"
+    ],
+    "reason": "Unsealed jars ≤24 h -> refrigerate, freeze or reprocess full time with new lid"
+  },
+  "Z14-P60": {
+    "type": "cutaway",
+    "variant": "enclosure",
+    "layers": [
+      "Ring-free unstacked jars (or rigid board)",
+      "Cool 50–70°F dark dry pantry shelves",
+      "Rotate FIFO (~1 yr peak quality/seal)"
+    ],
+    "callout": "Avoid warm pipes & freeze",
+    "accent": "#e5d4a1",
+    "hazard": "Never invent 25-yr shelf life"
+  },
+  "Z14-P61": {
+    "type": "failure_mode",
+    "cause": "Seal failure, rust pinhole or untested run",
+    "cue": "Lifted lid, spurt, bubbles, mold or off-odor",
+    "correction": "ZERO tasting -> isolate for NCHFP disposal"
+  },
+  "Z14-P62": {
+    "type": "branch",
+    "question": "Is the suspect low-acid jar still unopened/sealed OR opened/leaking?",
+    "yes": "UNOPENED: double-bag padded in locked landfill trash (zero compost/pets)",
+    "no": "OPENED/LEAKING: gloves -> 30-min submerged boil detox + 1:5 bleach wipe",
+    "stop": "Anyone tasted suspect low-acid food -> CALL 911 IMMEDIATELY & save jar"
+  },
+  "Z14-P63": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "1 gal / 1 lb",
+        "detail": "Vigorous boil exact NCHFP veg minutes"
+      },
+      {
+        "label": "Ice plunge",
+        "detail": "Equal minutes in ice bath halts cooking"
+      },
+      {
+        "label": "Drain dry",
+        "detail": "Pat dry to prevent heavy frost crystals"
+      },
+      {
+        "label": "Pack airtight",
+        "detail": "Freeze fast in vapor-barrier bags ≤0°F"
+      }
+    ],
+    "cue": "Unblanched frozen vegetables degrade rapidly into tough hay-like off-flavors"
+  },
+  "Z14-P64": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "½–1½ in liquid expansion gap",
+      "Thick vapor-tight freezer wrap",
+      "Spaced single layer at ≤0°F"
+    ],
+    "callout": "Max ~2–3 lb/cu ft/day unfrozen",
+    "accent": "#d4e5ec",
+    "hazard": "Narrow-neck glass shatters frozen"
+  },
+  "Z14-P65": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "COLD / IMMEDIATE THAW",
+    "correct_items": [
+      "Bottom-shelf fridge tray ≤40°F (safest)",
+      "30-min cold-water swaps or micro + cook NOW"
+    ],
+    "wrong_title": "COUNTERTOP THAWING",
+    "wrong_items": [
+      "Outer meat enters >40°F Danger Zone fast",
+      "Hot-water thaw multiplies surface germs"
+    ],
+    "reason": "Cold-water or microwave-thawed meat must be cooked immediately before refreezing"
+  },
+  "Z14-P66": {
+    "type": "mechanism",
+    "nodes": [
+      "Uniform ⅛–¼ in slices",
+      "Controlled heat + low RH + fan",
+      "Even dry crisp/leathery yield"
+    ],
+    "callout": "Too hot early = case-hardened crust trapping wet mold-prone core"
+  },
+  "Z14-P67": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Cool first",
+        "detail": "Test crisp/leathery ONLY when cool"
+      },
+      {
+        "label": "Loose jar",
+        "detail": "Fill clean glass jar 2/3 with dried fruit"
+      },
+      {
+        "label": "Shake 7–10 d",
+        "detail": "Condition daily to equalize core moisture"
+      },
+      {
+        "label": "Fog check",
+        "detail": "ANY glass fog -> return to dehydrator!"
+      }
+    ],
+    "cue": "Mold anywhere in a dried jar requires discarding the entire jar cleanly"
+  },
+  "Z14-P68": {
+    "type": "sequence_plate",
+    "variant": "canning",
+    "steps": [
+      {
+        "label": "Trim 100% fat",
+        "detail": "Slice lean meat uniform ≤¼ in (fat spoils)"
+      },
+      {
+        "label": "Kill step",
+        "detail": "Verify 160°F meat / 165°F poultry thermo"
+      },
+      {
+        "label": "Dry 130–140°F",
+        "detail": "Dehydrate rapidly until leathery; blot oil"
+      },
+      {
+        "label": "Cool store",
+        "detail": "Refrigerate or freeze for safe keeping"
+      }
+    ],
+    "cue": "Standard 135°F dehydrators do NOT kill E. coli/Salmonella without the heat step"
+  },
+  "Z14-P69": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Arid Sun Drying",
+        "note": "Needs ≥85°F + <60% RH consecutive days",
+        "limit": "Fruit only; bug screens"
+      },
+      {
+        "name": "Humid MN Outdoor",
+        "note": "65–90% RH + dew breeds mold & bacteria",
+        "limit": "UNSAFE veg & meat"
+      },
+      {
+        "name": "Controlled Indoor",
+        "note": "Thermostat dehydrator (air-dry herbs only)",
+        "limit": "Reliable all seasons"
+      }
+    ]
+  },
+  "Z14-P70": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "5% VINEGAR EXACT RATIO",
+    "correct_items": [
+      "Verify bottle reads 5% acidity vinegar",
+      "Keep exact USDA brine; water-bath OR chill"
+    ],
+    "wrong_title": "DILUTED / UNKNOWN ACID",
+    "wrong_items": [
+      "Cutting vinegar with extra water raises pH",
+      "Homemade vinegar has unknown acidity"
+    ],
+    "reason": "Untested or diluted quick pickles belong strictly refrigerated ≤40°F, never canned"
+  },
+  "Z14-P71": {
+    "type": "cutaway",
+    "variant": "vessel",
+    "layers": [
+      "Clean weights keep veg 100% submerged",
+      "1–2 in brine cover; weighed salt",
+      "Food-grade glass/HDPE/stoneware"
+    ],
+    "callout": "Ferment ~70–75°F (avoid >80°F)",
+    "accent": "#cadbc6",
+    "hazard": "NO galvanized/lead/limestone"
+  },
+  "Z14-P72": {
+    "type": "failure_mode",
+    "cause": "Warm >80°F room or veggies poking above brine",
+    "cue": "Fuzzy colored mold, slime, pink/dark or foul",
+    "correction": "Discard entire batch; chill/can sound batches"
+  },
+  "Z14-P73": {
+    "type": "sequence_plate",
+    "variant": "utility",
+    "steps": [
+      {
+        "label": "Familiar food",
+        "detail": "Low-water no-cook items family eats"
+      },
+      {
+        "label": "Manual tools",
+        "detail": "Stage manual can opener + spare"
+      },
+      {
+        "label": "Bold dates",
+        "detail": "Mark purchase/expiry clearly on tops"
+      },
+      {
+        "label": "FIFO rotate",
+        "detail": "New in BACK -> cook from FRONT daily"
+      }
+    ],
+    "cue": "Avoid salty/untested buckets that spike drinking-water needs during outages"
+  },
+  "Z14-P74": {
+    "type": "exploded",
+    "components": [
+      "Ready-to-feed infant formula",
+      "Segregated allergen/med bin",
+      "Elder soft/low-Na meals",
+      "7–14+ d sealed pet food"
+    ],
+    "callout": "Ready-to-feed formula needs ZERO mixing water during Boil Water notices"
+  },
+  "Z14-P75": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Whole Grains/Nuts",
+        "note": "Natural oils turn rancid in warm rooms",
+        "limit": "Chill/freeze longer"
+      },
+      {
+        "name": "White Rice/Beans",
+        "note": "Low-fat dry staples keep well bone-dry",
+        "limit": "50–70°F airtight"
+      },
+      {
+        "name": "Pest Barrier",
+        "note": "Rigid glass/metal/HDPE off floor",
+        "limit": "Check webbing/odor"
+      }
+    ]
+  },
+  "Z14-P76": {
+    "type": "correct_vs_wrong",
+    "variant": "canning",
+    "correct_title": "INTACT FLAT-END CANS",
+    "correct_items": [
+      "Flat unswollen ends & clean intact seams",
+      "Wipe lid clean before opening; clean blade"
+    ],
+    "wrong_title": "COMPROMISED CANS (DUMP)",
+    "wrong_items": [
+      "Bulging, spurting or pitted-rust cans",
+      "Sharp dents right on top/bottom/side seams"
+    ],
+    "reason": "Seam dents break hermetic double seals — discard cleanly with ZERO tasting"
+  },
+  "Z14-P77": {
+    "type": "comparison",
+    "options": [
+      {
+        "name": "Infant Formula",
+        "note": "STRICT hard Use-By safety/nutrition limit",
+        "limit": "NEVER use expired"
+      },
+      {
+        "name": "Acidic Cans",
+        "note": "Tomatoes/fruit corrode linings faster",
+        "limit": "~12–18 mo quality"
+      },
+      {
+        "name": "Low-Acid / Home",
+        "note": "Intact cans ~2–5 yr; home-canned ~1 yr",
+        "limit": "No 25-yr guarantees"
+      }
+    ]
+  },
+  "Z14-P78": {
+    "type": "correct_vs_wrong",
+    "variant": "thermal",
+    "correct_title": "NO-COOK OR OUTDOOR STOVE",
+    "correct_items": [
+      "Ready-to-eat pantry meals save fuel & H2O",
+      "Cook single portions strictly outdoors"
+    ],
+    "wrong_title": "INDOOR STOVE / LEFTOVERS",
+    "wrong_items": [
+      "Camp stoves/grills in garages cause CO",
+      "Unchilled meat/bean leftovers spoil >2 h"
+    ],
+    "reason": "Never heat food on fuel stoves or charcoal indoors or in garages"
+  },
+  "Z14-P79": {
+    "type": "seasonal_timeline",
+    "variant": "crop_frost",
+    "phases": [
+      {
+        "window": "Spring",
+        "focus": "Soil test, plant, Extension gauge check"
+      },
+      {
+        "window": "Summer",
+        "focus": "Water/IPM, blanch-freeze & dehydrate"
+      },
+      {
+        "window": "Autumn",
+        "focus": "Cure staples, tested USDA can & bin"
+      },
+      {
+        "window": "Winter",
+        "focus": "Weekly cellar culls & FIFO pantry meals"
+      }
+    ],
+    "threshold": "Layer gardening + tested preservation + rotated pantry — share excess fresh"
+  },
+  "Z14-P80": {
+    "type": "escalation_ladder",
+    "tiers": [
+      {
+        "role": "1 · DRAFT + R01",
+        "scope": "80 Z14 pages",
+        "action": "USDA/NCHFP/UMN bounds; R01 lineage kept"
+      },
+      {
+        "role": "2 · VERBATIM RECIPE",
+        "scope": "User protocol",
+        "action": "Follow complete official guide + altitude"
+      },
+      {
+        "role": "3 · PROCESS SIGN-OFF",
+        "scope": "Mandatory gate",
+        "action": "Food microbiology & Extension review (H17)"
+      }
+    ],
+    "trigger": "Publication remains HOLD — zero qualified human preservation approvals granted"
   }
 }
