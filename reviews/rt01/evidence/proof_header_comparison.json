@@ -1,0 +1,159 @@
+{
+  "method": "Compare active W2C figure header to extracted text on the matching consolidated Letter sheet. Header match is not proof of full semantic equality; mismatch flags review.",
+  "results": [
+    {
+      "page_id": "Z09-P14",
+      "batch": "W2C-B01",
+      "pdf_sheet": 464,
+      "active_header": "Z09-P14 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z09-P15",
+      "batch": "W2C-B01",
+      "pdf_sheet": 465,
+      "active_header": "Z09-P15 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z11-R05",
+      "batch": "W2C-B01",
+      "pdf_sheet": 588,
+      "active_header": "Z11-R05 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P44",
+      "batch": "W2C-B02",
+      "pdf_sheet": 770,
+      "active_header": "Z13-P44 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P37",
+      "batch": "W2C-B02",
+      "pdf_sheet": 763,
+      "active_header": "Z13-P37 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P48",
+      "batch": "W2C-B02",
+      "pdf_sheet": 774,
+      "active_header": "Z13-P48 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P41",
+      "batch": "W2C-B02",
+      "pdf_sheet": 767,
+      "active_header": "Z13-P41 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P53",
+      "batch": "W2C-B02",
+      "pdf_sheet": 779,
+      "active_header": "Z13-P53 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P20",
+      "batch": "W2C-B03",
+      "pdf_sheet": 746,
+      "active_header": "Z13-P20 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P56",
+      "batch": "W2C-B03",
+      "pdf_sheet": 782,
+      "active_header": "Z13-P56 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z15-P43",
+      "batch": "W2C-B03",
+      "pdf_sheet": 919,
+      "active_header": "Z15-P43 \u00b7 TECHNICAL REVIEW \u00b7 CLEARANCES TO SCALE \u00b7 SYMBOLS NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P60",
+      "batch": "W2C-B03",
+      "pdf_sheet": 786,
+      "active_header": "Z13-P60 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z13-P57",
+      "batch": "W2C-B03",
+      "pdf_sheet": 783,
+      "active_header": "Z13-P57 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": true
+    },
+    {
+      "page_id": "Z15-P18",
+      "batch": "W2C-B04",
+      "pdf_sheet": 894,
+      "active_header": "Z15-P18 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z15-P22",
+      "batch": "W2C-B04",
+      "pdf_sheet": 898,
+      "active_header": "Z15-P22 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z15-P02",
+      "batch": "W2C-B04",
+      "pdf_sheet": 878,
+      "active_header": "Z15-P02 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z15-P23",
+      "batch": "W2C-B04",
+      "pdf_sheet": 899,
+      "active_header": "Z15-P23 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z14-P55",
+      "batch": "W2C-B05",
+      "pdf_sheet": 851,
+      "active_header": "Z14-P55 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z14-P56",
+      "batch": "W2C-B05",
+      "pdf_sheet": 852,
+      "active_header": "Z14-P56 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z14-P57",
+      "batch": "W2C-B05",
+      "pdf_sheet": 853,
+      "active_header": "Z14-P57 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z14-P53",
+      "batch": "W2C-B05",
+      "pdf_sheet": 849,
+      "active_header": "Z14-P53 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    },
+    {
+      "page_id": "Z14-P48",
+      "batch": "W2C-B05",
+      "pdf_sheet": 844,
+      "active_header": "Z14-P48 \u00b7 TECHNICAL REVIEW \u00b7 NOT TO SCALE",
+      "current_header_in_pdf": false
+    }
+  ]
+}
