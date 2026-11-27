@@ -1,0 +1,12 @@
+id,severity,status,pages,title,track_id
+RT01-01,HIGH,OPEN_REMEDIATION_PROPOSED,Z11-P63,Emergency-call checklist is an unintended activation gate,MED-03
+RT01-02,HIGH,OPEN_REMEDIATION_PROPOSED,Z10-P06,Timed patient logs can be mistaken for ongoing observation,MED-01
+RT01-03,HIGH,OPEN_REMEDIATION_PROPOSED,Z10-P26,Chemical/electrical figure drops substance-specific and qualified-isolation conditions,MED-02
+RT01-04,HIGH,OPEN_REMEDIATION_PROPOSED,Z04-P51 Z14-P74,Water-use card omits the infant-specific powder-preparation boundary already required by its evidence record,RT-WFF-01
+RT01-05,HIGH,OPEN_REMEDIATION_PROPOSED,Z13-P49 Z13-P50,"Emergency sanitation permits sanitizer as an equivalent after waste handling, including the norovirus scenario it is meant to prevent",RT-WFF-02
+RT01-06,HIGH,OPEN_REMEDIATION_PROPOSED,Z15-P18 Z15-P22 Z15-P02 Z15-P23 Z14-P55 Z14-P56 Z14-P57 Z14-P53 Z14-P48,Current zone packages contain superseded print instructions beside the corrected reader,ROOT-01
+RT01-07,MEDIUM,OPEN_REMEDIATION_PROPOSED,Z14-P41,Frozen-food figure and alt retain the blanket refreeze shortcut that A02 removed from the prose,RT-WFF-03
+RT01-08,MEDIUM,OPEN_REMEDIATION_PROPOSED,Z11-P32 Z11-P33,Equal pace counts are presented as an exact return to the original line,MN-01
+RT01-09,MEDIUM,OPEN_REMEDIATION_PROPOSED,Z11-R05,Compass geometry validator trusts descriptive bearing metadata for the drawn needle and arrow,MN-02
+RT01-10,MEDIUM,OPEN_REMEDIATION_PROPOSED,Z04-P01 Z13-P20 Z12-P56,Safety linter omits figure language and can misapply unrelated negations,ROOT-02
+RT01-11,MEDIUM,OPEN_REMEDIATION_PROPOSED,Z09-P14 Z09-P15 Z16-P43,Adverse evidence decisions do not propagate to the reader's evidence panels,ROOT-03

@@ -1,0 +1,80 @@
+{
+  "checkpoint": "84967d75af91bbf0d2cb36c54394dcf67f2104a5",
+  "kind": "synthetic in-memory negative fixtures, not production content",
+  "scope": "build_foundations.lint_cards only; no manuscript, SVG, package or release gate was mutated",
+  "canonical_card_count": 1016,
+  "results": [
+    {
+      "test_id": "RT-MUT-01",
+      "page_id": "Z04-P01",
+      "field": "action",
+      "fixture": "Clear water is safe.",
+      "description": "Exact water-clarity rule, operational text: positive detection control",
+      "observed": "REJECTED",
+      "error": "Contradiction: visual clarity potability claim in Z04-P01"
+    },
+    {
+      "test_id": "RT-MUT-02",
+      "page_id": "Z04-P01",
+      "field": "visual",
+      "fixture": "Clear water is safe.",
+      "description": "Same unsafe assertion in the reader-visible figure caption",
+      "observed": "ACCEPTED",
+      "error": null
+    },
+    {
+      "test_id": "RT-MUT-03",
+      "page_id": "Z04-P01",
+      "field": "diagram",
+      "fixture": "Clear water is safe. | Collect | Drink",
+      "description": "Same unsafe assertion in visible stage labels and image alt text",
+      "observed": "ACCEPTED",
+      "error": null
+    },
+    {
+      "test_id": "RT-MUT-04",
+      "page_id": "Z13-P20",
+      "field": "action",
+      "fixture": "Run the generator inside a garage.",
+      "description": "Exact indoor-combustion rule: positive detection control",
+      "observed": "REJECTED",
+      "error": "Contradiction: enclosed combustion authorization in Z13-P20"
+    },
+    {
+      "test_id": "RT-MUT-05",
+      "page_id": "Z13-P20",
+      "field": "action",
+      "fixture": "Do not spill fuel, then run the generator inside a garage.",
+      "description": "An unrelated prohibition in the same clause masks the unsafe authorization",
+      "observed": "ACCEPTED",
+      "error": null
+    },
+    {
+      "test_id": "RT-MUT-06",
+      "page_id": "Z13-P20",
+      "field": "visual",
+      "fixture": "Run the generator inside a garage.",
+      "description": "Same unsafe combustion assertion in a reader-visible caption",
+      "observed": "ACCEPTED",
+      "error": null
+    },
+    {
+      "test_id": "RT-MUT-07",
+      "page_id": "Z12-P56",
+      "field": "action",
+      "fixture": "Swim directly against a rip current.",
+      "description": "A prohibition elsewhere in the existing card masks the unsafe action",
+      "observed": "ACCEPTED",
+      "error": null
+    },
+    {
+      "test_id": "RT-MUT-08",
+      "page_id": "Z04-P01",
+      "field": "action",
+      "fixture": "Clear water is not safe merely because it looks clear.",
+      "description": "Safe negated statement: false-positive control",
+      "observed": "ACCEPTED",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "source_checkpoint": "84967d75af91bbf0d2cb36c54394dcf67f2104a5",
+  "production_inputs": [
+    {
+      "path": "scripts/build_foundations.py",
+      "sha256": "22eec6b2442cfe1f53efbf9f3f60034d1e07fb0603947e8036a67332275ccfc9"
+    },
+    {
+      "path": "scripts/build_w2c_navigation.py",
+      "sha256": "a13b565062016781bdae75e21736ff4c55a62d18cd97ebcd7b13ae84ca239266"
+    },
+    {
+      "path": "scripts/check_foundations.py",
+      "sha256": "bd3b59715a06c6027c43b05bb6c182d4df027932c3e0cf4a5165f5c3196eaa03"
+    },
+    {
+      "path": "foundations/audit/w2c/W2C_BATCHES.json",
+      "sha256": "a2ffd23577a138de3105c07ee6b54cc73fc7a018fa062bfab73feefe4054f446"
+    },
+    {
+      "path": "foundations/audit/w2c/W2C_EVIDENCE_DECISIONS.csv",
+      "sha256": "04ecba0403e23bfda436f6c3cd88cd91341ad6c342ccf0ed7996947f7f119cda"
+    },
+    {
+      "path": "foundations/evidence/claims.tsv",
+      "sha256": "8488e304675b7014eef0109dff9e8f2af341617edbfe9b6f8008fb375cca95a3"
+    },
+    {
+      "path": "foundations/reader/visuals/Z10-P06.svg",
+      "sha256": "e5b2d515f75c6ceaf976019df9c8d5370a5e3b8a527948ca7fde36b3dd64711f"
+    },
+    {
+      "path": "foundations/reader/visuals/Z10-P26.svg",
+      "sha256": "8d49e69f2bc53d337ce31bb11f91c6304c5c9c8e7085c5a087051b4c91df0af0"
+    },
+    {
+      "path": "foundations/reader/visuals/Z14-P41.svg",
+      "sha256": "1114f3de5d45104828641109a8a78cea59cf67e5e88bd14d9af3f53086d5daa9"
+    },
+    {
+      "path": "foundations/reader/visuals/Z14-P53.svg",
+      "sha256": "796f0f989a1e7df2d386020ad4a716dcc6ae7424240f89b7e3580ccf7d1b1b2e"
+    },
+    {
+      "path": "foundations/reader/visuals/Z11-R05.svg",
+      "sha256": "a6b8995c6312a893ca953099bbdd66fdf394a37dcc2495747f012e0f4836a1d4"
+    }
+  ],
+  "retained_pdf_inputs": [
+    {
+      "path": "foundations/proofs/encyclopedia-letter.pdf",
+      "sha256": "9495462f21d328dcf5a10caaa5bb5debbe0610892de9f03e1c15183dcafa5a7a"
+    },
+    {
+      "path": "foundations/proofs/encyclopedia-a4.pdf",
+      "sha256": "9062775b1dfa58cb7276796b9ed7a9466d6d2b336c964ab50caf5578772155ea"
+    }
+  ],
+  "zone_zip": {
+    "path": "foundations/proofs/packages/zone-Z14.zip",
+    "sha256": "5227c848be7175980fa55f7e7c813870a44eed5a1bffe6a9fb01e8c38c94b4fe"
+  },
+  "render_notes": {
+    "medical_figures": "Inkscape rasterization of current SVGs; text/semantic inspection, not a Chromium pass.",
+    "pdf_sheets": "PyMuPDF rasterization of actual retained PDFs, no content edits.",
+    "food_water_figures": "MuPDF SVG to in-memory PDF to PNG; semantic text inspection only, not browser layout/conformance. SVG renderer differences were not counted as defects."
+  },
+  "review_evidence": [
+    {
+      "path": "evidence/Z04-P51-current-figure.png",
+      "sha256": "d3b2279c521c4025f64e73055d89b9a259b33042a3be1396635a17f9ab0bc1e6"
+    },
+    {
+      "path": "evidence/Z10-P06-current-figure.png",
+      "sha256": "d8f4f8f3bfa8027c3aee0bb3d4680c4c259b1bbf3557d8c59493646099d8c02a"
+    },
+    {
+      "path": "evidence/Z10-P26-current-figure.png",
+      "sha256": "b24e0817c53d447a8a8ddaa45ffcc4c2667db61e7ef8f9fd753ed999af989187"
+    },
+    {
+      "path": "evidence/Z13-P50-current-figure.png",
+      "sha256": "8b4a02fed5d67aeac67fe7f4059599db38d6594c53a07a1e6ed954bb87ecf589"
+    },
+    {
+      "path": "evidence/Z14-P41-current-figure.png",
+      "sha256": "3ad3424fbd36206328a007580242fd91b7a70de956fd1d35a4f87a446bd571a1"
+    },
+    {
+      "path": "evidence/Z14-P53-current-figure.png",
+      "sha256": "cc74d695ded3484fa254dbe1f9ded3f1a940e886d1c3b1083242864b97c73889"
+    },
+    {
+      "path": "evidence/Z14-P53-superseded-a4-sheet.png",
+      "sha256": "6a14a809b306047dfd90b8e42a04681faca45badbf91694bcd3a417e90ef0f6d"
+    },
+    {
+      "path": "evidence/Z14-P55-superseded-letter-sheet.png",
+      "sha256": "63d5631e83d83128d25233bd9c9d20a89d0cdb6b0efe5408144394707cc67bdf"
+    },
+    {
+      "path": "evidence/existing_guard_tests.txt",
+      "sha256": "458248d16d13a4cc734f6c0e0229391c0beade56a2a2e3bcf00346f23e441f50"
+    },
+    {
+      "path": "evidence/linter_mutation_results.json",
+      "sha256": "0fcaf62761441a3c6db852a21f8d37a7810b51a2dcc93ab57532e11f3317d551"
+    },
+    {
+      "path": "evidence/medical_challenge.md",
+      "sha256": "43a94a5843898e3dfa81c15213c79a2854d64c130c17a8cf18fddad5c11b6a83"
+    },
+    {
+      "path": "evidence/navigation_validator_mutation.json",
+      "sha256": "33683a55961ef3784d2a500346cab0e2e02d269c26893fe3923f045697152d09"
+    },
+    {
+      "path": "evidence/proof_header_comparison.json",
+      "sha256": "8d6aa0c5ff8fe91c4652fc5e5fc5896c78122ad3857ca7526f164eb7a4d79a25"
+    },
+    {
+      "path": "evidence/root_navigation_reproduction.json",
+      "sha256": "f7a832738f057dcbc7a375ee69fae8b0185ec774a322a51486ae976476f61fe6"
+    }
+  ]
+}

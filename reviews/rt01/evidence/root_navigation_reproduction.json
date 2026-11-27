@@ -1,0 +1,54 @@
+{
+  "scope": "unit geometry validator only; no production edit or artifact-equality bypass",
+  "mutation": "90-degree visible needle rotation with unchanged data-bearing",
+  "baseline": {
+    "phases": {
+      "before": {
+        "travel_parallel_to_neat_line": true,
+        "orienting_arrow_equals_travel_plus_declination": true,
+        "needle_on_magnetic_north": true,
+        "needle_in_orienting_arrow": false,
+        "map_north_on_true_north": false
+      },
+      "after": {
+        "travel_parallel_to_neat_line": true,
+        "orienting_arrow_equals_travel_plus_declination": true,
+        "needle_on_magnetic_north": true,
+        "needle_in_orienting_arrow": true,
+        "map_north_on_true_north": true
+      }
+    },
+    "north_key_declination": {
+      "before": 12.002866929072582,
+      "after": 12.002866929072582
+    },
+    "declination_drawn": 12.0,
+    "declination_labelled": "exaggerated example; use current local value",
+    "accepted": true
+  },
+  "mutant": {
+    "phases": {
+      "before": {
+        "travel_parallel_to_neat_line": true,
+        "orienting_arrow_equals_travel_plus_declination": true,
+        "needle_on_magnetic_north": true,
+        "needle_in_orienting_arrow": false,
+        "map_north_on_true_north": false
+      },
+      "after": {
+        "travel_parallel_to_neat_line": true,
+        "orienting_arrow_equals_travel_plus_declination": true,
+        "needle_on_magnetic_north": true,
+        "needle_in_orienting_arrow": true,
+        "map_north_on_true_north": true
+      }
+    },
+    "north_key_declination": {
+      "before": 12.002866929072582,
+      "after": 12.002866929072582
+    },
+    "declination_drawn": 12.0,
+    "declination_labelled": "exaggerated example; use current local value",
+    "accepted": true
+  }
+}
