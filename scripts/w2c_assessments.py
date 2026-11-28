@@ -41,6 +41,7 @@ W2C_STATUS = {
     'SCOPE_NARROWED_BY_LATER_SOURCE': ('Narrowed: later guidance limits this claim', True),
     'CLAIM_PARTIALLY_SUPPORTED': ('Partial: part of this claim is not on the cited page', True),
     'CITATION_CORRECTED': ('Citation corrected on this card', False),
+    'SOURCE_CONFLICT_RECORDED': ('Open: agencies differ; a specialist decision is needed', True),
     'WEAK_SUPPORT_FLAGGED': ('Open: weak support for a statement on this card', False),
     'PARTIAL_SUPPORT_RECORDED': ('Partial support for a statement on this card', False),
     'UNSUPPORTED_CLAUSE_FLAGGED': ('Open: a statement on this card is not supported by this source', False),

@@ -1,0 +1,103 @@
+{
+  "batch": "W2C-B07",
+  "pages": [
+    "Z04-P42",
+    "Z04-P39",
+    "Z04-P40",
+    "Z04-P35",
+    "Z04-P45",
+    "Z04-P49"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z04-P42": [],
+    "Z04-P39": [],
+    "Z04-P40": [],
+    "Z04-P35": [],
+    "Z04-P45": [],
+    "Z04-P49": []
+  },
+  "axe_incomplete": {
+    "Z04-P42": [],
+    "Z04-P39": [],
+    "Z04-P40": [],
+    "Z04-P35": [],
+    "Z04-P45": [],
+    "Z04-P49": []
+  },
+  "figure_alt": {
+    "Z04-P42": "Cloudy raw water is first clarified by settling or straining through cloth, which is preparation, not treatment. It then passes through a filter rated absolute 1 micron or smaller, or certified to NSF/ANSI 53 or 58 for cyst reduction, which removes parasites; only an absolute 0.3-micron rating also removes bacteria, and portable filters do not remove viruses. Chemical or UV disinfection follows to inactivate viruses and bacteria; UV works only in clear water. Water is drunk only from the clean side. Below, two wrong orders are crossed out: UV or bleach on cloudy water, and filtering after disinfection through a dirty cartridge. Conceptual, not to scale.",
+    "Z04-P39": "Left: a bottle of regular, unscented household bleach whose label gives its sodium hypochlorite strength, here 8.25 percent; the bleach must be fresh and free of scent or added cleaners. Centre: two current official tables give different drop counts for one gallon of that bottle: the CDC table for 5 to 9 percent bleach says 8 drops, the EPA column for 8.25 percent says 6 drops. One complete table is followed; tables are never mixed or averaged. Right: drops measured into a one-gallon jug, doubled only when the chosen table says so for cloudy, coloured or very cold water, then at least 30 minutes of waiting before drinking. Conceptual, not to scale.",
+    "Z04-P40": "Left: the water conditions (temperature, clarity and volume) are read against the product label, which sets the dose and the full contact time; nobody drinks before the time is complete. Right: chemistries differ. Chlorine dioxide kills Giardia and is somewhat effective against Cryptosporidium, so filtering first is safest; chlorine and iodine kill viruses and bacteria but not parasites reliably; iodine-treated water is avoided in pregnancy, with thyroid problems or iodine hypersensitivity, and by anyone for more than a few weeks. Conceptual, not to scale.",
+    "Z04-P35": "Membrane cross-sections with water flowing left to right. Left: a filter rated absolute 1 micron or smaller has no hole larger than its rating, so parasite cysts stay on the raw side; tiny viruses still pass, so disinfection is needed when viruses are a risk. The label should state absolute 1 micron or smaller, or NSF/ANSI 53 or 58 certification for cyst reduction or removal. Right: a nominal 1-micron filter rates the average hole; some holes are larger and let cysts through. Below: routine chlorine or iodine alone does not reliably kill Cryptosporidium. Conceptual, not to scale.",
+    "Z04-P45": "Four steps. Wash the container with soap and rinse it completely. Sanitize with 1 teaspoon of unscented 5 to 9 percent bleach in 1 quart of water: cap and shake so the solution touches every inside surface. Wait at least 30 seconds, pour the solution out and let the empty container air-dry. Fill with safe water, cap and label it drinking water with the date, and replace the water every six months. Containers that held toxic chemicals are never used. Conceptual, not to scale.",
+    "Z04-P49": "Three separated zones with one-way flow from left to right. Raw: collection bag, scoop and pre-filter marked with red tape stay here. Waiting: each disinfecting batch carries a tag with its finish time and a marked lid. Clean: sealed, labelled drinking water, cups and cooking pots. A raw scoop never crosses into the clean zone. If a vessel's status is uncertain or raw water touches a clean rim, the whole vessel goes back to raw. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B07/W2C-B07-letter.pdf": {
+      "inspection": {
+        "sheets": 6,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 6,
+        "bookmarks": 6,
+        "extracted_section_order": true
+      },
+      "sha256": "93d5751492fd59202979b15ec8a336ffbb6785a9f1465b7b150a2ba6266093b9"
+    },
+    "visual/w2c_context/W2C-B07/W2C-B07-a4.pdf": {
+      "inspection": {
+        "sheets": 6,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 6,
+        "bookmarks": 6,
+        "extracted_section_order": true
+      },
+      "sha256": "bdc91a96e842227c37d6c2cfe32986407869002e733000c22c7c911362e5e439"
+    },
+    "visual/w2c_context/W2C-B07/W2C-B07-compare.jpg": {
+      "sha256": "a012f4abab44dae992eab5735c8d9240cf6968049c223b2687b6657486f25c3b",
+      "size": [
+        1230,
+        1786
+      ]
+    },
+    "visual/w2c_context/W2C-B07/W2C-B07-compare-gray.jpg": {
+      "sha256": "0ea82f5f9ecc3378f5928071c1eee3c9e2bb4d45b910f35f4ab4e150f8a5f3f3",
+      "size": [
+        1230,
+        1786
+      ]
+    },
+    "visual/w2c_context/W2C-B07/W2C-B07-phone.jpg": {
+      "sha256": "529ae77896b2dd69041787fe7f955d50b315566f2f49a717d05f97c546b436f2",
+      "size": [
+        1482,
+        1818
+      ]
+    },
+    "visual/w2c_context/W2C-B07/W2C-B07-desktop.jpg": {
+      "sha256": "faf9eaa86c2efc06c8474813adaa56c0b198e9e7e7532bf7bd616b83546b986d",
+      "size": [
+        1310,
+        2017
+      ]
+    },
+    "visual/w2c_context/W2C-B07/W2C-B07-print.jpg": {
+      "sha256": "a01b43b196a83285d387889dab08950ef19477e432d61c57fbac2296045f1335",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

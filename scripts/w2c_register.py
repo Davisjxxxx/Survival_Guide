@@ -32,7 +32,8 @@ BUILDERS = {'build_w2c_knots.py': ('Z09-P14', 'Z09-P15'), 'build_w2c_navigation.
             'w2c_plates_b04.py': ('Z15-P18', 'Z15-P22', 'Z15-P02', 'Z15-P23'),
             'w2c_plates_b05.py': ('Z14-P55', 'Z14-P56', 'Z14-P57', 'Z14-P53', 'Z14-P48'),
             'w2c_plates_r1.py': ('Z11-P63', 'Z04-P51', 'Z13-P49', 'Z13-P50', 'Z11-P32'),
-            'w2c_plates_b06.py': ('Z14-P37', 'Z14-P39', 'Z14-P40', 'Z14-P41', 'Z14-P65')}
+            'w2c_plates_b06.py': ('Z14-P37', 'Z14-P39', 'Z14-P40', 'Z14-P41', 'Z14-P65'),
+            'w2c_plates_b07.py': ('Z04-P42', 'Z04-P39', 'Z04-P40', 'Z04-P35', 'Z04-P45', 'Z04-P49')}
 REGISTER_FIELDS = ['page_id', 'asset_id', 'priority', 'origin', 'review_family', 'w2c_status', 'batch',
                    'predecessor_sha256', 'revised_sha256', 'physical_relationship', 'source_basis',
                    'geometry_validation', 'inspection', 'card_changes', 'remaining_dependencies',

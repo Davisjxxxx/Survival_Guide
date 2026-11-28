@@ -1,4 +1,51 @@
 {
   "policy": "RT01-06: every receipted tagged proof must be printed from the current manuscripts, figures and print styles (receipt fields page_inputs and style_inputs, scripts/proof_inputs.py). scripts/check_foundations.py fails on a stale proof unless it is listed here with exactly its changed pages. Zone and reconstruction proofs ship in offline packages and are always reprinted, never withheld. Consolidated proofs may be withheld between milestones; a withheld proof is not current and must not be circulated as the edition.",
-  "withheld": {}
+  "withheld": {
+    "encyclopedia-a4.pdf": {
+      "reason": "Consolidated proof withheld until the next milestone reprint",
+      "pages": [
+        "Z04-P35",
+        "Z04-P39",
+        "Z04-P40",
+        "Z04-P42",
+        "Z04-P45",
+        "Z04-P49",
+        "Z14-P52"
+      ]
+    },
+    "encyclopedia-letter.pdf": {
+      "reason": "Consolidated proof withheld until the next milestone reprint",
+      "pages": [
+        "Z04-P35",
+        "Z04-P39",
+        "Z04-P40",
+        "Z04-P42",
+        "Z04-P45",
+        "Z04-P49",
+        "Z14-P52"
+      ]
+    },
+    "foundations-a4.pdf": {
+      "reason": "Consolidated proof withheld until the next milestone reprint",
+      "pages": [
+        "Z04-P35",
+        "Z04-P39",
+        "Z04-P40",
+        "Z04-P42",
+        "Z04-P45",
+        "Z04-P49"
+      ]
+    },
+    "foundations.pdf": {
+      "reason": "Consolidated proof withheld until the next milestone reprint",
+      "pages": [
+        "Z04-P35",
+        "Z04-P39",
+        "Z04-P40",
+        "Z04-P42",
+        "Z04-P45",
+        "Z04-P49"
+      ]
+    }
+  }
 }

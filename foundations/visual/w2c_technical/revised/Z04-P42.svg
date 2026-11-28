@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Clarify, filter, then disinfect: the barrier order for raw water</title>
+<desc id="desc">Cloudy raw water is first clarified by settling or straining through cloth, which is preparation, not treatment. It then passes through a filter rated absolute 1 micron or smaller, or certified to NSF/ANSI 53 or 58 for cyst reduction, which removes parasites; only an absolute 0.3-micron rating also removes bacteria, and portable filters do not remove viruses. Chemical or UV disinfection follows to inactivate viruses and bacteria; UV works only in clear water. Water is drunk only from the clean side. Below, two wrong orders are crossed out: UV or bleach on cloudy water, and filtering after disinfection through a dirty cartridge. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P42 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z04-p42-artwork">
+<rect x="24" y="46" width="852" height="206" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">✓ CLARIFY, THEN FILTER, THEN DISINFECT</text>
+<path d="M52 174V123.6Q52 115.2 65 112.4V104H78.9V112.4Q95.4 115.2 95.4 123.6V174Z" fill="#b9a77d" stroke="#183a30" stroke-width="2.2"/>
+<text x="40" y="196" class="tiny">cloudy</text>
+<text x="40" y="217" class="tiny">raw water</text>
+<rect x="168" y="104" width="64" height="72" rx="6" fill="#9cc3cf" fill-opacity=".45" stroke="#183a30" stroke-width="2"/><rect x="170" y="156" width="60" height="18" fill="#8a7350" fill-opacity=".85"/>
+<text x="150" y="96" class="tiny ok">1 CLARIFY</text>
+<text x="150" y="196" class="tiny">settle or strain</text>
+<text x="150" y="217" class="tiny">(not treatment)</text>
+<rect x="352" y="100" width="56" height="80" rx="10" fill="#e8eef0" stroke="#183a30" stroke-width="2.2"/><path d="M360 110v60" stroke="#9aa59c" stroke-width="2"/><path d="M368 110v60" stroke="#9aa59c" stroke-width="2"/><path d="M376 110v60" stroke="#9aa59c" stroke-width="2"/><path d="M384 110v60" stroke="#9aa59c" stroke-width="2"/><path d="M392 110v60" stroke="#9aa59c" stroke-width="2"/><path d="M400 110v60" stroke="#9aa59c" stroke-width="2"/>
+<text x="330" y="96" class="tiny ok">2 FILTER</text>
+<text x="330" y="196" class="tiny">absolute ≤1 µm or</text>
+<text x="330" y="217" class="tiny">NSF 53/58 cyst claim</text>
+<rect x="560.1" y="112" width="10.8" height="7.7" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="552" y="119.7" width="26.9" height="56.3" rx="6" fill="#dcecf3" stroke="#183a30" stroke-width="2"/>
+<path d="M566 101q-5 7 0 10q5-3 0-10z" fill="#5f8fa3" stroke="#183a30" stroke-width="1.2"/><rect x="600" y="100" width="12" height="62" rx="5" fill="#4a4f52" stroke="#183a30" stroke-width="1.4"/><rect x="602" y="150" width="8" height="10" fill="#9b7fd4"/>
+<text x="530" y="96" class="tiny ok">3 DISINFECT</text>
+<text x="530" y="196" class="tiny">chemical or UV</text>
+<text x="530" y="217" class="tiny">(UV: clear water)</text>
+<rect x="750.1" y="112" width="10.8" height="7.7" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="742" y="119.7" width="26.9" height="56.3" rx="6" fill="#cfe6ef" stroke="#183a30" stroke-width="2"/>
+<circle cx="790" cy="118" r="11" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M784.5 118L788.9 122.6L795.7 113.6" fill="none" stroke="#205b68" stroke-width="3"/>
+<text x="720" y="196" class="tiny">drink only from</text>
+<text x="720" y="217" class="tiny">the clean side</text>
+<path d="M110 142H158" fill="none" stroke="#205b68" stroke-width="3.5" marker-end="url(#m-flow)"/>
+<path d="M240 142H342" fill="none" stroke="#205b68" stroke-width="3.5" marker-end="url(#m-flow)"/>
+<path d="M418 142H540" fill="none" stroke="#205b68" stroke-width="3.5" marker-end="url(#m-flow)"/>
+<path d="M622 142H732" fill="none" stroke="#205b68" stroke-width="3.5" marker-end="url(#m-flow)"/>
+<text x="330" y="244" class="tiny warn">portable filters do not remove viruses: disinfect after filtering</text>
+<rect x="24" y="262" width="420" height="74" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="288" class="head warn">✕ UV OR BLEACH ON CLOUDY WATER</text>
+<text x="40" y="320" class="tiny">particles shield germs: clarify first</text>
+<rect x="456" y="262" width="420" height="74" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="472" y="288" class="head warn">✕ FILTERING AFTER DISINFECTING</text>
+<text x="472" y="320" class="tiny">a dirty cartridge can recontaminate</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Barrier failed or chemicals suspected: boil if chemically safe, or switch to a safe supply.</text>
+</g>
+</svg>

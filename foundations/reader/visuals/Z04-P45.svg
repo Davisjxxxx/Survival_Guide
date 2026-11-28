@@ -1,13 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Clean and sanitize reusable food-grade water storage containers</title>
-  <desc id="desc">EXPLODED COMPONENTS: Wash with soap and rinse | Sanitize ≥30 s dilute bleach | Rinse with safe water and seal — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z04-P45 · EXPLODED COMPONENTS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="exploded-artwork"><path d="M55 96h610" stroke="#7c8f83" stroke-width="2" stroke-dasharray="7 5"/><rect x="50" y="58" width="129" height="74" rx="8" fill="#d5e2d8" stroke="#285345" stroke-width="2.5"/><rect x="60" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="165" cy="72" r="5" fill="#285345"/><text x="114.5" y="92" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Food-Grade Body</text><path d="M182 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="205" y="58" width="129" height="74" rx="8" fill="#e8dfbe" stroke="#285345" stroke-width="2.5"/><rect x="215" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="320" cy="72" r="5" fill="#285345"/><text x="269.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Soap Wash &amp;</text><text x="269.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Rinse</text><path d="M337 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="360" y="58" width="129" height="74" rx="8" fill="#cde0e8" stroke="#285345" stroke-width="2.5"/><rect x="370" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="475" cy="72" r="5" fill="#285345"/><text x="424.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">30s Bleach</text><text x="424.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Sanitize</text><path d="M492 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="515" y="58" width="129" height="74" rx="8" fill="#dfd4c7" stroke="#285345" stroke-width="2.5"/><rect x="525" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="630" cy="72" r="5" fill="#285345"/><text x="579.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Safe Rinse &amp;</text><text x="579.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Tight Cap</text><text x="360" y="149" font-size="11" font-weight="650" fill="#4c5f55" text-anchor="middle">Never reuse containers that held fuel, bleach or toxic cleaners</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Wash with soap and rinse</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Sanitize ≥30 s dilute</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">bleach</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Rinse with safe water</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">and seal</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Clean and sanitize a water storage container</title>
+<desc id="desc">Four steps. Wash the container with soap and rinse it completely. Sanitize with 1 teaspoon of unscented 5 to 9 percent bleach in 1 quart of water: cap and shake so the solution touches every inside surface. Wait at least 30 seconds, pour the solution out and let the empty container air-dry. Fill with safe water, cap and label it drinking water with the date, and replace the water every six months. Containers that held toxic chemicals are never used. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P45 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z04-p45-artwork">
+<rect x="24" y="46" width="200" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">1 WASH</text>
+<text x="38" y="272" class="tiny">soap, then rinse</text>
+<text x="38" y="293" class="tiny">completely</text>
+<rect x="238" y="46" width="200" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="254" y="72" class="head ok">2 SANITIZE</text>
+<text x="252" y="272" class="tiny">1 tsp bleach per</text>
+<text x="252" y="293" class="tiny">quart; cap, shake</text>
+<text x="252" y="314" class="tiny">over all surfaces</text>
+<rect x="452" y="46" width="200" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="468" y="72" class="head ok">3 EMPTY, DRY</text>
+<text x="466" y="272" class="tiny">wait 30 s or more,</text>
+<text x="466" y="293" class="tiny">pour out, air-dry</text>
+<rect x="666" y="46" width="200" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="682" y="72" class="head ok">4 FILL, LABEL</text>
+<text x="680" y="272" class="tiny">safe water; label</text>
+<text x="680" y="293" class="tiny">drinking water + date</text>
+<path d="M80 216V141.1Q80 128.6 99.3 124.5V112H120V124.5Q144.5 128.6 144.5 141.1V216Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/><circle cx="132" cy="104" r="7" fill="#ffffff" stroke="#9aa59c"/><circle cx="150" cy="96" r="5" fill="#ffffff" stroke="#9aa59c"/><circle cx="146" cy="112" r="4" fill="#ffffff" stroke="#9aa59c"/>
+<path d="M296 216V141.1Q296 128.6 315.3 124.5V112H336V124.5Q360.5 128.6 360.5 141.1V216Z" fill="#eef5f8" stroke="#183a30" stroke-width="2.2"/>
+<path d="M268 140q-10 30 0 60M380 140q10 30 0 60" fill="none" stroke="#4c5d55" stroke-width="2.4"/>
+<path d="M330 100h28l-4 8h-20z" fill="#f2f2f2" stroke="#183a30" stroke-width="1.4"/>
+<g transform="rotate(180 552 170)"><path d="M520 222V147.1Q520 134.6 539.3 130.5V118H560V130.5Q584.5 134.6 584.5 147.1V222Z" fill="#f4f6f7" stroke="#183a30" stroke-width="2.2"/></g>
+<path d="M552 230v20" stroke="#3d7186" stroke-width="2.4" stroke-dasharray="3 4"/>
+<circle cx="620" cy="108" r="16" fill="#ffffff" stroke="#183a30" stroke-width="2"/><path d="M620 108v-11.2M620 108l8.0 4.0" stroke="#183a30" stroke-width="2"/><rect x="616" y="86" width="8" height="5" fill="#183a30"/>
+<path d="M724 216V141.1Q724 128.6 743.3 124.5V112H764V124.5Q788.5 128.6 788.5 141.1V216Z" fill="#cfe6ef" stroke="#183a30" stroke-width="2.2"/>
+<rect x="732" y="164" width="48" height="30" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="1.4"/><path d="M738 176h36M738 186h24" stroke="#4c5d55" stroke-width="2"/>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Chemical odour, cracks, damaged gaskets or unknown history: discard the container.</text>
+</g>
 </svg>

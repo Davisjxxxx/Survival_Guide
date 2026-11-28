@@ -698,17 +698,17 @@ diagram: Match hot-pack vs raw-pack water temp | NEVER add flour, starch, dairy,
 visual: Correct versus incorrect jar heat-penetration physics contrasting free-convecting cubed broth against dense insulating thickeners/purees that leave cold centers. Conceptual, not to scale.
 reviewer: Food preservation process authority
 
-Z14-P52 | Operate a boiling-water canner strictly with full boil and 1–2 inch water cover | NCHFP Using Boiling Water Canners; new manuscript
+Z14-P52 | Operate a boiling-water canner with a full boil and the required water cover over the jars | NCHFP Using Boiling Water Canners; new manuscript
 objective: Deliver uniform 212°F (altitude-adjusted) thermal processing to tested high-acid jars without boil-overs or under-processing.
 applies: Tested high-acid foods (fruits, jams, tested pickles, properly acidified tomatoes) processed in a deep lidded water-bath pot with rack.
 equipment: Deep boiling-water canner with bottom rack (jars never touch bare pot bottom), jar lifter, lid, and kitchen timer.
-action: Place jars upright on a bottom rack inside the canner (preventing direct-flame glass cracking) and verify at least **1 to 2 inches of hot water covers the TOPS of all jar lids** continuously throughout processing. @P08,P09
+action: Place jars upright on a bottom rack inside the canner (preventing direct-flame glass cracking) and keep at least **1 inch of boiling water over the jar tops**, or at least **2 inches when the process time at your altitude is over 30 minutes**, throughout processing. @P38,P08
 action: Cover the canner with its lid, bring water to a **FULL VIGOROUS ROLLING BOIL**, and start the altitude-adjusted processing timer ONLY AFTER the vigorous boil begins—keeping the boil steady continuously without dipping to a gentle simmer. @P08,F07
 action: When processing finishes, turn off heat, remove the lid tilting away from your face to avoid steam scalds, wait **5 minutes** before lifting jars straight upright onto a dry towel/rack so pressure equalizes gently and prevents siphoning. @P08,P09
 failure: Starting the 15-minute jam timer the moment jars enter warm water instead of waiting for a full rolling boil over 1–2 inches of water cover. @P08
-verify: Confirm bottom rack in place, 1–2 inches boiling water above jar lids, timer started ONLY at full rolling boil, and 5-minute post-boil rest observed. @P08
+verify: Confirm bottom rack in place, water at least 1 inch over the jar tops (2 inches for processes over 30 minutes), timer started ONLY at full rolling boil, and 5-minute post-boil rest observed. @P38,P08
 stop: If the rolling boil stops or water drops below jar tops mid-cycle, add boiling water, restore a full boil, and RESTART the entire processing timer from ZERO. @P08,P06
-diagram: Bottom rack + 1–2 in water OVER lids | Start timer ONLY at full rolling boil | Turn off, lid off & rest 5 min pre-lift
+diagram: Rack; 1 in water over jars, 2 in if over 30 min | Start timer ONLY at full rolling boil | Turn off, lid off & rest 5 min pre-lift
 visual: Cutaway boiling-water canner showing bottom jar rack, 1–2 inch water depth above lids, full rolling boil bubbles, and 5-minute rest step. Conceptual, not to scale.
 reviewer: Food preservation specialist and Extension
 

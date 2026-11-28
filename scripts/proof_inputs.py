@@ -95,3 +95,33 @@ def stale_pages(record, current):
 
 def load_cards(reader=READER):
     return json.loads((reader / 'page-manifest.json').read_text(encoding='utf-8'))
+
+
+def withhold_stale(proofs=FOUND / 'proofs', reason='Consolidated proof withheld until the next milestone reprint'):
+    """Record every stale consolidated proof in PROOF-CURRENCY.json with its exact changed pages.
+    Stale packaged proofs are an error: reprint them with print_foundations_tagged.py --editions."""
+    receipt = json.loads((proofs / 'tagged-print-qa.json').read_text())
+    by_name = editions(load_cards())
+    cache, withheld = {}, {}
+    for filename, record in sorted(receipt.items()):
+        changed = stale_pages(record, fingerprint(READER, by_name[edition_of(filename)], cache))
+        if not changed:
+            continue
+        if edition_of(filename) in PACKAGED_PROOF_NAMES:
+            raise SystemExit(f'{filename} is packaged and stale; reprint: print_foundations_tagged.py --editions {edition_of(filename)}')
+        withheld[filename] = dict(reason=reason, pages=changed)
+    path = proofs / 'PROOF-CURRENCY.json'
+    data = json.loads(path.read_text()) if path.is_file() else {}
+    data['withheld'] = withheld
+    path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+    return withheld
+
+
+if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(description='Record stale consolidated proofs in PROOF-CURRENCY.json')
+    parser.add_argument('--withhold', action='store_true')
+    args = parser.parse_args()
+    if args.withhold:
+        held = withhold_stale()
+        print(f'{len(held)} consolidated proof(s) withheld: ' + ', '.join(f'{k} ({len(v["pages"])} pages)' for k, v in held.items()))

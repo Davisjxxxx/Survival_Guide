@@ -302,24 +302,7 @@
     "type": "v02_artwork"
   },
   "Z04-P35": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Routine chlorine",
-        "note": "Typical doses miss Crypto",
-        "limit": "Parasite gap"
-      },
-      {
-        "name": "Cyst filter",
-        "note": "Specific cyst claim or ≤1 μm absolute",
-        "limit": "No assumption of viral protection"
-      },
-      {
-        "name": "Rolling boil",
-        "note": "CDC time and altitude rule",
-        "limit": "Chemical hazards excluded"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z04-P36": {
     "type": "v02_artwork"
@@ -341,35 +324,16 @@
     "callout": "Backflush only with clean treated water; check seals for bypass"
   },
   "Z04-P39": {
-    "type": "mechanism",
-    "nodes": [
-      "Confirm exact formulation",
-      "Use one official protocol",
-      "Verify dose and contact time"
-    ],
-    "callout": "Odor does not prove safe drinking water"
+    "type": "w2c_artwork"
   },
   "Z04-P40": {
-    "type": "mechanism",
-    "nodes": [
-      "Confirm target and product",
-      "Use label water conditions",
-      "Complete required contact time"
-    ],
-    "callout": "Do not invent cold-water dose or contact time"
+    "type": "w2c_artwork"
   },
   "Z04-P41": {
     "type": "v02_artwork"
   },
   "Z04-P42": {
-    "type": "mechanism",
-    "nodes": [
-      "Screen & Clarify Solids",
-      "Cyst/Bacteria Pore Filter",
-      "Chemical or UV Viral Barrier"
-    ],
-    "callout": "Order matters: turbidity blocks UV & clogs filters",
-    "accent": "#3d7a69"
+    "type": "w2c_artwork"
   },
   "Z04-P43": {
     "type": "cutaway",
@@ -392,14 +356,7 @@
     "abort": "SINGLE-POINT FAILURE: Pair independent backup or carry safe reserve"
   },
   "Z04-P45": {
-    "type": "exploded",
-    "components": [
-      "Food-Grade Body",
-      "Soap Wash & Rinse",
-      "30s Bleach Sanitize",
-      "Safe Rinse & Tight Cap"
-    ],
-    "callout": "Never reuse containers that held fuel, bleach or toxic cleaners"
+    "type": "w2c_artwork"
   },
   "Z04-P46": {
     "type": "comparison",
@@ -444,24 +401,7 @@
     "hazard": "Never flame-thaw plastic"
   },
   "Z04-P49": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "RAW Zone",
-        "note": "Marked dirty scoop, cloth & collection bags",
-        "limit": "Never touch clean rim"
-      },
-      {
-        "name": "WAITING Zone",
-        "note": "Tagged batch during active chemical contact",
-        "limit": "Do not drink early"
-      },
-      {
-        "name": "POTABLE Zone",
-        "note": "Labeled clean sealed bottles & clean cups",
-        "limit": "Re-treat if splashed"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z04-P50": {
     "type": "exploded",

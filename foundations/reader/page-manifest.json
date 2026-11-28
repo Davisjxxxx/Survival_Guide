@@ -9517,14 +9517,15 @@
         "text": "Recognize that Cryptosporidium oocysts strongly resist routine chlorine bleach and iodine doses, and Giardia cysts also resist brief cold-water chlorination.",
         "claims": [
           "W19",
-          "W20",
+          "W34",
           "W10"
         ]
       },
       {
         "text": "Use boiling or a filter independently certified for cyst reduction or removal, or rated at one micron absolute or smaller for parasite reduction. Look for a cyst-specific claim under NSF/ANSI 53 or 58 where certified.",
         "claims": [
-          "W20"
+          "W20",
+          "W33"
         ]
       },
       {
@@ -9566,7 +9567,7 @@
       ]
     },
     "diagram": "Routine chlorine misses Crypto | Verify specific cyst claim | Boil when appropriate",
-    "visual": "Compares parasite barriers. Neither a standard number by itself nor cyst removal establishes protection against all hazards.",
+    "visual": "Membrane cross-sections: an absolute 1-micron filter stops parasite cysts while a nominal 1-micron filter lets some through its larger holes; neither stops viruses. Conceptual, not to scale.",
     "reviewer": "Drinking-water microbiology and public health"
   },
   {
@@ -9772,13 +9773,16 @@
       {
         "text": "Follow local public health directions or one complete current EPA or CDC protocol. Verify the exact formulation, water volume and required pretreatment. Do not combine tables or improvise a rounded dose.",
         "claims": [
+          "W31",
+          "W32",
           "W12"
         ]
       },
       {
         "text": "Follow the selected protocol for the full dose and contact time. A chlorine smell alone cannot prove treatment, and this process does not reliably address all parasites.",
         "claims": [
-          "W12",
+          "W31",
+          "W32",
           "W20"
         ]
       }
@@ -9812,7 +9816,7 @@
       ]
     },
     "diagram": "Confirm product and concentration | Follow one official table | Record dose and contact time",
-    "visual": "Protocol-selection schematic. Select the applicable local or agency instructions for the entire procedure.",
+    "visual": "One bottle, two official tables: the CDC 5% to 9% table and the EPA 8.25% column give different drop counts per gallon, so one complete table is followed, the dose doubled only as that table directs and the full wait timed. Conceptual, not to scale.",
     "reviewer": "Drinking-water safety and public health"
   },
   {
@@ -9833,7 +9837,7 @@
       {
         "text": "Follow the exact product instructions for water clarity, temperature, volume and contact time. If the product does not claim efficacy for the expected pathogen under those conditions, select a suitable treatment or verified supply.",
         "claims": [
-          "W04",
+          "W34",
           "W05",
           "W20"
         ]
@@ -9841,7 +9845,8 @@
       {
         "text": "Screen every group member before using iodine—avoid iodine-treated water during pregnancy, with thyroid conditions or with iodine hypersensitivity.",
         "claims": [
-          "W10"
+          "W10",
+          "W34"
         ]
       }
     ],
@@ -9874,7 +9879,7 @@
       ]
     },
     "diagram": "Match chemistry and user | Adjust wait for cold water | Complete full contact time",
-    "visual": "Mechanism diagram illustrating how water clarity, cold temperature and active halogen/chlorine-dioxide chemistry govern required contact time. Conceptual, not to scale.",
+    "visual": "The product label sets the dose and contact time for the water clarity and temperature; chemistries differ in parasite coverage; iodine is screened out for some users. Conceptual, not to scale.",
     "reviewer": "Drinking-water safety and wilderness medicine"
   },
   {
@@ -9960,9 +9965,9 @@
         ]
       },
       {
-        "text": "Pass clarified water through a cyst- and bacteria-rated filter into a clean vessel to remove protozoa (Giardia, Cryptosporidium) and particulate shielding.",
+        "text": "Pass clarified water through a filter rated absolute 1 micron or smaller, or certified to NSF/ANSI 53 or 58 for cyst reduction, into a clean vessel to remove parasites (Giardia, Cryptosporidium); only an absolute 0.3-micron rating also removes bacteria.",
         "claims": [
-          "W04",
+          "W34",
           "W19",
           "W20"
         ]
@@ -9970,7 +9975,7 @@
       {
         "text": "Apply the secondary barrier—label-directed chemical disinfection or rated UV cycle—to inactivate viruses and any bacteria not caught by the filter, keeping threads clean.",
         "claims": [
-          "W04",
+          "W34",
           "W05",
           "W11"
         ]
@@ -10008,7 +10013,7 @@
       ]
     },
     "diagram": "Clarify solids first | Filter cysts and bacteria | Disinfect viruses last",
-    "visual": "Mechanism diagram sequencing four progressive barriers from raw source screening through clarification, filtration and viral disinfection. Conceptual, not to scale.",
+    "visual": "Flow path from cloudy raw water through settling or cloth straining, a parasite-rated filter and chemical or UV disinfection into a clean bottle, with the wrong orders crossed out. Conceptual, not to scale.",
     "reviewer": "Drinking-water treatment engineering"
   },
   {
@@ -10152,19 +10157,19 @@
         "text": "Inspect the container first—use only intact food-grade vessels with tight-fitting lids, never containers that ever held toxic chemicals, cleaners or fuel.",
         "claims": [
           "W06",
-          "W13"
+          "W35"
         ]
       },
       {
         "text": "Wash the interior, cap and threads thoroughly with dish soap and warm water, then rinse completely with safe water.",
         "claims": [
-          "W13"
+          "W35"
         ]
       },
       {
-        "text": "Sanitize by swirling a CDC bleach solution (1 teaspoon unscented 5%–9% bleach per quart of water) over all inner surfaces for at least 30 seconds, pour out and rinse with safe water or air dry.",
+        "text": "Sanitize with 1 teaspoon unscented 5%–9% bleach in 1 quart of water: cap, shake so it touches all inside surfaces, wait at least 30 seconds, pour it out and let the container air-dry before filling.",
         "claims": [
-          "W13"
+          "W35"
         ]
       }
     ],
@@ -10178,13 +10183,13 @@
       "text": "Filling unwashed recycled milk jugs, cracked bottles or former chemical containers with emergency drinking water.",
       "claims": [
         "W06",
-        "W13"
+        "W35"
       ]
     },
     "verify": {
-      "text": "Confirm the container is food-grade, odor-free, rinsed clean after sanitizing and sealed promptly with a clean tight cap.",
+      "text": "Confirm the container is food-grade, odor-free, air-dried after sanitizing, filled with safe water, capped and labelled drinking water with the date.",
       "claims": [
-        "W13",
+        "W35",
         "W06",
         "ED"
       ]
@@ -10193,11 +10198,11 @@
       "text": "Discard containers with persistent chemical odor, cracked plastic, damaged gaskets or unknown industrial history; washing cannot make them safe.",
       "claims": [
         "W06",
-        "W13"
+        "W35"
       ]
     },
-    "diagram": "Wash with soap and rinse | Sanitize ≥30 s dilute bleach | Rinse with safe water and seal",
-    "visual": "Exploded component view showing container body, cap threads, gasket seal and the three-stage wash-sanitize-rinse sequence. Conceptual, not to scale.",
+    "diagram": "Wash with soap and rinse | Sanitize ≥30 s dilute bleach | Pour out, air-dry, fill and label",
+    "visual": "Four steps: wash and rinse; shake a 1-teaspoon-per-quart bleach solution over every inside surface for at least 30 seconds; pour out and air-dry; fill, cap and label with the date. Conceptual, not to scale.",
     "reviewer": "Drinking-water safety and public health"
   },
   {
@@ -10420,7 +10425,7 @@
       {
         "text": "Tag any chemically disinfecting bottle with its finish time (or keep its lid visibly marked) so no one drinks before contact time expires.",
         "claims": [
-          "W05",
+          "W31",
           "W12",
           "ED"
         ]
@@ -10457,7 +10462,7 @@
       ]
     },
     "diagram": "Raw zone: marked dirty | Waiting zone: timed batch | Clean zone: sealed potable",
-    "visual": "Comparative configuration showing three physically separated container zones with high-contrast labels and clean-side dispensing control. Conceptual, not to scale.",
+    "visual": "Three separated zones with one-way flow: raw collection gear, timed batches tagged with their finish time, and sealed drinking water; a raw scoop never crosses into the clean zone. Conceptual, not to scale.",
     "reviewer": "Drinking-water safety and public health"
   },
   {
@@ -52200,15 +52205,15 @@
   {
     "id": "Z14-P52",
     "zone": "Z14",
-    "title": "Operate a boiling-water canner strictly with full boil and 1–2 inch water cover",
+    "title": "Operate a boiling-water canner with a full boil and the required water cover over the jars",
     "origin": "NCHFP Using Boiling Water Canners; new manuscript",
     "category": "New manuscript",
     "action": [
       {
-        "text": "Place jars upright on a bottom rack inside the canner (preventing direct-flame glass cracking) and verify at least **1 to 2 inches of hot water covers the TOPS of all jar lids** continuously throughout processing.",
+        "text": "Place jars upright on a bottom rack inside the canner (preventing direct-flame glass cracking) and keep at least **1 inch of boiling water over the jar tops**, or at least **2 inches when the process time at your altitude is over 30 minutes**, throughout processing.",
         "claims": [
-          "P08",
-          "P09"
+          "P38",
+          "P08"
         ]
       },
       {
@@ -52239,8 +52244,9 @@
       ]
     },
     "verify": {
-      "text": "Confirm bottom rack in place, 1–2 inches boiling water above jar lids, timer started ONLY at full rolling boil, and 5-minute post-boil rest observed.",
+      "text": "Confirm bottom rack in place, water at least 1 inch over the jar tops (2 inches for processes over 30 minutes), timer started ONLY at full rolling boil, and 5-minute post-boil rest observed.",
       "claims": [
+        "P38",
         "P08"
       ]
     },
@@ -52251,7 +52257,7 @@
         "P06"
       ]
     },
-    "diagram": "Bottom rack + 1–2 in water OVER lids | Start timer ONLY at full rolling boil | Turn off, lid off & rest 5 min pre-lift",
+    "diagram": "Rack; 1 in water over jars, 2 in if over 30 min | Start timer ONLY at full rolling boil | Turn off, lid off & rest 5 min pre-lift",
     "visual": "Cutaway boiling-water canner showing bottom jar rack, 1–2 inch water depth above lids, full rolling boil bubbles, and 5-minute rest step. Conceptual, not to scale.",
     "reviewer": "Food preservation specialist and Extension"
   },

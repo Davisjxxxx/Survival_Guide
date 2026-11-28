@@ -38,7 +38,7 @@ An *implemented editorial candidate* is a source-checked correction inspected by
 
 - **RT01-C01** (open specialist question): Early clinician consultation branch after a potentially high-risk tick bite (Z10-P58): routed to the clinical reviewer; no change made.
 - **RT01-C02** (open): Offline figure enlargement route and a real-phone diagram-reading task: not implemented in this commit.
-- **RT01-C03** (open): Process-duration condition for boiling-water canner water depth (Z14-P52): not implemented in this commit.
+- **RT01-C03** (implemented editorial candidate, W2C-B07): Z14-P52 keeps at least 1 inch of water over the jar tops, and at least 2 inches when the process time at the canner altitude is over 30 minutes; new claim P38 cites USDA Complete Guide, Guide 1 page 1-18, steps 4-9.
 
 ## Related changes found while implementing
 
