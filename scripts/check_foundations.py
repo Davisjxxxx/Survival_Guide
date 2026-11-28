@@ -80,6 +80,38 @@ def verify_retained_pdfs():
     for pdf in sorted(proofs.glob('*.pdf')):
         head = pdf.read_bytes()[:5]
         require(head == b'%PDF-' and pdf.stat().st_size > 10_000, f'Invalid PDF proof: {pdf.name}')
+    verify_proof_currency(proofs)
+
+
+def verify_proof_currency(proofs):
+    """RT01-06: a receipted proof must have been printed from the current manuscripts, figures and
+    print styles. A stale proof fails unless PROOF-CURRENCY.json withholds it with exactly the
+    changed pages, and packaged proofs (zone editions, reconstructions) can never be withheld."""
+    from proof_inputs import PACKAGED_PROOF_NAMES, edition_of, editions, fingerprint, stale_pages
+    receipt = json.loads((proofs / 'tagged-print-qa.json').read_text())
+    reader = FOUND / 'reader'
+    cards = json.loads((reader / 'page-manifest.json').read_text(encoding='utf-8'))
+    by_name = editions(cards)
+    cache, stale = {}, {}
+    for filename, record in receipt.items():
+        name = edition_of(filename)
+        require(name in by_name, f'Receipted proof for an unknown edition: {filename}')
+        require('page_inputs' in record and 'style_inputs' in record,
+                f'{filename}: receipt records no source-input fingerprint; reprint it')
+        changed = stale_pages(record, fingerprint(reader, by_name[name], cache))
+        if changed:
+            stale[filename] = changed
+    currency_path = proofs / 'PROOF-CURRENCY.json'
+    currency = json.loads(currency_path.read_text()) if currency_path.is_file() else {'withheld': {}}
+    withheld = currency.get('withheld', {})
+    for filename, pages in stale.items():
+        require(edition_of(filename) not in PACKAGED_PROOF_NAMES,
+                f'Packaged proof {filename} is stale ({len(pages)} pages changed, e.g. {pages[:3]}); '
+                f'reprint it with print_foundations_tagged.py --editions {edition_of(filename)}')
+        require(filename in withheld and sorted(withheld[filename].get('pages', [])) == pages,
+                f'Stale proof {filename} ({len(pages)} pages changed, e.g. {pages[:3]}) is neither reprinted '
+                'nor withheld with exactly those pages in PROOF-CURRENCY.json')
+    require(set(withheld) <= set(stale), f'PROOF-CURRENCY.json withholds current proofs: {sorted(set(withheld) - set(stale))}')
 
 
 def package_members(include_consolidated_pdfs=False):

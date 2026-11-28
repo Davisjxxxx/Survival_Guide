@@ -3,6 +3,18 @@
   "accepted": true,
   "declination_drawn": 12.0,
   "declination_labelled": "exaggerated example; use current local value",
+  "measured_from_drawn_geometry": {
+   "after": {
+    "needle": 11.97,
+    "orienting_arrow": 12.04,
+    "travel": 0.0
+   },
+   "before": {
+    "needle": 12.0,
+    "orienting_arrow": 343.96,
+    "travel": 332.04
+   }
+  },
   "north_key_declination": {
    "after": 12.002866929072582,
    "before": 12.002866929072582
@@ -10,6 +22,7 @@
   "phases": {
    "after": {
     "map_north_on_true_north": true,
+    "metadata_matches_drawing": true,
     "needle_in_orienting_arrow": true,
     "needle_on_magnetic_north": true,
     "orienting_arrow_equals_travel_plus_declination": true,
@@ -17,6 +30,7 @@
    },
    "before": {
     "map_north_on_true_north": false,
+    "metadata_matches_drawing": true,
     "needle_in_orienting_arrow": false,
     "needle_on_magnetic_north": true,
     "orienting_arrow_equals_travel_plus_declination": true,

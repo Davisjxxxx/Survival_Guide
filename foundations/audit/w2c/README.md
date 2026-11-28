@@ -27,9 +27,13 @@ The three plates A04 returned for reconstruction, and Z11-P32, which RT01-08 req
 
 Atlas custody: the owner-pending Z16 atlas cards and figures stay byte-identical to A04 except inside the evidence panel, which may carry current evidence assessments (RT01-11). The compact layout is not promoted.
 
-## Proof and package refresh policy
+## Proof and package refresh policy (RT01-06)
 
-Every batch commit rebuilds the reader, refreshes the offline ZIP packages and carries tagged Letter and A4 proofs of the changed pages in `visual/w2c_context/<batch>/`, so `scripts/check_foundations.py` passes at every commit. The 37 consolidated tagged PDFs in `foundations/proofs/` are regenerated at milestones (every few batches and at the end of the run) because each regeneration rewrites about 110 MB of PDF; between milestones they show the figures as of the last milestone, and their receipt still matches their bytes. Milestones are named in commit messages.
+Every entry in `foundations/proofs/tagged-print-qa.json` records what its PDF was printed from: a fingerprint of each card's printed body and embedded figure (`page_inputs`) and of the print stylesheets and proof template (`style_inputs`), computed by `scripts/proof_inputs.py`. `scripts/check_foundations.py` recomputes them and fails when a proof's inputs changed, unless `foundations/proofs/PROOF-CURRENCY.json` withholds that proof with exactly its changed pages. Zone and reconstruction proofs ship inside offline packages and are always reprinted (`print_foundations_tagged.py --editions Z14,...`), never withheld. The consolidated encyclopedia and foundations proofs may be withheld between milestones and are then not current; they are reprinted at milestones and at the end of the run. A valid byte hash alone no longer makes an older proof current.
+
+Every batch commit rebuilds the reader, reprints the affected zone proofs, refreshes the offline ZIP packages and carries tagged Letter and A4 proofs of the changed pages in `visual/w2c_context/<batch>/`, so `scripts/check_foundations.py` passes at every commit. Milestone M2 (after RT01 and W2C-B06) reprinted all 37 tagged proofs.
+
+`scripts/check_rt01.py` reruns the RT01 acceptance receipts recorded in `RT01_IMPLEMENTATION.md`.
 
 ## Commands
 
@@ -47,6 +51,7 @@ $PY scripts/check_foundations.py --write-package
 $PY scripts/check_foundations.py
 $PY scripts/check_a04.py
 $PY scripts/check_w2c.py
+$PY scripts/check_rt01.py
 (cd scripts && $PY w2c_label_audit.py ../foundations/visual/w2c_technical/revised/*.svg)
 ```
 

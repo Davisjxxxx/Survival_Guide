@@ -14,13 +14,17 @@ declination convention (east positive; true bearing = magnetic + declination):
 4. visible landmarks are compared with their map symbols.
 
 The declination angle is exaggerated for legibility and labelled as such. The
-geometry is checked numerically from the emitted SVG elements: --check confirms
-the retained file equals a fresh build and that the angular relationships hold.
+geometry is checked numerically from the delivered SVG: needle and orienting-arrow
+bearings are measured from the drawn polygons (pivot to tip, after every transform on
+the element and its ancestors), never from their descriptive data-bearing attributes,
+which must merely agree (RT01-09). --check confirms the retained revision and the
+active reader figure equal a fresh build and that the measured relationships hold.
 """
 import argparse
 import json
-from math import atan2, cos, degrees, radians, sin
+from math import atan2, cos, degrees, hypot, radians, sin
 from pathlib import Path
+import re
 from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,6 +35,7 @@ INK = '#183a30'
 DECLINATION = 12.0           # exaggerated example east declination, degrees
 UNORIENTED = -28.0           # map north bearing before rotation, degrees
 LINE_TOL = 0.15              # degrees; line endpoints are emitted at 0.1-0.01 px precision
+VISIBLE_TOL = 0.5            # degrees; polygon vertices and the pivot are emitted at 0.1 px precision
 STYLE = ('<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}'
          '.tiny{font-size:15px}.map{font-size:13px;fill:#4b5a3b}.warn{fill:#8b3825}.ok{fill:#205b68}'
          '.num{font-size:15px;font-weight:750;fill:#fff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>')
@@ -222,14 +227,87 @@ def z11_r05_svg():
     return '\n'.join(parts) + '\n'
 
 
-def bearing_of(root, ident):
+def _multiply(m, n):
+    a, b, c, d, e, f = m
+    a2, b2, c2, d2, e2, f2 = n
+    return (a * a2 + c * b2, b * a2 + d * b2, a * c2 + c * d2, b * c2 + d * d2, a * e2 + c * f2 + e, b * e2 + d * f2 + f)
+
+
+def parse_transform(text):
+    """SVG transform list as an affine matrix (a, b, c, d, e, f)."""
+    m = (1.0, 0.0, 0.0, 1.0, 0.0, 0.0)
+    for name, args in re.findall(r'(matrix|translate|scale|rotate|skewX|skewY)\s*\(([^)]*)\)', text or ''):
+        v = [float(x) for x in re.split(r'[\s,]+', args.strip()) if x]
+        if name == 'matrix':
+            n = tuple(v)
+        elif name == 'translate':
+            n = (1, 0, 0, 1, v[0], v[1] if len(v) > 1 else 0)
+        elif name == 'scale':
+            n = (v[0], 0, 0, v[1] if len(v) > 1 else v[0], 0, 0)
+        elif name == 'rotate':
+            a = radians(v[0])
+            n = (cos(a), sin(a), -sin(a), cos(a), 0, 0)
+            if len(v) == 3:
+                n = _multiply(_multiply((1, 0, 0, 1, v[1], v[2]), n), (1, 0, 0, 1, -v[1], -v[2]))
+        else:
+            t = radians(v[0])
+            n = (1, 0, sin(t) / cos(t), 1, 0, 0) if name == 'skewX' else (1, sin(t) / cos(t), 0, 1, 0, 0)
+        m = _multiply(m, n)
+    return m
+
+
+def _ctm(root, node):
+    """Cumulative transform from the root to node, as delivered to the browser."""
+    parents = {child: parent for parent in root.iter() for child in parent}
+    chain = []
+    while node is not None:
+        chain.append(node)
+        node = parents.get(node)
+    m = (1.0, 0.0, 0.0, 1.0, 0.0, 0.0)
+    for element in reversed(chain):
+        m = _multiply(m, parse_transform(element.get('transform')))
+    return m
+
+
+def _apply(m, x, y):
+    a, b, c, d, e, f = m
+    return a * x + c * y + e, b * x + d * y + f
+
+
+def _find(root, ident):
     node = root.find(f".//*[@id='{ident}']")
-    return float(node.get('data-bearing'))
+    if node is None:
+        raise ValueError(f'Missing element {ident}')
+    return node
+
+
+def pivot_of(root, compass_ident):
+    """Centre of the needle pivot (the smallest circle drawn in the compass group)."""
+    group = _find(root, compass_ident)
+    dot = min(group.iter(SVG_NS + 'circle'), key=lambda c: float(c.get('r')))
+    return _apply(_ctm(root, dot), float(dot.get('cx')), float(dot.get('cy')))
+
+
+def visible_bearing(root, ident, pivot):
+    """Bearing from the pivot to the drawn polygon vertex farthest from it (the tip)."""
+    node = _find(root, ident)
+    m = _ctm(root, node)
+    pts = [_apply(m, *map(float, pair.split(','))) for pair in node.get('points').split()]
+    tip = max(pts, key=lambda q: hypot(q[0] - pivot[0], q[1] - pivot[1]))
+    return line_bearing(pivot[0], pivot[1], tip[0], tip[1])
+
+
+def bearing_of(root, ident):
+    """Descriptive metadata only; compared with, never substituted for, the drawn geometry."""
+    return float(_find(root, ident).get('data-bearing'))
 
 
 def line_dir(root, ident):
-    node = root.find(f".//*[@id='{ident}']")
-    return line_bearing(*(float(node.get(k)) for k in ('x1', 'y1', 'x2', 'y2')))
+    node = _find(root, ident)
+    m = _ctm(root, node)
+    x1, y1 = _apply(m, float(node.get('x1')), float(node.get('y1')))
+    x2, y2 = _apply(m, float(node.get('x2')), float(node.get('y2')))
+    return line_bearing(x1, y1, x2, y2)
 
 
 def angle_diff(a, b):
@@ -239,18 +317,23 @@ def angle_diff(a, b):
 def z11_r05_checks(svg):
     root = ElementTree.fromstring(svg)
     checks = {}
+    measured = {}
     for phase in ('before', 'after'):
         travel = line_dir(root, f'compass-{phase}-travel')
         neat = line_dir(root, f'map-{phase}-neatline')
-        arrow = bearing_of(root, f'compass-{phase}-orienting')
-        needle = bearing_of(root, f'compass-{phase}-needle')
+        pivot = pivot_of(root, f'compass-{phase}')
+        arrow = visible_bearing(root, f'compass-{phase}-orienting', pivot)
+        needle = visible_bearing(root, f'compass-{phase}-needle', pivot)
+        measured[phase] = dict(needle=round(needle, 2), orienting_arrow=round(arrow, 2), travel=round(travel, 2))
         # the neat line is emitted south-west corner to north-west corner, i.e. toward map north
         checks[phase] = dict(
             travel_parallel_to_neat_line=angle_diff(travel, neat) < LINE_TOL,
-            orienting_arrow_equals_travel_plus_declination=angle_diff(arrow, travel + DECLINATION) < LINE_TOL,
-            needle_on_magnetic_north=angle_diff(needle, DECLINATION) < 0.05,
-            needle_in_orienting_arrow=angle_diff(needle, arrow) < 0.05,
+            orienting_arrow_equals_travel_plus_declination=angle_diff(arrow, travel + DECLINATION) < VISIBLE_TOL,
+            needle_on_magnetic_north=angle_diff(needle, DECLINATION) < VISIBLE_TOL,
+            needle_in_orienting_arrow=angle_diff(needle, arrow) < VISIBLE_TOL,
             map_north_on_true_north=angle_diff(travel, 0) < LINE_TOL,
+            metadata_matches_drawing=(angle_diff(bearing_of(root, f'compass-{phase}-needle'), needle) < VISIBLE_TOL
+                                      and angle_diff(bearing_of(root, f'compass-{phase}-orienting'), arrow) < VISIBLE_TOL),
         )
     key = {phase: angle_diff(line_dir(root, f'key-{phase}-magnetic'), line_dir(root, f'key-{phase}-true'))
            for phase in ('before', 'after')}
@@ -259,9 +342,9 @@ def z11_r05_checks(svg):
                 and not checks['before']['map_north_on_true_north']
                 and all(checks['before'][k] for k in ('travel_parallel_to_neat_line',
                                                       'orienting_arrow_equals_travel_plus_declination',
-                                                      'needle_on_magnetic_north'))
+                                                      'needle_on_magnetic_north', 'metadata_matches_drawing'))
                 and all(abs(v - DECLINATION) < LINE_TOL for v in key.values()))
-    return dict(phases=checks, north_key_declination=key, declination_drawn=DECLINATION,
+    return dict(phases=checks, measured_from_drawn_geometry=measured, north_key_declination=key, declination_drawn=DECLINATION,
                 declination_labelled='exaggerated example; use current local value', accepted=accepted)
 
 
@@ -287,6 +370,9 @@ def main():
             (OUT / 'revised' / f'{page}.svg').write_text(svg, encoding='utf-8')
         if args.check and (OUT / 'revised' / f'{page}.svg').read_text(encoding='utf-8') != svg:
             raise SystemExit(f'{page} differs from a fresh geometry-checked build')
+        delivered = ROOT / 'foundations/reader/visuals' / f'{page}.svg'
+        if args.check and not check(delivered.read_text(encoding='utf-8'))['accepted']:
+            raise SystemExit(f'{page}: the delivered reader figure fails the measured geometry check')
     receipt = json.dumps(results, indent=1, sort_keys=True) + '\n'
     if args.write:
         (OUT / 'qa/NAVIGATION_GEOMETRY.json').write_text(receipt, encoding='utf-8')

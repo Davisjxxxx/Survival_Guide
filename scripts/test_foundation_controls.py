@@ -160,6 +160,47 @@ class ControlTests(unittest.TestCase):
             html = (FOUND / 'reader' / f'{cid}.html').read_text(encoding='utf-8')
             self.assertIn('Current assessment</strong> · W2C-E004', html)
 
+    def test_compass_check_measures_drawn_geometry_not_metadata(self):
+        """RT01-09: a 90-degree visible-needle mutation with unchanged data-bearing must fail."""
+        import re as _re
+        from xml.etree import ElementTree
+        from build_w2c_navigation import pivot_of, z11_r05_checks
+        delivered = (FOUND / 'reader/visuals/Z11-R05.svg').read_text(encoding='utf-8')
+        self.assertTrue(z11_r05_checks(delivered)['accepted'])
+        cx, cy = pivot_of(ElementTree.fromstring(delivered), 'compass-after')
+        needle = _re.search(r'<polygon id="compass-after-needle"[^>]*>', delivered).group(0)
+        by_transform = delivered.replace(needle, needle.replace('<polygon ', f'<polygon transform="rotate(90 {cx:.1f} {cy:.1f})" '))
+        self.assertFalse(z11_r05_checks(by_transform)['accepted'])
+        points = _re.search(r'points="([^"]+)"', needle).group(1)
+        rotated = ' '.join(f'{cx - (float(y) - cy):.1f},{cy + (float(x) - cx):.1f}'
+                           for x, y in (pair.split(',') for pair in points.split()))
+        by_points = delivered.replace(needle, needle.replace(points, rotated))
+        self.assertIn('data-bearing', by_points)
+        self.assertFalse(z11_r05_checks(by_points)['accepted'])
+
+    def test_proof_inputs_detect_figure_and_style_changes(self):
+        """RT01-06: a figure or stylesheet change makes a receipted proof stale; packaged proofs cannot be withheld."""
+        import json, shutil
+        from proof_inputs import PACKAGED_PROOF_NAMES, edition_of, fingerprint, stale_pages
+        reader = FOUND / 'reader'
+        card = next(c for c in json.loads((reader / 'page-manifest.json').read_text()) if c['id'] == 'Z14-P53')
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp)
+            (copy / 'visuals').mkdir()
+            for rel in ('Z14-P53.html', 'visuals/Z14-P53.svg', 'library.css', 'edition.css'):
+                shutil.copyfile(reader / rel, copy / rel)
+            printed = fingerprint(copy, [card])
+            self.assertEqual(stale_pages(printed, fingerprint(copy, [card])), [])
+            svg = copy / 'visuals/Z14-P53.svg'
+            svg.write_text(svg.read_text(encoding='utf-8').replace('</svg>', '<!-- changed --></svg>'), encoding='utf-8')
+            self.assertEqual(stale_pages(printed, fingerprint(copy, [card])), ['Z14-P53'])
+            svg.write_bytes((reader / 'visuals/Z14-P53.svg').read_bytes())
+            (copy / 'edition.css').write_text('/* changed */', encoding='utf-8')
+            self.assertEqual(stale_pages(printed, fingerprint(copy, [card])), ['Z14-P53'])
+        self.assertIn(edition_of('Z14-letter.pdf'), PACKAGED_PROOF_NAMES)
+        self.assertIn(edition_of('reconstructions.pdf'), PACKAGED_PROOF_NAMES)
+        self.assertNotIn(edition_of('encyclopedia-a4.pdf'), PACKAGED_PROOF_NAMES)
+
     def test_figure_spec_rejects_misspelled_branch_and_cue_keys(self):
         with self.assertRaisesRegex(ValueError,'Invalid figure specification'):
             validate_spec('Z02-P42',{'type':'failure_mode','cause':'snow','symptom':'crack','correction':'leave'})
