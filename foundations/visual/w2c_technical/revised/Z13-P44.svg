@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Backsiphonage through a submerged hose and the two simple barriers</title>
+<desc id="desc">Left: an outdoor faucet feeds a garden hose whose end sits under soapy or chemical liquid in a bucket. A main break or shutoff drops supply pressure, so the liquid is pulled back up the hose and into the house pipes. Right: a hose-bibb vacuum breaker on the faucet vents to air when pressure drops, the hose end is held above the bucket rim to keep an air gap, and a rain barrel or sump has no hard connection to house plumbing. Conceptual drawing, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P44 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p44-artwork">
+<rect x="24" y="46" width="414" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">✕ HOW BACKSIPHONAGE HAPPENS</text>
+<rect x="462" y="46" width="414" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="478" y="72" class="head ok">✓ BARRIERS THAT STOP IT</text>
+<rect x="30" y="300" width="402" height="32" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/>
+<rect x="58" y="78" width="16" height="222" fill="#d7d0bd" stroke="#7d7462" stroke-width="1.5"/>
+<path d="M66 128L66 316L420 316" fill="none" stroke="#4a5a62" stroke-width="12" stroke-linejoin="round"/><path d="M66 128L66 316L420 316" fill="none" stroke="#8fa3ad" stroke-width="9" stroke-linejoin="round"/>
+<rect x="74" y="119" width="34" height="18" rx="4" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><rect x="82" y="106" width="14" height="13" rx="3" fill="#7c8c95" stroke="#183a30" stroke-width="1.6"/><rect x="96" y="137" width="12" height="12" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/>
+<path d="M238.8 237.9L325.2 237.9L320.6 290L243.4 290Z" fill="#cfd8a8"/><path d="M236 206L328 206L320.6 290L243.4 290Z" fill="none" stroke="#183a30" stroke-width="2.6" stroke-linejoin="round"/><line x1="232" y1="206" x2="332" y2="206" stroke="#183a30" stroke-width="3.4"/>
+<path d="M102 149L102 174L150 178L214 182L258 188L270 230L276 268" fill="none" stroke="#2d5a2b" stroke-width="10" stroke-linejoin="round"/><path d="M102 149L102 174L150 178L214 182L258 188L270 230L276 268" fill="none" stroke="#4f8a4c" stroke-width="7" stroke-linejoin="round"/>
+<path d="M376 309l10-10 8 8 9-9" fill="none" stroke="#8b3825" stroke-width="3"/>
+<path d="M270 258L262 214" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
+<path d="M232 186L170 180" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
+<path d="M78 200V262" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
+<path d="M120 316H300" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
+<path class="lead" d="M282 266L334 200"/>
+<text x="338" y="194" class="tiny">hose end</text>
+<text x="338" y="215" class="tiny">under soapy</text>
+<text x="338" y="236" class="tiny">liquid</text>
+<path class="lead" d="M196 172L204 132"/>
+<text x="150" y="100" class="tiny">liquid pulled back</text>
+<text x="150" y="121" class="tiny">into house pipes</text>
+<path class="lead" d="M390 300L396 290"/>
+<text x="332" y="266" class="tiny">main break:</text>
+<text x="332" y="287" class="tiny">pressure drop</text>
+<rect x="468" y="300" width="402" height="32" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/>
+<rect x="496" y="78" width="16" height="222" fill="#d7d0bd" stroke="#7d7462" stroke-width="1.5"/>
+<path d="M504 128L504 316L860 316" fill="none" stroke="#4a5a62" stroke-width="12" stroke-linejoin="round"/><path d="M504 128L504 316L860 316" fill="none" stroke="#8fa3ad" stroke-width="9" stroke-linejoin="round"/>
+<rect x="512" y="119" width="34" height="18" rx="4" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><rect x="520" y="106" width="14" height="13" rx="3" fill="#7c8c95" stroke="#183a30" stroke-width="1.6"/><rect x="534" y="137" width="12" height="12" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><rect x="532" y="149" width="16" height="22" rx="3" fill="#e2c46b" stroke="#183a30" stroke-width="2"/><circle cx="536" cy="157" r="1.6" fill="#183a30"/><circle cx="540" cy="157" r="1.6" fill="#183a30"/><circle cx="544" cy="157" r="1.6" fill="#183a30"/>
+<path d="M556 140L540 147" fill="none" stroke="#6b7f8c" stroke-width="2.5" marker-end="url(#m-air)"/>
+<path d="M556 156L540 155" fill="none" stroke="#6b7f8c" stroke-width="2.5" marker-end="url(#m-air)"/>
+<path d="M643.7 254L728.3 254L724.6 292L647.4 292Z" fill="#bcd8e3"/><path d="M640 216L732 216L724.6 292L647.4 292Z" fill="none" stroke="#183a30" stroke-width="2.6" stroke-linejoin="round"/><line x1="636" y1="216" x2="736" y2="216" stroke="#183a30" stroke-width="3.4"/>
+<path d="M540 171L540 196L590 198L640 182L676 178L684 196" fill="none" stroke="#2d5a2b" stroke-width="10" stroke-linejoin="round"/><path d="M540 171L540 196L590 198L640 182L676 178L684 196" fill="none" stroke="#4f8a4c" stroke-width="7" stroke-linejoin="round"/>
+<path d="M684 199v42" stroke="#3d7186" stroke-width="3" stroke-dasharray="4 4"/>
+<path d="M594 188L636 176" fill="none" stroke="#205b68" stroke-width="3.2" marker-end="url(#m-flow)"/>
+<path d="M694 199h28M694 216h28" stroke="#183a30" stroke-width="1.4"/><path d="M716 199v17" stroke="#183a30" stroke-width="1.4"/>
+<path class="lead" d="M694 207L626 236"/>
+<text x="520" y="244" class="tiny">air gap:</text>
+<text x="520" y="265" class="tiny">end above rim</text>
+<path class="lead" d="M549 150L586 118"/>
+<text x="590" y="98" class="tiny">vacuum breaker</text>
+<text x="590" y="119" class="tiny">vents to air if</text>
+<text x="590" y="140" class="tiny">pressure drops</text>
+<rect x="792" y="226" width="56" height="70" rx="8" fill="#9fb6a0" stroke="#3f5a46" stroke-width="2"/><path d="M792 240h56M792 282h56" stroke="#3f5a46" stroke-width="1.5"/>
+<path d="M792 262L760 262L760 310" fill="none" stroke="#7d857a" stroke-width="9" stroke-linejoin="round"/><path d="M792 262L760 262L760 310" fill="none" stroke="#c4c9c0" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="760" cy="286" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M755 281.1L765 290.9M765 281.1L755 290.9" stroke="#8b3825" stroke-width="3"/>
+<text x="722" y="98" class="tiny">rain barrel, sump or</text>
+<text x="722" y="119" class="tiny">untreated pump: no</text>
+<text x="722" y="140" class="tiny">hard connection to</text>
+<text x="722" y="161" class="tiny">house plumbing</text>
+<path class="lead" d="M812 224L806 184"/>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Suspected backsiphonage: stop drinking tap water; call the utility and a licensed plumber.</text>
+</g>
+</svg>

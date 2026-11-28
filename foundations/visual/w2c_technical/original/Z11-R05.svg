@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Compass alignment illustration withheld</title><desc id="desc">A verified diagram must show the map reference, the aligned baseplate and how the instrument handles declination.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker></defs>
+<style>text{font:650 20px system-ui,sans-serif;fill:#183a30}.small{font-size:18px}.warn{fill:#8b3825}.arrow{stroke:#205b68;stroke-width:4;fill:none;marker-end:url(#a)}.reverse{stroke:#8b3825;stroke-width:4;fill:none;marker-end:url(#b)}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z11-R05 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<rect x="43" y="120" width="814" height="181" rx="10" fill="#f5eadb" stroke="#8b3825" stroke-width="2"/><text x="67" y="160">Compass alignment illustration withheld</text><text x="67" y="205" class="small">The plate needs a matching map reference and aligned baseplate.</text><text x="67" y="235" class="small">Verify the instrument’s declination method.</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/><text x="37" y="367" class="small">Use the instrument manual and verify orientation against mapped terrain.</text>
+</svg>

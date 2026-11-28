@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Flash flood versus river flood rise</title>
+<desc id="desc">Two schematic water-level curves. Left: a flash flood rises rapidly over low-lying areas, generally within about six hours of the cause, and can strike where it is not raining. Right: a river flood comes as the river overtops its banks after upstream rain or snowmelt; the curve is schematic with no time scale, and river forecasts give the expected crest. A note covers ice jams and dam or levee failures, which can release a sudden flood with little warning. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z15-P23 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z15-p23-artwork">
+<rect x="24" y="46" width="414" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="40" y="72" class="head">FLASH FLOOD</text>
+<rect x="452" y="46" width="424" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="468" y="72" class="head">RIVER OR SNOWMELT FLOOD</text>
+<path d="M70 108V282H410" fill="none" stroke="#183a30" stroke-width="2.2"/>
+<text x="78" y="114" class="tiny">water level</text>
+<text x="376" y="302" class="tiny">time</text>
+<path d="M70 186.3H410" stroke="#8b3825" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="78" y="178.3" class="tiny">flood level</text>
+<rect x="84" y="256" width="7" height="24" fill="#5f8fa3"/>
+<rect x="94" y="244" width="7" height="36" fill="#5f8fa3"/>
+<rect x="104" y="232" width="7" height="48" fill="#5f8fa3"/>
+<rect x="114" y="256" width="7" height="24" fill="#5f8fa3"/>
+<rect x="124" y="244" width="7" height="36" fill="#5f8fa3"/>
+<path d="M70 268C120 268 132 264 150 250C162 236 168 140 182 126C200 118 240 160 300 222C340 252 380 262 410 264" fill="none" stroke="#3d7186" stroke-width="4"/>
+<text x="194" y="120" class="tiny">rapid rise, generally within</text>
+<text x="194" y="141" class="tiny">about 6 h of the cause</text>
+<text x="74" y="316" class="tiny">rain bars: intense local rain</text>
+<path d="M498 108V282H838" fill="none" stroke="#183a30" stroke-width="2.2"/>
+<text x="506" y="114" class="tiny">water level</text>
+<text x="804" y="302" class="tiny">time</text>
+<path d="M498 186.3H838" stroke="#8b3825" stroke-width="1.6" stroke-dasharray="6 5"/>
+<text x="506" y="178.3" class="tiny">flood level</text>
+<path d="M498 270C560 268 600 258 640 236C690 208 720 160 760 148C800 142 820 152 838 162" fill="none" stroke="#3d7186" stroke-width="4"/>
+<circle cx="760" cy="148" r="5" fill="#183a30"/>
+<text x="654" y="132" class="tiny">forecast crest</text>
+<text x="506" y="316" class="tiny">schematic: river overtops banks</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Ice jams and dam or levee failures can release a sudden flood: go to high ground now.</text>
+</g>
+</svg>

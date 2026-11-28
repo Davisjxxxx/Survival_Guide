@@ -25,6 +25,9 @@ VISUAL_COMPANION_DIRS = (
     ('v03-authentic-photos.zip', FOUND / 'visual/v03_authentic_photos', 'Authentic V03 acquired photographs, display derivatives and full provenance manifests'),
     ('v02-atlas-comparison.zip', FOUND / 'visual/v02_atlas_comparison', 'Z16 atlas before-and-after optimization comparison package pending owner acceptance'),
     ('a04-review.zip', FOUND / 'visual/a04_comparison', 'A04 actual reader comparison captures, incoming plate custody, and linked atlas owner comparison'),
+    ('w2c-technical.zip', FOUND / 'visual/w2c_technical', 'Wave 2C technical plates: preserved predecessors, revised editable SVGs, geometry and topology receipts and visual QA receipts'),
+    ('w2c-authentic-photos.zip', FOUND / 'visual/w2c_authentic_photos', 'Wave 2C open-licence provider originals, EXIF-corrected display copies, acquisition records and rights register'),
+    ('w2c-context.zip', FOUND / 'visual/w2c_context', 'Wave 2C actual reader captures at 390 and 1280 px, predecessor comparisons in colour and grayscale, and tagged Letter/A4 batch proofs'),
 )
 MAX_GITHUB_SAFE_BYTES = 45 * 1024 * 1024  # Strictly under GitHub's 50 MB warning and 100 MB hard limit
 
@@ -77,6 +80,38 @@ def verify_retained_pdfs():
     for pdf in sorted(proofs.glob('*.pdf')):
         head = pdf.read_bytes()[:5]
         require(head == b'%PDF-' and pdf.stat().st_size > 10_000, f'Invalid PDF proof: {pdf.name}')
+    verify_proof_currency(proofs)
+
+
+def verify_proof_currency(proofs):
+    """RT01-06: a receipted proof must have been printed from the current manuscripts, figures and
+    print styles. A stale proof fails unless PROOF-CURRENCY.json withholds it with exactly the
+    changed pages, and packaged proofs (zone editions, reconstructions) can never be withheld."""
+    from proof_inputs import PACKAGED_PROOF_NAMES, edition_of, editions, fingerprint, stale_pages
+    receipt = json.loads((proofs / 'tagged-print-qa.json').read_text())
+    reader = FOUND / 'reader'
+    cards = json.loads((reader / 'page-manifest.json').read_text(encoding='utf-8'))
+    by_name = editions(cards)
+    cache, stale = {}, {}
+    for filename, record in receipt.items():
+        name = edition_of(filename)
+        require(name in by_name, f'Receipted proof for an unknown edition: {filename}')
+        require('page_inputs' in record and 'style_inputs' in record,
+                f'{filename}: receipt records no source-input fingerprint; reprint it')
+        changed = stale_pages(record, fingerprint(reader, by_name[name], cache))
+        if changed:
+            stale[filename] = changed
+    currency_path = proofs / 'PROOF-CURRENCY.json'
+    currency = json.loads(currency_path.read_text()) if currency_path.is_file() else {'withheld': {}}
+    withheld = currency.get('withheld', {})
+    for filename, pages in stale.items():
+        require(edition_of(filename) not in PACKAGED_PROOF_NAMES,
+                f'Packaged proof {filename} is stale ({len(pages)} pages changed, e.g. {pages[:3]}); '
+                f'reprint it with print_foundations_tagged.py --editions {edition_of(filename)}')
+        require(filename in withheld and sorted(withheld[filename].get('pages', [])) == pages,
+                f'Stale proof {filename} ({len(pages)} pages changed, e.g. {pages[:3]}) is neither reprinted '
+                'nor withheld with exactly those pages in PROOF-CURRENCY.json')
+    require(set(withheld) <= set(stale), f'PROOF-CURRENCY.json withholds current proofs: {sorted(set(withheld) - set(stale))}')
 
 
 def package_members(include_consolidated_pdfs=False):

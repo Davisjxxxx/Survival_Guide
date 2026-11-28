@@ -86,14 +86,14 @@ Z04-P19 | Assess floodwater and post-storm surface sources | CDC emergency water
 objective: Avoid acute chemical, sewage and structural hazards when storm runoff transforms ordinary waterways.
 applies: Creeks, rivers, lakes and standing water during or immediately after heavy storms, flash floods or urban flooding.
 equipment: Bottled or stored potable reserve, local water advisories and safe high-ground access.
-action: Stay out of active floodwater; storm surges carry raw sewage, fuel, submerged debris, agricultural chemicals and extreme turbidity that defeat routine filters. @W01,W24,T07
+action: Stay out of active floodwater; storm surges carry raw sewage, fuel, submerged debris, agricultural chemicals and extreme turbidity that defeat routine filters. @W39,W01,W24
 action: Use stored potable water, sealed commercial supplies or official distribution sites while flood conditions and utility advisories persist. @W06,W07,W14
-action: Wait for official public-health clearance or safely accessible, non-flooded headwater sources before resuming routine backcountry water collection. @W07,W09,ED
+action: Wait for official public-health clearance or safely accessible, non-flooded headwater sources before resuming routine backcountry water collection. @W39,W07,ED
 failure: Trying to filter muddy floodwater at a swollen riverbank, risking both chemical exposure and bank collapse or drowning. @W01,W24,T07
 verify: Confirm all drinking water comes from verified potable reserves or cleared sources outside flood-impacted channels. @W06,W07,ED
-stop: Never wade into moving floodwater to reach a tap or stream, and never boil floodwater suspected of fuel or chemical contamination. @W01,T07
+stop: Never wade into moving floodwater to reach a tap or stream, and never boil floodwater suspected of fuel or chemical contamination. @W39,W01
 diagram: Flood mixes sewage and fuel | Rely on safe reserves | Wait for cleared sources
-visual: Failure-mode illustration showing how floodwaters combine physical drowning risk, chemical dilution failure and rapid filter clogging. Conceptual, not to scale.
+visual: A flooded street carrying sewage, hazardous waste, debris and a downed line; the person stays out of the water and drinks stored or official water until local officials clear the supply. Conceptual, not to scale.
 reviewer: Emergency management and drinking-water safety
 
 Z04-P20 | Protect against contaminated private wells after flooding | CDC private-well flood guidance; new manuscript
@@ -310,14 +310,14 @@ Z04-P35 | Select certified filters for Giardia and Cryptosporidium cysts | CDC G
 objective: Choose effective parasite barriers where standard chlorine or iodine disinfection alone is unreliable.
 applies: Surface water in wilderness, rural or flood-affected areas where wildlife or livestock can shed protozoan cysts.
 equipment: Filter rated for specific cyst reduction or removal, filter of one micron absolute or smaller, or boiling setup.
-action: Recognize that Cryptosporidium oocysts strongly resist routine chlorine bleach and iodine doses, and Giardia cysts also resist brief cold-water chlorination. @W19,W20,W10
-action: Use boiling or a filter independently certified for cyst reduction or removal, or rated at one micron absolute or smaller for parasite reduction. Look for a cyst-specific claim under NSF/ANSI 53 or 58 where certified. @W20
+action: Recognize that Cryptosporidium oocysts strongly resist routine chlorine bleach and iodine doses, and Giardia cysts also resist brief cold-water chlorination. @W19,W34,W10
+action: Use boiling or a filter independently certified for cyst reduction or removal, or rated at one micron absolute or smaller for parasite reduction. Look for a cyst-specific claim under NSF/ANSI 53 or 58 where certified. @W20,W33
 action: Combine cyst-rated filtration with chemical disinfection when viral risk is also present (such as near human sewage or heavy-use corridors). @W04,W20
 failure: Relying solely on standard chlorine drops in cold stream water where Cryptosporidium oocysts survive treatment. @W20,W05
 verify: Confirm the filter label explicitly states cyst removal or absolute ≤1 micron rating and that seals and cartridge are intact. @W19,W20,W28,ED
 stop: If the filter lacks cyst verification or suffers seal or freeze damage, boil the water instead or switch to a known potable supply. @W02,W20,W28
 diagram: Routine chlorine misses Crypto | Verify specific cyst claim | Boil when appropriate
-visual: Compares parasite barriers. Neither a standard number by itself nor cyst removal establishes protection against all hazards.
+visual: Membrane cross-sections: an absolute 1-micron filter stops parasite cysts while a nominal 1-micron filter lets some through its larger holes; neither stops viruses. Conceptual, not to scale.
 reviewer: Drinking-water microbiology and public health
 
 Z04-P36 | Operate pump, squeeze and gravity filters without cross-contaminating outlets | B009 equipment hygiene and CDC treatment; new manuscript
@@ -367,13 +367,13 @@ objective: Apply label-verified household sodium hypochlorite accurately when bo
 applies: Emergency drinking-water disinfection using fresh, regular unscented liquid bleach (5%–9% sodium hypochlorite) on chemically acceptable water.
 equipment: Fresh unscented 5%–9% liquid bleach with readable label, clean dropper or measuring spoon, pre-filter cloth, timer and clean lidded container.
 action: Prefer an approved safe supply or boiling when appropriate. Use bleach only as an emergency option and only if the product and concentration are covered by a current official instruction. @W01,W02,W12
-action: Follow local public health directions or one complete current EPA or CDC protocol. Verify the exact formulation, water volume and required pretreatment. Do not combine tables or improvise a rounded dose. @W12
-action: Follow the selected protocol for the full dose and contact time. A chlorine smell alone cannot prove treatment, and this process does not reliably address all parasites. @W12,W20
+action: Follow local public health directions or one complete current EPA or CDC protocol. Verify the exact formulation, water volume and required pretreatment. Do not combine tables or improvise a rounded dose. @W31,W32,W12
+action: Follow the selected protocol for the full dose and contact time. A chlorine smell alone cannot prove treatment, and this process does not reliably address all parasites. @W31,W32,W20
 failure: Using aged weak bleach, scented laundry bleach, or drinking immediately without the 30-minute contact wait. @W12,W05
 verify: Record the source protocol, product concentration, water volume, exact dose and elapsed time. @W12,ED
 stop: Use another supply if the product strength or treatment steps are uncertain, or if a chemical, fuel or algal toxin hazard is suspected. @W01,W12,W15
 diagram: Confirm product and concentration | Follow one official table | Record dose and contact time
-visual: Protocol-selection schematic. Select the applicable local or agency instructions for the entire procedure.
+visual: One bottle, two official tables: the CDC 5% to 9% table and the EPA 8.25% column give different drop counts per gallon, so one complete table is followed, the dose doubled only as that table directs and the full wait timed. Conceptual, not to scale.
 reviewer: Drinking-water safety and public health
 
 Z04-P40 | Match chlorine dioxide and halogen tablets to temperature and contact time | CDC backcountry treatment; new manuscript
@@ -381,13 +381,13 @@ objective: Follow exact manufacturer dose, water-temperature and contact-time ta
 applies: Backcountry travel using commercial chlorine dioxide tablets/drops, chlorine tablets or iodine products on chemically acceptable raw water.
 equipment: Unexpired commercial disinfectant in original labeled packaging, graduated container, pre-filter cloth and watch or timer.
 action: Read the product's active chemistry, expiration date and exact volume rating; chlorine dioxide, chlorine and iodine differ sharply in cyst coverage and wait times. @W05,W10,W20
-action: Follow the exact product instructions for water clarity, temperature, volume and contact time. If the product does not claim efficacy for the expected pathogen under those conditions, select a suitable treatment or verified supply. @W04,W05,W20
-action: Screen every group member before using iodine—avoid iodine-treated water during pregnancy, with thyroid conditions or with iodine hypersensitivity. @W10
+action: Follow the exact product instructions for water clarity, temperature, volume and contact time. If the product does not claim efficacy for the expected pathogen under those conditions, select a suitable treatment or verified supply. @W34,W05,W20
+action: Screen every group member before using iodine—avoid iodine-treated water during pregnancy, with thyroid conditions or with iodine hypersensitivity. @W10,W34
 failure: Using a short summer wait time in near-freezing stream water, or using expired blister packs with discolored crumbled tablets. @W05,W10
 verify: Record exact product, volume, water clarity, start time and label-required finish time before anyone drinks. @W05,ED
 stop: Do not guess doses from unlabeled loose tablets or use chemical disinfection to handle suspected fuel, chemical or algal-toxin contamination. @W01,W05,W15
 diagram: Match chemistry and user | Adjust wait for cold water | Complete full contact time
-visual: Mechanism diagram illustrating how water clarity, cold temperature and active halogen/chlorine-dioxide chemistry govern required contact time. Conceptual, not to scale.
+visual: The product label sets the dose and contact time for the water clarity and temperature; chemistries differ in parasite coverage; iodine is screened out for some users. Conceptual, not to scale.
 reviewer: Drinking-water safety and wilderness medicine
 
 Z04-P41 | Recognize why boiling and chlorine fail against algal and chemical toxins | CDC, EPA and MDH contaminant guidance; new manuscript
@@ -409,13 +409,13 @@ objective: Combine physical clarification, pore filtration and secondary disinfe
 applies: Untreated surface water where turbidity, parasites, bacteria and viruses may coexist and chemical hazards are excluded.
 equipment: Pre-filter cloth or settling vessel, cyst-rated filter and matched chemical disinfectant or UV purifier.
 action: Clarify turbid water first by settling or cloth straining so sediment does not clog the fine filter cartridge or block UV light. @W08,W24,W11
-action: Pass clarified water through a cyst- and bacteria-rated filter into a clean vessel to remove protozoa (Giardia, Cryptosporidium) and particulate shielding. @W04,W19,W20
-action: Apply the secondary barrier—label-directed chemical disinfection or rated UV cycle—to inactivate viruses and any bacteria not caught by the filter, keeping threads clean. @W04,W05,W11
+action: Pass clarified water through a filter rated absolute 1 micron or smaller, or certified to NSF/ANSI 53 or 58 for cyst reduction, into a clean vessel to remove parasites (Giardia, Cryptosporidium); only an absolute 0.3-micron rating also removes bacteria. @W34,W19,W20
+action: Apply the secondary barrier—label-directed chemical disinfection or rated UV cycle—to inactivate viruses and any bacteria not caught by the filter, keeping threads clean. @W34,W05,W11
 failure: Running UV or bleach before settling cloudy water, or filtering after disinfection through a dirty cartridge that reintroduces microbes. @W08,W11,W04
 verify: Confirm each barrier ran in strict order (screen -> clarify -> filter -> disinfect) with no raw-side contact after the final step. @W04,W08,W06,ED
 stop: If any required barrier fails or chemical contamination is suspected, switch to boiling (if chemically safe) or seek an alternate potable source. @W01,W02,W04
 diagram: Clarify solids first | Filter cysts and bacteria | Disinfect viruses last
-visual: Mechanism diagram sequencing four progressive barriers from raw source screening through clarification, filtration and viral disinfection. Conceptual, not to scale.
+visual: Flow path from cloudy raw water through settling or cloth straining, a parasite-rated filter and chemical or UV disinfection into a clean bottle, with the wrong orders crossed out. Conceptual, not to scale.
 reviewer: Drinking-water treatment engineering
 
 Z04-P43 | Aerate and cool boiled water cleanly without recontamination | EPA emergency disinfection and CDC storage; new manuscript
@@ -450,14 +450,14 @@ Z04-P45 | Clean and sanitize reusable food-grade water storage containers | CDC 
 objective: Prepare safe food-grade containers before filling them with emergency or backcountry drinking water.
 applies: Reusable food-grade plastic or metal water jugs, bottles and bladders prior to filling with potable water.
 equipment: Dishwashing soap, warm potable water, plain unscented 5%–9% liquid household bleach, measuring teaspoon and clean drain rack.
-action: Inspect the container first—use only intact food-grade vessels with tight-fitting lids, never containers that ever held toxic chemicals, cleaners or fuel. @W06,W13
-action: Wash the interior, cap and threads thoroughly with dish soap and warm water, then rinse completely with safe water. @W13
-action: Sanitize by swirling a CDC bleach solution (1 teaspoon unscented 5%–9% bleach per quart of water) over all inner surfaces for at least 30 seconds, pour out and rinse with safe water or air dry. @W13
-failure: Filling unwashed recycled milk jugs, cracked bottles or former chemical containers with emergency drinking water. @W06,W13
-verify: Confirm the container is food-grade, odor-free, rinsed clean after sanitizing and sealed promptly with a clean tight cap. @W13,W06,ED
-stop: Discard containers with persistent chemical odor, cracked plastic, damaged gaskets or unknown industrial history; washing cannot make them safe. @W06,W13
-diagram: Wash with soap and rinse | Sanitize ≥30 s dilute bleach | Rinse with safe water and seal
-visual: Exploded component view showing container body, cap threads, gasket seal and the three-stage wash-sanitize-rinse sequence. Conceptual, not to scale.
+action: Inspect the container first—use only intact food-grade vessels with tight-fitting lids, never containers that ever held toxic chemicals, cleaners or fuel. @W06,W35
+action: Wash the interior, cap and threads thoroughly with dish soap and warm water, then rinse completely with safe water. @W35
+action: Sanitize with 1 teaspoon unscented 5%–9% bleach in 1 quart of water: cap, shake so it touches all inside surfaces, wait at least 30 seconds, pour it out and let the container air-dry before filling. @W35
+failure: Filling unwashed recycled milk jugs, cracked bottles or former chemical containers with emergency drinking water. @W06,W35
+verify: Confirm the container is food-grade, odor-free, air-dried after sanitizing, filled with safe water, capped and labelled drinking water with the date. @W35,W06,ED
+stop: Discard containers with persistent chemical odor, cracked plastic, damaged gaskets or unknown industrial history; washing cannot make them safe. @W06,W35
+diagram: Wash with soap and rinse | Sanitize ≥30 s dilute bleach | Pour out, air-dry, fill and label
+visual: Four steps: wash and rinse; shake a 1-teaspoon-per-quart bleach solution over every inside surface for at least 30 seconds; pour out and air-dry; fill, cap and label with the date. Conceptual, not to scale.
 reviewer: Drinking-water safety and public health
 
 Z04-P46 | Reject incompatible, chemical-residue or unrated water vessels | CDC storage containers and B009 vessel limits; new manuscript
@@ -508,40 +508,41 @@ applies: Multi-person camps, households under boil advisories and backcountry gr
 equipment: Permanent marker or high-contrast tape, distinct raw-only and potable-only vessels and timer or written batch log.
 action: Assign unmistakable physical differences—color, shape or bold waterproof labels—to raw collection bags, active chemical-wait vessels and ready-to-drink containers. @W06,W05,ED
 action: Keep raw vessels, scoops and pre-filters in a separate physical zone from clean drinking bottles, cups and cooking utensils. @W06,W08,ED
-action: Tag any chemically disinfecting bottle with its finish time (or keep its lid visibly marked) so no one drinks before contact time expires. @W05,W12,ED
+action: Tag any chemically disinfecting bottle with its finish time (or keep its lid visibly marked) so no one drinks before contact time expires. @W31,W12,ED
 failure: Handing an unlabeled clear bottle mid-disinfection to a thirsty companion or scooping boiled water with the same mug used to dip stream water. @W06,W05,W09
 verify: Any group member can identify raw, waiting and potable vessels immediately in dim light without asking or guessing by clarity. @W06,W09,ED
 stop: If a container's treatment status becomes uncertain or raw water contacts a clean rim, reclassify the entire vessel as raw until re-treated. @W06,W09,ED
 diagram: Raw zone: marked dirty | Waiting zone: timed batch | Clean zone: sealed potable
-visual: Comparative configuration showing three physically separated container zones with high-contrast labels and clean-side dispensing control. Conceptual, not to scale.
+visual: Three separated zones with one-way flow: raw collection gear, timed batches tagged with their finish time, and sealed drinking water; a raw scoop never crosses into the clean zone. Conceptual, not to scale.
 reviewer: Drinking-water safety and public health
 
 Z04-P50 | Rotate household water reserves and inspect seals and storage heat | CDC emergency water supply; new manuscript
 objective: Maintain stored household potable water so containers stay intact, cool and ready when municipal service fails.
 applies: Home, cabin and vehicle emergency water reserves prepared ahead of outages, storms or advisories.
 equipment: Commercially bottled water or sanitized food-grade jugs, permanent marker, cool dark storage space and calendar reminder.
-action: Label self-filled potable containers with fill date and rotate stored tap water every 6 months; follow printed expiration dates on sealed commercial water. @W14,W06
-action: Store water in a cool, dark location off bare concrete if recommended and well away from gasoline, pesticides, paint thinners or cleaning chemicals whose vapors can permeate plastics. @W06,W01
+action: Label self-filled potable containers with fill date and rotate stored tap water every 6 months; follow printed expiration dates on sealed commercial water. @W14,W35
+action: Store water in a cool (50–70°F), dark location out of direct sunlight and away from gasoline, pesticides and other toxic substances. @W35,W06
 action: Inspect stored jugs periodically for leaks, swollen caps, brittle plastic or off-odors, and keep a portable portion ready for rapid evacuation. @W06,W14,T13
 failure: Stacking emergency water jugs next to lawnmower gas cans in a hot garage for years without checking seals or rotating water. @W01,W06,W14
 verify: Confirm fill/expiration dates are current, seals are tight, storage stays cool and chemical-free, and at least 1 gallon per person per day for 3+ days is accessible. @W14,W06,ED
 stop: Replace any leaking, sun-degraded or chemically exposed container immediately rather than trusting its contents during an emergency. @W01,W06
 diagram: Date and rotate every 6 mo | Store cool away from fuels | Inspect seals and evacuation grab
-visual: Exploded maintenance layout detailing storage environment isolation, six-month rotation tagging, seal inspection and evacuation reserve staging. Conceptual, not to scale.
+visual: A two-year timeline marking a refill every 6 months for self-filled water and the printed date for commercial water, with leak, swollen-cap, brittle-plastic and odour checks and a portable evacuation portion. Conceptual, not to scale apart from the timeline.
 reviewer: Household preparedness and drinking-water safety
 
 Z04-P51 | Enforce potable-water boundaries for hygiene, wounds and infant formula | CDC emergency water and advisories; new manuscript
-objective: Apply safe-water standards consistently to teeth brushing, food washing, wound rinsing and infant feeding during advisories.
+objective: Apply safe-water standards consistently to teeth brushing, food washing and wound rinsing during advisories, and keep infant formula under its own preparation rules.
 applies: Boil-water advisories, backcountry camps and disaster outages where untreated water is nearby for utility tasks.
-equipment: Verified potable water, separate labeled utility water if permitted by notice, soap or alcohol hand sanitizer and clean utensils.
-action: Use only bottled or properly boiled-and-cooled water for drinking, mixing infant formula, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes. @W29,W07
+equipment: Verified potable water, labeled utility water if the notice permits, ready-to-feed formula for formula-fed infants, soap and clean utensils.
+action: Use only bottled or properly boiled-and-cooled water for drinking, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes. @W29,W07
+action: Treat infant formula as its own task (see Z14-P74): ready-to-feed is safest, especially under 2 months, premature or with a weakened immune system. Powder is not sterile, so safe water alone is not enough; follow current CDC and local directions. Under a chemical advisory, boiling does not help: use bottled water or ready-to-feed. @P26,P36,W07
 action: Rinse open wounds only with confirmed clean potable water (or sterile saline if available); never irrigate wounds with untreated stream, flood or bloom-affected water. @W29,W15,T01
 action: Under a Do Not Use advisory, obey official prohibitions on bathing, dishwashing and skin contact completely until authorities lift the order. @W07,W29
-failure: Boiling water for drinking while brushing teeth, washing lettuce or mixing baby formula with unboiled advisory tap water. @W29,W07
-verify: Confirm every ingestion, oral-hygiene, food-prep, infant-formula and wound-care task draws exclusively from the verified potable supply. @W29,W07,ED
-stop: If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance. @W29,T02,ED
-diagram: Ingestion and formula: potable | Wounds and dishes: potable | Do-Not-Use: zero tap contact
-visual: Decision tree routing household and field hygiene tasks strictly between verified potable supplies and official advisory prohibitions. Conceptual, not to scale.
+failure: Brushing teeth or washing lettuce with unboiled advisory tap water, or treating safe water as the only precaution when mixing powder for a newborn. @W29,W07,P26
+verify: Confirm every ingestion, oral-hygiene, food-prep and wound-care task draws from the verified potable supply, and that infant formula follows its separate CDC directions. @W29,W07,P26,ED
+stop: If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance. @P26,W29,T02,ED
+diagram: Drinking, teeth, food & ice: potable water | Infant formula: separate rules; ready-to-feed safest | Do-Not-Use: zero tap contact
+visual: Task routing: drinking, teeth, food and dish tasks use verified potable water; infant formula follows its own CDC rules; wounds get potable water or saline; a Do Not Use notice stops all tap contact. Conceptual, not to scale.
 reviewer: Public health and wilderness medicine
 
 Z04-P52 | Recognize filter bypass, expired bleach and incomplete UV cycles | CDC water treatment limits; new manuscript

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Raw, waiting and clean water zones kept apart</title>
+<desc id="desc">Three separated zones with one-way flow from left to right. Raw: collection bag, scoop and pre-filter marked with red tape stay here. Waiting: each disinfecting batch carries a tag with its finish time and a marked lid. Clean: sealed, labelled drinking water, cups and cooking pots. A raw scoop never crosses into the clean zone. If a vessel&#x27;s status is uncertain or raw water touches a clean rim, the whole vessel goes back to raw. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P49 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z04-p49-artwork">
+<rect x="24" y="46" width="270" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">RAW</text>
+<rect x="310" y="46" width="270" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="326" y="72" class="head">WAITING</text>
+<rect x="596" y="46" width="280" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="612" y="72" class="head ok">CLEAN</text>
+<path d="M52 120q30-14 60 0v80q-30 12-60 0z" fill="#b9a77d" fill-opacity=".8" stroke="#183a30" stroke-width="2"/><rect x="52" y="130" width="60" height="10" fill="#8b3825"/>
+<path d="M150 150h50v26h-50z" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><path d="M200 160h44" stroke="#183a30" stroke-width="5"/><rect x="150" y="150" width="50" height="8" fill="#8b3825"/>
+<path d="M160 196h44l-14 22h-16z" fill="#e8eef0" stroke="#183a30" stroke-width="1.8"/><path d="M176 218v10h12v-10" fill="none" stroke="#183a30" stroke-width="1.8"/><rect x="160" y="196" width="44" height="6" fill="#8b3825"/>
+<text x="40" y="250" class="tiny">raw bag, scoop and</text>
+<text x="40" y="271" class="tiny">pre-filter stay here</text>
+<rect x="350.1" y="110" width="13.4" height="9.6" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="340" y="119.6" width="33.6" height="70.4" rx="6" fill="#eef2f3" stroke="#183a30" stroke-width="2"/>
+<rect x="336" y="106" width="42" height="8" fill="#f2c94c"/>
+<path d="M374 140l20 10" stroke="#183a30" stroke-width="1.4"/><rect x="390" y="140" width="50" height="24" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="1.4"/><text x="415" y="157" class="tiny" text-anchor="middle" font-size="12">14:30</text>
+<rect x="460.1" y="110" width="13.4" height="9.6" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="450" y="119.6" width="33.6" height="70.4" rx="6" fill="#eef2f3" stroke="#183a30" stroke-width="2"/>
+<rect x="446" y="106" width="42" height="8" fill="#f2c94c"/>
+<path d="M484 140l20 10" stroke="#183a30" stroke-width="1.4"/><rect x="500" y="140" width="50" height="24" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="1.4"/><text x="525" y="157" class="tiny" text-anchor="middle" font-size="12">15:10</text>
+<text x="326" y="250" class="tiny">tag each batch with</text>
+<text x="326" y="271" class="tiny">its finish time</text>
+<rect x="629.6" y="116" width="12.8" height="9.1" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="620" y="125.1" width="31.9" height="66.9" rx="6" fill="#cfe6ef" stroke="#183a30" stroke-width="2"/>
+<rect x="675.6" y="116" width="12.8" height="9.1" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="666" y="125.1" width="31.9" height="66.9" rx="6" fill="#cfe6ef" stroke="#183a30" stroke-width="2"/>
+<rect x="721.6" y="116" width="12.8" height="9.1" rx="2" fill="#5f8fa3" stroke="#183a30" stroke-width="1.6"/><rect x="712" y="125.1" width="31.9" height="66.9" rx="6" fill="#cfe6ef" stroke="#183a30" stroke-width="2"/>
+<path d="M780 160h56l-6 34h-44z" fill="#ffffff" stroke="#183a30" stroke-width="2"/>
+<text x="612" y="250" class="tiny">sealed, labelled</text>
+<text x="612" y="271" class="tiny">drinking water</text>
+<path d="M232 92H352" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<path d="M520 92H640" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<path d="M246 300Q420 270 640 300" fill="none" stroke="#8b3825" stroke-width="2.6" stroke-dasharray="7 5"/>
+<circle cx="440" cy="282" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M435.1 277.1L444.9 286.9M444.9 277.1L435.1 286.9" stroke="#8b3825" stroke-width="3"/>
+<text x="326" y="324" class="tiny warn">raw scoop never enters CLEAN</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Status uncertain, or raw water touched a clean rim: treat the whole vessel as raw again.</text>
+</g>
+</svg>

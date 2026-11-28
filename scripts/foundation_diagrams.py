@@ -135,6 +135,7 @@ _SPECS_CACHE = None
 SPEC_KEYS = {
     'v01_artwork': set(),
     'v02_artwork': set(),
+    'w2c_artwork': set(),
     'cutaway': {'layers','callout','accent','variant'},
     'exploded': {'components','callout'},
     'cross_section': {'layers','callout'},
@@ -1187,6 +1188,13 @@ def v02_source_path(card_id):
     return ROOT / 'foundations/visual/v02_technical/revised' / f'{card_id}.svg'
 
 
+def w2c_source_path(card_id):
+    return ROOT / 'foundations/visual/w2c_technical/revised' / f'{card_id}.svg'
+
+
+ARTWORK_SOURCES = {'v01_artwork': v01_source_path, 'v02_artwork': v02_source_path, 'w2c_artwork': w2c_source_path}
+
+
 def render_diagram(card):
     stages = card['diagram'].split(' | ')
     card_id = card['id']
@@ -1196,6 +1204,8 @@ def render_diagram(card):
         return v01_source_path(card_id).read_text(encoding='utf-8')
     if spec and spec['type'] == 'v02_artwork':
         return v02_source_path(card_id).read_text(encoding='utf-8')
+    if spec and spec['type'] == 'w2c_artwork':
+        return w2c_source_path(card_id).read_text(encoding='utf-8')
     if card_id in CROSS_SECTIONS:
         artwork = CROSS_SECTIONS[card_id]
         header_tag = f'{card_id} · FIELD SCHEMATIC'

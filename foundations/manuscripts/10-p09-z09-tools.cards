@@ -184,28 +184,28 @@ Z09-P14 | Tie and verify a bowline for a non-slip fixed utility loop | USFS cord
 objective: Form, dress and safety-back a bowline loop that holds firm under steady tension yet unties cleanly afterward.
 applies: Securing tarp ridgelines, pack haul loops and non-life-safety anchor loops on utility cordage.
 equipment: Pliable utility cordage practiced dry before field reliance.
-action: Form an overhand loop in the standing part, pass the working end up through the loop, around behind the standing part and back down through the same loop parallel to its entry. @K09,ED
-action: Dress the knot cleanly by seating the collar snugly with a generous working tail, and add a stopper knot (such as a double overhand) on the tail—standard bowlines can shake loose under cyclic slack-and-tug loads in slick synthetic cord. @K09,ED
-action: Inspect the finished silhouette before loading: a distinct collar wraps the two parallel legs of the loop, and the working end sits cleanly inside the loop with its stopper tied. @K09,ED
+action: Form an overhand loop in the standing part, pass the working end up through the loop, around behind the standing part and back down through the same loop parallel to its entry. @K14,ED
+action: Dress the knot cleanly by seating the collar snugly with a generous working tail, and add a stopper knot (such as a double overhand) on the tail—standard bowlines can shake loose under cyclic slack-and-tug loads in slick synthetic cord. @K14,ED
+action: Inspect the finished knot before loading: the collar hugs the standing part, the small loop grips the two parallel strands, and the tail sits inside the loop with its stopper tied. @K14,ED
 failure: Tying a capsized slip loop by pulling the working end wrong, or leaving a tiny untied tail on slick nylon cord that works free in gusty wind. @K09,E16
-verify: Check the collar shape, confirm the loop does not slip smaller when pulled and confirm the tail stopper knot is seated snugly. @K09,ED
+verify: Check the collar shape, confirm the loop does not slip smaller when pulled and confirm the tail stopper knot is seated snugly. @K14,ED
 stop: Never rely on an unverified or un-backed bowline for critical tensioned loads; keep utility bowlines strictly separate from life-safety climbing harnesses. @K09
 diagram: Form loop & pass around standing | Dress collar snugly | Tie stopper on generous tail
-visual: The prior drawn knot is held for reconstruction. Consult a verified utility-knot reference and supervised practice.
+visual: Topology-checked loose bowline: overhand loop with the working side on top, end up through, behind the standing part and back down, with the tail and an overhand stopper inside the fixed loop, beside a short-tail failure view. Conceptual, not to scale.
 reviewer: Rigging safety and field education
 
 Z09-P15 | Tie a figure-eight loop and stopper knot for secure termination | USFS cordage safety; new manuscript
 objective: Form a high-visibility, slip-resistant stopper knot and fixed end-loop for utility lines in wet or gloved hands.
 applies: Preventing lines from pulling through grommets/pulleys and tying secure non-slip end loops in utility cordage.
 equipment: Utility rope or tarp cordage.
-action: Tie a simple figure-eight stopper at line ends to stop cord from slipping through grommets, tarp eyelets or tensioners—its wider bend unties far easier than a jammed overhand knot. @K09,ED
-action: Tie a figure-eight on a bight (folded double line) for a strong, easily inspected fixed utility loop that resists shaking loose under alternating wind gusts. @K09,ED
-action: Dress all parallel strands smoothly side-by-side without crossed twists and leave a generous tail beyond the final collar. @K09,ED
+action: Tie a simple figure-eight stopper at line ends to stop cord from slipping through grommets, tarp eyelets or tensioners—its wider bend unties far easier than a jammed overhand knot. @K15,ED
+action: Tie a figure-eight on a bight (folded double line) for a strong, easily inspected fixed utility loop that resists shaking loose under alternating wind gusts. @K15,ED
+action: Dress all parallel strands smoothly side-by-side without crossed twists and leave a generous tail beyond the final collar. @K15,ED
 failure: Using a tiny single overhand stopper that jams permanently under load or pulls straight through a wide tarp grommet. @K09
-verify: Visually confirm the clear figure-eight silhouette with parallel flat strands and an ample tail before applying utility tension. @K09,ED
+verify: Visually confirm the clear figure-eight silhouette with parallel flat strands and an ample tail before applying utility tension. @K15,ED
 stop: Remember that even cleanly dressed figure-eight loops in camp utility cordage are NOT certified life-safety climbing anchors. @K09
 diagram: Parallel dressed figure-eight | Wide stopper blocks pull-through | Ample tail; inspect before load
-visual: The prior cord drawing is held for reconstruction. A stopper and a bight loop require separate, verified views.
+visual: Two topology-checked views: a figure-eight stopper bearing on a tarp grommet, and a figure-eight loop in doubled cord with parallel, uncrossed strands. Conceptual, not to scale.
 reviewer: Rigging safety and field education
 
 Z09-P16 | Tie a clove hitch and round turn with two half hitches | USFS cordage and camp utility knots; new manuscript

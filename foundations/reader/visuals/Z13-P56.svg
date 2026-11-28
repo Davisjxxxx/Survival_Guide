@@ -1,13 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Test smoke and carbon monoxide alarms monthly and replace expired sensors</title>
-  <desc id="desc">CUTAWAY VIEW: Smoke + CO alarms on every floor/sleep | Test monthly; check printed expiry date | Replace expired sensors (5–10 yr limits) — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P56 · CUTAWAY VIEW (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="cutaway-artwork"><path d="M40 142h640" stroke="#7d8a68" stroke-width="6"/><path d="M135 140L360 44l225 96" fill="#d9e4d7" stroke="#285345" stroke-width="5"/><path d="M185 140L360 64l175 76" fill="#f7f4ea" stroke="#5c7c6d" stroke-width="2.5" stroke-dasharray="6 4"/><rect x="242" y="114" width="236" height="22" rx="6" fill="#e5d4a1" stroke="#285345" stroke-width="2"/><path d="M62 82h66m470 0h66" stroke="#507f92" stroke-width="4" marker-end="url(#arrow)"/><text x="360" y="58" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Upper floor: smoke + CO outside bedrooms</text><text x="360" y="96" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Main floor: smoke + CO near living/kitchen</text><text x="360" y="130" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Basement: smoke + CO near furnace/stairs</text><text x="605" y="68" font-size="11" font-weight="650" fill="#8b3e1f" text-anchor="middle">Check expiry dates</text><rect x="492" y="130" width="204" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="594" y="144" font-size="10.5" font-weight="650" fill="#7a2f15" text-anchor="middle">CO expires ~5–10 yr</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Smoke + CO alarms on</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">every floor/sleep</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Test monthly; check</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">printed expiry date</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Replace expired sensors</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">(5–10 yr limits)</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Smoke and carbon monoxide alarm placement and replacement</title>
+<desc id="desc">Cutaway of a three-level home. A smoke alarm and a carbon monoxide alarm are on every level, including the basement, and a carbon monoxide alarm sits in the hallway outside the bedrooms. No carbon monoxide alarm is placed in the kitchen or directly above the furnace. A side panel notes that the test button checks circuitry rather than sensor accuracy, smoke alarms are replaced every ten years or as the maker directs, and carbon monoxide alarms at the replacement age the maker gives. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P56 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p56-artwork">
+<path d="M40 128L250 56L460 128" fill="#e9e2cf" stroke="#183a30" stroke-width="2.4"/>
+<rect x="56" y="128" width="388" height="64" fill="#f6f3ea" stroke="#183a30" stroke-width="2.2"/>
+<rect x="56" y="204" width="388" height="64" fill="#f6f3ea" stroke="#183a30" stroke-width="2.2"/>
+<rect x="56" y="268" width="388" height="62" fill="#e7e2d4" stroke="#183a30" stroke-width="2.2"/>
+<text x="64" y="146" class="tiny">upper</text>
+<text x="64" y="222" class="tiny">main</text>
+<text x="64" y="286" class="tiny">basement</text>
+<path d="M200 128v64M318 128v64M318 204v64" stroke="#183a30" stroke-width="2"/>
+<text x="214" y="184" class="tiny">hall</text>
+<text x="76" y="184" class="tiny">bedroom</text>
+<text x="330" y="184" class="tiny">bedroom</text>
+<circle cx="250" cy="142" r="12" fill="#ffffff" stroke="#183a30" stroke-width="2"/><circle cx="250" cy="142" r="4.8" fill="none" stroke="#183a30" stroke-width="1.4"/>
+<rect x="268" y="161" width="24" height="18" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="280" y="174" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<circle cx="150" cy="218" r="12" fill="#ffffff" stroke="#183a30" stroke-width="2"/><circle cx="150" cy="218" r="4.8" fill="none" stroke="#183a30" stroke-width="1.4"/>
+<rect x="228" y="237" width="24" height="18" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="240" y="250" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<rect x="350" y="230" width="72" height="30" fill="#d9dcdc" stroke="#183a30" stroke-width="2"/>
+<text x="326" y="224" class="tiny">kitchen</text>
+<rect x="411" y="207.2" width="18" height="13.5" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="420" y="218" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<circle cx="420" cy="214" r="13" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M414.1 208.2L425.9 219.8M425.9 208.2L414.1 219.8" stroke="#8b3825" stroke-width="3"/>
+<circle cx="220" cy="284" r="12" fill="#ffffff" stroke="#183a30" stroke-width="2"/><circle cx="220" cy="284" r="4.8" fill="none" stroke="#183a30" stroke-width="1.4"/>
+<rect x="148" y="295" width="24" height="18" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="160" y="308" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<rect x="330" y="290" width="40" height="36" fill="#9aa1a5" stroke="#183a30" stroke-width="2"/>
+<text x="380" y="316" class="tiny">furnace</text>
+<rect x="341" y="273.2" width="18" height="13.5" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="350" y="284" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<circle cx="350" cy="278" r="13" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M344.1 272.1L355.9 283.9M355.9 272.1L344.1 283.9" stroke="#8b3825" stroke-width="3"/>
+<rect x="476" y="46" width="400" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="492" y="72" class="head">PLACEMENT AND REPLACEMENT</text>
+<circle cx="500" cy="96" r="12" fill="#ffffff" stroke="#183a30" stroke-width="2"/><circle cx="500" cy="96" r="4.8" fill="none" stroke="#183a30" stroke-width="1.4"/>
+<rect x="488" y="123" width="24" height="18" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="2"/><text x="500" y="136" class="tiny" text-anchor="middle" font-size="11">CO</text>
+<text x="522" y="102" class="tiny">smoke alarm on every level,</text>
+<text x="522" y="123" class="tiny">including the basement</text>
+<text x="522" y="150" class="tiny">CO alarm on every level and</text>
+<text x="522" y="171" class="tiny">outside sleeping areas</text>
+<circle cx="500" cy="202" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M495.1 197.1L504.9 206.9M504.9 197.1L495.1 206.9" stroke="#8b3825" stroke-width="3"/>
+<text x="522" y="200" class="tiny">no CO alarm in the kitchen or</text>
+<text x="522" y="221" class="tiny">right above fuel-burning gear</text>
+<text x="492" y="262" class="tiny">test button checks circuitry,</text>
+<text x="492" y="283" class="tiny">not CO sensor accuracy</text>
+<text x="492" y="304" class="tiny">replace: smoke 10 yr or per</text>
+<text x="492" y="325" class="tiny">maker; CO at maker&#x27;s age</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Steady CO alarm: get everyone outside to fresh air, then call 911 from outside.</text>
+</g>
 </svg>

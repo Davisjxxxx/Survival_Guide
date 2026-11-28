@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Watch area versus storm-based warning polygon</title>
+<desc id="desc">Map of a block of counties. A watch covers a broad multi-county area where conditions are favorable for dangerous weather. A storm-based warning is a polygon drawn around the storm&#x27;s threat path, not county lines, and includes a town ahead of the storm, where the hazard is imminent or occurring. A side panel pairs each tier with its household action. Conceptual map, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z15-P02 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z15-p02-artwork">
+<rect x="120" y="70" width="400" height="192" fill="#f3d98b" fill-opacity=".55" stroke="#b08a2a" stroke-width="3"/>
+<rect x="40" y="70" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="40" y="134" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="40" y="198" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="40" y="262" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="120" y="70" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="120" y="134" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="120" y="198" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="120" y="262" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="200" y="70" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="200" y="134" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="200" y="198" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="200" y="262" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="280" y="70" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="280" y="134" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="280" y="198" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="280" y="262" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="360" y="70" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="360" y="134" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="360" y="198" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="360" y="262" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="440" y="70" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="440" y="134" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="440" y="198" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<rect x="440" y="262" width="80" height="64" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<text x="128" y="90" class="tiny">WATCH: conditions favorable</text>
+<text x="128" y="111" class="tiny">across many counties</text>
+<polygon points="236,262 286,214 402,152 432,182 318,250 262,290" fill="#c0392b" fill-opacity=".18" stroke="#8b3825" stroke-width="3"/>
+<circle cx="250" cy="270" r="18" fill="#6f8f6a"/><circle cx="250" cy="270" r="10" fill="#e0a43a"/><circle cx="250" cy="270" r="4" fill="#c0392b"/>
+<path d="M268 258L322 224" fill="none" stroke="#183a30" stroke-width="3" marker-end="url(#m-ink)"/>
+<rect x="356" y="182" width="14" height="14" fill="#183a30"/><rect x="374" y="176" width="10" height="20" fill="#183a30"/>
+<text x="388" y="214" class="tiny">town in the</text>
+<text x="388" y="235" class="tiny">warned polygon</text>
+<text x="56" y="322" class="tiny">WARNING: polygon around the threat area, not county lines</text>
+<text x="150" y="300" class="tiny">storm</text>
+<rect x="546" y="46" width="330" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="562" y="72" class="head">TIER AND ACTION</text>
+<rect x="562" y="80" width="18" height="18" fill="#f3d98b" stroke="#b08a2a" stroke-width="2"/>
+<text x="590" y="94" class="tiny">WATCH: favorable, possible</text>
+<text x="590" y="115" class="tiny">prepare, stage, monitor</text>
+<rect x="562" y="150" width="18" height="18" fill="#c0392b" fill-opacity=".25" stroke="#8b3825" stroke-width="2"/>
+<text x="590" y="164" class="tiny">WARNING: imminent or</text>
+<text x="590" y="185" class="tiny">occurring: act now</text>
+<text x="562" y="234" class="tiny">ADVISORY: nuisance level,</text>
+<text x="562" y="255" class="tiny">use caution</text>
+<text x="562" y="298" class="tiny">do not wait to see the funnel,</text>
+<text x="562" y="319" class="tiny">water or flames</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Warning in your area: take the protective action now, without waiting for visual confirmation.</text>
+</g>
+</svg>

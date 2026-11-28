@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Private well during a power outage</title>
+<desc id="desc">Cross-section of a house and private well with the power out. The breaker for the submersible pump has no power, so the pump in the well cannot run or refill the basement pressure tank. The tank pushes out only its small stored reserve, then the kitchen tap sputters and stops; common tanks deliver about 5 to 16 gallons between pump starts. A side panel shows the plan: stored drinking water, a labelled pump breaker, and well cap and pump wiring left to licensed contractors. Conceptual drawing, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P41 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p41-artwork">
+<rect x="30" y="150" width="560" height="182" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/>
+<rect x="44" y="70" width="252" height="80" fill="#efe9d8" stroke="#183a30" stroke-width="2.4"/><rect x="44" y="150" width="252" height="150" fill="#e8e4d6" stroke="#183a30" stroke-width="2.4"/>
+<rect x="54" y="168" width="34" height="50" rx="3" fill="#cfd5d8" stroke="#183a30" stroke-width="2"/><rect x="60" y="186" width="22" height="8" fill="#183a30"/>
+<circle cx="71" cy="236" r="10" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M66.5 231.5L75.5 240.5M75.5 231.5L66.5 240.5" stroke="#8b3825" stroke-width="3"/>
+<path d="M88 192H300M300 192h12V200H462" fill="none" stroke="#6b5b2f" stroke-width="2.2" stroke-dasharray="6 4"/><path d="M462 200V300" fill="none" stroke="#6b5b2f" stroke-width="2.2" stroke-dasharray="6 4"/>
+<rect x="108" y="206" width="58" height="88" rx="22" fill="#5f8fa3" stroke="#183a30" stroke-width="2.4"/><rect x="114" y="250" width="46" height="40" rx="14" fill="#9cc3cf"/>
+<circle cx="190" cy="232" r="13" fill="#fff" stroke="#183a30" stroke-width="2"/><path d="M190 232L181 241" stroke="#8b3825" stroke-width="2.6"/>
+<path d="M166 262L232 262L232 112L252 112" fill="none" stroke="#4a5a62" stroke-width="9" stroke-linejoin="round"/><path d="M166 262L232 262L232 112L252 112" fill="none" stroke="#8fa3ad" stroke-width="6" stroke-linejoin="round"/>
+<path d="M232 262L300 262L300 214L470 214" fill="none" stroke="#4a5a62" stroke-width="9" stroke-linejoin="round"/><path d="M232 262L300 262L300 214L470 214" fill="none" stroke="#8fa3ad" stroke-width="6" stroke-linejoin="round"/>
+<rect x="246" y="100" width="26" height="12" fill="#c9cdd0" stroke="#183a30" stroke-width="1.8"/><path d="M262 112v8" stroke="#183a30" stroke-width="2.4"/>
+<path d="M262 124v4M262 134v4" stroke="#3d7186" stroke-width="3"/>
+<rect x="462" y="136" width="20" height="196" fill="#d5d9db" stroke="#183a30" stroke-width="2"/><rect x="458" y="128" width="28" height="10" rx="2" fill="#7c8c95" stroke="#183a30" stroke-width="1.8"/><rect x="464" y="236" width="16" height="96" fill="#9cc3cf"/><rect x="465" y="286" width="14" height="38" rx="3" fill="#7c8c95" stroke="#183a30" stroke-width="1.6"/>
+<path d="M472 286L472 214" fill="none" stroke="#4a5a62" stroke-width="7" stroke-linejoin="round"/><path d="M472 286L472 214" fill="none" stroke="#8fa3ad" stroke-width="4" stroke-linejoin="round"/>
+<path class="lead" d="M488 300L520 300"/>
+<text x="524" y="290" class="tiny">pump idle:</text>
+<text x="524" y="311" class="tiny">no power</text>
+<path class="lead" d="M486 134L520 120"/>
+<text x="524" y="110" class="tiny">well cap</text>
+<text x="320" y="84" class="tiny">tank pushes out a small</text>
+<text x="320" y="105" class="tiny">stored reserve, then the</text>
+<text x="320" y="126" class="tiny">tap sputters and stops</text>
+<path class="lead" d="M316 100L196 222"/>
+<text x="320" y="250" class="tiny">common tanks: about</text>
+<text x="320" y="271" class="tiny">5 to 16 gal between</text>
+<text x="320" y="292" class="tiny">pump starts (MDH)</text>
+<path class="lead" d="M316 246L170 246"/>
+<text x="58" y="322" class="tiny">breaker: no power</text>
+<path class="lead" d="M72 308L71 248"/>
+<rect x="604" y="46" width="272" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="620" y="72" class="head ok">PLAN BEFORE AN OUTAGE</text>
+<path d="M624 152V111.7Q624 105 634.4 102.7V96H645.5V102.7Q658.7 105 658.7 111.7V152Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/>
+<path d="M668 152V111.7Q668 105 678.4 102.7V96H689.5V102.7Q702.7 105 702.7 111.7V152Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/>
+<path d="M712 152V111.7Q712 105 722.4 102.7V96H733.5V102.7Q746.7 105 746.7 111.7V152Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/>
+<text x="624" y="178" class="tiny">stored drinking water,</text>
+<text x="624" y="199" class="tiny">at least 1 gal per</text>
+<text x="624" y="220" class="tiny">person per day</text>
+<rect x="624" y="244" width="30" height="40" rx="3" fill="#cfd5d8" stroke="#183a30" stroke-width="2"/><rect x="630" y="256" width="18" height="8" fill="#183a30"/><path d="M648 260h18" stroke="#183a30" stroke-width="1.6"/><rect x="666" y="252" width="40" height="16" rx="3" fill="#f7e5a6" stroke="#183a30" stroke-width="1.4"/>
+<text x="716" y="258" class="tiny">pump breaker</text>
+<text x="716" y="279" class="tiny">labelled</text>
+<text x="624" y="306" class="tiny">cap and wiring: licensed</text>
+<text x="624" y="327" class="tiny">contractors only</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Muddy water, sputtering or a tripping breaker: switch the well off; call a licensed contractor.</text>
+</g>
+</svg>

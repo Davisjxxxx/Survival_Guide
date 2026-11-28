@@ -1,13 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Isolate icemakers, humidifiers, and point-of-use filters during water advisories</title>
-  <desc id="desc">EXPLODED COMPONENTS: Switch icemaker OFF &amp; dump all ice | Use only safe/distilled water in CPAP/mist | Standard fridge carbon filters ≠ sterile — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P37 · EXPLODED COMPONENTS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="exploded-artwork"><path d="M55 96h610" stroke="#7c8f83" stroke-width="2" stroke-dasharray="7 5"/><rect x="50" y="58" width="129" height="74" rx="8" fill="#d5e2d8" stroke="#285345" stroke-width="2.5"/><rect x="60" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="165" cy="72" r="5" fill="#285345"/><text x="114.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Icemaker OFF</text><text x="114.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">(dump ice)</text><path d="M182 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="205" y="58" width="129" height="74" rx="8" fill="#e8dfbe" stroke="#285345" stroke-width="2.5"/><rect x="215" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="320" cy="72" r="5" fill="#285345"/><text x="269.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">CPAP/humidifier</text><text x="269.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">safe H2O</text><path d="M337 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="360" y="58" width="129" height="74" rx="8" fill="#cde0e8" stroke="#285345" stroke-width="2.5"/><rect x="370" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="475" cy="72" r="5" fill="#285345"/><text x="424.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Fridge carbon</text><text x="424.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">filter</text><path d="M492 95h18" stroke="#285345" stroke-width="2.5" marker-end="url(#arrow)"/><rect x="515" y="58" width="129" height="74" rx="8" fill="#dfd4c7" stroke="#285345" stroke-width="2.5"/><rect x="525" y="48" width="36" height="10" rx="3" fill="#6b8577"/><circle cx="630" cy="72" r="5" fill="#285345"/><text x="579.5" y="85" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">Dishwasher</text><text x="579.5" y="100" font-size="12" font-weight="650" fill="#183c31" text-anchor="middle">sanitize</text><text x="360" y="149" font-size="11" font-weight="650" fill="#4c5f55" text-anchor="middle">Freezing does NOT kill germs &amp; basic fridge filters do NOT clear Boil Water notices</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Switch icemaker OFF &amp;</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">dump all ice</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Use only safe/distilled</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">water in CPAP/mist</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Standard fridge carbon</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">filters ≠ sterile</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Appliances on the water line during a drinking water advisory</title>
+<desc id="desc">Left: a refrigerator cutaway. Advisory tap water enters from the house supply line, passes through the filter cartridge and feeds both the icemaker and the door dispenser. The icemaker is switched off, ice made from advisory water is discarded, and the filter is marked as not making advisory water safe. Right: a humidifier or CPAP water chamber is filled from a jug of safe water, not from the advisory tap. Conceptual drawing, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P37 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p37-artwork">
+<rect x="24" y="46" width="520" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">WATER-LINE APPLIANCES DURING ANY ADVISORY</text>
+<rect x="40" y="84" width="12" height="238" fill="#d7d0bd" stroke="#7d7462" stroke-width="1.5"/>
+<path d="M46 300L92 300" fill="none" stroke="#7d4a3a" stroke-width="9" stroke-linejoin="round"/><path d="M46 300L92 300" fill="none" stroke="#c79c8a" stroke-width="6" stroke-linejoin="round"/>
+<circle cx="64" cy="300" r="7" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/>
+<rect x="96" y="78" width="200" height="248" rx="12" fill="#f6f7f2" stroke="#183a30" stroke-width="2.6"/><line x1="96" y1="166" x2="296" y2="166" stroke="#183a30" stroke-width="2.2"/>
+<rect x="112" y="92" width="70" height="22" rx="4" fill="#d9dee0" stroke="#183a30" stroke-width="1.8"/><rect x="112" y="118" width="70" height="38" rx="4" fill="#e8f1f6" stroke="#183a30" stroke-width="1.8"/>
+<rect x="119" y="135" width="10" height="10" rx="2" fill="#ffffff" stroke="#6f8f9d" stroke-width="1.2"/>
+<rect x="135" y="129" width="10" height="10" rx="2" fill="#ffffff" stroke="#6f8f9d" stroke-width="1.2"/>
+<rect x="151" y="137" width="10" height="10" rx="2" fill="#ffffff" stroke="#6f8f9d" stroke-width="1.2"/>
+<rect x="165" y="131" width="10" height="10" rx="2" fill="#ffffff" stroke="#6f8f9d" stroke-width="1.2"/>
+<rect x="127" y="143" width="10" height="10" rx="2" fill="#ffffff" stroke="#6f8f9d" stroke-width="1.2"/>
+<rect x="157" y="145" width="10" height="10" rx="2" fill="#ffffff" stroke="#6f8f9d" stroke-width="1.2"/>
+<rect x="232" y="96" width="46" height="56" rx="6" fill="#dfe5e7" stroke="#183a30" stroke-width="1.8"/><path d="M244 104h22v16h-22z" fill="#9aa8ad"/><path d="M247 126h16v20h-16z" fill="#ffffff" stroke="#183a30" stroke-width="1.4"/>
+<rect x="250" y="178" width="18" height="58" rx="5" fill="#e9e1c4" stroke="#183a30" stroke-width="1.8"/><path d="M250 194h18M250 206h18M250 218h18" stroke="#9a8a5b" stroke-width="1.2"/>
+<path d="M92 300L286 300L286 244L259 244L259 236" fill="none" stroke="#7d4a3a" stroke-width="7" stroke-linejoin="round"/><path d="M92 300L286 300L286 244L259 244L259 236" fill="none" stroke="#c79c8a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M259 178L259 170L200 170L200 103L182 103" fill="none" stroke="#7d4a3a" stroke-width="7" stroke-linejoin="round"/><path d="M259 178L259 170L200 170L200 103L182 103" fill="none" stroke="#c79c8a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M259 170L259 162L255 162L255 120" fill="none" stroke="#7d4a3a" stroke-width="7" stroke-linejoin="round"/><path d="M259 170L259 162L255 162L255 120" fill="none" stroke="#c79c8a" stroke-width="4" stroke-linejoin="round"/>
+<path d="M130 300H208" fill="none" stroke="#8b3825" stroke-width="3" marker-end="url(#m-reverse)"/>
+<path d="M286 290V262" fill="none" stroke="#8b3825" stroke-width="3" marker-end="url(#m-reverse)"/>
+<path d="M206 150V116" fill="none" stroke="#8b3825" stroke-width="3" marker-end="url(#m-reverse)"/>
+<circle cx="170" cy="103" r="9" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M165.9 99L174.1 107M174.1 99L165.9 107" stroke="#8b3825" stroke-width="3"/>
+<circle cx="272" cy="144" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M267.1 139.1L276.9 148.9M276.9 139.1L267.1 148.9" stroke="#8b3825" stroke-width="3"/>
+<rect x="116" y="96" width="34" height="14" rx="3" fill="#183a30"/><text x="133" y="107" class="tiny inv" text-anchor="middle" font-size="11">OFF</text>
+<path class="lead" d="M268 206L318 214"/>
+<text x="322" y="210" class="tiny">filter does not make</text>
+<text x="322" y="231" class="tiny">advisory water safe</text>
+<path class="lead" d="M182 104L322 112"/>
+<text x="326" y="98" class="tiny">icemaker off; discard</text>
+<text x="326" y="119" class="tiny">ice made from advisory</text>
+<text x="326" y="140" class="tiny">water (freezing does</text>
+<text x="326" y="161" class="tiny">not kill all germs)</text>
+<text x="322" y="262" class="tiny">no dispenser water or</text>
+<text x="322" y="283" class="tiny">ice until the advisory</text>
+<text x="322" y="304" class="tiny">is lifted</text>
+<path class="lead" d="M276 152L318 262"/>
+<rect x="562" y="46" width="314" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="578" y="72" class="head ok">RESERVOIRS: SAFE WATER ONLY</text>
+<rect x="700" y="196" width="130" height="86" rx="12" fill="#e9eef0" stroke="#183a30" stroke-width="2.4"/><rect x="716" y="214" width="56" height="52" rx="6" fill="#d6ecf4" stroke="#3d7186" stroke-width="2"/><rect x="716" y="238" width="56" height="28" fill="#9cc3cf"/><path d="M830 226q26 0 26 30v26" fill="none" stroke="#6b7f8c" stroke-width="6"/>
+<path d="M616 194V143.6Q616 135.2 629 132.4V124H642.9V132.4Q659.4 135.2 659.4 143.6V194Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/><text x="637.7" y="174.4" class="tiny" text-anchor="middle" font-size="11">SAFE</text>
+<path d="M666 146Q706 140 734 206" fill="none" stroke="#205b68" stroke-width="3.2" marker-end="url(#m-flow)"/>
+<rect x="588" y="243" width="34" height="18" rx="4" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><rect x="596" y="230" width="14" height="13" rx="3" fill="#7c8c95" stroke="#183a30" stroke-width="1.6"/><rect x="610" y="261" width="12" height="12" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/>
+<circle cx="650" cy="262" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M645 257.1L655 266.9M655 257.1L645 266.9" stroke="#8b3825" stroke-width="3"/>
+<text x="580" y="102" class="tiny">bottled, distilled or as</text>
+<text x="580" y="123" class="tiny">directed by the utility</text>
+<text x="712" y="306" class="tiny">humidifier or CPAP</text>
+<text x="578" y="300" class="tiny">not advisory</text>
+<text x="578" y="321" class="tiny">tap water</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Reconnect the icemaker and dispenser only after the utility lifts the advisory.</text>
+</g>
 </svg>

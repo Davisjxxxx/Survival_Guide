@@ -1,13 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Protect cold food during power outages using door discipline and safe ice limits</title>
-  <desc id="desc">TIME / SEASONAL PROGRESSION: Fridge ~4 h; Half ~24 h; Full ~48 h | Keep doors SHUT; pack coolers with ice | Dry ice = gloves + ventilated room only — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z14-P40 · TIME / SEASONAL PROGRESSION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="seasonal-timeline-food_temp-artwork"><path d="M36 62h644" stroke="#184438" stroke-width="4" marker-end="url(#arrow)"/><circle cx="106.0" cy="62" r="8" fill="#184438" stroke="#fffdf7" stroke-width="2"/><text x="106.0" y="48" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">T+0 Outage</text><rect x="28" y="76" width="156" height="58" rx="6" fill="#d5e5dc" stroke="#315245" stroke-width="2"/><text x="106.0" y="98" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Log clock time; keep</text><text x="106.0" y="112" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">ALL doors SHUT</text><circle cx="274.0" cy="62" r="8" fill="#184438" stroke="#fffdf7" stroke-width="2"/><text x="274.0" y="48" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">~4 Hours</text><rect x="196" y="76" width="156" height="58" rx="6" fill="#e4ebd4" stroke="#315245" stroke-width="2"/><text x="274.0" y="98" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Closed fridge limit</text><text x="274.0" y="112" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">-&gt; move to ice</text><text x="274.0" y="126" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">cooler</text><circle cx="442.0" cy="62" r="8" fill="#184438" stroke="#fffdf7" stroke-width="2"/><text x="442.0" y="48" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">~24 Hours</text><rect x="364" y="76" width="156" height="58" rx="6" fill="#f4ebd2" stroke="#315245" stroke-width="2"/><text x="442.0" y="98" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Closed half-full</text><text x="442.0" y="112" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">freezer cold holding</text><circle cx="610.0" cy="62" r="8" fill="#184438" stroke="#fffdf7" stroke-width="2"/><text x="610.0" y="48" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">~48 Hours</text><rect x="532" y="76" width="156" height="58" rx="6" fill="#f5dfd5" stroke="#315245" stroke-width="2"/><text x="610.0" y="98" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">Closed full freezer;</text><text x="610.0" y="112" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">dry ice =</text><text x="610.0" y="126" font-size="11" font-weight="650" fill="#183c31" text-anchor="middle">gloves/vent</text><rect x="28" y="139" width="664" height="18" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360" y="152" font-size="10.8" font-weight="650" fill="#642e1e" text-anchor="middle">Never stash food in outdoor snowbanks (sun warms &amp; animals raid)</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Fridge ~4 h; Half ~24 h;</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Full ~48 h</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Keep doors SHUT; pack</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">coolers with ice</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Dry ice = gloves +</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">ventilated room only</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Cold-holding times during a power outage</title>
+<desc id="desc">Bars on one time axis show how long food stays safe with the doors kept closed: a refrigerator about 4 hours, a half-full freezer about 24 hours and a full freezer about 48 hours. Below, a cooler packed with ice keeps food at 40 degrees F or below when the outage runs longer, with its temperature checked; dry ice is handled only with insulated gloves and never used in a small, poorly ventilated space. Conceptual, not to scale apart from the time bars.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z14-P40 · TECHNICAL REVIEW · NOT TO SCALE EXCEPT TIME BARS</text>
+<g id="z14-p40-artwork">
+<path d="M150 196H700.0" stroke="#183a30" stroke-width="2"/>
+<path d="M150.0 192v8" stroke="#183a30" stroke-width="1.6"/><text x="150.0" y="216" class="tiny" text-anchor="middle">0 h</text>
+<path d="M282.0 192v8" stroke="#183a30" stroke-width="1.6"/><text x="282.0" y="216" class="tiny" text-anchor="middle">12 h</text>
+<path d="M414.0 192v8" stroke="#183a30" stroke-width="1.6"/><text x="414.0" y="216" class="tiny" text-anchor="middle">24 h</text>
+<path d="M546.0 192v8" stroke="#183a30" stroke-width="1.6"/><text x="546.0" y="216" class="tiny" text-anchor="middle">36 h</text>
+<path d="M678.0 192v8" stroke="#183a30" stroke-width="1.6"/><text x="678.0" y="216" class="tiny" text-anchor="middle">48 h</text>
+<rect id="bar-fridge" data-hours="4" x="150" y="80" width="44.0" height="22" fill="#205b68" fill-opacity="0.45"/>
+<text x="140" y="96" class="tiny" text-anchor="end">4 h</text>
+<text x="204" y="96" class="tiny">refrigerator, door closed</text>
+<rect id="bar-half" data-hours="24" x="150" y="116" width="264.0" height="22" fill="#205b68" fill-opacity="0.65"/>
+<text x="140" y="132" class="tiny" text-anchor="end">24 h</text>
+<text x="424" y="132" class="tiny">half-full freezer</text>
+<rect id="bar-full" data-hours="48" x="150" y="152" width="528.0" height="22" fill="#205b68" fill-opacity="0.8500000000000001"/>
+<text x="140" y="168" class="tiny" text-anchor="end">48 h</text>
+<text x="162" y="168" class="tiny inv">full freezer</text>
+<text x="40" y="246" class="tiny">keep doors shut;</text>
+<text x="40" y="267" class="tiny">open only to read</text>
+<text x="40" y="288" class="tiny">the thermometer</text>
+<rect x="250" y="246" width="110" height="62" rx="8" fill="#5f8fa3" stroke="#183a30" stroke-width="2.2"/><rect x="258" y="254" width="94" height="14" fill="#dcecf3"/>
+<text x="372" y="266" class="tiny">cooler with ice: keep</text>
+<text x="372" y="287" class="tiny">40 °F or below, check it</text>
+<rect x="560" y="252" width="56" height="34" fill="#eef2f3" stroke="#183a30" stroke-width="2"/><path d="M568 252l8-12M592 252l8-12" stroke="#9aa1a5" stroke-width="2"/>
+<text x="626" y="262" class="tiny">dry ice: insulated gloves;</text>
+<text x="626" y="283" class="tiny">never a small closed space</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">After the hold time: read the thermometer, then sort each item with the official chart.</text>
+</g>
 </svg>

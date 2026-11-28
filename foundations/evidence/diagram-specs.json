@@ -153,10 +153,7 @@
     "callout": "Agricultural & road runoff bypasses microbial treatment"
   },
   "Z04-P19": {
-    "type": "failure_mode",
-    "cause": "Floodwaters mix sewage, fuel, debris & heavy silt",
-    "cue": "Swollen muddy river, oil sheen, rapid bank erosion",
-    "correction": "Stay on high ground; use potable reserves & advisories"
+    "type": "w2c_artwork"
   },
   "Z04-P20": {
     "type": "cutaway",
@@ -302,24 +299,7 @@
     "type": "v02_artwork"
   },
   "Z04-P35": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Routine chlorine",
-        "note": "Typical doses miss Crypto",
-        "limit": "Parasite gap"
-      },
-      {
-        "name": "Cyst filter",
-        "note": "Specific cyst claim or ≤1 μm absolute",
-        "limit": "No assumption of viral protection"
-      },
-      {
-        "name": "Rolling boil",
-        "note": "CDC time and altitude rule",
-        "limit": "Chemical hazards excluded"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z04-P36": {
     "type": "v02_artwork"
@@ -341,35 +321,16 @@
     "callout": "Backflush only with clean treated water; check seals for bypass"
   },
   "Z04-P39": {
-    "type": "mechanism",
-    "nodes": [
-      "Confirm exact formulation",
-      "Use one official protocol",
-      "Verify dose and contact time"
-    ],
-    "callout": "Odor does not prove safe drinking water"
+    "type": "w2c_artwork"
   },
   "Z04-P40": {
-    "type": "mechanism",
-    "nodes": [
-      "Confirm target and product",
-      "Use label water conditions",
-      "Complete required contact time"
-    ],
-    "callout": "Do not invent cold-water dose or contact time"
+    "type": "w2c_artwork"
   },
   "Z04-P41": {
     "type": "v02_artwork"
   },
   "Z04-P42": {
-    "type": "mechanism",
-    "nodes": [
-      "Screen & Clarify Solids",
-      "Cyst/Bacteria Pore Filter",
-      "Chemical or UV Viral Barrier"
-    ],
-    "callout": "Order matters: turbidity blocks UV & clogs filters",
-    "accent": "#3d7a69"
+    "type": "w2c_artwork"
   },
   "Z04-P43": {
     "type": "cutaway",
@@ -392,14 +353,7 @@
     "abort": "SINGLE-POINT FAILURE: Pair independent backup or carry safe reserve"
   },
   "Z04-P45": {
-    "type": "exploded",
-    "components": [
-      "Food-Grade Body",
-      "Soap Wash & Rinse",
-      "30s Bleach Sanitize",
-      "Safe Rinse & Tight Cap"
-    ],
-    "callout": "Never reuse containers that held fuel, bleach or toxic cleaners"
+    "type": "w2c_artwork"
   },
   "Z04-P46": {
     "type": "comparison",
@@ -444,43 +398,13 @@
     "hazard": "Never flame-thaw plastic"
   },
   "Z04-P49": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "RAW Zone",
-        "note": "Marked dirty scoop, cloth & collection bags",
-        "limit": "Never touch clean rim"
-      },
-      {
-        "name": "WAITING Zone",
-        "note": "Tagged batch during active chemical contact",
-        "limit": "Do not drink early"
-      },
-      {
-        "name": "POTABLE Zone",
-        "note": "Labeled clean sealed bottles & clean cups",
-        "limit": "Re-treat if splashed"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z04-P50": {
-    "type": "exploded",
-    "components": [
-      "6-Month Fill Date",
-      "Cool Dark Storage",
-      "Chemical-Free Zone",
-      "Evacuation Grab Jugs"
-    ],
-    "callout": "Store ≥1 gal/person/day away from heat, fuels and household cleaners"
+    "type": "w2c_artwork"
   },
   "Z04-P51": {
-    "type": "decision_tree",
-    "gates": [
-      "Do-Not-Use notice?",
-      "Ingestion/wound/infant?",
-      "Use verified potable"
-    ],
-    "abort": "DO-NOT-USE: Zero tap contact; use bottled or official safe water"
+    "type": "w2c_artwork"
   },
   "Z04-P52": {
     "type": "failure_mode",
@@ -1357,10 +1281,10 @@
     "callout": "Every knot lowers straight-line strength; pad sharp corners"
   },
   "Z09-P14": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z09-P15": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z09-P16": {
     "type": "comparison",
@@ -1755,7 +1679,7 @@
     "accent": "#5f98ad"
   },
   "Z11-R05": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z11-R06": {
     "type": "mechanism",
@@ -2016,7 +1940,7 @@
     "type": "v02_artwork"
   },
   "Z11-P32": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z11-P33": {
     "type": "comparison",
@@ -2323,14 +2247,7 @@
     ]
   },
   "Z11-P63": {
-    "type": "exploded",
-    "components": [
-      "1. Location & Format",
-      "2. Injuries & Headcount",
-      "3. Access Hazards",
-      "4. Stay-Put & Battery"
-    ],
-    "callout": "Lead with LOCATION FIRST in case weak signal drops mid-call"
+    "type": "w2c_artwork"
   },
   "Z11-P64": {
     "type": "exploded",
@@ -3204,23 +3121,23 @@
     "variant": "storm_lead",
     "phases": [
       {
-        "window": "T+0 min",
-        "focus": "Log injury time, mechanism, meds & baseline"
+        "window": "Start",
+        "focus": "Log time, mechanism, meds & baseline"
       },
       {
-        "window": "Every 15 m",
-        "focus": "Recheck unstable breath, skin & clarity"
+        "window": "Continuously",
+        "focus": "Watch breathing & responsiveness"
       },
       {
-        "window": "Every 30–60 m",
-        "focus": "Log stable trends & dressing checks"
+        "window": "Each recheck",
+        "focus": "Write time & findings; note changes"
       },
       {
-        "window": "EMS Arrival",
-        "focus": "Hand physical timed sheet to clinicians"
+        "window": "EMS arrival",
+        "focus": "Hand timed sheet to clinicians"
       }
     ],
-    "threshold": "Any downward trend in alertness or breathing triggers urgent escalation"
+    "threshold": "Worse breathing or alertness: escalate now, log later"
   },
   "Z10-P07": {
     "type": "sequence_plate",
@@ -3514,10 +3431,10 @@
   "Z10-P26": {
     "type": "system_boundary",
     "variant": "panel_gen",
-    "zone_a": "HAZARD ISOLATION\nShut power off / brush dry powder first",
-    "barrier": "GLOVED DECON ZONE\n20+ min cool flush (chem)",
-    "zone_b": "CLINICAL CARE\nAll electrical & eye burns -> 911",
-    "hazard": "Never touch energized victim; dry lime/powders activate if wetted unbrushed"
+    "zone_a": "ELECTRICAL HAZARD\nStay back until confirmed safe",
+    "barrier": "CHEMICAL CARE\nLabel, SDS or Poison Control",
+    "zone_b": "EMERGENCY CARE\n911: electrical, eye, airway",
+    "hazard": "Never touch an energized victim; ask before wetting dry or water-reactive chemicals"
   },
   "Z10-P27": {
     "type": "sequence_plate",
@@ -4566,12 +4483,7 @@
     "reason": "Space heaters & heating gear are a leading driver of winter house fires"
   },
   "Z13-P20": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "SAFE WARMTH\nDry layers, blankets & warming center",
-    "barrier": "ZERO INDOOR FLAME\nCO alarms active",
-    "zone_b": "FORBIDDEN HEATERS\nOvens, charcoal grills, camp stoves",
-    "hazard": "NEVER heat a home with ovens, charcoal grills or camp stoves — fatal CO"
+    "type": "w2c_artwork"
   },
   "Z13-P21": {
     "type": "decision_tree",
@@ -4723,24 +4635,7 @@
     "callout": "Retain heat without indoor combustion"
   },
   "Z13-P33": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "3-Day Floor",
-        "note": "≥1 gal/person/day minimum baseline",
-        "limit": "Add kids, heat & pets"
-      },
-      {
-        "name": "14-Day Target",
-        "note": "Extended outage & rural well buffer",
-        "limit": "Label potable vs utility"
-      },
-      {
-        "name": "Safe Storage",
-        "note": "Cool, dark, off bare concrete floor",
-        "limit": "Far from fuel/chemicals"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z13-P34": {
     "type": "sequence_plate",
@@ -4781,35 +4676,10 @@
     "reason": "Advisories take precedence. This is not a drain or shutdown procedure."
   },
   "Z13-P36": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · BOIL WATER",
-        "scope": "Microbial risk",
-        "action": "Rolling boil 1 m (3 m >6500 ft) for drink/food"
-      },
-      {
-        "role": "2 · DO NOT DRINK",
-        "scope": "Chemical/toxin",
-        "action": "NEVER boil (concentrates!); bottled only"
-      },
-      {
-        "role": "3 · DO NOT USE",
-        "scope": "Severe hazard",
-        "action": "Zero tap contact (no bath/dishes) til clear"
-      }
-    ],
-    "trigger": "Follow exact local utility notice wording until formal lab clearance issues"
+    "type": "w2c_artwork"
   },
   "Z13-P37": {
-    "type": "exploded",
-    "components": [
-      "Icemaker OFF (dump ice)",
-      "CPAP/humidifier safe H2O",
-      "Fridge carbon filter",
-      "Dishwasher sanitize"
-    ],
-    "callout": "Freezing does NOT kill germs & basic fridge filters do NOT clear Boil Water notices"
+    "type": "w2c_artwork"
   },
   "Z13-P38": {
     "type": "sequence_plate",
@@ -4851,10 +4721,7 @@
     "hazard": "A snowplow-cracked well casing opens a direct path for surface bacteria"
   },
   "Z13-P41": {
-    "type": "failure_mode",
-    "cause": "Power outage or flickering brownout",
-    "cue": "Bladder tank empties in ~5–15 gal; pump surges",
-    "correction": "Kill well breaker in brownout; store water"
+    "type": "w2c_artwork"
   },
   "Z13-P42": {
     "type": "sequence_plate",
@@ -4880,42 +4747,10 @@
     "cue": "Never pour DIY bleach down a wet submerged well or drink before lab clearance"
   },
   "Z13-P43": {
-    "type": "seasonal_timeline",
-    "variant": "crop_frost",
-    "phases": [
-      {
-        "window": "Every Year",
-        "focus": "Certified lab: coliform, nitrate, TDS, pH"
-      },
-      {
-        "window": "Regional MN",
-        "focus": "Test arsenic, lead & local ag hazards"
-      },
-      {
-        "window": "Event Retest",
-        "focus": "After floods, pump work or new infant"
-      },
-      {
-        "window": "Nitrate rule",
-        "focus": "NEVER boil high-nitrate water!"
-      }
-    ],
-    "threshold": "Boiling high-nitrate water evaporates water and concentrates toxic nitrates"
+    "type": "w2c_artwork"
   },
   "Z13-P44": {
-    "type": "correct_vs_wrong",
-    "variant": "canning",
-    "correct_title": "AIR GAP & VACUUM BREAKER",
-    "correct_items": [
-      "Anti-siphon valve on every outdoor spigot",
-      "Clear vertical air gap above bucket rims"
-    ],
-    "wrong_title": "SUBMERGED BACKSIPHONAGE",
-    "wrong_items": [
-      "Hose end left underwater in soap/trough",
-      "Pressure drop sucks toxins into home pipes"
-    ],
-    "reason": "Never cross-connect rain cisterns or sumps into household potable plumbing"
+    "type": "w2c_artwork"
   },
   "Z13-P45": {
     "type": "system_boundary",
@@ -4954,43 +4789,13 @@
     "hazard": "High indoor water use on a dead septic lift pump backs raw sewage into basements"
   },
   "Z13-P48": {
-    "type": "failure_mode",
-    "cause": "Pumping septic tank while yard is flooded",
-    "cue": "Hollow empty tank floats up in wet earth",
-    "correction": "Conserve water; wait for dry ground + pro"
+    "type": "w2c_artwork"
   },
   "Z13-P49": {
-    "type": "exploded",
-    "components": [
-      "Solid bucket (2x 3-mil bag)",
-      "Dry sawdust/peat cover",
-      "Separate liquid bucket",
-      "Soap handwash station"
-    ],
-    "callout": "Snap tight lids immediately; keep far from food/wells; follow county disposal rules"
+    "type": "w2c_artwork"
   },
   "Z13-P50": {
-    "type": "sequence_plate",
-    "variant": "utility",
-    "steps": [
-      {
-        "label": "Spigot stream",
-        "detail": "Pour thin safe water stream over soap"
-      },
-      {
-        "label": "20 s scrub",
-        "detail": "Wash thoroughly before food & after waste"
-      },
-      {
-        "label": "Sanitizer aid",
-        "detail": "Use ≥60% alcohol when hands look clean"
-      },
-      {
-        "label": "Paper plates",
-        "detail": "Save potable water during strict rationing"
-      }
-    ],
-    "cue": "Catch wash water in basin & dump well away from wells and vegetable gardens"
+    "type": "w2c_artwork"
   },
   "Z13-P51": {
     "type": "correct_vs_wrong",
@@ -5016,13 +4821,7 @@
     "hazard": "NEVER burn plastics or household garbage in fireplaces or indoor stoves"
   },
   "Z13-P53": {
-    "type": "decision_tree",
-    "gates": [
-      "Sewer/gravity line open?",
-      "Light greywater <24 h?",
-      "Pour 1–2 gal briskly in bowl"
-    ],
-    "abort": "STOP: Flooded/pump septic, raw-meat/fecal water or slow drain -> bucket toilet"
+    "type": "w2c_artwork"
   },
   "Z13-P54": {
     "type": "sequence_plate",
@@ -5069,25 +4868,10 @@
     "trigger": "Replace flood-submerged gas water-heater/furnace controls via licensed trades"
   },
   "Z13-P56": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Upper floor: smoke + CO outside bedrooms",
-      "Main floor: smoke + CO near living/kitchen",
-      "Basement: smoke + CO near furnace/stairs"
-    ],
-    "callout": "Check expiry dates",
-    "accent": "#e5d4a1",
-    "hazard": "CO expires ~5–10 yr"
+    "type": "w2c_artwork"
   },
   "Z13-P57": {
-    "type": "decision_tree",
-    "gates": [
-      "Everyone exiting + 911?",
-      "Tiny fire + back to exit?",
-      "ABC PASS: Pull Aim Squeeze Sweep"
-    ],
-    "abort": "EVACUATE NOW: Thick smoke, grease + water hazard, blocked exit or growing flame"
+    "type": "w2c_artwork"
   },
   "Z13-P58": {
     "type": "escalation_ladder",
@@ -5134,12 +4918,7 @@
     "cue": "Community daytime check-ins prevent silent winter/heat-wave isolation deaths"
   },
   "Z13-P60": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "EXTERIOR VENTED SHED\nUpright UL cans & LP cylinders",
-    "barrier": "OUTDOOR SEPARATION\nCool shade; locked",
-    "zone_b": "BASEMENT / LIVING\nPilot flames, sparks & sleepers",
-    "hazard": "Heavy fuel vapors creep along basement floors and explode at pilot flames"
+    "type": "w2c_artwork"
   },
   "Z13-P61": {
     "type": "seasonal_timeline",
@@ -5864,24 +5643,7 @@
     "reason": "During Boil Water notices, wash ready-to-eat produce with boiled/bottled water"
   },
   "Z14-P37": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "145°F (+3 m rest)",
-        "note": "Whole beef, pork, veal, lamb & fish (145°F)",
-        "limit": "Check thickest center"
-      },
-      {
-        "name": "160°F",
-        "note": "Ground beef/pork/lamb & egg dishes",
-        "limit": "Brown color ≠ safe"
-      },
-      {
-        "name": "165°F",
-        "note": "ALL poultry, stuffing & reheated leftovers",
-        "limit": "Calibrate in 32°F ice"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z14-P38": {
     "type": "seasonal_timeline",
@@ -5907,44 +5669,13 @@
     "threshold": "Reheating overnight room-temp soup does NOT destroy heat-stable toxins"
   },
   "Z14-P39": {
-    "type": "system_boundary",
-    "variant": "cold_chain",
-    "zone_a": "SAFE FREEZER\nThermometer ≤0°F (-18°C)",
-    "barrier": "SAFE FRIDGE ≤40°F\nDedicated thermo inside",
-    "zone_b": "DANGER ZONE >40°F\nRapid bacterial growth",
-    "hazard": "Numbered fridge dials (1–7) never show real temp — hang real thermometers"
+    "type": "w2c_artwork"
   },
   "Z14-P40": {
-    "type": "seasonal_timeline",
-    "variant": "food_temp",
-    "phases": [
-      {
-        "window": "T+0 Outage",
-        "focus": "Log clock time; keep ALL doors SHUT"
-      },
-      {
-        "window": "~4 Hours",
-        "focus": "Closed fridge limit -> move to ice cooler"
-      },
-      {
-        "window": "~24 Hours",
-        "focus": "Closed half-full freezer cold holding"
-      },
-      {
-        "window": "~48 Hours",
-        "focus": "Closed full freezer; dry ice = gloves/vent"
-      }
-    ],
-    "threshold": "Never stash food in outdoor snowbanks (sun warms & animals raid)"
+    "type": "w2c_artwork"
   },
   "Z14-P41": {
-    "type": "decision_tree",
-    "gates": [
-      "Fridge ≤40°F or <2 h?",
-      "Frozen: ice crystals or ≤40°F?",
-      "Keep/refreeze per official chart"
-    ],
-    "abort": "DISCARD CLEANLY: Meat, dairy, eggs, cut produce or leftovers >40°F >2 hr"
+    "type": "w2c_artwork"
   },
   "Z14-P42": {
     "type": "correct_vs_wrong",
@@ -6019,19 +5750,7 @@
     "reason": "Follow the tested acid step even if there is a pressure-canner option"
   },
   "Z14-P48": {
-    "type": "correct_vs_wrong",
-    "variant": "canning",
-    "correct_title": "VALIDATED USDA CANNERS",
-    "correct_items": [
-      "Stovetop boiling-water (high-acid only)",
-      "Full ≥4-quart stovetop pressure canner"
-    ],
-    "wrong_title": "UNSAFE SHORTCUT METHODS",
-    "wrong_items": [
-      "Oven, open-kettle, wax, dishwasher, micro",
-      "Unvalidated electric pressure multicookers"
-    ],
-    "reason": "Dry heat shatters glass & unvalidated cookers fail botulism thermal lethality"
+    "type": "w2c_artwork"
   },
   "Z14-P49": {
     "type": "v02_artwork"
@@ -6076,63 +5795,19 @@
     "hazard": "Tilt lid away to prevent scalds"
   },
   "Z14-P53": {
-    "type": "decision_tree",
-    "gates": [
-      "High-acid pH ≤4.6 tested?",
-      "Total time ≤45 m incl. altitude?",
-      "Full steam dome -> run timer"
-    ],
-    "abort": "STOP: >45 min total or ANY low-acid food -> Use deep water-bath or pressure canner"
+    "type": "w2c_artwork"
   },
   "Z14-P54": {
     "type": "v01_artwork"
   },
   "Z14-P55": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "Dial Gauge",
-        "note": "Test yearly via county Extension office",
-        "limit": "Replace if off >2 PSI"
-      },
-      {
-        "name": "Weighted Gauge",
-        "note": "Gravity weights (5/10/15 PSI); no drift",
-        "limit": "Jumps 10->15 PSI >1000 ft"
-      },
-      {
-        "name": "Manual Rock Rate",
-        "note": "Follow exact brand jiggle/rock pattern",
-        "limit": "Don’t roar pot dry"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z14-P56": {
-    "type": "failure_mode",
-    "cause": "Burner dip drops PSI or stops rolling boil",
-    "cue": "Dial falls below target even 1 minute",
-    "correction": "Restore full PSI/boil & RESTART timer at 0"
+    "type": "w2c_artwork"
   },
   "Z14-P57": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · ≤1,000 FT",
-        "scope": "Sea-level base",
-        "action": "Base minutes | 11 PSI dial | 10 PSI weight"
-      },
-      {
-        "role": "2 · 1,001–2,000 FT",
-        "scope": "Many MN counties",
-        "action": "Add WB min | 11 PSI dial | 15 PSI weight!"
-      },
-      {
-        "role": "3 · >2,000 FT",
-        "scope": "Highlands/west",
-        "action": "Step WB min & dial PSI per USDA tables"
-      }
-    ],
-    "trigger": "Verify exact local elevation BEFORE lighting burner — never mix dial/weight tables"
+    "type": "w2c_artwork"
   },
   "Z14-P58": {
     "type": "sequence_plate",
@@ -6224,19 +5899,7 @@
     "hazard": "Narrow-neck glass shatters frozen"
   },
   "Z14-P65": {
-    "type": "correct_vs_wrong",
-    "variant": "canning",
-    "correct_title": "COLD / IMMEDIATE THAW",
-    "correct_items": [
-      "Bottom-shelf fridge tray ≤40°F (safest)",
-      "30-min cold-water swaps or micro + cook NOW"
-    ],
-    "wrong_title": "COUNTERTOP THAWING",
-    "wrong_items": [
-      "Outer meat enters >40°F Danger Zone fast",
-      "Hot-water thaw multiplies surface germs"
-    ],
-    "reason": "Cold-water or microwave-thawed meat must be cooked immediately before refreezing"
+    "type": "w2c_artwork"
   },
   "Z14-P66": {
     "type": "mechanism",
@@ -6504,25 +6167,7 @@
     "callout": "Layer ≥3 independent warning channels + printed local radio/agency sheet"
   },
   "Z15-P02": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · WATCH",
-        "scope": "Conditions favorable",
-        "action": "Stage fuel/gear, charge cells, monitor live"
-      },
-      {
-        "role": "2 · WARNING",
-        "scope": "Imminent/occurring",
-        "action": "Take immediate shelter or high ground NOW"
-      },
-      {
-        "role": "3 · EMERGENCY",
-        "scope": "Extreme rare tier",
-        "action": "Maximum shelter or mandatory instant exit"
-      }
-    ],
-    "trigger": "NEVER wait to see a funnel cloud, flood wall or flames after a Warning"
+    "type": "w2c_artwork"
   },
   "Z15-P04": {
     "type": "seasonal_timeline",
@@ -6737,16 +6382,7 @@
     "reason": "If trapped in a car with no building -> buckle low below windows & cover head"
   },
   "Z15-P18": {
-    "type": "cutaway",
-    "variant": "enclosure",
-    "layers": [
-      "Wide-span retail/gym roof & glass (EXIT)",
-      "Interior concrete-block restroom / stairwell",
-      "Crouch low facing wall; cover head & neck"
-    ],
-    "callout": "Skip parking lot dash",
-    "accent": "#dce8df",
-    "hazard": "Stay clear of tall stock racks"
+    "type": "w2c_artwork"
   },
   "Z15-P19": {
     "type": "sequence_plate",
@@ -6810,35 +6446,10 @@
     "cue": "Never use matches/lighters or enter collapsed structures after windstorms"
   },
   "Z15-P22": {
-    "type": "system_boundary",
-    "variant": "shelter_seal",
-    "zone_a": "OUTDOOR SIRENS\nMuffled by double-pane glass & AC",
-    "barrier": "INSULATED WALL\nUnreliable indoors",
-    "zone_b": "BEDROOM ALERTS\nBattery NOAA SAME + Phone WEA ON",
-    "hazard": "Keep shoes & flashlight beside the bed on evening Tornado Watch nights"
+    "type": "w2c_artwork"
   },
   "Z15-P23": {
-    "type": "seasonal_timeline",
-    "variant": "storm_lead",
-    "phases": [
-      {
-        "window": "River Flood",
-        "focus": "Days lead -> move IDs/chems & evac early"
-      },
-      {
-        "window": "Flash Watch",
-        "focus": "Heavy rain/ice jam -> map high routes"
-      },
-      {
-        "window": "Flash Warning",
-        "focus": "Minutes -> move to high ground NOW"
-      },
-      {
-        "window": "Dam / Levee",
-        "focus": "Instant evacuation order — zero delay"
-      }
-    ],
-    "threshold": "Never wait to see water rise outside before acting on Flash Flood Warnings"
+    "type": "w2c_artwork"
   },
   "Z15-P24": {
     "type": "cutaway",
@@ -7149,27 +6760,7 @@
     "callout": "Restore hospitals & mains before rural taps"
   },
   "Z15-P43": {
-    "type": "seasonal_timeline",
-    "variant": "outage_30d",
-    "phases": [
-      {
-        "window": "Hour 1",
-        "focus": "LEDs (no candles), shut cold doors, unplug"
-      },
-      {
-        "window": "Days 1–2",
-        "focus": "Cold-food triage; outdoor-only ≥20 ft gen"
-      },
-      {
-        "window": "Days 3–7",
-        "focus": "Daily temp/reserve log; zero indoor fuel"
-      },
-      {
-        "window": "Exit Gate",
-        "focus": "Relocate early if cold/heat/meds hit floor"
-      }
-    ],
-    "threshold": "Fatigue on Day 4 NEVER excuses pulling a generator into a garage or porch"
+    "type": "w2c_artwork"
   },
   "Z15-P44": {
     "type": "escalation_ladder",

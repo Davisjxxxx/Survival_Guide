@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Canning methods USDA does not recommend, and the tested equipment</title>
+<desc id="desc">Left: jars processed in a conventional oven, open-kettle filling with jars turned upside down, a microwave oven, a dishwasher and a paraffin wax seal are each crossed out; USDA does not recommend them because they do not prevent all risks of spoilage. Right: a boiling-water canner with water over the jar tops and a pressure canner holding at least four quart jars, used with a tested recipe. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z14-P48 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z14-p48-artwork">
+<rect x="24" y="46" width="470" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">✕ NOT RECOMMENDED</text>
+<rect x="512" y="46" width="364" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="528" y="72" class="head ok">✓ TESTED EQUIPMENT</text>
+<rect x="44" y="90" width="96" height="76" rx="5" fill="#d9dcdc" stroke="#183a30" stroke-width="2"/><rect x="54" y="102" width="76" height="52" fill="#3b3b3b"/>
+<rect x="66" y="118" width="18" height="24" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="69" y="112" width="12" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<rect x="96" y="118" width="18" height="24" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="99" y="112" width="12" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<text x="50" y="186" class="tiny">oven</text>
+<path d="M172 120h70l-6 44h-58z" fill="#9aa1a5" stroke="#183a30" stroke-width="2"/><g transform="rotate(180 270 142)"><rect x="258" y="128" width="24" height="34" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="261" y="122" width="18" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/></g>
+<text x="170" y="186" class="tiny">open kettle, jar</text>
+<text x="170" y="207" class="tiny">turned upside down</text>
+<rect x="328" y="94" width="104" height="66" rx="6" fill="#e2e4e4" stroke="#183a30" stroke-width="2"/><rect x="338" y="104" width="62" height="46" fill="#4a4f52"/><circle cx="416" cy="114" r="4" fill="#183a30"/>
+<text x="330" y="186" class="tiny">microwave</text>
+<rect x="70" y="216" width="92" height="94" rx="6" fill="#d9dcdc" stroke="#183a30" stroke-width="2"/><path d="M70 236h92" stroke="#183a30" stroke-width="2"/>
+<text x="176" y="266" class="tiny">dishwasher</text>
+<rect x="300" y="236" width="40" height="56" rx="6" fill="#b84a6b" stroke="#183a30" stroke-width="2"/><rect x="300" y="236" width="40" height="10" fill="#f2efe1" stroke="#183a30" stroke-width="1.6"/>
+<text x="354" y="266" class="tiny">paraffin seal</text>
+<circle cx="126" cy="92" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M121 87L130.9 97M130.9 87L121 97" stroke="#8b3825" stroke-width="3"/>
+<circle cx="226" cy="116" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M221.1 111L230.9 121M230.9 111L221.1 121" stroke="#8b3825" stroke-width="3"/>
+<circle cx="418" cy="96" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M413.1 91L422.9 101M422.9 91L413.1 101" stroke="#8b3825" stroke-width="3"/>
+<circle cx="146" cy="222" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M141.1 217.1L150.9 226.9M150.9 217.1L141.1 226.9" stroke="#8b3825" stroke-width="3"/>
+<circle cx="334" cy="232" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M329.1 227.1L338.9 236.9M338.9 227.1L329.1 236.9" stroke="#8b3825" stroke-width="3"/>
+<text x="44" y="326" class="tiny warn">do not prevent all risks of spoilage</text>
+<rect x="540" y="150" width="140" height="96" rx="10" fill="#c9cdd0" stroke="#183a30" stroke-width="2.4"/><rect x="546" y="162" width="128" height="78" fill="#9cc3cf"/>
+<rect x="556" y="194" width="28" height="38" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="559" y="188" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<rect x="596" y="194" width="28" height="38" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="599" y="188" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<rect x="636" y="194" width="28" height="38" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="639" y="188" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<path d="M546 172h128" stroke="#3d7186" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="536" y="100" class="tiny">boiling-water canner,</text>
+<text x="536" y="121" class="tiny">water over jar tops</text>
+<path d="M712 156q72-40 144 0v92h-144z" fill="#c9cdd0" stroke="#183a30" stroke-width="2.4"/><rect x="778" y="128" width="10" height="20" fill="#7c8c95"/>
+<rect x="720" y="202" width="28" height="42" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="723" y="196" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<rect x="754" y="202" width="28" height="42" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="757" y="196" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<rect x="788" y="202" width="28" height="42" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="791" y="196" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<rect x="822" y="202" width="28" height="42" rx="5" fill="#d9a441" stroke="#183a30" stroke-width="1.6"/><rect x="825" y="196" width="22" height="7" rx="2" fill="#9aa1a5" stroke="#183a30" stroke-width="1.4"/>
+<text x="708" y="100" class="tiny">pressure canner that</text>
+<text x="708" y="121" class="tiny">holds 4 quart jars</text>
+<text x="536" y="290" class="tiny">with a tested recipe for the</text>
+<text x="536" y="311" class="tiny">food, jar size and altitude</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Any recipe that calls for these methods: reject it and use a tested method.</text>
+</g>
+</svg>

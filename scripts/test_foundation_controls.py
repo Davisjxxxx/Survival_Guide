@@ -105,6 +105,102 @@ class ControlTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'enclosed combustion'):
             self.load(text)
 
+    def test_rt01_linter_fixtures_cover_every_instruction_surface(self):
+        """RT01-10 negative fixtures (in memory only; never manuscript text)."""
+        import copy
+        from build_foundations import lint_cards
+        cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), self.claims)
+        cases = [('Z04-P01', 'action', 'Clear water is safe.', True),
+                 ('Z04-P01', 'visual', 'Clear water is safe.', True),
+                 ('Z04-P01', 'diagram', 'Clear water is safe. | Collect | Drink', True),
+                 ('Z13-P20', 'action', 'Run the generator inside a garage.', True),
+                 ('Z13-P20', 'action', 'Do not spill fuel, then run the generator inside a garage.', True),
+                 ('Z13-P20', 'visual', 'Run the generator inside a garage.', True),
+                 ('Z12-P56', 'action', 'Swim directly against a rip current.', True),
+                 ('Z04-P01', 'action', 'Clear water is not safe merely because it looks clear.', False)]
+        for page, field, text, rejected in cases:
+            mutated = copy.deepcopy(cards)
+            if field == 'action':
+                mutated[page]['action'][0]['text'] = text
+            else:
+                mutated[page][field] = text
+            with self.subTest(page=page, field=field, text=text):
+                if rejected:
+                    with self.assertRaisesRegex(ValueError, 'Contradiction'):
+                        lint_cards(mutated)
+                else:
+                    lint_cards(mutated)
+
+    def test_delivered_figure_text_is_linted(self):
+        from build_foundations import lint_cards
+        cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), self.claims)
+        lint_cards(cards, {'Z13-P20': ['Never run the generator inside a garage.']})
+        with self.assertRaisesRegex(ValueError, 'enclosed combustion'):
+            lint_cards(cards, {'Z13-P20': ['Run the generator inside a garage.']})
+
+    def test_cross_references_must_name_another_card(self):
+        from build_foundations import validate_cross_references, statement
+        card = self.load(self.sample.replace('Pause on stable ground', 'Pause on stable ground (see Z01-P99)'))
+        with self.assertRaisesRegex(ValueError, 'Invalid cross-reference'):
+            validate_cross_references(card)
+        html = statement({'text': 'Formula has its own rules (see Z14-P74).', 'claims': ['P26']})
+        self.assertIn('<a class="xref" href="Z14-P74.html">Z14-P74</a>', html)
+
+    def test_current_evidence_assessments_reach_every_citing_panel(self):
+        """RT01-11: K09's escalated locator decision appears on all 25 citing cards."""
+        from build_foundations import load_assessments, assessments_for
+        assessments = load_assessments()
+        cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), self.claims)
+        citing = [cid for cid, card in cards.items()
+                  if any('K09' in row['claims'] for row in [*card['action'], card['verify'], card['stop']])]
+        self.assertEqual(len(citing), 25)
+        for cid in citing:
+            rows = assessments_for(assessments, 'K09', cid)
+            self.assertTrue(any(r['assessment_id'] == 'W2C-E004' and r['status'].startswith('Open') for r in rows), cid)
+            html = (FOUND / 'reader' / f'{cid}.html').read_text(encoding='utf-8')
+            self.assertIn('Current assessment</strong> · W2C-E004', html)
+
+    def test_compass_check_measures_drawn_geometry_not_metadata(self):
+        """RT01-09: a 90-degree visible-needle mutation with unchanged data-bearing must fail."""
+        import re as _re
+        from xml.etree import ElementTree
+        from build_w2c_navigation import pivot_of, z11_r05_checks
+        delivered = (FOUND / 'reader/visuals/Z11-R05.svg').read_text(encoding='utf-8')
+        self.assertTrue(z11_r05_checks(delivered)['accepted'])
+        cx, cy = pivot_of(ElementTree.fromstring(delivered), 'compass-after')
+        needle = _re.search(r'<polygon id="compass-after-needle"[^>]*>', delivered).group(0)
+        by_transform = delivered.replace(needle, needle.replace('<polygon ', f'<polygon transform="rotate(90 {cx:.1f} {cy:.1f})" '))
+        self.assertFalse(z11_r05_checks(by_transform)['accepted'])
+        points = _re.search(r'points="([^"]+)"', needle).group(1)
+        rotated = ' '.join(f'{cx - (float(y) - cy):.1f},{cy + (float(x) - cx):.1f}'
+                           for x, y in (pair.split(',') for pair in points.split()))
+        by_points = delivered.replace(needle, needle.replace(points, rotated))
+        self.assertIn('data-bearing', by_points)
+        self.assertFalse(z11_r05_checks(by_points)['accepted'])
+
+    def test_proof_inputs_detect_figure_and_style_changes(self):
+        """RT01-06: a figure or stylesheet change makes a receipted proof stale; packaged proofs cannot be withheld."""
+        import json, shutil
+        from proof_inputs import PACKAGED_PROOF_NAMES, edition_of, fingerprint, stale_pages
+        reader = FOUND / 'reader'
+        card = next(c for c in json.loads((reader / 'page-manifest.json').read_text()) if c['id'] == 'Z14-P53')
+        with tempfile.TemporaryDirectory() as tmp:
+            copy = Path(tmp)
+            (copy / 'visuals').mkdir()
+            for rel in ('Z14-P53.html', 'visuals/Z14-P53.svg', 'library.css', 'edition.css'):
+                shutil.copyfile(reader / rel, copy / rel)
+            printed = fingerprint(copy, [card])
+            self.assertEqual(stale_pages(printed, fingerprint(copy, [card])), [])
+            svg = copy / 'visuals/Z14-P53.svg'
+            svg.write_text(svg.read_text(encoding='utf-8').replace('</svg>', '<!-- changed --></svg>'), encoding='utf-8')
+            self.assertEqual(stale_pages(printed, fingerprint(copy, [card])), ['Z14-P53'])
+            svg.write_bytes((reader / 'visuals/Z14-P53.svg').read_bytes())
+            (copy / 'edition.css').write_text('/* changed */', encoding='utf-8')
+            self.assertEqual(stale_pages(printed, fingerprint(copy, [card])), ['Z14-P53'])
+        self.assertIn(edition_of('Z14-letter.pdf'), PACKAGED_PROOF_NAMES)
+        self.assertIn(edition_of('reconstructions.pdf'), PACKAGED_PROOF_NAMES)
+        self.assertNotIn(edition_of('encyclopedia-a4.pdf'), PACKAGED_PROOF_NAMES)
+
     def test_figure_spec_rejects_misspelled_branch_and_cue_keys(self):
         with self.assertRaisesRegex(ValueError,'Invalid figure specification'):
             validate_spec('Z02-P42',{'type':'failure_mode','cause':'snow','symptom':'crack','correction':'leave'})
@@ -397,7 +493,12 @@ class ControlTests(unittest.TestCase):
         from foundation_diagrams import v02_source_path
         ns = '{http://www.w3.org/2000/svg}'
         specs = json.loads((FOUND / 'evidence/diagram-specs.json').read_text(encoding='utf-8'))
-        v02_ids = sorted(cid for cid, spec in specs.items() if spec.get('type') == 'v02_artwork')
+        # V02 plates later superseded through W2C custody keep their V02 original and revised files.
+        manifest = FOUND / 'visual/w2c_technical/MANIFEST.json'
+        superseded = {r['page_id'] for r in json.loads(manifest.read_text(encoding='utf-8'))
+                      if r.get('supersedes_a04_candidate_sha256')} if manifest.is_file() else set()
+        self.assertTrue(all(specs[cid]['type'] == 'w2c_artwork' for cid in superseded))
+        v02_ids = sorted({cid for cid, spec in specs.items() if spec.get('type') == 'v02_artwork'} | superseded)
         self.assertGreaterEqual(len(v02_ids), 64)
         for cid in v02_ids:
             rev = v02_source_path(cid)
@@ -408,6 +509,32 @@ class ControlTests(unittest.TestCase):
             desc = root.find(ns + 'desc')
             self.assertIsNotNone(desc, f'Missing <desc> in {cid}')
             self.assertTrue(bool(desc.text and desc.text.strip()))
+            self.assertIn('NOT TO SCALE', rev.read_text(encoding='utf-8'))
+            self.assertFalse(list(root.iter(ns + 'image')), f'Unexpected raster image in vector SVG {cid}')
+
+    def test_w2c_plates_preserve_predecessors_and_boundaries(self):
+        import hashlib, json
+        from xml.etree import ElementTree
+        from build_foundations import FOUND
+        from foundation_diagrams import w2c_source_path
+        ns = '{http://www.w3.org/2000/svg}'
+        w2c = FOUND / 'visual/w2c_technical'
+        specs = json.loads((FOUND / 'evidence/diagram-specs.json').read_text(encoding='utf-8'))
+        records = {r['page_id']: r for r in json.loads((w2c / 'MANIFEST.json').read_text(encoding='utf-8'))}
+        active = sorted(cid for cid, spec in specs.items() if spec.get('type') == 'w2c_artwork')
+        self.assertTrue(active)
+        for cid in active:
+            rec = records[cid]
+            self.assertEqual(rec['disposition'], 'PROVISIONAL_EDITORIAL_CANDIDATE')
+            self.assertEqual(rec['publication'], 'HOLD')
+            rev = w2c_source_path(cid)
+            self.assertEqual(hashlib.sha256((w2c / rec['predecessor']).read_bytes()).hexdigest(), rec['predecessor_sha256'])
+            self.assertEqual(hashlib.sha256(rev.read_bytes()).hexdigest(), rec['revised_sha256'])
+            self.assertEqual(hashlib.sha256((FOUND / 'reader/visuals' / f'{cid}.svg').read_bytes()).hexdigest(),
+                             rec['revised_sha256'])
+            root = ElementTree.parse(rev).getroot()
+            desc = root.find(ns + 'desc')
+            self.assertTrue(desc is not None and desc.text and 'not to scale' in desc.text.lower())
             self.assertIn('NOT TO SCALE', rev.read_text(encoding='utf-8'))
             self.assertFalse(list(root.iter(ns + 'image')), f'Unexpected raster image in vector SVG {cid}')
 
@@ -425,6 +552,25 @@ class ControlTests(unittest.TestCase):
             self.assertEqual(hashlib.sha256(disp).hexdigest(), rec['derivative_sha256'])
             self.assertEqual(rec['expert_validation_status'], 'PENDING')
             self.assertEqual(rec['diagnostic_qualification'], 'WITHHELD')
+
+    def test_w2c_photographs_keep_provider_bytes_and_holds(self):
+        import hashlib, json
+        from build_foundations import FOUND
+        d = FOUND / 'visual/w2c_authentic_photos'
+        records = json.loads((d / 'MANIFEST.json').read_text(encoding='utf-8'))
+        self.assertTrue(records)
+        for rec in records:
+            orig = (d / rec['original_file']).read_bytes()
+            disp = (d / rec['delivery_derivative']).read_bytes()
+            self.assertTrue(orig.startswith(b'\xff\xd8'))
+            self.assertEqual(hashlib.sha256(orig).hexdigest(), rec['original_sha256'])
+            self.assertEqual(hashlib.sha256(disp).hexdigest(), rec['derivative_sha256'])
+            self.assertNotEqual(rec['original_sha256'], rec['derivative_sha256'])
+            self.assertEqual(rec['expert_validation_status'], 'PENDING')
+            self.assertEqual(rec['diagnostic_qualification'], 'WITHHELD')
+            self.assertEqual(rec['consumption_status'], 'WITHHELD_HOLD')
+            self.assertTrue(rec['original_download_url'].startswith('https://'))
+            self.assertIn(rec['license_and_attribution'].split()[0], {'CC0', 'CC'})
 
     def test_v02_v03_governance_registers_and_atlas_preservation(self):
         import csv

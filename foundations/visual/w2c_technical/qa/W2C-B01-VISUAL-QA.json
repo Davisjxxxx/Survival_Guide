@@ -1,0 +1,91 @@
+{
+  "batch": "W2C-B01",
+  "pages": [
+    "Z09-P14",
+    "Z09-P15",
+    "Z11-R05"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z09-P14": [],
+    "Z09-P15": [],
+    "Z11-R05": []
+  },
+  "axe_incomplete": {
+    "Z09-P14": [],
+    "Z09-P15": [],
+    "Z11-R05": []
+  },
+  "figure_alt": {
+    "Z09-P14": "Loose bowline in utility cord. The standing part runs up to the load. A small overhand loop is formed in the standing part with the working side on top. The working end comes up through that loop, passes behind the standing part and goes back down through the loop beside its first pass, so the tail finishes inside the fixed loop, where an overhand stopper is tied with tail to spare. A smaller view shows the failure to avoid: a short tail with no stopper, which can work loose. Utility loads only; not for climbing or life-safety use. Conceptual drawing, not to scale.",
+    "Z09-P15": "Two separate knots in utility cord. Left: a figure-eight stopper tied in the end of a line that passes through a tarp grommet; when the line is pulled, the wide knot bears on the grommet, and a tail extends beyond the knot. Right: a figure-eight loop tied in a doubled line, with the two strands running side by side through the knot without crossing, a fixed loop above, and the standing part and a tail to spare below. Not certified life-safety anchors. Conceptual drawing, not to scale.",
+    "Z11-R05": "Plan view with true north up the page in both panels. Panel 1: the map is turned away from true north. The baseplate edge lies on the map north-south neat line, the dial is set from map north with the declination correction applied, and the red needle is not yet inside the orienting arrow. Panel 2: map and compass have been turned together until the red needle overlays the orienting arrow; map north now points to true north, and sight lines from your position through the hill and lake symbols reach the real hill and lake. Magnetic north is shown east of true north with the angle exaggerated; use the current local declination. Conceptual drawing, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B01/W2C-B01-letter.pdf": {
+      "inspection": {
+        "sheets": 3,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 3,
+        "bookmarks": 3,
+        "extracted_section_order": true
+      },
+      "sha256": "de869affa42d9ab1ccae56d180e1892a562c20d3e87b655c4e18383737818969"
+    },
+    "visual/w2c_context/W2C-B01/W2C-B01-a4.pdf": {
+      "inspection": {
+        "sheets": 3,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 3,
+        "bookmarks": 3,
+        "extracted_section_order": true
+      },
+      "sha256": "ffcfbc41e335a89627c0d35104152d324d122f1256a8df276da2e55dd3f54c97"
+    },
+    "visual/w2c_context/W2C-B01/W2C-B01-compare.jpg": {
+      "sha256": "4758299f4b300f6933f0f8065a38df24d18a9011f477f8dbdf2e9dd977a13513",
+      "size": [
+        1230,
+        898
+      ]
+    },
+    "visual/w2c_context/W2C-B01/W2C-B01-compare-gray.jpg": {
+      "sha256": "bcbce808899df7c945ec0781abbe6018b79394d56f67061fb28da190669857d6",
+      "size": [
+        1230,
+        898
+      ]
+    },
+    "visual/w2c_context/W2C-B01/W2C-B01-phone.jpg": {
+      "sha256": "fb08631ab1792a18ad4223416f4f956c004fcd3fd6dee72afc849df7ded9f838",
+      "size": [
+        1114,
+        941
+      ]
+    },
+    "visual/w2c_context/W2C-B01/W2C-B01-desktop.jpg": {
+      "sha256": "885843dafde4b3c937957e96b189494d9df06429053cdb756a58c15cbb26dd00",
+      "size": [
+        1310,
+        1310
+      ]
+    },
+    "visual/w2c_context/W2C-B01/W2C-B01-print.jpg": {
+      "sha256": "1d5f14691bdb283b9ab8e16e7f7d6e53d1721de3628962526fe765244f2675ce",
+      "size": [
+        1570,
+        1120
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

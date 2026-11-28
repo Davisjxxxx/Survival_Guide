@@ -1,4 +1,10 @@
-"""Render document-level tagged HTML proofs while retaining their logical structure."""
+"""Render document-level tagged HTML proofs while retaining their logical structure.
+
+Each receipt entry records the source inputs the PDF was printed from (RT01-06): per-card
+fingerprints of the printed body and embedded figure, and a digest of the print stylesheets
+(scripts/proof_inputs.py). --editions prints a subset and merges it into the main receipt;
+--verify-only rechecks retained PDFs without restamping their recorded inputs.
+"""
 import argparse
 from hashlib import sha256
 from html import escape
@@ -12,19 +18,13 @@ from bs4 import BeautifulSoup
 import pymupdf
 from playwright.sync_api import sync_playwright
 
-from build_foundations import FOUND, FOUNDATIONAL_ZONES, require
+from build_foundations import FOUND, require
+from proof_inputs import PROOF_TEMPLATE, editions as proof_editions, fingerprint, proof_section
 from verify_foundations import PAPER_SIZES, contact_sheet
 
 
 def content(reader, card):
-    soup = BeautifulSoup((reader/f'{card["id"]}.html').read_text(encoding='utf-8'),'html.parser')
-    article = soup.find('article')
-    article.find('details').decompose()
-    for ref in article.select('sup a, a.atlas-link'):
-        ref.unwrap()
-    for image in article.find_all('img'):
-        image['src'] = (reader/image['src']).as_uri()
-    return f'<section class="proof">{soup.select_one("aside.edition")}{article}</section>'
+    return proof_section(reader, card, absolute=True)[0]
 
 
 def normalize(value):
@@ -85,39 +85,43 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--reader',type=Path,default=FOUND/'reader')
     parser.add_argument('--proofs',type=Path,default=FOUND/'proofs')
-    parser.add_argument('--zone')
-    parser.add_argument('--verify-only', action='store_true', help='Recheck retained PDFs and update their receipt')
+    parser.add_argument('--zone', help='Print one zone edition (same as --editions ZONE)')
+    parser.add_argument('--editions', help='Comma-separated editions to print, e.g. Z14,Z15,reconstructions')
+    parser.add_argument('--verify-only', action='store_true', help='Recheck retained PDFs without restamping inputs')
     args = parser.parse_args()
     reader, proofs = args.reader.resolve(), args.proofs.resolve()
     proofs.mkdir(parents=True,exist_ok=True)
     cards = json.loads((reader/'page-manifest.json').read_text())
-    zones = {zone:[c for c in cards if c['zone']==zone] for zone in sorted({c['zone'] for c in cards})}
-    foundations = [c for c in cards if c['zone'] in FOUNDATIONAL_ZONES]
-    recon = [c for c in cards if c['category']=='Reconstruction draft']
-    editions = {'foundations':foundations,'encyclopedia':cards,
-                **{zone: cs for zone,cs in zones.items() if len(cs)>1}}
-    if args.zone:
-        editions = {args.zone: zones[args.zone]}
-    else:
-        editions['reconstructions'] = recon
+    editions = proof_editions(cards)
+    wanted = args.editions or args.zone
+    if wanted:
+        names = [n.strip() for n in wanted.split(',') if n.strip()]
+        require(set(names) <= set(editions), f'Unknown proof edition: {sorted(set(names) - set(editions))}')
+        editions = {n: editions[n] for n in names}
     outputs = []
     for name, selection in editions.items():
         letter = name if name in {'foundations', 'reconstructions'} else f'{name}-letter'
         outputs.append((f'{letter}.pdf', selection, 'letter', name))
         if name != 'reconstructions':
             outputs.append((f'{name}-a4.pdf', selection, 'a4', name))
-    receipt = proofs/('tagged-print-qa.json' if not args.zone else f'{args.zone}-tagged-print-qa.json')
+    receipt = proofs/'tagged-print-qa.json'
+    previous = json.loads(receipt.read_text()) if receipt.is_file() else {}
     if args.verify_only:
-        results = {}
+        results = dict(previous)
         for filename, selection, fmt, _ in outputs:
             output = proofs / filename
             results[filename] = inspect(output, selection, fmt, bookmarks=True)
             results[filename]['sha256'] = sha256(output.read_bytes()).hexdigest()
+            for key in ('style_inputs', 'page_inputs'):          # keep what the PDF was printed from
+                if key in previous.get(filename, {}):
+                    results[filename][key] = previous[filename][key]
             print(filename, len(selection), 'verified retained sheets', flush=True)
         receipt.write_text(json.dumps(results, indent=2)+'\n')
         return
-    parts = {c['id']:content(reader,c) for c in cards}
-    results = {}
+    selected = {c['id'] for _, selection, _, _ in outputs for c in selection}
+    parts = {c['id']:content(reader,c) for c in cards if c['id'] in selected}
+    cache = {}
+    results = dict(previous)
     with tempfile.TemporaryDirectory(dir=proofs) as tmp, sync_playwright() as pw:
         tmp = Path(tmp)
         browser = pw.chromium.launch(executable_path=shutil.which('google-chrome') or shutil.which('chromium'))
@@ -130,18 +134,18 @@ def main():
                 f'<title>Survival Field Encyclopedia · {escape(name)}</title>'
                 f'<link rel="stylesheet" href="{(reader/"library.css").as_uri()}">'
                 f'<link rel="stylesheet" href="{(reader/"edition.css").as_uri()}">'
-                '<style>.proof+.proof{break-before:page}</style>'
-                f'<body class="library foundation"><main>{sections}</main></body></html>', encoding='utf-8')
+                f'{PROOF_TEMPLATE}{sections}</main></body></html>', encoding='utf-8')
             page.goto(html.as_uri())
             output = tmp / filename
             page.pdf(path=output,format=PAPER_SIZES[fmt][0],print_background=True,tagged=True)
             inspect(output,selection,fmt)
             results[filename] = inspect(output,selection,fmt,bookmarks=True)
             results[filename]['sha256'] = sha256(output.read_bytes()).hexdigest()
+            results[filename].update(fingerprint(reader, selection, cache))
             output.replace(proofs/filename)
             print(filename, len(selection), 'sheets with tags, language, alt text and verified bookmarks',flush=True)
         browser.close()
-    receipt.write_text(json.dumps(results,indent=2)+'\n')
+    receipt.write_text(json.dumps(dict(sorted(results.items())),indent=2)+'\n')
 
 
 if __name__=='__main__':

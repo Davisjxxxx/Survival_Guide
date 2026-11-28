@@ -4,6 +4,7 @@ import csv
 from hashlib import sha256
 from html.parser import HTMLParser
 import json
+import re
 from math import atan2, degrees, isclose
 from subprocess import check_output
 from xml.etree import ElementTree
@@ -43,7 +44,23 @@ class CompactRoutes(HTMLParser):
             self.links.setdefault(self.id, set()).add(props['href'])
 
 
+def w2c_records():
+    """All W2C records by page, used to recognise A04-era snapshots of later revised figures."""
+    path = VISUAL / 'w2c_technical/MANIFEST.json'
+    return {r['page_id']: r for r in json.loads(path.read_text(encoding='utf-8'))} if path.is_file() else {}
+
+
+def w2c_supersessions():
+    """W2C records that replace an A04 candidate returned for reconstruction."""
+    path = VISUAL / 'w2c_technical/MANIFEST.json'
+    if not path.is_file():
+        return {}
+    return {r['page_id']: r for r in json.loads(path.read_text(encoding='utf-8'))
+            if r.get('supersedes_a04_candidate_sha256')}
+
+
 def check_plates():
+    supersessions = w2c_supersessions()
     records = rows('V01_V02_VISUAL_QUALIFICATION.csv')
     require(Counter(r['series'] for r in records) == {'V01': 9, 'V02': 64}, 'Review plate count drift')
     require(len({row['page_id'] for row in records}) == 73, 'Duplicate or missing review plate')
@@ -55,8 +72,23 @@ def check_plates():
         prior = COMPARISON / 'incoming' / name
         require(preserved.read_bytes() == original(preserved) and digest(preserved) == r['predecessor_sha256'],
                 f'Predecessor custody failure: {name}')
-        require(digest(source) == digest(active) == r['candidate_sha256'] and r['publication'] == 'HOLD',
-                f'Edited figure or publication drift: {name}')
+        superseded = supersessions.get(r['page_id'])
+        if superseded:
+            # A04 custody still applies: the A04 candidate stays byte-identical in place. A plate A04 returned
+            # for reconstruction, or an accepted plate a later recorded review finding requires revising
+            # (supersession_basis, e.g. RT01-08), may show a different active figure, and only through a W2C
+            # record whose hashes chain the A04 candidate to the W2C predecessor, revision and active figure.
+            w2c = VISUAL / 'w2c_technical'
+            require((r['disposition'] == 'RECONSTRUCTION_REQUIRED' or bool(superseded.get('supersession_basis')))
+                    and superseded['supersedes_a04_candidate_sha256'] == r['candidate_sha256']
+                    and digest(source) == r['candidate_sha256']
+                    and digest(w2c / superseded['predecessor']) == superseded['predecessor_sha256'] == r['candidate_sha256']
+                    and digest(w2c / superseded['revised']) == superseded['revised_sha256'] == digest(active)
+                    and r['publication'] == superseded['publication'] == 'HOLD',
+                    f'W2C supersession custody failure: {name}')
+        else:
+            require(digest(source) == digest(active) == r['candidate_sha256'] and r['publication'] == 'HOLD',
+                    f'Edited figure or publication drift: {name}')
         require((prior.read_bytes() if prior.is_file() else source.read_bytes()) == original(source)
                 and digest(prior if prior.is_file() else source) == r['incoming'], f'PR #9 figure custody: {name}')
     returned = {r['page_id'] for r in records if r['disposition'] == 'RECONSTRUCTION_REQUIRED'}
@@ -102,21 +134,35 @@ def check_evidence_and_media():
                 'Synthetic image custody or classification drift')
 
 
+def without_evidence_panel(html):
+    """Atlas page bytes outside the evidence panel. The panel may gain current evidence assessments
+    (RT01-11); everything a reader sees as the atlas card itself must stay as A04 left it."""
+    return re.sub(rb'<details id="evidence".*?</details>', b'', html, count=1, flags=re.S)
+
+
 def check_atlas():
     for idx in range(1, 76):
         id = f'Z16-P{idx:02d}'
-        for extension, directory in [('html', 'reader'), ('svg', 'reader/visuals')]:
-            path = FOUND / directory / f'{id}.{extension}'
-            require(path.read_bytes() == original(path), f'Owner-pending atlas was promoted: {id}')
+        html = FOUND / 'reader' / f'{id}.html'
+        require(without_evidence_panel(html.read_bytes()) == without_evidence_panel(original(html))
+                and b'<details id="evidence"' in html.read_bytes(), f'Owner-pending atlas was promoted: {id}')
+        svg = FOUND / 'reader/visuals' / f'{id}.svg'
+        require(svg.read_bytes() == original(svg), f'Owner-pending atlas was promoted: {id}')
     folder = COMPARISON / 'atlas'
     parser = CompactRoutes()
     parser.feed((folder / 'index.html').read_text())
     routes = json.loads((folder / 'ROUTES.json').read_text())
     records = {r['page_id']: {f'sources/{id}.html' for id in r['upstream'].split()} for r in routes}
     require(len(routes) == 8 and parser.links == records, 'Compact atlas comparison routing mismatch')
+    records = w2c_records()
     for image in (folder / 'sources/visuals').glob('*.svg'):
-        require(image.read_bytes() == (FOUND / 'reader/visuals' / image.name).read_bytes(),
-                f'Bundled source figure differs from the active reader: {image.name}')
+        # The comparison is a frozen A04 snapshot. A bundled figure must match the active reader, or, for a page
+        # later revised in W2C, the recorded W2C predecessor (the figure as it stood at the A04 checkpoint).
+        record = records.get(image.stem)
+        current = image.read_bytes() == (FOUND / 'reader/visuals' / image.name).read_bytes()
+        snapshot = bool(record) and digest(image) == record['predecessor_sha256'] == digest(
+            VISUAL / 'w2c_technical' / record['predecessor'])
+        require(current or snapshot, f'Bundled source figure differs from the active reader: {image.name}')
     entries = {f.relative_to(folder).as_posix() for f in folder.rglob('*') if f.is_file()}
     for key in entries:
         if key.endswith('.html'):
@@ -128,7 +174,8 @@ def main():
     check_plates()
     check_evidence_and_media()
     check_atlas()
-    print('PASS: 73 plate comparisons, 40 photographic assets, focused evidence, and unpromoted atlas custody')
+    print(f'PASS: 73 plate comparisons ({len(w2c_supersessions())} plates superseded through W2C custody: returned or revised for a recorded finding), '
+          '40 photographic assets, focused evidence, and unpromoted atlas custody')
 
 
 if __name__ == '__main__':

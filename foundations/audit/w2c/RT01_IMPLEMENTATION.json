@@ -1,0 +1,693 @@
+{
+  "review": "RT01",
+  "review_branch": "review/astra-rt01-adversarial-20261127",
+  "review_commit": "1adab90",
+  "reviewed_checkpoint": "84967d75af91bbf0d2cb36c54394dcf67f2104a5",
+  "implemented_on": "review/opus-wave-2c-production-20261125",
+  "implementation_commits": [
+    "023189663bd88d3536fdc8cede4b15fa560dac9b",
+    "this commit"
+  ],
+  "publication": "HOLD",
+  "qualified_human_approvals_added": 0,
+  "note": "Implementation outcomes appended for the RT01 findings; the historical review on its own branch is unchanged. An implemented editorial candidate is an AI-checked correction, not a qualified specialist approval.",
+  "outcomes": [
+    {
+      "id": "RT01-01",
+      "severity": "HIGH",
+      "pages": [
+        "Z11-P63"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "The six-item report became a prepared aid; the call comes first and leads with location; a W2C plate replaces the generic exploded template.",
+      "sources": [
+        {
+          "claim": "T17",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+          "section": "4.2 General Approach; 4.3 Calling for Help",
+          "accessed": "2026-11-28"
+        },
+        {
+          "claim": "T06",
+          "url": "https://home.nps.gov/articles/gtgemergencyplan.htm",
+          "section": "If you get lost or hurt; call for help",
+          "accessed": "2026-11-24 (existing claim)"
+        }
+      ],
+      "scope": "Lay activation order and location-first communication; no universal care sequence substituted for dispatcher or clinician guidance.",
+      "owner": "Emergency dispatch and search and rescue (H09, H11, H18)",
+      "card_changes": [
+        {
+          "page_id": "Z11-P63",
+          "field": "title",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "Z11-P63 | Prepare a concise structured rescue report before placing an emergency call |",
+          "after": "Z11-P63 | Call at once with your location first and keep a structured rescue report ready |"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "objective",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "objective: Deliver vital location, medical and hazard information cleanly in the first 30 seconds before a weak call drops.",
+          "after": "objective: Get help moving immediately and give dispatch your location first; a report prepared in advance fills in the rest without delaying the call."
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "applies",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "applies: Calling 911, texting 911 or composing a short satellite SOS message during any outdoor or disaster emergency.",
+          "after": "applies: Calling or texting 911 or sending a satellite SOS during any outdoor or disaster emergency; the report card is filled in before the trip and completed while help is on the way."
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "equipment",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "equipment: Written pencil/paper notes or pre-typed message draft, phone/communicator and map.",
+          "after": "equipment: Phone or satellite communicator, map, and a report card or pre-typed message draft prepared before the trip."
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "action 1",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "action: Write down six essentials BEFORE dialing or pressing send: (1) exact location or Last Known Point + coordinate format, (2) nature of emergency & number of injured/total people, (3) immediate medical red flags (responsiveness, breathing, bleeding, hypothermia/heat). @T02,T06,N09",
+          "after": "action: For unresponsiveness, abnormal breathing, severe bleeding or any doubt, call, text or press SOS now; do not stop to write notes first. With a phone, keep giving care while you talk to the dispatcher and follow the dispatcher's instructions. @T17,T02"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "action: Add (4) surrounding access hazards (flooded roads, steep cliffs, ice, downed wires, weather), (5) shelter/water/battery status and clothing colors, and (6) confirmation whether you are staying put and your callback number. @T06,T02,N09",
+          "after": "action: Lead with LOCATION FIRST when speaking or texting (place name, trail or road, coordinates with their format, or your last known point) so that if the call drops, dispatch still knows where to send help. @T06,T02,N09"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "action 3",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "action: Lead with LOCATION FIRST when speaking or texting on a fading battery or weak signal—if the call drops ten seconds in, dispatch still knows where to send help. @T06,T02,T11",
+          "after": "action: Keep a six-item report ready as an aid, not a precondition: (1) location format and last known point, (2) people and injuries, (3) red flags (responsiveness, breathing, bleeding, cold or heat), (4) access hazards, (5) shelter, water and battery, (6) stay-put plan and callback number. Fill it in before the trip and complete it while help is on the way or when the dispatcher asks. @T06,T11,N09"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "failure",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "failure: Spending two minutes explaining how the trip started on a 3% battery before ever stating the park name, trailhead or injury. @T06,T02",
+          "after": "failure: Delaying the call to write out a checklist while a companion is unresponsive or bleeding, or spending two minutes on how the trip started before stating the park name, trailhead or injury. @T17,T06,T02"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "verify",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "verify: Review your six written items aloud calmly before dialing and ask the dispatcher to confirm they received your exact location. @T06,T02,ED",
+          "after": "verify: Confirm the dispatcher has your location and callback number, then add the remaining report items as you learn them or as the dispatcher asks. @T06,T02,ED"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "diagram: 1. Location & format FIRST | 2. People, injuries & hazards | 3. Stay-put plan & battery",
+          "after": "diagram: Life threat: call now, location first | Report card: six items prepared ahead | Add details while help is on the way"
+        },
+        {
+          "page_id": "Z11-P63",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "visual: Exploded six-item dispatch-handoff card ordering location first, medical red flags, site hazards and stay-put confirmation for weak-signal calls. Conceptual, not to scale.",
+          "after": "visual: Call-first sequence: an immediate call that leads with location for any life threat, beside a six-item report card prepared before the trip and completed while help is on the way. Conceptual, not to scale."
+        }
+      ],
+      "spec_changes": [],
+      "acceptance_receipt": "call-first wording on card, figure description, labels and alt; T17 cited"
+    },
+    {
+      "id": "RT01-02",
+      "severity": "HIGH",
+      "pages": [
+        "Z10-P06"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "Continuous watching of an unstable patient separated from timed documentation in prose, figure spec, SVG description and alt; the 15-minute interval removed and no replacement interval invented.",
+      "sources": [
+        {
+          "claim": "M31",
+          "url": "https://www.redcross.org/take-a-class/resources/learn-first-aid/unresponsive-and-breathing-person",
+          "section": "General Care (continue checking; watch for changes in breathing and responsiveness)",
+          "accessed": "2026-11-28 via Internet Archive capture 20261029053523; live page refused automated access"
+        },
+        {
+          "claim": "M22",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+          "section": "5.1 Positioning, recommendations 2-3 and supportive text",
+          "accessed": "2026-11-28"
+        }
+      ],
+      "scope": "Observation versus logging only; documentation timing stays with the qualified EMS reviewer.",
+      "owner": "Wilderness EMS and clinical documentation (H11, H18)",
+      "card_changes": [
+        {
+          "page_id": "Z10-P06",
+          "field": "applies",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "applies: Any injured or ill patient waiting more than fifteen minutes for evacuation or clinical evaluation.",
+          "after": "applies: Any injured or ill patient waiting for evacuation or clinical evaluation."
+        },
+        {
+          "page_id": "Z10-P06",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "action: Re-check and log breathing effort, skin color/warmth, bleeding dressing saturation, pain changes, and mental clarity at steady intervals—roughly every 15 minutes for unstable patients or every 30 to 60 minutes if stable. @M20,M05",
+          "after": "action: Keep watching an unstable or unresponsive patient's breathing and responsiveness the whole time; the log never replaces watching. Each time you reassess, and whenever anything changes, write the time with breathing effort, skin color/warmth, dressing saturation, pain and mental clarity. @M31,M22,M20"
+        },
+        {
+          "page_id": "Z10-P06",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "diagram: Log baseline time & mechanism | Recheck trends on fixed intervals | Transfer written sheet to EMS",
+          "after": "diagram: Log baseline time & mechanism | Watch breathing continuously; log each recheck | Transfer written sheet to EMS"
+        },
+        {
+          "page_id": "Z10-P06",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "visual: Time-progression monitoring timeline mapping baseline assessment, 15-minute unstable rechecks, trend comparison, and EMS handoff. Conceptual, not to scale.",
+          "after": "visual: Timeline separating continuous watching of an unstable patient's breathing and responsiveness from the timed written entries made at each reassessment, ending with the sheet handed to EMS. Conceptual, not to scale."
+        }
+      ],
+      "spec_changes": [
+        {
+          "page_id": "Z10-P06",
+          "before": {
+            "type": "seasonal_timeline",
+            "variant": "storm_lead",
+            "phases": [
+              {
+                "window": "T+0 min",
+                "focus": "Log injury time, mechanism, meds & baseline"
+              },
+              {
+                "window": "Every 15 m",
+                "focus": "Recheck unstable breath, skin & clarity"
+              },
+              {
+                "window": "Every 30–60 m",
+                "focus": "Log stable trends & dressing checks"
+              },
+              {
+                "window": "EMS Arrival",
+                "focus": "Hand physical timed sheet to clinicians"
+              }
+            ],
+            "threshold": "Any downward trend in alertness or breathing triggers urgent escalation"
+          },
+          "after": {
+            "type": "seasonal_timeline",
+            "variant": "storm_lead",
+            "phases": [
+              {
+                "window": "Start",
+                "focus": "Log time, mechanism, meds & baseline"
+              },
+              {
+                "window": "Continuously",
+                "focus": "Watch breathing & responsiveness"
+              },
+              {
+                "window": "Each recheck",
+                "focus": "Write time & findings; note changes"
+              },
+              {
+                "window": "EMS arrival",
+                "focus": "Hand timed sheet to clinicians"
+              }
+            ],
+            "threshold": "Worse breathing or alertness: escalate now, log later"
+          }
+        }
+      ],
+      "acceptance_receipt": "no fixed interval in prose, spec, SVG or alt; continuous watching separated from logging"
+    },
+    {
+      "id": "RT01-03",
+      "severity": "HIGH",
+      "pages": [
+        "Z10-P26"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "Generated figure labels, hazard bar, stage labels, caption and alt now carry the qualified electrical isolation condition and the label/SDS/Poison Control boundary; explicit repair item added for a clinical reconstruction.",
+      "sources": [
+        {
+          "claim": "M32",
+          "url": "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+          "section": "8.2 Chemical Exposure to the Skin, recommendations 1-6 and supportive text 3, 5, 6",
+          "accessed": "2026-11-28"
+        }
+      ],
+      "scope": "Instruction surfaces only; the generic system-boundary template remains until a burn-care and toxicology reviewer defines the depicted care.",
+      "owner": "Burn care, occupational safety, and toxicology (H18)",
+      "card_changes": [
+        {
+          "page_id": "Z10-P26",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "action: For chemical skin exposure, keep yourself clear of contamination, start decontamination as directed by the product label and Poison Control, and remove contaminated clothing if safe. For many liquid splashes, start rinsing promptly with running water. Identify dry or water-reactive material to dispatch rather than improvising its treatment. @M15,M16",
+          "after": "action: For chemical skin exposure, keep yourself clear of contamination, start decontamination as directed by the product label, Safety Data Sheet or Poison Control, and remove contaminated clothing if safe. For many liquid splashes, start rinsing promptly with running water unless that guidance says otherwise. Identify dry or water-reactive material to dispatch rather than improvising its treatment. @M32,M15,M16"
+        },
+        {
+          "page_id": "Z10-P26",
+          "field": "verify",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "verify: Confirm power or chemical source is isolated, rescuers avoided contamination, and exact chemical identity or voltage context is logged for EMS. @M07,M16,T01",
+          "after": "verify: Confirm qualified personnel or the dispatcher declared the area safe, rescuers avoided contamination, and exact chemical identity or voltage context is logged for EMS. @M07,M16,T01"
+        },
+        {
+          "page_id": "Z10-P26",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "diagram: Isolate power or brush dry chemical | Flush liquid chemical 20+ min clean | All electrical & eye exposures -> 911",
+          "after": "diagram: Electrical: stay back until confirmed safe | Chemical: label, SDS or Poison Control first | 911: electrical injury, eye or airway"
+        },
+        {
+          "page_id": "Z10-P26",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/13-p12-z10-medicine.cards",
+          "before": "visual: System boundary diagram separating live electrical/chemical hazard zone from safe gloved brush-and-flush decontamination and 911 transfer. Conceptual, not to scale.",
+          "after": "visual: System boundary diagram: no approach to an energized victim until qualified personnel or the dispatcher confirm safety; chemical care follows the label, Safety Data Sheet or Poison Control, with prompt rinsing for many liquids and dry or water-reactive material reported rather than wetted; 911 for electrical injury and eye or airway exposure. Conceptual, not to scale."
+        }
+      ],
+      "spec_changes": [
+        {
+          "page_id": "Z10-P26",
+          "before": {
+            "type": "system_boundary",
+            "variant": "panel_gen",
+            "zone_a": "HAZARD ISOLATION\nShut power off / brush dry powder first",
+            "barrier": "GLOVED DECON ZONE\n20+ min cool flush (chem)",
+            "zone_b": "CLINICAL CARE\nAll electrical & eye burns -> 911",
+            "hazard": "Never touch energized victim; dry lime/powders activate if wetted unbrushed"
+          },
+          "after": {
+            "type": "system_boundary",
+            "variant": "panel_gen",
+            "zone_a": "ELECTRICAL HAZARD\nStay back until confirmed safe",
+            "barrier": "CHEMICAL CARE\nLabel, SDS or Poison Control",
+            "zone_b": "EMERGENCY CARE\n911: electrical, eye, airway",
+            "hazard": "Never touch an energized victim; ask before wetting dry or water-reactive chemicals"
+          }
+        }
+      ],
+      "acceptance_receipt": "figure labels, alt and caption carry the isolation and label/SDS/Poison Control limits; repair item queued"
+    },
+    {
+      "id": "RT01-04",
+      "severity": "HIGH",
+      "pages": [
+        "Z04-P51",
+        "Z14-P74"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "Infant formula removed from the generic safe-water list and given its own action (ready-to-feed safest; powder not sterile; chemical advisory needs bottled water or ready-to-feed) with a (see Z14-P74) link; W2C plate draws formula in its own panel.",
+      "sources": [
+        {
+          "claim": "P26",
+          "url": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/powdered-infant-formula.html",
+          "section": "Ready-to-feed preference; Important: powder is not sterile",
+          "accessed": "2026-11-28 (page updated 2026-08-10)"
+        },
+        {
+          "claim": "P36",
+          "url": "https://www.cdc.gov/infant-toddler-nutrition/formula-feeding/preparation-and-storage.html",
+          "section": "Extra precautions for some infants; Preparing formula during emergencies",
+          "accessed": "2026-11-28 (page dated 2026-05-14)"
+        }
+      ],
+      "scope": "Boundary and routing only; the high-risk preparation steps are left to the CDC page and the clinician. The link works in the full offline edition; a single-zone package labels it (full edition).",
+      "owner": "Pediatrics and public health",
+      "card_changes": [
+        {
+          "page_id": "Z04-P51",
+          "field": "objective",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "objective: Apply safe-water standards consistently to teeth brushing, food washing, wound rinsing and infant feeding during advisories.",
+          "after": "objective: Apply safe-water standards consistently to teeth brushing, food washing and wound rinsing during advisories, and keep infant formula under its own preparation rules."
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "equipment",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "equipment: Verified potable water, separate labeled utility water if permitted by notice, soap or alcohol hand sanitizer and clean utensils.",
+          "after": "equipment: Verified potable water, labeled utility water if the notice permits, ready-to-feed formula for formula-fed infants, soap and clean utensils."
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "action 1 (+ new formula action)",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "action: Use only bottled or properly boiled-and-cooled water for drinking, mixing infant formula, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes. @W29,W07",
+          "after": "action: Use only bottled or properly boiled-and-cooled water for drinking, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes. @W29,W07\naction: Treat infant formula as its own task (see Z14-P74): ready-to-feed is safest, especially under 2 months, premature or with a weakened immune system. Powder is not sterile, so safe water alone is not enough; follow current CDC and local directions. Under a chemical advisory, boiling does not help: use bottled water or ready-to-feed. @P26,P36,W07"
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "failure",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "failure: Boiling water for drinking while brushing teeth, washing lettuce or mixing baby formula with unboiled advisory tap water. @W29,W07",
+          "after": "failure: Brushing teeth or washing lettuce with unboiled advisory tap water, or treating safe water as the only precaution when mixing powder for a newborn. @W29,W07,P26"
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "verify",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "verify: Confirm every ingestion, oral-hygiene, food-prep, infant-formula and wound-care task draws exclusively from the verified potable supply. @W29,W07,ED",
+          "after": "verify: Confirm every ingestion, oral-hygiene, food-prep and wound-care task draws from the verified potable supply, and that infant formula follows its separate CDC directions. @W29,W07,P26,ED"
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "stop",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "stop: If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance. @W29,T02,ED",
+          "after": "stop: If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance. @P26,W29,T02,ED"
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "diagram: Ingestion and formula: potable | Wounds and dishes: potable | Do-Not-Use: zero tap contact",
+          "after": "diagram: Drinking, teeth, food & ice: potable water | Infant formula: separate rules; ready-to-feed safest | Do-Not-Use: zero tap contact"
+        },
+        {
+          "page_id": "Z04-P51",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/07-f06-z04-water.cards",
+          "before": "visual: Decision tree routing household and field hygiene tasks strictly between verified potable supplies and official advisory prohibitions. Conceptual, not to scale.",
+          "after": "visual: Task routing: drinking, teeth, food and dish tasks use verified potable water; infant formula follows its own CDC rules; wounds get potable water or saline; a Do Not Use notice stops all tap contact. Conceptual, not to scale."
+        }
+      ],
+      "spec_changes": [],
+      "acceptance_receipt": "formula separated with P26/P36, powder and chemical limits, working link in the full offline edition"
+    },
+    {
+      "id": "RT01-05",
+      "severity": "HIGH",
+      "pages": [
+        "Z13-P49",
+        "Z13-P50"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "Sanitizer equivalence after toilet, diaper or vomit tasks removed from both cards, captions, stage labels and figures; sanitizer kept as an interim fallback only when soap and water are truly unavailable; U13 recorded as narrowed (W2C-E035).",
+      "sources": [
+        {
+          "claim": "U26",
+          "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+          "section": "Wash your hands well; Key points",
+          "accessed": "2026-11-28 (page dated 2025-01-13)"
+        },
+        {
+          "claim": "U27",
+          "url": "https://www.cdc.gov/clean-hands/about/hand-sanitizer.html",
+          "section": "Key points; Keep in mind",
+          "accessed": "2026-11-28 (page dated 2024-03-12)"
+        }
+      ],
+      "scope": "Hand-hygiene boundary in the sanitation cards; other cards citing U13 keep the baseline text with the narrowed assessment shown in their evidence panels.",
+      "owner": "Environmental health and sanitation specialist",
+      "card_changes": [
+        {
+          "page_id": "Z13-P49",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "and wash hands thoroughly with soap and safe water (or ≥60% alcohol rub) immediately afterward. @U13,F01",
+          "after": "and wash hands thoroughly with soap and safe water immediately afterward; alcohol rub does not replace handwashing after toilet, diaper or vomit tasks. @U13,U26,F01"
+        },
+        {
+          "page_id": "Z13-P49",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Wash hands; follow local health disposal",
+          "after": "diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Soap-and-water handwash; local disposal rules"
+        },
+        {
+          "page_id": "Z13-P49",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "visual: Exploded four-part emergency sanitation station showing double-lined solid bucket with cover medium, separate liquid container, tight lid, and dedicated handwash basin. Conceptual, not to scale.",
+          "after": "visual: Two-bucket sanitation station: a double-lined solid-waste bucket with cover material and a tight lid, a separate liquid bucket, and a soap-and-water handwashing station beside it, kept away from food, wells and gardens. Conceptual, not to scale."
+        },
+        {
+          "page_id": "Z13-P50",
+          "field": "equipment",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "equipment: Spigot water jug or small pour pitcher, liquid soap, basin, ≥60% alcohol hand sanitizer, disposable paper plates/utensils, and clean towels.",
+          "after": "equipment: Spigot water jug or small pour pitcher, liquid soap, catch basin, clean towels, disposable paper plates/utensils, and ≥60% alcohol hand sanitizer as a fallback only."
+        },
+        {
+          "page_id": "Z13-P50",
+          "field": "action 1",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "especially before cooking and after toilet/waste tasks. @U13,F01,W29",
+          "after": "especially before cooking and after toilet/waste tasks. @U13,U26,F01,W29"
+        },
+        {
+          "page_id": "Z13-P50",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "action: Use ≥60% alcohol-based hand sanitizer to conserve water when hands are NOT visibly soiled with dirt, grease, or fecal matter (visible grime still requires soap and safe water). @U13",
+          "after": "action: Keep soap-and-water handwashing for every toilet, diaper, vomit or waste task and before handling food; hand sanitizer does not work well against norovirus and is not a substitute. Use ≥60% alcohol sanitizer only as an interim fallback when soap and water truly are unavailable and hands are not visibly dirty; saving water alone does not make it equivalent. @U26,U27,U13"
+        },
+        {
+          "page_id": "Z13-P50",
+          "field": "verify",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "verify: Confirm dedicated handwashing station stocked with soap and safe water, sanitizer for clean-looking hands, and catch basin emptied away from wells/food. @U13,W29",
+          "after": "verify: Confirm the handwashing station is stocked with soap and safe water beside the toilet and food areas, sanitizer is kept only as a fallback, and the catch basin is emptied away from wells/food. @U13,U26,W29"
+        },
+        {
+          "page_id": "Z13-P50",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "diagram: Thin-stream spigot jug + soap (20 s) | Alcohol rub ≥60% when not visibly soiled | Disposable plates save potable water",
+          "after": "diagram: Thin-stream spigot jug + soap (20 s) | Toilet, diaper or vomit & before food: soap and water | Sanitizer only if soap & water unavailable"
+        },
+        {
+          "page_id": "Z13-P50",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/14-p13-z13-utilities.cards",
+          "before": "visual: Four-step low-water household hygiene station mapping spigot pour, 20-second soap scrub, catch-basin disposal, and clean air-drying. Conceptual, not to scale.",
+          "after": "visual: Low-water handwashing station: a spigot jug pours a thin stream over soapy hands into a catch basin; soap and water after toilet, diaper or vomit tasks and before food; sanitizer only as a fallback when soap and water are unavailable. Conceptual, not to scale."
+        }
+      ],
+      "spec_changes": [],
+      "acceptance_receipt": "soap and water after waste tasks on both cards and plates; sanitizer only as a fallback"
+    },
+    {
+      "id": "RT01-06",
+      "severity": "HIGH",
+      "pages": [
+        "Z15-P18",
+        "Z15-P22",
+        "Z15-P02",
+        "Z15-P23",
+        "Z14-P55",
+        "Z14-P56",
+        "Z14-P57",
+        "Z14-P53",
+        "Z14-P48"
+      ],
+      "status": "CONTROL_IMPLEMENTED_PROOFS_REBUILT",
+      "what": "Print receipts now record per-card source-input fingerprints (printed body plus figure bytes) and a print-style digest; check_foundations fails on any stale proof unless PROOF-CURRENCY.json withholds it with exactly the changed pages, and packaged zone and reconstruction proofs can never be withheld. All 37 tagged proofs were reprinted at milestone M2.",
+      "sources": [
+        {
+          "claim": "-",
+          "url": "https://github.com/Davisjxxxx/Survival_Guide/blob/84967d75af91bbf0d2cb36c54394dcf67f2104a5/foundations/audit/w2c/README.md",
+          "section": "Proof and package refresh policy (superseded)",
+          "accessed": "2026-11-28"
+        }
+      ],
+      "scope": "Artifact currency only; a current fingerprint says nothing about correctness or approval.",
+      "owner": "Production owner",
+      "card_changes": [],
+      "spec_changes": [],
+      "acceptance_receipt": "proof currency gate passes; 36 printed sheets (9 RT01-06 pages, zone and consolidated, Letter and A4) show a current-only figure label and none of the superseded labels"
+    },
+    {
+      "id": "RT01-07",
+      "severity": "MEDIUM",
+      "pages": [
+        "Z14-P41"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "Refrigerator and freezer paths drawn separately; each food goes to its chart row; ice cream and frozen yogurt discard in both columns; card action, stage labels, caption and alt corrected.",
+      "sources": [
+        {
+          "claim": "F08",
+          "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+          "section": "Frozen Food and Power Outages chart rows (Ice cream, frozen yogurt: Discard / Discard)",
+          "accessed": "2026-11-28 via Internet Archive capture 20261105024130 (last reviewed 2024-08-08); live page refused automated access"
+        }
+      ],
+      "scope": "Sample rows only; the printed current chart governs.",
+      "owner": "Food safety and public health",
+      "card_changes": [
+        {
+          "page_id": "Z14-P41",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/15-p14-z14-preservation.cards",
+          "before": "action: For frozen items, check the separate FDA/USDA freezer chart. Ice crystals or a measured 40°F or below are relevant, but some categories have specific discard rules. @F04,P17",
+          "after": "action: For frozen items, use the separate freezer chart row for each food. Ice crystals or a measured 40°F or below allow refreezing only where that row says so; ice cream and frozen yogurt are discarded even with ice crystals. @F08,F05,P17"
+        },
+        {
+          "page_id": "Z14-P41",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/15-p14-z14-preservation.cards",
+          "before": "diagram: Fridge >40°F >2 h -> dump meat/dairy/cuts | Frozen: ice crystals or ≤40°F -> refreeze | Use official chart; never guess by smell",
+          "after": "diagram: Refrigerator: 40°F+ over 2 h or 4 h without power -> chart row | Freezer: ice crystals or ≤40°F -> chart row (ice cream: discard) | Unknown row or history: discard; never taste"
+        },
+        {
+          "page_id": "Z14-P41",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/15-p14-z14-preservation.cards",
+          "before": "visual: Decision tree applying refrigerator >40°F/>2 hr rules and freezer ice-crystal/≤40°F checks to separate keep, refreeze, and mandatory discard items. Conceptual, not to scale.",
+          "after": "visual: Two separate paths: refrigerated food is checked by thermometer and hours, frozen food by ice crystals or thermometer, and each item then goes to its own chart row before it is kept, refrozen or discarded. Conceptual, not to scale."
+        }
+      ],
+      "spec_changes": [],
+      "acceptance_receipt": "separate refrigerator and freezer paths; ice cream and frozen yogurt discard in both columns; F08 cited"
+    },
+    {
+      "id": "RT01-08",
+      "severity": "MEDIUM",
+      "pages": [
+        "Z11-P32",
+        "Z11-P33"
+      ],
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "what": "Exact-return wording replaced by an approximate paced return confirmed on the map in the card, caption, stage labels and the A04-accepted V02 plate (revised through W2C custody with a recorded supersession basis); Z11-P33 cites the pacing limits.",
+      "sources": [
+        {
+          "claim": "N15",
+          "url": "https://content.ces.ncsu.edu/using-a-compass-and-pacing",
+          "section": "Pacing, final two paragraphs (reviewed 2024-02-29)",
+          "accessed": "2026-11-28"
+        }
+      ],
+      "scope": "Method wording; compact-obstacle and safe-ground limits unchanged.",
+      "owner": "Navigation and outdoor education",
+      "card_changes": [
+        {
+          "page_id": "Z11-P32",
+          "field": "objective",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "objective: Detour cleanly around a localized obstacle on a bearing leg and rejoin your exact original travel line on the far side.",
+          "after": "objective: Detour around a compact obstacle on a bearing leg and return approximately to your original travel line on the far side, then confirm your position."
+        },
+        {
+          "page_id": "Z11-P32",
+          "field": "action 1",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "and count exact paces walking perpendicular until completely clear of the barrier. @N08,N10,ED",
+          "after": "and count paces walking perpendicular until clear of the barrier. @N08,N10,ED"
+        },
+        {
+          "page_id": "Z11-P32",
+          "field": "action 3",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "action: Reverse the 90-degree turn back toward your original line and walk the EXACT same pace count as your first offset leg, then reset to your original bearing to continue on line. @N08,ED",
+          "after": "action: Reverse the 90-degree turn back toward your original line and pace the same distance as your first offset leg, adding paces where slope or brush shortens your stride, then reset to your original bearing; the regained line is approximate. @N08,N15,ED"
+        },
+        {
+          "page_id": "Z11-P32",
+          "field": "verify",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "verify: Confirm perpendicular offset paces match on entry and return legs and verify the resumed bearing against surrounding map landforms. @N08,N03,ED",
+          "after": "verify: A matching count only estimates the return; confirm your position against map landforms or a known feature before relying on the resumed line. @N15,N03,ED"
+        },
+        {
+          "page_id": "Z11-P32",
+          "field": "diagram",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "diagram: Turn 90° & count exact paces | Pass obstacle on main bearing | Turn back 90° & match paces",
+          "after": "diagram: Turn 90° & count paces | Pass obstacle on main bearing | Turn back 90°; same distance, approximate"
+        },
+        {
+          "page_id": "Z11-P32",
+          "field": "visual",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "visual: Mechanism diagram illustrating the four-leg 90-degree rectangular obstacle detour with matched entry and return pace counts. Conceptual, not to scale.",
+          "after": "visual: Mechanism diagram of a four-leg right-angle detour around a compact obstacle; the return offset is paced to the same distance and the regained line stays approximate until checked against the map. Conceptual, not to scale."
+        },
+        {
+          "page_id": "Z11-P33",
+          "field": "action 2",
+          "manuscript": "foundations/manuscripts/11-p10-z11-navigation.cards",
+          "before": "compared to flat pavement. @E01,E11,ED",
+          "after": "compared to flat pavement. @E01,E11,N15,ED"
+        }
+      ],
+      "spec_changes": [],
+      "acceptance_receipt": "approximate paced return on card, plate, description and alt; N15 cited"
+    },
+    {
+      "id": "RT01-09",
+      "severity": "MEDIUM",
+      "pages": [
+        "Z11-R05"
+      ],
+      "status": "CONTROL_IMPLEMENTED",
+      "what": "The compass check measures needle and orienting-arrow bearings from the drawn polygons after every transform (pivot to tip) and requires data-bearing merely to agree; it also checks the delivered reader figure.",
+      "sources": [],
+      "scope": "Geometry control; the plate itself is unchanged and was not alleged wrong.",
+      "owner": "Production owner; navigation reviewer for the plate",
+      "card_changes": [],
+      "spec_changes": [],
+      "acceptance_receipt": "delivered plate passes; 90-degree visible-needle mutation with unchanged data-bearing fails"
+    },
+    {
+      "id": "RT01-10",
+      "severity": "MEDIUM",
+      "pages": [
+        "Z04-P01",
+        "Z13-P20",
+        "Z12-P56"
+      ],
+      "status": "CONTROL_IMPLEMENTED",
+      "what": "The safety linter covers actions, verify, stop, stage labels (alt text of generated figures), captions and delivered figure text, ties negation to the instruction it governs, and has RT01's eight fixtures as unit tests.",
+      "sources": [],
+      "scope": "Named regex contradictions only; it does not establish semantic or scientific safety.",
+      "owner": "Production owner",
+      "card_changes": [],
+      "spec_changes": [],
+      "acceptance_receipt": "7 unsafe fixtures rejected (2 positive controls and 5 previously accepted variants), safe negation accepted"
+    },
+    {
+      "id": "RT01-11",
+      "severity": "MEDIUM",
+      "pages": [
+        "Z09-P14",
+        "Z09-P15",
+        "Z16-P43"
+      ],
+      "status": "CONTROL_IMPLEMENTED",
+      "what": "Evidence panels show the current A04/W2C assessment of each cited claim (evidence/assessments.tsv, derived by scripts/w2c_assessments.py); K09's escalated decision reaches all 25 citing cards and the offline zone packages.",
+      "sources": [],
+      "scope": "Pointer to recorded determinations; closes no hold and approves nothing. Atlas custody now protects the atlas card body and figure while its evidence panel carries assessments.",
+      "owner": "Production owner; rigging specialist for K09",
+      "card_changes": [],
+      "spec_changes": [],
+      "acceptance_receipt": "K09 limitation shown on all 25 citing panels, in the Z09 package and on atlas card Z16-P43"
+    }
+  ],
+  "followups": [
+    {
+      "id": "RT01-C01",
+      "status": "OPEN_SPECIALIST_QUESTION",
+      "note": "Early clinician consultation branch after a potentially high-risk tick bite (Z10-P58): routed to the clinical reviewer; no change made."
+    },
+    {
+      "id": "RT01-C02",
+      "status": "OPEN",
+      "note": "Offline figure enlargement route and a real-phone diagram-reading task: not implemented in this commit."
+    },
+    {
+      "id": "RT01-C03",
+      "status": "IMPLEMENTED_EDITORIAL_CANDIDATE",
+      "note": "Z14-P52 now keeps at least 1 inch of water over the jar tops, and at least 2 inches when the process time at the canner altitude is over 30 minutes (title, first action, verify and stage label); new claim P38 cites USDA Complete Guide, Guide 1 page 1-18, steps 4-9 (PDF SHA-256 60d1e1a7...416d86). Implemented in W2C-B07."
+    }
+  ],
+  "acceptance_command": "python scripts/check_rt01.py"
+}

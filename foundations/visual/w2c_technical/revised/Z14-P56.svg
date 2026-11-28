@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">A pressure or boil interruption restarts the full process time</title>
+<desc id="desc">Pressure-versus-time trace for a pressure canner. Pressure rises to the target, holds, then dips below the target for a short time before it is restored. Below the trace, adding the lost minutes at the end is crossed out; the full process time restarts from the moment target pressure returns. A note applies the same rule to a boiling-water canner when the boil stops. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z14-P56 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z14-p56-artwork">
+<path d="M90 80V226H680" fill="none" stroke="#183a30" stroke-width="2.2"/>
+<text x="94" y="74" class="tiny">pressure</text>
+<text x="640" y="248" class="tiny">time</text>
+<path d="M90 120H680" stroke="#205b68" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="590" y="112" class="tiny">target</text>
+<rect x="240" y="120" width="48" height="106" fill="#8b3825" fill-opacity=".14"/>
+<path d="M90 222C110 222 114 118 120 116L240 116C250 116 252 162 264 162C270 162 278 116 288 116L680 116" fill="none" stroke="#183a30" stroke-width="3.4"/>
+<text x="230" y="196" class="tiny warn">below target</text>
+<rect id="planned" x="120" y="262" width="300" height="14" fill="#9aa8ad"/>
+<text x="16" y="274" class="tiny">planned</text>
+<rect x="120" y="286" width="120" height="14" fill="#9aa8ad"/><rect x="288" y="286" width="180" height="14" fill="#c9a49a"/>
+<circle cx="492" cy="293" r="10" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M487.5 288.5L496.5 297.5M496.5 288.5L487.5 297.5" stroke="#8b3825" stroke-width="3"/>
+<text x="16" y="298" class="tiny warn">add minutes</text>
+<rect id="restarted" x="288" y="310" width="300" height="14" fill="#205b68"/>
+<circle cx="612" cy="317" r="10" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M607 317L611 321.2L617.2 313" fill="none" stroke="#205b68" stroke-width="3"/>
+<text x="16" y="322" class="tiny ok">restart full</text>
+<rect x="712" y="46" width="164" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="728" y="72" class="head">WATER BATH</text>
+<text x="724" y="104" class="tiny">boil stops?</text>
+<text x="724" y="125" class="tiny">back to a full</text>
+<text x="724" y="146" class="tiny">boil, then time</text>
+<text x="724" y="167" class="tiny">from the start</text>
+<rect x="740" y="210" width="110" height="80" rx="8" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><rect x="746" y="226" width="98" height="58" fill="#9cc3cf"/>
+<path d="M778 304c-7.7 0 -8.8 -7.7 -4.4 -13.2c1.1 3.3 3.3 4.4 3.3 1.1c0 -4.4 3.3 -6.6 5.5 -8.8c-1.1 5.5 4.4 7.7 3.3 14.3c-0.6 4.4 -4.4 6.6 -7.7 6.6z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M778 302.9c-2.8 0 -3.3 -3.3 -1.1 -5.5c0.6 1.7 2.2 2.2 2.8 0c0.6 2.8 0 5.5 -1.7 5.5z" fill="#f6c453"/>
+<path d="M812 304c-7.7 0 -8.8 -7.7 -4.4 -13.2c1.1 3.3 3.3 4.4 3.3 1.1c0 -4.4 3.3 -6.6 5.5 -8.8c-1.1 5.5 4.4 7.7 3.3 14.3c-0.6 4.4 -4.4 6.6 -7.7 6.6z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M812 302.9c-2.8 0 -3.3 -3.3 -1.1 -5.5c0.6 1.7 2.2 2.2 2.8 0c0.6 2.8 0 5.5 -1.7 5.5z" fill="#f6c453"/>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Uncertain about a batch after an interruption: consult Extension before using it.</text>
+</g>
+</svg>

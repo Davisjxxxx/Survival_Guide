@@ -117,39 +117,84 @@ def _sort_key(card_id):
     return (zone_order, num, kind_order)
 
 
-def lint_cards(cards):
-    """Detect duplicate titles and domain-specific safety-critical instruction contradictions."""
+NEGATION_WORDS = r"never|not|no|don't|do not|does not|doesn't|cannot|can't|avoid|avoiding|without|prohibit|prohibited"
+CLAUSE_SPLIT = re.compile(r'[.!?;]\s+|—')
+SUBCLAUSE_BREAK = re.compile(r"[,;:()]|\b(?:then|and then|but|after|before|while|so)\b")
+TRAILING_NEGATION = re.compile(r"^[^,;:()]{0,30}?\b(?:is|are)\s+(?:never|not|deadly|unsafe|dangerous|lethal|illegal|prohibited)\b")
+
+
+def governed(clause, match, words=NEGATION_WORDS):
+    """True when a negation governs the matched instruction itself.
+
+    The negation must sit inside the match, in the words leading into it within the same
+    sub-clause, or in an immediate predicate ("... is never safe"). An unrelated prohibition
+    elsewhere in the clause or card ("do not spill fuel, then run ...") does not exempt it.
+    """
+    pattern = re.compile(rf"\b(?:{words})\b")
+    lead = SUBCLAUSE_BREAK.split(clause[:match.start()])[-1]
+    return bool(pattern.search(lead) or pattern.search(match.group(0))
+                or TRAILING_NEGATION.search(clause[match.end():]))
+
+
+def instruction_surfaces(card, figure_text=()):
+    """Reader-visible instruction text a reader may act on without the rest of the card:
+    actions, verify and stop lines, figure stage labels (also the image alt text for generated
+    figures), the figure caption and, when supplied, the delivered artwork description and labels.
+    Failure lines describe the unsafe behaviour on purpose and are excluded from authorization rules."""
+    surfaces = [('action', item['text']) for item in card['action']]
+    surfaces += [('verify', card['verify']['text']), ('stop', card['stop']['text'])]
+    surfaces += [('diagram', stage) for stage in card['diagram'].split(' | ')]
+    surfaces.append(('visual', card['visual']))
+    surfaces += [('figure', text) for text in figure_text]
+    return surfaces
+
+
+def lint_cards(cards, figure_text=None):
+    """Detect duplicate titles and domain-specific safety-critical instruction contradictions.
+
+    figure_text optionally maps a card id to the description and visible labels of its delivered
+    artwork, so captions, stage labels and drawn text are checked with the same clause rules as
+    the prose. Regex rules catch named contradictions only; they do not establish safety.
+    """
+    figure_text = figure_text or {}
     titles = {}
     for cid, card in cards.items():
         norm_title = ' '.join(card['title'].lower().split())
         require(norm_title not in titles, f'Duplicate card title between {titles.get(norm_title)} and {cid}')
         titles[norm_title] = cid
 
+        surfaces = instruction_surfaces(card, figure_text.get(cid, ()))
         statements = [item['text'] for item in card['action']]
         if 'failure' in card:
             statements.append(card['failure']['text'])
         statements.extend([card['verify']['text'], card['stop']['text']])
-        full = ' '.join([card['title'], card['objective'], card['applies'], *statements]).lower()
+        figure_parts = [text for kind, text in surfaces if kind in {'diagram', 'visual', 'figure'}]
+        full = ' '.join([card['title'], card['objective'], card['applies'], *statements, *figure_parts]).lower()
+        clauses = [clause for _, text in surfaces for clause in CLAUSE_SPLIT.split(text.lower()) if clause.strip()]
 
-        # Rule 1: Never imply visual clarity proves potability.
+        def unsafe(pattern, words=NEGATION_WORDS, scope=None):
+            """First clause where pattern matches and no negation governs that instruction."""
+            for clause in scope if scope is not None else clauses:
+                for match in re.finditer(pattern, clause):
+                    if not governed(clause, match, words):
+                        return clause
+            return None
+
+        # Rule 1: Never imply visual clarity proves potability (prose, captions, labels and artwork).
         if re.search(r'\bclear water is (safe|potable)\b|\bclarity (proves|guarantees|establishes) (safety|potability)\b', full):
             raise ValueError(f'Contradiction: visual clarity potability claim in {cid}')
 
-        # Safety checks apply to each action/stop clause, not a distant negation.
-        operational = [item['text'].lower() for item in [*card['action'],card['stop']]]
-        clauses = [clause for item in operational for clause in re.split(r'[.!?;]\s+|—',item)]
         # Rule 2: Never authorize fuel-burning appliances inside tents/vehicles/enclosures.
-        for clause in clauses:
-            if re.search(r'\b(run|operate|burn|light)\b[^.]{0,45}\b(stove|heater|charcoal|generator)\b[^.]{0,35}\b(inside|in) (a |the )?(tent|vehicle|snow cave|enclosure|garage)\b', clause):
-                if not re.search(r'\b(never|do not|keep|avoid|not)\b', clause):
-                    raise ValueError(f'Contradiction: enclosed combustion authorization in {cid}')
+        if unsafe(r'\b(run|operate|burn|light)\b[^.]{0,45}\b(stove|heater|charcoal|generator)\b[^.]{0,35}\b(inside|in) (a |the )?(tent|vehicle|snow cave|enclosure|garage)\b',
+                  NEGATION_WORDS + '|keep'):
+            raise ValueError(f'Contradiction: enclosed combustion authorization in {cid}')
 
         for clause in clauses:
             co_alarm = re.search(r'\b(co alarm|carbon monoxide|co poisoning)\b', clause)
             delay = re.search(r'\b(shut(?:ting)? (?:off|down)|switch(?:ing)? off|turn(?:ing)? off)\b'
                               r'[^.]{0,60}\b(before (?:leaving|exiting|evacuat\w*)|and evacuating|then evacuat\w*)\b',
                               clause)
-            if co_alarm and delay and not re.search(r'\b(do not|never|without delaying)\b', clause):
+            if co_alarm and delay and not governed(clause, delay, r'do not|never|without delaying'):
                 raise ValueError(f'Contradiction: CO evacuation delayed by shutdown in {cid}')
 
             if card['zone'] == 'Z10':
@@ -188,86 +233,73 @@ def lint_cards(cards):
         if card['zone'] == 'Z12':
             if re.search(r'(?<!no )\bice is (always|universally|100%) safe\b|\btracks prove safe ice\b', full):
                 raise ValueError(f'Contradiction: unsafe universal ice claim in {cid}')
-            if re.search(r'\bswim directly against (a |the )?rip current\b', full):
-                if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', full):
-                    raise ValueError(f'Contradiction: unsafe rip-current swimming instruction in {cid}')
+            if unsafe(r'\bswim directly against (a |the )?rip current\b', NEGATION_WORDS + "|don't"):
+                raise ValueError(f'Contradiction: unsafe rip-current swimming instruction in {cid}')
 
         # Rule 9: Z10 must never prescribe lay medication dosages, invasive field surgery, or rubbing frostbite with snow.
         if card['zone'] == 'Z10':
-            for clause in clauses:
-                if re.search(r'\b(give|administer|take)\s+\d+\s*(mg|mcg|ml|milligrams?)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|not|prescribed|own|clinician|dispatcher)\b', clause):
-                        raise ValueError(f'Contradiction: unauthorized lay medication dosage in {cid}')
-                if re.search(r'\b(cut|incise|suck)\b[^.]{0,30}\b(snakebite|venom|wound)\b|\bperform (a )?(tracheotomy|cricothyrotomy)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe invasive field medical procedure in {cid}')
-                if re.search(r'\brub\b[^.]{0,30}\bfrostbit(e|ten)\b[^.]{0,35}\bsnow\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe frostbite snow-rubbing advice in {cid}')
+            if unsafe(r'\b(give|administer|take)\s+\d+\s*(mg|mcg|ml|milligrams?)\b',
+                      NEGATION_WORDS + '|prescribed|own|clinician|dispatcher'):
+                raise ValueError(f'Contradiction: unauthorized lay medication dosage in {cid}')
+            if unsafe(r'\b(cut|incise|suck)\b[^.]{0,30}\b(snakebite|venom|wound)\b|\bperform (a )?(tracheotomy|cricothyrotomy)\b'):
+                raise ValueError(f'Contradiction: unsafe invasive field medical procedure in {cid}')
+            if unsafe(r'\brub\b[^.]{0,30}\bfrostbit(e|ten)\b[^.]{0,35}\bsnow\b'):
+                raise ValueError(f'Contradiction: unsafe frostbite snow-rubbing advice in {cid}')
 
         # Rule 10: Z13 must never authorize backfeeding a portable generator into a wall or dryer outlet.
         if card['zone'] == 'Z13':
-            for clause in clauses:
-                if re.search(r'\b(backfeed|plug)\b[^.]{0,45}\b(generator)\b[^.]{0,45}\b(wall outlet|dryer outlet|home circuit)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|prohibit|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe generator backfeeding authorization in {cid}')
+            if unsafe(r'\b(backfeed|plug)\b[^.]{0,45}\b(generator)\b[^.]{0,45}\b(wall outlet|dryer outlet|home circuit)\b'):
+                raise ValueError(f'Contradiction: unsafe generator backfeeding authorization in {cid}')
 
         # Rule 11: Z14 must never authorize oven canning, open-kettle canning, or boiling-water canning of low-acid foods.
         if card['zone'] == 'Z14':
-            for clause in clauses:
-                if re.search(r'\b(use|try|process with)\b[^.]{0,30}\b(oven canning|open[- ]kettle canning)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|unsafe|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe canning method authorized in {cid}')
-                if re.search(r'\bwater[- ]bath can\b[^.]{0,40}\b(low[- ]acid|meat|poultry|green beans)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|unsafe|not|pressure can)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe water-bath canning of low-acid food in {cid}')
+            if unsafe(r'\b(use|try|process with)\b[^.]{0,30}\b(oven canning|open[- ]kettle canning)\b',
+                      NEGATION_WORDS + '|unsafe'):
+                raise ValueError(f'Contradiction: unsafe canning method authorized in {cid}')
+            if unsafe(r'\bwater[- ]bath can\b[^.]{0,40}\b(low[- ]acid|meat|poultry|green beans)\b',
+                      NEGATION_WORDS + '|unsafe|pressure can'):
+                raise ValueError(f'Contradiction: unsafe water-bath canning of low-acid food in {cid}')
 
         # Rule 12: Z15 must never advise driving through floodwater or sheltering under highway overpasses during tornadoes.
         if card['zone'] == 'Z15':
-            for clause in clauses:
-                if re.search(r'\b(drive|cross)\b[^.]{0,30}\b(flooded road|floodwater|barricades?)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|not|turn around)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe floodwater crossing authorization in {cid}')
-                if re.search(r'\bshelter under (a |an )?(highway )?overpass\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|unsafe|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe tornado overpass shelter advice in {cid}')
+            if unsafe(r'\b(drive|cross)\b[^.]{0,30}\b(flooded road|floodwater|barricades?)\b', NEGATION_WORDS + '|turn around'):
+                raise ValueError(f'Contradiction: unsafe floodwater crossing authorization in {cid}')
+            if unsafe(r'\bshelter under (a |an )?(highway )?overpass\b', NEGATION_WORDS + '|unsafe'):
+                raise ValueError(f'Contradiction: unsafe tornado overpass shelter advice in {cid}')
 
         # Rule 13: Z08 must never claim visual rock appearance proves chemical/structural safety or authorize dry grinding without dust precautions.
         if card['zone'] == 'Z08':
+            if unsafe(r'\bvisual (appearance|inspection)\b[^.]{0,35}\b(proves|guarantees|certifies)\b[^.]{0,35}\b(safe|non-toxic|structural)\b',
+                      r'never|not|cannot|does not'):
+                raise ValueError(f'Contradiction: unsafe visual material safety certification in {cid}')
             for clause in clauses:
-                if re.search(r'\bvisual (appearance|inspection)\b[^.]{0,35}\b(proves|guarantees|certifies)\b[^.]{0,35}\b(safe|non-toxic|structural)\b', clause):
-                    if not re.search(r'\b(never|not|cannot|does not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe visual material safety certification in {cid}')
                 if re.search(r'\b(dry[- ]grind|crush|knap)\b[^.]{0,40}\b(without|no)\b[^.]{0,25}\b(eye|respirat|dust)\b', clause):
                     if not re.search(r'\b(never|do not|don\'t|avoid|not)\b', clause):
                         raise ValueError(f'Contradiction: unprotected mineral dust or eye hazard in {cid}')
 
         # Rule 14: Z06 must never imply an emergency automatically grants a legal hunting/fishing exemption.
         if card['zone'] == 'Z06':
-            for clause in clauses:
-                if re.search(r'\bemergency\b[^.]{0,40}\b(automatically )?(grants|creates|gives)\b[^.]{0,35}\b(legal exemption|exemption|right to harvest)\b', clause):
-                    if not re.search(r'\b(never|not|no |does not|cannot)\b', clause):
-                        raise ValueError(f'Contradiction: unauthorized emergency legal harvest exemption in {cid}')
+            if unsafe(r'\bemergency\b[^.]{0,40}\b(automatically )?(grants|creates|gives)\b[^.]{0,35}\b(legal exemption|exemption|right to harvest)\b',
+                      r'never|not|no|does not|cannot'):
+                raise ValueError(f'Contradiction: unauthorized emergency legal harvest exemption in {cid}')
 
         # Rule 15: Z07 must never publish actionable injurious trap/snare construction or hazardous placement instructions.
         if card['zone'] == 'Z07':
-            for clause in clauses:
-                if re.search(r'\b(set|construct|build|conceal|anchor|rig)\b[^.]{0,35}\b(a |an )?(lethal |wire |spring |body-grip |foothold |deadfall )?(snare|deadfall trigger|foothold trap|conibear|spring pole|pitfall)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|avoid|prohibit|not|illegal|unlawful|without)\b', clause):
-                        raise ValueError(f'Contradiction: actionable injurious trap construction or placement in {cid}')
+            if unsafe(r'\b(set|construct|build|conceal|anchor|rig)\b[^.]{0,35}\b(a |an )?(lethal |wire |spring |body-grip |foothold |deadfall )?(snare|deadfall trigger|foothold trap|conibear|spring pole|pitfall)\b',
+                      NEGATION_WORDS + '|illegal|unlawful'):
+                raise ValueError(f'Contradiction: actionable injurious trap construction or placement in {cid}')
 
         # Rule 16: Z05 must never promote universal edibility test folklore, boiling-all-mushrooms myths, or photo-only edibility clearance.
         if card['zone'] == 'Z05':
-            for clause in clauses:
-                if re.search(r'\b(rub|touch|place)\b[^.]{0,30}\b(lip|skin|tongue)\b[^.]{0,35}\b(test edibility|prove (it is )?safe|edibility test)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|reject|myth|unreliable|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe universal edibility test folklore in {cid}')
-                if re.search(r'\b(animals eat it|silver spoon|peel the cap|boiling removes all)\b[^.]{0,35}\b(safe|edible|toxins?|poisons?)\b', clause):
-                    if not re.search(r'\b(never|do not|don\'t|reject|myth|false|unreliable|not)\b', clause):
-                        raise ValueError(f'Contradiction: unsafe folk toxicity test in {cid}')
-                if re.search(r'\b(illustration|diagram|single photo)\b[^.]{0,35}\b(authorizes|proves|clears)\b[^.]{0,25}\b(consumption|eating|edibility)\b', clause):
-                    if not re.search(r'\b(never|not|cannot|does not)\b', clause):
-                        raise ValueError(f'Contradiction: unauthorized visual-only consumption clearance in {cid}')
+            if unsafe(r'\b(rub|touch|place)\b[^.]{0,30}\b(lip|skin|tongue)\b[^.]{0,35}\b(test edibility|prove (it is )?safe|edibility test)\b',
+                      NEGATION_WORDS + '|reject|myth|unreliable'):
+                raise ValueError(f'Contradiction: unsafe universal edibility test folklore in {cid}')
+            if unsafe(r'\b(animals eat it|silver spoon|peel the cap|boiling removes all)\b[^.]{0,35}\b(safe|edible|toxins?|poisons?)\b',
+                      NEGATION_WORDS + '|reject|myth|false|unreliable'):
+                raise ValueError(f'Contradiction: unsafe folk toxicity test in {cid}')
+            if unsafe(r'\b(illustration|diagram|single photo)\b[^.]{0,35}\b(authorizes|proves|clears)\b[^.]{0,25}\b(consumption|eating|edibility)\b',
+                      r'never|not|cannot|does not'):
+                raise ValueError(f'Contradiction: unauthorized visual-only consumption clearance in {cid}')
 
         # Rule 17: Z16 atlas cards must cite at least one upstream zone (Z01-Z15) in prose or lineage so summaries stay anchored.
         if card['zone'] == 'Z16':
@@ -374,6 +406,7 @@ def inline_emphasis(value):
 
 
 ATLAS_PAGE_REFERENCE = re.compile(r'\bZ(?:0[1-9]|1[0-5])-[PR]\d{2,3}\b')
+CROSS_REFERENCE = re.compile(r'\(see (Z(?:0[1-9]|1[0-6])-[PR]\d{2,3})\)')
 
 
 def validate_atlas_targets(cards):
@@ -384,12 +417,23 @@ def validate_atlas_targets(cards):
         require(refs and refs <= cards.keys(), f'Missing or invalid upstream atlas targets on {card["id"]}')
 
 
+def validate_cross_references(cards):
+    """Explicit "(see Zxx-Pnn)" references in a card's lines must name another existing card."""
+    for card in cards.values():
+        rows = [*card['action'], card['verify'], card['stop'], *([card['failure']] if 'failure' in card else [])]
+        refs = set(CROSS_REFERENCE.findall(' '.join(row['text'] for row in rows)))
+        require(refs <= cards.keys() and card['id'] not in refs, f'Invalid cross-reference on {card["id"]}: {sorted(refs)}')
+
+
 def statement(item, link_atlas=False):
     refs = ', '.join(item['claims'])
     content = inline_emphasis(item['text'])
     if link_atlas:
         content = ATLAS_PAGE_REFERENCE.sub(
             lambda match: f'<a class="atlas-link" href="{match[0]}.html">{match[0]}</a>', content)
+    else:
+        content = CROSS_REFERENCE.sub(
+            lambda match: f'(see <a class="xref" href="{match[1]}.html">{match[1]}</a>)', content)
     return (
         f'<span data-claims="{escape(refs)}">{content}'
         f'<sup><a href="#evidence" aria-label="Evidence {escape(refs)}">[{escape(refs)}]</a></sup></span>'
@@ -416,7 +460,33 @@ def navigation(previous, next_, zone, active):
     return '<nav class="folio" aria-label="Page navigation">' + ''.join(links) + '</nav>'
 
 
-def write_card(card, previous, next_, claims, sources, output, active, pilot=False):
+ASSESSMENT_FIELDS = {'assessment_id', 'claim_id', 'pages', 'status', 'summary', 'limits', 'record', 'checked'}
+
+
+def load_assessments():
+    """Latest evidence assessments by claim (derived by scripts/w2c_assessments.py).
+
+    Baseline claim text and historical ledgers stay unchanged; these rows expose the most recent
+    bounded, partial or unresolved determination wherever the claim is shown to a reader."""
+    path = FOUND / 'evidence/assessments.tsv'
+    if not path.is_file():
+        return {}
+    rows = table(path, 'assessment_id', ASSESSMENT_FIELDS)
+    by_claim = {}
+    for row in rows.values():
+        date.fromisoformat(row['checked'])
+        by_claim.setdefault(row['claim_id'], []).append(row)
+    for items in by_claim.values():
+        items.sort(key=lambda r: (r['checked'], r['assessment_id']))
+    return by_claim
+
+
+def assessments_for(assessments, ref, card_id):
+    return [row for row in assessments.get(ref, ())
+            if row['pages'] == '*' or card_id in row['pages'].split()]
+
+
+def write_card(card, previous, next_, claims, sources, output, active, pilot=False, assessments=None):
     card_id = card['id']
     items = [*card['action'], card['verify'], card['stop']]
     if 'failure' in card:
@@ -434,7 +504,13 @@ def write_card(card, previous, next_, claims, sources, output, active, pilot=Fal
             f'<strong>Conflicting evidence</strong>: {escape(claim["conflicts"])}<br>'
             f'<strong>Editorial note</strong>: {escape(claim["editorial_note"])} · '
             f'<strong>Specialist reviewer</strong>: {escape(claim["reviewer"])}<br>'
-            f'<a href="{escape(source["url"])}">Primary source</a> · checked {escape(source["checked"])}</dd>'
+            f'<a href="{escape(source["url"])}">Primary source</a> · checked {escape(source["checked"])}'
+            + ''.join(
+                f'<br><span class="assessment"><strong>Current assessment</strong> · {escape(row["assessment_id"])} '
+                f'({escape(row["checked"])}) · {escape(row["status"])}: {escape(row["summary"])} '
+                f'<strong>Limits</strong>: {escape(row["limits"])}</span>'
+                for row in assessments_for(assessments or {}, ref, card_id))
+            + '</dd>'
         )
     actions = ''.join(f"<li>{statement(row, link_atlas=card['zone'] == 'Z16')}</li>" for row in card['action'])
     stages = ''.join(f'<li>{escape(stage)}</li>' for stage in card['diagram'].split(' | '))
@@ -456,8 +532,8 @@ def write_card(card, previous, next_, claims, sources, output, active, pilot=Fal
     figure_open = '<figure class="v01-pilot">' if pilot else '<figure>'
     figure_alt = card['diagram']
     if pilot:
-        from foundation_diagrams import v01_source_path, v02_source_path
-        src_path = v02_source_path(card_id) if pilot == 'v02_artwork' else v01_source_path(card_id)
+        from foundation_diagrams import ARTWORK_SOURCES
+        src_path = ARTWORK_SOURCES[pilot](card_id)
         svg = ElementTree.parse(src_path).getroot()
         description = svg.find('{http://www.w3.org/2000/svg}desc')
         require(description is not None and bool(description.text), f'Missing custom figure description for {card_id}')
@@ -667,6 +743,35 @@ def write_directory(cards, xwalk_rows, output):
     (output / 'directory.html').write_text(doc('Sixteen-zone encyclopedia directory', body), encoding='utf-8')
 
 
+ARTWORK_TYPES = {'v01_artwork', 'v02_artwork', 'w2c_artwork'}
+
+
+def _strings(value):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, dict):
+        for item in value.values():
+            yield from _strings(item)
+    elif isinstance(value, list):
+        for item in value:
+            yield from _strings(item)
+
+
+def figure_surface_text(spec, svg_bytes):
+    """Reader-visible figure text for the linter: the SVG description plus either the full
+    (unwrapped) specification labels of a generated figure or the joined labels of artwork."""
+    ns = '{http://www.w3.org/2000/svg}'
+    root = ElementTree.fromstring(svg_bytes)
+    desc = root.find(ns + 'desc')
+    out = [desc.text] if desc is not None and desc.text else []
+    if spec and spec.get('type') not in ARTWORK_TYPES:
+        out += [text.replace('\n', ' ') for key, text in spec.items() if key not in {'type', 'variant'}
+                for text in _strings(text)]
+    else:
+        out.append(' '.join(' '.join(t.itertext()).strip() for t in root.iter(ns + 'text')))
+    return out
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=FOUND / 'reader')
@@ -677,6 +782,9 @@ def main():
     sources, claims = load_evidence()
     cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), claims)
     validate_atlas_targets(cards)
+    validate_cross_references(cards)
+    assessments = load_assessments()
+    require(set(assessments) <= claims.keys(), f'Assessment for unknown claim: {sorted(set(assessments) - claims.keys())}')
     xwalk_rows = crosswalk()
     specs = load_specs()
 
@@ -693,15 +801,17 @@ def main():
     keys = list(cards)
     active = active_zones(cards.values())
     visuals = []
+    figure_text = {}
     for i, (card_id, card) in enumerate(cards.items()):
         if re.match(r'^(0[6-9]|[1-9]\d)-', card['batch']):
             require(card_id in specs, f'Missing technical diagram specification for {card_id}')
         spec = specs.get(card_id)
-        pilot = spec['type'] if (spec and spec['type'] in ('v01_artwork', 'v02_artwork')) else False
+        pilot = spec['type'] if (spec and spec['type'] in ('v01_artwork', 'v02_artwork', 'w2c_artwork')) else False
         write_card(card, keys[i - 1] if i else None, keys[i + 1] if i + 1 < len(keys) else None,
-                   claims, sources, output, active, pilot=pilot)
+                   claims, sources, output, active, pilot=pilot, assessments=assessments)
         filename = f'visuals/{card_id}.svg'
         data = render_diagram(card).encode('utf-8')
+        figure_text[card_id] = figure_surface_text(spec, data)
         (output / filename).write_bytes(data)
         if pilot == 'v01_artwork':
             diag_type = 'v01_artwork'
@@ -709,6 +819,9 @@ def main():
         elif pilot == 'v02_artwork':
             diag_type = 'v02_artwork'
             spec_src = f'foundations/visual/v02_technical/revised/{card_id}.svg'
+        elif pilot == 'w2c_artwork':
+            diag_type = 'w2c_artwork'
+            spec_src = f'foundations/visual/w2c_technical/revised/{card_id}.svg'
         elif card_id in CROSS_SECTIONS:
             diag_type = 'cross_section_hand'
             spec_src = 'scripts/foundation_diagrams.py#CROSS_SECTIONS'
@@ -731,6 +844,8 @@ def main():
             review='Independent subject review pending',
         ))
 
+    # Second lint pass over the delivered figures: description, labels and spec text.
+    lint_cards(cards, figure_text)
     write_index(cards, output)
     write_zone_readers(cards, output)
     write_directory(cards, xwalk_rows, output)

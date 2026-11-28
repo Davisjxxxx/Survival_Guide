@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Outdoor sirens versus indoor warning receivers at night</title>
+<desc id="desc">Left: an outdoor warning siren on a pole sends sound to a person outside; sirens are designed only to alert people who are outdoors. The sound reaching a closed house is not designed to wake people inside. Inside the bedroom, a battery-backed NOAA Weather Radio on the nightstand and a phone with emergency alerts turned on sound the warning beside the sleeper. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z15-P22 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z15-p22-artwork">
+<path d="M30 300H876" stroke="#8a7350" stroke-width="3"/>
+<rect x="84" y="110" width="8" height="190" fill="#6b6b6b"/><path d="M76 104h24l18-14v40l-18-14H76z" fill="#d6a542" stroke="#183a30" stroke-width="2"/>
+<path d="M126.0 86.0a40 40 0 0 1 0 48.0" fill="none" stroke="#205b68" stroke-width="2.4"/>
+<path d="M132.0 68.0a70 70 0 0 1 0 84.0" fill="none" stroke="#205b68" stroke-width="2.4"/>
+<path d="M138.0 50.0a100 100 0 0 1 0 120.0" fill="none" stroke="#205b68" stroke-width="2.4"/>
+<circle cx="250" cy="232.4" r="8.4" fill="#4d6a78"/><path d="M240.1 242.2h19.8l2.3 30.4h-6.1l-.0 27.4h-5.3l-1.5-22.8l-1.5 22.8h-5.3v-27.4h-6.1z" fill="#4d6a78"/>
+<circle cx="250" cy="196" r="12" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M244 196L248.8 201L256.2 191.2" fill="none" stroke="#205b68" stroke-width="3"/>
+<text x="40" y="326" class="tiny">siren: designed only to alert people outside</text>
+<path d="M360 300V170l120-70 120 70v130z" fill="#efe9d8" stroke="#183a30" stroke-width="3"/><rect x="390" y="196" width="180" height="104" fill="#f7f4ea" stroke="#183a30" stroke-width="2"/>
+<path d="M318.0 174.0a40 40 0 0 1 0 36.0" fill="none" stroke="#8a8f86" stroke-width="2" stroke-dasharray="5 4"/>
+<path d="M310.8 164.4a64 64 0 0 1 0 57.6" fill="none" stroke="#8a8f86" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="346" cy="158" r="12" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M340.6 152.6L351.4 163.4M351.4 152.6L340.6 163.4" stroke="#8b3825" stroke-width="3"/>
+<text x="316" y="98" class="tiny">not designed to</text>
+<text x="316" y="119" class="tiny">wake people inside</text>
+<rect x="404" y="262" width="96" height="22" rx="6" fill="#b7c3c6" stroke="#183a30" stroke-width="2"/>
+<circle cx="418" cy="254.3" r="7.7" fill="#7a5a43"/><rect x="427.2" y="247.4" width="54.6" height="13.9" rx="6.9" fill="#7a5a43"/>
+<rect x="516" y="252" width="40" height="32" fill="#9b8a6b" stroke="#183a30" stroke-width="1.6"/><rect x="520" y="234" width="32" height="18" rx="3" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><rect x="538" y="222" width="10" height="12" rx="2" fill="#183a30"/>
+<path d="M524 223.6a12 12 0 0 1 0 -0.12" fill="none"/><path d="M556.8 224a12 12 0 0 1 0 16.799999999999997" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<path d="M516 222.0a20 20 0 0 1 0 -0.2" fill="none"/><path d="M560.0 216a20 20 0 0 1 0 28.0" fill="none" stroke="#c0392b" stroke-width="2.4"/>
+<rect x="620" y="46" width="256" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="636" y="72" class="head ok">✓ INDOOR ALERTS</text>
+<rect x="646" y="96" width="70" height="42" rx="6" fill="#ffffff" stroke="#183a30" stroke-width="2.2"/><rect x="654" y="104" width="34" height="14" fill="#cfe0e6"/><circle cx="702" cy="124" r="6" fill="#c0392b"/>
+<text x="646" y="166" class="tiny">NOAA Weather Radio</text>
+<text x="646" y="187" class="tiny">with battery backup</text>
+<text x="646" y="208" class="tiny">in the bedroom</text>
+<rect x="650" y="232" width="30" height="52" rx="6" fill="#ffffff" stroke="#183a30" stroke-width="2.2"/><rect x="654" y="240" width="22" height="30" fill="#f7e5d9"/>
+<text x="692" y="252" class="tiny">phone emergency</text>
+<text x="692" y="273" class="tiny">alerts left on</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Never rely on a single power-dependent or outdoor-only warning method overnight.</text>
+</g>
+</svg>

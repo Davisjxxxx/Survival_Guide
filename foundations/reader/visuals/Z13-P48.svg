@@ -1,13 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Avoid premature tank pumping and drainfield damage after septic flooding</title>
-  <desc id="desc">FAILURE-MODE ANALYSIS: Saturated drainfield cannot absorb flow | NEVER pump tank while ground is flooded | Wait for dry ground + licensed inspection — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P48 · FAILURE-MODE ANALYSIS (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="failure-mode-artwork"><rect x="34" y="52" width="192" height="84" rx="8" fill="#f7e5dc" stroke="#a05332" stroke-width="3"/><rect x="34" y="52" width="192" height="22" rx="6" fill="#a05332"/><text x="130" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">FAILURE CAUSE</text><text x="130" y="92" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">Pumping septic tank</text><text x="130" y="107" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">while yard is</text><text x="130" y="122" font-size="11.5" font-weight="650" fill="#5a2310" text-anchor="middle">flooded</text><path d="M228 94h34" stroke="#a05332" stroke-width="3.5" marker-end="url(#arrow)"/><rect x="266" y="52" width="192" height="84" rx="8" fill="#f6f1d9" stroke="#8a7228" stroke-width="3"/><rect x="266" y="52" width="192" height="22" rx="6" fill="#8a7228"/><text x="362" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">RECOGNIZE CUE</text><text x="362" y="92" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">Hollow empty tank</text><text x="362" y="107" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">floats up in wet</text><text x="362" y="122" font-size="11.5" font-weight="650" fill="#443810" text-anchor="middle">earth</text><path d="M460 94h34" stroke="#285345" stroke-width="3.5" marker-end="url(#arrow)"/><rect x="498" y="52" width="192" height="84" rx="8" fill="#dceadf" stroke="#184438" stroke-width="3"/><rect x="498" y="52" width="192" height="22" rx="6" fill="#184438"/><text x="594" y="67" font-size="10.5" font-weight="650" fill="#fffdf7" text-anchor="middle">CORRECT / ABORT</text><text x="594" y="92" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">Conserve water; wait</text><text x="594" y="107" font-size="11.5" font-weight="650" fill="#183c31" text-anchor="middle">for dry ground + pro</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Saturated drainfield</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">cannot absorb flow</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">NEVER pump tank while</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">ground is flooded</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Wait for dry ground +</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">licensed inspection</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Septic tank in flooded, saturated soil</title>
+<desc id="desc">Two ground cross-sections with floodwater over saturated soil. Left: a septic tank pumped empty while the soil is saturated; groundwater presses up on its base, the tank lifts from its original seat and the inlet and outlet pipes break at the joints. Right: the tank is left full and unopened, basement drains are plugged, indoor water use is cut sharply, and equipment stays off the wet drainfield until the water recedes and a professional inspects the system. Conceptual drawing, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P48 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p48-artwork">
+<rect x="24" y="46" width="414" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="72" class="head warn">✕ PUMPED EMPTY IN SATURATED SOIL</text>
+<rect x="462" y="46" width="414" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="478" y="72" class="head ok">✓ WHILE THE YARD IS FLOODED</text>
+<rect x="30" y="112" width="402" height="14" fill="#9cc3cf"/>
+<rect x="30" y="126" width="402" height="204" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/><rect x="30" y="126" width="402" height="204" fill="#9cc3cf" fill-opacity=".38"/><path d="M40 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M66 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M92 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M118 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M144 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M170 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M196 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M222 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M248 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M274 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M300 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M326 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M352 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M378 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M404 136h12" stroke="#3d7186" stroke-width="1.4"/>
+<path d="M30 112h402" stroke="#3d7186" stroke-width="2"/>
+<rect x="468" y="112" width="402" height="14" fill="#9cc3cf"/>
+<rect x="468" y="126" width="402" height="204" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/><rect x="468" y="126" width="402" height="204" fill="#9cc3cf" fill-opacity=".38"/><path d="M478 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M504 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M530 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M556 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M582 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M608 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M634 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M660 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M686 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M712 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M738 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M764 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M790 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M816 136h12" stroke="#3d7186" stroke-width="1.4"/><path d="M842 136h12" stroke="#3d7186" stroke-width="1.4"/>
+<path d="M468 112h402" stroke="#3d7186" stroke-width="2"/>
+<rect x="140" y="196" width="170" height="92" rx="6" fill="none" stroke="#6d6d6d" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="140" y="168" width="170" height="92" rx="6" fill="#d9d6cc" stroke="#55534c" stroke-width="3"/><rect x="148" y="176" width="154" height="76" fill="#f4f2ea"/><rect x="211.0" y="154" width="28" height="14" fill="#cfcbbf" stroke="#55534c" stroke-width="2"/>
+<path d="M30 210L118 210" fill="none" stroke="#5f665c" stroke-width="11" stroke-linejoin="round"/><path d="M30 210L118 210" fill="none" stroke="#c4c9c0" stroke-width="8" stroke-linejoin="round"/>
+<path d="M332 224L432 224" fill="none" stroke="#5f665c" stroke-width="11" stroke-linejoin="round"/><path d="M332 224L432 224" fill="none" stroke="#c4c9c0" stroke-width="8" stroke-linejoin="round"/>
+<path d="M140 186L128 186" fill="none" stroke="#5f665c" stroke-width="11" stroke-linejoin="round"/><path d="M140 186L128 186" fill="none" stroke="#c4c9c0" stroke-width="8" stroke-linejoin="round"/>
+<path d="M310 196L322 196" fill="none" stroke="#5f665c" stroke-width="11" stroke-linejoin="round"/><path d="M310 196L322 196" fill="none" stroke="#c4c9c0" stroke-width="8" stroke-linejoin="round"/>
+<path d="M118 198l6 6-5 6 6 6M332 212l-6 6 5 6-6 6" fill="none" stroke="#8b3825" stroke-width="2.6"/>
+<path d="M170 318V266" fill="none" stroke="#3b3b3b" stroke-width="4" marker-end="url(#m-load)"/>
+<path d="M225 318V266" fill="none" stroke="#3b3b3b" stroke-width="4" marker-end="url(#m-load)"/>
+<path d="M280 318V266" fill="none" stroke="#3b3b3b" stroke-width="4" marker-end="url(#m-load)"/>
+<path d="M326 238V206" fill="none" stroke="#183a30" stroke-width="2.5" stroke-dasharray="5 4" marker-end="url(#m-ink)"/>
+<text x="322" y="268" class="tiny">groundwater</text>
+<text x="322" y="289" class="tiny">pushes up on</text>
+<text x="322" y="310" class="tiny">empty tank</text>
+<path class="lead" d="M118 204L92 172"/>
+<text x="40" y="150" class="tiny">pipes break</text>
+<text x="40" y="171" class="tiny">at joints</text>
+<text x="40" y="300" class="tiny">original</text>
+<text x="40" y="321" class="tiny">seat</text>
+<path class="lead" d="M104 300L140 288"/>
+<rect x="560" y="196" width="150" height="86" rx="6" fill="#d9d6cc" stroke="#55534c" stroke-width="3"/><rect x="568" y="204" width="134" height="70" fill="#f4f2ea"/><rect x="568" y="214" width="134" height="60" fill="#8f7d55"/><rect x="621.0" y="182" width="28" height="14" fill="#cfcbbf" stroke="#55534c" stroke-width="2"/>
+<path d="M468 212L560 212" fill="none" stroke="#5f665c" stroke-width="11" stroke-linejoin="round"/><path d="M468 212L560 212" fill="none" stroke="#c4c9c0" stroke-width="8" stroke-linejoin="round"/>
+<path d="M710 222L868 222" fill="none" stroke="#5f665c" stroke-width="11" stroke-linejoin="round"/><path d="M710 222L868 222" fill="none" stroke="#c4c9c0" stroke-width="8" stroke-linejoin="round"/>
+<path d="M740 236v40" stroke="#5f665c" stroke-width="3" stroke-dasharray="4 4"/>
+<path d="M790 236v40" stroke="#5f665c" stroke-width="3" stroke-dasharray="4 4"/>
+<path d="M840 236v40" stroke="#5f665c" stroke-width="3" stroke-dasharray="4 4"/>
+<path d="M484 112V96l26-14 26 14v16" fill="#e9e2cf" stroke="#183a30" stroke-width="2.2"/>
+<rect x="512" y="102" width="16" height="8" rx="2" fill="#183a30"/>
+<text x="552" y="150" class="tiny">plug basement drains;</text>
+<text x="552" y="171" class="tiny">cut water use sharply</text>
+<path class="lead" d="M548 146L526 110"/>
+<text x="594" y="302" class="tiny">leave full; do not</text>
+<text x="594" y="323" class="tiny">pump or open it</text>
+<text x="742" y="162" class="tiny">keep equipment</text>
+<text x="742" y="183" class="tiny">off the wet</text>
+<text x="742" y="204" class="tiny">drainfield</text>
+<path class="lead" d="M790 222L790 210"/>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Sewage backing up or surfacing: stop using plumbing, keep away, call a septic professional.</text>
+</g>
 </svg>

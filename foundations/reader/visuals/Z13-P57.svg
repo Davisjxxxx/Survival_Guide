@@ -1,13 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Match ABC fire extinguishers to incipient fires and evacuate without delay</title>
-  <desc id="desc">DECISION TREE: Evacuate &amp; call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | NEVER throw water on grease or live wires — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z13-P57 · DECISION TREE (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="decision-tree-artwork"><polygon points="125,44 215,82 125,120 35,82" fill="#e6eee6" stroke="#184438" stroke-width="2.8"/><text x="125" y="79" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">Everyone</text><text x="125" y="93" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">exiting + 911?</text><path d="M215 82h60" stroke="#285345" stroke-width="3" marker-end="url(#arrow)"/><text x="244" y="75" font-size="10" font-weight="650" fill="#184438" text-anchor="middle">YES</text><polygon points="365,44 455,82 365,120 275,82" fill="#e6eee6" stroke="#184438" stroke-width="2.8"/><text x="365" y="79" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">Tiny fire +</text><text x="365" y="93" font-size="11" font-weight="700" fill="#183c31" text-anchor="middle">back to exit?</text><path d="M455 82h55" stroke="#285345" stroke-width="3" marker-end="url(#arrow)"/><text x="482" y="75" font-size="10" font-weight="650" fill="#184438" text-anchor="middle">YES</text><rect x="516" y="54" width="166" height="56" rx="8" fill="#d3e6d6" stroke="#184438" stroke-width="3"/><text x="599" y="79" font-size="11.5" font-weight="700" fill="#183c31" text-anchor="middle">ABC PASS: Pull Aim</text><text x="599" y="93" font-size="11.5" font-weight="700" fill="#183c31" text-anchor="middle">Squeeze Sweep</text><path d="M125 120v14h240v-14" fill="none" stroke="#a05332" stroke-width="2.5"/><text x="142" y="131" font-size="9.5" font-weight="650" fill="#8b3e1f" text-anchor="middle">NO</text><text x="382" y="131" font-size="9.5" font-weight="650" fill="#8b3e1f" text-anchor="middle">NO</text><rect x="115" y="132" width="490" height="22" rx="5" fill="#faeee5" stroke="#a05332" stroke-width="2"/><text x="360" y="147" font-size="11" font-weight="650" fill="#7a2f15" text-anchor="middle">EVACUATE NOW: Thick smoke, grease + water hazard, blocked exit or growing flame</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Evacuate &amp; call 911</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">FIRST; back to exit</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Tiny fire only: Pull,</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Aim base, Squeeze, Sweep</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">NEVER throw water on</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">grease or live wires</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">When a portable extinguisher is an option, and when to leave</title>
+<desc id="desc">Left: a small fire confined to one pan or wastebasket. The user has alerted others, the fire department has been called, the user stands with a clear escape route behind them and sprays at the base of the fire. Below, the four PASS steps: pull the pin, aim low at the base, squeeze slowly and evenly, sweep side to side. Right: smoke filling the room, fire spreading beyond one object, or no clear escape route means leaving and calling 911. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P57 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p57-artwork">
+<rect x="24" y="46" width="470" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">✓ ONLY IF ALL ARE TRUE</text>
+<rect x="512" y="46" width="364" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="528" y="72" class="head warn">✕ LEAVE, THEN CALL 911</text>
+<rect x="40" y="88" width="438" height="148" fill="#f5f2e8" stroke="#183a30" stroke-width="2.2"/><rect x="40" y="228" width="438" height="8" fill="#cbbf9f"/>
+<rect x="46" y="128" width="30" height="100" fill="#b6c9b9" stroke="#183a30" stroke-width="2"/><circle cx="70" cy="180" r="2.6" fill="#183a30"/>
+<text x="84" y="110" class="tiny">clear escape route</text>
+<text x="84" y="131" class="tiny">behind you</text>
+<path class="lead" d="M90 118L64 128"/>
+<circle cx="150" cy="139" r="11" fill="#4d6a78"/><path d="M137 152h26l3 40h-8l-.0 36h-7l-2-30l-2 30h-7v-36h-8z" fill="#4d6a78"/>
+<rect x="166" y="162" width="18" height="40" rx="6" fill="#c0392b" stroke="#183a30" stroke-width="2"/><path d="M184 170q22-4 40 16" fill="none" stroke="#183a30" stroke-width="3"/>
+<path d="M226 188L330 216" stroke="#e8e8e8" stroke-width="16" stroke-linecap="round" opacity=".9"/>
+<path d="M226 188L326 214" fill="none" stroke="#183a30" stroke-width="2.4" stroke-dasharray="5 4" marker-end="url(#m-ink)"/>
+<path d="M326 228h56l-6-16h-44z" fill="#6b6b6b" stroke="#183a30" stroke-width="2"/>
+<path d="M354 212c-11.9 0 -13.6 -11.9 -6.8 -20.4c1.7 5.1 5.1 6.8 5.1 1.7c0 -6.8 5.1 -10.2 8.5 -13.6c-1.7 8.5 6.8 11.9 5.1 22.1c-0.8 6.8 -6.8 10.2 -11.9 10.2z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M354 210.3c-4.2 0 -5.1 -5.1 -1.7 -8.5c0.8 2.5 3.4 3.4 4.2 0c0.8 4.2 0 8.5 -2.5 8.5z" fill="#f6c453"/>
+<text x="318" y="110" class="tiny">small fire in one</text>
+<text x="318" y="131" class="tiny">pan or wastebasket</text>
+<path class="lead" d="M350 120L354 180"/>
+<circle cx="57" cy="256" r="12" fill="#183a30"/><text x="57" y="262" class="small inv" text-anchor="middle">P</text>
+<text x="76" y="262" class="tiny">pull the pin</text>
+<circle cx="283" cy="256" r="12" fill="#183a30"/><text x="283" y="262" class="small inv" text-anchor="middle">A</text>
+<text x="302" y="262" class="tiny">aim at the base</text>
+<circle cx="57" cy="284" r="12" fill="#183a30"/><text x="57" y="290" class="small inv" text-anchor="middle">S</text>
+<text x="76" y="290" class="tiny">squeeze slowly</text>
+<circle cx="283" cy="284" r="12" fill="#183a30"/><text x="283" y="290" class="small inv" text-anchor="middle">S</text>
+<text x="302" y="290" class="tiny">sweep side to side</text>
+<text x="44" y="324" class="tiny">also: others alerted, 911 called, able, safe from smoke</text>
+<rect x="530" y="88" width="330" height="150" fill="#f5f2e8" stroke="#183a30" stroke-width="2.2"/>
+<path d="M530 88h330v54H530z" fill="#6f6f6f" fill-opacity=".55"/>
+<path d="M600 236c-15.4 0 -17.6 -15.4 -8.8 -26.4c2.2 6.6 6.6 8.8 6.6 2.2c0 -8.8 6.6 -13.2 11 -17.6c-2.2 11 8.8 15.4 6.6 28.6c-1.1 8.8 -8.8 13.2 -15.4 13.2z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M600 233.8c-5.5 0 -6.6 -6.6 -2.2 -11c1.1 3.3 4.4 4.4 5.5 0c1.1 5.5 0 11 -3.3 11z" fill="#f6c453"/>
+<path d="M650 236c-18.2 0 -20.8 -18.2 -10.4 -31.2c2.6 7.8 7.8 10.4 7.8 2.6c0 -10.4 7.8 -15.6 13 -20.8c-2.6 13 10.4 18.2 7.8 33.8c-1.3 10.4 -10.4 15.6 -18.2 15.6z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M650 233.4c-6.5 0 -7.8 -7.8 -2.6 -13c1.3 3.9 5.2 5.2 6.5 0c1.3 6.5 0 13 -3.9 13z" fill="#f6c453"/>
+<path d="M704 236c-14 0 -16 -14 -8 -24c2 6 6 8 6 2c0 -8 6 -12 10 -16c-2 10 8 14 6 26c-1 8 -8 12 -14 12z" fill="#e0703a" stroke="#8b3825" stroke-width="1.6"/><path d="M704 234c-5 0 -6 -6 -2 -10c1 3 4 4 5 0c1 5 0 10 -3 10z" fill="#f6c453"/>
+<text x="560" y="120" class="tiny inv">smoke filling the room</text>
+<text x="744" y="176" class="tiny">fire beyond</text>
+<text x="744" y="197" class="tiny">one object</text>
+<text x="532" y="264" class="tiny">no clear way out</text>
+<text x="532" y="285" class="tiny">extinguisher empty or fire</text>
+<text x="532" y="306" class="tiny">not out at once</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">If unsure, or the fire is not small and contained: alert others, get out, call 911.</text>
+</g>
 </svg>

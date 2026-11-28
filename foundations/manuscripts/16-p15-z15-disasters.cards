@@ -16,14 +16,14 @@ Z15-P02 | Distinguish Watch, Warning, Advisory, and Emergency alert tiers cleanl
 objective: Match household urgency accurately to official NWS and emergency-management alert language so action starts early without confusion.
 applies: Severe thunderstorm, tornado, flash flood, blizzard, ice storm, extreme heat, and wildfire alerts.
 equipment: NOAA Weather Radio, smartphone WEA, and written household Watch-vs-Warning action triggers.
-action: Treat a **WATCH** (conditions are favorable for dangerous weather to develop across the area) as your **PREPARE & STAGE** trigger: finish fuel/supply staging, charge batteries, monitor live updates closely, cancel exposed outdoor travel, and verify shelter readiness. @T16,D03,D01
-action: Treat a **WARNING** (hazardous weather or flooding is imminent or ALREADY OCCURRING in your warned polygon) as your **ACT IMMEDIATELY** trigger: move straight to lowest interior shelter (tornado), high ground (flash flood), or off roads (blizzard) without waiting to look outside. @T16,D03,D05
+action: Treat a **WATCH** (conditions are favorable for dangerous weather to develop across the area) as your **PREPARE & STAGE** trigger: finish fuel/supply staging, charge batteries, monitor live updates closely, cancel exposed outdoor travel, and verify shelter readiness. @D24,T16,D03,D01
+action: Treat a **WARNING** (hazardous weather or flooding is imminent or ALREADY OCCURRING in your warned polygon) as your **ACT IMMEDIATELY** trigger: move straight to lowest interior shelter (tornado), high ground (flash flood), or off roads (blizzard) without waiting to look outside. @D24,D25,T16,D03,D05
 action: Treat an **EMERGENCY** tier (Tornado Emergency, Flash Flood Emergency, Evacuation Order) as an extreme life-threatening rare escalation demanding maximum immediate protective action or mandatory departure. @D03,D05,D14
 failure: Confusing a Tornado Warning with a Watch and stepping onto the porch to film dark clouds instead of moving immediately to the basement. @D03,T16
 verify: Confirm every adult and older child knows Watch = prepare/monitor and Warning = act NOW without visual confirmation. @T16,D03
 stop: Never wait to see a funnel cloud, wall of water, or flames before executing Warning-level protective actions. @D03,D05,D08
-diagram: WATCH = conditions favorable -> prepare | WARNING = imminent/occurring -> act NOW | EMERGENCY = extreme threat -> max shelter
-visual: Three-tier NWS alert escalation ladder differentiating Watch preparation, Warning immediate shelter/evacuation, and rare Emergency life-threat escalations. Conceptual, not to scale.
+diagram: WATCH = conditions favorable -> prepare | WARNING = imminent/occurring -> act NOW | Warning polygon follows the threat, not county lines
+visual: County map with a broad watch area and a storm-based warning polygon around the threat path and a town ahead of the storm, with each tier's household action. Conceptual map, not to scale.
 reviewer: Meteorology and emergency management
 
 Z15-P04 | Anticipate Minnesota and Upper Midwest four-season disaster patterns | MN HSEM Weather Awareness; new manuscript
@@ -226,14 +226,14 @@ Z15-P18 | Protect yourself during Tornado Warnings in stores, schools, or workpl
 objective: Identify safe interior shelter pockets quickly inside unfamiliar public buildings and avoid deadly wide-span roof collapse.
 applies: Grocery stores, big-box retail shops, warehouses, offices, gyms, churches, and schools during severe weather.
 equipment: Situational awareness of posted Severe Weather Shelter signs and interior restrooms/hallways.
-action: Move immediately AWAY from wide-span unsupported roofs (big-box retail floors, auditoriums, cafeterias, gymnasiums, and atrium lobbies) and tall glass storefronts—wide-span roofs are the first structural elements to lift and collapse in violent winds. @D03
-action: Follow staff promptly to designated Severe Weather Shelter areas, basement levels, or sturdy interior small-span rooms (interior concrete-block restrooms, windowless interior stairwells, or central reinforced hallways away from heavy overhead stock racks). @D03
+action: Move immediately AWAY from wide-span unsupported roofs (big-box retail floors, auditoriums, cafeterias, gymnasiums, and atrium lobbies) and tall glass storefronts—wide-span roofs are the first structural elements to lift and collapse in violent winds. @D22,D03
+action: Follow staff promptly to designated Severe Weather Shelter areas, basement levels, or sturdy interior small-span rooms (interior concrete-block restrooms, windowless interior stairwells, or central reinforced hallways away from heavy overhead stock racks). @D22,D03
 action: Crouch low facing interior walls, cover head and neck firmly with arms, coats, or sturdy bags, and stay clear of exterior doors until staff/officials confirm the Warning has passed. @D03
 failure: Running out to a retail parking lot to drive home mid-Warning, or sheltering right beside towering glass store doors and stacked warehouse pallets. @D03
-verify: Confirm public-building shelter avoids wide-span roofs, glass doors, and heavy high shelving, prioritizing small interior masonry rooms. @D03
-stop: Never step outside into active wind/hail to move a parked car during a Tornado Warning. @D03
+verify: Confirm public-building shelter avoids wide-span roofs, glass doors, and heavy high shelving, prioritizing small interior masonry rooms. @D22,D03
+stop: Never step outside into active wind/hail to move a parked car during a Tornado Warning. @D22,D03
 diagram: Exit wide-span floors, gyms & glass doors | Move to interior masonry restrooms/halls | Crouch low; protect head; stay off parking lot
-visual: Cutaway public building plan contrasting hazardous wide-span retail/gym roof and glass walls against sturdy interior masonry restroom/corridor shelter. Conceptual, not to scale.
+visual: Floor plan of a large public building: leave large open rooms and the glass storefront for the designated shelter or an interior room on the lowest floor; vehicles are not safe. Conceptual, not to scale.
 reviewer: Emergency management and structural safety
 
 Z15-P19 | Prepare for straight-line derechos and damaging hail before outflow gusts hit | FEMA Ready.gov Thunderstorms and NWS; new manuscript
@@ -282,28 +282,28 @@ Z15-P22 | Recognize why outdoor sirens never replace indoor nighttime warning re
 objective: Eliminate deadly nighttime tornado vulnerability caused by expecting outdoor municipal sirens to wake sleeping families inside insulated homes.
 applies: All residential neighborhoods, rural areas, and nocturnal severe-weather seasons.
 equipment: Bedside battery-backed NOAA Weather Radio with SAME alarm and smartphone set to bypass Do-Not-Disturb for WEA alerts.
-action: Understand explicitly that municipal **outdoor warning sirens** are engineered ONLY to alert people who are OUTDOORS—modern double-pane windows, air conditioners, heavy rain, wind roar, and rural distances routinely make sirens completely inaudible inside sleeping bedrooms. @D03,T14
-action: Place a loud battery-backed **NOAA Weather Radio** programmed with your county SAME code inside your bedroom AND verify smartphone **Wireless Emergency Alerts (WEA)** remain turned ON and allowed to sound through nighttime Do-Not-Disturb settings. @T15,D01,D03
+action: Understand explicitly that municipal **outdoor warning sirens** are engineered ONLY to alert people who are OUTDOORS—modern double-pane windows, air conditioners, heavy rain, wind roar, and rural distances routinely make sirens completely inaudible inside sleeping bedrooms. @D23,D03,T14
+action: Place a loud battery-backed **NOAA Weather Radio** programmed with your county SAME code inside your bedroom AND verify smartphone **Wireless Emergency Alerts (WEA)** remain turned ON and allowed to sound through nighttime Do-Not-Disturb settings. @D23,T15,D01,D03
 action: Keep sturdy shoes, a flashlight, and phone charger beside the bed on evening Tornado Watch nights so waking to an alarm leads straight to basement shelter in seconds. @D03
 failure: Going to bed during a summer Tornado Watch with phone on silent, no NOAA radio, and assuming "the town siren will wake us up." @D03,T15
 verify: Confirm bedside NOAA SAME radio tested with fresh backup batteries and phone WEA enabled to override silent/sleep modes. @T15,D01
 stop: Never rely on a single power-dependent or outdoor-only warning method during overnight severe-weather watches. @D01,T15
 diagram: Outdoor sirens are NOT indoor wake alarms | Bedside NOAA SAME radio + phone WEA ON | Stage shoes & flashlight by bed on Watch nights
-visual: System boundary diagram contrasting muffled outdoor siren sound stopped by insulated bedroom walls against loud bedside NOAA SAME and WEA alerts. Conceptual, not to scale.
+visual: An outdoor siren reaching a person outside but not designed to wake people inside, beside a bedside NOAA Weather Radio and phone alerts sounding in the bedroom. Conceptual, not to scale.
 reviewer: Meteorology and emergency communications
 
 Z15-P23 | Distinguish slow river/snowmelt floods from sudden Flash Flood Warnings | FEMA Ready.gov Floods and NWS; new manuscript
 objective: Match household preparation lead times and immediate high-ground evacuation urgency to the exact flood mechanism.
 applies: River valleys, snowmelt basins, urban storm-drain low spots, creek canyons, and properties below dams or levees.
 equipment: Local river-gauge/NWS alert feeds, county flood-zone map, high-ground evacuation route, and pre-packed go-bags.
-action: Distinguish **river/snowmelt flooding** (builds over hours to days with predictable crest forecasts—allowing early document/vehicle moving, utility prep, and orderly evacuation) from **Flash Flooding** (erupts within minutes from intense rainstorms, clogged urban drains, ice jams, or dam/levee failures with violent wall-of-water surges). @D05,T16,E04
-action: Act IMMEDIATELY on a **Flash Flood Warning** or **Flash Flood Emergency**: move straight to verified higher ground on foot or along open high roads BEFORE low streets, underpasses, and creek bridges vanish underwater. @D05,T16
+action: Distinguish **river/snowmelt flooding** (builds over hours to days with predictable crest forecasts—allowing early document/vehicle moving, utility prep, and orderly evacuation) from **Flash Flooding** (erupts within minutes from intense rainstorms, clogged urban drains, ice jams, or dam/levee failures with violent wall-of-water surges). @D26,D05,T16,E04
+action: Act IMMEDIATELY on a **Flash Flood Warning** or **Flash Flood Emergency**: move straight to verified higher ground on foot or along open high roads BEFORE low streets, underpasses, and creek bridges vanish underwater. @D24,D26,D05,T16
 action: Remember that levees and dams reduce risk rather than eliminating it—any official levee-breach or dam-failure evacuation order demands instant high-ground departure with zero delay. @D05,D14
 failure: Waiting to watch a rising neighborhood creek out the window during a Flash Flood Warning until the single exit road washes out. @D05,T16
 verify: Confirm home flood-zone status checked, two elevated exit routes mapped, and Flash Flood Warnings treated as instant high-ground triggers. @D05,D14
 stop: Rising water in basements, rushing street gutters, or official evacuation orders halt packing immediately—move people to high ground NOW. @D05
 diagram: River flood: days lead -> prep & evac early | Flash flood: minutes -> move high NOW | Dam/levee order -> instant high-ground exit
-visual: Comparative flood-mechanism timeline contrasting multi-day snowmelt/river crests against sudden minutes-scale flash floods and dam-failure surges. Conceptual, not to scale.
+visual: Schematic water-level curves: a flash flood rising rapidly within about 6 hours of its cause beside a slower river flood toward a forecast crest, with the ice jam and dam or levee warning. Conceptual, not to scale.
 reviewer: Flood hydrology and emergency management
 
 Z15-P24 | Obey Turn Around Don't Drown: 6-inch walking and 12-inch vehicle flood physics | NWS Turn Around Don't Drown and Ready.gov Floods; new manuscript
@@ -576,14 +576,14 @@ Z15-P43 | Manage multi-day electrical outages safely without indoor combustion o
 objective: Sustain safe lighting, food triage, temperature control, and battery conservation across 3-to-14-day regional blackouts.
 applies: Multi-day residential power loss across winter or summer disaster scenarios.
 equipment: LED lanterns, UL battery power banks, outdoor-only ≥20 ft generator (if owned), CO/smoke alarms, and appliance thermometers.
-action: Establish a calm daily blackout rhythm right away: switch to low-mode LED lighting (zero candles), log power-off times and guard refrigerator/freezer doors, unplug surge-sensitive electronics/heaters, and conserve smartphone power strictly for brief SMS check-ins and 911. @U01,U04,F04,U16
-action: Enforce ZERO indoor combustion compromises across every day of the outage—keep portable generators ≥20 feet outdoors with exhaust away from structures, cook strictly outdoors on grills/camp stoves (or eat no-cook pantry meals), and never heat homes with gas ovens or charcoal. @C06,C16,U02
+action: Establish a calm daily blackout rhythm right away: switch to low-mode LED lighting (zero candles), log power-off times and guard refrigerator/freezer doors, unplug surge-sensitive electronics/heaters, and conserve smartphone power strictly for brief SMS check-ins and 911. @U25,U01,U04,F04,U16
+action: Enforce ZERO indoor combustion compromises across every day of the outage—keep portable generators ≥20 feet outdoors with exhaust away from structures, cook strictly outdoors on grills/camp stoves (or eat no-cook pantry meals), and never heat homes with gas ovens or charcoal. @U25,C06,C16,U02
 action: Track household health, indoor room temperature, water supply, and fuel/battery burn rate daily so you relocate cleanly to powered shelter or community hubs BEFORE reserves hit zero. @U17,D18
 failure: Staying disciplined on day one of a blackout, then pulling a generator into the garage on day four out of fatigue and rain frustration. @C06,C16
 verify: Confirm zero indoor combustion, active battery CO/smoke alarms, logged fridge/freezer temps, and daily reserve tracking. @C06,U12,F04
 stop: Any indoor CO alarm, unsafe cold/heat indoors, or exhausted medical power ends home sheltering immediately in favor of relocation or 911. @C07,U17
 diagram: LED low-mode, shut cold doors & unplug surges | Zero indoor gens/stoves/ovens EVERY day | Track daily temp & reserves; move early
-visual: Four-phase multi-day blackout timeline tracking Hour 1 stabilization, Day 1–2 cold-chain triage, Day 3+ battery/temp rationing, and safe relocation/restoration. Conceptual, not to scale.
+visual: Scaled plan of a home in an outage: generator outside at least 20 ft from windows, doors and the attached garage with exhaust pointed away, LED lanterns, closed refrigerator and freezer, unplugged electronics and a CO alarm, with cold-holding times and exit triggers. Conceptual plan.
 reviewer: Emergency management and electrical/CO safety
 
 Z15-P44 | Navigate municipal water-system interruptions and multi-tier advisories | CDC Drinking Water Advisories; new manuscript

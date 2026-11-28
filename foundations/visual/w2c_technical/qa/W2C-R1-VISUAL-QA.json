@@ -1,0 +1,99 @@
+{
+  "batch": "W2C-R1",
+  "pages": [
+    "Z11-P63",
+    "Z04-P51",
+    "Z13-P49",
+    "Z13-P50",
+    "Z11-P32"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z11-P63": [],
+    "Z04-P51": [],
+    "Z13-P49": [],
+    "Z13-P50": [],
+    "Z11-P32": []
+  },
+  "axe_incomplete": {
+    "Z11-P63": [],
+    "Z04-P51": [],
+    "Z13-P49": [],
+    "Z13-P50": [],
+    "Z11-P32": []
+  },
+  "figure_alt": {
+    "Z11-P63": "Left: a caller kneels beside a person who is unresponsive, breathing abnormally or bleeding severely, calls at once on a phone and keeps giving care while talking, saying the location first: trail, landmark or coordinates with their format. Centre: if the call drops, dispatch already has the location. Right: a six-item report card filled in before the trip (location and last known point, people and injuries, breathing, bleeding and warmth, access hazards, shelter, water and battery, stay-put plan and callback number) and completed while help is on the way; it is never a reason to delay the call. Conceptual, not to scale.",
+    "Z04-P51": "Left: water that is bottled or boiled and cooled feeds drinking, tooth brushing, washing produce, making ice and washing dishes; wounds are rinsed only with clean potable water or sterile saline. Upper right: infant formula follows its own rules. Ready-to-feed formula is safest, especially for infants under 2 months, born prematurely or with a weakened immune system. Powdered formula is not sterile, so safe water alone does not make it safe; follow current CDC directions for the infant. Under a chemical advisory, boiling does not help: use bottled water or ready-to-feed. Lower right: a Do Not Use notice means no tap contact at all. Conceptual, not to scale.",
+    "Z13-P49": "A solid-waste bucket lined with two heavy bags, with dry cover material such as sawdust added after each use and a tight lid; a separate bucket for liquids; and a handwashing station with a spigot jug, soap and a catch basin right beside them. Hands are washed with soap and safe water after every use; alcohol rub does not replace handwashing after toilet, diaper or vomit tasks. Tied bags go into a lidded outdoor bin for disposal under local health rules, away from food areas, wells, gardens and storm drains. Conceptual, not to scale.",
+    "Z13-P50": "Left: a spigot jug on a stand pours a thin stream of safe water over soapy hands into a catch basin, so a 20-second soap wash uses little water; the basin is emptied away from wells and food gardens. Right: after using the toilet, changing a diaper, cleaning up vomit or handling waste, and before handling food, wash with soap and water; hand sanitizer does not work well against norovirus and is not a substitute. Sanitizer with at least 60 percent alcohol is an interim fallback only when soap and water truly are unavailable and hands are not visibly dirty; saving water does not make it equivalent. Disposable plates save potable water. Conceptual, not to scale.",
+    "Z11-P32": "Plan-view box detour around a compact obstacle: four 90-degree turns, an offset leg counted in paces, a return leg paced to the same distance with extra paces where slope or brush shortens the stride, and a regained line that stays approximate until checked against the map. A matching count does not confirm position. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-R1/W2C-R1-letter.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "31fbae970319517274e9221496c882cec55f35a886a0b62362a4044c32f7fd1b"
+    },
+    "visual/w2c_context/W2C-R1/W2C-R1-a4.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "b9a6aaac3805ae0a44cd3bceff209edcf84668aa040ae725c6781c1a1de50084"
+    },
+    "visual/w2c_context/W2C-R1/W2C-R1-compare.jpg": {
+      "sha256": "42e362b05e81c9736528c446a515962d785250786ea0dae8431a976228fe9012",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-R1/W2C-R1-compare-gray.jpg": {
+      "sha256": "80cd98c185b38adcea8595259998361327cca7eb7678c109cb8a380a47972a5d",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-R1/W2C-R1-phone.jpg": {
+      "sha256": "6180124df79652a97f26c51f62cfd9d3cce01059fdfc29df5c24f7c5b62f9820",
+      "size": [
+        1482,
+        1968
+      ]
+    },
+    "visual/w2c_context/W2C-R1/W2C-R1-desktop.jpg": {
+      "sha256": "13d65396c0f51a56ed206a2a36837962c2c4349edcd64df43883098613f2de5c",
+      "size": [
+        1310,
+        2065
+      ]
+    },
+    "visual/w2c_context/W2C-R1/W2C-R1-print.jpg": {
+      "sha256": "2e11c58b502ca18d45ae0c6f522c7fe2841f77c2341492dd41b617c778864213",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

@@ -254,14 +254,14 @@ Z13-P20 | Never heat a home with kitchen ovens, charcoal grills, or camp stoves 
 objective: Enforce an absolute life-safety barrier against deadly improvised indoor combustion during winter power or furnace failures.
 applies: Homes, apartments, mobile homes, and cabins experiencing furnace or electrical outages.
 equipment: Working CO/smoke alarms, non-combustion insulation layers, and warming-center evacuation plan.
-action: NEVER turn on a gas or electric kitchen oven or stovetop burners to heat a living space—gas ovens generate silent lethal carbon monoxide and burn hazards, while open oven doors cause severe fire and child-scald injuries. @U03,C16,C05
-action: NEVER bring charcoal grills, hibachis, camp stoves, propane turkey fryers, or patio heaters indoors, into attached garages, or onto enclosed porches—glowing charcoal produces massive lethal carbon monoxide even without visible smoke. @C16,C05
-action: When home heating fails and indoor insulation cannot maintain safe temperatures, relocate early to a public warming center, hotel, or powered friend/relative rather than improvising indoor combustion. @U17,U10
+action: NEVER turn on a gas or electric kitchen oven or stovetop burners to heat a living space—gas ovens generate silent lethal carbon monoxide and burn hazards, while open oven doors cause severe fire and child-scald injuries. @C22,U03,C16,C05
+action: NEVER bring charcoal grills, hibachis, camp stoves, propane turkey fryers, or patio heaters indoors, into attached garages, or onto enclosed porches—glowing charcoal produces massive lethal carbon monoxide even without visible smoke. @C22,C16,C05
+action: When home heating fails and indoor insulation cannot maintain safe temperatures, relocate early to a public warming center, hotel, or powered friend/relative rather than improvising indoor combustion. @U25,U17,U10
 failure: Bringing a glowing charcoal kettle grill into a living room during an ice storm to warm children, killing occupants silently while they sleep. @C16,C05
 verify: Confirm zero ovens, ranges, grills, or camp stoves are used for space heating and household evacuation warming options are ready. @U03,C16,U17
 stop: Any headache, dizziness, nausea, or CO alarm activation near an indoor fuel source demands instant outdoor evacuation and 911 activation. @C07,C16
 diagram: NEVER use ovens, grills or camp stoves | Charcoal emits massive odorless CO | Relocate to warming center instead
-visual: System boundary diagram marking strict red-zone prohibition of ovens, grills, and camp stoves indoors versus safe non-combustion layering and warming centers. Conceptual, not to scale.
+visual: Room section showing carbon monoxide from an open oven, a charcoal grill and a camp stove reaching a sleeper despite a cracked window, beside warm layers in one interior room and early relocation to a warming centre. Conceptual, not to scale.
 reviewer: Fire service and carbon monoxide safety
 
 Z13-P21 | Respect manufacturer limits and local codes for indoor-rated fuel heaters | CPSC Portable Heaters and NFPA Heating Safety; new manuscript
@@ -438,12 +438,12 @@ applies: Homes, apartments, and rural residences building baseline and extended 
 equipment: Sealed commercial water cases or sanitized food-grade storage containers, permanent marker, and cool dark storage area.
 action: Treat CDC/FEMA's **1 gallon per person per day for at least 3 days** as a MINIMUM short-term floor—building toward a 2-week reserve where storage space allows, and scaling higher for summer heat, pregnant/nursing individuals, illness, infant formula, and pets. @W14,U08
 action: Account separately for drinking/cooking potable water versus non-potable utility water (toilet flushing, cleaning) so contaminated utility jugs can NEVER be confused with drinking supplies. @W06,U08,W29
-action: Store water containers off bare concrete floors (on clean wood boards/shelves) in a cool, dark, frost-free space away from gasoline, pesticides, and paint solvents whose vapors can permeate thin plastic jugs. @W06,U08
+action: Store water in a cool (50–70°F), dark place out of direct sunlight and away from gasoline, pesticides and other toxic substances. @W35,W14
 failure: Storing three one-gallon jugs next to a lawnmower gas can for a family of five and calling household water preparedness complete. @W14,W06
 verify: Confirm total stored gallons meet household headcount + pets for target days, labels separate potable/utility, and storage is cool and chemical-free. @W14,W06,U08
 stop: Any leaking, cracked, chemical-odor, or sunlight-algae-fouled storage container must be discarded or treated strictly as non-potable. @W06,W01
 diagram: ≥1 gal/person/day x 3 d minimum floor | Scale up for 2 wk, heat, kids & pets | Store cool, dark & far from fuel/chemicals
-visual: Comparative water-reserve configuration contrasting 3-day baseline floor, 14-day extended household stock, and chemical-free cool dark storage separation. Conceptual, not to scale.
+visual: For a household of four, 1 gallon per person per day for 3 days is 12 gallons and a 2-week goal is 56 gallons, with more for pregnancy, illness, pets or heat; water is stored cool and dark away from fuel and pesticides. Conceptual, not to scale.
 reviewer: Drinking-water public health and household preparedness
 
 Z13-P34 | Select, sanitize, label, and rotate food-grade household water containers | CDC Emergency Water Supply; new manuscript
@@ -485,7 +485,7 @@ failure: Boiling municipal tap water during a chemical-spill Do Not Drink adviso
 verify: Confirm exact advisory wording from local utility/health authority, shut off automatic ice/water dispensers, and use matched water controls. @W07,D12
 stop: Never guess when an advisory ends—maintain full precautions until the water utility announces formal laboratory-tested clearance. @W07,D12
 diagram: Boil Water = microbes (1 min / 3 min >6500 ft) | Do Not Drink = chemicals (NEVER boil) | Do Not Use = zero contact until cleared
-visual: Three-tier municipal water-advisory escalation ladder contrasting Boil Water, Do Not Drink, and Do Not Use compliance rules. Conceptual, not to scale.
+visual: Three advisory tiers: Boil Water (germs; boil 1 minute, 3 above 6,500 ft), Do Not Drink (chemicals or toxins; bottled water for drinking, cooking, teeth, food, formula, ice and pets; boiling does not help) and Do Not Use (bottled water for every purpose). Conceptual, not to scale.
 reviewer: Drinking-water utility and public health
 
 Z13-P37 | Isolate icemakers, humidifiers, and point-of-use filters during water advisories | CDC Drinking Water Advisories; new manuscript
@@ -499,7 +499,7 @@ failure: Carefully boiling drinking water on the stove while serving guests ice 
 verify: Confirm icemaker switched OFF, old ice discarded, CPAP/humidifiers isolated on safe water, and fridge filter scheduled for replacement post-advisory. @D12,W29
 stop: Do not reconnect icemakers or drink filtered fridge water until utility clearance AND post-advisory pipe flushing are complete. @D12,W07
 diagram: Switch icemaker OFF & dump all ice | Use only safe/distilled water in CPAP/mist | Standard fridge carbon filters ≠ sterile
-visual: Exploded four-appliance isolation diagram covering refrigerator icemaker, inline carbon filter, humidifier/CPAP tank, and dishwasher sanitize cycle limits. Conceptual, not to scale.
+visual: Refrigerator cutaway tracing advisory tap water through the filter to the icemaker and dispenser, with humidifier and CPAP reservoirs filled only from safe water. Conceptual, not to scale.
 reviewer: Drinking-water public health and appliance safety
 
 Z13-P38 | Flush household plumbing properly after municipal water advisories clear | CDC Drinking Water Advisories; new manuscript
@@ -548,14 +548,14 @@ Z13-P41 | Plan for private well electrical pump outages and depressurization ris
 objective: Anticipate immediate residential water loss when grid power drops on a private well and protect submersible pumps from surge/dry damage.
 applies: Homes relying on electrically powered submersible or jet well pumps during power blackouts.
 equipment: Dedicated stored drinking water, tagged well-pump breaker, licensed transfer-switch plan if generator-backed, and spare water plan for livestock/flushing.
-action: A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation. @U05,U06
+action: A well may lose pressure or stop supplying water in an outage. Reserve capacity depends on the pressure system and settings. Follow the well contractor’s guidance on backup supply and tested operation. @U22,U05,U06
 action: Use stored potable water during a prolonged outage. Leave selection of a backup circuit and inspection after unstable power to licensed electrical and well professionals. @U02,U06
 action: Never open well caps or attempt DIY electrical splicing on submersible well wiring—240-volt wet wellheads pose lethal electrocution and aquifer-contamination hazards requiring licensed well and electrical contractors. @U06,U02
 failure: Relying on a private well with zero stored bottled water, then burning out a deep submersible pump motor on a flickering brownout. @U06,U08
 verify: Confirm stored drinking water covers outage days independently of the well, well breaker is tagged, and pump stays off during brownouts. @U06,U08,U14
 stop: Loss of well pressure paired with muddy water, air sputtering, or electrical breaker tripping requires shutting off the well breaker and calling a licensed well contractor. @U06
-diagram: Grid loss = instant well-pump shutdown | Bladder tank holds only ~5–15 gal reserve | Kill breaker in brownouts; store water first
-visual: Failure-mode diagram tracing grid loss and brownout surges through submersible pump damage to stored-water independence and tagged breaker control. Conceptual, not to scale.
+diagram: Grid loss = well pump cannot run | Pressure tank gives only a small reserve | Store water first; licensed pros for wiring
+visual: Outage cross-section: no power to the well pump, the pressure tank pushing out its small stored reserve to a sputtering tap, and a plan of stored water, a labelled breaker and licensed contractors. Conceptual, not to scale.
 reviewer: Licensed well contractor and master electrician
 
 Z13-P42 | Reject flood-submerged private well water until licensed inspection and testing | CDC Private Wells After Flood and MN Dept. of Health; new manuscript
@@ -576,28 +576,28 @@ Z13-P43 | Schedule annual certified-lab testing for private drinking wells | US 
 objective: Detect invisible microbial and naturally occurring or agricultural chemical contaminants in private groundwater before illness occurs.
 applies: All households drinking from private wells, especially families with infants, pregnant members, or agricultural/mineral geology.
 equipment: Sterile sample bottles from a state-certified water testing laboratory and annual maintenance calendar.
-action: Test private well water EVERY YEAR through a state-accredited/certified laboratory for total coliform bacteria, nitrates, total dissolved solids, and pH—and test additionally for arsenic (common naturally in Minnesota glacial aquifers), lead/copper (especially in older plumbing), and local agricultural/industrial contaminants per county health advice. @U05,W23,U06
-action: Retest immediately after ANY flooding, new well/pump work, household gastrointestinal illness, nearby chemical spill, or pregnant woman/infant moving into the home (high nitrates cause dangerous methemoglobinemia/"blue baby" risk and are NOT removed by boiling—boiling concentrates nitrates!). @U05,W22,W23
+action: Test private well water EVERY YEAR through a state-accredited/certified laboratory for total coliform bacteria, nitrates, total dissolved solids, and pH—and test additionally for arsenic (common naturally in Minnesota glacial aquifers), lead/copper (especially in older plumbing), and local agricultural/industrial contaminants per county health advice. @W37,U05,W23
+action: Retest immediately after ANY flooding, new well/pump work, household gastrointestinal illness, nearby chemical spill, or pregnant woman/infant moving into the home (high nitrates cause dangerous methemoglobinemia/"blue baby" risk and are NOT removed by boiling—boiling concentrates nitrates!). @W36,W37,U05
 action: Follow exact certified-lab bottle sampling and cold-shipping time limits so sample results remain valid. @U05
-failure: Boiling high-nitrate rural well water to mix infant formula, which actually evaporates water and concentrates toxic nitrates even higher. @W22,W23,U05
+failure: Boiling high-nitrate rural well water to mix infant formula, which actually evaporates water and concentrates toxic nitrates even higher. @W36,U05
 verify: Confirm annual certified-lab report is filed in the home binder and any exceedances are matched to certified treatment or safe alternate water. @U05,W21
-stop: Any positive E. coli/coliform test or chemical exceedance (nitrate/arsenic/lead) triggers immediate safe-water substitution and health-department/contractor action. @U05,W22
+stop: Any positive E. coli/coliform test or chemical exceedance (nitrate/arsenic/lead) triggers immediate safe-water substitution and health-department/contractor action. @W36,W37,U05
 diagram: Test yearly via state-certified lab | Screen coliform, nitrate, arsenic & lead | NEVER boil high-nitrate water (concentrates!)
-visual: Seasonal private-well testing timeline pairing annual certified-lab screening with post-flood/infant triggers and boiling-nitrate contraindication. Conceptual, not to scale.
+visual: An annual certified-lab test cycle (coliform, nitrate, dissolved solids, pH) with flood, repair, water-change and new-baby triggers, beside a pot showing boiling leave the same nitrate in less water. Conceptual, not to scale.
 reviewer: Hydrogeology, drinking-water toxicology, and public health
 
 Z13-P44 | Prevent residential hose backflow and plumbing cross-connections | US EPA Private Wells and CDC Water; new manuscript
 objective: Stop lawn chemicals, buckets of soapy water, or cistern water from siphoning backward into home drinking-water pipes during pressure drops.
 applies: Homes using outdoor garden hoses, utility sinks, pesticide sprayers, or auxiliary backup water systems.
 equipment: Hose-bibb vacuum breakers (anti-siphon valves), physical air gaps, and licensed plumber guidance for auxiliary piping.
-action: Install inexpensive threaded hose-bibb vacuum breakers on every exterior faucet and NEVER leave a garden hose end submerged inside a bucket of detergent, animal trough, puddle, or chemical sprayer—a sudden municipal main break or well shutoff creates negative vacuum suction ("backsiphonage") that pulls dirty liquid straight into house pipes. @U08,U05
-action: Maintain a physical **air gap** (clear vertical air space above the rim) whenever filling buckets, rain barrels, or emergency tanks from a tap. @U08,W06
-action: NEVER connect a rainwater cistern, sump pump, or auxiliary untreated pump directly into household potable plumbing—physical isolation and licensed backflow assemblies are mandatory under plumbing codes. @U08,U06,W03
+action: Install inexpensive threaded hose-bibb vacuum breakers on every exterior faucet and NEVER leave a garden hose end submerged inside a bucket of detergent, animal trough, puddle, or chemical sprayer—a sudden municipal main break or well shutoff creates negative vacuum suction ("backsiphonage") that pulls dirty liquid straight into house pipes. @U21,U08,U05
+action: Maintain a physical **air gap** (clear vertical air space above the rim) whenever filling buckets, rain barrels, or emergency tanks from a tap. @U21,U08,W06
+action: NEVER connect a rainwater cistern, sump pump, or auxiliary untreated pump directly into household potable plumbing—physical isolation and licensed backflow assemblies are mandatory under plumbing codes. @U21,U08,U06,W03
 failure: Leaving a garden hose running inside a soapy wash bucket when a neighborhood water main breaks, siphoning detergent back into the kitchen drinking line. @U08
-verify: Confirm anti-siphon vacuum breakers installed on exterior spigots, zero submerged hose ends, and complete physical isolation from non-potable tanks. @U08,U05
+verify: Confirm anti-siphon vacuum breakers installed on exterior spigots, zero submerged hose ends, and complete physical isolation from non-potable tanks. @U21,U08,U05
 stop: Suspected chemical or sewage backsiphonage into home pipes requires immediate Do Not Drink isolation, flushing guidance, and licensed plumbing/health review. @W01,U08
 diagram: Vacuum breakers on all outdoor spigots | Never submerge hose end in buckets/troughs | Zero cross-connection to cisterns/sumps
-visual: Correct versus incorrect hose/plumbing isolation contrasting physical air gaps and anti-siphon vacuum breakers against backsiphonage during pressure drops. Conceptual, not to scale.
+visual: Two panels: a submerged hose end back-siphoned into house pipes when supply pressure drops, and the barriers that stop it: a hose-bibb vacuum breaker, an air gap above the rim and no hard connection to rain barrels, sumps or untreated pumps. Conceptual, not to scale.
 reviewer: Licensed plumber and drinking-water safety
 
 Z13-P45 | Keep household rainwater catchment strictly isolated from potable taps | CDC Collecting Rainwater and EPA Private Wells; new manuscript
@@ -653,7 +653,7 @@ failure: Calling a vacuum truck to pump a septic tank empty while the yard is st
 verify: Confirm zero traffic over wet drainfields, minimal indoor water draining during floods, and licensed inspection after ground dries. @U07
 stop: Sewage surfacing in the yard or backing into basement tubs requires halting plumbing use, isolating contaminated areas, and using temporary containment or relocating. @U07,U13
 diagram: Saturated drainfield cannot absorb flow | NEVER pump tank while ground is flooded | Wait for dry ground + licensed inspection
-visual: Failure-mode diagram showing buoyant tank float-out when pumped in saturated flood soil versus water conservation and post-recession licensed inspection. Conceptual, not to scale.
+visual: Two ground sections: an emptied tank lifting from its seat in saturated soil with broken inlet and outlet joints, beside a full, unopened tank with plugged basement drains, reduced water use and equipment kept off the wet drainfield. Conceptual, not to scale.
 reviewer: Onsite wastewater engineering and public health
 
 Z13-P49 | Set up hygienic two-bucket emergency sanitation when sewer service fails | CDC Emergency Sanitation; new manuscript
@@ -661,27 +661,27 @@ objective: Contain human waste safely without odor, flies, or fecal-oral disease
 applies: Households unable to flush toilets due to frozen sewer lines, flooded septic systems, or municipal sewer/water interruption.
 equipment: Two sturdy 5-gallon buckets with tight snap lids, heavy-duty 3-mil contractor trash bags, snap-on toilet seat lid, dry sawdust/peat/cat litter, and handwashing station.
 action: Separate liquids (urine) and solids into TWO distinct lined buckets whenever practical—separating urine sharply reduces odor, weight, and bag rupture; line the solid-waste bucket double-bagged with heavy contractor bags and sprinkle dry sawdust, peat moss, or kitty litter after each use to absorb moisture. @U13
-action: Snap tight lids closed immediately after every use, keep emergency waste buckets strictly OUTSIDE food preparation zones in a cool ventilated utility area, and wash hands thoroughly with soap and safe water (or ≥60% alcohol rub) immediately afterward. @U13,F01
+action: Snap tight lids closed immediately after every use, keep emergency waste buckets strictly OUTSIDE food preparation zones in a cool ventilated utility area, and wash hands thoroughly with soap and safe water immediately afterward; alcohol rub does not replace handwashing after toilet, diaper or vomit tasks. @U13,U26,F01
 action: NEVER pour untreated human waste into storm drains, creeks, lakes, or vegetable gardens; tie double-bagged waste securely in a lidded outdoor metal/plastic bin and follow exact county public-health disposal instructions once services resume. @U13,W01
 failure: Dumping unlined bucket waste near a backyard wellhead or vegetable garden, contaminating both groundwater and household produce. @U13,U05
 verify: Confirm double heavy-duty liners, tight lids, dedicated soap handwashing right beside the station, and zero contact with water/garden zones. @U13,F01
 stop: Overflowing uncontained waste, leaking bags, or household diarrheal illness during prolonged sewer loss triggers relocation to functioning sanitary facilities. @U13,U17
-diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Wash hands; follow local health disposal
-visual: Exploded four-part emergency sanitation station showing double-lined solid bucket with cover medium, separate liquid container, tight lid, and dedicated handwash basin. Conceptual, not to scale.
+diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Soap-and-water handwash; local disposal rules
+visual: Two-bucket sanitation station: a double-lined solid-waste bucket with cover material and a tight lid, a separate liquid bucket, and a soap-and-water handwashing station beside it, kept away from food, wells and gardens. Conceptual, not to scale.
 reviewer: Environmental health and sanitation specialist
 
 Z13-P50 | Maintain water-conserving hand hygiene and dish sanitation during service cuts | CDC Safe Water and USDA Food Safety; new manuscript
 objective: Break fecal-oral illness chains inside the home using minimal stored potable water during multi-day utility disruptions.
 applies: Homes operating on limited stored water reserves during municipal breaks, well outages, or storms.
-equipment: Spigot water jug or small pour pitcher, liquid soap, basin, ≥60% alcohol hand sanitizer, disposable paper plates/utensils, and clean towels.
-action: Build a simple gravity handwashing station (a small spigot jug or assisted pitcher pouring a thin stream over hands into a catch basin) so thorough 20-second soap-and-safe-water handwashing uses just ounces instead of gallons—especially before cooking and after toilet/waste tasks. @U13,F01,W29
-action: Use ≥60% alcohol-based hand sanitizer to conserve water when hands are NOT visibly soiled with dirt, grease, or fecal matter (visible grime still requires soap and safe water). @U13
+equipment: Spigot water jug or small pour pitcher, liquid soap, catch basin, clean towels, disposable paper plates/utensils, and ≥60% alcohol hand sanitizer as a fallback only.
+action: Build a simple gravity handwashing station (a small spigot jug or assisted pitcher pouring a thin stream over hands into a catch basin) so thorough 20-second soap-and-safe-water handwashing uses just ounces instead of gallons—especially before cooking and after toilet/waste tasks. @U13,U26,F01,W29
+action: Keep soap-and-water handwashing for every toilet, diaper, vomit or waste task and before handling food; hand sanitizer does not work well against norovirus and is not a substitute. Use ≥60% alcohol sanitizer only as an interim fallback when soap and water truly are unavailable and hands are not visibly dirty; saving water alone does not make it equivalent. @U26,U27,U13
 action: Switch to disposable paper plates, bowls, and utensils during strict water rationing to save potable water for drinking and hygiene; wash essential cooking pots with confirmed safe water and air-dry completely. @U13,W29
 failure: Skipping handwashing after using an emergency bucket toilet to "save drinking water," triggering a household norovirus outbreak during a blackout. @U13,F01
-verify: Confirm dedicated handwashing station stocked with soap and safe water, sanitizer for clean-looking hands, and catch basin emptied away from wells/food. @U13,W29
+verify: Confirm the handwashing station is stocked with soap and safe water beside the toilet and food areas, sanitizer is kept only as a fallback, and the catch basin is emptied away from wells/food. @U13,U26,W29
 stop: Shared vomiting or diarrhea inside a water-rationed home escalates hygiene isolation and potential relocation to full-service care. @U13,M17
-diagram: Thin-stream spigot jug + soap (20 s) | Alcohol rub ≥60% when not visibly soiled | Disposable plates save potable water
-visual: Four-step low-water household hygiene station mapping spigot pour, 20-second soap scrub, catch-basin disposal, and clean air-drying. Conceptual, not to scale.
+diagram: Thin-stream spigot jug + soap (20 s) | Toilet, diaper or vomit & before food: soap and water | Sanitizer only if soap & water unavailable
+visual: Low-water handwashing station: a spigot jug pours a thin stream over soapy hands into a catch basin; soap and water after toilet, diaper or vomit tasks and before food; sanitizer only as a fallback when soap and water are unavailable. Conceptual, not to scale.
 reviewer: Public health and environmental sanitation
 
 Z13-P51 | Prevent deadly toxic gases by never mixing household cleaning chemicals | CDC Emergency Sanitation and Poison Control; new manuscript
@@ -722,8 +722,8 @@ action: Choose a locally approved sanitation alternative if wastewater service i
 failure: Storing soapy laundry water in an unlabeled drinking jug for a week or pouring bucket water down a toilet connected to an unpowered septic lift pump. @U07,U13
 verify: Confirm sewer/gravity drain is open before flushing, greywater bucket is labeled NON-POTABLE, and water is used within 24 hours. @U07,U13
 stop: Slow draining, gurgling pipes, or foul odor from floor drains halts ALL toilet flushing immediately in favor of bucket containment. @U07,U13
-diagram: Verify sewer/gravity line open first | Light greywater -> pour briskly in bowl | Never store >24 h or use on edible crops
-visual: Decision tree screening sewer/septic function, light greywater purity, and 24-hour freshness before allowing emergency bowl flushing. Conceptual, not to scale.
+diagram: Verify sewer/gravity line open first | Labelled non-potable water into the bowl | Stop at gurgling, slow drains or odor
+visual: Bathroom section: a labelled non-potable bucket poured into the bowl only when the drain works, drinking water kept apart, and the warning signs that stop all flushing. Conceptual, not to scale.
 reviewer: Environmental health and onsite wastewater safety
 
 Z13-P54 | Isolate basement sewage backups and floodwater hazards before any cleanup | FEMA Ready.gov Floods and EPA Septic; new manuscript
@@ -758,28 +758,28 @@ Z13-P56 | Test smoke and carbon monoxide alarms monthly and replace expired sens
 objective: Maintain reliable early life-safety warning across every sleeping area and floor before winter heating or outage stressors begin.
 applies: Every house, apartment, duplex, and cabin year-round.
 equipment: UL-listed smoke and CO alarms (interconnected or battery-backed), fresh backup batteries, and manufacture-date inspection calendar.
-action: Install working smoke alarms inside every bedroom, outside each sleeping area, and on every floor (including basements), AND working carbon monoxide alarms on every level and outside all sleeping areas strictly per manufacturer placement instructions. @C09,U12,U04
+action: Install working smoke alarms inside every bedroom, outside each sleeping area, and on every floor (including basements), AND working carbon monoxide alarms on every level and outside all sleeping areas strictly per manufacturer placement instructions. @C22,C09,U12,U04
 action: Press the TEST button on every smoke and CO alarm monthly, replace removable backup batteries at least annually (or use sealed 10-year lithium-battery units), and vacuum dust gently from sensor vents. @U12,U04
 action: Check the manufacture/expiration date printed on the back of EVERY unit—CO sensors typically expire after 5 to 7 years (up to 10 on newer sealed units) and smoke alarms expire after 10 years, losing sensing accuracy even if the test beep still chirps. @U12,C09
 failure: Assuming a 14-year-old yellowed CO alarm still detects lethal gas just because its test button makes noise. @U12,C09
 verify: Confirm alarms present on every floor and outside bedrooms, monthly test logged, and every unit is within its manufacturer lifespan. @U12,U04
 stop: Any steady CO alarm (exit to fresh air + 911 immediately), smoke alarm with fire, or end-of-life chirp requires immediate safety action or same-day unit replacement. @C07,U12
-diagram: Smoke + CO alarms on every floor/sleep | Test monthly; check printed expiry date | Replace expired sensors (5–10 yr limits)
-visual: Cutaway multi-level home showing required smoke and CO alarm placements (basement, main floor, outside bedrooms) and sensor expiration rules. Conceptual, not to scale.
+diagram: Smoke and CO alarms on every level | CO outside sleeping areas, not in kitchens | Replace at maker’s age; smoke at 10 yr
+visual: Three-level cutaway with smoke and CO alarms on every level and a CO alarm outside the bedrooms, none in the kitchen or above the furnace, and the replacement rules. Conceptual, not to scale.
 reviewer: Fire prevention and carbon monoxide safety
 
 Z13-P57 | Match ABC fire extinguishers to incipient fires and evacuate without delay | FEMA Ready.gov Home Fires; new manuscript
 objective: Use portable residential extinguishers safely ONLY on tiny contained fires while prioritizing immediate human escape above property.
 applies: Kitchens, garages, wood-stove areas, and generator fuel-storage perimeters.
 equipment: UL-listed multi-purpose Class ABC dry-chemical fire extinguisher (checked pressure gauge in green) and clear two-exit room escape routes.
-action: Keep a UL-listed Class ABC extinguisher mounted near the kitchen exit and heating/utility zones (checking monthly that the gauge needle sits cleanly in the green zone and the pin/nozzle are intact)—NEVER throw water onto a burning kitchen grease pan or energized electrical fire (water explodes burning grease upward!). @U04
-action: Evacuate everyone FIRST and call 911; consider using an extinguisher ONLY if the fire is tiny and confined (wastebasket size), your back is squarely toward an unobstructed exit door, smoke is NOT filling the room, and you know PASS (Pull pin, Aim at base, Squeeze handle, Sweep side to side). @U04
-action: If the fire does NOT go out immediately with one extinguisher, grows past waist height, or emits thick dark smoke, DROP the extinguisher, close doors behind you if safe to slow spread, get outside, and stay outside. @U04
+action: Keep a UL-listed Class ABC extinguisher mounted near the kitchen exit and heating/utility zones (checking monthly that the gauge needle sits cleanly in the green zone and the pin/nozzle are intact)—NEVER throw water onto a burning kitchen grease pan or energized electrical fire (water explodes burning grease upward!). @U23,U04
+action: Evacuate everyone FIRST and call 911; consider using an extinguisher ONLY if the fire is tiny and confined (wastebasket size), your back is squarely toward an unobstructed exit door, smoke is NOT filling the room, and you know PASS (Pull pin, Aim at base, Squeeze handle, Sweep side to side). @U23,U04
+action: If the fire does NOT go out immediately with one extinguisher, grows past waist height, or emits thick dark smoke, DROP the extinguisher, close doors behind you if safe to slow spread, get outside, and stay outside. @U23,U04
 failure: Throwing a pitcher of tap water onto a flaming skillet of cooking oil, or staying inside a smoke-filled hallway trying to fight a spreading room fire. @U04
-verify: Confirm ABC gauge sits in green, unobstructed exit behind user before any attempt, and household practices two-way escape routes. @U04
-stop: Smoke banking down from the ceiling, spreading flames, blocked exit, or empty extinguisher mandates instant evacuation and 911 from outside. @U04
-diagram: Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | NEVER throw water on grease or live wires
-visual: Decision tree screening exit-at-back, room smoke, tiny fire size, and ABC gauge before PASS attempt versus immediate escape. Conceptual, not to scale.
+verify: Confirm ABC gauge sits in green, unobstructed exit behind user before any attempt, and household practices two-way escape routes. @U23,U04
+stop: Smoke banking down from the ceiling, spreading flames, blocked exit, or empty extinguisher mandates instant evacuation and 911 from outside. @U23,U04
+diagram: Evacuate & call 911 FIRST; back to exit | Tiny fire only: Pull, Aim base, Squeeze, Sweep | Smoke, spread or no way out: leave
+visual: Room elevation of a user with a clear exit behind them spraying the base of a fire confined to one pan, the four PASS steps, and the smoke, spread and escape conditions that mean leaving. Conceptual, not to scale.
 reviewer: Fire service and residential fire safety
 
 Z13-P58 | Operate layered home outage communications independent of grid Wi-Fi | NOAA Weather Radio and FEMA Ready.gov Alerts; new manuscript
@@ -814,14 +814,14 @@ Z13-P60 | Store gasoline, propane cylinders, and kerosene strictly outside livin
 objective: Prevent catastrophic vapor explosions and toxic fumes by keeping backup generator and heater fuels isolated outside homes and basements.
 applies: Households storing spare gasoline, 20-lb BBQ propane cylinders, 1-lb camp cylinders, or 1-K kerosene for emergencies.
 equipment: UL/OSHA-listed color-coded safety fuel cans (red=gasoline, blue=kerosene, yellow=diesel), ventilated locked outdoor shed/cabinet, and fire-code volume limits.
-action: Store gasoline, kerosene, and ALL pressurized propane cylinders (both 20-lb tanks and 1-lb green cylinders) STRICTLY OUTSIDE living spaces—NEVER inside basements, bedrooms, closets, or near water-heater/furnace pilot flames (heavier-than-air fuel vapors creep along floors and explode upon reaching ignition sparks). @U04,U03,C15
-action: Use ONLY approved, tightly sealed, properly color-coded safety fuel containers within local residential fire-code volume limits, kept upright in a cool shaded ventilated outdoor shed or exterior storage cabinet out of children's reach. @U04,C15
+action: Store gasoline, kerosene, and ALL pressurized propane cylinders (both 20-lb tanks and 1-lb green cylinders) STRICTLY OUTSIDE living spaces—NEVER inside basements, bedrooms, closets, or near water-heater/furnace pilot flames (heavier-than-air fuel vapors creep along floors and explode upon reaching ignition sparks). @U24,U04,U03,C15
+action: Use ONLY approved, tightly sealed, properly color-coded safety fuel containers within local residential fire-code volume limits, kept upright in a cool shaded ventilated outdoor shed or exterior storage cabinet out of children's reach. @U24,U04,C15
 action: Date fuel cans clearly, add fuel stabilizer per label if storing gasoline seasonally, rotate old fuel into vehicles every 6 to 12 months, and discard rusted, dented, or leaking propane cylinders safely via certified exchange/hazmat facilities. @U04,T12
 failure: Storing three five-gallon plastic cans of gasoline and two spare 20-lb propane tanks in a basement mechanical room next to a gas furnace. @U04,U03
 verify: Confirm zero fuel cans or propane cylinders inside living spaces/basements, upright outdoor ventilated storage, and color-coded dated cans. @U04
 stop: For a strong fuel odor, active leak or hissing cylinder, leave the area. Avoid switches, engines and flames. Call the fire service or supplier from a safe location. Do not move a leaking cylinder yourself. @U11,U04
-diagram: ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Color-coded approved cans; rotate 6–12 mo
-visual: System boundary diagram separating ventilated exterior fuel storage sheds from indoor living spaces and basement pilot-flame ignition zones. Conceptual, not to scale.
+diagram: ALL gas, kerosene & propane OUTDOORS | Heavy vapors creep to pilot flames/sparks | Sealed approved cans in a vented shed
+visual: Basement section with gasoline vapour creeping across the floor to a water-heater pilot flame, beside sealed approved cans and an upright cylinder in a ventilated outdoor shed away from the home. Conceptual, not to scale.
 reviewer: Fire prevention and hazardous-materials safety
 
 Z13-P61 | Complete an autumn pre-winter residential utility readiness checklist | FEMA Winter Weather and NFPA Heating Safety; new manuscript

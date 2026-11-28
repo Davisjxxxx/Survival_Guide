@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Keep, refreeze or discard: each food goes to its own chart row</title>
+<desc id="desc">Two separate paths. Left, refrigerator food: a thermometer reading and the hours above 40 degrees F decide which column applies; after 40 F or above for more than 2 hours, or 4 hours without power, the chart row for each food decides: meat, poultry, seafood, milk, eggs and soft cheese are discarded, while hard cheese, butter and uncut fresh fruit are kept. Right, freezer food: the chart has a column for food that still has ice crystals and one for food at 40 F or above for more than 2 hours; meat, poultry and seafood may be refrozen while ice crystals remain, ice cream and frozen yogurt are discarded in both columns, and hard cheeses may be refrozen in both. Sample rows only; the full printed chart governs. Food is never tasted. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z14-P41 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z14-p41-artwork">
+<rect x="24" y="46" width="404" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="40" y="72" class="head">REFRIGERATOR FOOD</text>
+<rect x="442" y="46" width="434" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="458" y="72" class="head">FREEZER FOOD</text>
+<rect x="44" y="86" width="48" height="24" rx="4" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><text x="68" y="103" class="tiny" text-anchor="middle" font-size="12">46 °F</text>
+<text x="104" y="98" class="tiny">40 °F or above for more than 2 h,</text>
+<text x="104" y="119" class="tiny">or 4 h without power: then</text>
+<text x="44" y="152" class="tiny mute">chart row</text>
+<text x="286" y="152" class="tiny mute">result</text>
+<path d="M40 164H412" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="44" y="186" class="tiny">meat, poultry, seafood</text>
+<g data-row="meat, poultry, seafood" data-col="over 40 F for 2 h" data-result="discard"><circle cx="292" cy="181" r="9" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M287.9 176.9L296.1 185.1M296.1 176.9L287.9 185.1" stroke="#8b3825" stroke-width="3"/><text x="306" y="186" class="tiny">discard</text></g>
+<path d="M40 196H412" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="44" y="218" class="tiny">milk, eggs, soft cheese</text>
+<g data-row="milk, eggs, soft cheese" data-col="over 40 F for 2 h" data-result="discard"><circle cx="292" cy="213" r="9" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M287.9 208.9L296.1 217.1M296.1 208.9L287.9 217.1" stroke="#8b3825" stroke-width="3"/><text x="306" y="218" class="tiny">discard</text></g>
+<path d="M40 228H412" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="44" y="250" class="tiny">hard cheese, butter</text>
+<g data-row="hard cheese, butter" data-col="over 40 F for 2 h" data-result="keep"><circle cx="292" cy="245" r="9" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M287.5 245L291.1 248.8L296.7 241.4" fill="none" stroke="#205b68" stroke-width="3"/><text x="306" y="250" class="tiny">keep</text></g>
+<path d="M40 260H412" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="44" y="282" class="tiny">uncut fresh fruit</text>
+<g data-row="uncut fresh fruit" data-col="over 40 F for 2 h" data-result="keep"><circle cx="292" cy="277" r="9" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M287.5 277L291.1 280.8L296.7 273.4" fill="none" stroke="#205b68" stroke-width="3"/><text x="306" y="282" class="tiny">keep</text></g>
+<text x="44" y="322" class="tiny warn">history unknown: discard</text>
+<rect x="462" y="84" width="56" height="40" rx="5" fill="#dcecf3" stroke="#183a30" stroke-width="2"/>
+<path d="M470 96h8M474 92v8M471 93l6 6M477 93l-6 6" stroke="#3d7186" stroke-width="1.3"/>
+<path d="M486 110h8M490 106v8M487 107l6 6M493 107l-6 6" stroke="#3d7186" stroke-width="1.3"/>
+<path d="M502 94h8M506 90v8M503 91l6 6M509 91l-6 6" stroke="#3d7186" stroke-width="1.3"/>
+<path d="M496 116h8M500 112v8M497 113l6 6M503 113l-6 6" stroke="#3d7186" stroke-width="1.3"/>
+<text x="530" y="92" class="tiny">the food row decides; quality</text>
+<text x="530" y="113" class="tiny">may suffer after refreezing</text>
+<text x="462" y="152" class="tiny mute">chart row</text>
+<text x="684" y="138" class="tiny mute">ice crystals</text>
+<text x="684" y="159" class="tiny mute">remain</text>
+<text x="782" y="138" class="tiny mute">40 °F+ for</text>
+<text x="782" y="159" class="tiny mute">over 2 h</text>
+<path d="M456 170H870" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="462" y="196" class="tiny">meat, poultry, seafood</text>
+<g data-row="meat, poultry, seafood" data-col="ice crystals" data-result="refreeze"><circle cx="692" cy="191" r="9" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M687.5 191L691.1 194.8L696.7 187.4" fill="none" stroke="#205b68" stroke-width="3"/><text x="706" y="196" class="tiny">refreeze</text></g>
+<g data-row="meat, poultry, seafood" data-col="over 40 F for 2 h" data-result="discard"><circle cx="790" cy="191" r="9" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M786 186.9L794 195.1M794 186.9L786 195.1" stroke="#8b3825" stroke-width="3"/><text x="804" y="196" class="tiny">discard</text></g>
+<rect x="456" y="210" width="414" height="38" rx="4" fill="#fbeee7"/>
+<path d="M456 210H870" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="462" y="236" class="tiny">ice cream, frozen yogurt</text>
+<g data-row="ice cream, frozen yogurt" data-col="ice crystals" data-result="discard"><circle cx="692" cy="231" r="9" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M688 226.9L696 235.1M696 226.9L688 235.1" stroke="#8b3825" stroke-width="3"/><text x="706" y="236" class="tiny">discard</text></g>
+<g data-row="ice cream, frozen yogurt" data-col="over 40 F for 2 h" data-result="discard"><circle cx="790" cy="231" r="9" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M786 226.9L794 235.1M794 226.9L786 235.1" stroke="#8b3825" stroke-width="3"/><text x="804" y="236" class="tiny">discard</text></g>
+<path d="M456 250H870" stroke="#c9d1c8" stroke-width="1.2"/>
+<text x="462" y="276" class="tiny">hard cheeses</text>
+<g data-row="hard cheeses" data-col="ice crystals" data-result="refreeze"><circle cx="692" cy="271" r="9" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M687.5 271L691.1 274.8L696.7 267.4" fill="none" stroke="#205b68" stroke-width="3"/><text x="706" y="276" class="tiny">refreeze</text></g>
+<g data-row="hard cheeses" data-col="over 40 F for 2 h" data-result="refreeze"><circle cx="790" cy="271" r="9" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M785.5 271L789.1 274.8L794.7 267.4" fill="none" stroke="#205b68" stroke-width="3"/><text x="804" y="276" class="tiny">refreeze</text></g>
+<text x="462" y="322" class="tiny">sample rows: use the full printed chart</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Never taste food to decide. If the chart row or temperature history is unclear, discard it.</text>
+</g>
+</svg>

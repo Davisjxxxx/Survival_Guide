@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Test a private well every year; boiling concentrates nitrate</title>
+<desc id="desc">Left: every year a laboratory certified for drinking-water testing checks the well for total coliform bacteria, nitrate, total dissolved solids and pH. Centre: test again after flooding, well repair or a change in taste, odour or colour, and before bringing a new baby home; test more often where small children, elderly adults, or pregnant or nursing people live. Right: boiling evaporates water but leaves the nitrate, so the same nitrate ends up in less water; above 10 mg/L nitrate use bottled water, especially for formula for babies under six months. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P43 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p43-artwork">
+<rect x="24" y="46" width="260" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">✓ EVERY YEAR</text>
+<rect x="296" y="46" width="270" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="312" y="72" class="head">TEST AGAIN AFTER</text>
+<rect x="578" y="46" width="298" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="594" y="72" class="head warn">✕ BOILING CONCENTRATES</text>
+<rect x="54" y="100" width="40" height="64" rx="6" fill="#ffffff" stroke="#183a30" stroke-width="2"/><rect x="58" y="92" width="32" height="10" rx="2" fill="#5f8fa3"/><path d="M60 124h28M60 136h20" stroke="#9aa59c" stroke-width="2"/>
+<text x="106" y="120" class="tiny">certified</text>
+<text x="106" y="141" class="tiny">drinking-water lab</text>
+<text x="40" y="210" class="tiny">total coliform</text>
+<text x="40" y="231" class="tiny">nitrate</text>
+<text x="40" y="252" class="tiny">dissolved solids</text>
+<text x="40" y="273" class="tiny">pH</text>
+<text x="312" y="100" class="tiny">flooding</text>
+<text x="312" y="121" class="tiny">well repair</text>
+<text x="312" y="142" class="tiny">taste, odour or colour</text>
+<text x="312" y="163" class="tiny">a new baby coming home</text>
+<text x="312" y="226" class="tiny">test more often with</text>
+<text x="312" y="247" class="tiny">small children, elderly,</text>
+<text x="312" y="268" class="tiny">pregnant or nursing</text>
+<rect x="596" y="116" width="120" height="90" rx="8" fill="#e8eef0" stroke="#183a30" stroke-width="2"/><rect id="before-water" x="599" y="134.0" width="114" height="69.0" fill="#9cc3cf"/><circle class="before-n" cx="608.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="624.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="640.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="656.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="672.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="688.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="704.0" cy="142.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="608.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="624.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="640.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="656.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="672.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="688.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="before-n" cx="704.0" cy="198.0" r="3.2" fill="#8b3825"/><rect x="740" y="116" width="120" height="90" rx="8" fill="#e8eef0" stroke="#183a30" stroke-width="2"/><rect id="after-water" x="743" y="170.0" width="114" height="33.0" fill="#9cc3cf"/><circle class="after-n" cx="752.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="768.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="784.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="800.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="816.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="832.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="848.0" cy="178.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="752.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="768.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="784.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="800.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="816.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="832.0" cy="198.0" r="3.2" fill="#8b3825"/><circle class="after-n" cx="848.0" cy="198.0" r="3.2" fill="#8b3825"/>
+<path d="M720 160H736" fill="none" stroke="#183a30" stroke-width="2.5" marker-end="url(#m-ink)"/>
+<text x="596" y="98" class="tiny">before</text>
+<text x="740" y="98" class="tiny">after boiling</text>
+<text x="594" y="238" class="tiny">same nitrate, less water;</text>
+<text x="594" y="259" class="tiny">above 10 mg/L use bottled</text>
+<text x="594" y="280" class="tiny">water, above all for formula</text>
+<text x="594" y="301" class="tiny">for babies under 6 months</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Coliform, or nitrate, arsenic or lead above the limit: switch to safe water; call health officials.</text>
+</g>
+</svg>

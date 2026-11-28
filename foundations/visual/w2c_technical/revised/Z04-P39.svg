@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">One complete official bleach table for one bottle</title>
+<desc id="desc">Left: a bottle of regular, unscented household bleach whose label gives its sodium hypochlorite strength, here 8.25 percent; the bleach must be fresh and free of scent or added cleaners. Centre: two current official tables give different drop counts for one gallon of that bottle: the CDC table for 5 to 9 percent bleach says 8 drops, the EPA column for 8.25 percent says 6 drops. One complete table is followed; tables are never mixed or averaged. Right: drops measured into a one-gallon jug, doubled only when the chosen table says so for cloudy, coloured or very cold water, then at least 30 minutes of waiting before drinking. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P39 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z04-p39-artwork">
+<rect x="24" y="46" width="270" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="40" y="72" class="head">CHECK THE BOTTLE</text>
+<rect x="308" y="46" width="314" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="324" y="72" class="head">TWO TABLES, ONE BOTTLE</text>
+<rect x="636" y="46" width="240" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="652" y="72" class="head ok">✓ DOSE AND WAIT</text>
+<path d="M74 118h56v-14h16v14h12q14 0 14 14v136q0 12-12 12h-86q-12 0-12-12V130q0-12 12-12z" fill="#f4f6f7" stroke="#183a30" stroke-width="2.2"/><rect x="76" y="160" width="86" height="64" rx="4" fill="#ffffff" stroke="#9aa59c" stroke-width="1.4"/>
+<text x="84" y="182" class="tiny">regular,</text>
+<text x="84" y="203" class="tiny">unscented</text>
+<text x="40" y="304" class="tiny">label: sodium</text>
+<text x="40" y="325" class="tiny">hypochlorite 8.25%</text>
+<path class="lead" d="M104 286L118 226"/>
+<rect x="326" y="92" width="278" height="76" rx="6" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><rect x="326" y="92" width="278" height="26" rx="6" fill="#e7ece9"/>
+<text x="338" y="111" class="tiny">CDC table, 5% to 9%</text>
+<text x="338" y="150" class="small" data-drops="8">1 gallon: 8 drops</text>
+<rect x="326" y="184" width="278" height="76" rx="6" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><rect x="326" y="184" width="278" height="26" rx="6" fill="#e7ece9"/>
+<text x="338" y="203" class="tiny">EPA column, 8.25%</text>
+<text x="338" y="242" class="small" data-drops="6">1 gallon: 6 drops</text>
+<text x="326" y="290" class="tiny warn">follow ONE complete table;</text>
+<text x="326" y="311" class="tiny warn">never mix or average them</text>
+<path d="M664 246V176.9Q664 165.4 681.9 161.5V150H700.9V161.5Q723.5 165.4 723.5 176.9V246Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/><text x="693.8" y="219.1" class="tiny" text-anchor="middle" font-size="11">1 gal</text>
+<path d="M700 96v26" stroke="#183a30" stroke-width="3"/><rect x="694" y="80" width="12" height="18" rx="5" fill="#c4472f"/><path d="M700 128q-4 6 0 9q4-3 0-9zM700 140q-4 6 0 9q4-3 0-9z" fill="#5f8fa3"/>
+<circle cx="808" cy="182" r="22" fill="#ffffff" stroke="#183a30" stroke-width="2"/><path d="M808 182v-15.4M808 182l11.0 5.5" stroke="#183a30" stroke-width="2"/><rect x="804" y="154" width="8" height="5" fill="#183a30"/>
+<text x="780" y="230" class="small">30 min</text>
+<text x="652" y="272" class="tiny">cloudy, coloured or</text>
+<text x="652" y="293" class="tiny">very cold: double only</text>
+<text x="652" y="314" class="tiny">as your table says</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Strength or steps uncertain, or chemicals, fuel or algal toxins suspected: use another supply.</text>
+</g>
+</svg>

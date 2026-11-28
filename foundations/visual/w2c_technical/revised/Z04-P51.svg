@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Safe water for each household task, with infant formula kept separate</title>
+<desc id="desc">Left: water that is bottled or boiled and cooled feeds drinking, tooth brushing, washing produce, making ice and washing dishes; wounds are rinsed only with clean potable water or sterile saline. Upper right: infant formula follows its own rules. Ready-to-feed formula is safest, especially for infants under 2 months, born prematurely or with a weakened immune system. Powdered formula is not sterile, so safe water alone does not make it safe; follow current CDC directions for the infant. Under a chemical advisory, boiling does not help: use bottled water or ready-to-feed. Lower right: a Do Not Use notice means no tap contact at all. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P51 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z04-p51-artwork">
+<rect x="24" y="46" width="410" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">✓ POTABLE WATER ONLY</text>
+<rect x="448" y="46" width="428" height="200" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="464" y="72" class="head">INFANT FORMULA: ITS OWN RULES</text>
+<rect x="448" y="254" width="428" height="82" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="464" y="280" class="head warn">✕ DO NOT USE NOTICE</text>
+<path d="M44 202V135.8Q44 124.7 61.1 121V110H79.4V121Q101 124.7 101 135.8V202Z" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/><text x="72.5" y="176.2" class="tiny" text-anchor="middle" font-size="11">SAFE</text>
+<text x="36" y="226" class="tiny">bottled, or</text>
+<text x="36" y="247" class="tiny">boiled and</text>
+<text x="36" y="268" class="tiny">cooled</text>
+<path d="M104 160H140" stroke="#205b68" stroke-width="4"/><path d="M140 112V268" stroke="#205b68" stroke-width="4"/>
+<path d="M168 88h30l-4 34h-22z" fill="#dcecf3" stroke="#183a30" stroke-width="2"/>
+<text x="168" y="146" class="tiny">drinking</text>
+<rect x="254" y="114" width="44" height="7" rx="3" fill="#5f8fa3" stroke="#183a30" stroke-width="1.4"/><rect x="284" y="104" width="2.6" height="10" fill="#ffffff" stroke="#4c5d55" stroke-width=".8"/><rect x="288" y="104" width="2.6" height="10" fill="#ffffff" stroke="#4c5d55" stroke-width=".8"/><rect x="292" y="104" width="2.6" height="10" fill="#ffffff" stroke="#4c5d55" stroke-width=".8"/><rect x="296" y="104" width="2.6" height="10" fill="#ffffff" stroke="#4c5d55" stroke-width=".8"/>
+<text x="254" y="146" class="tiny">teeth</text>
+<circle cx="360" cy="110" r="14" fill="#7fa65a" stroke="#183a30" stroke-width="1.8"/><path d="M360 96q4-8 10-8" fill="none" stroke="#5b4630" stroke-width="2"/>
+<text x="344" y="146" class="tiny">produce</text>
+<rect x="168" y="192" width="46" height="22" rx="3" fill="#eef5f8" stroke="#183a30" stroke-width="1.8"/><rect x="172" y="196" width="10" height="14" rx="2" fill="#cfe6ef"/><rect x="186" y="196" width="10" height="14" rx="2" fill="#cfe6ef"/><rect x="200" y="196" width="10" height="14" rx="2" fill="#cfe6ef"/>
+<text x="168" y="238" class="tiny">ice</text>
+<ellipse cx="276" cy="206" rx="22" ry="8" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><ellipse cx="276" cy="205" rx="12" ry="4" fill="none" stroke="#9aa59c" stroke-width="1.4"/>
+<text x="254" y="238" class="tiny">dishes</text>
+<path d="M140 112H158" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<path d="M140 204H158" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<rect x="168" y="260" width="44" height="16" rx="8" fill="#e7c9a9" stroke="#183a30" stroke-width="1.6"/><rect x="183" y="262" width="14" height="12" fill="#f6efe2"/>
+<path d="M140 268H160" fill="none" stroke="#205b68" stroke-width="3" marker-end="url(#m-flow)"/>
+<text x="222" y="264" class="tiny">wounds: clean potable</text>
+<text x="222" y="285" class="tiny">water or sterile saline</text>
+<text x="40" y="306" class="tiny warn">never stream, flood or advisory tap water</text>
+<text x="40" y="327" class="tiny warn">for any of these tasks</text>
+<rect x="468" y="84" width="36" height="58" rx="4" fill="#f4f1e6" stroke="#183a30" stroke-width="2"/><path d="M468 96l18-12 18 12" fill="#f4f1e6" stroke="#183a30" stroke-width="2"/><rect x="474" y="108" width="24" height="16" fill="#9cc3cf"/>
+<circle cx="504" cy="90" r="10" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M499 90L503 94.2L509.2 86" fill="none" stroke="#205b68" stroke-width="3"/>
+<text x="522" y="104" class="tiny">ready-to-feed: safest, especially</text>
+<text x="522" y="125" class="tiny">under 2 months, premature or weak immunity</text>
+<rect x="466" y="158" width="40" height="38" rx="5" fill="#d9c7a3" stroke="#183a30" stroke-width="2"/><rect x="466" y="152" width="40" height="9" rx="3" fill="#8a7350" stroke="#183a30" stroke-width="1.6"/>
+<text x="522" y="166" class="tiny">powder is not sterile: safe water alone is</text>
+<text x="522" y="187" class="tiny">not enough; follow CDC steps (Z14-P74)</text>
+<path d="M486 210l14 24h-28z" fill="#f2c94c" stroke="#183a30" stroke-width="1.6"/><path d="M486 218v8" stroke="#183a30" stroke-width="2"/>
+<text x="522" y="218" class="tiny warn">chemical advisory: boiling does not</text>
+<text x="522" y="239" class="tiny warn">help; use bottled or ready-to-feed</text>
+<path d="M470 300h22v-10h10v22h-10v-4h-22z" fill="#c9cdd0" stroke="#183a30" stroke-width="1.8"/><path d="M497 312v8" stroke="#3d7186" stroke-width="3"/>
+<circle cx="488" cy="316" r="10" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M483.5 311.5L492.5 320.5M492.5 311.5L483.5 320.5" stroke="#8b3825" stroke-width="3"/>
+<text x="522" y="306" class="tiny">no tap contact: no drinking, bathing,</text>
+<text x="522" y="327" class="tiny">dishwashing or skin contact</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">No safe water for formula or wounds: use ready-to-feed and get public-health or medical help.</text>
+</g>
+</svg>

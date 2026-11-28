@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Absolute versus nominal filter pores for parasite cysts</title>
+<desc id="desc">Membrane cross-sections with water flowing left to right. Left: a filter rated absolute 1 micron or smaller has no hole larger than its rating, so parasite cysts stay on the raw side; tiny viruses still pass, so disinfection is needed when viruses are a risk. The label should state absolute 1 micron or smaller, or NSF/ANSI 53 or 58 certification for cyst reduction or removal. Right: a nominal 1-micron filter rates the average hole; some holes are larger and let cysts through. Below: routine chlorine or iodine alone does not reliably kill Cryptosporidium. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P35 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z04-p35-artwork">
+<rect x="24" y="46" width="420" height="234" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">✓ ABSOLUTE 1 µm OR SMALLER</text>
+<rect x="456" y="46" width="420" height="234" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="472" y="72" class="head warn">✕ NOMINAL 1 µm (AN AVERAGE)</text>
+<rect x="42" y="84" width="182" height="140" fill="#9cc3cf" fill-opacity=".35"/><rect x="238" y="84" width="186" height="140" fill="#9cc3cf" fill-opacity=".18"/>
+<rect x="224" y="84" width="14" height="140" fill="#c9cdd0" stroke="#183a30" stroke-width="1.6"/><rect x="223" y="94.5" width="16" height="3" fill="#ffffff"/><rect x="223" y="112.5" width="16" height="3" fill="#ffffff"/><rect x="223" y="130.5" width="16" height="3" fill="#ffffff"/><rect x="223" y="148.5" width="16" height="3" fill="#ffffff"/><rect x="223" y="166.5" width="16" height="3" fill="#ffffff"/><rect x="223" y="184.5" width="16" height="3" fill="#ffffff"/><rect x="223" y="202.5" width="16" height="3" fill="#ffffff"/>
+<circle cx="84" cy="110" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="144" cy="150" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="104" cy="190" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="184" cy="120" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="74" cy="140" r="2" fill="#2f3b40"/>
+<circle cx="164" cy="100" r="2" fill="#2f3b40"/>
+<circle cx="274" cy="120" r="2" fill="#2f3b40"/>
+<circle cx="324" cy="180" r="2" fill="#2f3b40"/>
+<circle cx="384" cy="140" r="2" fill="#2f3b40"/>
+<path d="M54 216H404" fill="none" stroke="#205b68" stroke-width="2.5" marker-end="url(#m-flow)"/>
+<rect x="474" y="84" width="182" height="140" fill="#9cc3cf" fill-opacity=".35"/><rect x="670" y="84" width="186" height="140" fill="#9cc3cf" fill-opacity=".18"/>
+<rect x="656" y="84" width="14" height="140" fill="#c9cdd0" stroke="#183a30" stroke-width="1.6"/><rect x="655" y="94.5" width="16" height="3" fill="#ffffff"/><rect x="655" y="112.5" width="16" height="3" fill="#ffffff"/><rect x="655" y="126.0" width="16" height="12" fill="#ffffff"/><rect x="655" y="148.5" width="16" height="3" fill="#ffffff"/><rect x="655" y="166.5" width="16" height="3" fill="#ffffff"/><rect x="655" y="180.0" width="16" height="12" fill="#ffffff"/><rect x="655" y="202.5" width="16" height="3" fill="#ffffff"/>
+<circle cx="516" cy="110" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="576" cy="150" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="536" cy="190" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="616" cy="120" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<circle cx="506" cy="140" r="2" fill="#2f3b40"/>
+<circle cx="596" cy="100" r="2" fill="#2f3b40"/>
+<circle cx="706" cy="120" r="2" fill="#2f3b40"/>
+<circle cx="756" cy="180" r="2" fill="#2f3b40"/>
+<circle cx="816" cy="140" r="2" fill="#2f3b40"/>
+<path d="M486 216H836" fill="none" stroke="#205b68" stroke-width="2.5" marker-end="url(#m-flow)"/>
+<circle cx="726" cy="136" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/><circle cx="776" cy="190" r="7" fill="#b5654a" stroke="#6e3b2a" stroke-width="1.4"/>
+<path d="M676 134L716 136" fill="none" stroke="#8b3825" stroke-width="2.5" marker-end="url(#m-reverse)"/>
+<text x="40" y="248" class="tiny">cysts stay on the raw side;</text>
+<text x="40" y="269" class="tiny">viruses pass: disinfect too</text>
+<text x="472" y="248" class="tiny">larger holes let some cysts through;</text>
+<text x="472" y="269" class="tiny">viruses pass as well</text>
+<rect x="24" y="290" width="852" height="46" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="319" class="tiny warn">✕ routine chlorine or iodine alone does not reliably kill Cryptosporidium</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">No cyst claim on the label, or seal or freeze damage: boil instead or use a known safe supply.</text>
+</g>
+</svg>

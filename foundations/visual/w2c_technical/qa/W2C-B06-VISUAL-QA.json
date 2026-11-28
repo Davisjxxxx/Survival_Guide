@@ -1,0 +1,99 @@
+{
+  "batch": "W2C-B06",
+  "pages": [
+    "Z14-P37",
+    "Z14-P39",
+    "Z14-P40",
+    "Z14-P41",
+    "Z14-P65"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z14-P37": [],
+    "Z14-P39": [],
+    "Z14-P40": [],
+    "Z14-P41": [],
+    "Z14-P65": []
+  },
+  "axe_incomplete": {
+    "Z14-P37": [],
+    "Z14-P39": [],
+    "Z14-P40": [],
+    "Z14-P41": [],
+    "Z14-P65": []
+  },
+  "figure_alt": {
+    "Z14-P37": "Left: a roast cut in section with a thermometer probe in its thickest part. Centre: a scaled thermometer column from 130 to 175 degrees F with marks at 145 F for whole cuts of beef, pork, veal and lamb (with a 3-minute rest) and fish, 160 F for ground meats and egg dishes, and 165 F for poultry, casseroles and leftovers. Meat colour and juices are not a test. Conceptual, not to scale apart from the temperature column.",
+    "Z14-P39": "Cutaway of a refrigerator with the freezer above. An appliance thermometer hangs in each compartment: the freezer reads 0 degrees F or below and the refrigerator 40 degrees F or below. The control knob is a setting, not a measurement. Frozen water containers help keep food cold. Above 40 F the food enters the danger zone; check the reading when power returns and sort food against the official charts. Conceptual, not to scale.",
+    "Z14-P40": "Bars on one time axis show how long food stays safe with the doors kept closed: a refrigerator about 4 hours, a half-full freezer about 24 hours and a full freezer about 48 hours. Below, a cooler packed with ice keeps food at 40 degrees F or below when the outage runs longer, with its temperature checked; dry ice is handled only with insulated gloves and never used in a small, poorly ventilated space. Conceptual, not to scale apart from the time bars.",
+    "Z14-P41": "Two separate paths. Left, refrigerator food: a thermometer reading and the hours above 40 degrees F decide which column applies; after 40 F or above for more than 2 hours, or 4 hours without power, the chart row for each food decides: meat, poultry, seafood, milk, eggs and soft cheese are discarded, while hard cheese, butter and uncut fresh fruit are kept. Right, freezer food: the chart has a column for food that still has ice crystals and one for food at 40 F or above for more than 2 hours; meat, poultry and seafood may be refrozen while ice crystals remain, ice cream and frozen yogurt are discarded in both columns, and hard cheeses may be refrozen in both. Sample rows only; the full printed chart governs. Food is never tasted. Conceptual, not to scale.",
+    "Z14-P65": "Three safe methods: in the refrigerator on a tray at 40 degrees F or below (food may be refrozen); in cold tap water in a leak-proof bag with the water changed every 30 minutes, then cooked immediately; and in a microwave, then cooked immediately. Food thawed in cold water or a microwave is cooked before refreezing. On the counter the outer layer enters the 40 to 140 degree F danger zone while the centre is still frozen. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B06/W2C-B06-letter.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "814395fea60bcc97483b8dc386aa068e82ae4ae8a14c6a20b82dea5d09673387"
+    },
+    "visual/w2c_context/W2C-B06/W2C-B06-a4.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "e361ef74140373df4ab7274451f8996ecf626e2d82e0cf42a5ab4f70ddd8f674"
+    },
+    "visual/w2c_context/W2C-B06/W2C-B06-compare.jpg": {
+      "sha256": "e6c1c133316e4bbeb96ccc1aedd83a97c665b60b0f0455dca18da0b19ea60399",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B06/W2C-B06-compare-gray.jpg": {
+      "sha256": "d1fd354199b33140a178b5d2a0b4eca23a1b22669bb60e38c8f907447aa14029",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B06/W2C-B06-phone.jpg": {
+      "sha256": "ef201091ff9a78ba16db8229aa588cdbb3c1b1b8d8649b3ef20fc5b9599c41b6",
+      "size": [
+        1482,
+        1956
+      ]
+    },
+    "visual/w2c_context/W2C-B06/W2C-B06-desktop.jpg": {
+      "sha256": "c39063c6607fe16bdcbc5e7d9adf12fbb0a63a59244d2518e9dbe9a75963768e",
+      "size": [
+        1310,
+        2065
+      ]
+    },
+    "visual/w2c_context/W2C-B06/W2C-B06-print.jpg": {
+      "sha256": "611df8849a459ecc343b34ead610e56da3b621121228fc1e1a25a64bb13bebe7",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

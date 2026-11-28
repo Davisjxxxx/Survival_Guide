@@ -1,0 +1,549 @@
+{
+  "run": "Opus Wave 2C+ production continuation",
+  "branch": "review/opus-wave-2c-production-20261125",
+  "checkpoint": "500f11ea28acead942fc0d89d9420e135f2d5316",
+  "publication": "HOLD",
+  "batches": [
+    {
+      "batch": "W2C-B01",
+      "theme": "Returned A04 reconstructions: cordage topology and compass-to-map relationship",
+      "relationship": "Rope crossing order (over/under) that defines each knot; baseplate, dial, needle and neat line in one ground frame",
+      "plates": [
+        {
+          "page_id": "Z09-P14",
+          "returned_reason": "A04: drawn cord crossing and terminal dot did not establish a dressed bowline; sketch withdrawn.",
+          "physical_relationship": "Loose bowline: overhand loop with the working side on top, end up through the loop, behind the standing part and back down; tail and overhand stopper inside the fixed loop; short-tail failure view.",
+          "source_basis": "K14 FM 3-97.61 (Aug 2002) 4-12 Bowline tying steps and checkpoints, pages 4-13 to 4-14; independent standard-bowline crossing diagram (Wikimedia Commons File:Bowline (standard).svg, CC BY-SA 3.0) used only to cross-check crossing order; card tying sequence.",
+          "construction": "Computed by scripts/build_w2c_knots.py from a depth model rendered by scripts/w2c_rope.py.",
+          "geometry_validation": "qa/KNOT_TOPOLOGY.json: bowline core crossing order equals the reference sequence O1 U2 U3 O4 O5 U6 O2 U7 U5 O6 U1 O7 O3 U4; stopper is an alternating three-crossing overhand (isolated determinant 3); tail end inside the fixed loop (FM checkpoint 2); minimum depth gap 1.8, minimum crossing angle 45 degrees; failure view keeps the same core.",
+          "inspection": "Inspected at 900, 390 and 360 px and in grayscale: five numbered stages sit beside the strands they name, crossings stay distinct without colour, failure panel reads by glyph and text. Page and print context in context/ and proofs/.",
+          "card_changes": "Cites new claim K14 for the tying, backup and inspection steps; corrected the inspection sentence (the collar hugs the standing part and the small loop grips the two strands); caption describes the new plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Rigging safety and field education review of depicted topology and stopper choice; physical tying check; current TC 3-97.61 wording."
+        },
+        {
+          "page_id": "Z09-P15",
+          "returned_reason": "A04: two-colour zigzag weave merged a stopper with a loop; withdrawn pending independently checked topology in two views.",
+          "physical_relationship": "Two separate knots: a figure-eight stopper in a line end bearing on a tarp grommet under pull; a figure-eight loop in doubled cord whose two strands run side by side without crossing.",
+          "source_basis": "K15 FM 3-97.61 (Aug 2002) 4-14 figure-eight knot description and 4-20 Figure-eight loop checkpoints, pages 4-15 and 4-21 to 4-22; card text for the grommet use (editorial).",
+          "construction": "Computed by scripts/build_w2c_knots.py; the loop strands are offsets of the verified figure-eight core.",
+          "geometry_validation": "qa/KNOT_TOPOLOGY.json: stopper and loop core each have four alternating crossings and determinant 5 (the only knot of crossing number at most 4 with determinant 5 is the figure-eight); doubled loop has exactly four strand crossings per core crossing, matching depth order, and no strand-on-strand crossing (FM 4-20 checkpoint 2).",
+          "inspection": "Inspected at 900 px and in grayscale: grommet relationship and pull direction visible, loop strands parallel, labels clear of strands and plate edges.",
+          "card_changes": "Cites new claim K15 for the knot structure steps; caption describes the two views.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Rigging safety and field education review; physical check that the depicted stopper bears on a typical tarp grommet; current TC 3-97.61 wording."
+        },
+        {
+          "page_id": "Z11-R05",
+          "returned_reason": "A04: compass and meridian shown separated; neither the instruments' relationship nor the correction applied was shown.",
+          "physical_relationship": "Plan view in a fixed true-north frame: baseplate edge on the map neat line with the dial set from map north and corrected for an exaggerated east declination; after turning map and compass together the red needle overlays the orienting arrow and map north points to true north; two landmark sight lines through map symbols.",
+          "source_basis": "N14 USGS How To Get Your Map and Compass To Face the Same Direction (orientation steps); N08 and T08 NOAA NCEI Magnetic Declination (east positive; true = magnetic + declination); N03 USGS topographic map FAQ for terrain association.",
+          "construction": "Computed by scripts/build_w2c_navigation.py from one angular model with a reusable compass component.",
+          "geometry_validation": "qa/NAVIGATION_GEOMETRY.json: in both panels the travel arrow is parallel to the neat line, the orienting arrow equals travel plus declination and the needle points to magnetic north; only the oriented panel has the needle in the arrow and map north on true north; north keys draw the same 12 degree angle, labelled as exaggerated. Tolerance 0.15 degree for 0.1 px coordinates.",
+          "inspection": "Inspected at 900 px: compass enlarged so the needle and orienting arrow relationship is legible; maps clipped to their panels; labels clear of map content.",
+          "card_changes": "First action now follows the USGS step order (baseplate on a neat line, dial to map north, declination correction unless an adjustable compass is already set) and cites N14; landmark and rotation actions cite N14; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Navigation and search and rescue review; confirm instrument-specific conventions for adjustable-declination compasses; current local declination values are not depicted."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B02",
+      "theme": "Household water and wastewater flow paths",
+      "relationship": "Where water moves, under what pressure, and where contamination enters or is stopped",
+      "plates": [
+        {
+          "page_id": "Z13-P44",
+          "physical_relationship": "Supply pressure drop draws liquid from a submerged hose end back through the hose and faucet into house pipes; a hose-bibb vacuum breaker venting to air, an air gap above the rim, and no hard connection to rain barrels, sumps or untreated pumps stop it.",
+          "source_basis": "U21 EPA Cross-Connection Control Manual (EPA 816-R-03-002, Feb 2003): Chapter 3 page 12 and Figure 7 (backsiphonage, submerged inlet); Chapter 4 page 16 (air gap) and page 18 (hose bibb vacuum breaker); case history of a garden hose in a pesticide barrel back-siphoned during a service interruption (page 8).",
+          "construction": "Generated by scripts/w2c_plates_b02.py with shared primitives in scripts/w2c_svg.py.",
+          "geometry_validation": "Reverse-flow arrows follow the hose and house pipe toward the pressure drop in the main; air arrows enter the vacuum breaker vents; the hose end is shown above the rim. No numeric geometry. Chromium label audit: 0 clipped, 0 overlaps.",
+          "inspection": "Inspected at 900 px, then in the reader at 390 and 1280 px and in Letter and A4 proofs (A4 in grayscale); labels clear of parts and plate edges. Layout corrected on 2026-11-28 after scripts/w2c_label_audit.py found five labels crossing panel edges; drawing unchanged; batch QA re-run.",
+          "card_changes": "Actions and verify cite new claim U21; caption describes the two panels.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Licensed plumber and drinking-water safety review; local plumbing code governs device selection."
+        },
+        {
+          "page_id": "Z13-P37",
+          "physical_relationship": "Advisory tap water enters the refrigerator supply line, passes through the filter cartridge and feeds the icemaker and door dispenser; reservoirs are filled from safe water instead of the tap.",
+          "source_basis": "W07 and D12 CDC Drinking Water Advisories: An Overview (Mar 4, 2024): do not drink or use water from appliances connected to the water line, including refrigerator water and ice dispensers; boil water that has passed a home filter during a boil advisory. P12 NCHFP: freezing does not kill all pathogens. Reservoir and flushing statements are not covered by that page (see W2C-E007).",
+          "construction": "Generated by scripts/w2c_plates_b02.py.",
+          "geometry_validation": "Flow arrows follow the supply line to the filter, icemaker and dispenser; crosses sit on the icemaker, dispenser and advisory tap. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, then in the reader at 390 and 1280 px and in Letter and A4 proofs (A4 in grayscale); labels clear of parts and plate edges.",
+          "card_changes": "Caption describes the cutaway; the CDC page does not cover post-advisory flushing, so the plate ends at utility clearance (see W2C-E007).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water public health review of reservoir and flushing guidance; appliance manufacturer instructions."
+        },
+        {
+          "page_id": "Z13-P48",
+          "physical_relationship": "Groundwater in saturated soil presses up on the base of an emptied septic tank, lifting it from its seat and breaking inlet and outlet joints; a full, unopened tank stays seated while basement drains are plugged, water use is cut and equipment stays off the wet drainfield.",
+          "source_basis": "U07 EPA Septic Systems - What to Do after the Flood (last updated Aug 24, 2026): do not pump during flooded or saturated drainfield conditions; pumping could cause the tank to try to float out of the ground and may damage the inlet and outlet pipes; plug basement drains and drastically reduce water use; do not compact the soil absorption field with equipment; professional inspection and servicing.",
+          "construction": "Generated by scripts/w2c_plates_b02.py.",
+          "geometry_validation": "Load arrows act upward on the tank base; the original seat is dashed below the lifted tank; breaks are drawn at both pipe joints. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, then in the reader at 390 and 1280 px and in Letter and A4 proofs (A4 in grayscale); labels clear of parts and plate edges.",
+          "card_changes": "Caption describes the two sections.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Onsite wastewater engineering review; tank buoyancy depends on site and system."
+        },
+        {
+          "page_id": "Z13-P41",
+          "physical_relationship": "With no power the submersible pump cannot run or refill the pressure tank; the tank pushes out only its small stored reserve before the tap sputters; stored drinking water, a labelled pump breaker and licensed contractors form the plan.",
+          "source_basis": "U22 MDH Well Owner's Handbook (4th ed., updated Jan 2014) page 16 Pressure Tanks: the tank supplies water when the pump is not running; a pressure switch starts and stops the pump; common 20- to 44-gallon tanks have a drawdown of 5 to 16 gallons. U08 Ready.gov: at least 1 gallon per person per day. U06 MDH and U02 CPSC: licensed contractors for well and electrical work.",
+          "construction": "Generated by scripts/w2c_plates_b02.py.",
+          "geometry_validation": "No flow arrows in the unpowered well; low gauge reading on the tank; dashed power line from the unpowered breaker to the pump. The drawdown range is quoted from MDH and labelled as typical. Label audit clean.",
+          "inspection": "Inspected at 900 px, then in the reader at 390 and 1280 px and in Letter and A4 proofs (A4 in grayscale); labels clear of parts and plate edges. Layout corrected on 2026-11-28: the contractor label crossed the bottom panel edge in the W2C label audit; moved inside the panel; batch QA re-run.",
+          "card_changes": "First action cites new claim U22; stage labels no longer state an unsupported brownout breaker rule; caption describes the cross-section. The verify line still asks that the pump stay off during brownouts, which no cited source supports (W2C-E008).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Licensed well contractor and master electrician review, including any brownout guidance."
+        },
+        {
+          "page_id": "Z13-P53",
+          "physical_relationship": "Labelled non-potable water is poured into the toilet bowl and flushed only into a working sewer or septic line; drinking and food water stay on a separate shelf; gurgling, slow drains, odour or backup stop all flushing in favour of a lined bucket toilet.",
+          "source_basis": "U07 EPA septic flood page: do not use the system while the soil is saturated or flooded. U13 CDC: lined bucket toilets with heavy bags and tight lids when sewer service is unusable; keep non-potable water from drinking and food uses.",
+          "construction": "Generated by scripts/w2c_plates_b02.py.",
+          "geometry_validation": "Flow arrows run from the bucket into the bowl and down the drain to the sewer; the separation line keeps drinking water apart. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, then in the reader at 390 and 1280 px and in Letter and A4 proofs (A4 in grayscale); labels clear of parts and plate edges.",
+          "card_changes": "Stage labels replace the unsupported 24-hour storage limit with the observable stop signs; caption describes the section. The verify line still contains the 24-hour limit (W2C-E009).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Environmental health review; local health department rules for alternate flushing water."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B03",
+      "theme": "Combustion products and fuel vapours in occupied spaces",
+      "relationship": "Where carbon monoxide or fuel vapour comes from, where it collects in a building, where warning devices sit, and the exit",
+      "plates": [
+        {
+          "page_id": "Z13-P20",
+          "physical_relationship": "CO from an open gas oven, a charcoal grill and a camp stove fills a closed room and reaches a sleeper; a cracked window does not clear it; the alternative is warm layers in one interior room and early relocation.",
+          "source_basis": "C22 CPSC Carbon Monoxide Questions and Answers (gas ranges and ovens not for heat; charcoal never indoors; camping equipment indoors only if designed for it); C16 CDC CO basics; C05 CPSC camping equipment; U25 Ready.gov Power Outages (no gas stove or oven for heat; go to a community location with power).",
+          "construction": "Generated by scripts/w2c_plates_b03.py with shared primitives in scripts/w2c_svg.py.",
+          "geometry_validation": "Air arrows rise from each source into the CO region that contains the sleeper; the window is drawn cracked open. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; labels clear of parts and plate edges after layout fixes.",
+          "card_changes": "Actions cite new claims C22 and U25; caption describes the room section.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Fire service and CO safety review; CPSC allows camping equipment designed for enclosed spaces, while the card forbids all camp stoves indoors."
+        },
+        {
+          "page_id": "Z13-P56",
+          "physical_relationship": "Smoke and CO alarms on every level including the basement, a CO alarm outside the bedrooms, none in the kitchen or directly above the furnace, with replacement rules.",
+          "source_basis": "C22 CPSC CO Q&A (every level and outside sleeping areas; not in kitchens, above fuel-burning appliances or near vents; test button checks circuitry not sensor accuracy; replacement age from the manufacturer); U04 Ready.gov Home Fires (smoke alarms on every level including the basement; replace units every 10 years or per manufacturer; batteries twice a year unless 10-year lithium).",
+          "construction": "Generated by scripts/w2c_plates_b03.py.",
+          "geometry_validation": "One smoke and one CO alarm per level; crossed CO alarms mark the kitchen and furnace exclusions. No numeric geometry beyond the sourced 10-year smoke alarm rule. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; labels clear of parts and plate edges after layout fixes.",
+          "card_changes": "First action cites C22; stage labels replace the unsupported monthly-test and 5-10 year CO lifespan with sourced rules; caption describes the cutaway. Card actions still state inside-bedroom smoke alarms, monthly tests and CO lifespans that the cited pages do not support (W2C-E013).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Fire prevention and CO safety review; NFPA placement rules for smoke alarms inside bedrooms need a primary source."
+        },
+        {
+          "page_id": "Z15-P43",
+          "physical_relationship": "Scaled outage plan: generator outdoors at least 20 ft from windows, doors and the attached garage with exhaust pointed away; LED lanterns, closed refrigerator and freezer, unplugged electronics and a CO alarm inside.",
+          "source_basis": "U25 Ready.gov Power Outages (generators, camp stoves and charcoal grills outdoors at least 20 ft from windows, doors and attached garages; CO detectors on every level; refrigerator about 4 h and full freezer about 48 h when closed; unplug against surges; community location in extreme heat or cold); C06 CPSC generator release (at least 20 ft, exhaust away).",
+          "construction": "Generated by scripts/w2c_plates_b03.py; plan drawn at 6 px per foot with a scale bar.",
+          "geometry_validation": "Builder check measures from the SVG: 6.0 px/ft from the scale bar; wall face to generator 20.0 ft; garage to generator 42.3 ft (both at least 20 ft).",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; labels clear of parts and plate edges after layout fixes.",
+          "card_changes": "Two actions cite U25; caption describes the scaled plan. U01 still claims flashlights instead of candles, but its page does not mention candles (W2C-E012).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Emergency management and electrical/CO review; the plan shows minimum clearance, not a safe distance in all wind conditions."
+        },
+        {
+          "page_id": "Z13-P60",
+          "physical_relationship": "Gasoline vapour from basement cans stays low and travels across the floor to a water-heater pilot flame; sealed approved cans and an upright cylinder belong in a ventilated outdoor shed away from the home.",
+          "source_basis": "U24 CPSC Consumers Warned Against Storing Gasoline (July 30, 1979): heavier-than-air vapours travel to ignition sources such as stove and furnace pilot lights; keep cans outdoors away from living quarters and ignition sources, such as in a well-ventilated shed; never store gasoline in the house. Propane storage rests on card text (W2C-E015).",
+          "construction": "Generated by scripts/w2c_plates_b03.py.",
+          "geometry_validation": "The vapour band hugs the floor from the cans to the pilot; the storage arrow leads away from the home to the shed. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; labels clear of parts and plate edges after layout fixes.",
+          "card_changes": "Two actions cite U24; stage labels drop the unsupported 6-12 month rotation; caption describes both panels.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Fire prevention and hazardous-materials review, including propane cylinder storage and local fire-code limits."
+        },
+        {
+          "page_id": "Z13-P57",
+          "physical_relationship": "A user with a clear escape route behind them sprays the base of a fire confined to one pan; PASS steps; smoke filling the room, spread beyond one object or no way out means leaving and calling 911.",
+          "source_basis": "U23 USFA Choosing and Using Fire Extinguishers (last reviewed Apr 1, 2023): use only when others are alerted, the fire department is called, the user is able, the fire is small and contained to one object such as a pan or wastebasket, the user is safe from smoke and has a clear escape route; PASS steps.",
+          "construction": "Generated by scripts/w2c_plates_b03.py.",
+          "geometry_validation": "The spray arrow ends at the base of the flame; the exit door is behind the user. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; labels clear of parts and plate edges after layout fixes.",
+          "card_changes": "All lines now cite U23 alongside U04; the third stage label shows the depicted leave conditions. The water-on-grease warning in the first action has no supporting source yet (W2C-E016).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Fire service review; a primary source for the grease-fire and electrical-fire water warning."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B04",
+      "theme": "Severe-weather warning geometry and shelter",
+      "relationship": "Where to be in a building, who a warning device reaches, how warning areas are drawn, and how fast floodwater rises",
+      "plates": [
+        {
+          "page_id": "Z15-P18",
+          "physical_relationship": "Floor plan: leave large open rooms and the glass storefront for the designated shelter or an interior room on the lowest floor; vehicles are not safe, so no one goes to the parking lot.",
+          "source_basis": "D22 NWS What to do During a Tornado (At Your Workplace or School: follow the drill to the shelter location, stay away from windows, avoid large open rooms such as cafeterias, gymnasiums or auditoriums; vehicles are not safe); D03 same page.",
+          "construction": "Generated by scripts/w2c_plates_b04.py.",
+          "geometry_validation": "Motion arrows lead from the open room to the interior core; crosses mark the open room, glass and vehicle. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Lines cite new claim D22; caption describes the plan. The first action still claims wide-span roofs are the first to collapse, which the NWS page does not state (W2C-E019).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Emergency management and structural safety review; building-specific shelter plans govern."
+        },
+        {
+          "page_id": "Z15-P22",
+          "physical_relationship": "An outdoor siren reaches a person outside but is not designed to wake people inside a closed house; a bedside NOAA Weather Radio and phone alerts sound the warning in the bedroom.",
+          "source_basis": "D23 NWS Quad Cities Outdoor Warning Sirens FAQ (sirens are designed only to alert those who are outside; every home and business should have a NOAA Weather Radio); T15 NWS NOAA Weather Radio; T14 Ready.gov alerts.",
+          "construction": "Generated by scripts/w2c_plates_b04.py.",
+          "geometry_validation": "Solid sound arcs reach the outdoor person; dashed weakened arcs stop at the house wall; alert arcs come from the bedside radio. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Two actions cite new claim D23; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Meteorology and emergency communications review; local siren policies vary."
+        },
+        {
+          "page_id": "Z15-P02",
+          "physical_relationship": "A broad multi-county watch area where conditions are favorable, and a storm-based warning polygon around the threat path that includes a town ahead of the storm, independent of county lines.",
+          "source_basis": "D24 NWS Flood Warning VS. Watch (watch = favorable; warning = imminent or occurring; advisory = nuisance); D25 NWS Storm Based Warnings fact sheet (polygons since October 1, 2007, not restricted to county boundaries).",
+          "construction": "Generated by scripts/w2c_plates_b04.py.",
+          "geometry_validation": "The warning polygon lies inside the watch area, crosses county lines and contains the town on the storm motion vector. No numeric geometry. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Two actions cite D24 and D25; the third stage label now describes the depicted polygon instead of the undepicted Emergency tier; caption updated.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Meteorology review; Emergency-tier definitions need their own primary source (W2C-E020)."
+        },
+        {
+          "page_id": "Z15-P23",
+          "physical_relationship": "Schematic water level against time: a flash flood rising rapidly within about 6 hours of its cause, and a river flood rising toward a forecast crest as the river overtops its banks; ice jams and dam or levee failures can release a sudden flood.",
+          "source_basis": "D26 NWS Flood Related Hazards (flash floods generally develop within 6 hours of the immediate cause; rapid rise; ice jams; dam or levee failure with little warning); D24 NWS (flash floods can take minutes to hours and can occur where it is not raining).",
+          "construction": "Generated by scripts/w2c_plates_b04.py.",
+          "geometry_validation": "Curves have no time scale; the flash flood curve rises steeply right after the rain bars and both peaks exceed the marked flood level. The river curve is schematic (W2C-E021). Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Two actions cite D24 and D26; caption describes the schematic curves.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Flood hydrology review; a primary source for river-flood lead times and crest forecasts."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B05",
+      "theme": "Home canning heat and pressure",
+      "relationship": "Temperature and pressure inside a canner over time: what gauges report, what interruptions do, why altitude changes settings, and which methods fail",
+      "plates": [
+        {
+          "page_id": "Z14-P55",
+          "physical_relationship": "A dial gauge reading 11 lb while the true pressure is 9 lb (a high reading under-processes), with the yearly test and the adjust-up-to-2-lb, replace-beyond rule; a weighted gauge rocking on the vent pipe with 5, 10 and 15 lb weights, needing no accuracy check and taking the next heavier weight above 1,000 ft.",
+          "source_basis": "P33 NCHFP Using Pressure Canners (yearly dial check; replace if more than 2 lb off at 5, 10 or 15 lb; adjust when less); P35 USDA Complete Guide 1 pages 1-20 to 1-24 (gauges read high cause under-processing; adjustments up to 2 lb; weighted gauges need no accuracy check; separate tables; peaches step 5 to 10 lb above 1,000 ft).",
+          "construction": "Generated by scripts/w2c_plates_b05.py.",
+          "geometry_validation": "Builder check reads the needle angle back from the SVG: 11.0 lb; true-pressure marker 9.0 lb on the same 0-20 lb, 270 degree scale.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Second action and verify corrected: weighted gauges move to the next heavier weight the tested table gives, not always 10 to 15 PSI; lines cite P33 and P35; stage label and caption updated. The card example of 1-4 jiggles per minute is unsourced (W2C-E024).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "University Extension food preservation specialist review."
+        },
+        {
+          "page_id": "Z14-P56",
+          "physical_relationship": "Pressure trace dipping below target and restored; adding the lost minutes is crossed out and the full process time restarts when target pressure returns; the same rule for a boiling-water canner when the boil stops.",
+          "source_basis": "P33 NCHFP Using Pressure Canners (restart the total original process time after a pressure drop); P35 USDA Guide 1 page 1-18 (boil stops: return to a vigorous boil and restart timing from the beginning).",
+          "construction": "Generated by scripts/w2c_plates_b05.py.",
+          "geometry_validation": "Builder check: the restarted bar equals the planned process length (300 units) and starts at the moment pressure is restored.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Two actions cite P33 and P35; caption updated.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food preservation process authority review of the outage branch in the stop line."
+        },
+        {
+          "page_id": "Z14-P57",
+          "physical_relationship": "Water boiling at a lower temperature at elevation than at sea level, and the boiling-water, dial-gauge and weighted-gauge tables whose time, pressure or weight rises with altitude; values never move between tables.",
+          "source_basis": "P35 USDA Guide 1 page 1-10 (lower boiling temperatures at altitude; sea-level times may cause spoilage at 1,000 ft or more; increase time or pressure) and page 1-23 (separate tables by canner type).",
+          "construction": "Generated by scripts/w2c_plates_b05.py.",
+          "geometry_validation": "The higher-elevation thermometer column is drawn lower than the sea-level one; no temperatures are stated. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Two actions cite P35; the third stage label no longer states a universal 10 to 15 PSI jump; caption updated. The Minnesota elevation statement rests on P14, not re-verified here (W2C-E025).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Extension specialist review."
+        },
+        {
+          "page_id": "Z14-P53",
+          "physical_relationship": "Atmospheric steam canner section: shallow water base, rack of jars, steam filling the dome, air vented before timing; limits of pH 4.6 or below, 45 minutes or less including altitude, no opening to add water, and no low-acid foods.",
+          "source_basis": "P25 NCHFP Burning Issue: Using Atmospheric Steam Canners (pH 4.6 or below; 45 minutes or less including altitude; air vented before processing; cannot be opened to add water; not for low-acid foods).",
+          "construction": "Generated by scripts/w2c_plates_b05.py.",
+          "geometry_validation": "Steam arrows rise from the base into the dome; the vent arrow leaves before timing. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Caption describes the section; citations already matched P25. USDA Guide 1 (2015) still says steam canners are not currently recommended; the later NCHFP guidance governs (W2C-E023).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Extension specialist review of equipment-specific temperature indicators."
+        },
+        {
+          "page_id": "Z14-P48",
+          "physical_relationship": "Oven, open-kettle with inverted jars, microwave, dishwasher and paraffin-seal methods crossed out; a boiling-water canner with water over the jar tops and a pressure canner holding four quart jars used with a tested recipe.",
+          "source_basis": "P34 USDA Guide 1 page 1-10 (open kettle, conventional oven, microwave and dishwasher processing not recommended because they do not prevent all risks of spoilage), page 1-30 (paraffin seals no longer recommended), page 1-35 (minimum canner holds 4 quart jars); P35 page 1-18 (water over jar tops).",
+          "construction": "Generated by scripts/w2c_plates_b05.py.",
+          "geometry_validation": "Four jars fit the drawn pressure canner; water line sits above the jars in the boiling-water canner. Label audit clean.",
+          "inspection": "Inspected at 900 px, in the reader at 390 and 1280 px, and in Letter and A4 (grayscale) batch proofs; label collisions fixed before acceptance.",
+          "card_changes": "Three actions cite P34; caption updated. The electric multicooker statement is not covered by the cited Guide (W2C-E026).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food preservation process authority review; a primary source for multicooker canning."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-R1",
+      "theme": "RT01 instruction-surface corrections",
+      "relationship": "Instructions a reader could follow from the figure alone in a harmful order or without a boundary: activation before paperwork, infant formula outside the safe-water task list, soap and water after waste tasks, and an approximate paced return",
+      "review_basis": "RT01 adversarial review, draft PR #12 (review/astra-rt01-adversarial-20261127 at 1adab90), findings RT01-01, RT01-04, RT01-05 and RT01-08",
+      "plates": [
+        {
+          "page_id": "Z11-P63",
+          "physical_relationship": "A caller kneels beside an unresponsive or bleeding person, calls at once and keeps giving care while saying the location first; if the call drops, dispatch already holds the location; the six-item report card is prepared before the trip and finished while help is on the way.",
+          "source_basis": "T17 AHA/Red Cross 2024 First Aid 4.2 and 4.3 (activate EMS as soon as help is needed; care must not delay calling; give care while talking to the dispatcher); T06 NPS emergency plan (communicate location and last known point); T11 Ready.gov plan (prepared contact and medical summaries).",
+          "construction": "Generated by scripts/w2c_plates_r1.py.",
+          "geometry_validation": "Content check: the location-first bubble, six numbered card rows and no \"before dialing\" precondition. No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "RT01-01: title, objective, applies, equipment, three actions, failure, verify, stage labels and caption rewritten so the call comes first; the six items are a prepared aid completed while help is on the way (new claim T17). Stop line unchanged.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Emergency dispatch and search-and-rescue review (H09, H11, H18)."
+        },
+        {
+          "page_id": "Z04-P51",
+          "physical_relationship": "Safe water (bottled, or boiled and cooled) feeds drinking, teeth, produce, ice and dishes through one supply line; wounds take clean potable water or sterile saline; infant formula sits in its own panel (ready-to-feed safest; powder not sterile; chemical advisory needs bottled water or ready-to-feed); a Do Not Use notice stops all tap contact.",
+          "source_basis": "W29 and W07 CDC emergency water and advisory categories; P26 CDC infant feeding in emergencies (ready-to-feed safest, especially under 2 months, premature or weakened immune system; powder not sterile); P36 CDC formula preparation (extra precautions; chemically contaminated water cannot be made safe by boiling).",
+          "construction": "Generated by scripts/w2c_plates_r1.py.",
+          "geometry_validation": "Content check: formula absent from the potable task panel, separate formula panel, powder-not-sterile statement. No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "RT01-04: formula removed from the generic safe-water list and given its own action citing P26 and P36 with a (see Z14-P74) cross-link; objective, equipment, failure, verify, stop citation, stage labels and caption updated.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Pediatric and public-health review of the formula boundary."
+        },
+        {
+          "page_id": "Z13-P49",
+          "physical_relationship": "Double-bagged solid-waste bucket with sawdust cover and tight lid, a separate liquids bucket, and a spigot-jug handwashing station with soap and a catch basin beside them; storm drains, creeks, wells, gardens and food areas excluded; tied bags go to a lidded outdoor bin.",
+          "source_basis": "U13 CDC emergency sanitation (lined buckets, tight lids, local disposal); U26 CDC norovirus prevention (soap and water after toilet and diaper tasks; sanitizer is not a substitute); W01 for water-body exclusion.",
+          "construction": "Generated by scripts/w2c_plates_r1.py.",
+          "geometry_validation": "Content check: soap-and-water station beside the toilet and the sanitizer-is-not-a-replacement line. No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "RT01-05: the alcohol-rub alternative after toilet use removed from the second action (now cites U26); stage label and caption updated.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Environmental health and sanitation review."
+        },
+        {
+          "page_id": "Z13-P50",
+          "physical_relationship": "A spigot jug on a stand pours a thin stream over soapy hands into a catch basin emptied away from wells and gardens; soap and water after toilet, diaper, vomit or waste tasks and before food; sanitizer of at least 60 percent alcohol only when soap and water are truly unavailable and hands are not visibly dirty.",
+          "source_basis": "U26 CDC norovirus prevention; U27 CDC hand sanitizer guidance (soap and water best; sanitizer when unavailable; less effective on visibly dirty hands and against norovirus, Cryptosporidium and C. difficile); U13 for the station.",
+          "construction": "Generated by scripts/w2c_plates_r1.py. RT01 repair item outside the A04 queue (W2C_REPAIR_QUEUE.csv).",
+          "geometry_validation": "Content check: soap after waste tasks, sanitizer fallback only, no \"when hands look clean\" shortcut. No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "RT01-05: sanitizer action rewritten as a fallback only (U26, U27); equipment, first action citation, verify, stage labels and caption updated.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Public health and environmental sanitation review."
+        },
+        {
+          "page_id": "Z11-P32",
+          "physical_relationship": "Unchanged A04-accepted four-leg plan view; the return leg now reads same distance, about N paces with more on slope or brush, the regained line is approximate until checked on the map, and the pond label no longer sits under the dashed bearing line.",
+          "source_basis": "N15 NC State Extension pacing (accuracy diminishes on slopes and in brush; constant checking); N08, N10 and N03 retained.",
+          "construction": "Derived by scripts/w2c_plates_r1.py from the A04-accepted V02 artwork by exact label and description replacement; drawn geometry is unchanged. RT01 repair item outside the A04 queue.",
+          "geometry_validation": "Builder check: the three detour paths are byte-identical to the V02 plate; no \"exact\" wording remains. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "RT01-08: objective, first and third actions, verify, stage labels and caption now describe an approximate paced return confirmed against the map (N15). Z11-P33 second action also cites N15.",
+          "supersession_basis": "RT01-08 (finding recorded in draft PR #12): the A04-accepted plate promised an exact return line.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Navigator review of the amended boxing method; the A04 candidate stays preserved in visual/v02_technical/revised/."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B06",
+      "theme": "Food temperature and the cold chain",
+      "relationship": "Food temperature against cooking and cold-holding thresholds and where it is measured: a scaled thermometer column, appliance thermometers, outage hold times on one time axis, keep/refreeze/discard by chart row, and safe thawing",
+      "plates": [
+        {
+          "page_id": "Z14-P37",
+          "physical_relationship": "Probe tip in the thickest part of a roast, read against a linear 130 to 175 F thermometer column with marks at 145 F (whole cuts with a 3-minute rest; fish), 160 F (ground meats, egg dishes) and 165 F (poultry, casseroles, leftovers); meat colour and juices are not a test.",
+          "source_basis": "F11 FoodSafety.gov Safe Minimum Internal Temperature Chart (last reviewed 2024-11-21; archive capture 2026-10-30); F02 FoodSafety.gov Cook step.",
+          "construction": "Generated by scripts/w2c_plates_b06.py.",
+          "geometry_validation": "Builder check: tick positions are linear in temperature (tolerance 0.02 px) and the three marks sit at 145, 160 and 165 F on the same scale. Header states the column is the only scaled element. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "First action now cites F11 instead of F03, which states no cooking temperature (W2C-E036); stop cites F11; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food safety specialist review."
+        },
+        {
+          "page_id": "Z14-P39",
+          "physical_relationship": "Refrigerator cutaway with an appliance thermometer in each compartment (freezer 0 F or below, refrigerator 40 F or below), frozen water containers in the freezer, the control knob marked as a setting, and a column above 40 F.",
+          "source_basis": "F09 FDA power-outage page and F10 CDC disaster food page (appliance thermometers; 0 F and 40 F targets; frozen water containers; check after outages); FSIS 2020 consumer guide consistent.",
+          "construction": "Generated by scripts/w2c_plates_b06.py.",
+          "geometry_validation": "No numeric geometry beyond the stated readings. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Citations moved from P17, whose page lacks the thermometer statements (W2C-E038), to F09 and F10; caption updated. The weekly-check interval is unsourced and not drawn (W2C-E042).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food safety and household preparedness review."
+        },
+        {
+          "page_id": "Z14-P40",
+          "physical_relationship": "Hold times drawn to scale on one 0 to 48 h axis (refrigerator about 4 h, half-full freezer about 24 h, full freezer about 48 h with doors shut), a cooler with ice kept at 40 F or below and checked, and dry ice handled only with insulated gloves and never in a small closed space.",
+          "source_basis": "F09 FDA, F10 CDC (holding times; coolers at 40 F or below); P37 New York State Department of Health dry-ice page (insulated gloves; carbon dioxide build-up in small poorly ventilated spaces; on top of food in a freezer).",
+          "construction": "Generated by scripts/w2c_plates_b06.py.",
+          "geometry_validation": "Builder check: bar widths equal hours x 11.0 px for 4, 24 and 48 h; header states only the time bars are to scale. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Dry-ice action corrected to the cited source (placed on top of food; hazard in small closed spaces) instead of cardboard and room ventilation (W2C-E040); citations moved to F09, F10 and P37; stage label and caption updated. The snowbank clause has no source and is not drawn (W2C-E041).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food safety and emergency management review."
+        },
+        {
+          "page_id": "Z14-P41",
+          "physical_relationship": "Two separate paths. Refrigerator food: a thermometer reading and hours above 40 F select the chart column, then each food row decides (meat, poultry, seafood, milk, eggs, soft cheese discard; hard cheese, butter, uncut fresh fruit keep). Freezer food: the chart columns for food that still has ice crystals and for food above 40 F for over 2 h, with sample rows (meat refreeze or discard; ice cream and frozen yogurt discard in both; hard cheeses refreeze in both).",
+          "source_basis": "F08, F04 and F05 FoodSafety.gov refrigerated and frozen outage charts (archive capture 2026-11-05, last reviewed 2024-08-08); F10 CDC never taste.",
+          "construction": "Generated by scripts/w2c_plates_b06.py. Replaces the uncommitted B06 draft, which repeated the blanket ice-crystal refreeze shortcut RT01-07 identified.",
+          "geometry_validation": "Builder check: the ice cream and frozen yogurt row is discard in both columns, meat refreezes only with ice crystals, and no drawn connector spans the gutter between the refrigerator and freezer panels. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "RT01-07: second action, stage labels and caption now send each frozen food to its own chart row, naming the ice cream exception (F08).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food safety and public health review."
+        },
+        {
+          "page_id": "Z14-P65",
+          "physical_relationship": "Refrigerator thawing on a tray at 40 F or below (may refreeze), cold water in a leak-proof bag changed every 30 minutes then cooked, microwave thawing then cooked, beside a counter-thawed roast whose outer layer sits at 40 to 140 F while the centre is frozen.",
+          "source_basis": "F12 USDA FSIS The Big Thaw (archive capture 2026-11-03, last updated 2013-06-15); F03 two-hour limit (one hour above 90 F).",
+          "construction": "Generated by scripts/w2c_plates_b06.py.",
+          "geometry_validation": "No numeric geometry beyond the stated temperatures and times. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py (no clipping, label collisions or panel crossings); shape and leader collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Actions, verify and stop now cite F12; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Food safety specialist review."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B07",
+      "theme": "Household and field water-treatment chain",
+      "relationship": "The physical order and limits of water treatment: clarify, filter, disinfect; one bleach table per bottle; label-governed tablet contact time; absolute versus nominal pores; container sanitizing; one-way raw, waiting and clean zones",
+      "plates": [
+        {
+          "page_id": "Z04-P42",
+          "physical_relationship": "Cloudy raw water flows through a settling jar (clarify; not treatment), a filter cartridge rated absolute 1 micron or NSF 53/58 cyst reduction (parasites), and chemical or UV disinfection (viruses and bacteria; UV only in clear water) into a clean bottle; UV or bleach on cloudy water and filtering after disinfecting are crossed out.",
+          "source_basis": "W08 and W31 CDC How to Make Water Safe (clarify first; cloudy water); W34 CDC water treatment when hiking (filter then disinfect; filter capabilities by rating; UV in clear water); W05, W11.",
+          "construction": "Generated by scripts/w2c_plates_b07.py.",
+          "geometry_validation": "Content check: barrier order clarify, filter, disinfect; virus limit of filters stated. No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px (no clipping, collisions or panel crossings); a drop icon that touched a heading and a missing pre-filter were fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Second action now states the filter ratings and that only an absolute 0.3-micron rating also removes bacteria (W34); third action cites W34; caption describes the flow path. The EPA 5,000 ft versus CDC 6,500 ft boil threshold is recorded as a source conflict (W2C-E047).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water specialist review."
+        },
+        {
+          "page_id": "Z04-P39",
+          "physical_relationship": "A regular unscented bleach bottle labelled 8.25 percent sodium hypochlorite beside two official table entries that disagree for it (CDC 5 to 9 percent: 8 drops per gallon; EPA 8.25 percent: 6 drops per gallon); one complete table is followed, the dose doubled only as that table directs, then at least 30 minutes of waiting.",
+          "source_basis": "W31 CDC How to Make Water Safe in an Emergency (bleach table; double for cloudy, coloured or very cold water; at least 30 minutes); W32 EPA Emergency Disinfection of Drinking Water (6% and 8.25% table; 30 minutes; fresh unscented bleach).",
+          "construction": "Generated by scripts/w2c_plates_b07.py.",
+          "geometry_validation": "Content check: both table entries (8 and 6 drops) drawn with their sources, the one-table rule and the 30-minute wait. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px (no clipping, collisions or panel crossings); a drop icon that touched a heading and a missing pre-filter were fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Actions cite W31 and W32; caption describes the plate. The table difference is recorded as a source conflict for the drinking-water specialist (W2C-E046).",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water specialist chooses the edition default table."
+        },
+        {
+          "page_id": "Z04-P40",
+          "physical_relationship": "Water temperature, clarity and volume read against the product label, which sets dose and full contact time before anyone drinks; chlorine dioxide, chlorine and iodine compared for parasite coverage and iodine user limits.",
+          "source_basis": "W34 CDC water treatment when hiking (chlorine dioxide kills Giardia, somewhat effective against Cryptosporidium, filter first; chlorine and iodine weak on parasites; iodine not beyond a few weeks); W10 iodine user groups; W19 effectiveness depends on product, organism, temperature and contact time.",
+          "construction": "Generated by scripts/w2c_plates_b07.py.",
+          "geometry_validation": "Content check: no contact time or temperature value invented; the label governs. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px (no clipping, collisions or panel crossings); a drop icon that touched a heading and a missing pre-filter were fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Second and third actions cite W34; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water specialist review of product-class statements."
+        },
+        {
+          "page_id": "Z04-P35",
+          "physical_relationship": "Membrane cross-sections: an absolute 1-micron filter holds every parasite cyst on the raw side while viruses pass; a nominal 1-micron filter has some larger holes that let cysts through; routine chlorine or iodine alone does not reliably kill Cryptosporidium.",
+          "source_basis": "W20 and W33 CDC About Choosing Home Water Filters (absolute 1 micron or NSF 53/58 cyst reduction; nominal pores may pass larger germs); W34 (filters do not remove viruses); W31 (iodine and chlorine tablets do not kill Cryptosporidium).",
+          "construction": "Generated by scripts/w2c_plates_b07.py.",
+          "geometry_validation": "Pores drawn uniform on the absolute membrane and partly enlarged on the nominal one; cysts cross only the enlarged pores. No measured scale. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px (no clipping, collisions or panel crossings); a drop icon that touched a heading and a missing pre-filter were fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Actions cite W34 and W33; caption describes the cross-sections.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water specialist review."
+        },
+        {
+          "page_id": "Z04-P45",
+          "physical_relationship": "Four steps on one container: wash with soap and rinse; shake a solution of 1 teaspoon unscented 5 to 9 percent bleach per quart over every inside surface; wait at least 30 seconds, pour out and air-dry; fill with safe water, cap and label drinking water with the date.",
+          "source_basis": "W35 CDC How to Create an Emergency Water Supply (2025-06-27), cleaning and sanitizing steps and labelling.",
+          "construction": "Generated by scripts/w2c_plates_b07.py.",
+          "geometry_validation": "Content check: no rinse after sanitizing; air-dry and 30-second contact present. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px (no clipping, collisions or panel crossings); a drop icon that touched a heading and a missing pre-filter were fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Third action, verify, stage label and caption corrected: CDC directs air-drying after the sanitizing solution, not a rinse (W2C-E045); citations moved from W13 to W35.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water specialist review."
+        },
+        {
+          "page_id": "Z04-P49",
+          "physical_relationship": "Three separated zones with one-way flow: raw bag, scoop and pre-filter marked in red; disinfecting batches with finish-time tags and marked lids; sealed labelled drinking water, cups and pot; the raw scoop path into the clean zone is crossed out.",
+          "source_basis": "W06 and W35 CDC storage and labelling; W31 CDC 30-minute wait; editorial zone arrangement (ED) from B009 hygiene practice.",
+          "construction": "Generated by scripts/w2c_plates_b07.py.",
+          "geometry_validation": "No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px (no clipping, collisions or panel crossings); a drop icon that touched a heading and a missing pre-filter were fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Third action cites W31 for the contact wait; caption describes the zones. The zone arrangement remains an editorial method.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water and field-hygiene review."
+        }
+      ]
+    },
+    {
+      "batch": "W2C-B08",
+      "theme": "The household water supply",
+      "relationship": "How much water to store and for how long, the three advisory tiers, private-well testing and nitrate concentration by boiling, and floodwater as a source to avoid",
+      "plates": [
+        {
+          "page_id": "Z13-P33",
+          "physical_relationship": "A household of four: a 4 x 3 grid of one-gallon jugs (1 gallon per person per day for 3 days = 12 gallons) beside the 2-week goal of 56 gallons as eleven 5-gallon containers and one gallon; more for pregnancy, illness, pets or heat; storage at 50 to 70 F, out of sunlight and away from gasoline and pesticides.",
+          "source_basis": "W14 and W35 CDC How to Create an Emergency Water Supply (at least 1 gallon per person per day for 3 days; try 2 weeks; more for pregnant women, sick people, pets, hot climate; 50 to 70 F; away from sunlight and toxic substances).",
+          "construction": "Generated by scripts/w2c_plates_b08.py.",
+          "geometry_validation": "Builder check counts the drawn containers: 12 one-gallon jugs equal 4 people x 3 days; 56 gallons in the 2-week panel equal 4 people x 14 days. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px; heading, label-on-roof and pack-on-heading collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Third action corrected: the unsupported off-concrete and vapour-permeation clauses removed (W2C-E049); cites W35 and W14; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Emergency management and drinking-water review."
+        },
+        {
+          "page_id": "Z04-P50",
+          "physical_relationship": "A two-year timeline with self-filled water replaced at 0, 6, 12, 18 and 24 months (drawn to scale) and commercial bottles on their printed date; replace containers that leak, swell, turn brittle or smell; store cool and dark away from fuel with a portable portion for evacuation.",
+          "source_basis": "W14 and W35 CDC (replace self-filled water every 6 months; observe expiration dates; cool, dark, away from toxic substances); W06.",
+          "construction": "Generated by scripts/w2c_plates_b08.py.",
+          "geometry_validation": "Builder check: refill marks at months 0, 6, 12, 18 and 24, spaced exactly 6 months x 31 px. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px; heading, label-on-roof and pack-on-heading collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Second action corrected as for Z13-P33 (W2C-E049); first action cites W35; caption describes the timeline.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Emergency management and drinking-water review."
+        },
+        {
+          "page_id": "Z13-P36",
+          "physical_relationship": "Three tiers side by side: Boil Water (boil 1 minute, 3 above 6,500 ft, even if filtered); Do Not Drink (bottled water for drinking, cooking, teeth, formula, ice and pets; boiling does not help); Do Not Use (bottled water for every purpose); no refrigerator dispenser water or ice under any advisory.",
+          "source_basis": "W07 and D12 CDC Drinking Water Advisories: An Overview (2024-03-04), all three tiers and the dispenser rule.",
+          "construction": "Generated by scripts/w2c_plates_b08.py.",
+          "geometry_validation": "Content check: three tiers and the boiling limit for chemicals. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px; heading, label-on-roof and pack-on-heading collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "Caption describes the tiers. The stop line's laboratory-clearance detail is not drawn; the band says to keep precautions until officials end the advisory.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Drinking-water utility review."
+        },
+        {
+          "page_id": "Z13-P43",
+          "physical_relationship": "An annual certified-lab test (total coliform, nitrate, dissolved solids, pH) with retest triggers (flood, repair, change in taste, odour or colour, a new baby coming home) and more frequent testing for vulnerable households; a pot before and after boiling holds the same nitrate in less water.",
+          "source_basis": "W37 EPA Protect Your Home's Water (annual tests; certified labs; test more often and after flooding, repair or water changes); W36 MDH Nitrate in Well Water (boiling concentrates nitrate; bottle-fed babies under six months; 10 mg/L; test before a new baby comes home).",
+          "construction": "Generated by scripts/w2c_plates_b08.py.",
+          "geometry_validation": "Builder check: 14 nitrate dots before and after boiling while the water height falls from 69 to 33 units, so the drawn concentration rises about 2.1 times. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px; heading, label-on-roof and pack-on-heading collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "First action cites W37 in place of U06; nitrate lines cite W36 and W37; caption describes the plate.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Private-well and environmental health review."
+        },
+        {
+          "page_id": "Z04-P19",
+          "physical_relationship": "A flooded street carrying sewage, hazardous waste, debris and a downed line; the person stays on dry ground; drinking water comes from stored or sealed supplies until local officials say how tap water can be used; floodwater on food or drink causes diarrheal disease.",
+          "source_basis": "W39 CDC Safety Guidelines: Floodwater (2026-08-24); W01 fuel and chemicals cannot be made safe by boiling.",
+          "construction": "Generated by scripts/w2c_plates_b08.py.",
+          "geometry_validation": "No numeric geometry. Label audit clean.",
+          "inspection": "Rendered at 900 px and checked by scripts/w2c_label_audit.py at 720 px; heading, label-on-roof and pack-on-heading collisions fixed after visual inspection; inspected in the reader at 390 and 1280 px and in Letter and A4 (grayscale) batch proofs.",
+          "card_changes": "First action, third action and stop cite W39; caption describes the scene.",
+          "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+          "remaining_dependencies": "Emergency management and public-health review."
+        }
+      ]
+    }
+  ]
+}
