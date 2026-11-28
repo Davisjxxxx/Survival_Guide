@@ -318,5 +318,357 @@
     "format": "image/jpeg"
    }
   ]
+ },
+ "5827578616": {
+  "scientificName": "Omphalotus illudens (Schwein.) Bresinsky & Besl",
+  "acceptedScientificName": "Omphalotus illudens (Schwein.) Bresinsky & Besl",
+  "basis": "HUMAN_OBSERVATION",
+  "dataset": "iNaturalist research-grade observations",
+  "publisher": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+  "institution": "iNaturalist",
+  "catalog": "312236858",
+  "occurrenceID": "https://www.inaturalist.org/observations/312236858",
+  "references": "https://www.inaturalist.org/observations/312236858",
+  "recordedBy": "Jason Webb",
+  "identifiedBy": "Jason Webb",
+  "eventDate": "2025-09-07T10:20:48",
+  "stateProvince": "Minnesota",
+  "county": null,
+  "locality": null,
+  "lat": 44.934002,
+  "lon": -92.998597,
+  "uncertainty_m": null,
+  "issues": [
+   "COORDINATE_ROUNDED",
+   "CONTINENT_DERIVED_FROM_COORDINATES",
+   "TAXON_ID_NOT_FOUND"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "media": [
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/563714279/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/563714279",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/563714329/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/563714329",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/563714380/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/563714380",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/563714418/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/563714418",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/563714459/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/563714459",
+    "format": "image/jpeg"
+   }
+  ]
+ },
+ "4924717385": {
+  "scientificName": "Cantharellus cibarius Fr.",
+  "acceptedScientificName": "Cantharellus cibarius Fr.",
+  "basis": "PRESERVED_SPECIMEN",
+  "dataset": "Bell Museum fungi",
+  "publisher": "927f1e70-cf74-11d8-bf68-b8a03c50a862",
+  "institution": "MIN",
+  "catalog": "925404",
+  "occurrenceID": "3769b556-2bac-47c3-88dc-329c36ef87ce",
+  "references": "https://bellatlas.umn.edu/collections/individual/index.php?occid=3242061",
+  "recordedBy": "D. J. McLaughlin",
+  "identifiedBy": null,
+  "eventDate": "2011-08-17",
+  "stateProvince": "Minnesota",
+  "county": "Morrison",
+  "locality": "Lake Alexander Woods Scientific and Natural Area",
+  "lat": null,
+  "lon": null,
+  "uncertainty_m": null,
+  "issues": [
+   "TAXON_ID_NOT_FOUND",
+   "AMBIGUOUS_COLLECTION"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "media": [
+   {
+    "identifier": "https://bellatlas-images.s3.msi.umn.edu/MIN_Fungi/01410/1410009_lg.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": null,
+    "rightsHolder": "Bell Museum fungi",
+    "references": null,
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://bellatlas-images.s3.msi.umn.edu/MIN_Fungi/01410/1410009_1_lg.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": null,
+    "rightsHolder": "Bell Museum fungi",
+    "references": null,
+    "format": "image/jpeg"
+   }
+  ]
+ },
+ "6422752950": {
+  "scientificName": "Cantharellus phasmatis Foltz & T.J.Volk",
+  "acceptedScientificName": "Cantharellus phasmatis Foltz & T.J.Volk",
+  "basis": "HUMAN_OBSERVATION",
+  "dataset": "iNaturalist research-grade observations",
+  "publisher": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+  "institution": "iNaturalist",
+  "catalog": "375341531",
+  "occurrenceID": "https://www.inaturalist.org/observations/375341531",
+  "references": "https://www.inaturalist.org/observations/375341531",
+  "recordedBy": "Jason Webb",
+  "identifiedBy": "Jason Webb",
+  "eventDate": "2026-06-25T13:11:38",
+  "stateProvince": "Minnesota",
+  "county": null,
+  "locality": null,
+  "lat": 44.820864,
+  "lon": -93.25685,
+  "uncertainty_m": null,
+  "issues": [
+   "COORDINATE_ROUNDED",
+   "CONTINENT_DERIVED_FROM_COORDINATES",
+   "TAXON_ID_NOT_FOUND"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "media": [
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/686153360/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/686153360",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/686153431/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/686153431",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/686153482/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/686153482",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/686153519/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/686153519",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/686153550/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/686153550",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/686153594/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jason Webb",
+    "rightsHolder": "Jason Webb",
+    "references": "https://www.inaturalist.org/photos/686153594",
+    "format": "image/jpeg"
+   }
+  ]
+ },
+ "2286106769": {
+  "scientificName": "Cantharellus lateritius (Berk.) Singer",
+  "acceptedScientificName": "Cantharellus lateritius (Berk.) Singer",
+  "basis": "PRESERVED_SPECIMEN",
+  "dataset": "Bell Museum fungi",
+  "publisher": "927f1e70-cf74-11d8-bf68-b8a03c50a862",
+  "institution": "MIN",
+  "catalog": "958407",
+  "occurrenceID": "54af18d6-2b2b-4de1-80a0-64a463f4c157",
+  "references": "https://bellatlas.umn.edu/collections/individual/index.php?occid=1408801",
+  "recordedBy": "McLaughlin, David J.",
+  "identifiedBy": "McLaughlin, David J.",
+  "eventDate": "1989-09-11",
+  "stateProvince": "Minnesota",
+  "county": "Clearwater",
+  "locality": "Iron Springs Bog Scientific and Natural Area",
+  "lat": 47.3,
+  "lon": -95.2,
+  "uncertainty_m": null,
+  "issues": [
+   "GEODETIC_DATUM_ASSUMED_WGS84",
+   "CONTINENT_DERIVED_FROM_COORDINATES",
+   "TAXON_ID_NOT_FOUND",
+   "AMBIGUOUS_COLLECTION"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "media": [
+   {
+    "identifier": "https://bellatlas-images.s3.msi.umn.edu/MIN_Fungi/01300/1300807_lg.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": null,
+    "rightsHolder": "Bell Museum fungi",
+    "references": null,
+    "format": "image/jpeg"
+   }
+  ]
+ },
+ "6320080540": {
+  "scientificName": "Podophyllum peltatum L.",
+  "acceptedScientificName": "Podophyllum peltatum L.",
+  "basis": "HUMAN_OBSERVATION",
+  "dataset": "iNaturalist research-grade observations",
+  "publisher": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+  "institution": "iNaturalist",
+  "catalog": "360795623",
+  "occurrenceID": "https://www.inaturalist.org/observations/360795623",
+  "references": "https://www.inaturalist.org/observations/360795623",
+  "recordedBy": "Michelle Orcutt",
+  "identifiedBy": "Michelle Orcutt",
+  "eventDate": "2026-05-11T12:00:27",
+  "stateProvince": "Minnesota",
+  "county": null,
+  "locality": null,
+  "lat": 44.26088,
+  "lon": -92.408067,
+  "uncertainty_m": 10.0,
+  "issues": [
+   "COORDINATE_ROUNDED",
+   "CONTINENT_DERIVED_FROM_COORDINATES",
+   "TAXON_ID_NOT_FOUND"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+  "media": [
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/658393537/original.jpg",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "creator": "Michelle Orcutt",
+    "rightsHolder": "Michelle Orcutt",
+    "references": "https://www.inaturalist.org/photos/658393537",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/658394280/original.jpg",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "creator": "Michelle Orcutt",
+    "rightsHolder": "Michelle Orcutt",
+    "references": "https://www.inaturalist.org/photos/658394280",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/658394262/original.jpg",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "creator": "Michelle Orcutt",
+    "rightsHolder": "Michelle Orcutt",
+    "references": "https://www.inaturalist.org/photos/658394262",
+    "format": "image/jpeg"
+   }
+  ]
+ },
+ "6413856635": {
+  "scientificName": "Aesculus glabra Willd.",
+  "acceptedScientificName": "Aesculus glabra Willd.",
+  "basis": "HUMAN_OBSERVATION",
+  "dataset": "iNaturalist research-grade observations",
+  "publisher": "28eb1a3f-1c15-4a95-931a-4af90ecb574d",
+  "institution": "iNaturalist",
+  "catalog": "372161370",
+  "occurrenceID": "https://www.inaturalist.org/observations/372161370",
+  "references": "https://www.inaturalist.org/observations/372161370",
+  "recordedBy": "Jake",
+  "identifiedBy": "Jake",
+  "eventDate": "2026-06-15T19:21:49",
+  "stateProvince": "Minnesota",
+  "county": null,
+  "locality": null,
+  "lat": 44.693628,
+  "lon": -93.225578,
+  "uncertainty_m": null,
+  "issues": [
+   "COORDINATE_ROUNDED",
+   "CONTINENT_DERIVED_FROM_COORDINATES",
+   "TAXON_ID_NOT_FOUND"
+  ],
+  "license": "http://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "media": [
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/680037318/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jake",
+    "rightsHolder": "Jake",
+    "references": "https://www.inaturalist.org/photos/680037318",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/680037189/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jake",
+    "rightsHolder": "Jake",
+    "references": "https://www.inaturalist.org/photos/680037189",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/680037228/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jake",
+    "rightsHolder": "Jake",
+    "references": "https://www.inaturalist.org/photos/680037228",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/680037258/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jake",
+    "rightsHolder": "Jake",
+    "references": "https://www.inaturalist.org/photos/680037258",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/680037289/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jake",
+    "rightsHolder": "Jake",
+    "references": "https://www.inaturalist.org/photos/680037289",
+    "format": "image/jpeg"
+   },
+   {
+    "identifier": "https://inaturalist-open-data.s3.amazonaws.com/photos/680037352/original.jpg",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "creator": "Jake",
+    "rightsHolder": "Jake",
+    "references": "https://www.inaturalist.org/photos/680037352",
+    "format": "image/jpeg"
+   }
+  ]
  }
 }
