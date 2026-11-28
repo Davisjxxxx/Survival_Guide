@@ -1,0 +1,99 @@
+{
+  "batch": "W2C-B08",
+  "pages": [
+    "Z13-P33",
+    "Z04-P50",
+    "Z13-P36",
+    "Z13-P43",
+    "Z04-P19"
+  ],
+  "widths": [
+    390,
+    1280
+  ],
+  "network_requests": [],
+  "javascript_errors": [],
+  "axe_violations": {
+    "Z13-P33": [],
+    "Z04-P50": [],
+    "Z13-P36": [],
+    "Z13-P43": [],
+    "Z04-P19": []
+  },
+  "axe_incomplete": {
+    "Z13-P33": [],
+    "Z04-P50": [],
+    "Z13-P36": [],
+    "Z13-P43": [],
+    "Z04-P19": []
+  },
+  "figure_alt": {
+    "Z13-P33": "A household of four. Left: the minimum of 1 gallon per person per day for 3 days drawn as a grid of 12 one-gallon jugs, one row per person and one column per day. Centre: the 2-week goal of 56 gallons drawn as eleven 5-gallon containers and one 1-gallon jug. Right: more water for pregnancy, illness, pets or a hot climate, and storage in a cool place (50 to 70 degrees F) out of direct sunlight and away from gasoline and pesticides. Conceptual, not to scale.",
+    "Z04-P50": "Top: a two-year timeline with self-filled drinking water replaced every 6 months (refill marks at 0, 6, 12, 18 and 24 months, drawn to scale); commercial bottled water follows its printed date. Lower left: containers are replaced when they leak, the cap swells, the plastic turns brittle or the water smells. Lower right: water is stored cool (50 to 70 degrees F), out of direct sunlight and away from fuel and pesticides, with a portable portion ready for evacuation. Conceptual, not to scale apart from the timeline.",
+    "Z13-P36": "Three advisory tiers. Boil Water: germs; bring tap water to a full rolling boil for 1 minute (3 minutes above 6,500 feet), even if it was filtered, and use bottled or boiled water for drinking, food and brushing teeth; use ready-made infant formula when available. Do Not Drink: chemicals or toxins; use bottled water for drinking, cooking, brushing teeth, washing produce, formula, ice and pets; boiling does not make the water safe. Do Not Use: any contact may be dangerous; use bottled water for every purpose. During any advisory, no water or ice from refrigerator dispensers. Conceptual, not to scale.",
+    "Z13-P43": "Left: every year a laboratory certified for drinking-water testing checks the well for total coliform bacteria, nitrate, total dissolved solids and pH. Centre: test again after flooding, well repair or a change in taste, odour or colour, and before bringing a new baby home; test more often where small children, elderly adults, or pregnant or nursing people live. Right: boiling evaporates water but leaves the nitrate, so the same nitrate ends up in less water; above 10 mg/L nitrate use bottled water, especially for formula for babies under six months. Conceptual, not to scale.",
+    "Z04-P19": "Left: a flooded street carries sewage from an overflowing pipe, a drum of hazardous waste, debris and a downed power line in the water; the person on dry ground stays out of the water and never walks or drives across a flooded road. Right: drinking water comes from stored or sealed supplies and official distribution until local officials say how the water can be used; food or drink touched by floodwater can cause diarrheal disease. Conceptual, not to scale."
+  },
+  "outputs": {
+    "visual/w2c_context/W2C-B08/W2C-B08-letter.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "Letter",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "419f0ea2cc43f4c7c1693f508c1188a2eafb9a85558411bfae2bcf53ac3c062b"
+    },
+    "visual/w2c_context/W2C-B08/W2C-B08-a4.pdf": {
+      "inspection": {
+        "sheets": 5,
+        "format": "A4",
+        "structure": true,
+        "language": "en",
+        "figure_alt_entries": 5,
+        "bookmarks": 5,
+        "extracted_section_order": true
+      },
+      "sha256": "fae25d11393803ba25cab4ea38e56801c5426f99e9c6065f81fa4be576f11501"
+    },
+    "visual/w2c_context/W2C-B08/W2C-B08-compare.jpg": {
+      "sha256": "5d150f0fb0acbc22fa270a29385f7d38902b45adc6ddd50f30e9d1bb4a300b19",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B08/W2C-B08-compare-gray.jpg": {
+      "sha256": "3a1b33461159647db5e5cf3afeaf1260213be85c103c56a498fa5d12625668b5",
+      "size": [
+        1230,
+        1490
+      ]
+    },
+    "visual/w2c_context/W2C-B08/W2C-B08-phone.jpg": {
+      "sha256": "c2e21167d5783ed6db31475cd24d15a3c8167db9897cd2cb3fc97caaa82e767d",
+      "size": [
+        1482,
+        1850
+      ]
+    },
+    "visual/w2c_context/W2C-B08/W2C-B08-desktop.jpg": {
+      "sha256": "c992e344bb7906412e34c9ac6f3fb3614adbe022bf9473cc70ca7e5c30b4eb4b",
+      "size": [
+        1310,
+        2065
+      ]
+    },
+    "visual/w2c_context/W2C-B08/W2C-B08-print.jpg": {
+      "sha256": "3f969b4bb01137ca3d61cfcb0f3e27a24c491aaa07d67b52a9865b5ffb98b77e",
+      "size": [
+        1570,
+        1675
+      ]
+    }
+  },
+  "chromium": "155.0.8059.79"
+}

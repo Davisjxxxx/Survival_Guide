@@ -438,12 +438,12 @@ applies: Homes, apartments, and rural residences building baseline and extended 
 equipment: Sealed commercial water cases or sanitized food-grade storage containers, permanent marker, and cool dark storage area.
 action: Treat CDC/FEMA's **1 gallon per person per day for at least 3 days** as a MINIMUM short-term floor—building toward a 2-week reserve where storage space allows, and scaling higher for summer heat, pregnant/nursing individuals, illness, infant formula, and pets. @W14,U08
 action: Account separately for drinking/cooking potable water versus non-potable utility water (toilet flushing, cleaning) so contaminated utility jugs can NEVER be confused with drinking supplies. @W06,U08,W29
-action: Store water containers off bare concrete floors (on clean wood boards/shelves) in a cool, dark, frost-free space away from gasoline, pesticides, and paint solvents whose vapors can permeate thin plastic jugs. @W06,U08
+action: Store water in a cool (50–70°F), dark place out of direct sunlight and away from gasoline, pesticides and other toxic substances. @W35,W14
 failure: Storing three one-gallon jugs next to a lawnmower gas can for a family of five and calling household water preparedness complete. @W14,W06
 verify: Confirm total stored gallons meet household headcount + pets for target days, labels separate potable/utility, and storage is cool and chemical-free. @W14,W06,U08
 stop: Any leaking, cracked, chemical-odor, or sunlight-algae-fouled storage container must be discarded or treated strictly as non-potable. @W06,W01
 diagram: ≥1 gal/person/day x 3 d minimum floor | Scale up for 2 wk, heat, kids & pets | Store cool, dark & far from fuel/chemicals
-visual: Comparative water-reserve configuration contrasting 3-day baseline floor, 14-day extended household stock, and chemical-free cool dark storage separation. Conceptual, not to scale.
+visual: For a household of four, 1 gallon per person per day for 3 days is 12 gallons and a 2-week goal is 56 gallons, with more for pregnancy, illness, pets or heat; water is stored cool and dark away from fuel and pesticides. Conceptual, not to scale.
 reviewer: Drinking-water public health and household preparedness
 
 Z13-P34 | Select, sanitize, label, and rotate food-grade household water containers | CDC Emergency Water Supply; new manuscript
@@ -485,7 +485,7 @@ failure: Boiling municipal tap water during a chemical-spill Do Not Drink adviso
 verify: Confirm exact advisory wording from local utility/health authority, shut off automatic ice/water dispensers, and use matched water controls. @W07,D12
 stop: Never guess when an advisory ends—maintain full precautions until the water utility announces formal laboratory-tested clearance. @W07,D12
 diagram: Boil Water = microbes (1 min / 3 min >6500 ft) | Do Not Drink = chemicals (NEVER boil) | Do Not Use = zero contact until cleared
-visual: Three-tier municipal water-advisory escalation ladder contrasting Boil Water, Do Not Drink, and Do Not Use compliance rules. Conceptual, not to scale.
+visual: Three advisory tiers: Boil Water (germs; boil 1 minute, 3 above 6,500 ft), Do Not Drink (chemicals or toxins; bottled water for drinking, cooking, teeth, food, formula, ice and pets; boiling does not help) and Do Not Use (bottled water for every purpose). Conceptual, not to scale.
 reviewer: Drinking-water utility and public health
 
 Z13-P37 | Isolate icemakers, humidifiers, and point-of-use filters during water advisories | CDC Drinking Water Advisories; new manuscript
@@ -576,14 +576,14 @@ Z13-P43 | Schedule annual certified-lab testing for private drinking wells | US 
 objective: Detect invisible microbial and naturally occurring or agricultural chemical contaminants in private groundwater before illness occurs.
 applies: All households drinking from private wells, especially families with infants, pregnant members, or agricultural/mineral geology.
 equipment: Sterile sample bottles from a state-certified water testing laboratory and annual maintenance calendar.
-action: Test private well water EVERY YEAR through a state-accredited/certified laboratory for total coliform bacteria, nitrates, total dissolved solids, and pH—and test additionally for arsenic (common naturally in Minnesota glacial aquifers), lead/copper (especially in older plumbing), and local agricultural/industrial contaminants per county health advice. @U05,W23,U06
-action: Retest immediately after ANY flooding, new well/pump work, household gastrointestinal illness, nearby chemical spill, or pregnant woman/infant moving into the home (high nitrates cause dangerous methemoglobinemia/"blue baby" risk and are NOT removed by boiling—boiling concentrates nitrates!). @U05,W22,W23
+action: Test private well water EVERY YEAR through a state-accredited/certified laboratory for total coliform bacteria, nitrates, total dissolved solids, and pH—and test additionally for arsenic (common naturally in Minnesota glacial aquifers), lead/copper (especially in older plumbing), and local agricultural/industrial contaminants per county health advice. @W37,U05,W23
+action: Retest immediately after ANY flooding, new well/pump work, household gastrointestinal illness, nearby chemical spill, or pregnant woman/infant moving into the home (high nitrates cause dangerous methemoglobinemia/"blue baby" risk and are NOT removed by boiling—boiling concentrates nitrates!). @W36,W37,U05
 action: Follow exact certified-lab bottle sampling and cold-shipping time limits so sample results remain valid. @U05
-failure: Boiling high-nitrate rural well water to mix infant formula, which actually evaporates water and concentrates toxic nitrates even higher. @W22,W23,U05
+failure: Boiling high-nitrate rural well water to mix infant formula, which actually evaporates water and concentrates toxic nitrates even higher. @W36,U05
 verify: Confirm annual certified-lab report is filed in the home binder and any exceedances are matched to certified treatment or safe alternate water. @U05,W21
-stop: Any positive E. coli/coliform test or chemical exceedance (nitrate/arsenic/lead) triggers immediate safe-water substitution and health-department/contractor action. @U05,W22
+stop: Any positive E. coli/coliform test or chemical exceedance (nitrate/arsenic/lead) triggers immediate safe-water substitution and health-department/contractor action. @W36,W37,U05
 diagram: Test yearly via state-certified lab | Screen coliform, nitrate, arsenic & lead | NEVER boil high-nitrate water (concentrates!)
-visual: Seasonal private-well testing timeline pairing annual certified-lab screening with post-flood/infant triggers and boiling-nitrate contraindication. Conceptual, not to scale.
+visual: An annual certified-lab test cycle (coliform, nitrate, dissolved solids, pH) with flood, repair, water-change and new-baby triggers, beside a pot showing boiling leave the same nitrate in less water. Conceptual, not to scale.
 reviewer: Hydrogeology, drinking-water toxicology, and public health
 
 Z13-P44 | Prevent residential hose backflow and plumbing cross-connections | US EPA Private Wells and CDC Water; new manuscript

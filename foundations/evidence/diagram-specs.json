@@ -153,10 +153,7 @@
     "callout": "Agricultural & road runoff bypasses microbial treatment"
   },
   "Z04-P19": {
-    "type": "failure_mode",
-    "cause": "Floodwaters mix sewage, fuel, debris & heavy silt",
-    "cue": "Swollen muddy river, oil sheen, rapid bank erosion",
-    "correction": "Stay on high ground; use potable reserves & advisories"
+    "type": "w2c_artwork"
   },
   "Z04-P20": {
     "type": "cutaway",
@@ -404,14 +401,7 @@
     "type": "w2c_artwork"
   },
   "Z04-P50": {
-    "type": "exploded",
-    "components": [
-      "6-Month Fill Date",
-      "Cool Dark Storage",
-      "Chemical-Free Zone",
-      "Evacuation Grab Jugs"
-    ],
-    "callout": "Store ≥1 gal/person/day away from heat, fuels and household cleaners"
+    "type": "w2c_artwork"
   },
   "Z04-P51": {
     "type": "w2c_artwork"
@@ -4645,24 +4635,7 @@
     "callout": "Retain heat without indoor combustion"
   },
   "Z13-P33": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "3-Day Floor",
-        "note": "≥1 gal/person/day minimum baseline",
-        "limit": "Add kids, heat & pets"
-      },
-      {
-        "name": "14-Day Target",
-        "note": "Extended outage & rural well buffer",
-        "limit": "Label potable vs utility"
-      },
-      {
-        "name": "Safe Storage",
-        "note": "Cool, dark, off bare concrete floor",
-        "limit": "Far from fuel/chemicals"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z13-P34": {
     "type": "sequence_plate",
@@ -4703,25 +4676,7 @@
     "reason": "Advisories take precedence. This is not a drain or shutdown procedure."
   },
   "Z13-P36": {
-    "type": "escalation_ladder",
-    "tiers": [
-      {
-        "role": "1 · BOIL WATER",
-        "scope": "Microbial risk",
-        "action": "Rolling boil 1 m (3 m >6500 ft) for drink/food"
-      },
-      {
-        "role": "2 · DO NOT DRINK",
-        "scope": "Chemical/toxin",
-        "action": "NEVER boil (concentrates!); bottled only"
-      },
-      {
-        "role": "3 · DO NOT USE",
-        "scope": "Severe hazard",
-        "action": "Zero tap contact (no bath/dishes) til clear"
-      }
-    ],
-    "trigger": "Follow exact local utility notice wording until formal lab clearance issues"
+    "type": "w2c_artwork"
   },
   "Z13-P37": {
     "type": "w2c_artwork"
@@ -4792,27 +4747,7 @@
     "cue": "Never pour DIY bleach down a wet submerged well or drink before lab clearance"
   },
   "Z13-P43": {
-    "type": "seasonal_timeline",
-    "variant": "crop_frost",
-    "phases": [
-      {
-        "window": "Every Year",
-        "focus": "Certified lab: coliform, nitrate, TDS, pH"
-      },
-      {
-        "window": "Regional MN",
-        "focus": "Test arsenic, lead & local ag hazards"
-      },
-      {
-        "window": "Event Retest",
-        "focus": "After floods, pump work or new infant"
-      },
-      {
-        "window": "Nitrate rule",
-        "focus": "NEVER boil high-nitrate water!"
-      }
-    ],
-    "threshold": "Boiling high-nitrate water evaporates water and concentrates toxic nitrates"
+    "type": "w2c_artwork"
   },
   "Z13-P44": {
     "type": "w2c_artwork"

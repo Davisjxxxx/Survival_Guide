@@ -86,14 +86,14 @@ Z04-P19 | Assess floodwater and post-storm surface sources | CDC emergency water
 objective: Avoid acute chemical, sewage and structural hazards when storm runoff transforms ordinary waterways.
 applies: Creeks, rivers, lakes and standing water during or immediately after heavy storms, flash floods or urban flooding.
 equipment: Bottled or stored potable reserve, local water advisories and safe high-ground access.
-action: Stay out of active floodwater; storm surges carry raw sewage, fuel, submerged debris, agricultural chemicals and extreme turbidity that defeat routine filters. @W01,W24,T07
+action: Stay out of active floodwater; storm surges carry raw sewage, fuel, submerged debris, agricultural chemicals and extreme turbidity that defeat routine filters. @W39,W01,W24
 action: Use stored potable water, sealed commercial supplies or official distribution sites while flood conditions and utility advisories persist. @W06,W07,W14
-action: Wait for official public-health clearance or safely accessible, non-flooded headwater sources before resuming routine backcountry water collection. @W07,W09,ED
+action: Wait for official public-health clearance or safely accessible, non-flooded headwater sources before resuming routine backcountry water collection. @W39,W07,ED
 failure: Trying to filter muddy floodwater at a swollen riverbank, risking both chemical exposure and bank collapse or drowning. @W01,W24,T07
 verify: Confirm all drinking water comes from verified potable reserves or cleared sources outside flood-impacted channels. @W06,W07,ED
-stop: Never wade into moving floodwater to reach a tap or stream, and never boil floodwater suspected of fuel or chemical contamination. @W01,T07
+stop: Never wade into moving floodwater to reach a tap or stream, and never boil floodwater suspected of fuel or chemical contamination. @W39,W01
 diagram: Flood mixes sewage and fuel | Rely on safe reserves | Wait for cleared sources
-visual: Failure-mode illustration showing how floodwaters combine physical drowning risk, chemical dilution failure and rapid filter clogging. Conceptual, not to scale.
+visual: A flooded street carrying sewage, hazardous waste, debris and a downed line; the person stays out of the water and drinks stored or official water until local officials clear the supply. Conceptual, not to scale.
 reviewer: Emergency management and drinking-water safety
 
 Z04-P20 | Protect against contaminated private wells after flooding | CDC private-well flood guidance; new manuscript
@@ -520,14 +520,14 @@ Z04-P50 | Rotate household water reserves and inspect seals and storage heat | C
 objective: Maintain stored household potable water so containers stay intact, cool and ready when municipal service fails.
 applies: Home, cabin and vehicle emergency water reserves prepared ahead of outages, storms or advisories.
 equipment: Commercially bottled water or sanitized food-grade jugs, permanent marker, cool dark storage space and calendar reminder.
-action: Label self-filled potable containers with fill date and rotate stored tap water every 6 months; follow printed expiration dates on sealed commercial water. @W14,W06
-action: Store water in a cool, dark location off bare concrete if recommended and well away from gasoline, pesticides, paint thinners or cleaning chemicals whose vapors can permeate plastics. @W06,W01
+action: Label self-filled potable containers with fill date and rotate stored tap water every 6 months; follow printed expiration dates on sealed commercial water. @W14,W35
+action: Store water in a cool (50–70°F), dark location out of direct sunlight and away from gasoline, pesticides and other toxic substances. @W35,W06
 action: Inspect stored jugs periodically for leaks, swollen caps, brittle plastic or off-odors, and keep a portable portion ready for rapid evacuation. @W06,W14,T13
 failure: Stacking emergency water jugs next to lawnmower gas cans in a hot garage for years without checking seals or rotating water. @W01,W06,W14
 verify: Confirm fill/expiration dates are current, seals are tight, storage stays cool and chemical-free, and at least 1 gallon per person per day for 3+ days is accessible. @W14,W06,ED
 stop: Replace any leaking, sun-degraded or chemically exposed container immediately rather than trusting its contents during an emergency. @W01,W06
 diagram: Date and rotate every 6 mo | Store cool away from fuels | Inspect seals and evacuation grab
-visual: Exploded maintenance layout detailing storage environment isolation, six-month rotation tagging, seal inspection and evacuation reserve staging. Conceptual, not to scale.
+visual: A two-year timeline marking a refill every 6 months for self-filled water and the printed date for commercial water, with leak, swollen-cap, brittle-plastic and odour checks and a portable evacuation portion. Conceptual, not to scale apart from the timeline.
 reviewer: Household preparedness and drinking-water safety
 
 Z04-P51 | Enforce potable-water boundaries for hygiene, wounds and infant formula | CDC emergency water and advisories; new manuscript

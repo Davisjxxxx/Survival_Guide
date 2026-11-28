@@ -8483,9 +8483,9 @@
       {
         "text": "Stay out of active floodwater; storm surges carry raw sewage, fuel, submerged debris, agricultural chemicals and extreme turbidity that defeat routine filters.",
         "claims": [
+          "W39",
           "W01",
-          "W24",
-          "T07"
+          "W24"
         ]
       },
       {
@@ -8499,8 +8499,8 @@
       {
         "text": "Wait for official public-health clearance or safely accessible, non-flooded headwater sources before resuming routine backcountry water collection.",
         "claims": [
+          "W39",
           "W07",
-          "W09",
           "ED"
         ]
       }
@@ -8530,12 +8530,12 @@
     "stop": {
       "text": "Never wade into moving floodwater to reach a tap or stream, and never boil floodwater suspected of fuel or chemical contamination.",
       "claims": [
-        "W01",
-        "T07"
+        "W39",
+        "W01"
       ]
     },
     "diagram": "Flood mixes sewage and fuel | Rely on safe reserves | Wait for cleared sources",
-    "visual": "Failure-mode illustration showing how floodwaters combine physical drowning risk, chemical dilution failure and rapid filter clogging. Conceptual, not to scale.",
+    "visual": "A flooded street carrying sewage, hazardous waste, debris and a downed line; the person stays out of the water and drinks stored or official water until local officials clear the supply. Conceptual, not to scale.",
     "reviewer": "Emergency management and drinking-water safety"
   },
   {
@@ -10476,14 +10476,14 @@
         "text": "Label self-filled potable containers with fill date and rotate stored tap water every 6 months; follow printed expiration dates on sealed commercial water.",
         "claims": [
           "W14",
-          "W06"
+          "W35"
         ]
       },
       {
-        "text": "Store water in a cool, dark location off bare concrete if recommended and well away from gasoline, pesticides, paint thinners or cleaning chemicals whose vapors can permeate plastics.",
+        "text": "Store water in a cool (50–70°F), dark location out of direct sunlight and away from gasoline, pesticides and other toxic substances.",
         "claims": [
-          "W06",
-          "W01"
+          "W35",
+          "W06"
         ]
       },
       {
@@ -10525,7 +10525,7 @@
       ]
     },
     "diagram": "Date and rotate every 6 mo | Store cool away from fuels | Inspect seals and evacuation grab",
-    "visual": "Exploded maintenance layout detailing storage environment isolation, six-month rotation tagging, seal inspection and evacuation reserve staging. Conceptual, not to scale.",
+    "visual": "A two-year timeline marking a refill every 6 months for self-filled water and the printed date for commercial water, with leak, swollen-cap, brittle-plastic and odour checks and a portable evacuation portion. Conceptual, not to scale apart from the timeline.",
     "reviewer": "Household preparedness and drinking-water safety"
   },
   {
@@ -46950,10 +46950,10 @@
         ]
       },
       {
-        "text": "Store water containers off bare concrete floors (on clean wood boards/shelves) in a cool, dark, frost-free space away from gasoline, pesticides, and paint solvents whose vapors can permeate thin plastic jugs.",
+        "text": "Store water in a cool (50–70°F), dark place out of direct sunlight and away from gasoline, pesticides and other toxic substances.",
         "claims": [
-          "W06",
-          "U08"
+          "W35",
+          "W14"
         ]
       }
     ],
@@ -46986,7 +46986,7 @@
       ]
     },
     "diagram": "≥1 gal/person/day x 3 d minimum floor | Scale up for 2 wk, heat, kids & pets | Store cool, dark & far from fuel/chemicals",
-    "visual": "Comparative water-reserve configuration contrasting 3-day baseline floor, 14-day extended household stock, and chemical-free cool dark storage separation. Conceptual, not to scale.",
+    "visual": "For a household of four, 1 gallon per person per day for 3 days is 12 gallons and a 2-week goal is 56 gallons, with more for pregnancy, illness, pets or heat; water is stored cool and dark away from fuel and pesticides. Conceptual, not to scale.",
     "reviewer": "Drinking-water public health and household preparedness"
   },
   {
@@ -47165,7 +47165,7 @@
       ]
     },
     "diagram": "Boil Water = microbes (1 min / 3 min >6500 ft) | Do Not Drink = chemicals (NEVER boil) | Do Not Use = zero contact until cleared",
-    "visual": "Three-tier municipal water-advisory escalation ladder contrasting Boil Water, Do Not Drink, and Do Not Use compliance rules. Conceptual, not to scale.",
+    "visual": "Three advisory tiers: Boil Water (germs; boil 1 minute, 3 above 6,500 ft), Do Not Drink (chemicals or toxins; bottled water for drinking, cooking, teeth, food, formula, ice and pets; boiling does not help) and Do Not Use (bottled water for every purpose). Conceptual, not to scale.",
     "reviewer": "Drinking-water utility and public health"
   },
   {
@@ -47541,17 +47541,17 @@
       {
         "text": "Test private well water EVERY YEAR through a state-accredited/certified laboratory for total coliform bacteria, nitrates, total dissolved solids, and pH—and test additionally for arsenic (common naturally in Minnesota glacial aquifers), lead/copper (especially in older plumbing), and local agricultural/industrial contaminants per county health advice.",
         "claims": [
+          "W37",
           "U05",
-          "W23",
-          "U06"
+          "W23"
         ]
       },
       {
         "text": "Retest immediately after ANY flooding, new well/pump work, household gastrointestinal illness, nearby chemical spill, or pregnant woman/infant moving into the home (high nitrates cause dangerous methemoglobinemia/\"blue baby\" risk and are NOT removed by boiling—boiling concentrates nitrates!).",
         "claims": [
-          "U05",
-          "W22",
-          "W23"
+          "W36",
+          "W37",
+          "U05"
         ]
       },
       {
@@ -47570,8 +47570,7 @@
     "failure": {
       "text": "Boiling high-nitrate rural well water to mix infant formula, which actually evaporates water and concentrates toxic nitrates even higher.",
       "claims": [
-        "W22",
-        "W23",
+        "W36",
         "U05"
       ]
     },
@@ -47585,12 +47584,13 @@
     "stop": {
       "text": "Any positive E. coli/coliform test or chemical exceedance (nitrate/arsenic/lead) triggers immediate safe-water substitution and health-department/contractor action.",
       "claims": [
-        "U05",
-        "W22"
+        "W36",
+        "W37",
+        "U05"
       ]
     },
     "diagram": "Test yearly via state-certified lab | Screen coliform, nitrate, arsenic & lead | NEVER boil high-nitrate water (concentrates!)",
-    "visual": "Seasonal private-well testing timeline pairing annual certified-lab screening with post-flood/infant triggers and boiling-nitrate contraindication. Conceptual, not to scale.",
+    "visual": "An annual certified-lab test cycle (coliform, nitrate, dissolved solids, pH) with flood, repair, water-change and new-baby triggers, beside a pot showing boiling leave the same nitrate in less water. Conceptual, not to scale.",
     "reviewer": "Hydrogeology, drinking-water toxicology, and public health"
   },
   {

@@ -4,47 +4,61 @@
     "encyclopedia-a4.pdf": {
       "reason": "Consolidated proof withheld until the next milestone reprint",
       "pages": [
+        "Z04-P19",
         "Z04-P35",
         "Z04-P39",
         "Z04-P40",
         "Z04-P42",
         "Z04-P45",
         "Z04-P49",
+        "Z04-P50",
+        "Z13-P33",
+        "Z13-P36",
+        "Z13-P43",
         "Z14-P52"
       ]
     },
     "encyclopedia-letter.pdf": {
       "reason": "Consolidated proof withheld until the next milestone reprint",
       "pages": [
+        "Z04-P19",
         "Z04-P35",
         "Z04-P39",
         "Z04-P40",
         "Z04-P42",
         "Z04-P45",
         "Z04-P49",
+        "Z04-P50",
+        "Z13-P33",
+        "Z13-P36",
+        "Z13-P43",
         "Z14-P52"
       ]
     },
     "foundations-a4.pdf": {
       "reason": "Consolidated proof withheld until the next milestone reprint",
       "pages": [
+        "Z04-P19",
         "Z04-P35",
         "Z04-P39",
         "Z04-P40",
         "Z04-P42",
         "Z04-P45",
-        "Z04-P49"
+        "Z04-P49",
+        "Z04-P50"
       ]
     },
     "foundations.pdf": {
       "reason": "Consolidated proof withheld until the next milestone reprint",
       "pages": [
+        "Z04-P19",
         "Z04-P35",
         "Z04-P39",
         "Z04-P40",
         "Z04-P42",
         "Z04-P45",
-        "Z04-P49"
+        "Z04-P49",
+        "Z04-P50"
       ]
     }
   }

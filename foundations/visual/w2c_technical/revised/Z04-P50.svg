@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Rotate stored water every 6 months and inspect the containers</title>
+<desc id="desc">Top: a two-year timeline with self-filled drinking water replaced every 6 months (refill marks at 0, 6, 12, 18 and 24 months, drawn to scale); commercial bottled water follows its printed date. Lower left: containers are replaced when they leak, the cap swells, the plastic turns brittle or the water smells. Lower right: water is stored cool (50 to 70 degrees F), out of direct sunlight and away from fuel and pesticides, with a portable portion ready for evacuation. Conceptual, not to scale apart from the timeline.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z04-P50 · TECHNICAL REVIEW · NOT TO SCALE EXCEPT TIMELINE</text>
+<g id="z04-p50-artwork">
+<rect x="24" y="46" width="852" height="150" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="40" y="72" class="head">SELF-FILLED WATER: REPLACE EVERY 6 MONTHS</text>
+<path d="M70 160H814.0" stroke="#183a30" stroke-width="2.4"/>
+<path d="M70.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<text x="70" y="184" class="tiny" text-anchor="middle">0 mo</text>
+<g data-refill-month="0" transform="translate(59.0 104)"><path d="M0 40V11.2Q0 6.4 7.4 4.8V0H15.4V4.8Q24.8 6.4 24.8 11.2V40Z" fill="#cfe6ef" stroke="#183a30" stroke-width="2.2"/></g>
+<path d="M163.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<path d="M256.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<text x="256" y="184" class="tiny" text-anchor="middle">6 mo</text>
+<g data-refill-month="6" transform="translate(245.0 104)"><path d="M0 40V11.2Q0 6.4 7.4 4.8V0H15.4V4.8Q24.8 6.4 24.8 11.2V40Z" fill="#cfe6ef" stroke="#183a30" stroke-width="2.2"/></g>
+<path d="M349.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<path d="M442.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<text x="442" y="184" class="tiny" text-anchor="middle">12 mo</text>
+<g data-refill-month="12" transform="translate(431.0 104)"><path d="M0 40V11.2Q0 6.4 7.4 4.8V0H15.4V4.8Q24.8 6.4 24.8 11.2V40Z" fill="#cfe6ef" stroke="#183a30" stroke-width="2.2"/></g>
+<path d="M535.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<path d="M628.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<text x="628" y="184" class="tiny" text-anchor="middle">18 mo</text>
+<g data-refill-month="18" transform="translate(617.0 104)"><path d="M0 40V11.2Q0 6.4 7.4 4.8V0H15.4V4.8Q24.8 6.4 24.8 11.2V40Z" fill="#cfe6ef" stroke="#183a30" stroke-width="2.2"/></g>
+<path d="M721.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<path d="M814.0 155v10" stroke="#183a30" stroke-width="1.6"/>
+<text x="814" y="184" class="tiny" text-anchor="middle">24 mo</text>
+<g data-refill-month="24" transform="translate(803.0 104)"><path d="M0 40V11.2Q0 6.4 7.4 4.8V0H15.4V4.8Q24.8 6.4 24.8 11.2V40Z" fill="#cfe6ef" stroke="#183a30" stroke-width="2.2"/></g>
+<text x="560" y="92" class="tiny">commercial bottles: printed date</text>
+<rect x="24" y="206" width="418" height="130" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="40" y="232" class="head warn">✕ REPLACE THE CONTAINER IF</text>
+<path d="M54 292V263.2Q54 258.4 61.4 256.8V252H69.4V256.8Q78.8 258.4 78.8 263.2V292Z" fill="#eef2f3" stroke="#183a30" stroke-width="2.2"/>
+<text x="42" y="320" class="tiny">leaking</text>
+<path d="M156 292V263.2Q156 258.4 163.4 256.8V252H171.4V256.8Q180.8 258.4 180.8 263.2V292Z" fill="#eef2f3" stroke="#183a30" stroke-width="2.2"/>
+<text x="144" y="320" class="tiny">cap swollen</text>
+<path d="M260 292V263.2Q260 258.4 267.4 256.8V252H275.4V256.8Q284.8 258.4 284.8 263.2V292Z" fill="#eef2f3" stroke="#183a30" stroke-width="2.2"/>
+<text x="248" y="320" class="tiny">brittle plastic</text>
+<path d="M368 292V263.2Q368 258.4 375.4 256.8V252H383.4V256.8Q392.8 258.4 392.8 263.2V292Z" fill="#eef2f3" stroke="#183a30" stroke-width="2.2"/>
+<text x="356" y="320" class="tiny">off odour</text>
+<path d="M64 296q-4 7 0 10q4-3 0-10z" fill="#3d7186"/><path d="M160 250q14-10 28 0" fill="none" stroke="#8b3825" stroke-width="2.4"/><path d="M268 262l8 10-6 8 8 10" fill="none" stroke="#8b3825" stroke-width="2"/><path d="M394 248q6-8 0-16M402 248q6-8 0-16" fill="none" stroke="#6b7f8c" stroke-width="2"/>
+<rect x="456" y="206" width="420" height="130" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="472" y="232" class="head ok">✓ STORE AND STAGE</text>
+<rect x="478" y="244" width="12" height="56" rx="6" fill="#ffffff" stroke="#183a30" stroke-width="2"/><rect x="481" y="270" width="6" height="28" fill="#3d7186"/>
+<text x="498" y="262" class="tiny">50 to 70 °F, dark,</text>
+<text x="498" y="283" class="tiny">away from fuel</text>
+<rect x="634" y="262" width="56" height="54" rx="10" fill="#7a8f6d" stroke="#183a30" stroke-width="2"/><rect x="646" y="250" width="12" height="16" rx="2" fill="#cfe6ef" stroke="#183a30" stroke-width="1.4"/><rect x="664" y="250" width="12" height="16" rx="2" fill="#cfe6ef" stroke="#183a30" stroke-width="1.4"/>
+<text x="700" y="282" class="tiny">portable portion</text>
+<text x="700" y="303" class="tiny">for evacuation</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Leaking, sun-degraded or chemically exposed container: replace it; do not trust the water.</text>
+</g>
+</svg>

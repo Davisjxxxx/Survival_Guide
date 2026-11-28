@@ -1,5 +1,18 @@
 [
   {
+    "page_id": "Z04-P19",
+    "batch": "W2C-B08",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z04-P19.svg",
+    "predecessor_sha256": "4580bf7dfdad49fa752400bb19f70dfdd9ef6a9003012b3b1b26a4e200d08e4c",
+    "revised": "revised/Z04-P19.svg",
+    "revised_sha256": "9b67d813366e185b9757d418881c7729e56ca05eb36eebd1d26c5cddad63efd7",
+    "active_reader_sha256": "9b67d813366e185b9757d418881c7729e56ca05eb36eebd1d26c5cddad63efd7",
+    "builder": "scripts/w2c_plates_b08.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
     "page_id": "Z04-P35",
     "batch": "W2C-B07",
     "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
@@ -74,6 +87,19 @@
     "revised_sha256": "62687b077330420d4d81fc2afdc90b2dca7d91df8b042d6aae14d8338a1eb06d",
     "active_reader_sha256": "62687b077330420d4d81fc2afdc90b2dca7d91df8b042d6aae14d8338a1eb06d",
     "builder": "scripts/w2c_plates_b07.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z04-P50",
+    "batch": "W2C-B08",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z04-P50.svg",
+    "predecessor_sha256": "92c1317bbf7f314a7614f5d2c38be58fb3864fe7c5fc11619bfc84f2fe93d36b",
+    "revised": "revised/Z04-P50.svg",
+    "revised_sha256": "ae71d3efd564d81bd02bb98ac3e344f4a6ce28e9e9ed8645f42239d42d8b874e",
+    "active_reader_sha256": "ae71d3efd564d81bd02bb98ac3e344f4a6ce28e9e9ed8645f42239d42d8b874e",
+    "builder": "scripts/w2c_plates_b08.py",
     "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
     "publication": "HOLD"
   },
@@ -174,6 +200,32 @@
     "publication": "HOLD"
   },
   {
+    "page_id": "Z13-P33",
+    "batch": "W2C-B08",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P33.svg",
+    "predecessor_sha256": "63b98ca86a3dc53d035225be4b671781b81f1fd4a411ce79f30ded537ea2dd44",
+    "revised": "revised/Z13-P33.svg",
+    "revised_sha256": "f9b0fdebd223efb45dfc69170a1a362db450a3271237838a6a452b12ecff3e3f",
+    "active_reader_sha256": "f9b0fdebd223efb45dfc69170a1a362db450a3271237838a6a452b12ecff3e3f",
+    "builder": "scripts/w2c_plates_b08.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P36",
+    "batch": "W2C-B08",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P36.svg",
+    "predecessor_sha256": "3769dca64edaa3a4d7e6db125915cfa9c014e50c164dd9aee78cd7011abb88a5",
+    "revised": "revised/Z13-P36.svg",
+    "revised_sha256": "c600f4419093978ec7913c3f790d134a08d9c40f0444ff8f12c17d71378ffaa0",
+    "active_reader_sha256": "c600f4419093978ec7913c3f790d134a08d9c40f0444ff8f12c17d71378ffaa0",
+    "builder": "scripts/w2c_plates_b08.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
     "page_id": "Z13-P37",
     "batch": "W2C-B02",
     "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
@@ -196,6 +248,19 @@
     "revised_sha256": "437803573bdea12dc4e6a18c28ecfce8484827c749340f1483c79b9241b766cf",
     "active_reader_sha256": "437803573bdea12dc4e6a18c28ecfce8484827c749340f1483c79b9241b766cf",
     "builder": "scripts/w2c_plates_b02.py",
+    "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
+    "publication": "HOLD"
+  },
+  {
+    "page_id": "Z13-P43",
+    "batch": "W2C-B08",
+    "disposition": "PROVISIONAL_EDITORIAL_CANDIDATE",
+    "predecessor": "original/Z13-P43.svg",
+    "predecessor_sha256": "2bc55135efef0f5914599ade0caca98a893afa6dc9cac9f97a5726446f0b2a49",
+    "revised": "revised/Z13-P43.svg",
+    "revised_sha256": "cd4bd4a96a319fd74d8b318e05731307e3361eecb1842fe62dac942c1bc9457a",
+    "active_reader_sha256": "cd4bd4a96a319fd74d8b318e05731307e3361eecb1842fe62dac942c1bc9457a",
+    "builder": "scripts/w2c_plates_b08.py",
     "classification": "Editable conceptual technical illustration; not an engineering, clinical or certified diagram",
     "publication": "HOLD"
   },
