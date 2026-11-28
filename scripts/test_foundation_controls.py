@@ -105,6 +105,61 @@ class ControlTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'enclosed combustion'):
             self.load(text)
 
+    def test_rt01_linter_fixtures_cover_every_instruction_surface(self):
+        """RT01-10 negative fixtures (in memory only; never manuscript text)."""
+        import copy
+        from build_foundations import lint_cards
+        cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), self.claims)
+        cases = [('Z04-P01', 'action', 'Clear water is safe.', True),
+                 ('Z04-P01', 'visual', 'Clear water is safe.', True),
+                 ('Z04-P01', 'diagram', 'Clear water is safe. | Collect | Drink', True),
+                 ('Z13-P20', 'action', 'Run the generator inside a garage.', True),
+                 ('Z13-P20', 'action', 'Do not spill fuel, then run the generator inside a garage.', True),
+                 ('Z13-P20', 'visual', 'Run the generator inside a garage.', True),
+                 ('Z12-P56', 'action', 'Swim directly against a rip current.', True),
+                 ('Z04-P01', 'action', 'Clear water is not safe merely because it looks clear.', False)]
+        for page, field, text, rejected in cases:
+            mutated = copy.deepcopy(cards)
+            if field == 'action':
+                mutated[page]['action'][0]['text'] = text
+            else:
+                mutated[page][field] = text
+            with self.subTest(page=page, field=field, text=text):
+                if rejected:
+                    with self.assertRaisesRegex(ValueError, 'Contradiction'):
+                        lint_cards(mutated)
+                else:
+                    lint_cards(mutated)
+
+    def test_delivered_figure_text_is_linted(self):
+        from build_foundations import lint_cards
+        cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), self.claims)
+        lint_cards(cards, {'Z13-P20': ['Never run the generator inside a garage.']})
+        with self.assertRaisesRegex(ValueError, 'enclosed combustion'):
+            lint_cards(cards, {'Z13-P20': ['Run the generator inside a garage.']})
+
+    def test_cross_references_must_name_another_card(self):
+        from build_foundations import validate_cross_references, statement
+        card = self.load(self.sample.replace('Pause on stable ground', 'Pause on stable ground (see Z01-P99)'))
+        with self.assertRaisesRegex(ValueError, 'Invalid cross-reference'):
+            validate_cross_references(card)
+        html = statement({'text': 'Formula has its own rules (see Z14-P74).', 'claims': ['P26']})
+        self.assertIn('<a class="xref" href="Z14-P74.html">Z14-P74</a>', html)
+
+    def test_current_evidence_assessments_reach_every_citing_panel(self):
+        """RT01-11: K09's escalated locator decision appears on all 25 citing cards."""
+        from build_foundations import load_assessments, assessments_for
+        assessments = load_assessments()
+        cards = load_cards(sorted((FOUND / 'manuscripts').glob('*.cards')), self.claims)
+        citing = [cid for cid, card in cards.items()
+                  if any('K09' in row['claims'] for row in [*card['action'], card['verify'], card['stop']])]
+        self.assertEqual(len(citing), 25)
+        for cid in citing:
+            rows = assessments_for(assessments, 'K09', cid)
+            self.assertTrue(any(r['assessment_id'] == 'W2C-E004' and r['status'].startswith('Open') for r in rows), cid)
+            html = (FOUND / 'reader' / f'{cid}.html').read_text(encoding='utf-8')
+            self.assertIn('Current assessment</strong> · W2C-E004', html)
+
     def test_figure_spec_rejects_misspelled_branch_and_cue_keys(self):
         with self.assertRaisesRegex(ValueError,'Invalid figure specification'):
             validate_spec('Z02-P42',{'type':'failure_mode','cause':'snow','symptom':'crack','correction':'leave'})

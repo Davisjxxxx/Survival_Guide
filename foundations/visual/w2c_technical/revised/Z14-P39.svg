@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Appliance thermometers in the refrigerator and freezer</title>
+<desc id="desc">Cutaway of a refrigerator with the freezer above. An appliance thermometer hangs in each compartment: the freezer reads 0 degrees F or below and the refrigerator 40 degrees F or below. The control knob is a setting, not a measurement. Frozen water containers help keep food cold. Above 40 F the food enters the danger zone; check the reading when power returns and sort food against the official charts. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z14-P39 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z14-p39-artwork">
+<rect x="80" y="70" width="230" height="262" rx="14" fill="#f6f7f2" stroke="#183a30" stroke-width="2.8"/><line x1="80" y1="150" x2="310" y2="150" stroke="#183a30" stroke-width="2.4"/>
+<path d="M100 136v-36q0-8 8-8h16q8 0 8 8v36z" fill="#dcecf3" stroke="#183a30" stroke-width="1.6"/>
+<path d="M140 136v-36q0-8 8-8h16q8 0 8 8v36z" fill="#dcecf3" stroke="#183a30" stroke-width="1.6"/>
+<path d="M180 136v-36q0-8 8-8h16q8 0 8 8v36z" fill="#dcecf3" stroke="#183a30" stroke-width="1.6"/>
+<rect x="226" y="104" width="40" height="22" rx="4" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><text x="246" y="120" class="tiny" text-anchor="middle" font-size="12">0 °F</text><text x="274" y="120" class="tiny"></text>
+<path d="M96 206h198M96 262h198" stroke="#9aa59c" stroke-width="2"/>
+<rect x="180" y="220" width="40" height="22" rx="4" fill="#ffffff" stroke="#183a30" stroke-width="1.8"/><text x="200" y="236" class="tiny" text-anchor="middle" font-size="12">38 °F</text><text x="228" y="236" class="tiny"></text>
+<circle cx="284" cy="170" r="11" fill="#e6e8e9" stroke="#183a30" stroke-width="1.8"/><path d="M284 170v-8" stroke="#183a30" stroke-width="2.2"/>
+<text x="330" y="96" class="small">freezer: 0 °F or below</text>
+<path class="lead" d="M326 92L268 112"/>
+<text x="330" y="128" class="tiny">frozen water containers</text>
+<text x="330" y="149" class="tiny">help keep food cold</text>
+<path class="lead" d="M326 124L290 140L208 134"/>
+<text x="330" y="230" class="small">refrigerator: 40 °F or below</text>
+<path class="lead" d="M326 226L222 230"/>
+<text x="330" y="176" class="tiny">control knob: a setting,</text>
+<text x="330" y="197" class="tiny">not a measured temperature</text>
+<path class="lead" d="M326 172L296 170"/>
+<rect x="620" y="46" width="256" height="290" rx="10" fill="#fbeee7" stroke="#c08a72" stroke-width="1.6"/>
+<text x="636" y="72" class="head warn">ABOVE 40 °F</text>
+<rect x="650" y="96" width="22" height="200" rx="11" fill="#ffffff" stroke="#183a30" stroke-width="2"/><rect x="654" y="96" width="14" height="110" fill="#8b3825" fill-opacity=".45"/><path d="M640 206h42" stroke="#183a30" stroke-width="2.4"/>
+<text x="690" y="212" class="small">40 °F</text>
+<text x="690" y="130" class="tiny">check the</text>
+<text x="690" y="151" class="tiny">reading when</text>
+<text x="690" y="172" class="tiny">power returns</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Readings staying above 40 °F (refrigerator) or 0 °F (freezer): evaluate the food and repair the unit.</text>
+</g>
+</svg>

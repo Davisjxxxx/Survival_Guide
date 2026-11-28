@@ -45,7 +45,7 @@
         "bookmarks": 5,
         "extracted_section_order": true
       },
-      "sha256": "ea9279e71f5d4edd1ba201f885d3126ca398aaae78781c29fcb9386f8ddd63f9"
+      "sha256": "78f1d10a51ef6272e24c27699396b18b77f3cc026c79bd96145fe215e9f9834c"
     },
     "visual/w2c_context/W2C-B02/W2C-B02-a4.pdf": {
       "inspection": {
@@ -57,38 +57,38 @@
         "bookmarks": 5,
         "extracted_section_order": true
       },
-      "sha256": "1001253629f3fc88a81edcc78c0835e1ba29bb2b5e3ae041622c062f54f01725"
+      "sha256": "2ead461a80c6787ed8c2feda44d3a8d90556f90aef899237f3f383796cb8cecc"
     },
     "visual/w2c_context/W2C-B02/W2C-B02-compare.jpg": {
-      "sha256": "0ad65b26420bb56a77a318e70333adae1429963584dfe87954dc727fd170fd49",
+      "sha256": "b1495c13c2639708182da906186935784217401f3beeccd74af6f62dd40648f0",
       "size": [
         1230,
         1490
       ]
     },
     "visual/w2c_context/W2C-B02/W2C-B02-compare-gray.jpg": {
-      "sha256": "fdf0aefa9550654c522ad5522b4f5f1f6425d49656b1de0731835b75bfb7ab4e",
+      "sha256": "47aed781c9644e5c5eaae88da793a33e90aec6240b0d20ef4a3b98ed3c55f795",
       "size": [
         1230,
         1490
       ]
     },
     "visual/w2c_context/W2C-B02/W2C-B02-phone.jpg": {
-      "sha256": "6faf34c6633173105c21fa707d1034e3d38096fd955d84a1c895b4d065cba59d",
+      "sha256": "190e5f9661f1b2b0bb9fbca121ed8ff0ea8e36287d15c218022a64b4137fcfdb",
       "size": [
         1482,
         1900
       ]
     },
     "visual/w2c_context/W2C-B02/W2C-B02-desktop.jpg": {
-      "sha256": "8579e96e45d933d767a1725759d9fd6eba46fa657e548944695dd9e7daaaa87c",
+      "sha256": "9a89207b087de5604772eec8af474613a4206410d4f64a41eb9f908517a9530a",
       "size": [
         1310,
         2065
       ]
     },
     "visual/w2c_context/W2C-B02/W2C-B02-print.jpg": {
-      "sha256": "c58b8885af4c75d87983819cafc308529e572c4a48678fe3326f77b5b8604c5f",
+      "sha256": "c58bdd8bb702fedd2a0c62c9a9b9f8fda21bd24be9ec9672f4632a24f119b554",
       "size": [
         1570,
         1675

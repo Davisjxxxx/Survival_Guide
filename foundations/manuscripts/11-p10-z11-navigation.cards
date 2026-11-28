@@ -405,17 +405,17 @@ visual: Mechanism diagram illustrating short-leg intermediate sighting and partn
 reviewer: Navigation and outdoor education
 
 Z11-P32 | Box cleanly around a pond, cliff or blowdown using right-angle offsets | Navigation mechanics and B014-P12 water barriers; new manuscript
-objective: Detour cleanly around a localized obstacle on a bearing leg and rejoin your exact original travel line on the far side.
+objective: Detour around a compact obstacle on a bearing leg and return approximately to your original travel line on the far side, then confirm your position.
 applies: Encountering a small beaver pond, blowdown tangle or rock ledge along a verified dry-land compass leg.
 equipment: Baseplate compass, pace count and clear obstacle observation.
-action: Stop safely short of the obstacle, add or subtract 90 degrees on your compass bezel toward the clearer safer side and count exact paces walking perpendicular until completely clear of the barrier. @N08,N10,ED
+action: Stop safely short of the obstacle, add or subtract 90 degrees on your compass bezel toward the clearer safer side and count paces walking perpendicular until clear of the barrier. @N08,N10,ED
 action: Return the bezel to your original travel bearing and walk forward until clear of the obstacle's far end. @N08,ED
-action: Reverse the 90-degree turn back toward your original line and walk the EXACT same pace count as your first offset leg, then reset to your original bearing to continue on line. @N08,ED
+action: Reverse the 90-degree turn back toward your original line and pace the same distance as your first offset leg, adding paces where slope or brush shortens your stride, then reset to your original bearing; the regained line is approximate. @N08,N15,ED
 failure: Guessing an angled curve around a pond without counting paces, drifting hundreds of yards off the original bearing and missing the next checkpoint. @N08,N10
-verify: Confirm perpendicular offset paces match on entry and return legs and verify the resumed bearing against surrounding map landforms. @N08,N03,ED
+verify: A matching count only estimates the return; confirm your position against map landforms or a known feature before relying on the resumed line. @N15,N03,ED
 stop: Use right-angle boxing only for compact obstacles on safe firm land; large lakes, cliffs or extensive wetlands require full map rerouting, not blind pacing. @N10,X12,N02
-diagram: Turn 90° & count exact paces | Pass obstacle on main bearing | Turn back 90° & match paces
-visual: Mechanism diagram illustrating the four-leg 90-degree rectangular obstacle detour with matched entry and return pace counts. Conceptual, not to scale.
+diagram: Turn 90° & count paces | Pass obstacle on main bearing | Turn back 90°; same distance, approximate
+visual: Mechanism diagram of a four-leg right-angle detour around a compact obstacle; the return offset is paced to the same distance and the regained line stays approximate until checked against the map. Conceptual, not to scale.
 reviewer: Navigation and outdoor education
 
 Z11-P33 | Estimate walking distance using pace count and terrain-adjusted timing | B014 r01 slot R07 and NPS hiking safety; new manuscript
@@ -423,7 +423,7 @@ objective: Track roughly how far you have traveled along a leg so you know when 
 applies: Trail and backcountry navigation between verified map checkpoints.
 equipment: Pre-measured personal pace count (double-steps per 100 meters or 100 yards) and wristwatch.
 action: Measure your normal double-step pace count (counting every time your left foot strikes) over a measured flat 100-meter or 100-yard course at home wearing a typical pack before heading to the backcountry. @E01,ED
-action: Adjust distance and time expectations downward for uphill grades, deep snow, heavy mud, thick brush, heavy packs and group fatigue—terrain shortens stride length dramatically compared to flat pavement. @E01,E11,ED
+action: Adjust distance and time expectations downward for uphill grades, deep snow, heavy mud, thick brush, heavy packs and group fatigue—terrain shortens stride length dramatically compared to flat pavement. @E01,E11,N15,ED
 action: Pair pace counting (best for short segments under a few hundred yards) with elapsed clock time (best for longer trail legs, adding extra minutes for elevation climb) so you catch missed junctions early. @E01,ED
 failure: Assuming a 3-mph flat-park walking pace applies in ankle-deep winter snow or steep rocky climbs, misjudging arrival time by hours. @E01,E11
 verify: Recalibrate your elapsed-time estimate against actual map distance at the first two confirmed trail checkpoints. @E01,ED
@@ -838,18 +838,18 @@ diagram: Low dim mode saves battery | 3 flashes when SAR is near | Never blind p
 visual: Comparative configuration contrasting battery-conserving dim task lighting, periodic high-beam distress flashes and safe helicopter ground-illumination. Conceptual, not to scale.
 reviewer: Search and rescue and field equipment
 
-Z11-P63 | Prepare a concise structured rescue report before placing an emergency call | ARC first aid and NPS emergency plan; new manuscript
-objective: Deliver vital location, medical and hazard information cleanly in the first 30 seconds before a weak call drops.
-applies: Calling 911, texting 911 or composing a short satellite SOS message during any outdoor or disaster emergency.
-equipment: Written pencil/paper notes or pre-typed message draft, phone/communicator and map.
-action: Write down six essentials BEFORE dialing or pressing send: (1) exact location or Last Known Point + coordinate format, (2) nature of emergency & number of injured/total people, (3) immediate medical red flags (responsiveness, breathing, bleeding, hypothermia/heat). @T02,T06,N09
-action: Add (4) surrounding access hazards (flooded roads, steep cliffs, ice, downed wires, weather), (5) shelter/water/battery status and clothing colors, and (6) confirmation whether you are staying put and your callback number. @T06,T02,N09
-action: Lead with LOCATION FIRST when speaking or texting on a fading battery or weak signal—if the call drops ten seconds in, dispatch still knows where to send help. @T06,T02,T11
-failure: Spending two minutes explaining how the trip started on a 3% battery before ever stating the park name, trailhead or injury. @T06,T02
-verify: Review your six written items aloud calmly before dialing and ask the dispatcher to confirm they received your exact location. @T06,T02,ED
+Z11-P63 | Call at once with your location first and keep a structured rescue report ready | ARC first aid and NPS emergency plan; new manuscript
+objective: Get help moving immediately and give dispatch your location first; a report prepared in advance fills in the rest without delaying the call.
+applies: Calling or texting 911 or sending a satellite SOS during any outdoor or disaster emergency; the report card is filled in before the trip and completed while help is on the way.
+equipment: Phone or satellite communicator, map, and a report card or pre-typed message draft prepared before the trip.
+action: For unresponsiveness, abnormal breathing, severe bleeding or any doubt, call, text or press SOS now; do not stop to write notes first. With a phone, keep giving care while you talk to the dispatcher and follow the dispatcher's instructions. @T17,T02
+action: Lead with LOCATION FIRST when speaking or texting (place name, trail or road, coordinates with their format, or your last known point) so that if the call drops, dispatch still knows where to send help. @T06,T02,N09
+action: Keep a six-item report ready as an aid, not a precondition: (1) location format and last known point, (2) people and injuries, (3) red flags (responsiveness, breathing, bleeding, cold or heat), (4) access hazards, (5) shelter, water and battery, (6) stay-put plan and callback number. Fill it in before the trip and complete it while help is on the way or when the dispatcher asks. @T06,T11,N09
+failure: Delaying the call to write out a checklist while a companion is unresponsive or bleeding, or spending two minutes on how the trip started before stating the park name, trailhead or injury. @T17,T06,T02
+verify: Confirm the dispatcher has your location and callback number, then add the remaining report items as you learn them or as the dispatcher asks. @T06,T02,ED
 stop: Never hang up on 911 until the dispatcher instructs you to, and follow all dispatcher safety and medical instructions strictly within your training. @T02
-diagram: 1. Location & format FIRST | 2. People, injuries & hazards | 3. Stay-put plan & battery
-visual: Exploded six-item dispatch-handoff card ordering location first, medical red flags, site hazards and stay-put confirmation for weak-signal calls. Conceptual, not to scale.
+diagram: Life threat: call now, location first | Report card: six items prepared ahead | Add details while help is on the way
+visual: Call-first sequence: an immediate call that leads with location for any life threat, beside a six-item report card prepared before the trip and completed while help is on the way. Conceptual, not to scale.
 reviewer: Emergency dispatch and search and rescue
 
 Z11-P64 | Communicate accurate coordinates, datum and last-known-point uncertainty | USGS US Topo and NPS emergency plan; new manuscript

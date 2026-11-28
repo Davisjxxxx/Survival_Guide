@@ -21,15 +21,16 @@
 <path d="M232 186L170 180" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
 <path d="M78 200V262" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
 <path d="M120 316H300" fill="none" stroke="#8b3825" stroke-width="3.5" marker-end="url(#m-reverse)"/>
-<path class="lead" d="M282 266L334 226"/>
-<text x="338" y="214" class="tiny">hose end under</text>
-<text x="338" y="235" class="tiny">soapy liquid</text>
+<path class="lead" d="M282 266L334 200"/>
+<text x="338" y="194" class="tiny">hose end</text>
+<text x="338" y="215" class="tiny">under soapy</text>
+<text x="338" y="236" class="tiny">liquid</text>
 <path class="lead" d="M196 172L204 132"/>
 <text x="150" y="100" class="tiny">liquid pulled back</text>
 <text x="150" y="121" class="tiny">into house pipes</text>
 <path class="lead" d="M390 300L396 290"/>
-<text x="336" y="266" class="tiny">main break:</text>
-<text x="336" y="287" class="tiny">pressure drops</text>
+<text x="332" y="266" class="tiny">main break:</text>
+<text x="332" y="287" class="tiny">pressure drop</text>
 <rect x="468" y="300" width="402" height="32" fill="#c9b48a" stroke="#8a7350" stroke-width="1.5"/>
 <rect x="496" y="78" width="16" height="222" fill="#d7d0bd" stroke="#7d7462" stroke-width="1.5"/>
 <path d="M504 128L504 316L860 316" fill="none" stroke="#4a5a62" stroke-width="12" stroke-linejoin="round"/><path d="M504 128L504 316L860 316" fill="none" stroke="#8fa3ad" stroke-width="9" stroke-linejoin="round"/>
@@ -51,10 +52,10 @@
 <rect x="792" y="226" width="56" height="70" rx="8" fill="#9fb6a0" stroke="#3f5a46" stroke-width="2"/><path d="M792 240h56M792 282h56" stroke="#3f5a46" stroke-width="1.5"/>
 <path d="M792 262L760 262L760 310" fill="none" stroke="#7d857a" stroke-width="9" stroke-linejoin="round"/><path d="M792 262L760 262L760 310" fill="none" stroke="#c4c9c0" stroke-width="6" stroke-linejoin="round"/>
 <circle cx="760" cy="286" r="11" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M755 281.1L765 290.9M765 281.1L755 290.9" stroke="#8b3825" stroke-width="3"/>
-<text x="736" y="98" class="tiny">rain barrel, sump or</text>
-<text x="736" y="119" class="tiny">untreated pump: no</text>
-<text x="736" y="140" class="tiny">hard connection to</text>
-<text x="736" y="161" class="tiny">house plumbing</text>
+<text x="722" y="98" class="tiny">rain barrel, sump or</text>
+<text x="722" y="119" class="tiny">untreated pump: no</text>
+<text x="722" y="140" class="tiny">hard connection to</text>
+<text x="722" y="161" class="tiny">house plumbing</text>
 <path class="lead" d="M812 224L806 184"/>
 <rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
 <text x="37" y="367" class="small">Suspected backsiphonage: stop drinking tap water; call the utility and a licensed plumber.</text>

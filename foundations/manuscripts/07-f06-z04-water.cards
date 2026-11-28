@@ -531,17 +531,18 @@ visual: Exploded maintenance layout detailing storage environment isolation, six
 reviewer: Household preparedness and drinking-water safety
 
 Z04-P51 | Enforce potable-water boundaries for hygiene, wounds and infant formula | CDC emergency water and advisories; new manuscript
-objective: Apply safe-water standards consistently to teeth brushing, food washing, wound rinsing and infant feeding during advisories.
+objective: Apply safe-water standards consistently to teeth brushing, food washing and wound rinsing during advisories, and keep infant formula under its own preparation rules.
 applies: Boil-water advisories, backcountry camps and disaster outages where untreated water is nearby for utility tasks.
-equipment: Verified potable water, separate labeled utility water if permitted by notice, soap or alcohol hand sanitizer and clean utensils.
-action: Use only bottled or properly boiled-and-cooled water for drinking, mixing infant formula, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes. @W29,W07
+equipment: Verified potable water, labeled utility water if the notice permits, ready-to-feed formula for formula-fed infants, soap and clean utensils.
+action: Use only bottled or properly boiled-and-cooled water for drinking, brushing teeth, washing ready-to-eat produce, making ice and washing food-contact dishes. @W29,W07
+action: Treat infant formula as its own task (see Z14-P74): ready-to-feed is safest, especially under 2 months, premature or with a weakened immune system. Powder is not sterile, so safe water alone is not enough; follow current CDC and local directions. Under a chemical advisory, boiling does not help: use bottled water or ready-to-feed. @P26,P36,W07
 action: Rinse open wounds only with confirmed clean potable water (or sterile saline if available); never irrigate wounds with untreated stream, flood or bloom-affected water. @W29,W15,T01
 action: Under a Do Not Use advisory, obey official prohibitions on bathing, dishwashing and skin contact completely until authorities lift the order. @W07,W29
-failure: Boiling water for drinking while brushing teeth, washing lettuce or mixing baby formula with unboiled advisory tap water. @W29,W07
-verify: Confirm every ingestion, oral-hygiene, food-prep, infant-formula and wound-care task draws exclusively from the verified potable supply. @W29,W07,ED
-stop: If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance. @W29,T02,ED
-diagram: Ingestion and formula: potable | Wounds and dishes: potable | Do-Not-Use: zero tap contact
-visual: Decision tree routing household and field hygiene tasks strictly between verified potable supplies and official advisory prohibitions. Conceptual, not to scale.
+failure: Brushing teeth or washing lettuce with unboiled advisory tap water, or treating safe water as the only precaution when mixing powder for a newborn. @W29,W07,P26
+verify: Confirm every ingestion, oral-hygiene, food-prep and wound-care task draws from the verified potable supply, and that infant formula follows its separate CDC directions. @W29,W07,P26,ED
+stop: If safe water cannot be secured for infant formula or wound care, prioritize ready-to-feed liquid formula and request immediate public-health or medical assistance. @P26,W29,T02,ED
+diagram: Drinking, teeth, food & ice: potable water | Infant formula: separate rules; ready-to-feed safest | Do-Not-Use: zero tap contact
+visual: Task routing: drinking, teeth, food and dish tasks use verified potable water; infant formula follows its own CDC rules; wounds get potable water or saline; a Do Not Use notice stops all tap contact. Conceptual, not to scale.
 reviewer: Public health and wilderness medicine
 
 Z04-P52 | Recognize filter bypass, expired bleach and incomplete UV cycles | CDC water treatment limits; new manuscript

@@ -50,9 +50,9 @@ def z13_p44():
     p.arrow('M232 186L170 180', 'reverse', 3.5)
     p.arrow('M78 200V262', 'reverse', 3.5)
     p.arrow('M120 316H300', 'reverse', 3.5)
-    p.lead((282, 266), (334, 226)).lines(338, 214, ['hose end under', 'soapy liquid'], 'tiny')
+    p.lead((282, 266), (334, 200)).lines(338, 194, ['hose end', 'under soapy', 'liquid'], 'tiny')
     p.lead((196, 172), (204, 132)).lines(150, 100, ['liquid pulled back', 'into house pipes'], 'tiny')
-    p.lead((390, 300), (396, 290)).lines(336, 266, ['main break:', 'pressure drops'], 'tiny')
+    p.lead((390, 300), (396, 290)).lines(332, 266, ['main break:', 'pressure drop'], 'tiny')
     # --- right: vacuum breaker, air gap, isolated cistern
     p.add(ground(468, 300, 402, 32))
     p.add('<rect x="496" y="78" width="16" height="222" fill="#d7d0bd" stroke="#7d7462" stroke-width="1.5"/>')
@@ -73,7 +73,7 @@ def z13_p44():
           '<path d="M792 240h56M792 282h56" stroke="#3f5a46" stroke-width="1.5"/>')
     p.add(pipe([(792, 262), (760, 262), (760, 310)], 6, '#c4c9c0', '#7d857a'))
     p.add(cross(760, 286, 11))
-    p.lines(736, 98, ['rain barrel, sump or', 'untreated pump: no', 'hard connection to', 'house plumbing'], 'tiny')
+    p.lines(722, 98, ['rain barrel, sump or', 'untreated pump: no', 'hard connection to', 'house plumbing'], 'tiny')
     p.lead((812, 224), (806, 184))
     p.band('Suspected backsiphonage: stop drinking tap water; call the utility and a licensed plumber.')
     return p.svg()
@@ -234,7 +234,7 @@ def z13_p41():
           '<rect x="630" y="256" width="18" height="8" fill="#183a30"/><path d="M648 260h18" stroke="#183a30" stroke-width="1.6"/>'
           '<rect x="666" y="252" width="40" height="16" rx="3" fill="#f7e5a6" stroke="#183a30" stroke-width="1.4"/>')
     p.lines(716, 258, ['pump breaker', 'labelled'], 'tiny')
-    p.lines(624, 312, ['cap and wiring: licensed', 'contractors only'], 'tiny')
+    p.lines(624, 306, ['cap and wiring: licensed', 'contractors only'], 'tiny')
     p.band('Muddy water, sputtering or a tripping breaker: switch the well off; call a licensed contractor.')
     return p.svg()
 

@@ -70,16 +70,16 @@ reviewer: Emergency and wilderness medicine
 
 Z10-P06 | Track patient trends over time with written logs for EMS handoff | NIH MedlinePlus and NPS Emergency Plan; new manuscript
 objective: Record objective timed observations so delayed rescuers can detect silent clinical deterioration immediately.
-applies: Any injured or ill patient waiting more than fifteen minutes for evacuation or clinical evaluation.
+applies: Any injured or ill patient waiting for evacuation or clinical evaluation.
 equipment: Waterproof notepad or index card, pencil (works in freezing wet weather), and watch.
 action: Write down the exact injury/onset time, mechanism of harm, allergies, current medications, and baseline mental status (alert, confused, responds to voice, or unresponsive) right after initial stabilization. @M20,T06
-action: Re-check and log breathing effort, skin color/warmth, bleeding dressing saturation, pain changes, and mental clarity at steady intervals—roughly every 15 minutes for unstable patients or every 30 to 60 minutes if stable. @M20,M05
+action: Keep watching an unstable or unresponsive patient's breathing and responsiveness the whole time; the log never replaces watching. Each time you reassess, and whenever anything changes, write the time with breathing effort, skin color/warmth, dressing saturation, pain and mental clarity. @M31,M22,M20
 action: Hand the written time-stamped sheet directly to EMS or SAR clinicians on arrival rather than relying on memory under stress. @M20,T06
 failure: Relying on verbal memory across a two-hour carryout and forgetting when a tourniquet was applied or when confusion first started. @M20,M02
 verify: Confirm times, baseline symptoms, interventions, and trend direction (improving, steady, or worsening) are legible on paper. @M20,ED
 stop: Downward trend in responsiveness, rising breathing effort, spreading swelling, or new neurological signs requires immediate emergency escalation regardless of earlier stability. @T02,M20,M11
-diagram: Log baseline time & mechanism | Recheck trends on fixed intervals | Transfer written sheet to EMS
-visual: Time-progression monitoring timeline mapping baseline assessment, 15-minute unstable rechecks, trend comparison, and EMS handoff. Conceptual, not to scale.
+diagram: Log baseline time & mechanism | Watch breathing continuously; log each recheck | Transfer written sheet to EMS
+visual: Timeline separating continuous watching of an unstable patient's breathing and responsiveness from the timed written entries made at each reassessment, ending with the sheet handed to EMS. Conceptual, not to scale.
 reviewer: Wilderness EMS and clinical documentation
 
 Z10-P07 | Deliver clear medical location and status reports to 911 or SAR dispatch | NPS Emergency Plan and American Red Cross; new manuscript
@@ -353,13 +353,13 @@ objective: Protect rescuers from live electrical current or hazardous chemicals 
 applies: Fuel/battery/caustic chemical skin splashes or contact with energized wiring, generators, or lightning.
 equipment: Dry non-conductive isolation awareness, clean running water, protective gloves, and Poison Control / 911 contact.
 action: Stay back from energized equipment, floodwater or downed lines. Call 911 and approach only after qualified personnel or the dispatcher confirm the area is safe. @M07,T02
-action: For chemical skin exposure, keep yourself clear of contamination, start decontamination as directed by the product label and Poison Control, and remove contaminated clothing if safe. For many liquid splashes, start rinsing promptly with running water. Identify dry or water-reactive material to dispatch rather than improvising its treatment. @M15,M16
+action: For chemical skin exposure, keep yourself clear of contamination, start decontamination as directed by the product label, Safety Data Sheet or Poison Control, and remove contaminated clothing if safe. For many liquid splashes, start rinsing promptly with running water unless that guidance says otherwise. Identify dry or water-reactive material to dispatch rather than improvising its treatment. @M32,M15,M16
 action: Call 911 for serious electrical injury, breathing difficulty or collapse. Contact Poison Control promptly for substance-specific skin or eye instructions. Read the label from a safe location. @M15,M16,M18,T02
 failure: Grabbing a person still touching an energized generator cord, or pouring a tiny cup of water onto dry caustic lime powder so it activates and spreads across skin. @M07,T01
-verify: Confirm power or chemical source is isolated, rescuers avoided contamination, and exact chemical identity or voltage context is logged for EMS. @M07,M16,T01
+verify: Confirm qualified personnel or the dispatcher declared the area safe, rescuers avoided contamination, and exact chemical identity or voltage context is logged for EMS. @M07,M16,T01
 stop: Any electrical contact, loss of consciousness, chest pain, or chemical eye/airway exposure requires immediate emergency medical evaluation. @M07,M18,T02
-diagram: Isolate power or brush dry chemical | Flush liquid chemical 20+ min clean | All electrical & eye exposures -> 911
-visual: System boundary diagram separating live electrical/chemical hazard zone from safe gloved brush-and-flush decontamination and 911 transfer. Conceptual, not to scale.
+diagram: Electrical: stay back until confirmed safe | Chemical: label, SDS or Poison Control first | 911: electrical injury, eye or airway
+visual: System boundary diagram: no approach to an energized victim until qualified personnel or the dispatcher confirm safety; chemical care follows the label, Safety Data Sheet or Poison Control, with prompt rinsing for many liquids and dry or water-reactive material reported rather than wetted; 911 for electrical injury and eye or airway exposure. Conceptual, not to scale.
 reviewer: Burn care, occupational safety, and toxicology
 
 Z10-P27 | Practice field caregiver hygiene and body-fluid barrier precautions | CDC Safe Water and USDA/CDC Hand Hygiene; new manuscript

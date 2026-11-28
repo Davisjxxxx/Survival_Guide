@@ -1,13 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 242" role="img" aria-labelledby="title desc">
-  <title id="title">Verify safe minimum internal cooking temperatures with a calibrated thermometer</title>
-  <desc id="desc">COMPARATIVE CONFIGURATION: 165°F poultry &amp; leftovers; 160°F ground | 145°F whole cuts (+3 m rest) &amp; fish | Color/juices NEVER prove safe temp — Conceptual illustration, not to scale.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" markerWidth="3" markerHeight="3" refX="8" refY="5" orient="auto"><path d="M0 0L10 5 0 10Z" fill="#285345"/></marker>
-  </defs>
-  <rect width="720" height="242" rx="12" fill="#edf1e9"/>
-  <g font-family="system-ui,sans-serif" font-size="14.5" font-weight="650" fill="#183c31">
-    <text x="20" y="23" font-size="14" font-weight="700" fill="#183c31" text-anchor="start">Z14-P37 · COMPARATIVE CONFIGURATION (CONCEPTUAL, NOT TO SCALE)</text>
-    <g id="comparison-artwork"><rect x="30" y="44" width="208" height="104" rx="8" fill="#dce8df" stroke="#315245" stroke-width="2.5"/><rect x="30" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="134.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">145°F (+3 m rest)</text><text x="40" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Whole beef, pork,</text><text x="40" y="98" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">veal, lamb &amp; fish</text><text x="40" y="112" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">(145°F)</text><rect x="38" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="134.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Check thickest center</text><rect x="256" y="44" width="208" height="104" rx="8" fill="#e5e9d5" stroke="#315245" stroke-width="2.5"/><rect x="256" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="360.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">160°F</text><text x="266" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">Ground beef/pork/lamb</text><text x="266" y="98" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">&amp; egg dishes</text><rect x="264" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="360.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Brown color ≠ safe</text><rect x="482" y="44" width="208" height="104" rx="8" fill="#e4e8ee" stroke="#315245" stroke-width="2.5"/><rect x="482" y="44" width="208" height="24" rx="6" fill="#285345"/><text x="586.0" y="60" font-size="11.5" font-weight="650" fill="#fffdf7" text-anchor="middle">165°F</text><text x="492" y="84" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">ALL poultry, stuffing</text><text x="492" y="98" font-size="11.5" font-weight="600" fill="#183c31" text-anchor="start">&amp; reheated leftovers</text><rect x="490" y="122" width="192" height="20" rx="4" fill="#faeee5" stroke="#a05332"/><text x="586.0" y="136" font-size="10" font-weight="650" fill="#7a2f15" text-anchor="middle">Calibrate in 32°F ice</text></g>
-    <g id="stage-panels"><rect x="20" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="32" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">165°F poultry &amp;</text><text x="32" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">leftovers; 160°F ground</text><rect x="253" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="265" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">145°F whole cuts (+3 m</text><text x="265" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">rest) &amp; fish</text><rect x="486" y="162" width="212" height="62" rx="7" fill="#f9faef" stroke="#90a595"/><text x="498" y="182" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">Color/juices NEVER prove</text><text x="498" y="200" font-size="14.5" font-weight="650" fill="#183c31" text-anchor="start">safe temp</text></g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Safe minimum internal temperatures checked with a food thermometer</title>
+<desc id="desc">Left: a roast cut in section with a thermometer probe in its thickest part. Centre: a scaled thermometer column from 130 to 175 degrees F with marks at 145 F for whole cuts of beef, pork, veal and lamb (with a 3-minute rest) and fish, 160 F for ground meats and egg dishes, and 165 F for poultry, casseroles and leftovers. Meat colour and juices are not a test. Conceptual, not to scale apart from the temperature column.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z14-P37 · TECHNICAL REVIEW · NOT TO SCALE EXCEPT TEMPERATURE COLUMN</text>
+<g id="z14-p37-artwork">
+<ellipse cx="190" cy="214" rx="140" ry="76" fill="#b5654a" stroke="#183a30" stroke-width="2.6"/><ellipse cx="190" cy="214" rx="96" ry="48" fill="#cf8c73"/><ellipse cx="190" cy="214" rx="46" ry="22" fill="#e1a98f"/>
+<path d="M190 214L300 104" stroke="#9aa1a5" stroke-width="5"/><circle cx="300" cy="104" r="20" fill="#ffffff" stroke="#183a30" stroke-width="2.4"/><path d="M300 104l9-7" stroke="#183a30" stroke-width="2.4"/>
+<circle cx="190" cy="214" r="6" fill="#183a30"/>
+<text x="46" y="316" class="tiny">probe tip in the thickest part</text>
+<text x="46" y="72" class="tiny warn">meat colour and juices are not a test</text>
+<rect x="420" y="68" width="20" height="260" rx="10" fill="#ffffff" stroke="#183a30" stroke-width="2.4"/><rect x="426" y="131.33333333333334" width="8" height="192.66666666666666" fill="#c0392b"/>
+<g id="temp-scale">
+<line data-temp="130" x1="440" y1="318.00" x2="452" y2="318.00" stroke="#183a30" stroke-width="1.6"/>
+<text x="412" y="323.0" class="tiny" text-anchor="end">130</text>
+<line data-temp="135" x1="440" y1="291.33" x2="446" y2="291.33" stroke="#183a30" stroke-width="1.6"/>
+<line data-temp="140" x1="440" y1="264.67" x2="452" y2="264.67" stroke="#183a30" stroke-width="1.6"/>
+<text x="412" y="269.7" class="tiny" text-anchor="end">140</text>
+<line data-temp="145" x1="440" y1="238.00" x2="446" y2="238.00" stroke="#183a30" stroke-width="1.6"/>
+<line data-temp="150" x1="440" y1="211.33" x2="452" y2="211.33" stroke="#183a30" stroke-width="1.6"/>
+<text x="412" y="216.3" class="tiny" text-anchor="end">150</text>
+<line data-temp="155" x1="440" y1="184.67" x2="446" y2="184.67" stroke="#183a30" stroke-width="1.6"/>
+<line data-temp="160" x1="440" y1="158.00" x2="452" y2="158.00" stroke="#183a30" stroke-width="1.6"/>
+<text x="412" y="163.0" class="tiny" text-anchor="end">160</text>
+<line data-temp="165" x1="440" y1="131.33" x2="446" y2="131.33" stroke="#183a30" stroke-width="1.6"/>
+<line data-temp="170" x1="440" y1="104.67" x2="452" y2="104.67" stroke="#183a30" stroke-width="1.6"/>
+<text x="412" y="109.7" class="tiny" text-anchor="end">170</text>
+<line data-temp="175" x1="440" y1="78.00" x2="446" y2="78.00" stroke="#183a30" stroke-width="1.6"/>
+</g>
+<text x="400" y="64" class="tiny">°F</text>
+<path data-mark="165" d="M454 131.33H490" stroke="#205b68" stroke-width="3"/>
+<text x="498" y="136.3" class="tiny">165 F: poultry, casseroles, leftovers</text>
+<path data-mark="160" d="M454 158.00H490" stroke="#205b68" stroke-width="3"/>
+<text x="498" y="163" class="tiny">160 F: ground meats, egg dishes</text>
+<path data-mark="145" d="M454 238.00H490" stroke="#205b68" stroke-width="3"/>
+<text x="498" y="243" class="tiny">145 F + 3 min rest: whole cuts of</text>
+<text x="498" y="264" class="tiny">beef, pork, veal, lamb; fish 145 F</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Not at temperature: return it to the heat; wash plates that held raw meat before reuse.</text>
+</g>
 </svg>

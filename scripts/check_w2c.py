@@ -1,6 +1,7 @@
 """Validate Wave 2C custody, reproducibility, QA receipts and HOLD boundaries.
 
-* the manifest and 375-row production register match the batch ledger;
+* the manifest and production register (375 A04 queue items plus W2C repair items) match the batch ledger;
+* the reader's evidence-assessment layer matches the A04 and W2C decision registers;
 * computed plates (knots, navigation) equal a fresh topology/geometry-checked build;
 * every W2C predecessor equals the active reader figure at the A04 checkpoint, and
   every provisional revision is the active reader figure;
@@ -97,6 +98,7 @@ def check_receipts(provisional):
 
 def main():
     run('w2c_register.py', '--check')
+    run('w2c_assessments.py', '--check')
     from w2c_register import BUILDERS
     for builder in BUILDERS:
         run(builder, '--check')

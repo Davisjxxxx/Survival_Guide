@@ -20,7 +20,7 @@ def content(reader, card):
     soup = BeautifulSoup((reader/f'{card["id"]}.html').read_text(encoding='utf-8'),'html.parser')
     article = soup.find('article')
     article.find('details').decompose()
-    for ref in article.select('sup a, a.atlas-link'):
+    for ref in article.select('sup a, a.atlas-link, a.xref'):
         ref.unwrap()
     for image in article.find_all('img'):
         image['src'] = (reader/image['src']).as_uri()

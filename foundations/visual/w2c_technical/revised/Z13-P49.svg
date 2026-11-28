@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" role="img" aria-labelledby="title desc">
+<title id="title">Two-bucket emergency toilet beside a soap-and-water handwashing station</title>
+<desc id="desc">A solid-waste bucket lined with two heavy bags, with dry cover material such as sawdust added after each use and a tight lid; a separate bucket for liquids; and a handwashing station with a spigot jug, soap and a catch basin right beside them. Hands are washed with soap and safe water after every use; alcohol rub does not replace handwashing after toilet, diaper or vomit tasks. Tied bags go into a lidded outdoor bin for disposal under local health rules, away from food areas, wells, gardens and storm drains. Conceptual, not to scale.</desc>
+<defs><marker id="m-flow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#205b68"/></marker><marker id="m-reverse" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8b3825"/></marker><marker id="m-load" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#3b3b3b"/></marker><marker id="m-air" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#6b7f8c"/></marker><marker id="m-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#183a30"/></marker></defs>
+<style>text{font:650 19px system-ui,sans-serif;fill:#183a30}.small{font-size:17px}.tiny{font-size:15px}.head{font-size:18px;letter-spacing:.4px}.warn{fill:#8b3825}.ok{fill:#205b68}.mute{fill:#4c5d55}.inv{fill:#ffffff}.lead{fill:none;stroke:#365c50;stroke-width:1.6}</style>
+<rect x="1" y="1" width="898" height="393" rx="12" fill="#f2f3e9" stroke="#789481" stroke-width="2"/>
+<text x="24" y="32" class="small">Z13-P49 · TECHNICAL REVIEW · NOT TO SCALE</text>
+<g id="z13-p49-artwork">
+<rect x="24" y="46" width="560" height="290" rx="10" fill="#e7f0ea" stroke="#7ea08d" stroke-width="1.6"/>
+<text x="40" y="72" class="head ok">✓ TOILET STATION</text>
+<rect x="598" y="46" width="278" height="290" rx="10" fill="#f7f7ef" stroke="#a9b6aa" stroke-width="1.6"/>
+<text x="614" y="72" class="head">WASTE AND DISPOSAL</text>
+<path d="M60 274L144 274L144 274L60 274Z" fill="#ffffff"/><path d="M52 158L152 158L144 274L60 274Z" fill="none" stroke="#183a30" stroke-width="2.6" stroke-linejoin="round"/><line x1="48" y1="158" x2="156" y2="158" stroke="#183a30" stroke-width="3.4"/><path d="M55 160l-6 -10M149 160l6 -10" stroke="#3b3b3b" stroke-width="2.4"/><path d="M58 162L66.0 270L138.0 270L146 162" fill="none" stroke="#3b3b3b" stroke-width="1.4" stroke-dasharray="4 3"/><rect x="46" y="142" width="112" height="10" rx="3" fill="#6b8577" stroke="#183a30" stroke-width="2"/><text x="102.0" y="229.92000000000002" class="tiny" text-anchor="middle">SOLIDS</text>
+<path d="M62 174h80" stroke="#b08a5a" stroke-width="7" stroke-linecap="round"/>
+<path d="M186.4 274L253.6 274L253.6 274L186.4 274Z" fill="#ffffff"/><path d="M180 174L260 174L253.6 274L186.4 274Z" fill="none" stroke="#183a30" stroke-width="2.6" stroke-linejoin="round"/><line x1="176" y1="174" x2="264" y2="174" stroke="#183a30" stroke-width="3.4"/><rect x="174" y="158" width="92" height="10" rx="3" fill="#6b8577" stroke="#183a30" stroke-width="2"/><text x="220.0" y="236.0" class="tiny" text-anchor="middle">LIQUIDS</text>
+<text x="40" y="100" class="tiny">two heavy bags, tight lid;</text>
+<text x="40" y="121" class="tiny">sawdust cover after each use</text>
+<path class="lead" d="M102 126L102 140"/>
+<text x="40" y="304" class="tiny">solids and liquids in separate</text>
+<text x="40" y="325" class="tiny">buckets when practical</text>
+<rect x="338" y="104" width="58" height="66" rx="8" fill="#dcecf3" stroke="#183a30" stroke-width="2.2"/><rect x="360" y="96" width="14" height="8" fill="#7c8c95"/><rect x="384" y="156" width="16" height="7" fill="#7c8c95" stroke="#183a30" stroke-width="1.2"/><rect x="328" y="170" width="78" height="8" fill="#9a8466"/><path d="M396 163v38" stroke="#3d7186" stroke-width="2.4"/><path d="M382 206q10-14 22-2q4 6 0 14h-18q-6-4-4-12z" fill="#c99a7b" stroke="#183a30" stroke-width="1.4"/><path d="M412 206q-10-14-22-2q-4 6 0 14h18q6-4 4-12z" fill="#c99a7b" stroke="#183a30" stroke-width="1.4" transform="translate(14 0)"/><path d="M366 240h80l-8 30h-64z" fill="#9cc3cf" fill-opacity=".55" stroke="#183a30" stroke-width="2"/>
+<rect x="404" y="140" width="18" height="26" rx="4" fill="#f2c94c" stroke="#183a30" stroke-width="1.6"/>
+<text x="430" y="152" class="tiny">soap</text>
+<text x="418" y="90" class="tiny ok">soap and safe water</text>
+<text x="418" y="111" class="tiny ok">after every use</text>
+<text x="456" y="234" class="tiny">catch basin:</text>
+<text x="456" y="255" class="tiny">empty away</text>
+<text x="456" y="276" class="tiny">from wells, food</text>
+<text x="330" y="306" class="tiny warn">alcohol rub does not replace</text>
+<text x="330" y="327" class="tiny warn">handwashing after toilet tasks</text>
+<rect x="622" y="96" width="48" height="40" rx="4" fill="#c9cdd0" stroke="#183a30" stroke-width="2"/><path d="M626 136l20-14 20 14" fill="none" stroke="#183a30" stroke-width="2"/>
+<circle cx="670" cy="98" r="10" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M665.5 93.5L674.5 102.5M674.5 93.5L665.5 102.5" stroke="#8b3825" stroke-width="3"/>
+<text x="684" y="116" class="tiny">waste into storm</text>
+<text x="684" y="137" class="tiny">drains or creeks</text>
+<path d="M630 200c10-16 30-16 40 0" fill="#7fa65a" stroke="#183a30" stroke-width="1.8"/><path d="M650 184v16" stroke="#5b4630" stroke-width="2"/>
+<circle cx="672" cy="182" r="10" fill="#fff" stroke="#8b3825" stroke-width="2.6"/><path d="M667.5 177.5L676.5 186.5M676.5 177.5L667.5 186.5" stroke="#8b3825" stroke-width="3"/>
+<text x="684" y="198" class="tiny">near wells, gardens</text>
+<text x="684" y="219" class="tiny">or food areas</text>
+<rect x="626" y="250" width="40" height="34" rx="3" fill="#5f6b70" stroke="#183a30" stroke-width="2"/><rect x="622" y="244" width="48" height="8" rx="2" fill="#4a5459"/>
+<circle cx="670" cy="248" r="10" fill="#fff" stroke="#205b68" stroke-width="2.6"/><path d="M665 248L669 252.2L675.2 244" fill="none" stroke="#205b68" stroke-width="3"/>
+<text x="684" y="262" class="tiny ok">tied bags: lidded</text>
+<text x="684" y="283" class="tiny ok">outdoor bin, local</text>
+<text x="684" y="304" class="tiny ok">disposal rules</text>
+<rect x="24" y="345" width="852" height="32" rx="4" fill="#f7e5d9"/>
+<text x="37" y="367" class="small">Leaking bags, overflow or diarrheal illness at home: move to working sanitary facilities.</text>
+</g>
+</svg>

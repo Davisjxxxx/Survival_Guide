@@ -661,27 +661,27 @@ objective: Contain human waste safely without odor, flies, or fecal-oral disease
 applies: Households unable to flush toilets due to frozen sewer lines, flooded septic systems, or municipal sewer/water interruption.
 equipment: Two sturdy 5-gallon buckets with tight snap lids, heavy-duty 3-mil contractor trash bags, snap-on toilet seat lid, dry sawdust/peat/cat litter, and handwashing station.
 action: Separate liquids (urine) and solids into TWO distinct lined buckets whenever practical—separating urine sharply reduces odor, weight, and bag rupture; line the solid-waste bucket double-bagged with heavy contractor bags and sprinkle dry sawdust, peat moss, or kitty litter after each use to absorb moisture. @U13
-action: Snap tight lids closed immediately after every use, keep emergency waste buckets strictly OUTSIDE food preparation zones in a cool ventilated utility area, and wash hands thoroughly with soap and safe water (or ≥60% alcohol rub) immediately afterward. @U13,F01
+action: Snap tight lids closed immediately after every use, keep emergency waste buckets strictly OUTSIDE food preparation zones in a cool ventilated utility area, and wash hands thoroughly with soap and safe water immediately afterward; alcohol rub does not replace handwashing after toilet, diaper or vomit tasks. @U13,U26,F01
 action: NEVER pour untreated human waste into storm drains, creeks, lakes, or vegetable gardens; tie double-bagged waste securely in a lidded outdoor metal/plastic bin and follow exact county public-health disposal instructions once services resume. @U13,W01
 failure: Dumping unlined bucket waste near a backyard wellhead or vegetable garden, contaminating both groundwater and household produce. @U13,U05
 verify: Confirm double heavy-duty liners, tight lids, dedicated soap handwashing right beside the station, and zero contact with water/garden zones. @U13,F01
 stop: Overflowing uncontained waste, leaking bags, or household diarrheal illness during prolonged sewer loss triggers relocation to functioning sanitary facilities. @U13,U17
-diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Wash hands; follow local health disposal
-visual: Exploded four-part emergency sanitation station showing double-lined solid bucket with cover medium, separate liquid container, tight lid, and dedicated handwash basin. Conceptual, not to scale.
+diagram: Double-line sturdy bucket + tight lid | Separate liquid/solid; cover with sawdust | Soap-and-water handwash; local disposal rules
+visual: Two-bucket sanitation station: a double-lined solid-waste bucket with cover material and a tight lid, a separate liquid bucket, and a soap-and-water handwashing station beside it, kept away from food, wells and gardens. Conceptual, not to scale.
 reviewer: Environmental health and sanitation specialist
 
 Z13-P50 | Maintain water-conserving hand hygiene and dish sanitation during service cuts | CDC Safe Water and USDA Food Safety; new manuscript
 objective: Break fecal-oral illness chains inside the home using minimal stored potable water during multi-day utility disruptions.
 applies: Homes operating on limited stored water reserves during municipal breaks, well outages, or storms.
-equipment: Spigot water jug or small pour pitcher, liquid soap, basin, ≥60% alcohol hand sanitizer, disposable paper plates/utensils, and clean towels.
-action: Build a simple gravity handwashing station (a small spigot jug or assisted pitcher pouring a thin stream over hands into a catch basin) so thorough 20-second soap-and-safe-water handwashing uses just ounces instead of gallons—especially before cooking and after toilet/waste tasks. @U13,F01,W29
-action: Use ≥60% alcohol-based hand sanitizer to conserve water when hands are NOT visibly soiled with dirt, grease, or fecal matter (visible grime still requires soap and safe water). @U13
+equipment: Spigot water jug or small pour pitcher, liquid soap, catch basin, clean towels, disposable paper plates/utensils, and ≥60% alcohol hand sanitizer as a fallback only.
+action: Build a simple gravity handwashing station (a small spigot jug or assisted pitcher pouring a thin stream over hands into a catch basin) so thorough 20-second soap-and-safe-water handwashing uses just ounces instead of gallons—especially before cooking and after toilet/waste tasks. @U13,U26,F01,W29
+action: Keep soap-and-water handwashing for every toilet, diaper, vomit or waste task and before handling food; hand sanitizer does not work well against norovirus and is not a substitute. Use ≥60% alcohol sanitizer only as an interim fallback when soap and water truly are unavailable and hands are not visibly dirty; saving water alone does not make it equivalent. @U26,U27,U13
 action: Switch to disposable paper plates, bowls, and utensils during strict water rationing to save potable water for drinking and hygiene; wash essential cooking pots with confirmed safe water and air-dry completely. @U13,W29
 failure: Skipping handwashing after using an emergency bucket toilet to "save drinking water," triggering a household norovirus outbreak during a blackout. @U13,F01
-verify: Confirm dedicated handwashing station stocked with soap and safe water, sanitizer for clean-looking hands, and catch basin emptied away from wells/food. @U13,W29
+verify: Confirm the handwashing station is stocked with soap and safe water beside the toilet and food areas, sanitizer is kept only as a fallback, and the catch basin is emptied away from wells/food. @U13,U26,W29
 stop: Shared vomiting or diarrhea inside a water-rationed home escalates hygiene isolation and potential relocation to full-service care. @U13,M17
-diagram: Thin-stream spigot jug + soap (20 s) | Alcohol rub ≥60% when not visibly soiled | Disposable plates save potable water
-visual: Four-step low-water household hygiene station mapping spigot pour, 20-second soap scrub, catch-basin disposal, and clean air-drying. Conceptual, not to scale.
+diagram: Thin-stream spigot jug + soap (20 s) | Toilet, diaper or vomit & before food: soap and water | Sanitizer only if soap & water unavailable
+visual: Low-water handwashing station: a spigot jug pours a thin stream over soapy hands into a catch basin; soap and water after toilet, diaper or vomit tasks and before food; sanitizer only as a fallback when soap and water are unavailable. Conceptual, not to scale.
 reviewer: Public health and environmental sanitation
 
 Z13-P51 | Prevent deadly toxic gases by never mixing household cleaning chemicals | CDC Emergency Sanitation and Poison Control; new manuscript

@@ -474,13 +474,7 @@
     "callout": "Store ≥1 gal/person/day away from heat, fuels and household cleaners"
   },
   "Z04-P51": {
-    "type": "decision_tree",
-    "gates": [
-      "Do-Not-Use notice?",
-      "Ingestion/wound/infant?",
-      "Use verified potable"
-    ],
-    "abort": "DO-NOT-USE: Zero tap contact; use bottled or official safe water"
+    "type": "w2c_artwork"
   },
   "Z04-P52": {
     "type": "failure_mode",
@@ -2016,7 +2010,7 @@
     "type": "v02_artwork"
   },
   "Z11-P32": {
-    "type": "v02_artwork"
+    "type": "w2c_artwork"
   },
   "Z11-P33": {
     "type": "comparison",
@@ -2323,14 +2317,7 @@
     ]
   },
   "Z11-P63": {
-    "type": "exploded",
-    "components": [
-      "1. Location & Format",
-      "2. Injuries & Headcount",
-      "3. Access Hazards",
-      "4. Stay-Put & Battery"
-    ],
-    "callout": "Lead with LOCATION FIRST in case weak signal drops mid-call"
+    "type": "w2c_artwork"
   },
   "Z11-P64": {
     "type": "exploded",
@@ -3204,23 +3191,23 @@
     "variant": "storm_lead",
     "phases": [
       {
-        "window": "T+0 min",
-        "focus": "Log injury time, mechanism, meds & baseline"
+        "window": "Start",
+        "focus": "Log time, mechanism, meds & baseline"
       },
       {
-        "window": "Every 15 m",
-        "focus": "Recheck unstable breath, skin & clarity"
+        "window": "Continuously",
+        "focus": "Watch breathing & responsiveness"
       },
       {
-        "window": "Every 30–60 m",
-        "focus": "Log stable trends & dressing checks"
+        "window": "Each recheck",
+        "focus": "Write time & findings; note changes"
       },
       {
-        "window": "EMS Arrival",
-        "focus": "Hand physical timed sheet to clinicians"
+        "window": "EMS arrival",
+        "focus": "Hand timed sheet to clinicians"
       }
     ],
-    "threshold": "Any downward trend in alertness or breathing triggers urgent escalation"
+    "threshold": "Worse breathing or alertness: escalate now, log later"
   },
   "Z10-P07": {
     "type": "sequence_plate",
@@ -3514,10 +3501,10 @@
   "Z10-P26": {
     "type": "system_boundary",
     "variant": "panel_gen",
-    "zone_a": "HAZARD ISOLATION\nShut power off / brush dry powder first",
-    "barrier": "GLOVED DECON ZONE\n20+ min cool flush (chem)",
-    "zone_b": "CLINICAL CARE\nAll electrical & eye burns -> 911",
-    "hazard": "Never touch energized victim; dry lime/powders activate if wetted unbrushed"
+    "zone_a": "ELECTRICAL HAZARD\nStay back until confirmed safe",
+    "barrier": "CHEMICAL CARE\nLabel, SDS or Poison Control",
+    "zone_b": "EMERGENCY CARE\n911: electrical, eye, airway",
+    "hazard": "Never touch an energized victim; ask before wetting dry or water-reactive chemicals"
   },
   "Z10-P27": {
     "type": "sequence_plate",
@@ -4930,37 +4917,10 @@
     "type": "w2c_artwork"
   },
   "Z13-P49": {
-    "type": "exploded",
-    "components": [
-      "Solid bucket (2x 3-mil bag)",
-      "Dry sawdust/peat cover",
-      "Separate liquid bucket",
-      "Soap handwash station"
-    ],
-    "callout": "Snap tight lids immediately; keep far from food/wells; follow county disposal rules"
+    "type": "w2c_artwork"
   },
   "Z13-P50": {
-    "type": "sequence_plate",
-    "variant": "utility",
-    "steps": [
-      {
-        "label": "Spigot stream",
-        "detail": "Pour thin safe water stream over soap"
-      },
-      {
-        "label": "20 s scrub",
-        "detail": "Wash thoroughly before food & after waste"
-      },
-      {
-        "label": "Sanitizer aid",
-        "detail": "Use ≥60% alcohol when hands look clean"
-      },
-      {
-        "label": "Paper plates",
-        "detail": "Save potable water during strict rationing"
-      }
-    ],
-    "cue": "Catch wash water in basin & dump well away from wells and vegetable gardens"
+    "type": "w2c_artwork"
   },
   "Z13-P51": {
     "type": "correct_vs_wrong",
@@ -5808,24 +5768,7 @@
     "reason": "During Boil Water notices, wash ready-to-eat produce with boiled/bottled water"
   },
   "Z14-P37": {
-    "type": "comparison",
-    "options": [
-      {
-        "name": "145°F (+3 m rest)",
-        "note": "Whole beef, pork, veal, lamb & fish (145°F)",
-        "limit": "Check thickest center"
-      },
-      {
-        "name": "160°F",
-        "note": "Ground beef/pork/lamb & egg dishes",
-        "limit": "Brown color ≠ safe"
-      },
-      {
-        "name": "165°F",
-        "note": "ALL poultry, stuffing & reheated leftovers",
-        "limit": "Calibrate in 32°F ice"
-      }
-    ]
+    "type": "w2c_artwork"
   },
   "Z14-P38": {
     "type": "seasonal_timeline",
@@ -5851,44 +5794,13 @@
     "threshold": "Reheating overnight room-temp soup does NOT destroy heat-stable toxins"
   },
   "Z14-P39": {
-    "type": "system_boundary",
-    "variant": "cold_chain",
-    "zone_a": "SAFE FREEZER\nThermometer ≤0°F (-18°C)",
-    "barrier": "SAFE FRIDGE ≤40°F\nDedicated thermo inside",
-    "zone_b": "DANGER ZONE >40°F\nRapid bacterial growth",
-    "hazard": "Numbered fridge dials (1–7) never show real temp — hang real thermometers"
+    "type": "w2c_artwork"
   },
   "Z14-P40": {
-    "type": "seasonal_timeline",
-    "variant": "food_temp",
-    "phases": [
-      {
-        "window": "T+0 Outage",
-        "focus": "Log clock time; keep ALL doors SHUT"
-      },
-      {
-        "window": "~4 Hours",
-        "focus": "Closed fridge limit -> move to ice cooler"
-      },
-      {
-        "window": "~24 Hours",
-        "focus": "Closed half-full freezer cold holding"
-      },
-      {
-        "window": "~48 Hours",
-        "focus": "Closed full freezer; dry ice = gloves/vent"
-      }
-    ],
-    "threshold": "Never stash food in outdoor snowbanks (sun warms & animals raid)"
+    "type": "w2c_artwork"
   },
   "Z14-P41": {
-    "type": "decision_tree",
-    "gates": [
-      "Fridge ≤40°F or <2 h?",
-      "Frozen: ice crystals or ≤40°F?",
-      "Keep/refreeze per official chart"
-    ],
-    "abort": "DISCARD CLEANLY: Meat, dairy, eggs, cut produce or leftovers >40°F >2 hr"
+    "type": "w2c_artwork"
   },
   "Z14-P42": {
     "type": "correct_vs_wrong",
@@ -6112,19 +6024,7 @@
     "hazard": "Narrow-neck glass shatters frozen"
   },
   "Z14-P65": {
-    "type": "correct_vs_wrong",
-    "variant": "canning",
-    "correct_title": "COLD / IMMEDIATE THAW",
-    "correct_items": [
-      "Bottom-shelf fridge tray ≤40°F (safest)",
-      "30-min cold-water swaps or micro + cook NOW"
-    ],
-    "wrong_title": "COUNTERTOP THAWING",
-    "wrong_items": [
-      "Outer meat enters >40°F Danger Zone fast",
-      "Hot-water thaw multiplies surface germs"
-    ],
-    "reason": "Cold-water or microwave-thawed meat must be cooked immediately before refreezing"
+    "type": "w2c_artwork"
   },
   "Z14-P66": {
     "type": "mechanism",

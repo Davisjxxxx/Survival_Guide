@@ -1,7 +1,9 @@
 """Derive the Wave 2C manifest and production register from the batch ledger.
 
-Inputs: foundations/audit/w2c/W2C_BATCHES.json (decisions per plate) and the A04
-queue foundations/audit/a04/WAVE_2C_TECHNICAL_QUEUE.csv (375 items).
+Inputs: foundations/audit/w2c/W2C_BATCHES.json (decisions per plate), the A04
+queue foundations/audit/a04/WAVE_2C_TECHNICAL_QUEUE.csv (375 items) and the W2C repair
+queue foundations/audit/w2c/W2C_REPAIR_QUEUE.csv (items added by later review findings,
+such as RT01, that sit outside the frozen A04 queue).
 Outputs: foundations/visual/w2c_technical/MANIFEST.json (file custody) and
 foundations/audit/w2c/W2C_PRODUCTION_REGISTER.csv (status of every queue item).
 
@@ -20,6 +22,7 @@ W2C = FOUND / 'visual/w2c_technical'
 AUDIT = FOUND / 'audit/w2c'
 LEDGER = AUDIT / 'W2C_BATCHES.json'
 QUEUE = FOUND / 'audit/a04/WAVE_2C_TECHNICAL_QUEUE.csv'
+REPAIR_QUEUE = AUDIT / 'W2C_REPAIR_QUEUE.csv'
 QUAL = FOUND / 'audit/a04/V01_V02_VISUAL_QUALIFICATION.csv'
 DISPOSITIONS = {'PROVISIONAL_EDITORIAL_CANDIDATE', 'HELD_SPECIALIST_INPUT', 'HELD_SOURCE_GAP',
                 'HELD_AUTHENTIC_EVIDENCE', 'REJECTED_RETAIN_PREDECESSOR'}
@@ -27,7 +30,9 @@ BUILDERS = {'build_w2c_knots.py': ('Z09-P14', 'Z09-P15'), 'build_w2c_navigation.
             'w2c_plates_b02.py': ('Z13-P44', 'Z13-P37', 'Z13-P48', 'Z13-P41', 'Z13-P53'),
             'w2c_plates_b03.py': ('Z13-P20', 'Z13-P56', 'Z15-P43', 'Z13-P60', 'Z13-P57'),
             'w2c_plates_b04.py': ('Z15-P18', 'Z15-P22', 'Z15-P02', 'Z15-P23'),
-            'w2c_plates_b05.py': ('Z14-P55', 'Z14-P56', 'Z14-P57', 'Z14-P53', 'Z14-P48')}
+            'w2c_plates_b05.py': ('Z14-P55', 'Z14-P56', 'Z14-P57', 'Z14-P53', 'Z14-P48'),
+            'w2c_plates_r1.py': ('Z11-P63', 'Z04-P51', 'Z13-P49', 'Z13-P50', 'Z11-P32'),
+            'w2c_plates_b06.py': ('Z14-P37', 'Z14-P39', 'Z14-P40', 'Z14-P41', 'Z14-P65')}
 REGISTER_FIELDS = ['page_id', 'asset_id', 'priority', 'origin', 'review_family', 'w2c_status', 'batch',
                    'predecessor_sha256', 'revised_sha256', 'physical_relationship', 'source_basis',
                    'geometry_validation', 'inspection', 'card_changes', 'remaining_dependencies',
@@ -56,6 +61,10 @@ def ledger_plates():
     return data, plates
 
 
+def queue_rows():
+    return rows(QUEUE) + (rows(REPAIR_QUEUE) if REPAIR_QUEUE.is_file() else [])
+
+
 def builder_for(page):
     return next((f'scripts/{name}' for name, pages in BUILDERS.items() if page in pages), '')
 
@@ -74,8 +83,10 @@ def manifest(plates):
             record.update(revised=f'revised/{page}.svg', revised_sha256=digest(revised),
                           active_reader_sha256=digest(active))
         a04 = candidates.get(page)
-        if a04 and a04['disposition'] == 'RECONSTRUCTION_REQUIRED':
+        if a04 and (a04['disposition'] == 'RECONSTRUCTION_REQUIRED' or plate.get('supersession_basis')):
             record['supersedes_a04_candidate_sha256'] = a04['candidate_sha256']
+            if plate.get('supersession_basis'):
+                record['supersession_basis'] = plate['supersession_basis']
         record.update(builder=builder_for(page),
                       classification='Editable conceptual technical illustration; not an engineering, '
                                      'clinical or certified diagram',
@@ -89,7 +100,7 @@ def register(plates, manifest_text):
     out = StringIO()
     writer = csv.DictWriter(out, fieldnames=REGISTER_FIELDS, lineterminator='\n')
     writer.writeheader()
-    for item in rows(QUEUE):
+    for item in queue_rows():
         page = item['page_id']
         plate, record = plates.get(page), custody.get(page, {})
         writer.writerow(dict(
@@ -116,7 +127,10 @@ def main():
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()
     _, plates = ledger_plates()
-    queue_pages = {r['page_id'] for r in rows(QUEUE)}
+    queue = queue_rows()
+    queue_pages = {r['page_id'] for r in queue}
+    if len(queue_pages) != len(queue):
+        raise SystemExit('A page appears in both the A04 queue and the W2C repair queue')
     stray = sorted(set(plates) - queue_pages)
     if stray:
         raise SystemExit(f'Ledger plates outside the Wave 2C queue: {stray}')
